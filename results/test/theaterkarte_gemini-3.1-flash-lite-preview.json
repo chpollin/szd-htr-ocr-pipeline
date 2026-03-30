@@ -1,21 +1,37 @@
 {
-  "pages": [
-    {
-      "page": 1,
-      "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich",
-      "notes": "Vorderseite der Eintrittskarte (gedruckt)."
-    },
-    {
-      "page": 2,
-      "transcription": "Jerem.\nUraufführung",
-      "notes": "Rückseite der Eintrittskarte (handschriftlich mit Bleistift)."
-    },
-    {
-      "page": 3,
-      "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich",
-      "notes": "Gesamtansicht (Vorderseite der Eintrittskarte mit Farb- und Graukarte)."
-    }
-  ],
-  "confidence": "high",
-  "confidence_notes": "Der Text ist kurz, klar gedruckt und die handschriftliche Notiz ist gut lesbar."
+  "object_id": "o_szd.161",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.161/IMG.1",
+      "https://gams.uni-graz.at/o:szd.161/IMG.2",
+      "https://gams.uni-graz.at/o:szd.161/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Theaterkarte zur Uraufführung von „Jeremias\" 1918\n- Signatur: SZ-SDP/L2\n- Datum: 27. Febr. 1918\n- Sprache: Deutsch\n- Objekttyp: Eintrittskarte\n- Umfang: 1 Blatt (3 Scans: Vorderseite, Rückseite, Gesamtansicht)\n- Schreibinstrument: Bleistift\n- Hand: Friderike Zweig\n- Anmerkungen: „Jerem. Uraufführung\" von Friderike Zweigs Hand auf der Rückseite",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich\n\nI. Rang Seiten-Loge\nLinks\nLoge 5 Platz 5\nKupon gilt als Ausweis\n27. Febr. 1918",
+        "notes": "Die Eintrittskarte besteht aus zwei Teilen, die durch eine Perforation getrennt sind. Der Text ist beidseitig gedruckt."
+      },
+      {
+        "page": 2,
+        "transcription": "Jerem.\nUraufführung",
+        "notes": "Handschriftliche Notiz in Bleistift auf der Rückseite der Eintrittskarte."
+      },
+      {
+        "page": 3,
+        "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich",
+        "notes": "Gesamtansicht der Eintrittskarte (Vorderseite) zusammen mit Farb- und Graukarten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der gedruckte Text ist eindeutig lesbar. Die handschriftliche Notiz auf der Rückseite ist trotz der Bleistift-Schrift gut lesbar und entspricht der im Prompt gegebenen Information."
+  }
 }

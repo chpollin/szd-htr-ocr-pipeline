@@ -1,0 +1,267 @@
+{
+  "objects": [
+    {
+      "id": "zeitungsausschnitt_gemini-3.1-flash-lite-preview",
+      "collection": "aufsatzablage",
+      "label": "Aus der Werkstatt der Dichter",
+      "group": "H",
+      "groupLabel": "Zeitungsausschnitt",
+      "pid": "o:szd.2215",
+      "title": "Aus der Werkstatt der Dichter, SZ-AAP/W-AA215.1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2215/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2215/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2215/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "5. Februar 25\n\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen – Anziehen,\nWaschen, Zähneputzen – ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 123",
+          "notes": "Die handschriftliche Annotation links oben wurde nicht transkribiert, da sie unleserlich ist. Der Text im Bildbereich des Manuskripts ist teilweise durch das Foto verdeckt und nur fragmentarisch lesbar."
+        },
+        {
+          "page": 2,
+          "transcription": "Stefan Zweig. Fortsetzung von S. 41\nallmählich despotischen Gesetzlichkeit, die-\nsem Ritual zu entgehen. So beobachtete ich\nbei mir die Gewohnheit, jede Arbeit bei\nder ersten Niederschrift unweigerlich mit\nBleistift vorzunehmen, offenbar aus einem\ngeheimen Sicherungsgefühl, es sei nur eine\nganz unverbindliche, ganz provisorische\nForm der Fixierung, nur ein Brouillon (in-\ndes in den meisten Fällen die Urform doch\ndie gültige bleibt). Dann erst schreibe ich\nmit Tinte, womöglich auf gleichmäßig\ngroßes Papier, den ersten Entwurf ab —\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck — dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\nweisen — denn dies ständige Klären und\nHerausschälen der Formen ist nicht\nKärrnerarbeit, eine ungern vollbrachte\nAckers- und Pflügermühe, sondern die ur-\neigentliche Artistenfreude, eine bewußt be-\nschworene Verlängerung des produktiven\nZustandes über die eigentliche Produktion\nhinaus. Es läßt sich nicht beschreiben, nur\nimmer wieder erleben — und auch ein\nBlatt seiner Hand reproduziert nur sein\neindringliches Wirken, ohne aber die ge-\nheime Freude zu lassen, die diesen\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“\n*",
+          "notes": "Der Text ist gut lesbar. Die handschriftliche Annotation unten in der Mitte ist unleserlich."
+        },
+        {
+          "page": 3,
+          "transcription": "großes Papier, den ersten Entwurf ab —\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck — dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\n\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“\n*",
+          "notes": "Dies ist eine Wiederholung von Ausschnitten aus Seite 2, vermutlich zur Dokumentation der Platzierung auf dem Trägerblatt."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der gedruckte Text ist sehr klar und gut lesbar. Die handschriftlichen Annotationen sind fragmentarisch und wurden als solche in den Notizen vermerkt."
+    },
+    {
+      "id": "korrespondenz_fleischer_gemini-3.1-flash-lite-preview",
+      "collection": "korrespondenzen",
+      "label": "Brief an Max Fleischer vom 22. Mai 1901",
+      "group": "I",
+      "groupLabel": "Korrespondenz",
+      "pid": "o:szd.1079",
+      "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+          "notes": "Adressseite eines Briefumschlags. Poststempel: WIEN 22.5.01. Briefmarke: 10 Heller."
+        },
+        {
+          "page": 2,
+          "transcription": "STEFAN ZWEIG\n\n[Poststempel: KOMOTAU 23.5.01]",
+          "notes": "Rückseite des Briefumschlags mit Prägung 'STEFAN ZWEIG' und Ankunftsstempel."
+        },
+        {
+          "page": 3,
+          "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (der letzte Bogen!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nkam mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, dass Sie mich sehen, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Klard oder gar Eisenbahn sicher nicht scheuen,\nes kann ja auch allzuweit sein.\nIch habe hier jetzt zwar sehr angenehme, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte mehr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. Es ist diese\nideale Freude, wie dort, auch doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Halbein-\nsamkeit ganz erlebt habe, halte mir das wunde-\nschön vor. Ich glaube da fallen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbümmeln\ndurch Spaziergänge, Promenaden, Freunde etc.\nDas einzige Bedauerliche ist, dass ich viel lese.",
+          "notes": "Handschriftlicher Brief auf einem Blatt (beidseitig beschrieben, hier nur Vorderseite). Die Schrift ist flüssig, aber stellenweise eng."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz einiger flüchtiger Buchstabenformen. Die Transkription folgt dem Originalgetreuen Prinzip."
+    },
+    {
+      "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Tagebuch 1918",
+      "group": "A",
+      "groupLabel": "Handschrift",
+      "pid": "o:szd.72",
+      "title": "Tagebuch 1918, SZ-AAP/L6",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.72/IMG.1",
+        "https://gams.uni-graz.at/o:szd.72/IMG.2",
+        "https://gams.uni-graz.at/o:szd.72/IMG.3",
+        "https://gams.uni-graz.at/o:szd.72/IMG.4",
+        "https://gams.uni-graz.at/o:szd.72/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Montreux 20. September, Freitag.\nDas Tagebuch nach mehr als einem halben Jahre\nwieder aufgenommen. Die Zeit war tot, nun wird sie\nweiterdings grauenhaft lebendig. Ich war müde des\nSinnlosen, nun findet sich allmählich wieder ein Sinn\nder Zeit, oder besser: der immer in dieser Krise verborgene\nSinn beginnt sich zu zeigen. In den letzten Wochen schon,\nseit der denkwürdigen Kriegswende in der zweiten Mar-\nneschlacht war viel wichtig für mich nebst eigener Arbeit,\njene Polemik vorerst, die mein Aufsatz in der Neuen Zür-\ncher Zeitung erregte, dann die Besprechung mit Gieser,\nder nur seine allerhöchste Unzufriedenheit einschüchternd\nmitteilen wollte und dabei auf eiserne Entschlossenheit stieß\n(denn von dem Cadaver Österreichs lasse ich mich nicht\nmehr einschüchtern und noch weniger von seinen Diplomaten,\ndie ins stille und beschämliche Land in den Abgrund eines\nfalschen Heroismus gestoßen haben.) Dann eine kurze Stelle\nHoffnung: das Friedensangebot, bald zerschellt an der stei-\nnern fest aufgetürmten Mauer des andern Imperialismus.\nEin wenig Freiheit der Sinne gab dann die Fahrt in die Ber-\nge: ich habe gelernt, gegen den unnützen Flagellantismus\nanzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-\ndankenstrichen. Man muss die Kunst lernen, dumpf zu leben",
+          "notes": "Sehr gut lesbar, typische Zweig-Handschrift."
+        },
+        {
+          "page": 2,
+          "transcription": "sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,\nHemmung und nicht Befreiung. Hier in Montreux in einem\nkleinen Zimmer hoch über dem See milder Ausblick und\nstillerer Blick nach innen. Das Wetter noch umwölkt aber\nmit Aussicht auf Klärung.\nAbends kommt Chapiro uns besuchen, dieser drollige und\nliebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie\ner von seiner riesenhaften Familie daheim in Kiow erzählt; wenn\nsie auf Reisen gingen, brauchten sie einen ganzen Waggon, sie\nkonnten nie zusammen eine Tramway benützen. So war immer\neine Schar, die Köchin musste zum Einkaufen auf den Markt\nimmer einen Wagen mitfahren. Auch von der Zeit erzählt er\nwo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und\nihm abends alle Gelenke krachten. Aber vom Heitern kommen\nwir zum Ernsten: auch er ist einer, den Rolland „gerettet“\nhat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit\nfür ihn, half ihm in jeder Weise: R. ist jetzt mitten im Kriege\nund auf der Höhe seines Ruhmes noch nicht frei von Geld-\nsorgen, weil er seine ganze Familie ernährt und eine Reihe von\nFreunden unterstützt. Von seinen Taten eine verschwiegene: er\nist in Bern direct zum frz. Cons. gegangen und hat alle Aus-\nkünfte über J. erwirkt, um ihn gegebenfalls „a fond“ verteidi-\ngen zu können. denn für den, den seine Freunde gefällt sind",
+          "notes": "Gute Lesbarkeit, einige Abkürzungen (frz. Cons. = französischer Konsul)."
+        },
+        {
+          "page": 3,
+          "transcription": "rührendsten, das man sich denken kann und je mehr man\nvon ihm erfährt, desto grösser wird das Gefühl von der Ein-\nzigheit seiner Gestalt, die ein unendliches Wissen um die Dinge\nmit einer unzerstörbaren Liebe zu den Menschen vereint. Seine\nUnermüdlichkeit hat etwas Heroisches wie überhaupt die ungeheure\nEinsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn\nwir von ihm sprechen.\nSamstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von\nzaubernder Schönheit. Ich sitze auf der Terrasse in der Sonne,\nzum erstenmal seit langer Zeit wieder in Person lebend, ge-\nlesenen und geschriebenen. Das Bewusstsein, nachmittags zu\nR. zu gehen, ein Licht über den Tag! Ein kleines Gesicht wächst\nklar aus der Landschaft heraus, das erste seit einer Unendlich-\nkeit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine\n[...1...] Mutter, sie ist ein wenig hinfälliger geworden, aber dies-\nmal im Gegensatz zum vergangenen Jahr ganz offen zu uns und\nvon besonderer Herzlichkeit. Ich suche sein Gesicht in ihr: es ist\nkaum zu finden in den versunkenen Zügen. Wunderbar dieser\nZusammenhalt der vier Menschen, die doch alle eigentlich selten\nim Alter stehn, eine linde Zärtlichkeit von einem zum andern\n(die vielleicht manche kleine Conflicte verbirgt) Im Hotel\ngrüsst uns R. er sieht voller aus, herrlich seine klaren durch-\ndringenden Augen, die Güte aber irgendwie diesmal durch eine",
+          "notes": "Ein Wort unleserlich (vermutlich 'alte')."
+        },
+        {
+          "page": 4,
+          "transcription": "irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er\nist sehr verzweifelt über den Augenblick: wie das freie Den-\nken immer mehr zusammen schmilzt, der Heroismus einzig\nsich in den gewohnten, ererbten, Idealen auslebt. Er sieht\ndie Eroberung Frankreichs durch Amerika, den Geist dieses neuen\nKrieges nicht verewigt, die Sieger in der Entente vereint und\nverschört, Generationen in einer Selbstglorie, den Stolz als\nTriumphator der Welt. Ein tiefes Misstrauen hat sich seines\nWesens bemächtigt, das die ganze Zeit umfaßt: er grollt\nauch von den deutschen Revolutionären, die für die die\ngefährlichsten seien. Ich kann, (wie immer) das erstenmal\nnicht gut mit ihm reden, er ist selbst irgendwie versäumt\nzu sprechen und ich bin es mit ihm. Wir gehen dann lange\nspazieren zu drei, ich erzähle ihm einiges und spreche dann\nviel mit seiner Schwester. Ich liebe es so sehr ihn zuzusehen,\nden ersten Detail seines Ganges, die Ruhe seiner Bewegun-\ngen und spüre dann immer, wie sehr ich ihn liebe und wisse\nmehr als ich fühle, dass er voll Trauer ist. Er muss seine Elter-\nnur seine Schwester wieder nach Paris zurücklassen (sie braucht\nfre Stellung soll nur die Eltern folgen ihr hinüber) und es\nscheint, dass das Leben im Hotel auch langsam anfängt,\nihm schwer zu werden. Wie wir alle leidet er an der Zeit\nund - vielleicht auch daran, dass (als Franzosen) ihn die Ge-",
+          "notes": "Textfluss etwas holprig, einige Klammern und Einschübe."
+        },
+        {
+          "page": 5,
+          "transcription": "schenisse ins Unrecht setzen. Für Jahre zumindest. Aber „le\ntemps viendra!“ Abends dann noch kleine Arbeit.\n22. Sept. Sonntag Regentag und voll mit geschäftlichen\nliterarischen Schreibereien. Feuilleton über Falsi, ein Dutzend\nBriefe, heralant durch die plötzliche Annahme der „Legende“? Ein Anderer freut sich. Ich bin ganz stumpf diesen Din-\ngen gegenüber; ich spüre sie gar nicht (ich notierte nicht\neinmal gestern das Brief darüber mit der komischen Be-\nschränkung der affairs zu Audrian-Meyerbeer/. Diese vie-\nlen Briefe nur Erledigungen zerstören das Beste in mir, sie\nverschwemmen und das Gehirn und ich erfinde keine Methode\nzu abzutun. Man müsste vielleicht ganz frühmorgens aufste-\nhen und vor dem Frühstück schon alles wegdiktiert haben, alles\naus dem Tag geräumt, was ihn hemmt, ebenso die Zeitungen.\nAber ich bringe die notwendige Kraft nicht auf: gleichgültig ge-\ngen alles was meine Sachen betrifft, habe ich eine merkwür-\ndig brennende Vorliebe für das Äussere, das Problem sich\nabzuschliessen und aufzurufen will mir nicht gelingen: es\nscheint doch die Unruhe auch tätiges Element in mir zu sein,\nfreilich stösst sie nach aussen in die Menschen neben mir\nund trifft sie fast, härter als mich. Ich kann es ruhig sagen.\nVerlorener Tag! so voll er voll Arbeit (scheinbarer) war.\n23. Sept. Montag Noch Nachwehen von Schreibereien aus",
+          "notes": "Gute Lesbarkeit."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist für Zweig-Verhältnisse sehr klar und gut lesbar. Die violette Tinte ist auf den Scans gut kontrastiert."
+    },
+    {
+      "id": "vertrag_grasset_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Verlagsvertrag Grasset",
+      "group": "B",
+      "groupLabel": "Typoskript",
+      "pid": "o:szd.78",
+      "title": "Verlagsvertrag Grasset, SZ-AAP/L13.1",
+      "lang": "Französisch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.78/IMG.1",
+        "https://gams.uni-graz.at/o:szd.78/IMG.2",
+        "https://gams.uni-graz.at/o:szd.78/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "ENTRE LES SOUSSIGNÉS :\n1° Monsieur Stefan ZWEIG , ~~xxxxxxxxxxxx~~ \ndemeurant à SALZBURG , Kapuzinerberg 5 , AUTRICHE\n\n2° Les Editions BERNARD GRASSET, rue des Saints Pères n° 61.\nIL A ÉTÉ CONVENU CE QUI SUIT :\n\nMonsieur Stefan ZWEIG cède aux Éditions\nBERNARD GRASSET, pour tout le temps que durera sa propriété littéraire et celle\nde ses héritiers, le droit exclusif d'imprimer, de publier et de vendre {un} ouvrage\nde sa composition portant comme titre :\nMARIE ANTOINETTE\n\nLa publication aura lieu aux conditions suivantes :\nI. — Il sera d'abord établi une édition dans le format in-16 double cou-\nronne dont le prix sera déterminé par l'éditeur, sur la base du prix actuel de\nquinze francs.\nII. — Le premier tirage sera de : DIX MILLE EXEMPLAIRES\n\nIII. — Il sera tiré en sus du premier tirage TROIS CENTS exemplaires qui\nseront consacrés au service de presse et CINQUANTE exemplaires qui seront\nremis à l'auteur pour ses hommages personnels. Si l'auteur désirait des exemplaires\nen sus de ceux qui lui sont remis gratuitement, ces exemplaires lui seraient facturés\nau prix de librairie.\nIV. — Comme prix de la cession qui leur est faite, les Éditions BERNARD\nGRASSET paieront à M. Stefan ZWEIG des droits d'auteur de :\nDIX POUR CENT du prit fort de vente jusqu'au\nQUINZIÈME MILLE ; QUINZE POUR CENT au delà.\nCes droits comprenant tous les honoraires du tra-\nducteur .\n\nCes droits seront payés à l'auteur moitié à la mise en vente moitié à l'épuisement\nde chaque tirage ou sur relevé annuel.\nV. — Il ne sera dû aucun droit d'auteur sur les exemplaires consacrés à\nla presse, remis gratuitement à l'auteur, ni sur les passes de librairie.\nVI. — Les frais de correction sont à la charge de l'éditeur. Cependant, si\nles corrections d'auteur entraînaient une majoration de frais dépassant le quart du\nprix de la composition, cette majoration serait à la charge de l'auteur. Deux jeux\nd'épreuves seront fournis à l'auteur, si ce dernier désirait une troisième série\nd'épreuves il devrait en supporter les frais.\nVII. — ~~Les sommes que pourrait produire la cession des droits de traduc-\ntion, de reproduction et d'adaptation théâtrale, cinématographique sous toutes ses\nformes, ou autres adaptations de l'ouvrage faisant l'objet du présent traité, seront~~",
+          "notes": "Die Seite enthält Stempel und eine aufgeklebte Marke, die den Text teilweise überlagern. Die Durchstreichung in VII ist im Original vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "~~partagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes\nmandat général de traiter, au mieux de l'intérêt commun des parties.~~\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les éditions\nBERNARD GRASSET.\nIX. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\nX. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il était prouvé par M. Stefan ZWEIG\nque le sinistre est la conséquence de la faute de l'éditeur. Dans le cas contraire,\nil ne sera dû aucun droit d'auteur sur les exemplaires détériorés ou détruits et le\nmontant de ces exemplaires viendra en déduction du montant total des exemplaires\ndont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assume\naucune responsabilité de ce fait.\nXI. — Les éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux éditions BERNARD GRASSET.\n\n~~XXXXXXXXXXXXXXXX~~ Fait double à Paris le\nXII. — En ce qui concerne la publication anté-\nrieure en revues ou périodiques, l'auteur s'engage\nà ne traiter qu'avec accord avec l'éditeur et les\nsommes à provenir seront partagées par moitié entre\neux.\n\nFait double à PARIS, le Premier\nFévrier, mil neuf cent trente deux.\n\nLu et approuvé\n[Unterschrift Bernard Grasset]\n\nLu et approuvé\nStefan Zweig",
+          "notes": "Die Seite enthält eine durchgestrichene Passage am Anfang. Die Unterschriften sind eigenhändig."
+        },
+        {
+          "page": 3,
+          "transcription": "partagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes\nmandat général de traiter, au mieux de l'intérêt commun des parties.\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les éditions\nBERNARD GRASSET.\n\nXI. — Les éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux éditions BERNARD GRASSET.\n\n~~XXXXXXXXXXXXXXXX~~ Fait double à Paris le\nXII. — En ce qui concerne la publication anté-\nrieure en revues ou périodiques, l'auteur s'engage\nà ne traiter qu'avec accord avec l'éditeur et les\nsommes à provenir seront partagées par moitié entre\neux.\n\nFait double à PARIS, le Premier\nFévrier, mil neuf cent trente deux.",
+          "notes": "Dies ist ein Ausschnitt/Scan, der Teile von Seite 2 wiederholt, jedoch mit einer Farbkarte überlagert ist."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind eindeutig identifizierbar."
+    },
+    {
+      "id": "certificate_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Certified Copy of an Entry of Marriage",
+      "group": "C",
+      "groupLabel": "Formular",
+      "pid": "o:szd.160",
+      "title": "Certified Copy of an Entry of Marriage, SZ-SDP/L1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.160/IMG.1",
+        "https://gams.uni-graz.at/o:szd.160/IMG.2",
+        "https://gams.uni-graz.at/o:szd.160/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly [?] | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE J Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\nSuperintendent Registrar\n3rd September 1980\nCAUTION:—Any person who (1) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.",
+          "notes": "Das Dokument ist eine beglaubigte Kopie einer Heiratsurkunde. Die handschriftlichen Einträge sind gut lesbar. Die Spaltenstruktur wurde linearisiert wiedergegeben. Ein Stempelabdruck ist im Bereich der Unterschrift des Superintendent Registrar vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Leeres Blatt (Rückseite)."
+        },
+        {
+          "page": 3,
+          "transcription": "Grauskala #13 C Y M B.I.G.\nA 1 2 3 4 5 6 M 8 9 10 11 12 13 14 15 B 17 18 19\nInches 1 2 3 4 5 6 7\nCentimetres 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19\nFarbkarte #13 B.I.G.\nBlue Cyan Green Yellow Red Magenta White 3/Color Black",
+          "notes": "Referenzskala für die Digitalisierung (Graustufen- und Farbkarte)."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift sehr sicher. Die Struktur des Formulars wurde beibehalten."
+    },
+    {
+      "id": "theaterkarte_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Theaterkarte zur Uraufführung von „Jerem",
+      "group": "D",
+      "groupLabel": "Kurztext",
+      "pid": "o:szd.161",
+      "title": "Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.161/IMG.1",
+        "https://gams.uni-graz.at/o:szd.161/IMG.2",
+        "https://gams.uni-graz.at/o:szd.161/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich\n\nI. Rang Seiten-Loge\nLinks\nLoge 5 Platz 5\nKupon gilt als Ausweis\n27. Febr. 1918",
+          "notes": "Die Eintrittskarte besteht aus zwei Teilen, die durch eine Perforation getrennt sind. Der Text ist beidseitig gedruckt."
+        },
+        {
+          "page": 2,
+          "transcription": "Jerem.\nUraufführung",
+          "notes": "Handschriftliche Notiz in Bleistift auf der Rückseite der Eintrittskarte."
+        },
+        {
+          "page": 3,
+          "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich",
+          "notes": "Gesamtansicht der Eintrittskarte (Vorderseite) zusammen mit Farb- und Graukarten."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der gedruckte Text ist eindeutig lesbar. Die handschriftliche Notiz auf der Rückseite ist trotz der Bleistift-Schrift gut lesbar und entspricht der im Prompt gegebenen Information."
+    },
+    {
+      "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Der Bildner",
+      "group": "F",
+      "groupLabel": "Korrekturfahne",
+      "pid": "o:szd.287",
+      "title": "Der Bildner, SZ-AP2/W-D29",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.287/IMG.1",
+        "https://gams.uni-graz.at/o:szd.287/IMG.2",
+        "https://gams.uni-graz.at/o:szd.287/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+          "notes": "Der Text ist ein sauberer Drucksatz. Der Stempel 'RUDOLF M. ROHRER 7. VII. 1937' ist am rechten Rand platziert."
+        },
+        {
+          "page": 2,
+          "transcription": "Die Uhren, die ihnen zu Häupten gehangen,\nSind weitergegangen,\nStädte erstanden und andre verdarben,\nGesichter fielen aus Formen und Farben,\nGeschlechter erwuchsen, Geschlechter verblühten,\nMenschen wurden zu Masken und Mythen,\nAlles ward in der mitleidlosen\nMühle der Jahre zerstäubt und zerstoßen —\nNur sie in ihren erstarrten Posen\nDürfen im rastlos Wandernden ruhn,\nWeil sie ihr Wesen ewig zu Ende tun.\n\nDer geht — und sein Gehen ist ewiges Gehn —\nDer ruht — und sein Ruhen ist ewige Ruh —\nUnd wie auch die Stunden stürmen und schwingen,\nKeine Stunde nimmt, keine gibt etwas zu,\nDenn jede der stummen Gestalten hält\nIn sich kristallt einen Augenblick Welt,\nDer nie wiederkehrt und niemals zerfällt.\nNiemals werden die weißen, die glatten\nGestalten in ihrem Wesen ermatten,\nEwig werden, die sich umschlingen,\nIm Liebeskampf um Erfüllung ringen,\nEwig wird die Welle der Lichter\nDie Qual der vier Gebeugten umzittern,\nEwig wird mit Schreckblick der Dichter\nAus innerer Nacht in die Welt gewittern,\nUnd das Lächeln, das jener Lippe umschwebt,\nIst irdisch verklungen und bleibt doch und lebt,\nIndes er selber, die wachen Gesichter,\nSich längst zerstäubten aus Formen und Falten\nUnd mit den Stunden verwehten wie Wind. —\nSie aber, die Schatten des Lebens, die kalten\nSteine, sie stehen, sie dauern: sie sind.\n\nDer Meister steht staunend im steinernen Wald,\nVon Schweigen umschart, von Stille umschallt,\nUnd mit einmal begreift er die Urgewalt,\nDie wie große Musik aus den Steinen bricht:\nSendung\nWar ihm gegeben,\nVollendung\nSchafft Leben über dem eigenen Leben,\nGestalteter Stein ist stärker als Zeit!\nUnd selig erkennt er das große Licht\nOb seinen Gestalten: Unsterblichkeit.\n\nDa lächelt der Meister zum erstenmal,\nSeit er stumm vor den Steinen steht.\nVon Licht und Schweigen orgelt der Saal,\nUnd sein Herz braust mit dem großen Choral.\nWie im Gebet\nHebt er die Hände,\nDie all dies getan,\nUnd sieht sie, die eigenen, ehrfürchtig an,\nEr sieht sie an, die kranken, die kalten,\nMit ihren Schrunden und Schwielen und Falten,\nDie Werkmannshände, in denen vor Jahren\nAll diese aufgereckten Gestalten\nWie zitternde, unflügge Vögel waren,\nUnd die nun, heilig und unnahbar,\nHinglänzen durch die stürzende Stunde\nWie eine niederverlorene Engelschar,\nDie Gott anschweigt mit marmornem Munde.\n\nGroß rauscht es im Saale, still sinken die Hände,\nStumm stehen die Statuen, weiß leuchtet der Stein.\nWie in eine Legende\nGeht der Meister fromm in sein Werk hinein.\n144 Zweig: Begegnungen.",
+          "notes": "Keine handschriftlichen Korrekturen auf dieser Seite."
+        },
+        {
+          "page": 3,
+          "transcription": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+          "notes": "Identisch mit Seite 1, jedoch mit einem zusätzlichen Stempel 'Korrektur' unter dem Datumsstempel."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klarer Drucksatz. Die Transkription ist aufgrund der hohen Qualität der Vorlage und der eindeutigen Typografie sehr sicher."
+    }
+  ],
+  "collections": [
+    "aufsatzablage",
+    "korrespondenzen",
+    "lebensdokumente",
+    "werke"
+  ]
+}

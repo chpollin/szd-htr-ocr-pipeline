@@ -13,19 +13,27 @@ GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
 MODEL = os.environ.get("HTR_MODEL", "gemini-3.1-flash-lite-preview")
 BACKUP_ROOT = Path(os.environ.get(
     "SZD_BACKUP_ROOT",
-    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/lebensdokumente"
+    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data"
 ))
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
+DATA_DIR = PROJECT_ROOT / "data"
 RESULTS_DIR = PROJECT_ROOT / "results" / "test"
+
+# --- Collections ---
+COLLECTIONS = {
+    "lebensdokumente": {"subdir": "lebensdokumente", "tei": "szd_lebensdokumente_tei.xml"},
+    "werke":           {"subdir": "facsimiles",       "tei": "szd_werke_tei.xml"},
+    "aufsatzablage":   {"subdir": "aufsatz",          "tei": "szd_aufsatzablage_tei.xml"},
+    "korrespondenzen": {"subdir": "korrespondenzen",  "tei": "szd_korrespondenzen_tei.xml"},
+}
 
 
 def load_prompt(filename: str) -> str:
     """Load prompt text from a markdown file, extracting content from code blocks."""
     path = PROMPTS_DIR / filename
     text = path.read_text(encoding="utf-8")
-    # Extract content between ``` markers
     blocks = re.findall(r"```\n(.*?)```", text, re.DOTALL)
     return blocks[0].strip() if blocks else text.strip()
 
@@ -39,12 +47,16 @@ GROUP_PROMPTS = {
     "typoskript": load_prompt("group_b_typoskript.md"),
     "formular": load_prompt("group_c_formular.md"),
     "tabellarisch": load_prompt("group_e_tabellarisch.md"),
+    "korrekturfahne": load_prompt("group_f_korrekturfahne.md"),
+    "zeitungsausschnitt": load_prompt("group_h_zeitungsausschnitt.md"),
+    "korrespondenz": load_prompt("group_i_korrespondenz.md"),
 }
 
 # --- Test Cases ---
 TEST_CASES = {
     "theaterkarte": {
         "object_id": "o_szd.161",
+        "collection": "lebensdokumente",
         "group": "kurztext",
         "context": """## Dieses Dokument
 
@@ -60,6 +72,7 @@ TEST_CASES = {
     },
     "certificate": {
         "object_id": "o_szd.160",
+        "collection": "lebensdokumente",
         "group": "formular",
         "context": """## Dieses Dokument
 
@@ -75,6 +88,7 @@ TEST_CASES = {
     },
     "vertrag_grasset": {
         "object_id": "o_szd.78",
+        "collection": "lebensdokumente",
         "group": "typoskript",
         "context": """## Dieses Dokument
 
@@ -90,6 +104,7 @@ TEST_CASES = {
     },
     "tagebuch_1918": {
         "object_id": "o_szd.72",
+        "collection": "lebensdokumente",
         "group": "handschrift",
         "max_images": 5,
         "context": """## Dieses Dokument
@@ -104,12 +119,54 @@ TEST_CASES = {
 - Hand: Stefan Zweig
 - Anmerkungen: Tagebuch aus dem letzten Kriegsjahr. Hier werden nur die ersten Seiten transkribiert (Testlauf).""",
     },
+    "korrekturfahne_bildner": {
+        "object_id": "o_szd.287",
+        "collection": "werke",
+        "group": "korrekturfahne",
+        "max_images": 3,
+        "context": """## Dieses Dokument
+
+- Titel: Der Bildner
+- Signatur: SZ-AAP
+- Sprache: Deutsch
+- Objekttyp: Korrekturfahne
+- Umfang: 6 Blatt (hier nur die ersten 3 Seiten)
+- Hand: Lotte Zweig""",
+    },
+    "zeitungsausschnitt": {
+        "object_id": "o_szd.2215",
+        "collection": "aufsatzablage",
+        "group": "zeitungsausschnitt",
+        "context": """## Dieses Dokument
+
+- Titel: Aus der Werkstatt der Dichter
+- Signatur: SZ-AAP/W-AA215.1
+- Sprache: Deutsch
+- Objekttyp: Zeitungsausschnitt
+- Umfang: 3 Scans""",
+    },
+    "korrespondenz_fleischer": {
+        "object_id": "o_szd.1079",
+        "collection": "korrespondenzen",
+        "group": "korrespondenz",
+        "max_images": 3,
+        "context": """## Dieses Dokument
+
+- Titel: Brief an Max Fleischer vom 22. Mai 1901
+- Signatur: SZ-LAS/B3.1
+- Datum: 22. Mai 1901
+- Sprache: Deutsch
+- Objekttyp: Brief
+- Umfang: 5 Scans (hier nur die ersten 3)
+- Hand: Stefan Zweig""",
+    },
 }
 
 
-def load_images(object_id: str, max_images: int = 0) -> list[tuple[str, bytes]]:
+def load_images(object_id: str, collection: str, max_images: int = 0) -> list[tuple[str, bytes]]:
     """Load images for an object from the backup directory."""
-    img_dir = BACKUP_ROOT / object_id / "images"
+    subdir = COLLECTIONS[collection]["subdir"]
+    img_dir = BACKUP_ROOT / subdir / object_id / "images"
     if not img_dir.exists():
         print(f"FEHLER: Bildverzeichnis nicht gefunden: {img_dir}")
         sys.exit(1)
@@ -125,6 +182,15 @@ def load_images(object_id: str, max_images: int = 0) -> list[tuple[str, bytes]]:
     return images
 
 
+def load_backup_metadata(object_id: str, collection: str) -> dict:
+    """Load backup metadata.json for GAMS URLs and other info."""
+    subdir = COLLECTIONS[collection]["subdir"]
+    meta_path = BACKUP_ROOT / subdir / object_id / "metadata.json"
+    if meta_path.exists():
+        return json.loads(meta_path.read_text(encoding="utf-8"))
+    return {}
+
+
 def run_test(test_name: str):
     if test_name not in TEST_CASES:
         print(f"FEHLER: Unbekannter Test '{test_name}'")
@@ -137,9 +203,10 @@ def run_test(test_name: str):
         sys.exit(1)
 
     tc = TEST_CASES[test_name]
+    collection = tc["collection"]
     max_img = tc.get("max_images", 0)
-    images = load_images(tc["object_id"], max_img)
-    print(f"Objekt: {tc['object_id']} — {len(images)} Bilder geladen")
+    images = load_images(tc["object_id"], collection, max_img)
+    print(f"Objekt: {tc['object_id']} ({collection}) — {len(images)} Bilder geladen")
 
     # Build prompt
     group_prompt = GROUP_PROMPTS[tc["group"]]
@@ -170,18 +237,48 @@ def run_test(test_name: str):
         sys.exit(1)
 
     result_text = response.text
+
+    # Parse result
+    try:
+        result_json = json.loads(result_text)
+    except json.JSONDecodeError:
+        result_json = {"raw": result_text}
+
+    # Load backup metadata for GAMS URLs
+    backup_meta = load_backup_metadata(tc["object_id"], collection)
+    gams_images = [img["url"].replace("http://", "https://") for img in backup_meta.get("images", [])]
+
+    # Build enriched output
+    enriched = {
+        "object_id": tc["object_id"],
+        "collection": collection,
+        "group": tc["group"],
+        "model": MODEL,
+        "metadata": {
+            "title": backup_meta.get("title", ""),
+            "language": backup_meta.get("language", ""),
+            "images": gams_images,
+        },
+        "context": context,
+        "result": result_json,
+    }
+
     print("\n" + "=" * 60)
     print("ERGEBNIS")
     print("=" * 60)
     print(result_text)
 
-    # Save result
+    # Save enriched result
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     out_path = RESULTS_DIR / f"{test_name}_{MODEL}.json"
-    out_path.write_text(result_text, encoding="utf-8")
+    out_path.write_text(json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\nGespeichert: {out_path}")
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--list":
+        for name, tc in TEST_CASES.items():
+            print(f"  {name:30s} {tc['collection']:20s} {tc['group']}")
+        sys.exit(0)
     test = sys.argv[1] if len(sys.argv) > 1 else "theaterkarte"
     run_test(test)

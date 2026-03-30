@@ -1,0 +1,39 @@
+{
+  "object_id": "o_szd.1079",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 22. Mai 1901\n- Signatur: SZ-LAS/B3.1\n- Datum: 22. Mai 1901\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans (hier nur die ersten 3)\n- Hand: Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+        "notes": "Adressseite eines Briefumschlags. Poststempel: WIEN 22.5.01. Briefmarke: 10 Heller."
+      },
+      {
+        "page": 2,
+        "transcription": "STEFAN ZWEIG\n\n[Poststempel: KOMOTAU 23.5.01]",
+        "notes": "Rückseite des Briefumschlags mit Prägung 'STEFAN ZWEIG' und Ankunftsstempel."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (der letzte Bogen!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nkam mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, dass Sie mich sehen, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Klard oder gar Eisenbahn sicher nicht scheuen,\nes kann ja auch allzuweit sein.\nIch habe hier jetzt zwar sehr angenehme, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte mehr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. Es ist diese\nideale Freude, wie dort, auch doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Halbein-\nsamkeit ganz erlebt habe, halte mir das wunde-\nschön vor. Ich glaube da fallen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbümmeln\ndurch Spaziergänge, Promenaden, Freunde etc.\nDas einzige Bedauerliche ist, dass ich viel lese.",
+        "notes": "Handschriftlicher Brief auf einem Blatt (beidseitig beschrieben, hier nur Vorderseite). Die Schrift ist flüssig, aber stellenweise eng."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz einiger flüchtiger Buchstabenformen. Die Transkription folgt dem Originalgetreuen Prinzip."
+  }
+}

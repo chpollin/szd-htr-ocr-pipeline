@@ -12,10 +12,6 @@
             --border: #d4c5b0;
             --text: #2c2c2c;
             --muted: #888;
-            --tag-a: #e8d5f0;
-            --tag-b: #d5e0f0;
-            --tag-c: #f0e4d0;
-            --tag-d: #d5f0d8;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -25,7 +21,6 @@
             line-height: 1.5;
         }
 
-        /* --- Header --- */
         header {
             background: var(--accent);
             color: #fff;
@@ -34,14 +29,35 @@
             top: 0;
             z-index: 100;
         }
-        header h1 {
-            font-size: 1rem;
-            font-weight: 600;
-            letter-spacing: 0.02em;
-        }
+        header h1 { font-size: 1rem; font-weight: 600; }
         header .sub { font-size: 0.75rem; opacity: 0.8; }
 
-        /* --- Object selector --- */
+        .collections {
+            display: flex;
+            gap: 0;
+            background: #fff;
+            border-bottom: 2px solid var(--border);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .collections button {
+            flex-shrink: 0;
+            padding: 0.5rem 0.9rem;
+            border: none;
+            background: none;
+            font-size: 0.78rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            color: var(--muted);
+            transition: all 0.15s;
+        }
+        .collections button.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+            font-weight: 600;
+        }
+
         .selector {
             display: flex;
             gap: 0.4rem;
@@ -67,7 +83,6 @@
             border-color: var(--accent);
         }
 
-        /* --- Meta bar --- */
         .meta {
             padding: 0.6rem 1rem;
             font-size: 0.78rem;
@@ -78,19 +93,22 @@
             flex-wrap: wrap;
             gap: 0.3rem 1rem;
         }
-        .meta .tag {
+        .tag {
             display: inline-block;
             padding: 0.1rem 0.4rem;
             border-radius: 3px;
             font-size: 0.72rem;
             font-weight: 600;
         }
-        .tag-A { background: var(--tag-a); }
-        .tag-B { background: var(--tag-b); }
-        .tag-C { background: var(--tag-c); }
-        .tag-D { background: var(--tag-d); }
+        .tag-A { background: #e8d5f0; }
+        .tag-B { background: #d5e0f0; }
+        .tag-C { background: #f0e4d0; }
+        .tag-D { background: #d5f0d8; }
+        .tag-E { background: #f0f0d0; }
+        .tag-F { background: #f0d5d5; }
+        .tag-H { background: #d0e8f0; }
+        .tag-I { background: #e0d5f0; }
 
-        /* --- Page nav --- */
         .page-nav {
             display: flex;
             align-items: center;
@@ -117,15 +135,13 @@
             text-align: center;
         }
 
-        /* --- Main split view --- */
         .viewer {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto 1fr;
-            height: calc(100vh - 10rem);
+            height: calc(100vh - 12rem);
             min-height: 400px;
         }
-
         .panel-label {
             padding: 0.3rem 1rem;
             font-size: 0.7rem;
@@ -140,7 +156,6 @@
         .img-panel {
             overflow: auto;
             background: #e8e4de;
-            position: relative;
             -webkit-overflow-scrolling: touch;
         }
         .img-panel img {
@@ -149,10 +164,7 @@
             display: block;
             cursor: zoom-in;
         }
-        .img-panel img.zoomed {
-            width: 200%;
-            cursor: zoom-out;
-        }
+        .img-panel img.zoomed { width: 200%; cursor: zoom-out; }
 
         .text-panel {
             overflow: auto;
@@ -161,13 +173,13 @@
             background: #fff;
             -webkit-overflow-scrolling: touch;
         }
-        .text-panel .transcription {
+        .transcription {
             font-family: 'Georgia', serif;
             font-size: 0.9rem;
             line-height: 1.9;
             white-space: pre-wrap;
         }
-        .text-panel .notes {
+        .notes {
             margin-top: 1rem;
             padding-top: 0.8rem;
             border-top: 1px solid #eee;
@@ -175,15 +187,18 @@
             color: var(--muted);
             font-style: italic;
         }
-        .text-panel .confidence {
-            margin-top: 0.5rem;
-            font-size: 0.75rem;
-        }
+        .confidence { margin-top: 0.5rem; font-size: 0.75rem; }
         .conf-high { color: #4a7c59; }
         .conf-medium { color: #b8860b; }
         .conf-low { color: #a0522d; }
 
-        /* --- Mobile: stack vertically --- */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
         @media (max-width: 768px) {
             .viewer {
                 grid-template-columns: 1fr;
@@ -191,18 +206,11 @@
                 height: auto;
             }
             .panel-label:nth-child(2) { border-left: none; }
-            .img-panel {
-                max-height: 50vh;
-            }
-            .text-panel {
-                border-left: none;
-                border-top: 1px solid var(--border);
-                min-height: 30vh;
-            }
+            .img-panel { max-height: 50vh; }
+            .text-panel { border-left: none; border-top: 1px solid var(--border); min-height: 30vh; }
             .page-nav button { width: 2.8rem; height: 2.8rem; font-size: 1.3rem; }
         }
 
-        /* --- Footer --- */
         footer {
             padding: 0.6rem 1rem;
             font-size: 0.7rem;
@@ -211,15 +219,17 @@
             border-top: 1px solid var(--border);
         }
         footer a { color: var(--accent); }
+        del { color: #999; text-decoration: line-through; }
     </style>
 </head>
 <body>
 
 <header>
     <h1>SZD-HTR Viewer</h1>
-    <div class="sub">Faksimile ↔ Transkription</div>
+    <div class="sub">Faksimile ↔ Transkription · Stefan Zweig Digital</div>
 </header>
 
+<div class="collections" id="collectionTabs"></div>
 <div class="selector" id="objectSelector"></div>
 <div class="meta" id="metaBar"></div>
 <div class="page-nav">
@@ -228,7 +238,7 @@
     <button id="nextBtn" onclick="changePage(1)">▶</button>
 </div>
 
-<div class="viewer">
+<div class="viewer" id="viewerPanel">
     <div class="panel-label">Faksimile</div>
     <div class="panel-label">Transkription</div>
     <div class="img-panel" id="imgPanel">
@@ -243,161 +253,101 @@
 
 <footer>
     <a href="https://github.com/chpollin/szd-htr-ocr-pipline">GitHub</a> ·
-    <a href="index.html">Ergebnisübersicht</a> ·
-    Bilder: <a href="https://gams.uni-graz.at">GAMS</a>, CC-BY Literaturarchiv Salzburg ·
-    Modell: Gemini 3.1 Flash Lite
+    <a href="index.html">Übersicht</a> ·
+    Bilder: <a href="https://gams.uni-graz.at">GAMS</a>, CC-BY Literaturarchiv Salzburg
 </footer>
 
 <script>
-const OBJECTS = [
-    {
-        id: "theaterkarte",
-        label: "Theaterkarte",
-        group: "D",
-        groupLabel: "Kurztext",
-        pid: "o:szd.161",
-        title: "Theaterkarte zur Uraufführung von „Jeremias" 1918",
-        signature: "SZ-SDP/L2",
-        date: "27. Febr. 1918",
-        lang: "Deutsch",
-        type: "Eintrittskarte",
-        hand: "Friderike Zweig",
-        instrument: "Bleistift",
-        images: [
-            "https://gams.uni-graz.at/o:szd.161/IMG.1",
-            "https://gams.uni-graz.at/o:szd.161/IMG.2"
-        ],
-        pages: [
-            {
-                transcription: "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5 Platz 5\nStadttheater Zürich",
-                notes: "Vorderseite der Eintrittskarte (gedruckt)."
-            },
-            {
-                transcription: "Jerem.\nUraufführung",
-                notes: "Rückseite der Eintrittskarte (handschriftlich mit Bleistift)."
-            }
-        ],
-        confidence: "high",
-        confidenceNotes: "Der Text ist kurz, klar gedruckt und die handschriftliche Notiz ist gut lesbar."
-    },
-    {
-        id: "certificate",
-        label: "Marriage Certificate",
-        group: "C",
-        groupLabel: "Formular",
-        pid: "o:szd.160",
-        title: "Certified Copy of an Entry of Marriage",
-        signature: "SZ-SDP/L1",
-        date: "6. September 1939",
-        lang: "English",
-        type: "Typoskript",
-        hand: "Fremde Hand",
-        instrument: "Schwarze Tinte",
-        images: [
-            "https://gams.uni-graz.at/o:szd.160/IMG.1"
-        ],
-        pages: [
-            {
-                transcription: "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\n\n138 | Sixth September 1939 | Stefan Zweig | 54 years |\nThe divorced husband of Frederike Maria Zweig formerly Burger |\nAuthor | Lansdown Lodge Lansdown Road Bath |\nMoritz Zweig (deceased) | Textile manufacturer\n\n| Elisabet Charlotte Altmann | 31 years | Spinster |\nAuthor's Secretary | Lansdown Lodge Lansdown Road Bath |\nJoseph Georg Altmann (deceased) | Hardware merchant\n\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE J Button Supt. Registrar\n\nThis marriage was solemnized between us,\nStefan Zweig, Elisabet Charlotte Altmann\nin the presence of us, Arthur I. Ingram, Johanna Altmann\n\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift]\nSuperintendent Registrar\n\nCAUTION:—Any person who (i) falsifies any of the particulars\non this certificate, or (2) uses a falsified certificate as true,\nknowing it to be false, is liable to prosecution.\n3rd September 1980",
-                notes: "Stempel des 'General Register Office', handschriftliche Unterschrift. Tabellarische Struktur linearisiert."
-            }
-        ],
-        confidence: "high",
-        confidenceNotes: "Offizielles, maschinell ausgefülltes Formular. Handschriftliche Ergänzungen klar identifizierbar."
-    },
-    {
-        id: "grasset",
-        label: "Vertrag Grasset",
-        group: "B",
-        groupLabel: "Typoskript",
-        pid: "o:szd.78",
-        title: "Verlagsvertrag Grasset — Marie Antoinette",
-        signature: "SZ-AAP/L13.1",
-        date: "1. Februar 1932",
-        lang: "Français",
-        type: "Typoskript",
-        hand: "Stefan Zweig, fremde Hand",
-        instrument: "Violettes Farbband, violette u. schwarze Tinte",
-        images: [
-            "https://gams.uni-graz.at/o:szd.78/IMG.1",
-            "https://gams.uni-graz.at/o:szd.78/IMG.2"
-        ],
-        pages: [
-            {
-                transcription: "ENTRE LES SOUSSIGNÉS :\n1° Monsieur Stefan ZWEIG ,\ndemeurant à SALZBURG , Kapuzinerberg 5 , AUTRICHE\n\n2° Les Editions BERNARD GRASSET, rue des Saints Pères n° 61.\nIL A ÉTÉ CONVENU CE QUI SUIT :\n\nMonsieur Stefan ZWEIG cède aux Éditions\nBERNARD GRASSET, pour tout le temps que durera sa\npropriété littéraire et celle de ses héritiers, le droit\nexclusif d'imprimer, de publier et de vendre {un} ouvrage\nde sa composition portant comme titre :\nMARIE ANTOINETTE\n\nLa publication aura lieu aux conditions suivantes :\nI. - Il sera d'abord établi une édition dans le format\nin-16 double couronne dont le prix sera déterminé par\nl'éditeur, sur la base du prix actuel de quinze francs.\nII. - Le premier tirage sera de : DIX MILLE EXEMPLAIRES\n\nIII. - Il sera tiré en sus du premier tirage TROIS CENTS\nexemplaires qui seront consacrés au service de presse et\nCINQUANTE exemplaires qui seront remis à l'auteur.\nIV. - Les Éditions BERNARD GRASSET paieront à\nM. Stefan ZWEIG des droits d'auteur de :\nDIX POUR CENT du prix fort de vente jusqu'au\nQUINZIEME MILLE ; QUINZE POUR CENT au delà.\n\n[…Paragraphen V–VII, teils durchgestrichen…]",
-                notes: "Stempel und handschriftliche Vermerke am linken Rand. Durchgestrichene Passagen transkribiert."
-            },
-            {
-                transcription: "[…Paragraphen VIII–XII…]\n\nXI. - Les éditions BERNARD GRASSET pourraient proposer\nà l'auteur, trois ans après la publication de l'ouvrage,\nde reprendre les exemplaires restant en magasin.\n\nXII. - En ce qui concerne la publication antérieure en\nrevues ou périodiques, l'auteur s'engage à ne traiter\nqu'avec accord avec l'éditeur.\n\nFait double à PARIS, le Premier\nFévrier, mil neuf cent trente deux.\n\nLu et approuvé\n[Unterschrift Bernard Grasset?]\n\nLu et approuvé\nStefan Zweig",
-                notes: "Handschriftliche Zusätze „Lu et approuvé" und Unterschriften deutlich erkennbar."
-            }
-        ],
-        confidence: "high",
-        confidenceNotes: "Text weitgehend klar lesbar trotz Stempel-Überlagerungen und durchgestrichener Passagen."
-    },
-    {
-        id: "tagebuch",
-        label: "Tagebuch 1918",
-        group: "A",
-        groupLabel: "Handschrift",
-        pid: "o:szd.72",
-        title: "Tagebuch 1918 — Montreux, September",
-        signature: "SZ-AAP/L6",
-        date: "[1918]",
-        lang: "Deutsch",
-        type: "Notizbuch",
-        hand: "Stefan Zweig",
-        instrument: "Violette Tinte",
-        images: [
-            "https://gams.uni-graz.at/o:szd.72/IMG.1",
-            "https://gams.uni-graz.at/o:szd.72/IMG.2",
-            "https://gams.uni-graz.at/o:szd.72/IMG.3",
-            "https://gams.uni-graz.at/o:szd.72/IMG.4",
-            "https://gams.uni-graz.at/o:szd.72/IMG.5"
-        ],
-        pages: [
-            {
-                transcription: "Montreux 20. September, Freitag.\nDas Tagebuch nach mehr als einem halben Jahre\nwieder aufgenommen. Die Zeit war tot, nun wird sie\nweiterdings grauenhaft lebendig. Ich war müde des\nSinnlosen, nun findet sich allmählich wieder ein Sinn\nder Zeit, oder besser: der immer in dieser Krise verborgene\nSinn beginnt sich zu zeigen. In den letzten Wochen schon,\nseit der denkwürdigen Kriegswende u. der zweiten Mar-\nneschlacht war viel wichtig für mich nebst eigener Arbeit,\njene Polemik vorerst, die mein Aufsatz in der Neuen Zür-\ncher Zeitung erregte, dann die Besprechung mit Gieser,\nder mir seine allerhöchste Unzufriedenheit einschüchternd\nmitteilen wollte u. dabei auf eigene Entschlossenheit stieß\n(denn von dem Cadaver Österreichs lasse ich mich nicht\nmehr einschüchtern u. noch weniger von seinen Diplomaten,\ndie das stille u. beschämliche Land in den Abgrund eines\nfalschen Heroismus gestoßen haben.) Dann eine kurze Stelle\nHoffnung: das Friedensangebot, bald zerschellt an der stei-\nnern fest aufgetürmten Mauer des andern Imperialismus.\nEin wenig Freiheit der Sinne gab dann die Fahrt in die Ber-\nge: ich habe gelernt, gegen den unnützen Flagellantismus\nanzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-\ndankenstrichen. Man muss die Kunst lernen, dumpf zu leben",
-                notes: "Sehr gut lesbar, typische Handschrift Zweigs."
-            },
-            {
-                transcription: "sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,\nHemmung und nicht Befreiung. Hier in Montreux in einem\nkleinen Zimmer hoch über dem See milder Ausblick und\nstillerer Blick nach innen. Das Wetter noch umwölkt aber\nmit Aussicht auf Klärung.\nAbends kommt Chapiro uns besuchen, dieser drollige und\nliebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie\ner von seiner riesenhaften Familie daheim in Kiow erzählt; wenn\ndie auf Reisen gingen, brauchten sie einen ganzen Waggon, sie\nkonnten nie zusammen eine Tramway benützen. So war immer\neine Schar, die Köchin musste zum Einkaufen auf den Markt\nimmer einen Wagen mitfahren. Auch von der Zeit erzählt er\nwo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und\nihm abends alle Gelenke krachten. Aber vom Heitern kommen\nwir zum Ernsten: auch er ist einer, den Rolland „gerettet"\nhat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit\nfür ihn, half ihm in jeder Weise. R. ist jetzt mitten im Kriege\nund auf der Höhe seines Ruhmes noch nicht frei von Geld-\nsorgen, weil er seine ganze Familie ernährt und eine Reihe von\nFreunden unterstützt.",
-                notes: "R. = Romain Rolland. „fr. Cons." vermutlich „französischer Konsul"."
-            },
-            {
-                transcription: "rührendsten, das man sich denken kann und je mehr man\nvon ihm erfährt, desto grösser wird das Gefühl von der Ein-\nzigheit seiner Gestalt, die ein unendliches Wissen um die Dinge\nmit einer unzerstörbaren Liebe zu den Menschen vereint. Seine\nUnermüdlichkeit hat etwas Herodes wie überhaupt die ungeheure\nEinsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn\nwir von ihm sprechen.\nSamstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von\nZauberischer Schönheit. Ich sitze auf der Terrasse in der Sonne,\nzum erstenmal seit langer Zeit wieder in Person lebend, ge-\nlesenen und geschriebenen. Das Bewusstsein, nachmittags zu\nR. zu gehen, ein Licht über den Tag! Ein kleiner Geruch wächst\nher aus der Landschaft heraus, das erste seit einer Unendlich-\nkeit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine\n~~Eltern~~ Mutter, sie ist ein wenig hinfälliger geworden, aber dies-\nmal im Gegensatz zum vergangenen Jahr ganz offen zu uns und\nvon besonderer Herzlichkeit.",
-                notes: "R. = Romain Rolland. Durchstreichung „Eltern" → Korrektur zu „Mutter"."
-            },
-            {
-                transcription: "irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er\nist sehr verzweifelt über den Augenblick: wie das freie Den-\nken immer mehr zusammen schmilzt, der Heroismus einzig\nsich in den gewohnten, ererbten, Idealen auslebt. Er sieht\ndie Eroberung Frankreichs durch Amerika, den Geist dieses neuen\nKrieges nicht verewigt, die Sieger in der Entente vereint und\nverschönt, Generationen in einer Selbstglorie, den Stolz als\nTriumphator der Welt. Ein tiefes Misstrauen hat sich seines\nWesens bemächtigt, das die ganze Zeit umfasst: er spricht\nauch von den deutschen Revolutionären, die für ihn die\ngefährlichsten seien.",
-                notes: "Einige Stellen etwas flüchtig geschrieben, aber im Kontext gut lesbar."
-            },
-            {
-                transcription: "schenisse ins Unrecht setzen. Für Jahre zumindest. Aber „le\ntemps viendra!" Abends dann noch kleine Arbeit.\n22. Sept. Sonntag Regentag und voll mit geschäftlichen\nliterarischen Schreibereien. Feuilleton über Falsi, ein Dutzend\nBriefe, veranlasst durch die plötzliche Annahme der „Legende"?\nEin Anderes freute sich. Ich bin ganz stumpf diesen Din-\ngen gegenüber: ich spüre sie gar nicht.\n[...]\nVerlorener Tag! so voll er voll Arbeit (scheinbarer) war.\n23. Sept. Montag Noch Nachwehen von Schreibereien aus",
-                notes: "Gute Lesbarkeit."
-            }
-        ],
-        confidence: "high",
-        confidenceNotes: "Die Handschrift ist für Zweig-Verhältnisse sehr klar und gut lesbar."
-    }
-];
-
+let OBJECTS = [];
+let COLLECTIONS = [];
+let filteredObjects = [];
+let selectedCollection = null;
 let currentObj = 0;
 let currentPage = 0;
 
-function init() {
+const COLLECTION_LABELS = {
+    "lebensdokumente": "Lebensdokumente",
+    "werke": "Werke",
+    "aufsatzablage": "Aufsatzablage",
+    "korrespondenzen": "Korrespondenzen"
+};
+
+async function init() {
+    const panel = document.getElementById('viewerPanel');
+    panel.innerHTML = '<div class="loading" style="grid-column:1/-1">Lade Daten…</div>';
+
+    try {
+        const resp = await fetch('data.json');
+        const data = await resp.json();
+        OBJECTS = data.objects;
+        COLLECTIONS = data.collections;
+    } catch (e) {
+        panel.innerHTML = '<div class="loading" style="grid-column:1/-1">Fehler beim Laden der Daten.</div>';
+        return;
+    }
+
+    panel.innerHTML = `
+        <div class="panel-label">Faksimile</div>
+        <div class="panel-label">Transkription</div>
+        <div class="img-panel" id="imgPanel">
+            <img id="faksimile" src="" alt="Faksimile" onclick="toggleZoom(this)">
+        </div>
+        <div class="text-panel" id="textPanel">
+            <div class="transcription" id="transcription"></div>
+            <div class="notes" id="notes"></div>
+            <div class="confidence" id="confidence"></div>
+        </div>`;
+
+    buildCollectionTabs();
+    filterAndBuild();
+
+    const hash = window.location.hash.slice(1);
+    if (hash) {
+        const idx = filteredObjects.findIndex(o => o.id.includes(hash));
+        if (idx >= 0) selectObject(idx);
+    }
+}
+
+function buildCollectionTabs() {
+    const tabs = document.getElementById('collectionTabs');
+    tabs.innerHTML = '';
+
+    const allBtn = document.createElement('button');
+    allBtn.textContent = `Alle (${OBJECTS.length})`;
+    allBtn.className = selectedCollection === null ? 'active' : '';
+    allBtn.onclick = () => { selectedCollection = null; filterAndBuild(); };
+    tabs.appendChild(allBtn);
+
+    for (const col of COLLECTIONS) {
+        const count = OBJECTS.filter(o => o.collection === col).length;
+        const btn = document.createElement('button');
+        btn.textContent = `${COLLECTION_LABELS[col] || col} (${count})`;
+        btn.className = selectedCollection === col ? 'active' : '';
+        btn.onclick = () => { selectedCollection = col; filterAndBuild(); };
+        tabs.appendChild(btn);
+    }
+}
+
+function filterAndBuild() {
+    filteredObjects = selectedCollection
+        ? OBJECTS.filter(o => o.collection === selectedCollection)
+        : [...OBJECTS];
+
+    buildCollectionTabs();
+
     const sel = document.getElementById('objectSelector');
-    OBJECTS.forEach((obj, i) => {
+    sel.innerHTML = '';
+    filteredObjects.forEach((obj, i) => {
         const btn = document.createElement('button');
         btn.textContent = obj.label;
         btn.onclick = () => selectObject(i);
         btn.id = 'obj-btn-' + i;
         sel.appendChild(btn);
     });
-    // Check URL hash
-    const hash = window.location.hash.slice(1);
-    const idx = OBJECTS.findIndex(o => o.id === hash);
-    selectObject(idx >= 0 ? idx : 0);
+
+    if (filteredObjects.length > 0) {
+        selectObject(0);
+    }
 }
 
 function selectObject(i) {
@@ -406,78 +356,72 @@ function selectObject(i) {
     document.querySelectorAll('.selector button').forEach((b, j) => {
         b.classList.toggle('active', j === i);
     });
-    const obj = OBJECTS[i];
+    const obj = filteredObjects[i];
     window.location.hash = obj.id;
 
-    // Meta bar
+    const col = COLLECTION_LABELS[obj.collection] || obj.collection;
     document.getElementById('metaBar').innerHTML =
         `<span class="tag tag-${obj.group}">${obj.group}: ${obj.groupLabel}</span>` +
-        `<span>${obj.title}</span>` +
-        `<span>${obj.pid} · ${obj.signature}</span>` +
-        `<span>${obj.lang} · ${obj.type}</span>` +
-        `<span>Hand: ${obj.hand}</span>` +
-        `<span>${obj.instrument}</span>`;
+        `<span style="font-weight:600">${obj.title}</span>` +
+        `<span>${obj.pid} · ${col}</span>` +
+        `<span>${obj.lang}</span>` +
+        `<span style="font-size:0.7rem;color:#aaa">${obj.model || ''}</span>`;
 
     renderPage();
 }
 
 function renderPage() {
-    const obj = OBJECTS[currentObj];
-    const page = obj.pages[currentPage];
-    const total = obj.pages.length;
+    const obj = filteredObjects[currentObj];
+    const pages = obj.pages || [];
+    const page = pages[currentPage];
+    const total = pages.length;
 
-    // Page nav
     document.getElementById('pageInfo').textContent = `${currentPage + 1} / ${total}`;
     document.getElementById('prevBtn').disabled = currentPage === 0;
     document.getElementById('nextBtn').disabled = currentPage === total - 1;
 
-    // Image
     const img = document.getElementById('faksimile');
-    img.classList.remove('zoomed');
-    img.src = obj.images[currentPage] || obj.images[0];
-    img.alt = `${obj.title} — Seite ${currentPage + 1}`;
+    if (img) {
+        img.classList.remove('zoomed');
+        img.src = (obj.images && obj.images[currentPage]) || '';
+        img.alt = `${obj.title} — Seite ${currentPage + 1}`;
+    }
 
-    // Text
-    // Render ~~strikethrough~~ as <del>
-    let text = page.transcription
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/~~(.+?)~~/g, '<del>$1</del>');
-    document.getElementById('transcription').innerHTML = text;
-    document.getElementById('notes').textContent = page.notes || '';
+    if (page) {
+        let text = (page.transcription || '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/~~(.+?)~~/g, '<del>$1</del>');
+        document.getElementById('transcription').innerHTML = text;
+        document.getElementById('notes').textContent = page.notes || '';
+    }
+
     document.getElementById('confidence').innerHTML =
         `Confidence: <span class="conf-${obj.confidence}">${obj.confidence}</span>` +
-        ` — ${obj.confidenceNotes}`;
+        (obj.confidenceNotes ? ` — ${obj.confidenceNotes}` : '');
 }
 
 function changePage(delta) {
-    const obj = OBJECTS[currentObj];
+    const obj = filteredObjects[currentObj];
     const next = currentPage + delta;
-    if (next >= 0 && next < obj.pages.length) {
+    if (next >= 0 && next < (obj.pages || []).length) {
         currentPage = next;
         renderPage();
-        // Scroll panels to top
-        document.getElementById('imgPanel').scrollTop = 0;
-        document.getElementById('textPanel').scrollTop = 0;
+        document.getElementById('imgPanel')?.scrollTo(0, 0);
+        document.getElementById('textPanel')?.scrollTo(0, 0);
     }
 }
 
-function toggleZoom(img) {
-    img.classList.toggle('zoomed');
-}
+function toggleZoom(img) { img.classList.toggle('zoomed'); }
 
-// Swipe support for mobile
 let touchStartX = 0;
 document.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; });
 document.addEventListener('touchend', e => {
     const diff = e.changedTouches[0].clientX - touchStartX;
-    if (Math.abs(diff) > 60) {
-        changePage(diff < 0 ? 1 : -1);
-    }
+    if (Math.abs(diff) > 60) changePage(diff < 0 ? 1 : -1);
 });
 
-// Keyboard nav
 document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft') changePage(-1);
     if (e.key === 'ArrowRight') changePage(1);
