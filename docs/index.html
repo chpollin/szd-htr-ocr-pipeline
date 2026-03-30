@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SZD-HTR-OCR-Pipeline — Transkriptionsergebnisse</title>
+    <style>
+        :root {
+            --bg: #fafaf8;
+            --text: #2c2c2c;
+            --accent: #8b5e3c;
+            --border: #d4c5b0;
+            --card-bg: #fff;
+            --tag-bg: #f0e8dc;
+            --high: #4a7c59;
+            --medium: #b8860b;
+            --low: #a0522d;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Georgia', serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 {
+            font-size: 1.8rem;
+            font-weight: normal;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h1 span { font-size: 0.9rem; color: #888; }
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        .subtitle a { color: var(--accent); }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: normal;
+            color: var(--accent);
+            margin: 2.5rem 0 1rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.3rem;
+        }
+        .object-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        .object-header {
+            background: var(--tag-bg);
+            padding: 0.8rem 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .object-header h3 {
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+        .tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+        .tag {
+            font-size: 0.75rem;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-family: 'Consolas', monospace;
+        }
+        .tag-group { background: #e3d5c5; color: #5a3e28; }
+        .tag-lang { background: #d5e3e8; color: #2a4a5a; }
+        .tag-confidence-high { background: #d4e8d4; color: var(--high); }
+        .tag-confidence-medium { background: #f0e4c0; color: var(--medium); }
+        .tag-confidence-low { background: #e8d4c4; color: var(--low); }
+        .meta-row {
+            padding: 0.5rem 1.2rem;
+            font-size: 0.85rem;
+            color: #666;
+            border-bottom: 1px solid #eee;
+        }
+        .meta-row span { color: var(--text); }
+        .page {
+            padding: 1.2rem;
+            border-bottom: 1px solid #eee;
+        }
+        .page:last-child { border-bottom: none; }
+        .page-label {
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .transcription {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.88rem;
+            line-height: 1.8;
+            white-space: pre-wrap;
+            background: #faf8f5;
+            padding: 1rem;
+            border-radius: 3px;
+            border-left: 3px solid var(--border);
+        }
+        .page-notes {
+            font-size: 0.82rem;
+            color: #888;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .stat-num {
+            font-size: 2rem;
+            color: var(--accent);
+            font-weight: bold;
+        }
+        .stat-label { font-size: 0.85rem; color: #888; }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.8rem;
+            color: #999;
+        }
+        footer a { color: var(--accent); }
+        del { color: #999; text-decoration: line-through; }
+    </style>
+</head>
+<body>
+
+<h1>SZD-HTR-OCR-Pipeline <span>Erste Testergebnisse</span></h1>
+<p class="subtitle">
+    VLM-basierte Transkription von Faksimiles aus dem
+    <a href="https://stefanzweig.digital/">Stefan-Zweig-Nachlass</a>
+    (Literaturarchiv Salzburg).<br>
+    Modell: <strong>Gemini 3.1 Flash Lite</strong> (Preview) &mdash;
+    <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">GitHub</a>
+</p>
+
+<div class="stats">
+    <div class="stat-card">
+        <div class="stat-num">4</div>
+        <div class="stat-label">Objekte getestet</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">4/4</div>
+        <div class="stat-label">Confidence: high</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">143</div>
+        <div class="stat-label">Objekte im Bestand</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-num">5</div>
+        <div class="stat-label">Prompt-Gruppen</div>
+    </div>
+</div>
+
+<h2>D: Kurztext &mdash; Theaterkarte Jeremias 1918</h2>
+
+<div class="object-card">
+    <div class="object-header">
+        <h3>Theaterkarte zur Uraufführung von &bdquo;Jeremias&ldquo; 1918</h3>
+        <div class="tags">
+            <span class="tag tag-group">D: Kurztext</span>
+            <span class="tag tag-lang">Deutsch</span>
+            <span class="tag tag-confidence-high">high</span>
+        </div>
+    </div>
+    <div class="meta-row">
+        <span>o:szd.161</span> &middot; SZ-SDP/L2 &middot; 27. Febr. 1918 &middot; Eintrittskarte &middot; Hand: Friderike Zweig &middot; Bleistift
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 1 &mdash; Vorderseite</div>
+        <div class="transcription">I. Rang Seiten-Loge
+Links
+27. Febr. 1918
+Loge 5 Platz 5
+Stadttheater Zürich</div>
+        <div class="page-notes">Vorderseite der Eintrittskarte (gedruckt).</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 2 &mdash; Rückseite</div>
+        <div class="transcription">Jerem.
+Uraufführung</div>
+        <div class="page-notes">Rückseite der Eintrittskarte (handschriftlich mit Bleistift).</div>
+    </div>
+</div>
+
+<h2>C: Formular &mdash; Certified Copy of an Entry of Marriage</h2>
+
+<div class="object-card">
+    <div class="object-header">
+        <h3>Certified Copy of an Entry of Marriage</h3>
+        <div class="tags">
+            <span class="tag tag-group">C: Formular</span>
+            <span class="tag tag-lang">English</span>
+            <span class="tag tag-confidence-high">high</span>
+        </div>
+    </div>
+    <div class="meta-row">
+        <span>o:szd.160</span> &middot; SZ-SDP/L1 &middot; Sixth September 1939 &middot; Typoskript &middot; Hand: Fremde Hand &middot; Schwarze Tinte
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 1</div>
+        <div class="transcription">[Printed by authority of the Registrar General.]
+CERTIFIED COPY of an ENTRY OF MARRIAGE
+Pursuant to the Marriage Act 1949
+TC 574271
+M. Cert. S.R.
+Registration District Bath
+1939. Marriage solemnized at The Register Office in the
+District of Bath in the county Borough of Bath.
+
+138 | Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband
+of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge
+Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer
+
+| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary |
+Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) |
+Hardware merchant
+
+Married in the Register Office by licence before by me,
+D Clegg Registrar
+E J Button Supt. Registrar
+This marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte
+Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann
+
+Certified to be a true copy of an entry in a register in my custody,
+[Unterschrift]
+Superintendent Registrar
+
+CAUTION:—Any person who (i) falsifies any of the particulars on this
+certificate, or (2) uses a falsified certificate as true, knowing it to
+be false, is liable to prosecution. 3rd September 1980</div>
+        <div class="page-notes">Stempel des 'General Register Office', handschriftliche Unterschrift des Superintendent Registrar. Tabellarische Struktur linearisiert.</div>
+    </div>
+</div>
+
+<h2>B: Typoskript &mdash; Verlagsvertrag Grasset</h2>
+
+<div class="object-card">
+    <div class="object-header">
+        <h3>Verlagsvertrag Grasset &mdash; Marie Antoinette</h3>
+        <div class="tags">
+            <span class="tag tag-group">B: Typoskript</span>
+            <span class="tag tag-lang">Français</span>
+            <span class="tag tag-confidence-high">high</span>
+        </div>
+    </div>
+    <div class="meta-row">
+        <span>o:szd.78</span> &middot; SZ-AAP/L13.1 &middot; 1. Februar 1932 &middot; Typoskript &middot; Hand: Stefan Zweig, fremde Hand &middot; Violettes Farbband
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 1 &mdash; Recto</div>
+        <div class="transcription">ENTRE LES SOUSSIGNÉS :
+1° Monsieur Stefan ZWEIG , <del>xxxxxxxxxxxx</del>
+demeurant à SALZBURG , Kapuzinerberg 5 , AUTRICHE
+
+2° Les Editions BERNARD GRASSET, rue des Saints Pères n° 61.
+IL A ÉTÉ CONVENU CE QUI SUIT :
+
+Monsieur Stefan ZWEIG cède aux Éditions
+BERNARD GRASSET, pour tout le temps que durera sa propriété littéraire et celle
+de ses héritiers, le droit exclusif d'imprimer, de publier et de vendre {un} ouvrage
+de sa composition portant comme titre :
+MARIE ANTOINETTE
+
+La publication aura lieu aux conditions suivantes :
+I. - Il sera d'abord établi une édition dans le format in-16 double cou-
+ronne dont le prix sera déterminé par l'éditeur, sur la base du prix actuel de
+quinze francs.
+II. - Le premier tirage sera de : DIX MILLE EXEMPLAIRES
+
+III. - Il sera tiré en sus du premier tirage TROIS CENTS exemplaires qui
+seront consacrés au service de presse et CINQUANTE exemplaires qui seront
+remis à l'auteur pour ses hommages personnels.
+IV. - Comme prix de la cession qui leur est faite, les Éditions BERNARD
+GRASSET paieront à M. Stefan ZWEIG des droits d'auteur de :
+DIX POUR CENT du prit fort de vente jusqu'au
+QUINZIEME MILLE ; QUINZE POUR CENT au delà.
+
+[…Paragraphen V–VII, teils durchgestrichen…]</div>
+        <div class="page-notes">Stempel und handschriftliche Vermerke am linken Rand. Durchgestrichene Passagen transkribiert.</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 2 &mdash; Verso</div>
+        <div class="transcription">[…Paragraphen VIII–XII…]
+
+Fait double à PARIS, le Premier
+Février, mil neuf cent trente deux.
+
+Lu et approuvé
+[Unterschrift Bernard Grasset?]
+
+Lu et approuvé
+Stefan Zweig</div>
+        <div class="page-notes">Handschriftliche Zusätze „Lu et approuvé" und Unterschriften deutlich erkennbar.</div>
+    </div>
+</div>
+
+<h2>A: Handschrift &mdash; Tagebuch 1918</h2>
+
+<div class="object-card">
+    <div class="object-header">
+        <h3>Tagebuch 1918 &mdash; Montreux, September</h3>
+        <div class="tags">
+            <span class="tag tag-group">A: Handschrift</span>
+            <span class="tag tag-lang">Deutsch</span>
+            <span class="tag tag-confidence-high">high</span>
+        </div>
+    </div>
+    <div class="meta-row">
+        <span>o:szd.72</span> &middot; SZ-AAP/L6 &middot; [1918] &middot; Notizbuch, 19 Blatt &middot; Hand: Stefan Zweig &middot; Violette Tinte &middot; <em>5 von 39 Seiten transkribiert (Testlauf)</em>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 1 &mdash; 20. September, Freitag</div>
+        <div class="transcription">Montreux 20. September, Freitag.
+Das Tagebuch nach mehr als einem halben Jahre
+wieder aufgenommen. Die Zeit war tot, nun wird sie
+weiterdings grauenhaft lebendig. Ich war müde des
+Sinnlosen, nun findet sich allmählich wieder ein Sinn
+der Zeit, oder besser: der immer in dieser Krise verborgene
+Sinn beginnt sich zu zeigen. In den letzten Wochen schon,
+seit der denkwürdigen Kriegswende u. der zweiten Mar-
+neschlacht war viel wichtig für mich nebst eigener Arbeit,
+jene Polemik vorerst, die mein Aufsatz in der Neuen Zür-
+cher Zeitung erregte, dann die Besprechung mit Gieser,
+der mir seine allerhöchste Unzufriedenheit einschüchternd
+mitteilen wollte u. dabei auf eigene Entschlossenheit stieß
+(denn von dem Cadaver Österreichs lasse ich mich nicht
+mehr einschüchtern u. noch weniger von seinen Diplomaten,
+die das stille u. beschämliche Land in den Abgrund eines
+falschen Heroismus gestoßen haben.) Dann eine kurze Stelle
+Hoffnung: das Friedensangebot, bald zerschellt an der stei-
+nern fest aufgetürmten Mauer des andern Imperialismus.
+Ein wenig Freiheit der Sinne gab dann die Fahrt in die Ber-
+ge: ich habe gelernt, gegen den unnützen Flagellantismus
+anzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-
+dankenstrichen. Man muss die Kunst lernen, dumpf zu leben</div>
+        <div class="page-notes">Sehr gut lesbar, typische Handschrift Zweigs.</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 2</div>
+        <div class="transcription">sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,
+Hemmung und nicht Befreiung. Hier in Montreux in einem
+kleinen Zimmer hoch über dem See milder Ausblick und
+stillerer Blick nach innen. Das Wetter noch umwölkt aber
+mit Aussicht auf Klärung.
+Abends kommt Chapiro uns besuchen, dieser drollige und
+liebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie
+er von seiner riesenhaften Familie daheim in Kiow erzählt; wenn
+die auf Reisen gingen, brauchten sie einen ganzen Waggon, sie
+konnten nie zusammen eine Tramway benützen. So war immer
+eine Schar, die Köchin musste zum Einkaufen auf den Markt
+immer einen Wagen mitfahren. Auch von der Zeit erzählt er
+wo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und
+ihm abends alle Gelenke krachten. Aber vom Heitern kommen
+wir zum Ernsten: auch er ist einer, den Rolland „gerettet"
+hat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit
+für ihn, half ihm in jeder Weise. R. ist jetzt mitten im Kriege
+und auf der Höhe seines Ruhmes noch nicht frei von Geld-
+sorgen, weil er seine ganze Familie ernährt und eine Reihe von
+Freunden unterstützt.</div>
+        <div class="page-notes">R. = Romain Rolland. „fr. Cons." vermutlich „französischer Konsul".</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 3 &mdash; 21. September, Samstag</div>
+        <div class="transcription">rührendsten, das man sich denken kann und je mehr man
+von ihm erfährt, desto grösser wird das Gefühl von der Ein-
+zigheit seiner Gestalt, die ein unendliches Wissen um die Dinge
+mit einer unzerstörbaren Liebe zu den Menschen vereint. Seine
+Unermüdlichkeit hat etwas Herodes wie überhaupt die ungeheure
+Einsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn
+wir von ihm sprechen.
+Samstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von
+Zauberischer Schönheit. Ich sitze auf der Terrasse in der Sonne,
+zum erstenmal seit langer Zeit wieder in Person lebend, ge-
+lesenen und geschriebenen. Das Bewusstsein, nachmittags zu
+R. zu gehen, ein Licht über den Tag! Ein kleiner Geruch wächst
+her aus der Landschaft heraus, das erste seit einer Unendlich-
+keit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine
+<del>Eltern</del> Mutter, sie ist ein wenig hinfälliger geworden, aber dies-
+mal im Gegensatz zum vergangenen Jahr ganz offen zu uns und
+von besonderer Herzlichkeit.</div>
+        <div class="page-notes">R. = Romain Rolland. Durchstreichung „Eltern" → Korrektur zu „Mutter".</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 4</div>
+        <div class="transcription">irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er
+ist sehr verzweifelt über den Augenblick: wie das freie Den-
+ken immer mehr zusammen schmilzt, der Heroismus einzig
+sich in den gewohnten, ererbten, Idealen auslebt. Er sieht
+die Eroberung Frankreichs durch Amerika, den Geist dieses neuen
+Krieges nicht verewigt, die Sieger in der Entente vereint und
+verschönt, Generationen in einer Selbstglorie, den Stolz als
+Triumphator der Welt. Ein tiefes Misstrauen hat sich seines
+Wesens bemächtigt, das die ganze Zeit umfasst [...]</div>
+        <div class="page-notes">Einige Stellen etwas flüchtig geschrieben, aber im Kontext gut lesbar.</div>
+    </div>
+    <div class="page">
+        <div class="page-label">Seite 5 &mdash; 22./23. September</div>
+        <div class="transcription">schenisse ins Unrecht setzen. Für Jahre zumindest. Aber „le
+temps viendra!" Abends dann noch kleine Arbeit.
+22. Sept. Sonntag Regentag und voll mit geschäftlichen
+literarischen Schreibereien. Feuilleton über Falsi, ein Dutzend
+Briefe, veranlasst durch die plötzliche Annahme der „Legende"?
+[...]
+Verlorener Tag! so voll er voll Arbeit (scheinbarer) war.
+23. Sept. Montag Noch Nachwehen von Schreibereien aus</div>
+        <div class="page-notes">Gute Lesbarkeit.</div>
+    </div>
+</div>
+
+<footer>
+    <p>
+        <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">SZD-HTR-OCR-Pipeline</a> &mdash;
+        Teilprojekt von <a href="https://stefanzweig.digital/">Stefan Zweig Digital</a>,
+        Literaturarchiv Salzburg.
+        Modell: Gemini 3.1 Flash Lite (Preview). Stand: 30. März 2026.
+    </p>
+</footer>
+
+</body>
+</html>

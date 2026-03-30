@@ -1,0 +1,18 @@
+# Data (images from local backup, not committed)
+data/sample/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
