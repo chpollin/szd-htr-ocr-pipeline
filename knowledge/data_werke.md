@@ -76,8 +76,8 @@ Die bestehenden Gruppen A–E werden erweitert:
 |---|---|---|
 | **A: Handschrift** | Manuskripte (65), Notizbücher (26) | Clarissa (o:szd.1877), Magellan (o:szd.270) |
 | **B: Maschinenschrift** | Typoskripte (67), Durchschläge (113) | Rausch der Verwandlung (o:szd.268) |
-| **F: Korrekturfahne** (NEU) | Korrekturfahnen (43) | Der Bildner (o:szd.287) |
-| **G: Konvolut** (NEU) | Konvolute (24) | Chenier (o:szd.245) |
+| **F: Korrekturfahne** (umgesetzt) | Korrekturfahnen (43) | Der Bildner (o:szd.287) — getestet, high confidence |
+| G: Konvolut (aufgeschoben) | Konvolute (24) | Zu wenige Objekte, zu heterogen — bei Bedarf ergänzen |
 
 ## Vorgeschlagene Test-Objekte (Werke)
 

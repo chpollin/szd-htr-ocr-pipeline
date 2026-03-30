@@ -10,38 +10,36 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 - [x] Repository angelegt, .gitignore, README.md
 - [x] TEI-Metadaten aller 4 Sammlungen heruntergeladen und analysiert
-  - Lebensdokumente (143), Werke (352), Aufsatzablage (624), Korrespondenzen (1186)
 - [x] Dreischichtiges Prompt-System entwickelt (System → Gruppe → Objekt-Kontext)
 - [x] 5 Gruppen-Prompts: A Handschrift, B Typoskript, C Formular, D Kurztext, E Tabellarisch
 - [x] Test-Script `pipeline/test_single.py` — Gemini Vision API
-- [x] Erste Tests: 4 Objekte, alle high confidence
+- [x] Erste Tests: 4 Objekte aus Lebensdokumenten, alle high confidence
 - [x] Viewer `docs/viewer.html` — responsive Faksimile↔Transkription-Vergleich
 - [x] Knowledge-Vault mit Datenanalysen
 
-## Phase 2: Sammlungen erweitern (aktuell)
+## Phase 2: Alle Sammlungen (erledigt)
 
-- [ ] Neue Gruppen-Prompts entwickeln:
-  - F: Korrekturfahne (Druck + handschriftliche Korrekturen)
-  - H: Zeitungsausschnitt (Fraktur, Spalten-Layout)
-  - I: Korrespondenz (Briefstruktur, Anrede/Grußformel)
-- [ ] Test-Objekte aus Werken transkribieren (Clarissa, Montaigne, Korrekturfahne)
-- [ ] Test-Objekte aus Aufsatzablage (Zeitungsausschnitt)
-- [ ] Test-Objekt aus Korrespondenzen (Brief)
-- [ ] Viewer um Sammlungs-Navigation erweitern
+- [x] Neue Gruppen-Prompts: F Korrekturfahne, H Zeitungsausschnitt, I Korrespondenz
+- [x] Multi-Collection-Support in test_single.py (lebensdokumente, werke, aufsatzablage, korrespondenzen)
+- [x] TEI-Parser `pipeline/tei_context.py` für automatische Kontext-Generierung
+- [x] Enriched JSON-Output mit Metadaten und GAMS-URLs
+- [x] `pipeline/build_viewer_data.py` — baut docs/data.json aus Ergebnissen
+- [x] Test-Objekte aus allen 4 Sammlungen transkribiert (7/7 high confidence)
+- [x] Viewer mit Sammlungs-Tabs und dynamischem Laden aus data.json
 
-## Phase 3: Pipeline-Automatisierung
+## Phase 3: Pipeline-Automatisierung (nächster Schritt)
 
-- [ ] Objekt-Kontext automatisch aus TEI-XML generieren (statt manuell)
+- [ ] Objekt-Kontext automatisch aus TEI-XML generieren (tei_context.py ist fertig, noch nicht in test_single.py integriert als `--auto-context`)
 - [ ] Batch-Transkription: mehrere Objekte nacheinander
-- [ ] Gruppenzuordnung automatisch aus TEI-Metadaten ableiten
-- [ ] Ergebnisse strukturiert abspeichern (JSON pro Objekt)
+- [ ] Gruppenzuordnung automatisch aus TEI-Metadaten (`resolve_group()` ist fertig)
+- [ ] Ergebnisse strukturiert abspeichern
 
 ## Phase 4: Qualität & Vergleich
 
 - [ ] Provider-Vergleich: Gemini vs. Claude Vision vs. GPT-4o
 - [ ] Prompt-Iteration basierend auf Ergebnissen
-- [ ] Fraktur-Erkennung testen (Zeitungsausschnitte)
-- [ ] Schwierige Handschriften identifizieren (low confidence)
+- [ ] Fraktur-Erkennung testen (echte Fraktur-Zeitungsausschnitte finden)
+- [ ] Schwierige Handschriften identifizieren (Objekte mit low confidence suchen)
 
 ## Phase 5: TEI-Integration
 
@@ -62,6 +60,7 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 |---|---|
 | VLM | Gemini 3.1 Flash Lite (Preview) |
 | SDK | google-genai |
+| TEI-Parser | xml.etree.ElementTree (stdlib) |
 | Bilder | Direkt von GAMS (keine lokalen Kopien nötig) |
-| Output | JSON pro Objekt |
-| Viewer | Statisches HTML (GitHub Pages) |
+| Output | Enriched JSON pro Objekt |
+| Viewer | Statisches HTML + data.json (GitHub Pages) |

@@ -7,19 +7,30 @@ Dreischichtiges Prompt-System für die VLM-Transkription:
 | Schicht | Datei | Funktion |
 |---|---|---|
 | 1 — System | `system.md` | Rolle, Regeln, Output-Format (für alle Objekte gleich) |
-| 2 — Gruppe | `group_a–e_*.md` | Typspezifische Anweisungen pro Dokumentgruppe |
+| 2 — Gruppe | `group_*.md` | Typspezifische Anweisungen pro Dokumentgruppe |
 | 3 — Kontext | `context_template.md` | Objektspezifische Metadaten aus TEI (zur Laufzeit generiert) |
 
-### Gruppen
+### Gruppen (8 Stück)
 
-| Gruppe | Prompt | Objekte | Hauptmerkmal |
+| Gruppe | Prompt | Sammlungen | Hauptmerkmal |
 |---|---|---|---|
-| A | `group_a_handschrift.md` | Tagebücher, Notizbücher (12) | Zweigs Handschrift |
-| B | `group_b_typoskript.md` | Typoskripte, Durchschläge (74) | Maschinenschrift |
-| C | `group_c_formular.md` | Rechtsdokumente, Finanzen (25) | Druck + Handschrift gemischt |
-| D | `group_d_kurztext.md` | Diverses, Büromaterialien (27) | Wenig Text, heterogen |
-| E | `group_e_tabellarisch.md` | Verzeichnisse, Kalender (16) | Tabellarisch/Listen |
+| A | `group_a_handschrift.md` | Lebensdok., Werke | Zweigs Handschrift, Kurrent |
+| B | `group_b_typoskript.md` | Lebensdok., Werke, Aufsatz | Maschinenschrift, Durchschläge |
+| C | `group_c_formular.md` | Lebensdokumente | Formulare, Urkunden |
+| D | `group_d_kurztext.md` | Lebensdokumente | Kurztexte, Karten |
+| E | `group_e_tabellarisch.md` | Lebensdok., Aufsatz | Register, Kalender, Listen |
+| F | `group_f_korrekturfahne.md` | Werke, Aufsatz | Druck + handschriftl. Korrekturen |
+| H | `group_h_zeitungsausschnitt.md` | Aufsatzablage | Zeitungsdruck, ggf. Fraktur |
+| I | `group_i_korrespondenz.md` | Korrespondenzen | Briefe, Postkarten |
 
-### Erster Test Case
+## Scripts
 
-`example_theaterkarte.md` — vollständig zusammengesetzter Prompt für o:szd.161 (Theaterkarte Jeremias).
+| Script | Funktion |
+|---|---|
+| `test_single.py` | Einzelobjekt-Transkription (Multi-Collection, `--list` für verfügbare Tests) |
+| `tei_context.py` | TEI-Parser: extrahiert Metadaten, generiert Kontext, ordnet Gruppen zu |
+| `build_viewer_data.py` | Baut `docs/data.json` aus enriched Ergebnis-JSONs |
+
+## Beispiel
+
+`example_theaterkarte.md` — vollständig zusammengesetzter Prompt (alle 3 Schichten) für o:szd.161.

@@ -6,9 +6,9 @@ Aufbau einer HTR/OCR-Pipeline, die aus den digitalisierten Faksimiles des Stefan
 
 ## Repository
 
-- GitHub: https://github.com/chpollin/szd-htr
+- GitHub: https://github.com/chpollin/szd-htr-ocr-pipline
 - Sprache: Python
-- Lizenz: MIT (oder CC-BY für Daten, klären)
+- Lizenz: MIT
 
 ## Quelldaten
 
@@ -16,10 +16,10 @@ Die digitalisierten Faksimiles liegen lokal unter:
 
 ```
 C:\Users\Chrisi\Documents\PROJECTS\szd-backup\data\
-├── lebensdokumente/    ← Fokus dieses Projekts (127 Objekte)
-├── korrespondenzen/
-├── aufsatz/
-└── facsimiles/
+├── lebensdokumente/    ← 143 Objekte
+├── korrespondenzen/    ← 1186 Objekte
+├── aufsatz/            ← 624 Objekte (Aufsatzablage)
+└── facsimiles/         ← 352 Objekte (Werke/Manuskripte)
 ```
 
 ### Struktur pro Objekt
@@ -117,74 +117,41 @@ Faksimile (JPG) → Preprocessing → VLM/HTR → Rohtext → Nachverarbeitung �
 - EQUALIS-Evaluierung: Wie ändert sich XAI-Qualität bei HTR-Output vs. kuratierte MHDBDB-Daten?
 - Expert Review über Web-Interface
 
-## Gewünschte Projektstruktur
+## Aktuelle Projektstruktur
 
 ```
-szd-htr/
-├── CLAUDE.md                  ← dieses Dokument
+szd-htr-ocr-pipline/
+├── CLAUDE.md                       ← dieses Dokument
 ├── README.md
-├── pyproject.toml             ← Python-Projekt mit uv
-├── src/
-│   └── szd_htr/
-│       ├── __init__.py
-│       ├── config.py          ← Pfade, API-Keys, Modellkonfiguration
-│       ├── loader.py          ← Laden von Bildern + Metadaten aus Backup
-│       ├── transcribe.py      ← VLM-basierte Transkription
-│       ├── postprocess.py     ← Nachverarbeitung, Konfidenz
-│       └── output.py          ← JSON/TEI Output-Formatierung
-├── scripts/
-│   ├── select_sample.py       ← Beispielobjekte aus Backup auswählen und kopieren
-│   └── run_pipeline.py        ← Pipeline auf ausgewählte Objekte anwenden
+├── Plan.md                         ← Implementierungsplan (Phase 1+2 erledigt)
+├── pipeline/
+│   ├── prompts/                    ← 8 Gruppen-Prompts + System-Prompt + Kontext-Template
+│   ├── test_single.py              ← Einzelobjekt-Transkription (Multi-Collection)
+│   ├── tei_context.py              ← TEI-Parser für automatische Kontext-Generierung
+│   └── build_viewer_data.py        ← Baut docs/data.json aus Ergebnissen
 ├── data/
-│   └── sample/                ← Kopie der ausgewählten Beispielobjekte (nicht committet)
-├── results/
-│   └── sample/                ← Transkriptionsergebnisse (committet als Referenz)
+│   ├── szd_lebensdokumente_tei.xml ← TEI-Metadaten (143 Objekte)
+│   ├── szd_werke_tei.xml           ← TEI-Metadaten (352 Objekte)
+│   ├── szd_aufsatzablage_tei.xml   ← TEI-Metadaten (624 Objekte)
+│   └── szd_korrespondenzen_tei.xml ← TEI-Metadaten (723 Einträge)
+├── results/test/                   ← Enriched JSON-Ergebnisse (7 Objekte)
+├── knowledge/                      ← Research-Vault (Datenanalysen, Journal)
+├── docs/
+│   ├── index.html                  ← Ergebnisübersicht (GitHub Pages)
+│   ├── viewer.html                 ← Faksimile↔Transkription-Viewer
+│   └── data.json                   ← Viewer-Daten (generiert)
 ├── .gitignore
-└── .env                       ← API Keys (nicht committet)
+└── .env                            ← API Keys (nicht committet)
 ```
 
 ## Technische Entscheidungen
 
-- **Python mit uv** als Package Manager
-- **Anthropic SDK** für Claude Vision API (primäres Transkriptionsmodell)
+- **Google Gemini 3.1 Flash Lite** als primäres Transkriptionsmodell (günstig, schnell, multimodal)
+- **Dreischichtiges Prompt-System**: System-Prompt → Gruppen-Prompt (A–I) → Objekt-Kontext (aus TEI)
 - **Kein Server/Backend** — lokale CLI-Pipeline, Ergebnisse als JSON-Dateien
-- **Bilder nicht ins Repo** — nur Metadaten und Ergebnisse committen, Bilder aus lokalem Backup referenzieren
-- **Kategoriale Konfidenz** statt numerischer Scores (Erfahrung aus coOCR HTR: LLMs können Transkriptionsqualität nicht zuverlässig numerisch einschätzen)
-
-## Aufgabe: Projekt einrichten
-
-### Schritt 1: Repository-Grundstruktur
-
-- `pyproject.toml` mit Abhängigkeiten: `anthropic`, `Pillow`, `python-dotenv`
-- Projektstruktur wie oben anlegen
-- `.gitignore`: data/sample/, .env, __pycache__, *.pyc
-- `.env.example` mit `ANTHROPIC_API_KEY=`
-
-### Schritt 2: Loader-Modul
-
-- `loader.py`: Funktion zum Laden eines Objekts anhand der ID aus dem Backup-Pfad
-  - Liest metadata.json
-  - Listet verfügbare Bilder
-  - Gibt strukturiertes Objekt zurück (dataclass oder dict)
-- `select_sample.py`: Script das die 10 Beispielobjekte anhand ihrer Signaturen aus dem Backup findet und nach `data/sample/` kopiert (symlink oder copy)
-
-### Schritt 3: Transkriptions-Modul
-
-- `transcribe.py`: Nimmt ein Objekt, sendet Bilder an Claude Vision API
-  - Prompt enthält: Sprache, Objekttyp, Transkriptionsanweisungen
-  - Pro Seite ein API-Call (oder Batch bei wenigen Seiten)
-  - Ergebnis: Rohtext pro Seite
-- Sinnvoller System-Prompt für die Transkription historischer Dokumente (Zweig-Nachlass, gemischte Schriftarten, mehrsprachig)
-
-### Schritt 4: Erster Testlauf
-
-- Pipeline auf 2-3 der einfacheren Objekte laufen lassen (z.B. Theaterkarte, Bescheid, Certificate of Naturalization)
-- Ergebnisse nach `results/sample/` schreiben
-- Output-Format: Ein JSON pro Objekt mit Seiten-Transkriptionen
-
-### Schritt 5: README
-
-- Kurzes README mit Projektbeschreibung, Setup-Anleitung, Usage
+- **Bilder direkt von GAMS** — kein Download nötig, GAMS-URLs als `<img src>` im Viewer
+- **Kategoriale Konfidenz** (high/medium/low) statt numerischer Scores
+- **8 Prompt-Gruppen**: A Handschrift, B Typoskript, C Formular, D Kurztext, E Tabellarisch, F Korrekturfahne, H Zeitungsausschnitt, I Korrespondenz
 
 ## Verwandte Projekte (als methodische Referenz)
 

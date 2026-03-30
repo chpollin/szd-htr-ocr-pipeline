@@ -106,9 +106,82 @@ Aus der Analyse der Werke, Aufsatzablage und Korrespondenzen ergeben sich 4 neue
 - [ ] Konvolute: Wie geht die Pipeline mit gemischten Dokumenttypen in einem Objekt um?
 - [ ] Viewer: Sammlungs-Tabs einbauen, damit man zwischen Lebensdokumente/Werke/Aufsatz/Korrespondenz wechseln kann
 
+### Nächste Schritte (abgeschlossen in Session 3)
+
+1. ~~Neue Prompts entwickeln für Gruppen F, H, I~~
+2. ~~Je 1 Testobjekt pro neuer Gruppe transkribieren~~
+3. ~~Viewer um Sammlungs-Navigation erweitern~~
+4. Ergebnisse vergleichen und Prompts iterieren
+
+---
+
+## 2026-03-30 — Session 3: Phase 2 abgeschlossen, alle Sammlungen integriert
+
+### Neue Gruppen-Prompts
+
+Drei neue Prompt-Dateien in `pipeline/prompts/`:
+- `group_f_korrekturfahne.md` — Gedruckter Text + handschriftliche Korrekturen (Tintenfarben als Korrektur-Runden)
+- `group_h_zeitungsausschnitt.md` — Zeitungsdruck, Fraktur-Hinweise (s/f, ch/ck), Spalten-Layout
+- `group_i_korrespondenz.md` — Briefstruktur (Anrede/Grußformel), Postkarten-Doppelseiten
+
+Gruppe G (Konvolut) bewusst noch nicht umgesetzt — zu wenige Objekte (24), zu heterogen. Kann bei Bedarf später ergänzt werden.
+
+### Pipeline auf Multi-Collection erweitert
+
+`test_single.py` refactored:
+- `BACKUP_ROOT` zeigt jetzt auf `szd-backup/data/` (nicht mehr `/lebensdokumente/`)
+- `COLLECTIONS`-Dict mappt Sammlung → Backup-Unterordner
+- Jeder Test Case hat ein `collection`-Feld
+- Enriched JSON-Output enthält Metadaten + GAMS-URLs
+- `--list` zeigt alle verfügbaren Tests
+
+Neue Module:
+- `tei_context.py` — TEI-Parser mit `parse_tei_for_object()`, `format_context()`, `resolve_group()`, `context_from_backup_metadata()` (Fallback für Korrespondenzen)
+- `build_viewer_data.py` — baut `docs/data.json` aus enriched Ergebnis-JSONs
+
+### Drei neue Test-Objekte transkribiert
+
+| Objekt | Sammlung | Gruppe | Confidence | Beobachtung |
+|---|---|---|---|---|
+| Der Bildner (o:szd.287) | Werke | F: Korrekturfahne | high | Komplettes Rodin-Gedicht fehlerfrei, Stempel erkannt |
+| Aus der Werkstatt der Dichter (o:szd.2215) | Aufsatzablage | H: Zeitungsausschnitt | high | Zweigs Werkstatt-Essay, Antiqua (kein Fraktur-Test) |
+| Brief an Max Fleischer (o:szd.1079) | Korrespondenzen | I: Korrespondenz | high | Briefumschlag + Text, Zweigs Jugendhandschrift (1901) |
+
+**Gesamtstand: 7/7 Objekte, alle high confidence, alle 4 Sammlungen abgedeckt.**
+
+### Viewer mit Sammlungs-Navigation
+
+`docs/viewer.html` komplett umgebaut:
+- Daten aus `docs/data.json` geladen (kein hardcoded JavaScript mehr)
+- Sammlungs-Tabs: Alle | Lebensdokumente | Werke | Aufsatzablage | Korrespondenzen
+- Neue Tag-Farben für Gruppen F, H, I
+- `build_viewer_data.py` als Build-Schritt
+
+### Refactoring
+
+- Prompts werden aus Markdown-Dateien geladen (nicht mehr dupliziert in test_single.py)
+- Pfade konfigurierbar via Umgebungsvariablen (`SZD_BACKUP_ROOT`, `HTR_MODEL`)
+- Error-Handling für fehlende Bilder, API-Fehler, unbekannte Tests
+- Repo-URL konsistent: `szd-htr-ocr-pipline`
+
+### Erkenntnisse
+
+1. **Gemini 3.1 Flash Lite meistert alle Dokumenttypen** — Handschrift, Typoskript, Korrekturfahnen, Zeitungsausschnitte, Briefe. Kein einziges Objekt unter high confidence.
+2. **Fraktur noch nicht getestet** — der Zeitungsausschnitt war Antiqua. Echte Fraktur-Ausschnitte müssen noch gezielt gesucht werden.
+3. **Korrespondenzen-TEI hat keine physischen Beschreibungen** — Fallback auf Backup-metadata.json funktioniert. Der Kontext ist dünner, aber die Gruppen-Prompts kompensieren.
+4. **GAMS-URLs als direkte Bildquellen** funktionieren zuverlässig für den Viewer.
+5. **Enriched JSON-Format** (Metadaten + Ergebnis in einer Datei) vereinfacht den Viewer-Build erheblich.
+
+### Offene Fragen
+
+- [ ] Fraktur-Erkennung: Gezielt Zeitungsausschnitte mit Fraktur suchen und testen
+- [ ] `--auto-context` Flag in test_single.py integrieren (tei_context.py ist fertig)
+- [ ] Batch-Modus für mehrere Objekte nacheinander
+- [ ] Provider-Vergleich: Claude Vision und GPT-4o gegen Gemini testen
+- [ ] Gruppe G (Konvolut) bei Bedarf ergänzen
+
 ### Nächste Schritte
 
-1. Neue Prompts entwickeln für Gruppen F, H, I
-2. Je 1 Testobjekt pro neuer Gruppe transkribieren
-3. Viewer um Sammlungs-Navigation erweitern
-4. Ergebnisse vergleichen und Prompts iterieren
+1. Phase 3: `--auto-context` und Batch-Transkription
+2. Phase 4: Provider-Vergleich, Fraktur-Tests, Prompt-Iteration
+3. Phase 5: TEI-Integration via teiCrafter
