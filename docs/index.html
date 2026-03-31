@@ -143,303 +143,143 @@
         }
         footer a { color: var(--accent); }
         del { color: #999; text-decoration: line-through; }
+        .loading { text-align: center; padding: 3rem; color: #888; }
     </style>
 </head>
 <body>
 
-<h1>SZD-HTR-OCR-Pipeline <span>Erste Testergebnisse</span></h1>
+<h1>SZD-HTR-OCR-Pipeline <span>Transkriptionsergebnisse</span></h1>
 <p class="subtitle">
     VLM-basierte Transkription von Faksimiles aus dem
     <a href="https://stefanzweig.digital/">Stefan-Zweig-Nachlass</a>
     (Literaturarchiv Salzburg).<br>
-    Modell: <strong>Gemini 3.1 Flash Lite</strong> (Preview) &mdash;
-    <a href="https://github.com/chpollin/szd-htr-ocr-pipline">GitHub</a> ·
-        <a href="viewer.html">Viewer</a>
+    <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">GitHub</a> &middot;
+    <a href="viewer.html">Viewer</a>
 </p>
 
-<div class="stats">
-    <div class="stat-card">
-        <div class="stat-num">4</div>
-        <div class="stat-label">Objekte getestet</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-num">4/4</div>
-        <div class="stat-label">Confidence: high</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-num">143</div>
-        <div class="stat-label">Objekte im Bestand</div>
-    </div>
-    <div class="stat-card">
-        <div class="stat-num">5</div>
-        <div class="stat-label">Prompt-Gruppen</div>
-    </div>
+<div class="stats" id="stats">
+    <div class="loading">Lade Daten&hellip;</div>
 </div>
 
-<h2>D: Kurztext &mdash; Theaterkarte Jeremias 1918</h2>
-
-<div class="object-card">
-    <div class="object-header">
-        <h3>Theaterkarte zur Uraufführung von &bdquo;Jeremias&ldquo; 1918</h3>
-        <div class="tags">
-            <span class="tag tag-group">D: Kurztext</span>
-            <span class="tag tag-lang">Deutsch</span>
-            <span class="tag tag-confidence-high">high</span>
-        </div>
-    </div>
-    <div class="meta-row">
-        <span>o:szd.161</span> &middot; SZ-SDP/L2 &middot; 27. Febr. 1918 &middot; Eintrittskarte &middot; Hand: Friderike Zweig &middot; Bleistift
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 1 &mdash; Vorderseite</div>
-        <div class="transcription">I. Rang Seiten-Loge
-Links
-27. Febr. 1918
-Loge 5 Platz 5
-Stadttheater Zürich</div>
-        <div class="page-notes">Vorderseite der Eintrittskarte (gedruckt).</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 2 &mdash; Rückseite</div>
-        <div class="transcription">Jerem.
-Uraufführung</div>
-        <div class="page-notes">Rückseite der Eintrittskarte (handschriftlich mit Bleistift).</div>
-    </div>
-</div>
-
-<h2>C: Formular &mdash; Certified Copy of an Entry of Marriage</h2>
-
-<div class="object-card">
-    <div class="object-header">
-        <h3>Certified Copy of an Entry of Marriage</h3>
-        <div class="tags">
-            <span class="tag tag-group">C: Formular</span>
-            <span class="tag tag-lang">English</span>
-            <span class="tag tag-confidence-high">high</span>
-        </div>
-    </div>
-    <div class="meta-row">
-        <span>o:szd.160</span> &middot; SZ-SDP/L1 &middot; Sixth September 1939 &middot; Typoskript &middot; Hand: Fremde Hand &middot; Schwarze Tinte
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 1</div>
-        <div class="transcription">[Printed by authority of the Registrar General.]
-CERTIFIED COPY of an ENTRY OF MARRIAGE
-Pursuant to the Marriage Act 1949
-TC 574271
-M. Cert. S.R.
-Registration District Bath
-1939. Marriage solemnized at The Register Office in the
-District of Bath in the county Borough of Bath.
-
-138 | Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband
-of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge
-Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer
-
-| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary |
-Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) |
-Hardware merchant
-
-Married in the Register Office by licence before by me,
-D Clegg Registrar
-E J Button Supt. Registrar
-This marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte
-Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann
-
-Certified to be a true copy of an entry in a register in my custody,
-[Unterschrift]
-Superintendent Registrar
-
-CAUTION:—Any person who (i) falsifies any of the particulars on this
-certificate, or (2) uses a falsified certificate as true, knowing it to
-be false, is liable to prosecution. 3rd September 1980</div>
-        <div class="page-notes">Stempel des 'General Register Office', handschriftliche Unterschrift des Superintendent Registrar. Tabellarische Struktur linearisiert.</div>
-    </div>
-</div>
-
-<h2>B: Typoskript &mdash; Verlagsvertrag Grasset</h2>
-
-<div class="object-card">
-    <div class="object-header">
-        <h3>Verlagsvertrag Grasset &mdash; Marie Antoinette</h3>
-        <div class="tags">
-            <span class="tag tag-group">B: Typoskript</span>
-            <span class="tag tag-lang">Français</span>
-            <span class="tag tag-confidence-high">high</span>
-        </div>
-    </div>
-    <div class="meta-row">
-        <span>o:szd.78</span> &middot; SZ-AAP/L13.1 &middot; 1. Februar 1932 &middot; Typoskript &middot; Hand: Stefan Zweig, fremde Hand &middot; Violettes Farbband
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 1 &mdash; Recto</div>
-        <div class="transcription">ENTRE LES SOUSSIGNÉS :
-1° Monsieur Stefan ZWEIG , <del>xxxxxxxxxxxx</del>
-demeurant à SALZBURG , Kapuzinerberg 5 , AUTRICHE
-
-2° Les Editions BERNARD GRASSET, rue des Saints Pères n° 61.
-IL A ÉTÉ CONVENU CE QUI SUIT :
-
-Monsieur Stefan ZWEIG cède aux Éditions
-BERNARD GRASSET, pour tout le temps que durera sa propriété littéraire et celle
-de ses héritiers, le droit exclusif d'imprimer, de publier et de vendre {un} ouvrage
-de sa composition portant comme titre :
-MARIE ANTOINETTE
-
-La publication aura lieu aux conditions suivantes :
-I. - Il sera d'abord établi une édition dans le format in-16 double cou-
-ronne dont le prix sera déterminé par l'éditeur, sur la base du prix actuel de
-quinze francs.
-II. - Le premier tirage sera de : DIX MILLE EXEMPLAIRES
-
-III. - Il sera tiré en sus du premier tirage TROIS CENTS exemplaires qui
-seront consacrés au service de presse et CINQUANTE exemplaires qui seront
-remis à l'auteur pour ses hommages personnels.
-IV. - Comme prix de la cession qui leur est faite, les Éditions BERNARD
-GRASSET paieront à M. Stefan ZWEIG des droits d'auteur de :
-DIX POUR CENT du prit fort de vente jusqu'au
-QUINZIEME MILLE ; QUINZE POUR CENT au delà.
-
-[…Paragraphen V–VII, teils durchgestrichen…]</div>
-        <div class="page-notes">Stempel und handschriftliche Vermerke am linken Rand. Durchgestrichene Passagen transkribiert.</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 2 &mdash; Verso</div>
-        <div class="transcription">[…Paragraphen VIII–XII…]
-
-Fait double à PARIS, le Premier
-Février, mil neuf cent trente deux.
-
-Lu et approuvé
-[Unterschrift Bernard Grasset?]
-
-Lu et approuvé
-Stefan Zweig</div>
-        <div class="page-notes">Handschriftliche Zusätze „Lu et approuvé" und Unterschriften deutlich erkennbar.</div>
-    </div>
-</div>
-
-<h2>A: Handschrift &mdash; Tagebuch 1918</h2>
-
-<div class="object-card">
-    <div class="object-header">
-        <h3>Tagebuch 1918 &mdash; Montreux, September</h3>
-        <div class="tags">
-            <span class="tag tag-group">A: Handschrift</span>
-            <span class="tag tag-lang">Deutsch</span>
-            <span class="tag tag-confidence-high">high</span>
-        </div>
-    </div>
-    <div class="meta-row">
-        <span>o:szd.72</span> &middot; SZ-AAP/L6 &middot; [1918] &middot; Notizbuch, 19 Blatt &middot; Hand: Stefan Zweig &middot; Violette Tinte &middot; <em>5 von 39 Seiten transkribiert (Testlauf)</em>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 1 &mdash; 20. September, Freitag</div>
-        <div class="transcription">Montreux 20. September, Freitag.
-Das Tagebuch nach mehr als einem halben Jahre
-wieder aufgenommen. Die Zeit war tot, nun wird sie
-weiterdings grauenhaft lebendig. Ich war müde des
-Sinnlosen, nun findet sich allmählich wieder ein Sinn
-der Zeit, oder besser: der immer in dieser Krise verborgene
-Sinn beginnt sich zu zeigen. In den letzten Wochen schon,
-seit der denkwürdigen Kriegswende u. der zweiten Mar-
-neschlacht war viel wichtig für mich nebst eigener Arbeit,
-jene Polemik vorerst, die mein Aufsatz in der Neuen Zür-
-cher Zeitung erregte, dann die Besprechung mit Gieser,
-der mir seine allerhöchste Unzufriedenheit einschüchternd
-mitteilen wollte u. dabei auf eigene Entschlossenheit stieß
-(denn von dem Cadaver Österreichs lasse ich mich nicht
-mehr einschüchtern u. noch weniger von seinen Diplomaten,
-die das stille u. beschämliche Land in den Abgrund eines
-falschen Heroismus gestoßen haben.) Dann eine kurze Stelle
-Hoffnung: das Friedensangebot, bald zerschellt an der stei-
-nern fest aufgetürmten Mauer des andern Imperialismus.
-Ein wenig Freiheit der Sinne gab dann die Fahrt in die Ber-
-ge: ich habe gelernt, gegen den unnützen Flagellantismus
-anzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-
-dankenstrichen. Man muss die Kunst lernen, dumpf zu leben</div>
-        <div class="page-notes">Sehr gut lesbar, typische Handschrift Zweigs.</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 2</div>
-        <div class="transcription">sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,
-Hemmung und nicht Befreiung. Hier in Montreux in einem
-kleinen Zimmer hoch über dem See milder Ausblick und
-stillerer Blick nach innen. Das Wetter noch umwölkt aber
-mit Aussicht auf Klärung.
-Abends kommt Chapiro uns besuchen, dieser drollige und
-liebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie
-er von seiner riesenhaften Familie daheim in Kiow erzählt; wenn
-die auf Reisen gingen, brauchten sie einen ganzen Waggon, sie
-konnten nie zusammen eine Tramway benützen. So war immer
-eine Schar, die Köchin musste zum Einkaufen auf den Markt
-immer einen Wagen mitfahren. Auch von der Zeit erzählt er
-wo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und
-ihm abends alle Gelenke krachten. Aber vom Heitern kommen
-wir zum Ernsten: auch er ist einer, den Rolland „gerettet"
-hat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit
-für ihn, half ihm in jeder Weise. R. ist jetzt mitten im Kriege
-und auf der Höhe seines Ruhmes noch nicht frei von Geld-
-sorgen, weil er seine ganze Familie ernährt und eine Reihe von
-Freunden unterstützt.</div>
-        <div class="page-notes">R. = Romain Rolland. „fr. Cons." vermutlich „französischer Konsul".</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 3 &mdash; 21. September, Samstag</div>
-        <div class="transcription">rührendsten, das man sich denken kann und je mehr man
-von ihm erfährt, desto grösser wird das Gefühl von der Ein-
-zigheit seiner Gestalt, die ein unendliches Wissen um die Dinge
-mit einer unzerstörbaren Liebe zu den Menschen vereint. Seine
-Unermüdlichkeit hat etwas Herodes wie überhaupt die ungeheure
-Einsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn
-wir von ihm sprechen.
-Samstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von
-Zauberischer Schönheit. Ich sitze auf der Terrasse in der Sonne,
-zum erstenmal seit langer Zeit wieder in Person lebend, ge-
-lesenen und geschriebenen. Das Bewusstsein, nachmittags zu
-R. zu gehen, ein Licht über den Tag! Ein kleiner Geruch wächst
-her aus der Landschaft heraus, das erste seit einer Unendlich-
-keit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine
-<del>Eltern</del> Mutter, sie ist ein wenig hinfälliger geworden, aber dies-
-mal im Gegensatz zum vergangenen Jahr ganz offen zu uns und
-von besonderer Herzlichkeit.</div>
-        <div class="page-notes">R. = Romain Rolland. Durchstreichung „Eltern" → Korrektur zu „Mutter".</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 4</div>
-        <div class="transcription">irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er
-ist sehr verzweifelt über den Augenblick: wie das freie Den-
-ken immer mehr zusammen schmilzt, der Heroismus einzig
-sich in den gewohnten, ererbten, Idealen auslebt. Er sieht
-die Eroberung Frankreichs durch Amerika, den Geist dieses neuen
-Krieges nicht verewigt, die Sieger in der Entente vereint und
-verschönt, Generationen in einer Selbstglorie, den Stolz als
-Triumphator der Welt. Ein tiefes Misstrauen hat sich seines
-Wesens bemächtigt, das die ganze Zeit umfasst [...]</div>
-        <div class="page-notes">Einige Stellen etwas flüchtig geschrieben, aber im Kontext gut lesbar.</div>
-    </div>
-    <div class="page">
-        <div class="page-label">Seite 5 &mdash; 22./23. September</div>
-        <div class="transcription">schenisse ins Unrecht setzen. Für Jahre zumindest. Aber „le
-temps viendra!" Abends dann noch kleine Arbeit.
-22. Sept. Sonntag Regentag und voll mit geschäftlichen
-literarischen Schreibereien. Feuilleton über Falsi, ein Dutzend
-Briefe, veranlasst durch die plötzliche Annahme der „Legende"?
-[...]
-Verlorener Tag! so voll er voll Arbeit (scheinbarer) war.
-23. Sept. Montag Noch Nachwehen von Schreibereien aus</div>
-        <div class="page-notes">Gute Lesbarkeit.</div>
-    </div>
-</div>
+<div id="content"></div>
 
 <footer>
     <p>
-        <a href="https://github.com/chpollin/szd-htr-ocr-pipline">SZD-HTR-OCR-Pipeline</a> &mdash;
+        <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">SZD-HTR-OCR-Pipeline</a> &mdash;
         Teilprojekt von <a href="https://stefanzweig.digital/">Stefan Zweig Digital</a>,
         Literaturarchiv Salzburg.
-        Modell: Gemini 3.1 Flash Lite (Preview). Stand: 30. März 2026.
     </p>
 </footer>
+
+<script>
+const COLLECTION_LABELS = {
+    "lebensdokumente": "Lebensdokumente",
+    "werke": "Werke",
+    "aufsatzablage": "Aufsatzablage",
+    "korrespondenzen": "Korrespondenzen"
+};
+
+function escapeHtml(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/~~(.+?)~~/g, '<del>$1</del>');
+}
+
+async function init() {
+    let data;
+    try {
+        const resp = await fetch('data.json');
+        data = await resp.json();
+    } catch (e) {
+        document.getElementById('stats').innerHTML =
+            '<div class="loading">Fehler beim Laden der Daten.</div>';
+        return;
+    }
+
+    const objects = data.objects || [];
+    const collections = data.collections || [];
+
+    // Unique groups and confidence counts
+    const groups = new Set(objects.map(o => o.group + ': ' + o.groupLabel));
+    const highCount = objects.filter(o => o.confidence === 'high').length;
+    const models = new Set(objects.map(o => o.model).filter(Boolean));
+
+    // Stats
+    document.getElementById('stats').innerHTML = `
+        <div class="stat-card">
+            <div class="stat-num">${objects.length}</div>
+            <div class="stat-label">Objekte getestet</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">${highCount}/${objects.length}</div>
+            <div class="stat-label">Confidence: high</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">${collections.length}</div>
+            <div class="stat-label">Sammlungen</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">${groups.size}</div>
+            <div class="stat-label">Prompt-Gruppen</div>
+        </div>
+    `;
+
+    // Model info
+    if (models.size > 0) {
+        const subtitle = document.querySelector('.subtitle');
+        subtitle.innerHTML += `<br>Modell: <strong>${[...models].join(', ')}</strong>`;
+    }
+
+    // Object cards grouped by collection
+    const content = document.getElementById('content');
+    let html = '';
+
+    for (const col of collections) {
+        const colObjects = objects.filter(o => o.collection === col);
+        const colLabel = COLLECTION_LABELS[col] || col;
+        html += `<h2>${colLabel} (${colObjects.length})</h2>`;
+
+        for (const obj of colObjects) {
+            const pages = obj.pages || [];
+            const confClass = `tag-confidence-${obj.confidence || 'medium'}`;
+
+            html += `<div class="object-card">`;
+            html += `<div class="object-header">`;
+            html += `<h3>${escapeHtml(obj.title || obj.label)}</h3>`;
+            html += `<div class="tags">`;
+            html += `<span class="tag tag-group">${obj.group}: ${obj.groupLabel}</span>`;
+            if (obj.lang) html += `<span class="tag tag-lang">${escapeHtml(obj.lang)}</span>`;
+            if (obj.confidence) html += `<span class="tag ${confClass}">${obj.confidence}</span>`;
+            html += `</div></div>`;
+
+            html += `<div class="meta-row">`;
+            html += `<span>${obj.pid}</span>`;
+            if (obj.model) html += ` &middot; ${escapeHtml(obj.model)}`;
+            if (pages.length) html += ` &middot; ${pages.length} Seiten`;
+            html += `</div>`;
+
+            for (let i = 0; i < pages.length; i++) {
+                const page = pages[i];
+                html += `<div class="page">`;
+                html += `<div class="page-label">Seite ${page.page || i + 1}</div>`;
+                html += `<div class="transcription">${escapeHtml(page.transcription || '')}</div>`;
+                if (page.notes) {
+                    html += `<div class="page-notes">${escapeHtml(page.notes)}</div>`;
+                }
+                html += `</div>`;
+            }
+
+            html += `</div>`;
+        }
+    }
+
+    content.innerHTML = html;
+}
+
+init();
+</script>
 
 </body>
 </html>

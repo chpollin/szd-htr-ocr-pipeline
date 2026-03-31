@@ -138,12 +138,14 @@ def resolve_group(metadata: dict, collection: str) -> str:
         return "handschrift"
     if "manuskript" in otyp:
         return "handschrift"
-    if "typoskript" in otyp:
-        return "typoskript"
+    # Formular-Checks vor generischem Typoskript — ein Typoskript mit
+    # Klassifikation "Rechtsdokumente" ist semantisch ein Formular.
     if any(x in otyp for x in ("urkunde", "passkopie", "bescheid", "nachweis", "geburtsschein")):
         return "formular"
     if any(x in classif for x in ("rechtsdokumente", "finanzen")):
         return "formular"
+    if "typoskript" in otyp or "durchschlag" in otyp:
+        return "typoskript"
     if any(x in otyp for x in ("register", "kalender", "adressbuch", "kontorbuch")):
         return "tabellarisch"
     if any(x in classif for x in ("verzeichnisse", "kalender")):
@@ -153,7 +155,4 @@ def resolve_group(metadata: dict, collection: str) -> str:
     if any(x in classif for x in ("diverses", "büromaterialien")):
         return "kurztext"
 
-    # Default: typoskript for typed, handschrift for everything else
-    if "typoskript" in otyp or "durchschlag" in otyp:
-        return "typoskript"
     return "handschrift"

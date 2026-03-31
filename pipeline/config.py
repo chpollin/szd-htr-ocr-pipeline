@@ -1,0 +1,44 @@
+"""Gemeinsame Konfiguration für die SZD-HTR-Pipeline."""
+
+import os
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+# .env automatisch laden
+load_dotenv()
+
+# --- Pfade ---
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
+RESULTS_DIR = PROJECT_ROOT / "results" / "test"
+PROMPTS_DIR = SCRIPT_DIR / "prompts"
+BACKUP_ROOT = Path(os.environ.get(
+    "SZD_BACKUP_ROOT",
+    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data"
+))
+
+# --- API ---
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
+MODEL = os.environ.get("HTR_MODEL", "gemini-3.1-flash-lite-preview")
+
+# --- Sammlungen ---
+COLLECTIONS = {
+    "lebensdokumente": {"subdir": "lebensdokumente", "tei": "szd_lebensdokumente_tei.xml"},
+    "werke":           {"subdir": "facsimiles",       "tei": "szd_werke_tei.xml"},
+    "aufsatzablage":   {"subdir": "aufsatz",          "tei": "szd_aufsatzablage_tei.xml"},
+    "korrespondenzen": {"subdir": "korrespondenzen",  "tei": "szd_korrespondenzen_tei.xml"},
+}
+
+# --- Prompt-Gruppen ---
+GROUP_LABELS = {
+    "kurztext":          ("D", "Kurztext"),
+    "handschrift":       ("A", "Handschrift"),
+    "typoskript":        ("B", "Typoskript"),
+    "formular":          ("C", "Formular"),
+    "tabellarisch":      ("E", "Tabellarisch"),
+    "korrekturfahne":    ("F", "Korrekturfahne"),
+    "zeitungsausschnitt": ("H", "Zeitungsausschnitt"),
+    "korrespondenz":     ("I", "Korrespondenz"),
+}

@@ -1,23 +1,10 @@
 """Build docs/data.json from enriched result files for the viewer."""
 
 import json
-from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-RESULTS_DIR = PROJECT_ROOT / "results" / "test"
+from config import GROUP_LABELS, PROJECT_ROOT, RESULTS_DIR
+
 OUTPUT_PATH = PROJECT_ROOT / "docs" / "data.json"
-
-GROUP_LABELS = {
-    "kurztext": ("D", "Kurztext"),
-    "handschrift": ("A", "Handschrift"),
-    "typoskript": ("B", "Typoskript"),
-    "formular": ("C", "Formular"),
-    "tabellarisch": ("E", "Tabellarisch"),
-    "korrekturfahne": ("F", "Korrekturfahne"),
-    "zeitungsausschnitt": ("H", "Zeitungsausschnitt"),
-    "korrespondenz": ("I", "Korrespondenz"),
-}
 
 
 def build():

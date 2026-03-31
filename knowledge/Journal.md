@@ -19,13 +19,13 @@ Dieses Journal dokumentiert alle Arbeitssessions, Erkenntnisse und Entscheidunge
   - Erfahrung aus coOCR HTR: LLMs können Qualität nicht zuverlässig numerisch einschätzen
 
 ### Offene Fragen
-- [ ] Wie gut erkennt Gemini 3.1 Flash-Lite Kurrentschrift? → Testlauf nötig
+- [x] Wie gut erkennt Gemini 3.1 Flash-Lite Kurrentschrift? → Ergebnis: high confidence bei Zweigs Handschrift (Session 2)
 - [ ] Optimale Bildgröße für API-Calls? Originale sind 4912×7360 (~1.4MB)
 - [ ] Lizenz klären: MIT für Code, CC-BY für Daten?
 
-### Nächste Schritte
-- Phase 1 umsetzen: pyproject.toml, Verzeichnisstruktur, Config
-- Object-IDs der 10 Startset-Objekte ermitteln
+### Nächste Schritte (erledigt in Session 2)
+- ~~Phase 1 umsetzen: pyproject.toml, Verzeichnisstruktur, Config~~
+- ~~Object-IDs der 10 Startset-Objekte ermitteln~~
 
 ---
 
@@ -104,14 +104,7 @@ Aus der Analyse der Werke, Aufsatzablage und Korrespondenzen ergeben sich 4 neue
 - [ ] Wie gut erkennt Gemini Frakturschrift? → Test mit Zeitungsausschnitt nötig
 - [ ] Korrekturfahnen: Wie markiert man Korrekturen im Output? Brauchen wir ein erweitertes Markup?
 - [ ] Konvolute: Wie geht die Pipeline mit gemischten Dokumenttypen in einem Objekt um?
-- [ ] Viewer: Sammlungs-Tabs einbauen, damit man zwischen Lebensdokumente/Werke/Aufsatz/Korrespondenz wechseln kann
-
-### Nächste Schritte (abgeschlossen in Session 3)
-
-1. ~~Neue Prompts entwickeln für Gruppen F, H, I~~
-2. ~~Je 1 Testobjekt pro neuer Gruppe transkribieren~~
-3. ~~Viewer um Sammlungs-Navigation erweitern~~
-4. Ergebnisse vergleichen und Prompts iterieren
+- [x] Viewer: Sammlungs-Tabs einbauen → Erledigt in Session 3
 
 ---
 
@@ -162,7 +155,7 @@ Neue Module:
 - Prompts werden aus Markdown-Dateien geladen (nicht mehr dupliziert in test_single.py)
 - Pfade konfigurierbar via Umgebungsvariablen (`SZD_BACKUP_ROOT`, `HTR_MODEL`)
 - Error-Handling für fehlende Bilder, API-Fehler, unbekannte Tests
-- Repo-URL konsistent: `szd-htr-ocr-pipline`
+- Repo-URL konsistent: `szd-htr-ocr-pipeline`
 
 ### Erkenntnisse
 
@@ -174,14 +167,68 @@ Neue Module:
 
 ### Offene Fragen
 
-- [ ] Fraktur-Erkennung: Gezielt Zeitungsausschnitte mit Fraktur suchen und testen
-- [ ] `--auto-context` Flag in test_single.py integrieren (tei_context.py ist fertig)
+- [x] `--auto-context` in test_single.py integrieren → Erledigt im Refactoring (Session 4, 2026-03-31)
 - [ ] Batch-Modus für mehrere Objekte nacheinander
 - [ ] Provider-Vergleich: Claude Vision und GPT-4o gegen Gemini testen
 - [ ] Gruppe G (Konvolut) bei Bedarf ergänzen
 
-### Nächste Schritte
+---
 
-1. Phase 3: `--auto-context` und Batch-Transkription
-2. Phase 4: Provider-Vergleich, Fraktur-Tests, Prompt-Iteration
-3. Phase 5: TEI-Integration via teiCrafter
+## 2026-03-31 — Session 4: Cleanup & Refactoring vor Phase 3
+
+### Was wurde gemacht
+
+Systematisches Aufräumen des gesamten Repositorys vor dem Einstieg in Phase 3 (Batch-Automatisierung). 10 Verbesserungen in einem Durchgang.
+
+### Neue Dateien
+
+- `pipeline/config.py` — Gemeinsame Konfiguration (Pfade, Collections, Group-Labels, API-Keys). Wird von `test_single.py` und `build_viewer_data.py` importiert. Lädt `.env` automatisch via `python-dotenv`.
+- `requirements.txt` — Formale Dependencies (`google-genai`, `python-dotenv`).
+
+### Refactoring: Auto-Kontext aus TEI (Kernänderung)
+
+`test_single.py` grundlegend verschlankt: ~100 Zeilen manuell gepflegte Context-Strings in `TEST_CASES` durch automatische Auflösung ersetzt.
+
+Neue Funktion `resolve_context(tc)`:
+1. PID aus Object-ID ableiten (`o_szd.` → `o:szd.`)
+2. TEI-XML parsen via `tei_context.parse_tei_for_object()`
+3. Fallback auf Backup-metadata.json (für Korrespondenzen)
+4. Gruppe automatisch via `resolve_group()` bestimmen
+5. Kontext-String via `format_context()` generieren
+
+Manuelle Overrides bleiben möglich via optionale `group`/`context` Keys in `TEST_CASES`.
+
+**Ergebnis:** Alle 7 Test Cases werden korrekt automatisch aufgelöst. `test_single.py` von ~265 auf ~140 Zeilen geschrumpft.
+
+### Bug-Fix in resolve_group()
+
+Formular-Checks (Klassifikation „Rechtsdokumente"/„Finanzen") wurden vor den generischen Typoskript-Check verschoben. Vorher wurde z.B. „Certified Copy of Marriage" (objecttyp=Typoskript, classification=Rechtsdokumente) fälschlich als Typoskript statt Formular klassifiziert. Toter Code-Pfad am Ende der Funktion entfernt.
+
+### Weitere Verbesserungen
+
+- `load_prompt()` gibt jetzt Warnungen bei fehlenden oder mehrfachen Codeblöcken aus
+- JSON-Parse des API-Response gibt explizite Warnung bei invalidem JSON
+- `docs/index.html` vollständig dynamisiert — lädt Stats und Objektkarten aus `data.json` (wie der Viewer)
+- Repo-Name in allen Dateien von `szd-htr-ocr-pipline` (Typo) auf `szd-htr-ocr-pipeline` korrigiert (5 Dateien + Git Remote)
+- Journal-Hygiene: erledigte Checkboxen abgehakt, offene Fragen konsolidiert
+
+### Erkenntnisse
+
+1. **Auto-Kontext funktioniert zuverlässig**: 6/7 Test Cases werden direkt aus TEI-XML aufgelöst, 1/7 (Korrespondenzen) über Backup-Metadata-Fallback.
+2. **resolve_group() braucht semantische Ordnung**: Die Reihenfolge der Checks ist entscheidend — Klassifikation (was ist es?) muss vor Objekttyp (wie wurde es erstellt?) geprüft werden.
+3. **Gemeinsame config.py eliminiert Drift**: Drei Scripts (`test_single.py`, `build_viewer_data.py`, zukünftiger Batch-Runner) teilen jetzt dieselbe Konfiguration.
+
+---
+
+## Offene Fragen (aktuell, Stand 2026-03-31)
+
+Konsolidiert aus allen Sessions:
+
+- [ ] **Fraktur-Erkennung**: Gezielt Zeitungsausschnitte mit Fraktur suchen und testen
+- [ ] **Optimale Bildgröße**: Originale sind 4912×7360 (~1.4MB) — Resizing vor API-Call?
+- [ ] **Lizenz klären**: MIT für Code, CC-BY für Daten?
+- [ ] **Korrektur-Markup**: Wie markiert man Korrekturen im Output? Erweitertes Markup nötig?
+- [ ] **Konvolute**: Wie geht die Pipeline mit gemischten Dokumenttypen in einem Objekt um?
+- [ ] **Batch-Modus**: Mehrere Objekte nacheinander transkribieren (Phase 3)
+- [ ] **Provider-Vergleich**: Claude Vision und GPT-4o gegen Gemini testen (Phase 4)
+- [ ] **Gruppe G (Konvolut)**: Bei Bedarf ergänzen (24 Objekte, niedrige Priorität)

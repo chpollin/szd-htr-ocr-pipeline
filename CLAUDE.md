@@ -6,7 +6,7 @@ Aufbau einer HTR/OCR-Pipeline, die aus den digitalisierten Faksimiles des Stefan
 
 ## Repository
 
-- GitHub: https://github.com/chpollin/szd-htr-ocr-pipline
+- GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
 - Sprache: Python
 - Lizenz: MIT
 
@@ -120,7 +120,7 @@ Faksimile (JPG) → Preprocessing → VLM/HTR → Rohtext → Nachverarbeitung �
 ## Aktuelle Projektstruktur
 
 ```
-szd-htr-ocr-pipline/
+szd-htr-ocr-pipeline/
 ├── CLAUDE.md                       ← dieses Dokument
 ├── README.md
 ├── Plan.md                         ← Implementierungsplan (Phase 1+2 erledigt)

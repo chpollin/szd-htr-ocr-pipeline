@@ -56,7 +56,7 @@ Getestet mit **Gemini 3.1 Flash Lite** (Preview). **7/7 Objekte: high confidence
 | Aus der Werkstatt der Dichter | Aufsatzablage | H: Zeitungsausschnitt | DE |
 | Brief an Max Fleischer 1901 | Korrespondenzen | I: Korrespondenz | DE |
 
-Viewer: [chpollin.github.io/szd-htr-ocr-pipline/viewer.html](https://chpollin.github.io/szd-htr-ocr-pipline/viewer.html)
+Viewer: [chpollin.github.io/szd-htr-ocr-pipeline/viewer.html](https://chpollin.github.io/szd-htr-ocr-pipeline/viewer.html)
 
 ## Projektstruktur
 

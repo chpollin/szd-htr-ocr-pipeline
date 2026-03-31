@@ -1,33 +1,19 @@
 """Test: Einzelobjekt-Transkription mit Gemini Vision."""
 
 import json
-import os
 import re
 import sys
-from pathlib import Path
 
 from google import genai
 
-# --- Config ---
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
-MODEL = os.environ.get("HTR_MODEL", "gemini-3.1-flash-lite-preview")
-BACKUP_ROOT = Path(os.environ.get(
-    "SZD_BACKUP_ROOT",
-    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data"
-))
-SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = SCRIPT_DIR.parent
-PROMPTS_DIR = SCRIPT_DIR / "prompts"
-DATA_DIR = PROJECT_ROOT / "data"
-RESULTS_DIR = PROJECT_ROOT / "results" / "test"
-
-# --- Collections ---
-COLLECTIONS = {
-    "lebensdokumente": {"subdir": "lebensdokumente", "tei": "szd_lebensdokumente_tei.xml"},
-    "werke":           {"subdir": "facsimiles",       "tei": "szd_werke_tei.xml"},
-    "aufsatzablage":   {"subdir": "aufsatz",          "tei": "szd_aufsatzablage_tei.xml"},
-    "korrespondenzen": {"subdir": "korrespondenzen",  "tei": "szd_korrespondenzen_tei.xml"},
-}
+from config import (
+    BACKUP_ROOT, COLLECTIONS, DATA_DIR, GOOGLE_API_KEY, MODEL,
+    PROMPTS_DIR, RESULTS_DIR,
+)
+from tei_context import (
+    context_from_backup_metadata, format_context, parse_tei_for_object,
+    resolve_group,
+)
 
 
 def load_prompt(filename: str) -> str:
@@ -35,7 +21,12 @@ def load_prompt(filename: str) -> str:
     path = PROMPTS_DIR / filename
     text = path.read_text(encoding="utf-8")
     blocks = re.findall(r"```\n(.*?)```", text, re.DOTALL)
-    return blocks[0].strip() if blocks else text.strip()
+    if not blocks:
+        print(f"WARNUNG: Kein Codeblock in {filename}, verwende gesamten Text")
+        return text.strip()
+    if len(blocks) > 1:
+        print(f"WARNUNG: {len(blocks)} Codeblöcke in {filename}, verwende ersten")
+    return blocks[0].strip()
 
 
 # --- Prompts (loaded from files) ---
@@ -53,114 +44,44 @@ GROUP_PROMPTS = {
 }
 
 # --- Test Cases ---
+# Gruppe und Kontext werden automatisch aus TEI/Backup-Metadaten aufgelöst.
+# Optionale Overrides: "group", "context", "max_images"
 TEST_CASES = {
-    "theaterkarte": {
-        "object_id": "o_szd.161",
-        "collection": "lebensdokumente",
-        "group": "kurztext",
-        "context": """## Dieses Dokument
-
-- Titel: Theaterkarte zur Uraufführung von „Jeremias" 1918
-- Signatur: SZ-SDP/L2
-- Datum: 27. Febr. 1918
-- Sprache: Deutsch
-- Objekttyp: Eintrittskarte
-- Umfang: 1 Blatt (3 Scans: Vorderseite, Rückseite, Gesamtansicht)
-- Schreibinstrument: Bleistift
-- Hand: Friderike Zweig
-- Anmerkungen: „Jerem. Uraufführung" von Friderike Zweigs Hand auf der Rückseite""",
-    },
-    "certificate": {
-        "object_id": "o_szd.160",
-        "collection": "lebensdokumente",
-        "group": "formular",
-        "context": """## Dieses Dokument
-
-- Titel: Certified Copy of an Entry of Marriage
-- Signatur: SZ-SDP/L1
-- Datum: Sixth September 1939
-- Sprache: Englisch
-- Objekttyp: Typoskript (beglaubigte Kopie einer Heiratsurkunde)
-- Umfang: 1 Blatt
-- Schreibinstrument: Schwarze Tinte
-- Hand: Fremde Hand
-- Anmerkungen: Beglaubigte Kopie vom 3. September 1980""",
-    },
-    "vertrag_grasset": {
-        "object_id": "o_szd.78",
-        "collection": "lebensdokumente",
-        "group": "typoskript",
-        "context": """## Dieses Dokument
-
-- Titel: Verlagsvertrag Grasset
-- Signatur: SZ-AAP/L13.1
-- Datum: le Premier Février, mil neuf cent trente deux (1. Februar 1932)
-- Sprache: Französisch
-- Objekttyp: Typoskript (Verlagsvertrag in Formularform)
-- Umfang: 1 Blatt
-- Schreibinstrument: Violettes Farbband, violette und schwarze Tinte
-- Hand: Stefan Zweig, fremde Hand
-- Anmerkungen: Maschinschriftliche Eintragungen in Formular, recto mit aufgeklebter Stempelmarke und mehrfach gestempelt, verso mit eigenhändiger Aufschrift „lu et approuvé" und Unterschrift von Stefan Zweig und unbekannt""",
-    },
-    "tagebuch_1918": {
-        "object_id": "o_szd.72",
-        "collection": "lebensdokumente",
-        "group": "handschrift",
-        "max_images": 5,
-        "context": """## Dieses Dokument
-
-- Titel: Tagebuch 1918
-- Signatur: SZ-AAP/L6
-- Datum: [1918]
-- Sprache: Deutsch
-- Objekttyp: Notizbuch
-- Umfang: 19 Blatt beschrieben (39 Scans)
-- Schreibinstrument: Violette Tinte
-- Hand: Stefan Zweig
-- Anmerkungen: Tagebuch aus dem letzten Kriegsjahr. Hier werden nur die ersten Seiten transkribiert (Testlauf).""",
-    },
-    "korrekturfahne_bildner": {
-        "object_id": "o_szd.287",
-        "collection": "werke",
-        "group": "korrekturfahne",
-        "max_images": 3,
-        "context": """## Dieses Dokument
-
-- Titel: Der Bildner
-- Signatur: SZ-AAP
-- Sprache: Deutsch
-- Objekttyp: Korrekturfahne
-- Umfang: 6 Blatt (hier nur die ersten 3 Seiten)
-- Hand: Lotte Zweig""",
-    },
-    "zeitungsausschnitt": {
-        "object_id": "o_szd.2215",
-        "collection": "aufsatzablage",
-        "group": "zeitungsausschnitt",
-        "context": """## Dieses Dokument
-
-- Titel: Aus der Werkstatt der Dichter
-- Signatur: SZ-AAP/W-AA215.1
-- Sprache: Deutsch
-- Objekttyp: Zeitungsausschnitt
-- Umfang: 3 Scans""",
-    },
-    "korrespondenz_fleischer": {
-        "object_id": "o_szd.1079",
-        "collection": "korrespondenzen",
-        "group": "korrespondenz",
-        "max_images": 3,
-        "context": """## Dieses Dokument
-
-- Titel: Brief an Max Fleischer vom 22. Mai 1901
-- Signatur: SZ-LAS/B3.1
-- Datum: 22. Mai 1901
-- Sprache: Deutsch
-- Objekttyp: Brief
-- Umfang: 5 Scans (hier nur die ersten 3)
-- Hand: Stefan Zweig""",
-    },
+    "theaterkarte":            {"object_id": "o_szd.161",  "collection": "lebensdokumente"},
+    "certificate":             {"object_id": "o_szd.160",  "collection": "lebensdokumente"},
+    "vertrag_grasset":         {"object_id": "o_szd.78",   "collection": "lebensdokumente"},
+    "tagebuch_1918":           {"object_id": "o_szd.72",   "collection": "lebensdokumente", "max_images": 5},
+    "korrekturfahne_bildner":  {"object_id": "o_szd.287",  "collection": "werke", "max_images": 3},
+    "zeitungsausschnitt":      {"object_id": "o_szd.2215", "collection": "aufsatzablage"},
+    "korrespondenz_fleischer": {"object_id": "o_szd.1079", "collection": "korrespondenzen", "max_images": 3},
 }
+
+
+def resolve_context(tc: dict) -> tuple[str, str]:
+    """Resolve group and context for a test case from TEI or backup metadata.
+
+    Returns (group, context) tuple. Uses manual overrides if present in tc.
+    """
+    collection = tc["collection"]
+    object_id = tc["object_id"]
+    pid = object_id.replace("_", ":")
+
+    # Try TEI first
+    tei_file = DATA_DIR / COLLECTIONS[collection]["tei"]
+    metadata = parse_tei_for_object(tei_file, pid)
+
+    # Fallback to backup metadata
+    if metadata is None:
+        subdir = COLLECTIONS[collection]["subdir"]
+        meta_path = BACKUP_ROOT / subdir / object_id / "metadata.json"
+        if meta_path.exists():
+            metadata = context_from_backup_metadata(meta_path)
+        else:
+            metadata = {}
+
+    group = tc.get("group") or resolve_group(metadata, collection)
+    context = tc.get("context") or format_context(metadata)
+    return group, context
 
 
 def load_images(object_id: str, collection: str, max_images: int = 0) -> list[tuple[str, bytes]]:
@@ -208,9 +129,12 @@ def run_test(test_name: str):
     images = load_images(tc["object_id"], collection, max_img)
     print(f"Objekt: {tc['object_id']} ({collection}) — {len(images)} Bilder geladen")
 
+    # Resolve group and context from TEI/backup metadata
+    group, context = resolve_context(tc)
+    print(f"Gruppe: {group} — Kontext: {len(context)} Zeichen")
+
     # Build prompt
-    group_prompt = GROUP_PROMPTS[tc["group"]]
-    context = tc["context"]
+    group_prompt = GROUP_PROMPTS[group]
     user_prompt = f"{group_prompt}\n\n{context}\n\nTranskribiere die folgenden {len(images)} Faksimile-Scans."
 
     # Build content parts for Gemini
@@ -242,6 +166,7 @@ def run_test(test_name: str):
     try:
         result_json = json.loads(result_text)
     except json.JSONDecodeError:
+        print("WARNUNG: API hat kein valides JSON zurückgegeben, speichere Rohtext")
         result_json = {"raw": result_text}
 
     # Load backup metadata for GAMS URLs
@@ -252,7 +177,7 @@ def run_test(test_name: str):
     enriched = {
         "object_id": tc["object_id"],
         "collection": collection,
-        "group": tc["group"],
+        "group": group,
         "model": MODEL,
         "metadata": {
             "title": backup_meta.get("title", ""),
@@ -278,7 +203,8 @@ def run_test(test_name: str):
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--list":
         for name, tc in TEST_CASES.items():
-            print(f"  {name:30s} {tc['collection']:20s} {tc['group']}")
+            group, _ = resolve_context(tc)
+            print(f"  {name:30s} {tc['collection']:20s} {group}")
         sys.exit(0)
     test = sys.argv[1] if len(sys.argv) > 1 else "theaterkarte"
     run_test(test)
