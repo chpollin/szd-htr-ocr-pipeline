@@ -240,6 +240,13 @@ Naechster Schritt: [Was kommt als naechstes]
 - Graceful Degradation: alles unsichtbar wenn Felder fehlen
 - Sobald L3 Schritt 3 (Backfill + Build) abschliesst → Reload + visueller Test
 
+**Viewer-Verbesserungen (Commit `05febe9`):**
+- Image-Viewer: Scroll-Wheel-Zoom (zentriert auf Cursor), Drag-to-Pan, Touch-Pinch-Zoom, 90°-Rotation
+- Zoom/Rotate-Controls als Floating-Overlay im Bild-Panel (nicht mehr in Nav-Bar)
+- Keyboard: +/- Zoom, 0 Reset, R Rotate
+- Metadaten-Bar umstrukturiert: Metadaten + Verifikation in einer kompakten Zeile, immer sichtbar (kein "i"-Toggle mehr)
+- Nav-Bar entschlackt: nur noch Objekt-Nav + Seiten-Nav + Edit/JSON
+
 **Schritt 3 (Statistik-Uebersicht): ZURÜCKGESTELLT** — erst sinnvoll nach Batch-Lauf (bei 16 Objekten wenig Aussagekraft)
 
 ### Lane 2 — Methodik
