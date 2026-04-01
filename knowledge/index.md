@@ -15,8 +15,8 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 1. [[data-overview]] — Datengrundlage verstehen (4 Sammlungen, 9 Gruppen, ~2107 Objekte)
 2. [[annotation-protocol]] — Transkriptionskonventionen fuer das Referenz-Sample
-3. [[verification-concept]] — Qualitaetsmessung: Ground Truth, quality_signals, Cross-Model, Literatur
-4. [[pilot-design]] — 5-Seiten-Pilot vor vollem GT-Sample
+3. [[verification-concept]] — Qualitaetsmessung: GT, quality_signals, Cross-Model, Multi-Model-Konsensus (§7 NEU)
+4. [[pilot-design]] — 5-Seiten-Pilot (Fallback falls Konsensus-Ansatz <70% Erfolgsrate)
 
 ## Spezifikationen
 
@@ -28,10 +28,9 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Projektlog
 
-- [[journal]] — Chronologisches Log aller Sessions (1–11)
+- [[journal]] — Chronologisches Log aller Sessions (1–13)
 
 ## Verwandte Dokumente (ausserhalb des Vaults)
 
 - [Plan.md](../Plan.md) — Phasen-Roadmap (einzige Wahrheitsquelle fuer Status)
-- [Lane.md](../Lane.md) — Lane-Koordination und aktuelle Auftraege
 - [CLAUDE.md](../CLAUDE.md) — Entwickler/AI-Guide

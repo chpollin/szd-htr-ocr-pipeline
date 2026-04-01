@@ -2,7 +2,7 @@
 title: "Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline"
 aliases: ["Verifikationskonzept"]
 created: 2026-04-01
-updated: 2026-04-01-v2
+updated: 2026-04-01-v3
 type: concept
 tags: [szd-htr, methodology]
 status: stable
@@ -229,6 +229,10 @@ Die Literatur zu VLM-basierter HTR ist seit 2024 stark gewachsen. Dieser Abschni
 | CRO25 | Crosilla, Klic, Colavizza (2025): "Benchmarking Large Language Models for Handwritten Text Recognition." Journal of Documentation 81(7). arXiv:2503.15195 | Volltext gelesen |
 | DIE25 | Diez Garcia et al. (2025): "Evaluating Vision Language Models for Handwritten Text Recognition." DisTech 2025, Springer | Nur Abstract und Fazit (Springer-Paywall) |
 | STR22 | Stroebel et al. (2022): "Evaluation of HTR models without Ground Truth Material." LREC 2022, S. 4395-4404 | Abstract und Metriken-Beschreibung (PDF-Zugang fehlgeschlagen) |
+| ZHA25 | Zhang et al. (2025): "Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR." arXiv:2504.11101, akzeptiert bei ICLR 2026 | Abstract und Methodenbeschreibung gelesen |
+| RCO26 | "From Plausibility to Verifiability: Risk-Controlled Generative OCR for Vision-Language Models." arXiv:2603.19790, Maerz 2026 | Abstract gelesen |
+| BEY26 | Beyene & Dancy (2026): "A Survey of OCR Evaluation Methods and Metrics and the Invisibility of Historical Documents." arXiv:2603.25761 | Abstract und Methodik gelesen |
+| OCR25 | "OCR-Quality: A Human-Annotated Dataset for OCR Quality Assessment." arXiv:2510.21774, Oktober 2025 | Abstract gelesen |
 
 ### Befund 1: CER-Erwartungswerte fuer unser Projekt
 
@@ -310,6 +314,26 @@ Kernergebnis: MLM-basierte Metriken (PPPL) korrelieren mit CER vergleichbar gut 
 Crosilla et al. (CRO25) und Diez Garcia et al. (DIE25, nur Abstract verifiziert) zeigen uebereinstimmend: Proprietaere VLMs (Claude, GPT-4o, Gemini) erreichen auf modernen Handschriften bessere CER-Werte als Transkribus (CRO25: 1.7% vs. 9.1% auf IAM). Bei historischen Dokumenten ist das Bild gemischt: Auf einigen historischen Datasets uebertreffen VLMs Transkribus, auf anderen (besonders historisches Deutsch) liegt Transkribus deutlich vorn.
 
 **Implikation fuer SZD-HTR:** Der Provider-Vergleich (Phase 4) sollte nicht nur VLMs untereinander vergleichen, sondern auch Transkribus als Baseline einbeziehen — zumindest auf dem Ground-Truth-Sample. Es ist nicht ausgemacht, dass VLMs fuer alle Dokumentgruppen die beste Wahl sind.
+
+### Befund 7: Multi-VLM-Konsensus als GT-freier Qualitaetsproxy (2025-2026)
+
+Drei juengere Arbeiten zeigen, dass Multi-Modell-Agreement ein starkes, GT-freies Qualitaetssignal liefert:
+
+**Zhang et al. (ZHA25, ICLR 2026):** Consensus Entropy (CE) quantifiziert OCR-Unsicherheit durch Aggregation der Outputs mehrerer VLMs. Kerninsight: *Korrekte Transkriptionen konvergieren im Output-Space, Fehler divergieren.* CE erreicht 15.2% hoehere F1-Scores als VLM-as-Judge-Methoden und erfordert nur bei 7.3% der Inputs eine Eskalation an ein staerkeres Modell. Das Verfahren ist training-free und plug-and-play.
+
+**Risk-Controlled VLM OCR (RCO26, Maerz 2026):** Deployment-zentriertes Accept/Abstain-Framework fuer generative OCR. Ein externer Control Layer prueft bei Inferenz die Cross-View-Stabilitaet (kontrollierte Input-Variationen + strukturelle Validitaetschecks) und akzeptiert eine Transkription nur bei hinreichend stabilem Agreement. Kernbeitrag: Die Accept/Abstain-Entscheidung ist als fester, auditierbarer Deployment-Vertrag spezifiziert — nicht als probabilistischer Score.
+
+**Beyene & Dancy (BEY26, 2026):** Unsupervised Evaluation Framework fuer historische Digitalisate ohne GT. Drei Metriken: Semantic Coherence Score (SCS, Woerterbuch-Wortanteil pro Textregion), Region Entropy Divergence (RED, N-Gram-Diversitaet als Kohaerenzindikator), Textual Redundancy Score (TRS, Strafterm fuer wiederholten Text ueber Regionen).
+
+**Implikation fuer SZD-HTR:** Der 3-Modell-Konsensus-Ansatz ist wissenschaftlich fundiert und direkt umsetzbar:
+
+1. **Gemini 3.1 Flash Lite** (bisheriger Ersttranskriptor, guenstig)
+2. **Gemini 3.1 Flash** (staerkeres Modell, unabhaengige Zweittranskription)
+3. **Claude** (via Claude Code Subagent mit Vision — LLM-as-Judge, sieht Bild + beide Transkriptionen)
+
+Bei hohem Agreement aller drei Modelle kann die Transkription als **automatisch generiertes Ground Truth** akzeptiert werden (Ensemble Agreement Error Rate ~2-6%, vgl. LLM-Generated GT Literatur). Bei Divergenz wird das Objekt fuer manuellen Review geflaggt. Dieser Ansatz reduziert den manuellen GT-Aufwand drastisch: Statt 30 Objekte vollstaendig manuell zu transkribieren, werden nur die ~7-15% Divergenz-Faelle manuell geprueft.
+
+**Abgrenzung zu Abschnitt 4 (Cross-Model-Verification):** Abschnitt 4 beschreibt Doppeltranskription als Qualitaetssignal. Der Konsensus-Ansatz geht weiter: Er nutzt drei Modelle + eine Judge-Rolle und akzeptiert bei Konsens automatisch als GT. Das ist eine staerkere Behauptung, die durch ZHA25 und RCO26 gestuetzt wird, aber am eigenen Corpus validiert werden muss.
 
 ### Ergaenzung der Fehlertaxonomie
 
@@ -729,25 +753,127 @@ Vollstaendige Spezifikation: [[verification-by-vision]]
 
 ---
 
+## 7. Multi-Model-Konsensus (LLM-as-Judge)
+
+### 7.1 Motivation
+
+Die bisherigen Verifikationsansaetze (quality_signals, Cross-Model, VbV) haben jeweils Grenzen:
+- **quality_signals** erkennen Formatanomalien, nicht Inhaltsfehler
+- **Cross-Model** (Abschnitt 4) vergleicht zwei Transkriptionen, aber ohne Judge-Rolle
+- **VbV** (Abschnitt 6) prueft Bild↔Text, aber nur stichprobenartig
+
+Der Multi-Model-Konsensus kombiniert alle drei Dimensionen und fuegt eine **Judge-Rolle** hinzu, die methodisch dem LLM-as-a-Judge-Paradigma (Gu et al. 2025, arXiv:2411.15594) folgt.
+
+### 7.2 Architektur
+
+```
+Faksimile-Bild
+    │
+    ├──→ Modell A: Gemini 3.1 Flash Lite (billig, Ersttranskription)
+    │        → Transkription A (existiert bereits fuer alle Objekte)
+    │
+    ├──→ Modell B: Gemini 3.1 Flash (staerker, unabhaengige Zweittranskription)
+    │        → Transkription B
+    │
+    └──→ Judge: Claude (via Claude Code Subagent mit Vision)
+             Eingabe: Bild + Transkription A + Transkription B
+             Ausgabe: Bewertung, korrigierte Version, Konsensus-Score
+```
+
+**Judge-Prompt-Struktur:**
+- Claude sieht das Originalbild UND beide Transkriptionen
+- Aufgabe: Identifiziere Abweichungen, entscheide welche Version korrekt ist, oder markiere Stellen wo beide falsch liegen
+- Output: Konsensus-Transkription + per-Seite-Konfidenz + Fehlerlog
+
+### 7.3 Konsensus-Kategorien
+
+| Kategorie | Bedingung | Aktion |
+|---|---|---|
+| **consensus_verified** | A ≈ B ≈ Judge (CER < 3%) | Akzeptiere als automatisches GT |
+| **consensus_corrected** | A ≠ B, Judge korrigiert | Verwende Judge-Version, flagge fuer Stichprobe |
+| **consensus_divergent** | Alle drei divergieren (CER > 10%) | Manueller Review erforderlich |
+
+### 7.4 Wissenschaftliche Fundierung
+
+| Behauptung | Stuetzende Evidenz |
+|---|---|
+| Korrekte Outputs konvergieren | Zhang et al. 2025 (ICLR 2026): CE framework |
+| Accept/Abstain ist formalisierbar | Risk-Controlled VLM OCR 2026 |
+| Kreuzkorrektur mit Bild funktioniert | Humphries et al. 2024: 8.0% → 1.8% CER |
+| Selbstkorrektur funktioniert NICHT | Crosilla et al. 2025: 3.7-4.9x Verschlechterung |
+| LLM-generated GT mit Ensemble: ~2-6% Error Rate | Emergent consensus in LLM-Generated GT literature |
+
+### 7.5 Implementierungsstrategie
+
+**Phase 1: Validierung (30 Objekte)**
+- 30 stratifizierte Objekte (3-4 pro Gruppe) durch alle 3 Modelle
+- Claude Code Subagent mit eingebautem Vision liest GAMS-Bilder direkt
+- Gemini 3.1 Flash als Zweittranskriptor (nicht Flash Lite)
+- CER zwischen A↔B, A↔Judge, B↔Judge berechnen
+- Konsensus-Kategorien zuweisen
+- Ergebnis: Wie viel % der Objekte erreichen `consensus_verified`?
+
+**Phase 2: Skalierung (nur bei Erfolg)**
+- Wenn >70% der Validierungs-Objekte `consensus_verified` erreichen:
+  → Selektive Konsensus-Pruefung fuer alle `needs_review`-Objekte (~44% von 2107)
+- Wenn <70%: Rueckfall auf manuelles GT-Sample (Pilot-Design)
+
+**Phase 3: Kalibrierung**
+- Konsensus-verifizierte Objekte als automatisches GT verwenden
+- quality_signals-Schwellenwerte gegen dieses GT kalibrieren
+- DWR (Dictionary Word Ratio) und group_text_density validieren
+
+### 7.6 Kosten-Abschaetzung
+
+| Schritt | Objekte | API-Calls | Geschaetzte Kosten |
+|---|---|---|---|
+| Validierung (30 Objekte, 3 Modelle) | 30 | ~90 | ~$5-10 |
+| Selektiv (44% von 2107, 2 Extra-Modelle) | ~930 | ~1860 | ~$100-200 |
+| Vollstaendig (alle 2107, 3 Modelle) | 2107 | ~6321 | ~$300-500 |
+
+**Empfehlung:** Validierung zuerst (30 Objekte). Entscheidung ueber Skalierung basiert auf Konsensus-Rate und manueller Stichprobe der Ergebnisse.
+
+### 7.7 Abgrenzungen
+
+- **Konsensus ≠ Wahrheit:** Drei Modelle koennen sich auf denselben Fehler einigen (systematischer Bias). Deshalb ist eine manuelle Stichprobe der `consensus_verified`-Objekte noetig (~5-10 Objekte pruefen).
+- **Judge ist nicht neutral:** Claude hat eigene Biases. Der Judge-Prompt muss instruieren, Abweichungen zu begruenden, nicht einfach "das bessere" auszuwaehlen.
+- **Kosten sind real:** 3 Modelle = ~3x Basiskosten. Nur sinnvoll wenn manuelle GT-Erstellung teurer waere (was bei ~2107 Objekten der Fall ist).
+
+---
+
 ## Zusammenfassung der Abhaengigkeiten
 
 ```
-SOFORT (keine Abhaengigkeiten):
-  ├── quality_signals implementieren (Abschnitt 2) → Lane 3
-  ├── needs_review-Indikator im Viewer (Abschnitt 5.2) → Lane 1
-  ├── Annotationsprotokoll finalisieren (annotation-protocol.md) → Lane 2
-  └── Verification-by-Vision Stichproben (Abschnitt 6) → Forschungsleitstelle
+ERLEDIGT:
+  ├── quality_signals v1.1 implementiert (Abschnitt 2) — rekalibriert, 68% → 44%
+  ├── needs_review-Indikator im Viewer (Abschnitt 5.2)
+  ├── Annotationsprotokoll finalisiert (annotation-protocol.md)
+  ├── evaluate.py: CER/WER-Berechnung mit Normalisierung
+  ├── quality_report.py: Aggregierte Statistiken
+  └── Batch-Transkription laeuft (~360+/2107 Objekte)
 
-NACH ANNOTATIONSPROTOKOLL:
-  └── Ground Truth erstellen (31 Objekte manuell transkribieren)
+NAECHSTER SCHRITT — Multi-Model-Konsensus-Validierung (Abschnitt 7):
+  └── 30 Objekte durch 3 Modelle (Flash Lite + Flash + Claude Judge)
         |
-        ├── quality_signals kalibrieren (Schwellenwerte anpassen)
-        ├── Prompt-Experiment auswerten (CER-Vergleich V1/V2/V3)
-        ├── Pipeline-Basislinie etablieren (CER/WER pro Gruppe)
-        ├── VbV-Konfidenz gegen GT kalibrieren
-        └── Cross-Model-Verification evaluieren (Abschnitt 4)
+        ├── Konsensus-Rate bestimmen (Ziel: >70% consensus_verified)
+        ├── CER zwischen Modellpaaren berechnen
+        ├── Manuelle Stichprobe der Konsensus-Ergebnisse (~5-10 Objekte)
+        └── Entscheidung: Automatisches GT akzeptieren?
               |
-              ├── Entscheidung: Doppeltranskription fuer vollen Batch?
-              ├── Diff-Ansicht im Viewer (Abschnitt 5.4) → Lane 1
-              └── Provider-Vergleich (Phase 4)
+              JA (>70% Konsensus):
+              │  ├── quality_signals kalibrieren gegen Konsensus-GT
+              │  ├── Selektive Konsensus-Pruefung fuer needs_review-Objekte
+              │  ├── DWR + group_text_density validieren
+              │  └── Statistik-Dashboard mit Konsensus-Metriken
+              │
+              NEIN (<70% Konsensus):
+                 ├── Manueller Pilot (5 Seiten, pilot-design.md)
+                 ├── Manuelles GT-Sample (30 Objekte)
+                 └── Klassischer CER-Workflow (Abschnitt 1)
+
+SPAETER (nach GT-Kalibrierung):
+  ├── Prompt-Experiment (CER-Vergleich V1/V2/V3)
+  ├── Provider-Vergleich (Gemini vs. Claude vs. GPT-4o)
+  ├── Diff-Ansicht im Viewer mit echten Cross-Model-Daten
+  └── Entscheidung: Doppeltranskription fuer vollen Batch?
 ```

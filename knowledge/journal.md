@@ -400,6 +400,39 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
+## 2026-04-01 — Session 13: Quality Infrastructure, Batch-Lauf, Multi-Model-Konsensus
+
+**Schwerpunkt:** Pipeline-Qualitaetsinfrastruktur aufgebaut, parallelen Batch gestartet, Forschung zu GT-freier Qualitaetsbewertung.
+
+**Neue Pipeline-Module:**
+- `evaluate.py`: CER/WER-Berechnung mit vollstaendiger Normalisierung (annotation-protocol.md §5)
+- `quality_report.py`: Aggregierte Qualitaetsstatistiken pro Gruppe/Sammlung
+- quality_signals v1.1: Schwellenwerte rekalibriert basierend auf Datenanalyse (68% → 44% needs_review)
+- Exponential Backoff (429-Retry) in transcribe.py fuer parallele Batch-Laeufe
+
+**Rekalibrierungsergebnisse (87 Objekte):**
+- duplicate_pages: 25 → 17 (Jaccard 0.9 + min 200 chars)
+- page_image_mismatch: 21 → 7 (75% statt 50% empty threshold)
+- page_length_anomaly: 12 → 5 (10% statt 20% median)
+- Kerninsight: Signale fingen Sammlungseigenschaften (leere Rueckseiten, Cover), nicht Fehler
+
+**Batch-Lauf:** 4 parallele Prozesse (Korrespondenzen, Aufsatzablage, Lebensdokumente, Werke), delay 4s. ~360+ Objekte fertig und wachsend. Keine Rate-Limit-Probleme bei ~60 RPM effektiv.
+
+**Broken Objects:** 3/5 repariert (o_szd.147, o_szd.223, o_szd.245). 2 bleiben kaputt: o_szd.267 (107 Bilder, zu gross) und o_szd.2230 (leere API-Antwort).
+
+**Forschung GT-freie Qualitaetsbewertung:**
+- Gemini logprobs: NICHT verfuegbar fuer Flash Lite Preview (getestet, 400 INVALID_ARGUMENT). Verfuegbar fuer gemini-2.0-flash.
+- Aktuellste Literatur recherchiert: Zhang et al. 2025 (Consensus Entropy, ICLR 2026), Risk-Controlled VLM OCR (arXiv 2026), Beyene & Dancy 2026 (Survey)
+- Kernentscheidung: **Multi-Model-Konsensus statt manuellem GT** — 3 Modelle (Flash Lite + Flash + Claude Judge) als automatische GT-Generierung
+- verification-concept.md um Abschnitt 7 (Multi-Model-Konsensus) erweitert
+
+**Entscheidungen:**
+- DWR (Dictionary Word Ratio) als ergaenzendes Signal — einfach, bewaehrt, aber nicht primaer
+- PPPL (Pseudo-Perplexity) auf spaeter verschoben — zu schwere Dependency (transformers+torch)
+- Konsensus-Ansatz als naechster Schritt statt manuellem Pilot
+
+---
+
 ## Offene Fragen (Stand 2026-04-01)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -409,10 +442,12 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
-- [ ] Alle 2107 Objekte transkribieren (nach JSON-Parsing-Fix)
-- [ ] quality_signals kalibrieren: page_image_mismatch zu aggressiv (Session 8)
+- [~] Alle 2107 Objekte transkribieren — Batch laeuft, ~360+ fertig (Session 13)
+- [x] quality_signals kalibrieren: v1.1, datengetrieben rekalibriert (Session 13)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [ ] o_szd.143 nur 20 Zeichen auf 3 Seiten — Pipeline-Problem oder korrektes Ergebnis? (Session 8)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
-- [ ] Pipeline-Bug: o_szd.147 (64 Bilder, 0 Seiten) — L3 pruefen (Session 11)
-- [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Pilot)
+- [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
+- [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Konsensus-Validierung)
+- [ ] Multi-Model-Konsensus: 30 Objekte durch 3 Modelle validieren (Session 13 → naechste Session)
+- [ ] Statistik-Dashboard im Frontend (Session 13 → naechste Session)
