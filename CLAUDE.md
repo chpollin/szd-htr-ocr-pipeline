@@ -12,9 +12,10 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrheitsquelle für Phasen-Status).
 
-- **12 Objekte** transkribiert: 7 Test-Objekte (`results/test/`), 5 Batch-Objekte (`results/lebensdokumente/`)
+- **16 Objekte** transkribiert: 7 Test (`results/test/`), 5 Batch (`results/lebensdokumente/`), 2 Aufsatzablage, 2 Werke
+- **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. neu erstellter Gruppe G (Konvolut)
 - **~2107 Objekte** im Backup über 4 Sammlungen — Batch-Lauf für den Rest steht aus
-- Alle bisherigen Ergebnisse: **high confidence**
+- 15× high confidence, 1× medium (Konvolut mit überlappenden Korrekturen)
 - Nächster Schritt: Phase 4 — kompletter Batch-Lauf, Provider-Vergleich
 
 ## Quelldaten
@@ -39,10 +40,10 @@ Faksimile (JPG) → Gemini Vision API → JSON (Transkription pro Seite + Konfid
 ### Dreischichtiges Prompt-System
 
 1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format
-2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (8 Gruppen)
+2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (9 Gruppen)
 3. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
 
-### 8 Prompt-Gruppen
+### 9 Prompt-Gruppen
 
 | Kürzel | Gruppe | Prompt-Datei |
 |---|---|---|
@@ -52,10 +53,11 @@ Faksimile (JPG) → Gemini Vision API → JSON (Transkription pro Seite + Konfid
 | D | Kurztext | `group_d_kurztext.md` |
 | E | Tabellarisch | `group_e_tabellarisch.md` |
 | F | Korrekturfahne | `group_f_korrekturfahne.md` |
+| G | Konvolut | `group_g_konvolut.md` |
 | H | Zeitungsausschnitt | `group_h_zeitungsausschnitt.md` |
 | I | Korrespondenz | `group_i_korrespondenz.md` |
 
-Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespondenzen → immer I, sonst Entscheidungsbaum über `objecttyp` und `classification` aus TEI. Fallback: Handschrift.
+Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespondenzen → immer I, Konvolute → G, sonst Entscheidungsbaum über `objecttyp` und `classification` aus TEI. Fallback: Handschrift.
 
 ## Projektstruktur
 
@@ -71,11 +73,13 @@ szd-htr/
 │   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
 │   ├── build_viewer_data.py         ← Baut 5 Dateien: catalog.json + 4× data/{collection}.json
-│   └── prompts/                     ← System-Prompt + 8 Gruppen-Prompts (Markdown)
+│   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts (Markdown)
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
 │   ├── test/                        ← 7 Testergebnisse (enriched JSON)
-│   └── lebensdokumente/             ← 5 Batch-Ergebnisse
+│   ├── lebensdokumente/             ← 7 Batch-Ergebnisse
+│   ├── aufsatzablage/               ← 2 Ergebnisse (Zeitungsausschnitte)
+│   └── werke/                       ← 2 Ergebnisse (Korrekturfahne, Konvolut)
 ├── docs/
 │   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
 │   ├── app.css                      ← SZD-Design-System (Burgundy/Gold, Source Serif)
