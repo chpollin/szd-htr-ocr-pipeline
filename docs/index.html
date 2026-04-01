@@ -87,7 +87,7 @@
   </div>
 
   <div class="catalog__pagination" id="pagination">
-    <span class="catalog__pagination-info" id="paginationInfo"></span>
+    <span class="catalog__pagination-info" id="paginationInfo" aria-live="polite"></span>
     <div class="catalog__pagination-controls">
       <button type="button" class="catalog__page-btn" id="prevPage">&#8249;</button>
       <span id="paginationPages"></span>
@@ -182,10 +182,10 @@
 </main>
 
 <!-- ===== Help Modal ===== -->
-<div class="help-overlay" id="helpOverlay">
+<div class="help-overlay" id="helpOverlay" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
   <div class="help-modal">
-    <button type="button" class="help-modal__close" id="helpClose">&times;</button>
-    <h2>SZD-HTR Viewer</h2>
+    <button type="button" class="help-modal__close" id="helpClose" aria-label="Hilfe schließen">&times;</button>
+    <h2 id="helpTitle">SZD-HTR Viewer</h2>
     <p>
       Qualitätskontrolle und Showcase für VLM-basierte Transkriptionen aus dem
       <a href="https://stefanzweig.digital/" target="_blank" rel="noopener">Stefan-Zweig-Nachlass</a>
