@@ -243,7 +243,11 @@ Naechster Schritt: [Was kommt als naechstes]
 **Schritt 3 (Statistik-Uebersicht): ZURÜCKGESTELLT** — erst sinnvoll nach Batch-Lauf (bei 16 Objekten wenig Aussagekraft)
 
 ### Lane 2 — Methodik
-**Stand:** 2026-04-01. verification-concept.md v2, annotation-protocol.md, pilot-design.md fertig. Wartet auf Pilot-Durchfuehrung. HTR-Interchange-Format als neues Deliverable.
+**Stand:** 2026-04-01 (Session 8).
+- [x] Schritt 1: pilot-design.md finalisiert — 5 Seiten, 5 Gruppen, Eskalationsschwellen, Pruefprotokoll. Keine Anpassung noetig.
+- [x] Schritt 2: htr-interchange-format.md geschrieben — JSON Schema v0.1, teiCrafter-Mapping, SZD-HTR-Mapping, Abgrenzung ALTO/PAGE/hOCR, Beispiel.
+- [ ] Schritt 3: Pilot-Ergebnisse auswerten — WARTET AUF Operator-Durchfuehrung.
+- [ ] Schritt 4: Prompt-Experiment-Design — WARTET AUF Pilot-Ergebnisse.
 
 ### Lane 3 — Backend
 **Stand:** 2026-04-01. 16/2107 Objekte transkribiert, 9/9 Gruppen abgedeckt. JSON-Parsing-Problem bekannt. quality_signals noch nicht implementiert.
