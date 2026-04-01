@@ -339,13 +339,15 @@ CLAUDE.md, Plan.md und journal.md auf aktuellen Stand gebracht.
 
 ### Forschungsleitstelle: Verification-by-Vision getestet
 
-6 Objekte via Claude Code Vision verifiziert (Bild lesen + Transkription vergleichen):
-- o_szd.161 (Kurztext): `llm_verified` — null Fehler
-- o_szd.72 (Handschrift/Kurrent): `llm_error_suggestion` — Kurrent-Ambiguitaeten, keine Halluzinationen
-- o_szd.277 (Konvolut): `llm_error_suggestion` — klare Fehler ("entbalten", "Ictreesten") in Korrekturschicht
-- o_szd.139 (Formular): `llm_error_suggestion` — minor ("Datum:"-Label inkonsistent)
-- o_szd.1887 (Korrekturfahne): `llm_error_suggestion` — Drucktext OK, handschriftl. Vermerke ("ueberhagn") problematisch
-- o_szd.147 (Formular): **BROKEN** — 64 Bilder, 0 Seiten transkribiert (Pipeline-Bug)
+8 Objekte via Claude Code Vision verifiziert (Bild lesen + Transkription vergleichen). 8 von 9 Gruppen abgedeckt:
+- o_szd.161 (D Kurztext): `llm_verified` — null Fehler
+- o_szd.72 (A Handschrift/Kurrent): `llm_error_suggestion` — Kurrent-Ambiguitaeten, keine Halluzinationen
+- o_szd.277 (G Konvolut): `llm_error_suggestion` — klare Fehler ("entbalten", "Ictreesten") in Korrekturschicht
+- o_szd.139 (C Formular): `llm_error_suggestion` — minor ("Datum:"-Label inkonsistent)
+- o_szd.1887 (F Korrekturfahne): `llm_error_suggestion` — Drucktext OK, handschriftl. Vermerke problematisch
+- o_szd.2232 (H Zeitungsausschnitt/Fraktur): `llm_error_suggestion` — 3 typische Fraktur-Fehler (fl-Ligatur, langes s, u/n)
+- o_szd.1079 (I Korrespondenz): `llm_error_suggestion` — "Gerichte"→"Gedichte" (d/r), Ortsname "Klard" existiert nicht
+- o_szd.147 (C Formular): **BROKEN** — 64 Bilder, 0 Seiten transkribiert (Pipeline-Bug)
 
 Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empirische Befunde).
 

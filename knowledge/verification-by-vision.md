@@ -175,14 +175,19 @@ Getestet in Session 11 (Forschungsleitstelle, Kanal A = Claude Code Agent).
 | o_szd.277 | G Konvolut | medium | error_suggestion | 2 | 10 | "entbalten", "Ictreesten" in Korrekturschicht |
 | o_szd.139 | C Formular | high | error_suggestion | 0 | 2 | "Datum:"-Label auf Seite 1 fehlt (Seite 3 hat es) |
 | o_szd.1887 | F Korrekturfahne | high | error_suggestion | 0 | 5 | Drucktext korrekt, handschriftl. Vermerke problematisch ("ueberhagn") |
+| o_szd.2232 | H Zeitungsausschnitt | high | error_suggestion | 3 | 1 | Fraktur-Fehler: fl-Ligatur→st, u→n, ſ→l. >99% korrekt trotzdem |
+| o_szd.1079 | I Korrespondenz | high | error_suggestion | 1 | 3 | "Gerichte"→"Gedichte" (d/r), Ortsname "Klard" existiert nicht |
 | o_szd.147 | C Formular | ? | BROKEN | — | — | 64 Bilder, 0 Seiten transkribiert — Pipeline-Bug |
+
+**8 von 9 Gruppen geprueft** (A, C, D, F, G, H, I + Pipeline-Bug). Gruppe E (Tabellarisch) steht noch aus.
 
 ### 7.2 Muster
 
-1. **Gedruckter Text** (Typoskript, Formular-Grundtext, Korrekturfahnen-Drucktext): Durchgehend korrekt. Keine Fehler in 6 Objekten.
-2. **Handschrift** (Kurrent, Briefschrift, Bleistift): Gut, aber mit Einzelwort-Ambiguitaeten. Kein Fall von Halluzination. Geminis "high confidence" ist optimistisch aber vertretbar.
-3. **Handschriftliche Korrekturen und Vermerke**: Schwaechste Schicht (~60-70% korrekt). Ueberlappende Tintenfarben, Durchstreichungen mit Einfuegungen, marginale Notizen — hier produziert Gemini Nonsens-Woerter und falsche Zuordnungen.
-4. **Pipeline-Bug**: Objekte mit sehr vielen Bildern (o_szd.147: 64 Bilder) erzeugen leere Ergebnisse. Vermutlich `--max-images`-Limit oder Token-Ueberlauf.
+1. **Gedruckter Text** (Typoskript, Formular-Grundtext, Korrekturfahnen-Drucktext): Durchgehend korrekt bei Antiqua. Keine Fehler in 8 Objekten.
+2. **Fraktur** (Zeitungsausschnitte): Gut, aber mit typischen Fraktur-Verwechslungen (fl-Ligatur, langes s, u/n). >99% korrekt auf Zeichenebene, aber klare systematische Fehler.
+3. **Handschrift** (Kurrent, Briefschrift, Bleistift): Gut, Einzelwort-Ambiguitaeten. Kein Fall von Halluzination. d/r-Verwechslung bei Korrespondenz ("Gerichte"/"Gedichte").
+4. **Handschriftliche Korrekturen und Vermerke**: Schwaechste Schicht (~60-70% korrekt). Ueberlappende Tintenfarben, Durchstreichungen mit Einfuegungen — hier produziert Gemini Nonsens-Woerter.
+5. **Pipeline-Bug**: Objekte mit sehr vielen Bildern (o_szd.147: 64 Bilder) erzeugen leere Ergebnisse.
 
 ### 7.3 Methodische Grenzen
 

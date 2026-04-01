@@ -145,7 +145,9 @@ function getViewerObject(objectId) {
 
 function parseHash() {
   const hash = location.hash.slice(1);
-  if (!hash || hash === 'help') return { view: 'catalog', objectId: null, page: 0 };
+  if (!hash || hash === 'help' || hash.startsWith('catalog')) {
+    return { view: 'catalog', objectId: null, page: 0 };
+  }
   const m = hash.match(/^view\/(.+?)(?:\/(\d+))?$/);
   if (m) return { view: 'viewer', objectId: m[1], page: m[2] ? parseInt(m[2], 10) - 1 : 0 };
   return { view: 'catalog', objectId: null, page: 0 };
@@ -156,14 +158,61 @@ function navigate(hash) {
   location.hash = hash;
 }
 
+function buildCatalogHash() {
+  const params = new URLSearchParams();
+  if (state.filterCollection) params.set('collection', state.filterCollection);
+  if (state.filterGroup) params.set('group', state.filterGroup);
+  if (state.filterConfidence) params.set('confidence', state.filterConfidence);
+  if (state.filterReview) params.set('review', '1');
+  if (state.searchQuery) params.set('q', state.searchQuery);
+  if (state.sortField !== 'collection') params.set('sort', state.sortField);
+  if (!state.sortAsc) params.set('asc', '0');
+  if (state.catalogPage > 0) params.set('page', String(state.catalogPage + 1));
+  const qs = params.toString();
+  return qs ? 'catalog?' + qs : '';
+}
+
+function parseCatalogParams(hash) {
+  const qIdx = hash.indexOf('?');
+  if (qIdx === -1) return;
+  const params = new URLSearchParams(hash.slice(qIdx + 1));
+  if (params.has('collection')) state.filterCollection = params.get('collection');
+  if (params.has('group')) state.filterGroup = params.get('group');
+  if (params.has('confidence')) state.filterConfidence = params.get('confidence');
+  state.filterReview = params.get('review') === '1';
+  if (params.has('q')) state.searchQuery = params.get('q');
+  if (params.has('sort')) state.sortField = params.get('sort');
+  if (params.has('asc')) state.sortAsc = params.get('asc') !== '0';
+  if (params.has('page')) state.catalogPage = Math.max(0, parseInt(params.get('page'), 10) - 1);
+}
+
+function restoreFilterUI() {
+  document.getElementById('searchInput').value = state.searchQuery;
+  document.getElementById('filterCollection').value = state.filterCollection;
+  updateGroupFilter();
+  document.getElementById('filterGroup').value = state.filterGroup;
+  document.getElementById('filterConfidence').value = state.filterConfidence;
+  document.getElementById('filterReview').checked = state.filterReview;
+}
+
+function updateCatalogURL() {
+  const newHash = buildCatalogHash();
+  const currentHash = location.hash.slice(1);
+  if (currentHash !== newHash) {
+    history.replaceState(null, '', '#' + newHash);
+  }
+}
+
 function route() {
   const r = parseHash();
   if (r.view === 'viewer' && r.objectId) {
     showViewer(r.objectId, r.page);
   } else {
+    parseCatalogParams(location.hash.slice(1));
+    restoreFilterUI();
     showCatalog();
+    renderCatalog();
   }
-  // Help modal
   if (location.hash === '#help') openHelp();
 }
 
@@ -515,6 +564,8 @@ function renderCatalog() {
       th.removeAttribute('aria-sort');
     }
   });
+
+  updateCatalogURL();
 }
 
 function initCatalogFilters() {
@@ -1247,7 +1298,7 @@ function initEvents() {
   // Back to catalog
   document.getElementById('backBtn').addEventListener('click', e => {
     e.preventDefault();
-    navigate('');
+    navigate(buildCatalogHash());
   });
 
   // Viewer: page nav
@@ -1350,7 +1401,7 @@ function initEvents() {
           state.editMode = false;
           renderViewerPage();
         } else {
-          navigate('');
+          navigate(buildCatalogHash());
         }
       }
     }
@@ -1421,7 +1472,6 @@ async function init() {
   initCatalogFilters();
   renderStats();
   applyFilters();
-  renderCatalog();
   initEvents();
   route();
 }
