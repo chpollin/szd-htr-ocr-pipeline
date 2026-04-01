@@ -127,6 +127,14 @@ Erweiterung:
 
 Drei Templates fuer die Hauptgruppen des Nachlasses, im Format der teiCrafter-Demo-Mappings (Markdown-Bullet-Listen).
 
+**Die Templates sind als eigenstaendige Dateien extrahiert und im teiCrafter-Repo abgelegt:**
+
+| Template | Datei | Gruppen |
+|---|---|---|
+| Korrespondenz | `teiCrafter/data/demo/mappings/correspondence-szd.md` | I, D |
+| Manuskript | `teiCrafter/data/demo/mappings/manuscript-szd.md` | A, E, G |
+| Druck/Typoskript | `teiCrafter/data/demo/mappings/print-szd.md` | B, C, F, H |
+
 ### 4.1 Template: szd-correspondence.md
 
 Fuer Gruppe I (Korrespondenzen, ~1186 Objekte) und Gruppe D (Kurztexte — Postkarten, Visitenkarten).

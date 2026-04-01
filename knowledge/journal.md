@@ -281,6 +281,123 @@ Systematische Pruefung aller 6 knowledge-Dateien + Lane.md auf Konsistenz, Korre
 
 ---
 
+## 2026-04-01 — Session 9: Selbstkritische Review
+
+### Systematische Pruefung aller knowledge-Dokumente
+
+Alle 6 knowledge-Dateien + Lane.md auf Konsistenz, empirische Fundierung und Redundanz geprueft.
+
+### Korrekturen
+
+- **verification-concept.md**: Objektzahlen 12→16, Konfidenz 15h+1m, Gruppe G ins Sample (31 statt 30), Anachronismus in Fehlertaxonomie-Tabelle §1.5, empirische Einordnung der quality_signals in §2.3
+- **pilot-design.md**: Prompt-Wirksamkeit als neue Frage in §3.1
+
+### Empirische Befunde (aus 16 Ergebnis-JSONs)
+
+1. **Marker-Problem**: 57.000 Zeichen, 2 Marker. marker_density ist kein Signal.
+2. **quality_signals**: 10/16 (63%) als needs_review — zu aggressiv, hauptsaechlich page_image_mismatch.
+3. **Gruppen-Prompts**: Strukturelle Guidance wirkt (Briefformat), Vorsichts-Guidance ignoriert (0 [?]-Marker bei Kurrent).
+4. **o_szd.143**: Nur 20 Zeichen — moeglicherweise Pipeline-Problem (ungeklaert).
+
+---
+
+## 2026-04-01 — Session 10: teiCrafter-Integration und TEI-Zielstruktur
+
+### L2: Schritt 3+4 abgeschlossen
+
+**tei-target-structure.md** (7 Abschnitte):
+- DTABf als TEI-Profil, SZD-Erweiterungen via `szdg:`-Namespace
+- Vollstaendiges XML-Beispiel basierend auf o_szd.1079 (Brief an Fleischer)
+- Markup→TEI-Mapping-Tabelle: 7 Pipeline-Marker → TEI-Elemente
+- NER-Strategie: Phase 1 Personen/Orte/Daten, Phase 2 Werke/Organisationen
+- Empfehlung: Separate TEI-Dateien pro Objekt (nicht in Metadaten-TEI einbetten)
+- 5 offene Entscheidungen dokumentiert (lb, NER-Tiefe, Confidence-Attribute, Mehrsprachigkeit, Umschlaege)
+
+**teiCrafter-integration.md** (8 Abschnitte):
+- JSON-Import-Spec fuer teiCrafter Step 1 (neuer Dateityp .json)
+- Auto-Vorbelegung von Step 2 aus JSON-Metadaten
+- 3 Mapping-Templates: szd-correspondence, szd-manuscript, szd-print
+- Sprach-Erweiterung (en/fr/it/es) + Epoche 20c
+- DTABf-Schema: 8 neue Elemente (gap, del, add, stamp, table, row, cell, cb)
+- Seitentrenner korrigiert: `|{n}|` statt `\n\n---\n\n`
+- Alle 5 offenen Punkte aus htr-interchange-format.md §8 geloest
+
+### Erkenntnisse
+
+1. **Seitentrenner-Konvention**: teiCrafter verwendet `|{n}|` in allen Demo-Mappings — das Interchange-Format muss sich anpassen, nicht umgekehrt.
+2. **DTABf-Schema-Luecken**: Diplomatische Transkriptionselemente (gap, del, add) fehlen im aktuellen Schema — muessen vor Nutzung ergaenzt werden.
+3. **Zwei TEI-Schichten**: Metadaten-TEI (bestehend, Katalog) und Transkriptions-TEI (neu, pro Objekt) bleiben getrennt, verknuepft via PID.
+4. **Bestehendes SZD-TEI hat keine Transkriptionsinhalte** — es ist ein reines Metadaten-Register, kein Editionsformat.
+
+### Refactoring
+
+CLAUDE.md, Plan.md und journal.md auf aktuellen Stand gebracht.
+
+---
+
+## 2026-04-01 — Session 11: Verification-by-Vision, Build, Lane-Updates
+
+### Forschungsleitstelle: Verification-by-Vision getestet
+
+6 Objekte via Claude Code Vision verifiziert (Bild lesen + Transkription vergleichen):
+- o_szd.161 (Kurztext): `llm_verified` — null Fehler
+- o_szd.72 (Handschrift/Kurrent): `llm_error_suggestion` — Kurrent-Ambiguitaeten, keine Halluzinationen
+- o_szd.277 (Konvolut): `llm_error_suggestion` — klare Fehler ("entbalten", "Ictreesten") in Korrekturschicht
+- o_szd.139 (Formular): `llm_error_suggestion` — minor ("Datum:"-Label inkonsistent)
+- o_szd.1887 (Korrekturfahne): `llm_error_suggestion` — Drucktext OK, handschriftl. Vermerke ("ueberhagn") problematisch
+- o_szd.147 (Formular): **BROKEN** — 64 Bilder, 0 Seiten transkribiert (Pipeline-Bug)
+
+Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empirische Befunde).
+
+### Build ausgefuehrt
+
+`build_viewer_data.py`: 62 Objekte im Frontend (46 Lebensdokumente, 13 Werke, 2 Aufsatzablage, 1 Korrespondenz).
+
+### Lane.md aktualisiert (v0.5)
+
+- Forschungsleitstelle als eigene Sektion mit Auftraegen
+- L1: Schritt 3+4 als erledigt (Dashboard, Diff-Prototyp)
+- L2: Schritt 3+4 als erledigt (teiCrafter, TEI-Zielstruktur), neue Schritte 5-7
+- L3: Status auf ~62 Objekte, Interchange-Export als Schritt 6
+
+### Erkenntnisse
+
+1. **Verification-by-Vision funktioniert** — actionable Fehler in ~2 Min/Objekt, kein API-Cost fuer Claude-Kanal.
+2. **Muster:** Drucktext korrekt, Handschrift gut, Korrekturen/Vermerke schwach (~60-70%).
+3. **Pipeline-Bug:** Objekte mit vielen Bildern (o_szd.147: 64 Bilder) erzeugen leere Ergebnisse.
+4. **Methodischer Beitrag:** VbV ist der staerkste Verifikationsansatz im Projekt — direkter Bild↔Text-Vergleich statt nur Textvergleich. Fuer den Aufsatz relevant.
+
+---
+
+## 2026-04-01 — Session 12: Mapping-Templates, JSON-Schema, DIA-XAI-Integration
+
+### L2: 3 Bonus-Deliverables
+
+**1. teiCrafter Mapping-Templates extrahiert**
+3 eigenstaendige .md-Dateien aus teiCrafter-integration.md §4, abgelegt in `teiCrafter/data/demo/mappings/`:
+- `correspondence-szd.md` — Gruppen I, D (Briefstruktur, diplomatisches Markup, HTR-Pipeline-Konvertierung)
+- `manuscript-szd.md` — Gruppen A, E, G (Tagebuecher, Register, Konvolute, Tabellen)
+- `print-szd.md` — Gruppen B, C, F, H (Typoskripte, Formulare, Korrekturfahnen, Zeitungsausschnitte)
+
+**2. JSON-Schema als validierbare Datei**
+`schemas/htr-interchange-v0.1.json` — das Schema aus htr-interchange-format.md §3 als eigenstaendige Datei. Aenderungen gegenueber Codeblock: `$id` auf GitHub Pages URL, `source.language` mit Regex-Pattern (`^[a-z]{2,3}$`), `source.document_type` als kontrolliertes Vokabular (14 Enum-Werte). Validiert mit `python -m json.tool`.
+
+**3. DIA-XAI-Integrationskonzept**
+`knowledge/dia-xai-integration.md` — 5 Abschnitte:
+- Pipeline-Diagramm SZD-HTR → teiCrafter → DIA-XAI
+- EQUALIS-Mapping: 5 Dimensionen (E/QUA/L/I/S) auf konkrete SZD-HTR-Datenquellen
+- Metriken-Export (`dia-xai-metrics-v1` JSON) mit 2 Export-Punkten (nach HTR/VbV, nach teiCrafter-Review)
+- Zeitplan: Was muss vor DIA-XAI Phase 1 (Mai 2026) fertig sein
+- UC3 (HTR-Verifikation) und UC4 (TEI-Annotation) als Ziel-Use-Cases
+
+### Erkenntnisse
+
+1. **DIA-XAI ist Aggregator, nicht Verifikationstool** — importiert Metriken-JSON, macht keine eigene Analyse. Die Verifikation passiert in SZD-HTR (VbV) und teiCrafter (Expert-Review).
+2. **EQUALIS-Scalability (S-Dimension)** profitiert besonders von SZD-HTR: 9 Gruppen × 4 Sprachen × 6+ Haende = natuerliche Varianz.
+3. **Kritischer Pfad unveraendert:** Pilot (5 Seiten) muss vor DIA-XAI Phase 1 fertig sein.
+
+---
+
 ## Offene Fragen (Stand 2026-04-01)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -294,3 +411,6 @@ Systematische Pruefung aller 6 knowledge-Dateien + Lane.md auf Konsistenz, Korre
 - [ ] quality_signals kalibrieren: page_image_mismatch zu aggressiv (Session 8)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [ ] o_szd.143 nur 20 Zeichen auf 3 Seiten — Pipeline-Problem oder korrektes Ergebnis? (Session 8)
+- [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
+- [ ] Pipeline-Bug: o_szd.147 (64 Bilder, 0 Seiten) — L3 pruefen (Session 11)
+- [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Pilot)

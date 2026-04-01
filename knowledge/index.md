@@ -23,10 +23,12 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 - [[htr-interchange-format]] — JSON-Schema fuer szd-htr → teiCrafter (Entwurf)
 - [[tei-target-structure]] — TEI-Zielformat fuer annotierte SZD-Transkriptionen (DTABf-basiert)
 - [[teiCrafter-integration]] — Integrationskonzept: JSON-Import, Mapping-Templates, Schema-Erweiterungen
+- [[verification-by-vision]] — LLM-gestuetzte Bildpruefung: Claude Code Agent + Gemini API
+- [[dia-xai-integration]] — EQUALIS-Mapping: SZD-HTR → DIA-XAI (UC3 + UC4)
 
 ## Projektlog
 
-- [[journal]] — Chronologisches Log aller Sessions (1–7)
+- [[journal]] — Chronologisches Log aller Sessions (1–11)
 
 ## Verwandte Dokumente (ausserhalb des Vaults)
 

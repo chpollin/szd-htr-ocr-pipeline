@@ -20,7 +20,7 @@ Adressaten: Lane 1 (Frontend/Viewer), Lane 3 (Pipeline-Implementierung)
 
 ## Ausgangslage
 
-Die Pipeline hat 16 Objekte transkribiert (Stand 2026-04-01), davon 15 mit Selbsteinschaetzung "high confidence" und 1 mit "medium" (o_szd.277, Konvolut mit ueberlappenden Korrekturen). Die Selbsteinschaetzung ist nahezu wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In ca. 57.000 transkribierten Zeichen ueber alle 16 Objekte finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
+Die Pipeline hat ~62 Objekte transkribiert (Stand Session 11, 2026-04-01), davon alle ausser 1 mit Selbsteinschaetzung "high confidence" (o_szd.277, Konvolut mit ueberlappenden Korrekturen, erhielt "medium"). 1 Objekt (o_szd.147, 64 Bilder) hat ein leeres Ergebnis (Pipeline-Bug). Die Selbsteinschaetzung ist nahezu wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In ca. 57.000 transkribierten Zeichen ueber alle 16 Objekte finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
 
 **Empirischer Befund (Stand Session 8):** Die Gruppen-Prompts weisen das Modell explizit an, bei Kurrent-Ambiguitaeten (e/n, s/f) Unsicherheitsmarker zu setzen. Ergebnis: Null Marker bei 6.711 Zeichen Kurrent-Handschrift (o_szd.72). Die Vorsichts-Guidance in den Prompts wird faktisch ignoriert. Strukturelle Guidance (Briefformat bei Korrespondenz) wird hingegen befolgt. Die quality_signals flaggen aktuell 10/16 Objekte (63%) als `needs_review` — das ist zu viel fuer effektive Triage und zeigt, dass die Schwellenwerte vor Kalibrierung zu aggressiv sind.
 
@@ -708,20 +708,43 @@ Wenn Ground-Truth-Referenzen vorliegen, soll der Viewer die CER pro Objekt und p
 
 ---
 
+## 6. Verification-by-Vision
+
+Vollstaendige Spezifikation: [[verification-by-vision]]
+
+**Kernidee:** Zwei VLMs vergleichen unabhaengig das Faksimile-Bild mit der Transkription und identifizieren konkrete Fehler. Kanal A (Claude Code Agent, kostenlos — liest Bilder via eingebauter Vision) + Kanal B (Gemini API, `verify_gemini.py`). Cross-Model-Agreement aus zwei unabhaengigen Pruefungen.
+
+**Getestet an 6 Objekten (Session 11):** 1x `llm_verified`, 4x `llm_error_suggestion`, 1x Pipeline-Bug. Staerkstes Verifikationsverfahren im Projekt — direkter Bild↔Text-Vergleich statt nur Textvergleich.
+
+**Empirische Muster:**
+- Gedruckter Text: durchgehend korrekt (0 Fehler in 6 Objekten)
+- Handschrift: gut, Einzelwort-Ambiguitaeten bei Kurrent (keine Halluzinationen)
+- Handschriftliche Korrekturen/Vermerke: schwaechste Schicht (~60-70% korrekt)
+
+**Error-Markup:** Fehler werden inline im Transkriptionstext markiert als `«original→korrektur|konfidenz»`. Im Frontend farbig hervorgehoben, per Click akzeptierbar.
+
+**Status-Kategorien:** `llm_verified` | `llm_error_suggestion` | `unverified` | `human_verified`
+
+**Abgrenzung:** VbV ersetzt nicht den manuellen Pilot (CER) und nicht quality_signals (Anomalie-Erkennung). Es ergaenzt beide um eine direkte Bildpruefung mit konkreten, actionable Fehlermeldungen.
+
+---
+
 ## Zusammenfassung der Abhaengigkeiten
 
 ```
 SOFORT (keine Abhaengigkeiten):
   ├── quality_signals implementieren (Abschnitt 2) → Lane 3
   ├── needs_review-Indikator im Viewer (Abschnitt 5.2) → Lane 1
-  └── Annotationsprotokoll finalisieren (annotation-protocol.md) → Lane 2
+  ├── Annotationsprotokoll finalisieren (annotation-protocol.md) → Lane 2
+  └── Verification-by-Vision Stichproben (Abschnitt 6) → Forschungsleitstelle
 
 NACH ANNOTATIONSPROTOKOLL:
-  └── Ground Truth erstellen (30 Objekte manuell transkribieren)
+  └── Ground Truth erstellen (31 Objekte manuell transkribieren)
         |
         ├── quality_signals kalibrieren (Schwellenwerte anpassen)
         ├── Prompt-Experiment auswerten (CER-Vergleich V1/V2/V3)
         ├── Pipeline-Basislinie etablieren (CER/WER pro Gruppe)
+        ├── VbV-Konfidenz gegen GT kalibrieren
         └── Cross-Model-Verification evaluieren (Abschnitt 4)
               |
               ├── Entscheidung: Doppeltranskription fuer vollen Batch?

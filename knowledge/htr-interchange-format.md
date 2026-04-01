@@ -57,10 +57,14 @@ Es ist ein **Transportformat zwischen HTR und Annotation**, kein Langzeitarchivi
 
 ## 3. JSON Schema
 
+Das Schema ist als eigenstaendige, validierbare Datei verfuegbar: [`schemas/htr-interchange-v0.1.json`](../schemas/htr-interchange-v0.1.json)
+
+Die `$id` ist auf `https://chpollin.github.io/szd-htr/schemas/htr-interchange-v0.1.json` gesetzt. Das `source.language`-Feld erzwingt ISO 639-1/3 (`pattern: ^[a-z]{2,3}$`), und `source.document_type` verwendet ein kontrolliertes Vokabular (14 Typen).
+
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/htr-interchange/v0.1",
+  "$id": "https://chpollin.github.io/szd-htr/schemas/htr-interchange-v0.1.json",
   "title": "HTR Interchange Format",
   "description": "Seitenbasiertes JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse",
   "type": "object",
