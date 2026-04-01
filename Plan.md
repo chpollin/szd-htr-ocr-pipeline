@@ -44,16 +44,36 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ## Phase 4: Qualität & Vergleich (nächster Schritt)
 
+### 4a: Pilot & Ground Truth
+- [ ] **Pilot**: 5 Seiten manuell prüfen (→ `knowledge/pilot-design.md`)
+- [ ] Pilot-Ergebnisse auswerten, CER pro Gruppe bestimmen
+- [ ] Annotationsprotokoll ggf. anpassen (→ `knowledge/annotation-protocol.md`)
+- [ ] Ground-Truth-Sample: 30 Objekte manuell transkribieren (→ `knowledge/verification-concept.md` §1)
+- [ ] CER-Berechnungsscript (Lane 3)
+
+### 4b: Quality Signals & Batch
+- [ ] `quality_signals` implementieren (→ `verification-concept.md` §2.5, Lane 3)
+- [ ] `needs_review`-Indikator im Viewer (Lane 1)
 - [ ] Alle Sammlungen komplett transkribieren (2107 Objekte)
-- [ ] Provider-Vergleich: Gemini vs. Claude Vision vs. GPT-4o
-- [ ] Prompt-Iteration basierend auf Ergebnissen
-- [ ] Fraktur-Erkennung testen (echte Fraktur-Zeitungsausschnitte finden)
-- [ ] Schwierige Handschriften identifizieren (Objekte mit low confidence suchen)
+- [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
+
+### 4c: Prompt-Experiment & Provider-Vergleich
+- [ ] Prompt-Wirksamkeit: 3 Varianten × 30 GT-Objekte (→ `verification-concept.md` §3)
+- [ ] Cross-Model-Verification: Gemini + Claude Sonnet auf GT-Sample (→ `verification-concept.md` §4)
+- [ ] Provider-Vergleich: Gemini vs. Claude vs. GPT-4o
+- [ ] Diff-Ansicht im Viewer (Lane 1)
 - [ ] Optimale Bildgröße testen (Resizing vor API-Call)
 
 ## Phase 5: TEI-Integration
 
-- [ ] Rohtext → TEI-XML via teiCrafter-Pipeline
+### 5a: Interchange-Format (szd-htr → teiCrafter)
+- [ ] L2: HTR-Interchange-Format spezifizieren (JSON Schema) → `knowledge/htr-interchange-format.md`
+- [ ] L3: szd-htr-Output auf Interchange-Format abbilden (Export oder Konformitaet)
+- [ ] teiCrafter-Repo: JSON-Import in Step 1 einbauen (neuer Import-Typ "HTR/OCR JSON")
+- [ ] teiCrafter-Repo: Mapping-Kontext automatisch aus JSON vorbelegen (Sprache, Epoche, Dokumenttyp)
+
+### 5b: TEI-Annotation & Integration
+- [ ] teiCrafter: HTR-JSON → TEI-XML (LLM-gestuetzte Annotation mit DTABf-Schema)
 - [ ] NER auf transkribierten Texten
 - [ ] Integration in SZD-Datenmodell
 

@@ -1,7 +1,19 @@
+---
+title: "Annotationsprotokoll: Referenztranskription fuer das SZD-HTR Ground-Truth-Sample"
+aliases: ["Annotationsprotokoll"]
+created: 2026-04-01
+updated: 2026-04-01
+type: protocol
+tags: [szd-htr, methodology]
+status: stable
+related:
+  - "[[verification-concept]]"
+  - "[[pilot-design]]"
+---
+
 # Annotationsprotokoll: Referenztranskription fuer das SZD-HTR Ground-Truth-Sample
 
-Stand: 2026-04-01 | Autor: Lane 2 (Methodik)
-Abhaengigkeit: verification-concept.md (Abschnitt 1 definiert das Sample)
+Abhaengigkeit: [[verification-concept]] (Abschnitt 1 definiert das Sample)
 
 ---
 

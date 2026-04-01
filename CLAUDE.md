@@ -16,7 +16,8 @@ Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrhe
 - **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. neu erstellter Gruppe G (Konvolut)
 - **~2107 Objekte** im Backup über 4 Sammlungen — Batch-Lauf für den Rest steht aus
 - 15× high confidence, 1× medium (Konvolut mit überlappenden Korrekturen)
-- Nächster Schritt: Phase 4 — kompletter Batch-Lauf, Provider-Vergleich
+- **Verifikationskonzept** fertig: Ground-Truth-Design, quality_signals-Spezifikation, Cross-Model-Verification, Literatur-Review (6 Papers)
+- Nächster Schritt: **Pilot** (5 Seiten manuell prüfen), dann Ground-Truth-Sample (30 Objekte), dann Phase 4
 
 ## Quelldaten
 
@@ -65,6 +66,7 @@ Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespo
 szd-htr/
 ├── CLAUDE.md
 ├── Plan.md                          ← Phasen-Status (1–6), einzige Wahrheitsquelle
+├── Lane.md                          ← Lane-Koordination (Aufträge, Status, Abhängigkeiten)
 ├── requirements.txt                 ← google-genai, python-dotenv
 ├── .env                             ← API Keys (nicht committet)
 ├── pipeline/
@@ -91,6 +93,9 @@ szd-htr/
 │       ├── aufsatzablage.json
 │       └── korrespondenzen.json
 └── knowledge/                       ← Research-Vault (Datenanalysen, Journal)
+    ├── verification-concept.md      ← GT-Sample, quality_signals, Cross-Model, Literatur
+    ├── annotation-protocol.md       ← Transkriptionskonventionen für Referenz-Sample
+    └── pilot-design.md              ← 5-Seiten-Pilot vor vollem GT-Sample
 ```
 
 ## CLI-Nutzung

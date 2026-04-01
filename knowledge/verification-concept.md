@@ -1,6 +1,19 @@
+---
+title: "Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline"
+aliases: ["Verifikationskonzept"]
+created: 2026-04-01
+updated: 2026-04-01
+type: concept
+tags: [szd-htr, methodology]
+status: stable
+related:
+  - "[[annotation-protocol]]"
+  - "[[pilot-design]]"
+  - "[[data-overview]]"
+---
+
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline
 
-Stand: 2026-04-01 | Autor: Lane 2 (Methodik)
 Adressaten: Lane 1 (Frontend/Viewer), Lane 3 (Pipeline-Implementierung)
 
 ---

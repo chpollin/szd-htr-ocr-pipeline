@@ -1,7 +1,19 @@
+---
+title: "Pilot-Design: 5 Seiten zur Erstbewertung der Pipeline-Qualitaet"
+aliases: ["Pilot"]
+created: 2026-04-01
+updated: 2026-04-01
+type: design
+tags: [szd-htr, methodology]
+status: stable
+related:
+  - "[[annotation-protocol]]"
+  - "[[verification-concept]]"
+---
+
 # Pilot-Design: 5 Seiten zur Erstbewertung der Pipeline-Qualitaet
 
-Stand: 2026-04-01 | Autor: Lane 2 (Methodik)
-Voraussetzung: annotation-protocol.md (Konventionen), verification-concept.md (Metriken)
+Voraussetzung: [[annotation-protocol]] (Konventionen), [[verification-concept]] (Metriken)
 
 ---
 
