@@ -296,15 +296,16 @@ Naechster Schritt: [Was kommt als naechstes]
 ## Status der Lanes
 
 ### Lane 1 — Frontend
-**Stand:** 2026-04-01, Schritt 1–4 abgeschlossen.
+**Stand:** 2026-04-01, Schritt 1–4 + Polishing abgeschlossen. 70 Objekte im Frontend.
 
 **Schritt 1 (Classification-Pruefung): ERLEDIGT** (Commit `e1b90e8`)
 - Typ-Spalte zeigt TEI `classification` statt Prompt-Gruppe
 - Gruppen-Filter: dynamische Dropdown, passt sich an Sammlung an
 
-**Schritt 2 (quality_signals-UI): CODE FERTIG, WARTET AUF L3-DATEN**
+**Schritt 2 (quality_signals-UI): ERLEDIGT**
 - Review-Spalte, Qualitaets-Panel, Graceful Degradation
-- Sobald L3 Schritt 3 (Backfill + Build) abschliesst → visueller Test
+- L3 hat quality_signals geliefert → Build mit 70 Objekten durchgefuehrt
+- **Visueller Test mit echten Daten steht noch aus (Operator)**
 
 **Schritt 3 (Statistik-Dashboard): ERLEDIGT**
 - Kompakte Leiste oberhalb der Katalog-Tabelle: Gesamtzahl + Chips pro Sammlung + Review-Count
@@ -343,6 +344,13 @@ Naechster Schritt: [Was kommt als naechstes]
 - 6 Diff-Farb-Variablen in `:root` extrahiert
 - 5 unbenutzte CSS-Klassen entfernt
 - Stats-Dashboard `display`-Bug gefixt
+
+**Polishing (Accessibility, Meta, Filter-URL, Diff-Fix): ERLEDIGT**
+- Meta-Tags: description, Open Graph, theme-color, inline SVG-Favicon ("SZ" in Burgundy)
+- Accessibility: `:focus-visible` Styles, Skip-Link, sr-only Labels fuer Formularfelder, `scope="col"` auf `<th>`, `aria-sort` auf sortierten Spalten, `aria-expanded` auf Stats-Toggle, `role="dialog"` + `aria-modal` auf Help-Modal, `aria-live` auf Toast/Pagination/Edit-Status, Keyboard-Navigation (Enter/Space auf Tabellenzeilen), Fokus-Management (Catalog/Viewer), `prefers-reduced-motion` Support
+- Filter-State in URL: `#catalog?collection=werke&group=Romane&q=Zweig&sort=titleClean&asc=0&page=2` — Filter bleiben bei Reload, Viewer-Rueckkehr und Bookmark erhalten
+- Diff-Layout-Fix: Diff-Panel ersetzt nur Text-Panel (rechte Spalte), Faksimile bleibt sichtbar
+- Build: 70 Objekte (46 Lebensdokumente, 19 Werke, 4 Aufsatzablage, 1 Korrespondenzen)
 
 **Fruehere Arbeiten (Session 7–8):**
 - Viewer: Zoom/Pan/Rotate, Metadaten-Bar, CSS-Cleanup, Korrespondenzen-Typ

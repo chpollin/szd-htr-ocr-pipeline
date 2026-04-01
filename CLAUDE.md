@@ -12,9 +12,11 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrheitsquelle für Phasen-Status).
 
-- **~61 Objekte** transkribiert: 7 Test (`results/test/`), 42 Lebensdokumente, 11 Werke, 1 Aufsatzablage
+- **70 Objekte** transkribiert: 46 Lebensdokumente, 19 Werke, 4 Aufsatzablage, 1 Korrespondenzen + 7 Test
 - **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. Gruppe G (Konvolut)
 - **~2107 Objekte** im Backup ueber 4 Sammlungen — gezieltes Sample (~74 Objekte, 10/Gruppe) in Arbeit
+- **quality_signals implementiert**: 6 Signale, needs_review + needs_review_reasons, in catalog.json propagiert
+- **Frontend komplett**: Katalog (Statistik-Dashboard, Filter-URL, Thumbnails, Accessibility), Viewer (Zoom/Pan/Rotate, Edit mit Save/Undo, Diff-Prototyp), quality_signals-UI
 - **Verifikationskonzept** fertig: Ground-Truth-Design, quality_signals-Spezifikation, Cross-Model-Verification, Literatur-Review (6 Papers)
 - **TEI-Integration spezifiziert**: Interchange-Format (JSON Schema v0.1), teiCrafter-Integration (3 Mapping-Templates), TEI-Zielstruktur (DTABf-Profil)
 - **Empirische Befunde**: quality_signals zu aggressiv (63% flagged), marker_density funktionslos (2/57k Zeichen), Prompt-Vorsichts-Guidance wird ignoriert
@@ -87,8 +89,8 @@ szd-htr/
 │   └── werke/                       ← 2 Ergebnisse (Korrekturfahne, Konvolut)
 ├── docs/
 │   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
-│   ├── app.css                      ← SZD-Design-System (Burgundy/Gold, Source Serif)
-│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Export
+│   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit
+│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Diff, Filter-URL
 │   ├── catalog.json                 ← Leichtgewichtige Metadaten für Katalog-Tabelle
 │   └── data/                        ← Transkriptionsdaten pro Sammlung (on-demand)
 │       ├── lebensdokumente.json

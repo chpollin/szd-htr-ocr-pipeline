@@ -29,6 +29,64 @@
       "needsReviewReasons": []
     },
     {
+      "id": "o_szd.2213_gemini-3.1-flash-lite-preview",
+      "collection": "aufsatzablage",
+      "label": "Franz Werfel. Ein einführendes Wort",
+      "group": "H",
+      "groupLabel": "Zeitungsausschnitt",
+      "pid": "o:szd.2213",
+      "title": "Franz Werfel. Ein einführendes Wort, SZ-AAP/W-AA214.1",
+      "titleClean": "Franz Werfel. Ein einführendes Wort",
+      "signature": "SZ-AAP/W-AA214.1",
+      "classification": "Zeitungsausschnitte",
+      "objecttyp": "Zeitungsausschnitt",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 4,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.2213/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 7155,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1789,
+        "vlmConfidence": "high"
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "o_szd.2217_gemini-3.1-flash-lite-preview",
+      "collection": "aufsatzablage",
+      "label": "Das deutsche Walt Whitman-Werk",
+      "group": "H",
+      "groupLabel": "Zeitungsausschnitt",
+      "pid": "o:szd.2217",
+      "title": "Das deutsche Walt Whitman-Werk, SZ-AAP/W-AA216.1",
+      "titleClean": "Das deutsche Walt Whitman-Werk",
+      "signature": "SZ-AAP/W-AA216.1",
+      "classification": "Zeitungsausschnitte",
+      "objecttyp": "Zeitungsausschnitt",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 1,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.2217/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 6107,
+        "emptyPages": 0,
+        "avgCharsPerPage": 6107,
+        "vlmConfidence": "high"
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
+    },
+    {
       "id": "o_szd.2232_gemini-3.1-flash-lite-preview",
       "collection": "aufsatzablage",
       "label": "Zwei Einsame.",
@@ -1710,6 +1768,36 @@
       "needsReviewReasons": []
     },
     {
+      "id": "o_szd.2853_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Abschied von John Drinkwater",
+      "group": "F",
+      "groupLabel": "Korrekturfahne",
+      "pid": "o:szd.2853",
+      "title": "Abschied von John Drinkwater, SZ-AP2/W-H152.2",
+      "titleClean": "Abschied von John Drinkwater",
+      "signature": "SZ-AP2/W-H152.2",
+      "classification": "Essays/Reden/Feuilletons",
+      "objecttyp": "Korrekturfahne",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.2853/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 10668,
+        "emptyPages": 2,
+        "avgCharsPerPage": 3556,
+        "vlmConfidence": "high"
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "duplicate_pages"
+      ]
+    },
+    {
       "id": "o_szd.204_gemini-3.1-flash-lite-preview",
       "collection": "werke",
       "label": "History of to-morrow",
@@ -1791,6 +1879,155 @@
         "emptyPages": 2,
         "avgCharsPerPage": 2514,
         "vlmConfidence": "high"
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
+    },
+    {
+      "id": "o_szd.223_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Marsyas und Apoll",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.223",
+      "title": "Marsyas und Apoll",
+      "titleClean": "Marsyas und Apoll",
+      "signature": "",
+      "classification": "Bühnenwerke/Filme",
+      "objecttyp": "Konvolut",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "",
+      "pageCount": 0,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.223/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
+    },
+    {
+      "id": "o_szd.245_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Chenier",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.245",
+      "title": "Chenier",
+      "titleClean": "Chenier",
+      "signature": "",
+      "classification": "Essays/Reden/Feuilletons",
+      "objecttyp": "Konvolut",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "",
+      "pageCount": 0,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.245/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
+    },
+    {
+      "id": "o_szd.247_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Secret of Artistic Creation",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.247",
+      "title": "Secret of Artistic Creation",
+      "titleClean": "Secret of Artistic Creation",
+      "signature": "",
+      "classification": "Essays/Reden/Feuilletons",
+      "objecttyp": "Konvolut",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.247/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 6098,
+        "emptyPages": 2,
+        "avgCharsPerPage": 2033,
+        "vlmConfidence": "high"
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly",
+        "language_mismatch"
+      ]
+    },
+    {
+      "id": "o_szd.267_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Bau der Wiener Oper",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.267",
+      "title": "Bau der Wiener Oper",
+      "titleClean": "Bau der Wiener Oper",
+      "signature": "",
+      "classification": "Romane/Erzählungen",
+      "objecttyp": "Konvolut",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "",
+      "pageCount": 0,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.267/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
+    },
+    {
+      "id": "o_szd.273_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Montaigne",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.273",
+      "title": "Montaigne",
+      "titleClean": "Montaigne",
+      "signature": "",
+      "classification": "Biographien",
+      "objecttyp": "Konvolut",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "medium",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.273/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2527,
+        "emptyPages": 2,
+        "avgCharsPerPage": 842,
+        "vlmConfidence": "medium"
       },
       "needsReview": false,
       "needsReviewReasons": []
