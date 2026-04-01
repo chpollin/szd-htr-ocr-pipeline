@@ -338,6 +338,100 @@
         "avgCharsPerPage": 83,
         "vlmConfidence": "high"
       }
+    },
+    {
+      "id": "o_szd.143_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.143/IMG.1",
+        "https://gams.uni-graz.at/o:szd.143/IMG.2",
+        "https://gams.uni-graz.at/o:szd.143/IMG.3",
+        "https://gams.uni-graz.at/o:szd.143/IMG.4",
+        "https://gams.uni-graz.at/o:szd.143/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "(leer)",
+          "notes": "Vorderdeckel des Buches."
+        },
+        {
+          "page": 2,
+          "transcription": "(leer)",
+          "notes": "Vorsatzblatt vorne."
+        },
+        {
+          "page": 3,
+          "transcription": "Mit Gott",
+          "notes": "Vorsatzblatt vorne, recto. Handschriftlicher Eintrag oben rechts."
+        },
+        {
+          "page": 4,
+          "transcription": "(leer)",
+          "notes": "Vorsatzblatt vorne, verso."
+        },
+        {
+          "page": 5,
+          "transcription": "Mit Gott !\nBegonnen August 1932\n\nInhaltsverzeichnis\n\nGesammelte Gedichte | 4 | Erinnerungen an E. Verhaeren | 48\nDie Liebe d. Erika Ewald | 5 | Das Herz Europas | 49\nGeschichte i. d. Dämmerung | 6 | Fahrten | 50\nDie Gouvernante | 7 | Marceline Desbordes-Valmore | 51\nBrennendes Geheimnis | 8 | Abschied von Rilke | 52\nSommernovelle | 9 | Reise nach Russland | 53\nZwang | 10 | Tersites | 54\nAngst | 11 | Aus Haus am Meer | 55\nDie Augen d. ewigen Bruders | 12 | Der verwandelte Kourdiant | 56\nDer Amokläufer | 13 | Jeremias | 57\nDie Frau u. die Landschaft | 14 | Legende eines Lebens | 58\nPhantastische Nacht | 15 | Tolpatsch | 59\nBrief einer Unbekannten | 16 | Die Flucht zu Gott | 60\nMondscheingasse | 17 | Legende der Armen | 61\nDie unsichtbare Sammlung | 18 | Marie Antoinette | 62\nEpisode vom Genfersee | 19 | Verhaeren | 63\n24 Stunden aus dem Leben einer Fr. | 20 | Fente | 64\nUntergang eines Herzens | 21 | Verlaine - Rembrandt | 65\nVerwirrung der Gefühle | 22 | Rubens | 66\nDie Weltminute v. Waterloo | 23 | Erasmus | 67\nMarienbader Elegie | 24 | Maria Stuart | 68\nDie Entdeckung Eldorados | 25 | Unvermutete Bekanntschaft | 69\nHeroischer Augenblick | 26 | mit einem Handwerk | 70\nDer Kampf um den Südpol | 27 | G. F. Händels Auferstehung | 71\nLeporella | 28 | Die schweigsame Frau | 72\nBuchmendel | 29 | Castellio | 73\nRahel rechtet mit Gott | 30 | Der begrabene Leuchter | 74\nBalzac | 31 | Kaleidoskop | 75\nDickens | 32 | Mord aus Mitleid | 76\nDostojewski | 33 | Magellan | 77\nHölderlin | 34 | Begegnungen | 78\nKleist | 35 |\nNietzsche | 36 |\nCasanova | 37 |\nStendhal | 38 |\nTolstoi | 39 |\nJoseph Fouché | 40 |\nMesmer | 41 |\nMary Baker-Eddy | 42 |\nFreud | 43 |\nVerlaine | 44 |\nEmile Verhaeren | 45 |\nRomain Rolland | 46 |\nFrans Masereel | 47 |",
+          "notes": "Inhaltsverzeichnis. Die Spalten sind durch vertikale Striche getrennt. Einige Einträge weisen Korrekturen oder Ergänzungen auf (z.B. 'mit einem Handwerk' unter 'Unvermutete Bekanntschaft')."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist gut lesbar, die Struktur des Inhaltsverzeichnisses ist eindeutig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1776,
+        "emptyPages": 0,
+        "avgCharsPerPage": 355,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.174_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.174/IMG.1",
+        "https://gams.uni-graz.at/o:szd.174/IMG.2",
+        "https://gams.uni-graz.at/o:szd.174/IMG.3",
+        "https://gams.uni-graz.at/o:szd.174/IMG.4",
+        "https://gams.uni-graz.at/o:szd.174/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Adressbuch",
+          "notes": "Einbandvorderseite mit aufgeklebtem Etikett."
+        },
+        {
+          "page": 2,
+          "transcription": "WALKERS\nLOOSE\nLEAF\nBOOK\n604\nMADE IN ENGLAND",
+          "notes": "Prägung auf der Innenseite des Einbands."
+        },
+        {
+          "page": 3,
+          "transcription": "(leer)",
+          "notes": "Vorsatzblatt mit Registerreitern am rechten Rand."
+        },
+        {
+          "page": 4,
+          "transcription": "Walker's LOOSE LEAF Books\n\nWhen ordering\nREFILL FOR THIS BOOK\nask for\nREFILL SIZE No. 6040 and state Ruling\nrequired.\n\nCAUTION.—In order to avoid inferior Refill Paper\nbeing substituted, observe that none is genuine\nunless bearing the watermark: Walker's Loose Leaf.\n\nIMPORTANT.—Transfer Cases can be had to take\nleaves from this Book that may not be required to\nremain in the Book, but still necessary for future\nreference. In ordering size to suit this Book, order\nTRANSFER CASE No. T6.\n\n---\n\nPour obtenir\nles intérieurs de Rechange de ce Format\nSpécifier No. 6040\net genre de Réglure.\n\nAvis.—En vue d'éviter que des intérieurs de re-\nchange de qualité inférieure ne soient substitués à\nnos blocs chaque feuille de notre fabrication est\ntimbrée à notre nom. Refuser ceux qui ne por-\nteraient pas dans la pâte: Walker's Loose Leaf.\n\nCLASSEURS.—Nous avons créé des classeurs spéc-\niaux pour permettre de conserver les feuilles usagées\nqui sont encore utiles. Pour commander des class-\neurs de ce format spécifier CLASSEUR No. T6.",
+          "notes": "Gedruckte Gebrauchsanweisung des Herstellers."
+        },
+        {
+          "page": 5,
+          "transcription": "V E R L E G E R\n----------------\nvor dem Index",
+          "notes": "Maschinenschriftlicher Titel auf der ersten Seite des Registers. Darunter schwache handschriftliche Bleistiftnotizen, die teilweise durch das Papier durchscheinen oder überlagert sind."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Transkription ist aufgrund der klaren Druckschrift und der wenigen handschriftlichen Elemente sehr sicher.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1134,
+        "emptyPages": 0,
+        "avgCharsPerPage": 227,
+        "vlmConfidence": "high"
+      }
     }
   ]
 }

@@ -56,7 +56,7 @@
           <th class="col-collection" data-sort="collection">Sammlung <span class="sort-arrow"></span></th>
           <th class="col-group" data-sort="groupLabel">Gruppe <span class="sort-arrow"></span></th>
           <th class="col-lang" data-sort="lang">Sprache <span class="sort-arrow"></span></th>
-          <th class="col-quality" data-tooltip="Unsicherheits-Marker + VLM-Einschätzung">Qualität <span class="sort-arrow"></span></th>
+          <th class="col-quality" data-sort="markerCount" data-tooltip="Unsicherheits-Marker + VLM-Einschätzung">Qualität <span class="sort-arrow"></span></th>
           <th class="col-pages" data-sort="pageCount" data-tooltip="Seitenanzahl">S. <span class="sort-arrow"></span></th>
         </tr>
       </thead>
@@ -128,7 +128,7 @@
         <div class="viewer__transcription" id="transcription"></div>
       </div>
       <div class="viewer__notes" id="notes"></div>
-      <div class="viewer__confidence" id="confidenceBar"></div>
+      <div class="viewer__verification-wrap" id="verificationBar"></div>
     </div>
   </div>
 </div>

@@ -265,6 +265,54 @@
       }
     },
     {
+      "id": "o_szd.143_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Hauptbuch",
+      "group": "E",
+      "groupLabel": "Tabellarisch",
+      "pid": "o:szd.143",
+      "title": "Hauptbuch, SZ-SAM/L1",
+      "titleClean": "Hauptbuch",
+      "signature": "SZ-SAM/L1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.143/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1776,
+        "emptyPages": 0,
+        "avgCharsPerPage": 355,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.174_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Adressbuch [ca. 1935-1940]",
+      "group": "E",
+      "groupLabel": "Tabellarisch",
+      "pid": "o:szd.174",
+      "title": "Adressbuch [ca. 1935-1940], SZ-AP2/L-S1.1",
+      "titleClean": "Adressbuch [ca. 1935-1940]",
+      "signature": "SZ-AP2/L-S1.1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.174/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1134,
+        "emptyPages": 0,
+        "avgCharsPerPage": 227,
+        "vlmConfidence": "high"
+      }
+    },
+    {
       "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
       "collection": "werke",
       "label": "Der Bildner",

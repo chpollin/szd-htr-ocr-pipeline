@@ -5,7 +5,6 @@
 
 const ITEMS_PER_PAGE = 50;
 const GAMS_BASE = 'https://gams.uni-graz.at/';
-const SZD_BASE = 'https://stefanzweig.digital/';
 const SEARCH_DEBOUNCE_MS = 150;
 
 const COLLECTION_LABELS = {
@@ -45,7 +44,12 @@ function escapeHtml(text) {
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/~~(.+?)~~/g, '<del>$1</del>');
+    .replace(/"/g, '&quot;');
+}
+
+function renderTranscription(text) {
+  if (!text) return '';
+  return escapeHtml(text).replace(/~~(.+?)~~/g, '<del>$1</del>');
 }
 
 function debounce(fn, ms) {
@@ -94,10 +98,6 @@ function getEditCount(objectId) {
     if (key.startsWith(objectId + ':')) count++;
   }
   return count;
-}
-
-function getTotalEditCount() {
-  return state.editedTranscriptions.size;
 }
 
 /* ===== Data Loading ===== */
@@ -179,30 +179,15 @@ async function showViewer(objectId, page) {
 
   // Load collection data if needed
   if (!state.collectionData[catalogObj.collection]) {
-    document.getElementById('viewerPanels').innerHTML =
-      '<div class="loading" style="grid-column:1/-1">Lade Transkription</div>';
+    document.getElementById('viewerPanels').classList.add('loading-data');
     try {
       await loadCollectionData(catalogObj.collection);
     } catch {
-      document.getElementById('viewerPanels').innerHTML =
-        '<div class="loading" style="grid-column:1/-1">Fehler beim Laden der Daten.</div>';
+      document.getElementById('viewerPanels').classList.remove('loading-data');
+      document.getElementById('transcription').textContent = 'Fehler beim Laden der Daten.';
       return;
     }
-    // Restore panels HTML
-    document.getElementById('viewerPanels').innerHTML = `
-      <div class="viewer__panel-label">Faksimile</div>
-      <div class="viewer__panel-label">Transkription</div>
-      <div class="viewer__img-panel" id="imgPanel">
-        <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
-        <img id="faksimile" src="" alt="Faksimile" style="display:none">
-      </div>
-      <div class="viewer__text-panel" id="textPanel">
-        <div class="viewer__transcription-wrap">
-          <div class="viewer__transcription" id="transcription"></div>
-        </div>
-        <div class="viewer__notes" id="notes"></div>
-        <div class="viewer__confidence" id="confidenceBar"></div>
-      </div>`;
+    document.getElementById('viewerPanels').classList.remove('loading-data');
   }
 
   renderViewerMeta(catalogObj);
@@ -298,13 +283,18 @@ function applyFilters() {
   // Sort
   const field = state.sortField;
   const dir = state.sortAsc ? 1 : -1;
+  const getValue = (o) => {
+    if (field === 'markerCount') {
+      const v = o.verification || {};
+      return (v.uncertainCount || 0) + (v.illegibleCount || 0);
+    }
+    return o[field] ?? '';
+  };
   list = [...list].sort((a, b) => {
-    let va = a[field] ?? '';
-    let vb = b[field] ?? '';
+    const va = getValue(a);
+    const vb = getValue(b);
     if (typeof va === 'number') return (va - vb) * dir;
-    va = String(va).toLowerCase();
-    vb = String(vb).toLowerCase();
-    return va.localeCompare(vb, 'de') * dir;
+    return String(va).toLowerCase().localeCompare(String(vb).toLowerCase(), 'de') * dir;
   });
 
   state.filteredObjects = list;
@@ -335,7 +325,6 @@ function renderCatalog() {
     let html = '';
     for (const obj of pageItems) {
       const v = obj.verification || {};
-      const markers = (v.uncertainCount || 0) + (v.illegibleCount || 0);
       const qualityHtml = renderQualityCell(v, obj.confidence);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
       html += `<tr data-id="${obj.id}">
@@ -499,11 +488,11 @@ function renderViewerPage() {
   }
 
   // Verification bar
-  const bar = document.getElementById('confidenceBar');
+  const bar = document.getElementById('verificationBar');
   if (bar) {
     bar.innerHTML = renderVerificationBar(obj);
     if (obj.confidenceNotes) {
-      bar.innerHTML += `<div style="padding:0.4rem 1.25rem;font-size:0.72rem;color:var(--sz-text-light);font-style:italic;border-top:1px solid var(--sz-border-light)">${escapeHtml(obj.confidenceNotes)}</div>`;
+      bar.innerHTML += `<div class="viewer__vlm-notes">${escapeHtml(obj.confidenceNotes)}</div>`;
     }
   }
 
@@ -515,10 +504,10 @@ function renderReadMode(transcription, notes, isEdited) {
   const wrap = document.querySelector('.viewer__transcription-wrap');
   if (!wrap) return;
   const label = isEdited ? '<span class="viewer__modified-label">bearbeitet</span> ' : '';
-  wrap.innerHTML = `${label}<div class="viewer__transcription" id="transcription">${escapeHtml(transcription)}</div>`;
+  wrap.innerHTML = `${label}<div class="viewer__transcription" id="transcription">${renderTranscription(transcription)}</div>`;
 
   const notesEl = document.getElementById('notes');
-  if (notesEl) notesEl.innerHTML = notes ? escapeHtml(notes) : '';
+  if (notesEl) notesEl.innerHTML = notes ? renderTranscription(notes) : '';
 }
 
 function renderEditMode(transcription, notes) {
