@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.1080",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 30. Mai 1901, SZ-LAS/B3.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1080/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1080/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1080/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 30. Mai 1901, SZ-LAS/B3.2\n- Signatur: SZ-LAS/B3.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn\nMax Fleischer stud. iur.\nin Komotau\nNordböhmen",
+        "notes": "Adressseite der Postkarte. Poststempel 'KOMOTAU 31.5.01' und 'WIEN 30.5.01' vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+        "notes": "Textseite der Postkarte. 'L. g. F!' steht vermutlich für 'Lieber guter Freund'. 'Se.' könnte 'Seite' oder 'Sendung' bedeuten."
+      },
+      {
+        "page": 3,
+        "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen (L. g. F., Se., Bespr.)."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 841,
+    "total_words": 139,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      71,
+      385,
+      385
+    ],
+    "chars_per_page_median": 385,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "object_id": "o_szd.1088",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1088/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1088/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1088/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10\n- Signatur: SZ-LAS/B3.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
+        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte. Der Text ist teilweise über das gedruckte Bild geschrieben."
+      },
+      {
+        "page": 2,
+        "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "notes": "Die Adressseite enthält einen Poststempel 'WIEN 23.10.01' und eine 5-Heller-Briefmarke. 'Leipzig' wurde handschriftlich korrigiert/ergänzt."
+      },
+      {
+        "page": 3,
+        "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "notes": "Dies ist eine Gesamtaufnahme der Postkarte mit Farbskala. Die Transkription entspricht den Inhalten von Seite 1 und 2."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift und die Abkürzung am Ende der Nachricht auf der Bildseite sind aufgrund der Überlagerung mit dem Bildhintergrund leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 440,
+    "total_words": 70,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      115,
+      104,
+      221
+    ],
+    "chars_per_page_median": 115,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0286,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

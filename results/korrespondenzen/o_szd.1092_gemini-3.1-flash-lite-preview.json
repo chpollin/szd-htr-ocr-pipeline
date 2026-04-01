@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.1092",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1092/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1092/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1092/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.14\n- Signatur: SZ-LAS/B3.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig\n\nDas Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!\n31. Dec. 1901 Stefan Zweig",
+        "notes": "Die handschriftliche Widmung und Signatur befinden sich unter dem gedruckten Gedichttext. Das Datum '31. Dec. 1901' ist handschriftlich hinzugefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "Freunde und Gefährten\nMeisterdichtungen auf einzelnen Blättern\nHerausgeber: 442 Verleger:\nJohn Henry Mackay Schuster & Loeffler\nBerlin SW 46",
+        "notes": "Rückseite der Postkarte mit Verlagsangaben."
+      },
+      {
+        "page": 3,
+        "transcription": "Das Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!",
+        "notes": "Scan mit Farbskala und Graustufenkarte, zeigt den Textbereich der Vorderseite."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der gedruckte Teil als auch die handschriftliche Widmung von Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 909,
+    "total_words": 166,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      405,
+      140,
+      364
+    ],
+    "chars_per_page_median": 364,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "object_id": "o_szd.1079",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1\n- Signatur: SZ-LAS/B3.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+        "notes": "Adressseite des Briefumschlags. Poststempel 'WIEN 1/1 22.5.01' und Briefmarke vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "STEFAN ZWEIG",
+        "notes": "Rückseite des Briefumschlags. Poststempel 'KOMOTAU 23.5.01'."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
+        "notes": "Erste Seite des Briefes. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 4,
+        "transcription": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+        "notes": "Zweite Seite des Briefes."
+      },
+      {
+        "page": 5,
+        "transcription": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+        "notes": "Wiederholung der zweiten Seite mit Farbkarten-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger orthographischer Eigenheiten des Autors (z.B. 'gräßliches' statt 'grässliches', 'daß' statt 'dass'). Die violette Tinte ist auf dem hellen Papier sehr kontrastreich."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 2439,
+    "total_words": 396,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "input_images": 5,
+    "chars_per_page": [
+      63,
+      12,
+      1652,
+      356,
+      356
+    ],
+    "chars_per_page_median": 356,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        3,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0,
+      1
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

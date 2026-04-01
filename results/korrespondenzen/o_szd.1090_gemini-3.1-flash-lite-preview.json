@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.1090",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 5. Dezember 1901, SZ-LAS/B3.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1090/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1090/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1090/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 5. Dezember 1901, SZ-LAS/B3.12\n- Signatur: SZ-LAS/B3.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16",
+        "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig. 'Langentour' und 'Kantgewalt' sind unsicher gelesen. 'Gutes' ist ebenfalls unsicher."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen-Referenzkarten abgebildet."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Textkörper der Postkarte). Die Lesung der Ortsangabe und der Anrede ist sicher."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 924,
+    "total_words": 145,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      74,
+      425,
+      425
+    ],
+    "chars_per_page_median": 425,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0414,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

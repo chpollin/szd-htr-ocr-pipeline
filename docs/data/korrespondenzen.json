@@ -34,6 +34,374 @@
         "avgCharsPerPage": 588,
         "vlmConfidence": "high"
       }
+    },
+    {
+      "id": "o_szd.1079_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+          "notes": "Adressseite des Briefumschlags. Poststempel 'WIEN 1/1 22.5.01' und Briefmarke vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "STEFAN ZWEIG",
+          "notes": "Rückseite des Briefumschlags. Poststempel 'KOMOTAU 23.5.01'."
+        },
+        {
+          "page": 3,
+          "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
+          "notes": "Erste Seite des Briefes. Handschrift in violetter Tinte."
+        },
+        {
+          "page": 4,
+          "transcription": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+          "notes": "Zweite Seite des Briefes."
+        },
+        {
+          "page": 5,
+          "transcription": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+          "notes": "Wiederholung der zweiten Seite mit Farbkarten-Referenz."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist gut lesbar, trotz einiger orthographischer Eigenheiten des Autors (z.B. 'gräßliches' statt 'grässliches', 'daß' statt 'dass'). Die violette Tinte ist auf dem hellen Papier sehr kontrastreich.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2439,
+        "emptyPages": 0,
+        "avgCharsPerPage": 488,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1080_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1080/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1080/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1080/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Correspondenz-Karte.\n\nAn\nMax Fleischer stud. iur.\nin Komotau\nNordböhmen",
+          "notes": "Adressseite der Postkarte. Poststempel 'KOMOTAU 31.5.01' und 'WIEN 30.5.01' vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+          "notes": "Textseite der Postkarte. 'L. g. F!' steht vermutlich für 'Lieber guter Freund'. 'Se.' könnte 'Seite' oder 'Sendung' bedeuten."
+        },
+        {
+          "page": 3,
+          "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+          "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen (L. g. F., Se., Bespr.).",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 841,
+        "emptyPages": 0,
+        "avgCharsPerPage": 280,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1081_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1081/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1081/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1081/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+          "notes": "Adressseite der Postkarte. 'Hud. inr.' ist eine Abkürzung für 'Hudební inženýr' (tschechisch für Musik-Ingenieur) oder eine ähnliche Berufsbezeichnung. Poststempel: WIEN 5 6.01 6-7N."
+        },
+        {
+          "page": 2,
+          "transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+          "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+        },
+        {
+          "page": 3,
+          "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+          "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala im Bild."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzung 'Hud. inr.' ist kontextuell plausibel für die Zeit und Region.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 282,
+        "emptyPages": 0,
+        "avgCharsPerPage": 94,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1083_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1083/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1083/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1083/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1083/IMG.4"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+          "notes": "Der Text ist in französischer Sprache verfasst. Das Wort 'Verhaeren' ist über der Zeile eingefügt."
+        },
+        {
+          "page": 2,
+          "transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+          "notes": "Die Handschrift ist flüssig und gut lesbar."
+        },
+        {
+          "page": 3,
+          "transcription": "promet toujours encore des surprise\nque votre oeuvre nous donnera.\nMais cher ami, rappelez vous\nvotre promesse de venir nous\nvoir. Il y a longtemps presque\ndeux ans, que nous sommes\nici. Venez, venez, venez bientot\ncher ami. - Stefan travaille\ntrop, il fume trop ces terribles\nBrisago. Croyez moi ce lui\nfera du bien d'interrompre\ncette vie monacale de travail.\nLui même en sera content. Il\nparle si souvent de vous avec\ngrande affection et désir\nde vous revoir.",
+          "notes": "Der Text setzt sich auf der dritten Seite fort."
+        },
+        {
+          "page": 4,
+          "transcription": "Mon vieux, ton Verhaeren est\nsuperbe! J'aimerai tant de\nt'embrasser, parce tu fais de\ntelles belles choses. Mais ou, mon\nami? J'irai peut-être à Zürich\npour deux jours, mais je n'aurai\npas le temps d'aller à Genève.\nIci tu trouveras ton repos et\nferas grand plaisir à ton fidèle\nStefan\n\n[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
+          "notes": "Der Text ist in violetter Tinte geschrieben, vermutlich von Stefan Zweig selbst (im Gegensatz zu den ersten Seiten, die von Friderike Zweig stammen). Am Ende befindet sich ein Exlibris-Stempel."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist trotz der kursiven französischen Schreibweise gut lesbar. Die Sprache ist Französisch, entgegen der Anweisung 'Sprache: Deutsch', was bei der Transkription berücksichtigt wurde.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 1535,
+        "emptyPages": 0,
+        "avgCharsPerPage": 384,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1088_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1088/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1088/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1088/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
+          "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte. Der Text ist teilweise über das gedruckte Bild geschrieben."
+        },
+        {
+          "page": 2,
+          "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+          "notes": "Die Adressseite enthält einen Poststempel 'WIEN 23.10.01' und eine 5-Heller-Briefmarke. 'Leipzig' wurde handschriftlich korrigiert/ergänzt."
+        },
+        {
+          "page": 3,
+          "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+          "notes": "Dies ist eine Gesamtaufnahme der Postkarte mit Farbskala. Die Transkription entspricht den Inhalten von Seite 1 und 2."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist gut lesbar, lediglich die Unterschrift und die Abkürzung am Ende der Nachricht auf der Bildseite sind aufgrund der Überlagerung mit dem Bildhintergrund leicht unsicher.",
+      "verification": {
+        "uncertainCount": 2,
+        "illegibleCount": 0,
+        "totalChars": 440,
+        "emptyPages": 0,
+        "avgCharsPerPage": 147,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1089_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1089/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1089/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1089/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Max Fleischer\nstud. phil.\nin Leipzig (Sachsen)\nMünzgasse 16",
+          "notes": "Adressseite der Postkarte. Poststempel: 13. 11. 01. Briefmarke: 5 Heller Österreich."
+        },
+        {
+          "page": 2,
+          "transcription": "Mein lieber Max Fleischer\ndas Leben wird täglich erregender\nNur ich allein thue nichts dazu\nDoch nirum[?] bin dran kein[?] Drommel[?] du.\n\nDein treuer Stefan\n\nIrgend in einem Nachtcafe\nBester Freund, obwohl unbekannt, doch\n[...15...] schon von Ihnen gehört.",
+          "notes": "Textseite der Postkarte. Die letzten zwei Zeilen sind quer am unteren Rand geschrieben. 'nirum' und 'Drommel' sind schwer lesbar, möglicherweise Eigennamen oder Wortspiele."
+        },
+        {
+          "page": 3,
+          "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Max Fleischer\nstud. phil.\nin Leipzig (Sachsen)\nMünzgasse 16",
+          "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala."
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist flüchtig, insbesondere die letzten Zeilen auf der Textseite sind schwer zu entziffern und weisen unklare Wortbildungen auf.",
+      "verification": {
+        "uncertainCount": 3,
+        "illegibleCount": 1,
+        "totalChars": 437,
+        "emptyPages": 0,
+        "avgCharsPerPage": 146,
+        "vlmConfidence": "medium"
+      }
+    },
+    {
+      "id": "o_szd.1090_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1090/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1090/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1090/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16",
+          "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
+          "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig. 'Langentour' und 'Kantgewalt' sind unsicher gelesen. 'Gutes' ist ebenfalls unsicher."
+        },
+        {
+          "page": 3,
+          "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
+          "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen-Referenzkarten abgebildet."
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Textkörper der Postkarte). Die Lesung der Ortsangabe und der Anrede ist sicher.",
+      "verification": {
+        "uncertainCount": 6,
+        "illegibleCount": 0,
+        "totalChars": 924,
+        "emptyPages": 0,
+        "avgCharsPerPage": 308,
+        "vlmConfidence": "medium"
+      }
+    },
+    {
+      "id": "o_szd.1091_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1091/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1091/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1091/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Maximilian Fleischer\nUniversitätsgasse\nin Leipzig (Sachsen)\nMünzgasse 16",
+          "notes": "Adressseite der Postkarte. Poststempel 'WIEN 1/1 12.XII.01' und 'LEIPZIG 13.12.01'. Briefmarke 5 Heller."
+        },
+        {
+          "page": 2,
+          "transcription": "Lieber Max! Sei auch böse – aber Du hast mir eigentlich einen sehr ver-\ndrehten Brief geschrieben. Ich weiß noch immer nicht, was Du studierst, ob\ndu etwas dichtest, ob Du nach Berlin gehst, wo auch ich bin? Alles\ndasbei. Ich arbeite sehr viel, (außer Litteratur) schreibe aus alter\nGewohnheit nach und zu ein Gedicht, werde berühmt durch x\nZeitungen, kriege aber gar nichts dafür. In der „Gesellschaft“, Zeit-\nschrift „Echo“ habe ich Buchrezensionen, das ist aber keine Arbeit u es\nhat mit Kunst gar nichts mehr zu thun. In der letzten Welt\nhabe ich ein Gedicht, das zwar ganz hübsch und auch gescheit ist,\naber doch zu gut ist für diese Welt, in der man sich lang quält.\nMein Baudelaire Manuskript liegt bei Reclam, ich bin sehr\ngespannt, ob es es bringen wird. Chi lo sa!? Mir ist übrigens\nalles Wien einerlei, schlagt den Passen [?] Ihn entgegen, jage mal\nzwei macht niemals drei, dass ich auch ein Dichter sei, laßt\nsich dieses Reimes getrei. Allzeit! Helau Du.",
+          "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Passen' ist unsicher gelesen, könnte auch 'Passen' oder 'Possen' sein."
+        },
+        {
+          "page": 3,
+          "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Maximilian Fleischer\nUniversitätsgasse\nin Leipzig (Sachsen)\nMünzgasse 16",
+          "notes": "Wiederholung der Adressseite im Kontext der Farbskala."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Einige Wörter im Textkörper sind aufgrund der schnellen Schreibweise leicht interpretativ, aber im Kontext schlüssig.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 1172,
+        "emptyPages": 0,
+        "avgCharsPerPage": 391,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1092_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1092/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1092/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1092/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Stefan Zweig\n\nDas Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!\n31. Dec. 1901 Stefan Zweig",
+          "notes": "Die handschriftliche Widmung und Signatur befinden sich unter dem gedruckten Gedichttext. Das Datum '31. Dec. 1901' ist handschriftlich hinzugefügt."
+        },
+        {
+          "page": 2,
+          "transcription": "Freunde und Gefährten\nMeisterdichtungen auf einzelnen Blättern\nHerausgeber: 442 Verleger:\nJohn Henry Mackay Schuster & Loeffler\nBerlin SW 46",
+          "notes": "Rückseite der Postkarte mit Verlagsangaben."
+        },
+        {
+          "page": 3,
+          "transcription": "Das Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!",
+          "notes": "Scan mit Farbskala und Graustufenkarte, zeigt den Textbereich der Vorderseite."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist sehr gut lesbar, sowohl der gedruckte Teil als auch die handschriftliche Widmung von Stefan Zweig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 909,
+        "emptyPages": 0,
+        "avgCharsPerPage": 303,
+        "vlmConfidence": "high"
+      }
+    },
+    {
+      "id": "o_szd.1093_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1093/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1093/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1093/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "An Herrn Max fleischer\nstud. phil.\nLeipzig (Sachsen)\nMünzgasse 16\n\n[Oben quer geschrieben:]\n[?] all valens an Stefan Zweig Wien I. Rathausstrasse 17",
+          "notes": "Adressseite der Postkarte. Die oberste Zeile ist quer zum gedruckten Text geschrieben."
+        },
+        {
+          "page": 2,
+          "transcription": "Lieber Max! So lang will ich dir doch\nschreiben, müßt aber nur ein mal, ob du\nin Leipzig bist, dir hier daher nur eine\nCorrespondenzkarte ohne Ansicht. Das einzige,\nwas ich von dir vernahme — war nicht von\ndir, nämlich die prächtige Besprechung eines\nBuches im Literarischen Centralblatt von\nHans Benzmann. Das müßte auch später\nan deine Seiten erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gegen Berlin. Im übrigen\ngeht es nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.\nHerzliche Grüße\nStefan Zweig",
+          "notes": "Nachrichtenseite der Postkarte. Handschrift in violett-schwarzer Tinte."
+        },
+        {
+          "page": 3,
+          "transcription": "an deine Seiten erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gegen Berlin. Im übrigen\ngeht es nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.",
+          "notes": "Ausschnitt der Nachrichtenseite, teilweise verdeckt durch Farbskala."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist gut lesbar, trotz einiger flüchtiger Schreibweisen. Die Identifikation der Namen (Max Fleischer, Hans Benzmann, Victor Fleischer) ist durch den Kontext gesichert.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 1208,
+        "emptyPages": 0,
+        "avgCharsPerPage": 403,
+        "vlmConfidence": "high"
+      }
     }
   ]
 }

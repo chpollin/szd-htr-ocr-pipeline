@@ -10,17 +10,14 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ## Aktueller Stand
 
-Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrheitsquelle für Phasen-Status).
+Phasen 1–3 erledigt. Details, offene Aufgaben und Entscheidungslog → `Plan.md`.
 
-- **70 Objekte** transkribiert: 46 Lebensdokumente, 19 Werke, 4 Aufsatzablage, 1 Korrespondenzen + 7 Test
-- **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. Gruppe G (Konvolut)
-- **~2107 Objekte** im Backup ueber 4 Sammlungen — gezieltes Sample (~74 Objekte, 10/Gruppe) in Arbeit
-- **quality_signals implementiert**: 6 Signale, needs_review + needs_review_reasons, in catalog.json propagiert
-- **Frontend komplett**: Katalog (Statistik-Dashboard, Filter-URL, Thumbnails, Accessibility), Viewer (Zoom/Pan/Rotate, Edit mit Save/Undo, Diff-Prototyp), quality_signals-UI
-- **Verifikationskonzept** fertig: Ground-Truth-Design, quality_signals-Spezifikation, Cross-Model-Verification, Literatur-Review (6 Papers)
-- **TEI-Integration spezifiziert**: Interchange-Format (JSON Schema v0.1), teiCrafter-Integration (3 Mapping-Templates), TEI-Zielstruktur (DTABf-Profil)
-- **Empirische Befunde**: quality_signals zu aggressiv (63% flagged), marker_density funktionslos (2/57k Zeichen), Prompt-Vorsichts-Guidance wird ignoriert
-- Naechster Schritt: **Pilot** (5 Seiten manuell pruefen), dann Ground-Truth-Sample (31 Objekte), dann Phase 4
+- **87 Objekte** transkribiert: 46 Lebensdokumente, 19 Werke, 11 Aufsatzablage, 11 Korrespondenzen (davon 7 in `results/test/`)
+- **Alle 9 Prompt-Gruppen** auf Ziel: 10/Gruppe (E: 5/5, einzige Gruppe mit <10 im Backup)
+- **~2107 Objekte** im Backup ueber 4 Sammlungen — Batch-Lauf fuer den Rest steht aus (~$29 API, ~10h)
+- **quality_signals implementiert**: 6 Signale, `needs_review` + `needs_review_reasons`, in catalog.json propagiert
+- **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
+- Naechster Schritt: **Pilot** (5 Seiten manuell pruefen), dann Ground-Truth-Sample, dann voller Batch
 
 ## Quelldaten
 
@@ -68,8 +65,7 @@ Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespo
 ```
 szd-htr/
 ├── CLAUDE.md
-├── Plan.md                          ← Phasen-Status (1–6), einzige Wahrheitsquelle
-├── Lane.md                          ← Lane-Koordination (Aufträge, Status, Abhängigkeiten)
+├── Plan.md                          ← Phasen-Status, Aufgaben, Entscheidungslog
 ├── requirements.txt                 ← google-genai, python-dotenv
 ├── .env                             ← API Keys (nicht committet)
 ├── schemas/
@@ -77,6 +73,8 @@ szd-htr/
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
+│   ├── quality_signals.py           ← 6 Qualitaetssignale + needs_review-Aggregation
+│   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
 │   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
 │   ├── build_viewer_data.py         ← Baut 5 Dateien: catalog.json + 4× data/{collection}.json
@@ -84,9 +82,10 @@ szd-htr/
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
 │   ├── test/                        ← 7 Testergebnisse (enriched JSON)
-│   ├── lebensdokumente/             ← 7 Batch-Ergebnisse
-│   ├── aufsatzablage/               ← 2 Ergebnisse (Zeitungsausschnitte)
-│   └── werke/                       ← 2 Ergebnisse (Korrekturfahne, Konvolut)
+│   ├── lebensdokumente/             ← 46 Ergebnisse
+│   ├── werke/                       ← 19 Ergebnisse
+│   ├── aufsatzablage/               ← 11 Ergebnisse
+│   └── korrespondenzen/             ← 11 Ergebnisse
 ├── docs/
 │   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
 │   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit
@@ -165,6 +164,26 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
     ],
     "confidence": "high | medium | low",
     "confidence_notes": "..."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 2057,
+    "total_words": 356,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [2057, 0, 0],
+    "chars_per_page_median": 2057.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }
 ```

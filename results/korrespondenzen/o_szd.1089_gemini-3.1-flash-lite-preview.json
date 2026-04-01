@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.1089",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 10. November 1901, SZ-LAS/B3.11",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1089/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1089/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1089/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 10. November 1901, SZ-LAS/B3.11\n- Signatur: SZ-LAS/B3.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Max Fleischer\nstud. phil.\nin Leipzig (Sachsen)\nMünzgasse 16",
+        "notes": "Adressseite der Postkarte. Poststempel: 13. 11. 01. Briefmarke: 5 Heller Österreich."
+      },
+      {
+        "page": 2,
+        "transcription": "Mein lieber Max Fleischer\ndas Leben wird täglich erregender\nNur ich allein thue nichts dazu\nDoch nirum[?] bin dran kein[?] Drommel[?] du.\n\nDein treuer Stefan\n\nIrgend in einem Nachtcafe\nBester Freund, obwohl unbekannt, doch\n[...15...] schon von Ihnen gehört.",
+        "notes": "Textseite der Postkarte. Die letzten zwei Zeilen sind quer am unteren Rand geschrieben. 'nirum' und 'Drommel' sind schwer lesbar, möglicherweise Eigennamen oder Wortspiele."
+      },
+      {
+        "page": 3,
+        "transcription": "Correspondenz-Karte.\n\nAn\nHerrn Max Fleischer\nstud. phil.\nin Leipzig (Sachsen)\nMünzgasse 16",
+        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig, insbesondere die letzten Zeilen auf der Textseite sind schwer zu entziffern und weisen unklare Wortbildungen auf."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 437,
+    "total_words": 63,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      90,
+      257,
+      90
+    ],
+    "chars_per_page_median": 90,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0635,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

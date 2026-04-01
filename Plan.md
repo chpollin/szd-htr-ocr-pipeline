@@ -41,6 +41,11 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Object Discovery aus Backup-Verzeichnissen (2107 Objekte über 4 Sammlungen)
 - [x] Rate-Limiting, Skip-Logik, Fehlertoleranz
 - [x] Erster Batch-Lauf: 5 Lebensdokumente, alle high confidence
+- [x] Gruppe G (Konvolut) erstellt: Prompt, resolve_group(), 1 Test-Objekt
+- [x] Gezieltes Sample: 87 Objekte transkribiert (10/Gruppe, alle 4 Sammlungen)
+- [x] JSON-Parsing gehaertet: Codeblock-Strip, Escape-Fix, Retry, leere Antworten
+- [x] `quality_signals.py`: 6 Signale + needs_review-Flag, integriert in transcribe.py + build_viewer_data.py
+- [x] Backfill: alle 87 Ergebnis-JSONs mit quality_signals angereichert
 
 ## Phase 4: Qualität & Vergleich (nächster Schritt)
 
@@ -52,9 +57,9 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [ ] CER-Berechnungsscript (Lane 3)
 
 ### 4b: Quality Signals & Batch
-- [ ] `quality_signals` implementieren (→ `verification-concept.md` §2.5, Lane 3)
-- [ ] `needs_review`-Indikator im Viewer (Lane 1)
-- [ ] Alle Sammlungen komplett transkribieren (2107 Objekte)
+- [x] `quality_signals` implementieren (6 Signale, needs_review, in catalog.json)
+- [x] `needs_review`-Indikator im Viewer
+- [ ] Alle Sammlungen komplett transkribieren (87/2107 Objekte, ~$29 API, ~10h)
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Prompt-Experiment & Provider-Vergleich
@@ -99,3 +104,16 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | Output | Enriched JSON pro Objekt, nach Sammlung strukturiert |
 | CLI | `pipeline/transcribe.py` (Einzel/Batch/Sammlung) |
 | Viewer | Single-Page-App (index.html + app.js + app.css), catalog.json + data/{collection}.json |
+
+---
+
+## Entscheidungslog
+
+| Datum | Entscheidung | Begruendung |
+|---|---|---|
+| 2026-04-01 | Pilot vor vollem GT-Sample | CER unbekannt — Sample-Design ohne Pilot ist blind |
+| 2026-04-01 | quality_signals sofort | Kostet nichts, braucht kein GT, bietet Triage fuer Batch |
+| 2026-04-01 | Cross-Model: Agreement-First | Unabhaengige Doppeltranskription methodisch sauberer |
+| 2026-04-01 | Claude Sonnet als zweites Modell | Max. Diversitaet zu Gemini, starke Baseline, moderate Kosten |
+| 2026-04-01 | teiCrafter-Integration via Interchange | Kein eigener TEI-Konverter — teiCrafter hat LLM-Annotation + Validierung |
+| 2026-04-01 | Gezieltes Sample statt voller Batch | 10/Gruppe reicht fuer group_text_density und Gruppenvergleich |
