@@ -8,7 +8,7 @@ Aufbau einer VLM-basierten HTR/OCR-Pipeline, die aus den digitalisierten Faksimi
 
 ## Datengrundlage
 
-4 Sammlungen, 2305+ Objekte, beschrieben in TEI-XML:
+4 Sammlungen, ~2107 Objekte (im Backup), beschrieben in TEI-XML:
 
 | Sammlung | Objekte | TEI-Quelle |
 |---|---|---|
@@ -26,7 +26,7 @@ Dreischichtiges Prompt-System für VLM-Transkription:
 | Schicht | Funktion |
 |---|---|
 | **System-Prompt** | Rolle, Regeln, JSON-Output (für alle Objekte gleich) |
-| **Gruppen-Prompt** | Typspezifische Anweisungen (8 Gruppen, s.u.) |
+| **Gruppen-Prompt** | Typspezifische Anweisungen (9 Gruppen, s.u.) |
 | **Objekt-Kontext** | Metadaten aus TEI-XML (Sprache, Hand, Instrument, Typ) |
 
 ### Prompt-Gruppen
@@ -39,6 +39,7 @@ Dreischichtiges Prompt-System für VLM-Transkription:
 | D: Kurztext | Diverses, Büromaterialien | Wenig Text, heterogen |
 | E: Tabellarisch | Verzeichnisse, Kalender | Listen, Register |
 | F: Korrekturfahne | Druckfahnen mit Korrekturen | Druck + handschriftl. Korrekturen |
+| G: Konvolut | Gemischte Materialien | Heterogene Objekte in einem Konvolut |
 | H: Zeitungsausschnitt | Presseausschnitte | Gedruckt, ggf. Fraktur |
 | I: Korrespondenz | Briefe, Postkarten | Briefstruktur, Handschrift |
 
@@ -62,7 +63,7 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 
 ```
 ├── pipeline/
-│   ├── prompts/              ← 8 Gruppen-Prompts + System-Prompt
+│   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt
 │   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
 │   ├── test_single.py        ← Test-Script (7 Referenz-Objekte)
 │   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()
@@ -70,7 +71,7 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 │   └── build_viewer_data.py  ← Baut catalog.json + data/{collection}.json
 ├── data/                     ← TEI-Metadaten (4 Sammlungen)
 ├── results/                  ← Transkriptionsergebnisse (enriched JSON)
-├── knowledge/                ← Research-Vault
+├── knowledge/                ← Research Vault (Methodik, Datenanalyse, Journal)
 └── docs/                     ← GitHub Pages (Single-Page-App)
     ├── index.html            ← Katalog + Viewer
     ├── app.css               ← SZD-Design-System

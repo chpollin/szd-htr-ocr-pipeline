@@ -1,6 +1,18 @@
+---
+title: "HTR Interchange Format: JSON-Schema fuer szd-htr → teiCrafter"
+aliases: ["Interchange-Format", "HTR-JSON"]
+created: 2026-04-01
+updated: 2026-04-01
+type: format-spec
+tags: [szd-htr, tei, methodology]
+status: draft
+related:
+  - "[[verification-concept]]"
+  - "[[data-overview]]"
+---
+
 # HTR Interchange Format — Spezifikation
 
-Stand: 2026-04-01 | Autor: Lane 2 (Methodik)
 Version: 0.1 (Entwurf)
 
 ---

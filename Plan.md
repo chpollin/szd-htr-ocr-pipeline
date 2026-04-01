@@ -2,7 +2,7 @@
 
 ## Übersicht
 
-VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). 4 Sammlungen, 2305+ Objekte, dreischichtiges Prompt-System.
+VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). 4 Sammlungen, ~2107 Objekte, dreischichtiges Prompt-System.
 
 ---
 

@@ -92,10 +92,14 @@ szd-htr/
 │       ├── werke.json
 │       ├── aufsatzablage.json
 │       └── korrespondenzen.json
-└── knowledge/                       ← Research-Vault (Datenanalysen, Journal)
+└── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
+    ├── index.md                     ← Map of Content (MOC)
+    ├── data-overview.md             ← Konsolidierte TEI-Analyse aller Sammlungen
     ├── verification-concept.md      ← GT-Sample, quality_signals, Cross-Model, Literatur
-    ├── annotation-protocol.md       ← Transkriptionskonventionen für Referenz-Sample
-    └── pilot-design.md              ← 5-Seiten-Pilot vor vollem GT-Sample
+    ├── annotation-protocol.md       ← Transkriptionskonventionen fuer Referenz-Sample
+    ├── pilot-design.md              ← 5-Seiten-Pilot vor vollem GT-Sample
+    ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
+    └── journal.md                   ← Chronologisches Session-Log
 ```
 
 ## CLI-Nutzung
