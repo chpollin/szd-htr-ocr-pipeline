@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die Fraktur-Schrift ist klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 4599,
     "total_words": 672,
     "total_pages": 3,

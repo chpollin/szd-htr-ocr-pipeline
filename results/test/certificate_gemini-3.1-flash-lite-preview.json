@@ -35,7 +35,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift sehr sicher. Die Struktur des Formulars wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 1580,
     "total_words": 299,
     "total_pages": 2,

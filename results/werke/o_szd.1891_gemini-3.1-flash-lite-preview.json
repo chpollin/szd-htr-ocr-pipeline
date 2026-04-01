@@ -87,7 +87,7 @@
     "confidence_notes": "Der Text ist ein sauberer Druck, die Transkription ist daher sehr zuverlässig. Die Stempel und Seitenzahlen wurden entsprechend der Vorgaben erfasst."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 10908,
     "total_words": 1702,
     "total_pages": 3,

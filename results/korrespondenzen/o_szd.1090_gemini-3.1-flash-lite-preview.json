@@ -35,7 +35,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Textkörper der Postkarte). Die Lesung der Ortsangabe und der Anrede ist sicher."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 924,
     "total_words": 145,
     "total_pages": 3,
@@ -59,12 +59,9 @@
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      0
-    ],
+    "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "page_length_anomaly",
       "duplicate_pages"
     ]
   }

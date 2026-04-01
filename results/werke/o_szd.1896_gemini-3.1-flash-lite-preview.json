@@ -56,7 +56,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen von Lotte Zweig sind eindeutig identifizierbar und in den gedruckten Text integrierbar."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 9806,
     "total_words": 1506,
     "total_pages": 3,

@@ -29,7 +29,7 @@
     "confidence_notes": "Der Text ist trotz der schnellen Handschrift gut lesbar, da es sich primär um eine strukturierte Liste mit Daten und Aktenzeichen handelt."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 1078,
     "total_words": 182,
     "total_pages": 2,

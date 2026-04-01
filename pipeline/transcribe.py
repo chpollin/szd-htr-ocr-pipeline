@@ -248,19 +248,31 @@ def transcribe_object(
         parts.append(f"[{name}]")
     parts.append(user_prompt)
 
-    # Call Gemini
+    # Call Gemini (with exponential backoff on 429/rate limit errors)
     client = genai.Client(api_key=GOOGLE_API_KEY)
-    try:
-        response = client.models.generate_content(
-            model=MODEL,
-            contents=parts,
-            config=genai.types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                temperature=0.1,
-            ),
-        )
-    except Exception as e:
-        print(f"  FEHLER bei API-Aufruf: {e}")
+    response = None
+    for attempt in range(4):
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=parts,
+                config=genai.types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    temperature=0.1,
+                ),
+            )
+            break
+        except Exception as e:
+            err_str = str(e).lower()
+            if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
+                wait = (2 ** attempt) * 5  # 5s, 10s, 20s, 40s
+                print(f"  RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"  FEHLER bei API-Aufruf: {e}")
+                return False, None
+    if response is None:
+        print(f"  FEHLER: Rate Limit nach 4 Versuchen nicht aufgehoben")
         return False, None
 
     result_text = response.text
@@ -277,20 +289,29 @@ def transcribe_object(
     if "raw" in result_json:
         print("  RETRY: Erneuter Versuch mit JSON-Hinweis...")
         retry_parts = list(parts) + ["Respond with valid JSON only, no markdown fences."]
-        try:
-            retry_resp = client.models.generate_content(
-                model=MODEL,
-                contents=retry_parts,
-                config=genai.types.GenerateContentConfig(
-                    system_instruction=SYSTEM_PROMPT,
-                    temperature=0.1,
-                ),
-            )
-            result_json, retry_log = parse_api_response(retry_resp.text, object_id)
-            for msg in retry_log:
-                print(f"  RETRY: {msg}")
-        except Exception as e:
-            print(f"  RETRY FEHLER: {e}")
+        for attempt in range(4):
+            try:
+                retry_resp = client.models.generate_content(
+                    model=MODEL,
+                    contents=retry_parts,
+                    config=genai.types.GenerateContentConfig(
+                        system_instruction=SYSTEM_PROMPT,
+                        temperature=0.1,
+                    ),
+                )
+                result_json, retry_log = parse_api_response(retry_resp.text, object_id)
+                for msg in retry_log:
+                    print(f"  RETRY: {msg}")
+                break
+            except Exception as e:
+                err_str = str(e).lower()
+                if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
+                    wait = (2 ** attempt) * 5
+                    print(f"  RETRY RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
+                    time.sleep(wait)
+                else:
+                    print(f"  RETRY FEHLER: {e}")
+                    break
 
     # Load backup metadata for GAMS URLs
     backup_meta = load_backup_metadata(object_id, collection)

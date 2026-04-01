@@ -410,7 +410,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
         "duplicate_pages"
       ]
     },
@@ -557,7 +556,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
         "duplicate_pages"
       ]
     },
@@ -586,10 +584,8 @@
         "avgCharsPerPage": 391,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.1092_gemini-3.1-flash-lite-preview",
@@ -702,10 +698,8 @@
         "avgCharsPerPage": 200,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.141_gemini-3.1-flash-lite-preview",
@@ -732,10 +726,8 @@
         "avgCharsPerPage": 54,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.168_gemini-3.1-flash-lite-preview",
@@ -762,10 +754,8 @@
         "avgCharsPerPage": 260,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.169_gemini-3.1-flash-lite-preview",
@@ -997,10 +987,8 @@
         "avgCharsPerPage": 2057,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.101_gemini-3.1-flash-lite-preview",
@@ -1029,8 +1017,7 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
-        "duplicate_pages"
+        "page_length_anomaly"
       ]
     },
     {
@@ -1058,10 +1045,8 @@
         "avgCharsPerPage": 810,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.103_gemini-3.1-flash-lite-preview",
@@ -1088,10 +1073,8 @@
         "avgCharsPerPage": 1350,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.104_gemini-3.1-flash-lite-preview",
@@ -1118,10 +1101,8 @@
         "avgCharsPerPage": 987,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.105_gemini-3.1-flash-lite-preview",
@@ -1204,10 +1185,8 @@
         "avgCharsPerPage": 1439,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.108_gemini-3.1-flash-lite-preview",
@@ -1234,10 +1213,8 @@
         "avgCharsPerPage": 2392,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "certificate_gemini-3.1-flash-lite-preview",
@@ -1354,10 +1331,8 @@
         "avgCharsPerPage": 201,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.146_gemini-3.1-flash-lite-preview",
@@ -1442,10 +1417,8 @@
         "avgCharsPerPage": 368,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.173_gemini-3.1-flash-lite-preview",
@@ -1472,10 +1445,8 @@
         "avgCharsPerPage": 153,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.180_gemini-3.1-flash-lite-preview",
@@ -1532,10 +1503,8 @@
         "avgCharsPerPage": 281,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "theaterkarte_gemini-3.1-flash-lite-preview",
@@ -1590,10 +1559,8 @@
         "avgCharsPerPage": 65,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.138_gemini-3.1-flash-lite-preview",
@@ -1620,10 +1587,8 @@
         "avgCharsPerPage": 122,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.142_gemini-3.1-flash-lite-preview",
@@ -1706,10 +1671,8 @@
         "avgCharsPerPage": 134,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.151_gemini-3.1-flash-lite-preview",
@@ -1767,11 +1730,8 @@
         "avgCharsPerPage": 107,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly",
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.153_gemini-3.1-flash-lite-preview",
@@ -1798,10 +1758,8 @@
         "avgCharsPerPage": 24,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.154_gemini-3.1-flash-lite-preview",
@@ -1828,10 +1786,8 @@
         "avgCharsPerPage": 111,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "duplicate_pages"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
@@ -1886,10 +1842,8 @@
         "avgCharsPerPage": 14,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.174_gemini-3.1-flash-lite-preview",
@@ -1918,7 +1872,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
         "language_mismatch"
       ]
     },
@@ -1949,8 +1902,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
-        "duplicate_pages",
         "language_mismatch"
       ]
     },
@@ -1979,10 +1930,8 @@
         "avgCharsPerPage": 92,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "language_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.127_gemini-3.1-flash-lite-preview",
@@ -2009,10 +1958,8 @@
         "avgCharsPerPage": 828,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ]
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",

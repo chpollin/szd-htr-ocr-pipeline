@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar und eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 306,
     "total_words": 52,
     "total_pages": 2,
@@ -50,19 +50,12 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "duplicate_page_pairs": [
-      [
-        0,
-        2
-      ]
-    ],
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

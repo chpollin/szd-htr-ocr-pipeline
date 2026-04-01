@@ -80,36 +80,40 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     total_words = len(all_text.split())
     med = median(non_empty) if non_empty else 0.0
 
-    # Signal 1: Seitenlängen-Anomalie
+    # Signal 1: Seitenlängen-Anomalie (Schwelle: <10% des Median)
     page_length_anomalies = []
     if med > 0:
         for i, c in enumerate(chars_per_page):
-            if 0 < c < 0.2 * med:
+            if 0 < c < 0.1 * med:
                 page_length_anomalies.append(i)
 
-    # Signal 2: Seiten-Bild-Abgleich
+    # Signal 2: Seiten-Bild-Abgleich (Schwelle: >75% leer, nicht 50%)
     n_pages = len(pages)
     page_image_mismatch = (
         n_pages != input_image_count
-        or (input_image_count > 0 and empty_pages > input_image_count * 0.5)
+        or (input_image_count > 0 and empty_pages > input_image_count * 0.75)
     )
 
-    # Signal 3: Duplikaterkennung (Jaccard > 0.8, beide > 100 Zeichen)
+    # Signal 3: Duplikaterkennung (Jaccard > 0.9, beide > 200 Zeichen)
+    # Erhöhte Schwellen: Cover/Rückseiten mit ähnlichem Kurztext sind keine echten Duplikate
     duplicate_page_pairs = []
     for i in range(len(pages)):
         for j in range(i + 1, len(pages)):
-            if chars_per_page[i] > 100 and chars_per_page[j] > 100:
+            if chars_per_page[i] > 200 and chars_per_page[j] > 200:
                 sim = _jaccard(page_words[i], page_words[j])
-                if sim > 0.8:
+                if sim > 0.9:
                     duplicate_page_pairs.append([i, j])
 
     # Signal 4: Sprachkonsistenz
+    # Nur flaggen wenn beide Seiten eine klare Sprache erkennen —
+    # Zweig schrieb multilingual, leere/kurze Texte sollen nicht triggern
     expected_lang = _normalize_lang(metadata.get("language", ""))
     detected_lang = _detect_language(all_text)
     language_match = (
         not expected_lang  # Keine erwartete Sprache → kein Mismatch
         or not detected_lang  # Nicht genug Text → kein Mismatch
         or expected_lang == detected_lang
+        or total_words < 50  # Zu wenig Text für verlässliche Erkennung
     )
 
     # Signal 5: Marker-Dichte
@@ -135,7 +139,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("marker_density")
 
     return {
-        "version": "1.0",
+        "version": "1.1",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),

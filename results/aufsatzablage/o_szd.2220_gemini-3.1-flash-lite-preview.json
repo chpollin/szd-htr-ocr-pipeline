@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist in gut lesbarer Fraktur gedruckt. Die Transkription ist aufgrund der klaren Vorlage sehr sicher."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 7553,
     "total_words": 1082,
     "total_pages": 3,

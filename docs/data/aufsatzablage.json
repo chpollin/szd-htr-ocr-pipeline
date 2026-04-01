@@ -33,6 +33,20 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1254,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          1022,
+          1856,
+          885
+        ],
+        "charsPerPageMedian": 1022,
+        "duplicatePagePairs": [],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -74,6 +88,21 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1789,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          1914,
+          2370,
+          1928,
+          943
+        ],
+        "charsPerPageMedian": 1921.0,
+        "duplicatePagePairs": [],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -109,6 +138,20 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1253,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          1022,
+          1855,
+          883
+        ],
+        "charsPerPageMedian": 1022,
+        "duplicatePagePairs": [],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -132,6 +175,18 @@
         "emptyPages": 0,
         "avgCharsPerPage": 6107,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          6107
+        ],
+        "charsPerPageMedian": 6107,
+        "duplicatePagePairs": [],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0011
       }
     },
     {
@@ -179,6 +234,27 @@
         "emptyPages": 0,
         "avgCharsPerPage": 4737,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          5870,
+          6223,
+          3871,
+          3860,
+          3860
+        ],
+        "charsPerPageMedian": 3871,
+        "duplicatePagePairs": [
+          [
+            3,
+            4
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -214,6 +290,25 @@
         "emptyPages": 0,
         "avgCharsPerPage": 2518,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          5749,
+          902,
+          902
+        ],
+        "charsPerPageMedian": 902,
+        "duplicatePagePairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -261,6 +356,27 @@
         "emptyPages": 0,
         "avgCharsPerPage": 5884,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          3264,
+          5142,
+          6506,
+          7253,
+          7253
+        ],
+        "charsPerPageMedian": 6506,
+        "duplicatePagePairs": [
+          [
+            3,
+            4
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0002
       }
     },
     {
@@ -296,6 +412,25 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1533,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          1497,
+          1552,
+          1550
+        ],
+        "charsPerPageMedian": 1550,
+        "duplicatePagePairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -331,6 +466,25 @@
         "emptyPages": 0,
         "avgCharsPerPage": 15726,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          15433,
+          16311,
+          15433
+        ],
+        "charsPerPageMedian": 15433,
+        "duplicatePagePairs": [
+          [
+            0,
+            2
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0001
       }
     },
     {
@@ -346,6 +500,16 @@
         "emptyPages": 0,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
+      },
+      "qualitySignals": {
+        "charsPerPage": [],
+        "charsPerPageMedian": 0.0,
+        "duplicatePagePairs": [],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     },
     {
@@ -381,6 +545,25 @@
         "emptyPages": 0,
         "avgCharsPerPage": 3374,
         "vlmConfidence": "high"
+      },
+      "qualitySignals": {
+        "charsPerPage": [
+          4718,
+          2702,
+          2702
+        ],
+        "charsPerPageMedian": 2702,
+        "duplicatePagePairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "pageLengthAnomalies": [],
+        "languageExpected": "de",
+        "languageDetected": "de",
+        "languageMatch": true,
+        "markerDensity": 0.0
       }
     }
   ]

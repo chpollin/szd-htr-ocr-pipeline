@@ -47,7 +47,7 @@
     "confidence_notes": "Der Text ist gut lesbar, trotz der Frakturschrift und der leichten Unschärfe an den Rändern. Die Duplizierung der letzten Seite wurde als solche erkannt."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 23684,
     "total_words": 3465,
     "total_pages": 5,

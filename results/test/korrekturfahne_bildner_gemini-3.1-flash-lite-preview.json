@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist ein klarer Drucksatz. Die Transkription ist aufgrund der hohen Qualität der Vorlage und der eindeutigen Typografie sehr sicher."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 6983,
     "total_words": 1128,
     "total_pages": 3,

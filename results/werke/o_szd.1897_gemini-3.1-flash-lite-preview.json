@@ -51,7 +51,7 @@
     "confidence_notes": "Der Text ist ein sauberer Drucksatz (Korrekturfahne) aus Stefan Zweigs 'Begegnungen'. Die Transkription ist aufgrund der klaren Typografie und des bekannten Textes sehr sicher."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 10875,
     "total_words": 1566,
     "total_pages": 3,

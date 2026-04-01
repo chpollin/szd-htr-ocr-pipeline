@@ -46,20 +46,26 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] JSON-Parsing gehaertet: Codeblock-Strip, Escape-Fix, Retry, leere Antworten
 - [x] `quality_signals.py`: 6 Signale + needs_review-Flag, integriert in transcribe.py + build_viewer_data.py
 - [x] Backfill: alle 87 Ergebnis-JSONs mit quality_signals angereichert
+- [x] quality_signals v1.1: Schwellenwerte rekalibriert (68% → 44% needs_review)
+- [x] `evaluate.py`: CER/WER-Berechnung mit Normalisierung per Annotationsprotokoll
+- [x] `quality_report.py`: Aggregierte Qualitaetsstatistiken pro Gruppe/Sammlung
+- [x] `build_viewer_data.py`: qualitySignals (charsPerPage, duplicatePagePairs etc.) an Frontend durchgereicht
+- [x] Exponential Backoff (429/Rate-Limit-Retry) in transcribe.py fuer parallele Batch-Laeufe
 
-## Phase 4: Qualität & Vergleich (nächster Schritt)
+## Phase 4: Qualitaet & Vergleich (laufend)
 
 ### 4a: Pilot & Ground Truth
-- [ ] **Pilot**: 5 Seiten manuell prüfen (→ `knowledge/pilot-design.md`)
+- [ ] **Pilot**: 5 Seiten manuell pruefen (→ `knowledge/pilot-design.md`)
 - [ ] Pilot-Ergebnisse auswerten, CER pro Gruppe bestimmen
 - [ ] Annotationsprotokoll ggf. anpassen (→ `knowledge/annotation-protocol.md`)
 - [ ] Ground-Truth-Sample: 30 Objekte manuell transkribieren (→ `knowledge/verification-concept.md` §1)
-- [ ] CER-Berechnungsscript (Lane 3)
+- [x] CER-Berechnungsscript (`pipeline/evaluate.py`)
 
 ### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (6 Signale, needs_review, in catalog.json)
 - [x] `needs_review`-Indikator im Viewer
-- [ ] Alle Sammlungen komplett transkribieren (87/2107 Objekte, ~$29 API, ~10h)
+- [x] quality_signals v1.1: datengetriebene Rekalibrierung (duplicate >0.9/200c, mismatch >75%, anomaly <10%, lang min 50w)
+- [ ] Alle Sammlungen komplett transkribieren (87/2107 Objekte, paralleler Batch laeuft)
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Prompt-Experiment & Provider-Vergleich

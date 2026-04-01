@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist klar lesbar, sowohl der Druck als auch die handschriftliche Notiz auf der Rückseite."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 432,
     "total_words": 61,
     "total_pages": 3,

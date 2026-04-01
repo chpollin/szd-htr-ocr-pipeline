@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist kurz, eindeutig und entspricht den Angaben in den Metadaten."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 101,
     "total_words": 16,
     "total_pages": 2,

@@ -49,7 +49,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Handschrift und des gut lesbaren Typoskripts sehr sicher. Die rumänischen Begriffe wurden originalgetreu übernommen."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 1655,
     "total_words": 272,
     "total_pages": 2,
@@ -71,9 +71,7 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

@@ -35,7 +35,7 @@
     "confidence_notes": "Der Text ist gedruckt und eindeutig lesbar. Die Rückseite und das dritte Bild enthalten keinen transkribierbaren Text."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.1",
     "total_chars": 24,
     "total_words": 3,
     "total_pages": 1,
@@ -55,9 +55,7 @@
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

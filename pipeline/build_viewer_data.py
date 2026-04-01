@@ -126,6 +126,16 @@ def build():
             "verification": verification,
             "needsReview": qs.get("needs_review", False),
             "needsReviewReasons": qs.get("needs_review_reasons", []),
+            "qualitySignals": {
+                "charsPerPage": qs.get("chars_per_page", []),
+                "charsPerPageMedian": qs.get("chars_per_page_median", 0),
+                "duplicatePagePairs": qs.get("duplicate_page_pairs", []),
+                "pageLengthAnomalies": qs.get("page_length_anomalies", []),
+                "languageExpected": qs.get("language_expected", ""),
+                "languageDetected": qs.get("language_detected", ""),
+                "languageMatch": qs.get("language_match", True),
+                "markerDensity": qs.get("marker_density", 0),
+            },
         }
         objects.append(obj)
 
@@ -179,6 +189,7 @@ def build():
                 "confidence": obj["confidence"],
                 "confidenceNotes": obj["confidenceNotes"],
                 "verification": obj["verification"],
+                "qualitySignals": obj.get("qualitySignals", {}),
             })
         col_path = DATA_DIR / f"{col}.json"
         col_path.write_text(

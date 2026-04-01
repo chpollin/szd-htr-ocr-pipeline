@@ -15,9 +15,11 @@ Phasen 1–3 erledigt. Details, offene Aufgaben und Entscheidungslog → `Plan.m
 - **87 Objekte** transkribiert: 46 Lebensdokumente, 19 Werke, 11 Aufsatzablage, 11 Korrespondenzen (davon 7 in `results/test/`)
 - **Alle 9 Prompt-Gruppen** auf Ziel: 10/Gruppe (E: 5/5, einzige Gruppe mit <10 im Backup)
 - **~2107 Objekte** im Backup ueber 4 Sammlungen — Batch-Lauf fuer den Rest steht aus (~$29 API, ~10h)
-- **quality_signals implementiert**: 6 Signale, `needs_review` + `needs_review_reasons`, in catalog.json propagiert
+- **quality_signals v1.1**: 6 Signale, rekalibrierte Schwellenwerte (68% → 44% needs_review), in catalog.json propagiert
+- **CER/WER-Evaluierung**: `evaluate.py` mit Normalisierung per Annotationsprotokoll, `quality_report.py` fuer Aggregatstatistiken
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
-- Naechster Schritt: **Pilot** (5 Seiten manuell pruefen), dann Ground-Truth-Sample, dann voller Batch
+- **Exponential Backoff**: 429/Rate-Limit-Retry in transcribe.py fuer parallele Batch-Laeufe
+- Naechster Schritt: **Batch** (4 Sammlungen parallel), dann Pilot (5 Seiten manuell), dann Ground-Truth-Sample
 
 ## Quelldaten
 
@@ -73,7 +75,9 @@ szd-htr/
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 6 Qualitaetssignale + needs_review-Aggregation
+│   ├── quality_signals.py           ← 6 Qualitaetssignale + needs_review-Aggregation (v1.1)
+│   ├── evaluate.py                  ← CER/WER-Berechnung: Pipeline vs. Referenztranskription
+│   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
 │   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
 │   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
@@ -82,6 +86,7 @@ szd-htr/
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
 │   ├── test/                        ← 7 Testergebnisse (enriched JSON)
+│   ├── groundtruth/                 ← Manuelle Referenztranskriptionen (Pilot + GT)
 │   ├── lebensdokumente/             ← 46 Ergebnisse
 │   ├── werke/                       ← 19 Ergebnisse
 │   ├── aufsatzablage/               ← 11 Ergebnisse
