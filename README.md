@@ -43,19 +43,9 @@ Dreischichtiges Prompt-System für VLM-Transkription:
 | H: Zeitungsausschnitt | Presseausschnitte | Gedruckt, ggf. Fraktur |
 | I: Korrespondenz | Briefe, Postkarten | Briefstruktur, Handschrift |
 
-## Testergebnisse
+## Status
 
-Getestet mit **Gemini 3.1 Flash Lite** (Preview). **7/7 Objekte: high confidence.**
-
-| Objekt | Sammlung | Gruppe | Sprache |
-|---|---|---|---|
-| Theaterkarte Jeremias 1918 | Lebensdokumente | D: Kurztext | DE |
-| Certified Copy of Marriage | Lebensdokumente | C: Formular | EN |
-| Verlagsvertrag Grasset | Lebensdokumente | B: Typoskript | FR |
-| Tagebuch 1918 (5 Seiten) | Lebensdokumente | A: Handschrift | DE |
-| Der Bildner (Korrekturfahne) | Werke | F: Korrekturfahne | DE |
-| Aus der Werkstatt der Dichter | Aufsatzablage | H: Zeitungsausschnitt | DE |
-| Brief an Max Fleischer 1901 | Korrespondenzen | I: Korrespondenz | DE |
+**~510 / 2107 Objekte** transkribiert (Batch laeuft). Qualitaetssignale v1.2 mit Leerseiten-Klassifikation und Dictionary Word Ratio. Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) in Validierung.
 
 Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.github.io/szd-htr-ocr-pipeline/)
 
@@ -65,10 +55,14 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 ├── pipeline/
 │   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt
 │   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
-│   ├── test_single.py        ← Test-Script (7 Referenz-Objekte)
+│   ├── verify.py             ← Multi-Model-Konsensus-Verifikation
+│   ├── quality_signals.py    ← 8 Qualitaetssignale + Leerseiten + DWR (v1.2)
+│   ├── evaluate.py           ← CER/WER-Berechnung
+│   ├── quality_report.py     ← Aggregierte Qualitaetsstatistiken
 │   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()
 │   ├── config.py             ← Pfade, API-Key, Sammlungs-Mapping
-│   └── build_viewer_data.py  ← Baut catalog.json + data/{collection}.json
+│   ├── build_viewer_data.py  ← Baut catalog.json + data/{collection}.json
+│   └── test_single.py        ← Test-Script (7 Referenz-Objekte)
 ├── data/                     ← TEI-Metadaten (4 Sammlungen)
 ├── results/                  ← Transkriptionsergebnisse (enriched JSON)
 ├── knowledge/                ← Research Vault (Methodik, Datenanalyse, Journal)
@@ -108,9 +102,15 @@ python pipeline/transcribe.py --all --dry-run
 # Viewer-Daten aktualisieren
 python pipeline/build_viewer_data.py
 
-# Legacy Quick-Tests
-python pipeline/test_single.py --list
-python pipeline/test_single.py theaterkarte
+# Qualitaetsreport
+python pipeline/quality_report.py
+
+# Multi-Model-Konsensus (Verifikation)
+python pipeline/verify.py o_szd.100 -c lebensdokumente
+python pipeline/verify.py --sample 3 --dry-run
+
+# CER-Berechnung (gegen Referenztranskription)
+python pipeline/evaluate.py results/lebensdokumente/o_szd.100_*.json reference.txt
 ```
 
 ## Verwandte Projekte

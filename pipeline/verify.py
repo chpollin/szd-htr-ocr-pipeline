@@ -210,11 +210,14 @@ def verify_object(
         print(f"  ÜBERSPRUNGEN: {object_id} hat broken result (raw)")
         return None
 
-    print(f"  Modell A: {result_a.get('model', '?')} (existierend)")
+    # Match image count from Model A to ensure fair comparison
+    n_pages_a = len(result_a.get("result", {}).get("pages", []))
+    effective_max = max_images if max_images else n_pages_a
+    print(f"  Modell A: {result_a.get('model', '?')} ({n_pages_a} Seiten)")
 
-    # Run Model B (Gemini 3 Flash)
-    print(f"  Modell B: {VERIFY_MODEL} (transkribiere...)")
-    result_b = transcribe_with_flash(object_id, collection, max_images)
+    # Run Model B (Gemini 3 Flash) with same image count
+    print(f"  Modell B: {VERIFY_MODEL} (transkribiere, max {effective_max} Bilder...)")
+    result_b = transcribe_with_flash(object_id, collection, effective_max)
     if result_b is None or "raw" in result_b:
         print(f"  FEHLER: Modell B konnte nicht transkribieren")
         return None

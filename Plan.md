@@ -65,15 +65,21 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] `quality_signals` implementieren (6 Signale, needs_review, in catalog.json)
 - [x] `needs_review`-Indikator im Viewer
 - [x] quality_signals v1.1: datengetriebene Rekalibrierung (duplicate >0.9/200c, mismatch >75%, anomaly <10%, lang min 50w)
-- [ ] Alle Sammlungen komplett transkribieren (87/2107 Objekte, paralleler Batch laeuft)
+- [x] quality_signals v1.2: Leerseiten-Klassifikation (blank/color_chart/content) + DWR (Dictionary Word Ratio)
+- [x] System-Prompt: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
+- [~] Alle Sammlungen transkribieren (~510/2107 Objekte, paralleler Batch laeuft)
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
-### 4c: Prompt-Experiment & Provider-Vergleich
-- [ ] Prompt-Wirksamkeit: 3 Varianten × 30 GT-Objekte (→ `verification-concept.md` §3)
-- [ ] Cross-Model-Verification: Gemini + Claude Sonnet auf GT-Sample (→ `verification-concept.md` §4)
+### 4c: Multi-Model-Konsensus & Provider-Vergleich
+- [x] `verify.py`: Multi-Model-Konsensus (Gemini Flash Lite + Gemini 3 Flash + Claude Judge)
+- [x] Erste Konsensus-Tests: 5% CER bei Typoskript, hoeher bei Handschrift
+- [ ] Konsensus-Validierung: 30 Objekte stratifiziert (3/Gruppe), Konsensus-Rate bestimmen
+- [ ] Claude Code Subagent als Judge fuer moderate/divergente Objekte
+- [ ] Konsensus-GT fuer Schwellenwert-Kalibrierung verwenden
+- [ ] Prompt-Wirksamkeit: 3 Varianten x 30 GT-Objekte (→ `verification-concept.md` §3)
 - [ ] Provider-Vergleich: Gemini vs. Claude vs. GPT-4o
-- [ ] Diff-Ansicht im Viewer (Lane 1)
-- [ ] Optimale Bildgröße testen (Resizing vor API-Call)
+- [ ] Diff-Ansicht im Viewer
+- [ ] Statistik-Dashboard im Frontend (Chart.js)
 
 ## Phase 5: TEI-Integration
 
@@ -123,3 +129,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-01 | Claude Sonnet als zweites Modell | Max. Diversitaet zu Gemini, starke Baseline, moderate Kosten |
 | 2026-04-01 | teiCrafter-Integration via Interchange | Kein eigener TEI-Konverter — teiCrafter hat LLM-Annotation + Validierung |
 | 2026-04-01 | Gezieltes Sample statt voller Batch | 10/Gruppe reicht fuer group_text_density und Gruppenvergleich |
+| 2026-04-01 | quality_signals v1.2: Leerseiten-Klassifikation | VLM erkennt Blanks/Farbskalen in Notes — Post-Processing statt Pre-Filtering |
+| 2026-04-01 | DWR statt PPPL als GT-freie Metrik | Keine schwere Dependency (transformers), wissenschaftlich fundiert (Springmann 2016) |
+| 2026-04-01 | Multi-Model-Konsensus statt manuellem GT | Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell |
+| 2026-04-01 | Gemini 3 Flash als Modell B | Staerker als Flash Lite, gleiche API, kein Provider-Wechsel noetig |

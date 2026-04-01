@@ -28,9 +28,16 @@ Dreischichtiges Prompt-System für die VLM-Transkription:
 
 | Script | Funktion |
 |---|---|
-| `test_single.py` | Einzelobjekt-Transkription (Multi-Collection, `--list` für verfügbare Tests) |
+| `transcribe.py` | Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus mit Rate-Limit-Retry |
+| `verify.py` | Multi-Model-Konsensus: Gemini Flash Lite + Flash 3 + Claude Judge |
+| `quality_signals.py` | 8 Qualitaetssignale + Leerseiten-Klassifikation + DWR (v1.2) |
+| `evaluate.py` | CER/WER-Berechnung mit Normalisierung (annotation-protocol.md §5) |
+| `quality_report.py` | Aggregierte Statistiken pro Gruppe/Sammlung (CLI + JSON) |
 | `tei_context.py` | TEI-Parser: extrahiert Metadaten, generiert Kontext, ordnet Gruppen zu |
 | `build_viewer_data.py` | Baut `catalog.json` + `data/{collection}.json` aus enriched Ergebnis-JSONs |
+| `config.py` | Pfade, API-Key, Sammlungs-Mapping, Konstanten |
+| `run_sample_batch.py` | Gezielter Batch: fuellt jede Gruppe auf 10 auf |
+| `test_single.py` | Legacy-Testskript (7 hardcodierte Testobjekte) |
 
 ## Beispiel
 
