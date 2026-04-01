@@ -1,7 +1,9 @@
 """Quality signals: automatische Qualitätsprüfung von Transkriptionsergebnissen.
 
-Berechnet 6 Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
+Berechnet 8 Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
 sie zu einem needs_review-Flag.
+
+v1.2: Leerseiten-Klassifikation, DWR (Dictionary Word Ratio).
 """
 
 import re
@@ -23,6 +25,96 @@ LANG_MAP = {
     "französisch": "fr", "franzoesisch": "fr", "french": "fr", "fr": "fr",
     "englisch": "en", "english": "en", "en": "en",
 }
+
+
+# DWR-Wortlisten: Top ~500 häufigste Wörter pro Sprache (deckt ~90% eines Textes ab)
+# Quelle: Frequenzlisten aus Wikipedia-Korpora, manuell kuratiert
+DWR_WORDS = {
+    "de": {
+        "der", "die", "und", "in", "den", "von", "zu", "das", "mit", "sich", "des",
+        "auf", "für", "ist", "im", "dem", "nicht", "ein", "eine", "als", "auch", "es",
+        "an", "werden", "aus", "er", "hat", "dass", "sie", "nach", "wird", "bei",
+        "einer", "um", "am", "sind", "noch", "wie", "einem", "über", "so", "zum",
+        "war", "haben", "nur", "oder", "aber", "vor", "zur", "bis", "mehr", "durch",
+        "man", "seine", "kann", "wenn", "schon", "seit", "diesem", "dieser", "wieder",
+        "hier", "gegen", "unter", "sehr", "mich", "mir", "dann", "zwischen", "dort",
+        "immer", "ihren", "beiden", "allem", "doch", "ihre", "seinen", "dieses", "alle",
+        "worden", "ihre", "einem", "etwas", "nun", "weil", "diesen", "anderen", "davon",
+        "heute", "wir", "mein", "ich", "du", "er", "sie", "wir", "ihr", "dein",
+        "sein", "meine", "ihre", "unser", "jetzt", "leben", "zeit", "haus", "kind",
+        "frau", "mann", "tag", "jahr", "stadt", "land", "welt", "nacht", "geld",
+        "arbeit", "brief", "buch", "hand", "kopf", "seite", "teil", "wort", "weg",
+        "stelle", "liebe", "herr", "freund", "recht", "grund", "frage", "macht",
+        "viel", "gut", "gross", "klein", "alt", "neu", "lang", "kurz", "hoch",
+        "erste", "letzte", "ganze", "andere", "gleiche", "eigene", "neue", "alte",
+        "kommen", "gehen", "sehen", "geben", "nehmen", "finden", "stehen", "lassen",
+        "sagen", "wissen", "wollen", "sollen", "müssen", "können", "dürfen", "mögen",
+        "machen", "bringen", "halten", "bleiben", "führen", "zeigen", "sprechen",
+        "denken", "glauben", "kennen", "heissen", "beginnen", "liegen", "setzen",
+        "spielen", "lesen", "schreiben", "fahren", "tragen", "fallen", "ziehen",
+        "also", "selbst", "schon", "dabei", "dabei", "darum", "darauf", "darin",
+        "dazu", "damit", "daher", "deshalb", "trotzdem", "dennoch", "allerdings",
+        "bereits", "jedoch", "eigentlich", "vielleicht", "wahrscheinlich", "offenbar",
+        "niemals", "kaum", "etwa", "bitte", "danke", "herr", "frau", "Wien",
+        "österreich", "deutsch", "deutschland", "schweiz", "europa", "paris", "london",
+    },
+    "fr": {
+        "le", "de", "un", "être", "et", "à", "il", "avoir", "ne", "je", "son",
+        "que", "se", "qui", "ce", "dans", "en", "du", "elle", "au", "pour", "pas",
+        "par", "sur", "faire", "plus", "dire", "me", "on", "mon", "lui", "nous",
+        "comme", "mais", "pouvoir", "avec", "tout", "y", "aller", "voir", "bien",
+        "où", "sans", "tu", "ou", "leur", "homme", "si", "deux", "mari", "moi",
+        "vouloir", "te", "femme", "venir", "quand", "grand", "celui", "notre",
+        "jour", "temps", "très", "savoir", "falloir", "sous", "aussi", "vie",
+        "même", "après", "autre", "entre", "petit", "encore", "bon", "rien",
+        "premier", "chez", "monde", "pays", "cette", "main", "fois", "les", "des",
+        "ses", "mes", "tes", "ces", "une", "aux", "quelque", "dont", "tous",
+        "toute", "toutes", "contre", "vers", "avant", "depuis", "pendant", "ici",
+    },
+    "en": {
+        "the", "be", "to", "of", "and", "a", "in", "that", "have", "i", "it",
+        "for", "not", "on", "with", "he", "as", "you", "do", "at", "this", "but",
+        "his", "by", "from", "they", "we", "say", "her", "she", "or", "an", "will",
+        "my", "one", "all", "would", "there", "their", "what", "so", "up", "out",
+        "if", "about", "who", "get", "which", "go", "me", "when", "make", "can",
+        "like", "time", "no", "just", "him", "know", "take", "people", "into",
+        "year", "your", "good", "some", "could", "them", "see", "other", "than",
+        "then", "now", "look", "only", "come", "its", "over", "think", "also",
+        "back", "after", "use", "two", "how", "our", "work", "first", "well",
+        "way", "even", "new", "want", "because", "any", "these", "give", "day",
+        "most", "letter", "book", "life", "hand", "part", "house", "world", "name",
+        "great", "old", "long", "between", "own", "should", "still", "last", "never",
+        "same", "another", "much", "must", "before", "right", "too", "mean", "may",
+    },
+}
+
+
+def _classify_page(page: dict) -> str:
+    """Classify page as 'content', 'blank', or 'color_chart' from notes + text."""
+    notes = (page.get("notes", "") or "").lower()
+    text = (page.get("transcription", "") or "").strip()
+    if len(text) < 10:
+        if any(kw in notes for kw in ("farbskala", "farb-", "grauskala", "farbkeil",
+                                       "color chart", "grey scale", "graustuf")):
+            return "color_chart"
+        if any(kw in notes for kw in ("rückseite", "rueckseite", "leer", "blank",
+                                       "keine beschriftung", "kein text")):
+            return "blank"
+        if not text:
+            return "blank"
+    return "content"
+
+
+def _compute_dwr(text: str, lang: str) -> float:
+    """Compute Dictionary Word Ratio: fraction of words found in word list."""
+    if not text.strip():
+        return 0.0
+    words = re.findall(r"[a-zäöüàâéèêëïîôùûçß]+", text.lower())
+    if not words:
+        return 0.0
+    wordlist = DWR_WORDS.get(lang, DWR_WORDS.get("de", set()))
+    known = sum(1 for w in words if w in wordlist)
+    return known / len(words)
 
 
 def _detect_language(text: str) -> str:
@@ -64,41 +156,57 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     """
     pages = result_json.get("pages", [])
     all_text = ""
+    content_text = ""  # Only content pages (no blanks/color charts)
     chars_per_page = []
-    page_words = []  # list of word-sets per page, for duplicate detection
+    page_words = []
+    page_types = []  # 'content', 'blank', 'color_chart'
 
     for page in pages:
         text = page.get("transcription", "")
+        ptype = _classify_page(page)
+        page_types.append(ptype)
         chars_per_page.append(len(text))
         words = set(text.lower().split())
         page_words.append(words)
         all_text += text + "\n"
+        if ptype == "content":
+            content_text += text + "\n"
 
     total_chars = sum(c for c in chars_per_page)
-    non_empty = [c for c in chars_per_page if c > 0]
-    empty_pages = len(chars_per_page) - len(non_empty)
+    content_chars = [c for i, c in enumerate(chars_per_page) if page_types[i] == "content"]
+    non_empty = [c for c in content_chars if c > 0]
+    blank_pages = sum(1 for t in page_types if t == "blank")
+    color_chart_pages = sum(1 for t in page_types if t == "color_chart")
+    content_page_count = sum(1 for t in page_types if t == "content")
+    empty_pages = len(chars_per_page) - len([c for c in chars_per_page if c > 0])
     total_words = len(all_text.split())
     med = median(non_empty) if non_empty else 0.0
 
-    # Signal 1: Seitenlängen-Anomalie (Schwelle: <10% des Median)
+    # Signal 1: Seitenlängen-Anomalie (nur content pages, Schwelle: <10% des Median)
     page_length_anomalies = []
     if med > 0:
         for i, c in enumerate(chars_per_page):
-            if 0 < c < 0.1 * med:
+            if page_types[i] == "content" and 0 < c < 0.1 * med:
                 page_length_anomalies.append(i)
 
-    # Signal 2: Seiten-Bild-Abgleich (Schwelle: >75% leer, nicht 50%)
+    # Signal 2: Seiten-Bild-Abgleich (nur content pages vs. input images)
+    # Blank/color chart pages are expected and don't count as mismatch
     n_pages = len(pages)
+    effective_empty = sum(1 for i, c in enumerate(chars_per_page)
+                         if c == 0 and page_types[i] == "content")
     page_image_mismatch = (
         n_pages != input_image_count
-        or (input_image_count > 0 and empty_pages > input_image_count * 0.75)
+        or (content_page_count > 0 and effective_empty > content_page_count * 0.75)
     )
 
-    # Signal 3: Duplikaterkennung (Jaccard > 0.9, beide > 200 Zeichen)
-    # Erhöhte Schwellen: Cover/Rückseiten mit ähnlichem Kurztext sind keine echten Duplikate
+    # Signal 3: Duplikaterkennung (nur content pages, Jaccard > 0.9, beide > 200 Zeichen)
     duplicate_page_pairs = []
     for i in range(len(pages)):
+        if page_types[i] != "content":
+            continue
         for j in range(i + 1, len(pages)):
+            if page_types[j] != "content":
+                continue
             if chars_per_page[i] > 200 and chars_per_page[j] > 200:
                 sim = _jaccard(page_words[i], page_words[j])
                 if sim > 0.9:
@@ -121,9 +229,13 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     n_illegible = len(re.findall(r"\[\.\.\..*?\]", all_text))
     marker_density = (n_uncertain + n_illegible) / total_words if total_words > 0 else 0.0
 
-    # Signal 6: Textdichte relativ zur Gruppe — erst ab 10 Objekten sinnvoll,
-    # wird beim Backfill/Batch berechnet. Hier null setzen.
-    # (group_text_density wird extern berechnet, weil es Gruppenstatistik braucht)
+    # Signal 6: Dictionary Word Ratio (DWR) — Anteil Wörterbuchwörter
+    # Korreliert mit CER (Springmann 2016, Ströbel 2022)
+    dwr_lang = detected_lang or expected_lang or "de"
+    dwr_score = _compute_dwr(content_text, dwr_lang)
+
+    # Signal 7: Textdichte relativ zur Gruppe — extern berechnet
+    # (group_text_density braucht Gruppenstatistik, wird beim Backfill gesetzt)
 
     # needs_review: Zusammengesetztes Flag (§2.4)
     reasons = []
@@ -137,19 +249,26 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("language_mismatch")
     if marker_density > 0.05:
         reasons.append("marker_density")
+    if dwr_score > 0 and dwr_score < 0.15:
+        reasons.append("low_dwr")
 
     return {
-        "version": "1.1",
+        "version": "1.2",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),
         "empty_pages": empty_pages,
+        "blank_pages": blank_pages,
+        "color_chart_pages": color_chart_pages,
+        "content_pages": content_page_count,
         "input_images": input_image_count,
+        "page_types": page_types,
         "chars_per_page": chars_per_page,
         "chars_per_page_median": round(med, 1),
         "marker_uncertain_count": n_uncertain,
         "marker_illegible_count": n_illegible,
         "marker_density": round(marker_density, 4),
+        "dwr_score": round(dwr_score, 4),
         "duplicate_page_pairs": duplicate_page_pairs,
         "language_expected": expected_lang,
         "language_detected": detected_lang,

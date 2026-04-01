@@ -46,8 +46,23 @@ def normalize_text(text: str) -> str:
 
     # Final whitespace cleanup
     text = re.sub(r"[^\S\n]+", " ", text)
+    text = re.sub(r" *\n *", "\n", text)  # Strip spaces around paragraph breaks
     text = text.strip()
     return text
+
+
+def normalize_for_consensus(text: str) -> str:
+    """Aggressive normalization for inter-model CER comparison.
+
+    Ignores layout differences (indentation, numbering format) that are
+    not transcription errors but formatting choices between models.
+    """
+    text = normalize_text(text)
+    # Collapse all whitespace (spaces + paragraph breaks) to single space
+    text = re.sub(r"\s+", " ", text)
+    # Remove leading/trailing spaces around punctuation
+    text = re.sub(r"\s+([.,;:!?])", r"\1", text)
+    return text.strip()
 
 
 def cer(hypothesis: str, reference: str) -> float:
