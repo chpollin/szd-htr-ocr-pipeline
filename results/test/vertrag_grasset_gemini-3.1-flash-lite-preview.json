@@ -35,12 +35,20 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 5586,
     "total_words": 916,
     "total_pages": 3,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       2253,
       2089,
@@ -50,6 +58,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.3635,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

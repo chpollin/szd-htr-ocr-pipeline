@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1223",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 5. Januar 1935, SZ-SAM/B7.53",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1223/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1223/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. Januar 1935, SZ-SAM/B7.53\n- Signatur: SZ-SAM/B7.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Westminster                                Nizza, den 5.Januar 1935.\n\nLiebe Frau Meingast!\n\nSie bekommen noch heute oder morgen Kapitel XV und vielleicht\nauch gerade die letzten Kapitel schon durchkorrigiert. Sie können\ndann, da ich schon eine Vereinbarung mit Herrn Reichner getroffen\nhabe, sowohl die Einleitung als auch das ganze restliche Manuskript\nan ihn schicken. Es wird nur eben dann mehr Korrektur kosten, wenn\nKapitel XVII-XXII noch ziemlich zu ändern sind.\n\nFerner bitte ich Kapitel X-XV, sobald sie neu hergerichtet\nsind, an Eden & Cedar Paul zu schicken und auch von den Schluss-\nkapiteln alles, was ich mit endgültig bezeichnet habe. Ebenso an\nFrau Lavinia Mazzuchetti und Alzir Hella.\n\n                                          Mit besten Grüssen\n\n                                          Stefan Zweig",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Das Wort 'endgültig' ist im Original unterstrichen."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da er maschinengeschrieben ist. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 824,
+    "total_words": 110,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      824,
+      0
+    ],
+    "chars_per_page_median": 824,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4636,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

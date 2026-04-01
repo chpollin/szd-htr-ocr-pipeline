@@ -1,0 +1,86 @@
+{
+  "object_id": "o_szd.1306",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Heinrich Glücksmann vom 11. September 1911, SZ-SEF/B15",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1306/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Heinrich Glücksmann vom 11. September 1911, SZ-SEF/B15\n- Signatur: SZ-SEF/B15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIII. KOCHGASSE 8\nWIEN, 11. Sept. 1911\n\nVerehrter Herr Director,\n\nes war mir\nungemein bedauerlich von Ihrer Er-\nkrankung zu vernehmen, die mich\nhinderte Ihnen meinen aufrichtigen\nDank für die schöne Darbietung von\nVerhaerens Werk {selbst} sagen zu können.\nIch habe mit lebhaftester Freude ge-\nsehen, wie alle Künstler unter der\nwirklich hingebungsvollen Führung\nSteinert's an diesen heissen Tagen keine\nMühe scheuten, um dies eine doch herben\nund eigentlich wenig zugänglichen\nStück zu einem Erfolge zu verhelfen und\nich freue mich, dass das verdient[?] dies\nTheaters (wenn auch lange nicht genug)\nanerkannt würde. Ich habe auch so-\nfort Herrn Verhaeren in diesem Sinne",
+        "notes": "Briefkopf gedruckt, Text handschriftlich. 'selbst' wurde über der Zeile eingefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "telegrafisch berichtet und ich zweifle\nnicht, dass auch er Ihnen innig Dank\nwissen wird.\n\nDarf ich eine Bitte anfügen?\nIch habe heute zwei Dutzend Briefe von\nBekannten und Unbekannten aus den\nSommerfrischen bekommen, die mir alle\nschreiben, wie sehr sie sich dem „Kloster“\nentgegenfreuen. Nun möchte ich bitten,\nauch falls der Besuch jetzt kein gün-\nstiger sein sollte, jedenfalls noch eine\nAufführung Anfangs October zu wagen,\num den vielen Gelegenheit zu geben, die-\nse wirklich meisterliche Darstellung zu\nsehen, die jetzt noch fern von Wien sind.\n\nNochmals meinen innigen Dank!\nWir sind in diesen Tagen der Proben\nvele der Herren, die an dem Werke\nhalfen, persönlich sehr wert geworden,\nvor allem Herr Glücksmann und Herr\nSteinert, die jedem Wunsche gütigst\nentgegenkamen, und mir - falls sich",
+        "notes": "Fortsetzung des Briefes."
+      },
+      {
+        "page": 4,
+        "transcription": "wie ich hoffe, auch mit eigenem Werke\nGelegenheit ergeben sollte - ein {weiteres} Zusammen-\nwirken als fremde erscheinen lassen\n\nIn aufrichtiger Ergebenheit\n\nStefan Zweig",
+        "notes": "Schluss des Briefes. 'weiteres' wurde über der Zeile eingefügt."
+      },
+      {
+        "page": 5,
+        "transcription": "wie ich hoffe, auch mit eigenem Werke\nGelegenheit ergeben sollte - ein {weiteres} Zusammen-\nwirken als fremde erscheinen lassen\n\nIn aufrichtiger Ergebenheit\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 4, jedoch mit Farbskala und Lineal überlagert."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die Ergänzungen sind eindeutig als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1806,
+    "total_words": 277,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      669,
+      0,
+      797,
+      170,
+      170
+    ],
+    "chars_per_page_median": 419.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0036,
+    "dwr_score": 0.4743,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

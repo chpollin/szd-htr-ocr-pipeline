@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1134",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1134/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1134/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.12\n- Signatur: SZ-SAM/B10.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 26.Oktober 1937.\n\nLiebe Frau Meingast!\n\nHerr Dr. Zweig lässt Sie bitten,\nsofort festzustellen, ob Sie noch einen Vertrag mit\nE.P.Tal oder Carl Seelig über \"Fahrten\" in Salzburg\nhaben. Da Sie nach einer früher einmal gesandten\nListe auch bei dem letzten Mal nicht alle Verträge\neingesandt haben wie z.B. Kiepenheuer, Reuter usw.,\nso wäre es möglich, dass Sie auch den Vertrag mit\nTal oder Seelig (den zweiten ergänzenden Vertrag mit\nTal haben wir hier) noch in Salzburg haben. Wenn\nSie ihn finden, so senden Sie ihn bitte umgehend per\nLuftpost hierher, da Frau Tal Einspruch gegen den\nAbdruck von \"Fahrten\" in dem neuen Band \"Begegnungen\"\nerhoben hat und Herr Dr. Zweig ihr womöglich dokumen-\ntarisch beweisen will, dass sie hierzu nicht berech-\ntigt ist.\n\nMit den besten Grüssen\nLAltmann",
+        "notes": "Der Brief ist maschinengeschrieben, die Unterschrift 'LAltmann' ist handschriftlich in blauer Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "A",
+        "notes": "Rückseite des Briefes, leer bis auf ein handschriftliches 'A' in der oberen linken Ecke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die Unterschrift ist eindeutig als 'LAltmann' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 800,
+    "total_words": 131,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      799,
+      1
+    ],
+    "chars_per_page_median": 799,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4621,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

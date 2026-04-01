@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2301",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die, SZ-AAP/W-AA188.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2301/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2301/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die\n- Signatur: SZ-AAP/W-AA188.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Sainte-Beuve\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
+        "notes": "Die Zeile ist unterstrichen."
+      },
+      {
+        "page": 2,
+        "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
+        "notes": "Spiegelbildliche Durchzeichnung der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "Sainte-Beuve",
+        "notes": "Handschriftlicher Eintrag auf der Rückseite."
+      },
+      {
+        "page": 4,
+        "transcription": "Sainte-Beuve",
+        "notes": "Spiegelbildliche Durchzeichnung der Rückseite."
+      },
+      {
+        "page": 5,
+        "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
+        "notes": "Identisch mit Seite 1."
+      },
+      {
+        "page": 6,
+        "transcription": "Sainte-Beuve",
+        "notes": "Identisch mit Seite 3."
+      },
+      {
+        "page": 7,
+        "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
+        "notes": "Identisch mit Seite 1, inklusive Farb- und Grauskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich über die verschiedenen Scans hinweg."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 284,
+    "total_words": 47,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      62,
+      62,
+      12,
+      12,
+      62,
+      12,
+      62
+    ],
+    "chars_per_page_median": 62,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.56,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "object_id": "o_szd.145",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.0101,
+    "category": "consensus_verified",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0101,
+        "agreement": "high",
+        "chars_a": 199,
+        "chars_b": 198
+      },
+      {
+        "page": 1,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.145",
+    "collection": "lebensdokumente",
+    "group": "formular",
+    "title": "Rückerstattung der Postfachgebühren, SZ-SAM/L11",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.0101,
+      "category": "consensus_verified",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0101,
+          "agreement": "high",
+          "chars_a": 199,
+          "chars_b": 198
+        },
+        {
+          "page": 1,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.1",
+        "transcription_a": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+        "transcription_b": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\n\nRückerstattung der Postfachgebüren à S 2.50\n\nvom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i. 2.50 x 8 - S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+        "cer": 0.0101,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.2",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.3",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      }
+    ]
+  },
+  "judge_result": null
+}

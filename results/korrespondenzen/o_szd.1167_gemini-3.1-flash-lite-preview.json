@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1167",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1167/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1167/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.8\n- Signatur: SZ-SAM/B11.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Montag,\nLiebe Frau Meingast,\nbitte schreiben Sie mir, ob die\nBücher richtig eingetroffen sind.\nIch sandte Sie Samstag und\nauch Täglich die spärter ein[?]\nTreffende Briefpost. Hoffentlich\nist es nicht zu heiss in Wien.\nHier ist es zwar noch warm, aber\nherrlich klar. Willi war heute\nbei uns zu Tisch und abends\nsah er in einen sehr schönen\nFilm „Bengali“. Er sieht gut und\nmunter aus und ist, wie er sagt\nviel eingeladen.\nDie Stadt erholt sich langsam\nvon dem Goldregen, den sie heuer\ngenoss. Noch gestern mussten die",
+        "notes": "Die Handschrift ist flüssig, aber teilweise eng geschrieben. 'spärter ein' ist eine unsichere Lesung."
+      },
+      {
+        "page": 2,
+        "transcription": "Absender: Frau STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\nLeute in Badezimmern\nübernachten u. manche\nHotels sind noch bis gegen\nMitte des Monats ausver-\nkauft u. viele Villen schon\nfür nächstes Jahr gemietet.\nDie Menschen sehen daher\nfroh und zufrieden aus,\nwas sehr angenehm wirkt.\nHoffentl. ist mein Mann\nweder von Zahnarzt noch te-\nlefon arg belästigt. Alles\nGute u. schönen Gruss\nvon Ihrer Friderike Zweig\n\nPostkarte\nFrau\nAnna Meingast\nWien IX\nDollfussplatz\nHotel Regina",
+        "notes": "Die Adressseite enthält einen Poststempel 'SALZBURG -3. IX. 35 12' und eine Briefmarke. Der Text ist gut lesbar."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen und der kursiven Schreibweise von Friderike Zweig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 986,
+    "total_words": 162,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      516,
+      470
+    ],
+    "chars_per_page_median": 493.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0062,
+    "dwr_score": 0.4534,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

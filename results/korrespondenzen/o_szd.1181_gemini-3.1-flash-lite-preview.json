@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1181",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B7.11",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1181/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1181/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B7.11\n- Signatur: SZ-SAM/B7.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nom\net adresse\nde l'expéditeur\nZweig\nHotel du Cap, Antibes\n\nCARTE POSTALE\n\nADRESSE\nHerrn Dr Stefan Zweig\nfür Frau Meingast\nSalzburg\nKapuzinerberg 5",
+        "notes": "Die Adressseite der Postkarte. Der Name 'Zweig' und 'Hotel du Cap, Antibes' sind handschriftlich ergänzt. Der Empfänger ist 'Herrn Dr Stefan Zweig für Frau Meingast'."
+      },
+      {
+        "page": 2,
+        "transcription": "3/II 31\n\nLiebe Frau Meingast,\nbitte teilen Sie „Narodno\nDelo“ mit, dass gegen\n100 Schilling auf 2 Jahre\ndas Uebertragungsrecht gegeben\nwerden kann.\nVielen Dank für alle Nachrichten\nund Besorgungen: es ist\nalles in bester Ordnung. Ich hoffe\nnun, dass Sie mit Willi keine Sorge\nmehr haben und die Unglücksnadel\nbereits entfernt ist. Wir haben hier\nherrliches Wetter und fühlen uns in\nCap d'Antibes wohl. Meine Frau\nlässt mit vielen herzlichen Grüßen\nbitten, Sie möchten\n\n[am linken Rand vertikal geschrieben:]\nfür Fotografien von Manuel bedanken.",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Der vertikale Text am linken Rand ist eine Ergänzung zum Haupttext."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven Schreibweise. Die Ergänzung am Rand ist eindeutig dem Haupttext zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 691,
+    "total_words": 108,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      147,
+      544
+    ],
+    "chars_per_page_median": 345.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4057,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

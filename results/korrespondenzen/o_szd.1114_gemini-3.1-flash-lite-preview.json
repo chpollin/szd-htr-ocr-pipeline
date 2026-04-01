@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1114",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max und Victor Fleischer vom 28. Dezember 1902, SZ-LAS/B3.34",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1114/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1114/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1114/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 28. Dezember 1902, SZ-LAS/B3.34\n- Signatur: SZ-LAS/B3.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
+        "notes": "Adressseite der Postkarte. Stempel: CHARLOTTENBURG 28.12.02. Briefmarke: 5 Pfennig Deutsches Reich."
+      },
+      {
+        "page": 2,
+        "transcription": "Prost, Maxel!\nGrüße der [?]\n[...10...] \n\nProbiestube.\nKantstr. 28.\nDer Anfang in Berlin ist gemacht; aber\ngalt es für Wok. Stefan",
+        "notes": "Bildseite der Postkarte. Der Text ist teilweise schwer lesbar, insbesondere die Zeile unter 'Grüße der'. 'Wok' könnte auch 'Wok.' oder eine Abkürzung sein."
+      },
+      {
+        "page": 3,
+        "transcription": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
+        "notes": "Dies ist eine Wiederholung der Adressseite im Kontext der Farb- und Grauskala."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Bildseite ist teilweise verblasst oder durch den Untergrund (Bildmotiv) schwer zu entziffern. Die Adressseite ist sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 291,
+    "total_words": 47,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      81,
+      129,
+      81
+    ],
+    "chars_per_page_median": 81,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0426,
+    "dwr_score": 0.3571,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

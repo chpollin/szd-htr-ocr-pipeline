@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2223",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wildgans, Anton, SZ-AAP/W-AA219.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2223/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2223/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wildgans, Anton\n- Signatur: SZ-AAP/W-AA219.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Wildgans A.'s dichterische\n                        Mission\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wildgans, Anton\n(Würdigung)\n\nWildgans A.'s\ndichterische Mission",
+        "notes": "Das Dokument besteht aus einem Blatt mit zwei Textblöcken, die auf verschiedenen Teilen des Papiers (oder auf einem umgeknickten Teil) stehen."
+      },
+      {
+        "page": 2,
+        "transcription": "Wildgans, Anton\n(Würdigung)",
+        "notes": "Ausschnitt des oberen Teils."
+      },
+      {
+        "page": 3,
+        "transcription": "Wildgans A.'s\ndichterische Mission",
+        "notes": "Ausschnitt des unteren Teils."
+      },
+      {
+        "page": 4,
+        "transcription": "Wildgans A.'s\ndichterische Mission",
+        "notes": "Spiegelbildliche Rückseite des unteren Teils."
+      },
+      {
+        "page": 5,
+        "transcription": "Wildgans, Anton\n(Würdigung)",
+        "notes": "Rückseite des oberen Teils."
+      },
+      {
+        "page": 6,
+        "transcription": "Wildgans A.'s\ndichterische Mission",
+        "notes": "Rückseite des unteren Teils."
+      },
+      {
+        "page": 7,
+        "transcription": "Wildgans, Anton\n(Würdigung)\n\nWildgans A.'s\ndichterische Mission",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich in den verschiedenen Scans, was die Lesung sehr sicher macht."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 282,
+    "total_words": 32,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      63,
+      27,
+      34,
+      34,
+      27,
+      34,
+      63
+    ],
+    "chars_per_page_median": 34,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

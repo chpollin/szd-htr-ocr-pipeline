@@ -1,0 +1,96 @@
+{
+  "object_id": "o_szd.1253",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 2. November 1927, SZ-LAS/B3.69",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1253/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1253/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1253/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1253/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1253/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 2. November 1927, SZ-LAS/B3.69\n- Signatur: SZ-LAS/B3.69\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herrn\n\nDr. Max F l e i s c h e r\n\nW i e n XIX\n. - . - . - . - . - . - . - .\n\nGymnasiumstrasse 62",
+        "notes": "Adressseite des Briefumschlags. Handschriftliche Notiz links: 'und auch [?] / noch [?]'. Poststempel: 'SALZBURG 1 / -2.XI.27.15' und '3a'. Briefmarke: 12 Groschen Österreich."
+      },
+      {
+        "page": 2,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5",
+        "notes": "Rückseite des Briefumschlags mit Logo."
+      },
+      {
+        "page": 3,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\n2. Nov. 1927.\n\nLieber Freund!\n\nIch beglückwünsche Dich nur rasch heute zur äusseren\nForm Deines Buches und freue mich Deiner Freude, dass eine Imen-\narbeit und schöpferische Liebe vieler Jahre nun offenbar geworden\nist. Nun reise ich übermorgen für drei Wochen zu Vorträgen nach\nDeutschland und habe es mir inzwischen an einen besonders guten\nPlatz gelegt, damit es während meiner Abwesenheit nicht von den\nanderen Büchern überschwemmt und erdrückt wird. Es soll das erste\nsein, das ich bei meiner Rückkehr lese.\n\nHeute nur dieses Wort der dankbaren Freude und diesen\naufrichtigen Glückwunsch\n\nDeines alten,\n\nStefan Z.",
+        "notes": "Briefinhalt. 'Imenarbeit' ist vermutlich ein Tippfehler für 'Immenarbeit' (fleißige Arbeit)."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer (durchscheinender Text von der Vorderseite)."
+      },
+      {
+        "page": 5,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\n2. Nov. 1927.\n\nLieber Freund!\n\nIch beglückwünsche Dich nur rasch heute zur äusseren\nForm Deines Buches und freue mich Deiner Freude, dass eine Imen-\narbeit und schöpferische Liebe vieler Jahre nun offenbar geworden\nist. Nun reise ich übermorgen für drei Wochen zu Vorträgen nach\nDeutschland und habe es mir inzwischen an einen besonders guten\nPlatz gelegt, damit es während meiner Abwesenheit nicht von den\nanderen Büchern überschwemmt und erdrückt wird. Es soll das erste\nsein, das ich bei meiner Rückkehr lese.\n\nHeute nur dieses Wort der dankbaren Freude und diesen\naufrichtigen Glückwunsch\n\nDeines alten,\n\nStefan Z.",
+        "notes": "Identisch mit Seite 3, jedoch mit aufgelegter Farb- und Grauskala zur Digitalisierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1408,
+    "total_words": 235,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      96,
+      24,
+      644,
+      0,
+      644
+    ],
+    "chars_per_page_median": 370.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4434,
+    "duplicate_page_pairs": [
+      [
+        2,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      1
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

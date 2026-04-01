@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1291",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Maria Kaemmerer vom 24. Februar 1927, SZ-SHB/B4.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1291/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1291/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Maria Kaemmerer vom 24. Februar 1927, SZ-SHB/B4.2\n- Signatur: SZ-SHB/B4.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Verehrte gnädige Frau, ich habe\nheute die Correcturbogen jener\nGedenkworte für Ihren verehrten\nHerrn Gemahl gelesen, deren Er-\nscheinen lange verzögert war. In\nca etwa drei Wochen hoffe ich sie\ndann Ihnen überreichen zu können\nIch freue mich sehr darauf.\nMit vielen Grüßen auch an Ihren\nIhr ergebener Stefan Zweig",
+        "notes": "Die Handschrift ist flüssig und gut lesbar. Das Wort 'ca' wurde vom Autor durchgestrichen und durch 'etwa' ersetzt."
+      },
+      {
+        "page": 2,
+        "transcription": "Frau Maria Kaemmerer\n\nHamburg\nInnocentiastrasse 35",
+        "notes": "Die Adresse ist klar lesbar. Poststempel: SALZBURG 24. II. 27. Briefmarke: 10g Österreich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument deutlich und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 363,
+    "total_words": 56,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      313,
+      50
+    ],
+    "chars_per_page_median": 181.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4545,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

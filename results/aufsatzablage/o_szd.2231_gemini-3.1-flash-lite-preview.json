@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2231",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Zwei Einsame, SZ-AAP/W-AA223.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2231/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2231/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Zwei Einsame\n- Signatur: SZ-AAP/W-AA223.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Zwei Einsame\n\n\n\nZwei Einsame",
+        "notes": "Das Dokument zeigt den Titel 'Zwei Einsame' zweimal auf demselben Blatt, einmal oben links und einmal mittig unterhalb eines Falzes."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Zwei Einsame",
+        "notes": "Ausschnitt/Detailansicht der unteren Hälfte des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Zwei Einsame",
+        "notes": "Ausschnitt/Detailansicht der oberen Hälfte des Blattes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite, leer."
+      },
+      {
+        "page": 7,
+        "transcription": "Zwei Einsame\n\n\n\nZwei Einsame",
+        "notes": "Gesamtansicht mit Farbskala und Graustufen-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text besteht lediglich aus dem Titel 'Zwei Einsame', der zweimal auf dem Blatt notiert ist. Die Schrift ist klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 80,
+    "total_words": 12,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      28,
+      0,
+      12,
+      0,
+      12,
+      0,
+      28
+    ],
+    "chars_per_page_median": 20.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

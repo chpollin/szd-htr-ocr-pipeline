@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2250",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wahl der Staatsangehörigkeit, Die, SZ-AAP/W-AA205.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2250/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2250/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wahl der Staatsangehörigkeit, Die\n- Signatur: SZ-AAP/W-AA205.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wahl der Staatsangehörigkeit, Die",
+        "notes": "Der Text befindet sich am oberen Rand des Blattes."
+      },
+      {
+        "page": 2,
+        "transcription": "Wahl der Staatsangehörigkeit, Die",
+        "notes": "Spiegelbildliche Ansicht der Rückseite, Text scheint durch das Papier."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Wahl der Staatsangehörigkeit, Die",
+        "notes": "Vorderseite des Blattes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 7,
+        "transcription": "Wahl der Staatsangehörigkeit, Die",
+        "notes": "Vorderseite des Blattes mit Farbskala und Graustufenkarte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, eindeutig lesbar und wiederholt sich auf den Scans der Vorderseite."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 132,
+    "total_words": 16,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      33,
+      33,
+      0,
+      0,
+      33,
+      0,
+      33
+    ],
+    "chars_per_page_median": 33.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

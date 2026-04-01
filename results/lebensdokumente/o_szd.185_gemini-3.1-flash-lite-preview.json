@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.185",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Beglaubigung einer Kopie der Geburtsurkunde von Stefan Zweig, SZ-AP2/L-S7.14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.185/IMG.1",
+      "https://gams.uni-graz.at/o:szd.185/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Beglaubigung einer Kopie der Geburtsurkunde von Stefan Zweig\n- Signatur: SZ-AP2/L-S7.14\n- Datum: 1941 April 5\n- Sprache: Englisch\n- Objekttyp: Beglaubigung\n- Umfang: 1 Blatt\n- Anmerkungen: Kopie der Geburtsurkunde selbst fehlt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "I HENRY GABRIEL SHELDON of the City of Bath Notary\n\nPublic CERTIFY that I have examined the annexed\n\nphotographic copy of the Certificate of Birth of\n\nSTEFAN ZWEIG with the Certificate of his birth dated\n\n22nd April 1919 and that such copy is a true copy of\n\nthe said Certificate.\n\nD A T E D this fifth day of\n\napril One thousand nine hundred and forty\n\none.\n\n[Unterschrift: H. G. Sheldon]\n\nNotary Public\n\nBath England",
+        "notes": "Das Dokument enthält ein rotes Siegel mit grünem Band sowie eine einshilling Briefmarke (Postage & Revenue). Die handschriftlichen Ergänzungen sind 'fifth', 'april' und die Unterschrift."
+      },
+      {
+        "page": 2,
+        "transcription": "I HENRY GABRIEL SHELDON of the City of Bath Notary\n\nPublic CERTIFY that I have examined the annexed\n\nphotographic copy of the Certificate of Birth of\n\nSTEFAN ZWEIG with the Certificate of his birth dated\n\n22nd April 1919 and that such copy is a true copy of\n\nthe said Certificate.\n\nD A T E D this fifth day of\n\napril One thousand nine hundred and forty\n\none.\n\n[Unterschrift: H. G. Sheldon]\n\nNotary Public\n\nBath England",
+        "notes": "Identisch mit Seite 1, inklusive Siegel und Briefmarke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 836,
+    "total_words": 150,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      418,
+      418
+    ],
+    "chars_per_page_median": 418.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3784,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "language_mismatch"
+    ]
+  }
+}

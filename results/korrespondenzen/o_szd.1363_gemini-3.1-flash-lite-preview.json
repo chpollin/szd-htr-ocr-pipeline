@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1363",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Karl Klammer vom 1. Oktober 1906, SZ-SEF/B6.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1363/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1363/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1363/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Karl Klammer vom 1. Oktober 1906, SZ-SEF/B6.3\n- Signatur: SZ-SEF/B6.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Freund Klammer, ich danke Ihnen herzlichst für\nIhren schönen Maeterlinck, der mich den Rimbaud mit\nUngeduld erwarten lässt. Als Gegengabe erhalten Sie bald\nmeinen neuen Gedichtband „die frühen Kränke“ der ja auch\nim Insel-Verlag erscheint. Rimbaud nehme ich bald\nim Angriff, die Bücher habe ich mir schon bestellt, auch\ngeht die Arbeit parallel mit einer veränderten Neuauflage\nmeiner Verlaine-Antologie. Und da habe ich eine Frage\nan Sie: soll ich Ihre Gedichte mit Karl Klammer zeich-\nnen oder mit K. L. Ammer, was – wie ich nebenbei\nbemerken will – ein sehr gelungenes Pseudonym ist.\nDass Sie im November nach Wien kommen, freut mich\nausserordentlich: ich bin ein so jämmerlich fauler\nBriefschreiber, dass meine Briefe immer schon schliessen\nnoch ehe sie ein vernünftiges Wort gesagt haben. Über die\nTatsachen hinüber kann ich mich nicht aufschwingen.\nUnd ich fürchte, das ist schon unheilbar bei mir.\nNehmen Sie’s als Krankheit und nicht als bösen\nWillen Ihres Ihnen herzlich ergebenen\n\nStefan Zweig\n\n1. October 1906",
+        "notes": "Die Transkription folgt dem Text auf dem ersten Scan. Der zweite Scan zeigt die Rückseite (durchscheinend), der dritte Scan zeigt das Dokument mit einer Farbskala überlagert."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, zeigt den durchscheinenden Text der Vorderseite. Keine eigenständige Transkription möglich."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Freund Klammer, ich danke Ihnen herzlichst für\nIhren schönen Maeterlinck, der mich den Rimbaud mit\nUngeduld erwarten lässt. Als Gegengabe erhalten Sie bald\nmeinen neuen Gedichtband „die frühen Kränke“ der ja auch\nim Insel-Verlag erscheint. Rimbaud nehme ich bald\n[...]\nausserordentlich: ich bin ein so jämmerlich fauler\n[...]\nStefan Zweig\n\n1. October 1906",
+        "notes": "Scan mit überlagerter Farbskala. Der Text ist identisch mit Seite 1, jedoch durch die Skala teilweise verdeckt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar. Die Überlagerung durch die Farbskala auf dem dritten Scan beeinträchtigt die Lesbarkeit nicht, da der Text auf dem ersten Scan vollständig und klar vorliegt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1389,
+    "total_words": 216,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1027,
+      0,
+      362
+    ],
+    "chars_per_page_median": 694.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0093,
+    "dwr_score": 0.4623,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

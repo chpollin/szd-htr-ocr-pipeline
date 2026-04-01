@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2243",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vergessene Träume, SZ-AAP/W-AA202.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2243/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2243/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vergessene Träume\n- Signatur: SZ-AAP/W-AA202.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Vergessene Träume\n\nVergessene Träume",
+        "notes": "Das Dokument zeigt den Titel 'Vergessene Träume' zweimal: einmal in Druckschrift/Kurrent-Mischung oben links und einmal in einer kunstvollen Schreibschrift mittig."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 3,
+        "transcription": "Vergessene Träume",
+        "notes": "Ausschnitt der kunstvollen Schreibschrift."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 5,
+        "transcription": "Vergessene Träume",
+        "notes": "Ausschnitt der oberen Beschriftung."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 7,
+        "transcription": "Vergessene Träume\n\nVergessene Träume",
+        "notes": "Gesamtansicht mit Farbskala und Grauskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar, trotz der unterschiedlichen Schriftstile."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 106,
+    "total_words": 12,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      36,
+      0,
+      17,
+      0,
+      17,
+      0,
+      36
+    ],
+    "chars_per_page_median": 26.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

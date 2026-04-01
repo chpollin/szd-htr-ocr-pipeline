@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.120",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Wydawnictwo J. Przeworskiego, SZ-AAP/L13.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.120/IMG.1",
+      "https://gams.uni-graz.at/o:szd.120/IMG.2",
+      "https://gams.uni-graz.at/o:szd.120/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Wydawnictwo J. Przeworskiego\n- Signatur: SZ-AAP/L13.43\n- Datum: 25. November 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                     unbezahlt\n\n          V e r t r a g\n          -----------\n\nZwischen Herrn Stefan Z w e i g, 49 Hallam Street,\nLondon W.1. (im folgenden Autor genannt) und der\nFirma Wydawnictwo J. P r z e w o r s k i e g o,\nSienkiewicza 2, Warschau (im folgenden Verleger ge-\nnannt, ist heute folgende Vereinbarung getroffen wor-\nden:\n\nDer Verleger erwirbt vom Autor das alleinige Recht,\ndie Buchausgabe des Werkes\n\nB e g e g n u n g e n mit Menschen, Büchern, Städten\n\nin polnischer Sprache zu veröffentlichen, sowie die ein-\nzelnen Aufsätze dieses Buches im Vorabdruck in Polen zu\nverwerten.\n\nDer Verleger zahlt dem Autor bei Vertragsabschluss für\ndie polnische Buchausgabe eine einmalige Abfindung von\n\n£ 25.- (fünfundzwanzig Pfund Sterling)\n\nund der Vertrag tritt erst mit der Bezahlung dieser\nSumme an den Autor in Kraft.\n\nVon allen für den Vorabdruck einzelner Aufsätze er-\nzielten Beträgen erhält der Autor zwei Drittel, der\nVerlag ein Drittel.\n\nDer Verleger verpflichtet sich, die polnische Ausgabe\ninnerhalb von zwei Jahren nach Vertragsabschluss zu\nveröffentlichen.\n\nDer Autor erhält vom Verleger bei Erscheinen des\nBuches in polnischer Sprache zwei Belegexemplare.\n\nStefan Zweig.                   [Unterschrift][?]\nLondon, den 25. November 1938   Warschau, den 19.XI.39",
+        "notes": "Die Notiz 'unbezahlt' ist handschriftlich in Bleistift oben rechts. Die Unterschrift von Stefan Zweig ist in violetter Tinte. Die Unterschrift des Verlegers ist unleserlich. Das Datum '19.XI.39' ist handschriftlich ergänzt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein maschinenschriftliches Dokument handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1300,
+    "total_words": 198,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1300,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1300,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0051,
+    "dwr_score": 0.3037,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

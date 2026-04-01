@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2241",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ein Verbummelter, SZ-AAP/W-AA201.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2241/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2241/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ein Verbummelter\n- Signatur: SZ-AAP/W-AA201.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ein Verbummelter\n\nEin Verbummelter",
+        "notes": "Das Dokument besteht aus einem Blatt, das einmal gefaltet ist. Der Text erscheint zweimal: einmal oben auf der Vorderseite (unterstrichen) und einmal weiter unten auf der gleichen Seite."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Teils des gefalteten Blattes. Leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Ein Verbummelter",
+        "notes": "Innere Seite des gefalteten Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des unteren Teils des gefalteten Blattes. Leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Ein Verbummelter",
+        "notes": "Ausschnitt/Detailansicht der oberen Zeile."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite."
+      },
+      {
+        "page": 7,
+        "transcription": "Ein Verbummelter\n\nEin Verbummelter",
+        "notes": "Gesamtansicht des Blattes mit Farbskala und Graustufenkarte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 100,
+    "total_words": 12,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      34,
+      0,
+      16,
+      0,
+      16,
+      0,
+      34
+    ],
+    "chars_per_page_median": 25.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

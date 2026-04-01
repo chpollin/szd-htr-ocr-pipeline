@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1184",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 29. Februar 1931, SZ-SAM/B7.14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1184/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1184/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 29. Februar 1931, SZ-SAM/B7.14\n- Signatur: SZ-SAM/B7.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frau Anna Meingast\n\nSalzburg/Autriche/\n~~[...6...]~~\nKapuzinerberg 5",
+        "notes": "Adressseite der Postkarte. Die durchgestrichene Zeile ist unleserlich."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, vielen Dank\nfür die Berichte aus Salzburg,\nes ist alles in bester Ordnung. Ich\nmöchte nur bitten, ein Exemplar\nder italienischen Ausgabe der\nTre poeti (bei Kapper & Zerling)\nmir sicher zu senden & mir ein\nBrief zu sagen, dass wir das\nnicht dagegen haben, wenn wir\nKapper jetzt Nachkommenschaft\n[?] legt. Herzlich grüßt\n\nS. Z.",
+        "notes": "Textseite der Postkarte. Die Tinte ist violett. Das Wort 'Nachkommenschaft' ist schwer lesbar, 'Nachkommenschaft' oder 'Nachkommenhaft' [?]. Die Unterschrift ist 'S. Z.'."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz der violetten Tinte und einiger flüchtiger Schreibweisen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 414,
+    "total_words": 66,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      68,
+      346
+    ],
+    "chars_per_page_median": 207.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0303,
+    "dwr_score": 0.4839,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -23,12 +23,18 @@
     "confidence_notes": "Der Text ist auf den Objekten klar lesbar und weitgehend gedruckt. Die handschriftliche Notiz 'violett, gut' ist ebenfalls eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 399,
     "total_words": 57,
     "total_pages": 1,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 1,
     "input_images": 1,
+    "page_types": [
+      "content"
+    ],
     "chars_per_page": [
       399
     ],
@@ -36,6 +42,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.1731,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2295",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Steiner-Prag, Hugo, SZ-AAP/W-AA185.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2295/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2295/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Steiner-Prag, Hugo\n- Signatur: SZ-AAP/W-AA185.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Steiner-Prag, Hugo\n(Beirdigung)",
+        "notes": "Die Transkription bezieht sich auf den oberen Teil des Blattes. 'Beirdigung' ist die historisch belegte Schreibweise im Dokument."
+      },
+      {
+        "page": 2,
+        "transcription": "Steiner-Prag, Hugo\n(Beirdigung)",
+        "notes": "Spiegelverkehrte Ansicht durch das Papier."
+      },
+      {
+        "page": 3,
+        "transcription": "Steiner - Prag Hugo",
+        "notes": "Unterer Teil des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "Steiner - Prag Hugo",
+        "notes": "Spiegelverkehrte Ansicht durch das Papier."
+      },
+      {
+        "page": 5,
+        "transcription": "Steiner-Prag, Hugo\n(Beirdigung)",
+        "notes": "Ausschnitt des oberen Teils."
+      },
+      {
+        "page": 6,
+        "transcription": "Steiner - Prag Hugo",
+        "notes": "Ausschnitt des unteren Teils."
+      },
+      {
+        "page": 7,
+        "transcription": "Steiner-Prag, Hugo\n(Beirdigung)\n\nSteiner - Prag Hugo",
+        "notes": "Gesamtansicht des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich auf dem Blatt. Die Lesung ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 202,
+    "total_words": 28,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      31,
+      31,
+      19,
+      19,
+      31,
+      19,
+      52
+    ],
+    "chars_per_page_median": 31,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

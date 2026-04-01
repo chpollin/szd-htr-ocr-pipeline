@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2283",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Schweitzer, Albert, SZ-AAP/W-AA181.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2283/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2283/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Schweitzer, Albert\n- Signatur: SZ-AAP/W-AA181.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, rote Tinte\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Schweitzer, Albert\nUnvergeßliches Erlebnis (Ein Tag bei A.S.)\ngedruckt in Begegnungen",
+        "notes": "Die Transkription umfasst den Text auf dem oberen Zettel sowie den Text auf dem unteren Zettel. Die rote Tinte ist als solche erkennbar."
+      },
+      {
+        "page": 2,
+        "transcription": "Schweitzer, Albert\nUnvergeßliches Erlebnis (Ein Tag bei A.S.)\ngedruckt in Begegnungen",
+        "notes": "Spiegelbildliche Ansicht des ersten Blattes (Durchschlag/Rückseite)."
+      },
+      {
+        "page": 3,
+        "transcription": "Schweitzer Albert\nUnvergeßliches Erlebnis",
+        "notes": "Text auf dem unteren Zettel."
+      },
+      {
+        "page": 4,
+        "transcription": "Schweitzer Albert\nUnvergeßliches Erlebnis",
+        "notes": "Spiegelbildliche Ansicht des unteren Zettels (Durchschlag/Rückseite)."
+      },
+      {
+        "page": 5,
+        "transcription": "Schweitzer, Albert\nUnvergeßliches Erlebnis (Ein Tag bei A.S.)\ngedruckt in Begegnungen",
+        "notes": "Text auf dem oberen Zettel."
+      },
+      {
+        "page": 6,
+        "transcription": "Schweitzer Albert\nUnvergeßliches Erlebnis",
+        "notes": "Spiegelbildliche Ansicht des unteren Zettels (Durchschlag/Rückseite)."
+      },
+      {
+        "page": 7,
+        "transcription": "Schweitzer, Albert\nUnvergeßliches Erlebnis (Ein Tag bei A.S.)\ngedruckt in Begegnungen\n\nSchweitzer Albert\nUnvergeßliches Erlebnis",
+        "notes": "Gesamtansicht beider Zettel mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Handschrift handelt und der Inhalt redundant auf den verschiedenen Scans erscheint."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 506,
+    "total_words": 60,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      85,
+      85,
+      41,
+      41,
+      85,
+      41,
+      128
+    ],
+    "chars_per_page_median": 85,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.25,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

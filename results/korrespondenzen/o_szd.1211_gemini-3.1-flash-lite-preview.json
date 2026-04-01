@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1211",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 11. August 1934, SZ-SAM/B7.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1211/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1211/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 11. August 1934, SZ-SAM/B7.41\n- Signatur: SZ-SAM/B7.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POSTKARTE CARTE POSTALE CARTOLINA POSTALE\n11.8.1934\n\nFrau Anna Meingast\nbei Zweig\n\nSalzburg (Österreich)\nKapuzinerberg 5",
+        "notes": "Adressseite der Postkarte. Briefmarken und Poststempel vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, vielen Dank. Es\ngenügen aber zunächst vier bis fünf\nExemplare, weil ich ja doch darin\nCorrecturen machen und es ist besser,\ndass die neuen Copien dann von den\ncorrigierten abgeschrieben werden. Ich\nsandte Ihnen heute wieder zwei {abzuschreiben[?]} Capitel\nund schrieb auch auf der Rückseite wegen\nder slowenischen Übersetzung. Für das\nLexicon sollen nur die Herren die\nDaten selbst suchen. Bestens\n\nSt. Z.",
+        "notes": "Textseite der Postkarte. Das Wort 'abzuschreiben' wurde über 'Capitel' eingefügt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die Ergänzung über 'Capitel' ist eindeutig als 'abzuschreiben' zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 546,
+    "total_words": 81,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      120,
+      426
+    ],
+    "chars_per_page_median": 273.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0123,
+    "dwr_score": 0.4684,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

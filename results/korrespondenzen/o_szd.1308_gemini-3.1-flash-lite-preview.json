@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1308",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Ami Kaemmerer vom 18. August 1912, SZ-SHB/B2.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1308/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1308/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Ami Kaemmerer vom 18. August 1912, SZ-SHB/B2.1\n- Signatur: SZ-SHB/B2.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Noel [?] Angere [?] a vous et aux bons\nVos heures d'allégresse, parti\nCécile [?] et de Hambourg Verhaeren",
+        "notes": "Die Handschrift auf der Bildseite ist sehr kursiv und schwer lesbar, teilweise französische Begriffe."
+      },
+      {
+        "page": 2,
+        "transcription": "Verehrter Herr Doktor, ich grüße Sie von\nVerhaerens Heim [?] wo wir Ihrer herzlichst\ngedachten viele Male.\nDie Hymnen an das Leben erscheinen\njetzt im 20-30 Tausend & ich freue mich\nwirklich für Deutschland. Im Herbst hoffe\nich nach Hamburg zu meiner Premiere\nzu reisen, die Aufführung ist in Wien\nEnde September und Hasemann will\nbald folgen: ein willkommener Anlass,\nIhre verehrte Familie und Sie wieder\nbegrüßen zu können. In aufrichtiger Er-\ngebenheit\nStefan Zweig\n\n[Adressseite:]\nDr. Ami Kaemmerer\n~~Adressbuch~~ Hmb 37\n~~Innocentiastr 35~~\nHamburg (Allemagne)\nVictoriastrasse 35\nGr. Borsteler Ch 24",
+        "notes": "Die Adressseite enthält mehrere durchgestrichene Zeilen. Die Postkarte ist mit einer belgischen Briefmarke (König Albert I.) frankiert und trägt einen Poststempel."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Bildseite ist aufgrund der kursiven französischen Schrift und der Überlagerung mit dem Bildhintergrund schwer zu entziffern. Der Text auf der Rückseite ist gut lesbar, abgesehen von den durchgestrichenen Adresszeilen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 709,
+    "total_words": 111,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      105,
+      604
+    ],
+    "chars_per_page_median": 354.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.036,
+    "dwr_score": 0.3235,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

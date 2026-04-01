@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1216",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 7. November 1934, SZ-SAM/B7.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1216/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1216/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. November 1934, SZ-SAM/B7.46\n- Signatur: SZ-SAM/B7.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7. November 1934.\n\nLiebe Frau Meingast!\n\nAn René Levy und Frau Schultze kann man je ein Exemplar\nschicken, wenn schon genug eingetroffen sind.\n\nMit den besten Grüssen\n\nStefan Zweig\nHeute geht Kapitel XV ab,\nCapitel XVI morgen. Sie\nsehen, ich bin nicht müssig",
+        "notes": "Der handschriftliche Teil beginnt unter der gedruckten Grußformel und Unterschrift. Das Wort 'müssig' ist am Ende leicht abgeschnitten, aber lesbar."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, unbeschrieben."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftliche Ergänzung von Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 258,
+    "total_words": 43,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      258,
+      0
+    ],
+    "chars_per_page_median": 258,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.439,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

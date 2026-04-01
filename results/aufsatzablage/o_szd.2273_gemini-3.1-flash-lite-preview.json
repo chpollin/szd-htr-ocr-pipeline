@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.2273",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Johannes Schlaf: Peter Boies Freite., SZ-AAP/W-AA178.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2273/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2273/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2273/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Johannes Schlaf: Peter Boies Freite.\n- Signatur: SZ-AAP/W-AA178.2\n- Datum: 3./I. 1903.\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "— Johannes Schlaf: Peter Boies Freite. Roman\nBei Hermann Seemann, Leipzig. 1902.\nWer die ernste, unablässige künstlerische Strebsamkeit\ndes Johannes Schlaf kennt, wird wissen, daß wir\nin der raschen Folge, welche die Vollendung seines lang-\ngeplanten Romanzyklus nun zum Ziele geführt hat, nicht\nein Zeichen von Flüchtigkeit oder Fingerfertigkeit zu sehen\nhaben, sondern nur einen schönen Beweis, wie drängend\nlatent die Ideen waren, die in ihm zur Gestaltung dräng-\nten. So ist die Romantrilogie — „Das dritte Reich“,\n„Die Lachenden“ und nun der „Peter Boie“ —\nein Stück Litteraturgeschichte, ein Abschnitt, leider zwar\nkein solcher, der lebendigen Einfluß auf die kulturelle\nGestaltung nimmt, aber ein bedeutungswertes Zeichen,\nwie sich die neuen Werte unserer Zeit, die neue Philosophie\nder Seher Walt Whitman, Nietzsche und wohl auch\nDostojewsky in Kunstwerk und intensives Lebensgesetz um-\nsetzen will. Schlafs neuer Roman will den kommenden\nTypus, die zukünftige Generation aufzeigen, die das Leben\nfrisch und besonnen bejaht und die großen Ströme des\nWeltumfassens in sich einströmen läßt. Und während die\nbeiden ersten Romane die Zerbrechenden, Unsicheren,\nSchwankenden der neuen Generation in die Gegenwart\nstellen, giebt der Peter Boie den Vollendungsähnlichen.\nOder er soll ihn wenigstens darstellen! Denn ganz kann\nich im Peter Boie nicht das sehen, was Schlaf in seiner\nPerson zu verwirklichen suchte. Es ist ein samoser Kerl,\nein prächtiger, lieber frischer Bursch, der sich nur ein\nbißchen in dieselben Gedankentreise verwickelt hat und\nbei aller Weitsichtigkeit mit Absicht nur auf ein bestimmtes\nFeld hinsieht. Erst am Schlusse wird er aber eigentlich\ndas, was Schlaf wohl an ihm zeigen will: ein Mann, eine\nkraftvolle, jugendfrische blonde Bestie, die auf alle ver-\naltete Kultur hustet und sich wacker durchs Leben schlägt.\nLeider sieht man diesen Peter Boie nur in seinem em-\nbryonalen Stadium, wo er herumfaulenzt und herum-\nredet, eigentlich recht sozialistisch lebt und denkt. Den\narbeitenden Peter Boie, den festen, Strammen, Fer-\ntigen, den in seiner Arbeit zu belauschen eine Lust sein\nmüßte, kriegen wir in der Verheißung. Hier sehe ich den\ninneren Knacks des Romans, der mir nicht so recht den\nAbschluß dieser gedanklich in Deutschland einzigen Roman-\ntrilogie bedeuten will. Mir fehlt der volle rauschende\nAkkord, der diese wilde und gewaltige Symphonie be-\nschließen muß. Aber darum zweifle ich nicht an Johan-\nnes Schlaf, diesem wundersam milden, wettausschauen-\n\nden und tiefgründigen Dichter: ich weiß, er wird uns noch\nein prächtiges Schlußwort sagen. Jits[?] ihm diesmal noch\nnicht ganz gelungen, so war's, weil seine Kräfte — diese\nunerschöpfliche, fertige, glühende Gewalt — noch immer\nsich nicht aus der Gährung befreit haben, weil der neue\nMensch in ihm selbst noch kein fertiger ist.\nAn und für sich genommen, in sich geschlossen, ohne\nPerspektiven und Zusammenhänge — so wie die meisten\ndiesen Roman lesen werden — ist er sicher ein vollgültiges\nWerk. Ich, der ich den großen Dichter Johannes Schlaf\nin seinem ganzen prächtigen Schaffen liebe, konnte mich\nnicht mit dem Gedanken befreunden, den Peter Boie schon\nals Schlußstein zu nehmen. denn ich weiß, der Bau wird\neinst noch höher und stolzer sein. Lese ich aber „Peter\nBoies Freite“ für sich allein, nur als einzelnen Ro-\nman, so muß ich meine lautere Freude gestehen. Die\nFrauentypen, die Schlaf immer so prächtig gelingen —\ndie Marie des „Dritten Reiches“ ist eine unvergessliche\nGestalt, congenial Zolas Nana — haben eine gelungene\nBereicherung erfahren, in dieser draußen seischsinnlichen\nderben Geeiche, die der Peter Boie schließlich heimführt.\nWo sie in Scene tritt, ist alles fröhlich und lebendig, wie\nein frischer Erdgeruch weht ihre Gestalt durch das Buch,\ndas doch noch ab und zu nach papiernem Zeug und philo-\nsophischen Schmökern riecht. Auch die Nebenfiguren sind\nscharf getypt und die Natur hat ihr volles reiches blü-\nhendes Leben in diesem Buche, wie in allen des Johannes\nSchlaf. Wer sich tapfer durchgeschlagen hat durch die dicken\ngedanklichen Wälder des Anfangs mit ihrer kühlen, drücken-\nden Luft, wird sich im zweiten Teile reich belohnt finden,\ndenn dort glüht frische blanke Sonne auf junge wachsende\nKräfte und auf neues fruchtbares Land!\nst. z—g.",
+        "notes": "Handschriftliche Annotation am rechten Rand: 'Neue Hamburger Ztg / 3./I. 1903.' (Die Datierung im Prompt weicht leicht ab, die Transkription folgt dem Bild)."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 3,
+        "transcription": "— Johannes Schlaf: Peter Boies Freite. Roman\nBei Hermann Seemann, Leipzig. 1902.\nWer die ernste, unablässige künstlerische Strebsamkeit\ndes Johannes Schlaf kennt, wird wissen, daß wir\nin der raschen Folge, welche die Vollendung seines lang-\ngeplanten Romanzyklus nun zum Ziele geführt hat, nicht\nein Zeichen von Flüchtigkeit oder Fingerfertigkeit zu sehen\nhaben, sondern nur einen schönen Beweis, wie drängend\nlatent die Ideen waren, die in ihm zur Gestaltung dräng-\nten. So ist die Romantrilogie — „Das dritte Reich“,\n„Die Lachenden“ und nun der „Peter Boie“ —\nein Stück Litteraturgeschichte, ein Abschnitt, leider zwar\nkein solcher, der lebendigen Einfluß auf die kulturelle\nGestaltung nimmt, aber ein bedeutungswertes Zeichen,\nwie sich die neuen Werte unserer Zeit, die neue Philosophie\nder Seher Walt Whitman, Nietzsche und wohl auch\nDostojewsky in Kunstwerk und intensives Lebensgesetz um-\nsetzen will. Schlafs neuer Roman will den kommenden\nTypus, die zukünftige Generation aufzeigen, die das Leben\nfrisch und besonnen bejaht und die großen Ströme des\nWeltumfassens in sich einströmen läßt. Und während die\nbeiden ersten Romane die Zerbrechenden, Unsicheren,\nSchwankenden der neuen Generation in die Gegenwart\nstellen, giebt der Peter Boie den Vollendungsähnlichen.\nOder er soll ihn wenigstens darstellen! Denn ganz kann\nich im Peter Boie nicht das sehen, was Schlaf in seiner\nPerson zu verwirklichen suchte. Es ist ein samoser Kerl,\nein prächtiger, lieber frischer Bursch, der sich nur ein\nbißchen in dieselben Gedankentreise verwickelt hat und\nbei aller Weitsichtigkeit mit Absicht nur auf ein bestimmtes\nFeld hinsieht. Erst am Schlusse wird er aber eigentlich\ndas, was Schlaf wohl an ihm zeigen will: ein Mann, eine\nkraftvolle, jugendfrische blonde Bestie, die auf alle ver-\naltete Kultur hustet und sich wacker durchs Leben schlägt.\nLeider sieht man diesen Peter Boie nur in seinem em-\nbryonalen Stadium, wo er herumfaulenzt und herum-\nredet, eigentlich recht sozialistisch lebt und denkt. Den\narbeitenden Peter Boie, den festen, Strammen, Fer-\ntigen, den in seiner Arbeit zu belauschen eine Lust sein\nmißte, kriegen wir in der Verheißung. Hier sehe ich den\ninneren Knacks des Romans, der mir nicht so recht den\nAbschluß dieser gedanklich in Deutschland einzigen Roman-\ntrilogie bedeuten will. Mir fehlt der volle rauschende\nAkkord, der diese wilde und gewaltige Symphonie be-\nschließen muß. Aber darum zweifle ich nicht an Johan-\nnes Schlaf, diesem wundersam milden, wettausschauen-\n\n[...]\nunerschöpfliche, fertige, glühende Gewalt — noch immer\nsich nicht aus der Gährung befreit haben, weil der neue\nMensch in ihm selbst noch kein fertiger ist.\n\n[...]\nscharf getypt und die Natur hat ihr volles reiches blü-\nhendes Leben in diesem Buche, wie in allen des Johannes\nSchlaf. Wer sich tapfer durchgeschlagen hat durch die dicken\ngedanklichen Wälder des Anfangs mit ihrer kühlen, drücken-\nden Luft, wird sich im zweiten Teile reich belohnt finden,\ndenn dort glüht frische blanke Sonne auf junge wachsende\nKräfte und auf neues fruchtbares Land!\nst. z—g.",
+        "notes": "Dies ist eine Wiederholung des Textes auf Seite 1, teilweise verdeckt durch Farbkarten/Skalen."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die wenigen verdeckten Stellen auf Seite 3 konnten durch den vollständigen Text auf Seite 1 ergänzt werden."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 7328,
+    "total_words": 1127,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      4269,
+      0,
+      3059
+    ],
+    "chars_per_page_median": 3664.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0027,
+    "dwr_score": 0.4447,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "object_id": "o_szd.2245",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verhaeren, Emile, SZ-AAP/W-AA203.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2245/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.11",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.12",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.13"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verhaeren, Emile\n- Signatur: SZ-AAP/W-AA203.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"(Verhaeren); ursprüngliche Aufschrift des zweiten: \"Emile\n                        Verhaeren\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]\n\n(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+        "notes": "Das Blatt enthält zwei verschiedene Handschriften. Der obere Teil ist in violetter Tinte, der untere Teil in Bleistift geschrieben."
+      },
+      {
+        "page": 2,
+        "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
+        "notes": "Ausschnitt des oberen Teils von Seite 1."
+      },
+      {
+        "page": 3,
+        "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+        "notes": "Ausschnitt des unteren Teils von Seite 1."
+      },
+      {
+        "page": 4,
+        "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+        "notes": "Rückseite des ersten Blattes, sehr blasse Bleistiftspur."
+      },
+      {
+        "page": 5,
+        "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
+        "notes": "Wiederholung des oberen Teils."
+      },
+      {
+        "page": 6,
+        "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+        "notes": "Wiederholung des unteren Teils."
+      },
+      {
+        "page": 7,
+        "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+        "notes": "Zweites Blatt. Die Zeile 'Dichter' wurde nachträglich rechts eingefügt."
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 9,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 11,
+        "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+        "notes": "Wiederholung des zweiten Blattes."
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 13,
+        "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+        "notes": "Wiederholung mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Unsicherheiten bestehen lediglich bei der Abkürzung 'Rezensio[?]' aufgrund der Tintenführung."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 958,
+    "total_words": 128,
+    "total_pages": 9,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 0,
+    "content_pages": 9,
+    "input_images": 13,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      150,
+      83,
+      65,
+      65,
+      83,
+      65,
+      149,
+      0,
+      0,
+      0,
+      149,
+      0,
+      149
+    ],
+    "chars_per_page_median": 83,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0234,
+    "dwr_score": 0.3435,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

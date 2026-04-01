@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2229",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ypern, SZ-AAP/W-AA222.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2229/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2229/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ypern\n- Signatur: SZ-AAP/W-AA222.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ypern\n\nYpern",
+        "notes": "Das Dokument besteht aus einem Blatt, das oben einen umgeknickten Rand hat. Auf dem umgeknickten Rand steht 'Ypern' (unterstrichen), auf dem Hauptteil des Blattes steht ebenfalls 'Ypern'."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des umgeknickten Randes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Ypern",
+        "notes": "Vorderseite des Hauptteils."
+      },
+      {
+        "page": 4,
+        "transcription": "Ypern",
+        "notes": "Rückseite des Hauptteils, das Wort 'Ypern' scheint durch das Papier durch."
+      },
+      {
+        "page": 5,
+        "transcription": "Ypern",
+        "notes": "Detailaufnahme des umgeknickten Randes."
+      },
+      {
+        "page": 6,
+        "transcription": "Ypern",
+        "notes": "Detailaufnahme der Rückseite des Hauptteils."
+      },
+      {
+        "page": 7,
+        "transcription": "Ypern\n\nYpern",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text besteht lediglich aus dem Wort 'Ypern', das zweimal auf dem Blatt erscheint. Die Lesung ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 44,
+    "total_words": 8,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      12,
+      0,
+      5,
+      5,
+      5,
+      5,
+      12
+    ],
+    "chars_per_page_median": 8.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1122",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 19. Februar 1906, SZ-LAS/B3.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1122/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1122/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1122/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 19. Februar 1906, SZ-LAS/B3.41\n- Signatur: SZ-LAS/B3.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Korrespondenz-Karte.\n\nAn Doktor Victor Fleischer\n\nin Konigstau\nin Böhmen\nVilla Fleischer",
+        "notes": "Adressseite der Postkarte. Poststempel: 20.06.VI. (Datum unklar, evtl. 20.06.06). Briefmarke vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Sämtliche Frauen genieren sich\nvor einander Dir zuerst zu schreiben\n\nHelene\nEs wird uns nämlich sehr\n~~schwer~~ {eingefügt} das Geschreibsel zu\n~~schreiben~~ {eingefügt} und desselbe\nGratulieren. M. A[?] \n\nHerzliche Grüße Irma Hoffmann\n\nIch werde Sie niemalr\n„Fiechl“ schimpfen. Sind Sie\nalso gut und kommen\nrecht bald. Fräulein Handl\n\nMalte Baltus gratuliert\nCamilla Hoffmann schönste Grüße und an den Max fleische\ngrüsst auch der Max!\nWie ist es mit den Briefen und der\nRitterlich Reit? Willi Haude",
+        "notes": "Textseite der Postkarte. Am rechten Rand vertikal geschrieben: 'Ach! Du siehst, wie ich vor 10 Uhr nach Hause komme.' Die Anordnung der Unterschriften ist aufgrund der Überlagerungen und der handschriftlichen Dichte komplex."
+      },
+      {
+        "page": 3,
+        "transcription": "Sämtliche Frauen genieren sich\nvor einander Dir zuerst zu schreiben\n\nHelene\nEs wird uns nämlich sehr\n~~schwer~~ {eingefügt} das Geschreibsel zu\n~~schreiben~~ {eingefügt} und desselbe\nGratulieren. M. A[?] \n\nHerzliche Grüße Irma Hoffmann\n\nIch werde Sie niemalr\n„Fiechl“ schimpfen. Sind Sie\nalso gut und kommen\nrecht bald. Fräulein Handl\n\nMalte Baltus gratuliert\nCamilla Hoffmann schönste Grüße und an den Max fleische\ngrüsst auch der Max!\nWie ist es mit den Briefen und der\nRitterlich Reit? Willi Haude",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala im Bild."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr dicht, teilweise überlagert und weist Korrekturen auf. Einige Namen und Abkürzungen sind schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1088,
+    "total_words": 163,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      88,
+      500,
+      500
+    ],
+    "chars_per_page_median": 500,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0123,
+    "dwr_score": 0.4085,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

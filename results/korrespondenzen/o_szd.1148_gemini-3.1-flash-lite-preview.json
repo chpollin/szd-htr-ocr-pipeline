@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1148",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1148/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1148/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.8\n- Signatur: SZ-SAM/B10.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 28.Mai 1937.\n\nLiebe Frau Meingast!\n\nDie Bücherkiste war schon über\neine Woche avisiert, aber ich wollte noch die Ab-\nlieferung abwarten, um Ihnen den Empfang zu bestä-\ntigen. Sie kam nun gestern, einen Tag nach Ihrem\nPaket mit Vorträgen usw. Das Paket war von der hie-\nsigen Post wegen Beschädigung der Verpackung neu\nverpackt worden, es kam aber alles gut an.\n\nHerr Dr. Zweig lässt Sie noch\nbitten, ein Exemplar von \"Erasmus\" an Herrn Paul\nZech, Calle Cochabamba 424, Dpt. E, Buenos Aires,\nArgentinien zu senden.\n\nMit den besten Grüssen\nLotteAltmann",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'LotteAltmann' ist handschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "A",
+        "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief handelt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 563,
+    "total_words": 94,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      562,
+      1
+    ],
+    "chars_per_page_median": 562,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4505,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

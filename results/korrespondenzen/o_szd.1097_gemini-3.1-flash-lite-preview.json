@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1097",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 20. Juni 1902, SZ-LAS/B3.19",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1097/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1097/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1097/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 20. Juni 1902, SZ-LAS/B3.19\n- Signatur: SZ-LAS/B3.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
+        "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, zeigt aber 'KOMOTAU' und das Datum '21.6.02'. Die Briefmarke ist ein 5-Pfennig-Wert des Deutschen Reiches, gestempelt 'BERLIN 20.6.02'."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max, zunächt nur die\ndringende Bitte um die zwei An-\nfangzeilen zum „Colloque sentimental“\nBeides dafür gebe ich Montag zur Uni-\nversität. Herzliche Grüße Dein\nStefan",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala-Referenzkarten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort der Adresse ('Kohlstasse' oder 'Kohlstraße') ist aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 355,
+    "total_words": 53,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      91,
+      173,
+      91
+    ],
+    "chars_per_page_median": 91,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0377,
+    "dwr_score": 0.3019,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

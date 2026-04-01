@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1361",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Karl Klammer vom 20. November 1906, SZ-SEF/B6.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1361/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1361/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1361/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Karl Klammer vom 20. November 1906, SZ-SEF/B6.1\n- Signatur: SZ-SEF/B6.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An Herrn Leutnant Karl Klammer\n\nin Lemberg\nUhlkaserne",
+        "notes": "Adressseite der Postkarte. Poststempel: 'Lemberg 4 - 906 12' und '26 XI 06'. Briefmarke: 5 Heller Österreichische Post."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Freund, anbei mein Buch.\nden Rimbaud. Emsay habe ich\nEnde des Monats bestimmt fer-\ntig. Was sagten Sie dazu, dass ich\nplötzlich in den hofrätlichen Re-\ngionen Verehrer fand und für\nmeine Lyrik den Bauernfeldpreis\nbekam? Erstaunlich, nicht wahr.\nIch richte mir jetzt in Wien\neine eigene Wohnung ab Februar\nein, aber wir sehen uns wohl\ndoch noch früher. Herzlichst Ihr\nStefan Zweig",
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Referenzbild mit Farb- und Grauskala, keine Transkription erforderlich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 439,
+    "total_words": 72,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      53,
+      386,
+      0
+    ],
+    "chars_per_page_median": 219.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4444,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

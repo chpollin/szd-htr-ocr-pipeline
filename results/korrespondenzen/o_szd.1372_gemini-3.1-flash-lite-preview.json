@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1372",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefkarte an Richard Specht ohne Datum, SZ-SEF/B9.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1372/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1372/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1372/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Richard Specht ohne Datum, SZ-SEF/B9.1\n- Signatur: SZ-SEF/B9.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\nLieber Freund, ich fahre morgen für paar Tage nach Mün-\nchen, wo ich auch die Gedächtnisrede für R. M. Rilke halte.\nkomme dann noch einmal nach Salzburg und will dann\nirgendwohin zur Arbeit, immer noch von Dankbarkeit für\ndeine so große und aufopfernde Mühe begleitet. den Privat-\ndruck wird wahrscheinlich die Insel vornehmen, was uns auch\nlieber wäre, ich lasse jedenfalls inzwischen Ehrenamtlichen-\nabschriften machen. vielleicht begegne ich in München verle-\ngerischen Menschen in deiner Sache — mir liegt das sehr am",
+        "notes": "Die Transkription umfasst die Vorderseite der Postkarte."
+      },
+      {
+        "page": 2,
+        "transcription": "Herzen und ich habe es mir zu einer Pflicht gemacht, dir von den\nephemeren Anfragen zum Buch hinzudrängen. du musst mir einmal\neine Liste zusammenstellen, was du (außer Biografien) hin wolltest,\nalle Verleger wollen Ideen, also Serien oder Zusammenstellun-\ngen. sie produzieren selbst nichts, man muss sie drängen und\nbefreien zugleich, indem man ihnen anregt. vielleicht fällt dir\neinmal etwas ein, das noch fehlt (auf musikalischem oder litera-\nrischem Gebiete) — dann sage es mir sofort. ich bestehe\ndarauf, dass du deine ungeheuren darstellerischen Fähigkeiten\nnicht verzettelst — ich weiß, der Wille zum Werk ist bei dir\nda nur wo der Wille da auch ein Weg. ich denke oft, dank-\nbar und herzlich an dich, mit vielen Grüßen dein Stefan.\n\n[am linken Rand vertikal geschrieben:] an Richard Specht\n[unten links:] 194-7315/88",
+        "notes": "Die Transkription umfasst die Rückseite der Postkarte. Der Text am linken Rand wurde vertikal hinzugefügt."
+      },
+      {
+        "page": 3,
+        "transcription": "Herzen und ich habe es mir zu einer Pflicht gemacht, dir von den\nephemeren Anfragen zum Buch hinzudrängen. du musst mir einmal\neine Liste zusammenstellen, was du (außer Biografien) hin wolltest,\nalle Verleger wollen Ideen, also Serien oder Zusammenstellun-\ngen. sie produzieren selbst nichts, man muss sie drängen und\nbefreien zugleich, indem man ihnen anregt. vielleicht fällt dir\neinmal etwas ein, das noch fehlt (auf musikalischem oder litera-\nrischem Gebiete) — dann sage es mir sofort. ich bestehe\ndarauf, dass du deine ungeheuren darstellerischen Fähigkeiten\nnicht verzettelst — ich weiß, der Wille zum Werk ist bei dir\nda nur wo der Wille da auch ein Weg. ich denke oft, dank-\nbar und herzlich an dich, mit vielen Grüßen dein Stefan.\n\n[am linken Rand vertikal geschrieben:] an Richard Specht\n[unten links:] 194-7315/88",
+        "notes": "Dies ist eine Wiederholung der Rückseite (Scan 2) mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, der Kontext der Sätze ist klar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 2197,
+    "total_words": 347,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      547,
+      825,
+      825
+    ],
+    "chars_per_page_median": 825,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4366,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

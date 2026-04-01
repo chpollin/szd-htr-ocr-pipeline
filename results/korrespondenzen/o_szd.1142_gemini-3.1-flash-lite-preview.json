@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1142",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1142/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1142/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.2\n- Signatur: SZ-SAM/B10.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Maison Floréal\n46 Promenade Albert\nOstende.                                10.Juli 1936.\n\n\nLiebe Frau Meingast!\n\n                                Besten Dank für Ihre freundliche\nMitteilung. Ich sende Ihnen anbei die Kopie eines\nSchreibens an Karl Katschal & Co., das Sie bitte an\nFrau Dr. Zweig weitergeben wollen, ferner sende ich\ngleichzeitig als Drucksache einige Autografenkata-\nloge, die Sie bitte gleichfalls Frau Dr. Zweig ge-\nben wollen.\n\n                                Dann möchte ich Sie bitten, nach-\nzusehen, ob \"Marie Antoinette\" serbokroatisch in cy-\nrillischer Schrift erschienen ist. Ich kann hier nur\nfeststellen, dass das Buch serbokroatisch bei Binoza\nerschienen ist, nicht aber, ob die Ausgabe in cyril-\nlischer Schrift ist und ob die Rechte von Binoza eine\nsolche Ausgabe vielleicht einschliessen. Wir erhiel-\nten hier eine Anfrage von der Verlagsanstalt ZVEZDA\nin Belgrad wegen der serbokroatischen Ausgabe in cy-\nrillischer Schrift von \"Maria Stuart\" und \"Marie Antoi-\nnette\" und ich wäre Ihnen dankbar für diese Auskunft.",
+        "notes": "Maschinenschriftlicher Brief auf Briefpapier."
+      },
+      {
+        "page": 2,
+        "transcription": "A\n\n                                Ich sende Ihnen ausserdem in der Anlage\ndie Auszüge aus den zuletzt abgeschlossenen Verträgen,\nda mir Herr Dr. Zweig eben sagt, dass Sie ein identi-\nsches Exemplar des Hauptbuches in Salzburg weiterfüh-\nren.\n\n                                Mit den besten Grüssen\n                                Lotte Altmann",
+        "notes": "Fortsetzung des Briefes. Die Unterschrift 'Lotte Altmann' ist handschriftlich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein sehr gut lesbares maschinenschriftliches Dokument mit einer klaren handschriftlichen Signatur."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1390,
+    "total_words": 184,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1046,
+      344
+    ],
+    "chars_per_page_median": 695.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4033,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

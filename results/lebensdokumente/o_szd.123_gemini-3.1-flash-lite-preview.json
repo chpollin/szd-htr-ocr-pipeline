@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.123",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Eugen Relgis, SZ-AAP/L13.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.123/IMG.1",
+      "https://gams.uni-graz.at/o:szd.123/IMG.2",
+      "https://gams.uni-graz.at/o:szd.123/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Eugen Relgis\n- Signatur: SZ-AAP/L13.46\n- Datum: 26. Oct. I936\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durschlagpapier, schwarze und violette Tinte, Bleistift\n- Hand: Stefan Zweig, Eugen Relgis\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift von Eugen Relgis",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1. und Eugen Relgis, Strada A. No 24, Par-\ncul Mica, Bucarest, ist nachstehende Vereinbarung\ngetroffen worden:\n\nDr. Stefan Zweig überlässt die rumänischen Buchrechte\nan ~~Baumeister der Welt~~ Herrn Eugen Relgis gegen eine\neinmalige Zahlung von 300.- (dreihundert) oesterrei-\nchischen Schillingen oder den Gegenwert dieser Summe\nin englischen Pfunden.\n\nFalls das Buch nicht innerhalb von zwei Jahren er-\nscheint, fallen die Rechte an den Verfasser zurück.\n\nBei Erscheinen der Baumeister der Welt sind Dr. Stefan\nZweig zwei gebundene Exemplare zu übersenden.\n\nDas Honorar ist bei Abschluss des Vertrags zu erlegen\nund der Vertrag selbst tritt mit der Ueberweisung die-\nses Betrages in Kraft.\n\nLondon, den 26 Oct. 1936\n\nBucarest, den 31. October\n\nStefan Zweig [Unterschrift]\nEugen Relgis [Unterschrift]",
+        "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen (Datum, Unterschriften). Die Durchstreichung bei 'Baumeister der Welt' ist im Original vorhanden. Die Unterschriften sind eigenhändig."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 860,
+    "total_words": 127,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      860,
+      0,
+      0
+    ],
+    "chars_per_page_median": 860,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3802,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

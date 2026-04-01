@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2299",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stimme eines Blinden, SZ-AAP/W-AA187.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2299/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2299/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stimme eines Blinden\n- Signatur: SZ-AAP/W-AA187.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stimme eines Blinden (Max Jodykow)\n\nStimme eines\nBlinden\n(Zodykow)",
+        "notes": "Das Dokument enthält zwei verschiedene Handschriften/Farben. Die obere Zeile ist in violetter Tinte geschrieben, der untere Textblock in blauem Stift. Der Name wird oben als 'Jodykow' und unten als 'Zodykow' geschrieben."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Papiers, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Stimme eines\nBlinden\n(Zodykow)",
+        "notes": "Ausschnitt des unteren Textblocks."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Papiers, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Stimme eines Blinden (Max Jodykow)",
+        "notes": "Ausschnitt der oberen Zeile."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Papiers, leer."
+      },
+      {
+        "page": 7,
+        "transcription": "Stimme eines Blinden (Max Jodykow)\n\nStimme eines\nBlinden\n(Zodykow)",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und trotz der unterschiedlichen Schreibweisen des Namens (Jodykow vs. Zodykow) gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 196,
+    "total_words": 27,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      66,
+      0,
+      30,
+      0,
+      34,
+      0,
+      66
+    ],
+    "chars_per_page_median": 50.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

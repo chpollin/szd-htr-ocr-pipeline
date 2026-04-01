@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1224",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 25. Februar 1935, SZ-SAM/B7.54",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1224/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1224/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 25. Februar 1935, SZ-SAM/B7.54\n- Signatur: SZ-SAM/B7.54\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\nWien, Hotel Regina\n\nPostkarte\n\nFrau\nAnna Meingast\nbei H. St. Zweig\nSalzburg\nKapuzinerberg",
+        "notes": "Adressseite der Postkarte. Der Stempel ist teilweise lesbar als 'SALZBURG 1' mit Datum '25.II.35'."
+      },
+      {
+        "page": 2,
+        "transcription": "25/II 35\n\nLiebe Frau Meingast,\nbitte ein Exemplar von Erasmus\n(falls wir es nicht von Salzburg aus\njetzt sandten, ich erinnere mich nicht,\naber Sie werden es wissen) an\nProf. Arthur Burkhard\n3 Hillside Place\nCambridge Massachusetts\nmit einem Zettel: im Auftrag des Autors\nDie Bücher vom Postamt\nbitte immer zu beheben, wenn mein\nFrau nicht da ist trotz Zollgebühren,\nes kann wichtiges sein\nSonst vielen Dank! Tut\ndas leid zu tun. Eine idiotische Zeitung\nhat gesagt dass ich im Hotel Regina\nwohne, seitdem ist der Teufel los.\n\nHerzlich Stefan Z[weig?]",
+        "notes": "Nachrichtenseite der Postkarte. Der Text am rechten Rand ist vertikal geschrieben. Die Unterschrift ist durch den Rand leicht beschnitten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Ergänzung bei der Unterschrift ist aufgrund des Kontextes und der Handschrift sicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 688,
+    "total_words": 110,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      138,
+      550
+    ],
+    "chars_per_page_median": 344.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4352,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

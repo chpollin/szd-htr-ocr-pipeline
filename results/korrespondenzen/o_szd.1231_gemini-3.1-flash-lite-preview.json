@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1231",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 23. Januar 1912, SZ-LAS/B3.47",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1231/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1231/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1231/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 23. Januar 1912, SZ-LAS/B3.47\n- Signatur: SZ-LAS/B3.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIII. KOCHGASSE 8\nWIEN 23. Januar 1912\n\nLieber Max!\n\nDu weisst wohl schon, dass wir Fräulein Eugenie zu ihrem\nfünfzigsten Geburtstag am siebenten Februar eine Mappe mit\nhandschriftlichen literarischen Widmungen ihrer Freunde über-\ngeben wollen und rechnen dabei sehr stark auf deine Mithil-\nfe. Ich sende dir anbei ein Blatt, das du mit mit einem\ngrösseren Beitrag in Vers oder Prosa baldmöglichst unge-\nbrochen zurücksenden willst und grüsse dich vielmals herzlichst\n\nStefan",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan' ist handschriftlich in violetter Tinte ausgeführt. Das Wort 'mit' wurde in der vorletzten Zeile doppelt getippt."
+      },
+      {
+        "page": 2,
+        "transcription": "21219/12",
+        "notes": "Rückseite des Briefes. Enthält lediglich eine Archivnummer/Signatur unten rechts."
+      },
+      {
+        "page": 3,
+        "transcription": "VIII. KOCHGASSE 8\nWIEN 23. Januar 1912\n\nLieber Max!\n\nDu weisst wohl schon, dass wir Fräulein Eugenie zu ihrem\nfünfzigsten Geburtstag am siebenten Februar eine Mappe mit\nhandschriftlichen literarischen Widmungen ihrer Freunde über-\ngeben wollen und rechnen dabei sehr stark auf deine Mithil-\nfe. Ich sende dir anbei ein Blatt, das du mit mit einem\ngrösseren Beitrag in Vers oder Prosa baldmöglichst unge-\nbrochen zurücksenden willst und grüsse dich vielmals herzlichst",
+        "notes": "Dies ist eine Aufnahme des Briefes mit aufgelegter Farb- und Grauskala. Der Text entspricht Seite 1, jedoch ohne die handschriftliche Unterschrift."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da er maschinengeschrieben ist. Die einzige handschriftliche Ergänzung ist die Unterschrift auf Seite 1."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 950,
+    "total_words": 144,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      475,
+      8,
+      467
+    ],
+    "chars_per_page_median": 471.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.365,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

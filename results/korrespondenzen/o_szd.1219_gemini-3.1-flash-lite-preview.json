@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1219",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 9. Dezember 1934, SZ-SAM/B7.49",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1219/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1219/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. Dezember 1934, SZ-SAM/B7.49\n- Signatur: SZ-SAM/B7.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Westminster                                Nizza, den 9.Dezember 1934.\n\nLiebe Frau Meingast!\n\n        Vielen Dank für Ihren Brief und die Nachsendungen.\nSie bekommen in den nächsten Tagen wieder reichlich Futter.\nIch werde Sie nur bitten, die Exemplare von Dramatis Per-\nsonae bereitzuhalten, die wir dann zusammen mit der noch\nkommenden Einleitung abschicken. Es wird jetzt alles ganz\nregelmässig an Sie weitergehen und ich hoffe zu Weihnach-\nten uns beiden Ferien gewähren zu können.\n        Wichtig ist dagegen, dass Sie mir von der ersten\nFassung der Maria Stuart das letzte Kapitel einsenden, das\nich noch für die Arbeit brauche. Ich wiederhole, von der\nersten, nicht von der zweiten Fassung.\n        An Juventud schreibe ich selbst, von dem Pantheon-\nVerlag habe ich die Zahlung schon bekommen, also bitte dort\nja nicht zu reklamieren.\n        Von Erasmus ist ein Exemplar an Herrn Maks Rosen-\nberg zu senden und eines an Kurt Meyerowitz, Juan les Pins,\nRue Brica 21, Frankreich, sowie ein Exemplar an mich. Dage-\ngen können Sie die spanische und holländische Ausgabe ruhig",
+        "notes": "Der Text bricht am Ende der Seite mitten im Satz ab."
+      },
+      {
+        "page": 2,
+        "transcription": "zu Hause lassen.\n\nMit den besten Grüssen Ihr\n\nSZ\n\nVielen Dank für Ihre grosse Mühe\nnun hoffen wir, dass die ärgste Arbeit\njetzt bald vorbei ist! Ich schicke morgen\nwieder Text ab!",
+        "notes": "Der Text auf der zweiten Seite beginnt mit der Fortsetzung des Satzes von Seite 1. Die Unterschrift 'SZ' ist in violetter Tinte handschriftlich ausgeführt, ebenso der folgende Absatz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftlichen Ergänzungen von Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1264,
+    "total_words": 196,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1085,
+      179
+    ],
+    "chars_per_page_median": 632.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5052,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

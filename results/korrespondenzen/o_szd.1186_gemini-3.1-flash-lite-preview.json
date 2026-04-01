@@ -1,0 +1,78 @@
+{
+  "object_id": "o_szd.1186",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 6. Juli 1931, SZ-SAM/B7.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1186/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 6. Juli 1931, SZ-SAM/B7.16\n- Signatur: SZ-SAM/B7.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "6. Juli 1931\nLiebe Frau Meingast, eben erfahre\nich telefonisch durch meine Frau\nvon dem plötzlichen Verlust, den Sie\nans Wille erlitten haben und sage\nIhnen beiden mein aufrichtigstes und\nherzlichstes Beileid. Selbstverständ-\nlich bitte ich Sie, in Ihren persön-\nlichen Dispositionen – Sie werden\ngewiss jetzt viel Lasten auf sich haben\n– vollständig frei zu sein und sich\ndurchaus nicht verpflichtet zu fühlen,jenen vorgesetzten Termin einzuhalten.\nTeilen Sie bitte alles nach Ihrem\nErmessen und Ihrer Bequemlichkeit",
+        "notes": "Die Handschrift ist flüssig, aber in einigen Buchstaben (z.B. 'n', 'u', 'm') schwer zu unterscheiden. 'ans Wille' könnte auch 'ans Wille' oder 'ans Wille' gelesen werden, der Kontext deutet auf einen Namen oder eine Ortsangabe hin."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Rückseite des ersten Blattes."
+      },
+      {
+        "page": 3,
+        "transcription": "ein, hier ist gar nichts dringendes\nzu tun und ich fürchte, Sie werden\njetzt sehr durch die äußeren und\namtlichen Dinge belastet sein, die\nmit verhängnisvoller Weise gleich\neinem solchen menschlichen und per-\nsönlichen Verlust ausklimmen.\nMit den herzlichsten Grüßen\n\nStefan Zweig",
+        "notes": "Das Wort 'ausklimmen' ist schwer lesbar, könnte auch 'anklimmen' oder ähnlich lauten. Die Unterschrift ist deutlich."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite des zweiten Blattes."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar, abgesehen von vereinzelten Wörtern, die aufgrund der kursiven Handschrift und der violetten Tinte leicht interpretativ sind."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 797,
+    "total_words": 119,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      517,
+      0,
+      280,
+      0
+    ],
+    "chars_per_page_median": 398.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4914,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -85,12 +85,22 @@
     "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die unsichere Lesung 'Eisena' ist aufgrund der flüchtigen Schreibweise am Rand als solche markiert."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 121,
     "total_words": 14,
     "total_pages": 3,
     "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
     "chars_per_page": [
       9,
       0,
@@ -102,6 +112,7 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0714,
+    "dwr_score": 0.0,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

@@ -1,0 +1,78 @@
+{
+  "object_id": "o_szd.1116",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 30. Januar 1903, SZ-LAS/B3.36",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1116/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1116/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1116/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 30. Januar 1903, SZ-LAS/B3.36\n- Signatur: SZ-LAS/B3.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nHerrn\nMax Fleischer\nin Komotau (Böhmen)\n[...10...] 4,",
+        "notes": "Adressseite der Postkarte. Der Poststempel ist teilweise lesbar (31.1.03 KOMOTAU). Die Adresse ist handschriftlich ergänzt."
+      },
+      {
+        "page": 2,
+        "transcription": "23\nJAHR\nbis\n100 Jahr\n\nTRAUM u. SCHÖPFUNG\n\nWir gratulieren!\nVictor [?]\nMartin Buber\nKober\n[...10...] [?]\nStefan Zweig\nCamill Hoffmann\nL. V. Win[...3...]\n\nDas ist der Bleistift in matt\ngrün [...10...] die Karte\n\nDas wird mirste![?] \nDas ist auch mirste.[?]",
+        "notes": "Bildseite der Postkarte mit Zeichnung und Unterschriften. Die Unterschriften sind teilweise schwer lesbar. Die Anmerkungen am Rand sind in Bleistift geschrieben."
+      },
+      {
+        "page": 3,
+        "transcription": "23\nJAHR\nbis\n100 Jahr\n\nTRAUM u. SCHÖPFUNG\n\nWir gratulieren!\nVictor [?]\nMartin Buber\nKober\n[...10...] [?]\nStefan Zweig\nCamill Hoffmann\nL. V. Win[...3...]\n\nDas ist der Bleistift in matt\ngrün [...10...] die Karte\n\nDas wird mirste![?] \nDas ist auch mirste.[?]",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbkarte im Bild."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschriften der Unterschriften und die Bleistiftnotizen am Rand sind aufgrund der grafischen Gestaltung und der Überlagerung mit der Zeichnung schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 583,
+    "total_words": 91,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      75,
+      254,
+      254
+    ],
+    "chars_per_page_median": 254,
+    "marker_uncertain_count": 8,
+    "marker_illegible_count": 7,
+    "marker_density": 0.1648,
+    "dwr_score": 0.3718,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "marker_density"
+    ]
+  }
+}

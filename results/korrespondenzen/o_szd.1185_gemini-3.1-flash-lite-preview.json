@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1185",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 14. März 1931, SZ-SAM/B7.15",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1185/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1185/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 14. März 1931, SZ-SAM/B7.15\n- Signatur: SZ-SAM/B7.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "CARTE POSTALE\n\nADRESSE\nFrau Anna Meingast\n\nSalzburg (autriche)\nLinzergasse 16",
+        "notes": "Adressseite einer Postkarte. Briefmarken und Poststempel (ANTIBES, ALPES MARITIMES) sind vorhanden, wurden aber gemäß Anweisung nicht transkribiert."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, ich reise,\nwenn alles klappt, hier am\nDonnerstag den 19ten ab u. und\nam Freitag {wahrscheinlich früher} spätestens 5 Uhr\nin Salzburg. Vielleicht ist es Ihnen\nmöglich mir den Samstag vor-\nmittags zu reservieren, damit wir\ndann gleich den Berg der Briefe\nabbauen u. Montag die regu-\nläre Arbeit beginnt. Bitte sagen\nSie niemandem ausser den Leuten\nim Hause, wann ich komme. Die\nersten Tage hätte ich gerne Ruhe.\nHoffentlich geht es Willi und\nIhnen gut. Herzl. Grüße\n\nStefan Zweig",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Die Einfügung '{wahrscheinlich früher}' ist über der Zeile 'spätestens 5 Uhr' platziert."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, die wenigen Korrekturen und Einfügungen sind eindeutig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 575,
+    "total_words": 93,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      77,
+      498
+    ],
+    "chars_per_page_median": 287.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4066,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.1260",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Victor Fleischer, o. D., SZ-LAS/B3.76",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1260/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer, o. D., SZ-LAS/B3.76\n- Signatur: SZ-LAS/B3.76\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. Victor Fleischer\n\nVIII\nKochgasse 6 II Stock",
+        "notes": "Adressseite eines Briefumschlags."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Victor, ich konnte Dir\nleider nicht mehr Adieu sagen.\nMeine Adresse telegraphiere ich\nDir. Was morgen einläuft, heute\nposte restante Bozen\nBriefe von Intendanzen, Hoch\nect öffne ruhig und depeschiere\nmir den Inhalt, wenn es sehr\nwichtig ist, sonst sende sie nur\nin gewohnter Weise nach. Die\nSpesen werde ich nicht vergessen!\nDie Mühe auch nicht.\nDen Nietzsche sende der\nNeuen freien Presse, falls er nicht",
+        "notes": "Erste Seite des Briefes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite der ersten Briefseite, durchscheinender Text."
+      },
+      {
+        "page": 5,
+        "transcription": "erst nach dem 1. October kommt.\nAuf jeden Fall schreibe hinein (mit\nTinte) „Nach Benützung zurück\nan Dr. Stefan Zweig Wien VIII\nKochgasse 8. Das Exemplar gebe ich\nnicht her. Vielleicht fügst Du (ohne\nDeine Namensnennung) bei, dass\nDu das Ex. in meinem Auftrag\nsendest nur ich es – da es nur\nin numerierten Ex. ausgegeben wur-\nde und mir persönlich bestimmt\nwar – zurückerbitte nach Be-\nnützung.\nNur Dir, armer Kerl, gute\nBesserung. Das ist das letzte der\nneben magern Jahre! Herzlich\nStefan",
+        "notes": "Zweite Seite des Briefes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite der zweiten Briefseite, durchscheinender Text."
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Scan mit Farb- und Grauskala über der zweiten Briefseite."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 949,
+    "total_words": 159,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      47,
+      0,
+      412,
+      0,
+      490,
+      0,
+      0
+    ],
+    "chars_per_page_median": 412,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4026,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

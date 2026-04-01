@@ -1,0 +1,89 @@
+{
+  "object_id": "o_szd.2324",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Scharlach, SZ-AAP/W-AA177.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2324/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2324/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Scharlach\n- Signatur: SZ-AAP/W-AA177.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Sommernovellette | Leipz.\n                        Tgbl. 17. Okt. 1909\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Scharlach\n\nSommernovellette\nLeipz. Tgbl. 17. Okt. 1909",
+        "notes": "Die Transkription umfasst den Text auf dem Blatt. 'Scharlach' ist unterstrichen. Die Zeilenumbrüche entsprechen der Anordnung auf dem Dokument."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 3,
+        "transcription": "Sommernovellette\nLeipz. Tgbl. 17. Okt. 1909",
+        "notes": "Text auf der Rückseite des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 5,
+        "transcription": "Scharlach",
+        "notes": "Text auf einem Streifen."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 7,
+        "transcription": "Scharlach\n\nSommernovellette\nLeipz. Tgbl. 17. Okt. 1909",
+        "notes": "Gesamtansicht des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar und entspricht den historischen Angaben im Prompt."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 160,
+    "total_words": 21,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "input_images": 7,
+    "chars_per_page": [
+      54,
+      0,
+      43,
+      0,
+      9,
+      0,
+      54
+    ],
+    "chars_per_page_median": 48.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1163",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1163/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1163/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.4\n- Signatur: SZ-SAM/B11.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "25. X. 34\nFr. Zweig\n\nWien, Panorama mit Hochhaus\n207",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen oben rechts und links, gedruckter Text unten."
+      },
+      {
+        "page": 2,
+        "transcription": "liebe Frau Meingast, wegen\nVersagen der Füllfeder mit\ndiesen Bleistiftgrüßen herzliche\nGrüße und Dank für Ihr Mitteilungen.\nBin neugierig\nab ich wieder Arbeit vorfinde\nund hoffentl. keine versäumt\nhabe. Ich werde Samstag\nzuhause sein und hoffe\nSie beide wohl zu finden.\nVon Luse einen Gruß u.\nalles Gute von Ihrer\nFriderike Zw.\n\nFrau\nanna Meingast\nSalzburg\nKapuzinerberg\nVilla Zweig",
+        "notes": "Rückseite der Ansichtskarte. Der Text ist in violettem Bleistift geschrieben. Die Adresse ist rechtsbündig angeordnet. Die Briefmarke (Österreich, 12 Groschen) ist oben rechts aufgeklebt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz der Verwendung eines Bleistifts. Die Abkürzungen (Fr., hoffentl., u., Zw.) sind im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 434,
+    "total_words": 69,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      52,
+      382
+    ],
+    "chars_per_page_median": 217.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

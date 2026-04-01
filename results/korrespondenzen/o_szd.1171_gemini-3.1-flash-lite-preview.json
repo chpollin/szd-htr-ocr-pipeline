@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1171",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alfred Einstein an Anna Meingast, SZ-SAM/B14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1171/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1171/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1171/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alfred Einstein an Anna Meingast, SZ-SAM/B14\n- Signatur: SZ-SAM/B14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POSTKARTE CARTE POSTALE CARTOLINA POSTALE\n\nPORRENTRUY\n\nFrau Anna Meingast\nc/o Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Adressseite einer Postkarte. Briefmarke und Poststempel (Porrentruy, 29. III. 35) vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nma[c]he, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+        "notes": "Textseite des Briefes/der Postkarte. Handschriftlich in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nma[c]he, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+        "notes": "Identisch mit Seite 2, hier mit Farbkarten und Skalen abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar. Die Ergänzung [c] bei 'mache' ist aufgrund des Kontextes und der sichtbaren Buchstaben sicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1285,
+    "total_words": 206,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      119,
+      583,
+      583
+    ],
+    "chars_per_page_median": 583,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3186,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.129",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Américo Fraga Lamares u. Ca. Lda. LIVRARIA CIVILIZAÇÃO, SZ-AAP/L13.52",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.129/IMG.1",
+      "https://gams.uni-graz.at/o:szd.129/IMG.2",
+      "https://gams.uni-graz.at/o:szd.129/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Américo Fraga Lamares & Ca. Lda. LIVRARIA CIVILIZAÇÃO\n- Signatur: SZ-AAP/L13.52\n- Datum: 17. April 1937\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum, Unterschrift und Notiz eigenhändig in violetter Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Américo Fraga Lamares & C.ª, L.da\nLIVRARIA CIVILIZAÇÃO\nTELEFONE, 1819\nRUA DO ALMADA, 107\nPÔRTO\n\n                                                                    Pôrto,\n\nM. Stefan Zweig céde á la Livraria Civilização, Rua do Almada 107,\nPorto[?] les droits de la publication en langue portugaise exlusivement\nen Portugal pour les volumes suivants:\n\"Amok\" (contenant Lettre d'une Inconnue, La Ruelle au clair\n\"La Confusion des Sentiments\"                                de lune\n\"La destruction d'un coeur\"(contenant: La Gouvernante, Le Jeux\nDangereux\n\"Peur\" (contenant: Peur, Révélation inattendue d'un métier.\nLeporella. La femme et le paysage.\nLe bouquiniste Mendel, la colection invisible)\ncontre un payment d'une somme forfaitaire de\n500.-(cinq cents) Francs français\npour chaque volume.\n\nLes livres doivent paraitre dans une période d'un an á partir de la\nsignature du contrat.\n\nM. Zweig recevra deux exemplaires de chaque volume aussitôt qu'il\naura paru.\n\nLe contrat ne sera valable qu'après le payment entier pour chaque\nvolume.\n\nLondon 17. Avril 1937                          Porto 15 de Abril 1937\nStefan Zweig                                         [Unterschrift]\n\nbereits erschienen: „24 Stunden aus d. Leben einer Frau“\nzu den gleichen Bedingungen",
+        "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen in violetter Tinte (Datum, Unterschrift Zweig, Notiz am Ende). Die Unterschrift des Vertragspartners ist ebenfalls handschriftlich. Die Zeilenumbrüche wurden beibehalten."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt lediglich den durchscheinenden Text der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala, zeigt lediglich den durchscheinenden Text der Vorderseite."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der Durchschlag-Optik und der handschriftlichen Ergänzungen sehr gut lesbar. Die unsicheren Stellen sind minimal."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1261,
+    "total_words": 166,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1261,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1261,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.006,
+    "dwr_score": 0.2229,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

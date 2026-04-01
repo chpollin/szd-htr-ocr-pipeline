@@ -1,0 +1,72 @@
+{
+  "object_id": "o_szd.1354",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert an Franz Theodor Csokor aus dem Jahr 1908, SZ-SEF/B13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1354/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1354/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1354/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert an Franz Theodor Csokor aus dem Jahr 1908, SZ-SEF/B13\n- Signatur: SZ-SEF/B13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herrn Franz Theodor Czokor\nSchriftsteller\n\nMödling bei Wien\nJasomirgottstraße 6\n\n1911-1912",
+        "notes": "Vorderseite des Kuverts. Die Jahreszahl '1911-1912' am unteren Rand scheint eine spätere Archivnotiz zu sein. Briefmarken: 4x 5 Heller Franz Joseph I."
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig\nPalais Metternich\n\nBaden bei Wien",
+        "notes": "Rückseite des Kuverts. Poststempel: MÖDLING 12.VI.08.VIII."
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Franz Theodor Czokor\nSchriftsteller\n\nMödling bei Wien\nJasomirgottstraße 6\n\n1911-1912",
+        "notes": "Identisch mit Seite 1, inklusive Farbskala und Graustufen-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist sehr gut lesbar. Die Archivnotiz '1911-1912' steht im Widerspruch zum Poststempel '1908', wurde aber dennoch transkribiert, da sie auf dem Dokument vorhanden ist."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 226,
+    "total_words": 29,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      90,
+      46,
+      90
+    ],
+    "chars_per_page_median": 90,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.12,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

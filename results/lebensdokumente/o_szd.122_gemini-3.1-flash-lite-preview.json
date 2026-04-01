@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.122",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Eugen Relgis, SZ-AAP/L13.45",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.122/IMG.1",
+      "https://gams.uni-graz.at/o:szd.122/IMG.2",
+      "https://gams.uni-graz.at/o:szd.122/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Eugen Relgis\n- Signatur: SZ-AAP/L13.45\n- Datum: 6. Dezember I937\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, Eugen Relgis\n- Anmerkungen: Unterschrift und Korrekturen eigenhändig in violetter Tinte, Unterschrift und Notiz von Eugen Relgis",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street, London W.I\nund Eugen Relgis, Strada A.no.24, Parcul Mica, Bucarest (4), ist\nnachstehende Vereinbarugg getroffen worden:\nDr. Stefan Zweig überlässt die rumänischen Buchrechte an\nMAGELLAN Herrn Eugen Relgis gegen eine einmalige Zahlung von\n400 ~~verlart~~ \n300 (dreihundert) oesterreichischen Schillingen oder den\nGegenwert dieser Summe in englischen Pfunden.\nFalls das Buch nicht innerhalb von zwei Jahren erscheint,\nfallen die Rechten an den Verfasser zurück.\nBei Erscheinen der MAGELLAN sind Dr. Stefan Zweig zwei\ngebundene Exemplare zu übersenden.\nDas Honorar ist bei Abschluss des Vertrags zu erlegen und\nder Vertrag selbst tritt mit der Ueberweisung dieses Betrages\nin Kraft.\n\nLondon, den 6. Dezember 1937      Bucarest, den 2. Dezember 1937\n\nStefan Zweig                      Eugen Relgis\n\n                                  Ich bin einverstanden dass ich\n                                  Herrn Stefan Zweig 400 (vierhundert)\n                                  oesterreichischen Schillingen für\n                                  die rumänischen Buchrechte an\n                                  Magellan zahlen soll.\n                                  Eugen Relgis\n                                  Bucarest, den 22 Dezember 1937",
+        "notes": "Das Dokument enthält handschriftliche Korrekturen in violetter Tinte (die Zahl 400 über 300, Durchstreichung). Die Unterschriften und der untere Absatz sind ebenfalls handschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (Durchschlag-Abdruck schwach sichtbar)."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite mit Farbskala, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der handschriftlichen Korrekturen und der Durchschlag-Qualität sehr gut lesbar. Die Korrekturen wurden originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1281,
+    "total_words": 146,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1281,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1281,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3504,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.155",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ex Libris, SZ-SAM/L5",
+    "language": "Spanisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.155/IMG.1",
+      "https://gams.uni-graz.at/o:szd.155/IMG.2",
+      "https://gams.uni-graz.at/o:szd.155/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ex Libris\n- Signatur: SZ-SAM/L5\n- Sprache: Spanisch\n- Objekttyp: Druck\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze Tinte\n- Hand: Fremde Hand\n- Anmerkungen: Graphik eines unbekannten Künstlers mit Aufschrift „Esteban Zweig“ von fremder Hand in schwarzer Tinte",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "EX ~ LIBRIS ~\n\nEsteban Zweig",
+        "notes": "Der Text 'EX LIBRIS' ist gedruckt, 'Esteban Zweig' ist handschriftlich unterhalb der Grafik eingefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist unbeschriftet."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Die Rückseite ist unbeschriftet (Aufnahme mit Farbskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die handschriftliche Signatur 'Esteban Zweig' ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 28,
+    "total_words": 6,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      28,
+      0,
+      0
+    ],
+    "chars_per_page_median": 28,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

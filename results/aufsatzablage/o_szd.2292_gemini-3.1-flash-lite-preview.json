@@ -1,0 +1,104 @@
+{
+  "object_id": "o_szd.2292",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stendhal, SZ-AAP/W-AA184.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2292/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2292/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stendhal\n- Signatur: SZ-AAP/W-AA184.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"A. H. Schmitz | zum 50.\n                        Geburtstage\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stendhal\nEine deutsche St.-Biographie\nStendhals deutsche Wiederkehr",
+        "notes": "Die Transkription bezieht sich auf die Vorderseite des Blattes."
+      },
+      {
+        "page": 2,
+        "transcription": "Stendhal\nEine deutsche St.-Biographie\nStendhals deutsche Wiederkehr",
+        "notes": "Spiegelbildliche Ansicht der Vorderseite durch das Papier."
+      },
+      {
+        "page": 3,
+        "transcription": "A. H. Schmitz\nzum 50. Geburtstage",
+        "notes": "Die Transkription bezieht sich auf die Rückseite des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "A. H. Schmitz\nzum 50. Geburtstage",
+        "notes": "Spiegelbildliche Ansicht der Rückseite durch das Papier."
+      },
+      {
+        "page": 5,
+        "transcription": "Stendhal\nEine deutsche St.-Biographie\nStendhals deutsche Wiederkehr",
+        "notes": "Vorderseite des Blattes."
+      },
+      {
+        "page": 6,
+        "transcription": "A. H. Schmitz\nzum 50. Geburtstage",
+        "notes": "Rückseite des Blattes."
+      },
+      {
+        "page": 7,
+        "transcription": "Stendhal\nEine deutsche St.-Biographie\nStendhals deutsche Wiederkehr",
+        "notes": "Vorderseite des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und weist keine unleserlichen Stellen auf."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 367,
+    "total_words": 46,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      67,
+      67,
+      33,
+      33,
+      67,
+      33,
+      67
+    ],
+    "chars_per_page_median": 67,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1489,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

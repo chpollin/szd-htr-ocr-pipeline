@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1408",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Eugenie Hirschfeld vom 29. Januar 1908, SZ-LAS/B4.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1408/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1408/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1408/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Eugenie Hirschfeld vom 29. Januar 1908, SZ-LAS/B4.2\n- Signatur: SZ-LAS/B4.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Fräulein Eugenie Hirschfeld\nWien IX\nNußdorferstraße 5 I",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke und Poststempel 'WIEN 9/1 29. I. 08' vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Sehr verehrtes Fräulein, verzeihen\nSie mir, dass ich Sie bei diesem\nAbend nicht begrüßen\nkonnte, ich war so verwirrt,\nbedrängt und verloren, dass\nich an die Nächsten und\nLiebsten vergaß. Ich bin froh,\ndass der Anfang vorbei ist –\nbei dem nun die Gegenwart\nund der freundschaftliche Ent-\ngegenkommen Hofmansthal\neine große Freude gab (frei-\nlich auch eine Depression\ndurch das Verantwortlichkeits-\ngefühl, vor ihm zu lesen.) Auf\nbaldiges Wiedersehn Stefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Sehr verehrtes Fräulein, verzeihen\nSie mir, dass ich Sie bei diesem\nAbend nicht begrüßen\nkonnte, ich war so verwirrt,\nbedrängt und verloren, dass\nich an die Nächsten und\nLiebsten vergaß. Ich bin froh,\ndass der Anfang vorbei ist –\nbei dem nun die Gegenwart\nund der freundschaftliche Ent-\ngegenkommen Hofmansthal\neine große Freude gab (frei-\nlich auch eine Depression\ndurch das Verantwortlichkeits-\ngefühl, vor ihm zu lesen.) Auf\nbaldiges Wiedersehn Stefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala zur Archivierung abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 975,
+    "total_words": 152,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      55,
+      460,
+      460
+    ],
+    "chars_per_page_median": 460,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4966,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

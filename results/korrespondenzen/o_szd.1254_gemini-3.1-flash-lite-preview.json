@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1254",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 19. Dezember 1927, SZ-LAS/B3.70",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1254/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1254/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1254/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 19. Dezember 1927, SZ-LAS/B3.70\n- Signatur: SZ-LAS/B3.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n19. Dez. 1927.\n\nLieber Max!\n\nIch wollte Dir gerade meinen Glückwunsch zum Reich-Preis\nschicken - ja, die sieben fetten Jahre brechen langsam an und sie\nwerden sicherlich auf Deine innere Heiterkeit belebend wirken, diese\nwiederum auf den produktiven Nerv und so hoffentlich jener Kreis-\nlauf zwischen Arbeit, Freude, Erfolg und wiederum Freude und neuer\nArbeit sich runden, demzu dank allein unser Leben sinnvoll wird.\nUeber Dein Buch will ich mich jetzt an eine Zeitung herantasten\nund dann dort anfragen; heute beginnen die ersten Anfragen. Schliess-\nlich kann man ja nach einiger Zeit feststellen, wo nichts geschrie-\nben worden ist, und dann einsetzen. Im \"Tagebuch\" hat wohl schon\nFontana berichtet. Nun, wir werden's ja bald feststellen.\nHeute nur viele Grüsse und alle guten Wünsche\nvon Deinem\n\nStefan\n\nP.S. An Frau Barbara Ring schicke ich sofort Deine Kritik.",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan' ist handschriftlich in Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, zeigt den durchscheinenden Text der Vorderseite, kein eigenständiger Text."
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n19. Dez. 1927.\n\nLieber Max!\n\nIch wollte Dir gerade meinen Glückwunsch zum Reich-Preis\nschicken - ja, die sieben fetten Jahre brechen langsam an und sie\nwerden sicherlich auf Deine innere Heiterkeit belebend wirken, diese\nwiederum auf den produktiven Nerv und so hoffentlich jener Kreis-\n\n[Farbkarte überdeckt Text]\n\nHeute nur viele Grüsse und alle guten Wünsche\nvon Deinem\n\nStefan\n\nP.S. An Frau Barbara Ring schicke ich sofort Deine Kritik.",
+        "notes": "Scan mit Farb- und Graukarte, die den Text teilweise verdeckt. Die Transkription entspricht dem Inhalt von Seite 1."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Stefan' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1358,
+    "total_words": 210,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      893,
+      0,
+      465
+    ],
+    "chars_per_page_median": 679.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3671,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

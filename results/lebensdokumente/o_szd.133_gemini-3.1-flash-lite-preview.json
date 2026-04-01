@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.133",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Livraria CIVILIZACAO, SZ-AAP/L13.56",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.133/IMG.1",
+      "https://gams.uni-graz.at/o:szd.133/IMG.2",
+      "https://gams.uni-graz.at/o:szd.133/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Livraria CIVILIZACAO\n- Signatur: SZ-AAP/L13.56\n- Datum: 6 décembre 1938\n- Sprache: Französisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "M. Stefan ZWEIG, 49 Hallam Street, London W.1.\ncède à la Livraria CIVILIZACAO, Rua do Almada 107,\nPorto, les droits de publication en langue portugaise\nexclusivement en Portugal et ses colonies pour son\nlivre\n\"UNGEDULD DES HERZENS\"\npour lequel M. Stefan Zweig recevra la somme de\n10% (dix pour cent) sur le prix de vente du livre.\n\nLe livre doit paraître dans une période d'un an à\npartir de la signature du contrat.\n\nMr. Zweig recevra cinq exemplaires du livre aussitôt\nqu'il aura paru.\n\nLes droits d'auteurs seront payés le 1 juin et le\n1 janvier de chaque année.\n\nStefan Zweig [Unterschrift] [Unterschrift]\nLondres, le 6 décembre 1938 Porto, le 9 décembre 1938",
+        "notes": "Das Dokument ist ein maschinenschriftlicher Durchschlag. Die Unterschriften sind handschriftlich hinzugefügt. Die Datumsangaben sind ebenfalls handschriftlich ergänzt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (durchscheinender Text von Seite 1)."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite mit Farb- und Grauskala, keine historischen Textinhalte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 663,
+    "total_words": 113,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      663,
+      0,
+      0
+    ],
+    "chars_per_page_median": 663,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3084,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

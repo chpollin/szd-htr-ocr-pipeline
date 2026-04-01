@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1215",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 5. November 1934, SZ-SAM/B7.45",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1215/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1215/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. November 1934, SZ-SAM/B7.45\n- Signatur: SZ-SAM/B7.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11 Portland Place                                London, den 5.November 1934.\n\nLiebe Frau Meingast!\n\n        Vielen Dank. Die Kapitel sechs bis zehn schicken Sie bitte zu-\nnächst nur an mich, denn VI gefällt mir noch immer nicht und vielleicht\nist in den andern auch noch etwas an Kleinigkeiten zu kürzen möglich.\nIch möchte also, dass Sie es vorerst noch nicht an jemanden anders\nweitergeben.\n        An Frau Paula Bernstein ist natürlich der Erasmus von Salz-\n{recommandiert}\nburg aus zu schicken und auch eines an Grigol Robakidse, wenn es noch\nnicht gesandt worden ist.\n\n                                Die besten Grüsse Ihres\n\n                                Stefan Zweig\n\nCapitel XIV ging heute ab, Capitel XV kommt\nmorgen",
+        "notes": "Das Wort 'recommandiert' wurde über der Zeile eingefügt. Der handschriftliche Zusatz am Ende des Briefes ist in der gleichen violetten Tinte wie die Unterschrift verfasst."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 728,
+    "total_words": 102,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      728,
+      0
+    ],
+    "chars_per_page_median": 728,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.52,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

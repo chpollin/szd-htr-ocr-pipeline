@@ -1,0 +1,104 @@
+{
+  "object_id": "o_szd.1268",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 17. September 1935, SZ-SAM/B5.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1268/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1268/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 17. September 1935, SZ-SAM/B5.1\n- Signatur: SZ-SAM/B5.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+        "notes": "Brief von Romain Rolland an Stefan Zweig. Handschriftlich in blauer Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite von Seite 1, durchscheinender Text."
+      },
+      {
+        "page": 3,
+        "transcription": "ne dites pas que votre visite sera \"très courte\"!\nOn vous voit si peu!\n\nAffection à vous,\n\nRomain Rolland\n\n[tel.] - [villa Olga] 68.043 . Villeneuve\n[villa Lionnette] 68.108 . -",
+        "notes": "Fortsetzung des Briefes auf der zweiten Seite des Bogens."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite von Seite 3, durchscheinender Text."
+      },
+      {
+        "page": 5,
+        "transcription": "Herrn Stefan Zweig\nZürich\n\nBahnhof - Postlagernd",
+        "notes": "Adressseite des Briefumschlags."
+      },
+      {
+        "page": 6,
+        "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+        "notes": "Rückseite des Briefumschlags mit Absenderangabe."
+      },
+      {
+        "page": 7,
+        "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+        "notes": "Identisch mit Seite 6, inklusive Farbskala und Graustufen-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Romain Rolland ist gut lesbar, die Sprache ist Französisch. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 708,
+    "total_words": 120,
+    "total_pages": 5,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      407,
+      0,
+      177,
+      0,
+      48,
+      38,
+      38
+    ],
+    "chars_per_page_median": 48,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.287,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

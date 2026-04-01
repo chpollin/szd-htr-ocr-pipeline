@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1152",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.11",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1152/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1152/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.11\n- Signatur: SZ-SAM/B11.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Austria\n\nFrau Anna Meingast\nSalzburg\nLinzergasse (Leubingerhaus)",
+        "notes": "Adressseite einer Postkarte. Der Name ist 'Meingast' (im Text der Rückseite deutlicher lesbar als 'Mecupast' auf der Vorderseite)."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast,\nherzl. Dank für Ihren l. Brief.\nBenutze den Sonntag etc.\nBriefe melden zu bewältigen,\nWochentags immer noch sehr\nbeschäftigt u. die Zeit war mir\nzu lange, da alles hier sehr lange\ndauert, sodass mein Kürsein ganz\ngut war. Nur ist das Haus\nnicht so weit, dass man darin\nwohnen kann. Mein Mann kam\nvorgestern, immer noch als Nicht=\nraucher und hat gleich hier\ndie schwere Arbeit fortgesetzt.\nDer eine nachgesandte Brief des\nFranz Moser (eines ewigen Bitt=\nstellers beantworten Sie bitte mit\n5 Schillinge u. dass ich abwesend\nbin u. bedauere nichts unter Arbeit\nverschaffen können. Adr. Achensee O.Ö.\nBergstrasse 20. Alles Gute Frz.",
+        "notes": "Die Handschrift ist flüchtig. Am rechten Rand vertikal geschrieben: 'Fr Zweig' und 'v. Willi'. Der Name 'Meingast' ist hier klarer als auf der Vorderseite. 'Kürsein' könnte auch 'Kursein' (Kur-Sein) bedeuten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift von Friderike Zweig. Die Korrektur des Namens 'Meingast' ergibt sich aus dem Kontext der Rückseite."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 714,
+    "total_words": 114,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      64,
+      650
+    ],
+    "chars_per_page_median": 357.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4779,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

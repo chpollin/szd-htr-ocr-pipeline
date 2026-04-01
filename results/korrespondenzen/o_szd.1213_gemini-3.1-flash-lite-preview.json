@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1213",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 12. Oktober 1934, SZ-SAM/B7.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1213/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1213/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 12. Oktober 1934, SZ-SAM/B7.43\n- Signatur: SZ-SAM/B7.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "TEL.: LANGHAM 2030.\n\n11, PORTLAND PLACE,\nLONDON, W.1\n\n12. Oktober 1934\n\nLiebe Frau Meingast!\n\nIch habe mit bestem Dank die fünf Kapitel empfangen,\nwo nur drei Seiten schlecht geheftet waren, was ich umstelle.\nGeändert wird nichts Wesentliches darinnen ausser ganz klei-\nnen Kleinigkeiten mehr. Inzwischen haben Sie ja Kapitel XI und\ndas frühere Kapitel VI bekommen, und so wird es rastlos weiter-\ngehen. Sie sehen, wie sehr Sie im Irrtum waren mit der Befürch-\ntung, nichts zu tun zu bekommen und ich fürchte, oder vielmehr\nich hoffe, es wird nicht besser werden.\nAn Frau Paula Bernstein bitte die Marie Antoinette zu\nsenden, aber bitte rekommandiert, und wenn dann neue Exemplare\nda sind, auch einen Erasmus. Bitte das zur Notiz zu nehmen. Ich\nschreibe ihr inzwischen selbst.\nAn den Verlag Pantheon bitte zu schreiben, dass ich\neinverstanden bin, dass er die \"Heilung durch den Geist\" heraus-\nbringt und ich fünfhundert oesterreichische Schillinge ein für\nallemal dafür verlange.\nSonst geht es mir gut und hoffentlich Ihnen gleichfalls.\n\nViele Grüsse Ihres ergebenen Stefan Zweig\n\nBitte auf jeden Fall Frau Bernstein in unser Uebersetzerlexikon\neinzutragen.",
+        "notes": "Der Brief ist maschinenschriftlich verfasst, die Unterschrift 'Stefan Zweig' ist handschriftlich in violett-blauer Tinte hinzugefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klarer Maschinendruck, die Transkription ist eindeutig. Die handschriftliche Unterschrift ist gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1158,
+    "total_words": 181,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1158,
+      0
+    ],
+    "chars_per_page_median": 1158,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4689,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

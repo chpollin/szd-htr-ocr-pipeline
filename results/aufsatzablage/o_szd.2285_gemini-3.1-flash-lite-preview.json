@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2285",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Schweiz, SZ-AAP/W-AA182.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2285/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2285/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Schweiz\n- Signatur: SZ-AAP/W-AA182.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Rodauner Nachträge | Berl.\n                        Tagebl.\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Schweiz\n- Die Schweiz als Hilfsland Europas\n- Die Schweiz und die Fremden\n- Die Schweiz im vierten Kriegssommer\n\n\nRodauner Nachträge\nBerl. Tagebl.",
+        "notes": "Die Transkription umfasst den gesamten sichtbaren Text auf dem Blatt. Die Zeilenumbrüche wurden beibehalten."
+      },
+      {
+        "page": 2,
+        "transcription": "Schweiz\n- Die Schweiz als Hilfsland Europas\n- Die Schweiz und die Fremden\n- Die Schweiz im vierten Kriegssommer",
+        "notes": "Rückseite des oberen Streifens, durchscheinend."
+      },
+      {
+        "page": 3,
+        "transcription": "Rodauner Nachträge\nBerl. Tagebl.",
+        "notes": "Vorderseite des unteren Teils."
+      },
+      {
+        "page": 4,
+        "transcription": "Rodauner Nachträge\nBerl. Tagebl.",
+        "notes": "Rückseite des unteren Teils, durchscheinend."
+      },
+      {
+        "page": 5,
+        "transcription": "Schweiz\n- Die Schweiz als Hilfsland Europas\n- Die Schweiz und die Fremden\n- Die Schweiz im vierten Kriegssommer",
+        "notes": "Detailaufnahme des oberen Streifens."
+      },
+      {
+        "page": 6,
+        "transcription": "Rodauner Nachträge\nBerl. Tagebl.",
+        "notes": "Detailaufnahme des unteren Teils."
+      },
+      {
+        "page": 7,
+        "transcription": "Schweiz\n- Die Schweiz als Hilfsland Europas\n- Die Schweiz und die Fremden\n- Die Schweiz im vierten Kriegssommer\n\n\nRodauner Nachträge\nBerl. Tagebl.",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine schwierigen handschriftlichen Kürzel auf."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 610,
+    "total_words": 96,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      146,
+      111,
+      32,
+      32,
+      111,
+      32,
+      146
+    ],
+    "chars_per_page_median": 111,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5238,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -87,12 +87,22 @@
     "confidence_notes": "Der Text ist ein sauberer Druck, die Transkription ist daher sehr zuverlässig. Die Stempel und Seitenzahlen wurden entsprechend der Vorgaben erfasst."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 10908,
     "total_words": 1702,
     "total_pages": 3,
     "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
     "chars_per_page": [
       3592,
       0,
@@ -104,6 +114,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.4362,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

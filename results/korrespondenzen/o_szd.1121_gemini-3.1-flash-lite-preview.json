@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1121",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 29. Januar 1904, SZ-LAS/B3.40",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1121/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1121/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1121/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 29. Januar 1904, SZ-LAS/B3.40\n- Signatur: SZ-LAS/B3.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn\nHerru Max Fleischer\n\nin Halle a. d. Saale\nMartinsberg 6 I Hstk",
+        "notes": "Adressseite der Postkarte. Der Stempel ist datiert auf den 29.1.04. Die Briefmarke ist eine 5 Heller Marke."
+      },
+      {
+        "page": 2,
+        "transcription": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Labnise' könnte 'Labnisse' oder eine spezifische Anspielung sein. 'durchbeören' ist schwer lesbar, möglicherweise 'durchbohren' oder 'durchbeissen'. 'Samuigkeit' ist unsicher, könnte 'Traulichkeit' oder 'Herzlichkeit' gemeint sein."
+      },
+      {
+        "page": 3,
+        "transcription": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Labnise', 'durchbeören', 'Samuigkeit') sind aufgrund der individuellen Schreibweise von Stefan Zweig schwer eindeutig zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1113,
+    "total_words": 182,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      87,
+      513,
+      513
+    ],
+    "chars_per_page_median": 513,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.033,
+    "dwr_score": 0.4667,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.1389",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 15. Juni 1906, SZ-SEF/B5.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1389/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1389/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1389/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 15. Juni 1906, SZ-SEF/B5.1\n- Signatur: SZ-SEF/B5.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Verzeihen Sie mir in Ihrer lieben Eile, dass ich Ihnen noch nicht\nschrieb, noch nicht für Ihre herzliche Einladung\ndankte. Aber ich möchte Ihnen gerne auch\nzum Volkstheaterpreis gratulieren und der muss\ndoch bald Ihrem Bruder zufallen. Dann\nhören Sie auch von\nIhrem Stefan Zweig",
+        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte."
+      },
+      {
+        "page": 2,
+        "transcription": "fräulein\nEugenie Hirschfeld\nVienna (Austria)\nIX. Nussdorferstrasse 5",
+        "notes": "Adressseite der Postkarte. Briefmarke und Poststempel (London 15. Juni 1906) vorhanden."
+      },
+      {
+        "page": 3,
+        "transcription": "Verzeihen Sie mir in Ihrer lieben Eile, dass ich Ihnen noch nicht\nschrieb, noch nicht für Ihre herzliche Einladung\ndankte. Aber ich möchte Ihnen gerne auch\nzum Volkstheaterpreis gratulieren und der muss\ndoch bald Ihrem Bruder zufallen. Dann\nhören Sie auch von\nIhrem Stefan Zweig",
+        "notes": "Dies ist eine Wiederholung der Bildseite aus Scan 1 im Kontext der Farbtafeln."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 624,
+    "total_words": 98,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      278,
+      68,
+      278
+    ],
+    "chars_per_page_median": 278,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

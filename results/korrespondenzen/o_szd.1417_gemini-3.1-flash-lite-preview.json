@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1417",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Friedrich Siegbert Mees vom 9. Mai 1924, SZ-SAH/B2.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1417/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1417/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1417/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Friedrich Siegbert Mees vom 9. Mai 1924, SZ-SAH/B2.1\n- Signatur: SZ-SAH/B2.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 9.Mai 1924.\n\nSehr verehrter Herr Mees!\n\nHalten Sie es bitte, einer längeren Abwesenheit zugute,\ndass ich Ihnen erst heute Antwort gebe und Ihnen vor allem meine\nFreude sage, dass Sie einige meiner Gedichte vertont haben. Selbst-\nverständlich haben Sie alle Erlaubnis dazu und ich würde mich freuen,\nkönnte ich sie bald von Ihnen oder durch jemand anderen hören.\nMit den besten Grüssen Ihr aufrichtig ergebener\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "Dr. Stefan Zweig.\nSalzburg.\nKapuzinerberg 5.\n\nSehr verehrter Herr Mees!\n\nH. Höfflingshoff.\nMannheim a. Rhein.\nSophienstr. 15.",
+        "notes": "Handschriftliche Adressierung und Absenderangabe auf der Rückseite des Briefbogens."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription folgt dem Layout des Originals."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 561,
+    "total_words": 86,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      436,
+      125,
+      0
+    ],
+    "chars_per_page_median": 280.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4458,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

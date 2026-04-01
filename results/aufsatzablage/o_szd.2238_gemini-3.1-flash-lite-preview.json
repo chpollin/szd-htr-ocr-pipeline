@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.2238",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Incipit: \"geniessen wir, die Neutralen, aus der Entfernung...\", SZ-AAP/W-AA199.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2238/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2238/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2238/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Incipit: \"geniessen wir, die Neutralen, aus der\n                        Entfernung...\"\n- Signatur: SZ-AAP/W-AA199.1\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig\n- Anmerkungen: Text unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    9\n\ngeniessen wir, die Neutralen, aus der Ent-\nfernung unseres unbeteiligten bürgerlichen\nLebens wie eine grosse Tragödie. Wir leben\nheute, so {redet} man uns {vor} unablässig, inmitten\ngrosser Entscheidungen. Aber tun wir das in\nWirklichkeit nicht immer? Ein Krieg, der\neinen grossen Teil der zivilisierten Welt\nin Mitleidenschaft zieht, hat nur die Kraft,\n{ständig sich ereignenden}\ndiesen Entscheidungen einen schärferen und\nsichtbareren Umriss zu geben. Für die {zum Beispiel}\nwelche in den gegenwärtigen Krieg ver-\nstrickt sind - oder wenigstens für einen\nTeil von ihnen - wird das Grauen, die Not\nund die Langeweile des Kriegs zum Teil durch\ndie unnatürliche Erregung von Hass, der\nplötzlich einen Gegenstand gefunden hat und\n{aus} das Gefühl, einen Krauzzug für eine gu-\nte Sache zu führen, aufgewogen. Damit ist\nihnen das Gefühl der Sinnlosigkeit des\n{einigermassen}\nKriegs genommen, trotzdem sich der letzte\nKrieg als sinnlos erwiesen hat.\n\nMonotonie\nEintönigkeit\n\n      auch",
+        "notes": "Das Dokument enthält maschinengeschriebenen Text mit handschriftlichen Korrekturen und Ergänzungen (in violett und Bleistift). Die Randnotizen 'Monotonie'/'Eintönigkeit' und 'auch' sind handschriftlich hinzugefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, unbeschrieben (Durchschlag-Abdruck)."
+      },
+      {
+        "page": 3,
+        "transcription": "                                                                    9\n\ngeniessen wir, die Neutralen, aus der Ent-\nfernung unseres unbeteiligten bürgerlichen\nLebens wie eine grosse Tragödie. Wir leben\nheute, so {redet} man uns {vor} unablässig, inmitten\ngrosser Entscheidungen. Aber tun wir das in\nWirklichkeit nicht immer? Ein Krieg, der\neinen grossen Teil der zivilisierten Welt\nin Mitleidenschaft zieht, hat nur die Kraft,\n{ständig sich ereignenden}\ndiesen Entscheidungen einen schärferen und\nsichtbareren Umriss zu geben. Für die {zum Beispiel}\nwelche in den gegenwärtigen Krieg ver-\nstrickt sind - oder wenigstens für einen\nTeil von ihnen - wird das Grauen, die Not\nund die Langeweile des Kriegs zum Teil durch\ndie unnatürliche Erregung von Hass, der\nplötzlich einen Gegenstand gefunden hat und\n{aus} das Gefühl, einen Krauzzug für eine gu-\nte Sache zu führen, aufgewogen. Damit ist\nihnen das Gefühl der Sinnlosigkeit des\n{einigermassen}\nKriegs genommen, trotzdem sich der letzte\nKrieg als sinnlos erwiesen hat.\n\n      auch",
+        "notes": "Identisch mit Seite 1, jedoch ohne die Randnotizen 'Monotonie'/'Eintönigkeit', da diese durch die Farbskala verdeckt sind."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig den entsprechenden Stellen im Typoskript zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 2078,
+    "total_words": 292,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1051,
+      0,
+      1027
+    ],
+    "chars_per_page_median": 1039.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5175,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1295",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.3",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1295/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1295/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1295/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.3\n- Signatur: SZ-SHB/B5.3\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIII. KOCHGASSE 8\nWIEN,\n\nChère mademoiselle, je vous expédie par\nle même courrier une eau-forte de V., faite après\nla buste de Van der Stappen et signé par l'artiste.\nJ'en ai encore une deuxième : n'ayez vous pas\npeur de me priver, au contraire, c'est un vif plaisir\npour moi d'aider un peu a faire une surprise a\nMonsieur Raemmerer. Je serai très content, si\ndre, ~~que~~ cette eau-forte vous convient et je vous\nprie de recevoir l'assurance de mes meilleurs senti-\nments\n\nStefan Zweig",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Das Wort 'si' wurde über der Zeile eingefügt, das Wort 'que' wurde durchgestrichen."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens mit Farb- und Grauskala-Referenzkarten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar. Die Korrekturen (Einfügung 'si', Streichung 'que') sind eindeutig erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 486,
+    "total_words": 85,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      486,
+      0,
+      0
+    ],
+    "chars_per_page_median": 486,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3626,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

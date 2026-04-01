@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1192",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 6. Oktober 1933, SZ-SAM/B7.22",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1192/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1192/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 6. Oktober 1933, SZ-SAM/B7.22\n- Signatur: SZ-SAM/B7.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Frau Meingast, besten Dank für\nIhre Nachrichten. Von Sotheby[?] dachte\nich wäre die Originalfassung bitten[?],\num sie von hier begleiten zu können,\nsonst alles in Ordnung. Die Rota-\nsitzinken[?] Rechte hat schon vergeben.\nIch danke Ihnen für die verläss-\nliche Besorgung, ich bin völlig\nruhig und ohne Ungeduld nach\nPost, und heute höre ich erst,\ndass ein Interview von mir in\neiner Pariser Zeitung stehen soll,\nwahrscheinlich wieder etwas Unfin-\ndetes und Peinliches. Zu\nwarren[?] sie sobald vielmals. Stefan Zweig",
+        "notes": "Die Handschrift ist flüchtig. 'Sotheby' ist eine Vermutung aufgrund des Kontextes. 'Rotasitzinken' ist schwer lesbar, möglicherweise ein Eigenname oder ein Fachbegriff für Rechte. 'Zu warren sie sobald vielmals' ist syntaktisch unklar."
+      },
+      {
+        "page": 2,
+        "transcription": "Noch eines: wenn persönliche\nAngriffe in deutschen Ausblättern\nsind, bitte schonen Sie mich und\nsondern senden Sie sie mir. Es ist\ngegen Berichtigungen etc. nötig.\n\nFrau Anna Meingast\nbei Zweig\nSalzburg (Österreich)\nKapuzinerberg 5",
+        "notes": "Postkarte mit Stempel 'MONTREUX 6. X 1933'. Die Adresse ist deutlich lesbar."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Einige Wörter im Fließtext der ersten Seite sind aufgrund der kursiven, schnellen Handschrift und der Tinte schwer zu entziffern (insb. 'Rotasitzinken' und 'warren')."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 752,
+    "total_words": 115,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      521,
+      231
+    ],
+    "chars_per_page_median": 376.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0348,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

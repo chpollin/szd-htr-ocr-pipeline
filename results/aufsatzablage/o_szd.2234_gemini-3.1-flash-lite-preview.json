@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.2234",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Turm zu Babel, Der, SZ-AAP/W-AA198.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2234/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.11",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.12",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.13"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Turm zu Babel, Der\n- Signatur: SZ-AAP/W-AA198.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"Die jüngste Generation der heutigen Lyriker\"; ursprüngliche\n                        Aufschrift des zweiten: \"Die Wanderung\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Turm zu Babel, Der\n(deutsch & französisch)\n\ndie jüngste Generation\nder deutschen\nLyriker",
+        "notes": "Zusammenstellung aus den ersten drei Scans (IMG_1, IMG_2, IMG_3). IMG_1 zeigt die Kombination der beiden Zettel."
+      },
+      {
+        "page": 2,
+        "transcription": "Turm zu Babel, Der\n2 Ex\n\nDie Wanderung\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+        "notes": "Zusammenstellung aus den Scans IMG_7, IMG_9, IMG_13. IMG_7 zeigt die Kombination der beiden Zettel."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Struktur der Zettel (Vorder- und Rückseiten sowie Kombinationen) ist durch die Scans eindeutig nachvollziehbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 193,
+    "total_words": 33,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 13,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      88,
+      105
+    ],
+    "chars_per_page_median": 96.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4074,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

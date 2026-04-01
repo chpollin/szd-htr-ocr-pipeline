@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1131",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1131/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1131/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.1\n- Signatur: SZ-SAM/B10.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ostende, den 6.Juli 1936.\n\nLiebe Frau Meingast!\n\nIch habe Ihnen diesmal\nnicht viel für Juni zu berichten, dagegen\nwerde ich mir gestatten, mich in einiger Zeit\nmit einigen Anfragen wegen Vertragsabschlüssen\nund Abrechnungsmethoden mit verschiedenen Ver-\nlegern an Sie zu wenden.\n\nMit den besten Grüssen\n\nIhre\nLAltmann",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'LAltmann' ist handschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 317,
+    "total_words": 47,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      317,
+      0
+    ],
+    "chars_per_page_median": 317,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4783,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

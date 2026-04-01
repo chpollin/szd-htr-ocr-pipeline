@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1126",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 21. Juni 1901, SZ-LAS/B3.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1126/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1126/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1126/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 21. Juni 1901, SZ-LAS/B3.5\n- Signatur: SZ-LAS/B3.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n(Antwort.)\n\nAn\nWohlgeboren\nHerrn stud. iur. Max Fleischer\n\nin Komotau\nNordböhmen",
+        "notes": "Adressseite der Postkarte. Poststempel: WIEN 1/1 21.6.01 3-4N sowie Ankunftsstempel KOMOTAU 22.6.01."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Freund! Es hat mir sehr viel Freude gemacht zu hören, dass Sie\naus einer so unangenehmen Affaire so gut und angenehm herausgekommen\nsind. Sie sind zum Arzte nicht geboren und hätten der Libamonia nicht\nviel Ehre gemacht. — Ich bin hier schändlich faul, u. betrachte ein wenig\nCharles Baudelaire, Vorlesungen kann ich nur dem Namen nach.\nDass Sie wieder Gedichte schreiben freut mich sehr, ich werde sie\nja bei meinem lieben Donath lesen. — Camill Hofmann wohnt\nIII. Untere Weissgärberstrasse 24, Otto Soyka's Adresse ist die Fabrik.\n— Ihre Villarei scheint Ihnen ja wirklich recht nahe zu gehen, Gott\nbehüte Sie davor, dass Sie sich den schönen Stil angewöhnen, wenn Sie\ngleichzeitig Verse schreiben. Aber ich habe es auch an mir, je mehr\nfreie Zeit ich habe, desto mehr faulenze ich litterarisch. Berühmt\nwerde ich gewaltig, Kritiken sind eine günstige Sachen ziemlich\nzahlreich ein, so dass ich mich manchmal ziemlich neugierig im\nSpiegel betrachte, wie das Herr eigentlich aussieht, der angeblich\nso gute Gedichte schreibt. Sie könnten ihm nächstens wieder einmal\nauf einen Brief machen, darauf freut sich herzlich Ihr treuer Stefan Zweig",
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Correspondenz-Karte.\n(Antwort.)\n\nAn\nWohlgeboren\nHerrn stud. iur. Max Fleischer\n\nin Komotau\nNordböhmen",
+        "notes": "Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1350,
+    "total_words": 208,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      101,
+      1148,
+      101
+    ],
+    "chars_per_page_median": 101,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4541,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

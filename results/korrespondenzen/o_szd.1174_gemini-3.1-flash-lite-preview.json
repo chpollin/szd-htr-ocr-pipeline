@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1174",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Johann Thalhuber an Anna Meingast, SZ-SAM/B17",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1174/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1174/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1174/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Johann Thalhuber an Anna Meingast, SZ-SAM/B17\n- Signatur: SZ-SAM/B17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Viel Glück zum neuen Jahre.",
+        "notes": "Vorderseite der Postkarte mit gedrucktem Text."
+      },
+      {
+        "page": 2,
+        "transcription": "Frau\nAnna Meingast\nWien IX.\nHotel Regina\n\nSehr verehrte Frau Meingast\nHoffentlich sind Sie gut\nangekommen u geht\nIhnen gut.\nAlles gute und Herzliche\ngrüsse Johann\n\nJOHANN THALHUBER",
+        "notes": "Rückseite der Postkarte. Handschriftliche Nachricht in violetter Tinte. Poststempel: SALZBURG 2, 23.XII.35 12. Briefmarken: 2x Österreich, Olympia Fonds."
+      },
+      {
+        "page": 3,
+        "transcription": "Frau\nAnna Meingast\nWien IX.\nHotel Regina\n\nSehr verehrte Frau Meingast\nHoffentlich sind Sie gut\nangekommen u geht\nIhnen gut.\nAlles gute und Herzliche\ngrüsse Johann\n\nJOHANN THALHUBER",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Graustufenkarte im Bild."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 387,
+    "total_words": 61,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      27,
+      180,
+      180
+    ],
+    "chars_per_page_median": 180,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2951,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

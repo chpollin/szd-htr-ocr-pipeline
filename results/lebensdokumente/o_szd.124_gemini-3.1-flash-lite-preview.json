@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.124",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Eugen Relgis, SZ-AAP/L13.47",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.124/IMG.1",
+      "https://gams.uni-graz.at/o:szd.124/IMG.2",
+      "https://gams.uni-graz.at/o:szd.124/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Eugen Relgis\n- Signatur: SZ-AAP/L13.47\n- Datum: 28. Oktober I938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, Eugen Relgis\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift und Korrektur von Eugen Relgis",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Zwischen Herrn Dr. Stefan Z w e i g, 49 Hallam Street,\nLondon W.1. und Herrn Eugen Relgis, Strada A.No.24, Parcul Mica,\nBukarest 4, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr. Stefan {ZWEIG} überlässt die rumänischen Buchrechte\nan seinem Roman\n\n\"Ungeduld des Herzens\"\n\nHerrn Eugen Relgis gegen eine einmalige Zahlung von\n£ 12.- (zwölf Pfund Sterling).\n\nFalls das Buch nicht innerhalb von zwei Jahren nach\nVertragsabschluss erscheint, fallen die Rechte an den Verfasser\nzurück.\n\nHerr Dr. Zweig erhält bei Erscheinen des Buches zwei\nBelegexemplare.\n\nDas Honorar ist bei Abschluss des Vertrages zu er-\nlegen, und der Vertrag selbst tritt erst mit der Ueberweisung\ndieses Betrages an Herrn Dr. Zweig in Kraft.\n\nLondon, den 28.Oktober 1938                    Bukarest, den  November 1938\n....Stefan Zweig....                    ....Eugen Relgis................",
+        "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen (Einfügung 'ZWEIG' in Zeile 4, Unterschriften). Die Unterschrift von Stefan Zweig ist in violetter Tinte ausgeführt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, keine Schrift erkennbar (Durchschlag-Abdruck)."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite mit Farb- und Graustufenkarte, keine Schrift."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 868,
+    "total_words": 123,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      868,
+      0,
+      0
+    ],
+    "chars_per_page_median": 868,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3475,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

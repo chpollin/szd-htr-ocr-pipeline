@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.1394",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 20. Juli 1906, SZ-SEF/B5.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1394/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1394/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1394/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 20. Juli 1906, SZ-SEF/B5.3\n- Signatur: SZ-SEF/B5.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "York Minster, S.W.",
+        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+      },
+      {
+        "page": 2,
+        "transcription": "Ich verehrtes Fräulein, ich\nhabe Ihre sommerliche\nAdresse mit meinen Büchern\nverpackt und nun ich\nam Wege nach Schottland\nbin, mühe ich mich ver-\ngeblich darum. Hoffentlich\nerhalten Sie aber meine\nGrüsse aus Wien. Ihr ergeben\nStefan Zweig\n\nFräulein\nEugenie Hirschfeld\nMarkt Kreutzen\nGasthaus Kastner\nVienna [Austria]\nIX. Nussdorferstrasse 5\nbei Grein O.Ö.",
+        "notes": "Rückseite der Postkarte. Der Text ist in violett-blauer Tinte geschrieben. Die Adresse enthält durchgestrichene Teile (Vienna [Austria] und IX. Nussdorferstrasse 5 sind durchgestrichen, vermutlich um die neue Adresse 'Markt Kreutzen / Gasthaus Kastner' hervorzuheben). Der Poststempel ist vom 20. Juli 1906."
+      },
+      {
+        "page": 3,
+        "transcription": "Ich verehrtes Fräulein, ich\nhabe Ihre sommerliche\nAdresse mit meinen Büchern\nverpackt und nun ich\nam Wege nach Schottland\nbin, mühe ich mich ver-\ngeblich darum. Hoffentlich\nerhalten Sie aber meine\nGrüsse aus Wien. Ihr ergeben\nStefan Zweig\n\nFräulein\nEugenie Hirschfeld\nMarkt Kreutzen\nGasthaus Kastner\nVienna [Austria]\nIX. Nussdorferstrasse 5\nbei Grein O.Ö.",
+        "notes": "Identisch mit Seite 2, inklusive Farbskala und Kalibrierungshilfen."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der Durchstreichungen und der kursiven Handschrift gut lesbar. Die Korrespondenz ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 728,
+    "total_words": 109,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      18,
+      355,
+      355
+    ],
+    "chars_per_page_median": 355,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

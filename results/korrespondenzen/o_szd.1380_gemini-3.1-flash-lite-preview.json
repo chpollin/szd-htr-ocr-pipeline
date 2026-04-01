@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1380",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Karl Klammer vom 2. Januar 1907, SZ-SEF/B6.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1380/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1380/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1380/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Karl Klammer vom 2. Januar 1907, SZ-SEF/B6.5\n- Signatur: SZ-SEF/B6.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender:\nStefan Zweig\nI. Rathausstrasse 17\n\nKorrespondenz-Karte.\n\nAn Herrn Leutnant Karl Klammer\n\nin Lemberg\nWulkakaserne",
+        "notes": "Adressseite der Postkarte. Briefmarke und Poststempel (Lemberg 4.1.07) vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Freund, vor allem einen\nNeujahrsgruss! Der Rimbaud-Ar-\ntikel ist bereits beim Inselverlag\nerscheint ausserdem in der Zukunft\nich glaube er ist gelungen. Ihren\nMaeterlinck zeige ich im Litter\nEcho[?] an. Bitte notieren Sie\nmeine neue adresse, die von\n1. Februar an gilt\nVIII. Kochgasse 8 II.\nEs ist meine eigene Wohnung\n— endlich! — und ich freue\nmich innig, Sie dort einmal\nauf bald begrüssen zu dürfen\nVon Herzen Ihr\nStefan Zweig",
+        "notes": "Textseite der Postkarte. 'Litter Echo' ist vermutlich eine Abkürzung für 'Litterarisches Echo'."
+      },
+      {
+        "page": 3,
+        "transcription": "Absender:\nStefan Zweig\nI. Rathausstrasse 17\n\nKorrespondenz-Karte.\n\nAn Herrn Leutnant Karl Klammer\n\nin Lemberg\nWulkakaserne",
+        "notes": "Wiederholung der Adressseite (Scan mit Farbskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 681,
+    "total_words": 103,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      122,
+      437,
+      122
+    ],
+    "chars_per_page_median": 122,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0097,
+    "dwr_score": 0.4,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

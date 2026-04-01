@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1371",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Hugo Sinaiberger vom 12. März 1927, SZ-SEF/B8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1371/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1371/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1371/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Hugo Sinaiberger vom 12. März 1927, SZ-SEF/B8\n- Signatur: SZ-SEF/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nom\net adresse\nde l'expéditeur\nStefan Zweig\nCannes Hotel St. Georges\n\nCARTE POSTALE\n\nCANNES - [?]\n\n[Stempel: CANNES - 12 MARS 27]\n\n[Adressseite]\n\nMonsieur Hugo Sinaiberger\n(Praha) Prague\nPalais Lucerne",
+        "notes": "Die Adressseite enthält einen Poststempel 'CANNES 12 MARS 27'. Die gedruckten Teile der Postkarte wurden transkribiert."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Sinaiberger\nleider ist das Recht für diese Novelle\nschon vergeben aber hoffentlich kann\nich Ihnen meine gute Gesinnung\nbei einer anderen Gelegenheit be-\nweisen. Ihr ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Text in violett/dunkler Tinte. Sehr gut lesbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Nom\net adresse\nde l'expéditeur\nStefan Zweig\nCannes Hotel St. Georges\n\nCARTE POSTALE\n\nCANNES - [?]\n\n[Stempel: CANNES - 12 MARS 27]\n\n[Adressseite]\n\nMonsieur Hugo Sinaiberger\n(Praha) Prague\nPalais Lucerne",
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) inklusive der Farbskala-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, der Kontext der Postkarte ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 601,
+    "total_words": 90,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      201,
+      199,
+      201
+    ],
+    "chars_per_page_median": 201,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0222,
+    "dwr_score": 0.1707,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1106",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 20. September 1902, SZ-LAS/B3.27",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1106/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1106/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1106/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 20. September 1902, SZ-LAS/B3.27\n- Signatur: SZ-LAS/B3.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotan in\nBöhmen, Villa Reim",
+        "notes": "Adressseite der Postkarte. Die durchgestrichenen Wörter sind im Original erkennbar."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max, ich habe es wirklich sehr peinlich emp-\ngefunden, dass du mit mir, der ich nach 6 Monaten\nnicht mehr wieder in Heimat nach Haus zurückfindet,\nverhielt wie ein altes Weib und mir keine Zeile von\ndir kommen lässt. Und ich hörte so gerne etwas\nvon dir. Camillo verlebter Brief kam erst nach 8\nTage, den Verlaine sah ich wohl schon lange. Paul\nRemer hat ihm vorgestern ein „Tag“ ein 8 Seiten\nlanges Feuilleton gewidmet, in dem auch ich\nherausgestrichen bin. Ich habe hier schon eine Wohnung\nund lebe mich nach alter Berliner Sitte gerne zu\nmit, wenn du hier unterhaltslos bist. Von Herzen\ntrotz allem dein treuer\nHelen",
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüssig, aber stellenweise eng geschrieben. 'Helen' ist die Signatur, vermutlich ein Schreibfehler für 'Stefan' oder ein Spitzname."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Max, ich habe es wirklich sehr peinlich emp-\ngefunden, dass du mit mir, der ich nach 6 Monaten\nnicht mehr wieder in Heimat nach Haus zurückfindet,\nverhielt wie ein altes Weib und mir keine Zeile von\ndir kommen lässt. Und ich hörte so gerne etwas\nvon dir. Camillo verlebter Brief kam erst nach 8\nTage, den Verlaine sah ich wohl schon lange. Paul\nRemer hat ihm vorgestern ein „Tag“ ein 8 Seiten\nlanges Feuilleton gewidmet, in dem auch ich\nherausgestrichen bin. Ich habe hier schon eine Wohnung\nund lebe mich nach alter Berliner Sitte gerne zu\nmit, wenn du hier unterhaltslos bist. Von Herzen\ntrotz allem dein treuer\nHelen",
+        "notes": "Identisch mit Seite 2, da es sich um eine Aufnahme mit Farbreferenzkarte handelt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Transkription der Postkarten-Adressseite und des Textkörpers ist konsistent."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1320,
+    "total_words": 231,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      68,
+      626,
+      626
+    ],
+    "chars_per_page_median": 626,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5067,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

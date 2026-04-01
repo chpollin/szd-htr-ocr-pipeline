@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1206",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 14. Juni 1934, SZ-SAM/B7.36",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1206/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1206/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 14. Juni 1934, SZ-SAM/B7.36\n- Signatur: SZ-SAM/B7.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11 Portland Place                               London, den 14.Juni 1934.\n\n\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr herzlich für alle Ihre\nNachsendungen. Glücklicherweise ist ja in den Brie-\nfen nichts Wesentliches zu erledigen. Könnten Sie mir\neinen der Umschläge zu Marie Antoinette von der ita-\nlienischen Ausgabe schicken oder einen jener Ausgaben,\nin denen er nachgemacht ist, damit ich ihn hier den\nenglischen Verlegern für eine geplante billige Ausga-\nbe vorlegen kann.\n\nAlles Herzliche Ihnen und Ihrem Sohn\n\nStefan Zweig",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer bis auf einen kleinen violetten Tintenfleck."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 532,
+    "total_words": 77,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      532,
+      0
+    ],
+    "chars_per_page_median": 532,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4267,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

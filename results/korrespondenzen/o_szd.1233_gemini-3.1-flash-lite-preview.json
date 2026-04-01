@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1233",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.49",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1233/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1233/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1233/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.49\n- Signatur: SZ-LAS/B3.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Herr Doktor 19./V\nIhre Karte hat mir die grosse\nFreude bereitet, dass ich\nIhnen sagen kann, dass die\nUrsache, die Ihnen das Vergnü-\ngen des Aufenthaltes beinträch-\ntigt, kaum vorhanden ist.\nIhre liebe Frau Mutter, die ich\nzwei mal bisher besuchte ist\nsehr vergnügt, sehr sehr gut\naus und wiederholt immer\nwieder, sie hätte es sich\nnicht so leicht vorgestellt.\nSeien Sie recht vergnügt, das ist\ndas sicherste Mittel es ihr\nauch weit erhin leicht zu\nmachen. Mir gehen Sie auch ab,\nfür mich selbst und für\nStefan Wenn ich Sie auch\nselten sehe: es ist ein gutes\nGefühl Sie nahe zu wissen;",
+        "notes": "Die Transkription umfasst die Nachrichtenseite der Postkarte. Das Datum '19./V' steht oben rechts."
+      },
+      {
+        "page": 2,
+        "transcription": "aber ein sehr gutes auch\nSie froh und zufrieden\nzu wissen. Vielen Dank\nfür Ihre Aufforderung\nIch werde meinen guten\nMeister die Wahl\nüberlassen und es dann\nmit Ihrer noch strengeren\nKritik annehmen\nversuchen. Jedenfalls\nalles Gute für die neue\nArbeit, für Sie selbst\ndas Beste. Ihr Ihrer Frau\nMutter geh ich bald wieder.",
+        "notes": "Dies ist die linke Seite der Postkarte (Textfortsetzung). Der Adressbereich rechts wurde nicht transkribiert. Briefmarke und Poststempel vorhanden."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Herr Doktor 19./V\nIhre Karte hat mir die grosse\nFreude bereitet, dass ich\nIhnen sagen kann, dass die\nUrsache, die Ihnen das Vergnü-\ngen des Aufenthaltes beinträch-\ntigt, kaum vorhanden ist.\nIhre liebe Frau Mutter, die ich\nzwei mal bisher besuchte ist\nsehr vergnügt, sehr sehr gut\naus und wiederholt immer\nwieder, sie hätte es sich\nnicht so leicht vorgestellt.\nSeien Sie recht vergnügt, das ist\ndas sicherste Mittel es ihr\nauch weit erhin leicht zu\nmachen. Mir gehen Sie auch ab,\nfür mich selbst und für\nStefan Wenn ich Sie auch\nselten sehe: es ist ein gutes\nGefühl Sie nahe zu wissen;",
+        "notes": "Dies ist eine Wiederholung der ersten Seite (Scan 1) im Kontext der Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz der engen Zeilenabstände und der für die Zeit typischen Kurrent-Elemente."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1502,
+    "total_words": 262,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      591,
+      320,
+      591
+    ],
+    "chars_per_page_median": 591,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5992,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

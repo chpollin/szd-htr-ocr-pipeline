@@ -57,12 +57,22 @@
     "confidence_notes": "Der Text liegt als sauberes Typoskript vor. Die französische Sprache ist durchgehend gut lesbar, trotz einiger kleinerer orthographischer Eigenheiten des Verfassers (z.B. 'Stafan' statt 'Stefan', 'Luthere' statt 'Luther')."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 9440,
     "total_words": 1581,
     "total_pages": 5,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 5,
     "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       1773,
       2044,
@@ -74,6 +84,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.3686,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

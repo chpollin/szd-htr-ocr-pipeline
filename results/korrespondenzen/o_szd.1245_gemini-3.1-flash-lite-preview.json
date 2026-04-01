@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.1245",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.61",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1245/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1245/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.61\n- Signatur: SZ-LAS/B3.61\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herrn Dr Victor Fleischer\nXIX Billrothstraße 20",
+        "notes": "Adressseite eines Briefumschlags."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Briefmarke und Poststempel (Wien, 16. IX.)."
+      },
+      {
+        "page": 3,
+        "transcription": "Donnerstag\nabends,\n\nLieber Victor,\ngerne hätte ich Sie schon\naufgesucht, aber ich\nwar seit Montag nur einmal\naus, um zu meinem Schwieger-\nvater zu gehen. Ich bin\nimmer zu hause {gewesen} gleichsam\neingesponnen in einem\nmerkwürdigen Traumzustand,\nvol erzeugt durch den\nHochdruck meines Kummers.\nStefan schrieb mir es gienge\nihm unentwegt gut u.\ner hoffe das selbe von mir\n(ohne Bekanntgabe wo er ist)",
+        "notes": "Erste Seite des Briefes."
+      },
+      {
+        "page": 4,
+        "transcription": "Ich bereue es ab und zu\nihn bei Ihnen angeklagt\nzu haben, d.h. Ihnen\ngesagt zu haben, dass er\nmir Schmerz bereite. Denn\nich kann vom Positiven ja\nnicht sprechen, wie auch er\nes wie kann und dann\nzittere ich jetzt Sie {als} lieber\nlauterer Mensch könnten\nihn nun zürnen. Seine\nGrausamkeit verdient es\naber ob er an ihr Schuld\nist, deren ist wol zu",
+        "notes": "Zweite Seite des Briefes."
+      },
+      {
+        "page": 5,
+        "transcription": "zweifeln. Und leider gibt\nes ja so viele wertvolle\nMänner, die Frauen gegenüber\nderen Art Frauen zu be-\nhandeln nicht eingeschätzt\nwird. Faßmann hat das\nRecht des Künstlers gegen\nFrauen sogar ganz schlecht\nzu sein letzthin mit einem\nmir lachhaften {allgemeinen} Eifer ver-\nTeidigt. (In einem Gespräch.)\nVielleicht auch meint St.\nes tiefinnerlich so ehrlich\nmit mir (so tiefinnerlich\ndass ich es oft nicht fühle);",
+        "notes": "Dritte Seite des Briefes."
+      },
+      {
+        "page": 6,
+        "transcription": "dass ihm alles was er unfreundlich-\nkeiten, Verhalten nennt, gleich-\ngültig erscheint. Also keines-\nfalls dürfen Sie ihm zürnen.\nIch hätte dann die Erleichterung\nmit Ihnen sprechen zu können\nzu schwer erkauft. - Morgen\nkommt Dr v. Winternitz auf wenige\nStunde am Wege nach Tirol ins Feld\nüber Wien. Das erste Wiedersehens seit\ndem er mir die, trotz unserer Scheidung\naufrechtgebliebene Freundschaft auf-\nsagte seitdem er aufhörte mir zu schreiben.\nIch bebe vor dem morgigen Tag. Abermals ist\ndann Vortrag des alten Herrn. Samstag hoffe\nich Sie zu sehen, abends im Café vielleicht.\nAber kommen Sie nicht eigens meinetwegen.\nDienstag lese ich über Rolland, aber es würde Sie wohl\nlangweilen. Ich grüße Sie in Herzlichkeit\nIhre Friderike Maria",
+        "notes": "Vierte Seite des Briefes."
+      },
+      {
+        "page": 7,
+        "transcription": "gültig erscheint. Also keines-\nfalls dürfen Sie ihm zürnen.\nIch hätte dann die Erleichterung\nmit Ihnen sprechen zu können\nzu schwer erkauft. - Morgen\nkommt Dr v. Winternitz auf wenige\nStunde am Wege nach Tirol ins Feld\nüber Wien. Das erste Wiedersehens seit\ndem er mir die, trotz unserer Scheidung\naufrechtgebliebene Freundschaft auf-\nsagte seitdem er aufhörte mir zu schreiben.",
+        "notes": "Wiederholung des Textes von Seite 6 mit Farbskala/Grauskala-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die Korrekturen und Einfügungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 2322,
+    "total_words": 379,
+    "total_pages": 6,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 6,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      47,
+      0,
+      399,
+      346,
+      412,
+      740,
+      378
+    ],
+    "chars_per_page_median": 388.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4748,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

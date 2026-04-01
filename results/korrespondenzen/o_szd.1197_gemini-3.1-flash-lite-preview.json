@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1197",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 27. November 1933, SZ-SAM/B7.27",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1197/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1197/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 27. November 1933, SZ-SAM/B7.27\n- Signatur: SZ-SAM/B7.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11 Portland Place                                London, den 27.November 1933.\n\n\n\nLiebe Frau Meingast.\n\nIch danke Ihnen sehr fuer Ihren guten Brief. Es\nhat sich alles in der letzten Zeit viel unangenehmer und aergerlicher\ngestaltet als Sie sichs denken moegen, aber ich komme innerlich schon\nzurecht und nehme die Dinge nicht mehr so schwer als vordem. Darf ich\nSie noch heute um eine Kleinigkeit bitten, naemlich ein Exemplar des\n\"Kampf mit dem Daemon\" an Herrn Camille R.Honig, London N 7, 6 Park-\nhurst Road, freundlichst senden zu wollen. Wir haben bisher noch kei-\nne weiteren Dispositionen getroffen und bitten Sie, und in solange\nzu schreiben, als wir nicht abtelegraphieren.\n\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Die Unterschrift ist handschriftlich in violetter Tinte ausgeführt, der Rest des Dokuments ist maschinenschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite des Dokuments ist leer (bzw. zeigt lediglich den Durchdruck des Textes der Vorderseite)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 712,
+    "total_words": 109,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      712,
+      0
+    ],
+    "chars_per_page_median": 712,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5283,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

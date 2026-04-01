@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1094",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 25. Februar 1902, SZ-LAS/B3.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1094/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1094/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1094/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 25. Februar 1902, SZ-LAS/B3.16\n- Signatur: SZ-LAS/B3.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An\n~~Herrn~~ Max Fleischer\n~~Weimar und Kötzschau~~\n~~in~~ Leipzig (Sachsen)\nMünzgasse 16\nKomotau[?] 25/2",
+        "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, 'Komotau' ist eine Vermutung basierend auf dem Kontext."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur” Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit” und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+        "notes": "Textseite der Postkarte. 'Pariser' und 'Binder' sind unsichere Lesungen aufgrund der Handschrift."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur” Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit” und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber einige Eigennamen und Abkürzungen sind schwer zu entziffern. Die Lesung 'Komotau' und 'Binder' ist aufgrund der Schriftführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1079,
+    "total_words": 178,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      105,
+      487,
+      487
+    ],
+    "chars_per_page_median": 487,
+    "marker_uncertain_count": 5,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0281,
+    "dwr_score": 0.4375,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

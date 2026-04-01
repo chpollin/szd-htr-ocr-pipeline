@@ -1,0 +1,86 @@
+{
+  "object_id": "o_szd.207",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Umschlagmappe „History of tomorrow“",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.207/IMG.1",
+      "https://gams.uni-graz.at/o:szd.207/IMG.2",
+      "https://gams.uni-graz.at/o:szd.207/IMG.3",
+      "https://gams.uni-graz.at/o:szd.207/IMG.4",
+      "https://gams.uni-graz.at/o:szd.207/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Umschlagmappe „History of tomorrow“\n- Signatur: SZ-AAP/W22.4\n- Sprache: Deutsch\n- Objekttyp: Umschlagmappe\n- Schreibinstrument: Blauer Buntstift\n- Hand: Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Magellan\n3. Fassung\nIX",
+        "notes": "Die römische Ziffer IX ist unterstrichen."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Rückseite der Mappe (mit Grauskala)."
+      },
+      {
+        "page": 3,
+        "transcription": "handschriftliche\nMSS\n\nHistory of to-morrow (unvollst)\nTolstoi Vorrede (unvollst)\nSecret of Artistic creation\nDie Kunst ohne Sorgen zu leben\nDas erste Wort über den Ocean\nWorte am Sarge Freud\nCicero (1. Fassung)",
+        "notes": "Die Liste enthält verschiedene Werktitel. 'unvollst' steht für unvollständig. 'Freud' ist am Ende des Wortes leicht abgeschnitten, aber lesbar."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Innenseite der Mappe (mit Grauskala)."
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Rückseite der Mappe (mit Farb- und Grauskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist in deutlicher Blockschrift bzw. gut lesbarer Handschrift mit blauem Stift verfasst. Die Identifikation der Werktitel ist aufgrund der klaren Schrift eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 232,
+    "total_words": 36,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 0,
+    "color_chart_pages": 3,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "color_chart",
+      "content",
+      "color_chart",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      22,
+      0,
+      210,
+      0,
+      0
+    ],
+    "chars_per_page_median": 116.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2571,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

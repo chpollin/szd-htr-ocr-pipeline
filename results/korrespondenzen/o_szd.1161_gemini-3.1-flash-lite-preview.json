@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1161",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1161/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1161/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.2\n- Signatur: SZ-SAM/B11.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "20. 1. 30",
+        "notes": "Datum auf der Bildseite der Postkarte."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gendrene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
+        "notes": "Die Postkarte enthält einen Poststempel 'POMPEI - PROVINCIA' und zwei italienische Briefmarken. Der Text 'POMPEI. - Foro civile.' ist gedruckt. Das Wort 'Gendrene' ist schwer lesbar, möglicherweise ein Schreibfehler für 'Gedrene' oder 'Gedränge' (im Sinne von Erlebtem/Eindrücken)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, abgesehen von dem Wort 'Gendrene', das orthographisch unklar ist."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 344,
+    "total_words": 53,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      9,
+      335
+    ],
+    "chars_per_page_median": 172.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0189,
+    "dwr_score": 0.36,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

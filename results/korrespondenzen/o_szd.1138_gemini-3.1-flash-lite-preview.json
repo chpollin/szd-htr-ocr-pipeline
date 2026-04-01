@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1138",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Anna Meingast an Lotte Altmann, SZ-SAM/B10.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1138/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1138/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Anna Meingast an Lotte Altmann, SZ-SAM/B10.16\n- Signatur: SZ-SAM/B10.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 15. Februar 1938\n\nLiebes Fräulein Altmann,\n\nich weiss zwar nicht, ob sie noch in London sind, aber in\nErmanglung einer anderen Anschrift von Herrn DR. Zweig,\nübersende ich wieder die im Laufe dieser Woche eingelau-\nfene Post nach London.\nSonst kamen nur unwesentliche Drucksachen und die\nMeldung der Länderbank über eine Ueberweisung von S 100.-\nan Ing. S. Strauss.\nIch möchte auch noch bestätigen, dass ich den von\nHerrn Dr. Zweig angewiesenen Betrag mit bestem Dank er-\nhalten habe.\nMit besten Grüssen, Ihre",
+        "notes": "Maschinenschriftlicher Brief auf Briefpapier mit dem Logo von Stefan Zweig."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 538,
+    "total_words": 87,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      538,
+      0
+    ],
+    "chars_per_page_median": 538,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4819,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

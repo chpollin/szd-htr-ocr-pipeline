@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1180",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 28. Januar 1931, SZ-SAM/B7.10",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1180/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1180/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 28. Januar 1931, SZ-SAM/B7.10\n- Signatur: SZ-SAM/B7.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "28/I 31\n\nJublat,\n\nliebe Frau Meingast,\n\nwir erhielt heute 28. Jänner Ihren Brief vom 25., die\nbeiden Briefe, die Sie mir nach Palina richtig sandten ~~werden~~\ndie wahrscheinlich an Ihre Adresse zurückgehen. Ich\nwusste damals nicht, wohin wir fahren würden, da\nwir dort nicht zufrieden waren. Für den Briefauszug\nund die Briefe danke ich Ihnen vielmals; es ist\nalles in bester Ordnung.\nNicht habe ich die Sache Amerongen verstanden, der\nüber die Übersetzung von Amok meldet. Meiner Ansicht\nnach, ist das Buch doch holländisch längst er-\nschienen.\nVon jetzt an werden alle Correspondenzen viel\neinfacher sein können. Wir bleiben hier mindestens\n4 Wochen und sind sehr zufrieden. Im Durch-\nschnitt dürfte ein Brief hierher 2 Tage brauchen\nund wie ich aus dem Bisherigen sehe, versäumt\nman nichts Wesentliches durch Fortsein.\nHoffentlich sind Sie und Ihr Sohn gesund\n\nMit besten Grüßen Ihr\n\nHerzlichen Gruß Fr. Zweig\nStefan Zweig",
+        "notes": "Der Text enthält einige Korrekturen und Einfügungen. Die Zeile 'Herzlichen Gruß Fr. Zweig' scheint eine nachträgliche Ergänzung oder ein Versehen im Layout zu sein, da sie unter der Grußformel steht, während die Unterschrift 'Stefan Zweig' am Ende folgt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz einiger kleinerer Korrekturen im Manuskript."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 926,
+    "total_words": 147,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      926,
+      0
+    ],
+    "chars_per_page_median": 926,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5423,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

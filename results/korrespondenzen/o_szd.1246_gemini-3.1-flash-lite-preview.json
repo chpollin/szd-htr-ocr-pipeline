@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.1246",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.62",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1246/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.62\n- Signatur: SZ-LAS/B3.62\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "F.\n\nLieber Victor,\nhier die Karte. Ich hoffe\ndich dort zu sprechen.\nStefan will Mittwoch\nwegfahren, er ist lieb\nund will mich mitnehmen.\nIch hätte dir allerlei zu\nerzählen. Herzlichst\nEmpfehlungen deiner Frau Mama. Friderike",
+        "notes": "Das 'F.' am Anfang ist vermutlich ein Kürzel für Friderike. Die Handschrift ist gut lesbar."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Kaiserliche Königliche Österreichische Post' mit Stempel 'Wien 15. X. 15'."
+      },
+      {
+        "page": 6,
+        "transcription": "F.\n2121917",
+        "notes": "Rückseite des Briefumschlags. Die Zahl '2121917' könnte ein Archivvermerk oder ein Datum (21. 2. 1917) sein."
+      },
+      {
+        "page": 7,
+        "transcription": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
+        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala des Archivs."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Struktur des Briefes und des Umschlags ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 328,
+    "total_words": 51,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      224,
+      0,
+      0,
+      0,
+      47,
+      10,
+      47
+    ],
+    "chars_per_page_median": 47.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2708,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

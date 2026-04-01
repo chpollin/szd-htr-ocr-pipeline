@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1229",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 23. Januar 1931, SZ-SAM/B7.9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1229/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1229/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 23. Januar 1931, SZ-SAM/B7.9\n- Signatur: SZ-SAM/B7.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "helfen war. Richtig ist ein glücklicherweise gar nichts als bald eine\nangenehme Stelle im Süden zu finden, wo ich ruhig arbeiten kann.\nviele Grüsse an alle.\nStefan Zweig\n12 - DEYÁ (Mallorca). Vista general del Pueblo",
+        "notes": "Die handschriftliche Nachricht auf der Bildseite der Postkarte ist teilweise über den gedruckten Text geschrieben."
+      },
+      {
+        "page": 2,
+        "transcription": "23.1.31\nLiebe Frau Meingast, wir sind hier\nnicht geblieben, die Hotels waren überfüllt und wir\nbekam kein Zimmer für die Arbeit. So\nlasse ich alle Post im Stich und\nhabe Auftrag gegeben, alles wieder\nnach Salzburg zurückzusenden; ich\ntelegrafiere Ihnen die nächste Ad-\nresse und bitte Sie dorthin zu\nschreiben, was in der Post von\nSamstag zu Donnerstag, die ich\nmitgehen liess, ungefähr ent\n\nFrau Anna Meingast\nSalzburg / Austria\nLinzerstrasse 16",
+        "notes": "Die handschriftliche Nachricht auf der Adressseite ist in violetter Tinte verfasst. Ein Poststempel 'BARCELONA 23 ENE 31' ist vorhanden. Die Briefmarke ist eine spanische 15-Centimos-Marke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz der teilweise überlagerten Schrift auf der Bildseite."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 662,
+    "total_words": 108,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      216,
+      446
+    ],
+    "chars_per_page_median": 331.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4466,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

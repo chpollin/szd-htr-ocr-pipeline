@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.1392",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 21. Dezember 1908, SZ-SEF/B5.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1392/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1392/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1392/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 21. Dezember 1908, SZ-SEF/B5.12\n- Signatur: SZ-SEF/B5.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Parsees Tower\nSilence.\nBombay.\n\nSehr verehrtes Fräulein, ich\nstarre Sie selber aus\nTraum - und Wunderland.\nStefan Zweig",
+        "notes": "Vorderseite der Postkarte mit Bildmotiv."
+      },
+      {
+        "page": 2,
+        "transcription": "Carte Postale\n\n[Poststempel: BOMBAY 21 DE.08 30 PM]\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nußdorferstraße 5\n\nIch wünsche ich [?] sehe als\nGlück für Hause wer nur alles\nandere. Wir selbst wer so ich\nwirklich besseres zu wünschen\nals Indien — es ist unzag-\nbar herrlich und großartig",
+        "notes": "Rückseite der Postkarte. Der Text am linken Rand ist schwer lesbar, da er teilweise in die Falz oder den Randbereich übergeht. Die Interpretation 'Ich wünsche ich sehe als Glück...' ist aufgrund der Handschrift unsicher."
+      },
+      {
+        "page": 3,
+        "transcription": "Carte Postale\n\n[Poststempel: BOMBAY 21 DE.08 30 PM]\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nußdorferstraße 5\n\nIch wünsche ich [?] sehe als\nGlück für Hause wer nur alles\nandere. Wir selbst wer so ich\nwirklich besseres zu wünschen\nals Indien — es ist unzag-\nbar herrlich und großartig",
+        "notes": "Identisch mit Seite 2, zeigt die Postkarte im Kontext der Farbskala."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere der Satzanfang am linken Rand."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 707,
+    "total_words": 114,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      119,
+      294,
+      294
+    ],
+    "chars_per_page_median": 294,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0175,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

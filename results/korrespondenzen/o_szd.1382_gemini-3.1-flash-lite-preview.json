@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1382",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Unbekannt vom 1. Dezember 1931, SZ-SAH/B6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1382/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1382/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1382/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt vom 1. Dezember 1931, SZ-SAH/B6\n- Signatur: SZ-SAH/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwarmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Die Datumsangabe '1. Dez 1931' ist handschriftlich ergänzt. Die Zeile 'völlig ergebenen' wirkt wie ein Teil der Grußformel, die in den Namen übergeht."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer bis auf einen Tintenfleck."
+      },
+      {
+        "page": 3,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwarmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+        "notes": "Dies ist eine Wiederholung des ersten Scans mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der individuellen Handschrift von Stefan Zweig. Die Transkription ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 884,
+    "total_words": 140,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      442,
+      0,
+      442
+    ],
+    "chars_per_page_median": 442.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.403,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

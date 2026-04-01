@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1173",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gert René Podbieliki an Anna Meingast, SZ-SAM/B16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1173/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1173/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1173/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gert René Podbieliki an Anna Meingast, SZ-SAM/B16\n- Signatur: SZ-SAM/B16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "28. Mai 36\n\nSehr verehrte Frau -\nmit der gleichen Post\nschicke ich einen Brief und eine Druck-\nsache für Herrn Stefan Zweig, die ich weiter-\nzuleiten bitte, falls Herr Zweig noch in\nLondon ist. - Erlauben Sie mir, bei dieser\nGelegenheit zu sagen, wie rührend im\nNovember gewesen ist, dass Sie die drei Seiten\ndes Manuskripts, die ich Ihnen schickte, \"sehr\nschön\" fanden. Ich war damals so sehr auf\nErmutigung angewiesen.. Darf ich Ihnen\nzum Dank das indessen bei Danker in",
+        "notes": "Die letzte Zeile bricht mitten im Satz ab, der auf der Rückseite der Postkarte fortgesetzt wird."
+      },
+      {
+        "page": 2,
+        "transcription": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 219\n\n[Text auf der linken Seite:]\nfürd erschienene Buch -\n(freilich leider nur kartoniert) -\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Die Postkarte enthält eine Briefmarke (Hindenburg, 6 Pfennig) und einen Poststempel. Der Text auf der linken Seite setzt den Satz von Seite 1 fort: '...bei Danker in fürd erschienene Buch...' (hier wohl 'für das erschienene Buch')."
+      },
+      {
+        "page": 3,
+        "transcription": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 219\n\n[Text auf der linken Seite:]\nfürd erschienene Buch -\n(freilich leider nur kartoniert) -\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Dies ist eine Wiederholung des Inhalts von Seite 2 (Scan mit Farbskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Fortsetzung des Satzes über die beiden Seiten hinweg ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1312,
+    "total_words": 204,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      472,
+      420,
+      420
+    ],
+    "chars_per_page_median": 420,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4439,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

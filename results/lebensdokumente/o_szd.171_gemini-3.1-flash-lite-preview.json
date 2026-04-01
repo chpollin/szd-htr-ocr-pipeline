@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.171",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater, SZ-SEF/L4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.171/IMG.1",
+      "https://gams.uni-graz.at/o:szd.171/IMG.2",
+      "https://gams.uni-graz.at/o:szd.171/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater\n- Signatur: SZ-SEF/L4\n- Datum: wahrscheinl Frühj 1906\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift\n- Hand: Erich Fitzbauer\n- Anmerkungen: Auf dem Foto zu sehen (v. l. n. r.): Alfred Zweig, Ing. Robert Goldmann, ein unbekannter Herr, eine unbekannte Dame, Dr. Robert Müller, Stefan Zweig; rückseitig beschriftet",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Postkarte, zeigt eine Personengruppe. Kein Text vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Alfred Zweig\n(Angaben)\nwahrscheinl Frühj\n1906\nWurstelprater\n\nm. u. SZweig\nr. o. Dr. Rob. Müller (Brüder v. Hans Müller\n= E. Lothar)\nl. u. Ing. Robert Goldmann\nl. o. Alfred Zweig\no. t. M. [?]",
+        "notes": "Die Transkription folgt der handschriftlichen Notiz auf der Rückseite. Die Abkürzungen (m. u., r. o., etc.) beziehen sich auf die Positionen der Personen auf dem Foto (m. u. = mitte unten, r. o. = rechts oben, etc.). Die Zeile '= E. Lothar' ist unter 'Hans Müller' eingefügt."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Scan mit Farb- und Grauskala, zeigt erneut die Vorderseite der Postkarte. Kein zusätzlicher Text."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die Abkürzungen sind im Kontext der Personenidentifikation eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 190,
+    "total_words": 35,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      190,
+      0
+    ],
+    "chars_per_page_median": 190,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0286,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

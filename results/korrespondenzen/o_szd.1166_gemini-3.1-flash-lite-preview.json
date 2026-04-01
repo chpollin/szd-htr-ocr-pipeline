@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1166",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1166/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1166/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.7\n- Signatur: SZ-SAM/B11.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4. April 35\n\nLiebe Frau Meingast,\nbitte lassen Sie von der Postsparkasse\n5000 Sch an die Länderbank anweisen\nund weitere 4000 Sch für sich auf\nIhr Buch, sei es direkt von der\nPostsparkasse und wenn dies nicht\ngeht an die Länderbank für Ihr\ndortiges Buch.\nBesten Dank für Ihre Aufzeichnungen\nund auch Johann. Anbei ein Zettel,\nmit dem er sich ~~v~~ 500 Sch\nvon der Länderbank für seine\nAusgaben und auf Rechnung\nholen soll. Er soll Legitimation mitnehmen.\nAlles Schöne für Sie und Willi\nHerzlich Ihre Friderike Zweig",
+        "notes": "Das Wort 'Länderbank' wurde im Original als 'Länderbank' (mit 'ä') gelesen, obwohl es im Schriftbild 'Läuderbank' ähnelt. Das durchgestrichene 'v' vor '500' ist deutlich erkennbar."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Friderike Zweig ist klar strukturiert."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 515,
+    "total_words": 88,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      515,
+      0
+    ],
+    "chars_per_page_median": 515,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5542,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

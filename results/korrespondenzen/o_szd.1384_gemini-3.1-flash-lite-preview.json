@@ -1,0 +1,72 @@
+{
+  "object_id": "o_szd.1384",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Gisela von Berger vom 30. April 1906, SZ-SEF/B1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1384/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1384/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1384/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Gisela von Berger vom 30. April 1906, SZ-SEF/B1\n- Signatur: SZ-SEF/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Viele Grüße aus der ferne von Ihrem\nergebenen\n\nStefan Zweig\n\n(Hoffen Sie nun eine\nKarte nach\n[...3...]schicken !)\n\n[...3...] man Ihnen dies\nherüber nach.",
+        "notes": "Die Transkription der Vorderseite ist aufgrund der Überlagerung mit dem Bildmotiv und der teilweise unleserlichen Handschrift schwierig. Die Klammerung im Text wurde übernommen."
+      },
+      {
+        "page": 2,
+        "transcription": "Gisela Baronen Berger\n\nVienna (Austria)\n\nI. Tuchlauben 7",
+        "notes": "Die Adressseite ist gut lesbar. Der Poststempel 'PADDINGTON' und das Datum 'APL 30 06' sind vorhanden."
+      },
+      {
+        "page": 3,
+        "transcription": "Viele Grüße aus der ferne von Ihrem\nergebenen\n\nStefan Zweig\n\n(Hoffen Sie nun eine\nKarte nach\n[...3...]schicken !)\n\n[...3...] man Ihnen dies\nherüber nach.",
+        "notes": "Dies ist eine Wiederholung der Vorderseite (Scan 1) mit Farbskala."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Vorderseite der Postkarte ist teilweise schwer zu entziffern, da sie über das gedruckte Bildmotiv geschrieben wurde und die Tinte teilweise verblasst ist."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 362,
+    "total_words": 56,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      153,
+      56,
+      153
+    ],
+    "chars_per_page_median": 153,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 4,
+    "marker_density": 0.0714,
+    "dwr_score": 0.3529,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

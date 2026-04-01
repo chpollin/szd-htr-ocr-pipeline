@@ -1,0 +1,94 @@
+{
+  "object_id": "o_szd.1293",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an ? Jeanrenaud vom 13. Dezember 1912, SZ-SHB/B5.1",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1293/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1293/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1293/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1293/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1293/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1293/IMG.6"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an ? Jeanrenaud vom 13. Dezember 1912, SZ-SHB/B5.1\n- Signatur: SZ-SHB/B5.1\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 6 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Semmering 13. Dez. 1912\n\nChère Mademoiselle, je suis pour l'in-\nstant dans les environs de Vienne, pour\nrespirer l'air de montagne et je n'ai\npas moyen de fouiller mes papiers, pour\n~~trouver~~ {avoir} une indication, comment trouver\nune silhouette de Verhaeren. Mais je suis\nsûr de trouver quelque chose, qui vous\ncontentera, immédiatement après mon\nretour à Vienne (en trois jours) et je\nvous enverrai soit une eau-forte de V.\nou une silhouette, qui, encadré par vos\nsoins, fera sans doute le plaisir de M.\nRallumerer[?]. Alors, attendez, je vous en\nprie, encore ces trois jours et vous aurez\ntout, ce que je peux vous donner et\nj'espère, vous serez content. Avec mes\nmeilleurs compliments\n\nStefan Zweig",
+        "notes": "Der Name 'Rallumerer' ist schwer lesbar, könnte auch eine fehlerhafte Schreibweise von Verhaeren sein, erscheint aber als Eigenname."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leerseite."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leerseite."
+      },
+      {
+        "page": 5,
+        "transcription": "Briefen\nvon Stefan Zweig\n\nMademoiselle Jeanrenaud\n\nHamburg\nInnocentiastrasse 35",
+        "notes": "Umschlagvorderseite. 'Briefen von Stefan Zweig' ist in blauer Tinte von fremder Hand notiert. Poststempel: SEMMERING 13. XII 12-3."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Umschlagrückseite. Leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Eigennamen im Brieftext. Die Struktur ist klar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 784,
+    "total_words": 126,
+    "total_pages": 2,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 6,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      705,
+      0,
+      0,
+      0,
+      79,
+      0
+    ],
+    "chars_per_page_median": 392.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0079,
+    "dwr_score": 0.3828,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

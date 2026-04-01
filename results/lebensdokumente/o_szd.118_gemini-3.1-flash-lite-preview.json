@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.118",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Wydawnictwo J. Przeworskiego, SZ-AAP/L13.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.118/IMG.1",
+      "https://gams.uni-graz.at/o:szd.118/IMG.2",
+      "https://gams.uni-graz.at/o:szd.118/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Wydawnictwo J. Przeworskiego\n- Signatur: SZ-AAP/L13.41\n- Datum: Juni 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "V e r t r a g\n-----------\n\nZwischen Herrn Dr. Stefan Zweig, 49 Hallam Street, London W.1.\n(im folgenden Autor genannt) und der Firma Wydawnictwo J.\nPrzeworskiego, Sienkiewicza 2, Warschau (im folgenden Ver-\nleger genannt) ist heute folgende Vereinbarung getroffen\nworden:\n\nDer Verleger erwirbt vom Autor das alleinige Recht, die\nBuchausgabe des Werkes\n\n\"M a g e l l a n\"\n\nin polnischer Sprache zu veröffentlichen.\n\nDer Verleger zahlt für die erste Auflage von 2000 (zwei-\ntausend) Exemplaren ein Honorar von Zl. 600.- (sechshundert),\ndas bei Vertragsabschluss fällig ist. Für alle weiteren Auf-\nlagen beträgt das Honorar 10 (zehn)% vom Ladenpreis der pol-\nnischen Ausgabe. Die Abrechnung erfolgt halbjährlich am\n30. Juni und 31. Dezember.\n\nDer Verleger verpflichtet sich, die polnische Ausgabe binnen\neinem Jahr nach Vertragsabschluss zu veröffentlichen.\n\nDer Autor erhält von der polnischen Ausgabe zwei gebundene\nBelegexemplare.\n\n\nStefan Zweig\n---------------------------\nLondon, den . . Juni 1937\n\n[Unterschrift unleserlich][?]\n---------------------------\nWarschau, den , , .",
+        "notes": "Das Dokument ist ein Typoskript. Die Unterschrift von Stefan Zweig ist eigenhändig in violetter Tinte, die Unterschrift des Verlegers ist in schwarzer Tinte und schwer lesbar. Die Datumsangaben sind teilweise handschriftlich ergänzt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1078,
+    "total_words": 157,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1078,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1078,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0064,
+    "dwr_score": 0.3333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

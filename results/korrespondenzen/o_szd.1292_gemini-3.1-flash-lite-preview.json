@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1292",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Maria Kaemmerer vom 2. August 1927, SZ-SHB/B4.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1292/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1292/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1292/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Maria Kaemmerer vom 2. August 1927, SZ-SHB/B4.3\n- Signatur: SZ-SHB/B4.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "NOCH STEHT MANCH\nALTES HAUS VER\nEHRT ALS SEINES\nWIRKENS STAETTE\n\nKEIN NEUES WARD\nERBAUT DAS NICHT\nSEIN LIED DURCH\nKLUNGEN HAETTE",
+        "notes": "Vorderseite der Ansichtspostkarte mit Beethoven-Motiv und Text."
+      },
+      {
+        "page": 2,
+        "transcription": "G~~e~~ehrte gnädige Frau\nder Alte Salzburger\n~~Sommer~~ möge werden\n~~späten~~ Dank für das\nwundervolle und er-\n~~f~~ühlig bewahrte Bildnis\nund Ihre guten Worte ent-\nschuldigen. herzlichst\nIhr ergebener\nStefan Zweig",
+        "notes": "Rückseite der Postkarte. Handschrift von Stefan Zweig in violetter Tinte. Die durchgestrichenen Wörter sind im Original deutlich erkennbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Frau\nMaria Kaemmerer\nHamburg\nInnocentiastrasse 35",
+        "notes": "Adressseite der Postkarte. Der Name der Straße ist 'Innocentiastrasse' (in Hamburg üblich). Poststempel: SALZBURG 2, -2 VIII 27."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der Durchstreichungen und der kursiven Handschrift gut lesbar. Die Ortsangabe 'Innocentiastrasse' wurde aufgrund der bekannten Hamburger Adresse ergänzt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 392,
+    "total_words": 58,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      128,
+      215,
+      49
+    ],
+    "chars_per_page_median": 128,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3167,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

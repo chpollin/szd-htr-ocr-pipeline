@@ -1,0 +1,86 @@
+{
+  "object_id": "o_szd.1299",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an unbekannt ohne Datum, SZ-SHB/B8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1299/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1299/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1299/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1299/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1299/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an unbekannt ohne Datum, SZ-SHB/B8\n- Signatur: SZ-SHB/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien den 5. Juli 1917\n\nSehr verehrte Baronesse, ich erfahre\nsoeben verspätet von dem schweren\nVerluste, der Sie und Ihre verehrte Fa-\nmilie betroffen hat und bitte Sie, mei-\nne innige Anteilnahme freundlichst\nentgegenzunehmen. In dieser Zeit allge-\nmeinen Leidens ist, ich weiss es, eigener Ver-\nlust nicht geringer, sondern nur noch\nschwerer zu fühlen und ich fühle, eben\nweil ich wüsste einen wie gütigen Freund\nSie mit Ihrem Vater verloren haben Ihre\nharten Stunden mit ganzem Herzen mit.\nSagen Sie, bitte, dann Ihrem meine innige\nTeilnahme und seien Sie herzlichst be-\ngrüsst von Ihrem ergebenen\nStefan Zweig",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Die Handschrift ist gut lesbar."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, zeigt Durchdruck der Tinte von der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 4,
+        "transcription": "A94 (237)",
+        "notes": "Rückseite des leeren Blattes mit Archivsignatur/Nummerierung."
+      },
+      {
+        "page": 5,
+        "transcription": "A94 (237)",
+        "notes": "Rückseite mit Archivsignatur/Nummerierung, unter Farb- und Grauskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift von Stefan Zweig ist gut bekannt und weist keine ungewöhnlichen Abkürzungen auf."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 630,
+    "total_words": 102,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      612,
+      0,
+      0,
+      9,
+      9
+    ],
+    "chars_per_page_median": 612,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4479,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

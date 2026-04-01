@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1102",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 31. Juli 1902, SZ-LAS/B3.23",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1102/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1102/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1102/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 31. Juli 1902, SZ-LAS/B3.23\n- Signatur: SZ-LAS/B3.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
+        "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite."
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
+        "notes": "Die Transkription umfasst die Adressseite der Postkarte. Der Stempel 'KOMOTAU' und die Briefmarke wurden gemäß Anweisung nicht transkribiert."
+      },
+      {
+        "page": 3,
+        "transcription": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 2) mit Farbskala. Die Transkription ist identisch."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 435,
+    "total_words": 58,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      155,
+      140,
+      140
+    ],
+    "chars_per_page_median": 140,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0847,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

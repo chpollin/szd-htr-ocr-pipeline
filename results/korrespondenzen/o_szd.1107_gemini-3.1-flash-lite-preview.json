@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1107",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 5. Oktober 1902, SZ-LAS/B3.28",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1107/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1107/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1107/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 5. Oktober 1902, SZ-LAS/B3.28\n- Signatur: SZ-LAS/B3.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
+        "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 6.10.02. Briefmarke: 5 Heller."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max, ich kann es dir leider nicht verhehlen,\ndass ich heute abends deinen Bruder abhole, aber ich\nwill auch beweisen. Ich bin nämlich heute ziemlich matt,\netwas ~~f~~[?] krankhaftes! den Auftrag über ~~C~~[?]...[?] rathe\nich die andere Post zu schicken z.B. an die Böhm[e]n,\netwa beim „Prager Tagblatt“ liegt schon ein\nFeuilleton meiner wenigen, das in „leuchtenden A[...2...]“\nhabe gefallen ist. Deinen Brief habe ich dringend\nentgegen. Herzlich und eilig\nStefan",
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig, einige Wörter sind schwer lesbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
+        "notes": "Wiederholung der Adressseite im Kontext der Farbskala."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Textseite ist sehr kursiv und teilweise schwer zu entziffern, insbesondere bei Eigennamen und einigen Wörtern am Zeilenende."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 630,
+    "total_words": 94,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      80,
+      470,
+      80
+    ],
+    "chars_per_page_median": 80,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0426,
+    "dwr_score": 0.3636,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1169",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Suse von Winternitz an Anna Meingast, SZ-SAM/B12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1169/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1169/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1169/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Suse von Winternitz an Anna Meingast, SZ-SAM/B12\n- Signatur: SZ-SAM/B12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Frau Meingast!\n\nHerr Doktor beauftragt mich Ihnen den Erhalt der\nBriefe zu bestätigen. Mama dankt auch noch für Ihr\nIhre liebe Karte und freut sich dass Sie und\nWilly sich gut erholt haben. Mama lääst sagen, dass\ndie Anweisungen nicht von ihr sonder von Herrn\nDoktor sind, mit Ausnahme der letzten, dankt Ihnen\ngleichfalls für Ihre Mühe und Nachsendung der\nPost.",
+        "notes": "Der Text ist maschinengeschrieben. In Zeile 3 ist 'Ihr' durchgestrichen (bzw. überschrieben) durch 'Ihre'. In Zeile 4 ist 'lääst' ein Tippfehler im Original."
+      },
+      {
+        "page": 2,
+        "transcription": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
+        "notes": "Handschriftliche Postkarte. Der Absenderbereich ist links vertikal geschrieben. Der Empfängerbereich ist rechts unten. 'Autriche' ist handschriftlich oben rechts ergänzt. Poststempel 'OOSTENDE 9.8.28'."
+      },
+      {
+        "page": 3,
+        "transcription": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
+        "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala-Referenzkarten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl die Maschinenschrift als auch die Handschrift sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 804,
+    "total_words": 120,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      368,
+      218,
+      218
+    ],
+    "chars_per_page_median": 218,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4322,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

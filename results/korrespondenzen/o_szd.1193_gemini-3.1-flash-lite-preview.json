@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1193",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Anna Meingast vom 21. Oktober 1933, SZ-SAM/B7.23",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1193/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1193/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 21. Oktober 1933, SZ-SAM/B7.23\n- Signatur: SZ-SAM/B7.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Brown's Hotel. Dover Street & Albemarle Street. London. W.1.",
+        "notes": "Dies ist die Bildseite der Postkarte mit einer gedruckten Bildunterschrift."
+      },
+      {
+        "page": 2,
+        "transcription": "POST CARD.\n\nLiebe Frau Meingast\nich telegrafierte bereits\ndass wir auf zunächst\n14 Tage privat in\n11, Portland Place\nLondon W 1\nwohnen, viele Grüße\nStefan Zweig\n\nFrau Meingast\nbei Zweig\nSalzburg (Austria)\nKapuzinerberg",
+        "notes": "Handschriftliche Nachricht von Stefan Zweig in violetter Tinte. Der Poststempel 'LONDON 21 OCT 1933' ist schwach erkennbar. Die Briefmarke ist eine 'THREE HALFPENCE' Marke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 278,
+    "total_words": 43,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      60,
+      218
+    ],
+    "chars_per_page_median": 139.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

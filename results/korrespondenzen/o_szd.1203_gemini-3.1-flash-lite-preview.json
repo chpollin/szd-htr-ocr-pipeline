@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1203",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 14. April 1934, SZ-SAM/B7.33",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1203/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1203/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 14. April 1934, SZ-SAM/B7.33\n- Signatur: SZ-SAM/B7.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11 Portland Place                                London, den 14.April 1934.\n\n\n\nLiebe Frau Meingast!\n\nIch danke Ihnen für Ihren Brief und freue mich,\ndass Sie wieder wohlauf sind und danke Ihnen für Ihre Nach-\nrichten. Ich möchte Sie nun bitten, dass wenn Bücher von Dr.\nZoran Ninitch aus Rio de Janeiro kommen, mir dieselben uner-\nöffnet aufzubewahren, bis ich Ihnen dann Auftrag gebe, was\ndamit geschehen soll. Herrn Joseph Bernhard schicken Sie bit-\nte in meinem Auftrag zehn Schillinge.\n\nMit besten Grüssen Ihr\n\nStefan Zweig\n\nIch werde hier noch ziemlich lange bleiben, denn\nich habe nur für die notwendigen Bücher zu Verfügung\nund ausserdem arbeitet man viel ruhiger. Gehen Sie Sie[?]\nviel statt meiner in den Garten! Grüsse an alle!",
+        "notes": "Der handschriftliche Nachtrag am Ende ist in violett-blauer Tinte verfasst. Das Wort 'Sie' im letzten Satz ist doppelt geschrieben, vermutlich ein Flüchtigkeitsfehler des Autors."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und gut lesbar, lediglich das doppelte 'Sie' am Ende ist eine Besonderheit des Originals."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 737,
+    "total_words": 116,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      737,
+      0
+    ],
+    "chars_per_page_median": 737,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0086,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1135",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1135/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1135/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.13\n- Signatur: SZ-SAM/B10.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 3. Dezember 1937.\n\nLiebe Frau Meingast!\n\n        Für November ist wenig zu berich-\nten. Es wurden abgeschlossen Verträge gegen einmalige\nAbfindung mit Civilizaçao, Porto über\n\n        (Erasmus\n        (Castellio\n        (Baumeister\n        (Heilung durch den Geist\n\nfür die portugiesischen Buchrechte für Portugal und\nseine Kolonien ausschliesslich (noch nicht bezahlt),\nferner Verträge mit Guanabara, Rio de Janeiro über\n\n        (Magellan\n        (Begegnungen\n        (Begrabene Leuchter\n\nfür die portugiesischen Buchrechte in Amerika (Anzah-\nlung bereits bezahlt).\n\n        Ferner schicke ich Ihnen einige\nBeschreibungen, zu denen der tschechische Erasmus und\ndie italienischen Legenden heute abgehen, die anderen\nbereits an Frau Zweig abgegangen sind.\n\nMit besten Grüssen\nLotte Altmann\n\nVielen Dank, liebe Frau\nMeingast für Ihre Glückwünsche – möge auch Ihnen alles\nin diesem Jahre wohlergehen. Aber ein Jahr, ja über ein\nhalbes hinaus soll man in diesen Zeiten wohl ja deuten versuchen\n\n[Am rechten Rand vertikal geschrieben:]\nes wäre verwegenheit. Sünden Sie, bitte, auch die lieben Schierks!",
+        "notes": "Der Text am rechten Rand ist vertikal geschrieben. Die handschriftliche Ergänzung am Ende des Briefes ist in violett/blauer Tinte verfasst."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer bis auf ein kleines 'A' in der oberen linken Ecke."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am Ende und am Rand sind aufgrund der kursiven Handschrift etwas schwieriger zu entziffern, aber inhaltlich weitgehend eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1110,
+    "total_words": 147,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1110,
+      0
+    ],
+    "chars_per_page_median": 1110,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4167,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

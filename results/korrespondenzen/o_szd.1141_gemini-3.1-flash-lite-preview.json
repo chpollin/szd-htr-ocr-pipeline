@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1141",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.19",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1141/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1141/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1141/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.19\n- Signatur: SZ-SAM/B10.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 16. III. 38\n\nLiebe Frau Meingast!\nIm Auftrag meines Chefs, der wie\nSie sich denken können jetzt nicht zum\nSchreiben kommt danke ich Ihnen viel-\nmals für Ihren freundlichen Brief. Er\nlässt Sie jedoch bitten, in Zukunft\nIhre Nachrichten lieber auf das rein Sach-\nliche zu beschränken, um jede Möglich-\nkeit von Missverständnissen oder Schwie-\nrigkeiten, die ja nur zu leicht bei brief-\nlichen Mitteilungen entstehen, von vorn-\nherein auszuschliessen. Er weiss ja, wie\nherzlich Sie an ihn denken und zweifelt\nnicht einen Augenblick an Ihrer guten Ge-\nsinnung. – Ich bin heute in grosser\nEile und kann deshalb nicht mehr\nschreiben.\nMit den besten Grüssen\nIhre\nLotte Altmann",
+        "notes": "Der Brief ist in einer gut lesbaren, flüssigen Handschrift verfasst. Die Tinte ist dunkel, vermutlich violett oder schwarz."
+      },
+      {
+        "page": 2,
+        "transcription": "A",
+        "notes": "Rückseite des Briefbogens, leer bis auf ein kleines 'A' in der oberen linken Ecke."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Diese Seite enthält lediglich technische Kalibrierungselemente (Farbkarte, Grauskala) für die Digitalisierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine unleserlichen Stellen auf. Die Transkription ist vollständig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 682,
+    "total_words": 112,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      681,
+      1,
+      0
+    ],
+    "chars_per_page_median": 681,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.537,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

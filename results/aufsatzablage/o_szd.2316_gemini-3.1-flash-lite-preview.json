@@ -1,0 +1,89 @@
+{
+  "object_id": "o_szd.2316",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Spanien, SZ-AAP/W-AA174.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2316/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Spanien\n- Signatur: SZ-AAP/W-AA174.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler",
+        "notes": "Die Transkription bezieht sich auf den oberen Teil des Blattes (siehe IMG_1, IMG_5, IMG_7). Die Häkchen und Fragezeichen sind Teil des handschriftlichen Eintrags."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 3,
+        "transcription": "Spanien\nFrühling in Sevilla\nVom spanischen Theater\nIn König Titurels Schloss\nSpanische Bettler",
+        "notes": "Die Transkription bezieht sich auf den unteren Teil des Blattes (siehe IMG_1, IMG_3, IMG_7)."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 5,
+        "transcription": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler",
+        "notes": "Ausschnittsaufnahme des oberen Teils."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leeres Blatt/Rückseite."
+      },
+      {
+        "page": 7,
+        "transcription": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler\n\nSpanien\nFrühling in Sevilla\nVom spanischen Theater\nIn König Titurels Schloss\nSpanische Bettler",
+        "notes": "Gesamtaufnahme des Blattes mit Farb- und Graukarte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die Wiederholungen auf dem Blatt (oben und unten) wurden entsprechend der visuellen Anordnung transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 502,
+    "total_words": 77,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "input_images": 7,
+    "chars_per_page": [
+      104,
+      0,
+      94,
+      0,
+      104,
+      0,
+      200
+    ],
+    "chars_per_page_median": 104.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1162",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1162/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1162/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.3\n- Signatur: SZ-SAM/B11.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POST CARD\n\nAustria\n\nFrau Anna Meingast\n\nSalzburg\n\nKapuzinerberg 5\n(Zweig",
+        "notes": "Adressseite einer Postkarte. Poststempel: LONDON, 1933. Briefmarken: 1 Penny (rot), 1/2 Penny (grün)."
+      },
+      {
+        "page": 2,
+        "transcription": "20. Nov.\n\nLiebe Frau Meingast,\nmein Mann bittet Sie sogleich\nan alle mit Ausnahme Viking,\nder es selber schrieb zu einen\nSchreibfehler oder Irrtum richtig zu\nstellen nämlich vorletzte und drittletzte\nZeile solle es heißen sondern uns\n(nicht um) Schaustück zu sein sind\n(gehört eingeschaltet) für den ewigen\nWidersacher...... Also uns statt\nuns drittvorletzte Zeile und vorletzte\nZeile vor für - und. also: sondern\nuns Schaust. zu sein gegen euren agente.\nWillen und für den ewig....\nSchönen Gruß an Ede\nvon Ihrer\nFriderike Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Korrekturen und Einfügungen im Textkörper."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 600,
+    "total_words": 94,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      72,
+      528
+    ],
+    "chars_per_page_median": 300.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4066,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

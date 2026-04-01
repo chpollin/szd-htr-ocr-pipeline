@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1124",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefumschlag an Victor Fleischer vom 6. Februar 1909, SZ-LAS/B3.44",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1124/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1124/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1124/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefumschlag an Victor Fleischer vom 6. Februar 1909, SZ-LAS/B3.44\n- Signatur: SZ-LAS/B3.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herrn Dr Victor Fleischer\n\nKomotau (Böhmen)\nVilla Fleischer",
+        "notes": "Die Anschrift ist handschriftlich in violetter Tinte verfasst. Eine Briefmarke (10 Heller, Österreich) ist aufgeklebt und mit einem Poststempel versehen (Lesbar: 'KOMOTAU 6.II.09')."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Dr Victor Fleischer\n\nKomotau (Böhmen)\nVilla Fleischer",
+        "notes": "Identisch mit Seite 1, jedoch mit Farb- und Grauskala im Bild."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich lesbar und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 118,
+    "total_words": 16,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      59,
+      0,
+      59
+    ],
+    "chars_per_page_median": 59.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

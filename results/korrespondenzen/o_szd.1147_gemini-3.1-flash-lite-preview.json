@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1147",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1147/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1147/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.7\n- Signatur: SZ-SAM/B10.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frau\nAnna Meingast\nc/o Dr. St. Zweig\nSalzburg (Austria)\nKapuzinerberg 5",
+        "notes": "Adressseite einer Postkarte. Enthält einen Poststempel 'WIEN 1 FLUGPOST 10.IV.37.11' sowie einen 'BY AIR MAIL' Aufkleber."
+      },
+      {
+        "page": 2,
+        "transcription": "London, den 9.April 1937.\n\nLiebe Frau Meingast!\nHerr Dr. Z. lässt Ihnen viel-\nmals für die Sendung danken und bittet nur um so-\nfortige Zusendung des letzten Exemplares von I,\nda es für die Kollationierung benötigt wird.\n\nMit besten Grüssen\nLAltmann",
+        "notes": "Textseite der Postkarte. Maschinenschrift, Unterschrift handschriftlich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um eine maschinengeschriebene Postkarte handelt."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 320,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      71,
+      249
+    ],
+    "chars_per_page_median": 160.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3922,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.130",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Livraria Civilizaçao, SZ-AAP/L13.53",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.130/IMG.1",
+      "https://gams.uni-graz.at/o:szd.130/IMG.2",
+      "https://gams.uni-graz.at/o:szd.130/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Livraria Civilizaçao\n- Signatur: SZ-AAP/L13.53\n- Datum: 25 septembre 1937\n- Sprache: Französisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, korrigiert",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "M. Stefan Zweig, 49 Hallam Street, London W.1. cède à\nla Livraria Civilizaçao, Rua do Almada 107, Porto, les\ndroits de la publication en langue portugaise exclusive-\nment en Portugal et ses colonies pour son livre\nM a g a l h ã e s\n----------\ncontre un avaloir de £ 10.-.- (dix livres anglais) à conto\nde 10 % (dix pour cent) sur le prix de vente du livre.\n\nLe contrat ne sera valable qu'après le paiement entier de\ncette somme de £ 10.-.- \n\nLe livre doit paraître dans une période d'un an à partir\nde la signature du contrat.\n\nM. Zweig recevra deux exemplaires de ce livre aussitôt\nqu'il aura paru.\n\nLes droits d'auteur seront payés le 1 juin et le 1 janvier\nde chaque année.\n\nStefan Zweig [Unterschrift]\nLondres, le 25 septembre 1937\n\n[Unterschrift]\nPorto, le 29 septembre 1937",
+        "notes": "Das Dokument ist ein Typoskript-Durchschlag. Die Unterschrift von Stefan Zweig ist in violetter Tinte ausgeführt. Die Unterschrift des Vertragspartners ist in schwarzer Tinte. Die Datumsangaben sind teils maschinenschriftlich, teils handschriftlich ergänzt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, keine Beschriftung (Durchschlag-Abdruck)."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite mit Farbskala und Graustufen-Referenzkarte, keine weitere Beschriftung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 779,
+    "total_words": 142,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      779,
+      0,
+      0
+    ],
+    "chars_per_page_median": 779,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3385,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

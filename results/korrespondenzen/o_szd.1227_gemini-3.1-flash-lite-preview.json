@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1227",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 2. April 1935, SZ-SAM/B7.57",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1227/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1227/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 2. April 1935, SZ-SAM/B7.57\n- Signatur: SZ-SAM/B7.57\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender:\n\nPostkarte\n\nAnna Meingast\nbei Zweig\n\nSalzburg\nKapuzinerberg 5",
+        "notes": "Adressseite der Postkarte. Poststempel 'SALZBURG 1 2.IV.35' ist vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, bitte\nsenden Sie eines der ab-\ngeschriebenen Exemplare\nvon „Rahel rettet mit Gott”\nan\nFräulein Margarete Bach\nWien XVII\nOttakringerstrasse 40\nMit besten Grüßen Z\n\nBitte ein Exemplar des\nErasmus (einfaches Ex)\nan\nDr. Paul Amann\nWien\nXIII\nEiswanggasse 25\n\nStefan Zweig",
+        "notes": "Textseite der Postkarte. Die Unterschrift 'Stefan Zweig' ist rechts unten platziert. Der Zusatz am linken Rand ist in kleinerer Schrift eingefügt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die Namen und Adressen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 358,
+    "total_words": 54,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      71,
+      287
+    ],
+    "chars_per_page_median": 179.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2745,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

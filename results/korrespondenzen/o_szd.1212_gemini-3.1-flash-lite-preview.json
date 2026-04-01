@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1212",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 15. August 1934, SZ-SAM/B7.42",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1212/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1212/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 15. August 1934, SZ-SAM/B7.42\n- Signatur: SZ-SAM/B7.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POSTKARTE  CARTE POSTALE  CARTOLINA POSTALE\n\nDAVOS — PARSENNBAHN\n\nFrau Anna Meingast\n\nSalzburg Österreich\nKapuzinerberg",
+        "notes": "Adressseite der Postkarte. Poststempel: KLOSTERS 15.VIII.34-9."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, ich möchte\nSie bitten, falls ich nicht abreise\nSonntag gegen 4 Uhr nachmittags\nbei mir oben zu sein. Vielleicht\nkomme ich schon Samstag spät\nnachmittags, aber es ist nicht\nwahrscheinlich. Bitte sagen Sie\nniemandem, wann ich komme,\nich habe furchtbar viel zu tun,\nda ich ja Montag nach Wien\nweiter muss. Herzlichen Gruß\nS. Z.",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Identifikation der Ortsangabe 'Kapuzinerberg' ist aufgrund der bekannten Wohnadresse von Stefan Zweig in Salzburg sicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 464,
+    "total_words": 72,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      119,
+      345
+    ],
+    "chars_per_page_median": 232.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4286,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1113",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max und Victor Fleischer vom 22. Dezember 1902, SZ-LAS/B3.33",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1113/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1113/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1113/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 22. Dezember 1902, SZ-LAS/B3.33\n- Signatur: SZ-LAS/B3.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn Herren\nMax und Victor Fleischer\nVictor und Max Fleischer\nin Komotau in Böhmen\nPostlagernd",
+        "notes": "Adressseite der Postkarte. Der Name 'Victor und Max Fleischer' ist unter 'Max und Victor Fleischer' handschriftlich eingefügt. Poststempel: 'WIEN 1 22.12.02'."
+      },
+      {
+        "page": 2,
+        "transcription": "Liebwerthes Brüderpaar, theure Freunde,\nda Ihr Euch mit so viel Eifer müßt, Euch\nin der Faulheit des Schreibens zu übertreffen,\nadelgeborne Volksgenossen, hört die Botschaft,\nso Euch zu bringen hat Stefan, der öfter Silberwort\nKarten und Briefe zahlloser Riesenhausbewahrer:\nIn der Nacht vom 26 zum 27 wird ein Glanz sich ab-\nKehren von Wien und verkehren zu Berlin in das\nHaus Ephra's des Libenzeichners und Fritzen des Hüters.\nAber er wird wieder kehren in die Stadt der Libanonia,\nKommen des 3 Januar sich erfüllen. Dies ist noch auch so\nsicher, wie die Tatsache, dass Ihr von Gott mit Faulheit ge-\nlassen seid bis ins letzte Glied, aber doch der Wahrheit sehr nah.",
+        "notes": "Textseite der Postkarte. Am linken Rand vertikal geschrieben: 'Es grüßt der Schreiber des Reifens'. Der Text ist in violett-brauner Tinte verfasst."
+      },
+      {
+        "page": 3,
+        "transcription": "Liebwerthes Brüderpaar, theure Freunde,\nda Ihr Euch mit so viel Eifer müßt, Euch\nin der Faulheit des Schreibens zu übertreffen,\nadelgeborne Volksgenossen, hört die Botschaft,\nso Euch zu bringen hat Stefan, der öfter Silberwort\nKarten und Briefe zahlloser Riesenhausbewahrer:\nIn der Nacht vom 26 zum 27 wird ein Glanz sich ab-\nKehren von Wien und verkehren zu Berlin in das\nHaus Ephra's des Libenzeichners und Fritzen des Hüters.\nAber er wird wieder kehren in die Stadt der Libanonia,\nKommen des 3 Januar sich erfüllen. Dies ist noch auch so\nsicher, wie die Tatsache, dass Ihr von Gott mit Faulheit ge-\nlassen seid bis ins letzte Glied, aber doch der Wahrheit sehr nah.",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger eigenwilliger Formulierungen (z.B. 'Libanonia', 'Libenzeichners')."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1450,
+    "total_words": 240,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      114,
+      668,
+      668
+    ],
+    "chars_per_page_median": 668,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.519,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

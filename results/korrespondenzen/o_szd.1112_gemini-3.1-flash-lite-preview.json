@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1112",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 28. November 1902, SZ-LAS/B3.32",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1112/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1112/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1112/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 28. November 1902, SZ-LAS/B3.32\n- Signatur: SZ-LAS/B3.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte\n\nHerrn Max Fleischer\nJurist etc. etc.\nin Komotau in Böhmen\nKohlstadtgasse",
+        "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 29.11.02. Briefmarke: 5 Heller Kais. Kön. Österr. Post."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max, ich weiß sehr wohl, daß\nich Dir Brief und auch viele Dank für\nDeine Artik schuldig bin. Aber ich habe\njetzt furchtbar viel zu thun und gehe auch\nmit dem Leben, wüßte die schönsten von\neigner Arbeit zu erzählen. Ich arbeite näm-\nlich auch an einer Dissertation. Leider\nleider sehe ich recht oft, es scheint sich\nhier schon zurechtzufinden zu haben\nherzlich und alles Dein Stefan",
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Max, ich weiß sehr wohl, daß\nich Dir Brief und auch viele Dank für\nDeine Artik schuldig bin. Aber ich habe\njetzt furchtbar viel zu thun und gehe auch\nmit dem Leben, wüßte die schönsten von\neigner Arbeit zu erzählen. Ich arbeite näm-\nlich auch an einer Dissertation. Leider\nleider sehe ich recht oft, es scheint sich\nhier schon zurechtzufinden zu haben\nherzlich und alles Dein Stefan",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala im Bild."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 871,
+    "total_words": 148,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      93,
+      389,
+      389
+    ],
+    "chars_per_page_median": 389,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4832,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

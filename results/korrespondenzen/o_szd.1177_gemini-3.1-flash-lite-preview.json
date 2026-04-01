@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1177",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Erwin Rieger an Anna Meingast, SZ-SAM/B18.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1177/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1177/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1177/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Anna Meingast, SZ-SAM/B18.3\n- Signatur: SZ-SAM/B18.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, I. Plamkengasse 1.\n12. August 1934.\n\nLiebe Frau Meingast,\n\nauf Veranlassung Herrn Dr. Zweigs übersende ich Ihnen beiliegend\ndie ersten Blätter der Maria Stuart. Verzeihen Sie, bitte, die\nunmögliche äußere Form: Als die Arbeit fertig war, habe ich eine\nFlasche Tinte ausgegossen, aber ich will die Absendung der Blätter\nnicht hinauszögern.\n\nHoffentlich geht es Ihnen gut. Mit den herzlichsten Grüßen\nbin ich wie stets Ihr ergebener\n\nErwin Rieger",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Erwin Rieger' ist handschriftlich in violetter Tinte ausgeführt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Briefes mit aufgelegter Farb- und Grauskala zur Dokumentation."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief handelt. Die Unterschrift ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 450,
+    "total_words": 69,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      450,
+      0,
+      0
+    ],
+    "chars_per_page_median": 450,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4091,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

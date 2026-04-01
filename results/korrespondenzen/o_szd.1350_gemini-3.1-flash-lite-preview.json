@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1350",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Erich Ami Kaemmerer vom 25. Januar 1938, SZ-SHB/B3.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1350/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1350/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Erich Ami Kaemmerer vom 25. Januar 1938, SZ-SHB/B3.2\n- Signatur: SZ-SHB/B3.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correio Aereo Air Mail\nPOR AVIÃO\nPAR AVION\nEngland / Inglaterra\nE. A. Kaemmerer Esqr\nCumberland Hotel\nMarble Arch\nLondon",
+        "notes": "Adressseite der Postkarte. Enthält gedruckte Post-Elemente und handschriftliche Adressierung. Poststempel: LISBOA 25 JAN 38."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Kaemmerer, ich bin\naufrichtig betrübt Sie zu ver-\nsäumen, es wäre mir ein rest-\nliches Bedürfnis gewesen, Sie wieder-\nzusehen, ehe Sie in die / zur Zeit\nvon Lande erbauliche / östliche\nWelt zurückkehren. Aber ich bin\nauch der üblichen Nebelflucht\naus London nur hier in dem\nherrlich sonnigen Portugal; wie\nleide, wie jammerschade, ich habe\neuch, als ich Ihre Ankündigung\nIhres Kommens erhielt also so\nsehr auf Sie gefreut! Mit vielen\nGrüßen aus Windes[?] \nEstoril / Portugal / Stefan Zweig\nHotel Atlantico",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Das Wort 'Windes' ist schwer lesbar, möglicherweise 'Windesheim' oder ein Schreibfehler für 'Windes' (als Teil eines Ortes oder Grußes)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 637,
+    "total_words": 105,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      120,
+      517
+    ],
+    "chars_per_page_median": 318.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0095,
+    "dwr_score": 0.396,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

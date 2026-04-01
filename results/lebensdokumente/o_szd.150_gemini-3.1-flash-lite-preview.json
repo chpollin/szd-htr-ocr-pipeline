@@ -41,12 +41,21 @@
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die spiegelverkehrten Stempelabdrucke sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 538,
     "total_words": 62,
     "total_pages": 4,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 4,
     "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       172,
       100,
@@ -57,6 +66,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.0,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

@@ -1,0 +1,78 @@
+{
+  "object_id": "o_szd.1294",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.2",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1294/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.2\n- Signatur: SZ-SHB/B5.2\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIII. KOCHGASSE\nWIEN,\n\nChère mademoiselle, je suis\nbien content d'entendre que M.\nKaemmerer a été charmé de votre\nsurprise. Et je vous en prie: ne\npensez plus a me remercier. J'ai\ntant de portraits de Verhaeren et\nj'en reçois autant de ses amis pein-\ntres que je suis heureux, si je peux\nen faire cadeau a ses vrai amis.\nDites franchement la verité a M.\nKaemmerer et faites le en lui\ndisant les meilleurs saluts de ma\npart. Agréez, chère mademoiselle,\nles ~~politesse~~ {expression} de mes sentiments les\nplus distingués\nStefan Zweig",
+        "notes": "Der Text ist in violetter Tinte geschrieben. Das Wort 'expression' wurde über das durchgestrichene 'politesse' eingefügt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, zeigt Durchdruck des Textes von Seite 1."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leeres Blatt, zeigt schwache Abdrücke von der Vorderseite."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des leeren Blattes, weist Tintenflecken auf."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Korrektur 'expression' über 'politesse' ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 533,
+    "total_words": 92,
+    "total_pages": 1,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank"
+    ],
+    "chars_per_page": [
+      533,
+      0,
+      0,
+      0
+    ],
+    "chars_per_page_median": 533,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3579,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

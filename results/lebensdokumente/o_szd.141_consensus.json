@@ -1,0 +1,140 @@
+{
+  "object_id": "o_szd.141",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.9273,
+    "category": "consensus_divergent",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 1,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": 1.7857,
+        "agreement": "low",
+        "chars_a": 56,
+        "chars_b": 151
+      },
+      {
+        "page": 3,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 4,
+        "cer": 0.0377,
+        "agreement": "moderate",
+        "chars_a": 53,
+        "chars_b": 53
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.141",
+    "collection": "lebensdokumente",
+    "group": "handschrift",
+    "title": "Notizbuch Russlandreise, SZ-SAH/L1",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.9273,
+      "category": "consensus_divergent",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 1,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": 1.7857,
+          "agreement": "low",
+          "chars_a": 56,
+          "chars_b": 151
+        },
+        {
+          "page": 3,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 4,
+          "cer": 0.0377,
+          "agreement": "moderate",
+          "chars_a": 53,
+          "chars_b": 53
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.1",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.2",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.3",
+        "transcription_a": "Baja\nProfessor J. Paul Stefan\nWien VIII\nHamerlingplatz 7",
+        "transcription_b": "[Auf eingelegtem Zettel:]\nProfessor Dr. Paul Stefan\nWien VIII\nHamerlingplatz 7\n\n[Auf darunterliegendem kariertem Blatt, teilweise verdeckt:]\nBajad[...]\n[...]kus\nS[...]",
+        "cer": 1.7857,
+        "agreement": "low"
+      },
+      {
+        "page": 3,
+        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.4",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 4,
+        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.5",
+        "transcription_a": "Bajaderka von M. Petipa\nMusik von L. Minkus\nSemjenowa",
+        "transcription_b": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa",
+        "cer": 0.0377,
+        "agreement": "moderate"
+      }
+    ]
+  },
+  "judge_result": null
+}

@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2227",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wort zur Schutzfristfrage, Ein, SZ-AAP/W-AA221.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2227/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2227/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wort zur Schutzfristfrage, Ein\n- Signatur: SZ-AAP/W-AA221.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wort zur Schutzfristfrage, Ein\n\nEin Wort zur\nSchutzfristfrage",
+        "notes": "Das Dokument besteht aus einem Hauptblatt mit dem Titel und einem aufgeklebten Streifen, der den gleichen Text (in leicht abweichender Reihenfolge) enthält."
+      },
+      {
+        "page": 2,
+        "transcription": "Wort zur Schutzfristfrage, Ein",
+        "notes": "Dies ist der aufgeklebte Streifen auf der Rückseite des Hauptblattes."
+      },
+      {
+        "page": 3,
+        "transcription": "Ein Wort zur\nSchutzfristfrage",
+        "notes": "Vorderseite des Hauptblattes."
+      },
+      {
+        "page": 4,
+        "transcription": "Ein Wort zur\nSchutzfristfrage",
+        "notes": "Rückseite des Hauptblattes (durchscheinend)."
+      },
+      {
+        "page": 5,
+        "transcription": "Wort zur Schutzfristfrage, Ein",
+        "notes": "Rückseite des aufgeklebten Streifens."
+      },
+      {
+        "page": 6,
+        "transcription": "Ein Wort zur\nSchutzfristfrage",
+        "notes": "Rückseite des Hauptblattes (durchscheinend)."
+      },
+      {
+        "page": 7,
+        "transcription": "Wort zur Schutzfristfrage, Ein\n\nEin Wort zur\nSchutzfristfrage",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Transkription spiegelt die Anordnung auf dem Blatt und dem aufgeklebten Streifen wider."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 269,
+    "total_words": 36,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      61,
+      30,
+      29,
+      29,
+      30,
+      29,
+      61
+    ],
+    "chars_per_page_median": 30,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.75,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

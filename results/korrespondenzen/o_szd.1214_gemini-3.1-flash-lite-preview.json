@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1214",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 22. Oktober 1934, SZ-SAM/B7.44",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1214/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1214/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 22. Oktober 1934, SZ-SAM/B7.44\n- Signatur: SZ-SAM/B7.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "TEL.: LANGHAM 2030.\n\n11. PORTLAND PLACE,\nLONDON, W.1\n\n22.Oktober 1934.\n\nLiebe Frau Meingast!\n\nIch bitte Sie, ein Exemplar der ersten fünf Kapitel noch an\nAlbert Bonnier, Förlag, Stockholm in meinem Auftrag zu übermitteln.\nOder warten Sie damit noch zwei Tage, bis ich Ihnen das korrigierte\nManuskript schicke, denn es sind noch zwei, drei kleine Irrtümer und\nstilistische Kleinigkeiten darin abzuändern.\n\nDen Katalog Sotheby bitte ich Sie, mir hierher nachzusenden.\nKapitel sechs habe ich heute erhalten und werde es Ihnen nach eini-\ngen kleinen Korrekturen zurücksenden. Auch das 12. Kapitel geht Ih-\nnen sehr bald zu.\n\nIch hoffe, das ist alles und nur noch viele Grüsse Ihres\n\nStefan Zweig\n\nHerrn Roszavölgy nach Budapest schreiben Sie, dass die Fertigstel-\nlung des Buches sich verzögert hat und er zuverlässig es vorher im\nManuskript bekommen wird, ehe es einer deutschen Firma übermittelt\nwird.",
+        "notes": "Der Brief ist maschinenschriftlich verfasst, die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 899,
+    "total_words": 139,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      899,
+      0
+    ],
+    "chars_per_page_median": 899,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4444,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

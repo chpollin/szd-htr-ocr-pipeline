@@ -1,0 +1,72 @@
+{
+  "object_id": "o_szd.1267",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 8. März 1938, SZ-SAM/B4.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1267/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1267/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1267/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. März 1938, SZ-SAM/B4.4\n- Signatur: SZ-SAM/B4.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 8. März 1938\n\nSehr verehrter Herr Doktor!\n\nNach einer einwöchigen, fast gänzlichen Poststille\nkann ich Ihnen heute beifolgenden Brief übersenden, und lege auch\nden Scheck bei, da ich nicht weiss, wie Sie darüber verfügen wollen\nund Frau Dr. Z. ja auch noch abwesend ist.\nAuch an Drucksachen ist fast nichts eingelaufen, nur\nein Probeheft einer französischen Zeitschrift: \"Messages\" und einige\nLagerkataloge.\nMit den besten Empfehlungen, Ihre sehr ergebene\n\nP.S. Frl. Altmann besten Dank für die Karte, ich erwarte gerne die\nangekündigten Berichte.\n< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+        "notes": "Der Text ist maschinengeschrieben. Die letzte Zeile auf der Vorderseite ist eine unleserliche handschriftliche Notiz in violetter Tinte, die sich teilweise über den Rand erstreckt."
+      },
+      {
+        "page": 2,
+        "transcription": "< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+        "notes": "Die Rückseite enthält eine handschriftliche Notiz in violetter Tinte, die aufgrund der kursiven Schreibweise und der schwachen Linienführung weitgehend unleserlich ist."
+      },
+      {
+        "page": 3,
+        "transcription": "< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+        "notes": "Identisch mit Seite 2, zeigt die Rückseite des Dokuments mit Farbskala und Graustufen-Referenz."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar (high confidence). Die handschriftlichen Ergänzungen am Ende der ersten Seite und auf der Rückseite sind aufgrund der flüchtigen, kursiven Handschrift und der schwachen Tinte kaum zu entziffern (low confidence)."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 751,
+    "total_words": 107,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      635,
+      58,
+      58
+    ],
+    "chars_per_page_median": 58,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 15,
+    "marker_density": 0.1402,
+    "dwr_score": 0.4524,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

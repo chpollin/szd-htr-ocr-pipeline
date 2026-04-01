@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1249",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Victor Fleischer vom 18. Februar 1918, SZ-LAS/B3.65",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1249/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1249/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1249/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Victor Fleischer vom 18. Februar 1918, SZ-LAS/B3.65\n- Signatur: SZ-LAS/B3.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Postkarte. Carte postale\n\nH. Victor Fleischer\n\nWien (Osterreich)\nXVIII Billrothstrasse 20\n\nStefan Zweig Zürich\nHotel Wewert[?]",
+        "notes": "Adressseite der Postkarte. Der Stempel ist 'ZÜRICH 18. II 18'. Der Absendervermerk unten links ist handschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Victor, Dank für Deine Nach-\nrichten. Den Betrag lasse ich näch-\nster Tage an die Firma direct\ndurch meine wiener Bank ent-\nrichten. Meine Premiere ist hier\nam 27. II. Das Stück so gekürzt,\ndass es in einem Kino zu schnell\nwäre, aber es galt 6 Bilder\nzu borgen. Ich hoffe noch eini-\nge Zeit zu bleiben und danke\nDir für Alles. Hoffentlich\nkommt Dein Leben bald in\nOrdnung: wir haben wirklich\nkeine Zeit mehr zu verlieren.\nHerzlichst Dein Stefan",
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Postkarte. Carte postale\n\nH. Victor Fleischer\n\nWien (Osterreich)\nXVIII Billrothstrasse 20\n\nStefan Zweig Zürich\nHotel Wewert[?]",
+        "notes": "Wiederholung der Adressseite (Scan 1) mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich der Hotelname 'Wewert' ist aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 703,
+    "total_words": 113,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      126,
+      451,
+      126
+    ],
+    "chars_per_page_median": 126,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0177,
+    "dwr_score": 0.3578,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

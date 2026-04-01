@@ -1,0 +1,106 @@
+{
+  "object_id": "o_szd.2257",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Theater, SZ-AAP/W-AA191.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2257/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Theater\n- Signatur: SZ-AAP/W-AA191.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])\n\nTheater",
+        "notes": "Der Text erscheint auf dem Blatt zweimal, einmal als Überschrift/Notiz im oberen Bereich und einmal mittig als einzelnes Wort."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Teils des Blattes, Text scheint durchzuschimmern, aber nicht lesbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Theater",
+        "notes": "Ausschnitt des unteren Teils des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 5,
+        "transcription": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])",
+        "notes": "Ausschnitt des oberen Teils des Blattes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 7,
+        "transcription": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])\n\nTheater",
+        "notes": "Gesamtansicht des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine komplexen Kürzel auf. Die Lesung ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 289,
+    "total_words": 36,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      97,
+      0,
+      7,
+      0,
+      88,
+      0,
+      97
+    ],
+    "chars_per_page_median": 92.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.25,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      2
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

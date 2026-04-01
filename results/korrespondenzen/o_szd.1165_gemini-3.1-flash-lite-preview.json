@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1165",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1165/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1165/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.6\n- Signatur: SZ-SAM/B11.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "27/XII 34\nLiebe Frau Meingast nochmals alles\nGute für 1935 u. Dank für die Grüsse. Bitte\nalso jetzt am 1ten meinen Cassier zu machen\nJohann, Lese zu beteilen u. nach Wien\nan die adresse meiner Schwester 100 Sch\nzu senden. Ferner bitte für ein Tr. [?] Alfresco\nMeyer 25 Sch. zu einem Couvert bereitzuhalten.\nBitte Frau Meingast sehen Sie nach wie viel Abdrucke\noder Abdrucke mir von „Beschäftigung mit einem\nHandwerk“ haben, ferner ob ein Buch von Zulika\nPary (im Gangkasten?) sich befindet -\n\n[Randnotiz, vertikal:] Manst erhalt[?] auch\netwas im Januar",
+        "notes": "Die Handschrift ist flüchtig. Die Randnotiz am rechten Rand ist schwer lesbar. 'Tr.' könnte für 'Traktat' oder eine Abkürzung für einen Namen stehen."
+      },
+      {
+        "page": 2,
+        "transcription": "Es soll im April gekommen\nsein. Ich hoffe Sie haben Villi\nnoch bei sich. An alle\nGrüsse, Johann, Friderl,\nalltags noch gute Wünsche.\nGrüsse an meine Tochter,\ndenen ich morgen wieder\nschreibe.\nAlles Gute Ihre Fr Zw\n\n[Adressseite:]\nFrau Anna Meingast\nbei Fr. Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Die Postkarte enthält einen Poststempel 'NICE CENTRE 29 XII 34' und eine französische Briefmarke (90c). Der Text auf der linken Seite ist in der für Friderike Zweig typischen Handschrift verfasst."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Einige Wörter (insb. Abkürzungen und Eigennamen wie 'Zulika Pary' oder 'Villi') sind aufgrund der kursiven, flüchtigen Handschrift schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 839,
+    "total_words": 139,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      552,
+      287
+    ],
+    "chars_per_page_median": 419.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0144,
+    "dwr_score": 0.4621,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

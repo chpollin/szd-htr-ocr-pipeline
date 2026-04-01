@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.172",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ex Libris, SZ-SEF/L5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.172/IMG.1",
+      "https://gams.uni-graz.at/o:szd.172/IMG.2",
+      "https://gams.uni-graz.at/o:szd.172/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ex Libris\n- Signatur: SZ-SEF/L5\n- Sprache: Deutsch\n- Objekttyp: Druck\n- Umfang: 1 Blatt\n- Anmerkungen: Graphik von Ephraim Mose Lilien mit dem Schriftzug „EX LIBRIS | STEFAN ZWEIG“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "EX LIBRIS\n\nSTEFAN ZWEIG",
+        "notes": "Es handelt sich um ein Exlibris-Blatt. Der Text ist gedruckt. Unten links im Bild befindet sich ein kleines, unleserliches Monogramm (vermutlich E. M. Lilien)."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist unbeschriftet."
+      },
+      {
+        "page": 3,
+        "transcription": "EX LIBRIS\n\nSTEFAN ZWEIG",
+        "notes": "Dies ist eine Aufnahme des Exlibris zusammen mit Farb- und Graukarten zur Kalibrierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, eindeutig gedruckt und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 46,
+    "total_words": 8,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      23,
+      0,
+      23
+    ],
+    "chars_per_page_median": 23.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

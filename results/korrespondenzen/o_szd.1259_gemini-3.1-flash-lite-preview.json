@@ -1,0 +1,59 @@
+{
+  "object_id": "o_szd.1259",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Karte an Max Fleischer, o. D., SZ-LAS/B3.75",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1259/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1259/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1259/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Karte an Max Fleischer, o. D., SZ-LAS/B3.75\n- Signatur: SZ-LAS/B3.75\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wiener\nKünstler Postkarte\n\nHerzlichen Dank\nDeiner Stefan Zweig\n\nWien. — Schönbrunn.\nSerie 432/8\n\nDr. Max Fleischer\nFiliale der Länderbank\nWien IX\nNußdorferstraße",
+        "notes": "Die Transkription bezieht sich auf die Rückseite der Postkarte (Scan 2). Scan 1 und 3 zeigen die Vorderseite bzw. die Farbkarte. Die Briefmarke ist eine 5-Heller-Marke mit dem Porträt von Kaiser Franz Joseph I."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Orts- und Adressangaben sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 161,
+    "total_words": 22,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content"
+    ],
+    "chars_per_page": [
+      161
+    ],
+    "chars_per_page_median": 161,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.05,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch",
+      "low_dwr"
+    ]
+  }
+}

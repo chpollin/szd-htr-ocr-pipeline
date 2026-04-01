@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2255",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Tagore, Rabindranath, SZ-AAP/W-AA190.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2255/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2255/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Tagore, Rabindranath\n- Signatur: SZ-AAP/W-AA190.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Tagore, Rabindranath\nA. J.'s „Sadhâna”\n\nTagore Rabindranath\n\nSadhâna\n\nLit. Echo\nTagebuch Okt. 21.",
+        "notes": "Die Transkription umfasst den Text auf dem Blatt, wie er auf dem ersten Scan zu sehen ist. Die weiteren Scans zeigen Details oder das Blatt mit Farbskala."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Tagore Rabindranath\n\nSadhâna\n\nLit. Echo\nTagebuch Okt. 21.",
+        "notes": "Ausschnitt des Hauptblattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "Tagore, Rabindranath\nA. J.'s „Sadhâna”",
+        "notes": "Ausschnitt des oberen Teils (Notizzettel)."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite, leer."
+      },
+      {
+        "page": 7,
+        "transcription": "Tagore, Rabindranath\nA. J.'s „Sadhâna”\n\nSadhâna\n\nTagebuch Okt. 21.",
+        "notes": "Das Blatt mit aufgelegter Grauskala und Farbkarte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich lesbar, die Handschrift ist klar und die Begriffe sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 258,
+    "total_words": 35,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      97,
+      0,
+      57,
+      0,
+      38,
+      0,
+      66
+    ],
+    "chars_per_page_median": 61.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

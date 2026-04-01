@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1176",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Erwin Rieger an Anna Meingast, SZ-SAM/B18.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1176/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1176/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Anna Meingast, SZ-SAM/B18.2\n- Signatur: SZ-SAM/B18.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender: \n\nPostkarte\n\nFrau\n\nM. Meingast\nbei Herrn Dr. Zweig\n\nS A L Z B U R G\n\nKapuzinerberg 5.",
+        "notes": "Adressseite einer Postkarte. Briefmarke und Poststempel (13.4.1934) vorhanden."
+      },
+      {
+        "page": 2,
+        "transcription": "Wien, XIII. Hietzing,\nHadikgasse 96.\n1.12.33.\n\nLiebe Frau Meingast,\n\nsind nicht Bücher aus Paris an mich[?] gekommen ?\n(Jules Romains : Les hommes de bonne volonté, 5.\nund 6. Band.) Der Autor behauptet es. Wenn ja, so\nerbitte ich die Nachsendung an die obige Adresse.\nAuch wäre ich für ein Exemplar der Marie Antoinet-\nte dankbar, das ich für eine Arbeit brauchen würde.\nWie geht es Ihnen ? Herr Doktor schreibt mir sehr\noft. Bitte, grüßen Sie, falls sie noch oben ist,\nFräulein Alix bestens von mir. Sie ist hoffentlich\nschon gesund. Auch an Herrn Johann beste Grüße.\nIm voraus bestens dankend, stets Ihr\nErwin Rieger",
+        "notes": "Maschinengeschriebener Text mit handschriftlicher Unterschrift. Das Wort 'mich' ist im Original als 'mihh' getippt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da er weitgehend maschinengeschrieben ist. Die handschriftliche Unterschrift ist eindeutig als 'Erwin Rieger' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 713,
+    "total_words": 125,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      95,
+      618
+    ],
+    "chars_per_page_median": 356.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.008,
+    "dwr_score": 0.4103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

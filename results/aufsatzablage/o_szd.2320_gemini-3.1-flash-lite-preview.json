@@ -1,0 +1,89 @@
+{
+  "object_id": "o_szd.2320",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Specht, Richard, SZ-AAP/W-AA175.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2320/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2320/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Specht, Richard\n- Signatur: SZ-AAP/W-AA175.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Specht, Richard\nBildnis eines Jüngeren (Werfel-Biographie)\nWürdigung\n\nSpecht Richard\nBildnis eines Jüngeren",
+        "notes": "Das Dokument besteht aus einem Blatt, das oben einen Streifen mit Notizen und darunter eine größere Fläche mit dem Namen und dem Titel trägt. Die Transkription fasst den gesamten sichtbaren Text zusammen."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Streifens, Text scheint durchzuschlagen, aber nicht lesbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Specht Richard\nBildnis eines Jüngeren",
+        "notes": "Hauptteil des Blattes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Hauptteils, Text scheint durchzuschlagen, aber nicht lesbar."
+      },
+      {
+        "page": 5,
+        "transcription": "Specht, Richard\nBildnis eines Jüngeren (Werfel-Biographie)\nWürdigung",
+        "notes": "Oberer Streifen des Blattes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, Text scheint durchzuschlagen, aber nicht lesbar."
+      },
+      {
+        "page": 7,
+        "transcription": "Specht, Richard\nBildnis eines Jüngeren (Werfel-Biographie)\nWürdigung\n\nSpecht Richard\nBildnis eines Jüngeren",
+        "notes": "Gesamtansicht des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich geschrieben. Die Identifikation von 'Werfel-Biographie' ist aufgrund der Handschrift sicher."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 319,
+    "total_words": 36,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "input_images": 7,
+    "chars_per_page": [
+      107,
+      0,
+      37,
+      0,
+      68,
+      0,
+      107
+    ],
+    "chars_per_page_median": 87.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

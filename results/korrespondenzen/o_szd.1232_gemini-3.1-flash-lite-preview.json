@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1232",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Victor Fleischer vom 25. Dezember 1912, SZ-LAS/B3.48",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1232/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1232/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1232/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer vom 25. Dezember 1912, SZ-LAS/B3.48\n- Signatur: SZ-LAS/B3.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Böhmen.\n\nVictor Fleischer\n\nKourtau[?]\nVilla Fleischer",
+        "notes": "Adressseite einer Postkarte. Poststempel: WIEN 68, 25.XII.12. Briefmarke: 5 Heller, Kaiser Franz Joseph I."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Victor, gratu\nliere! Dein Werk\nist am Dienstag fertig.\nDeine bairischen Be\nrhinepfungen[?] verachte\nich, hoffentlich ist dein\nWitz u. Lustspiel fetter\nals in der Correspon\ndenz. Grüße\nZ.",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Victor, gratu\nliere! Dein Werk\nist am Dienstag fertig.\nDeine bairischen Be\nrhinepfungen[?] verachte\nich, hoffentlich ist dein\nWitz u. Lustspiel fetter\nals in der Correspon\ndenz. Grüße\nZ.",
+        "notes": "Identisch mit Seite 2, hier mit Farb- und Graukarte abgebildet."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Kourtau' als Ortsname und 'Berhinepfungen' als Wortneuschöpfung oder Dialektbegriff) sind schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 439,
+    "total_words": 66,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      53,
+      193,
+      193
+    ],
+    "chars_per_page_median": 193,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0455,
+    "dwr_score": 0.2727,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

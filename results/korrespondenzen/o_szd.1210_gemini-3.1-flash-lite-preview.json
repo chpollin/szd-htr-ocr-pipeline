@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1210",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom [August 1934], SZ-SAM/B7.40",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1210/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1210/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom [August 1934], SZ-SAM/B7.40\n- Signatur: SZ-SAM/B7.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Klosters (Schweiz)\nHotel Weisskreuz\n\nLiebe Frau Meingast, hier Capitel I, die andern\nfolgen jetzt in regelmässiger Reihenfolge.\nBitte eilen Sie nicht nur schreiben Sie lang\nsam nur möglichst sorgfältig, damit wir\nein möglichst klares Manuscript bekommen.\nIn der nächsten Woche bin ich\nauf dem Weg nach Wien einen Tag in S.\nViele herzliche Grüsse\n\nStefan Zweig",
+        "notes": "Die Abkürzung 'S.' in 'einen Tag in S.' bezieht sich vermutlich auf Salzburg oder einen anderen Ort, ist aber im Kontext nicht eindeutig auflösbar. Die Handschrift ist gut lesbar."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 359,
+    "total_words": 56,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      359,
+      0
+    ],
+    "chars_per_page_median": 359,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4821,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

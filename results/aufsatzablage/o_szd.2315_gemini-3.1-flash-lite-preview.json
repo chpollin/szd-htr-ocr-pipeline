@@ -1,0 +1,89 @@
+{
+  "object_id": "o_szd.2315",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Sorglosen, Bei den, SZ-AAP/W-AA173.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2315/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2315/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Sorglosen, Bei den\n- Signatur: SZ-AAP/W-AA173.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Bildnis Tolstois\".\n                        Ursprünglich beiliegender Aufsatz fehlt.",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Sorglosen, Bei den",
+        "notes": "Die Transkription bezieht sich auf die handschriftliche Notiz oben links auf dem Blatt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Bildnis Tolstois",
+        "notes": "Handschriftliche Notiz mittig auf der Rückseite."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 5,
+        "transcription": "Sorglosen, Bei den",
+        "notes": "Wiederholung der Notiz von Seite 1."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leeres Blatt."
+      },
+      {
+        "page": 7,
+        "transcription": "Sorglosen, Bei den",
+        "notes": "Wiederholung der Notiz, hier mit Farbskala und Farbkarte abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 70,
+    "total_words": 11,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "input_images": 7,
+    "chars_per_page": [
+      18,
+      0,
+      16,
+      0,
+      18,
+      0,
+      18
+    ],
+    "chars_per_page_median": 18.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

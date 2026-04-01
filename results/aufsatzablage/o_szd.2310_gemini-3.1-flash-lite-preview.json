@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2310",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Sammlung Morrison, Die, SZ-AAP/W-AA171.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2310/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2310/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Sammlung Morrison, Die\n- Signatur: SZ-AAP/W-AA171.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Die Sammlung\n                        Morrison\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Sammlung Morrison, Die\n\nDie Sammlung Morrison.",
+        "notes": "Das Dokument besteht aus einem Blatt mit zwei Zeilen Text in unterschiedlicher Schrift/Tinte. Die obere Zeile ist in violetter Tinte geschrieben, die untere in Bleistift."
+      },
+      {
+        "page": 2,
+        "transcription": "Sammlung Morrison, Die",
+        "notes": "Ausschnitt der oberen Zeile."
+      },
+      {
+        "page": 3,
+        "transcription": "Die Sammlung Morrison.",
+        "notes": "Ausschnitt der unteren Zeile."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite des Blattes."
+      },
+      {
+        "page": 5,
+        "transcription": "Sammlung Morrison, Die",
+        "notes": "Ausschnitt der oberen Zeile."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Rückseite des Blattes."
+      },
+      {
+        "page": 7,
+        "transcription": "Sammlung Morrison, Die\n\nDie Sammlung Morrison.",
+        "notes": "Gesamtansicht des Blattes mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Transkription ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 158,
+    "total_words": 21,
+    "total_pages": 5,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      46,
+      22,
+      22,
+      0,
+      22,
+      0,
+      46
+    ],
+    "chars_per_page_median": 22,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

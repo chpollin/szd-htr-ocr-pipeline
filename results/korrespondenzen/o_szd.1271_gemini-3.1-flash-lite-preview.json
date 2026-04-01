@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1271",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert an Stefan Zweig vom 20. September 1923, SZ-SAM/B6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1271/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1271/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1271/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert an Stefan Zweig vom 20. September 1923, SZ-SAM/B6\n- Signatur: SZ-SAM/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "13 x 40 = 520\n1 x 50 = 50\n2 x 20 = 40\n1 x 400 = 400\n2 x 100 = 200\n9 x 200 = 1800\n8 x 500 = 4000\n1 x 3000 = 3000\n3 x 5000 = 15000\n3 x 75000 = 225000\n\nM. 250010\n\nHerrn\nStefan Zweig\n\nSalzburg\nKapuzinerberg 5",
+        "notes": "Die handschriftliche Aufstellung links ist vertikal mit 'Marken' beschriftet. Die Anschrift ist rechtsbündig ausgerichtet. Die Briefmarken auf der Rückseite (Scan 2 und 3) sind nicht transkribiert."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts, vollständig mit Briefmarken beklebt. Keine handschriftlichen Texte."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts mit Farbskala. Keine handschriftlichen Texte."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die mathematische Aufstellung ist eindeutig. Die Briefmarken wurden gemäß Anweisung nicht transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 204,
+    "total_words": 58,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      204,
+      0,
+      0
+    ],
+    "chars_per_page_median": 204,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

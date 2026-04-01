@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.116",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag H. Aschehoug u. Co. (W. Nygaard) A/S, SZ-AAP/L13.39",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.116/IMG.1",
+      "https://gams.uni-graz.at/o:szd.116/IMG.2",
+      "https://gams.uni-graz.at/o:szd.116/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag H. Aschehoug & Co. (W. Nygaard) A/S\n- Signatur: SZ-AAP/L13.39\n- Datum: 11 Jan. 1938.\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig und eigenhändige Notiz „Die Abrechnung erfolgt zweimal im Jahre zu Ende jedes Halbjahrs“ in violetter Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "V E R T R A G .\n\nZwischen dem Verlag H. Aschehoug & Co. (W. Nygaard) A/S in Oslo,\nim Vertrag \"norwegischer Verleger\" genannt und Herrn Stefan Zweig,\nLondon, im Vertrag genannt der \"Autor\", wurde heute folgender\nVertrag vereinbart:\n\n§ 1\nDer Autor überträgt dem norwegischen Verleger die Rechte für eine\nnorwegische Buchausgabe des Werkes\nM A G E L L A N .\n\n§ 2\nFür die Ueberlassung der Buchrechte dieses Werkes zahlt der\nnorwegische Verleger dem Autor folgende Tantiemen-Sätze:\nFür die ersten Tausend Exemplare 7% (sieben Prozent) vom\nLadenpreis der verkauften Exemplare,\nFür die folgenden dreitausend Exemplare 10% (zehn Prozent) vom\nLadenpreis der verkauften Exemplare,\nfür alle weiteren verkauften Exemplare 12% (zwölf Prozent) vom\nLadenpreis.\n\n§ 3\nDer norwegische Verleger verpflichtet sich zur unentgeltlichen\nUeberlassung von sechs Pflichtexemplaren an dem Autor.\n\n§ 4\nAlle anderen als die oben festgelegten Buchrechte bleiben\nausdrücklich dem Autor vorbehalten.\n\n§ 5\nVorstehender Vertrag wurde in zwei gleichen Exemplaren ausgefertigt,\nvon beiden vertragschliessenden Teilen gelesen, anerkennt und\nunterschrieben und geht mit seinen Pflichten und Rechten an die\nRechtsnachfolger der Vertragschliessenden über.\nOslo, den 8/1 1938 London, den 11 Jan. 1938.\n\npr. p H ASCHEHOUG & CO. (W. NYGAARD) A/S Stefan Zweig\n\ndie Abrechnung erfolgt zweimal im Jahre zu Ende jedes Halbjahrs",
+        "notes": "Die handschriftliche Notiz am Ende wurde in violetter Tinte hinzugefügt. Die Unterschrift von Stefan Zweig ist eigenhändig."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Seite zeigt das Dokument als Durchschlag/Rückseite, der Text ist aufgrund der Transparenz des Papiers nur schemenhaft und spiegelverkehrt erkennbar. Keine eigenständige Transkription möglich."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Die Seite zeigt das Dokument mit einer Farb- und Grauskala zur Kalibrierung. Keine Transkription möglich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1380,
+    "total_words": 209,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1380,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1380,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3089,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

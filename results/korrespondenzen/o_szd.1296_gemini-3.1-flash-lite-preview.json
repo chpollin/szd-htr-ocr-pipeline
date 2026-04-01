@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1296",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Rudolf Möller ohne Datum, SZ-SHB/B6.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1296/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1296/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Rudolf Möller ohne Datum, SZ-SHB/B6.1\n- Signatur: SZ-SHB/B6.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig",
+        "notes": "Handschriftliche Signatur auf der Vorderseite der Fotopostkarte."
+      },
+      {
+        "page": 2,
+        "transcription": "SETZER\nPhoto-Bildnisse\nWIEN VII\nMuseumstraße 5\n\nDankbaren Gruß\n\n[...]\n\nHerrn R. Möller\n\nGriebow b. Marnitz\nMecklenburg",
+        "notes": "Die Nachrichtenseite der Postkarte enthält einen Stempel des Fotografen Setzer, eine handschriftliche Grußformel und die Anschrift. Das Zeichen unter 'Gruß' ist unleserlich (evtl. ein Kürzel oder eine grafische Verzierung)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die gedruckten Teile (Stempel) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 130,
+    "total_words": 18,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      12,
+      118
+    ],
+    "chars_per_page_median": 65.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0556,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

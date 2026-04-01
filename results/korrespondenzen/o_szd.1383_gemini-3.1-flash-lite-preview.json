@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1383",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gerhard Hauptmann an Stefan Zweig [zeitgenössische Abschrift], SZ-SAH/B7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1383/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1383/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1383/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gerhard Hauptmann an Stefan Zweig [zeitgenössische Abschrift], SZ-SAH/B7\n- Signatur: SZ-SAH/B7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Agnetendorf i/R \"Der Wiesenstein\" , 30. Juli 1934\n\nLieber und verehrter Herr Stefan Zweig!\nDank für Ihren \"Erasmus von Rotterdam\". Er ist ein\nwundervolles Buch und ich freue mich seiner wahrhaft. Schon die\nEinleitung ist ein unendlich wohltätiger Klang. Das was bei\nIhnen das Erasmische genannt wird, ist meiner Wesenheit aufs\ntiefste verwandt: Und so fühle ich, herzlich verbunden, die\nVerwandtschaft mit der Ihren.\nMit vielen Grüssen Ihr Ihr\n(gez): Gerhart Hauptmann",
+        "notes": "Es handelt sich um eine maschinenschriftliche Abschrift eines Briefes von Gerhart Hauptmann an Stefan Zweig."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, unbeschrieben."
+      },
+      {
+        "page": 3,
+        "transcription": "Agnetendorf i/R \"Der Wiesenstein\" , 30. Juli 1934\n\nLieber und verehrter Herr Stefan Zweig!\nDank für Ihren \"Erasmus von Rotterdam\". Er ist ein\nwundervolles Buch und ich freue mich seiner wahrhaft. Schon die\nEinleitung ist ein unendlich wohltätiger Klang. Das was bei\nIhnen das Erasmische genannt wird, ist meiner Wesenheit aufs\ntiefste verwandt: Und so fühle ich, herzlich verbunden, die\nVerwandtschaft mit der Ihren.\nMit vielen Grüssen Ihr Ihr\n(gez): Gerhart Hauptmann",
+        "notes": "Identisch mit Seite 1, inklusive Farb- und Grauskala zur Dokumentation."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist eine klare Maschinenschrift ohne Korrekturen oder Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 936,
+    "total_words": 144,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      468,
+      0,
+      468
+    ],
+    "chars_per_page_median": 468.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4571,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

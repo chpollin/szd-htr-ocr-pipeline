@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.1390",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom August 1908, SZ-SEF/B5.10",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1390/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1390/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1390/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom August 1908, SZ-SEF/B5.10\n- Signatur: SZ-SEF/B5.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nieuport — La Tour de l'Eglise.\n\n1443 — Héliotypie De Graeve, Gand.",
+        "notes": "Vorderseite der Ansichtspostkarte mit Bildunterschrift."
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTALE\nPOSTKAART\n\nAntworten!\n\nSehr verehrte Fräulein, ich hatte\nIhnen ob eine Adresse hingeschrie-\nben, aber die gilt nicht mehr, wenn\nsie den Karte erreicht. Ich wan-\ndere durch alle flandrischen Orte\nlangsam nach Haus. Anfangs\nSeptember hoffe ich Sie dort schon\nbegrüßen zu können und, wie\nich gar nicht zweifeln will, in\nbestem Wohler sein. Mit vielen\nGrüßen Ihr herzlich getreuer\nStefan Zweig\n\nFräulein Eugenie Hirschfeld\n\nWein Neuhaus (Austria)\nbei Weissenbach n.Ö.",
+        "notes": "Rückseite der Postkarte. Handschrift von Stefan Zweig. Der Text 'Antworten!' ist handschriftlich hinzugefügt. Der Ortsname 'Wein Neuhaus' ist durchgestrichen, aber lesbar. Poststempel: 'NIEUPORT 18-8 08'."
+      },
+      {
+        "page": 3,
+        "transcription": "CARTE POSTALE\nPOSTKAART\n\nAntworten!\n\nSehr verehrte Fräulein, ich hatte\nIhnen ob eine Adresse hingeschrie-\nben, aber die gilt nicht mehr, wenn\nsie den Karte erreicht. Ich wan-\ndere durch alle flandrischen Orte\nlangsam nach Haus. Anfangs\nSeptember hoffe ich Sie dort schon\nbegrüßen zu können und, wie\nich gar nicht zweifeln will, in\nbestem Wohler sein. Mit vielen\nGrüßen Ihr herzlich getreuer\nStefan Zweig\n\nFräulein Eugenie Hirschfeld\n\nWein Neuhaus (Austria)\nbei Weissenbach n.Ö.",
+        "notes": "Identisch mit Seite 2, inklusive Farbskala und Maßstab."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift von Stefan Zweig gut lesbar. Die durchgestrichene Stelle ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.1",
+    "total_chars": 1021,
+    "total_words": 158,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      67,
+      477,
+      477
+    ],
+    "chars_per_page_median": 477,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

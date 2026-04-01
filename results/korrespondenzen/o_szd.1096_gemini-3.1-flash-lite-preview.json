@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1096",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 21. März 1902, SZ-LAS/B3.18",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1096/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1096/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1096/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 21. März 1902, SZ-LAS/B3.18\n- Signatur: SZ-LAS/B3.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn Herrn\nMax Fleischer\n\nin\nKomotau\nBöhmen",
+        "notes": "Adressseite der Postkarte. Poststempel: Wien 21.5.02 und Komotau 22.3.02 (Datumsdifferenz auffällig, vermutlich Stempel- oder Lesefehler im Original)."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Max,\n\nmeine Berliner Adresse vom 1. April ist S. W. 46 Bernburgerstrasse\n20. Ich hoffe, du wirst davon Gebrauch machen. Hast du meinen\nEssay über „Friedrich Nietzsche“ vorgestern im Prager Tagblatt\ngelesen? Herzlich grüßend Dein\nStefan Zweig",
+        "notes": "Textseite der Postkarte. Handschrift in violett/schwarzer Tinte."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Max,\n\nmeine Berliner Adresse vom 1. April ist S. W. 46 Bernburgerstrasse\n20. Ich hoffe, du wirst davon Gebrauch machen. Hast du meinen\nEssay über „Friedrich Nietzsche“ vorgestern im Prager Tagblatt\ngelesen? Herzlich grüßend Dein\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 559,
+    "total_words": 84,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      63,
+      248,
+      248
+    ],
+    "chars_per_page_median": 248,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2785,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

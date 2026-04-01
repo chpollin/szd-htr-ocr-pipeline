@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1100",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.21",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1100/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1100/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1100/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.21\n- Signatur: SZ-LAS/B3.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Postkarte\n\nAn Max Fleischer\n\nin Komotau in Böhmen\nVilla Fleischer",
+        "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 14.7.02 VII. Briefmarke: Deutsches Reich 5 Pfennig, Poststempel BERLIN 13.7.02."
+      },
+      {
+        "page": 2,
+        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht. Ihr St.\nBesten Gruß St. Zweig",
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig."
+      },
+      {
+        "page": 3,
+        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht. Ihr St.\nBesten Gruß St. Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift gut lesbar. Die Identifikation von 'St. Z.' als Stefan Zweig ist durch den Kontext des Nachlasses gesichert."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 401,
+    "total_words": 64,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      65,
+      168,
+      168
+    ],
+    "chars_per_page_median": 168,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2969,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

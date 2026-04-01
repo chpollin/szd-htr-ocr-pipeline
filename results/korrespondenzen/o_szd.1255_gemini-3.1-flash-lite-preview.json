@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1255",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 27. Dezember 1927, SZ-LAS/B3.71",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1255/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1255/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1255/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 27. Dezember 1927, SZ-LAS/B3.71\n- Signatur: SZ-LAS/B3.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nIch habe Reclams Universum, das mich bat, in einer\nSehnzeilen-Kritiken zu schreiben, Dein Buch vorgeschla-\ngen und glücklicherweise war es noch nicht vergeben. Bitte, sende\nmir nun allenfalls ein Bildnis, weil diese zwar sehr kurzen,\naber sehr wirksamen Kritiken meistens das Bildnis des Ver-\nfassers bringen. So kommt, grauhaarig, Dein Antlitz in die\nOeffentlichkeit und hoffentlich vielen Menschen näher.\n\nHerzlichst Dein\n\nStefan Zweig",
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte. Das Wort 'Zehnzeilen' wurde im Original als 'Sehnzeilen' getippt (Tippfehler)."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nHerzlichst Dein\n\nStefan Zweig",
+        "notes": "Scan mit Farb- und Graustufen-Referenzkarten. Der Textkörper fehlt hier, da er durch die Farbkarte verdeckt ist."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Maschinenschrift handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 574,
+    "total_words": 83,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      491,
+      0,
+      83
+    ],
+    "chars_per_page_median": 287.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

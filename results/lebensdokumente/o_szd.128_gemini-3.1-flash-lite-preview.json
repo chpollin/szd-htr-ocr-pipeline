@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.128",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Américo Fraga Lamares u. Ca. Lda. LIVRARIA CIVILIZAÇÃO, SZ-AAP/L13.51",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.128/IMG.1",
+      "https://gams.uni-graz.at/o:szd.128/IMG.2",
+      "https://gams.uni-graz.at/o:szd.128/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Américo Fraga Lamares & Ca. Lda. LIVRARIA CIVILIZAÇÃO\n- Signatur: SZ-AAP/L13.51\n- Datum: 2-i 937\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Eigenhändige Notiz in schwarzer Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Américo Fraga Lamares & C.ª, L.da\nLIVRARIA CIVILIZAÇÃO\nTELEFONE, 1819\nRUA DO ALMADA, 107\nPÔRTO\n\nPorto, 2-i 937\n\nMonsieur Stefan Zweig\n49 Hallen Street London.\n\nCher Monsieur\n\nNous vous remercions de votre dernier letre et vous envoyons, ci-\njonit un chéque de Fr. 500, pour paiement des droits de traduction, ex-\nclusif, pour le Portugal et Colonies portugaises.\nNous vous remettons un exemplaire de la traduction de votre roman\nVint-Quatre Heures de la vie dune feme, que sera publieé dans le delaî\nd'un année.\nNous vous prions de nous envoyer des eléments de publicite, tels\nque des résumées de critiques et aussi une de vos photos, une plus\npetite pour la publicité dans les journaux, et une autre d'une plus\ngrand format pour l'exposition du livre.\nAgréeie, Monsieur, nos salutations, les plus empressés.\n\n[Unterschrift]\n\n24 Stunden aus dem Leben einer Frau\nportugiesische Buchrechte ausschliesslich fürs Portugal\nund Kolonien. 500.- ffrs als einmalige Abfindung bezahlt.",
+        "notes": "Die handschriftliche Notiz am unteren Rand ist in deutscher Sprache verfasst. Die Unterschrift ist unleserlich."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala-Referenzkarten."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von der unleserlichen Unterschrift und leichten Tippfehlern im französischen Originaltext (z.B. 'letre' statt 'lettre', 'dune feme' statt 'd'une femme')."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 975,
+    "total_words": 154,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      975,
+      0,
+      0
+    ],
+    "chars_per_page_median": 975,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3158,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

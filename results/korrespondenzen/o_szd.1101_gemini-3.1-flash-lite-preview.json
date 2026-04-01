@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1101",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.22",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1101/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1101/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1101/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.22\n- Signatur: SZ-LAS/B3.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Postkarte\nAn Herrn Max Fleischer\nJurist\nin Komotau in Böhmen\nWohnung Villa Fleischer\n(Straße und Hausnummer)",
+        "notes": "Adressseite der Postkarte. Poststempel Berlin W 13.7.02. Briefmarke Deutsches Reich 5 Pfennig."
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Maximilian, da ich hoffe, dich mit der Nachricht zu erfreuen,\nteile ich dir mit, dass unser lieber Cassill, dem ich die Correcturbögen\ndes Verlaine-~~Bandes~~ {Buches} schrieb, dass ich diese Überfahrungen im besten\nSinne ~~überwacht~~ {überwacht} habe. Das Buch wird in der Tat wohl Zander [?] sein;\ndoch wenigstens die Abende der kommenden Woche muss man, wie\nFrau Dr. Steiner uns sagte, fast auf Kommen regelmässig zusammen.\nEgon Hugo St. lobe ich doch auch, wiewohl doch dagegen [?] doch,\nebenso Seebacher, mit dem ich fast täglich Ausflüge in die Umgebung mache.\nVon der „Zeit“ kriegte ich eine Anforderung zur Mitarbeiterschaft, für\ndie „Alte Welt“ habe ich 1000 Artikel zu schreiben, bei dessen habe ich\nam Freitag Vortrag etc; wanne komme ich zu dir, ich fahre kaum vor dem\n28. Aug, wäre es da auch möglich, dass wir uns noch sehen; deine Karte\nan Hänschen, den Militärsoldaten, lässt mich hoffen; du weißt doch überzeugend\ndass Hänschen abgereist worden ist! hast du mein langweiliges Feuilleton\nüber Oblomow im Prager Tagblatt gelesen? Und nun ade, ade, ade, grüß\ndie kleine Martha und verbitte Ihnen das Verlaine-Buch zu lesen; aus den\nvers-~~Zeilen~~ {Zeilen} a Komotau die böse Wege lassen. [?] Stefan",
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig, einige Wörter sind schwer lesbar oder durchgestrichen/korrigiert."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Maximilian, da ich hoffe, dich mit der Nachricht zu erfreuen,\nteile ich dir mit, dass unser lieber Cassill, dem ich die Correcturbögen\ndes Verlaine-~~Bandes~~ {Buches} schrieb, dass ich diese Überfahrungen im besten\nSinne ~~überwacht~~ {überwacht} habe. Das Buch wird in der Tat wohl Zander [?] sein;\ndoch wenigstens die Abende der kommenden Woche muss man, wie\nFrau Dr. Steiner uns sagte, fast auf Kommen regelmässig zusammen.\nEgon Hugo St. lobe ich doch auch, wiewohl doch dagegen [?] doch,\nebenso Seebacher, mit dem ich fast täglich Ausflüge in die Umgebung mache.\nVon der „Zeit“ kriegte ich eine Anforderung zur Mitarbeiterschaft, für\ndie „Alte Welt“ habe ich 1000 Artikel zu schreiben, bei dessen habe ich\nam Freitag Vortrag etc; wanne komme ich zu dir, ich fahre kaum vor dem\n28. Aug, wäre es da auch möglich, dass wir uns noch sehen; deine Karte\nan Hänschen, den Militärsoldaten, lässt mich hoffen; du weißt doch überzeugend\ndass Hänschen abgereist worden ist! hast du mein langweiliges Feuilleton\nüber Oblomow im Prager Tagblatt gelesen? Und nun ade, ade, ade, grüß\ndie kleine Martha und verbitte Ihnen das Verlaine-Buch zu lesen; aus den\nvers-~~Zeilen~~ {Zeilen} a Komotau die böse Wege lassen. [?] Stefan",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala im Bild."
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige Korrekturen sowie schwer lesbare Wörter auf (insbesondere Eigennamen und spezifische Begriffe wie 'Zander' oder 'Oblomow')."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 2550,
+    "total_words": 410,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      108,
+      1221,
+      1221
+    ],
+    "chars_per_page_median": 1221,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0146,
+    "dwr_score": 0.4581,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

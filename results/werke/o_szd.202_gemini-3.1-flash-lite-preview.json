@@ -1,0 +1,56 @@
+{
+  "object_id": "o_szd.202",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "A great lesson from a great man",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.202/IMG.1",
+      "https://gams.uni-graz.at/o:szd.202/IMG.2",
+      "https://gams.uni-graz.at/o:szd.202/IMG.3",
+      "https://gams.uni-graz.at/o:szd.202/IMG.4",
+      "https://gams.uni-graz.at/o:szd.202/IMG.5",
+      "https://gams.uni-graz.at/o:szd.202/IMG.6",
+      "https://gams.uni-graz.at/o:szd.202/IMG.7",
+      "https://gams.uni-graz.at/o:szd.202/IMG.8",
+      "https://gams.uni-graz.at/o:szd.202/IMG.9",
+      "https://gams.uni-graz.at/o:szd.202/IMG.10",
+      "https://gams.uni-graz.at/o:szd.202/IMG.11",
+      "https://gams.uni-graz.at/o:szd.202/IMG.12",
+      "https://gams.uni-graz.at/o:szd.202/IMG.13"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: A great lesson from a great man\n- Signatur: SZ-AAP/W21.1\n- Datum: [1940]\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 6 Blatt,                   \n                               korrigiert\n- Schreibinstrument: Violette und rote Tinte, blauer\n                                                  Kugelschreiber\n- Hand: Stefan Zweig\n- Anmerkungen: Später übernommen in „Die Welt von Gestern“",
+  "result": {
+    "raw": ""
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 0,
+    "total_words": 0,
+    "total_pages": 0,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 0,
+    "input_images": 13,
+    "page_types": [],
+    "chars_per_page": [],
+    "chars_per_page_median": 0.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

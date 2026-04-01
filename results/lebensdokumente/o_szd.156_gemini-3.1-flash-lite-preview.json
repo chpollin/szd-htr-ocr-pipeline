@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.156",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Correspondenz-Karte [blanko], SZ-SAM/L6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.156/IMG.1",
+      "https://gams.uni-graz.at/o:szd.156/IMG.2",
+      "https://gams.uni-graz.at/o:szd.156/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Correspondenz-Karte [blanko]\n- Signatur: SZ-SAM/L6\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Auf der Rückseite ein von Fidus (Hugo Höppener) gestaltetes schwarzes Signet mit dem Namenszug Stefan Zweigs",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
+        "notes": "Die Anordnung entspricht dem gedruckten Formular. 'Nur für die Adresse' steht vertikal am linken Rand."
+      },
+      {
+        "page": 2,
+        "transcription": "STEFAN ZWEIG",
+        "notes": "Das Logo zeigt eine stilisierte Figur, die einen Reifen rollt (Fidus-Signet)."
+      },
+      {
+        "page": 3,
+        "transcription": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
+        "notes": "Dies ist eine Wiederholung der Vorderseite im Kontext der Farb- und Grauskalen-Referenz."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die Transkription ist vollständig."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 118,
+    "total_words": 16,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      53,
+      12,
+      53
+    ],
+    "chars_per_page_median": 53,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5556,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

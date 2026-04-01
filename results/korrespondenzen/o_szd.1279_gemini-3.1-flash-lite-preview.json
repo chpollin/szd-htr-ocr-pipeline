@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1279",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 18. Januar 1931, SZ-SAM/B7.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1279/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1279/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 18. Januar 1931, SZ-SAM/B7.8\n- Signatur: SZ-SAM/B7.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "18/1. 31\nPARIS - Palais Royal - Hôtel vu des Jardins LIP\nRoyal Palace, View of the hotel from the gardens\n\nHôtel Beaujolais, 15, Rue du Beaujolais",
+        "notes": "Vorderseite der Postkarte mit gedrucktem Text und handschriftlichem Datum."
+      },
+      {
+        "page": 2,
+        "transcription": "Bitte 1 Exemplar auch an verwirrung[?]\nzu senden an\nDr. Paul Schiff\nParis\n14, rue César Franck\n\nLiebe Frau Meingast, adresse\nist also\nPalma di Mallorca\n(Spanien)\nHotel Mediterraneo\nBitte telefonieren Sie es\nauch Herrn Fels, telefonie[?] \nSt. Z\n\nFrau Anna Meingast\nSalzburg (Autriche)\nLinzergasse 16",
+        "notes": "Rückseite der Postkarte. Der Text ist in violetter Tinte geschrieben. Der Poststempel 'PARIS R.P. 17 * I 1931' ist vorhanden. Die Briefmarke zeigt Marcelin Berthelot."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, einige Wörter wie 'verwirrung' oder 'telefonie' sind aufgrund der flüchtigen Schreibweise leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 444,
+    "total_words": 73,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      146,
+      298
+    ],
+    "chars_per_page_median": 222.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0274,
+    "dwr_score": 0.2769,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

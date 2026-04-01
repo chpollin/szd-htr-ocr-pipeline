@@ -1,0 +1,72 @@
+{
+  "object_id": "o_szd.1115",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Max und Victor Fleischer vom 1. Januar 1903, SZ-LAS/B3.35",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1115/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1115/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1115/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 1. Januar 1903, SZ-LAS/B3.35\n- Signatur: SZ-LAS/B3.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ОТКРЫТОЕ ПИСЬМО.\nPostkarte — Carte postale — Correspondenz\nCartolina postale — Levelezö-Lap — Dopisnice — Briefkaart\nUnion postale universelle — Weltpostverein — Unione postale universale\nPostcard\n\nVictor & Max Fleischer\nKomotau\nin Böhmen",
+        "notes": "Adressseite der Postkarte. Der Poststempel '1.1.03 KOMOTAU' ist links über den Text gedruckt."
+      },
+      {
+        "page": 2,
+        "transcription": "Fröhliches Neujahr!\nStefan Zweig\nGeorg Busse-Palma\nE. M. Lilien\nFritz Stöber[?]\nDavis Trietsch",
+        "notes": "Bildseite der Postkarte mit handschriftlichen Unterschriften. 'E. M. Lilien' ist der Name des Künstlers der Illustration, die Unterschrift darunter ist 'E. M. Lilien' selbst. 'Fritz Stöber' ist schwer lesbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Fröhliches Neujahr!\nStefan Zweig\nGeorg Busse-Palma\nE. M. Lilien\nFritz Stöber[?]\nDavis Trietsch",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala zur Dokumentation."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der gedruckte Text ist eindeutig. Die handschriftlichen Unterschriften sind gut lesbar, mit Ausnahme von 'Fritz Stöber', das aufgrund der kursiven Schrift leicht unsicher ist."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 426,
+    "total_words": 59,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      238,
+      94,
+      94
+    ],
+    "chars_per_page_median": 94,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0339,
+    "dwr_score": 0.0192,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

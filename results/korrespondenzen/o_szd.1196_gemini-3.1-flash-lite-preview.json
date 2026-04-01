@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1196",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 13. November 1933, SZ-SAM/B7.26",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1196/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1196/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 13. November 1933, SZ-SAM/B7.26\n- Signatur: SZ-SAM/B7.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11, Portland Place,\nLondon, W.\n\nLondon, den 13. November 1933.\n\nLiebe Frau Meingast !\n\nIch danke Ihnen sehr fuer Ihre freundlichen\nNachrichten. Inzwischen habe ich hier ziemlich\nschwere Dinge zu erledigen - denn wegen jenes\nMissbrauchs meines Briefes wird sich wahrscheinlich\ndoch das Verhaeltnis mit der Insel loesen. Ich\nlasse mich hier aber nicht aus dem Gleichgewicht\nbringen, sondern tue geduldig meine Arbeit.\nIch schicke Ihnen zunaechst einen Aufsatz,\ndessen Original ich an die Neue Freie Presse ge-\ngeben habe. Nun sind ja immer einige auslaendische\nZeitungen da, die Aufsaetze von mir wollten.\nSchreiben Sie ihn also bitte mehrmals ab. Senden\nSie einen an Benjamin Hübsch mit einem Brief,\ndass ich ihn zur allfaelligen Ueberwertung ueberlasse.\nEinen zweiten an Alfredo Cahn, der ja fuer die\n\"Nation\" Aufsaetze wollte. Dann glaube ich war noch\neine norwegische Dame, Sie wissen es ja am besten\naus unseren Akten selbst.",
+        "notes": "Maschinengeschriebener Brieftext."
+      },
+      {
+        "page": 2,
+        "transcription": "An den jungen Italiener schicken Sie vielleicht\nein Exemplar des Specht und entschuldigen mich, dass\nich verreist bin.\n\nDie Nachrichten aus Oesterreich machen es\neinem nicht sehr verlockend zurueckzukehren, jeden-\nfalls bleibt unsere Adresse hier noch unveraendert.\n\nAlles herzliche\n\nvon Ihrem ergebenen\n\nStefan Zweig\n\nEin Exemplar schicken Sie, bitte, mir",
+        "notes": "Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Der letzte Satz 'Ein Exemplar schicken Sie, bitte, mir' ist ebenfalls handschriftlich in violetter Tinte unter der Unterschrift hinzugefügt."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Unterschrift und Nachsatz) sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1284,
+    "total_words": 196,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      928,
+      356
+    ],
+    "chars_per_page_median": 642.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4764,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.2219",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wiederherstellung der geistigen Internationale, Die, SZ-AAP/W-AA217.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2219/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2219/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wiederherstellung der geistigen Internationale, Die\n- Signatur: SZ-AAP/W-AA217.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wiederherstellung der geistigen Internationale, Die\n\nDie Wiederherstellung der\ngeistigen Internationale",
+        "notes": "Das Dokument besteht aus einem Streifen mit dem Titel und einem darunterliegenden Blatt mit dem gleichen Text."
+      },
+      {
+        "page": 2,
+        "transcription": "Die Wiederherstellung der geistigen Internationale",
+        "notes": "Der Streifen ist hier spiegelverkehrt/durchscheinend von der Rückseite zu sehen."
+      },
+      {
+        "page": 3,
+        "transcription": "Die Wiederherstellung der\ngeistigen Internationale",
+        "notes": "Dies ist das Hauptblatt mit dem Text."
+      },
+      {
+        "page": 4,
+        "transcription": "Die Wiederherstellung der\ngeistigen Internationale",
+        "notes": "Spiegelverkehrte Ansicht des Hauptblattes (Durchscheinung)."
+      },
+      {
+        "page": 5,
+        "transcription": "Wiederherstellung der geistigen Internationale, Die",
+        "notes": "Dies ist der schmale Papierstreifen mit dem Titel."
+      },
+      {
+        "page": 6,
+        "transcription": "Die Wiederherstellung der\ngeistigen Internationale",
+        "notes": "Spiegelverkehrte Ansicht des Hauptblattes."
+      },
+      {
+        "page": 7,
+        "transcription": "Wiederherstellung der geistigen Internationale, Die\n\nDie Wiederherstellung der\ngeistigen Internationale",
+        "notes": "Gesamtansicht mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und wiederholt sich auf den verschiedenen Scans, was die Lesung eindeutig macht."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 457,
+    "total_words": 45,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      103,
+      50,
+      50,
+      50,
+      51,
+      50,
+      103
+    ],
+    "chars_per_page_median": 50,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

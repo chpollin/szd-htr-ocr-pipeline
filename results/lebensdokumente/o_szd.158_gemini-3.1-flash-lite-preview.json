@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.158",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefumschlag, SZ-SAM/L8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.158/IMG.1",
+      "https://gams.uni-graz.at/o:szd.158/IMG.2",
+      "https://gams.uni-graz.at/o:szd.158/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefumschlag\n- Signatur: SZ-SAM/L8\n- Objekttyp: Briefumschlag\n- Umfang: 1 Blatt\n- Anmerkungen: Auf der Rückseite aufgedruckt ein von Ephraim Moses Lilien entworfenes blaues Signet mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite des Briefumschlags, unbeschriftet."
+      },
+      {
+        "page": 2,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5",
+        "notes": "Rückseite des Briefumschlags mit aufgedrucktem Signet (SZ) und Adresse."
+      },
+      {
+        "page": 3,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5",
+        "notes": "Rückseite des Briefumschlags (identisch mit Seite 2, hier mit Farbkarten-Referenz)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und eindeutig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 48,
+    "total_words": 6,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      0,
+      24,
+      24
+    ],
+    "chars_per_page_median": 24.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

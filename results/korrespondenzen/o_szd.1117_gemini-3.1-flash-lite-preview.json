@@ -1,0 +1,106 @@
+{
+  "object_id": "o_szd.1117",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 23. März 1903, SZ-LAS/B3.37",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1117/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 23. März 1903, SZ-LAS/B3.37\n- Signatur: SZ-LAS/B3.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herrn Max Fleischer\n\nBöhmen\nKomotau\nKohlstadtgasse",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke: 10 Heller Österreich. Poststempel: WIEN 1/1, 23. III. 03."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Poststempel (unleserlich)."
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Max,\nes war mein fester Entschluß,\ndir, der mir fünf Monate keine Zeile\nsendet, nicht zu schreiben. Und nun un-\ngern thu ich es heute.\nIch habe gestern deinen lieben\nBruder gesprochen. Er ist sicher einer,\nder dich gern hat und dem du nicht\nnachsagen kannst, er mache sich schlecht.\nDa, als die best. Aber ich will dich doch\nerinnern, wenn die deine Dissertation\nbegonnen hast – es ist bald ein Jahr.\nIch bin kein Moralprediger und\nhätte für meine eigene Dissertation\nauf etwas mehr Fleiß von nöthen,\naber ich hoffe, du erkennst mich noch\nals Freund an, der dich bittet, end-\nlich einmal ein Ende zu machen.\nVielleicht dankst du doch einmal",
+        "notes": "Erste Seite des Briefes."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite (Rückseite von Seite 3)."
+      },
+      {
+        "page": 5,
+        "transcription": "nach, was aus dir werden soll.\nVon mir schreibe ich nichts,\nweil ich – durch die Schmerzen\nveranlaßt – fürchte, dich mit din-\ngen zu belästigen, die dich nicht im\nmindesten in Betracht ziehen. Und die\nGrüße von Fräulein Josefa Metz\nfühle ich mich verpflichtet, dir zu\nübertragen.\nEs thut mir leid, daß\ndas kein Brief geworden ist\nwie es sich unter guten Freunden\ngehört; ich hoffe, du läßt aber\nein, daß da keine Schuld trifft\nDeine dir trotz allem in alter\nHerzlichkeit und Treue zugethan\nStefan Zweig",
+        "notes": "Zweite Seite des Briefes."
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite (Rückseite von Seite 5)."
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Scan mit Farb- und Grauskala zur Kalibrierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1199,
+    "total_words": 208,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      50,
+      0,
+      647,
+      0,
+      502,
+      0,
+      0
+    ],
+    "chars_per_page_median": 502,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4829,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

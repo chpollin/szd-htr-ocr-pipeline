@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.1217",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 8. November 1934, SZ-SAM/B7.47",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1217/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1217/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 8. November 1934, SZ-SAM/B7.47\n- Signatur: SZ-SAM/B7.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11 Portland Place\n\nLondon, den 8. November 1934.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen für die fünf Kapitel, die heute eingetroffen\nsind und die ich noch in den nächsten Tagen zu erledigen hoffe.\nIn Kapitel VI wird noch einiges kräftig {morgen} umgestellt, sonst dürfte\ndas Meiste bleiben. Sie erhalten meinerseits heute wiederum ein\nKapitel und es geht hoffentlich in der nächsten Zeit rasch weiter.\nIch hoffe doch hier noch etwa bis Kapitel XX zu kommen und der\nRest ist dann leicht.\n\nBitte den beiliegenden Vertrag einer Dramatisierung von\nMarie Antoinette zu den Akten zu legen. Und empfangen Sie beste\nGrüsse und sagen Sie auch alles Herzliche an Herrn Schierl und\nHerrn Johann.\n\nStefan Zweig",
+        "notes": "Das Wort 'morgen' wurde handschriftlich über 'sonst' eingefügt. Die Unterschrift ist in violetter Tinte ausgeführt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, unbeschrieben."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Einfügung 'morgen' und die Unterschrift sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 698,
+    "total_words": 114,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      698,
+      0
+    ],
+    "chars_per_page_median": 698,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5225,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

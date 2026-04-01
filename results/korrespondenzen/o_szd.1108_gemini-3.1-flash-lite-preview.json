@@ -1,0 +1,107 @@
+{
+  "object_id": "o_szd.1108",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Fleischer vom 10. Oktober 1902, SZ-LAS/B3.29",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1108/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1108/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 10. Oktober 1902, SZ-LAS/B3.29\n- Signatur: SZ-LAS/B3.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "(Luxusausgabe.)\n1-10. Stumpfsinn. Lieber Max!\nich höre soeben, dass Du sehr\nfleissig bist, doch bin ich überzeugt\ndass sich das nur auf das Spazieren-\ngehen bezieht, demgemäss die Prokrasti-\nnation am besten Wege ist, niemals\nfertig zu werden. Infolgedessen er-\nklärt sich Deine Brieffaulheit abso-\nlut nicht. In Wien gefällt es mir\ntäglich besser und diese Liebe ist\neine wechselseitige. Deine Confüchse\nHänsler und Lofi gefallen mir\nnicht, offenbar weil sie noch zu sehr\nvon Dir beeinflusst sind. Dein neues\nGedicht hat mich riesig gefreut,\nso lange ich es nicht gelesen hatte.\nDu bist wieder am besten Wege\nProfessor Wolkan's Zufriedenheit",
+        "notes": "Der Text beginnt auf der ersten Seite des Briefbogens."
+      },
+      {
+        "page": 2,
+        "transcription": "zu verscherzen. Ich bin übrigens\nneugierig auf Deinen Artikel über\nHoffmann und zweifle nicht dass\ner fulminant und einzigdastehend\nsein wird in seiner Praegnanz und\nKlarheit. Hoffentlich wirkst Du\nauch durch Deine Überlegenheit\neindrucksvoll und befruchtend auf\ndie Komotauer kleinen Mädchen,\nweshalb ich Dir empfehle die Staats-\nbahngesetze auf noch einen Moment\nliegen zu lassen und lieber den\nPaternitätsparagraphen nachzu-\nlesen. In Wien ist ein einziges grosses\nErwarten, alles lebt Dir entgegen,\ninsbesondere der Secretär der Uni-\nversität (so schwer es ihm auch",
+        "notes": "Fortsetzung des Brieftextes."
+      },
+      {
+        "page": 3,
+        "transcription": "wird.) Die Universität ist festlich\nbeflaggt, — gewesen am Jahres-\ntage Deines Durchsausens. Verlaine\nist bereits ziemlich berühmt natür-\nlich nur, weil er ungedruckte Beiträge\nvon Dir, dem besten über-jüngling\nmit Meisterschimmer von Komotau,\nnicht aber Neu-Zittau enthält. Deinen\nSchwimmconcurrenten Lieutenant Ströke\nly traf ich gestern am Opernring,\nwo er mit ähnlicher Geschwindigkeit\nlief, wie Du seinerzeit über jene\nWiese. Was machen Deine Dichter-\nlorken und Fräulein Bogenhart?\nHaben Sie Dich noch nicht ver-\nlassen und bereichern Deine Locken-\nsammlung; zu der ich Dir bei-\nsteuern könnte, da es hier viel\nDichter und Ondel gibt. — Theater",
+        "notes": "Fortsetzung des Brieftextes."
+      },
+      {
+        "page": 4,
+        "transcription": "besuchte ich bis jetzt noch nicht, wahr-\nscheinlich weil die darstellenden\nKräfte noch nicht gut genug sind,\nsolange Du nicht im Ensemble mit-\nwirkst.\nIch, Camill Hoffmann, habe mich bei\nIhnen zu entschuldigen, weil ich Ihnen mein\nBuch nicht direct geschickt habe, sondern\ndurch den Verleger schicken liess; betrachten\nSie es aber dennoch als ein Freundschafts-\nexemplar oder als eine moralische\nOhrfeige. Dieses Opuss wurde gefer-\ntigt in der Officin von\nVicill Stefton Canfan\n\nVerlegt gottseidank nicht\nbei E. Pierson",
+        "notes": "Schluss des Briefes. Die Unterschrift 'Vicill Stefton Canfan' scheint eine humoristische Verfremdung oder Parodie zu sein."
+      },
+      {
+        "page": 5,
+        "transcription": "(Zum Geleite.)\nKohlmarktgeboren\nAn Max Fleischer\n\nKomotau (in in) Böhmen\nVilla Fleischer",
+        "notes": "Adressseite des Briefumschlags. Briefmarke oben rechts."
+      },
+      {
+        "page": 6,
+        "transcription": "11.10.02\nKOMOTAU\nXII\n\n22421/1",
+        "notes": "Rückseite des Briefumschlags mit Poststempel und Archivnummer."
+      },
+      {
+        "page": 7,
+        "transcription": "11.10.02\nKOMOTAU\nXII\n\n22421/1",
+        "notes": "Wiederholung der Rückseite des Umschlags mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, typisch für Stefan Zweig. Einige Eigennamen und humoristische Wortschöpfungen wurden kontextuell interpretiert."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 2526,
+    "total_words": 381,
+    "total_pages": 7,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      642,
+      569,
+      650,
+      519,
+      88,
+      29,
+      29
+    ],
+    "chars_per_page_median": 519,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4562,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      5,
+      6
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

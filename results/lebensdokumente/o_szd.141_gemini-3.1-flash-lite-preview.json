@@ -126,12 +126,22 @@
     "confidence_notes": "Die Schrift ist gut lesbar, die Namen (Petipa, Minkus, Semjenowa) sind historisch eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 109,
     "total_words": 18,
     "total_pages": 2,
     "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 2,
     "input_images": 5,
+    "page_types": [
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
     "chars_per_page": [
       0,
       0,
@@ -143,12 +153,15 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.1176,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": false,
-    "needs_review_reasons": []
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
   }
 }

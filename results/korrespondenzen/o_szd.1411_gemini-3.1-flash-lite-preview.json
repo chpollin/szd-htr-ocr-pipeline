@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1411",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Alfred Kubin vom 1. März 1924, SZ-LAS/B4.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1411/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1411/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1411/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Alfred Kubin vom 1. März 1924, SZ-LAS/B4.5\n- Signatur: SZ-LAS/B4.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An Herrn Alfred Kubin\nin Wernstein a/ Inn\nOberösterreich",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: '-1 III. 24 20'. Briefmarke: 500 Kronen Österreich."
+      },
+      {
+        "page": 2,
+        "transcription": "gnädiger Herr, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Oben links: 'gnädiger Herr' (Datum '1. März' steht darüber)."
+      },
+      {
+        "page": 3,
+        "transcription": "gnädiger Herr 1. März.\nLieber Freund, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskalen zur Archivierung. Die erste Zeile 'gnädiger Herr 1. März.' ist hier deutlicher lesbar als auf dem vorherigen Scan."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die leichte Diskrepanz in der ersten Zeile zwischen Scan 2 und 3 wurde durch den klareren Scan 3 aufgelöst."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 1061,
+    "total_words": 175,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      56,
+      491,
+      514
+    ],
+    "chars_per_page_median": 491,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4128,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

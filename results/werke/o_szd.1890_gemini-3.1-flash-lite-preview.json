@@ -35,12 +35,20 @@
     "confidence_notes": "Der Text ist ein klar gedruckter Text ohne handschriftliche Korrekturen, daher ist die Transkription sehr sicher."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.2",
     "total_chars": 6918,
     "total_words": 1112,
     "total_pages": 2,
     "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
     "chars_per_page": [
       3459,
       0,
@@ -50,6 +58,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.4335,
     "duplicate_page_pairs": [
       [
         0,

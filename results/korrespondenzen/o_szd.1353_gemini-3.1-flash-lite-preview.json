@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.1353",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Erich Ami Kaemmerer ohne Datum, SZ-SHB/B3.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1353/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1353/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1353/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Erich Ami Kaemmerer ohne Datum, SZ-SHB/B3.5\n- Signatur: SZ-SHB/B3.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Herr Kaemmerer, ich weiss nicht, wo mein\nGlückwunsch Sie erreicht, ob daheim oder in einem\nleidenschaftlich erregten Japan, aber wo immer er\nSie finden möge, nehmen Sie ihn, bitte, mit der glei-\nchen Herzlichkeit entgegen, mit der er gegeben ist.\nWelches Glück für Sie, in unruhigen Zeiten wie den\nunsern wenigstens in häuslichen Raume sich gesichert\nund beglückt zu wissen! Nur hoffentlich kommen Sie\neinmal in London vorbei, wo ich jetzt den Grossteil\ndes Jahres arbeite und wohne: ich wäre so froh, mehr\nvon Ihnen hören zu dürfen! Mit den aufrichtigen Grüssen\nan Ihre verehrte Familie Ihr ergeben\n\nStefan Zweig\n\n49, Hallam Street\nLondon W 1",
+        "notes": "Der Text ist gut lesbar. Die Tinte ist violett. Die Adresse am Ende ist linksbündig unter dem Textkörper platziert."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, unbeschrieben."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbkarte/Grauskala zur Dokumentation, kein historischer Text."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr deutlich und gut lesbar. Es gibt keine unklaren Stellen."
+  },
+  "quality_signals": {
+    "version": "1.2",
+    "total_chars": 650,
+    "total_words": 107,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      650,
+      0,
+      0
+    ],
+    "chars_per_page_median": 650,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5143,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
