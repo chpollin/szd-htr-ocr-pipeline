@@ -25,6 +25,30 @@
       }
     },
     {
+      "id": "o_szd.2232_gemini-3.1-flash-lite-preview",
+      "collection": "aufsatzablage",
+      "label": "Zwei Einsame.",
+      "group": "H",
+      "groupLabel": "Zeitungsausschnitt",
+      "pid": "o:szd.2232",
+      "title": "Zwei Einsame., SZ-AAP/W-AA223.1",
+      "titleClean": "Zwei Einsame.",
+      "signature": "SZ-AAP/W-AA223.1",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 3,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.2232/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 11877,
+        "emptyPages": 0,
+        "avgCharsPerPage": 3959,
+        "vlmConfidence": "high"
+      }
+    },
+    {
       "id": "korrespondenz_fleischer_gemini-3.1-flash-lite-preview",
       "collection": "korrespondenzen",
       "label": "Brief an Max Fleischer vom 22. Mai 1901",
