@@ -286,7 +286,31 @@ results/
 
 ---
 
-## Offene Fragen (aktuell, Stand 2026-03-31)
+## 2026-04-01 — Session 6: Frontend-Refactoring, Verifikationskonzept
+
+Vollständige Dokumentation: [session_2026-04-01.md](session_2026-04-01.md)
+
+### Zusammenfassung
+
+- CLAUDE.md komplett überarbeitet (Fakten verifiziert, Widersprüche beseitigt)
+- Frontend-Refactoring: `index.html` + `viewer.html` → Single-Page-App (index.html + app.css + app.js)
+- Daten-Split: `data.json` → `catalog.json` (~6 KB) + `data/{collection}.json` (on-demand)
+- SZD-Design-System implementiert (Burgundy/Gold, Source Serif/Sans, konsistent mit stefanzweig.digital)
+- GAMS-Thumbnails im Katalog (native `/THUMBNAIL`-Endpoint, ~1.5 KB)
+- 3-Ebenen-Verifikation statt naiver VLM-Konfidenz:
+  1. Unsicherheits-Marker `[?]`, `[...]` (stark)
+  2. VLM-Selbsteinschätzung (schwach)
+  3. Textstatistik (mittel)
+- Inline-Edit-Modus mit localStorage-Persistenz (nur lokal)
+
+### Gelöschte Dateien
+
+- `docs/viewer.html`
+- `docs/data.json`
+
+---
+
+## Offene Fragen (aktuell, Stand 2026-04-01)
 
 Konsolidiert aus allen Sessions:
 

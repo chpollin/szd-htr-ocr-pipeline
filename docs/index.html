@@ -1,285 +1,231 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SZD-HTR-OCR-Pipeline — Transkriptionsergebnisse</title>
-    <style>
-        :root {
-            --bg: #fafaf8;
-            --text: #2c2c2c;
-            --accent: #8b5e3c;
-            --border: #d4c5b0;
-            --card-bg: #fff;
-            --tag-bg: #f0e8dc;
-            --high: #4a7c59;
-            --medium: #b8860b;
-            --low: #a0522d;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Georgia', serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 2rem 1.5rem;
-        }
-        h1 {
-            font-size: 1.8rem;
-            font-weight: normal;
-            border-bottom: 2px solid var(--accent);
-            padding-bottom: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        h1 span { font-size: 0.9rem; color: #888; }
-        .subtitle {
-            color: #666;
-            margin-bottom: 2rem;
-            font-size: 0.95rem;
-        }
-        .subtitle a { color: var(--accent); }
-        h2 {
-            font-size: 1.2rem;
-            font-weight: normal;
-            color: var(--accent);
-            margin: 2.5rem 0 1rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 0.3rem;
-        }
-        .object-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            margin-bottom: 2rem;
-            overflow: hidden;
-        }
-        .object-header {
-            background: var(--tag-bg);
-            padding: 0.8rem 1.2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-        .object-header h3 {
-            font-size: 1.05rem;
-            font-weight: 600;
-        }
-        .tags { display: flex; gap: 0.4rem; flex-wrap: wrap; }
-        .tag {
-            font-size: 0.75rem;
-            padding: 0.15rem 0.5rem;
-            border-radius: 3px;
-            font-family: 'Consolas', monospace;
-        }
-        .tag-group { background: #e3d5c5; color: #5a3e28; }
-        .tag-lang { background: #d5e3e8; color: #2a4a5a; }
-        .tag-confidence-high { background: #d4e8d4; color: var(--high); }
-        .tag-confidence-medium { background: #f0e4c0; color: var(--medium); }
-        .tag-confidence-low { background: #e8d4c4; color: var(--low); }
-        .meta-row {
-            padding: 0.5rem 1.2rem;
-            font-size: 0.85rem;
-            color: #666;
-            border-bottom: 1px solid #eee;
-        }
-        .meta-row span { color: var(--text); }
-        .page {
-            padding: 1.2rem;
-            border-bottom: 1px solid #eee;
-        }
-        .page:last-child { border-bottom: none; }
-        .page-label {
-            font-size: 0.8rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 0.5rem;
-        }
-        .transcription {
-            font-family: 'Consolas', 'Courier New', monospace;
-            font-size: 0.88rem;
-            line-height: 1.8;
-            white-space: pre-wrap;
-            background: #faf8f5;
-            padding: 1rem;
-            border-radius: 3px;
-            border-left: 3px solid var(--border);
-        }
-        .page-notes {
-            font-size: 0.82rem;
-            color: #888;
-            margin-top: 0.5rem;
-            font-style: italic;
-        }
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin: 1.5rem 0;
-        }
-        .stat-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 4px;
-            padding: 1rem;
-            text-align: center;
-        }
-        .stat-num {
-            font-size: 2rem;
-            color: var(--accent);
-            font-weight: bold;
-        }
-        .stat-label { font-size: 0.85rem; color: #888; }
-        footer {
-            margin-top: 3rem;
-            padding-top: 1rem;
-            border-top: 1px solid var(--border);
-            font-size: 0.8rem;
-            color: #999;
-        }
-        footer a { color: var(--accent); }
-        del { color: #999; text-decoration: line-through; }
-        .loading { text-align: center; padding: 3rem; color: #888; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SZD-HTR — Transkriptionsqualität</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
 </head>
-<body>
+<body class="view-catalog">
 
-<h1>SZD-HTR-OCR-Pipeline <span>Transkriptionsergebnisse</span></h1>
-<p class="subtitle">
-    VLM-basierte Transkription von Faksimiles aus dem
-    <a href="https://stefanzweig.digital/">Stefan-Zweig-Nachlass</a>
-    (Literaturarchiv Salzburg).<br>
-    <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">GitHub</a> &middot;
-    <a href="viewer.html">Viewer</a>
-</p>
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="site-header__title">
+    SZD-HTR <span>Stefan Zweig Digital</span>
 
-<div class="stats" id="stats">
-    <div class="loading">Lade Daten&hellip;</div>
+  </div>
+  <nav class="site-header__nav">
+    <a href="#" class="site-header__back" id="backBtn">&#8592; Katalog</a>
+    <span class="site-header__catalog-nav">
+      <button type="button" id="helpBtn">Hilfe</button>
+      <a href="https://github.com/chpollin/szd-htr-ocr-pipeline" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </nav>
+</header>
+
+<!-- ===== Catalog View ===== -->
+<main id="catalog" class="catalog">
+  <div class="catalog__toolbar">
+    <div class="catalog__search">
+      <input type="search" class="catalog__search-input" id="searchInput"
+             placeholder="Suche nach Titel, Signatur oder PID…" autocomplete="off">
+    </div>
+    <select class="catalog__filter" id="filterCollection">
+      <option value="">Alle Sammlungen</option>
+    </select>
+    <select class="catalog__filter" id="filterConfidence">
+      <option value="">Alle Qualität</option>
+      <option value="high">high</option>
+      <option value="medium">medium</option>
+      <option value="low">low</option>
+    </select>
+    <button type="button" class="catalog__clear-btn" id="clearFilters">Filter zurücksetzen</button>
+  </div>
+
+  <div class="catalog__table-wrap">
+    <table class="catalog__table">
+      <thead>
+        <tr>
+          <th class="col-thumb"></th>
+          <th class="col-title" data-sort="titleClean">Titel <span class="sort-arrow"></span></th>
+          <th class="col-sig" data-sort="signature">Signatur <span class="sort-arrow"></span></th>
+          <th class="col-pid" data-sort="pid">PID <span class="sort-arrow"></span></th>
+          <th class="col-collection" data-sort="collection">Sammlung <span class="sort-arrow"></span></th>
+          <th class="col-group" data-sort="groupLabel">Gruppe <span class="sort-arrow"></span></th>
+          <th class="col-lang" data-sort="lang">Sprache <span class="sort-arrow"></span></th>
+          <th class="col-quality" data-tooltip="Unsicherheits-Marker + VLM-Einschätzung">Qualität <span class="sort-arrow"></span></th>
+          <th class="col-pages" data-sort="pageCount" data-tooltip="Seitenanzahl">S. <span class="sort-arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="catalogBody"></tbody>
+    </table>
+  </div>
+  <div class="catalog__empty" id="catalogEmpty" style="display:none">
+    Keine Objekte gefunden.
+  </div>
+
+  <div class="catalog__pagination" id="pagination">
+    <span class="catalog__pagination-info" id="paginationInfo"></span>
+    <div class="catalog__pagination-controls">
+      <button type="button" class="catalog__page-btn" id="prevPage">&#8249;</button>
+      <span id="paginationPages"></span>
+      <button type="button" class="catalog__page-btn" id="nextPage">&#8250;</button>
+    </div>
+  </div>
+</main>
+
+<!-- ===== Viewer View ===== -->
+<div id="viewer" class="viewer">
+  <div class="viewer__meta" id="viewerMeta"></div>
+
+  <div class="viewer__nav">
+    <div class="viewer__nav-group">
+      <button type="button" class="viewer__nav-btn" id="prevObjBtn"
+              data-tooltip="Vorheriges Objekt">&#171;</button>
+      <span class="viewer__obj-info" id="objInfo"></span>
+      <button type="button" class="viewer__nav-btn" id="nextObjBtn"
+              data-tooltip="Nächstes Objekt">&#187;</button>
+    </div>
+
+    <div class="viewer__nav-group">
+      <button type="button" class="viewer__nav-btn" id="prevPageBtn"
+              data-tooltip="Vorherige Seite (←)">&#8249;</button>
+      <span class="viewer__page-info" id="pageInfo">1 / 1</span>
+      <button type="button" class="viewer__nav-btn" id="nextPageBtn"
+              data-tooltip="Nächste Seite (→)">&#8250;</button>
+    </div>
+
+    <div class="viewer__nav-group">
+      <button type="button" class="viewer__nav-btn" id="metaToggle"
+              data-tooltip="Metadaten ein/ausblenden">i</button>
+      <button type="button" class="viewer__action-btn" id="editBtn"
+              data-tooltip="Transkription bearbeiten">
+        &#9998; Edit <span class="indicator" id="editIndicator"></span>
+      </button>
+      <button type="button" class="viewer__action-btn" id="saveBtn"
+              data-tooltip="Korrekturen als JSON herunterladen">
+        &#8595; JSON
+      </button>
+      <button type="button" class="viewer__action-btn" id="discardBtn"
+              data-tooltip="Alle Änderungen an diesem Objekt verwerfen" style="display:none">
+        Verwerfen
+      </button>
+    </div>
+  </div>
+
+  <div class="viewer__panels" id="viewerPanels">
+    <div class="viewer__panel-label">Faksimile</div>
+    <div class="viewer__panel-label">Transkription</div>
+    <div class="viewer__img-panel" id="imgPanel">
+      <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
+      <img id="faksimile" src="" alt="Faksimile" style="display:none">
+    </div>
+    <div class="viewer__text-panel" id="textPanel">
+      <div class="viewer__transcription-wrap">
+        <div class="viewer__transcription" id="transcription"></div>
+      </div>
+      <div class="viewer__notes" id="notes"></div>
+      <div class="viewer__confidence" id="confidenceBar"></div>
+    </div>
+  </div>
 </div>
 
-<div id="content"></div>
-
-<footer>
+<!-- ===== Help Modal ===== -->
+<div class="help-overlay" id="helpOverlay">
+  <div class="help-modal">
+    <button type="button" class="help-modal__close" id="helpClose">&times;</button>
+    <h2>SZD-HTR Viewer</h2>
     <p>
-        <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">SZD-HTR-OCR-Pipeline</a> &mdash;
-        Teilprojekt von <a href="https://stefanzweig.digital/">Stefan Zweig Digital</a>,
-        Literaturarchiv Salzburg.
+      Qualitätskontrolle und Showcase für VLM-basierte Transkriptionen aus dem
+      <a href="https://stefanzweig.digital/" target="_blank" rel="noopener">Stefan-Zweig-Nachlass</a>
+      (Literaturarchiv Salzburg).
     </p>
+
+    <h3>Katalog</h3>
+    <ul>
+      <li>Klick auf eine Zeile öffnet das Objekt im Viewer</li>
+      <li>Spaltenheader klicken zum Sortieren</li>
+      <li>Textsuche über Titel, Signatur und PID</li>
+      <li>Filter für Sammlung und Konfidenz kombinierbar</li>
+    </ul>
+
+    <h3>Viewer</h3>
+    <ul>
+      <li>Links: Faksimile von GAMS (Klick zum Zoomen)</li>
+      <li>Rechts: Transkription + Notes + Konfidenz</li>
+      <li><kbd>←</kbd> / <kbd>→</kbd> für Seitennavigation</li>
+      <li><kbd>Esc</kbd> zurück zum Katalog</li>
+    </ul>
+
+    <h3>Edit-Modus (nur lokal)</h3>
+    <p>
+      Der Edit-Modus ist nur verfügbar, wenn das Tool lokal läuft.
+      So starten:
+    </p>
+    <p><code>cd docs &amp;&amp; python -m http.server 8000</code></p>
+    <ul>
+      <li>Transkription und Notes direkt bearbeiten</li>
+      <li>Änderungen bleiben im Browser gespeichert (localStorage)</li>
+      <li><strong>JSON</strong>-Button exportiert die Korrekturen als Datei</li>
+    </ul>
+
+    <h3>Prompt-Gruppen</h3>
+    <table>
+      <thead><tr><th>Kürzel</th><th>Gruppe</th><th>Beschreibung</th></tr></thead>
+      <tbody>
+        <tr><td>A</td><td>Handschrift</td><td>Handschriftliche Dokumente, Tagebücher, Manuskripte</td></tr>
+        <tr><td>B</td><td>Typoskript</td><td>Maschinenschrift, Durchschläge</td></tr>
+        <tr><td>C</td><td>Formular</td><td>Amtsformulare, Urkunden, Bescheide</td></tr>
+        <tr><td>D</td><td>Kurztext</td><td>Eintrittskarten, Notizen, Karten</td></tr>
+        <tr><td>E</td><td>Tabellarisch</td><td>Register, Kalender, Kontorbücher</td></tr>
+        <tr><td>F</td><td>Korrekturfahne</td><td>Druckfahnen, Korrekturbogen</td></tr>
+        <tr><td>H</td><td>Zeitungsausschnitt</td><td>Zeitungsartikel, Ausschnitte</td></tr>
+        <tr><td>I</td><td>Korrespondenz</td><td>Briefe, Postkarten</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Verifikation (Qualitätsspalte)</h3>
+    <p>Die Qualitätsbewertung besteht aus mehreren Signalen unterschiedlicher Stärke:</p>
+    <table>
+      <thead><tr><th>Signal</th><th>Stärke</th><th>Beschreibung</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Unsicherheits-Marker</td>
+          <td><strong>Stark</strong></td>
+          <td>Zählung von <code>[?]</code> (unsichere Lesung) und <code>[...]</code> (unleserlich) im Transkriptionstext. Direkte Evidenz aus dem Output.</td>
+        </tr>
+        <tr>
+          <td>VLM-Selbsteinschätzung</td>
+          <td>Schwach</td>
+          <td>Das Modell bewertet seine eigene Transkription als high/medium/low. LLMs überschätzen systematisch ihre Leistung — dieses Signal ist ein Indikator, kein Beweis.</td>
+        </tr>
+        <tr>
+          <td>Textstatistik</td>
+          <td>Mittel</td>
+          <td>Zeichenzahl, Leerseiten, Zeichen pro Seite. Plausibilitäts-Check: ein 135-Seiten-Register mit nur 200 Zeichen wäre verdächtig.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <span>
+    <a href="https://github.com/chpollin/szd-htr-ocr-pipeline">SZD-HTR-OCR-Pipeline</a>
+  </span>
+  <span>
+    Teilprojekt von <a href="https://stefanzweig.digital/" target="_blank" rel="noopener">Stefan Zweig Digital</a>
+  </span>
+  <span>Literaturarchiv Salzburg</span>
+  <span>
+    Bilder: <a href="https://gams.uni-graz.at" target="_blank" rel="noopener">GAMS</a>, CC-BY
+  </span>
 </footer>
 
-<script>
-const COLLECTION_LABELS = {
-    "lebensdokumente": "Lebensdokumente",
-    "werke": "Werke",
-    "aufsatzablage": "Aufsatzablage",
-    "korrespondenzen": "Korrespondenzen"
-};
-
-function escapeHtml(text) {
-    return text
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/~~(.+?)~~/g, '<del>$1</del>');
-}
-
-async function init() {
-    let data;
-    try {
-        const resp = await fetch('data.json');
-        data = await resp.json();
-    } catch (e) {
-        document.getElementById('stats').innerHTML =
-            '<div class="loading">Fehler beim Laden der Daten.</div>';
-        return;
-    }
-
-    const objects = data.objects || [];
-    const collections = data.collections || [];
-
-    // Unique groups and confidence counts
-    const groups = new Set(objects.map(o => o.group + ': ' + o.groupLabel));
-    const highCount = objects.filter(o => o.confidence === 'high').length;
-    const models = new Set(objects.map(o => o.model).filter(Boolean));
-
-    // Stats
-    document.getElementById('stats').innerHTML = `
-        <div class="stat-card">
-            <div class="stat-num">${objects.length}</div>
-            <div class="stat-label">Objekte getestet</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-num">${highCount}/${objects.length}</div>
-            <div class="stat-label">Confidence: high</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-num">${collections.length}</div>
-            <div class="stat-label">Sammlungen</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-num">${groups.size}</div>
-            <div class="stat-label">Prompt-Gruppen</div>
-        </div>
-    `;
-
-    // Model info
-    if (models.size > 0) {
-        const subtitle = document.querySelector('.subtitle');
-        subtitle.innerHTML += `<br>Modell: <strong>${[...models].join(', ')}</strong>`;
-    }
-
-    // Object cards grouped by collection
-    const content = document.getElementById('content');
-    let html = '';
-
-    for (const col of collections) {
-        const colObjects = objects.filter(o => o.collection === col);
-        const colLabel = COLLECTION_LABELS[col] || col;
-        html += `<h2>${colLabel} (${colObjects.length})</h2>`;
-
-        for (const obj of colObjects) {
-            const pages = obj.pages || [];
-            const confClass = `tag-confidence-${obj.confidence || 'medium'}`;
-
-            html += `<div class="object-card">`;
-            html += `<div class="object-header">`;
-            html += `<h3>${escapeHtml(obj.title || obj.label)}</h3>`;
-            html += `<div class="tags">`;
-            html += `<span class="tag tag-group">${obj.group}: ${obj.groupLabel}</span>`;
-            if (obj.lang) html += `<span class="tag tag-lang">${escapeHtml(obj.lang)}</span>`;
-            if (obj.confidence) html += `<span class="tag ${confClass}">${obj.confidence}</span>`;
-            html += `</div></div>`;
-
-            html += `<div class="meta-row">`;
-            html += `<span>${obj.pid}</span>`;
-            if (obj.model) html += ` &middot; ${escapeHtml(obj.model)}`;
-            if (pages.length) html += ` &middot; ${pages.length} Seiten`;
-            html += `</div>`;
-
-            for (let i = 0; i < pages.length; i++) {
-                const page = pages[i];
-                html += `<div class="page">`;
-                html += `<div class="page-label">Seite ${page.page || i + 1}</div>`;
-                html += `<div class="transcription">${escapeHtml(page.transcription || '')}</div>`;
-                if (page.notes) {
-                    html += `<div class="page-notes">${escapeHtml(page.notes)}</div>`;
-                }
-                html += `</div>`;
-            }
-
-            html += `</div>`;
-        }
-    }
-
-    content.innerHTML = html;
-}
-
-init();
-</script>
-
+<script src="app.js"></script>
 </body>
 </html>

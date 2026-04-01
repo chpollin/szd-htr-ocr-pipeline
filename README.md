@@ -56,20 +56,27 @@ Getestet mit **Gemini 3.1 Flash Lite** (Preview). **7/7 Objekte: high confidence
 | Aus der Werkstatt der Dichter | Aufsatzablage | H: Zeitungsausschnitt | DE |
 | Brief an Max Fleischer 1901 | Korrespondenzen | I: Korrespondenz | DE |
 
-Viewer: [chpollin.github.io/szd-htr-ocr-pipeline/viewer.html](https://chpollin.github.io/szd-htr-ocr-pipeline/viewer.html)
+Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.github.io/szd-htr-ocr-pipeline/)
 
 ## Projektstruktur
 
 ```
 ├── pipeline/
-│   ├── prompts/           ← 8 Gruppen-Prompts + System-Prompt
-│   ├── test_single.py     ← Test-Script (Multi-Collection)
-│   ├── tei_context.py     ← TEI-Parser für automatische Kontext-Generierung
-│   └── build_viewer_data.py ← Baut docs/data.json aus Ergebnissen
-├── data/                  ← TEI-Metadaten (4 Sammlungen)
-├── results/test/          ← Transkriptionsergebnisse (enriched JSON)
-├── knowledge/             ← Research-Vault
-└── docs/                  ← GitHub Pages (Viewer + Übersicht)
+│   ├── prompts/              ← 8 Gruppen-Prompts + System-Prompt
+│   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
+│   ├── test_single.py        ← Test-Script (7 Referenz-Objekte)
+│   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()
+│   ├── config.py             ← Pfade, API-Key, Sammlungs-Mapping
+│   └── build_viewer_data.py  ← Baut catalog.json + data/{collection}.json
+├── data/                     ← TEI-Metadaten (4 Sammlungen)
+├── results/                  ← Transkriptionsergebnisse (enriched JSON)
+├── knowledge/                ← Research-Vault
+└── docs/                     ← GitHub Pages (Single-Page-App)
+    ├── index.html            ← Katalog + Viewer
+    ├── app.css               ← SZD-Design-System
+    ├── app.js                ← Routing, Rendering, Edit, Export
+    ├── catalog.json          ← Leichtgewichtige Metadaten
+    └── data/                 ← Transkriptionen pro Sammlung
 ```
 
 ## Setup

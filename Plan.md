@@ -23,9 +23,14 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Multi-Collection-Support in test_single.py (lebensdokumente, werke, aufsatzablage, korrespondenzen)
 - [x] TEI-Parser `pipeline/tei_context.py` für automatische Kontext-Generierung
 - [x] Enriched JSON-Output mit Metadaten und GAMS-URLs
-- [x] `pipeline/build_viewer_data.py` — baut docs/data.json aus Ergebnissen
+- [x] `pipeline/build_viewer_data.py` — baut catalog.json + data/{collection}.json
 - [x] Test-Objekte aus allen 4 Sammlungen transkribiert (7/7 high confidence)
 - [x] Viewer mit Sammlungs-Tabs und dynamischem Laden aus data.json
+- [x] Frontend-Refactoring: Single-Page-App mit Katalog + Viewer + Edit-Modus
+- [x] SZD-Design-System (Burgundy/Gold, Source Serif/Sans)
+- [x] Daten-Split: catalog.json + data/{collection}.json
+- [x] GAMS-Thumbnails im Katalog
+- [x] 3-Ebenen-Verifikation statt naiver VLM-Konfidenz
 
 ## Phase 3: Pipeline-Automatisierung (erledigt)
 
@@ -69,4 +74,4 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | Bilder | Lokales Backup (4 Sammlungen, 2107 Objekte) |
 | Output | Enriched JSON pro Objekt, nach Sammlung strukturiert |
 | CLI | `pipeline/transcribe.py` (Einzel/Batch/Sammlung) |
-| Viewer | Statisches HTML + data.json (GitHub Pages) |
+| Viewer | Single-Page-App (index.html + app.js + app.css), catalog.json + data/{collection}.json |

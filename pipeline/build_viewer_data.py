@@ -1,10 +1,48 @@
-"""Build docs/data.json from enriched result files for the viewer."""
+"""Build catalog.json + data/{collection}.json from enriched result files."""
 
 import json
+import re
 
 from config import GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
 
-OUTPUT_PATH = PROJECT_ROOT / "docs" / "data.json"
+DOCS_DIR = PROJECT_ROOT / "docs"
+CATALOG_PATH = DOCS_DIR / "catalog.json"
+DATA_DIR = DOCS_DIR / "data"
+GAMS_BASE = "https://gams.uni-graz.at/"
+
+
+def extract_signature(title: str) -> tuple[str, str]:
+    """Extract signature from title. Returns (title_clean, signature)."""
+    parts = title.rsplit(",", 1)
+    if len(parts) == 2 and parts[1].strip().startswith("SZ-"):
+        return parts[0].strip(), parts[1].strip()
+    return title, ""
+
+
+def compute_verification(pages: list[dict]) -> dict:
+    """Compute verification metrics from transcription text."""
+    uncertain = 0
+    illegible = 0
+    total_chars = 0
+    empty_pages = 0
+
+    for page in pages:
+        text = page.get("transcription", "")
+        if not text.strip():
+            empty_pages += 1
+            continue
+        total_chars += len(text)
+        uncertain += len(re.findall(r"\[\?\]", text))
+        illegible += len(re.findall(r"\[\.\.\..*?\]", text))
+
+    non_empty = len(pages) - empty_pages
+    return {
+        "uncertainCount": uncertain,
+        "illegibleCount": illegible,
+        "totalChars": total_chars,
+        "emptyPages": empty_pages,
+        "avgCharsPerPage": round(total_chars / non_empty) if non_empty else 0,
+    }
 
 
 def build():
@@ -33,25 +71,33 @@ def build():
         # Determine which GAMS images to use per page
         all_images = meta.get("images", [])
         pages = result.get("pages", [])
-
-        # Filter out calibration card pages (page 3 of 3 is often a color chart)
-        # Keep all pages from the result but match to available images
         page_images = all_images[:len(pages)] if all_images else []
+
+        full_title = meta.get("title", "")
+        title_clean, signature = extract_signature(full_title)
+
+        verification = compute_verification(pages)
+        verification["vlmConfidence"] = result.get("confidence", "")
 
         obj = {
             "id": result_file.stem,
             "collection": data["collection"],
-            "label": meta.get("title", "").split(",")[0][:40],
+            "label": title_clean[:40],
             "group": group_letter,
             "groupLabel": group_label,
             "pid": pid,
-            "title": meta.get("title", ""),
+            "title": full_title,
+            "titleClean": title_clean,
+            "signature": signature,
             "lang": meta.get("language", ""),
             "model": data.get("model", ""),
+            "thumbnail": GAMS_BASE + pid + "/THUMBNAIL",
             "images": page_images,
             "pages": pages,
             "confidence": result.get("confidence", ""),
             "confidenceNotes": result.get("confidence_notes", ""),
+            "pageCount": len(pages),
+            "verification": verification,
         }
         objects.append(obj)
 
@@ -60,13 +106,56 @@ def build():
 
     collections = sorted(set(o["collection"] for o in objects))
 
-    output = {
-        "objects": objects,
-        "collections": collections,
-    }
+    # --- catalog.json: lightweight metadata only ---
+    catalog_objects = []
+    for obj in objects:
+        catalog_objects.append({
+            "id": obj["id"],
+            "collection": obj["collection"],
+            "label": obj["label"],
+            "group": obj["group"],
+            "groupLabel": obj["groupLabel"],
+            "pid": obj["pid"],
+            "title": obj["title"],
+            "titleClean": obj["titleClean"],
+            "signature": obj["signature"],
+            "lang": obj["lang"],
+            "model": obj["model"],
+            "confidence": obj["confidence"],
+            "pageCount": obj["pageCount"],
+            "thumbnail": obj["thumbnail"],
+            "verification": obj["verification"],
+        })
 
-    OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Geschrieben: {OUTPUT_PATH} ({len(objects)} Objekte, {len(collections)} Sammlungen)")
+    catalog = {"objects": catalog_objects, "collections": collections}
+    CATALOG_PATH.write_text(
+        json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Katalog: {CATALOG_PATH} ({len(catalog_objects)} Objekte)")
+
+    # --- data/{collection}.json: full objects with transcription text ---
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    for col in collections:
+        col_objects = []
+        for obj in objects:
+            if obj["collection"] != col:
+                continue
+            col_objects.append({
+                "id": obj["id"],
+                "images": obj["images"],
+                "pages": obj["pages"],
+                "confidence": obj["confidence"],
+                "confidenceNotes": obj["confidenceNotes"],
+                "verification": obj["verification"],
+            })
+        col_path = DATA_DIR / f"{col}.json"
+        col_path.write_text(
+            json.dumps({"objects": col_objects}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        print(f"  {col}: {col_path} ({len(col_objects)} Objekte)")
+
+    print(f"Gesamt: {len(objects)} Objekte, {len(collections)} Sammlungen")
 
 
 if __name__ == "__main__":

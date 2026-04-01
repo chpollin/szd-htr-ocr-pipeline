@@ -2,159 +2,168 @@
 
 ## Projektziel
 
-Aufbau einer HTR/OCR-Pipeline, die aus den digitalisierten Faksimiles des Stefan-Zweig-Nachlasses (Literaturarchiv Salzburg) maschinenlesbaren Text erzeugt. Das Projekt ist ein Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/) und liefert Textdaten als Bewertungsgrundlage für den Expert-in-the-Loop-Workflow im [DIA-XAI](https://github.com/chpollin/dia-xai)-Projekt (PLUS Early Career Grant, ab Mai 2026).
-
-## Repository
+VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). Erzeugt maschinenlesbaren Text aus digitalisierten Faksimiles. Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/), liefert Textdaten für den Expert-in-the-Loop-Workflow im [DIA-XAI](https://github.com/chpollin/dia-xai)-Projekt (PLUS Early Career Grant, ab Mai 2026).
 
 - GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
-- Sprache: Python
+- Python 3.10+ (getestet mit 3.11)
 - Lizenz: MIT
+
+## Aktueller Stand
+
+Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrheitsquelle für Phasen-Status).
+
+- **12 Objekte** transkribiert: 7 Test-Objekte (`results/test/`), 5 Batch-Objekte (`results/lebensdokumente/`)
+- **~2107 Objekte** im Backup über 4 Sammlungen — Batch-Lauf für den Rest steht aus
+- Alle bisherigen Ergebnisse: **high confidence**
+- Nächster Schritt: Phase 4 — kompletter Batch-Lauf, Provider-Vergleich
 
 ## Quelldaten
 
-Die digitalisierten Faksimiles liegen lokal unter:
+Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`):
 
-```
-C:\Users\Chrisi\Documents\PROJECTS\szd-backup\data\
-├── lebensdokumente/    ← 143 Objekte
-├── korrespondenzen/    ← 1186 Objekte
-├── aufsatz/            ← 624 Objekte (Aufsatzablage)
-└── facsimiles/         ← 352 Objekte (Werke/Manuskripte)
-```
+| Unterverzeichnis | Sammlung (intern) | Objekte im Backup | TEI-Datei |
+|---|---|---|---|
+| `lebensdokumente/` | `lebensdokumente` | ~127 | `szd_lebensdokumente_tei.xml` |
+| `korrespondenzen/` | `korrespondenzen` | ~1186 | `szd_korrespondenzen_tei.xml` |
+| `aufsatz/` | `aufsatzablage` | ~625 | `szd_aufsatzablage_tei.xml` |
+| `facsimiles/` | `werke` | ~169 | `szd_werke_tei.xml` |
 
-### Struktur pro Objekt
-
-Jedes Objekt hat eine eigene ID (`o_szd.{nummer}`) und folgende Dateien:
-
-```
-o_szd.100/
-├── metadata.json      ← Metadaten (Titel, Signatur, Sprache, Bildliste, GAMS-URLs)
-├── mets.xml           ← METS/MODS-Metadaten (GAMS-kompatibel)
-└── images/
-    ├── IMG_1.jpg      ← Faksimile-Scans (ca. 4912×7360px, ~1.4MB pro Bild)
-    ├── IMG_2.jpg
-    └── ...
-```
-
-### metadata.json Format
-
-```json
-{
-  "object_id": "o:szd.100",
-  "title": "Agreement Longmans, Green u. Co. Inc., SZ-AAP/L13.23",
-  "signature": "SZ-AAP/L13.23",
-  "author": "Zweig, Stefan",
-  "language": "Englisch",
-  "language_code": "en",
-  "owner": "Literaturarchiv Salzburg, https://stefanzweig.digital, CC-BY",
-  "rights": "CC-BY",
-  "images": [
-    {"id": "IMG.1", "url": "http://gams.uni-graz.at/o:szd.100/IMG.1", "width": 4912, "height": 7360, "order": 1}
-  ],
-  "container": "szd.facsimiles.lebensdokumente",
-  "download_date": "2025-10-22T14:46:40.318083"
-}
-```
-
-## Startset: Diverse Lebensdokumente
-
-Wir beginnen mit einem kleinen, bewusst heterogenen Beispielset aus den Lebensdokumenten. Das Set deckt unterschiedliche Objekttypen, Schriftarten (Handschrift, Maschinenschrift, Druck, Formulare) und Sprachen ab, um die Pipeline-Herausforderungen früh zu identifizieren.
-
-### Ausgewählte Objekte (10 Stück, nach Diversität)
-
-| Kategorie | Objekt | Signatur | Typ | Sprache | Bilder | Herausforderung |
-|-----------|--------|----------|-----|---------|--------|-----------------|
-| Tagebuch | Tagebuch 1918 | SZ-AAP/L6 | Notizbuch | DE | 39 | Handschrift Zweig, Kurrent/Lateinisch gemischt |
-| Rechtsdokument | Heimat-Schein | SZ-AP2/L-S7.1 | Nachweis | DE | 2 | Amtsformular, Handschrift + Druck |
-| Rechtsdokument | Certificate of Naturalization | SZ-AP2/L-S7.10 | Urkunde | EN | 3 | Englisches Formular, offizieller Druck |
-| Rechtsdokument | Bescheid über die Judenvermögensabgabe | SZ-AP2/L-S7.8 | Bescheid | DE | 2 | Amtsdeutsch, Typoskript |
-| Finanzen | Scheckheft Österr. Postsparkasse | SZ-SAM/L12 | Scheckheft | DE | ? | Tabellarisch, Formulare |
-| Verzeichnis | Briefregister [I] | SZ-AP2/L-S9.1 | Register | DE | 135 | Handschriftliche Listen, viele Seiten |
-| Zeugnis | Schulnachricht | SZ-SEF/L2 | Manuskript | DE | 3 | Formular + Handschrift |
-| Verlagsvertrag | Verlagsvertrag Grasset | SZ-AAP/L13.1 | Typoskript | FR | ? | Französisch, Maschinenschrift |
-| Diverses | Theaterkarte Jeremias 1918 | SZ-SDP/L2 | Eintrittskarte | DE | ? | Gedruckt, kurzer Text |
-| Büromaterial | Abwesenheitsnotiz I | SZ-SAM/L2 | Karte | DE | ? | Handschriftlich, kurz |
-
-### Object-IDs ermitteln
-
-Die Object-IDs müssen aus den metadata.json-Dateien anhand der Signatur ermittelt werden. Dazu dieses Script nutzen:
-
-```bash
-for d in C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/lebensdokumente/o_szd.*/metadata.json; do
-  id=$(basename $(dirname "$d"))
-  python3 -c "import json; d=json.load(open('$d')); print(f'{id} | {d[\"signature\"]} | {d[\"title\"]} | imgs={len(d.get(\"images\",[]))}')"
-done | grep -iE "AAP/L6|L-S7.1|L-S7.10|L-S7.8|SAM/L12|L-S9.1|SEF/L2|AAP/L13.1|SDP/L2|SAM/L2"
-```
+Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/images/IMG_*.jpg` (ca. 4912x7360px). TEI-XML enthält mehr Objekte als im Backup vorhanden sind.
 
 ## Pipeline-Architektur
 
-### Phase 1: Grundlegende Pipeline (aktueller Scope)
-
 ```
-Faksimile (JPG) → Preprocessing → VLM/HTR → Rohtext → Nachverarbeitung → Strukturierter Output
+Faksimile (JPG) → Gemini Vision API → JSON (Transkription pro Seite + Konfidenz)
 ```
 
-#### Schritte
+### Dreischichtiges Prompt-System
 
-1. **Image Loading**: Bilder aus dem lokalen Backup laden, metadata.json als Kontext
-2. **Preprocessing**: Bildqualität prüfen, ggf. Rotation/Crop (viele Bilder sind hochaufgelöst, 4912×7360)
-3. **Transkription**: Vision Language Model (VLM) für die eigentliche Texterkennung
-   - Primär: Claude Vision API (claude-sonnet-4-20250514 oder claude-haiku-4-5-20251001) — hohe Qualität bei Handschrift
-   - Alternative: Gemini, GPT-4o für Vergleich
-   - Für jede Seite: Bild + Metadatenkontext (Sprache, Objekttyp) als Prompt
-4. **Nachverarbeitung**: Sprachspezifische Korrekturen, Konfidenz-Kategorisierung (sicher/prüfenswert/problematisch)
-5. **Output**: JSON mit Transkription pro Seite, Metadaten, Konfidenzlevel
+1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format
+2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (8 Gruppen)
+3. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
 
-### Phase 2: TEI-Integration (späterer Scope)
+### 8 Prompt-Gruppen
 
-- Rohtext → TEI-XML via teiCrafter-Pipeline
-- NER auf den transkribierten Texten
-- Integration in SZD-Datenmodell (SZDO)
+| Kürzel | Gruppe | Prompt-Datei |
+|---|---|---|
+| A | Handschrift | `group_a_handschrift.md` |
+| B | Typoskript | `group_b_typoskript.md` |
+| C | Formular | `group_c_formular.md` |
+| D | Kurztext | `group_d_kurztext.md` |
+| E | Tabellarisch | `group_e_tabellarisch.md` |
+| F | Korrekturfahne | `group_f_korrekturfahne.md` |
+| H | Zeitungsausschnitt | `group_h_zeitungsausschnitt.md` |
+| I | Korrespondenz | `group_i_korrespondenz.md` |
 
-### Phase 3: DIA-XAI-Bewertung (ab Oktober 2026)
+Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespondenzen → immer I, sonst Entscheidungsbaum über `objecttyp` und `classification` aus TEI. Fallback: Handschrift.
 
-- Transkriptionsergebnisse als Input für EIL-Workflow
-- EQUALIS-Evaluierung: Wie ändert sich XAI-Qualität bei HTR-Output vs. kuratierte MHDBDB-Daten?
-- Expert Review über Web-Interface
-
-## Aktuelle Projektstruktur
+## Projektstruktur
 
 ```
-szd-htr-ocr-pipeline/
-├── CLAUDE.md                       ← dieses Dokument
-├── README.md
-├── Plan.md                         ← Implementierungsplan (Phase 1+2 erledigt)
+szd-htr/
+├── CLAUDE.md
+├── Plan.md                          ← Phasen-Status (1–6), einzige Wahrheitsquelle
+├── requirements.txt                 ← google-genai, python-dotenv
+├── .env                             ← API Keys (nicht committet)
 ├── pipeline/
-│   ├── prompts/                    ← 8 Gruppen-Prompts + System-Prompt + Kontext-Template
-│   ├── test_single.py              ← Einzelobjekt-Transkription (Multi-Collection)
-│   ├── tei_context.py              ← TEI-Parser für automatische Kontext-Generierung
-│   └── build_viewer_data.py        ← Baut docs/data.json aus Ergebnissen
-├── data/
-│   ├── szd_lebensdokumente_tei.xml ← TEI-Metadaten (143 Objekte)
-│   ├── szd_werke_tei.xml           ← TEI-Metadaten (352 Objekte)
-│   ├── szd_aufsatzablage_tei.xml   ← TEI-Metadaten (624 Objekte)
-│   └── szd_korrespondenzen_tei.xml ← TEI-Metadaten (723 Einträge)
-├── results/test/                   ← Enriched JSON-Ergebnisse (7 Objekte)
-├── knowledge/                      ← Research-Vault (Datenanalysen, Journal)
+│   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
+│   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
+│   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
+│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
+│   ├── build_viewer_data.py         ← Baut 5 Dateien: catalog.json + 4× data/{collection}.json
+│   └── prompts/                     ← System-Prompt + 8 Gruppen-Prompts (Markdown)
+├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
+├── results/
+│   ├── test/                        ← 7 Testergebnisse (enriched JSON)
+│   └── lebensdokumente/             ← 5 Batch-Ergebnisse
 ├── docs/
-│   ├── index.html                  ← Ergebnisübersicht (GitHub Pages)
-│   ├── viewer.html                 ← Faksimile↔Transkription-Viewer
-│   └── data.json                   ← Viewer-Daten (generiert)
-├── .gitignore
-└── .env                            ← API Keys (nicht committet)
+│   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
+│   ├── app.css                      ← SZD-Design-System (Burgundy/Gold, Source Serif)
+│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Export
+│   ├── catalog.json                 ← Leichtgewichtige Metadaten für Katalog-Tabelle
+│   └── data/                        ← Transkriptionsdaten pro Sammlung (on-demand)
+│       ├── lebensdokumente.json
+│       ├── werke.json
+│       ├── aufsatzablage.json
+│       └── korrespondenzen.json
+└── knowledge/                       ← Research-Vault (Datenanalysen, Journal)
+```
+
+## CLI-Nutzung
+
+```bash
+# Setup
+pip install -r requirements.txt
+# .env braucht: GOOGLE_API_KEY=AIza...
+
+# Einzelobjekt
+python pipeline/transcribe.py o_szd.161 -c lebensdokumente
+
+# Ganze Sammlung
+python pipeline/transcribe.py -c werke
+
+# Alle 4 Sammlungen
+python pipeline/transcribe.py --all
+
+# Nur bestimmte Gruppe
+python pipeline/transcribe.py -c lebensdokumente --group handschrift
+
+# Dry-Run (auflisten ohne API-Call)
+python pipeline/transcribe.py --all --dry-run
+
+# Weitere Optionen: --limit N, --max-images N, --delay 2.0, --force
+```
+
+Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits transkribierte Objekte werden übersprungen (außer `--force`).
+
+## Umgebungsvariablen (.env)
+
+| Variable | Pflicht | Default | Beschreibung |
+|---|---|---|---|
+| `GOOGLE_API_KEY` | Ja | — | Gemini API Key |
+| `HTR_MODEL` | Nein | `gemini-3.1-flash-lite-preview` | Modell-ID |
+| `SZD_BACKUP_ROOT` | Nein | `C:/Users/Chrisi/.../szd-backup/data` | Pfad zum lokalen Backup |
+| `HTR_BATCH_DELAY` | Nein | `2.0` | Sekunden zwischen API-Calls |
+
+## Output-Format (Ergebnis-JSON)
+
+```json
+{
+  "object_id": "o_szd.100",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Agreement Longmans, Green u. Co. Inc.",
+    "language": "Englisch",
+    "images": ["https://gams.uni-graz.at/o:szd.100/IMG.1", "..."]
+  },
+  "context": "## Dieses Dokument\n- Titel: ...\n- Signatur: ...",
+  "result": {
+    "pages": [
+      {"page": 1, "transcription": "...", "notes": "..."}
+    ],
+    "confidence": "high | medium | low",
+    "confidence_notes": "..."
+  }
+}
 ```
 
 ## Technische Entscheidungen
 
-- **Google Gemini 3.1 Flash Lite** als primäres Transkriptionsmodell (günstig, schnell, multimodal)
-- **Dreischichtiges Prompt-System**: System-Prompt → Gruppen-Prompt (A–I) → Objekt-Kontext (aus TEI)
-- **Kein Server/Backend** — lokale CLI-Pipeline, Ergebnisse als JSON-Dateien
-- **Bilder direkt von GAMS** — kein Download nötig, GAMS-URLs als `<img src>` im Viewer
-- **Kategoriale Konfidenz** (high/medium/low) statt numerischer Scores
-- **8 Prompt-Gruppen**: A Handschrift, B Typoskript, C Formular, D Kurztext, E Tabellarisch, F Korrekturfahne, H Zeitungsausschnitt, I Korrespondenz
+- **Gemini 3.1 Flash Lite** als primäres VLM (günstig, schnell, multimodal). Claude Vision und GPT-4o als Vergleichskandidaten für Phase 4, aber noch nicht implementiert.
+- **Kein Preprocessing** — Bilder gehen unverändert an die API. Optimale Bildgröße ist ein offener Punkt.
+- **3-Ebenen-Verifikation** statt naiver Konfidenz:
+  1. **Unsicherheits-Marker** (stark): Zählung von `[?]` und `[...]` im Transkriptionstext
+  2. **VLM-Selbsteinschätzung** (schwach): high/medium/low aus dem Gemini-Output — LLMs überschätzen ihre Leistung
+  3. **Textstatistik** (mittel): Zeichenzahl, Leerseiten, Zeichen/Seite als Plausibilitäts-Check
+- **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfügung.
+- **Bilder direkt von GAMS** im Viewer — kein lokaler Image-Store im Repo, GAMS-URLs als `<img src>`.
 
-## Verwandte Projekte (als methodische Referenz)
+## Verwandte Projekte
 
-- **zbz-ocr-tei** (https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei): LLM-OCR-Pipeline für gedruckte Texte, 7-Stufen-Architektur. Erfahrungen mit Batch-Verarbeitung, Qualitätsscreening, NER.
-- **coOCR HTR** (https://github.com/DigitalHumanitiesCraft/co-ocr-htr): Browser-basiertes HTR-Tool mit VLM-Transkription und Expert-in-the-Loop-Validierung. Epistemische Asymmetrie als Designprinzip.
-- **teiCrafter** (https://github.com/DigitalHumanitiesCraft/teiCrafter): TEI-Annotation nach Transkription, nachgelagerte Pipeline-Stufe.
+Methodische Referenzen — dort nach Patterns suchen, wenn die Pipeline erweitert wird:
+
+- **[zbz-ocr-tei](https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei)**: LLM-OCR für gedruckte Texte, Batch-Verarbeitung, Qualitätsscreening
+- **[coOCR HTR](https://github.com/DigitalHumanitiesCraft/co-ocr-htr)**: Browser-HTR mit VLM + Expert-in-the-Loop-Validierung
+- **[teiCrafter](https://github.com/DigitalHumanitiesCraft/teiCrafter)**: TEI-Annotation als nachgelagerte Pipeline-Stufe (relevant für Phase 5)

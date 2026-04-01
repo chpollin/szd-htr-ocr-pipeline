@@ -1,85 +1,7 @@
 {
   "objects": [
     {
-      "id": "zeitungsausschnitt_gemini-3.1-flash-lite-preview",
-      "collection": "aufsatzablage",
-      "label": "Aus der Werkstatt der Dichter",
-      "group": "H",
-      "groupLabel": "Zeitungsausschnitt",
-      "pid": "o:szd.2215",
-      "title": "Aus der Werkstatt der Dichter, SZ-AAP/W-AA215.1",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.2215/IMG.1",
-        "https://gams.uni-graz.at/o:szd.2215/IMG.2",
-        "https://gams.uni-graz.at/o:szd.2215/IMG.3"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "5. Februar 25\n\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen – Anziehen,\nWaschen, Zähneputzen – ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 123",
-          "notes": "Die handschriftliche Annotation links oben wurde nicht transkribiert, da sie unleserlich ist. Der Text im Bildbereich des Manuskripts ist teilweise durch das Foto verdeckt und nur fragmentarisch lesbar."
-        },
-        {
-          "page": 2,
-          "transcription": "Stefan Zweig. Fortsetzung von S. 41\nallmählich despotischen Gesetzlichkeit, die-\nsem Ritual zu entgehen. So beobachtete ich\nbei mir die Gewohnheit, jede Arbeit bei\nder ersten Niederschrift unweigerlich mit\nBleistift vorzunehmen, offenbar aus einem\ngeheimen Sicherungsgefühl, es sei nur eine\nganz unverbindliche, ganz provisorische\nForm der Fixierung, nur ein Brouillon (in-\ndes in den meisten Fällen die Urform doch\ndie gültige bleibt). Dann erst schreibe ich\nmit Tinte, womöglich auf gleichmäßig\ngroßes Papier, den ersten Entwurf ab —\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck — dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\nweisen — denn dies ständige Klären und\nHerausschälen der Formen ist nicht\nKärrnerarbeit, eine ungern vollbrachte\nAckers- und Pflügermühe, sondern die ur-\neigentliche Artistenfreude, eine bewußt be-\nschworene Verlängerung des produktiven\nZustandes über die eigentliche Produktion\nhinaus. Es läßt sich nicht beschreiben, nur\nimmer wieder erleben — und auch ein\nBlatt seiner Hand reproduziert nur sein\neindringliches Wirken, ohne aber die ge-\nheime Freude zu lassen, die diesen\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“\n*",
-          "notes": "Der Text ist gut lesbar. Die handschriftliche Annotation unten in der Mitte ist unleserlich."
-        },
-        {
-          "page": 3,
-          "transcription": "großes Papier, den ersten Entwurf ab —\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck — dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\n\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“\n*",
-          "notes": "Dies ist eine Wiederholung von Ausschnitten aus Seite 2, vermutlich zur Dokumentation der Platzierung auf dem Trägerblatt."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Der gedruckte Text ist sehr klar und gut lesbar. Die handschriftlichen Annotationen sind fragmentarisch und wurden als solche in den Notizen vermerkt."
-    },
-    {
-      "id": "korrespondenz_fleischer_gemini-3.1-flash-lite-preview",
-      "collection": "korrespondenzen",
-      "label": "Brief an Max Fleischer vom 22. Mai 1901",
-      "group": "I",
-      "groupLabel": "Korrespondenz",
-      "pid": "o:szd.1079",
-      "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.1079/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.3"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
-          "notes": "Adressseite eines Briefumschlags. Poststempel: WIEN 22.5.01. Briefmarke: 10 Heller."
-        },
-        {
-          "page": 2,
-          "transcription": "STEFAN ZWEIG\n\n[Poststempel: KOMOTAU 23.5.01]",
-          "notes": "Rückseite des Briefumschlags mit Prägung 'STEFAN ZWEIG' und Ankunftsstempel."
-        },
-        {
-          "page": 3,
-          "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (der letzte Bogen!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nkam mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, dass Sie mich sehen, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Klard oder gar Eisenbahn sicher nicht scheuen,\nes kann ja auch allzuweit sein.\nIch habe hier jetzt zwar sehr angenehme, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte mehr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. Es ist diese\nideale Freude, wie dort, auch doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Halbein-\nsamkeit ganz erlebt habe, halte mir das wunde-\nschön vor. Ich glaube da fallen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbümmeln\ndurch Spaziergänge, Promenaden, Freunde etc.\nDas einzige Bedauerliche ist, dass ich viel lese.",
-          "notes": "Handschriftlicher Brief auf einem Blatt (beidseitig beschrieben, hier nur Vorderseite). Die Schrift ist flüssig, aber stellenweise eng."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz einiger flüchtiger Buchstabenformen. Die Transkription folgt dem Originalgetreuen Prinzip."
-    },
-    {
       "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Tagebuch 1918",
-      "group": "A",
-      "groupLabel": "Handschrift",
-      "pid": "o:szd.72",
-      "title": "Tagebuch 1918, SZ-AAP/L6",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.72/IMG.1",
         "https://gams.uni-graz.at/o:szd.72/IMG.2",
@@ -115,18 +37,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Die Handschrift ist für Zweig-Verhältnisse sehr klar und gut lesbar. Die violette Tinte ist auf den Scans gut kontrastiert."
+      "confidenceNotes": "Die Handschrift ist für Zweig-Verhältnisse sehr klar und gut lesbar. Die violette Tinte ist auf den Scans gut kontrastiert.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 1,
+        "totalChars": 6711,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1342,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "vertrag_grasset_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Verlagsvertrag Grasset",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.78",
-      "title": "Verlagsvertrag Grasset, SZ-AAP/L13.1",
-      "lang": "Französisch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.78/IMG.1",
         "https://gams.uni-graz.at/o:szd.78/IMG.2",
@@ -150,18 +72,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind eindeutig identifizierbar."
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind eindeutig identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 5586,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1862,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Agreement Longmans",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.100",
-      "title": "Agreement Longmans, Green u. Co. Inc., SZ-AAP/L13.23",
-      "lang": "Englisch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.100/IMG.1",
         "https://gams.uni-graz.at/o:szd.100/IMG.2",
@@ -185,18 +107,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Unterschriften sind als solche erkennbar, die Identifikation der Namen stützt sich auf die bereitgestellten Kontextinformationen."
+      "confidenceNotes": "Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Unterschriften sind als solche erkennbar, die Identifikation der Namen stützt sich auf die bereitgestellten Kontextinformationen.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2057,
+        "emptyPages": 2,
+        "avgCharsPerPage": 2057,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "o_szd.101_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Agreement THE VIKING PRESS",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.101",
-      "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.24",
-      "lang": "Englisch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.101/IMG.1",
         "https://gams.uni-graz.at/o:szd.101/IMG.2",
@@ -232,18 +154,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig."
+      "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 12409,
+        "emptyPages": 0,
+        "avgCharsPerPage": 2482,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "o_szd.102_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Agreement THE VIKING PRESS",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.102",
-      "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.25",
-      "lang": "Englisch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.102/IMG.1",
         "https://gams.uni-graz.at/o:szd.102/IMG.2",
@@ -267,18 +189,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2430,
+        "emptyPages": 0,
+        "avgCharsPerPage": 810,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "o_szd.103_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Vertrag Editorial APOLO",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.103",
-      "title": "Vertrag Editorial APOLO, BARCELONA, SZ-AAP/L13.26",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.103/IMG.1",
         "https://gams.uni-graz.at/o:szd.103/IMG.2",
@@ -302,18 +224,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Unterschriften sind eindeutig identifizierbar."
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Unterschriften sind eindeutig identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1350,
+        "emptyPages": 2,
+        "avgCharsPerPage": 1350,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "o_szd.104_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Vertrag „Editorial Apolo“ Barcelona",
-      "group": "B",
-      "groupLabel": "Typoskript",
-      "pid": "o:szd.104",
-      "title": "Vertrag „Editorial Apolo“ Barcelona, SZ-AAP/L13.27",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.104/IMG.1",
         "https://gams.uni-graz.at/o:szd.104/IMG.2",
@@ -337,18 +259,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut identifizierbar."
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 987,
+        "emptyPages": 2,
+        "avgCharsPerPage": 987,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "certificate_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Certified Copy of an Entry of Marriage",
-      "group": "C",
-      "groupLabel": "Formular",
-      "pid": "o:szd.160",
-      "title": "Certified Copy of an Entry of Marriage, SZ-SDP/L1",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.160/IMG.1",
         "https://gams.uni-graz.at/o:szd.160/IMG.2",
@@ -372,18 +294,18 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift sehr sicher. Die Struktur des Formulars wurde beibehalten."
+      "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift sehr sicher. Die Struktur des Formulars wurde beibehalten.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 1580,
+        "emptyPages": 1,
+        "avgCharsPerPage": 790,
+        "vlmConfidence": "high"
+      }
     },
     {
       "id": "theaterkarte_gemini-3.1-flash-lite-preview",
-      "collection": "lebensdokumente",
-      "label": "Theaterkarte zur Uraufführung von „Jerem",
-      "group": "D",
-      "groupLabel": "Kurztext",
-      "pid": "o:szd.161",
-      "title": "Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.161/IMG.1",
         "https://gams.uni-graz.at/o:szd.161/IMG.2",
@@ -407,48 +329,15 @@
         }
       ],
       "confidence": "high",
-      "confidenceNotes": "Der gedruckte Text ist eindeutig lesbar. Die handschriftliche Notiz auf der Rückseite ist trotz der Bleistift-Schrift gut lesbar und entspricht der im Prompt gegebenen Information."
-    },
-    {
-      "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
-      "collection": "werke",
-      "label": "Der Bildner",
-      "group": "F",
-      "groupLabel": "Korrekturfahne",
-      "pid": "o:szd.287",
-      "title": "Der Bildner, SZ-AP2/W-D29",
-      "lang": "Deutsch",
-      "model": "gemini-3.1-flash-lite-preview",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.287/IMG.1",
-        "https://gams.uni-graz.at/o:szd.287/IMG.2",
-        "https://gams.uni-graz.at/o:szd.287/IMG.3"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
-          "notes": "Der Text ist ein sauberer Drucksatz. Der Stempel 'RUDOLF M. ROHRER 7. VII. 1937' ist am rechten Rand platziert."
-        },
-        {
-          "page": 2,
-          "transcription": "Die Uhren, die ihnen zu Häupten gehangen,\nSind weitergegangen,\nStädte erstanden und andre verdarben,\nGesichter fielen aus Formen und Farben,\nGeschlechter erwuchsen, Geschlechter verblühten,\nMenschen wurden zu Masken und Mythen,\nAlles ward in der mitleidlosen\nMühle der Jahre zerstäubt und zerstoßen —\nNur sie in ihren erstarrten Posen\nDürfen im rastlos Wandernden ruhn,\nWeil sie ihr Wesen ewig zu Ende tun.\n\nDer geht — und sein Gehen ist ewiges Gehn —\nDer ruht — und sein Ruhen ist ewige Ruh —\nUnd wie auch die Stunden stürmen und schwingen,\nKeine Stunde nimmt, keine gibt etwas zu,\nDenn jede der stummen Gestalten hält\nIn sich kristallt einen Augenblick Welt,\nDer nie wiederkehrt und niemals zerfällt.\nNiemals werden die weißen, die glatten\nGestalten in ihrem Wesen ermatten,\nEwig werden, die sich umschlingen,\nIm Liebeskampf um Erfüllung ringen,\nEwig wird die Welle der Lichter\nDie Qual der vier Gebeugten umzittern,\nEwig wird mit Schreckblick der Dichter\nAus innerer Nacht in die Welt gewittern,\nUnd das Lächeln, das jener Lippe umschwebt,\nIst irdisch verklungen und bleibt doch und lebt,\nIndes er selber, die wachen Gesichter,\nSich längst zerstäubten aus Formen und Falten\nUnd mit den Stunden verwehten wie Wind. —\nSie aber, die Schatten des Lebens, die kalten\nSteine, sie stehen, sie dauern: sie sind.\n\nDer Meister steht staunend im steinernen Wald,\nVon Schweigen umschart, von Stille umschallt,\nUnd mit einmal begreift er die Urgewalt,\nDie wie große Musik aus den Steinen bricht:\nSendung\nWar ihm gegeben,\nVollendung\nSchafft Leben über dem eigenen Leben,\nGestalteter Stein ist stärker als Zeit!\nUnd selig erkennt er das große Licht\nOb seinen Gestalten: Unsterblichkeit.\n\nDa lächelt der Meister zum erstenmal,\nSeit er stumm vor den Steinen steht.\nVon Licht und Schweigen orgelt der Saal,\nUnd sein Herz braust mit dem großen Choral.\nWie im Gebet\nHebt er die Hände,\nDie all dies getan,\nUnd sieht sie, die eigenen, ehrfürchtig an,\nEr sieht sie an, die kranken, die kalten,\nMit ihren Schrunden und Schwielen und Falten,\nDie Werkmannshände, in denen vor Jahren\nAll diese aufgereckten Gestalten\nWie zitternde, unflügge Vögel waren,\nUnd die nun, heilig und unnahbar,\nHinglänzen durch die stürzende Stunde\nWie eine niederverlorene Engelschar,\nDie Gott anschweigt mit marmornem Munde.\n\nGroß rauscht es im Saale, still sinken die Hände,\nStumm stehen die Statuen, weiß leuchtet der Stein.\nWie in eine Legende\nGeht der Meister fromm in sein Werk hinein.\n144 Zweig: Begegnungen.",
-          "notes": "Keine handschriftlichen Korrekturen auf dieser Seite."
-        },
-        {
-          "page": 3,
-          "transcription": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
-          "notes": "Identisch mit Seite 1, jedoch mit einem zusätzlichen Stempel 'Korrektur' unter dem Datumsstempel."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Der Text ist ein klarer Drucksatz. Die Transkription ist aufgrund der hohen Qualität der Vorlage und der eindeutigen Typografie sehr sicher."
+      "confidenceNotes": "Der gedruckte Text ist eindeutig lesbar. Die handschriftliche Notiz auf der Rückseite ist trotz der Bleistift-Schrift gut lesbar und entspricht der im Prompt gegebenen Information.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 249,
+        "emptyPages": 0,
+        "avgCharsPerPage": 83,
+        "vlmConfidence": "high"
+      }
     }
-  ],
-  "collections": [
-    "aufsatzablage",
-    "korrespondenzen",
-    "lebensdokumente",
-    "werke"
   ]
 }
