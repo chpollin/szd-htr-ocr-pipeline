@@ -21,7 +21,7 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Waffen, Nehmt allen die _ weg.",
+        "transcription": "Waffen, Nehmt allen die _ weg.\n\nNehmt allen die \nWaffen\nweg",
         "notes": "Die Zeile ist in violetter Tinte geschrieben und unterstrichen. Darunter befindet sich eine Bleistiftnotiz: 'Nehmt allen die / Waffen / weg'.",
         "type": "content"
       },
@@ -105,5 +105,13 @@
     "page_length_anomalies": [],
     "needs_review": false,
     "needs_review_reasons": []
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:55:14.626506+00:00"
   }
 }
