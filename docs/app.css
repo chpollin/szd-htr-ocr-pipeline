@@ -576,6 +576,18 @@ body.view-help #about { display: none; }
 .badge-markers-some { background: var(--sz-warning-bg); color: var(--sz-warning); }
 .badge-markers-many { background: var(--sz-danger-bg); color: var(--sz-danger); }
 
+/* Prompt group badge */
+.badge-prompt {
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 0.08rem 0.35rem;
+  border-radius: 3px;
+  background: rgba(99, 26, 52, 0.08);
+  color: var(--sz-burgundy);
+  letter-spacing: 0.02em;
+  cursor: help;
+}
+
 /* Consensus badges */
 .badge-consensus { font-size: 0.68rem; font-weight: 600; text-transform: capitalize; }
 
@@ -978,6 +990,12 @@ body.view-help #about { display: none; }
   background: var(--sz-burgundy);
   color: var(--sz-white);
   border-color: var(--sz-burgundy);
+}
+
+.viewer__action-btn.approved {
+  background: var(--sz-success);
+  color: var(--sz-white);
+  border-color: var(--sz-success);
 }
 
 .viewer__action-btn .indicator {

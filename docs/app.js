@@ -17,6 +17,19 @@ const COLLECTION_LABELS = {
 const LS_KEY = 'szd-htr-edits';
 const LS_GT_KEY = 'szd-htr-gt-reviews';
 const LS_FIT_KEY = 'szd-htr-fit-mode';
+const LS_APPROVE_KEY = 'szd-htr-approvals';
+
+const PROMPT_INFO = {
+  handschrift:        { letter: 'A', label: 'Handschrift',        tip: 'Handschriftliche Dokumente (Tageb\u00fccher, Notizbücher, Manuskripte). Kurrent/Latein gemischt, violette Tinte, h\u00e4ufige Abk\u00fcrzungen.' },
+  typoskript:         { letter: 'B', label: 'Typoskript',         tip: 'Maschinenschrift und Durchschl\u00e4ge (v.a. Vertr\u00e4ge). Handschriftliche Erg\u00e4nzungen, konservativ markieren.' },
+  formular:           { letter: 'C', label: 'Formular',           tip: 'Amtsformulare, Urkunden. Vorgedruckte + handschriftliche Felder, Stempel nur in Notes.' },
+  kurztext:           { letter: 'D', label: 'Kurztext',           tip: 'Kurze Dokumente (Karten, Eintrittskarten). Maximale Pr\u00e4zision bei minimalem Text.' },
+  tabellarisch:       { letter: 'E', label: 'Tabellarisch',       tip: 'Register, Verzeichnisse, Kalender. Spalten mit | getrennt, leere Zellen markiert.' },
+  korrekturfahne:     { letter: 'F', label: 'Korrekturfahne',     tip: 'Druckfahnen mit handschriftlichen Korrekturen. Basis-Text erhalten, Streichungen/Einf\u00fcgungen integrieren.' },
+  konvolut:           { letter: 'G', label: 'Konvolut',           tip: 'Gemischte Materialien (Manuskript, Typoskript, Fragmente). Jede Seite unabh\u00e4ngig, Materialwechsel notieren.' },
+  zeitungsausschnitt: { letter: 'H', label: 'Zeitungsausschnitt', tip: 'Zeitungsausschnitte, oft Fraktur. Mehrspaltig links→rechts, handschriftliche Annotationen nur in Notes.' },
+  korrespondenz:      { letter: 'I', label: 'Korrespondenz',      tip: 'Briefe, Postkarten, Telegramme. Briefstruktur erhalten (Datum/Anrede/Schluss), Abk\u00fcrzungen aufl\u00f6sen.' },
+};
 
 const CONSENSUS_SHORT = { consensus_verified: 'Verifiz.', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
 const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
@@ -51,6 +64,7 @@ const state = {
   knowledgeData: null,         // loaded from knowledge.json
   isLocal: false,
   fitMode: 'height',         // 'height' or 'width'
+  approvals: new Map(),      // objectId → { approved, reviewed_by, reviewed_at }
 };
 
 /* ===== Utilities ===== */
@@ -532,8 +546,8 @@ function renderReviewCell(obj) {
   if (obj.gtVerified) {
     return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth verifiziert">GT \u2713</span>';
   }
-  // Tier 1: Human expert approved
-  if (obj.reviewStatus === 'approved') {
+  // Tier 1: Human expert approved (pipeline or local)
+  if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
     return '<span class="badge-review badge-review-approved" data-tooltip="Human-Expert hat verifiziert">Gepr\u00fcft</span>';
   }
   if (obj.needsReview === undefined) return '';
@@ -1022,6 +1036,10 @@ function renderViewerMeta(obj) {
     </div>
     <div class="viewer__meta-item">
       <span class="viewer__meta-value">${escapeHtml(obj.classification || obj.groupLabel)}</span>
+      ${(() => {
+        const pi = PROMPT_INFO[obj.group];
+        return pi ? ` <span class="badge badge-prompt" data-tooltip="${escapeHtml(pi.tip)}">Prompt ${pi.letter}</span>` : '';
+      })()}
     </div>
     <div class="viewer__meta-item">
       <span class="viewer__meta-value">${escapeHtml(obj.lang)}</span>
@@ -1340,6 +1358,18 @@ function updateEditButtons() {
     gtBtn.style.display = gt && state.isLocal ? '' : 'none';
     gtBtn.classList.toggle('gt-active', state.gtReviewMode);
   }
+
+  // Approve button: show when local, toggle approved state
+  const approveBtn = document.getElementById('approveBtn');
+  if (approveBtn) {
+    approveBtn.style.display = state.isLocal ? '' : 'none';
+    const approved = state.currentObjectId && isObjectApproved(state.currentObjectId);
+    approveBtn.classList.toggle('approved', approved);
+    approveBtn.innerHTML = approved ? '&#10003; Gepr\u00fcft' : '&#10003; Approve';
+    approveBtn.dataset.tooltip = approved
+      ? 'Klick um Approval zu entfernen'
+      : 'Objekt als korrekt transkribiert markieren';
+  }
 }
 
 /* ===== Export ===== */
@@ -1360,6 +1390,7 @@ function buildExportJson(objectId) {
     };
   });
 
+  const approval = state.approvals.get(objectId);
   return {
     pid: catalogObj.pid,
     object_id: catalogObj.id.replace(/_gemini.*$/, ''),
@@ -1368,6 +1399,9 @@ function buildExportJson(objectId) {
     title: catalogObj.titleClean || catalogObj.title,
     model: catalogObj.model,
     pages,
+    reviewed: !!approval,
+    reviewed_by: approval?.reviewed_by || null,
+    reviewed_at: approval?.reviewed_at || null,
     exported_at: new Date().toISOString(),
     source: 'szd-htr-viewer',
   };
@@ -1737,6 +1771,42 @@ function saveGtReviewsToStorage() {
   localStorage.setItem(LS_GT_KEY, JSON.stringify([...state.gtReviews]));
 }
 
+/* ===== Approvals ===== */
+
+function loadApprovalsFromStorage() {
+  try {
+    const raw = localStorage.getItem(LS_APPROVE_KEY);
+    if (raw) state.approvals = new Map(JSON.parse(raw));
+  } catch { /* ignore */ }
+}
+
+function saveApprovalsToStorage() {
+  try {
+    localStorage.setItem(LS_APPROVE_KEY, JSON.stringify([...state.approvals]));
+  } catch { /* ignore */ }
+}
+
+function isObjectApproved(objectId) {
+  return state.approvals.has(objectId);
+}
+
+function toggleObjectApproval(objectId) {
+  if (state.approvals.has(objectId)) {
+    state.approvals.delete(objectId);
+    showToast('Approval entfernt');
+  } else {
+    state.approvals.set(objectId, {
+      approved: true,
+      reviewed_by: 'Christopher Pollin',
+      reviewed_at: new Date().toISOString(),
+    });
+    showToast('Objekt als gepr\u00fcft markiert \u2713');
+  }
+  saveApprovalsToStorage();
+  updateEditButtons();
+  renderViewerNav();
+}
+
 function toggleGtReview() {
   if (state.editMode) { saveCurrentEdit(); state.editMode = false; }
   if (state.diffMode) { resetDiffMode(); }
@@ -2047,6 +2117,13 @@ function initEvents() {
   // Viewer: GT review
   document.getElementById('reviewGtBtn').addEventListener('click', toggleGtReview);
 
+  // Viewer: approve object
+  document.getElementById('approveBtn').addEventListener('click', () => {
+    if (!state.isLocal || !state.currentObjectId) return;
+    toggleObjectApproval(state.currentObjectId);
+    renderCatalog();
+  });
+
   // Viewer: edit toggle
   document.getElementById('editBtn').addEventListener('click', () => {
     if (!state.isLocal) return;
@@ -2201,6 +2278,7 @@ async function init() {
   applyFitMode();
   loadEditsFromStorage();
   loadGtReviewsFromStorage();
+  loadApprovalsFromStorage();
 
   try {
     await loadCatalog();
