@@ -95,8 +95,8 @@ def compute_verification(pages: list[dict]) -> dict:
 def build():
     objects = []
 
-    # Scan collection result directories (skip test/, groundtruth/)
-    SKIP_DIRS = {"test", "groundtruth"}
+    # Scan collection result directories (skip groundtruth/)
+    SKIP_DIRS = {"groundtruth"}
     # Whitelist: only include primary model results (not Pro, Modellkonsensus, layout, etc.)
     expected_suffix = f"_{MODEL}.json"
     result_files = []

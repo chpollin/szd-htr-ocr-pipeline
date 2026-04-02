@@ -87,7 +87,7 @@
         "page": 11,
         "transcription": "Memorandum für Beverly Baxter\n4. I 40\n\nAs an Austrian who since his childhood has been\nfamiliar with the relations between the former Austria and\nItaly, I would like to draw the attention to an actual point\nin the present political constellation.\n\nThe relations between the old Austria and Italy\nhave always been insincere owing to the demand of Italy for\n\"Trento e Trieste\", the country of Trentino and the port of\nTrieste. A large group in the Austrian Ministeries was\nwilling, for the sake of the security of prewar Austria,\nto sacrifice the Trentino, but all parties were united in\nthe strict refusal to give up Trieste. Trieste was the\nharbour of the fifty million central-European Empire of\nAustria, and it was essential for its commerce in the\nMediterranean and with the East.\n\nNow, that Germany has taken over Austria and\nCzechoslovakia, there can be no doubt that sooner or later\nthey will ask for this port which belonged to the old\nAustria, and for their commerce an outlet to the Medi-\nterranean is absolutely necessary for a country of a\nhundred million inhabitants. It is even a hundred times\nmore important than Danzig, and Germany has only deferred\nthis demand according to its principle always to attack",
         "notes": "Dies ist eine Wiederholung von Blatt 1 mit einem Kodak-Farbkontrollstreifen am rechten Rand.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -100,8 +100,8 @@
     "total_pages": 6,
     "empty_pages": 5,
     "blank_pages": 5,
-    "color_chart_pages": 0,
-    "content_pages": 6,
+    "color_chart_pages": 1,
+    "content_pages": 5,
     "input_images": 11,
     "page_types": [
       "content",
@@ -114,7 +114,7 @@
       "blank",
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1220,

@@ -143,7 +143,7 @@
         "page": 19,
         "transcription": "Digest, New York\n1939\nTHE MAN WITH THE SECRET OF HAPPINESS\nby Stefan Zweig, 49 Hallam Street\nLondon W1\n\nI should be ungrateful indeed had I forgotten the\nperson who showed me two of the most difficult things on\nearth: how, by means of {an inner freedom,} the ~~sovereignty of the mind,~~ a man\ncan free himself from the strongest power in this world,\nthe power of money; and how a man can live among his fellow\nhuman beings without making a single enemy. I have honestly\ntried to learn from him this rare art, but I must confess\nthat hitherto I have succeeded neither in the one respect\nnor the other.\n\nIt was in a very simple way that I came to know this\n{unique} ~~singular~~ individual in the little town where I was living\nat the time. One afternoon I was taking my faithful\nspaniel for a walk. Kaspar, who as a rule frisked along\nahead of me, on this occasion behaved in an extremely foolish\nmanner. He lay on his back and rolled frenziedly on the\nground, all four feet in the air, rubbed himself against\nevery tree, whimpered, ~~[...4...]~~ and growled incessantly. But\nI took this to be spring-time naughtiness and paid no further\nheed to it.\n\nAll of a sudden I became aware that someone was walking\nby my side. Looking up, I saw that a man of about thirty,\npoorly dressed, collarless and hatless, was keeping pace\nwith me. A beggar, I thought involuntarily, and was about\nto put my hand in my pocket. But the stranger smiled\ntranquilly at me out of clear starry blue eyes as though we\nwere old friends. \"He's got a tick, poor chap,\" he said,\npointing to my dog. \"I could tell that at once. Come\nalong, we'll go over to that bench in the park, and I'll\nhave it out in no time.\"\nI must remark at this point that {in addressing me he used „Du“, the} he ~~addressed me in the~~\nsecond person singular, which in German is only employed\namong people ~~of the same class who have been~~ {who are} on intimate",
         "notes": "Dies ist eine Wiederholung der ersten Seite, diesmal mit einer Farbkalibrierungsskala (Kodak Color Control Patches) am rechten Rand.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -156,8 +156,8 @@
     "total_pages": 10,
     "empty_pages": 0,
     "blank_pages": 9,
-    "color_chart_pages": 0,
-    "content_pages": 10,
+    "color_chart_pages": 1,
+    "content_pages": 9,
     "input_images": 19,
     "page_types": [
       "content",
@@ -178,7 +178,7 @@
       "blank",
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1909,

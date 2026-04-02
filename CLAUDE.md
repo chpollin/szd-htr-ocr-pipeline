@@ -177,7 +177,6 @@ szd-htr/
 │   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
 │   ├── backfill_page_types.py       ← Backfill: page.type auf bestehende JSONs stempeln
 │   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
-│   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
 │   ├── layout_analysis.py            ← VLM-basierte Layout-Analyse (Regionen + Bounding Boxes)
 │   ├── export_pagexml.py             ← Merged OCR + Layout → PAGE XML 2019
@@ -189,7 +188,6 @@ szd-htr/
 │       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
-│   ├── test/                        ← 7 Legacy-Testergebnisse (nicht im Katalog)
 │   ├── groundtruth/                 ← 18 GT-Drafts + Pro-Transkriptionen
 │   ├── lebensdokumente/             ← 127 Ergebnisse + 18 Modellkonsensus-JSONs
 │   ├── werke/                       ← 54 Ergebnisse + 5 Modellkonsensus-JSONs

@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "— 32 —\n\nliées ; jamais le commerce n'avait tissé un si pro-\ndigieux réseau, et jamais les hommes d'Europe\nn'avaient tant aimé leur patrie et le monde entier.\nDéjà ils devaient, dans cette ivresse de communion,\nsentir le ciel, car les poètes de toutes les langues\n\nà nouveau la tour, qu'il avait brisée une fois déjà ;\n— et de nouveau il prit peur. Et de nouveau, il\nconnut qu'il ne l'emporterait pas en puissance sur\nl'humanité, s'il ne lui envoyait la discorde, et s'il\nne faisait en sorte que les hommes ne se com-\nprissent pas les uns les autres. De nouveau il fut\ncruel, et envoya la confusion parmi eux, — et\naprès des milliers et des milliers d'années, cet\ninstant d'horreur s'est renouvelé au milieu de notre\n\nnouvelle tour de Babel, le grand monument de\nl'unité spirituelle de l'Europe, est abandonnée ;\nses ouvriers se sont dispersés. Ses créneaux se\ndressent encore, ses invisibles maçonneries do-\nminent encore la confusion du monde, mais sans\n\nla communauté de la peine, d'une peine soutenue\net persévérante, elle tombera en oubli, comme\ncette autre tour, aux âges du mythe. Il est aujour-\nd'hui beaucoup d'hommes d'entre toutes les na-\ntions, qui semblent le désirer, qui voudraient bien\n\npoint dans quelque lointaine partie du monde,\nAmérique ou Asie. L'heure à présent n'est pas\nencore mûre pour l'activité commune ; trop grande\nencore est la confusion que Dieu jeta dans les\nâmes, et des années peut-être s'écouleront avant\nque les frères se remettent de nouveau à la tâche,\népaule contre épaule, pour la lutte d'émulation\npacifique contre l'infini. Mais nous devons pour-\ntant retourner à l'œuvre d'édification, chacun à la\nplace où il était lorsqu'il l'abandonna, dans l'heure\nde la confusion. Peut-être serons-nous des années\nsans nous voir, sans presque rien entendre les\nuns des autres. Mais si nous faisons notre tâche,\nchacun à sa place, avec l'ancienne ferveur, la tour\nde nouveau montera, et les nations se retrouveront\nsur ses hauteurs. Car ce qui nous appelle à l'œuvre,\nce ne doit pas être l'orgueil d'un peuple isolé, ren-\nchérissant sur sa supériorité de race et de langue ;\n— ce doit être notre antique Aïeul, notre Esprit,\nqui reste le même sous toutes les formes dont le\nvêtit la légende, le constructeur anonyme de Babel,\nle Génie de l'humanité, celui dont la vie et la\nfélicité est de lutter avec Dieu, son créateur.\n(Traduction du Carmel.)\nStefan ZWEIG.",
         "notes": "Scan enthält eine Farbkalibrierungstafel, die den Text teilweise verdeckt. Die Transkription spiegelt die sichtbaren Fragmente wider.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       3576,

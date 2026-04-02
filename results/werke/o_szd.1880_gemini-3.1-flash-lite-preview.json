@@ -262,7 +262,7 @@
         "page": 36,
         "transcription": "D e r   v e r s i e g e l t e   Z u g .",
         "notes": "Letztes Blatt mit Farbkontrollstreifen.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -275,8 +275,8 @@
     "total_pages": 19,
     "empty_pages": 17,
     "blank_pages": 17,
-    "color_chart_pages": 0,
-    "content_pages": 19,
+    "color_chart_pages": 1,
+    "content_pages": 18,
     "input_images": 36,
     "page_types": [
       "content",
@@ -314,7 +314,7 @@
       "blank",
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       55,

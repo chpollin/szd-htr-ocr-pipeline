@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "54 Hans Frank // Das Drama und die Zeit\n\nwerden, die unbedingt notwendig ist zum wahren Werke. Unbedingt notwendig:\nweil auch dem Geistigen, und gerade ihm am meisten, das Verhängnis alles\nIrdischen, der einzelne Irrtum, nicht erspart ist, weil man ein solches Ziel\nnicht zerscheitern lassen darf an der Mißgunst einiger Rezensenten, an der\nTrägheit des „großen“ Publikums. Ein Ring von Menschen ist vonnöten,\ndauerhaft ein solches Theater zu umschließen. Es muß kein tägliches sein.\nIm Gegenteil: ein Festtägliches soll es werden, die seltene Stunde über den\nStunden, der Tempel über unserem Tag.\nDieses zukünftige Theater soll nicht gegen das gegenwärtige sein, sondern\nneben ihm, wie im Leben das Gesteigerte neben dem Banalen, das Geistige\nneben dem Materiellen scheinbar feindlich aber im tiefsten doch notwendig\ngemeinsam lebt. Indem wir es erheben, zerstören wir nicht, wir ergänzen\nnur. Aber so wie man einem Menschen ins Antlitz blickt und nicht auf den\nLeib, um ihn geistig zu erkennen, wird man die deutsche Bühne nur beur-\nteilen in dem Blick auf ein solches zukünftiges Theater des Geistes und der\nsittlichen Kraft, nicht aber nach dem Spielplan der Residenz und der Provinz.\n\nDas Drama und die Zeit\nVon Hans Frank\n\nWer die dramatischen Erscheinungen der letzten Jahre aufmerksam be-\nobachtet, dem muß es auffallen, mit welch leidenschaftlichem Eifer\nsich die Dichter um die Gestaltung des allergegenwärtigsten Lebens\nmühen. Was dabei erstrebt wird, ist — dank den Einwirkungen des Expressionis-\nmusses — nicht ein Abbild der Zeit, sondern die Aufdeckung ihres innersten\nSinnes. Nicht um die Erscheinungsform der Zeit geht es, sondern um das,\nwas sie im Innersten zusammenhält. Also nicht mehr oder minder realistische\noder gar naturalistische Abbilder der Gegenwart zu schreiben, ist der Ehrgeiz\nunserer jungen Dramatiker. Jeder sucht vielmehr, nach Maßgabe seiner Kräfte,\ndas Ideendrama unserer Zeit zu geben. Der höchste Ehrgeiz einer ganzen\nGeneration von Dramatikern richtet sich, um es mit einem Wort zu sagen,\ndarauf: das Zeitmysterium zu schaffen.",
         "notes": "Dies ist ein Ausschnitt des vorherigen Scans mit Farbkalibrierungstafeln. Der Text ist identisch mit dem oberen Teil von Scan 2.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       3273,

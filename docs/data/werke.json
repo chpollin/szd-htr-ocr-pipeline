@@ -754,8 +754,7 @@
         "https://gams.uni-graz.at/o:szd.220/IMG.9",
         "https://gams.uni-graz.at/o:szd.220/IMG.10",
         "https://gams.uni-graz.at/o:szd.220/IMG.11",
-        "https://gams.uni-graz.at/o:szd.220/IMG.12",
-        "https://gams.uni-graz.at/o:szd.220/IMG.13"
+        "https://gams.uni-graz.at/o:szd.220/IMG.12"
       ],
       "pages": [
         {
@@ -829,12 +828,6 @@
           "transcription": "",
           "notes": "Leeres Blatt (Rückseite von Blatt 6).",
           "type": "blank"
-        },
-        {
-          "page": 13,
-          "transcription": "[Farbkarte]",
-          "notes": "Farbkalibrierungskarte.",
-          "type": "content"
         }
       ],
       "confidence": "medium",
@@ -842,9 +835,9 @@
       "verification": {
         "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 7192,
+        "totalChars": 7181,
         "emptyPages": 6,
-        "avgCharsPerPage": 1027,
+        "avgCharsPerPage": 1197,
         "vlmConfidence": "medium"
       },
       "quality_signals": {
@@ -853,8 +846,8 @@
         "total_pages": 7,
         "empty_pages": 6,
         "blank_pages": 6,
-        "content_pages": 7,
-        "color_chart_pages": 0,
+        "content_pages": 6,
+        "color_chart_pages": 1,
         "chars_per_page": [
           1323,
           0,
@@ -968,8 +961,7 @@
         "https://gams.uni-graz.at/o:szd.1880/IMG.32",
         "https://gams.uni-graz.at/o:szd.1880/IMG.33",
         "https://gams.uni-graz.at/o:szd.1880/IMG.34",
-        "https://gams.uni-graz.at/o:szd.1880/IMG.35",
-        "https://gams.uni-graz.at/o:szd.1880/IMG.36"
+        "https://gams.uni-graz.at/o:szd.1880/IMG.35"
       ],
       "pages": [
         {
@@ -1181,12 +1173,6 @@
           "transcription": "",
           "notes": "Leere Seite (Rückseite von Seite 13).",
           "type": "blank"
-        },
-        {
-          "page": 36,
-          "transcription": "D e r   v e r s i e g e l t e   Z u g .",
-          "notes": "Letztes Blatt mit Farbkontrollstreifen.",
-          "type": "content"
         }
       ],
       "confidence": "high",
@@ -1194,9 +1180,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 22240,
+        "totalChars": 22201,
         "emptyPages": 17,
-        "avgCharsPerPage": 1171,
+        "avgCharsPerPage": 1233,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -1205,8 +1191,8 @@
         "total_pages": 19,
         "empty_pages": 17,
         "blank_pages": 17,
-        "content_pages": 19,
-        "color_chart_pages": 0,
+        "content_pages": 18,
+        "color_chart_pages": 1,
         "chars_per_page": [
           55,
           0,
@@ -4147,8 +4133,7 @@
         "https://gams.uni-graz.at/o:szd.1889/IMG.9",
         "https://gams.uni-graz.at/o:szd.1889/IMG.10",
         "https://gams.uni-graz.at/o:szd.1889/IMG.11",
-        "https://gams.uni-graz.at/o:szd.1889/IMG.12",
-        "https://gams.uni-graz.at/o:szd.1889/IMG.13"
+        "https://gams.uni-graz.at/o:szd.1889/IMG.12"
       ],
       "pages": [
         {
@@ -4222,12 +4207,6 @@
           "transcription": "",
           "notes": "Leeres Blatt.",
           "type": "blank"
-        },
-        {
-          "page": 13,
-          "transcription": "Buenos Aires 1936.\n\nDankbar sein ist leicht. Aber Danken ist eine grosse Kunst und\nschwer wie jede Kunst zu meistern. Sie fordert eine Unbefangenheit\ndes Herzens, die ich in Eurem illustren Kreise nicht in mir finde,\ndenn ich fühle mich innerlich zu beunruhigt von der Frage, oh eine\nEhrung, wie sie die Academia de Brezil erwiesen hat, mir wirklich\ngebürt. Ich gestehe Euch, meinen verehrten Collegen, diese Unsicher\nheit ohne Scham ein, denn Ihr kennt sie gewiss selbst aus jenen tra\ngischen Stunden des Zweifels, die wie schwarze Wolken oft tagelang\nüber unserer Arbeit schatten und uns die Herzen lähmen; wir wissen\nüberdies auch alle, wie arg wir unsere Leser meist enttäuschen, wenn\nwir in persona vor ihnen erscheinen. Sie erwarten von uns eine fun\nkelnde Meisterschaft der Rede, eine flirrende Fleurettkunst blen\ndender Hiebe und des geschickten Ripostierens, sie vermuten bei je\ndem von uns eine autoritäre Sicherheit der Haltung, ein - wie sie\nin ihrer Güte meinen - berechtigtes Selbstgefühl. In Wirklichkeit\nist der Künstler in dem Maasse gehemmter und ungewisser, als er auf\nrichtig gegen sich selber ist; der Zweifel und die Unzufriedenheit\nmit der eigenen Leistung sind beinahe sein normaler Seelenzustand.\nEr fühlt sich befangen wenn andere von seinen Werken sprechen, weil\nnur er allein den unsichtbaren Abstand von dem, was er erreichte,\nkennt zu dem was er eigentlich wollte und sobald er sie mit den wirk\nlich grossen Werken der Meister vergleicht ergreift ihn das Gefühl\nseiner eigenen Unzulänglichkeit oft dermassen heftig, dass er in\neiner heiligen Scham vor jedem Blick entfliehen möchte.\n\nGegen diese ständige und tragische Unsicherheit hält den Kün\nstler nur eines aufrecht: die Bestätigung, die er von aussen erfährt\nund vor allen jene, die von Männern stammt, die er selbst als Mei\nster und Kenner ehrt und verehrt. Es ist ein wunderbares Gefühl für\njeden Menschen dieser Erde, sich verstanden zu fühlen und sogar ge\nliebt; jede Frau kennt dies Gefühl in ihrem Wesen, jeder Mann in sei\nner Leistung und wie keiner kommt es der schaffende Künstler, denn",
-          "notes": "Dies ist eine Wiederholung der ersten Seite, diesmal mit einem Kodak-Farbkontrollstreifen am rechten Rand.",
-          "type": "content"
         }
       ],
       "confidence": "high",
@@ -4235,9 +4214,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 12468,
+        "totalChars": 10388,
         "emptyPages": 6,
-        "avgCharsPerPage": 1781,
+        "avgCharsPerPage": 1731,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -4246,8 +4225,8 @@
         "total_pages": 7,
         "empty_pages": 6,
         "blank_pages": 6,
-        "content_pages": 7,
-        "color_chart_pages": 0,
+        "content_pages": 6,
+        "color_chart_pages": 1,
         "chars_per_page": [
           2080,
           1937,
@@ -4547,8 +4526,7 @@
         "https://gams.uni-graz.at/o:szd.1895/IMG.15",
         "https://gams.uni-graz.at/o:szd.1895/IMG.16",
         "https://gams.uni-graz.at/o:szd.1895/IMG.17",
-        "https://gams.uni-graz.at/o:szd.1895/IMG.18",
-        "https://gams.uni-graz.at/o:szd.1895/IMG.19"
+        "https://gams.uni-graz.at/o:szd.1895/IMG.18"
       ],
       "pages": [
         {
@@ -4658,22 +4636,16 @@
           "transcription": "blank",
           "notes": "Rückseite von Seite 17, leer.",
           "type": "blank"
-        },
-        {
-          "page": 19,
-          "transcription": "Digest, New York\n1939\nTHE MAN WITH THE SECRET OF HAPPINESS\nby Stefan Zweig, 49 Hallam Street\nLondon W1\n\nI should be ungrateful indeed had I forgotten the\nperson who showed me two of the most difficult things on\nearth: how, by means of {an inner freedom,} the ~~sovereignty of the mind,~~ a man\ncan free himself from the strongest power in this world,\nthe power of money; and how a man can live among his fellow\nhuman beings without making a single enemy. I have honestly\ntried to learn from him this rare art, but I must confess\nthat hitherto I have succeeded neither in the one respect\nnor the other.\n\nIt was in a very simple way that I came to know this\n{unique} ~~singular~~ individual in the little town where I was living\nat the time. One afternoon I was taking my faithful\nspaniel for a walk. Kaspar, who as a rule frisked along\nahead of me, on this occasion behaved in an extremely foolish\nmanner. He lay on his back and rolled frenziedly on the\nground, all four feet in the air, rubbed himself against\nevery tree, whimpered, ~~[...4...]~~ and growled incessantly. But\nI took this to be spring-time naughtiness and paid no further\nheed to it.\n\nAll of a sudden I became aware that someone was walking\nby my side. Looking up, I saw that a man of about thirty,\npoorly dressed, collarless and hatless, was keeping pace\nwith me. A beggar, I thought involuntarily, and was about\nto put my hand in my pocket. But the stranger smiled\ntranquilly at me out of clear starry blue eyes as though we\nwere old friends. \"He's got a tick, poor chap,\" he said,\npointing to my dog. \"I could tell that at once. Come\nalong, we'll go over to that bench in the park, and I'll\nhave it out in no time.\"\nI must remark at this point that {in addressing me he used „Du“, the} he ~~addressed me in the~~\nsecond person singular, which in German is only employed\namong people ~~of the same class who have been~~ {who are} on intimate",
-          "notes": "Dies ist eine Wiederholung der ersten Seite, diesmal mit einer Farbkalibrierungsskala (Kodak Color Control Patches) am rechten Rand.",
-          "type": "content"
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Korrekturen sehr zuverlässig. Die wenigen unleserlichen Stellen wurden gemäß den Anweisungen markiert.",
       "verification": {
         "uncertainCount": 0,
-        "illegibleCount": 2,
-        "totalChars": 17825,
+        "illegibleCount": 1,
+        "totalChars": 15916,
         "emptyPages": 0,
-        "avgCharsPerPage": 938,
+        "avgCharsPerPage": 884,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -4682,8 +4654,8 @@
         "total_pages": 10,
         "empty_pages": 0,
         "blank_pages": 9,
-        "content_pages": 10,
-        "color_chart_pages": 0,
+        "content_pages": 9,
+        "color_chart_pages": 1,
         "chars_per_page": [
           1909,
           5,
@@ -4741,8 +4713,7 @@
         "https://gams.uni-graz.at/o:szd.1898/IMG.7",
         "https://gams.uni-graz.at/o:szd.1898/IMG.8",
         "https://gams.uni-graz.at/o:szd.1898/IMG.9",
-        "https://gams.uni-graz.at/o:szd.1898/IMG.10",
-        "https://gams.uni-graz.at/o:szd.1898/IMG.11"
+        "https://gams.uni-graz.at/o:szd.1898/IMG.10"
       ],
       "pages": [
         {
@@ -4804,12 +4775,6 @@
           "transcription": "",
           "notes": "Leere Seite (Rückseite von Blatt 5).",
           "type": "blank"
-        },
-        {
-          "page": 11,
-          "transcription": "Memorandum für Beverly Baxter\n4. I 40\n\nAs an Austrian who since his childhood has been\nfamiliar with the relations between the former Austria and\nItaly, I would like to draw the attention to an actual point\nin the present political constellation.\n\nThe relations between the old Austria and Italy\nhave always been insincere owing to the demand of Italy for\n\"Trento e Trieste\", the country of Trentino and the port of\nTrieste. A large group in the Austrian Ministeries was\nwilling, for the sake of the security of prewar Austria,\nto sacrifice the Trentino, but all parties were united in\nthe strict refusal to give up Trieste. Trieste was the\nharbour of the fifty million central-European Empire of\nAustria, and it was essential for its commerce in the\nMediterranean and with the East.\n\nNow, that Germany has taken over Austria and\nCzechoslovakia, there can be no doubt that sooner or later\nthey will ask for this port which belonged to the old\nAustria, and for their commerce an outlet to the Medi-\nterranean is absolutely necessary for a country of a\nhundred million inhabitants. It is even a hundred times\nmore important than Danzig, and Germany has only deferred\nthis demand according to its principle always to attack",
-          "notes": "Dies ist eine Wiederholung von Blatt 1 mit einem Kodak-Farbkontrollstreifen am rechten Rand.",
-          "type": "content"
         }
       ],
       "confidence": "high",
@@ -4817,9 +4782,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 6977,
+        "totalChars": 5757,
         "emptyPages": 5,
-        "avgCharsPerPage": 1163,
+        "avgCharsPerPage": 1151,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -4828,8 +4793,8 @@
         "total_pages": 6,
         "empty_pages": 5,
         "blank_pages": 5,
-        "content_pages": 6,
-        "color_chart_pages": 0,
+        "content_pages": 5,
+        "color_chart_pages": 1,
         "chars_per_page": [
           1220,
           0,
@@ -8600,8 +8565,7 @@
       "id": "o_szd.1890_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1890/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1890/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1890/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1890/IMG.2"
       ],
       "pages": [
         {
@@ -8615,12 +8579,6 @@
           "transcription": "",
           "notes": "Leere Rückseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "DANK AN DIE BÜCHER\n\nSIE sind da, wartend und schweigend. Sie drängen, sie rufen,\nsie fordern nicht. An der Wand stehen sie stumm. Schlaf\nscheint über ihnen und doch blickt von jedem wie aufge-\nschlagenes Auge ein Name dich an. Geht man vorüber an\nihnen mit den Blicken, mit den Händen, so rufen, sie nicht\nnach, so drängen sie nicht vor. Sie fordern nicht. Sie warten,\nbis man ihnen aufgetan ist: dann erst tun sie sich auf. Erst\neine Stille um uns, erst eine Stille in uns, dann ist man ihnen\nbereit, eines Abends, heimkehrend von ermüdendem Gang,\neines Mittags, matt von den Menschen, eines Morgens, wolkig\nvorwehend aus traumhaftem Schlaf. Man möchte eine Zwie-\nsprache haben und will doch allein sein. Man möchte träu-\nmen, aber in Musik. Mit dem genießenden Vorgefühl süßer\nProbe tritt man an den Schrank: hundert Augen, hundert\nNamen blicken stumm-geduldig dem suchenden Blick ent-\ngegen wie Sklavinnen eines Serails ihrem Herrn, demütig den\nRuf erwartend und doch selig, gewählt, genossen zu sein.\nUnd dann, wie auf dem Klavier tastet der Finger, den Ton\nzu finden zur inneren Melodie: weich schmiegt es sich der\nHand, das stumme weiße Wesen, verschlossene Geige, in der\nalle Stimmen Gottes warten. Man schlägt Eines auf, man liest\neine Zeile, einen Vers: aber er klingt nicht klar in die Stunde.\nEnttäuscht, unzärtlich fast, legt man es zurück. Bis das rechte\nnaht, das rechte für die Stunde: und plötzlich bist du um-\nfangen, dein Atem geht in fremden Atem ein, als läge der\nwarme, nackte Leib einer Frau neben dir. Und wie du es nun\nunter die Lampe trägst, das Buch, das glücklich gewählte,\nerglüht es blendsam von innerem Licht. Magie ist getan, aus\nzartem Gewölk des Traumes steigt Phantasmagorie. Straßen\nöffnen sich weit und Fernen nehmen dein verlöschendes\nGefühl.\nIrgendwo tickt eine Uhr. Aber sie dringt nicht in diese sich\nselbst entwanderte Zeit. Hier mißt die Stunde anderes Maß.\nDa sind Bücher, die viele Jahrhunderte weit gewandert sind,\nehe ihr Wort an unsere Lippen kam, da sind junge, gestern\nerst geboren, gestern erst gezeugt aus eines bartlosen Knaben\nVerwirrung und Not: aber sie sprechen magische Sprache\nund eines wie das andere wiegt und wellt unseren Atem em-\npor. Und indem sie erregen, trösten sie auch, indem sie\nverführen, beschwichtigen sie den aufgetanen Sinn. Und\nallmählich sinkt man selbst in sie hinein, wird Ruhen und\nSchauen, gelassenes Schweben in ihrer Melodie, Welt jen-\nseits der Welt.\nIhr Stunden, reinste, hinwegtragende aus dem Tumult des\nTages, ihr Bücher, allertreueste, schweigsamste Gefährten,\nwie euch danken für euer stets gegenwärtiges Bereitsein, für\ndies ewig Aufhebende, unendlich Beschwingende eurer Ge-\ngenwart! Was seid ihr gewesen in den finstersten Tagen der\nSeeleneinsamkeit; in Lazaretten und Kriegslagern, in Ge-\nfängnissen und an Schmerzensbetten, überall habt ihr, allzeit\nWache, dem Menschen Träume geschenkt und ein handbreit\nStille in Unrast und Qual. Immer vermochtet ihr, milde\nMagnete Gottes, die Seele wegzuziehen, wenn sie im Täg-\nlichen verschüttet war, in ihr eigenstes Element, immer habt\nihr in allen Düsterungen den inneren Himmel uns wieder zur\nFerne erweitert.\nWinzige Stücke Unendlichkeit, still gereiht an schmuckloser\nWand, steht ihr unscheinbar in unserem Haus. Doch wenn\ndie Hand euch befreit, wenn das Herz euch berührt, so sprengt\nihr unsichtbar die werktäglichen Räume und wie im feurigen\nWagen führt euer Wort uns aus Enge ins Ewige empor.\n271 Zweig: Begegnungen.",
-          "notes": "Identisch mit Seite 1, jedoch mit einem Farbkalibrierungsstreifen am rechten Rand.",
-          "type": "content"
         }
       ],
       "confidence": "high",
@@ -8628,7 +8586,7 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 6918,
+        "totalChars": 3459,
         "emptyPages": 1,
         "avgCharsPerPage": 3459,
         "vlmConfidence": "high"
@@ -8639,8 +8597,8 @@
         "total_pages": 2,
         "empty_pages": 1,
         "blank_pages": 1,
-        "content_pages": 2,
-        "color_chart_pages": 0,
+        "content_pages": 1,
+        "color_chart_pages": 1,
         "chars_per_page": [
           3459,
           0,

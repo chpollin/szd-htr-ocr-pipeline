@@ -98,7 +98,9 @@ def _classify_page(page: dict) -> str:
     # color chart is visible, so check notes regardless of text length.
     if any(kw in notes for kw in ("farbskala", "farb-", "grauskala", "farbkeil",
                                    "color chart", "grey scale", "graustuf",
-                                   "farbkarte", "color patches")):
+                                   "farbkarte", "color patches", "kodak",
+                                   "farbkontroll", "farbkalibrier",
+                                   "color control")):
         return "color_chart"
     if len(text) < 10:
         if any(kw in notes for kw in ("rückseite", "rueckseite", "leer", "blank",

@@ -101,7 +101,7 @@
         "page": 13,
         "transcription": "Buenos Aires 1936.\n\nDankbar sein ist leicht. Aber Danken ist eine grosse Kunst und\nschwer wie jede Kunst zu meistern. Sie fordert eine Unbefangenheit\ndes Herzens, die ich in Eurem illustren Kreise nicht in mir finde,\ndenn ich fühle mich innerlich zu beunruhigt von der Frage, oh eine\nEhrung, wie sie die Academia de Brezil erwiesen hat, mir wirklich\ngebürt. Ich gestehe Euch, meinen verehrten Collegen, diese Unsicher\nheit ohne Scham ein, denn Ihr kennt sie gewiss selbst aus jenen tra\ngischen Stunden des Zweifels, die wie schwarze Wolken oft tagelang\nüber unserer Arbeit schatten und uns die Herzen lähmen; wir wissen\nüberdies auch alle, wie arg wir unsere Leser meist enttäuschen, wenn\nwir in persona vor ihnen erscheinen. Sie erwarten von uns eine fun\nkelnde Meisterschaft der Rede, eine flirrende Fleurettkunst blen\ndender Hiebe und des geschickten Ripostierens, sie vermuten bei je\ndem von uns eine autoritäre Sicherheit der Haltung, ein - wie sie\nin ihrer Güte meinen - berechtigtes Selbstgefühl. In Wirklichkeit\nist der Künstler in dem Maasse gehemmter und ungewisser, als er auf\nrichtig gegen sich selber ist; der Zweifel und die Unzufriedenheit\nmit der eigenen Leistung sind beinahe sein normaler Seelenzustand.\nEr fühlt sich befangen wenn andere von seinen Werken sprechen, weil\nnur er allein den unsichtbaren Abstand von dem, was er erreichte,\nkennt zu dem was er eigentlich wollte und sobald er sie mit den wirk\nlich grossen Werken der Meister vergleicht ergreift ihn das Gefühl\nseiner eigenen Unzulänglichkeit oft dermassen heftig, dass er in\neiner heiligen Scham vor jedem Blick entfliehen möchte.\n\nGegen diese ständige und tragische Unsicherheit hält den Kün\nstler nur eines aufrecht: die Bestätigung, die er von aussen erfährt\nund vor allen jene, die von Männern stammt, die er selbst als Mei\nster und Kenner ehrt und verehrt. Es ist ein wunderbares Gefühl für\njeden Menschen dieser Erde, sich verstanden zu fühlen und sogar ge\nliebt; jede Frau kennt dies Gefühl in ihrem Wesen, jeder Mann in sei\nner Leistung und wie keiner kommt es der schaffende Künstler, denn",
         "notes": "Dies ist eine Wiederholung der ersten Seite, diesmal mit einem Kodak-Farbkontrollstreifen am rechten Rand.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -114,8 +114,8 @@
     "total_pages": 7,
     "empty_pages": 6,
     "blank_pages": 6,
-    "color_chart_pages": 0,
-    "content_pages": 7,
+    "color_chart_pages": 1,
+    "content_pages": 6,
     "input_images": 13,
     "page_types": [
       "content",
@@ -130,7 +130,7 @@
       "blank",
       "blank",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       2080,

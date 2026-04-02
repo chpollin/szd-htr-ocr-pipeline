@@ -101,7 +101,7 @@
         "page": 13,
         "transcription": "[Farbkarte]",
         "notes": "Farbkalibrierungskarte.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "medium",
@@ -114,8 +114,8 @@
     "total_pages": 7,
     "empty_pages": 6,
     "blank_pages": 6,
-    "color_chart_pages": 0,
-    "content_pages": 7,
+    "color_chart_pages": 1,
+    "content_pages": 6,
     "input_images": 13,
     "page_types": [
       "content",
@@ -130,7 +130,7 @@
       "blank",
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1323,
