@@ -14,7 +14,7 @@ Phasen 1–3 erledigt, Phase 4 laufend. Details, offene Aufgaben und Entscheidun
 
 ### Transkriptionsfortschritt
 
-**575 / 2107 Objekte** transkribiert (27%), **3463 / 18719 Seiten** (18%):
+**601 / 2107 Objekte** im Katalog (29%), **3588 Seiten** im Viewer (color_chart-Seiten gefiltert):
 
 | Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
 |---|---:|---:|---:|---:|---:|---:|
@@ -33,6 +33,9 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 - **CER/WER-Evaluierung**: `evaluate.py` mit Normalisierung per Annotationsprotokoll, `quality_report.py` fuer Aggregatstatistiken
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
 - **System-Prompt**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
+- **Expert-Review Write-Back** (`import_reviews.py`): Importiert Frontend-Exporte (GT-Reviews + regulaere Edits) zurueck in Pipeline-JSONs. Schreibt `review`-Objekt mit `status`, `reviewed_by`, `reviewed_at`. Unterstuetzt Approve ohne Edit (`reviewed: true`).
+- **3-stufiger Review-Status**: `needs_review: true` (rot), kein Review (LLM OK, orange), `review.status: "approved"` (gruen). `gtVerified` fuer GT-Objekte.
+- **Katalog-Bereinigung**: Test-Daten, Layout-JSONs, GT-Drafts, Pro-Zwischenergebnisse aus Viewer-Daten gefiltert (627 → 601). Color-Chart-Seiten (158) aus Viewer entfernt.
 
 ### Naechste Schritte
 
@@ -44,6 +47,7 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 
 Erledigt (Session 14): Konsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
 Erledigt (Session 15): Knowledge Vault im Frontend, Projekt-Seite, README aktualisiert.
+Erledigt (Session 16): Expert-Review Write-Back (`import_reviews.py`), 3-stufiger Review-Status, Katalog-Bereinigung, Color-Chart-Filter, Knowledge Vault Konsolidierung (13 → 11 Docs), Frontmatter vereinheitlicht, Claude Code Banner.
 
 ## Quelldaten
 
@@ -112,12 +116,12 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
    Konsensus  VLM-Layout (1/Seite) → catalog.json
    (3 Modelle) → *_layout.json     → data/{collection}.json
         │               │           → docs/ Viewer
-        │               ▼
-        │       export_pagexml.py
-        │       (deterministisch)
-        │       → *_page/page_NNN.xml
-        │         (PAGE XML 2019)
-        └───────────────────────────┘
+        │               ▼                    │
+        │       export_pagexml.py            │ Expert-Review
+        │       (deterministisch)            ▼
+        │       → *_page/page_NNN.xml  import_reviews.py
+        │         (PAGE XML 2019)      Frontend-Export → JSON
+        └───────────────────────────┘  (review.status, edits)
 ```
 
 ### Dreischichtiges Prompt-System
@@ -167,12 +171,13 @@ szd-htr/
 │   ├── layout_analysis.py            ← VLM-basierte Layout-Analyse (Regionen + Bounding Boxes)
 │   ├── export_pagexml.py             ← Merged OCR + Layout → PAGE XML 2019
 │   ├── generate_gt.py               ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
+│   ├── import_reviews.py            ← Expert-Review Write-Back (Frontend-Export → Pipeline-JSON)
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
 │   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
-│   ├── test/                        ← 7 Testergebnisse (enriched JSON)
-│   ├── groundtruth/                 ← Manuelle Referenztranskriptionen (Pilot + GT)
+│   ├── test/                        ← 7 Legacy-Testergebnisse (nicht im Katalog)
+│   ├── groundtruth/                 ← 18 GT-Drafts + Pro-Transkriptionen
 │   ├── lebensdokumente/             ← 112 Ergebnisse + 18 Konsensus-JSONs
 │   ├── werke/                       ← 56 Ergebnisse + 5 Konsensus-JSONs
 │   ├── aufsatzablage/               ← 117 Ergebnisse + 3 Konsensus-JSONs
@@ -188,21 +193,19 @@ szd-htr/
 │       ├── aufsatzablage.json
 │       ├── korrespondenzen.json
 │       ├── groundtruth.json         ← GT-Drafts fuer Expert-Review
-│       └── knowledge.json           ← Knowledge Vault (12 Docs + About, pre-rendered HTML)
+│       └── knowledge.json           ← Knowledge Vault (10 Docs + About, pre-rendered HTML)
 └── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
     ├── index.md                     ← Map of Content (MOC)
-    ├── data-overview.md             ← Konsolidierte TEI-Analyse aller Sammlungen
-    ├── verification-concept.md      ← GT-Sample, quality_signals, Cross-Model, Literatur
-    ├── annotation-protocol.md       ← Transkriptionskonventionen fuer Referenz-Sample
-    ├── pilot-design.md              ← 5-Seiten-Pilot (superseded)
-    ├── ground-truth-pipeline.md     ← 3-Modell-GT mit Expert-Review (18 Objekte, 46 Seiten)
+    ├── data-overview.md             ← Datengrundlage (4 Sammlungen, 9 Gruppen)
+    ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, GT-Pipeline
+    ├── annotation-protocol.md       ← Transkriptionskonventionen
+    ├── pilot-design.md              ← 5-Seiten-Pilot (historisch, nicht ausgefuehrt)
     ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
-    ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil, Markup→TEI-Mapping)
-    ├── teiCrafter-integration.md    ← teiCrafter-Integration (JSON-Import, Mapping-Templates)
-    ├── verification-by-vision.md    ← LLM-gestuetzte Bildpruefung (Claude + Gemini)
-    ├── layout-analysis.md           ← VLM-basierte Layout-Analyse + PAGE XML Export
-    ├── dia-xai-integration.md       ← EQUALIS-Mapping: SZD-HTR → DIA-XAI
-    └── journal.md                   ← Chronologisches Session-Log (Sessions 1–15)
+    ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil)
+    ├── teiCrafter-integration.md    ← teiCrafter-Integration
+    ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
+    ├── dia-xai-integration.md       ← DIA-XAI-Integration
+    └── journal.md                   ← Session-Log (Sessions 1–16)
 ```
 
 ## CLI-Nutzung
@@ -231,6 +234,14 @@ python pipeline/transcribe.py --all --dry-run
 ```
 
 Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits transkribierte Objekte werden übersprungen (außer `--force`).
+
+```bash
+# Expert-Review importieren (aus Frontend-Export)
+python pipeline/import_reviews.py path/to/export.json [--dry-run] [--reviewer "Name"]
+
+# Viewer-Daten neu bauen (nach Import oder Transkription)
+python pipeline/build_viewer_data.py
+```
 
 ## Umgebungsvariablen (.env)
 
@@ -292,11 +303,23 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
 }
 ```
 
+Optional nach Expert-Review (geschrieben von `import_reviews.py`):
+
+```json
+{
+  "review": {
+    "status": "approved",
+    "edited_pages": [1],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T14:00:00Z"
+  }
+}
+```
+
 `page.type` ist ein First-Class-Feld auf jedem Page-Objekt (seit v1.3). Wird von `_classify_page()` in `quality_signals.py` gesetzt basierend auf Transkriptionslaenge (<10 Zeichen) und Notes-Keywords. Alle bestehenden JSONs sind backfilled via `backfill_page_types.py`. Downstream-Nutzung:
 - `verify.py`: Blank/color_chart-Seiten werden bei CER-Berechnung uebersprungen (`"agreement": "skipped"`)
-- `build_viewer_data.py`: `page.type` fliesst in Viewer-Daten, `blankPages`/`contentPages` im Katalog
+- `build_viewer_data.py`: `page.type` fliesst in Viewer-Daten, `blankPages`/`contentPages` im Katalog. Color-Chart-Seiten werden aus Viewer-Daten gefiltert. `reviewStatus` und `gtVerified` im catalog.json.
 - Schema: `schemas/htr-interchange-v0.1.json` enthaelt `type` als optionales enum-Feld
-```
 
 ## Technische Entscheidungen
 
