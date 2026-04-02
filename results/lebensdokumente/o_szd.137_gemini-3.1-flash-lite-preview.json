@@ -71,5 +71,11 @@
     "needs_review_reasons": [
       "low_dwr"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T11:27:39.618525+00:00"
   }
 }
