@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar. Die Überlagerung durch die Farbskala auf dem dritten Scan beeinträchtigt die Lesbarkeit nicht, da der Text auf dem ersten Scan vollständig und klar vorliegt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1389,
     "total_words": 216,
-    "total_pages": 2,
+    "total_pages": 0,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 2,
@@ -57,11 +57,10 @@
       0,
       362
     ],
-    "chars_per_page_median": 694.5,
+    "chars_per_page_median": 0.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 2,
     "marker_density": 0.0093,
-    "dwr_score": 0.4623,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

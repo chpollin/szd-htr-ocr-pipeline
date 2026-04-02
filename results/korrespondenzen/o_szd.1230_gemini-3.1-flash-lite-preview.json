@@ -52,10 +52,10 @@
     "confidence_notes": "Der Text ist weitgehend klar lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftliche Ergänzung von Stefan Zweig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3455,
     "total_words": 570,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 1,
@@ -75,11 +75,10 @@
       975,
       779
     ],
-    "chars_per_page_median": 877.0,
+    "chars_per_page_median": 975,
     "marker_uncertain_count": 1,
     "marker_illegible_count": 2,
     "marker_density": 0.0053,
-    "dwr_score": 0.492,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

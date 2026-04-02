@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift Stefan Zweigs gut lesbar und inhaltlich eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 519,
     "total_words": 81,
     "total_pages": 2,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4103,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

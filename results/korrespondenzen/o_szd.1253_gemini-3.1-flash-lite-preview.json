@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1408,
     "total_words": 235,
     "total_pages": 3,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4052,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

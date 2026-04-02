@@ -38,7 +38,7 @@
     "confidence_notes": "Die Unterschrift des Absenders ist schwer zu entziffern und wurde daher mit [?] markiert. Der Rest des Textes ist gut lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 190,
     "total_words": 27,
     "total_pages": 2,
@@ -61,15 +61,12 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0741,
-    "dwr_score": 0.1739,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "marker_density"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

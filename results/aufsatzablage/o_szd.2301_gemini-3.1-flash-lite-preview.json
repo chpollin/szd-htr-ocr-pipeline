@@ -66,7 +66,7 @@
     "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich über die verschiedenen Scans hinweg."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 284,
     "total_words": 47,
     "total_pages": 6,
@@ -97,7 +97,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5385,
     "duplicate_page_pairs": [
       [
         0,

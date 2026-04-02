@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist trotz der Überlagerung mit dem gedruckten Adressfeld und der teilweise engen Schriftführung gut lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 890,
     "total_words": 142,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3623,
     "duplicate_page_pairs": [
       [
         1,

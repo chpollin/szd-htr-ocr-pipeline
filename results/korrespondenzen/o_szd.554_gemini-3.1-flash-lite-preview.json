@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, abgesehen von der Signatur 'Seuphor', die aufgrund der Handschrift leicht unsicher ist. Die Durchstreichung wurde gemäß den Regeln markiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 354,
     "total_words": 51,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0196,
-    "dwr_score": 0.098,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

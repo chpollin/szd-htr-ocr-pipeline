@@ -31,7 +31,7 @@
     "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am Ende und am Rand sind aufgrund der kursiven Handschrift etwas schwieriger zu entziffern, aber inhaltlich weitgehend eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1110,
     "total_words": 147,
     "total_pages": 1,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4167,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

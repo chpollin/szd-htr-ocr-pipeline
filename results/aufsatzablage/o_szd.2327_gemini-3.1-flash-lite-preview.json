@@ -66,10 +66,10 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckqualität des Zeitungsausschnitts sehr zuverlässig. Die Überlagerung durch die Farbkarte auf der letzten Seite wurde bei der Transkription berücksichtigt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 33659,
     "total_words": 4867,
-    "total_pages": 7,
+    "total_pages": 6,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -93,11 +93,10 @@
       5895,
       3101
     ],
-    "chars_per_page_median": 5895,
+    "chars_per_page_median": 6134.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4464,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

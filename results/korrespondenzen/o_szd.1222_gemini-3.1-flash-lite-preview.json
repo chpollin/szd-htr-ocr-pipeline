@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist weitgehend maschinenschriftlich und sehr gut lesbar. Die handschriftlichen Ergänzungen sind in der für Stefan Zweig typischen Handschrift verfasst und weitgehend entzifferbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2500,
     "total_words": 376,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.008,
-    "dwr_score": 0.4933,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

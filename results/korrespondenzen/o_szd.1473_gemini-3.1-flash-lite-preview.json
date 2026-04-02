@@ -66,10 +66,10 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Es handelt sich um mehrfache Kopien desselben Dokuments."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3423,
     "total_words": 631,
-    "total_pages": 7,
+    "total_pages": 6,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -93,11 +93,10 @@
       102,
       102
     ],
-    "chars_per_page_median": 102,
+    "chars_per_page_median": 553.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4992,
     "duplicate_page_pairs": [
       [
         0,
@@ -116,24 +115,12 @@
         5
       ],
       [
-        1,
-        6
-      ],
-      [
         2,
         4
       ],
       [
         3,
         5
-      ],
-      [
-        3,
-        6
-      ],
-      [
-        5,
-        6
       ]
     ],
     "language_expected": "en",

@@ -200,7 +200,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der zahlreichen, teilweise überlagernden handschriftlichen Ergänzungen und Korrekturen, die oft den gedruckten Text durchstreichen oder ergänzen, anspruchsvoll. Die Lesbarkeit der handschriftlichen Zusätze ist teilweise eingeschränkt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 39996,
     "total_words": 5887,
     "total_pages": 23,
@@ -263,7 +263,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4627,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

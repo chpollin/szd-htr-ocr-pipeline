@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (insbesondere bei den vertikalen Randnotizen und einigen Wörtern im Mittelteil) schwer zu entziffern. Die Lesung '15' bei 'knappe 15 Torbole' ist unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 651,
     "total_words": 101,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0198,
-    "dwr_score": 0.3646,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

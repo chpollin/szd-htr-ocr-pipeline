@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist klar gedruckt und gut lesbar. Die Überlappung durch die Farbkarte in Scan 3 wurde durch den Vergleich mit Scan 2 rekonstruiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 9929,
     "total_words": 1670,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       3964,
       2389
     ],
-    "chars_per_page_median": 3576,
+    "chars_per_page_median": 3770.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4012,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

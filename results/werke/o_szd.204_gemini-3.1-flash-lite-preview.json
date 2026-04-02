@@ -389,7 +389,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein Typoskript mit handschriftlichen Korrekturen. Die Lesbarkeit ist sehr gut, auch wenn die Korrekturen teilweise dicht gedrängt sind.; S.21-40: Die Transkription ist aufgrund der guten Lesbarkeit der Typoskripte und der klaren Handschrift sehr zuverlässig. Korrekturen und Einfügungen wurden gemäß den Vorgaben erfasst.; S.41-53: Der Text ist gut lesbar, jedoch erschweren die zahlreichen handschriftlichen Korrekturen, Einfügungen und Randnotizen (oft ineinander verschachtelt) eine eindeutige Zuordnung der Lesart. Die Transkription folgt der diplomatischen Vorgabe, die Korrekturen in den Textfluss zu integrieren."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 45973,
     "total_words": 7964,
     "total_pages": 26,
@@ -512,7 +512,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5102,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

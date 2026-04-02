@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist flüssig, aber teilweise schwer zu entziffern, insbesondere der Name des Absenders. Die Abkürzung 'Z. N. N.' ist unklar (möglicherweise eine Zeitungsabkürzung)."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 472,
     "total_words": 76,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0132,
-    "dwr_score": 0.2877,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

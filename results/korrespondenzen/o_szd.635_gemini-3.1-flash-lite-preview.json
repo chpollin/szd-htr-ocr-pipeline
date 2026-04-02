@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar. Die durchgestrichene Stelle in der Adresszeile ist unleserlich, da sie mit mehreren Strichen überschrieben wurde."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 370,
     "total_words": 53,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0444,
     "duplicate_page_pairs": [
       [
         1,

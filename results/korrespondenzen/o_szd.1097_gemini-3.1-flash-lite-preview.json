@@ -57,10 +57,10 @@
     "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 355,
+    "version": "1.5",
+    "total_chars": 357,
     "total_words": 53,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -73,14 +73,13 @@
     ],
     "chars_per_page": [
       91,
-      173,
+      175,
       91
     ],
-    "chars_per_page_median": 91,
+    "chars_per_page_median": 133.0,
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0377,
-    "dwr_score": 0.3019,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

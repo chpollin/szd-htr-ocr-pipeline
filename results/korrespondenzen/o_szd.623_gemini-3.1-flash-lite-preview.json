@@ -38,7 +38,7 @@
     "confidence_notes": "Die Zeile 'bedanken falls Adresse / zuerst anden' ist aufgrund der sehr blassen Tinte und der Überschneidung mit dem gedruckten 'Foto-Vlašić, Maribor' schwer zu lesen. 'zuerst' wurde als Korrektur interpretiert, da es durchgestrichen und darüber erneut geschrieben wurde."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 189,
     "total_words": 22,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.04,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Verdeckung durch Archivierungshilfen in Scan 3 beeinträchtigt die Lesbarkeit des Gesamtdokuments nicht, da der Text in Scan 1 vollständig vorliegt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 605,
     "total_words": 100,
-    "total_pages": 2,
+    "total_pages": 0,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 2,
@@ -57,11 +57,10 @@
       0,
       224
     ],
-    "chars_per_page_median": 302.5,
+    "chars_per_page_median": 0.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2222,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

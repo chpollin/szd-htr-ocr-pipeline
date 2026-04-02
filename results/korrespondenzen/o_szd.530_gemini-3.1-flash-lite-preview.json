@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist weitgehend lesbar, jedoch ist die Handschrift teilweise flüchtig. Das Wort 'Kup[?]' vor dem Namen ist schwer zu entziffern (möglicherweise eine Abkürzung oder ein Schreibfehler der Absenderin)."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 245,
     "total_words": 40,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.05,
-    "dwr_score": 0.0952,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

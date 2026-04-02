@@ -202,7 +202,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift sehr zuverlässig. Handschriftliche Ergänzungen wurden als solche gekennzeichnet."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 35703,
     "total_words": 5500,
     "total_pages": 23,
@@ -265,7 +265,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0002,
-    "dwr_score": 0.4895,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

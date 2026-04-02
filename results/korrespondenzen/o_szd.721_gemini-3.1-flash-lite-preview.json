@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar nicht entzifferbar, aber als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 697,
     "total_words": 77,
     "total_pages": 1,
@@ -53,7 +53,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

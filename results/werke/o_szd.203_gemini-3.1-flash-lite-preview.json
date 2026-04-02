@@ -122,7 +122,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die wenigen handschriftlichen Ergänzungen sind im Kontext gut verständlich."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 11424,
     "total_words": 1831,
     "total_pages": 7,
@@ -169,7 +169,6 @@
     "marker_uncertain_count": 6,
     "marker_illegible_count": 0,
     "marker_density": 0.0033,
-    "dwr_score": 0.4781,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -46,10 +46,10 @@
     "confidence_notes": "Der Text ist aufgrund der maschinellen Vorlage und der klaren Handschrift sehr gut lesbar. Die Struktur wurde linear abgebildet."
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 1526,
-    "total_words": 273,
-    "total_pages": 2,
+    "version": "1.5",
+    "total_chars": 1523,
+    "total_words": 272,
+    "total_pages": 1,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 1,
@@ -61,15 +61,14 @@
       "color_chart"
     ],
     "chars_per_page": [
-      1375,
+      1372,
       0,
       151
     ],
-    "chars_per_page_median": 763.0,
+    "chars_per_page_median": 1372,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3036,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",

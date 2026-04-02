@@ -332,7 +332,7 @@
     "confidence_notes": "Der Text ist gut lesbar, trotz der für Stefan Zweig typischen, flüchtigen Handschrift. Einige wenige Wörter sind aufgrund von Tintenverläufen oder Abkürzungen unsicher, aber der Kontext ist durchgehend klar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 30448,
     "total_words": 5680,
     "total_pages": 43,
@@ -439,7 +439,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0002,
-    "dwr_score": 0.5302,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

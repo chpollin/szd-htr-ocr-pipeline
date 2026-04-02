@@ -963,7 +963,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist gut lesbar, die Struktur der Tabelle ist konsistent.; S.21-40: Die Handschrift ist gut lesbar, die Struktur der Formulare ist konsistent. Einige Namen sind aufgrund der Kursivschrift leicht interpretierbar, aber im Kontext der Korrespondenz eindeutig.; S.41-60: Die Handschrift ist gut lesbar, die Struktur des Formulars hilft bei der Zuordnung der Einträge.; S.61-80: Die Handschrift ist gut lesbar, die Struktur des Formulars ist konsistent.; S.81-100: Die Handschrift ist gut lesbar, die Struktur der Registerseiten ist konsistent.; S.101-120: Die Handschrift ist gut lesbar, die Struktur der Formulare ist konsistent. Einige Namen sind aufgrund der kursiven Schrift leicht interpretierbar, aber im Kontext der Liste eindeutig.; S.121-135: Die Handschrift ist gut lesbar, die Struktur des Registers ist konsistent. Einige Eigennamen sind aufgrund der kursiven Handschrift leicht interpretativ, aber im Kontext der Korrespondenz von Stefan Zweig plausibel."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 38998,
     "total_words": 7627,
     "total_pages": 131,
@@ -1250,7 +1250,6 @@
     "marker_uncertain_count": 7,
     "marker_illegible_count": 0,
     "marker_density": 0.0009,
-    "dwr_score": 0.0161,
     "duplicate_page_pairs": [
       [
         37,

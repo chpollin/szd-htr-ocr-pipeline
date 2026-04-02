@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.839",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 9. Juni 1937, SZ-AAP/B1.56",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.839/IMG.1",
+      "https://gams.uni-graz.at/o:szd.839/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 9. Juni 1937, SZ-AAP/B1.56\n- Signatur: SZ-AAP/B1.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "9.Juni 1937.\n\nGeehrter Herr Reichner!\n\nDr. Bagrow, den ich eben telefonisch sprach,\nkündigt mir für morgen die vollständige Liste an. Ich\nlasse sie sofort in mehreren Exemplaren abschreiben und\nsende sie Ihnen zu. Wir machen dann zwei Merkzeichen\nfür die Dinge, die absolut wichtig sind und unter die-\nsen wieder für diejenigen, welche nur hier zu finden\nsind und welche Sie sich auch in Wien beschaffen kön-\nnen.\n\nEin Zufall will es, dass ich gerade heute\ndie Antwort bekam wegen des Mozart. Es ist die Oxford\nUniversity Press in New York, welche die Faksimile-\nausgabe machen will. Aber es bestünde die Möglichkeit\neiner Einteilung, dass Sie hundertfünfzig Exemplare\nmit englischem Text und Sie in Wien dann hundertfünf-\nzig mit deutschem Texte herstellen. Die Faksimile-\nherstellung könnte in Wien erfolgen, die kleine Ein-\nleitung deutsch in Wien, die englische in Amerika ge-\ndruckt werden. Können Sie vielleicht ungefähr eine\nKalkulation machen, 1) wie viel Seiten in Lichtdruck",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "kosten würden (selbstverständlich darf das Buch nicht\nauseinandergenommen werden) und die farbige Reproduk-\ntion des Einbandes. Das Format kennen Sie ja aus dem\nLiepmannsohn-Katalog. 2) welchen Preis Sie für rich-\ntig hielten, 3) Das Honorar würde mit der Einleitung,\ndie ich eventuell selbst schreibe, zehn Prozent betra-\ngen. Vielleicht kalkulieren Sie sich das durch und ge-\nben mir Bescheid, den ich dann nach New York weiter-\ngebe.\n\nMit den besten Empfehlungen\nIhr",
+        "notes": "Typoskript auf Briefpapier. Fortsetzung der Seite 1.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1453,
+    "total_words": 228,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      984,
+      469
+    ],
+    "chars_per_page_median": 726.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

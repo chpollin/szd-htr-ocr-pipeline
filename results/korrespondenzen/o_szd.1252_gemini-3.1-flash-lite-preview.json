@@ -52,10 +52,10 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift von Stefan Zweig sehr sicher. Die Überdeckung durch die Farbkarten auf dem letzten Scan wurde durch den Vergleich mit dem vorherigen Scan (Seite 4) kompensiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 4521,
     "total_words": 695,
-    "total_pages": 5,
+    "total_pages": 4,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -75,11 +75,10 @@
       1783,
       1028
     ],
-    "chars_per_page_median": 1028,
+    "chars_per_page_median": 843.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4377,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

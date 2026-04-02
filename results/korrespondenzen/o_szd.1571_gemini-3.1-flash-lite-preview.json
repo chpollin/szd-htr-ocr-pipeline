@@ -94,7 +94,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Einige wenige Wörter sind aufgrund der kursiven Schreibweise leicht unsicher, aber im Kontext eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 6277,
     "total_words": 1207,
     "total_pages": 6,
@@ -133,7 +133,6 @@
     "marker_uncertain_count": 6,
     "marker_illegible_count": 0,
     "marker_density": 0.005,
-    "dwr_score": 0.5142,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

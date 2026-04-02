@@ -48,7 +48,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die mehrfachen Scans zeigen denselben Text in unterschiedlicher Qualität (Original vs. Durchschlag), die Transkription basiert auf der klarsten Vorlage (Bild 1)."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2892,
     "total_words": 420,
     "total_pages": 1,
@@ -67,7 +67,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4604,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

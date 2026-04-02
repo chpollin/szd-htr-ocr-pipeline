@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die wenigen Korrekturen oder Unklarheiten (wie das durchgestrichene Wort oder die Zeilenumbrüche) wurden gemäß den Regeln transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 4598,
     "total_words": 707,
     "total_pages": 3,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0014,
-    "dwr_score": 0.5165,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

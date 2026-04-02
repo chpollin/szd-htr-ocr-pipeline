@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2874,
     "total_words": 411,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,23 +57,14 @@
       958,
       958
     ],
-    "chars_per_page_median": 958,
+    "chars_per_page_median": 958.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2647,
     "duplicate_page_pairs": [
       [
         0,
         1
-      ],
-      [
-        0,
-        2
-      ],
-      [
-        1,
-        2
       ]
     ],
     "language_expected": "fr",

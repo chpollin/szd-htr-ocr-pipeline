@@ -62,10 +62,10 @@
     "confidence_notes": "Der Text ist ein gut erhaltener Druck in Frakturschrift. Die Transkription ist aufgrund der klaren Vorlage sehr sicher."
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 7155,
-    "total_words": 1105,
-    "total_pages": 4,
+    "version": "1.5",
+    "total_chars": 7156,
+    "total_words": 1103,
+    "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -79,15 +79,14 @@
     ],
     "chars_per_page": [
       1914,
-      2370,
+      2371,
       1928,
       943
     ],
-    "chars_per_page_median": 1921.0,
+    "chars_per_page_median": 1928,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5018,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Beschädigungen oder Unklarheiten."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1004,
     "total_words": 156,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4641,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

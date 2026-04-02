@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist flüchtig und weist einige Korrekturen und Durchstreichungen auf. Besonders die Wörter 'zugleich', 'jene', 'maus' sowie das Ende des letzten Satzes ('zu an.') sind schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 412,
     "total_words": 65,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3651,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

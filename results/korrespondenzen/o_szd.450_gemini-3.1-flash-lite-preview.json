@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere 'nicht' und 'mit' im Textkörper). Die Struktur ist jedoch klar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 260,
     "total_words": 43,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0465,
-    "dwr_score": 0.2857,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

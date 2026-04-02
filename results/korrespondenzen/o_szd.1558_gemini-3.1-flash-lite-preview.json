@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die wenigen Korrekturen wurden gemäß den Anweisungen als {eingefügt} markiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2395,
     "total_words": 463,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5516,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

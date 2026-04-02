@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen und Ergänzungen von Stefan Zweig sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 990,
     "total_words": 159,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4586,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

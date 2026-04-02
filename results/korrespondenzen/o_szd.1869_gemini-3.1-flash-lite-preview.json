@@ -31,7 +31,7 @@
     "confidence_notes": "Der Haupttext ist sehr gut lesbar. Der handschriftliche Nachtrag am unteren Rand ist etwas undeutlich, insbesondere die Wörter 'feststellen' und 'Res.' (vermutlich Abkürzung für Resultat oder Resultate)."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 801,
     "total_words": 116,
     "total_pages": 1,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0259,
-    "dwr_score": 0.2762,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

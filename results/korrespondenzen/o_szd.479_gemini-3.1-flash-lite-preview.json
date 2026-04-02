@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist teilweise flüchtig und durch Überlagerungen (Poststempel) sowie durchscheinende Elemente erschwert lesbar. Besonders die Zeilen am unteren Ende der Nachricht sind aufgrund der Platzierung und Schriftführung unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 393,
     "total_words": 62,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0161,
-    "dwr_score": 0.3538,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

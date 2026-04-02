@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist gut lesbar. Die Korrekturen (Einfügung 'si', Streichung 'que') sind eindeutig erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 486,
     "total_words": 85,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3626,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

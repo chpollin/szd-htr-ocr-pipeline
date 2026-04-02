@@ -45,7 +45,7 @@
     "confidence_notes": "Die Transkription ist bei den Seiten 1 und 2 sehr sicher. Bei Seite 3 erschweren die physischen Beschädigungen (Loch im Papier) die vollständige Lesbarkeit der Zeilen 10-16."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1837,
     "total_words": 278,
     "total_pages": 3,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 10,
     "marker_density": 0.036,
-    "dwr_score": 0.3465,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

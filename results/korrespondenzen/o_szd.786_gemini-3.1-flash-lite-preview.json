@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Einzig das Wort 'Lord' in der dritten Seite ist handschriftlich ergänzt und mit einem Fragezeichen versehen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2788,
     "total_words": 403,
     "total_pages": 2,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0025,
-    "dwr_score": 0.3717,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

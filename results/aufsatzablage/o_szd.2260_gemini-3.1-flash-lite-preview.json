@@ -66,10 +66,10 @@
     "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Transkription spiegelt die Wiederholungen auf dem Blatt wider."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 287,
     "total_words": 30,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 3,
     "blank_pages": 3,
     "color_chart_pages": 1,
@@ -93,11 +93,10 @@
       0,
       97
     ],
-    "chars_per_page_median": 72.0,
+    "chars_per_page_median": 47,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.1818,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

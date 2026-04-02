@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die vertikale Notiz am linken Rand und die Adressierung wurden strukturell korrekt zugeordnet."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 598,
     "total_words": 90,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3933,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

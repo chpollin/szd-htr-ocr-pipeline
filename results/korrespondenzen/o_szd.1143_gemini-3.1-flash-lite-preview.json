@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen am Rand sind teilweise unklar, wurden aber nach bestem Wissen transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 945,
     "total_words": 138,
     "total_pages": 1,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0072,
-    "dwr_score": 0.4403,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

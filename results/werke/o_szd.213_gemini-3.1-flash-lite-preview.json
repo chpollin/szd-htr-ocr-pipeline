@@ -116,7 +116,7 @@
     "confidence_notes": "Die Handschrift ist gut lesbar, die Korrekturen und Einfügungen sind durch die violette Tinte und die Kontextualisierung (Zweigs Stil) eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 13662,
     "total_words": 2138,
     "total_pages": 12,
@@ -157,7 +157,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0005,
-    "dwr_score": 0.5205,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

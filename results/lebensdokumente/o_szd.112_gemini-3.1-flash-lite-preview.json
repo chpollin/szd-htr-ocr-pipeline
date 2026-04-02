@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, lediglich die Unterschrift des Verlagsvertreters ist aufgrund der Handschrift und der Qualität des Durchschlags nicht eindeutig zu identifizieren."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1091,
     "total_words": 167,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.006,
-    "dwr_score": 0.3397,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

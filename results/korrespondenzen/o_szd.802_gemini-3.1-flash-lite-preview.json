@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Einzig das Wort 'Press' am Zeilenende der ersten Seite ist leicht unklar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1288,
     "total_words": 192,
     "total_pages": 1,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0052,
-    "dwr_score": 0.3859,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

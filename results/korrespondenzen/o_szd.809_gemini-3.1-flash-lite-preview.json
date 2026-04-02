@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist exzellent. Die roten Unterstreichungen sind deutlich als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2451,
     "total_words": 361,
     "total_pages": 2,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4634,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -38,7 +38,7 @@
     "confidence_notes": "Der italienische Text ist gut lesbar. Die Handschrift ist flüssig. Der Vermerk 'Nachberichtet?' ist aufgrund der Überlagerung mit dem Stempel und der Schriftrichtung etwas schwieriger zu lesen, aber im Kontext plausibel."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 522,
     "total_words": 86,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0541,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

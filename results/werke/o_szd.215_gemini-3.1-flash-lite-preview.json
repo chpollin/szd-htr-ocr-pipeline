@@ -186,7 +186,7 @@
     "confidence_notes": "Die Vorlage ist ein sehr gut lesbares, maschinengeschriebenes Typoskript. Die wenigen handschriftlichen Korrekturen sind eindeutig und wurden entsprechend den Regeln transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 37783,
     "total_words": 6038,
     "total_pages": 20,
@@ -245,7 +245,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4878,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

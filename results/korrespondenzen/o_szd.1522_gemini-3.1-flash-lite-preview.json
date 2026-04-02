@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Einzig das Wort 'Compagnie' (in Scan 2, Zeile 8) wurde aufgrund der Schreibweise 'Conpagbie' im Original als 'Compagnie' transkribiert, wobei ich mich strikt an die Regel 'keine Korrektur' halte und es daher als 'Conpagbie' belasse."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3962,
     "total_words": 606,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5132,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist trotz der ungewöhnlichen Anordnung auf der Bildseite gut lesbar. Die Handschrift ist eindeutig Stefan Zweigs."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 466,
     "total_words": 66,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       73,
       73
     ],
-    "chars_per_page_median": 73,
+    "chars_per_page_median": 196.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3438,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

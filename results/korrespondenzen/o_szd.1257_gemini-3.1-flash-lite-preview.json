@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüssig und teilweise überlagert oder in den Randbereichen schwer zu entziffern. Die Anordnung des Textes auf der Postkarte ist nicht linear, was die Zuordnung der Zeilen erschwert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 714,
     "total_words": 111,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4464,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

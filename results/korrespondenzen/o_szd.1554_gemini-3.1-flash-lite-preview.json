@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, abgesehen von zwei Stellen am Ende des Briefes, die durch den Falz oder die Platzierung am unteren Rand leicht unscharf sind."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 588,
     "total_words": 89,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0225,
-    "dwr_score": 0.4471,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

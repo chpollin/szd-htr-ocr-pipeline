@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Es gibt nur wenige Tippfehler im Original (z.B. 'ketter', 'genaration', 'compaaining'), die originalgetreu transkribiert wurden."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 5633,
     "total_words": 899,
     "total_pages": 2,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5223,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

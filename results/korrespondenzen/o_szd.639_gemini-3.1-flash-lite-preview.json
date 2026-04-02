@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch ist die Unterschrift am Ende der Nachricht aufgrund der Handschrift schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 316,
     "total_words": 52,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0192,
-    "dwr_score": 0.2222,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

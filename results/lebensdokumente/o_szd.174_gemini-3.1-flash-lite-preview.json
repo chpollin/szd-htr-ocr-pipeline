@@ -872,7 +872,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig. Die Struktur des Adressbuchs wurde beibehalten.; S.21-40: Die Handschrift ist gut lesbar, die Struktur des Adressbuchs ist konsistent.; S.41-60: Die Dokumente sind gut lesbar, die Struktur ist konsistent. Handschriftliche Ergänzungen sind klar als solche erkennbar.; S.61-80: Die Transkription ist aufgrund der klaren Typoskript-Vorlage und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig.; S.81-100: Die Dokumente sind gut lesbar, die Struktur ist konsistent. Handschriftliche Ergänzungen wurden als solche erfasst.; S.101-120: Der Text ist gut lesbar, die Struktur des Adressbuchs ist konsistent. Handschriftliche Ergänzungen wurden als solche erkannt.; S.121-122: Es handelt sich um die Außenansichten (Vorder- und Rückseite) des Einbands, daher ist kein Text zu transkribieren."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 27866,
     "total_words": 4196,
     "total_pages": 81,
@@ -1133,7 +1133,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0002,
-    "dwr_score": 0.0336,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

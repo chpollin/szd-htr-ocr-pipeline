@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein gut erhaltener Zeitungsdruck. Die Frakturschrift ist klar lesbar. Die handschriftliche Notiz am Ende ist ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 7587,
     "total_words": 1095,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4372,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

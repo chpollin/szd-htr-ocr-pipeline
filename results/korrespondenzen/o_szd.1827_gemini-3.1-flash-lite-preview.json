@@ -66,7 +66,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 575,
     "total_words": 88,
     "total_pages": 2,
@@ -97,7 +97,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4598,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

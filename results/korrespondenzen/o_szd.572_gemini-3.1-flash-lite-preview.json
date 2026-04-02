@@ -38,7 +38,7 @@
     "confidence_notes": "Die Vorderseite (Seite 1) ist aufgrund der Überlagerung von Handschrift und Bildmotiv sehr schwer zu entziffern. Die Rückseite (Seite 2) ist hingegen sehr gut lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 375,
     "total_words": 71,
     "total_pages": 2,
@@ -61,15 +61,12 @@
     "marker_uncertain_count": 28,
     "marker_illegible_count": 0,
     "marker_density": 0.3944,
-    "dwr_score": 0.3415,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "marker_density"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

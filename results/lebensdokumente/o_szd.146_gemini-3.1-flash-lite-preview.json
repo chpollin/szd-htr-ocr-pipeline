@@ -95,7 +95,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckvorlagen und der gut lesbaren Handschrift von Stefan Zweig sehr zuverlässig. Einige wenige Stellen in den handschriftlichen Vormerkungen sind aufgrund von Abkürzungen oder Durchstreichungen leicht interpretativ, aber im Kontext verständlich."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 9566,
     "total_words": 1464,
     "total_pages": 9,
@@ -134,7 +134,6 @@
     "marker_uncertain_count": 4,
     "marker_illegible_count": 0,
     "marker_density": 0.0027,
-    "dwr_score": 0.3975,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

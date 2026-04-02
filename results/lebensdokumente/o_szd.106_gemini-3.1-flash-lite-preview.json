@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr gut."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3262,
     "total_words": 549,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       1201,
       618
     ],
-    "chars_per_page_median": 1201,
+    "chars_per_page_median": 1322.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.1795,
     "duplicate_page_pairs": [],
     "language_expected": "",
     "language_detected": "fr",

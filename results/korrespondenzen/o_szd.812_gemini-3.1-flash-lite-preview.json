@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Unterschrift ist eine handschriftliche Paraphe, die nicht transkribiert werden kann."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 809,
     "total_words": 107,
     "total_pages": 1,
@@ -53,7 +53,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2396,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -333,7 +333,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein klar gedrucktes Typoskript. Die Lesbarkeit ist exzellent. Die Stempel auf einigen Seiten sind gut lesbar.; S.21-40: Der Text ist ein klar gedruckter Text aus einem Buch (Zweig: Begegnungen), der in den Faksimiles sehr gut lesbar ist. Die wenigen handschriftlichen Korrekturen sind deutlich erkennbar.; S.41-45: Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen sind deutlich und wurden entsprechend der Anweisungen transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 80373,
     "total_words": 12208,
     "total_pages": 21,
@@ -440,7 +440,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4183,
     "duplicate_page_pairs": [
       [
         0,

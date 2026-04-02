@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift auf Seite 1 ist ein unleserliches Kürzel, was jedoch für Geschäftskorrespondenz dieser Art typisch ist."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 575,
     "total_words": 77,
     "total_pages": 1,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3523,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

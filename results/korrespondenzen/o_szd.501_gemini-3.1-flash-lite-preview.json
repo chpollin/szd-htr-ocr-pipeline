@@ -38,7 +38,7 @@
     "confidence_notes": "Der handschriftliche Text ist teilweise schwer lesbar, da sich Zeilen überschneiden oder nachträglich eingefügt wurden. Die Lesung 'Dr. Rieger' ist aufgrund der Handschrift unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 407,
     "total_words": 64,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0156,
-    "dwr_score": 0.3115,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

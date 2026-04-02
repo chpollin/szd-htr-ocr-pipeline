@@ -54,7 +54,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Fortsetzung des Satzes über die beiden Seiten hinweg ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1316,
     "total_words": 205,
     "total_pages": 2,
@@ -77,7 +77,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4783,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

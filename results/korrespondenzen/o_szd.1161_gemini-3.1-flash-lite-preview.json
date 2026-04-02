@@ -25,19 +25,21 @@
         "transcription": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gesehene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
         "notes": "Die Postkarte enthält einen Poststempel 'POMPEI - PROVINCIA' und zwei italienische Briefmarken. Der Text 'POMPEI. - Foro civile.' ist gedruckt. Das Wort 'Gesehene' ist schwer lesbar, [?]-Marker beibehalten. Im Kontext einer Reisepostkarte ist 'für all das Gesehene' (for all the things seen) plausibel.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gendrene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T21:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gendrene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:30:00Z",
+            "source": "agent"
+          }
+        ]
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, abgesehen von dem Wort 'Gendrene', das orthographisch unklar ist."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 344,
     "total_words": 53,
     "total_pages": 2,
@@ -58,7 +60,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0189,
-    "dwr_score": 0.36,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
@@ -76,7 +77,9 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.96,
-    "edited_pages": [2],
+    "edited_pages": [
+      2
+    ],
     "notes": "Page 2: Corrected 'Gendrene[?]' to 'Gesehene[?]' — contextually plausible for a travel postcard ('für all das Gesehene' = for all the things seen). [?] marker retained as letter forms are still somewhat ambiguous. Rest of transcription matches faksimile well.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T21:30:00Z"

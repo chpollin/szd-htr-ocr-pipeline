@@ -1074,7 +1074,7 @@
     "confidence_notes": "Die Handschrift ist aufgrund der schnellen Schreibweise und der teilweise verblassten Tinte an vielen Stellen schwer zu entziffern. Viele Wörter sind nur kontextuell erschließbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 114002,
     "total_words": 19149,
     "total_pages": 48,
@@ -1393,7 +1393,6 @@
     "marker_uncertain_count": 519,
     "marker_illegible_count": 0,
     "marker_density": 0.0271,
-    "dwr_score": 0.0807,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

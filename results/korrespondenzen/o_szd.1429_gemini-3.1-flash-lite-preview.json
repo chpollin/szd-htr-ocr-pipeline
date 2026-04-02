@@ -52,7 +52,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und kursiv, was zu einigen unsicheren Lesungen ([?]) führt. Die Tinte ist teilweise verblasst oder verläuft im Papier."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2749,
     "total_words": 471,
     "total_pages": 2,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0064,
-    "dwr_score": 0.44,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

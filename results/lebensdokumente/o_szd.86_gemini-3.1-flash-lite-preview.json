@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, lediglich bei den handschriftlichen Unterschriften am Ende von Seite 2 gibt es leichte Unsicherheiten bei der Entzifferung der Namen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2978,
     "total_words": 493,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.002,
-    "dwr_score": 0.3522,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

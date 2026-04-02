@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und der Randnotizen. Die Datierung 1909 ergibt sich aus dem Poststempel auf dem Umschlag (10. III. 09)."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1523,
     "total_words": 241,
     "total_pages": 4,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0083,
-    "dwr_score": 0.3833,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

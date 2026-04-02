@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen Korrekturen (durchgestrichene Wörter) sind deutlich erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3458,
     "total_words": 634,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5368,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

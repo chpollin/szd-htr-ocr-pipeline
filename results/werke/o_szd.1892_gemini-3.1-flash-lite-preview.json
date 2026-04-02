@@ -193,7 +193,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckvorlage sehr sicher. Die handschriftlichen Anmerkungen auf der ersten Seite sind gut lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 10990,
     "total_words": 1678,
     "total_pages": 3,
@@ -220,7 +220,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4273,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

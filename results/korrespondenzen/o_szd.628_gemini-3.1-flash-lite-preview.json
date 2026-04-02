@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist charakteristisch. Einige Abkürzungen wie 'M.l.St.' (Mein lieber Stefan) sind kontextuell eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1661,
     "total_words": 265,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0113,
-    "dwr_score": 0.4432,
     "duplicate_page_pairs": [
       [
         1,

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzung 'N. Fr. Pr.' ist im Kontext der Korrespondenz von Stefan Zweig eindeutig als 'Neue Freie Presse' identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 412,
     "total_words": 62,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2321,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

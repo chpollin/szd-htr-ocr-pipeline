@@ -82,7 +82,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Begriffe 'Recession' und 'Würdigung' sind trotz der kursiven Schreibweise eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 500,
     "total_words": 63,
     "total_pages": 3,
@@ -113,7 +113,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0476,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

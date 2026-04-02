@@ -1,0 +1,72 @@
+{
+  "object_id": "o_szd.84",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vereinbarung Editorial Atenea, SZ-AAP/L13.7",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.84/IMG.1",
+      "https://gams.uni-graz.at/o:szd.84/IMG.2",
+      "https://gams.uni-graz.at/o:szd.84/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Editorial Atenea, SZ-AAP/L13.7\n- Signatur: SZ-AAP/L13.7\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "EDITORIAL ATENEA\nSANTA AGATA, 18 (Gracia)\nBARCELONA\n\n28/10/1934\n\nMonsieur Stefan Zweig\n11, Portland Place\nLondres, W.1\n\nCher Monsieur:\nJ'ai dûment reçu votre lettre 24 ct.\net, d'accord avec les termes de vos conditions, j'ai l'honneur de vous faire remise par mandat de poste, a votre adresse a Londres, comme règlement des droits de version et publication en catalan de vos ouvrages \"Marie-Antoinette\" et\n\"Fouché\", la somme de £ 12-10-0, equivalence de\nFrancs 960 (neufcent soixante), de laquelle je vous prie de m'accuser reception.\nCi-joint vous trouverez un certificat d'autorisation\nque, a supposer qu'il soit de votre conformité, je vous prie\nde me rendre dûment signé. Au cas contraire, veuillez rediger vous même le texte de votre concession.\nJe puis vous informer que notre maison est constituée definitivement et qu'elle travaillera sous le nom de\nEDITORIAL ATENEA, a Barcelone.\nEn attente de vos nouvelles, je reste, cher Monsieur, votre devoué serviteur.\nEditorial Atenea\np.p. [Unterschrift]",
+        "notes": "Typoskript mit handschriftlichen Notizen am rechten Rand: '12 Pfund für katalanische übersetzung Marie Antoinette und Fouché erhalten'. Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz am Rand ist ebenfalls klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1003,
+    "total_words": 154,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1003,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1003,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -108,7 +108,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Unsicherheiten bestehen lediglich bei der Abkürzung 'Rezensio[?]' aufgrund der Tintenführung."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 958,
     "total_words": 128,
     "total_pages": 8,
@@ -151,7 +151,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0234,
-    "dwr_score": 0.3273,
     "duplicate_page_pairs": [
       [
         1,

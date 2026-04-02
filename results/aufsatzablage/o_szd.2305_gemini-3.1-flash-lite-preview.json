@@ -54,7 +54,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist eine ungewöhnliche Strichführung auf, insbesondere bei den Wörtern 'couplet' und 'Umbau', die nur durch Kontext und Schriftbild interpretiert werden konnten."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 138,
     "total_words": 20,
     "total_pages": 1,
@@ -77,7 +77,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

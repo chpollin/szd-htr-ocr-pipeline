@@ -87,7 +87,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Es gibt einige wenige Tippfehler im Original (z.B. 'LUTHER[E]', 'trovions', 'Stafan'), die ich gemäß der Transkriptionsregeln originalgetreu übernommen habe."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 17486,
     "total_words": 2915,
     "total_pages": 9,
@@ -122,7 +122,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3818,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

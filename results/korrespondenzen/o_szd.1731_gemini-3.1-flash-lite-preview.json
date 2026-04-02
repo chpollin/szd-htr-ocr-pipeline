@@ -31,7 +31,7 @@
     "confidence_notes": "Der maschinengeschriebene Teil ist sehr gut lesbar. Die handschriftlichen Zusätze sind aufgrund der Kursivschrift und der Tinte teilweise herausfordernd, aber im Kontext gut verständlich. Die Rückseite ist aufgrund der flüchtigen Handschrift und der Überlagerung mit Durchdrucken als 'medium' einzustufen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 901,
     "total_words": 144,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 1,
     "marker_density": 0.0139,
-    "dwr_score": 0.5145,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

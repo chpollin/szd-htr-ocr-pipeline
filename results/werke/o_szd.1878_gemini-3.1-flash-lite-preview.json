@@ -360,7 +360,7 @@
     "confidence_notes": "Der Text ist ein maschinengeschriebenes Manuskript, das sehr gut lesbar ist. Die Transkription folgt den Vorgaben strikt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 35135,
     "total_words": 6235,
     "total_pages": 25,
@@ -475,7 +475,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4679,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",

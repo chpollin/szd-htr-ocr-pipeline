@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist trotz der kursiven Ausprägung eindeutig zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 685,
     "total_words": 104,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0288,
-    "dwr_score": 0.3529,
     "duplicate_page_pairs": [
       [
         1,

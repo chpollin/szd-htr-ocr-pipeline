@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Einzelne Wörter wie 'Unwill' oder 'minull' sind aufgrund der Handschrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3286,
     "total_words": 528,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       1136,
       945
     ],
-    "chars_per_page_median": 1136,
+    "chars_per_page_median": 1170.5,
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0057,
-    "dwr_score": 0.4733,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

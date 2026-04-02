@@ -74,7 +74,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die wenigen unsicheren Stellen (z.B. 'Orgal' statt 'Orgel' im ersten Blatt, was jedoch dem Original entspricht) wurden originalgetreu übernommen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 21721,
     "total_words": 3131,
     "total_pages": 7,
@@ -105,7 +105,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4406,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

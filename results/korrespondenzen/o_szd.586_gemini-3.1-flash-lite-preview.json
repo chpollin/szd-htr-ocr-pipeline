@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch ist das Wort 'unrunstündlich' (Zeile 6) aufgrund der Handschrift schwer zu entziffern. Die Struktur der Postkarte ist klar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1098,
     "total_words": 162,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0123,
-    "dwr_score": 0.481,
     "duplicate_page_pairs": [
       [
         1,

@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist teilweise flüchtig und schwer zu entziffern, insbesondere die Abkürzungen und die Zeile 'A.O. R[?]ust'."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 213,
     "total_words": 31,
     "total_pages": 2,
@@ -61,15 +61,12 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0645,
-    "dwr_score": 0.2581,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "marker_density"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

@@ -86,7 +86,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Es gibt einige wenige Tippfehler im französischen Originaltext (z.B. 'Stafan' statt 'Stefan', 'trovions' statt 'trouvions'), die ich gemäß der Transkriptionsregel originalgetreu übernommen habe."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 17200,
     "total_words": 2904,
     "total_pages": 9,
@@ -121,7 +121,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3805,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

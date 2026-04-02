@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift und einiger Korrekturen gut lesbar. Die Abkürzungen sind im Kontext der Korrespondenz eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1409,
     "total_words": 235,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5502,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

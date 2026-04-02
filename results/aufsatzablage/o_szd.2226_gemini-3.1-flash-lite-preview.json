@@ -54,7 +54,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckqualität und der gut lesbaren Frakturschrift sehr zuverlässig. Die Wiederholung der ersten Seite im dritten Scan wurde entsprechend transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 47117,
     "total_words": 7206,
     "total_pages": 2,
@@ -77,7 +77,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0001,
-    "dwr_score": 0.4497,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

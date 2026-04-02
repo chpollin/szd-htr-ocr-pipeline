@@ -46,10 +46,10 @@
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die Transkription folgt dem Layout der Vorlage."
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 3760,
+    "version": "1.5",
+    "total_chars": 3759,
     "total_words": 553,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -61,15 +61,14 @@
       "color_chart"
     ],
     "chars_per_page": [
-      1022,
+      1021,
       1855,
       883
     ],
-    "chars_per_page_median": 1022,
+    "chars_per_page_median": 1438.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4159,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

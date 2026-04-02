@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere im Bereich des um 90 Grad gedrehten Textes auf der Rückseite. Einige Wörter sind aufgrund der Schreibweise oder Überlagerung unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 638,
     "total_words": 106,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 1,
     "marker_density": 0.0189,
-    "dwr_score": 0.5094,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein standardisierter Formulardruck, der sehr gut lesbar ist. Die handschriftlichen Ergänzungen sind ebenfalls klar lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3449,
     "total_words": 486,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4201,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

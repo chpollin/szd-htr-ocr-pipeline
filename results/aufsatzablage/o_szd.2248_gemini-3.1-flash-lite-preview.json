@@ -66,10 +66,10 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar, sowohl die Tinte als auch die Bleistiftnotiz."
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 144,
-    "total_words": 28,
-    "total_pages": 4,
+    "version": "1.5",
+    "total_chars": 173,
+    "total_words": 33,
+    "total_pages": 3,
     "empty_pages": 3,
     "blank_pages": 3,
     "color_chart_pages": 1,
@@ -85,7 +85,7 @@
       "color_chart"
     ],
     "chars_per_page": [
-      30,
+      59,
       0,
       26,
       0,
@@ -93,11 +93,10 @@
       0,
       58
     ],
-    "chars_per_page_median": 30.0,
+    "chars_per_page_median": 30,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

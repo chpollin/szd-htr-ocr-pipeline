@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in der Identifikation der Unterschrift auf Seite 1 und der Namenslesung auf Seite 3."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1177,
     "total_words": 180,
     "total_pages": 2,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2686,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",

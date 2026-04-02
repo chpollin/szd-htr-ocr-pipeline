@@ -94,10 +94,10 @@
     "confidence_notes": "Die Transkription ist aufgrund der guten Lesbarkeit des Typoskripts und der klaren handschriftlichen Ergänzungen sehr zuverlässig. Die Durchschläge wurden als solche identifiziert und nicht redundant transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 11408,
     "total_words": 1655,
-    "total_pages": 11,
+    "total_pages": 10,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -129,11 +129,10 @@
       94,
       108
     ],
-    "chars_per_page_median": 108,
+    "chars_per_page_median": 741.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4585,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

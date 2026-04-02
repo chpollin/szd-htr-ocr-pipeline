@@ -871,7 +871,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die Struktur des Adressbuchs ist klar. Handschriftliche Ergänzungen wurden als solche erfasst.; S.21-40: Der Text ist gut lesbar, die handschriftlichen Ergänzungen sind im Kontext des Adressbuchs eindeutig zuordenbar.; S.41-60: Die Transkription ist aufgrund der klaren Typoskripte und gut lesbaren Handschriften sehr zuverlässig.; S.81-100: Der Text ist gut lesbar, da es sich primär um Typoskripte handelt. Handschriftliche Ergänzungen wurden sorgfältig transkribiert.; S.101-120: Der Text ist weitgehend klar lesbar, da es sich um ein Typoskript handelt. Handschriftliche Ergänzungen sind gut identifizierbar.; S.121-122: Es handelt sich um die Einbanddeckel eines Adressbuchs, die keine handschriftlichen oder gedruckten Texte enthalten."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 23013,
     "total_words": 3449,
     "total_pages": 68,
@@ -1132,7 +1132,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0003,
-    "dwr_score": 0.0344,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",

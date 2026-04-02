@@ -1074,7 +1074,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die Handschrift ist charakteristisch für Stefan Zweig. Einige Wörter sind aufgrund der kursiven Schreibweise oder Tintenverläufe unsicher, wurden aber im Kontext interpretiert.; S.21-40: Die Handschrift ist flüchtig und weist viele Abkürzungen sowie Eigennamen auf, die schwer zu entziffern sind. Die violette Tinte ist teilweise verblasst oder durch das Papier durchscheinend, was die Lesbarkeit erschwert.; S.41-60: Die Handschrift ist sehr flüchtig und weist viele Abkürzungen sowie durchgestrichene oder korrigierte Wörter auf. Einige Begriffe sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern.; S.61-80: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.81-100: Alle Seiten sind unbeschriebene, linierte Seiten eines Notizbuchs.; S.101-120: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.121-140: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.141-151: Die Seiten sind leer und dienen als Abschluss des Notizblocks bzw. als Archivierungshilfen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 36251,
     "total_words": 5920,
     "total_pages": 48,
@@ -1393,7 +1393,6 @@
     "marker_uncertain_count": 177,
     "marker_illegible_count": 0,
     "marker_density": 0.0299,
-    "dwr_score": 0.5119,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

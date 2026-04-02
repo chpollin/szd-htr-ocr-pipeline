@@ -31,7 +31,7 @@
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz der Verwendung eines Bleistifts. Die Abkürzungen (Fr., hoffentl., u., Zw.) sind im Kontext eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 434,
     "total_words": 69,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3333,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

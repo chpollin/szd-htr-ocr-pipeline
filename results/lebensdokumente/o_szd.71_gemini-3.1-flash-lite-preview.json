@@ -395,7 +395,7 @@
     "confidence_notes": "Der Text ist aufgrund der schnellen Handschrift und der teilweise verblassten Tinte an einigen Stellen schwer zu entziffern. Eigennamen und Ortsbezeichnungen sind teilweise unsicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 36400,
     "total_words": 5826,
     "total_pages": 44,
@@ -520,7 +520,6 @@
     "marker_uncertain_count": 234,
     "marker_illegible_count": 0,
     "marker_density": 0.0402,
-    "dwr_score": 0.4535,
     "duplicate_page_pairs": [
       [
         44,

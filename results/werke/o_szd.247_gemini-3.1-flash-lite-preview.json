@@ -165,7 +165,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind eindeutig den entsprechenden Typoskript-Zeilen zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 13879,
     "total_words": 2454,
     "total_pages": 10,
@@ -224,7 +224,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.49,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",

@@ -46,7 +46,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig zuordenbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1824,
     "total_words": 288,
     "total_pages": 1,
@@ -69,7 +69,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0498,
     "duplicate_page_pairs": [],
     "language_expected": "",
     "language_detected": "fr",

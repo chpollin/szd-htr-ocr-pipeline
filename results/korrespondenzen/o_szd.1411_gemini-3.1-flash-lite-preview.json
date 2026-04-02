@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die leichte Diskrepanz in der ersten Zeile zwischen Scan 2 und 3 wurde durch den klareren Scan 3 aufgelöst."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1061,
     "total_words": 175,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4128,
     "duplicate_page_pairs": [
       [
         1,

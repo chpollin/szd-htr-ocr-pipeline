@@ -38,7 +38,7 @@
     "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftliche Notiz auf Seite 2 ist aufgrund der Bleistiftführung und des Alters leicht unsicher, aber im Kontext der Uraufführung von Zweigs 'Jeremias' eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 251,
     "total_words": 43,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0233,
-    "dwr_score": 0.0417,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

@@ -682,7 +682,7 @@
     "confidence_notes": "S.1-20: Der Text ist durchgehend in der charakteristischen Handschrift Stefan Zweigs verfasst. Die violette Tinte ist gut lesbar, auch wenn die Handschrift flüchtig ist und einige Abkürzungen oder Eigennamen (z.B. Namen von Personen oder Orten) eine gewisse Interpretation erforderten. Die Struktur der Notizen ist konsistent.; S.21-40: Die Handschrift ist flüchtig und weist viele Abkürzungen sowie Eigennamen auf, die schwer zu identifizieren sind. Die violette Tinte ist teilweise verblasst oder durch das Papier durchgedrückt, was die Lesbarkeit in einigen Zeilen erschwert.; S.41-60: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.61-80: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.81-95: Die Seiten sind weitgehend leer oder enthalten nur ein einzelnes Wort, was die Transkription eindeutig macht."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 30438,
     "total_words": 4916,
     "total_pages": 36,
@@ -889,7 +889,6 @@
     "marker_uncertain_count": 179,
     "marker_illegible_count": 0,
     "marker_density": 0.0364,
-    "dwr_score": 0.4773,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

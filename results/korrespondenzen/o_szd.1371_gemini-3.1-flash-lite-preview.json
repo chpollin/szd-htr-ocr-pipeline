@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, der Kontext der Postkarte ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 601,
     "total_words": 90,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0222,
-    "dwr_score": 0.25,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

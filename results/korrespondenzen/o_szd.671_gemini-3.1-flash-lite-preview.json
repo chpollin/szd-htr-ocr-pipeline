@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist teilweise flüchtig. 'dito' und die Zeile unter 'Mary des Renards' sind schwer zu entziffern. Die Adresszeile 'Hôtel Beaujolais' ist durch die Platzierung auf der Karte und die Handschrift etwas unklar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 229,
     "total_words": 35,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0286,
-    "dwr_score": 0.1818,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist trotz der Schwärzungen und der handschriftlichen Kursivschrift von Stefan Zweig gut lesbar. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3148,
     "total_words": 493,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 3,
     "marker_illegible_count": 0,
     "marker_density": 0.0061,
-    "dwr_score": 0.4543,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

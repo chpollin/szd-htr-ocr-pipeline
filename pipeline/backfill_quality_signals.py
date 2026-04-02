@@ -52,7 +52,11 @@ def main():
             old_reasons = set(old_qs.get("needs_review_reasons", []))
             new_reasons = set(new_qs.get("needs_review_reasons", []))
 
-            if old_qs.get("needs_review") != new_qs["needs_review"] or old_reasons != new_reasons:
+            # Check if anything changed: reasons, needs_review, or stale fields
+            has_stale = "dwr_score" in old_qs or old_qs.get("version") != new_qs["version"]
+            reasons_changed = old_qs.get("needs_review") != new_qs["needs_review"] or old_reasons != new_reasons
+
+            if reasons_changed or has_stale:
                 if "low_dwr" in old_reasons and "low_dwr" not in new_reasons:
                     removed_low_dwr += 1
 

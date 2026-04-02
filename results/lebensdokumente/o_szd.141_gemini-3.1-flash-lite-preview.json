@@ -606,7 +606,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist in Bleistift verfasst und über die Zeit stark verblasst. Viele Passagen sind kaum noch lesbar und erfordern eine spekulative Transkription.; S.21-40: Die Handschrift ist sehr flüchtig, viele Wörter sind aufgrund der schnellen Schreibweise und der verblassten Tinte nur schwer oder gar nicht zu entziffern. Viele Stellen mussten mit [?] markiert werden.; S.41-60: Die Handschrift ist sehr flüchtig, oft abgekürzt und weist viele Korrekturen oder Durchstreichungen auf. Viele Wörter sind nur fragmentarisch lesbar.; S.61-80: Die Seiten enthalten fast ausschließlich Seitenzahlen oder sind leer, daher ist die Transkription sehr sicher.; S.81-84: Der Text besteht aus gedruckten Theaterkarten und Stempelaufdrucken, die sehr gut lesbar sind."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 10643,
     "total_words": 1858,
     "total_pages": 35,
@@ -791,7 +791,6 @@
     "marker_uncertain_count": 787,
     "marker_illegible_count": 0,
     "marker_density": 0.4236,
-    "dwr_score": 0.2343,
     "duplicate_page_pairs": [
       [
         82,
@@ -814,8 +813,7 @@
     "needs_review": true,
     "needs_review_reasons": [
       "page_length_anomaly",
-      "duplicate_pages",
-      "marker_density"
+      "duplicate_pages"
     ]
   }
 }

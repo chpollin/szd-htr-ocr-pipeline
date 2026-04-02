@@ -52,10 +52,10 @@
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Datum, Unterschriften) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 4075,
     "total_words": 621,
-    "total_pages": 5,
+    "total_pages": 4,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -75,11 +75,10 @@
       479,
       479
     ],
-    "chars_per_page_median": 479,
+    "chars_per_page_median": 899.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3268,
     "duplicate_page_pairs": [
       [
         0,
@@ -88,14 +87,6 @@
       [
         1,
         3
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        3,
-        4
       ]
     ],
     "language_expected": "de",

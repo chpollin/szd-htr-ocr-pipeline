@@ -66,10 +66,10 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar, trotz der unterschiedlichen Schriftstile."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 106,
     "total_words": 12,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 3,
     "blank_pages": 3,
     "color_chart_pages": 1,
@@ -93,11 +93,10 @@
       0,
       36
     ],
-    "chars_per_page_median": 26.5,
+    "chars_per_page_median": 17,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

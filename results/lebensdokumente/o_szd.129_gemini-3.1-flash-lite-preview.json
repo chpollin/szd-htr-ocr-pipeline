@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist trotz der Durchschlag-Optik und der handschriftlichen Ergänzungen sehr gut lesbar. Die unsicheren Stellen sind minimal."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1261,
     "total_words": 166,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.006,
-    "dwr_score": 0.2229,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

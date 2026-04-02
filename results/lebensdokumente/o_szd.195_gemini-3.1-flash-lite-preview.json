@@ -963,7 +963,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist gut lesbar, die Struktur der Tabelle ist konsistent.; S.21-40: Die Handschrift ist gut lesbar, die Struktur der Liste ist konsistent.; S.41-60: Die Handschrift ist gut lesbar, die Struktur der Formulare ist konsistent.; S.61-80: Die Handschrift ist gut lesbar, die Struktur der Liste ist konsistent. Einige Abkürzungen (z.B. 'Lt', 'MS', 'S') sind kontextuell verständlich.; S.81-100: Die Handschrift ist gut lesbar, die Struktur der Formulare ist konsistent. Einige Abkürzungen (z.B. 'Mag.', 'Bez.', 'S') sind kontextuell verständlich.; S.101-120: Die Handschrift ist gut lesbar, die Struktur der Liste ist konsistent.; S.121-135: Die Handschrift ist gut lesbar, die Struktur des Registers ist konsistent. Einige Namen sind aufgrund der kursiven Handschrift leicht unsicher, aber im Kontext der Liste gut interpretierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 41038,
     "total_words": 8552,
     "total_pages": 130,
@@ -1250,7 +1250,6 @@
     "marker_uncertain_count": 4,
     "marker_illegible_count": 0,
     "marker_density": 0.0005,
-    "dwr_score": 0.0674,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",

@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'gegligert', 'Lavaille', 'Krügel'). Die Transkription der Postkarte erfolgte zeilengetreu."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1266,
     "total_words": 190,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3949,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

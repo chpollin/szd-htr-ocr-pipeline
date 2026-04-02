@@ -654,7 +654,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen unsicheren Stellen sind durch [?] markiert. Die Struktur ist durch die Seitenzahlen und Sprecherrollen sehr gut nachvollziehbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 73407,
     "total_words": 11571,
     "total_pages": 45,
@@ -853,7 +853,6 @@
     "marker_uncertain_count": 14,
     "marker_illegible_count": 0,
     "marker_density": 0.0012,
-    "dwr_score": 0.4228,
     "duplicate_page_pairs": [
       [
         0,

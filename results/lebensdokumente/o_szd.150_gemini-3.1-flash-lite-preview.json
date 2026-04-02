@@ -21,12 +21,14 @@
         "transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Gegr. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
         "notes": "Transkription der Aufschriften auf dem Stempelkissen und den beiden Stempeln.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T19:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T19:30:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -51,10 +53,10 @@
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die spiegelverkehrten Stempelabdrucke sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 538,
     "total_words": 62,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -72,11 +74,10 @@
       94,
       172
     ],
-    "chars_per_page_median": 136.0,
+    "chars_per_page_median": 100,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
@@ -90,7 +91,9 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.97,
-    "edited_pages": [1],
+    "edited_pages": [
+      1
+    ],
     "notes": "Page 1: Corrected 'Geor.' to 'Gegr.' (Gegruendet = founded). Stamp text is very small in image but abbreviation 'Gegr. 1897' is standard German for 'Gegruendet 1897'. Pages 2-3 show mirrored stamp faces, transcriptions plausible. Page 4 skipped (color_chart).",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T19:30:00Z"

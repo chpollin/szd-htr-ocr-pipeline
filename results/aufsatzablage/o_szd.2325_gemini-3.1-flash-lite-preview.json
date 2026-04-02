@@ -332,7 +332,7 @@
     "confidence_notes": "Der Text ist ein gedruckter Separatdruck und daher sehr gut lesbar. Die Transkription folgt dem Originaltext inklusive der Seitenzahlen und der typografischen Besonderheiten."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 129532,
     "total_words": 21549,
     "total_pages": 41,
@@ -439,7 +439,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4781,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

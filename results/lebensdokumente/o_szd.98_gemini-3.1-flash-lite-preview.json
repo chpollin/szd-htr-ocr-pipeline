@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein maschinenschriftliches Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind ebenfalls klar identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 12619,
     "total_words": 2099,
     "total_pages": 4,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4839,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

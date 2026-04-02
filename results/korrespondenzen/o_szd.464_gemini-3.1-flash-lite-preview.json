@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar. Die Datumsangabe auf der Vorderseite (5.V.14) korrespondiert mit dem Poststempel auf der Rückseite (5.04.14), wobei die '14' auf der Vorderseite vermutlich das Jahr 1914 meint, während der Stempel '5.04.14' (5. April 1914) lautet."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 283,
     "total_words": 40,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.2308,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

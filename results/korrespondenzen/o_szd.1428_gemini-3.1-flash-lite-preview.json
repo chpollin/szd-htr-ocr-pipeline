@@ -38,10 +38,10 @@
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Korrekturen und Einfügungen. Die violette Tinte ist auf allen Scans deutlich erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2564,
     "total_words": 427,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       778,
       741
     ],
-    "chars_per_page_median": 778,
+    "chars_per_page_median": 911.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5095,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

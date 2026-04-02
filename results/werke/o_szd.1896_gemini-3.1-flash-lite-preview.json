@@ -116,7 +116,7 @@
     "confidence_notes": "Der Text ist ein gut lesbarer Druck, die handschriftlichen Korrekturen sind deutlich und im Kontext der Korrekturfahne verständlich."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 26952,
     "total_words": 4178,
     "total_pages": 6,
@@ -161,7 +161,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4847,
     "duplicate_page_pairs": [
       [
         0,

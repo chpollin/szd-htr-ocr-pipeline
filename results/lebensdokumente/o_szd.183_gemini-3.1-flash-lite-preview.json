@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist ein maschinenschriftliches Dokument in sehr gutem Erhaltungszustand. Die Lesbarkeit ist durchgehend hoch."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 7662,
     "total_words": 1073,
     "total_pages": 4,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3705,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

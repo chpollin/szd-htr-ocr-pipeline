@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die Transkription ist aufgrund der klaren Schriftart und des guten Erhaltungszustands sehr sicher."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2109,
     "total_words": 331,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.003,
-    "dwr_score": 0.4861,
     "duplicate_page_pairs": [
       [
         1,

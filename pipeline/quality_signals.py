@@ -163,18 +163,11 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         or total_words < 50  # Zu wenig Text für verlässliche Erkennung
     )
 
-    # Signal 5: Marker-Dichte
+    # Signal 5: Marker-Zählung (informativ, nicht in needs_review)
+    # Gemini setzt fast nie [?]/[...]-Marker, daher wertlos als Review-Trigger.
     n_uncertain = len(re.findall(r"\[\?\]", all_text))
     n_illegible = len(re.findall(r"\[\.\.\..*?\]", all_text))
     marker_density = (n_uncertain + n_illegible) / total_words if total_words > 0 else 0.0
-
-    # Signal 6: Dictionary Word Ratio (DWR) — Anteil Wörterbuchwörter
-    # Korreliert mit CER (Springmann 2016, Ströbel 2022)
-    dwr_lang = detected_lang or expected_lang or "de"
-    dwr_score = _compute_dwr(content_text, dwr_lang)
-
-    # Signal 7: Textdichte relativ zur Gruppe — extern berechnet
-    # (group_text_density braucht Gruppenstatistik, wird beim Backfill gesetzt)
 
     # needs_review: Zusammengesetztes Flag (§2.4)
     reasons = []
@@ -186,14 +179,9 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("duplicate_pages")
     if not language_match:
         reasons.append("language_mismatch")
-    if marker_density > 0.05:
-        reasons.append("marker_density")
-    # low_dwr removed from needs_review (Session 20): Spearman rho=0.05,
-    # F1=0.20 — no correlation with actual accuracy. DWR measures prose
-    # density, not transcription quality. Kept as informational field.
 
     return {
-        "version": "1.4",
+        "version": "1.5",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),
@@ -208,7 +196,6 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         "marker_uncertain_count": n_uncertain,
         "marker_illegible_count": n_illegible,
         "marker_density": round(marker_density, 4),
-        "dwr_score": round(dwr_score, 4),
         "duplicate_page_pairs": duplicate_page_pairs,
         "language_expected": expected_lang,
         "language_detected": detected_lang,

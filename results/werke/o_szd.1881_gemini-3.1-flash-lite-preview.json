@@ -507,7 +507,7 @@
     "confidence_notes": "Der Text ist ein maschinengeschriebenes Typoskript, das sehr gut lesbar ist. Die Duplikate sind identisch."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 43582,
     "total_words": 7452,
     "total_pages": 36,
@@ -664,7 +664,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4633,
     "duplicate_page_pairs": [
       [
         2,

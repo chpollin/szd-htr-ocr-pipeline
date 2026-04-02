@@ -38,10 +38,10 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckvorlage sehr sicher. Die Überlappung durch die Farbkarten auf Seite 3 wurde durch den Kontext der vorherigen Seite ergänzt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 7618,
     "total_words": 1166,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       2848,
       2065
     ],
-    "chars_per_page_median": 2705,
+    "chars_per_page_median": 2776.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 1,
     "marker_density": 0.0009,
-    "dwr_score": 0.4698,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

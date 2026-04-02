@@ -59,7 +59,7 @@
     "confidence_notes": "Die Handschrift von Stefan Zweig ist in diesem Brief sehr deutlich und gut lesbar. Die violette Tinte ist auf dem hellen Papier gut kontrastiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 5687,
     "total_words": 904,
     "total_pages": 6,
@@ -88,7 +88,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0011,
-    "dwr_score": 0.5168,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

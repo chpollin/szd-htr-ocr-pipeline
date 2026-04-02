@@ -304,10 +304,10 @@
     "confidence_notes": "Der Text ist ein klares, maschinengeschriebenes Typoskript. Die Lesbarkeit ist sehr hoch, auch bei den Durchschlägen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 28104,
     "total_words": 4912,
-    "total_pages": 21,
+    "total_pages": 20,
     "empty_pages": 20,
     "blank_pages": 20,
     "color_chart_pages": 1,
@@ -399,18 +399,16 @@
       0,
       53
     ],
-    "chars_per_page_median": 1492,
+    "chars_per_page_median": 1492.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4419,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",
     "language_match": false,
     "page_length_anomalies": [
-      0,
-      40
+      0
     ],
     "needs_review": true,
     "needs_review_reasons": [

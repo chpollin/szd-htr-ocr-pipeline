@@ -437,7 +437,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist teilweise flüchtig und enthält viele Abkürzungen sowie Eigennamen, die schwer zu identifizieren sind. Einige Stellen sind durchgestrichen oder überlagert.; S.21-40: Die Handschrift ist gut lesbar, auch wenn einige Wörter (insb. Namen oder Abkürzungen) aufgrund der flüchtigen Schrift leicht unsicher sind.; S.41-60: Die Transkription ist aufgrund der klaren Handschrift und der Struktur der Adresslisten gut lesbar. Unsichere Stellen wurden entsprechend markiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 10017,
     "total_words": 1451,
     "total_pages": 50,
@@ -574,7 +574,6 @@
     "marker_uncertain_count": 18,
     "marker_illegible_count": 0,
     "marker_density": 0.0124,
-    "dwr_score": 0.0433,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

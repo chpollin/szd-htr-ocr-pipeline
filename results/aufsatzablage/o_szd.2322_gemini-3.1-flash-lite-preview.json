@@ -36,19 +36,21 @@
         "transcription": "- 3 -\n\nde und schenkende Naturen, nähren sie im schönsten Sinn den geheim-\nnisvollen Zusammenhang zwischen Schaffenden, Schöpfung und Em-\nzwischen\npfangenden, zu der gestaltenden und geniessenden Welt. Und unter\ndiesen seltenen, reinen, hingebungsvollen und lauteren Naturen,\nwill mir die Richard Specht's als eine der erfreulichsten, ehr-\nberufensten\nlichsten und liebenswürdigsten erscheinen. a'an die dürften etwas\nhalten, die das, das die Kunst und ihre Menschen so\nproduktiv gefördert, der seine Güte ganz in die Zeit\ngegeben, unsere aufrichtige und dankbare Liebe\nverweigern?\n\nStefan Zweig",
         "notes": "Handschriftliche Korrekturen am Ende des Typoskripts. Die Unterschrift ist eigenhändig.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "- 3 -\n\nde und schenkende Naturen, nähren sie im schönsten Sinn den geheim-\nnisvollen Zusammenhang zwischen Schaffenden, Schöpfung und Em-\nzwischen\npfangenden, zu der gestaltenden und geniessenden Welt. Und unter\ndiesen seltenen, reinen, hingebungsvollen und lauteren Naturen,\nwill mir die Richard Specht's als eine der erfreulichsten, ehr-\nbernfeusten\nlichsten und liebenswürdigsten erscheinen. a'an die dürften etwas\nhalten, die das, das die Kunst und ihre Menschen so\nproduktiv gefördert, der seine Güte ganz in die Zeit\ngegeben, unsere aufrichtige und dankbare Liebe\nverweigern?\n\nStefan Zweig",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T19:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "- 3 -\n\nde und schenkende Naturen, nähren sie im schönsten Sinn den geheim-\nnisvollen Zusammenhang zwischen Schaffenden, Schöpfung und Em-\nzwischen\npfangenden, zu der gestaltenden und geniessenden Welt. Und unter\ndiesen seltenen, reinen, hingebungsvollen und lauteren Naturen,\nwill mir die Richard Specht's als eine der erfreulichsten, ehr-\nbernfeusten\nlichsten und liebenswürdigsten erscheinen. a'an die dürften etwas\nhalten, die das, das die Kunst und ihre Menschen so\nproduktiv gefördert, der seine Güte ganz in die Zeit\ngegeben, unsere aufrichtige und dankbare Liebe\nverweigern?\n\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T19:30:00Z",
+            "source": "agent"
+          }
+        ]
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die hohe Anzahl an handschriftlichen Korrekturen, Streichungen und Einfügungen über dem maschinengeschriebenen Text erschwert die eindeutige Zuordnung der Lesereihenfolge an einigen Stellen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 6135,
     "total_words": 711,
     "total_pages": 3,
@@ -71,7 +73,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.428,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
@@ -87,7 +88,9 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.92,
-    "edited_pages": [3],
+    "edited_pages": [
+      3
+    ],
     "notes": "Heavily corrected typescript (3 pages, 7 images). Page 3: fixed 'bernfeusten' (non-word) to 'berufensten'. Remaining uncertainties on pages 1-2: dense overlapping handwritten corrections over typescript make some interlinear readings ambiguous (e.g. 'gelastet', 'vein zur', 'a\\'an' on p3). page_image_mismatch flag is correct: 7 images map to 3 content pages (3 versos + 1 color chart skipped).",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T19:30:00Z"

@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die wenigen unsicheren Stellen sind durch Kontext (Postkarten-Format) gut erschließbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 707,
     "total_words": 113,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0088,
-    "dwr_score": 0.4312,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

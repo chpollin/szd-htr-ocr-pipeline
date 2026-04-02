@@ -200,7 +200,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der zahlreichen handschriftlichen Korrekturen und Ergänzungen, die teilweise den gedruckten Text überlagern oder ersetzen, anspruchsvoll. Die Lesbarkeit ist bei den Typoskripten gut, bei den handschriftlichen Ergänzungen teilweise durch die dichte Überarbeitung erschwert.; S.21-26: Die Handschrift auf Seite 21 ist sehr flüchtig und weist zahlreiche Streichungen und Überschreibungen auf, was die Transkription an einigen Stellen unsicher macht."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 28601,
     "total_words": 4113,
     "total_pages": 12,
@@ -269,7 +269,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 1,
     "marker_density": 0.0002,
-    "dwr_score": 0.4542,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

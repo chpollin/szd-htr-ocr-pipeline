@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Randnotizen auf Seite 1 wurden gemäß den Anweisungen transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3769,
     "total_words": 628,
     "total_pages": 2,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4853,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'Unplanbylkeit' im handschriftlichen Nachtrag ist orthographisch unklar, wurde aber buchstabengetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2916,
     "total_words": 440,
     "total_pages": 1,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0045,
-    "dwr_score": 0.4495,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

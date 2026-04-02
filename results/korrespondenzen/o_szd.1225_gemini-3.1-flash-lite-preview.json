@@ -31,7 +31,7 @@
     "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind typisch für seine Handschrift und gut entzifferbar, mit Ausnahme des Namens 'Nintic'."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 928,
     "total_words": 152,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0066,
-    "dwr_score": 0.4097,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

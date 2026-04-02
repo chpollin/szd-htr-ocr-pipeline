@@ -34,8 +34,8 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Vergilbung des Papiers. Die handschriftliche Notiz am Rand ist ebenfalls klar lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
-    "total_chars": 6810,
+    "version": "1.5",
+    "total_chars": 6808,
     "total_words": 1120,
     "total_pages": 1,
     "empty_pages": 0,
@@ -47,13 +47,12 @@
       "content"
     ],
     "chars_per_page": [
-      6810
+      6808
     ],
-    "chars_per_page_median": 6810,
+    "chars_per_page_median": 6808,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4567,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

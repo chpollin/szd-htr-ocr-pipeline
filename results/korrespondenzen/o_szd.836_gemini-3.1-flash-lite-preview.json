@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.836",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 7. Juni 1937, SZ-AAP/B1.53",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.836/IMG.1",
+      "https://gams.uni-graz.at/o:szd.836/IMG.2",
+      "https://gams.uni-graz.at/o:szd.836/IMG.3",
+      "https://gams.uni-graz.at/o:szd.836/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 7. Juni 1937, SZ-AAP/B1.53\n- Signatur: SZ-AAP/B1.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7.Juni 1937.\n\nGeehrter Herr Reichner!\n\nEben Ihr Brief. Der Magellan-Vertrag war nur\nversehentlich von mir nicht unterzeichnet, ich schicke\nihn beiliegend unterschrieben zurück. Von Dr. Bagrow\nhoffe ich die Liste sehr bald zu bekommen. Wegen der\nGrösse der Ausgabe müssten wir nun eine Entscheidung\ntreffen. Einerseits wäre es gut, das Buch etwas grös-\nser zu halten, damit die Karten-Reproduktionen besser\nzur Geltung kommen, andererseits hat es wieder seine\nVorteile, wenn wir für meine Bücher ein gewisses Ein-\nheitsformat festhalten. Sie müssen sich all dies durch-\ndenken. Vielleicht können Sie auch ein Exposé in diesem\nSinne ausarbeiten, sobald ich die Liste Bagrows habe,\ndamit ich Cassell und Viking je ein Exemplar geben kann\nund alles Hin- und Herschreiben erspart ist. Die Leute\nhaben gerne präzise Vorschläge und auch in Anbetracht\nder materiellen Bedingungen für die Verteilung der\nKosten. Wenn Herr Dr. Bagrow so freundlich sein will,\nso wäre ich sehr einverstanden, dass er das Manuskript\ninzwischen durchliest. Ich setze mich mit ihm noch in",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Verbindung. Die Magellanliteratur bekommen Sie sofort\nzugesandt, sowie ich sie verlässlich entbehren kann.\n\nRobert Neumann. Ich kann Ihnen nur wieder-\nholen, dass Sie meiner Meinung nach einen Fehler be-\ngehen, denn selbstverständlich hat Neumann einen an-\ndern Verlag freudigst bereit. Und was die Buchhändler\nbetrifft, so entscheidet bei ihnen nur eines, ob ein\nBuch gut geht oder nicht, und dieses Buch würde beson-\nders in Oesterreich und in den Nachfolgestaaten gross-\nartig gehen. Es ist und bleibt eben einer der besten\nRomane der letzten Zeit und ist mit seinen letzten\nBüchern nicht zu vergleichen. So viel ich weiss, fährt\nNeumann heute nach Wien und ist in zwei, drei Tagen\nsicher in seiner Wohnung Andrassystrasse 7, Wien XIX,\nzu erreichen. Meine Angst ist eben, dass alle sogenann-\nten Nebenumstände gleichgültig sind, wenn es sich um ein\nwirklich gutes und entscheidend gutes Buch handelt, wie\nich Sie leider in Ihrem Verlagskatalog vermisse.\n\nMozart Werkverzeichnis. kann ich nicht allein\nentscheiden. Man verhandelt gerade mit Amerika wegen\neiner Faksimileausgabe. Vielleicht lässt sich das noch\nzusammenspannen. An Einstein wird leider für eine Ein-\nleitung bei Ihnen nicht zu denken sein. Sie haben ihn",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\n\ndoch etwas zu unfreundlich behandelt.\n\nHonorarabrechnung. Ich möchte Sie bitten,\ndie 630,28 Franken mir hierher in einem Scheck zu\nschicken und die 1179,25 Schilling an Friderike Maria\nZweig, Länderbank, Filiale Salzburg, Salzburg.\n\nMit den besten Empfehlungen\n\nEben Ihr zweiter Brief. Selbstverständlich habe ich\nseinerzeit in dem Vertrage mit Tal die Bedingung ge-\nhabt, dass ich Teile daraus oder alle Stücke ganz\nnach meinem Belieben später verwerten kann.",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2741,
+    "total_words": 419,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1057,
+      1220,
+      464,
+      0
+    ],
+    "chars_per_page_median": 1057,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -38,10 +38,10 @@
     "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, die maschinengeschriebenen Teile sind klar. Die Korrekturen und Einfügungen wurden gemäß den Regeln erfasst."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 3477,
     "total_words": 526,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       1040,
       565
     ],
-    "chars_per_page_median": 1040,
+    "chars_per_page_median": 1456.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4962,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

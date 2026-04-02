@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar. Die vertikal am Rand geschriebenen Zeilen wurden logisch in den Textfluss integriert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 971,
     "total_words": 154,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3974,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

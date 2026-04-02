@@ -52,10 +52,10 @@
     "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die Ergänzungen sind eindeutig als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1806,
     "total_words": 277,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 1,
@@ -75,11 +75,10 @@
       170,
       170
     ],
-    "chars_per_page_median": 419.5,
+    "chars_per_page_median": 669,
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0036,
-    "dwr_score": 0.4743,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

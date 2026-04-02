@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die handschriftliche Ergänzung auf der ersten Seite ist eindeutig Lotte Zweigs Handschrift zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 7171,
     "total_words": 1017,
     "total_pages": 4,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.428,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

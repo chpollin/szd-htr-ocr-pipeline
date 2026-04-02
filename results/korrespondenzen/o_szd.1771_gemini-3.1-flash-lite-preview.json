@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein sehr gut lesbares Typoskript. Die wenigen handschriftlichen Ergänzungen und die Unterschrift sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 4014,
     "total_words": 568,
     "total_pages": 4,
@@ -70,7 +70,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4903,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

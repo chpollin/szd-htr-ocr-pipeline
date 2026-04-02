@@ -31,7 +31,7 @@
     "confidence_notes": "Die Handschrift ist flüchtig, insbesondere die Grußformel am Ende der Nachrichtenseite ist schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 268,
     "total_words": 39,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0256,
-    "dwr_score": 0.4324,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

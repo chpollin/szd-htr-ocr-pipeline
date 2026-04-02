@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'gewalt' am Ende der siebten Zeile ist aufgrund der Handschrift leicht zweideutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 339,
     "total_words": 59,
     "total_pages": 2,
@@ -52,7 +52,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0169,
-    "dwr_score": 0.3684,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

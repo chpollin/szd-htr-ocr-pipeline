@@ -319,7 +319,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, da es sich um klare, handschriftliche bibliographische Notizen handelt.; S.21-40: Der Text ist klar lesbar, die Handschrift ist gut strukturiert und weist keine größeren Schwierigkeiten auf.; S.41-43: Die Seiten sind leer bzw. zeigen lediglich den Einband des Dokuments ohne Textinhalt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 2217,
     "total_words": 324,
     "total_pages": 15,
@@ -422,7 +422,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.1181,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

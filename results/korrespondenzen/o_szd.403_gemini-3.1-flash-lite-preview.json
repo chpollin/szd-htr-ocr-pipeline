@@ -38,7 +38,7 @@
     "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere das Wort nach 'Dr Stefan' und die Zeile 'bitte Arnold'. Die Adresszeilen sind durch die Anordnung auf der Postkarte etwas fragmentiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 236,
     "total_words": 43,
     "total_pages": 2,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0233,
-    "dwr_score": 0.2857,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

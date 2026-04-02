@@ -98,7 +98,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Korrekturen sehr zuverlässig. Unsichere Stellen wurden gemäß den Vorgaben markiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 16446,
     "total_words": 2644,
     "total_pages": 10,
@@ -135,7 +135,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4655,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

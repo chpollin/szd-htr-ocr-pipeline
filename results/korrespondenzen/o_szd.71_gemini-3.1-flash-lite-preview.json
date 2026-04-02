@@ -395,7 +395,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist gut lesbar, die Tinte ist durchgehend violett. Einige Eigennamen oder spezifische Begriffe könnten leicht variieren, sind aber im Kontext gut verständlich.; S.21-40: Die Handschrift ist flüchtig, teilweise durchgestrichen oder überlagert. Einige Eigennamen und Abkürzungen sind schwer zu entziffern.; S.41-54: Die Handschrift ist teilweise sehr flüchtig und schwer zu entziffern, insbesondere bei den Notizen in violetter Tinte (Seiten 45, 46, 48). Die Struktur der Seiten ist klar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 36978,
     "total_words": 5845,
     "total_pages": 44,
@@ -520,7 +520,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 5,
     "marker_density": 0.0012,
-    "dwr_score": 0.4424,
     "duplicate_page_pairs": [
       [
         45,

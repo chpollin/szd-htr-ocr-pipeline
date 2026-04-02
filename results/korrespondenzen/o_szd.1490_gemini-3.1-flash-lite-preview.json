@@ -38,10 +38,10 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Überlagerung durch die Archivierungsskalen auf Seite 3 beeinträchtigt die Lesbarkeit dort, aber der Text ist durch den Abgleich mit Seite 1 eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 975,
     "total_words": 143,
-    "total_pages": 2,
+    "total_pages": 1,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 1,
@@ -57,11 +57,10 @@
       0,
       235
     ],
-    "chars_per_page_median": 487.5,
+    "chars_per_page_median": 740,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.3258,
     "duplicate_page_pairs": [],
     "language_expected": "en",
     "language_detected": "en",

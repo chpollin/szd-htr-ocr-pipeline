@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift auf der ersten Seite ist aufgrund der flüchtigen Handschrift schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 642,
     "total_words": 109,
     "total_pages": 3,
@@ -61,7 +61,6 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 0,
     "marker_density": 0.0092,
-    "dwr_score": 0.3178,
     "duplicate_page_pairs": [
       [
         1,

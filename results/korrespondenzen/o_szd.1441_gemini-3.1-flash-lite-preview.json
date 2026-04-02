@@ -58,7 +58,7 @@
     "reviewed_at": "2026-04-02T20:00:00Z"
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 1543,
     "total_words": 224,
     "total_pages": 1,
@@ -81,7 +81,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4636,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

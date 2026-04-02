@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen handschriftlichen Korrekturen und die Unterschriften sind eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 6805,
     "total_words": 1025,
     "total_pages": 2,
@@ -79,7 +79,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4262,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

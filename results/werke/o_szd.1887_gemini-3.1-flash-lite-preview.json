@@ -52,10 +52,10 @@
     "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Randnotizen sind aufgrund der Handschrift und der Tinte teilweise schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.5",
     "total_chars": 12223,
     "total_words": 1897,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 2,
     "blank_pages": 2,
     "color_chart_pages": 1,
@@ -75,23 +75,14 @@
       0,
       4095
     ],
-    "chars_per_page_median": 4095,
+    "chars_per_page_median": 4064.0,
     "marker_uncertain_count": 6,
     "marker_illegible_count": 0,
     "marker_density": 0.0032,
-    "dwr_score": 0.4456,
     "duplicate_page_pairs": [
       [
         0,
         2
-      ],
-      [
-        0,
-        4
-      ],
-      [
-        2,
-        4
       ]
     ],
     "language_expected": "de",
