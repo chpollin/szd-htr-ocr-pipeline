@@ -36,7 +36,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
@@ -112,7 +113,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.139_gt_draft",
@@ -150,7 +152,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.141_gt_draft",
@@ -188,7 +191,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.139_gemini-3.1-flash-lite-preview",
@@ -325,7 +329,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.139_gemini-3.1-pro",
@@ -451,7 +456,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.141_gemini-3.1-flash-lite-preview",
@@ -590,7 +596,8 @@
             "transcription_b": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.141_gemini-3.1-pro",
@@ -716,7 +723,8 @@
             "transcription_b": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.168_gemini-3.1-flash-lite-preview",
@@ -853,7 +861,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.169_gemini-3.1-flash-lite-preview",
@@ -925,7 +934,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.175_gemini-3.1-flash-lite-preview",
@@ -1008,7 +1018,8 @@
           "marker_density"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.176_gemini-3.1-flash-lite-preview",
@@ -1081,7 +1092,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.179_gemini-3.1-flash-lite-preview",
@@ -1164,7 +1176,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.184_gemini-3.1-flash-lite-preview",
@@ -1230,7 +1243,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.196_gemini-3.1-flash-lite-preview",
@@ -1311,7 +1325,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.197_gemini-3.1-flash-lite-preview",
@@ -1477,7 +1492,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.66_gemini-3.1-flash-lite-preview",
@@ -1539,7 +1555,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.67_gemini-3.1-flash-lite-preview",
@@ -2449,7 +2466,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.68_gemini-3.1-flash-lite-preview",
@@ -2519,7 +2537,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.69_gemini-3.1-flash-lite-preview",
@@ -3091,7 +3110,8 @@
           "marker_density"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.70_gemini-3.1-flash-lite-preview",
@@ -3131,7 +3151,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.71_gemini-3.1-flash-lite-preview",
@@ -3619,7 +3640,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.72_gemini-3.1-flash-lite-preview",
@@ -3972,7 +3994,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.73_gemini-3.1-flash-lite-preview",
@@ -5377,7 +5400,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.74_gemini-3.1-flash-lite-preview",
@@ -5778,7 +5802,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.75_gemini-3.1-flash-lite-preview",
@@ -7032,7 +7057,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.76_gemini-3.1-flash-lite-preview",
@@ -7072,7 +7098,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.77_gemini-3.1-flash-lite-preview",
@@ -7112,7 +7139,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "vertrag_grasset_gemini-3.1-flash-lite-preview",
@@ -7174,7 +7202,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.100_gt_draft",
@@ -7212,7 +7241,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.102_gt_draft",
@@ -7250,7 +7280,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
@@ -7353,7 +7384,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.100_gemini-3.1-pro",
@@ -7449,7 +7481,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.101_gemini-3.1-flash-lite-preview",
@@ -7591,7 +7624,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.102_gemini-3.1-flash-lite-preview",
@@ -7694,7 +7728,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.102_gemini-3.1-pro",
@@ -7790,7 +7825,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.103_gemini-3.1-flash-lite-preview",
@@ -7855,7 +7891,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.104_gemini-3.1-flash-lite-preview",
@@ -7920,7 +7957,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.105_gemini-3.1-flash-lite-preview",
@@ -8001,7 +8039,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.106_gemini-3.1-flash-lite-preview",
@@ -8066,7 +8105,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.107_gemini-3.1-flash-lite-preview",
@@ -8131,7 +8171,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.108_gemini-3.1-flash-lite-preview",
@@ -8196,7 +8237,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.109_gemini-3.1-flash-lite-preview",
@@ -8261,7 +8303,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.110_gemini-3.1-flash-lite-preview",
@@ -8326,7 +8369,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.111_gemini-3.1-flash-lite-preview",
@@ -8391,7 +8435,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.112_gemini-3.1-flash-lite-preview",
@@ -8456,7 +8501,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.113_gemini-3.1-flash-lite-preview",
@@ -8521,7 +8567,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.114_gemini-3.1-flash-lite-preview",
@@ -8602,7 +8649,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.115_gemini-3.1-flash-lite-preview",
@@ -8667,7 +8715,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.116_gemini-3.1-flash-lite-preview",
@@ -8732,7 +8781,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.117_gemini-3.1-flash-lite-preview",
@@ -8832,7 +8882,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.118_gemini-3.1-flash-lite-preview",
@@ -8897,7 +8948,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.119_gemini-3.1-flash-lite-preview",
@@ -8962,7 +9014,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.120_gemini-3.1-flash-lite-preview",
@@ -9027,7 +9080,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.121_gemini-3.1-flash-lite-preview",
@@ -9067,7 +9121,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.122_gemini-3.1-flash-lite-preview",
@@ -9132,7 +9187,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.123_gemini-3.1-flash-lite-preview",
@@ -9197,7 +9253,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.124_gemini-3.1-flash-lite-preview",
@@ -9262,7 +9319,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.125_gemini-3.1-flash-lite-preview",
@@ -9327,7 +9385,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.126_gemini-3.1-flash-lite-preview",
@@ -9392,7 +9451,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.128_gemini-3.1-flash-lite-preview",
@@ -9457,7 +9517,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.129_gemini-3.1-flash-lite-preview",
@@ -9522,7 +9583,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.130_gemini-3.1-flash-lite-preview",
@@ -9587,7 +9649,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.131_gemini-3.1-flash-lite-preview",
@@ -9667,7 +9730,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.132_gemini-3.1-flash-lite-preview",
@@ -9732,7 +9796,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.133_gemini-3.1-flash-lite-preview",
@@ -9797,7 +9862,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.134_gemini-3.1-flash-lite-preview",
@@ -9862,7 +9928,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.135_gemini-3.1-flash-lite-preview",
@@ -9927,7 +9994,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.136_gemini-3.1-flash-lite-preview",
@@ -9992,7 +10060,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.140_gemini-3.1-flash-lite-preview",
@@ -11214,7 +11283,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.177_gemini-3.1-flash-lite-preview",
@@ -11287,7 +11357,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.178_gemini-3.1-flash-lite-preview",
@@ -11354,7 +11425,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.198_gemini-3.1-flash-lite-preview",
@@ -11515,7 +11587,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.78_gemini-3.1-flash-lite-preview",
@@ -11580,7 +11653,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.79_gemini-3.1-flash-lite-preview",
@@ -11647,7 +11721,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.80_gemini-3.1-flash-lite-preview",
@@ -11728,7 +11803,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.81_gemini-3.1-flash-lite-preview",
@@ -11793,7 +11869,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.82_gemini-3.1-flash-lite-preview",
@@ -11874,7 +11951,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.83_gemini-3.1-flash-lite-preview",
@@ -11971,7 +12049,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.84_gemini-3.1-flash-lite-preview",
@@ -12036,7 +12115,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.85_gemini-3.1-flash-lite-preview",
@@ -12117,7 +12197,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.86_gemini-3.1-flash-lite-preview",
@@ -12182,7 +12263,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.87_gemini-3.1-flash-lite-preview",
@@ -12247,7 +12329,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.88_gemini-3.1-flash-lite-preview",
@@ -12312,7 +12395,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.89_gemini-3.1-flash-lite-preview",
@@ -12377,7 +12461,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.90_gemini-3.1-flash-lite-preview",
@@ -12442,7 +12527,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.91_gemini-3.1-flash-lite-preview",
@@ -12509,7 +12595,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.92_gemini-3.1-flash-lite-preview",
@@ -12590,7 +12677,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.93_gemini-3.1-flash-lite-preview",
@@ -12655,7 +12743,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.94_gemini-3.1-flash-lite-preview",
@@ -12720,7 +12809,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.95_gemini-3.1-flash-lite-preview",
@@ -12793,7 +12883,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.96_gemini-3.1-flash-lite-preview",
@@ -12874,7 +12965,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.97_gemini-3.1-flash-lite-preview",
@@ -12959,7 +13051,180 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.98_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.98/IMG.1",
+        "https://gams.uni-graz.at/o:szd.98/IMG.2",
+        "https://gams.uni-graz.at/o:szd.98/IMG.3",
+        "https://gams.uni-graz.at/o:szd.98/IMG.4",
+        "https://gams.uni-graz.at/o:szd.98/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                Agreement\n\n\nmade this eleventh day of August 1937 , by and between\nSTEFAN ZWEIG\nwhose address is 49 Hallam Street, W. 1, London, England\n\nthe Author and/or Proprietor , party of the first part (hereinafter in either case called the \"Author\"),\nand THE VIKING PRESS, INC., of 18 East 48th Street, New York, N. Y., party of the second part\n(hereinafter called the \"Publishers\"), respecting a work of fiction\nat present entitled \"THE BURIED CANDELABRUM\n~~existing of~~ \n(hereinafter called \"Said Work\"), whereby it is mutually agreed between the Author and the Publishers\nas follows:\n\n                                PART ONE\n\nDelivery of\nmanuscript\n\n1. The Author agrees to deliver the finished work to the Publishers by (already received)\nand hereby grants and assigns to the Publishers the sole and exclusive right to publish said work in\nvolume form in the English language in the United States of America and Canada\n\nPublication\nrights granted\n\nand also grants to the Publishers such further rights as are specified in Paragraph 5 hereafter. The phrase\n\"in volume form\" shall be defined as meaning publication of the work as a whole, or substantially com-\nplete, as a unit or at one time.\n\nAgreement to\npublish\n\n2. The Publishers agree to publish said work in volume form at their own expense, in the style or\nstyles and at the price or prices which they deem best suited to its sale, within nine months from the\ndate of receipt of the finished manuscript, but they shall not be responsible for delays caused by strikes,\nfires, or other circumstances beyond their control.\n\nCopyright\n\n3. The Publishers shall take all steps which may be necessary to take out copyright in the name of\nThe Viking Press, Inc. and thereby secure their own rights and those of the Author\nunder the United States Copyright Acts, and shall take out renewals whenever they fall due, if the copy-\nright is in their name; but if the copyright is in the name of the Author, he agrees to take out such\nrenewals.\n\nPayment:\n\n4. The Publishers agree to pay the Author as follows:\n                                catalog retail price\n(a) A royalty of 15 per cent of the ~~amount which the Publishers charge~~ for all copies\nsold of said work, ~~less copies sold at a discount or at discounts on book clubs,~~ \n\nregular\nsales\n\nwith the following exceptions:\n\nexport and\nspecial sales\n\n(b) On all copies sold for export at a reduced price, and on all copies sold in quantities to justify\n50 sales to wholesale book dealers\na special discount of ~~10~~ per cent or more from the catalog retail price, such as sales to Canada/\n                                catalog retail price\nor sales in bulk to recognized Book Clubs or Reading Circles, a royalty of 7 1/2 per\ncent of the ~~amount which the Publishers charge, as defined above,~~ but if said work is sold\nto a recognized Book Club which pays an outright sum for a license to publish said work\nfor distribution to its members or subscribers, the Author shall receive 50 per cent of the\namount received by the Publishers;\n\nbook club\nsales\n\ntext-book\nsales\n\n(c) On copies of any text-book edition at a retail price lower than that of the regular trade edi-\ntion, issued for sales in bulk to educational institutions, a royalty of 10 per cent of the amount\nwhich the Publishers charge, as qualified above;",
+          "notes": "Typoskript mit handschriftlichen Korrekturen und Einfügungen. Die Seite ist Teil eines Vertragsdokuments.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "                                PART TWO\n\nAuthor's failure\nto deliver MS.\n\n1A. Default in delivery of manuscript by the date above stated may be deemed cause for the termination of\nthis agreement if the Publishers should so elect, and in such case, they shall have the right to recover from the\nAuthor any and all amounts which they may have advanced to him; but should the Publishers consent to accept\nthe manuscript at a later date, they shall not be required to publish within the limit of time above stated.\n\nIndex, illus-\ntrations, etc.\n\n2A. If an index is required or if drawings, photographs, tables, maps, charts or other illustrative matter\nshould be deemed necessary by both parties, the copy shall be prepared or supplied by the Author or, in his\ndefault, by the Publishers at his expense. If the Author make alterations in the proof which cost more than 10\nper cent of the cost of composition, exclusive of the cost of correcting printers' errors, he agrees to pay such excess.\n\nOption on\nother work\n\n~~The Publishers shall have the option to publish the Author's next book of fiction on the same terms as this agreement,~~ \n~~provided they notify the Author of their intention to exercise this option within one month of the date of receipt~~ \n~~of the manuscript of said book, and provided they publish said book within one year of the date of receipt.~~\n\nAll rights not herein specifically granted to the Publishers are reserved by the Author.\n\nAdditional\nrights:\n\n5. The additional rights which the Author grants exclusively to the Publishers in Paragraph 1 above,\nand the division of any and all sums accruing from the sale of these rights, are as follows:\n\n(a) Reprinting in whole or in part in newspapers, magazines, anthologies and other volumes,\nsecond serialization, syndication, radio-broadcasting, and mechanical reproduction, 50 per\ncent to the Author and 50 per cent to the Publishers;\n\n(b) ~~Translation rights, 80 per cent to the Author and 20 per cent to the Publishers;~~\n(c) First serialization, 80 per cent to the Author and 20 per cent to the Publishers;\n(d) Motion picture and/or dramatic rights, 85 per cent to the Author and 15 per cent\nto the Publishers.\n\nanthologies\nsecond\nserial, etc.\n\ntranslation\nfirst serial\n\nmotion picture\nand dramatic\n\ncheap or\nreprint edition\n\nEnglish\nedition\n\n(e) On all copies sold of any cheap edition which they publish, after one year from the first\npublication of said work, at a price substantially less than the original retail price, a royalty\n                                catalog retail price\nof 10 per cent of the ~~amount which the Publishers charge, as qualified above,~~ but if the\nPublishers shall arrange for the publication of such cheap or reprint edition by another pub-\nlisher, the Author shall receive 50 per cent of the amount received by the Publishers;\n\noverstock\n\n(d) On copies of overstock which the Publishers, after one year from the first publication of the\nsaid work, deem it expedient to sell at \"remainder\" prices, i.e., at less than one-half the\ncatalog retail price, a royalty of 10 per cent of the amount which the Publishers charge, except\nthat when such copies are sold at or below cost, no royalty shall be paid;",
+          "notes": "Typoskript mit durchgestrichenen Passagen und handschriftlichen Einfügungen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Author's guaran-\ntee as to proprie-\ntary rights, libel,\netc.\n\n3A. The Author covenants and represents that he is the sole author and proprietor of the said work, that he\nhas full power to make this agreement and grant, that it in no way infringes upon the copyright or proprietary\nright of others, and that it contains no libelous or other unlawful matter. The Author agrees to indemnify and\nhold harmless the said Publishers from all manner of claims, demands, suits or proceedings which may be asserted\nor instituted on the ground that the said work violates any copyright or proprietary right, or that it contains any-\nthing libelous or unlawful; and further agrees to indemnify and hold the Publishers harmless from all charges,\nliability, costs, expenses or damages of any kind or nature whatsoever arising to the Publishers, or which the\nPublishers may incur or sustain by reason of any of the foregoing. In case of any infringement of the copy-\nright the Publishers may in their discretion sue or employ such remedies as they deem expedient, and all such\nsuits or proceedings shall be at the joint expense of Author and Publishers, and the net proceeds of any recovery\nshall be divided equally between them, but the Author shall not be liable for any expenditure in excess of $300.00\nundertaken by the Publishers without his previous consent in writing.\n\nDefense of\ncopyright\n\nCompetitive\nmaterial\n\n4A. The Author agrees that he will not, without the written permission of the Publishers, publish or permit\nto be published in book or pamphlet form, while this agreement is in force, any material based on said work,\nor of such nature as to impede or reduce its sale.\n\nPrior publication\nelsewhere\n\n5A. If the Author should arrange for publication of said work elsewhere than in the United States (pro-\nvided Paragraph 1 does not preclude him from doing so), he agrees that it shall not precede publication in the\nUnited States without the Publishers' consent in writing; and that, if publication elsewhere has taken or will\ntake place with the Publishers' consent, they shall not be responsible for securing American copyright if it should\nbe impracticable to obtain it without publishing sooner than agreed as above.\n\nAdjustment of\nroyalties for\ncheap edition\n\n6A. If, at the time of publication of a cheap or reprint edition, the Publishers adjust the price of copies of\nthe regular edition remaining unsold in the hands of booksellers, the royalty on such copies shall be adjusted\nto conform to the terms for the cheap edition as stated above.\n\nNo royalty\non free copies\n\n7A. On copies furnished gratis to the Author, or for review, advertising, sample or like purposes, or on\ncopies destroyed by fire or water, no royalty shall be paid.\n\nSelections for\npublicity\n\n8A. The Publishers may publish, or permit others to publish, without payment, such selections from said\nwork for publicity purposes as they may consider appropriate to benefit its sale.\n\nAuthor's copies\n\n9A. The Publishers shall give to the Author 10 free copies of said work, and he shall have\nthe right to purchase copies for personal use, but not for re-sale, at 60 per cent of the catalog retail price.\n\nAccounting\n\n10A. The Publishers agree to render semi-annual statements of account to April 30 and October 31 of each\nyear during August and February following, and to make settlement in cash at the same time. Whenever the\nsemi-annual earnings fall below $10.00 no accounting or payment shall be made until the next settlement date\nafter the earnings have aggregated $10.00, unless requested in writing by the Author. Should the Author receive\nan overpayment he agrees that the Publishers may deduct such amount from any further earnings of said work\nor any other books by him which may be published by the Publishers; it being understood that an unearned\nadvance is not an \"overpayment.\"\n\nDefault by\nthe Publishers\n\n11A. If the Publishers should fail to pay moneys due or to deliver statements as agreed, within three months\nfrom the date of written demand by the Author or his representatives, this agreement shall be cancelled and all\nrights in said work granted herein shall revert to the Author forthwith, and without further notice, and without\nprejudice to moneys due to him from the Publishers.\n\nTermination of\nthis agreement\n\n12A. Should the Publishers fail to keep said work in print and for sale and after written demand from the\nAuthor decline or neglect to reprint within three months and to offer it for sale; or in case after two years from\nthe date of first publication they give three months' notice to the Author of their desire and intention to discon-\ntinue publication, this agreement shall terminate and all rights granted hereunder shall revert to the Author,\ntogether with any existing property originally furnished by him at his expense. In such event the Author shall\nhave the right to purchase the plates, if any, of said work at one-half of the manufacturing cost (including com-\nposition) and/or any remaining copies or sheets at one-half of the manufacturing cost of same, exclusive of over-\nhead, in default of which the Publishers shall dispose of the same as they may see fit, without prejudice to moneys\ndue to the Author.\n\nAssignment of\nthis agreement\n\nThis agreement shall be binding upon the heirs, executors, administrators or assigns of the Author,\nand upon the successors or assigns of the Publishers, but no assignment shall be binding on either of the\nparties without the written consent of the other party to this agreement.\n\nIN WITNESS WHEREOF the parties hereto have hereunto set their hands and seals the day and\nyear first above written.\nIN THE PRESENCE OF:\n\n[Unterschrift Lotte Altmann] Witness\n[Unterschrift Fanny Strassman] Witness\n\n[Unterschrift Stefan Zweig] Author and/or Proprietor\nTHE VIKING PRESS, INC.\nBy [Unterschrift Harold K. Guinzburg] President",
+          "notes": "Typoskript mit eigenhändigen Unterschriften in violetter und schwarzer Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "MEMORANDUM OF AGREEMENT\n\n        between\n\nSTEFAN ZWEIG\n\n        and\n\nTHE VIKING PRESS, INC.\n\nfor the Publication of\n\n\"THE BURIED CANDELABRUM\"\n\nDate August 11, 1937",
+          "notes": "Deckblatt des Vertragsdokuments.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala fuer Archivierung. Darunter befindet sich das Deckblatt des Vertragsdokuments (identisch mit Seite 4).",
+          "type": "color_chart"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinenschriftliches Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind ebenfalls klar identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 12619,
+        "emptyPages": 1,
+        "avgCharsPerPage": 3155,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 12619,
+        "total_words": 2099,
+        "total_pages": 4,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 4,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          3353,
+          3216,
+          5887,
+          163,
+          0
+        ],
+        "chars_per_page_median": 3284.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4839,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [
+          3
+        ],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.99_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.99/IMG.1",
+        "https://gams.uni-graz.at/o:szd.99/IMG.2",
+        "https://gams.uni-graz.at/o:szd.99/IMG.3",
+        "https://gams.uni-graz.at/o:szd.99/IMG.4",
+        "https://gams.uni-graz.at/o:szd.99/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Agreement\n\nmade this FIFTEENTH day of November 1937 , by and between\nSTEFAN ZWEIG\nwhose address is 49 Hallam Street, London, W. 1, England\n\nthe Author and/or Proprietor , party of the first part (hereinafter in either case called the \"Author\"),\nand THE VIKING PRESS, INC., of 18 East 48th Street, New York, N. Y., party of the second part\n(hereinafter called the \"Publishers\"), respecting a work\nat present entitled \"MAGELLAN, DER MANN UND SEINE TAT\"\n\n(hereinafter called \"Said Work\"), whereby it is mutually agreed between the Author and the Publishers\nas follows:\n\nPART ONE\n\nDelivery of\nmanuscript\n\nPublication\nrights granted\n\nAgreement to\npublish\n\nCopyright\n\nPayment:\nregular\nsales\n\nexport and\nspecial sales\n\nbook club\nsales\n\ntext-book\nsales\n\n1. The Author agrees to deliver the finished work to the Publishers by\nand hereby grants and assigns to the Publishers the sole and exclusive right to publish said work in\nvolume form in the English language in the United States of America and Canada\nand also grants to the Publishers such further rights as are specified in Paragraph 5 hereafter. The phrase\n\"in volume form\" shall be defined as meaning publication of the work as a whole, or substantially com-\nplete, as a unit or at one time.\n\n2. The Publishers agree to publish said work in volume form at their own expense, in the style or\nstyles and at the price or prices which they deem best suited to its sale, within nine months from the\ndate of receipt of the finished manuscript, but they shall not be responsible for delays caused by strikes,\nfires, or other circumstances beyond their control.\n\n3. The Publishers shall take all steps which may be necessary to take out copyright in the name of\nThe Viking Press, Inc. and thereby secure their own rights and those of the Author\nunder the United States Copyright Acts, and shall take out renewals whenever they fall due, if the copy-\nright is in their name; but if the copyright is in the name of the Author, he agrees to take out such\nrenewals.\n\n4. The Publishers agree to pay the Author as follows:\ncatalogue retail price\n(a) A royalty of 15 per cent of the amount which the Publishers charge for all copies\nsold of said work, ~~less copies returned, with no deduction for cash discounts or bad debts;~~\n\nwith the following exceptions:\n(b) On all copies sold for export at a reduced price, and on all copies sold in quantities to justify\n50 sales to wholesale book dealers\na special discount of ~~50~~ per cent or more from the catalog retail price, such as sales to Canada\nor sales in bulk to recognized Book Clubs or Reading Circles, a royalty of 7 1/2 per\ncatalogue retail price\ncent of the ~~Publishers charge, as qualified above;~~ but if said work is sold\nto a recognized Book Club which pays an outright sum for a license to publish said work\nfor distribution to its members or subscribers, the Author shall receive 50 per cent of the\namount received by the Publishers;\n\n(c) On copies of any text-book edition at a retail price lower than that of the regular trade edi-\ntion, issued for sales in bulk to educational institutions, a royalty of 10 per cent of the amount\nwhich the Publishers charge, as qualified above;",
+          "notes": "Typoskript mit handschriftlichen Korrekturen und Durchstreichungen. Die Seite ist ein Vertragsformular.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Author's failure\nto deliver MS.\n\nIndex, illus-\ntrations, etc.\n\nPART TWO\n\n1A. Default in delivery of manuscript by the date above stated may be deemed cause for the termination of\nthis agreement if the Publishers should so elect, and, in such case, they shall have the right to recover from the\nAuthor any and all amounts which they may have advanced to him; but should the Publishers consent to accept\nthe manuscript at a later date, they shall not be required to publish within the limit of time above stated.\n\n2A. If an index is required or if drawings, photographs, tables, charts or other illustrative matter\nshould be deemed necessary by both parties, the copy shall be prepared or supplied by the Author or, in his\ndefault, by the Publishers at his expense. If the Author make alterations in the proof which cost more than 10\nper cent of the cost of composition, exclusive of the cost of correcting printers' errors, he agrees to pay such excess.\n\nOption on\nother work\n\nbook-length work\n\n6. The Author hereby grants to the Publishers the option to publish the Author's next\nbook-length work on the terms of the present agree-\nment.\n\nAll rights not herein specifically granted to the Publishers are reserved by the Author.\n\nAdditional\nrights:\n\n5. The additional rights which the Author grants exclusively to the Publishers in Paragraph 1 above,\nand the division of any and all sums accruing from the sale of these rights, are as follows:\n\n(a) Reprinting in whole or in part in newspapers, magazines, anthologies and other volumes,\nsecond serialization, syndication, radio-broadcasting, and mechanical reproduction, 50 per\ncent to the Author and 50 per cent to the Publishers;\n\n(b) Translation, ~~per cent to the Author and~~ ~~per cent to the Publishers;~~\n(c) First serialization, ~~per cent to the Author and~~ ~~per cent to the Publishers;~~\n(d) Motion picture and/or dramatic rights, 85 per cent to the Author and 15 per cent\nto the Publishers.\n\nanthologies,\nsecond\nserial, etc.\n\ntranslation\nfirst serial\nmotion picture\nand dramatic\n\noverstock\n\ncheap or\nreprint edition\n\nEnglish\nedition\n\n(d) On copies of overstock which the Publishers, after one year from the first publication of the\nsaid work, deem it expedient to sell at \"remainder\" prices, i.e., at less than one-half the\ncatalog retail price, a royalty of 10 per cent of the amount which the Publishers charge, except\nthat when such copies are sold at or below cost, no royalty shall be paid;\n\n(e) On all copies sold of any cheap edition which they publish, after one year from the first\npublication of said work, at a price substantially less than the original retail price, a royalty\ncatalogue retail price of such edition\nof 10 per cent of the ~~amount which the Publishers charge, as qualified above;~~ but if the\nPublishers shall arrange for the publication of such cheap or reprint edition by another pub-\nlisher, the Author shall receive 50 per cent of the amount received by the Publishers;\n\n(f) If the Publishers cede to an English or other foreign publisher the right to publish an edition\nin English of said work on a royalty basis or for an outright sum, the amount of such income\nshall be divided per cent to the Author and per cent to the\nPublishers. If the Publishers sell to an English or other foreign publisher an edition of said\nwork in sheets or bound at a price inclusive of royalty, the Author shall receive\nper cent of the amount received by the Publishers.",
+          "notes": "Typoskript mit handschriftlichen Korrekturen und Durchstreichungen. Teil 2 des Vertrages.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Author's guaran-\ntee as to proprie-\ntary rights, libel,\netc.\n\nDefense of\ncopyright\n\nCompetitive\nmaterial\n\nPrior publication\nelsewhere\n\nAdjustment of\nroyalties for\ncheap edition\n\nNo royalty\non free copies\n\nSelections for\npublicity\n\nAuthor's copies\n\nAccounting\n\nDefault by\nthe Publishers\n\nTermination of\nthis agreement\n\nAssignment of\nthis agreement\n\n3A. The Author covenants and represents that he is the sole author and proprietor of the said work, that he\nhas full power to make this agreement and grant, that it in no way infringes upon the copyright or proprietary\nright of others, and that it contains no libelous or other unlawful matter. The Author agrees to indemnify and\nhold harmless the said Publishers from all manner of claims, demands, suits or proceedings which may be asserted\nor instituted on the ground that the said work violates any copyright or proprietary right or that it contains any-\nthing libelous or unlawful; and the Author agrees to indemnify and hold the Publishers harmless from all charges,\nliability, costs, expenses or damages of any kind or nature whatsoever arising to the Publishers, or which the\nPublishers may incur or sustain by reason of any of the foregoing. In case of any infringement of the copy-\nright the Publishers may in their discretion sue or employ such remedies as they deem expedient, and all such\nsuits or proceedings shall be at the joint expense of Author and Publishers, and the net proceeds of any recovery\nshall be divided equally between them, but the Author shall not be liable for any expenditure in excess of $300.00\nundertaken by the Publishers without his previous consent in writing.\n\n4A. The Author agrees that he will not, without the written permission of the Publishers, publish or permit\nto be published in book or pamphlet form, while this agreement is in force, any material based on said work,\nor of such a nature as to impede or reduce its sale.\n\n5A. If the Author should arrange for publication of said work elsewhere than in the United States (pro-\nvided Paragraph 1 does not preclude him from doing so), he agrees that it shall not precede publication in the\nUnited States without the Publishers' consent in writing; and that, if publication elsewhere has taken or will\ntake place with the Publishers' consent, they shall not be responsible for securing American copyright if it should\nbe impracticable to obtain it without publishing sooner than agreed as above.\n\n6A. If, at the time of publication of a cheap or reprint edition, the Publishers adjust the price of copies of\nthe regular edition remaining unsold in the hands of booksellers, the royalty on such copies shall be adjusted\nto conform to the terms for the cheap edition as stated above.\n\n7A. On copies furnished gratis to the Author, or for review, advertising, sample or like purposes, or on\ncopies destroyed by fire or water, no royalty shall be paid.\n\n8A. The Publishers may publish, or permit others to publish, without payment, such selections from said\nwork for publicity purposes as they may consider appropriate to benefit its sale.\n\n9A. The Publishers shall give to the Author 10 free copies of said work and he shall have\nthe right to purchase copies for personal use, but not for re-sale, at 60 per cent of the catalog retail price.\n\n10A. The Publishers agree to render semi-annual statements of account to April 30 and October 31 of each\nyear during August and February following, and to make settlement in cash at the same time. Whenever the\nsemi-annual earnings fall below $10.00 no accounting or payment shall be made until the next settlement date\nafter the earnings have aggregated $10.00, unless requested in writing by the Author. Should the Author receive\nan overpayment he agrees that the Publishers may deduct such amount from any further earnings of said work\nor any other books by him which may be published by the Publishers; it being understood that an unearned\nadvance is not an \"overpayment.\"\n\n11A. If the Publishers should fail to pay moneys due or to deliver statements as agreed, within three months\nfrom the date of written demand by the Author or his representatives, this agreement shall be cancelled and all\nrights in said work granted herein shall revert to the Author forthwith, and without further notice, and without\nprejudice to moneys due to him from the Publishers.\n\n12A. Should the Publishers fail to keep said work in print and for sale and after written demand from the\nAuthor or decline to reprint within three months and to offer it for sale; or in case after two years from\nthe date of first publication they give three months' notice to the Author of their desire and intention to discon-\ntinue publication, this agreement shall terminate and all rights granted hereunder shall revert to the Author,\ntogether with any existing property originally furnished by him at his expense. In such event the Author shall\nhave the right to purchase the plates, if any, of said work at one-half of the manufacturing cost (including com-\nposition) and/or any remaining copies or sheets at one-half of the manufacturing cost of same, exclusive of over-\nhead, in default of which the Publishers shall dispose of the same as they may see fit, without prejudice to moneys\ndue to the Author.\n\nThis agreement shall be binding upon the heirs, executors, administrators or assigns of the Author,\nand upon the successors or assigns of the Publishers, but no assignment shall be binding on either of the\nparties without the written consent of the other party to this agreement.\n\nIN WITNESS WHEREOF the parties hereto have hereunto set their hands and seals the day and\nyear first above written.\nIN THE PRESENCE OF:\n\n[Unterschrift Lotte Altmann] Witness\n[Unterschrift Rita Whiteson] Witness\n\n[Unterschrift Stefan Zweig] Author and/or Proprietor\nBy [Unterschrift Ben Huebsch] THE VIKING PRESS, INC.",
+          "notes": "Typoskript mit handschriftlichen Unterschriften von Lotte Altmann, Rita Whiteson, Stefan Zweig und Ben Huebsch.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "MEMORANDUM OF AGREEMENT\n\nbetween\nSTEFAN ZWEIG\nand\nTHE VIKING PRESS, INC.\n\nfor the Publication of\n\"MAGELLAN, DER MANN UND SEINE TAT\"\n\nDate November 15, 1937",
+          "notes": "Deckblatt des Vertrages.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala fuer Archivierung. Darunter befindet sich das Deckblatt des Vertrages (identisch mit Seite 4).",
+          "type": "color_chart"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein maschinenschriftliches Dokument handelt. Die handschriftlichen Ergänzungen und Unterschriften sind ebenfalls klar identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 12646,
+        "emptyPages": 1,
+        "avgCharsPerPage": 3162,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 12646,
+        "total_words": 2148,
+        "total_pages": 4,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 4,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          3183,
+          3446,
+          5862,
+          155,
+          0
+        ],
+        "chars_per_page_median": 3314.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.481,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [
+          3
+        ],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null,
+      "review": null
     },
     {
       "id": "certificate_gemini-3.1-flash-lite-preview",
@@ -13023,7 +13288,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.145_gt_draft",
@@ -13061,7 +13327,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.146_gt_draft",
@@ -13099,7 +13366,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1056_gemini-3.1-flash-lite-preview",
@@ -13204,7 +13472,8 @@
             "transcription_b": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL | Wert | HABEN | Soll Jetziger Saldo Haben\nRM | | RM | RM | RM | RM\n\nch 39.00 | 31.12. | | -.- | | -.- \nhen\n\nMit deutschem Gruß!\nBayerische Vereinsbank"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.144_gemini-3.1-flash-lite-preview",
@@ -13296,7 +13565,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.145_gemini-3.1-flash-lite-preview",
@@ -13399,7 +13669,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.145_gemini-3.1-pro",
@@ -13495,7 +13766,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.146_gemini-3.1-flash-lite-preview",
@@ -13632,7 +13904,8 @@
             "transcription_b": "Dieser Vordruck dient nur zur Be=\nstellung von Scheckheften für das\nKonto Nr.\n28.614\nDr. Stefan Zweig\nSalzburg\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\n29\n29\n28.614\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\n, am 193...\n\nAmtliche Vormerke:\n2 Heft:\nM.\n\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nSt Stefan Zweig\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck=\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er=\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\n—\nSiehe auch Rückseite!"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.146_gemini-3.1-pro",
@@ -13758,7 +14031,8 @@
             "transcription_b": "Dieser Vordruck dient nur zur Be=\nstellung von Scheckheften für das\nKonto Nr.\n28.614\nDr. Stefan Zweig\nSalzburg\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\n29\n29\n28.614\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\n, am 193...\n\nAmtliche Vormerke:\n2 Heft:\nM.\n\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nSt Stefan Zweig\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck=\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er=\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\n—\nSiehe auch Rückseite!"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.147_gemini-3.1-flash-lite-preview",
@@ -14553,7 +14827,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.159_gemini-3.1-flash-lite-preview",
@@ -14618,7 +14893,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.160_gemini-3.1-flash-lite-preview",
@@ -14685,7 +14961,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.173_gemini-3.1-flash-lite-preview",
@@ -14752,7 +15029,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.180_gemini-3.1-flash-lite-preview",
@@ -14811,7 +15089,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.181_gemini-3.1-flash-lite-preview",
@@ -14868,7 +15147,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.182_gemini-3.1-flash-lite-preview",
@@ -14941,7 +15221,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.183_gemini-3.1-flash-lite-preview",
@@ -15029,7 +15310,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.185_gemini-3.1-flash-lite-preview",
@@ -15094,7 +15376,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.186_gemini-3.1-flash-lite-preview",
@@ -15178,7 +15461,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.187_gemini-3.1-flash-lite-preview",
@@ -15229,7 +15513,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.188_gemini-3.1-flash-lite-preview",
@@ -15307,7 +15592,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.189_gemini-3.1-flash-lite-preview",
@@ -15364,7 +15650,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.191_gemini-3.1-flash-lite-preview",
@@ -15443,7 +15730,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.192_gemini-3.1-flash-lite-preview",
@@ -15500,7 +15788,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.193_gemini-3.1-flash-lite-preview",
@@ -15552,7 +15841,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "theaterkarte_gemini-3.1-flash-lite-preview",
@@ -15616,7 +15906,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.142_gt_draft",
@@ -15654,7 +15945,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.148_gt_draft",
@@ -15692,7 +15984,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.137_gemini-3.1-flash-lite-preview",
@@ -15797,7 +16090,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.138_gemini-3.1-flash-lite-preview",
@@ -15902,7 +16196,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.142_gemini-3.1-flash-lite-preview",
@@ -16005,7 +16300,8 @@
             "transcription_b": "I. RATHHAUSSTRASSE 17.\nWIEN\n\nDR. PHIL. STEFAN ZWEIG"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.142_gemini-3.1-pro",
@@ -16101,7 +16397,8 @@
             "transcription_b": "I. RATHHAUSSTRASSE 17.\nWIEN\n\nDR. PHIL. STEFAN ZWEIG"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.148_gemini-3.1-flash-lite-preview",
@@ -16170,7 +16467,8 @@
             "transcription_b": "[Auf dem Schachteldeckel:]\nSCHREIBMASCHIN-\nZUBEHÖR\n\n[Auf dem Zettel in der Farbbandschachtel:]\nviolett, gut\n\n[Auf der Pelikan-Dose:]\nPelikan\n\n[Auf der Typenreiniger-Dose:]\nStar NO. 1226\nTYPE CLEANER\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1529862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Korrekturschablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Bleistift:]\nA.W. FABER Castell 7058"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.148_gemini-3.1-pro",
@@ -16236,7 +16534,8 @@
             "transcription_b": "[Auf dem Schachteldeckel:]\nSCHREIBMASCHIN-\nZUBEHÖR\n\n[Auf dem Zettel in der Farbbandschachtel:]\nviolett, gut\n\n[Auf der Pelikan-Dose:]\nPelikan\n\n[Auf der Typenreiniger-Dose:]\nStar NO. 1226\nTYPE CLEANER\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1529862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Korrekturschablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Bleistift:]\nA.W. FABER Castell 7058"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.150_gemini-3.1-flash-lite-preview",
@@ -16309,7 +16608,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.151_gemini-3.1-flash-lite-preview",
@@ -16410,7 +16710,8 @@
             "transcription_b": "Neugast[?]\n\nV"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.152_gemini-3.1-flash-lite-preview",
@@ -16475,7 +16776,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.153_gemini-3.1-flash-lite-preview",
@@ -16540,7 +16842,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.154_gemini-3.1-flash-lite-preview",
@@ -16605,7 +16908,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.155_gemini-3.1-flash-lite-preview",
@@ -16670,7 +16974,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.156_gemini-3.1-flash-lite-preview",
@@ -16735,7 +17040,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.157_gemini-3.1-flash-lite-preview",
@@ -16800,7 +17106,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.158_gemini-3.1-flash-lite-preview",
@@ -16865,7 +17172,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.161_gemini-3.1-flash-lite-preview",
@@ -16930,7 +17238,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.170_gemini-3.1-flash-lite-preview",
@@ -16970,7 +17279,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.171_gemini-3.1-flash-lite-preview",
@@ -17035,7 +17345,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.172_gemini-3.1-flash-lite-preview",
@@ -17100,7 +17411,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.149_gt_draft",
@@ -17138,7 +17450,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.195_gt_draft",
@@ -17176,7 +17489,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
@@ -17279,7 +17593,8 @@
             "transcription_b": "Mit Gott"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.149_gemini-3.1-flash-lite-preview",
@@ -17420,7 +17735,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.149_gemini-3.1-pro",
@@ -17546,7 +17862,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.174_gemini-3.1-flash-lite-preview",
@@ -17629,7 +17946,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.194_gemini-3.1-flash-lite-preview",
@@ -17712,7 +18030,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.195_gemini-3.1-flash-lite-preview",
@@ -17849,7 +18168,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.195_gemini-3.1-pro",
@@ -17975,7 +18295,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.127_gt_draft",
@@ -18013,7 +18334,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.127_gemini-3.1-flash-lite-preview",
@@ -18150,7 +18472,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.127_gemini-3.1-pro",
@@ -18276,7 +18599,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     }
   ]
 }

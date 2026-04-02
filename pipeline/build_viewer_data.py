@@ -153,6 +153,9 @@ def build():
         # quality_signals from enriched JSON (added by transcribe.py or backfill)
         qs = data.get("quality_signals", {})
 
+        # Expert review status (added by import_reviews.py)
+        review = data.get("review")
+
         # Consensus data (from verify.py)
         consensus = load_consensus(result_file)
 
@@ -204,6 +207,7 @@ def build():
                 "needs_review_reasons": qs.get("needs_review_reasons", []),
             },
             "consensus": consensus,  # None if no consensus file exists
+            "review": review,  # None if not yet reviewed
         }
         objects.append(obj)
 
@@ -240,6 +244,7 @@ def build():
             "dwrScore": obj.get("quality_signals", {}).get("dwr_score", 0),
             "consensusCategory": obj["consensus"]["category"] if obj.get("consensus") else None,
             "consensusCer": obj["consensus"]["effective_cer"] if obj.get("consensus") else None,
+            "reviewStatus": obj["review"].get("status") if obj.get("review") else None,
         })
 
     catalog = {"objects": catalog_objects, "collections": collections}
@@ -264,6 +269,7 @@ def build():
                 "verification": obj["verification"],
                 "quality_signals": obj.get("quality_signals", {}),
                 "consensus": obj.get("consensus"),
+                "review": obj.get("review"),
             })
         col_path = DATA_DIR / f"{col}.json"
         col_path.write_text(
@@ -309,8 +315,11 @@ def build():
 
         # Add GT status to catalog
         gt_ids = {g["id"] for g in gt_objects}
+        gt_verified = {g["id"]: g.get("expert_verified", False) for g in gt_objects}
         for cat_obj in catalog_objects:
             cat_obj["hasGT"] = cat_obj["id"] in gt_ids
+            if cat_obj["id"] in gt_ids:
+                cat_obj["gtVerified"] = gt_verified.get(cat_obj["id"], False)
 
         # Re-write catalog with GT flags
         CATALOG_PATH.write_text(

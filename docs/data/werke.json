@@ -437,7 +437,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.202_gemini-3.1-flash-lite-preview",
@@ -477,7 +478,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.207_gemini-3.1-flash-lite-preview",
@@ -558,7 +560,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.213_gemini-3.1-flash-lite-preview",
@@ -697,7 +700,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.218_gemini-3.1-flash-lite-preview",
@@ -754,7 +758,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.220_gemini-3.1-flash-lite-preview",
@@ -903,7 +908,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1879_gemini-3.1-flash-lite-preview",
@@ -943,7 +949,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1880_gemini-3.1-flash-lite-preview",
@@ -1281,7 +1288,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1881_gemini-3.1-flash-lite-preview",
@@ -1956,7 +1964,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1882_gemini-3.1-flash-lite-preview",
@@ -2331,7 +2340,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1883_gemini-3.1-flash-lite-preview",
@@ -2726,7 +2736,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1884_gemini-3.1-flash-lite-preview",
@@ -3121,7 +3132,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1885_gemini-3.1-flash-lite-preview",
@@ -4119,7 +4131,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1886_gemini-3.1-flash-lite-preview",
@@ -4159,7 +4172,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1889_gemini-3.1-flash-lite-preview",
@@ -4311,7 +4325,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1893_gemini-3.1-flash-lite-preview",
@@ -4434,7 +4449,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1894_gemini-3.1-flash-lite-preview",
@@ -4550,7 +4566,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1895_gemini-3.1-flash-lite-preview",
@@ -4751,7 +4768,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1898_gemini-3.1-flash-lite-preview",
@@ -4888,7 +4906,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.199_gemini-3.1-flash-lite-preview",
@@ -5033,7 +5052,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.200_gemini-3.1-flash-lite-preview",
@@ -5800,7 +5820,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.201_gemini-3.1-flash-lite-preview",
@@ -5958,7 +5979,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.203_gemini-3.1-flash-lite-preview",
@@ -6119,7 +6141,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.205_gemini-3.1-flash-lite-preview",
@@ -6346,7 +6369,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.208_gemini-3.1-flash-lite-preview",
@@ -6573,7 +6597,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.209_gemini-3.1-flash-lite-preview",
@@ -6613,7 +6638,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.210_gemini-3.1-flash-lite-preview",
@@ -6712,7 +6738,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.211_gemini-3.1-flash-lite-preview",
@@ -6811,7 +6838,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.212_gemini-3.1-flash-lite-preview",
@@ -6916,7 +6944,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.214_gemini-3.1-flash-lite-preview",
@@ -7077,7 +7106,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.215_gemini-3.1-flash-lite-preview",
@@ -7288,7 +7318,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.216_gemini-3.1-flash-lite-preview",
@@ -7369,7 +7400,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.217_gemini-3.1-flash-lite-preview",
@@ -7562,7 +7594,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.221_gemini-3.1-flash-lite-preview",
@@ -7613,7 +7646,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.222_gemini-3.1-flash-lite-preview",
@@ -8541,7 +8575,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.224_gemini-3.1-flash-lite-preview",
@@ -8658,7 +8693,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
@@ -8727,7 +8763,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1887_gt_draft",
@@ -8765,7 +8802,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1888_gt_draft",
@@ -8803,7 +8841,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1887_gemini-3.1-flash-lite-preview",
@@ -8955,7 +8994,8 @@
             "transcription_b": "{3) erledigt!}\n\nBUSONI\n\n{Gelesen! D.\nBrauchbar\nübertragen}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n\n68 Zweig: Begegnungen."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.1887_gemini-3.1-pro",
@@ -9081,7 +9121,8 @@
             "transcription_b": "{3) erledigt!}\n\nBUSONI\n\n{Gelesen! D.\nBrauchbar\nübertragen}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n\n68 Zweig: Begegnungen."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.1888_gemini-3.1-flash-lite-preview",
@@ -9218,7 +9259,8 @@
             "transcription_b": "45\n\nmus adliger Natur. Vergeblich darum jeder Versuch, eine\nderart naturhafte, urtümliche, in der Sprache und zu tiefst\nauch in der Ahnenhaftigkeit der edelsten deutschen Kunst\nwurzelnde Prosa in eine andere Sprache zu übertragen, ja\nihren Reiz nur übermitteln zu können: wahrscheinlich ist es\ndas Schicksal der Kunst Hans Carossas, innerhalb der deut-\nschen Zone eingegrenzt zu bleiben, ähnlich wie Hölderlin\nund Jean Paul, die ewig unüberpflanzbaren. Das mindert\nnicht seinen Rang, und vielleicht werden gerade Sie im Aus-\nland solche Urelemente am neugierigsten und leidenschaft-\nlichsten zu ehren vermögen, die in sich alle Fremdkräfte und\ndamit das wahrhaft Persönliche eines Volkes sinnmächtig re-\npräsentieren. Weitwirkung bedeutet — wir wissen es alle —\nmeist nur ein Widerspiel wahrhafter Werte, und so wollen\nwir es nicht pathetisch beklagen, daß diese klaren und wah-\nren, diese so gegenständlichen und doch welthaften Werke\nHans Carossas nicht einmal in Deutschland genugsam ver-\nbreitet sind; die geringe Zahl seiner Auflagen wird wohl auf-\ngewogen durch jene der Jahre, die sie zu überdauern be-\nstimmt sind, denn diese Gebilde sind zu fest geballt, zu rein\ngerundet, als daß sie zerfallen könnten. Reinheit bewahrt,\nund so bewahren sich diese seine Werke heute schon einer\nnächsten und kommenden Generation, so schmal sie sind,\nso zart sie erscheinen. Denn in ihnen wirkt und waltet in\nWahrheit dichterische Kraft über Tag und Jahr.\nEin Wort noch wollten Sie wissen über den Menschen und\nsein privates Leben, seine öffentliche Stellung. Er hat seit\ndreißig Jahren keine andere als die eines sehr beschäftigten\nArztes mit einer erdrückenden Krankenkassenpraxis im zwei-\nten Stock einer lärmenden Münchener Hauptstraße. Kranke,\nhauptsächlich Tuberkulose, zu behandeln, bleibt sein Dienst,\nseine Aufopferung, seine Freude; neben der dichterischen\nkennt er wenig Welt, ist kaum über die engere Heimat hin-\nausgekommen, war (Phänomen eines deutschen Dichters!)\nmit fünfzig Jahren noch nie in Berlin, gehört in keine Gruppe\nund in keinen Kreis. Aber wer einmal diesem stillen, ruhi-\ngen, augenklaren Menschen begegnet ist, liebt ihn leiden-\nschaftlich als Freund. Wem er einmal Arzt war, der bleibt\nihm ein Leben lang dankbar ergeben als humanstem Helfer.\nUnd wer ehrfürchtigen Herzens auch nur eines seiner Bücher\ngelesen hat, zählt ihn zu den seltenen Gestalten, bei denen\ndas hohe Wort Dichter nicht als ein gewagtes, sondern als\ndas einzig gewählte erscheint.\n77 Zweig: Begegnungen."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.1888_gemini-3.1-pro",
@@ -9344,7 +9386,8 @@
             "transcription_b": "45\n\nmus adliger Natur. Vergeblich darum jeder Versuch, eine\nderart naturhafte, urtümliche, in der Sprache und zu tiefst\nauch in der Ahnenhaftigkeit der edelsten deutschen Kunst\nwurzelnde Prosa in eine andere Sprache zu übertragen, ja\nihren Reiz nur übermitteln zu können: wahrscheinlich ist es\ndas Schicksal der Kunst Hans Carossas, innerhalb der deut-\nschen Zone eingegrenzt zu bleiben, ähnlich wie Hölderlin\nund Jean Paul, die ewig unüberpflanzbaren. Das mindert\nnicht seinen Rang, und vielleicht werden gerade Sie im Aus-\nland solche Urelemente am neugierigsten und leidenschaft-\nlichsten zu ehren vermögen, die in sich alle Fremdkräfte und\ndamit das wahrhaft Persönliche eines Volkes sinnmächtig re-\npräsentieren. Weitwirkung bedeutet — wir wissen es alle —\nmeist nur ein Widerspiel wahrhafter Werte, und so wollen\nwir es nicht pathetisch beklagen, daß diese klaren und wah-\nren, diese so gegenständlichen und doch welthaften Werke\nHans Carossas nicht einmal in Deutschland genugsam ver-\nbreitet sind; die geringe Zahl seiner Auflagen wird wohl auf-\ngewogen durch jene der Jahre, die sie zu überdauern be-\nstimmt sind, denn diese Gebilde sind zu fest geballt, zu rein\ngerundet, als daß sie zerfallen könnten. Reinheit bewahrt,\nund so bewahren sich diese seine Werke heute schon einer\nnächsten und kommenden Generation, so schmal sie sind,\nso zart sie erscheinen. Denn in ihnen wirkt und waltet in\nWahrheit dichterische Kraft über Tag und Jahr.\nEin Wort noch wollten Sie wissen über den Menschen und\nsein privates Leben, seine öffentliche Stellung. Er hat seit\ndreißig Jahren keine andere als die eines sehr beschäftigten\nArztes mit einer erdrückenden Krankenkassenpraxis im zwei-\nten Stock einer lärmenden Münchener Hauptstraße. Kranke,\nhauptsächlich Tuberkulose, zu behandeln, bleibt sein Dienst,\nseine Aufopferung, seine Freude; neben der dichterischen\nkennt er wenig Welt, ist kaum über die engere Heimat hin-\nausgekommen, war (Phänomen eines deutschen Dichters!)\nmit fünfzig Jahren noch nie in Berlin, gehört in keine Gruppe\nund in keinen Kreis. Aber wer einmal diesem stillen, ruhi-\ngen, augenklaren Menschen begegnet ist, liebt ihn leiden-\nschaftlich als Freund. Wem er einmal Arzt war, der bleibt\nihm ein Leben lang dankbar ergeben als humanstem Helfer.\nUnd wer ehrfürchtigen Herzens auch nur eines seiner Bücher\ngelesen hat, zählt ihn zu den seltenen Gestalten, bei denen\ndas hohe Wort Dichter nicht als ein gewagtes, sondern als\ndas einzig gewählte erscheint.\n77 Zweig: Begegnungen."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.1890_gemini-3.1-flash-lite-preview",
@@ -9416,7 +9459,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1891_gemini-3.1-flash-lite-preview",
@@ -9553,7 +9597,8 @@
             "transcription_b": "im Volke, arm und kleingemünzt in unreiner Prägung, tut\nes sich um im Lande. Dies „Volgare“, die gemeine Sprache,\nwie verächtlich die Gelehrten sie nennen, faßt nun plötzlich\ndie heiße starke Hand Dantes: unter seinem unerhört zu-\nsammenballenden Griff schmilzt sie ein, unter seinem prä-\ngenden Druck wird der Lehm der Straße wieder fest und\nneu. Und das nun plötzlich Form hat, ist nicht das Italienisch\ndes Guinizelli und Jacopo da Lentino mehr, ein dem Pro-\nvenzalischen nachgeträumter „dolce stil nuovo“, es ist ein\nneues Italienisch, gehärtet am Lateinisch, ein Italienisch, me-\ntallen und rein, wie es nie war und nie wieder sein wird.\nAuch hier ist Dante Beginner und Beender zugleich und\ndarf stolz von sich sagen: „L’acqua che io prendo giammai\nnon sie corse“, „nie ward die Flut beschifft, die ich berühre“.\nHinter ihm blüht das Italienisch weiter, es verzweigt sich in\nDunkel und Licht, in wogenden, schwingenden, singenden\nÄsten, und steigt auf in hellere Musik: hier aber ist der\nStamm, der ehern harte und runde, unvergänglich in die\nErde Italiens gepflanzt. Nicht die Nation hat Dante die\nSprache, sondern er mit der Sprache erst die Nation ge-\nschaffen: durch sechs Jahrhunderte hat das neulateinische\nReich keine andere Einheit als dies sein prophetisches Ge-\ndicht „il libro“, „das“ Buch.\nDieser Mut, diese grenzenlose Kühnheit des Griffes, dieser\nstarre Wille, „l’animo che vince ogni battaglia“, macht Dante\neinzig unter den Dichtern. Von allen, die vor und nach ihm\nkamen, hat er allein dies bronzene Zupacken des Gewalt-\ntäters, diese unerhörte bildnerische Gebärde des Anfangs.\nAber diesem Willen fügt sich die Tat, „potere in lui era ugu-\nale al volere“ rühmt Petrarca, und wirklich, er kommt aus\njenen Sphären, wo, wie er sagt, „sich alles fügt, was man be-\ngonnen“. Mit jenem urmächtigen Blick, der vielleicht nur\nnoch Shakespeare und Goethe unter den Dichtern zu eigen\nist, sieht er die Welt, sieht er Raum und Zeiten als ein Gan-\nzes, alles Menschliche als eine Einheit. Jahrtausende nietet\nsein heißer Blick zusammen. Für ihn gibt es so wenig wie bei\nShakespeare und bei Goethe eine zeitliche Grenze zwischen\ndem Mystischen und Sinnlich-Nahen, zwischen einem Achill,\ndem Myrmidonen, und Falstaff, dem Londoner Tavernen-\nsäufer, kühn setzt er — wie Goethe sein Leipziger Gretchen\nzu den Füßen der Himmelsmutter — seine unsterbliche Ge-\nliebte Beatrice Portinari neben die Allmutter Rahel der Bi-\nbel; persönlichstes Erlebnis wird ihm Weltgeschehen, ur-\nalter Mythos ureigenster Tag. Weil er monumental sieht,\nmacht er sein Privatestes groß: wie kleine Mücken im Bern-\nstein sind seine Widersacher für ewig durchsichtig in der\ndichterischen Materie festgefangen, Vergänglichstes atmet\ndurch ihn Ewigkeit, sobald sein Blick es durchseelt. Was aber\ndiesen weltweiten Genius noch besonders macht, ist seine\ngleichzeitige Begabung zur Symmetrie in der Vision: nichts\nsieht er abgesondert und einzelhaft, alles gestuft in geschlos-\nsener Hierarchie. Ihm ist Natur nicht stromhaft wie Goethe,\nnicht sprunghaft vielgestaltig wie Shakespeare, sondern alles\npragmatisch vorbestimmt.\n\n„Le cose tutte e quante\nHanno ordine tra loro; e questo è forma\nChe l’universo a Dio fa simigliante.“\n\nDas Göttliche der Natur liegt für Dante in ihrer Ordnung.\nUnd so wird es sein ungeheuerstes, sein für die Dichtung\neinziges Bemühen in der Commedia, die ganze Welt in ein\nSchema zu bringen und jedem einzelnen Menschen, so wie\nein Sternbild starr verharrend seine Stelle im Kosmos inne-\nhat, zwischen Himmel und Hölle seinen moralischen Rang\n120 Zweig: Begegnungen."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.1892_gemini-3.1-flash-lite-preview",
@@ -9634,7 +9679,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1896_gemini-3.1-flash-lite-preview",
@@ -9715,7 +9761,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1897_gemini-3.1-flash-lite-preview",
@@ -9796,7 +9843,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.1899_gemini-3.1-flash-lite-preview",
@@ -9877,7 +9925,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2853_gemini-3.1-flash-lite-preview",
@@ -9965,7 +10014,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.204_gemini-3.1-flash-lite-preview",
@@ -10102,7 +10152,8 @@
             "transcription_b": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\n{by now}\nconferences, proclamations and appeals. These may (perhaps) have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled the atmosphere of suspicion and enmity}\n~~altered the moral, or rather immoral, condition~~ in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n{and}\n~~apotheosis of war, and its mentality of hatred.~~ ~~Perhaps~~ Our real\n{task}\n~~work~~ lies in the application of all our energies towards ensuring\n{shall}\nthat at least the next generation, the youth of to-day, ~~should~~ not\n{same} {same}\nsuccumb to this ~~infection,~~ this ~~fever.~~ Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history.\n\n[Unterer Rand:]\n{But all education is}\n{based on example, and we can find no better examples for the education}\n{of mankind than those contained in the history of mankind. Only}"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.206_gemini-3.1-flash-lite-preview",
@@ -10241,7 +10292,8 @@
             "transcription_b": "zu Seite 10\n\n{There is no need for me to paint this tragic}\n{state of affairs in detail for you. All of us who live in Europe suffer under}\n~~Aber ich brauche Ihnen den tragischen Zustand nicht zu~~\n~~schildern. Jeder, der in Europa lebt, kennt ihn. Aber das Tra-~~\n{it hour by hour, every day of our lives. But the most tragic aspect of this}\n~~gischeste in dieser Verfälschung der Geschichte durch Nationalis-~~\n{falsification of history for national ends is the fact that our}\n~~mus ist, dass gerade unsere Generation seit hunderten und tausen-~~\n{particular generation is the first for hundreds and thousands of years}\n~~den Jahren die erste ist, welche jedes Geschehnis auf der ganzen~~\n{to which, ~~given the wonderful opportunity~~ {the splendid opportunity has been granted} to think}\n~~Welt gerecht und universal betrachten könnte. Erst heute ist absolu-~~\n{on universal lines and consider every happening in the world objectively.}\n~~te Objektivität in der Geschichtsschreibung möglich, und ich möch-~~\n{To-day for the first time an objective approach to history is possible.}\n~~te nicht ungerecht sein und die Historiker der Vergangenheit ankla-~~\n{But please do not misunderstand me. In saying this, I have it not my}\n~~gen, wenn sie wrote in former times history as national history~~\n{intention to ~~cast any unjustified accusations~~ {reproach historians}}\n~~and war history. This was excusable, indeed it may have been~~\n{of the former for having written history in the main as national history}\n~~necessary. Let us think back to those times.~~\n{~~this was~~ {inevitable}.}\n\nFortsetzung: Einschalt 3"
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.219_gemini-3.1-flash-lite-preview",
@@ -10322,7 +10374,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.223_gemini-3.1-flash-lite-preview",
@@ -10690,7 +10743,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.245_gemini-3.1-flash-lite-preview",
@@ -10882,7 +10936,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.247_gemini-3.1-flash-lite-preview",
@@ -10965,7 +11020,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.267_gemini-3.1-flash-lite-preview",
@@ -11005,7 +11061,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.273_gemini-3.1-flash-lite-preview",
@@ -11086,7 +11143,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.277_gemini-3.1-flash-lite-preview",
@@ -11155,7 +11213,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     }
   ]
 }

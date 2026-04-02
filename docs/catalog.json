@@ -32,6 +32,7 @@
       "dwrScore": 0.6,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -68,6 +69,7 @@
       "dwrScore": 0.1333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -102,6 +104,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -136,6 +139,7 @@
       "dwrScore": 0.3051,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -170,6 +174,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -204,6 +209,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -238,6 +244,7 @@
       "dwrScore": 0.75,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -272,6 +279,7 @@
       "dwrScore": 0.4573,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -306,6 +314,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -340,6 +349,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -376,6 +386,7 @@
       "dwrScore": 0.4074,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -410,6 +421,7 @@
       "dwrScore": 0.4419,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -444,6 +456,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -478,6 +491,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -512,6 +526,7 @@
       "dwrScore": 0.3435,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -546,6 +561,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -580,6 +596,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -614,6 +631,7 @@
       "dwrScore": 0.2308,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -648,6 +666,7 @@
       "dwrScore": 0.25,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -682,6 +701,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -718,6 +738,7 @@
       "dwrScore": 0.25,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -752,6 +773,7 @@
       "dwrScore": 0.1818,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -786,6 +808,7 @@
       "dwrScore": 0.4545,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -820,6 +843,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -854,6 +878,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -888,6 +913,7 @@
       "dwrScore": 0.2097,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -922,6 +948,7 @@
       "dwrScore": 0.375,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -958,6 +985,7 @@
       "dwrScore": 0.2308,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -992,6 +1020,7 @@
       "dwrScore": 0.25,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1026,6 +1055,7 @@
       "dwrScore": 0.5238,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1060,6 +1090,7 @@
       "dwrScore": 0.6,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1096,6 +1127,7 @@
       "dwrScore": 0.1489,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1130,6 +1162,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1164,6 +1197,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1198,6 +1232,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1232,6 +1267,7 @@
       "dwrScore": 0.56,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1268,6 +1304,7 @@
       "dwrScore": 0.2,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1304,6 +1341,7 @@
       "dwrScore": 0.1212,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1338,6 +1376,7 @@
       "dwrScore": 0.25,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1372,6 +1411,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1408,6 +1448,7 @@
       "dwrScore": 0.5833,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1442,6 +1483,7 @@
       "dwrScore": 0.5455,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1476,6 +1518,7 @@
       "dwrScore": 0.1538,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1510,6 +1553,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1546,6 +1590,7 @@
       "dwrScore": 0.0811,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1580,6 +1625,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1614,6 +1660,7 @@
       "dwrScore": 0.4781,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1650,6 +1697,7 @@
       "dwrScore": 0.0476,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1684,6 +1732,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1718,6 +1767,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1754,6 +1804,7 @@
       "dwrScore": 0.5175,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1788,6 +1839,7 @@
       "dwrScore": 0.4686,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1822,6 +1874,7 @@
       "dwrScore": 0.4585,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1858,6 +1911,7 @@
       "dwrScore": 0.4604,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1894,6 +1948,7 @@
       "dwrScore": 0.4406,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1931,6 +1986,7 @@
       "dwrScore": 0.4473,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -1967,6 +2023,7 @@
       "dwrScore": 0.428,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2003,6 +2060,7 @@
       "dwrScore": 0.4386,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2037,6 +2095,7 @@
       "dwrScore": 0.4051,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2071,6 +2130,7 @@
       "dwrScore": 0.4159,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2105,7 +2165,9 @@
       "dwrScore": 0.5018,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.141,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.2213_gemini-3.1-pro",
@@ -2139,6 +2201,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.141,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2173,6 +2236,7 @@
       "dwrScore": 0.4159,
       "consensusCategory": "consensus_review",
       "consensusCer": 0.3257,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2209,7 +2273,9 @@
       "dwrScore": 0.4363,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.104,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.2217_gemini-3.1-pro",
@@ -2243,6 +2309,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.104,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2279,6 +2346,7 @@
       "dwrScore": 0.4496,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2315,6 +2383,7 @@
       "dwrScore": 0.4362,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2351,6 +2420,7 @@
       "dwrScore": 0.4229,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2387,6 +2457,7 @@
       "dwrScore": 0.4384,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2423,6 +2494,7 @@
       "dwrScore": 0.449,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2459,6 +2531,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2495,6 +2568,7 @@
       "dwrScore": 0.4797,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2531,6 +2605,7 @@
       "dwrScore": 0.4811,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2567,6 +2642,7 @@
       "dwrScore": 0.4012,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2603,6 +2679,7 @@
       "dwrScore": 0.4789,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2637,6 +2714,7 @@
       "dwrScore": 0.4869,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2673,6 +2751,7 @@
       "dwrScore": 0.461,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2709,6 +2788,7 @@
       "dwrScore": 0.4766,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2745,6 +2825,7 @@
       "dwrScore": 0.4465,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2779,6 +2860,7 @@
       "dwrScore": 0.4289,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2815,6 +2897,7 @@
       "dwrScore": 0.4602,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2849,6 +2932,7 @@
       "dwrScore": 0.4655,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2883,6 +2967,7 @@
       "dwrScore": 0.4474,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2919,6 +3004,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2953,6 +3039,7 @@
       "dwrScore": 0.481,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -2987,6 +3074,7 @@
       "dwrScore": 0.4609,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3023,6 +3111,7 @@
       "dwrScore": 0.4638,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3059,6 +3148,7 @@
       "dwrScore": 0.4567,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3095,6 +3185,7 @@
       "dwrScore": 0.4778,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3131,6 +3222,7 @@
       "dwrScore": 0.4458,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3165,6 +3257,7 @@
       "dwrScore": 0.4447,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3201,6 +3294,7 @@
       "dwrScore": 0.4203,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3237,6 +3331,7 @@
       "dwrScore": 0.4422,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3271,6 +3366,7 @@
       "dwrScore": 0.4536,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3305,6 +3401,7 @@
       "dwrScore": 0.4698,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3341,6 +3438,7 @@
       "dwrScore": 0.45,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3375,6 +3473,7 @@
       "dwrScore": 0.4081,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3411,6 +3510,7 @@
       "dwrScore": 0.4135,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3445,6 +3545,7 @@
       "dwrScore": 0.4595,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3481,6 +3582,7 @@
       "dwrScore": 0.4404,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3517,6 +3619,7 @@
       "dwrScore": 0.4411,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3551,6 +3654,7 @@
       "dwrScore": 0.4323,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3587,6 +3691,7 @@
       "dwrScore": 0.4247,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3621,6 +3726,7 @@
       "dwrScore": 0.4372,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3657,6 +3763,7 @@
       "dwrScore": 0.4586,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3693,6 +3800,7 @@
       "dwrScore": 0.4493,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3729,6 +3837,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3763,6 +3872,7 @@
       "dwrScore": 0.4763,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3799,6 +3909,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3835,6 +3946,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3871,6 +3983,7 @@
       "dwrScore": 0.4359,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3907,6 +4020,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3943,6 +4057,7 @@
       "dwrScore": 0.4321,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -3979,6 +4094,7 @@
       "dwrScore": 0.4218,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4013,6 +4129,7 @@
       "dwrScore": 0.4798,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4047,6 +4164,7 @@
       "dwrScore": 0.414,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4081,6 +4199,7 @@
       "dwrScore": 0.4464,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4117,6 +4236,7 @@
       "dwrScore": 0.4724,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4151,6 +4271,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4185,6 +4306,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4219,6 +4341,7 @@
       "dwrScore": 0.5536,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4253,7 +4376,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1081_gt_draft",
@@ -4287,7 +4412,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1088_gt_draft",
@@ -4321,7 +4448,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1079_gemini-3.1-flash-lite-preview",
@@ -4358,6 +4487,7 @@
       "dwrScore": 0.532,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.7314,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4392,6 +4522,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.7314,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4428,6 +4559,7 @@
       "dwrScore": 0.4286,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4462,6 +4594,7 @@
       "dwrScore": 0.2381,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 1.0387,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4496,6 +4629,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 1.0387,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4532,6 +4666,7 @@
       "dwrScore": 0.3755,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4566,6 +4701,7 @@
       "dwrScore": 0.3056,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.7541,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4600,6 +4736,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.7541,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4636,6 +4773,7 @@
       "dwrScore": 0.3226,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4672,6 +4810,7 @@
       "dwrScore": 0.4752,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4706,6 +4845,7 @@
       "dwrScore": 0.455,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4742,6 +4882,7 @@
       "dwrScore": 0.3556,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4776,6 +4917,7 @@
       "dwrScore": 0.4175,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4812,6 +4954,7 @@
       "dwrScore": 0.4375,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4848,6 +4991,7 @@
       "dwrScore": 0.4832,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4884,6 +5028,7 @@
       "dwrScore": 0.2785,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4918,6 +5063,7 @@
       "dwrScore": 0.3019,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4954,6 +5100,7 @@
       "dwrScore": 0.4205,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -4988,6 +5135,7 @@
       "dwrScore": 0.2969,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5025,6 +5173,7 @@
       "dwrScore": 0.4581,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5062,6 +5211,7 @@
       "dwrScore": 0.0847,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5098,6 +5248,7 @@
       "dwrScore": 0.2439,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5134,6 +5285,7 @@
       "dwrScore": 0.5494,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5168,6 +5320,7 @@
       "dwrScore": 0.2273,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5204,6 +5357,7 @@
       "dwrScore": 0.5067,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5238,6 +5392,7 @@
       "dwrScore": 0.3636,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5274,6 +5429,7 @@
       "dwrScore": 0.4562,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5310,6 +5466,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5347,6 +5504,7 @@
       "dwrScore": 0.4848,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5383,6 +5541,7 @@
       "dwrScore": 0.4832,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5419,6 +5578,7 @@
       "dwrScore": 0.519,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5453,6 +5613,7 @@
       "dwrScore": 0.3571,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5489,6 +5650,7 @@
       "dwrScore": 0.0192,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5526,6 +5688,7 @@
       "dwrScore": 0.3718,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5562,6 +5725,7 @@
       "dwrScore": 0.4829,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5596,6 +5760,7 @@
       "dwrScore": 0.3949,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5633,6 +5798,7 @@
       "dwrScore": 0.4372,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5669,6 +5835,7 @@
       "dwrScore": 0.4404,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5705,6 +5872,7 @@
       "dwrScore": 0.4667,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5741,6 +5909,7 @@
       "dwrScore": 0.4085,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5775,6 +5944,7 @@
       "dwrScore": 0.4495,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5809,6 +5979,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5843,6 +6014,7 @@
       "dwrScore": 0.382,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5877,6 +6049,7 @@
       "dwrScore": 0.4541,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5913,6 +6086,7 @@
       "dwrScore": 0.4447,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5950,6 +6124,7 @@
       "dwrScore": 0.5037,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -5987,6 +6162,7 @@
       "dwrScore": 0.3824,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6023,6 +6199,7 @@
       "dwrScore": 0.4614,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6057,6 +6234,7 @@
       "dwrScore": 0.4783,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6091,6 +6269,7 @@
       "dwrScore": 0.4398,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6125,6 +6304,7 @@
       "dwrScore": 0.4375,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6159,6 +6339,7 @@
       "dwrScore": 0.4621,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6193,6 +6374,7 @@
       "dwrScore": 0.4167,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6227,6 +6409,7 @@
       "dwrScore": 0.384,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6261,6 +6444,7 @@
       "dwrScore": 0.4079,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6295,6 +6479,7 @@
       "dwrScore": 0.4819,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6329,6 +6514,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6363,6 +6549,7 @@
       "dwrScore": 0.4556,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6397,6 +6584,7 @@
       "dwrScore": 0.537,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6431,6 +6619,7 @@
       "dwrScore": 0.4033,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6465,6 +6654,7 @@
       "dwrScore": 0.4403,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6499,6 +6689,7 @@
       "dwrScore": 0.4337,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6533,6 +6724,7 @@
       "dwrScore": 0.5132,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6567,6 +6759,7 @@
       "dwrScore": 0.4472,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6601,6 +6794,7 @@
       "dwrScore": 0.3922,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6635,6 +6829,7 @@
       "dwrScore": 0.4505,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6669,6 +6864,7 @@
       "dwrScore": 0.39,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6705,6 +6901,7 @@
       "dwrScore": 0.1,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6739,6 +6936,7 @@
       "dwrScore": 0.54,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6773,6 +6971,7 @@
       "dwrScore": 0.4779,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6807,6 +7006,7 @@
       "dwrScore": 0.4919,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6841,6 +7041,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6875,6 +7076,7 @@
       "dwrScore": 0.4312,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6909,6 +7111,7 @@
       "dwrScore": 0.5076,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6943,6 +7146,7 @@
       "dwrScore": 0.4681,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -6977,6 +7181,7 @@
       "dwrScore": 0.5978,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7011,6 +7216,7 @@
       "dwrScore": 0.5502,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7045,6 +7251,7 @@
       "dwrScore": 0.5336,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7081,6 +7288,7 @@
       "dwrScore": 0.36,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7115,6 +7323,7 @@
       "dwrScore": 0.4066,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7149,6 +7358,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7183,6 +7393,7 @@
       "dwrScore": 0.4588,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7217,6 +7428,7 @@
       "dwrScore": 0.4621,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7251,6 +7463,7 @@
       "dwrScore": 0.5542,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7285,6 +7498,7 @@
       "dwrScore": 0.4534,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7319,6 +7533,7 @@
       "dwrScore": 0.4973,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7355,6 +7570,7 @@
       "dwrScore": 0.4322,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7389,6 +7605,7 @@
       "dwrScore": 0.16,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7425,6 +7642,7 @@
       "dwrScore": 0.3186,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7459,6 +7677,7 @@
       "dwrScore": 0.4962,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7495,6 +7714,7 @@
       "dwrScore": 0.4439,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7529,6 +7749,7 @@
       "dwrScore": 0.2951,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7563,6 +7784,7 @@
       "dwrScore": 0.4348,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7597,6 +7819,7 @@
       "dwrScore": 0.4103,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7631,6 +7854,7 @@
       "dwrScore": 0.4091,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7665,6 +7889,7 @@
       "dwrScore": 0.3247,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7701,6 +7926,7 @@
       "dwrScore": 0.3967,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7735,6 +7961,7 @@
       "dwrScore": 0.5423,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7769,6 +7996,7 @@
       "dwrScore": 0.4057,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7803,6 +8031,7 @@
       "dwrScore": 0.4239,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7837,6 +8066,7 @@
       "dwrScore": 0.5217,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7871,6 +8101,7 @@
       "dwrScore": 0.4839,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7905,6 +8136,7 @@
       "dwrScore": 0.4066,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7939,6 +8171,7 @@
       "dwrScore": 0.4914,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -7973,6 +8206,7 @@
       "dwrScore": 0.4043,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8010,6 +8244,7 @@
       "dwrScore": 0.0784,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8044,6 +8279,7 @@
       "dwrScore": 0.4419,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8078,6 +8314,7 @@
       "dwrScore": 0.3448,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8112,6 +8349,7 @@
       "dwrScore": 0.4944,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8146,6 +8384,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8180,6 +8419,7 @@
       "dwrScore": 0.3,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8214,6 +8454,7 @@
       "dwrScore": 0.5108,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8248,6 +8489,7 @@
       "dwrScore": 0.4975,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8282,6 +8524,7 @@
       "dwrScore": 0.4764,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8316,6 +8559,7 @@
       "dwrScore": 0.5283,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8350,6 +8594,7 @@
       "dwrScore": 0.4956,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8384,6 +8629,7 @@
       "dwrScore": 0.5556,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8418,6 +8664,7 @@
       "dwrScore": 0.35,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8452,6 +8699,7 @@
       "dwrScore": 0.4677,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8486,6 +8734,7 @@
       "dwrScore": 0.5549,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8520,6 +8769,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8554,6 +8804,7 @@
       "dwrScore": 0.5067,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8588,6 +8839,7 @@
       "dwrScore": 0.4898,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8622,6 +8874,7 @@
       "dwrScore": 0.4267,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8656,6 +8909,7 @@
       "dwrScore": 0.5497,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8690,6 +8944,7 @@
       "dwrScore": 0.5849,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8724,6 +8979,7 @@
       "dwrScore": 0.4527,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8758,6 +9014,7 @@
       "dwrScore": 0.4821,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8792,6 +9049,7 @@
       "dwrScore": 0.4684,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8826,6 +9084,7 @@
       "dwrScore": 0.4286,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8860,6 +9119,7 @@
       "dwrScore": 0.4689,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8894,6 +9154,7 @@
       "dwrScore": 0.4444,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8928,6 +9189,7 @@
       "dwrScore": 0.52,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8962,6 +9224,7 @@
       "dwrScore": 0.439,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -8996,6 +9259,7 @@
       "dwrScore": 0.5225,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9030,6 +9294,7 @@
       "dwrScore": 0.51,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9064,6 +9329,7 @@
       "dwrScore": 0.5052,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9098,6 +9364,7 @@
       "dwrScore": 0.4848,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9134,6 +9401,7 @@
       "dwrScore": 0.4248,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9168,6 +9436,7 @@
       "dwrScore": 0.4933,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9202,6 +9471,7 @@
       "dwrScore": 0.4636,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9236,6 +9506,7 @@
       "dwrScore": 0.4352,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9270,6 +9541,7 @@
       "dwrScore": 0.4097,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9304,6 +9576,7 @@
       "dwrScore": 0.432,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9338,6 +9611,7 @@
       "dwrScore": 0.2745,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9372,6 +9646,7 @@
       "dwrScore": 0.3774,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9406,6 +9681,7 @@
       "dwrScore": 0.4466,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9442,6 +9718,7 @@
       "dwrScore": 0.492,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9478,6 +9755,7 @@
       "dwrScore": 0.365,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9512,6 +9790,7 @@
       "dwrScore": 0.2727,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9548,6 +9827,7 @@
       "dwrScore": 0.5992,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9584,6 +9864,7 @@
       "dwrScore": 0.3529,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9618,6 +9899,7 @@
       "dwrScore": 0.395,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9655,6 +9937,7 @@
       "dwrScore": 0.4453,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9691,6 +9974,7 @@
       "dwrScore": 0.5584,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9725,6 +10009,7 @@
       "dwrScore": 0.4154,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9759,6 +10044,7 @@
       "dwrScore": 0.5238,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9795,6 +10081,7 @@
       "dwrScore": 0.499,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9831,6 +10118,7 @@
       "dwrScore": 0.4872,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9865,6 +10153,7 @@
       "dwrScore": 0.5278,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9902,6 +10191,7 @@
       "dwrScore": 0.5206,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9936,6 +10226,7 @@
       "dwrScore": 0.4431,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -9970,6 +10261,7 @@
       "dwrScore": 0.4748,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10004,6 +10296,7 @@
       "dwrScore": 0.2708,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10038,6 +10331,7 @@
       "dwrScore": 0.4504,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10075,6 +10369,7 @@
       "dwrScore": 0.3984,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10109,6 +10404,7 @@
       "dwrScore": 0.3578,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10143,6 +10439,7 @@
       "dwrScore": 0.4469,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10177,6 +10474,7 @@
       "dwrScore": 0.497,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10213,6 +10511,7 @@
       "dwrScore": 0.4377,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10250,6 +10549,7 @@
       "dwrScore": 0.4434,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10284,6 +10584,7 @@
       "dwrScore": 0.3671,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10318,6 +10619,7 @@
       "dwrScore": 0.4103,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10352,6 +10654,7 @@
       "dwrScore": 0.3611,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10386,6 +10689,7 @@
       "dwrScore": 0.4464,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10422,6 +10726,7 @@
       "dwrScore": 0.4922,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10459,6 +10764,7 @@
       "dwrScore": 0.05,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10493,6 +10799,7 @@
       "dwrScore": 0.4026,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10527,6 +10834,7 @@
       "dwrScore": 0.4828,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10563,6 +10871,7 @@
       "dwrScore": 0.5319,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10600,6 +10909,7 @@
       "dwrScore": 0.1106,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10634,6 +10944,7 @@
       "dwrScore": 0.493,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10668,6 +10979,7 @@
       "dwrScore": 0.4468,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10702,6 +11014,7 @@
       "dwrScore": 0.3788,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10738,6 +11051,7 @@
       "dwrScore": 0.4524,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10774,6 +11088,7 @@
       "dwrScore": 0.287,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10811,6 +11126,7 @@
       "dwrScore": 0.388,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10847,6 +11163,7 @@
       "dwrScore": 0.4101,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10881,6 +11198,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10915,6 +11233,7 @@
       "dwrScore": 0.4505,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10949,6 +11268,7 @@
       "dwrScore": 0.551,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -10983,6 +11303,7 @@
       "dwrScore": 0.5612,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11017,6 +11338,7 @@
       "dwrScore": 0.2706,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11051,6 +11373,7 @@
       "dwrScore": 0.4412,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11085,6 +11408,7 @@
       "dwrScore": 0.4097,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11119,6 +11443,7 @@
       "dwrScore": 0.2769,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11153,6 +11478,7 @@
       "dwrScore": 0.4817,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11187,6 +11513,7 @@
       "dwrScore": 0.4545,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11221,6 +11548,7 @@
       "dwrScore": 0.3167,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11255,6 +11583,7 @@
       "dwrScore": 0.3828,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11289,6 +11618,7 @@
       "dwrScore": 0.3579,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11323,6 +11653,7 @@
       "dwrScore": 0.3626,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11359,6 +11690,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11395,6 +11727,7 @@
       "dwrScore": 0.4333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11431,6 +11764,7 @@
       "dwrScore": 0.2604,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11465,6 +11799,7 @@
       "dwrScore": 0.4479,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11501,6 +11836,7 @@
       "dwrScore": 0.3295,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11537,6 +11873,7 @@
       "dwrScore": 0.497,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11573,6 +11910,7 @@
       "dwrScore": 0.5018,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11610,6 +11948,7 @@
       "dwrScore": 0.3226,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11644,6 +11983,7 @@
       "dwrScore": 0.505,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11678,6 +12018,7 @@
       "dwrScore": 0.4743,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11712,6 +12053,7 @@
       "dwrScore": 0.3235,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11748,6 +12090,7 @@
       "dwrScore": 0.4664,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11782,6 +12125,7 @@
       "dwrScore": 0.5168,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11816,6 +12160,7 @@
       "dwrScore": 0.5263,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11850,6 +12195,7 @@
       "dwrScore": 0.375,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11884,6 +12230,7 @@
       "dwrScore": 0.4286,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11918,6 +12265,7 @@
       "dwrScore": 0.5422,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11952,6 +12300,7 @@
       "dwrScore": 0.396,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -11986,6 +12335,7 @@
       "dwrScore": 0.5143,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12022,6 +12372,7 @@
       "dwrScore": 0.12,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12059,6 +12410,7 @@
       "dwrScore": 0.3372,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12093,6 +12445,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12127,6 +12480,7 @@
       "dwrScore": 0.2059,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12161,6 +12515,7 @@
       "dwrScore": 0.4444,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12195,6 +12550,7 @@
       "dwrScore": 0.3607,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12229,6 +12585,7 @@
       "dwrScore": 0.4623,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12263,6 +12620,7 @@
       "dwrScore": 0.2326,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12297,6 +12655,7 @@
       "dwrScore": 0.4618,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12333,6 +12692,7 @@
       "dwrScore": 0.4774,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12369,6 +12729,7 @@
       "dwrScore": 0.4393,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12405,6 +12766,7 @@
       "dwrScore": 0.4959,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12441,6 +12803,7 @@
       "dwrScore": 0.1707,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12477,6 +12840,7 @@
       "dwrScore": 0.4366,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12511,6 +12875,7 @@
       "dwrScore": 0.4962,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12545,6 +12910,7 @@
       "dwrScore": 0.5092,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12579,6 +12945,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12615,6 +12982,7 @@
       "dwrScore": 0.403,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12651,6 +13019,7 @@
       "dwrScore": 0.4571,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12687,6 +13056,7 @@
       "dwrScore": 0.3529,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12721,6 +13091,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12757,6 +13128,7 @@
       "dwrScore": 0.4755,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12793,6 +13165,7 @@
       "dwrScore": 0.4894,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12827,6 +13200,7 @@
       "dwrScore": 0.4913,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12863,6 +13237,7 @@
       "dwrScore": 0.4536,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12899,6 +13274,7 @@
       "dwrScore": 0.3797,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12933,6 +13309,7 @@
       "dwrScore": 0.3563,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -12969,6 +13346,7 @@
       "dwrScore": 0.3398,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13005,6 +13383,7 @@
       "dwrScore": 0.0488,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13042,6 +13421,7 @@
       "dwrScore": 0.3273,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13079,6 +13459,7 @@
       "dwrScore": 0.0625,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13113,6 +13494,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13147,6 +13529,7 @@
       "dwrScore": 0.3438,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13183,6 +13566,7 @@
       "dwrScore": 0.2752,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13217,6 +13601,7 @@
       "dwrScore": 0.4754,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13251,6 +13636,7 @@
       "dwrScore": 0.4094,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13285,6 +13671,7 @@
       "dwrScore": 0.3301,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13319,6 +13706,7 @@
       "dwrScore": 0.4225,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13353,6 +13741,7 @@
       "dwrScore": 0.4924,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13389,6 +13778,7 @@
       "dwrScore": 0.4966,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13423,6 +13813,7 @@
       "dwrScore": 0.488,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13457,6 +13848,7 @@
       "dwrScore": 0.4733,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13493,6 +13885,7 @@
       "dwrScore": 0.4128,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13527,6 +13920,7 @@
       "dwrScore": 0.4889,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13563,6 +13957,7 @@
       "dwrScore": 0.5054,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13597,6 +13992,7 @@
       "dwrScore": 0.4381,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13631,6 +14027,7 @@
       "dwrScore": 0.4458,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13667,6 +14064,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13703,6 +14101,7 @@
       "dwrScore": 0.4448,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13739,6 +14138,7 @@
       "dwrScore": 0.4423,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13775,6 +14175,7 @@
       "dwrScore": 0.5026,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13811,6 +14212,7 @@
       "dwrScore": 0.5124,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13847,6 +14249,7 @@
       "dwrScore": 0.4642,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13881,6 +14284,7 @@
       "dwrScore": 0.5095,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13915,6 +14319,7 @@
       "dwrScore": 0.44,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13949,6 +14354,7 @@
       "dwrScore": 0.5244,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -13983,6 +14389,7 @@
       "dwrScore": 0.2297,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14019,6 +14426,7 @@
       "dwrScore": 0.4211,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14055,6 +14463,7 @@
       "dwrScore": 0.454,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14089,6 +14498,7 @@
       "dwrScore": 0.3673,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14123,6 +14533,7 @@
       "dwrScore": 0.4887,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14157,6 +14568,7 @@
       "dwrScore": 0.4469,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14193,6 +14605,7 @@
       "dwrScore": 0.4838,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14227,6 +14640,7 @@
       "dwrScore": 0.2809,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14261,6 +14675,7 @@
       "dwrScore": 0.4861,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14295,6 +14710,7 @@
       "dwrScore": 0.3373,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14331,6 +14747,7 @@
       "dwrScore": 0.4587,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14365,6 +14782,7 @@
       "dwrScore": 0.4205,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14401,6 +14819,7 @@
       "dwrScore": 0.5023,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14435,7 +14854,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
@@ -14469,6 +14890,7 @@
       "dwrScore": 0.5103,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14503,7 +14925,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.141_gt_draft",
@@ -14537,7 +14961,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.139_gemini-3.1-flash-lite-preview",
@@ -14571,6 +14997,7 @@
       "dwrScore": 0.0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0233,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14605,6 +15032,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0233,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14641,6 +15069,7 @@
       "dwrScore": 0.1176,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.2364,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14675,6 +15104,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.2364,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14709,6 +15139,7 @@
       "dwrScore": 0.4103,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0174,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14745,6 +15176,7 @@
       "dwrScore": 0.3787,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14781,6 +15213,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14815,6 +15248,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14851,6 +15285,7 @@
       "dwrScore": 0.3686,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14889,6 +15324,7 @@
       "dwrScore": 0.1364,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14923,6 +15359,7 @@
       "dwrScore": 0.3686,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14960,6 +15397,7 @@
       "dwrScore": 0.3817,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -14997,6 +15435,7 @@
       "dwrScore": 0.5023,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15034,6 +15473,7 @@
       "dwrScore": 0.4901,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15071,6 +15511,7 @@
       "dwrScore": 0.4248,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15108,6 +15549,7 @@
       "dwrScore": 0.55,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15144,6 +15586,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15181,6 +15624,7 @@
       "dwrScore": 0.4535,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15215,6 +15659,7 @@
       "dwrScore": 0.4892,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15252,6 +15697,7 @@
       "dwrScore": 0.4658,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15286,6 +15732,7 @@
       "dwrScore": 0.5302,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15323,6 +15770,7 @@
       "dwrScore": 0.0807,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15359,6 +15807,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15395,6 +15844,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15429,6 +15879,7 @@
       "dwrScore": 0.3635,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15463,6 +15914,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15497,7 +15949,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
@@ -15531,6 +15985,7 @@
       "dwrScore": 0.3988,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0757,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15565,6 +16020,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0757,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15601,6 +16057,7 @@
       "dwrScore": 0.4976,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.1174,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15635,6 +16092,7 @@
       "dwrScore": 0.4447,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0546,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15669,6 +16127,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0546,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15703,6 +16162,7 @@
       "dwrScore": 0.2727,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15737,6 +16197,7 @@
       "dwrScore": 0.3535,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15771,6 +16232,7 @@
       "dwrScore": 0.1504,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15805,6 +16267,7 @@
       "dwrScore": 0.1795,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15839,6 +16302,7 @@
       "dwrScore": 0.3518,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15873,6 +16337,7 @@
       "dwrScore": 0.3365,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15907,6 +16372,7 @@
       "dwrScore": 0.3826,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15941,6 +16407,7 @@
       "dwrScore": 0.3579,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -15975,6 +16442,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16009,6 +16477,7 @@
       "dwrScore": 0.3397,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16043,6 +16512,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16077,6 +16547,7 @@
       "dwrScore": 0.4262,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16111,6 +16582,7 @@
       "dwrScore": 0.3345,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16145,6 +16617,7 @@
       "dwrScore": 0.3089,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16181,6 +16654,7 @@
       "dwrScore": 0.3268,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16215,6 +16689,7 @@
       "dwrScore": 0.3333,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16249,6 +16724,7 @@
       "dwrScore": 0.3232,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16283,6 +16759,7 @@
       "dwrScore": 0.3037,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16319,6 +16796,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16353,6 +16831,7 @@
       "dwrScore": 0.3504,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16387,6 +16866,7 @@
       "dwrScore": 0.3802,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16421,6 +16901,7 @@
       "dwrScore": 0.3475,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16455,6 +16936,7 @@
       "dwrScore": 0.3609,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16489,6 +16971,7 @@
       "dwrScore": 0.3556,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16523,6 +17006,7 @@
       "dwrScore": 0.3158,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16557,6 +17041,7 @@
       "dwrScore": 0.2229,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16591,6 +17076,7 @@
       "dwrScore": 0.3385,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16627,6 +17113,7 @@
       "dwrScore": 0.2647,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16661,6 +17148,7 @@
       "dwrScore": 0.2519,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16695,6 +17183,7 @@
       "dwrScore": 0.3084,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16729,6 +17218,7 @@
       "dwrScore": 0.3581,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16763,6 +17253,7 @@
       "dwrScore": 0.376,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16797,6 +17288,7 @@
       "dwrScore": 0.3577,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16834,6 +17326,7 @@
       "dwrScore": 0.1142,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16868,6 +17361,7 @@
       "dwrScore": 0.428,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16904,6 +17398,7 @@
       "dwrScore": 0.3831,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16938,6 +17433,7 @@
       "dwrScore": 0.3787,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -16972,6 +17468,7 @@
       "dwrScore": 0.3557,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17008,6 +17505,7 @@
       "dwrScore": 0.0495,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17042,6 +17540,7 @@
       "dwrScore": 0.3618,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17076,6 +17575,7 @@
       "dwrScore": 0.3172,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17110,6 +17610,7 @@
       "dwrScore": 0.4853,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17144,6 +17645,7 @@
       "dwrScore": 0.4795,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17178,6 +17680,7 @@
       "dwrScore": 0.2712,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17212,6 +17715,7 @@
       "dwrScore": 0.3315,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17246,6 +17750,7 @@
       "dwrScore": 0.3522,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17280,6 +17785,7 @@
       "dwrScore": 0.3682,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17314,6 +17820,7 @@
       "dwrScore": 0.368,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17348,6 +17855,7 @@
       "dwrScore": 0.3252,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17382,6 +17890,7 @@
       "dwrScore": 0.283,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17418,6 +17927,7 @@
       "dwrScore": 0.0498,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17452,6 +17962,7 @@
       "dwrScore": 0.2926,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17486,6 +17997,7 @@
       "dwrScore": 0.2459,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17520,6 +18032,7 @@
       "dwrScore": 0.2786,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17554,6 +18067,7 @@
       "dwrScore": 0.3848,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17588,6 +18102,7 @@
       "dwrScore": 0.4853,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17624,6 +18139,81 @@
       "dwrScore": 0.499,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
+      "hasGT": false
+    },
+    {
+      "id": "o_szd.98_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Agreement THE VIKING PRESS, INC.",
+      "group": "B",
+      "groupLabel": "Typoskript",
+      "pid": "o:szd.98",
+      "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.21",
+      "titleClean": "Agreement THE VIKING PRESS, INC.",
+      "signature": "SZ-AAP/L13.21",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskript",
+      "lang": "Englisch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.98/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 12619,
+        "emptyPages": 1,
+        "avgCharsPerPage": 3155,
+        "vlmConfidence": "high"
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly"
+      ],
+      "blankPages": 0,
+      "contentPages": 4,
+      "dwrScore": 0.4839,
+      "consensusCategory": null,
+      "consensusCer": null,
+      "reviewStatus": null,
+      "hasGT": false
+    },
+    {
+      "id": "o_szd.99_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Agreement THE VIKING PRESS, INC.",
+      "group": "B",
+      "groupLabel": "Typoskript",
+      "pid": "o:szd.99",
+      "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.22",
+      "titleClean": "Agreement THE VIKING PRESS, INC.",
+      "signature": "SZ-AAP/L13.22",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskriptdurchschlag",
+      "lang": "Englisch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.99/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 12646,
+        "emptyPages": 1,
+        "avgCharsPerPage": 3162,
+        "vlmConfidence": "high"
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly"
+      ],
+      "blankPages": 0,
+      "contentPages": 4,
+      "dwrScore": 0.481,
+      "consensusCategory": null,
+      "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17660,6 +18250,7 @@
       "dwrScore": 0.3032,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17694,7 +18285,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.146_gt_draft",
@@ -17728,7 +18321,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1056_gemini-3.1-flash-lite-preview",
@@ -17764,6 +18359,7 @@
       "dwrScore": 0.2393,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.5063,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17800,6 +18396,7 @@
       "dwrScore": 0.4117,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17834,6 +18431,7 @@
       "dwrScore": 0.1739,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0251,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17868,6 +18466,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0251,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17902,6 +18501,7 @@
       "dwrScore": 0.4261,
       "consensusCategory": "consensus_review",
       "consensusCer": 0.2984,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17936,6 +18536,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_review",
       "consensusCer": 0.2984,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -17973,6 +18574,7 @@
       "dwrScore": 0.3165,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18007,6 +18609,7 @@
       "dwrScore": 0.386,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18043,6 +18646,7 @@
       "dwrScore": 0.3036,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18079,6 +18683,7 @@
       "dwrScore": 0.125,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18115,6 +18720,7 @@
       "dwrScore": 0.2659,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18149,6 +18755,7 @@
       "dwrScore": 0.2424,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18186,6 +18793,7 @@
       "dwrScore": 0.4237,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18222,6 +18830,7 @@
       "dwrScore": 0.3487,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18259,6 +18868,7 @@
       "dwrScore": 0.3784,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18297,6 +18907,7 @@
       "dwrScore": 0.4805,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18333,6 +18944,7 @@
       "dwrScore": 0.4343,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18370,6 +18982,7 @@
       "dwrScore": 0.5054,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18404,6 +19017,7 @@
       "dwrScore": 0.3692,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18442,6 +19056,7 @@
       "dwrScore": 0.1164,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18476,6 +19091,7 @@
       "dwrScore": 0.3808,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18513,6 +19129,7 @@
       "dwrScore": 0.363,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18549,6 +19166,7 @@
       "dwrScore": 0.0294,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18583,7 +19201,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.148_gt_draft",
@@ -18617,7 +19237,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.137_gemini-3.1-flash-lite-preview",
@@ -18653,6 +19275,7 @@
       "dwrScore": 0.0833,
       "consensusCategory": "consensus_review",
       "consensusCer": 0.9375,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18689,6 +19312,7 @@
       "dwrScore": 0.1429,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18723,6 +19347,7 @@
       "dwrScore": 0.0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.5545,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18757,6 +19382,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.5545,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18791,6 +19417,7 @@
       "dwrScore": 0.1731,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.4578,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18825,6 +19452,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0.4578,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18859,6 +19487,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18895,6 +19524,7 @@
       "dwrScore": 0.5,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 0,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18929,6 +19559,7 @@
       "dwrScore": 0.5,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18963,6 +19594,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -18997,6 +19629,7 @@
       "dwrScore": 0.5789,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19031,6 +19664,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19065,6 +19699,7 @@
       "dwrScore": 0.5556,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19099,6 +19734,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19133,6 +19769,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19167,6 +19804,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19203,6 +19841,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19237,6 +19876,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19271,6 +19911,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19305,7 +19946,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.195_gt_draft",
@@ -19339,7 +19982,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
@@ -19373,6 +20018,7 @@
       "dwrScore": 0.0,
       "consensusCategory": "consensus_divergent",
       "consensusCer": 1.0,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19409,6 +20055,7 @@
       "dwrScore": 0.2857,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.04,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19443,6 +20090,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.04,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19479,6 +20127,7 @@
       "dwrScore": 0.171,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19515,6 +20164,7 @@
       "dwrScore": 0.2586,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19549,6 +20199,7 @@
       "dwrScore": 0.25,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0667,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19583,6 +20234,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0667,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19617,7 +20269,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.127_gemini-3.1-flash-lite-preview",
@@ -19651,6 +20305,7 @@
       "dwrScore": 0.2126,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0308,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19685,6 +20340,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0308,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19722,6 +20378,7 @@
       "dwrScore": 0.4679,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19758,6 +20415,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19792,6 +20450,7 @@
       "dwrScore": 0.2571,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19828,6 +20487,7 @@
       "dwrScore": 0.5205,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19862,6 +20522,7 @@
       "dwrScore": 0.408,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19898,6 +20559,7 @@
       "dwrScore": 0.4469,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19934,6 +20596,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -19970,6 +20633,7 @@
       "dwrScore": 0.4694,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20008,6 +20672,7 @@
       "dwrScore": 0.4633,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20045,6 +20710,7 @@
       "dwrScore": 0.4419,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20082,6 +20748,7 @@
       "dwrScore": 0.4303,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20119,6 +20786,7 @@
       "dwrScore": 0.4322,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20157,6 +20825,7 @@
       "dwrScore": 0.4736,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20193,6 +20862,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20229,6 +20899,7 @@
       "dwrScore": 0.4746,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20265,6 +20936,7 @@
       "dwrScore": 0.4655,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20302,6 +20974,7 @@
       "dwrScore": 0.5277,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20339,6 +21012,7 @@
       "dwrScore": 0.5297,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20376,6 +21050,7 @@
       "dwrScore": 0.5245,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20410,6 +21085,7 @@
       "dwrScore": 0.4749,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20447,6 +21123,7 @@
       "dwrScore": 0.4528,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20484,6 +21161,7 @@
       "dwrScore": 0.493,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20518,6 +21196,7 @@
       "dwrScore": 0.4781,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20554,6 +21233,7 @@
       "dwrScore": 0.4895,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20590,6 +21270,7 @@
       "dwrScore": 0.4627,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20626,6 +21307,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20662,6 +21344,7 @@
       "dwrScore": 0.4018,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20698,6 +21381,7 @@
       "dwrScore": 0.4006,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20732,6 +21416,7 @@
       "dwrScore": 0.4861,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20766,6 +21451,7 @@
       "dwrScore": 0.4963,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20802,6 +21488,7 @@
       "dwrScore": 0.4878,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20836,6 +21523,7 @@
       "dwrScore": 0.4485,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20870,6 +21558,7 @@
       "dwrScore": 0.4886,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20906,6 +21595,7 @@
       "dwrScore": 0.5015,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20942,6 +21632,7 @@
       "dwrScore": 0.4228,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -20978,6 +21669,7 @@
       "dwrScore": 0.4228,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21014,6 +21706,7 @@
       "dwrScore": 0.4834,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21048,7 +21741,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1888_gt_draft",
@@ -21082,7 +21777,9 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "hasGT": true
+      "reviewStatus": null,
+      "hasGT": true,
+      "gtVerified": false
     },
     {
       "id": "o_szd.1887_gemini-3.1-flash-lite-preview",
@@ -21118,6 +21815,7 @@
       "dwrScore": 0.4456,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0048,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21152,6 +21850,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0048,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21186,6 +21885,7 @@
       "dwrScore": 0.417,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0052,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21220,6 +21920,7 @@
       "dwrScore": 0,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0052,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21256,6 +21957,7 @@
       "dwrScore": 0.4335,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21290,6 +21992,7 @@
       "dwrScore": 0.4362,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0068,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21324,6 +22027,7 @@
       "dwrScore": 0.4273,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21358,6 +22062,7 @@
       "dwrScore": 0.4842,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21392,6 +22097,7 @@
       "dwrScore": 0.4265,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21426,6 +22132,7 @@
       "dwrScore": 0.4099,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21462,6 +22169,7 @@
       "dwrScore": 0.421,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21496,6 +22204,7 @@
       "dwrScore": 0.4863,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.5227,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21532,6 +22241,7 @@
       "dwrScore": 0.4432,
       "consensusCategory": "consensus_review",
       "consensusCer": 1.4557,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21566,6 +22276,7 @@
       "dwrScore": 0.4335,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21602,6 +22313,7 @@
       "dwrScore": 0.4439,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21640,6 +22352,7 @@
       "dwrScore": 0.31,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21676,6 +22389,7 @@
       "dwrScore": 0.4803,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21712,6 +22426,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21746,6 +22461,7 @@
       "dwrScore": 0.4459,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     },
     {
@@ -21782,6 +22498,7 @@
       "dwrScore": 0.4558,
       "consensusCategory": null,
       "consensusCer": null,
+      "reviewStatus": null,
       "hasGT": false
     }
   ],

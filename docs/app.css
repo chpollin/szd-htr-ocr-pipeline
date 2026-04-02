@@ -133,10 +133,32 @@ a:hover { color: var(--sz-burgundy-dark); }
   letter-spacing: 0.02em;
 }
 
+.site-header__badge {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.site-header__badge strong {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;
+}
+
 .site-header__nav {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.site-header__catalog-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .site-header__nav a,
@@ -149,7 +171,7 @@ a:hover { color: var(--sz-burgundy-dark); }
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.25rem 0;
+  padding: 0.25rem 0.15rem;
   border-bottom: 2px solid transparent;
   transition: all var(--transition);
   font-family: var(--font-sans);
@@ -1469,6 +1491,7 @@ body.view-about #knowledgeDoc { display: none; }
 @media (max-width: 600px) {
   .site-header { padding: 0 0.75rem; }
   .site-header__title span { display: none; }
+  .site-header__badge { display: none; }
 
   .catalog { padding: 1rem 0.75rem; }
   .catalog__toolbar { flex-direction: column; }

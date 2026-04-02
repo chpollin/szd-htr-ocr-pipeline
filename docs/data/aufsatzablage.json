@@ -95,7 +95,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2216_gemini-3.1-flash-lite-preview",
@@ -194,7 +195,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2219_gemini-3.1-flash-lite-preview",
@@ -291,7 +293,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2221_gemini-3.1-flash-lite-preview",
@@ -388,7 +391,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2223_gemini-3.1-flash-lite-preview",
@@ -485,7 +489,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2225_gemini-3.1-flash-lite-preview",
@@ -582,7 +587,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2227_gemini-3.1-flash-lite-preview",
@@ -679,7 +685,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2228_gemini-3.1-flash-lite-preview",
@@ -744,7 +751,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2229_gemini-3.1-flash-lite-preview",
@@ -841,7 +849,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2231_gemini-3.1-flash-lite-preview",
@@ -938,7 +947,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2234_gemini-3.1-flash-lite-preview",
@@ -997,7 +1007,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2239_gemini-3.1-flash-lite-preview",
@@ -1094,7 +1105,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2241_gemini-3.1-flash-lite-preview",
@@ -1191,7 +1203,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2243_gemini-3.1-flash-lite-preview",
@@ -1288,7 +1301,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2245_gemini-3.1-flash-lite-preview",
@@ -1433,7 +1447,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2248_gemini-3.1-flash-lite-preview",
@@ -1530,7 +1545,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2250_gemini-3.1-flash-lite-preview",
@@ -1627,7 +1643,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2252_gemini-3.1-flash-lite-preview",
@@ -1724,7 +1741,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2253_gemini-3.1-flash-lite-preview",
@@ -1821,7 +1839,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2255_gemini-3.1-flash-lite-preview",
@@ -1918,7 +1937,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2257_gemini-3.1-flash-lite-preview",
@@ -2019,7 +2039,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2260_gemini-3.1-flash-lite-preview",
@@ -2116,7 +2137,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2263_gemini-3.1-flash-lite-preview",
@@ -2213,7 +2235,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2266_gemini-3.1-flash-lite-preview",
@@ -2310,7 +2333,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2267_gemini-3.1-flash-lite-preview",
@@ -2407,7 +2431,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2272_gemini-3.1-flash-lite-preview",
@@ -2504,7 +2529,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2274_gemini-3.1-flash-lite-preview",
@@ -2601,7 +2627,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2278_gemini-3.1-flash-lite-preview",
@@ -2689,7 +2716,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2283_gemini-3.1-flash-lite-preview",
@@ -2786,7 +2814,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2285_gemini-3.1-flash-lite-preview",
@@ -2883,7 +2912,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2289_gemini-3.1-flash-lite-preview",
@@ -2980,7 +3010,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2292_gemini-3.1-flash-lite-preview",
@@ -3079,7 +3110,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2295_gemini-3.1-flash-lite-preview",
@@ -3176,7 +3208,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2297_gemini-3.1-flash-lite-preview",
@@ -3273,7 +3306,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2299_gemini-3.1-flash-lite-preview",
@@ -3370,7 +3404,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2301_gemini-3.1-flash-lite-preview",
@@ -3467,7 +3502,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2305_gemini-3.1-flash-lite-preview",
@@ -3534,7 +3570,8 @@
           "marker_density"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2306_gemini-3.1-flash-lite-preview",
@@ -3633,7 +3670,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2308_gemini-3.1-flash-lite-preview",
@@ -3730,7 +3768,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2310_gemini-3.1-flash-lite-preview",
@@ -3827,7 +3866,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2312_gemini-3.1-flash-lite-preview",
@@ -3886,7 +3926,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2315_gemini-3.1-flash-lite-preview",
@@ -3983,7 +4024,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2316_gemini-3.1-flash-lite-preview",
@@ -4080,7 +4122,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2320_gemini-3.1-flash-lite-preview",
@@ -4177,7 +4220,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2323_gemini-3.1-flash-lite-preview",
@@ -4276,7 +4320,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2324_gemini-3.1-flash-lite-preview",
@@ -4373,7 +4418,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2325_gemini-3.1-flash-lite-preview",
@@ -4774,7 +4820,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2326_gemini-3.1-flash-lite-preview",
@@ -4873,7 +4920,8 @@
           "low_dwr"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2329_gemini-3.1-flash-lite-preview",
@@ -4970,7 +5018,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2331_gemini-3.1-flash-lite-preview",
@@ -5067,7 +5116,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2238_gemini-3.1-flash-lite-preview",
@@ -5139,7 +5189,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2259_gemini-3.1-flash-lite-preview",
@@ -5204,7 +5255,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2268_gemini-3.1-flash-lite-preview",
@@ -5333,7 +5385,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2271_gemini-3.1-flash-lite-preview",
@@ -5384,7 +5437,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2284_gemini-3.1-flash-lite-preview",
@@ -5483,7 +5537,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2303_gemini-3.1-flash-lite-preview",
@@ -5572,7 +5627,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2322_gemini-3.1-flash-lite-preview",
@@ -5639,7 +5695,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2328_gemini-3.1-flash-lite-preview",
@@ -5810,7 +5867,8 @@
           "page_length_anomaly"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2296_gemini-3.1-flash-lite-preview",
@@ -5891,7 +5949,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "zeitungsausschnitt_gemini-3.1-flash-lite-preview",
@@ -5953,7 +6012,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2213_gemini-3.1-flash-lite-preview",
@@ -6073,7 +6133,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.2213_gemini-3.1-pro",
@@ -6184,7 +6245,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.2215_gemini-3.1-flash-lite-preview",
@@ -6287,7 +6349,8 @@
             "transcription_b": ""
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.2217_gemini-3.1-flash-lite-preview",
@@ -6358,7 +6421,8 @@
             "transcription_b": "Das deutsche Walt Whitman-Werk\nBerl. Tagebl. Von [Nachdruck verboten.]\nStefan Zweig.\n\nVor etwa einem halben Jahrhundert brachte Ferdinand Freilig-\nrath, unvergessener Pionier demokratischen Geistes, den Deutschen\nzum erstenmal Walt Whitman in einem Bündel Uebersetzungen. Die\ndeutsche Geistigkeit, die damals ihr lyrisches Ideal in Paul Heyse und\nbestenfalls in Eduard Mörike suchte, sah in diesen breithinhollenden,\nwild ihrem eigenen Rhythmus nachströmenden Gedichten kaum mehr\nals einen merkwürdigen Barbarismus, genau so wie sie, vom Ideal\neiner falschen Klassizität benommen, die chinesischen, die japanischen\nGedichte, diese Essenzen des Stimmungsgedichtes, nur als merkwürdig,\nnur als „kurios“ empfand, als eines jener Mitbringsel aus den Tro-\npen ohne irgend einen Beziehungswert zu unserer Welt.\nNach einem Vierteljahrhundert war es dann ein Deutschamerikaner\nund schließlich Johannes Schlaf, die mit erneuter Leidenschaft für den\n„guten grauen Dichter“ eintraten, dann kamen Karl Federn, Max\nHayek und eine ganze Reihe anderer, jeder mit Uebersetzungen, der\n„Grashalme“, bis allmählich eine Ahnung von Whitmans Wesenheit\nund Wirkung bei uns in Deutschland aufging, während gleichzeitig in\nFrankreich seit 20 Jahren unser brüderlicher Freund Leon Bazalgette\nmit Uebertragungen und einer prachtvollen Biographie ihm Bahn\nin das europäische Geistesleben brach.\nNun fühlt man ihn schon als den, der er ist: der stärkste\nDynamo moderner Lyrik, ungeheure Ströme von Kraft und\nHelligkeit aus der rhythmischen Energie seiner Gedichte ver-\nbreitend, ein Energiezentrum ohnegleichen, angehäuft mit Schwung,\ngenug, um ein Weltall damit zu erfüllen. Und unerschöpflich\nist dieser Mensch, dieses Dichters Vitalität, sie reicht nicht nur aus für\nsein eigenes Leben, sie reicht nicht nur aus, um dann noch das Gedicht\nganz mit dieser glühenden Existenzwärme zu erfüllen, sie hat noch\nKraft, durch dieses Gedicht andere Lebenskräfte zu steigern: drei\nZeilen, einen Abstoß Walt Whitmans nur muß man lesen, und schon\nfühlt man den elektrischen Funken in sich überspringen, alle gedrückten\nEnergien straffen sich auf, der Kern der Vitalität ist wie von Sonne\nbestrahlt und beginnt zu blühen und zu fruchten. Greift man aber\ntiefer in seine Fülle, wirft man sich ganz in den Katarakt seiner Hym-\nnen hinein, so scheint einem dies eigen Bewußte in einem panischen\nTaumel zu entschwinden: man rauscht selbst hinein, weggerissen von\ndem rauschenden Kaskaden dieser Ströme, zerstampft von der Wucht\ndieser schäumenden, niederstürzenden Unendlichkeit.\nDie Intensität dieses Werkes, sie kannte man also schon, diese\nbei aller Breite des Ganzen und Einzelnen so gepreßte Selbstheit des\n\nDichters, die so stark ist, daß eine Strophe schon berauscht, eine\nSeite schon lebenstrunken macht: in dem kleinsten seiner Gedichte,\nin einer Zeile schon ist Whitman ja immer enthalten, sowie ganze\nWälder in einem Samenkorn. Aber die volle Breite seines Werkes,\ndie Fülle, die Vehemenz seiner Dichtung vermögen in Deutschland\njene, denen die Originale nicht zugänglich sind, erst heute kennen\nlernen an der umfassenden zweibändigen Ausgabe, die Hans Reisiger\n— Dank ihm, innigster Dank! — nun endlich meisterlich zu Ende\ngeführt und bei S. Fischer erscheinen ließ.\nSie ist voll, sie ist weit, sie ist lebendig und breit-\nschultrig wie er selbst. Walt Whitman, sie stellt nur dar,\nohne zu übertreiben, ohne zu umschreiben, ohne jeden\nder modischen Versuche, einen Menschheitsdichter rasch in eine neue\nReligiosität umzuschwindeln, oder ihn zum Parteimann zu degra-\ndieren. Ihr innerster Wille ist, Walt Whitman nicht nur lyrisch\nals Rhythmikiker empfinden zu lassen wie bisher, aber auch nicht\npolitisch als demokratisch und nationalpsychologisch als Amerikaner,\nsondern einfach als Element, stark leuchtend und unerschöpflich wie\nRadium, klar wie Wasser, hell wie Sonne und rein schmeckend wie\nMorgenluft, als eine innere, unzerstörbare Einheit, in der Mann\nund Werk, Leben und Dichtung nur zwei verschiedene und doch kom-\nplementäre Formen derselben einmaligen Urkraft sind.\nDiese Form, einen fremdländischen Lyriker wiederzugeben,\nindem man sich nicht darauf beschränkt, einzelne\nProben in das Deutsch-lyrische umzumodellieren oder\nkünstlich die Gesamtheit seiner Gedichte nachzubilden, son-\ndern indem man bei der Auswahl seiner Gedichte auch die\nFülle seines Lebens entgegenstellt, indem man den lyrischen Men-\nschen, die Erscheinung als Lebenselement, als Typus in deutscher\nSprache ahnen macht, die ja doch das lyrische Geheimnis der anderen\nnie ganz mitzuteilen vermag — sie scheint mir die einzig Not-\nwendige in Deutschland.\nMan verzeihe mir’s, wenn ich da einen Augenblick\nvon mir selbst spreche: ich habe bei Verhaeren, Rimbaud,\nDesbordes-Valmore, Verlaine dieses Prinzip längst als das einzig\nwesentliche und wahrhafte erkannt und eben aus der Schwierigkeit,\ndie sich da oft der Bildkräftigkeit eines Menschen, der Durch-\ndringungsfähigkeit seines Gedichts mir entgegenstellte, vermag ich es\nso recht nachfühlend zu sagen, wie ausgezeichnet hier Hans Reisiger\nder Zusammenklang gelungen ist und wie rein der Urton Walt\nWhitmans mir in diesem Zusammenhang erscheint.\nIn den Versen rollt Rhythmus straff und nur von innen\ngebändigt dahin, zum erstenmal zeigen die „Demokratie\nLista“, diese herrlichen Prosaseiten, das bisher unüber-\nsetzte erläuterte Manifest des Dichters an die Menschheit.\nBriefe und Aufsätze tun seine innersten und persönlichen\n\nGedanken auf, das Ganze aber faßt eine ausgezeichnete Bio-\ngraphie zusammen, klar, knapp, menschlich, ohne künstliche Dunkel-\nheiten, gleichsam selbst durchfiltert von dem offenen, hellen Lebens-\nblick Walt Whitmans, ein rechtes Meisterstück bescheiden-kräftiger\nDarstellung, einzig vergleichbar der schönen Liebestat Leon Bazal-\ngettes in Frankreich.\nSo ward ein Buch, das man von innen her lieben muß,\nzu dem man immer wieder zurückkehrt, um Kraft und\nFreude für eine Stunde sich anzutrinken, ein Buch, das ein Mensch-\ngedicht gestaltet, seine Gestalt zum Erlebnis macht und darum mehr\nals ein Buch bloß wird: eine Tat, eine echte und rechte, rein schöpfe-\nrische Tat."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.2217_gemini-3.1-pro",
@@ -6424,7 +6488,8 @@
             "transcription_b": "Das deutsche Walt Whitman-Werk\nBerl. Tagebl. Von [Nachdruck verboten.]\nStefan Zweig.\n\nVor etwa einem halben Jahrhundert brachte Ferdinand Freilig-\nrath, unvergessener Pionier demokratischen Geistes, den Deutschen\nzum erstenmal Walt Whitman in einem Bündel Uebersetzungen. Die\ndeutsche Geistigkeit, die damals ihr lyrisches Ideal in Paul Heyse und\nbestenfalls in Eduard Mörike suchte, sah in diesen breithinhollenden,\nwild ihrem eigenen Rhythmus nachströmenden Gedichten kaum mehr\nals einen merkwürdigen Barbarismus, genau so wie sie, vom Ideal\neiner falschen Klassizität benommen, die chinesischen, die japanischen\nGedichte, diese Essenzen des Stimmungsgedichtes, nur als merkwürdig,\nnur als „kurios“ empfand, als eines jener Mitbringsel aus den Tro-\npen ohne irgend einen Beziehungswert zu unserer Welt.\nNach einem Vierteljahrhundert war es dann ein Deutschamerikaner\nund schließlich Johannes Schlaf, die mit erneuter Leidenschaft für den\n„guten grauen Dichter“ eintraten, dann kamen Karl Federn, Max\nHayek und eine ganze Reihe anderer, jeder mit Uebersetzungen, der\n„Grashalme“, bis allmählich eine Ahnung von Whitmans Wesenheit\nund Wirkung bei uns in Deutschland aufging, während gleichzeitig in\nFrankreich seit 20 Jahren unser brüderlicher Freund Leon Bazalgette\nmit Uebertragungen und einer prachtvollen Biographie ihm Bahn\nin das europäische Geistesleben brach.\nNun fühlt man ihn schon als den, der er ist: der stärkste\nDynamo moderner Lyrik, ungeheure Ströme von Kraft und\nHelligkeit aus der rhythmischen Energie seiner Gedichte ver-\nbreitend, ein Energiezentrum ohnegleichen, angehäuft mit Schwung,\ngenug, um ein Weltall damit zu erfüllen. Und unerschöpflich\nist dieser Mensch, dieses Dichters Vitalität, sie reicht nicht nur aus für\nsein eigenes Leben, sie reicht nicht nur aus, um dann noch das Gedicht\nganz mit dieser glühenden Existenzwärme zu erfüllen, sie hat noch\nKraft, durch dieses Gedicht andere Lebenskräfte zu steigern: drei\nZeilen, einen Abstoß Walt Whitmans nur muß man lesen, und schon\nfühlt man den elektrischen Funken in sich überspringen, alle gedrückten\nEnergien straffen sich auf, der Kern der Vitalität ist wie von Sonne\nbestrahlt und beginnt zu blühen und zu fruchten. Greift man aber\ntiefer in seine Fülle, wirft man sich ganz in den Katarakt seiner Hym-\nnen hinein, so scheint einem dies eigen Bewußte in einem panischen\nTaumel zu entschwinden: man rauscht selbst hinein, weggerissen von\ndem rauschenden Kaskaden dieser Ströme, zerstampft von der Wucht\ndieser schäumenden, niederstürzenden Unendlichkeit.\nDie Intensität dieses Werkes, sie kannte man also schon, diese\nbei aller Breite des Ganzen und Einzelnen so gepreßte Selbstheit des\n\nDichters, die so stark ist, daß eine Strophe schon berauscht, eine\nSeite schon lebenstrunken macht: in dem kleinsten seiner Gedichte,\nin einer Zeile schon ist Whitman ja immer enthalten, sowie ganze\nWälder in einem Samenkorn. Aber die volle Breite seines Werkes,\ndie Fülle, die Vehemenz seiner Dichtung vermögen in Deutschland\njene, denen die Originale nicht zugänglich sind, erst heute kennen\nlernen an der umfassenden zweibändigen Ausgabe, die Hans Reisiger\n— Dank ihm, innigster Dank! — nun endlich meisterlich zu Ende\ngeführt und bei S. Fischer erscheinen ließ.\nSie ist voll, sie ist weit, sie ist lebendig und breit-\nschultrig wie er selbst. Walt Whitman, sie stellt nur dar,\nohne zu übertreiben, ohne zu umschreiben, ohne jeden\nder modischen Versuche, einen Menschheitsdichter rasch in eine neue\nReligiosität umzuschwindeln, oder ihn zum Parteimann zu degra-\ndieren. Ihr innerster Wille ist, Walt Whitman nicht nur lyrisch\nals Rhythmikiker empfinden zu lassen wie bisher, aber auch nicht\npolitisch als demokratisch und nationalpsychologisch als Amerikaner,\nsondern einfach als Element, stark leuchtend und unerschöpflich wie\nRadium, klar wie Wasser, hell wie Sonne und rein schmeckend wie\nMorgenluft, als eine innere, unzerstörbare Einheit, in der Mann\nund Werk, Leben und Dichtung nur zwei verschiedene und doch kom-\nplementäre Formen derselben einmaligen Urkraft sind.\nDiese Form, einen fremdländischen Lyriker wiederzugeben,\nindem man sich nicht darauf beschränkt, einzelne\nProben in das Deutsch-lyrische umzumodellieren oder\nkünstlich die Gesamtheit seiner Gedichte nachzubilden, son-\ndern indem man bei der Auswahl seiner Gedichte auch die\nFülle seines Lebens entgegenstellt, indem man den lyrischen Men-\nschen, die Erscheinung als Lebenselement, als Typus in deutscher\nSprache ahnen macht, die ja doch das lyrische Geheimnis der anderen\nnie ganz mitzuteilen vermag — sie scheint mir die einzig Not-\nwendige in Deutschland.\nMan verzeihe mir’s, wenn ich da einen Augenblick\nvon mir selbst spreche: ich habe bei Verhaeren, Rimbaud,\nDesbordes-Valmore, Verlaine dieses Prinzip längst als das einzig\nwesentliche und wahrhafte erkannt und eben aus der Schwierigkeit,\ndie sich da oft der Bildkräftigkeit eines Menschen, der Durch-\ndringungsfähigkeit seines Gedichts mir entgegenstellte, vermag ich es\nso recht nachfühlend zu sagen, wie ausgezeichnet hier Hans Reisiger\nder Zusammenklang gelungen ist und wie rein der Urton Walt\nWhitmans mir in diesem Zusammenhang erscheint.\nIn den Versen rollt Rhythmus straff und nur von innen\ngebändigt dahin, zum erstenmal zeigen die „Demokratie\nLista“, diese herrlichen Prosaseiten, das bisher unüber-\nsetzte erläuterte Manifest des Dichters an die Menschheit.\nBriefe und Aufsätze tun seine innersten und persönlichen\n\nGedanken auf, das Ganze aber faßt eine ausgezeichnete Bio-\ngraphie zusammen, klar, knapp, menschlich, ohne künstliche Dunkel-\nheiten, gleichsam selbst durchfiltert von dem offenen, hellen Lebens-\nblick Walt Whitmans, ein rechtes Meisterstück bescheiden-kräftiger\nDarstellung, einzig vergleichbar der schönen Liebestat Leon Bazal-\ngettes in Frankreich.\nSo ward ein Buch, das man von innen her lieben muß,\nzu dem man immer wieder zurückkehrt, um Kraft und\nFreude für eine Stunde sich anzutrinken, ein Buch, das ein Mensch-\ngedicht gestaltet, seine Gestalt zum Erlebnis macht und darum mehr\nals ein Buch bloß wird: eine Tat, eine echte und rechte, rein schöpfe-\nrische Tat."
           }
         ]
-      }
+      },
+      "review": null
     },
     {
       "id": "o_szd.2218_gemini-3.1-flash-lite-preview",
@@ -6512,7 +6577,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2220_gemini-3.1-flash-lite-preview",
@@ -6584,7 +6650,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2222_gemini-3.1-flash-lite-preview",
@@ -6672,7 +6739,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2224_gemini-3.1-flash-lite-preview",
@@ -6744,7 +6812,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2226_gemini-3.1-flash-lite-preview",
@@ -6816,7 +6885,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2230_gemini-3.1-flash-lite-preview",
@@ -6856,7 +6926,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2232_gemini-3.1-flash-lite-preview",
@@ -6928,7 +6999,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2235_gemini-3.1-flash-lite-preview",
@@ -7000,7 +7072,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2236_gemini-3.1-flash-lite-preview",
@@ -7067,7 +7140,8 @@
           "language_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2237_gemini-3.1-flash-lite-preview",
@@ -7167,7 +7241,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2240_gemini-3.1-flash-lite-preview",
@@ -7232,7 +7307,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2242_gemini-3.1-flash-lite-preview",
@@ -7320,7 +7396,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2244_gemini-3.1-flash-lite-preview",
@@ -7371,7 +7448,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2246_gemini-3.1-flash-lite-preview",
@@ -7443,7 +7521,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2247_gemini-3.1-flash-lite-preview",
@@ -7508,7 +7587,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2249_gemini-3.1-flash-lite-preview",
@@ -7580,7 +7660,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2251_gemini-3.1-flash-lite-preview",
@@ -7645,7 +7726,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2254_gemini-3.1-flash-lite-preview",
@@ -7710,7 +7792,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2256_gemini-3.1-flash-lite-preview",
@@ -7750,7 +7833,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2258_gemini-3.1-flash-lite-preview",
@@ -7815,7 +7899,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2261_gemini-3.1-flash-lite-preview",
@@ -7896,7 +7981,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2262_gemini-3.1-flash-lite-preview",
@@ -7968,7 +8054,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2264_gemini-3.1-flash-lite-preview",
@@ -8019,7 +8106,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2265_gemini-3.1-flash-lite-preview",
@@ -8070,7 +8158,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2270_gemini-3.1-flash-lite-preview",
@@ -8142,7 +8231,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2273_gemini-3.1-flash-lite-preview",
@@ -8207,7 +8297,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2275_gemini-3.1-flash-lite-preview",
@@ -8279,7 +8370,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2276_gemini-3.1-flash-lite-preview",
@@ -8330,7 +8422,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2277_gemini-3.1-flash-lite-preview",
@@ -8395,7 +8488,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2279_gemini-3.1-flash-lite-preview",
@@ -8460,7 +8554,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2280_gemini-3.1-flash-lite-preview",
@@ -8532,7 +8627,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2281_gemini-3.1-flash-lite-preview",
@@ -8597,7 +8693,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2282_gemini-3.1-flash-lite-preview",
@@ -8648,7 +8745,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2286_gemini-3.1-flash-lite-preview",
@@ -8729,7 +8827,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2287_gemini-3.1-flash-lite-preview",
@@ -8804,7 +8903,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2288_gemini-3.1-flash-lite-preview",
@@ -8892,7 +8992,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2290_gemini-3.1-flash-lite-preview",
@@ -8957,7 +9058,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2293_gemini-3.1-flash-lite-preview",
@@ -9008,7 +9110,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2294_gemini-3.1-flash-lite-preview",
@@ -9073,7 +9176,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2298_gemini-3.1-flash-lite-preview",
@@ -9124,7 +9228,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2300_gemini-3.1-flash-lite-preview",
@@ -9175,7 +9280,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2302_gemini-3.1-flash-lite-preview",
@@ -9215,7 +9321,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2304_gemini-3.1-flash-lite-preview",
@@ -9280,7 +9387,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2307_gemini-3.1-flash-lite-preview",
@@ -9320,7 +9428,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2309_gemini-3.1-flash-lite-preview",
@@ -9360,7 +9469,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2311_gemini-3.1-flash-lite-preview",
@@ -9411,7 +9521,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2314_gemini-3.1-flash-lite-preview",
@@ -9451,7 +9562,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2317_gemini-3.1-flash-lite-preview",
@@ -9502,7 +9614,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2318_gemini-3.1-flash-lite-preview",
@@ -9574,7 +9687,8 @@
           "duplicate_pages"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2319_gemini-3.1-flash-lite-preview",
@@ -9639,7 +9753,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2321_gemini-3.1-flash-lite-preview",
@@ -9720,7 +9835,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2327_gemini-3.1-flash-lite-preview",
@@ -9817,7 +9933,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2330_gemini-3.1-flash-lite-preview",
@@ -9892,7 +10009,8 @@
           "page_image_mismatch"
         ]
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2213_gt_draft",
@@ -9930,7 +10048,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     },
     {
       "id": "o_szd.2217_gt_draft",
@@ -9968,7 +10087,8 @@
         "needs_review": false,
         "needs_review_reasons": []
       },
-      "consensus": null
+      "consensus": null,
+      "review": null
     }
   ]
 }
