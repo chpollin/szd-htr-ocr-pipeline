@@ -471,6 +471,8 @@ body.view-viewer #catalog { display: none; }
   border-radius: 3px;
   border: 1px solid var(--sz-border-light);
   display: block;
+  background: var(--sz-border-light);
+  font-size: 0;
 }
 .catalog__table .col-title {
   min-width: 180px;
@@ -516,6 +518,30 @@ body.view-viewer #catalog { display: none; }
 .badge-markers-clean { background: var(--sz-success-bg); color: var(--sz-success); }
 .badge-markers-some { background: var(--sz-warning-bg); color: var(--sz-warning); }
 .badge-markers-many { background: var(--sz-danger-bg); color: var(--sz-danger); }
+
+/* Consensus badges */
+.badge-consensus { font-size: 0.65rem; font-weight: 600; text-transform: capitalize; }
+.badge-consensus-verified { background: var(--sz-success-bg); color: var(--sz-success); }
+.badge-consensus-moderate { background: var(--sz-warning-bg); color: var(--sz-warning); }
+.badge-consensus-review { background: var(--sz-danger-bg); color: var(--sz-danger); }
+.badge-consensus-divergent { background: var(--sz-danger-bg); color: #991b1b; }
+
+/* Per-page agreement dot */
+.viewer__page-agreement { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-left: 0.3rem; vertical-align: middle; background: var(--sz-text-light); }
+.agreement-high { background: var(--sz-success); }
+.agreement-moderate { background: var(--sz-warning); }
+.agreement-low { background: var(--sz-danger); }
+.agreement-skipped { background: var(--sz-text-light); }
+
+/* DWR score badges */
+.badge-dwr-good { background: var(--sz-success-bg); color: var(--sz-success); }
+.badge-dwr-moderate { background: var(--sz-warning-bg); color: var(--sz-warning); }
+.badge-dwr-low { background: var(--sz-danger-bg); color: var(--sz-danger); }
+
+/* Page type badges */
+.badge-page-type { font-size: 0.65rem; padding: 0.1rem 0.35rem; border-radius: 3px; margin-left: 0.3rem; font-weight: 500; }
+.badge-page-blank { background: var(--sz-border-light); color: var(--sz-text-light); }
+.badge-page-chart { background: var(--sz-warning-bg); color: var(--sz-gold); }
 
 /* Review indicators */
 .badge-review {
@@ -1197,17 +1223,6 @@ body.view-viewer #catalog { display: none; }
 .diff__legend-swatch--b { background: var(--diff-b-bg); border: 1px solid var(--diff-b-border); }
 .diff__legend-swatch--match { background: var(--sz-border-light); }
 
-/* Prototype badge */
-.diff__prototype-badge {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--sz-gold);
-  background: var(--sz-warning-bg);
-  padding: 0.15rem 0.4rem;
-  border-radius: 3px;
-}
-
 @media (max-width: 900px) {
   .diff__side-by-side {
     grid-template-columns: 1fr;
@@ -1438,8 +1453,35 @@ body.view-viewer #catalog { display: none; }
   .catalog__toolbar { flex-direction: column; }
   .catalog__search { min-width: 100%; }
 
-  .catalog__table .col-thumb,
+  /* Card layout for mobile catalog */
+  .catalog__table thead { display: none; }
+  .catalog__table { display: block; }
+  .catalog__table tbody { display: flex; flex-direction: column; gap: 0.5rem; }
+  .catalog__table tbody tr {
+    display: grid;
+    grid-template-columns: 40px 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.15rem 0.5rem;
+    border: 1px solid var(--sz-border);
+    border-radius: 6px;
+    padding: 0.5rem;
+    background: var(--sz-white);
+    box-shadow: none;
+  }
+  .catalog__table tbody tr:hover { box-shadow: none; }
+  .catalog__table td { padding: 0; border: none; }
+  .catalog__table .col-thumb { grid-row: 1 / 3; align-self: center; display: block; }
+  .catalog__table .col-thumb img { width: 36px; height: 48px; }
+  .catalog__table .col-title {
+    grid-column: 2; grid-row: 1;
+    font-size: 0.8125rem; white-space: normal; max-width: none;
+  }
+  .catalog__table .col-sig { grid-column: 2; grid-row: 2; font-size: 0.72rem; color: var(--sz-text-light); }
+  .catalog__table .col-review { grid-column: 3; grid-row: 1; text-align: right; }
+  .catalog__table .col-quality { grid-column: 3; grid-row: 2; text-align: right; }
+  .catalog__table .col-collection { grid-column: 2 / 4; font-size: 0.68rem; color: var(--sz-text-light); }
   .catalog__table .col-pid,
+  .catalog__table .col-group,
   .catalog__table .col-lang,
   .catalog__table .col-pages { display: none; }
 

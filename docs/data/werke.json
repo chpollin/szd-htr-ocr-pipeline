@@ -359,8 +359,15 @@
         "avgCharsPerPage": 1405,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 35135,
+        "total_words": 6235,
+        "total_pages": 25,
+        "empty_pages": 24,
+        "blank_pages": 24,
+        "content_pages": 25,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           46,
           0,
           1486,
@@ -411,17 +418,26 @@
           0,
           46
         ],
-        "charsPerPageMedian": 1543,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1543,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4679,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [
           0,
           48
         ],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.202_gemini-3.1-flash-lite-preview",
@@ -437,16 +453,31 @@
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.207_gemini-3.1-flash-lite-preview",
@@ -499,22 +530,35 @@
         "avgCharsPerPage": 116,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 232,
+        "total_words": 36,
+        "total_pages": 2,
+        "empty_pages": 3,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 3,
+        "chars_per_page": [
           22,
           0,
           210,
           0,
           0
         ],
-        "charsPerPageMedian": 116.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 116.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.2571,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.213_gemini-3.1-flash-lite-preview",
@@ -616,8 +660,15 @@
         "avgCharsPerPage": 1138,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 13662,
+        "total_words": 2138,
+        "total_pages": 12,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 12,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1004,
           1073,
           1014,
@@ -631,14 +682,22 @@
           1185,
           806
         ],
-        "charsPerPageMedian": 1154.5,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0005
-      }
+        "chars_per_page_median": 1154.5,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0005,
+        "dwr_score": 0.5205,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.218_gemini-3.1-flash-lite-preview",
@@ -670,19 +729,32 @@
         "avgCharsPerPage": 1362,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 2725,
+        "total_words": 403,
+        "total_pages": 2,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1393,
           1332
         ],
-        "charsPerPageMedian": 1362.5,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1362.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.408,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.220_gemini-3.1-flash-lite-preview",
@@ -791,8 +863,15 @@
         "avgCharsPerPage": 1027,
         "vlmConfidence": "medium"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 7192,
+        "total_words": 1075,
+        "total_pages": 7,
+        "empty_pages": 6,
+        "blank_pages": 6,
+        "content_pages": 7,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1323,
           0,
           1164,
@@ -807,16 +886,24 @@
           0,
           11
         ],
-        "charsPerPageMedian": 1221,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1221,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0009,
+        "dwr_score": 0.4469,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           12
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0009
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1879_gemini-3.1-flash-lite-preview",
@@ -832,16 +919,31 @@
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1880_gemini-3.1-flash-lite-preview",
@@ -1111,8 +1213,15 @@
         "avgCharsPerPage": 1171,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 22240,
+        "total_words": 3345,
+        "total_pages": 19,
+        "empty_pages": 17,
+        "blank_pages": 17,
+        "content_pages": 19,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           55,
           0,
           55,
@@ -1150,9 +1259,16 @@
           0,
           39
         ],
-        "charsPerPageMedian": 1658,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1658,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4694,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0,
           2,
           4,
@@ -1160,11 +1276,12 @@
           7,
           35
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1881_gemini-3.1-flash-lite-preview",
@@ -1672,8 +1789,15 @@
         "avgCharsPerPage": 1211,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 43582,
+        "total_words": 7452,
+        "total_pages": 36,
+        "empty_pages": 34,
+        "blank_pages": 34,
+        "content_pages": 36,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           16,
           0,
           1280,
@@ -1745,8 +1869,12 @@
           0,
           16
         ],
-        "charsPerPageMedian": 1413.0,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1413.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4633,
+        "duplicate_page_pairs": [
           [
             2,
             37
@@ -1812,17 +1940,23 @@
             67
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [
           0,
           34,
           35,
           69
         ],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1882_gemini-3.1-flash-lite-preview",
@@ -2127,8 +2261,15 @@
         "avgCharsPerPage": 1338,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 28104,
+        "total_words": 4912,
+        "total_pages": 21,
+        "empty_pages": 20,
+        "blank_pages": 20,
+        "content_pages": 21,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           53,
           0,
           996,
@@ -2171,17 +2312,26 @@
           0,
           53
         ],
-        "charsPerPageMedian": 1492,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1492,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4419,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [
           0,
           40
         ],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1883_gemini-3.1-flash-lite-preview",
@@ -2500,8 +2650,15 @@
         "avgCharsPerPage": 1627,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 35788,
+        "total_words": 5310,
+        "total_pages": 22,
+        "empty_pages": 21,
+        "blank_pages": 21,
+        "content_pages": 22,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           55,
           0,
           1790,
@@ -2546,21 +2703,30 @@
           0,
           582
         ],
-        "charsPerPageMedian": 1806.5,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1806.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4303,
+        "duplicate_page_pairs": [
           [
             40,
             42
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1884_gemini-3.1-flash-lite-preview",
@@ -2879,8 +3045,15 @@
         "avgCharsPerPage": 1656,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 36427,
+        "total_words": 5433,
+        "total_pages": 22,
+        "empty_pages": 21,
+        "blank_pages": 21,
+        "content_pages": 22,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           55,
           0,
           1781,
@@ -2925,21 +3098,30 @@
           0,
           507
         ],
-        "charsPerPageMedian": 1848.5,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1848.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4322,
+        "duplicate_page_pairs": [
           [
             40,
             42
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1885_gemini-3.1-flash-lite-preview",
@@ -3699,8 +3881,15 @@
         "avgCharsPerPage": 1349,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 71496,
+        "total_words": 12172,
+        "total_pages": 53,
+        "empty_pages": 53,
+        "blank_pages": 53,
+        "content_pages": 53,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           16,
           0,
           1334,
@@ -3808,8 +3997,12 @@
           16,
           0
         ],
-        "charsPerPageMedian": 1463,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1463,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4736,
+        "duplicate_page_pairs": [
           [
             2,
             54
@@ -3911,16 +4104,22 @@
             102
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [
           0,
           52,
           104
         ],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1886_gemini-3.1-flash-lite-preview",
@@ -3936,16 +4135,31 @@
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1889_gemini-3.1-flash-lite-preview",
@@ -4054,8 +4268,15 @@
         "avgCharsPerPage": 1781,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 12468,
+        "total_words": 2042,
+        "total_pages": 7,
+        "empty_pages": 6,
+        "blank_pages": 6,
+        "content_pages": 7,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2080,
           1937,
           1980,
@@ -4070,19 +4291,27 @@
           0,
           2080
         ],
-        "charsPerPageMedian": 1953,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1953,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4746,
+        "duplicate_page_pairs": [
           [
             0,
             12
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1893_gemini-3.1-flash-lite-preview",
@@ -4170,8 +4399,15 @@
         "avgCharsPerPage": 1645,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 16446,
+        "total_words": 2644,
+        "total_pages": 10,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 10,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1666,
           1586,
           1606,
@@ -4183,14 +4419,22 @@
           1673,
           1580
         ],
-        "charsPerPageMedian": 1619.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1619.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4655,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1894_gemini-3.1-flash-lite-preview",
@@ -4271,8 +4515,15 @@
         "avgCharsPerPage": 1804,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 16232,
+        "total_words": 2969,
+        "total_pages": 9,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 9,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1872,
           1951,
           1876,
@@ -4283,14 +4534,23 @@
           1944,
           455
         ],
-        "charsPerPageMedian": 1951,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1951,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5277,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1895_gemini-3.1-flash-lite-preview",
@@ -4441,8 +4701,15 @@
         "avgCharsPerPage": 938,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 17825,
+        "total_words": 3265,
+        "total_pages": 10,
+        "empty_pages": 0,
+        "blank_pages": 9,
+        "content_pages": 10,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1909,
           5,
           1961,
@@ -4463,19 +4730,28 @@
           5,
           1909
         ],
-        "charsPerPageMedian": 1909.0,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1909.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 2,
+        "marker_density": 0.0006,
+        "dwr_score": 0.5297,
+        "duplicate_page_pairs": [
           [
             0,
             18
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0006
-      }
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1898_gemini-3.1-flash-lite-preview",
@@ -4570,8 +4846,15 @@
         "avgCharsPerPage": 1163,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 6977,
+        "total_words": 1225,
+        "total_pages": 6,
+        "empty_pages": 5,
+        "blank_pages": 5,
+        "content_pages": 6,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1220,
           0,
           1340,
@@ -4584,19 +4867,28 @@
           0,
           1220
         ],
-        "charsPerPageMedian": 1220.0,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1220.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5245,
+        "duplicate_page_pairs": [
           [
             0,
             10
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.199_gemini-3.1-flash-lite-preview",
@@ -4705,8 +4997,15 @@
         "avgCharsPerPage": 1388,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 8327,
+        "total_words": 1288,
+        "total_pages": 6,
+        "empty_pages": 7,
+        "blank_pages": 6,
+        "content_pages": 6,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           2257,
           0,
           1632,
@@ -4721,14 +5020,20 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1332.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1332.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4749,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.200_gemini-3.1-flash-lite-preview",
@@ -5313,8 +5618,15 @@
         "avgCharsPerPage": 1268,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 49463,
+        "total_words": 7571,
+        "total_pages": 39,
+        "empty_pages": 42,
+        "blank_pages": 2,
+        "content_pages": 39,
+        "color_chart_pages": 40,
+        "chars_per_page": [
           33,
           0,
           0,
@@ -5397,8 +5709,12 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1232,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1232,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4528,
+        "duplicate_page_pairs": [
           [
             4,
             18
@@ -5472,14 +5788,19 @@
             78
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.201_gemini-3.1-flash-lite-preview",
@@ -5595,8 +5916,15 @@
         "avgCharsPerPage": 1712,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 23975,
+        "total_words": 3749,
+        "total_pages": 14,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 14,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           29,
           1861,
           1959,
@@ -5612,16 +5940,25 @@
           1958,
           1310
         ],
-        "charsPerPageMedian": 1887.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1887.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.493,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.203_gemini-3.1-flash-lite-preview",
@@ -5744,8 +6081,15 @@
         "avgCharsPerPage": 1632,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 11424,
+        "total_words": 1831,
+        "total_pages": 7,
+        "empty_pages": 8,
+        "blank_pages": 7,
+        "content_pages": 7,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           1562,
           0,
           1683,
@@ -5762,14 +6106,20 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1654,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0033
-      }
+        "chars_per_page_median": 1654,
+        "marker_uncertain_count": 6,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0033,
+        "dwr_score": 0.4781,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.205_gemini-3.1-flash-lite-preview",
@@ -5948,8 +6298,15 @@
         "avgCharsPerPage": 1552,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 35703,
+        "total_words": 5500,
+        "total_pages": 23,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 23,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1578,
           1562,
           1544,
@@ -5974,14 +6331,22 @@
           1531,
           1374
         ],
-        "charsPerPageMedian": 1567,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0002
-      }
+        "chars_per_page_median": 1567,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0002,
+        "dwr_score": 0.4895,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.208_gemini-3.1-flash-lite-preview",
@@ -6160,8 +6525,15 @@
         "avgCharsPerPage": 1739,
         "vlmConfidence": "medium"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 39996,
+        "total_words": 5887,
+        "total_pages": 23,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 23,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1234,
           857,
           1537,
@@ -6186,14 +6558,22 @@
           1478,
           1357
         ],
-        "charsPerPageMedian": 1790,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1790,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4627,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.209_gemini-3.1-flash-lite-preview",
@@ -6209,16 +6589,31 @@
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.210_gemini-3.1-flash-lite-preview",
@@ -6285,8 +6680,15 @@
         "avgCharsPerPage": 1536,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10750,
+        "total_words": 1762,
+        "total_pages": 7,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 7,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1739,
           1805,
           1786,
@@ -6295,14 +6697,22 @@
           1733,
           294
         ],
-        "charsPerPageMedian": 1733,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "fr",
-        "languageDetected": "fr",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1733,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4018,
+        "duplicate_page_pairs": [],
+        "language_expected": "fr",
+        "language_detected": "fr",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.211_gemini-3.1-flash-lite-preview",
@@ -6369,8 +6779,15 @@
         "avgCharsPerPage": 1542,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10793,
+        "total_words": 1784,
+        "total_pages": 7,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 7,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1378,
           1550,
           1479,
@@ -6379,14 +6796,22 @@
           1669,
           1388
         ],
-        "charsPerPageMedian": 1550,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "fr",
-        "languageDetected": "fr",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1550,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4006,
+        "duplicate_page_pairs": [],
+        "language_expected": "fr",
+        "language_detected": "fr",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.212_gemini-3.1-flash-lite-preview",
@@ -6460,8 +6885,15 @@
         "avgCharsPerPage": 988,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 7905,
+        "total_words": 1280,
+        "total_pages": 8,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 8,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2090,
           142,
           2312,
@@ -6471,14 +6903,20 @@
           718,
           142
         ],
-        "charsPerPageMedian": 430.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 430.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4861,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.214_gemini-3.1-flash-lite-preview",
@@ -6601,8 +7039,15 @@
         "avgCharsPerPage": 1703,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 11920,
+        "total_words": 1926,
+        "total_pages": 7,
+        "empty_pages": 8,
+        "blank_pages": 7,
+        "content_pages": 7,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           1653,
           0,
           1728,
@@ -6619,14 +7064,20 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1704,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1704,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4963,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.215_gemini-3.1-flash-lite-preview",
@@ -6791,8 +7242,15 @@
         "avgCharsPerPage": 1799,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 37783,
+        "total_words": 6038,
+        "total_pages": 20,
+        "empty_pages": 0,
+        "blank_pages": 1,
+        "content_pages": 20,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1752,
           1953,
           1953,
@@ -6815,14 +7273,22 @@
           1992,
           296
         ],
-        "charsPerPageMedian": 1982.5,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1982.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4878,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.216_gemini-3.1-flash-lite-preview",
@@ -6875,22 +7341,35 @@
         "avgCharsPerPage": 1032,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 2065,
+        "total_words": 305,
+        "total_pages": 2,
+        "empty_pages": 3,
+        "blank_pages": 3,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1450,
           0,
           615,
           0,
           0
         ],
-        "charsPerPageMedian": 1032.5,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1032.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4485,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.217_gemini-3.1-flash-lite-preview",
@@ -7041,8 +7520,15 @@
         "avgCharsPerPage": 2128,
         "vlmConfidence": "medium"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 19151,
+        "total_words": 3028,
+        "total_pages": 9,
+        "empty_pages": 10,
+        "blank_pages": 9,
+        "content_pages": 9,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           2230,
           0,
           2458,
@@ -7063,14 +7549,20 @@
           0,
           0
         ],
-        "charsPerPageMedian": 2197,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 2197,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4886,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.221_gemini-3.1-flash-lite-preview",
@@ -7095,18 +7587,33 @@
         "avgCharsPerPage": 2092,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 2092,
+        "total_words": 329,
+        "total_pages": 1,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 1,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2092
         ],
-        "charsPerPageMedian": 2092,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 2092,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5015,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.222_gemini-3.1-flash-lite-preview",
@@ -7761,8 +8268,15 @@
         "avgCharsPerPage": 1631,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 73407,
+        "total_words": 11571,
+        "total_pages": 45,
+        "empty_pages": 46,
+        "blank_pages": 45,
+        "content_pages": 45,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           1443,
           0,
           1887,
@@ -7855,8 +8369,12 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1831,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 1831,
+        "marker_uncertain_count": 14,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0012,
+        "dwr_score": 0.4228,
+        "duplicate_page_pairs": [
           [
             0,
             22
@@ -8014,12 +8532,16 @@
             88
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0012
-      }
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.224_gemini-3.1-flash-lite-preview",
@@ -8100,8 +8622,15 @@
         "avgCharsPerPage": 1446,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 5785,
+        "total_words": 834,
+        "total_pages": 4,
+        "empty_pages": 5,
+        "blank_pages": 4,
+        "content_pages": 4,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           14,
           0,
           2215,
@@ -8112,16 +8641,24 @@
           0,
           0
         ],
-        "charsPerPageMedian": 1764.5,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1764.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4228,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
@@ -8157,50 +8694,40 @@
         "avgCharsPerPage": 2328,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 6983,
+        "total_words": 1128,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2257,
           2469,
           2257
         ],
-        "charsPerPageMedian": 2257,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 2257,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4834,
+        "duplicate_page_pairs": [
           [
             0,
             2
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
-    },
-    {
-      "id": "o_szd.1887_consensus",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0
-      }
+      "consensus": null
     },
     {
       "id": "o_szd.1887_gemini-3.1-flash-lite-preview",
@@ -8253,16 +8780,27 @@
         "avgCharsPerPage": 4074,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 12223,
+        "total_words": 1897,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           4095,
           0,
           4033,
           0,
           4095
         ],
-        "charsPerPageMedian": 4095,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 4095,
+        "marker_uncertain_count": 6,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0032,
+        "dwr_score": 0.4456,
+        "duplicate_page_pairs": [
           [
             0,
             2
@@ -8276,36 +8814,71 @@
             4
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0032
-      }
-    },
-    {
-      "id": "o_szd.1888_consensus",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0048,
+        "overall_cer": 0.0048,
+        "word_overlap": 0.9922,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0072,
+            "cer_orderless": 0.0329,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "BUSONI\n\n{erledigt!}\n{Gelesen! D. [?]}\n{brauchbar [?]}\n{überhagn [?]}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n68 Zweig: Begegnungen.",
+            "transcription_b": "{3) erledigt!}\n\nBUSONI\n\n{Gelesen! D.\nBrauchbar\nübertragen}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n\n68 Zweig: Begegnungen."
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0,
+            "cer_orderless": 0.0115,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "BUSONI\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n68 Zweig: Begegnungen.",
+            "transcription_b": "BUSONI\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n\n68 Zweig: Begegnungen."
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 0.0072,
+            "cer_orderless": 0.0329,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "BUSONI\n\n{erledigt!}\n{Gelesen! D. [?]}\n{brauchbar [?]}\n{überhagn [?]}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n68 Zweig: Begegnungen.",
+            "transcription_b": "{3) erledigt!}\n\nBUSONI\n\n{Gelesen! D.\nBrauchbar\nübertragen}\n\nSEIN wirkliches Gesicht lag lange hinter der dunklen Wolke\ndes Bartes verschattet. Tragisch schien er und düster, sah\nman ihn von der Tiefe des Raumes aus an das Klavier treten,\nein leidender Christus an dem schwarzen Holz, das alle irdische\nLust und Qual in sich verschließt, immer wieder aufs neue\ndurch ihn zu erlösen. Aber nun, da der dunkle bärtige Rand\ngefallen ist, der Sturz der Haare nicht mehr schwarz wallend\nüber seinem Antlitz dräut, sondern in silbrigem Grau hell\neine helle Stirne freiläßt, schön geformt und rein, entdeckt\nman in seinen so aufgeheiterten Zügen (diesen seltsam gei-\nstigen, seltsam sinnlichen) einen sehr beweglichen Mund, der\nnur herb bleibt in den Stunden der Musik, sonst sich aber\ngern zum Lächeln des Gespräches rundet, manchmal sogar\nüberquillt in ein eruptives Lachen, dies einzige italienische,\naretinische Lachen Busonis, mit dem er Menschen ebenso\nfortreißen kann wie mit seiner meisterlichen Kunst. Und\nsieht, freudig überrascht, in dem nun erhellten Gesicht die\nAugen leuchten, rein und wasserfarben, aber nicht im stump-\nfen Ton des ruhenden untiefen Wassers, sondern voll der\nglitzernden Unruhe des beständig fließenden, von steten\ninnerlichen Quellen erneuten und gespeisten. Augen, die es\nlieben, in die Welt zu schauen, dann wieder in Büchern zu\nrasten, die sich an Farben und Frauen freuen, trinkende, su-\nchende Augen, die aber plötzlich heilig ruhig werden — in\nder ernsten Sekunde, da unter seinen Fingern der erste Ton\naufklingt. Keinen unserer Meister liebe ich so sehr am Kla-\nvier als Busoni. Andere sind erregt im Schaffen, sie schaufeln,\nsie graben donnernd die Töne aus dem weißen Steinbruch\nder Tasten, ihr ganzer Körper schwingt in Anstrengung mit.\nAndere wieder lächeln zum Spiel das betrügerische Lächeln\nder Athleten, die getürmtes Gewicht mit gespielter Mühe-\nlosigkeit hochheben, einer staunenden Menge zeigend, daß es\nihnen nur Spiel sei, unsagbare Leichtigkeit. Andere wieder\nbäumen sich im Stolz, zittern in Erregung. Er aber, Busoni,\nlauscht. Er lauscht sich selber im Spiel. Eine unendliche\nFerne scheint dann zwischen den geisternden Händen da\nunten, die in Tönen wühlen, und dem erhobenen Antlitz\nvoll seliger Entrücktheit, das sich versteinert in süßem Er-\nschrecken vor der namenlosen Medusenschönheit der Musik.\nUnten ist Musik, oben Stille, unten das Schaffen, oben das\nGenießen. Er scheint vergessen zu haben in diesen kostbaren\nMinuten, daß all dies, was ihn jetzt mit süßen Schauern er-\ngreift, aus ihm selber strömt, er atmet, trinkt und lauscht nur\nekstatisch ein, fremd sich selber in dieser nicht zu erlernenden\nGebärde hingegebener Verzückung. Sein Gesicht verklärt\nsich in der Spannung des Lauschens, und seine Augen spie-\ngeln, aufwärts schauend, irgendeinen unsichtbaren Himmel\nund darin den ewigen Gott. Wie ich ihn liebe in diesen Au-\ngenblicken! Wie ich ihn beneide in diesen Augenblicken um\nso höchste, seltenste Lust, sich selbst nicht mehr zu fühlen im\nStaunen des Schaffens, erlöst zu sein von allen Unzulänglich-\nkeiten der Arbeit in die Reinheit der Werkbewunderung,\num diese äußerste, nicht mehr ringende und fragende, son-\ndern schon ruhende und sich selbst genießende Meister-\nschaft! Doch wie einen beneiden, der selbst immer neidlos\nwar, den Hilfreichen, Freudigen, den sich an Jüngeren im-\nmer wieder Erneuernden? In Jahren, da andere bitter wer-\nden, will erst Freudigkeit in ihm erwachen, in Jahren, da\nandern die Quelle des Schaffens versiegt, beginnt Musik aus\nihm strömend zu quellen. Dem Virtuosen sperrt heute die\neigene Vollendung den Weg, nun hat der Künstler, der\nSchöpfer Busoni erst Zeit, erst Raum, um auszuschreiten.\nIch glaube, ohne sie zu kennen, an seine Musik. Etwas Helles\nwird in ihr sein, die Sorglosigkeit der spät Gereiften, und\nvielleicht wird sein Lachen, sein einzig herzliches kindliches\nLachen darin klingen. Die Kunst der Jungen ist eigensüchtig,\nund darum wild und verworren. Aber die Meisterschaft der\nGütigen trägt immer im Haar den silbernen Kranz der Hei-\nterkeit.\n\n68 Zweig: Begegnungen."
+          }
+        ]
       }
     },
     {
@@ -8359,21 +8932,90 @@
         "avgCharsPerPage": 3258,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 9773,
+        "total_words": 1386,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3590,
           0,
           3716,
           0,
           2467
         ],
-        "charsPerPageMedian": 3590,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
+        "chars_per_page_median": 3590,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.417,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0052,
+        "overall_cer": 0.0055,
+        "word_overlap": 0.9701,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0075,
+            "cer_orderless": 0.0067,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "HANS CAROSSA\nBrief an einen französischen Freund\nAus einer Festschrift der Freunde Hans Carossas\nzu seinem fünfzigsten Geburtstag.\n\nSIE mahnen mich in Ihrem Brief, lieber Freund und Kamerad, an ein Gespräch, das wir vor einigen Monaten führten, am Fenster abseits in einer Pariser Bildergalerie. Wie alle Franzosen Ihrer Generation noch tief ergriffen von dem Hingang Rainer Maria Rilkes, dessen einziger Wert und Wichtigkeit für die deutsche Nation Euch intuitiv erkenntlicher war als den meisten Deutschen, fragten Sie mich, wer von den Jüngeren in ähnlich reinem und adeligem Sinn heute bei uns des Erbtums der Sprache dichterisch walte. Damals nannte ich Ihnen den Namen Hans Carossas, zeichnete Ihnen sogar seinen Fremdklang in Ihr Notizbuch ein, und nun, nach Monaten, schreiben Sie mir, zur Hälfte beschämt gegen sich selbst, zur Hälfte vielleicht auch mißtrauisch gegen mein leidenschaftliches Rühmen, Sie hätten vergebens in Paris Erkundigungen eingezogen nach diesem Namen. Aber niemand wüßte Ihnen genauere Nachricht zu geben, und selbst in einem so gründlichen, klugen und wohlinformierten Buch wie der „Geschichte der neuen deutschen Literatur“ von Felix Bertaux sei dieser südländisch getönte Name als der eines deutschen Dichters nicht verzeichnet; deshalb sollte ich Ihnen in kurzem Umriß etwas über Art und Bedeutung dieses Mannes mitteilen.\nNun, dieser Anlaß verbrüdert sich willig einem zweiten, denn gerade in diesen Tagen feiert Carossa seinen fünfzigsten Geburtstag, berechtigter Augenblick also, um dankbar zu besinnen, wieviel wir diesem überaus so stillen, innerlich so tief wirkenden Manne seit Jahr und Jahren schuldig geworden. Ich zumindest fühle machtvoll diese Verpflichtung, denn nur selten vergehen ein paar Monate, ohne daß ich die Bücherstöße, mit denen heutzutage unsere Wohnungen überpflastert sind, energisch beiseiteschiebe, um zu innerer Klärung und zu ganz besonders vollhaltigem, weit über die Stunde nachschwingendem Genuß ein Buch Hans Carossas aufzuschlagen und zehn oder zwanzig Seiten seiner unvergleichlich beglückenden Prosa zu lesen. Ich kenne von ihm jede Zeile auf jedem Blatt, und keine einzige, ohne sie mehrmals und oftmals zurückgelesen zu haben, so stark wirkt jedesmal ihr sprachlicher und menschlicher Zauber auf mich ein; und ich kann mir nicht denken, daß ich jemals ihrer müde werden könnte. Freilich: auch nur andeutend die Kraftwurzeln dieser festhaltenden dichterischen Macht in Hans Carossa darzustellen, bedürfte umfänglicherer Raumes als den eines Briefblattes: so sei nur zaghaft ein Umriß seiner geliebten Gestalt versucht. Das Wesenhafte an Hans Carossa scheint mir die außergewöhnliche Dichtigkeit seiner Natur, eine besonders verinnerlichte Reaktion auf die äußere Erscheinung. Er nimmt nur sparsam Eindrücke in sich auf, diese sehr langsam, und erst spät setzt dann dichterischer Rückstoß ein; jedes Erlebnis muß für ihn bloß angefühlt, sondern tief eingefühlt sein. Langsam, geduldig, unmerklich saugt er geradezu pflanzenhaft still die Lichtwirkung des Lebendigen ins Dunkelste des Blutes hinab; dort wird sie in beharrlicher Umsetzung amalgamiert, chemisch ins Dichterische verwandelt, und jahrelang sättigen jene traumhaften Rückerinnerungen nur wie Salz das Wasser farblos und ungestaltet seinen inneren Sinn, bis endlich zu einem Anstoß das einst Erlebte in neuer, durchsichtiger Form sich schöpferisch kristallisiert. Es dauert zehn Jahre, ehe das „Rumänische Kriegstagebuch“ aus zeitgenössischer Schau und losen Notizblättern zum Kunstwerk wird, es dauert zwanzig Jahre, ehe „Die Kind- 75 Zweig: Begegnungen.",
+            "transcription_b": "43\n\nHANS CAROSSA\nBrief an einen französischen Freund\nAus einer Festschrift der Freunde Hans Carossas\nzu seinem fünfzigsten Geburtstag.\n\nSIE mahnen mich in Ihrem Brief, lieber Freund und Kame-\nrad, an ein Gespräch, das wir vor einigen Monaten führten,\nam Fenster abseits in einer Pariser Bildergalerie. Wie alle\nFranzosen Ihrer Generation noch tief ergriffen von dem Hin-\ngang Rainer Maria Rilkes, dessen einziger Wert und Wich-\ntigkeit für die deutsche Nation Euch intuitiv erkenntlicher\nwar als den meisten Deutschen, fragten Sie mich, wer von den\nJüngeren in ähnlich reinem und adeligem Sinn heute bei uns\ndes Erbtums der Sprache dichterisch walte. Damals nannte\nich Ihnen den Namen Hans Carossas, zeichnete Ihnen sogar\nseinen Fremdklang in Ihr Notizbuch ein, und nun, nach Mo-\nnaten, schreiben Sie mir, zur Hälfte beschämt gegen sich\nselbst, zur Hälfte vielleicht auch mißtrauisch gegen mein lei-\ndenschaftliches Rühmen, Sie hätten vergebens in Paris Er-\nkundigungen eingezogen nach diesem Namen. Aber niemand\nwüßte Ihnen genauere Nachricht zu geben, und selbst in\neinem so gründlichen, klugen und wohlinformierten Buch\nwie der „Geschichte der neuen deutschen Literatur“ von Fe-\nlix Bertaux sei dieser südländisch getönte Name als der eines\ndeutschen Dichters nicht verzeichnet; deshalb sollte ich Ihnen\nin kurzem Umriß etwas über Art und Bedeutung dieses Man-\nnes mitteilen.\nNun, dieser Anlaß verbrüdert sich willig einem zweiten, denn\ngerade in diesen Tagen feiert Carossa seinen fünfzigsten Ge-\nburtstag, berechtigter Augenblick also, um dankbar zu besin-\nnen, wieviel wir diesem äußerlich so stillen, innerlich so tief\nwirkenden Manne seit Jahr und Jahren schuldig geworden.\nIch zumindest fühle machtvoll diese Verpflichtung, denn nur\nselten vergehen ein paar Monate, ohne daß ich die Bücher-\nstöße, mit denen heutzutage unsere Wohnungen überpflastert\nsind, energisch beiseite schiebe, um zu innerer Klärung und\nzu ganz besonders vollhaltigem, weit über die Stunde nach-\nschwingendem Genuß ein Buch Hans Carossas aufzuschlagen\nund zehn oder zwanzig Seiten seiner unvergleichlich beglük-\nkenden Prosa zu lesen. Ich kenne von ihm jede Zeile auf je-\ndem Blatt, und keine einzige, ohne sie mehrmals und oftmals\nzurückgelesen zu haben, so stark wirkt jedesmal ihr sprach-\nlicher und menschlicher Zauber auf mich ein; und ich kann\nmir nicht denken, daß ich jemals ihrer müde werden könnte.\nFreilich: auch nur andeutend die Kraftwurzeln dieser fest-\nhaltenden dichterischen Macht in Hans Carossa darzustellen,\nbedürfte umfänglicheren Raumes als den eines Briefblattes: so\nsei nur zaghaft ein Umriß seiner geliebten Gestalt versucht.\nDas Wesenhafte an Hans Carossa scheint mir die außerge-\nwöhnliche Dichtigkeit seiner Natur, eine besonders verinner-\nlichte Reaktion auf die äußere Erscheinung. Er nimmt nur\nsparsam Eindrücke in sich auf, diese sehr langsam, und erst\nspät setzt dann dichterischer Rückstoß ein; jedes Erlebnis\nmuß für ihn nicht bloß angefühlt, sondern tief eingefühlt\nsein. Langsam, geduldig, unmerklich saugt er geradezu\npflanzenhaft still die Lichtwirkung des Lebendigen bis ins\nDunkelste des Blutes hinab; dort wird sie in beharrlicher Um-\nsetzung amalgamiert, chemisch ins Dichterische verwandelt,\nund jahrelang sättigen jene traumhaften Rückerinnerungen\nnur wie Salz das Wasser farblos und ungestaltet seinen in-\nneren Sinn, bis endlich zu einem Anstoß das einst Erlebte in\nneuer, durchsichtiger Form sich schöpferisch kristallisiert. Es\ndauert zehn Jahre, ehe das „Rumänische Kriegstagebuch“\naus zeitgenössischer Schau und losen Notizblättern zum\nKunstwerk wird, es dauert zwanzig Jahre, ehe „Die Kind-\n75 Zweig: Begegnungen."
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0065,
+            "cer_orderless": 0.0057,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "heit“ in dem Manne wieder neu und beseelt aus Rückspiegelung zum Buch geworden ist, und ebenso zwanzig Jahre, bis die „Verwandlungen einer Jugend“ (alle drei Bücher im Inselverlag) sich ausformen.\nMit diesen drei Büchertiteln habe ich Ihnen eigentlich schon, abgesehen von einigen herbsthimmelklaren und wunderbar fülligen Gedichten, die ganze Bibliographie Hans Carossas genannt, drei Prosabücher in summa, und diese drei dabei überaus schmächtig und schmal. Aber schelten Sie dies nicht schöpferische Armut, denn Hans Carossa dichtet gleichsam in Essenzen. Wenn ein Erlebnis jahrzehntelang verschattet, gewissermaßen im Kelter oder in der Kelter seines traumhaft fortwirkenden Bewußtseins geruht hat und endlich aus dieser schöpferischen Verdunklung zutage tritt, so ist es im doppelten Sinn des Wortes schon „verdichtet“; alles Zufällige, alles Augenblickfarbene, alles Unwesentliche ist davon weggefallen und nur das Urwesen, das Magische der Erscheinung geblieben, geklärt ebenso wie die Traubentrübe zur Durchsichtigkeit des Weins, geringeren Raumgehaltes, aber verstärkter Wesenskraft. Rückdarstellung bedeutet bei ihm nicht Wiedergabe, sondern Sublimierung, geläutertes und gleichzeitig deutsames Bild. Das Kleinste, was er kindhaft erlebt, eine Schulstunde, eine Begegnung mit einem Gaukler, hat sich vollkommen abgekrustet und losgelöst vom Ephemeren, indem es Kunstwerk ward, prosaisches Gedicht oder dichterische Prosa, keinesfalls mit Namen deutlich zu benennen, aber Dichtwerk allerreinster, rundester Art, vollkommen Flügelhaftes. Indem er es rückblickend isoliert, verbindet er alles scheinbar Abgelebte einem anderen höheren Spiralengange seines Daseins, denn wie die Sprache, streng, einheitlich, groß in reinem melodischen Fluß das ganze Buch durchströmt, so umfaßt auch der von innen schauende und ins Universelle fühlende Geist alle seine Verwandlungen als eine einzige, geheimnisvoll rückkehrende Einheit. Darum läßt sich kaum ein Runderes denken, als diese seine Bücher und gleichzeitig Gefüllteres, obwohl sie den äußerlichen Anschein des Zufälligen, des rein Naturhaften, des bloß Hinerzählten haben. Hier spiegelt Harmonie des Werkes eben innere Durchgeformtheit eines ganz in sich gerundeten Dichters und Menschen.\nDiese Gesättigtheit mit Substanz, diese Farbe, die den Stoff so dicht und doch durchscheinend erfüllt wie Chlorophyll die Pflanze, waltet auch in Carossas Sprache. Sie ist dicht und dunkel wie Samt, undurchlässig und gleichzeitig weich, aller Tönung fähig; manchmal goldet ein zarter Ton von Humor über sie hin, manchmal ruht sie in schwerem metallischen Glanz und an ihren schönsten Stellen, jenen der übersinnlichen Erkenntnis, bauscht und rauscht sie dem mächtig geschwungenen Faltenwurf der Gothischen vergleichbar. Damit wird sie niemals künstlich, nie verschattet sich ein Satz, daß er auch den tiefsten Gedanken nicht allverständlicher ausdrücken vermöchte, und so, in der Ruhe beharrlich, im Aufschwung jede Höhe erreichend, schwebt sie zwischen unserer Welt und den Sternen, von jenen belichtet, von dieser gespiegelt. Nur die vollendetsten Prosaseiten Hofmannsthalscher Prosa scheinen mir heute innerhalb unseres Zeitraumes an dichterischer Flugkraft den seinen zur Seite zu stellen. Mit einer solchen Prosa vermag man das Einfachste darzustellen als das Unsagbare anzudeuten; und gerade diese Doppeltheit, ein scheinbar bürgerlich temperiertes Fühlen bis ins Metaphysische zu sublimieren, kann nur absoluter Meisterschaft gelingen. Aber wie bescheiden ist solche Meisterschaft getan, wie ohne alles artistische Aufpochen und Sichbewußtsein, ganz ohne gespannten Atem, ohne lyrisch erhoben — Hand — einzig sich selbst aussprechend im Rhythm- 76 Zweig: Begegnungen.",
+            "transcription_b": "44\n\nheit“ in dem Manne wieder neu und beseelt aus Rückspie-\ngelung zum Buch geworden ist, und ebenso zwanzig Jahre,\nbis die „Verwandlungen einer Jugend“ (alle drei Bücher im\nInselverlag) sich ausformen.\nMit diesen drei Büchertiteln habe ich Ihnen eigentlich schon,\nabgesehen von einigen herbsthimmelklaren und wunderbar\nfülligen Gedichten, die ganze Bibliographie Hans Carossas\ngenannt, drei Prosabücher in summa, und diese drei dabei\nüberaus schmächtig und schmal. Aber schelten Sie dies nicht\nschöpferische Armut, denn Hans Carossa dichtet gleichsam\nin Essenzen. Wenn ein Erlebnis jahrzehntelang verschattet,\ngewissermaßen im Keller oder in der Kelter seines traum-\nhaft fortwirkenden Bewußtseins geruht hat und endlich aus\ndieser schöpferischen Verdunklung zutage tritt, so ist es im\ndoppelten Sinn des Wortes schon „verdichtet“; alles Zufäl-\nlige, alles Augenblickfarbene, alles Unwesentliche ist davon\nweggefallen und nur das Urwesen, das Magische der Er-\nscheinung geblieben, geklärt ebenso wie die Traubentrübe\nzur Durchsichtigkeit des Weins, geringeren Raumgehaltes,\naber verstärkter Wesenskraft. Rückdarstellung bedeutet bei\nihm nicht Wiedergabe, sondern Sublimierung, geläutertes\nund gleichzeitig deutsames Bild. Das Kleinste, was er kind-\nhaft erlebt, eine Schulstunde, eine Begegnung mit einem\nGaukler, hat sich vollkommen abgekrustet und losgelöst vom\nEphemeren, indem es Kunstwerk ward, prosaisches Gedicht\noder dichterische Prosa, keinesfalls mit Namen deutlich zu\nbenennen, aber Dichtwerk allerreinster, rundester Art, voll-\nkommen Flügelhaftes. Indem er es rückblickend isoliert, ver-\nbindet er alles scheinbar Abgelebte einem anderen höheren\nSpiralengange seines Daseins, denn wie die Sprache, streng,\neinheitlich, groß in reinem melodischen Fluß das ganze Buch\ndurchströmt, so umfaßt auch der von innen schauende und\nins Universelle fühlende Geist alle seine Verwandlungen als\neine einzige, geheimnisvoll rückkehrende Einheit. Darum\nläßt sich kaum ein Runderes denken, als diese seine Bücher\nund ein gleichzeitig Gefüllteres, obwohl sie den äußerlichen\nAnschein des Zufälligen, des rein Naturhaften, des bloß Hin-\nerzählten haben. Hier spiegelt Harmonie des Werkes eben\ninnere Durchgeformtheit eines ganz in sich gerundeten Dich-\nters und Menschen.\nDiese Gesättigtheit mit Substanz, diese Farbe, die den Stoff\nso dicht und doch durchscheinend erfüllt wie Chlorophyll\ndie Pflanze, waltet auch in Carossas Sprache. Sie ist dicht und\ndunkel wie Samt, undurchlässig und gleichzeitig weich, aller\nTönung fähig; manchmal goldet ein zarter Ton von Humor\nüber sie hin, manchmal ruht sie in schwerem metallischen\nGlanz und an ihren schönsten Stellen, jenen der übersinn-\nlichen Erkenntnis, bauscht und rauscht sie dem mächtig ge-\nschwungenen Faltenwurf der Goethischen vergleichbar. Da-\nbei wird sie niemals künstlich, nie verschattet sich ein Satz,\ndaß er auch den tiefsten Gedanken nicht allverständlich aus-\nzudrücken vermöchte, und so, in der Ruhe beharrlich, im\nAufschwung jede Höhe erreichend, schwebt sie zwischen\nunserer Welt und den Sternen, von jenen belichtet, von die-\nser gespiegelt. Nur die vollendetsten Prosaseiten Hofmanns-\nthalscher Prosa scheinen mir heute innerhalb unseres Zeit-\nraumes an dichterischer Flugkraft den seinen zur Seite zu\nstellen. Mit einer solchen Prosa vermag man so das Einfachste\ndarzustellen als das Unsagbare anzudeuten; und gerade diese\nDoppeltheit, ein scheinbar bürgerlich temperiertes Fühlen\nbis ins Metaphysische zu sublimieren, kann nur absoluter\nMeisterschaft gelingen. Aber wie bescheiden ist solche Mei-\nsterschaft getan, wie ohne alles artistische Aufpochen und\nSichbewußtsein, ganz ohne gespannten Atem, ohne lyrisch\nerhoben — Hand — einzig sich selbst aussprechend im Rhyth-\n76 Zweig: Begegnungen."
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 0.0012,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "mus adliger Natur. Vergeblich darum jeder Versuch, eine derart naturhafte, urtümliche, in der Sprache und zu tiefst auch in der Ahnenhaftigkeit der edelsten deutschen Kunst wurzelnde Prosa in eine andere Sprache zu übertragen, ja ihren Reiz nur übermitteln zu können: wahrscheinlich ist es das Schicksal der Kunst Hans Carossas, innerhalb der deutschen Zone eingegrenzt zu bleiben, ähnlich wie Hölderlin und Jean Paul, die ewig unüberpflanzbaren. Das mindert nicht seinen Rang, und vielleicht werden gerade Sie im Ausland solche Urelemente am neugierigsten und leidenschaftlichsten zu ehren vermögen, die in sich alle Fremdkräfte und damit das wahrhaft Persönliche eines Volkes sinnmächtig repräsentieren. Weitwirkung bedeutet — wir wissen es alle — meist nur ein Widerspiel wahrhafter Werte, und so wollen wir es nicht pathetisch beklagen, daß diese klaren und wahren, diese so gegenständlichen und doch welthaften Werke Hans Carossas nicht einmal in Deutschland genugsam verbreitet sind; die geringe Zahl seiner Auflagen wird wohl aufgewogen durch jene der Jahre, die sie zu überdauern bestimmt sind, denn diese Gebilde sind zu fest geballt, zu rein gerundet, als daß sie zerfallen könnten. Reinheit bewahrt, und so bewahren sich diese seine Werke heute schon einer nächsten und kommenden Generation, so schmal sie sind, so zart sie erscheinen. Denn in ihnen wirkt und waltet in Wahrheit dichterische Kraft über Tag und Jahr.\nEin Wort noch wollten Sie wissen über den Menschen und sein privates Leben, seine öffentliche Stellung. Er hat seit dreißig Jahren keine andere als die eines sehr beschäftigten Arztes mit einer erdrückenden Krankenkassenpraxis im zweiten Stock einer lärmenden Münchener Hauptstraße. Kranke, hauptsächlich Tuberkulose, zu behandeln, bleibt sein Dienst, seine Aufopferung, seine Freude; neben der dichterischen kennt er wenig Welt, ist kaum über die engere Heimat hinausgekommen, war (Phänomen eines deutschen Dichters!) mit fünfzig Jahren noch nie in Berlin, gehört in keine Gruppe und in keinen Kreis. Aber wer einmal diesem stillen, ruhigen, augenklaren Menschen begegnet ist, liebt ihn leidenschaftlich als Freund. Wem er einmal Arzt war, der bleibt ihm ein Leben lang dankbar ergeben als humanstem Helfer. Und wer ehrfürchtigen Herzens auch nur eines seiner Bücher gelesen hat, zählt ihn zu den seltenen Gestalten, bei denen das hohe Wort Dichter nicht als ein gewagtes, sondern als das einzig gewählte erscheint. 77 Zweig: Begegnungen.",
+            "transcription_b": "45\n\nmus adliger Natur. Vergeblich darum jeder Versuch, eine\nderart naturhafte, urtümliche, in der Sprache und zu tiefst\nauch in der Ahnenhaftigkeit der edelsten deutschen Kunst\nwurzelnde Prosa in eine andere Sprache zu übertragen, ja\nihren Reiz nur übermitteln zu können: wahrscheinlich ist es\ndas Schicksal der Kunst Hans Carossas, innerhalb der deut-\nschen Zone eingegrenzt zu bleiben, ähnlich wie Hölderlin\nund Jean Paul, die ewig unüberpflanzbaren. Das mindert\nnicht seinen Rang, und vielleicht werden gerade Sie im Aus-\nland solche Urelemente am neugierigsten und leidenschaft-\nlichsten zu ehren vermögen, die in sich alle Fremdkräfte und\ndamit das wahrhaft Persönliche eines Volkes sinnmächtig re-\npräsentieren. Weitwirkung bedeutet — wir wissen es alle —\nmeist nur ein Widerspiel wahrhafter Werte, und so wollen\nwir es nicht pathetisch beklagen, daß diese klaren und wah-\nren, diese so gegenständlichen und doch welthaften Werke\nHans Carossas nicht einmal in Deutschland genugsam ver-\nbreitet sind; die geringe Zahl seiner Auflagen wird wohl auf-\ngewogen durch jene der Jahre, die sie zu überdauern be-\nstimmt sind, denn diese Gebilde sind zu fest geballt, zu rein\ngerundet, als daß sie zerfallen könnten. Reinheit bewahrt,\nund so bewahren sich diese seine Werke heute schon einer\nnächsten und kommenden Generation, so schmal sie sind,\nso zart sie erscheinen. Denn in ihnen wirkt und waltet in\nWahrheit dichterische Kraft über Tag und Jahr.\nEin Wort noch wollten Sie wissen über den Menschen und\nsein privates Leben, seine öffentliche Stellung. Er hat seit\ndreißig Jahren keine andere als die eines sehr beschäftigten\nArztes mit einer erdrückenden Krankenkassenpraxis im zwei-\nten Stock einer lärmenden Münchener Hauptstraße. Kranke,\nhauptsächlich Tuberkulose, zu behandeln, bleibt sein Dienst,\nseine Aufopferung, seine Freude; neben der dichterischen\nkennt er wenig Welt, ist kaum über die engere Heimat hin-\nausgekommen, war (Phänomen eines deutschen Dichters!)\nmit fünfzig Jahren noch nie in Berlin, gehört in keine Gruppe\nund in keinen Kreis. Aber wer einmal diesem stillen, ruhi-\ngen, augenklaren Menschen begegnet ist, liebt ihn leiden-\nschaftlich als Freund. Wem er einmal Arzt war, der bleibt\nihm ein Leben lang dankbar ergeben als humanstem Helfer.\nUnd wer ehrfürchtigen Herzens auch nur eines seiner Bücher\ngelesen hat, zählt ihn zu den seltenen Gestalten, bei denen\ndas hohe Wort Dichter nicht als ein gewagtes, sondern als\ndas einzig gewählte erscheint.\n77 Zweig: Begegnungen."
+          }
+        ]
       }
     },
     {
@@ -8413,50 +9055,40 @@
         "avgCharsPerPage": 3459,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 6918,
+        "total_words": 1112,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3459,
           0,
           3459
         ],
-        "charsPerPageMedian": 3459.0,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 3459.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4335,
+        "duplicate_page_pairs": [
           [
             0,
             2
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
-    },
-    {
-      "id": "o_szd.1891_consensus",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0
-      }
+      "consensus": null
     },
     {
       "id": "o_szd.1891_gemini-3.1-flash-lite-preview",
@@ -8509,21 +9141,90 @@
         "avgCharsPerPage": 3636,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10908,
+        "total_words": 1702,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3592,
           0,
           3766,
           0,
           3550
         ],
-        "charsPerPageMedian": 3592,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
+        "chars_per_page_median": 3592,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4362,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0068,
+        "overall_cer": 0.0068,
+        "word_overlap": 0.9865,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0149,
+            "cer_orderless": 0.0149,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "DANTE\n\nSEINE Stunde ist immer gewesen und niemals doch ganz im\nEinklang zum Uhrenschlag der Welt: sechs Jahrhunderte\nschon, zwanzig redende Geschlechter (um der Griechen star-\nkes Wort zu brauchen) rühmen in Ehrfurcht seinen Namen\nund sehen auf zum steinernen Dom seines Gedichtes, alle aber\nimmer wie aus einer Tiefe empor zu seiner Höhe, der unfaß-\nbaren und ungreifbaren. Noch immer bleibt wie seit dem\nJahre, da sie in den Marmor seines Grabes gemeißelt ward,\ndie Inschrift des Giovanni de Virgilio: „Vulgo gratissimus\nauctor“, „der von der Menge geliebte Dichter“, eine poetisch\nfloskelnde Übertreibung, ein freundschaftlicher Irrtum, denn\nnie und zu keiner Zeit ist Dante ein ins Weite, ins Lebendige\nrückwirkender Genius gewesen oder geworden. Immer,\nheute wie einst, erhebt seine Größe einsam und unver-\ntraut, so weit sie auch tönt, so hoch sie über die Stunde blickt.\nDa der heroische Verbannte Zorn und Liebe in unvergäng-\nliche Formen meißelt, erzittert die Zeit schon von den heili-\ngen Hammerschlägen, Italien erwacht vom Scheitel der Alpen\nbis zur Sohle Siziliens von dem drohenden Tubaton seines\nGerichtes: aber mitleidlos halten sich die Mauern von Flo-\nrenz dem Ausgestoßenen, dem Fuoruscito, verschlossen. Sein\nhöchster Lohn, im „bel San Giovanni“ den Lorbeer zu emp-\nfangen auf den „grauen Haaren, die am Arno blond gewesen“,\nbleibt unerweckter Traum: Ruhm, nur immerdar steinerner\nRuhm wird ihm, nie weiche, umfangende Liebe. Nach sei-\nnem Tode wird er ein Name, eine Glorie, eine Legende, an-\ndere aber haben lindern und doch weichern Weg in die Welt.\nPetrarca prägt das Erz der Sprache, die er gegossen, in die\nkleine Münze der Sonette und streut sie in das romanische\nLand, Liebe eintauschend und vieler Liebender Leiden-\nschaft; Ariost und Tasso, glücklichere Erben, ernten, wo je-\nner im Dunkeln gepflügt. Er wird zum Gotte, doch sie haben\ndie Liebe der Menschen. Einsam steht er, ein erratischer\nBlock, quer durch die Zeiten: vergebens suchen die Kom-\nmentatoren, die Gelehrten an den Seilen ihrer Konjekturen\nihn niederzuziehen zum Augenmaß des gemeinen Blicks;\nimmer aber bleibt er hoch und fern, nicht wegzuwälzen von\nseiner Stelle, nicht zu zerteilen und zu verkleinern, der „al-\ntissimo poeta“, der Dichter, zu dem man aufblickt und der\ndoch zu hoch bleibt, als daß Fühlung des Volkes ihn je voll\nzu umfassen vermöchte. Nie tritt er ganz hinab in den irdi-\nschen Tag, nie vertraut er ganz sein Geheimnis.\nUm ihn steigen und fallen die Geschlechter, ein murmelnder\nWellenschlag, aber er bleibt starr, der Fels, und sieht über\nsic in die Unendlichkeit hinein. Staaten und Nationen stürzen,\nein kleines Geröll zu seinen Füßen, doch es bebt kein Stein\nim marmornen Gequader seines Gedichtes. Nichts Festeres\nhat die Kunst, als die vierzehntausend Verse dieses Werkes.\nDie Denkmale, die in gleicher Stunde auf gleicher Erde wuch-\nsen, Stein an Stein, wie in dem seinen Vers an Vers, sie alle,\nder weiße Dom von Florenz und der Palazzo Vecchio, sie\nwerden eher stürzen, die Bilder Giottos und Cimabues, sei-\nner Freunde, schon verlöschen, ehe dieser Dom hinbricht,\nbevor diese Musik vertönt. Je weiter sein Werk hineinwächst\nin den Horizont der Zeiten, um so naturhafter, um so unzer-,\nstörbarer, um so felshafter starrt es zum ewigen Himmel em-\npor über die vergängliche Erde. Nur immer größer erscheint\nDante, der Dichter, in immer kleiner werdendem Ge-\nschlecht.\nDie „Divina Commedia“ kennt keine Zeiten, ist sie doch\nselbst gestaltete Zeit, der steingewordene mittelalterliche Ge-\ndanke. Sie überlebt, wie der gotische Dom seinen Glauben,\n118 Zweig: Begegnungen.",
+            "transcription_b": "DANTE\n\nSEINE Stunde ist immer gewesen und niemals doch ganz im\nEinklang zum Uhrenschlag der Welt: sechs Jahrhunderte\nschon, zwanzig redende Geschlechter (um der Griechen star-\nkes Wort zu brauchen) rühmen in Ehrfurcht seinen Namen\nund sehen auf zum steinernen Dom seines Gedichtes, alle aber\nimmer wie aus einer Tiefe empor zu seiner Höhe, der unfaß-\nbaren und ungreifbaren. Noch immer bleibt wie seit dem\nJahre, da sie in den Marmor seines Grabes gemeißelt ward,\ndie Inschrift des Giovanni de Virgilio: „Vulgo gratissimus\nauctor“, „der von der Menge geliebte Dichter“, eine poetisch\nfloskelnde Übertreibung, ein freundschaftlicher Irrtum, denn\nnie und zu keiner Zeit ist Dante ein ins Weite, ins Lebendige\nrückwirkender Genius gewesen oder geworden. Immer,\nheute wie einst, erhebt sich seine Größe einsam und unver-\ntraut, so weit sie auch tönt, so hoch sie über die Stunde blickt.\nDa der heroische Verbannte Zorn und Liebe in unvergäng-\nliche Formen meißelt, erzittert die Zeit schon von den heili-\ngen Hammerschlägen, Italien erwacht vom Scheitel der Alpen\nbis zur Sohle Siziliens von dem drohenden Tubaton seines\nGerichtes: aber mitleidlos halten sich die Mauern von Flo-\nrenz dem Ausgestoßenen, dem Fuoruscito, verschlossen. Sein\nhöchster Lohn, im „bel San Giovanni“ den Lorbeer zu emp-\nfangen auf den „grauen Haaren, die am Arno blond gewesen“,\nbleibt unerweckter Traum: Ruhm, nur immerdar steinerner\nRuhm wird ihm, nie weiche, umfangende Liebe. Nach sei-\nnem Tode wird er ein Name, eine Glorie, eine Legende, an-\ndere aber haben lindern und doch weichern Weg in die Welt.\nPetrarca prägt das Erz der Sprache, die er gegossen, in die\nkleine Münze der Sonette und streut sie in das romanische\nLand, Liebe eintauschend und vieler Liebender Leiden-\nschaft; Ariost und Tasso, glücklichere Erben, ernten, wo je-\nner im Dunkeln gepflügt. Er wird zum Gotte, doch sie haben\ndie Liebe der Menschen. Einsam steht er, ein erratischer\nBlock, quer durch die Zeiten: vergebens suchen die Kom-\nmentatoren, die Gelehrten an den Seilen ihrer Konjekturen\nihn niederzuziehen zum Augenmaß des gemeinen Blicks;\nimmer aber bleibt er hoch und fern, nicht wegzuwälzen von\nseiner Stelle, nicht zu zerteilen und zu verkleinern, der „al-\ntissimo poeta“, der Dichter, zu dem man aufblickt und der\ndoch zu hoch bleibt, als daß Fühlung des Volkes ihn je voll\nzu umfassen vermöchte. Nie tritt er ganz hinab in den irdi-\nschen Tag, nie vertraut er ganz sein Geheimnis.\nUm ihn steigen und fallen die Geschlechter, ein murmelnder\nWellenschlag, er aber bleibt starr, der Fels, und sieht über\nsie in die Unendlichkeit hinein. Staaten und Nationen stürzen,\nein kleines Geröll zu seinen Füßen, doch es bebt kein Stein\nim marmornen Gequader seines Gedichtes. Nichts Festeres\nhat die Kunst, als die vierzehntausend Verse dieses Werkes.\nDie Denkmale, die in gleicher Stunde auf gleicher Erde wuch-\nsen, Stein an Stein, wie in dem seinen Vers an Vers, sie alle,\nder weiße Dom von Florenz und der Palazzo Vecchio, sie\nwerden eher stürzen, die Bilder Giottos und Cimabues, sei-\nner Freunde, schon verlöschen, ehe dieser Dom hinbricht,\nbevor diese Musik vertönt. Je weiter sein Werk hineinwächst\nin den Horizont der Zeiten, um so naturhafter, um so unzer-\nstörbarer, um so felshafter starrt es zum ewigen Himmel em-\npor über die vergängliche Erde. Nur immer größer erscheint\nDante, der Dichter, in immer kleiner werdendem Ge-\nschlecht.\nDie „Divina Commedia“ kennt keine Zeiten, ist sie doch\nselbst gestaltete Zeit, der steingewordene mittelalterliche Ge-\ndanke. Sie überlebt, wie der gotische Dom seinen Glauben,\n118 Zweig: Begegnungen.\n\n{Stempel:}\nRUDOLF [...] \n2. VII. 1937\nKorrektur"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0003,
+            "cer_orderless": 0.0003,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "die einmal erfüllte Idee durch ewige Form. Eine steile Was-\nserscheide, trennt sie für immer und allezeit die großen Strö-\nme des Mittelalters und der neuen Zeit: wie jedes Gebirge\nbindet sie aber zugleich die Kulturen, die sie voneinander ab-\nzugrenzen scheint. Mit Dante endet die schöpferische Theo-\nlogie, die Wissenschaft um den christlichen Gott, mit ihm\nbeginnt der Humanismus, die Wissenschaft um das Göttliche\nim Irdischen. So ist Dante der größte Beginner und der größte\nBeender in einem.\nEr tritt in verwirrte Stunde, doch durch ihn wird sie klar.\nEr steht an einem erhabenen Ende, doch er knüpft es an\neinen erhabenen Anfang an. Da er vortritt, hat der Katho-\nlizismus seine historische Tat zu Ende getan: aus einem Men-\nschen ist eine Gotteswelt, aus seiner Legende ein Gesetz ge-\nbaut. Das Dogma ist vollendet, über die ganze europäische\nWelt hin ragt der Dom des Christentums. Kirche ward Welt-\nmacht und zugleich Weltwissen: ihre Pfeiler sind das neue\nSittengesetz, die neue Philosophie, die christliche Lehre, das\nDogma. Die riesigen Gestalten des heiligen Augustinus, des\nDuns Scotus und Albertus Magnus haben dem christlichen\nKosmos geschenkt, was Plato und Aristoteles dem antiken:\neine neue Ethik, eine neue Philosophie. Nun steht der Dom\nvollendet vom Fundament bis zum First. Aber jede Vollen-\ndung atmet schon Starre und Tod. Da die Schöpfertat getan\nist, kommen die Kärrner, das Werk der Könige zu ergänzen,\nKommentatoren bohren sich wie Holzwürmer durch die\nPandekten, Theologie verknöchert zur Scholastik, Gottes-\nwissenschaft zum Schulgezänk. Die heilige Schöpferflamme\ndes Christentums verlischt: nur in den deutschen Klöstern\nbei den großen Mystikern glüht sie im verborgenen, und\nschon knistert sie wieder unter der Asche des Dogmas bei den\nreligiösen Revolutionären, den Ketzern und Häretikern, ehe\nsie dann mit der Renaissance und der Reformation hell in\nden Himmel des Abendlandes aufschlägt. Da steht, in so\nverdunkelter, so ermatteter Stunde dieser eine, Dante, auf\nund zieht die „Summa“: zur christlichen Wissenschaft\nschenkt er den Mythos, zur Satzung, der steingewordenen,\ndas ebenso steinerne Gedicht. Alles stellt er auf die dreige-\nstufte Mysterienbühne seines theologischen Weltwerkes,\nWissenschaft und Politik, Himmel und Erde, Nähe und Ferne,\nAntike und Gegenwart, Olymp und Hölle, Glaube und Aber-\nglaube, und sich selbst, den ewigen Menschen, in die Mitte.\nNoch einmal tut er, was Hesiod, was Pythagoras, die ersten\nunseres Geistes taten: er träumt einen Weltraum, er schafft\neinen neuen, den christlichen Weltmythos, füllt das Schema,\ndas kalte und starre, der Dogmatiker mit bildnerischem Blut.\nDen Geist erhebt er zur Sinnlichkeit, das Pergament der\nPandekten und Traktate illuminiert er mit unverlöschbaren\nFarben, die Dispute steigert er zu unverklangbaren Dialogen.\nGesetz, ihm versinnlicht es sich zu Gestalt, die nackte Lehre\nin bunte Allegorie, die christliche Lehre vom Ewigen, sie\nwird selbst zu einer Ewigkeit durch sein Gedicht.\nAber diese Rede hat noch keine Zunge: auch hier greift der\nBeginner in stürzenden Bestand. Die Sprache der Theologie\nist noch Latein gewesen, aber nicht jenes des Cäsar und Ta-\ncitus mehr. In den Syllogismen und Dogmen verblühte die\nklassische Diktion Saft und Mark, längst fügt sie sich nicht\nmehr der gebundenen Rede. Latein war immer im wesent-\nlichen Ausdruck imperatorischen Willens gewesen, Sprache\nder Diktate und der Dogmen, unvergleichlich, Inschriften\nsparsam in Stein zu meißeln und Gesetze eng zu ummauern;\naber ihm fehlt die Fülle, die Weiche, die Biegsamkeit, um\ndie weltweiten Sphären Dantes zu umfassen. Das Italienisch,\nsein Schößling wiederum, noch ist es nicht geboren vor die-\nsem Gedicht: in Dialekte zerstreut, unten dumpf wuchernd\n119 Zweig: Begegnungen.",
+            "transcription_b": "die einmal erfüllte Idee durch ewige Form. Eine steile Was-\nserscheide, trennt sie für immer und allezeit die großen Strö-\nme des Mittelalters und der neuen Zeit: wie jedes Gebirge\nbindet sie aber zugleich die Kulturen, die sie voneinander ab-\nzugrenzen scheint. Mit Dante endet die schöpferische Theo-\nlogie, die Wissenschaft um den christlichen Gott, mit ihm\nbeginnt der Humanismus, die Wissenschaft um das Göttliche\nim Irdischen. So ist Dante der größte Beginner und der größte\nBeender in einem.\nEr tritt in verwirrte Stunde, doch durch ihn wird sie klar.\nEr steht an einem erhabenen Ende, doch er knüpft es an\neinen erhabenen Anfang an. Da er vortritt, hat der Katho-\nlizismus seine historische Tat zu Ende getan: aus einem Men-\nschen ist eine Gotteswelt, aus seiner Legende ein Gesetz ge-\nbaut. Das Dogma ist vollendet, über die ganze europäische\nWelt hin ragt der Dom des Christentums. Kirche ward Welt-\nmacht und zugleich Weltwissen: ihre Pfeiler sind das neue\nSittengesetz, die neue Philosophie, die christliche Lehre, das\nDogma. Die riesigen Gestalten des heiligen Augustinus, des\nDuns Scotus und Albertus Magnus haben dem christlichen\nKosmos geschenkt, was Plato und Aristoteles dem antiken:\neine neue Ethik, eine neue Philosophie. Nun steht der Dom\nvollendet vom Fundament bis zum First. Aber jede Vollen-\ndung atmet schon Starre und Tod. Da die Schöpfertat getan\nist, kommen die Kärrner, das Werk der Könige zu ergänzen,\nKommentatoren bohren sich wie Holzwürmer durch die\nPandekten, Theologie verknöchert zur Scholastik, Gottes-\nwissenschaft zum Schulgezänk. Die heilige Schöpferflamme\ndes Christentums verlischt: nur in den deutschen Klöstern\nbei den großen Mystikern glüht sie im verborgenen, und\nschon knistert sie wieder unter der Asche des Dogmas bei den\nreligiösen Revolutionären, den Ketzern und Häretikern, ehe\nsie dann mit der Renaissance und der Reformation hell in\nden Himmel des Abendlandes aufschlägt. Da steht, in so\nverdunkelter, so ermatteter Stunde dieser eine, Dante, auf\nund zieht die „Summa“: zur christlichen Wissenschaft\nschenkt er den Mythos, zur Satzung, der steingewordenen,\ndas ebenso steinerne Gedicht. Alles stellt er auf die dreige-\nstufte Mysterienbühne seines theologischen Weltwerkes,\nWissenschaft und Politik, Himmel und Erde, Nähe und Ferne,\nAntike und Gegenwart, Olymp und Hölle, Glaube und Aber-\nglaube, und sich selbst, den ewigen Menschen, in die Mitte.\nNoch einmal tut er, was Hesiod, was Pythagoras, die ersten\nunseres Geistes taten: er träumt einen Weltraum, er schafft\neinen neuen, den christlichen Weltmythos, füllt das Schema,\ndas kalte und starre, der Dogmatiker mit bildnerischem Blut.\nDen Geist erhebt er zur Sinnlichkeit, das Pergament der\nPandekten und Traktate illuminiert er mit unverlöschbaren\nFarben, die Dispute steigert er zu unverklingbaren Dialogen.\nGesetz, ihm versinnlicht es sich zu Gestalt, die nackte Lehre\nin bunte Allegorie, die christliche Lehre vom Ewigen, sie\nwird selbst zu einer Ewigkeit durch sein Gedicht.\nAber diese Rede hat noch keine Zunge: auch hier greift der\nBeginner in stürzenden Bestand. Die Sprache der Theologie\nist noch Latein gewesen, aber nicht jenes des Cäsar und Ta-\ncitus mehr. In den Syllogismen und Dogmen verblühte die\nklassische Diktion Saft und Mark, längst fügt sie sich nicht\nmehr der gebundenen Rede. Latein war immer im wesent-\nlichen Ausdruck imperatorischen Willens gewesen, Sprache\nder Diktate und der Dogmen, unvergleichlich, Inschriften\nsparsam in Stein zu meißeln und Gesetze eng zu ummauern;\naber ihm fehlt die Fülle, die Weiche, die Biegsamkeit, um\ndie weltweiten Sphären Dantes zu umfassen. Das Italienisch,\nsein Schößling wiederum, noch ist es nicht geboren vor die-\nsem Gedicht: in Dialekte zerstreut, unten dumpf wuchernd\n119 Zweig: Begegnungen."
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 0.0057,
+            "cer_orderless": 0.0057,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "im Volke, arm und kleingemünzt in unreiner Prägung, tut\nes sich um im Lande. Dies „Volgare“, die gemeine Sprache,\nwie verächtlich die Gelehrten sie nennen, faßt nun plötzlich\ndie heiße starke Hand Dantes: unter seinem unerhört zu-\nsammenballenden Griff schmilzt sie ein, unter seinem prä-\ngenden Druck wird der Lehm der Straße wieder fest und\nneu. Und das nun plötzlich Form hat, ist nicht das Italienisch\ndes Guinizelli und Jacopo da Lentino mehr, ein dem Pro-\nvenzalischen nachgeträumter „dolce stil nuovo“, es ist ein\nneues Italienisch, gehärtet am Lateinisch, ein Italienisch, me-\ntallen und rein, wie es nie war und nie wieder sein wird.\nAuch hier ist Dante Beginner und Beender zugleich und\ndarf stolz von sich sagen: „L’acqua che io prendo giammai\nnon sie corse“, „nie ward die Flut beschifft, die ich berühre“.\nHinter ihm blüht das Italienisch weiter, es verzweigt sich in\nDunkel und Licht, in wogenden, schwingenden, singenden\nÄsten, und steigt auf in hellere Musik: hier aber ist der\nStamm, der ehern harte und runde, unvergänglich in die\nErde Italiens gepflanzt. Nicht die Nation hat Dante die\nSprache, sondern er mit der Sprache erst die Nation ge-\nschaffen: durch sechs Jahrhunderte hat das neulateinische\nReich keine Einheit als dies sein prophetisches Ge-\ndicht „il libro“, „das“ Buch.\nDieser Mut, diese grenzenlose Kühnheit des Griffes, dieser\nstarre Wille, „l’animo che vince ogni battaglia“, macht Dante\neinzig unter Dichtern. Von allen, die vor und nach ihm\nkamen, hat er allein dies bronzene Zupacken des Gewalt-\ntäters, diese unerhörte bildnerische Gebärde des Anfangs.\nAber diesem Willen fügt sich die Tat, „potere in lui era ugu-\nale al volere“ rühmt Petrarca, und wirklich, er kommt aus\njenen Sphären, wo, wie er sagt, „sich alles fügt, was man be-\ngonnen“. Mit jenem urmächtigen Blick, der vielleicht nur\nnoch Shakespeare und Goethe unter Dichtern zu eigen\nist, sieht er die Welt, sieht er Raum und Zeiten als ein Gan-\nzes, alles Menschliche als Einheit. Jahrtausende nietet\nsein heißer Blick zusammen. Für ihn gibt es so wenig wie bei\nShakespeare und bei Goethe eine zeitliche Grenze zwischen\ndem Mystischen und Sinnlich-Nahen, zwischen einem Achill,\ndem Myrmidonen, und Falstaff, dem Londoner Tavernen-\nsäufer, kühn setzt er — wie Goethe sein Leipziger Gretchen\nzu den Füßen der Himmelsmutter — seine unsterbliche Ge-\nliebte Beatrice Portinari neben die Allmutter Rahel der Bi-\nbel; persönlichstes Erlebnis wird ihm Weltgeschehen, ur-\nalter Mythos ureigenster Tag. Weil er monumental sieht,\nmacht er sein Privatestes groß: wie kleine Mücken im Bern-\nstein sind seine Widersacher für ewig durchsichtig in der\ndichterischen Materie festgefangen, Vergänglichstes atmet\ndurch ihn Ewigkeit, sobald sein Blick es durchseelt. Was aber\ndiesen weltweiten Genius noch besonders macht, ist seine\ngleichzeitige Begabung zur Symmetrie in der Vision: nichts\nsieht er abgesondert und einzelhaft, alles gestuft in geschlos-\nsener Hierarchie. Ihm ist Natur nicht stromhaft wie Goethe,\nnicht sprunghaft vielgestaltig wie Shakespeare, sondern alles\npragmatisch vorbestimmt.\n\n„Le cose tutte e quante\nHanno ordine tra loro; e questo è forma\nChe l’universo a Dio fa simigliante.“\n\nDas Göttliche der Natur liegt für Dante in ihrer Ordnung.\nUnd so wird es sein ungeheuerstes, sein für die Dichtung\neinziges Bemühen in der Commedia, die ganze Welt in ein\nSchema zu bringen und jedem einzelnen Menschen, so wie\nein Sternbild starr verharrend seine Stelle im Kosmos inne-\nhat, zwischen Himmel und Hölle seinen moralischen Rang\n120 Zweig: Begegnungen.",
+            "transcription_b": "im Volke, arm und kleingemünzt in unreiner Prägung, tut\nes sich um im Lande. Dies „Volgare“, die gemeine Sprache,\nwie verächtlich die Gelehrten sie nennen, faßt nun plötzlich\ndie heiße starke Hand Dantes: unter seinem unerhört zu-\nsammenballenden Griff schmilzt sie ein, unter seinem prä-\ngenden Druck wird der Lehm der Straße wieder fest und\nneu. Und das nun plötzlich Form hat, ist nicht das Italienisch\ndes Guinizelli und Jacopo da Lentino mehr, ein dem Pro-\nvenzalischen nachgeträumter „dolce stil nuovo“, es ist ein\nneues Italienisch, gehärtet am Lateinisch, ein Italienisch, me-\ntallen und rein, wie es nie war und nie wieder sein wird.\nAuch hier ist Dante Beginner und Beender zugleich und\ndarf stolz von sich sagen: „L’acqua che io prendo giammai\nnon sie corse“, „nie ward die Flut beschifft, die ich berühre“.\nHinter ihm blüht das Italienisch weiter, es verzweigt sich in\nDunkel und Licht, in wogenden, schwingenden, singenden\nÄsten, und steigt auf in hellere Musik: hier aber ist der\nStamm, der ehern harte und runde, unvergänglich in die\nErde Italiens gepflanzt. Nicht die Nation hat Dante die\nSprache, sondern er mit der Sprache erst die Nation ge-\nschaffen: durch sechs Jahrhunderte hat das neulateinische\nReich keine andere Einheit als dies sein prophetisches Ge-\ndicht „il libro“, „das“ Buch.\nDieser Mut, diese grenzenlose Kühnheit des Griffes, dieser\nstarre Wille, „l’animo che vince ogni battaglia“, macht Dante\neinzig unter den Dichtern. Von allen, die vor und nach ihm\nkamen, hat er allein dies bronzene Zupacken des Gewalt-\ntäters, diese unerhörte bildnerische Gebärde des Anfangs.\nAber diesem Willen fügt sich die Tat, „potere in lui era ugu-\nale al volere“ rühmt Petrarca, und wirklich, er kommt aus\njenen Sphären, wo, wie er sagt, „sich alles fügt, was man be-\ngonnen“. Mit jenem urmächtigen Blick, der vielleicht nur\nnoch Shakespeare und Goethe unter den Dichtern zu eigen\nist, sieht er die Welt, sieht er Raum und Zeiten als ein Gan-\nzes, alles Menschliche als eine Einheit. Jahrtausende nietet\nsein heißer Blick zusammen. Für ihn gibt es so wenig wie bei\nShakespeare und bei Goethe eine zeitliche Grenze zwischen\ndem Mystischen und Sinnlich-Nahen, zwischen einem Achill,\ndem Myrmidonen, und Falstaff, dem Londoner Tavernen-\nsäufer, kühn setzt er — wie Goethe sein Leipziger Gretchen\nzu den Füßen der Himmelsmutter — seine unsterbliche Ge-\nliebte Beatrice Portinari neben die Allmutter Rahel der Bi-\nbel; persönlichstes Erlebnis wird ihm Weltgeschehen, ur-\nalter Mythos ureigenster Tag. Weil er monumental sieht,\nmacht er sein Privatestes groß: wie kleine Mücken im Bern-\nstein sind seine Widersacher für ewig durchsichtig in der\ndichterischen Materie festgefangen, Vergänglichstes atmet\ndurch ihn Ewigkeit, sobald sein Blick es durchseelt. Was aber\ndiesen weltweiten Genius noch besonders macht, ist seine\ngleichzeitige Begabung zur Symmetrie in der Vision: nichts\nsieht er abgesondert und einzelhaft, alles gestuft in geschlos-\nsener Hierarchie. Ihm ist Natur nicht stromhaft wie Goethe,\nnicht sprunghaft vielgestaltig wie Shakespeare, sondern alles\npragmatisch vorbestimmt.\n\n„Le cose tutte e quante\nHanno ordine tra loro; e questo è forma\nChe l’universo a Dio fa simigliante.“\n\nDas Göttliche der Natur liegt für Dante in ihrer Ordnung.\nUnd so wird es sein ungeheuerstes, sein für die Dichtung\neinziges Bemühen in der Commedia, die ganze Welt in ein\nSchema zu bringen und jedem einzelnen Menschen, so wie\nein Sternbild starr verharrend seine Stelle im Kosmos inne-\nhat, zwischen Himmel und Hölle seinen moralischen Rang\n120 Zweig: Begegnungen."
+          }
+        ]
       }
     },
     {
@@ -8577,22 +9278,35 @@
         "avgCharsPerPage": 3663,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10990,
+        "total_words": 1678,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3493,
           0,
           3958,
           0,
           3539
         ],
-        "charsPerPageMedian": 3539,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 3539,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4273,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1896_gemini-3.1-flash-lite-preview",
@@ -8645,22 +9359,35 @@
         "avgCharsPerPage": 3269,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 9806,
+        "total_words": 1506,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3738,
           0,
           3648,
           0,
           2420
         ],
-        "charsPerPageMedian": 3648,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 3648,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4842,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1897_gemini-3.1-flash-lite-preview",
@@ -8713,22 +9440,35 @@
         "avgCharsPerPage": 3625,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10875,
+        "total_words": 1566,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3597,
           0,
           3776,
           0,
           3502
         ],
-        "charsPerPageMedian": 3597,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 3597,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4265,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.1899_gemini-3.1-flash-lite-preview",
@@ -8781,22 +9521,35 @@
         "avgCharsPerPage": 3522,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10567,
+        "total_words": 1567,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3603,
           0,
           3492,
           0,
           3472
         ],
-        "charsPerPageMedian": 3492,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 3492,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4099,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.2853_gemini-3.1-flash-lite-preview",
@@ -8849,52 +9602,42 @@
         "avgCharsPerPage": 3556,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 10668,
+        "total_words": 1629,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           3538,
           0,
           3592,
           0,
           3538
         ],
-        "charsPerPageMedian": 3538,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 3538,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.421,
+        "duplicate_page_pairs": [
           [
             0,
             4
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
-    },
-    {
-      "id": "o_szd.204_consensus",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0
-      }
+      "consensus": null
     },
     {
       "id": "o_szd.204_gemini-3.1-flash-lite-preview",
@@ -8947,46 +9690,90 @@
         "avgCharsPerPage": 2237,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 6710,
+        "total_words": 1107,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2175,
           0,
           2403,
           0,
           2132
         ],
-        "charsPerPageMedian": 2175,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "en",
-        "languageDetected": "en",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
-    },
-    {
-      "id": "o_szd.206_consensus",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "chars_per_page_median": 2175,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4863,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.5227,
+        "overall_cer": 0.5227,
+        "word_overlap": 0.9323,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.5882,
+            "cer_orderless": 0.5882,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "History of to-morrow\n\nHowever opinions may differ, there is one fact which no one\nwill feel inclined to dispute - namely that our world, in ~~its~~ {is} {an}\nabnormal moral condition.\n~~abnormal state to-day, is facing a severe moral crisis.~~ I believe {in}\nparticular ~~when~~ you in America look across to Europe, you must\nhave the feeling that all the peoples and nations are victims of a\nmorbid irritability. The slightest pretext is sufficient to evoke\nboundless agitation. Races, social classes and states, no less than\nindividuals, seem more inclined to hate one another than to live on\ngood terms. Neither the individual nor the nation has faith in the\npossibility of tranquil and productive development. On the contrary,\nall of us ~~who live in Europe~~ - and I believe that you will not contra-\ndict me when I say this - are living under ~~the constant impression~~,\nthe constant apprehension, that a violent explosion may take place\nany second.\n\nTo what is this state of tension due? I believe that this\nfever, ~~this stagnation in the normal circulation of our blood which~~ {in}\n~~dates from the War, is caused by the same old bacillus.~~ {due to a} {fostered by the war.} We must\nremember that the War years accustomed the people in every country to\na violent heightening of emotion. Wars cannot be waged in cold blood\nand with a cool mind. A tremendous injection of passion was necess-\nary to enable ~~an~~ to endure a world war for {the} {terrible} {period} {of}\n~~the~~ {the} {belligerent} {nations} {such} {an} {appalling}\nfour years. {Every day} ~~of those fifteen hundred days~~ {the} {instincts} {of} {hatred,} {anger,} {and} {embitterment} {had} {to}\n{given} {fresh} {stimulus} ~~af~~ {aa} {in} {normal} {times}\nbe stimulated ~~incessantly~~ in all the warring states. Thus millions\nof human beings who were ~~really indifferent and~~ entirely peaceable,\nthree or four hundred millions of them - please try to visualise this\nfigure - became accustomed {through} {fifteen} {hundred} {days} - ~~for four endless years to producing and~~ \n{generating} ~~within themselves more hatred and enmity than was natural~~ {every day of those fifteen hundred days}",
+            "transcription_b": "History of - to - morrow\n\nHowever opinions may differ, there is one fact which no one\nwill feel inclined to dispute - namely that our world, in {is an} ~~its~~\n{abnormal moral condition.}\n~~abnormal state to-day, is facing a severe moral crisis. I believe~~ In\nparticular ~~when~~ you in America look across to Europe, you must\nhave the feeling that all the peoples and nations are victims of a\nmorbid irritability. The slightest pretext is sufficient to evoke\nboundless agitation. Races, social classes and states, no less than\nindividuals, seem more inclined to hate one another than to live on\ngood terms. Neither the individual nor the nation has faith in the\npossibility of tranquil and productive development. On the contrary,\nall of us ~~who live in Europe~~ - and I believe that you will not contra-\ndict me when I say this - are living under ~~the constant impression,~~\nthe constant apprehension, that a violent explosion may take place\nany second.\nTo what is this state of tension due? I believe that this\nfever, ~~this stagnation in the normal circulation of our blood which~~\n{due to a} {in} {fostered by the war.}\n~~dates from the War,~~ is ~~caused by the same old bacillus.~~ We must\nremember that the War years accustomed the people in every country to\na violent heightening of emotion. Wars cannot be waged in cold blood\nand with a cool mind. A tremendous injection of passion was necess-\n{the belligerent nations} {such an appalling}\nary to enable ~~us~~ to endure a world war for ~~the terrible~~ period ~~of~~\n{Every day of those fifteen hundred days}\nfour years. The instincts of hatred, anger, and embitterment had to\n{given fresh stimulus} {afresh} {as}\n~~be stimulated incessantly~~ in all the warring states. Thus millions\n{in normal times}\nof human beings who were ~~ready and indifferent and~~ entirely peaceable,\nthree or four hundred millions of them - please try to visualise this\n{through fifteen hundred days -}\nfigure - became accustomed ~~for four endless years to producing and~~\n{generating}\n~~collecting~~ within themselves more hatred and enmity than was natural\n{every day of these fifteen hundred days}"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.9295,
+            "cer_orderless": 1.3701,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Those very things which ~~only yesterday~~ had been regarded as the highest\n{human virtues - murder, plunder, hate - reverted over night to the former}\n{stains of crimes. Who for five years had been obliged to be are as a hero, was now}\nto them. Then came the Peace, and suddenly this obligation to hate,\nto murder, to maintain one's passions at fever heat had to be turned\n{violence, murder, hat forbade} {to} {them.}\noff at a word of command as one turns off a gas tap. ~~This is con-\ntrary to Nature.~~ When an organism has become accustomed to narcot-\nics or stimulants - to coffee, to nicotine, to morphia - it cannot\nsuddenly do without them. The {need} {to} {militarise} {oneself,} {to} {hate}\n{once} {inflamed} {lust} {And} {peace} {or} {no} {peace}\nand to fight, has remained active in this generation. Only it has\nchanged its objective. ~~People no longer hate the same enemy of~~ \ntheir country as they did in 1914, but they continue to hate and\nfight with the same dangerous passion. {been} {turned} {inward.} {It} {has}\n{changed} {to} {the} {hatred}\nof one system for another, of one party, one class, one race, one\nideology for another. ~~Essentially, however, the forms are the same~~\nas they were in 1914, since they are conditioned by the need to form\ngroups and to act as groups in rivalry against other groups. We are\n{only} {said} {to} {be} {at} {peace,} {but} {our} {world} {is} {ruled} {by} {a} {definitely}\n{warlike} {mentality.} {overcite}\n\nIn what way can we eliminate this dangerous state of things?\nHow can we reduce the persistent feverish temperature? ~~How can we~~\nhumanise again the warlike atmosphere? What antidote do we possess\n{venom}\nfor the hatred by which the organism is poisoned? ~~How can we over-~~\ncome the moral depression with which the atmosphere of our world is\n{all} {of} {in} {all} {countries}\ncharged? For us this is the problem of problems, and I am of course\nnot so presumptuous as to think that I am the first to have discover-\ned it. Nor do I know of any complete solution. I am aware, and we\nare all aware, how much has been attempted in this respect, and we\nhave to thank particularly American democracy and your Government for\n{to} {become} {harmless.} {It} {was} {inddealy} {his} {duty} {to} {die} {peacefally} {in} {his}\n{bed} {and} {let} {everyone} {else} {do} {likewise.} {Such} {an} {abräst} {transformation} {from}\n{years} {of} {brutality}",
+            "transcription_b": "Those very things which ~~only~~ yesterday had been regarded as the highest\n{human virtues - murder, plunder, hate -} reverted over night to the former\nstatus of crimes. ~~Who for five years had been obliged to behave as a hero, was now~~\nto them. Then came the Peace, and suddenly this obligation to hate,\nto murder, to maintain one's passions at fever heat had to be turned\n{violence, murder, hat[e] forbidden} {by law}\noff at a word of command as one turns off a gas tap. ~~This~~ is con-\ntrary to Nature. When an organism has become accustomed to narcot-\nics or stimulants - to coffee, to nicotine, to morphia - it cannot\n{And peace or no peace}\nsuddenly do without them. The ~~need~~ to militarise oneself, to hate\n{once inflamed} {(lust)}\nand to fight, has remained active in this generation. Only it has\nchanged its objective. ~~People no longer hate the same enemy of~~\n~~their country as they did in 1914, but they continue to hate and~~\n{been turned inward. It has}\nfight with the same dangerous passion. It has changed to the hatred\nof one system for another, of one party, one class, one race, one\nideology for another. Essentially, however, the forms are the same\nas they were in 1914, since they are conditioned by the need to form\ngroups and to act as groups in rivalry against other groups. We are\n{ruled}\nsaid to be at peace, but our world is ~~dominated~~ by a definitely\n{Only} {bellicose}\n~~warlike~~ mentality.\nIn what way can we eliminate this dangerous state of things?\nHow can we reduce the persistent feverish temperature? How can we\nhumanise again the warlike atmosphere? What antidote do we possess\n{venom}\nfor the ~~hatred~~ by which the organism is poisoned? ~~How can we over-~~\n~~come the moral depression with which the atmosphere of our world is~~\n{all of} {in all countries}\n~~charged?~~ For us this is the problem of problems, and I am of course\nnot so presumptuous as to think that I am the first to have discover-\ned it. Nor do I know of any complete solution. I am aware, and we\nare all aware, how much has been attempted in this respect, and we\nhave to thank particularly American democracy and your Government for\n\n[Linker Rand, vertikal:]\nto become harmless. It was suddenly his duty to die peacefully in his\nbed and let everyone else do likewise. Such an abrupt transformation from\nyears of brutality"
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 0.0421,
+            "cer_orderless": 0.0421,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\nconferences, proclamations and appeals. These may {perhaps} have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled} {the} {atmosphere} {of} {suspicion} {and} {enmity}\naltered the moral, or rather immoral, condition in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n{apotheosis} {of} {war,} {and} {its} {mentality} {of} {hatred.} {perhaps} {our} {real}\n{task}\nwork lies in the application of all our energies towards ensuring\n{shall}\nthat at least the next generation, the youth of to-day, ~~should~~ not\nsuccumb to this {same} infection, this {same} fever. Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history. {But} {all} {education} {is}\n{based} {on} {example,} {and} {we} {can} {no} {better} {examples} {for} {the} {education}\n{of} {mankind} {than} {those} {contained} {in} {the} {history} {of} {mankind.} {Only}",
+            "transcription_b": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\n{by now}\nconferences, proclamations and appeals. These may (perhaps) have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled the atmosphere of suspicion and enmity}\n~~altered the moral, or rather immoral, condition~~ in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n{and}\n~~apotheosis of war, and its mentality of hatred.~~ ~~Perhaps~~ Our real\n{task}\n~~work~~ lies in the application of all our energies towards ensuring\n{shall}\nthat at least the next generation, the youth of to-day, ~~should~~ not\n{same} {same}\nsuccumb to this ~~infection,~~ this ~~fever.~~ Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history.\n\n[Unterer Rand:]\n{But all education is}\n{based on example, and we can find no better examples for the education}\n{of mankind than those contained in the history of mankind. Only}"
+          }
+        ]
       }
     },
     {
@@ -9040,21 +9827,92 @@
         "avgCharsPerPage": 1529,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 4586,
+        "total_words": 778,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           1815,
           0,
           1538,
           0,
           1233
         ],
-        "charsPerPageMedian": 1538,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
+        "chars_per_page_median": 1538,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4432,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "language_mismatch"
+        ]
+      },
+      "consensus": {
+        "category": "consensus_review",
+        "effective_cer": 1.4557,
+        "overall_cer": 1.4557,
+        "word_overlap": 0.8747,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 1.1988,
+            "cer_orderless": 1.7675,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "überholt (History)\nletzte Fassung\n\nwhich are poisoning the world to-day.\n\nThat was our education. ~~That was how history was taught~~\nin every country in Europe. ~~The results are everywhere visible.~~\nIt was continually dinned into our ears that no price was too high\nto pay - the lives of ten thousand men, a hundred thousand, a\nmillion. ~~And far from the terrible experience of the Great War~~\nWe see that it is being instilled into the youth and adults of most\nEuropean countries to-day {a conception which is in flat contradiction}\n{a conception to the highest teachings of the human spirit; in flat}\n{exaggeration.} Even in this county, across thousands of miles of\n{contradiction to the Christianity, to philosophy and all economic experience.}\nocean, you can hear the raucous shouts of dictators demanding what\nthey call an \"heroic\" conception of life, preaching that love of\npeace is a sign of debility and that a man can have no greater\nambition than to die for his country. We are witnessing to-day\na glorification of war such as not even the Spartans, not even\nthe most barbaric of ancient races, would have ventured to\nproclaim. We are witnessing, in the name of national pride, a\nperversion of history which {revolts our sense of truth.}\n\nAnd more than this: not only is the past, not only history\nis falsified, but even the immediate present. During {these last}\n{of crisis} {at work}\ncritical weeks I myself have experienced it. One stood in front\nof the radio, turning the dial from one station to another: Ber-\nlin, Paris, Rome, Prague. The same happening was reported by all\nthese stations, but in one tiny fraction of a millimetre, in one\nsingle second it was presented already in conformity with the\nappropriate line of propaganda, but never in accordance with the\n\n(Einschalt 1)\n(Einschalt 2)",
+            "transcription_b": "überholt (History)\nletzte Fassung\n\nwhich are poisoning the world to-day.\n\tThat was our education. ~~That was how history was taught~~\n~~in every country in Europe.~~ {The results are everywhere visible.}\nIt was continually dinned into our ears that no price was too high\nto pay - the lives of ten thousand men, a hundred thousand, a\nmillion. ~~And far from the terrible experience of the Great War~~ {We}\n{We} see ~~that it is~~ being instilled into the youth ~~and adults~~ of most\nEuropean countries to-day {with an unprecedented intensity and}\n~~exaggeration.~~ {a conception which is in flat contradiction}\n{a conception to the highest teachings of the human spirit; in flat}\n{contradiction to the [?] christianity, to philosophy and all economic experience.}\nocean, you can hear the raucous shouts of dictators demanding what\nthey call an \"heroic\" conception of life, preaching that love of\npeace is a sign of debility and that a man can have no greater\nambition than to die for his country. We are witnessing to-day\na glorification of war such as not even the Spartans, not even\nthe most barbaric of ancient races, would have ventured to\nproclaim. We are witnessing, in the name of national pride, a\nperversion of history which {revolts our sense of truth.} ~~sets our blood aflame with loathing.~~\n\t~~And more than this: not only is the past, not only history~~\nis falsified, but even the immediate present. {recent} During these ~~last~~\n~~critical~~ {of crisis} weeks I myself ~~have~~ experienced it. {at work} One stood in front\nof the radio, turning the dial from one station to another: Ber-\nlin, Paris, Rome, Prague. The same happening was reported by all\nthese stations, but in one tiny fraction of a millimetre, in one\nsingle second it was presented already in conformity with the\nappropriate line of propaganda, but never in accordance with the"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0774,
+            "cer_orderless": 0.5239,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "objective facts.\n\ntruth. Lying does to-day not merely make use of modern technique;\nit has already become a technique, a science whose purpose is to\nfalsify history in advance. Before an event {had} become history -\nwhile it is still warm and alive, as one might say - it {was}\ndissected and re-assembled. Scarcely has an act been put into\n{was converted into}\nwords before it becomes an official lie.\n\nWhat counter-measures can we take to save history from\nall this misrepresentation? How can we help to free the world\nfrom this hypnosis? How can we ensure that history shall be\ntaught, not with the aim of glorifying individual nations but in\nthe service of the common glory of mankind? I believe that we\nmust begin by changing our mental attitude. We must strain every\nnerve to prevent ourselves from regarding our state, our nation,\nour race as the focal point of the world, simply because it\nhappens to be ours. We must, on the contrary, forcibly educate\nourselves in the direction of absolute objectivity. And I main-\ntain: to-day, such objectivity is possible - for the first time,\nperhaps. If in former times history was always written as\nnational history, this was excusable - indeed, it may even have\nbeen inevitable. Let us think back to those times. The world\nwas not yet linked up; it was as yet utterly impossible for the\nindividual to view or depict the events of our globe as a whole.\nHow did these old chroniclers write history? Some small monk\nsat in his cell recording whatever occurred within his narrow\n\n(Einschalt 3)",
+            "transcription_b": "10\n\t{objective facts.}\n~~truth.~~ Lying does to-day not merely make use of modern technique;\nit has already become a technique, a science whose purpose is to\nfalsify history in advance. Before an event ~~had~~ {was} become history -\nwhile it ~~is~~ {was} still warm and alive, as one might say - it ~~is~~ {was}\ndissected and re-assembled. Scarcely had an act been put into\nwords before it ~~becomes~~ {was converted into} an official lie.\n\tWhat counter-measures can we take to save history from\nall this misrepresentation? How can we help to free the world\nfrom this hypnosis? How can we ensure that history shall be\ntaught, not with the aim of glorifying individual nations but in\nthe service of the common glory of mankind? I believe that we\nmust begin by changing our mental attitude. We must strain every\nnerve to prevent ourselves from regarding our state, our nation,\nour race as the focal point of the world, simply because it\nhappens to be ours. We must, on the contrary, forcibly educate\nourselves in the direction of absolute objectivity. And I main-\ntain: to-day, such objectivity is possible - for the first time,\nperhaps. If in former times history was always written as\nnational history, this was excusable - indeed, it may even have\nbeen inevitable. Let us think back to those times. ~~The world~~\n~~was not yet linked up; it was as yet utterly impossible for the~~\n~~individual to view or depict the events of our globe as a whole.~~\nHow did these ~~old~~ chroniclers write history? Some small monk\nsat in his cell recording whatever occurred within his narrow"
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 1.0601,
+            "cer_orderless": 1.1209,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "zu Seite 10\n\nThere is no need for me to paint this tragic\n{state of affairs in detail for you. All of us who live in Europe suffer under}\n{it hour by hour, every day of our lives. But the most tragic aspect of this}\n{falsification of history for national ends is the fact that our}\n{particular generation is the first for hundreds and thousands of years}\n{to which, given the wonderful opportunity, has been granted to think}\n{on universal lines and consider every happening in the world objectively.}\n\nAber ich brauche Ihnen den tragischen Zustand nicht zu\nschildern. Jeder, der in Europa lebt, kennt ihn. Aber das Tra-\ngische in dieser Verfälschung der Geschichte durch Nationalis-\nmus ist, dass gerade unsere Generation seit hunderten und tausen-\nden Jahren die erste ist, welche jedes Geschehnis auf der ganzen\nWelt gerecht und universal betrachten könnte. Erst heute ist absolu-\nte Objektivität in der Geschichtsschreibung möglich, und ich möch-\nte nicht ungerecht sein und die Historiker der Vergangenheit ankla-\ngen, wenn sie in former times history as national history\n{reproach historians}\n{for having written history in the main as national history}\n{necessary. Let us think back to those times.}\n\nFortsetzung : Einschalt 3",
+            "transcription_b": "zu Seite 10\n\n{There is no need for me to paint this tragic}\n{state of affairs in detail for you. All of us who live in Europe suffer under}\n~~Aber ich brauche Ihnen den tragischen Zustand nicht zu~~\n~~schildern. Jeder, der in Europa lebt, kennt ihn. Aber das Tra-~~\n{it hour by hour, every day of our lives. But the most tragic aspect of this}\n~~gischeste in dieser Verfälschung der Geschichte durch Nationalis-~~\n{falsification of history for national ends is the fact that our}\n~~mus ist, dass gerade unsere Generation seit hunderten und tausen-~~\n{particular generation is the first for hundreds and thousands of years}\n~~den Jahren die erste ist, welche jedes Geschehnis auf der ganzen~~\n{to which, ~~given the wonderful opportunity~~ {the splendid opportunity has been granted} to think}\n~~Welt gerecht und universal betrachten könnte. Erst heute ist absolu-~~\n{on universal lines and consider every happening in the world objectively.}\n~~te Objektivität in der Geschichtsschreibung möglich, und ich möch-~~\n{To-day for the first time an objective approach to history is possible.}\n~~te nicht ungerecht sein und die Historiker der Vergangenheit ankla-~~\n{But please do not misunderstand me. In saying this, I have it not my}\n~~gen, wenn sie wrote in former times history as national history~~\n{intention to ~~cast any unjustified accusations~~ {reproach historians}}\n~~and war history. This was excusable, indeed it may have been~~\n{of the former for having written history in the main as national history}\n~~necessary. Let us think back to those times.~~\n{~~this was~~ {inevitable}.}\n\nFortsetzung: Einschalt 3"
+          }
+        ]
       }
     },
     {
@@ -9108,22 +9966,35 @@
         "avgCharsPerPage": 2514,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 7542,
+        "total_words": 1136,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2450,
           0,
           2497,
           0,
           2595
         ],
-        "charsPerPageMedian": 2497,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0044
-      }
+        "chars_per_page_median": 2497,
+        "marker_uncertain_count": 2,
+        "marker_illegible_count": 3,
+        "marker_density": 0.0044,
+        "dwr_score": 0.4335,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.223_gemini-3.1-flash-lite-preview",
@@ -9372,8 +10243,15 @@
         "avgCharsPerPage": 1797,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 28748,
+        "total_words": 4371,
+        "total_pages": 16,
+        "empty_pages": 17,
+        "blank_pages": 16,
+        "content_pages": 16,
+        "color_chart_pages": 1,
+        "chars_per_page": [
           215,
           0,
           1778,
@@ -9408,8 +10286,12 @@
           0,
           0
         ],
-        "charsPerPageMedian": 2058.0,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 2058.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4439,
+        "duplicate_page_pairs": [
           [
             2,
             12
@@ -9471,12 +10353,16 @@
             30
           ]
         ],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.245_gemini-3.1-flash-lite-preview",
@@ -9613,8 +10499,15 @@
         "avgCharsPerPage": 560,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 3919,
+        "total_words": 662,
+        "total_pages": 7,
+        "empty_pages": 10,
+        "blank_pages": 8,
+        "content_pages": 7,
+        "color_chart_pages": 2,
+        "chars_per_page": [
           23,
           0,
           0,
@@ -9633,8 +10526,12 @@
           0,
           0
         ],
-        "charsPerPageMedian": 499,
-        "duplicatePagePairs": [
+        "chars_per_page_median": 499,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 1,
+        "marker_density": 0.0015,
+        "dwr_score": 0.31,
+        "duplicate_page_pairs": [
           [
             8,
             12
@@ -9644,14 +10541,20 @@
             14
           ]
         ],
-        "pageLengthAnomalies": [
+        "language_expected": "de",
+        "language_detected": "fr",
+        "language_match": false,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "fr",
-        "languageMatch": false,
-        "markerDensity": 0.0015
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly",
+          "duplicate_pages",
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.247_gemini-3.1-flash-lite-preview",
@@ -9704,22 +10607,37 @@
         "avgCharsPerPage": 2033,
         "vlmConfidence": "high"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 6100,
+        "total_words": 981,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           2433,
           1,
           1863,
           1,
           1802
         ],
-        "charsPerPageMedian": 1863,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "en",
-        "languageMatch": false,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 1863,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4803,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "language_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.267_gemini-3.1-flash-lite-preview",
@@ -9735,16 +10653,31 @@
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
-      "qualitySignals": {
-        "charsPerPage": [],
-        "charsPerPageMedian": 0.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.273_gemini-3.1-flash-lite-preview",
@@ -9797,22 +10730,35 @@
         "avgCharsPerPage": 842,
         "vlmConfidence": "medium"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 2527,
+        "total_words": 383,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           106,
           92,
           0,
           0,
           2329
         ],
-        "charsPerPageMedian": 106,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "chars_per_page_median": 106,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4459,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
     },
     {
       "id": "o_szd.277_gemini-3.1-flash-lite-preview",
@@ -9851,22 +10797,37 @@
         "avgCharsPerPage": 1029,
         "vlmConfidence": "medium"
       },
-      "qualitySignals": {
-        "charsPerPage": [
+      "quality_signals": {
+        "total_chars": 2058,
+        "total_words": 288,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
           60,
           0,
           1998
         ],
-        "charsPerPageMedian": 1029.0,
-        "duplicatePagePairs": [],
-        "pageLengthAnomalies": [
+        "chars_per_page_median": 1029.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4558,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [
           0
         ],
-        "languageExpected": "de",
-        "languageDetected": "de",
-        "languageMatch": true,
-        "markerDensity": 0.0
-      }
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_length_anomaly"
+        ]
+      },
+      "consensus": null
     }
   ]
 }

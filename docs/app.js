@@ -16,6 +16,10 @@ const COLLECTION_LABELS = {
 
 const LS_KEY = 'szd-htr-edits';
 
+const CONSENSUS_SHORT = { consensus_verified: 'V', consensus_moderate: 'M', consensus_review: 'R', consensus_divergent: 'D' };
+const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
+const CONSENSUS_TOOLTIPS = { consensus_verified: 'Konsensus: verifiziert', consensus_moderate: 'Konsensus: moderat', consensus_review: 'Konsensus: Review', consensus_divergent: 'Konsensus: divergent' };
+
 /* ===== State ===== */
 
 const state = {
@@ -33,8 +37,11 @@ const state = {
   filterGroup: '',
   filterConfidence: '',
   filterReview: false,
+  filterConsensus: '',
   editMode: false,
   diffMode: false,
+  hasReviewData: false,
+  hasConsensusData: false,
   editedTranscriptions: new Map(),
   isLocal: false,
 };
@@ -164,6 +171,7 @@ function buildCatalogHash() {
   if (state.filterGroup) params.set('group', state.filterGroup);
   if (state.filterConfidence) params.set('confidence', state.filterConfidence);
   if (state.filterReview) params.set('review', '1');
+  if (state.filterConsensus) params.set('consensus', state.filterConsensus);
   if (state.searchQuery) params.set('q', state.searchQuery);
   if (state.sortField !== 'collection') params.set('sort', state.sortField);
   if (!state.sortAsc) params.set('asc', '0');
@@ -180,6 +188,7 @@ function parseCatalogParams(hash) {
   if (params.has('group')) state.filterGroup = params.get('group');
   if (params.has('confidence')) state.filterConfidence = params.get('confidence');
   state.filterReview = params.get('review') === '1';
+  if (params.has('consensus')) state.filterConsensus = params.get('consensus');
   if (params.has('q')) state.searchQuery = params.get('q');
   if (params.has('sort')) state.sortField = params.get('sort');
   if (params.has('asc')) state.sortAsc = params.get('asc') !== '0';
@@ -193,6 +202,7 @@ function restoreFilterUI() {
   document.getElementById('filterGroup').value = state.filterGroup;
   document.getElementById('filterConfidence').value = state.filterConfidence;
   document.getElementById('filterReview').checked = state.filterReview;
+  document.getElementById('filterConsensus').value = state.filterConsensus;
 }
 
 function updateCatalogURL() {
@@ -219,13 +229,14 @@ function route() {
 function resetDiffMode() {
   if (!state.diffMode) return;
   state.diffMode = false;
-  const el = id => document.getElementById(id);
-  el('diffPanel') && (el('diffPanel').style.display = 'none');
-  el('textPanel') && (el('textPanel').style.display = '');
-  const lr = el('panelLabelRight');
-  if (lr) lr.textContent = 'Transkription';
-  const db = el('diffBtn');
-  if (db) db.classList.remove('active');
+  const diffPanel = document.getElementById('diffPanel');
+  const textPanel = document.getElementById('textPanel');
+  const labelRight = document.getElementById('panelLabelRight');
+  const diffBtn = document.getElementById('diffBtn');
+  if (diffPanel) diffPanel.style.display = 'none';
+  if (textPanel) textPanel.style.display = '';
+  if (labelRight) labelRight.textContent = 'Transkription';
+  if (diffBtn) diffBtn.classList.remove('active');
 }
 
 function showCatalog() {
@@ -332,6 +343,15 @@ function renderQualitySignals(qs) {
       <span>${qs.total_chars.toLocaleString('de')} Zeichen, ${qs.total_words || '?'} Wörter</span></div>`);
   }
 
+  // DWR score
+  if (qs.dwr_score !== undefined && qs.dwr_score > 0) {
+    const pct = Math.round(qs.dwr_score * 100);
+    const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
+    items.push(`<div class="viewer__quality-item">
+      <span class="viewer__quality-label">DWR</span>
+      <span class="badge ${cls}">${pct}%</span></div>`);
+  }
+
   let html = `<div class="viewer__quality"><div class="viewer__quality-grid">${items.join('')}</div>`;
 
   // reasons
@@ -346,7 +366,7 @@ function renderQualitySignals(qs) {
 
 /* ===== Quality Rendering ===== */
 
-function renderQualityCell(v, confidence) {
+function renderQualityCell(v, confidence, obj) {
   const uncertain = v.uncertainCount || 0;
   const illegible = v.illegibleCount || 0;
   const total = uncertain + illegible;
@@ -368,7 +388,15 @@ function renderQualityCell(v, confidence) {
     ? ` <span class="badge badge-vlm" data-tooltip="${vlmTooltip}">${confidence}</span>`
     : '';
 
-  return markerHtml + vlmHtml;
+  // Consensus badge
+  let consHtml = '';
+  if (obj && obj.consensusCategory) {
+    const cat = obj.consensusCategory;
+    const cls = 'badge-consensus-' + cat.replace('consensus_', '');
+    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}</span>`;
+  }
+
+  return markerHtml + vlmHtml + consHtml;
 }
 
 /* ===== Stats Dashboard ===== */
@@ -379,19 +407,37 @@ function renderStats() {
 
   const total = state.catalog.length;
 
-  // Count per collection
+  // Aggregate all statistics in a single pass
   const perCol = {};
   for (const col of state.collections) perCol[col] = 0;
   const perGroup = {};
+  const confDist = { high: 0, medium: 0, low: 0 };
   let reviewCount = 0;
-  const hasReview = state.catalog.some(o => o.needsReview !== undefined);
+  let totalPages = 0, totalContentPages = 0, totalBlankPages = 0;
+  let totalChars = 0;
+  let dwrSum = 0, dwrCount = 0;
+  let consensusCount = 0;
+  const consCatDist = {};
 
   for (const o of state.catalog) {
     perCol[o.collection] = (perCol[o.collection] || 0) + 1;
     const g = o.classification || o.groupLabel || '?';
     perGroup[g] = (perGroup[g] || 0) + 1;
     if (o.needsReview) reviewCount++;
+    if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
+    totalPages += o.pageCount || 0;
+    totalContentPages += o.contentPages || 0;
+    totalBlankPages += o.blankPages || 0;
+    totalChars += (o.verification || {}).totalChars || 0;
+    if (o.dwrScore > 0) { dwrSum += o.dwrScore; dwrCount++; }
+    if (o.consensusCategory) {
+      consensusCount++;
+      consCatDist[o.consensusCategory] = (consCatDist[o.consensusCategory] || 0) + 1;
+    }
   }
+
+  const reviewPct = total > 0 ? Math.round((reviewCount / total) * 100) : 0;
+  const avgDwr = dwrCount > 0 ? Math.round((dwrSum / dwrCount) * 100) : 0;
 
   // Summary line: chips for collections
   const colChips = state.collections.map(c => {
@@ -399,7 +445,7 @@ function renderStats() {
     return `<span class="catalog__stats-chip"><strong>${perCol[c]}</strong> ${escapeHtml(label)}</span>`;
   }).join('');
 
-  const reviewChip = hasReview
+  const reviewChip = state.hasReviewData
     ? `<span class="catalog__stats-chip ${reviewCount > 0 ? 'catalog__stats-chip--review-warn' : 'catalog__stats-chip--review-ok'}"><strong>${reviewCount}</strong> Review</span>`
     : '';
 
@@ -409,6 +455,40 @@ function renderStats() {
     `<span class="catalog__stats-bar-item"><strong>${n}</strong> ${escapeHtml(g)}</span>`
   ).join('');
 
+  // Confidence distribution
+  const confItems = ['high', 'medium', 'low'].map(c => {
+    if (!confDist[c]) return '';
+    const cls = c === 'high' ? 'badge-markers-clean' : c === 'medium' ? 'badge-markers-some' : 'badge-markers-many';
+    return `<span class="catalog__stats-bar-item"><span class="badge ${cls}" style="font-size:0.68rem">${confDist[c]}</span> ${c}</span>`;
+  }).filter(Boolean).join('');
+
+  // Page stats
+  const colorChartPages = totalPages - totalContentPages - totalBlankPages;
+  const pageItems = `
+    <span class="catalog__stats-bar-item"><strong>${totalPages.toLocaleString('de')}</strong> Seiten</span>
+    <span class="catalog__stats-bar-item"><strong>${totalContentPages.toLocaleString('de')}</strong> Inhalt</span>
+    <span class="catalog__stats-bar-item"><strong>${totalBlankPages.toLocaleString('de')}</strong> Leer</span>
+    ${colorChartPages > 0 ? `<span class="catalog__stats-bar-item"><strong>${colorChartPages}</strong> Farbskala</span>` : ''}
+    <span class="catalog__stats-bar-item"><strong>${totalChars.toLocaleString('de')}</strong> Zeichen</span>`;
+
+  // Review stats
+  const reviewItems = state.hasReviewData
+    ? `<span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> / ${total} (${reviewPct}%) Review</span>`
+    : '';
+
+  // DWR + Consensus
+  const dwrItem = dwrCount > 0
+    ? `<span class="catalog__stats-bar-item"><strong>${avgDwr}%</strong> \u00D8 DWR (${dwrCount} Objekte)</span>`
+    : '';
+
+  let consItems = '';
+  if (consensusCount > 0) {
+    const cats = Object.entries(consCatDist).map(([cat, n]) =>
+      `<span class="catalog__stats-bar-item"><strong>${n}</strong> ${CONSENSUS_LABELS[cat] || cat}</span>`
+    ).join('');
+    consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Konsensus</span>${cats}`;
+  }
+
   el.innerHTML = `
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
@@ -417,9 +497,25 @@ function renderStats() {
     </div>
     <div class="catalog__stats-details" id="statsDetails">
       <div class="catalog__stats-section">
+        <div class="catalog__stats-section-label">Seiten &amp; Umfang</div>
+        <div class="catalog__stats-bar">${pageItems}</div>
+      </div>
+      <div class="catalog__stats-section">
         <div class="catalog__stats-section-label">Nach Typ</div>
         <div class="catalog__stats-bar">${groupItems}</div>
       </div>
+      <div class="catalog__stats-section">
+        <div class="catalog__stats-section-label">Konfidenz</div>
+        <div class="catalog__stats-bar">${confItems}</div>
+      </div>
+      ${reviewItems ? `<div class="catalog__stats-section">
+        <div class="catalog__stats-section-label">Review</div>
+        <div class="catalog__stats-bar">${reviewItems}${dwrItem ? ` ${dwrItem}` : ''}</div>
+      </div>` : ''}
+      ${consItems ? `<div class="catalog__stats-section">
+        <div class="catalog__stats-section-label">Konsensus-Verifikation</div>
+        <div class="catalog__stats-bar">${consItems}</div>
+      </div>` : ''}
     </div>`;
 
   el.style.display = 'block';
@@ -449,6 +545,13 @@ function applyFilters() {
   }
   if (state.filterReview) {
     list = list.filter(o => o.needsReview);
+  }
+  if (state.filterConsensus) {
+    if (state.filterConsensus === 'none') {
+      list = list.filter(o => !o.consensusCategory);
+    } else {
+      list = list.filter(o => o.consensusCategory === state.filterConsensus);
+    }
   }
   if (state.searchQuery) {
     const q = state.searchQuery.toLowerCase();
@@ -510,10 +613,10 @@ function renderCatalog() {
     let html = '';
     for (const obj of pageItems) {
       const v = obj.verification || {};
-      const qualityHtml = renderQualityCell(v, obj.confidence);
+      const qualityHtml = renderQualityCell(v, obj.confidence, obj);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
       html += `<tr data-id="${obj.id}" tabindex="0">
-        <td class="col-thumb"><img src="${obj.thumbnail || ''}" loading="lazy" alt="" onerror="this.style.display='none'"></td>
+        <td class="col-thumb"><img src="${obj.thumbnail || ''}" loading="lazy" alt=""></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${titleFull}</td>
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
@@ -522,7 +625,7 @@ function renderCatalog() {
         <td class="col-lang">${escapeHtml(obj.lang)}</td>
         <td class="col-review">${renderReviewCell(obj)}</td>
         <td class="col-quality">${qualityHtml}</td>
-        <td class="col-pages" data-tooltip="Seitenanzahl">${obj.pageCount || '—'}</td>
+        <td class="col-pages" data-tooltip="${obj.contentPages || obj.pageCount || 0} Inhalt, ${obj.blankPages || 0} Leer">${obj.pageCount || '—'}</td>
       </tr>`;
     }
     tbody.innerHTML = html;
@@ -542,12 +645,12 @@ function renderCatalog() {
   // Update group filter options based on current visible data
   updateGroupFilter();
 
-  // Show review filter only if data has needsReview
-  const hasReviewData = state.catalog.some(o => o.needsReview !== undefined);
-  document.getElementById('filterReviewLabel').style.display = hasReviewData ? '' : 'none';
+  // Show review/consensus filters only if data supports them
+  document.getElementById('filterReviewLabel').style.display = state.hasReviewData ? '' : 'none';
+  document.getElementById('filterConsensus').style.display = state.hasConsensusData ? '' : 'none';
 
   // Show/hide clear button
-  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReview;
+  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReview || state.filterConsensus;
   document.getElementById('clearFilters').style.display = hasFilters ? '' : 'none';
 
   // Sort indicators
@@ -652,6 +755,11 @@ function renderViewerMeta(obj) {
       <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinschätzung (schwaches Signal)">${obj.confidence || '?'}</span>
     </div>
     ${markerHtml}
+    ${obj.consensus ? `<div class="viewer__meta-item">
+      <span class="viewer__meta-label">Konsensus</span>
+      <span class="badge badge-consensus badge-consensus-${(obj.consensus.category || '').replace('consensus_', '')}"
+            data-tooltip="CER ${((obj.consensus.effective_cer || 0) * 100).toFixed(1)}%">${(obj.consensus.category || '').replace('consensus_', '')}</span>
+    </div>` : ''}
     <div class="viewer__meta-item">
       <span class="viewer__meta-label viewer__meta-model">${escapeHtml(obj.model)}</span>
     </div>`;
@@ -668,7 +776,25 @@ function renderViewerNav() {
   const anomalies = qs?.page_length_anomalies || [];
   const isAnomaly = anomalies.includes(state.currentPage);
   const anomalyMark = isAnomaly ? ' <span class="viewer__page-anomaly" data-tooltip="Seitenlängen-Anomalie">\u26A0</span>' : '';
-  document.getElementById('pageInfo').innerHTML = `${state.currentPage + 1} / ${total}${anomalyMark}`;
+
+  // Page type badge for non-content pages
+  const page = pages[state.currentPage];
+  const pageType = page?.type || 'content';
+  let typeBadge = '';
+  if (pageType === 'blank') typeBadge = ' <span class="badge-page-type badge-page-blank">Leer</span>';
+  else if (pageType === 'color_chart') typeBadge = ' <span class="badge-page-type badge-page-chart">Farbskala</span>';
+
+  // Per-page consensus agreement dot
+  let agreementDot = '';
+  if (obj?.consensus?.pages) {
+    const cp = obj.consensus.pages[state.currentPage];
+    if (cp && cp.agreement) {
+      const cerLabel = cp.cer !== null && cp.cer !== undefined ? ` CER ${(cp.cer * 100).toFixed(1)}%` : '';
+      agreementDot = ` <span class="viewer__page-agreement agreement-${cp.agreement}" data-tooltip="${cp.agreement}${cerLabel}"></span>`;
+    }
+  }
+
+  document.getElementById('pageInfo').innerHTML = `${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}`;
   document.getElementById('prevPageBtn').disabled = state.currentPage === 0;
   document.getElementById('nextPageBtn').disabled = state.currentPage >= total - 1;
 
@@ -848,6 +974,17 @@ function updateEditButtons() {
     } else {
       statusBar.style.display = 'none';
     }
+  }
+
+  // Diff button: enable only when consensus data exists
+  const diffBtn = document.getElementById('diffBtn');
+  if (diffBtn) {
+    const consensus = state.currentObjectId ? getConsensusData(state.currentObjectId) : null;
+    const hasConsensus = consensus && consensus.pages && consensus.pages.length > 0;
+    diffBtn.disabled = !hasConsensus;
+    diffBtn.dataset.tooltip = hasConsensus
+      ? `Konsensus-Vergleich (${consensus.category?.replace('consensus_', '') || ''})`
+      : 'Kein Konsensus-Vergleich verfügbar';
   }
 }
 
@@ -1093,29 +1230,10 @@ function computeDiffStats(ops) {
   return { matches, divergent, total, agreementPct: pct };
 }
 
-// Placeholder data for prototype
-const DIFF_PLACEHOLDER = {
-  objectId: 'korrespondenz_fleischer_gemini-3.1-flash-lite-preview',
-  providerA: { name: 'Gemini Flash Lite', model: 'gemini-3.1-flash-lite-preview' },
-  providerB: { name: 'Claude Sonnet', model: 'claude-sonnet-4-20250514' },
-  pages: [
-    {
-      page: 1,
-      textA: 'Wien, den 22. Mai 1901.\n\nLieber Max!\n\nIch danke Dir herzlich für Deinen lieben Brief, den ich soeben erhalte. Es freut mich außerordentlich, daß Du mit Deinem neuen Aufenthalt zufrieden bist und daß es Dir gesundheitlich besser geht.',
-      textB: 'Wien, den 22. Mai 1901.\n\nLieber Max!\n\nIch danke Dir herzlichst für Deinen lieben Brief, den ich soeben erhalten habe. Es freut mich außerordentlich, daß Du mit Deinem neuen Aufenthalte zufrieden bist und daß es Dir gesundheitlich besser geht.',
-    },
-    {
-      page: 2,
-      textA: 'Was meine literarischen Pläne betrifft, so arbeite ich jetzt an einer Novelle, die mich sehr beschäftigt. Ich hoffe, sie bis zum Herbst [?] fertigzustellen.\n\nMit herzlichen Grüßen\nDein Stefan',
-      textB: 'Was meine litterarischen Pläne betrifft, so arbeite ich jetzt an einer Novelle, die mich sehr beschäftigt. Ich hoffe, sie bis zum Herbste fertigzustellen.\n\nMit herzlichen Grüßen\nDein Stefan',
-    },
-    {
-      page: 3,
-      textA: '',
-      textB: '',
-    },
-  ],
-};
+function getConsensusData(objectId) {
+  const obj = getViewerObject(objectId);
+  return obj?.consensus || null;
+}
 
 function renderDiffView() {
   const diffPanel = document.getElementById('diffPanel');
@@ -1123,21 +1241,47 @@ function renderDiffView() {
   const diffStats = document.getElementById('diffStats');
   if (!diffPanel || !diffContent) return;
 
-  const pageData = DIFF_PLACEHOLDER.pages[state.currentPage];
-  if (!pageData || (!pageData.textA && !pageData.textB)) {
-    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Transkription auf dieser Seite.</div>';
-    diffStats.innerHTML = '';
+  const consensus = getConsensusData(state.currentObjectId);
+  if (!consensus || !consensus.pages) {
+    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Kein Konsensus-Vergleich für dieses Objekt verfügbar.</div>';
+    if (diffStats) diffStats.innerHTML = '';
     return;
   }
 
-  const ops = diffWords(pageData.textA, pageData.textB);
+  const pageData = consensus.pages[state.currentPage];
+  if (!pageData || pageData.agreement === 'skipped') {
+    const reason = pageData?.agreement === 'skipped' ? 'Seite übersprungen (leer/Farbskala).' : 'Keine Daten für diese Seite.';
+    diffContent.innerHTML = `<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">${reason}</div>`;
+    if (diffStats) diffStats.innerHTML = '';
+    return;
+  }
+
+  const textA = pageData.transcription_a || '';
+  const textB = pageData.transcription_b || '';
+
+  if (!textA && !textB) {
+    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Transkription auf dieser Seite.</div>';
+    if (diffStats) diffStats.innerHTML = '';
+    return;
+  }
+
+  const ops = diffWords(textA, textB);
   const stats = computeDiffStats(ops);
 
-  // Stats
+  // CER info for this page
+  const cerInfo = pageData.cer !== null && pageData.cer !== undefined
+    ? `<span>CER ${(pageData.cer * 100).toFixed(1)}%</span>` : '';
+  const overallCer = consensus.effective_cer !== undefined
+    ? `<span data-tooltip="Gesamt-CER über alle Seiten">Gesamt: ${(consensus.effective_cer * 100).toFixed(1)}%</span>` : '';
+
   diffStats.innerHTML = `
     <span class="diff__stats-agreement">${stats.agreementPct}% Übereinstimmung</span>
     <span>${stats.matches} gleich, <span class="diff__stats-divergent">${stats.divergent} abweichend</span></span>
-    <span class="diff__prototype-badge">Prototyp — Platzhalterdaten</span>`;
+    ${cerInfo}${overallCer}`;
+
+  // Provider labels from consensus data
+  const nameA = consensus.model_a || 'Modell A';
+  const nameB = consensus.model_b || 'Modell B';
 
   // Build side-by-side columns
   let htmlA = '';
@@ -1158,11 +1302,11 @@ function renderDiffView() {
   diffContent.innerHTML = `
     <div class="diff__side-by-side">
       <div class="diff__column">
-        <div class="diff__column-header">A — ${escapeHtml(DIFF_PLACEHOLDER.providerA.name)}</div>
+        <div class="diff__column-header">A — ${escapeHtml(nameA)}</div>
         ${htmlA}
       </div>
       <div class="diff__column">
-        <div class="diff__column-header">B — ${escapeHtml(DIFF_PLACEHOLDER.providerB.name)}</div>
+        <div class="diff__column-header">B — ${escapeHtml(nameB)}</div>
         ${htmlB}
       </div>
     </div>
@@ -1193,6 +1337,16 @@ function toggleDiffMode() {
   document.getElementById('panelLabelRight').textContent = 'Diff (Cross-Model)';
   document.getElementById('diffPanel').style.display = '';
   document.getElementById('diffBtn').classList.add('active');
+
+  // Update provider labels from consensus data
+  const consensus = getConsensusData(state.currentObjectId);
+  if (consensus) {
+    const labelA = document.querySelector('.diff__provider-a');
+    const labelB = document.querySelector('.diff__provider-b');
+    if (labelA) labelA.textContent = `A: ${consensus.model_a || 'Modell A'}`;
+    if (labelB) labelB.textContent = `B: ${consensus.model_b || 'Modell B'}`;
+  }
+
   renderDiffView();
 }
 
@@ -1243,18 +1397,21 @@ function initEvents() {
     renderCatalog();
   });
 
+  document.getElementById('filterConsensus').addEventListener('change', e => {
+    state.filterConsensus = e.target.value;
+    state.catalogPage = 0;
+    renderCatalog();
+  });
+
   document.getElementById('clearFilters').addEventListener('click', () => {
     state.searchQuery = '';
     state.filterCollection = '';
     state.filterGroup = '';
     state.filterConfidence = '';
     state.filterReview = false;
-    searchInput.value = '';
-    document.getElementById('filterCollection').value = '';
-    document.getElementById('filterGroup').value = '';
-    document.getElementById('filterConfidence').value = '';
-    document.getElementById('filterReview').checked = false;
+    state.filterConsensus = '';
     state.catalogPage = 0;
+    restoreFilterUI();
     renderCatalog();
   });
 
@@ -1469,6 +1626,8 @@ async function init() {
     return;
   }
 
+  state.hasReviewData = state.catalog.some(o => o.needsReview !== undefined);
+  state.hasConsensusData = state.catalog.some(o => o.consensusCategory);
   initCatalogFilters();
   renderStats();
   applyFilters();

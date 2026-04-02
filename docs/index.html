@@ -57,6 +57,15 @@
       <option value="medium">medium</option>
       <option value="low">low</option>
     </select>
+    <label for="filterConsensus" class="sr-only">Konsensus filtern</label>
+    <select class="catalog__filter" id="filterConsensus" style="display:none">
+      <option value="">Konsensus</option>
+      <option value="consensus_verified">Verifiziert</option>
+      <option value="consensus_moderate">Moderat</option>
+      <option value="consensus_review">Review</option>
+      <option value="consensus_divergent">Divergent</option>
+      <option value="none">Kein Konsensus</option>
+    </select>
     <label class="catalog__toggle" id="filterReviewLabel" style="display:none">
       <input type="checkbox" id="filterReview"> Nur Review
     </label>
@@ -244,8 +253,9 @@
       <li>Schwarz — Übereinstimmung</li>
     </ul>
     <p>
-      Aktuell: UI-Prototyp mit Platzhalterdaten. Echte Vergleichsdaten folgen nach
-      Cross-Model-Transkription (Phase 4).
+      Vergleicht Transkriptionen von Gemini Flash Lite (Modell A) und Gemini Flash (Modell B).
+      Verfügbar für Objekte mit Konsensus-Verifikation. CER und Übereinstimmungsrate werden
+      pro Seite und gesamt angezeigt.
     </p>
 
     <h3>Prompt-Gruppen</h3>

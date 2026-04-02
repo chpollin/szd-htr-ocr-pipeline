@@ -12,6 +12,48 @@ DATA_DIR = DOCS_DIR / "data"
 GAMS_BASE = "https://gams.uni-graz.at/"
 
 
+def load_consensus(result_file) -> dict | None:
+    """Load consensus data for an object if it exists."""
+    consensus_file = result_file.parent / (
+        result_file.stem.split("_gemini")[0].split("_claude")[0] + "_consensus.json"
+    )
+    if not consensus_file.exists():
+        return None
+    try:
+        data = json.loads(consensus_file.read_text(encoding="utf-8"))
+        cons = data.get("consensus", {})
+        judge_pages = data.get("judge_data", {}).get("pages", [])
+        # Merge transcription texts from judge_data into consensus pages
+        pages = []
+        for cp in cons.get("pages", []):
+            page_entry = {
+                "page": cp.get("page", 0),
+                "cer": cp.get("cer"),
+                "cer_orderless": cp.get("cer_orderless"),
+                "agreement": cp.get("agreement", ""),
+                "type": cp.get("type", "content"),
+            }
+            # Find matching judge page for transcription texts
+            jp = next((j for j in judge_pages if j.get("page") == cp.get("page")), None)
+            if jp:
+                page_entry["transcription_a"] = jp.get("transcription_a", "")
+                page_entry["transcription_b"] = jp.get("transcription_b", "")
+            pages.append(page_entry)
+        return {
+            "category": cons.get("category", ""),
+            "effective_cer": cons.get("effective_cer", 0),
+            "overall_cer": cons.get("overall_cer", 0),
+            "word_overlap": cons.get("word_overlap", 0),
+            "content_pages": cons.get("content_pages", 0),
+            "skipped_pages": cons.get("skipped_pages", 0),
+            "model_a": data.get("model_a", ""),
+            "model_b": data.get("model_b", ""),
+            "pages": pages,
+        }
+    except (json.JSONDecodeError, KeyError):
+        return None
+
+
 def extract_signature(title: str) -> tuple[str, str]:
     """Extract signature from title. Returns (title_clean, signature)."""
     parts = title.rsplit(",", 1)
@@ -56,6 +98,10 @@ def build():
             result_files.extend(sorted(subdir.glob("*.json")))
 
     for result_file in result_files:
+        # Skip consensus files — they are not transcription results
+        if result_file.stem.endswith("_consensus"):
+            continue
+
         data = json.loads(result_file.read_text(encoding="utf-8"))
 
         # Skip non-enriched legacy results (no "collection" key)
@@ -103,6 +149,9 @@ def build():
         # quality_signals from enriched JSON (added by transcribe.py or backfill)
         qs = data.get("quality_signals", {})
 
+        # Consensus data (from verify.py)
+        consensus = load_consensus(result_file)
+
         obj = {
             "id": result_file.stem,
             "collection": data["collection"],
@@ -128,16 +177,29 @@ def build():
             "needsReviewReasons": qs.get("needs_review_reasons", []),
             "blankPages": qs.get("blank_pages", 0),
             "contentPages": qs.get("content_pages", 0),
-            "qualitySignals": {
-                "charsPerPage": qs.get("chars_per_page", []),
-                "charsPerPageMedian": qs.get("chars_per_page_median", 0),
-                "duplicatePagePairs": qs.get("duplicate_page_pairs", []),
-                "pageLengthAnomalies": qs.get("page_length_anomalies", []),
-                "languageExpected": qs.get("language_expected", ""),
-                "languageDetected": qs.get("language_detected", ""),
-                "languageMatch": qs.get("language_match", True),
-                "markerDensity": qs.get("marker_density", 0),
+            "quality_signals": {
+                "total_chars": qs.get("total_chars", 0),
+                "total_words": qs.get("total_words", 0),
+                "total_pages": qs.get("total_pages", 0),
+                "empty_pages": qs.get("empty_pages", 0),
+                "blank_pages": qs.get("blank_pages", 0),
+                "content_pages": qs.get("content_pages", 0),
+                "color_chart_pages": qs.get("color_chart_pages", 0),
+                "chars_per_page": qs.get("chars_per_page", []),
+                "chars_per_page_median": qs.get("chars_per_page_median", 0),
+                "marker_uncertain_count": qs.get("marker_uncertain_count", 0),
+                "marker_illegible_count": qs.get("marker_illegible_count", 0),
+                "marker_density": qs.get("marker_density", 0),
+                "dwr_score": qs.get("dwr_score", 0),
+                "duplicate_page_pairs": qs.get("duplicate_page_pairs", []),
+                "language_expected": qs.get("language_expected", ""),
+                "language_detected": qs.get("language_detected", ""),
+                "language_match": qs.get("language_match", True),
+                "page_length_anomalies": qs.get("page_length_anomalies", []),
+                "needs_review": qs.get("needs_review", False),
+                "needs_review_reasons": qs.get("needs_review_reasons", []),
             },
+            "consensus": consensus,  # None if no consensus file exists
         }
         objects.append(obj)
 
@@ -171,6 +233,9 @@ def build():
             "needsReviewReasons": obj["needsReviewReasons"],
             "blankPages": obj.get("blankPages", 0),
             "contentPages": obj.get("contentPages", 0),
+            "dwrScore": obj.get("quality_signals", {}).get("dwr_score", 0),
+            "consensusCategory": obj["consensus"]["category"] if obj.get("consensus") else None,
+            "consensusCer": obj["consensus"]["effective_cer"] if obj.get("consensus") else None,
         })
 
     catalog = {"objects": catalog_objects, "collections": collections}
@@ -193,7 +258,8 @@ def build():
                 "confidence": obj["confidence"],
                 "confidenceNotes": obj["confidenceNotes"],
                 "verification": obj["verification"],
-                "qualitySignals": obj.get("qualitySignals", {}),
+                "quality_signals": obj.get("quality_signals", {}),
+                "consensus": obj.get("consensus"),
             })
         col_path = DATA_DIR / f"{col}.json"
         col_path.write_text(
