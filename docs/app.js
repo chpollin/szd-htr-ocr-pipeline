@@ -1263,6 +1263,22 @@ function saveCurrentEdit() {
       transcription: newTranscription,
       notes: newNotes,
     });
+    // Persist edit to server API (write into pipeline JSON)
+    if (state.isLocal) {
+      const objData = getViewerObject(state.currentObjectId);
+      if (objData) {
+        const pageNum = state.currentPage + 1;
+        fetch('/api/edit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            object_id: objData.pid?.replace('o:', 'o_') || state.currentObjectId.split('_gemini')[0],
+            collection: objData.collection,
+            pages: [{ page: pageNum, transcription: newTranscription, notes: newNotes, edited: true }],
+          }),
+        }).catch(() => {});
+      }
+    }
   } else {
     // If reverted to original, remove the edit
     state.editedTranscriptions.delete(key);
@@ -1780,7 +1796,8 @@ function isObjectApproved(objectId) {
 }
 
 function toggleObjectApproval(objectId) {
-  if (state.approvals.has(objectId)) {
+  const isRemoving = state.approvals.has(objectId);
+  if (isRemoving) {
     state.approvals.delete(objectId);
     showToast('Approval entfernt');
   } else {
@@ -1794,6 +1811,17 @@ function toggleObjectApproval(objectId) {
   saveApprovalsToStorage();
   updateEditButtons();
   renderViewerNav();
+  // Persist to server API (write into pipeline JSON)
+  if (state.isLocal && !isRemoving) {
+    const obj = getViewerObject(objectId);
+    if (obj) {
+      fetch('/api/approve', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ object_id: obj.pid?.replace('o:', 'o_') || objectId.split('_gemini')[0], collection: obj.collection }),
+      }).catch(() => {});
+    }
+  }
 }
 
 function toggleGtReview() {

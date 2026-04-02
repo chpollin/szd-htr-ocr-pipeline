@@ -105,5 +105,11 @@
     "page_length_anomalies": [],
     "needs_review": false,
     "needs_review_reasons": []
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:54:13.595744+00:00"
   }
 }
