@@ -192,8 +192,8 @@ Python-Docs warnen explizit: "not recommended for production". Binding auf 127.0
 | H3 | Hoch | Path-Traversal-Schutz in `serve.py` | 15 Min | ERLEDIGT |
 | H4 | Hoch | CORS einschraenken + Host-Header-Validierung | 15 Min | ERLEDIGT |
 | M1 | Mittel | Input-Validierung auf API-Endpoints | 30 Min | ERLEDIGT (via H3) |
-| M3 | Mittel | Single-Quote in `escapeHtml()` | 1 Zeile | OFFEN |
-| M6 | Mittel | Dependencies exakt pinnen | 5 Min | OFFEN |
+| M3 | Mittel | Single-Quote in `escapeHtml()` | 1 Zeile | ERLEDIGT |
+| M6 | Mittel | Dependencies exakt pinnen | 5 Min | ERLEDIGT |
 
 ---
 
