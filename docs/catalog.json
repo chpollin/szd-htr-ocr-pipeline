@@ -1697,7 +1697,7 @@
       "dwrScore": 0.0476,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -2095,7 +2095,7 @@
       "dwrScore": 0.4051,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -2154,7 +2154,7 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 2877,
+        "totalChars": 2876,
         "emptyPages": 0,
         "avgCharsPerPage": 1438,
         "vlmConfidence": "high"
@@ -2166,7 +2166,7 @@
       "dwrScore": 0.4159,
       "consensusCategory": "consensus_review",
       "consensusCer": 0.3257,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -7786,7 +7786,7 @@
       "dwrScore": 0.4043,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -10234,7 +10234,7 @@
       "dwrScore": 0.3611,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -15011,7 +15011,7 @@
       "dwrScore": 0.15,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -18630,7 +18630,7 @@
       "dwrScore": 0.3084,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {
@@ -20025,7 +20025,7 @@
       "dwrScore": 0.2424,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": false
     },
     {

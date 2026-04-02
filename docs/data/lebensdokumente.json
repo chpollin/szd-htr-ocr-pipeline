@@ -8794,7 +8794,15 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 1,
+        "estimated_accuracy": 0.998,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+      }
     },
     {
       "id": "o_szd.134_gemini-3.1-flash-lite-preview",
@@ -13573,7 +13581,15 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 3,
+        "estimated_accuracy": 0.985,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+      }
     },
     {
       "id": "o_szd.182_gemini-3.1-flash-lite-preview",

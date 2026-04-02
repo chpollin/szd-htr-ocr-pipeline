@@ -76,5 +76,14 @@
     "needs_review_reasons": [
       "duplicate_pages"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 4,
+    "estimated_accuracy": 0.9,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
   }
 }
