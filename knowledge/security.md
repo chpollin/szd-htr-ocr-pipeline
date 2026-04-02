@@ -21,7 +21,7 @@ Die Applikation hat **zwei Deployment-Kontexte** mit unterschiedlichen Angriffsf
 | Authentifizierung | n/a | Keine |
 | Daten | `catalog.json`, `data/*.json`, `knowledge.json` — committed, oeffentlich | Dieselben + live Pipeline-JSONs in `results/` |
 | Edit-Funktionen | UI-seitig deaktiviert via `isLocal`-Check | Aktiv |
-| CORS | n/a (GitHub setzt eigene Header) | `Access-Control-Allow-Origin: *` |
+| CORS | n/a (GitHub setzt eigene Header) | Beschraenkt auf localhost-Origins |
 
 **Datenklassifikation**: Alle Daten sind oeffentliche Archivmaterialien (Stefan-Zweig-Nachlass, bereits auf GAMS publiziert). Keine PII, keine Credentials in den ausgelieferten Dateien. API-Keys nur in `.env` (gitignored, nie committed).
 
@@ -38,7 +38,6 @@ Die Applikation hat **zwei Deployment-Kontexte** mit unterschiedlichen Angriffsf
 **Voraussetzung**: Kompromittierter Contributor oder manipulierte Markdown-Datei im Repo (Supply-Chain). Bei Single-Maintainer-Projekt mit Review kein externer Angriffsvektor.
 **Referenzen**: [OWASP DOM XSS Prevention Rule #1](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html), [MDN innerHTML Security](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations), [GitHub Pages CSP Discussion #13309](https://github.com/orgs/community/discussions/13309)
 
-**Status**: OFFEN
 **Fix**: CSP-Meta-Tag in `index.html` (blockiert Inline-Scripts inkl. Event-Handler):
 ```html
 <meta http-equiv="Content-Security-Policy"
@@ -47,11 +46,10 @@ Die Applikation hat **zwei Deployment-Kontexte** mit unterschiedlichen Angriffsf
                style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
                font-src https://fonts.gstatic.com;
                img-src 'self' https://gams.uni-graz.at data:;
-               connect-src 'self'">
+               connect-src 'self' http://127.0.0.1:* http://localhost:*">
 ```
-GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraenkung: `frame-ancestors` funktioniert nicht via Meta-Tag. Optional: DOMPurify fuer Defense-in-Depth.
-
-**Status**: ERLEDIGT (2026-04-02) — CSP-Meta-Tag in `docs/index.html` eingefuegt.
+GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraenkung: `frame-ancestors` funktioniert nicht via Meta-Tag. `connect-src` erlaubt localhost fuer den lokalen Dev-Server.
+**Status**: ERLEDIGT (2026-04-02)
 
 ---
 
@@ -77,8 +75,8 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 
 #### H4  CORS Wildcard + keine Authentifizierung auf Dev-Server
 
-**Datei**: `pipeline/serve.py`, Zeilen 208-219
-**Vektor**: `Access-Control-Allow-Origin: *` erlaubt jeder Website Requests an den lokalen Server. Preflight-OPTIONS mit `*` erlaubt auch POST-Requests ([MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), [PortSwigger CORS](https://portswigger.net/web-security/cors)). DNS-Rebinding kann die 127.0.0.1-Bindung umgehen ([NCC Group Singularity](https://github.com/nccgroup/singularity)).
+**Datei**: `pipeline/serve.py` (vor Fix: Zeilen 208-219)
+**Vektor**: `Access-Control-Allow-Origin: *` erlaubte jeder Website Requests an den lokalen Server. Preflight-OPTIONS mit `*` erlaubt auch POST-Requests ([MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), [PortSwigger CORS](https://portswigger.net/web-security/cors)). DNS-Rebinding kann die 127.0.0.1-Bindung umgehen ([NCC Group Singularity](https://github.com/nccgroup/singularity)).
 **Praktisches Risiko**: Niedrig-Mittel. Nur ausnutzbar waehrend `serve.py` laeuft und User gleichzeitig eine boeswillige Seite besucht.
 
 **Status**: ERLEDIGT (2026-04-02) — CORS auf localhost-Origins beschraenkt, Host-Header-Validierung via `_check_host()`.
@@ -106,8 +104,8 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 #### M3  `escapeHtml()` ohne Single-Quote-Escaping
 
 **Datei**: `docs/app.js`, Zeilen 78-85
-**Verifikation**: Die Funktion escaped `&`, `<`, `>`, `"` — ausreichend fuer Double-Quoted-Attribute-Kontexte (OWASP XSS Prevention Cheat Sheet Rule #2). Single-Quote (`'` → `&#x27;`) fehlt, ist aber derzeit nicht ausnutzbar, da alle Template-Literals Double-Quotes verwenden.
-**Status**: AKZEPTIERT — Verbesserung bei Gelegenheit.
+**Verifikation**: Die Funktion escaped `&`, `<`, `>`, `"` — ausreichend fuer Double-Quoted-Attribute-Kontexte (OWASP XSS Prevention Cheat Sheet Rule #2). Single-Quote (`'` → `&#x27;`) fehlte, war nicht ausnutzbar (alle Template-Literals nutzen Double-Quotes), aber Best Practice.
+**Status**: ERLEDIGT (2026-04-02) — `&#x27;`-Replacement hinzugefuegt.
 
 #### M4  API-Response-Parsing speichert Roh-Text
 
@@ -129,7 +127,7 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 **Datei**: `requirements.txt`
 **Verifikation**: Supply-Chain-Angriffe auf PyPI sind real und zunehmend (Ultralytics-Kompromittierung Dez 2024, LiteLLM 2025). Floating Versions (`>=`) ziehen kompromittierte Releases automatisch. Bei nur 4 gut gepflegten Dependencies ist das Risiko niedrig, aber exaktes Pinnen ist ein Low-Effort-Fix.
 **Referenzen**: [PyPI Ultralytics Attack Analysis](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/), [LiteLLM Supply Chain Attack](https://blog.securelayer7.net/pypi-litellm-supply-chain-attack/)
-**Status**: OFFEN — exakte Versionen pinnen.
+**Status**: ERLEDIGT (2026-04-02) — Versionen gepinnt: `google-genai==1.56.0`, `python-dotenv==1.1.1`, `markdown==3.7`, `pyyaml==6.0.3`.
 
 ---
 
