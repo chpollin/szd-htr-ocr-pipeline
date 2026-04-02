@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1487",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an das International Copyright Bureau vom 14. Mai 1940, SZ-AAP/B3.14",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1487/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1487/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1487/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 14. Mai 1940, SZ-AAP/B3.14\n- Signatur: SZ-AAP/B3.14\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    42\n\n                                          14th May 1940.\n\nInternational Copyright Bureau,\nDewar House,\nHaymarket,\nLondon S.W.1.\n\nDear Sir,\n\n          I have received the following letter\nof Dr. Franz Horch, New York, whom I had autho-\nrised to try to place the English version of\n\"Legende eines Lebens\" in USA provided that the\nfinal agreement would be concluded through your\nfirm as my agents. (His letter and my reply enclosed)\n          I am not quite certain about the justi-\nfication of all the claims of translators, adaptors\netc. and would like to have your opinior in this\nmatter. To me it seems that besides Dr. Horch -\nif he should really succeed in placing the play\nin the United States - and yourself as agents\nno one else should be entitled to claim part of\nmy royalties and I would be grateful for your\nsuggestions how best to arrange this matter.\n          Thanking you for an early reply, Yours sincerely",
+        "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Paginierung '42' in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+        "notes": "Typoskript. Rückseite des ersten Blattes, Text steht im oberen Drittel.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+        "notes": "Typoskript. Identisch mit Seite 2, jedoch mit aufgelegten Archivierungs-Farbskalen (Farbkarte #13 und Grauskala #13).",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Paginierung '42' ist handschriftlich, aber deutlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1172,
+    "total_words": 186,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      992,
+      90,
+      90
+    ],
+    "chars_per_page_median": 90,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4974,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

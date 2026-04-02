@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1482",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an das International Copyright Bureau vom 14. November 1938, SZ-AAP/B3.1",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1482/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1482/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1482/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 14. November 1938, SZ-AAP/B3.1\n- Signatur: SZ-AAP/B3.1\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\nNovember 14th, 1938.\n\nThe International Copyright Bureau Ltd.,\nDewar House, Haymarket,\nS.W.1.\n\nDear Sirs,\nWith reference to communications addressed to your firm\nand Felix Bloch Erben of Berlin, dated 14.Nov., I hereby nominate\nyour firm to be my sole and exclusive representatives for my works,\non the lines arranged between myself and Messrs. Felix Bloch Erben,\nwhereby it is understood that commissions payable to your firm shall\nbe fixed at 10% (ten per cent) if and whenever fresh business is\nintroduced by myself, and 15% (fifteen per cent) if and whenever\ncontracts are introduced and completed by your firm.\n\nWill you please confirm this arrangement in writing.\nOur exchange of letters will then constitute a contract in the usual\nway.\n\nKindest regards,\n\nYours,\n\n(signed): STEFAN ZWEIG",
+        "notes": "Typoskript auf Papier. Oben rechts handschriftliche Ziffer '13' in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 835,
+    "total_words": 135,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      835,
+      0,
+      0
+    ],
+    "chars_per_page_median": 835,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3561,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

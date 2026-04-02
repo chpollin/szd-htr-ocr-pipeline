@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1507",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 11. März 1925, SZ-AAP/B2.51",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1507/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1507/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1507/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. März 1925, SZ-AAP/B2.51\n- Signatur: SZ-AAP/B2.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11.3.25\n\n\nLieber Herr Zweig !\n\nMeine Produktion ist eigentlich bis Ende des Jahres ausverkauft.\nDie Deutsche Verlags-Anstalt hat sich für den Heuschober entschieden\n(den übrigens die Frankfurter Zeitung zum vorherigen Abdruck ange-\nnommen hat); mit Axel Juncker habe ich in der Zeit meiner schlimmsten\nGeldknappheit einen Vorvertrag gemacht, wonach ich ihm einen Novellen-\nband bis zum Herbst zu übergeben habe. Von beiden bekam ich Vorschuss.\nSoll man aber noch ein drittes Eisen ins Feuer stossen ? Vielleicht\nschlägt einem dann doch der Rauch über die Augen. Ich bin freilich an\nAxel Juncker nur ganz lose gebunden und habe nur die Zahl der Stücke\nmit ihm abgemacht. Vielleicht könnte man also doch die \"Vergewaltigung\"\n- jetzt \"Marie Rebscheider\" genannt - einmal an Rütten und Loening\nschicken ? Ich weiss, dass der z.B. Bindings Prosa ganz ausgezeichnet\ngebracht hat. Es ist aber wohl nicht ganz unbedenklich sich so zu zer-\nsplittern.\n\nDarf ich einfach einmal Ihnen die Entscheidung überlassen ?\nWenn Sie meinen, dass man sich Rütten & Loening nicht damit vergrämt,\nkann man sie ja die Novelle lesen lassen. Es ist für mich auf alle Fälle\ngut - wie auch beim Insel-Verlag - wenn mich die Leute dadurch kennen\nlernen. Und wirklich entscheiden tun sich ja diese Herren immer erst,\nwenn sie die Konkurrenz auf dem Plan sehen. So macht jetzt sehr spass-\nhafterweise die Deutsche Verlags-Anstalt ihrem Berliner Direktor die\nbittersten Vorwürfe, dass er sich im Herbst die Sonette hat entgehen",
+        "notes": "Typoskript auf Briefpapier. Die erste Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "lassen. Ich bot sie ihm damals an, aber er las sie natürlich so wenig\nwie Herr Kayser die Novelle.\n\nVerzeihen Sie den geschäftlichen Briefbogen, ich sitze in der\ngrössten Eile. Meine Korrespondenz geht heute nach Paris, Kuba, Riga\nund - Salzburg.",
+        "notes": "Typoskript auf Briefpapier. Die zweite Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgelegter Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1740,
+    "total_words": 282,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1494,
+      246,
+      0
+    ],
+    "chars_per_page_median": 870.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4909,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

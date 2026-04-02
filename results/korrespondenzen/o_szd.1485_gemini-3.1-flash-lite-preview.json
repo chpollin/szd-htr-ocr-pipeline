@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1485",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 10. Mai 1940, SZ-AAP/B3.12",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1485/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1485/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1485/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Mai 1940, SZ-AAP/B3.12\n- Signatur: SZ-AAP/B3.12\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nDear Sir,\n\nRe. statement dated 27th November, 1939\n\"VOLPONE\" France and Belgium.\n\nWe understand with regret that you are not satisfied\nwith the above mentioned statement.\n\nIn sending you statements of monies we receive for\nyou from the French Society of Authors, we always give you\nan exact copy of their statement, showing of course their\ndeduction of commission - in this case at 10%. We in our\nturn deduct 15% commission as arranged, from the total\namount received.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.\n\nWe are not quite clear as to your complaint, as\nall statements we receive from the French Society of Authors\nbear a deduction of 10% for their commission, and as you\nwill realise, our usual method is to deduct the arranged\ncommission from all monies we receive for the credit of\nclients.\n\nIf this explanation is insufficient, perhaps you\nwill write us further on the matter.\nYours faithfully,\n\nIMPORTANT.—Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS on the negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.\nSecretary.",
+        "notes": "Typoskript auf offiziellem Briefpapier. Die Unterschrift ist handschriftlich, aber aufgrund der Überlagerung durch den Textblock schwer lesbar (scheint ein Namenszug zu sein). Die handschriftliche Zahl '44' oben rechts ist vermutlich eine Archivnummer.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.",
+        "notes": "Dieses Bild zeigt das Dokument mit aufgelegten Archiv-Hilfsmitteln (Farb- und Grauskala). Der Text ist identisch mit Teilen der ersten Seite.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Archiv-Hilfsmittel auf Seite 3 verdecken einen Teil des Textes, dieser ist jedoch durch Seite 1 vollständig rekonstruierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2580,
+    "total_words": 409,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1926,
+      0,
+      654
+    ],
+    "chars_per_page_median": 1290.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.441,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

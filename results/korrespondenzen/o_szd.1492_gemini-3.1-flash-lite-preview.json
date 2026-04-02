@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1492",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 20. Januar 1939, SZ-AAP/B3.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1492/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1492/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1492/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Januar 1939, SZ-AAP/B3.4\n- Signatur: SZ-AAP/B3.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\nTELEPHONES\nWHITEHALL 0175\n0176\n\n20.Januar 1939.\n\nHerrn Dr.Stefan Zweig,\nc/o The Viking Press Inc.,\n18 East 48th Street,\nNew York City.\n\nLieber Herr Doktor,\n\nEs freut mich zu hoeren,dass Sie drueben gut angelangt\nsind. Hoffentlich geht es Ihnen recht gut und haben Sie viel Erfolg\nauf Ihrer Vortragsreise.\n\nDie \"Editions Mondiales\" bitten uns um ein Exemplar\nder franzoesischen Uebersetzung von \"BRENNENDES GEHEIMNIS\", welche wir\nnatuerlich nicht haben. Ist das Werk ueberhaupt ins Franzoesische\nuebersetzt und falls ja, unter welchem Titel und bei welchem Verlag?\nWir bitten Sie, uns diese Auskunft moeglichst per Kabel zu geben. Wir\nhaetten Ihnen von hier aus gedrahtet, wissen aber nicht, wohin wir tele-\ngraphieren muessten und auch nicht, wann ein Telegramm ueber die \"Viking\nPress\" Sie erreichen wuerde.\n\nMit den besten Gruessen\n\nIhr ergebener\n[Unterschrift]\n\nerl. 8.II.",
+        "notes": "Typoskript auf Briefpapier mit Firmenkopf. Handschriftliche Unterschrift (unleserlich, vermutlich 'Georg[?] Heilborn[?]') und handschriftliche Notiz links unten 'erl. 8.II.'. Rote handschriftliche '77' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Faksimile mit aufgelegter Farb- und Grauskala zur Archivierung. Der Text ist identisch mit Seite 1, jedoch teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist schwer zu entziffern, wurde aber als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1080,
+    "total_words": 158,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1080,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1080,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3376,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

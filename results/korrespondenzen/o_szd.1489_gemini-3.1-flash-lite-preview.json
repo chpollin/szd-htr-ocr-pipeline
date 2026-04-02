@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1489",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Suzanne Czech vom 16. Mai 1940, SZ-AAP/B3.16",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1489/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1489/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1489/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Suzanne Czech vom 16. Mai 1940, SZ-AAP/B3.16\n- Signatur: SZ-AAP/B3.16\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                16th May 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Mrs. Czech,\n\n                I thank you for your letter of\nMay 15th and your proposition with regard to\nthe placing of the play \"Legende eines Lebens\"\nin the United States. I gratefully accept your\nwillingness to reduce your commission in this\nparticular deal to 7 1/2 percent, and I also agree\nwith the draft of your proposed letter to Dr.\nHorch which you will please send off as soon\nas possible. I repeat his address: Dr. Franz\nHorch, 143 West 73rd Street, New York City .\n\n                I also acknowledge receipt of\nyour cheque for £ 13.3.10 as refund on your\ncommission for the amount mistakenly sent you\nby M. Alfred Bloch.\n\n                                Sincerely yours,\n\n\nStefan Zweig",
+        "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Seitenzahl '38' in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung, über das Dokument gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 854,
+    "total_words": 126,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      854,
+      0,
+      0
+    ],
+    "chars_per_page_median": 854,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.45,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

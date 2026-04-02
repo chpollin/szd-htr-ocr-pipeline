@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1497",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 18. Juli 1939, SZ-AAP/B3.9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1497/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1497/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1497/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Juli 1939, SZ-AAP/B3.9\n- Signatur: SZ-AAP/B3.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+        "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich, aber unleserlich. Die Zahl '80' oben rechts ist handschriftlich mit rotem Stift hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die Unterschrift ist die einzige handschriftliche Komponente und nicht entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2032,
+    "total_words": 272,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1016,
+      0,
+      1016
+    ],
+    "chars_per_page_median": 1016.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3043,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}
