@@ -1132,45 +1132,6 @@ body.view-help #about { display: none; }
   border-color: var(--sz-burgundy);
 }
 
-.viewer__notes {
-  padding: 0.75rem 1.25rem;
-  border-top: 1px solid var(--sz-border-light);
-  font-size: 0.8125rem;
-  color: var(--sz-text-light);
-  font-style: italic;
-}
-
-.viewer__notes-edit {
-  width: 100%;
-  min-height: 60px;
-  border: 1px solid var(--sz-border);
-  border-radius: 4px;
-  padding: 0.5rem;
-  font-family: var(--font-sans);
-  font-size: 0.8125rem;
-  color: var(--sz-text);
-  background: var(--sz-cream);
-  resize: vertical;
-  font-style: italic;
-}
-
-.viewer__notes-edit:focus {
-  outline: none;
-  border-color: var(--sz-burgundy);
-}
-
-.viewer__verification-wrap {
-  font-size: 0.75rem;
-  color: var(--sz-text-light);
-}
-
-.viewer__vlm-notes {
-  padding: 0.4rem 1.25rem;
-  font-size: 0.72rem;
-  color: var(--sz-text-light);
-  font-style: italic;
-  border-top: 1px solid var(--sz-border-light);
-}
 
 .viewer__modified-label {
   font-size: 0.6875rem;
@@ -1178,6 +1139,53 @@ body.view-help #about { display: none; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+/* Context bar (full-width metadata below panels) */
+.viewer__context {
+  flex-shrink: 0;
+  padding: 0.4rem 1.25rem;
+  background: var(--sz-white);
+  border-top: 1px solid var(--sz-border);
+  font-size: 0.72rem;
+  color: var(--sz-text-light);
+  overflow-y: auto;
+  max-height: 20vh;
+}
+
+.viewer__ctx-notes {
+  font-style: italic;
+  color: var(--sz-text);
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--sz-border-light);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.viewer__ctx-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.75rem;
+  align-items: center;
+  line-height: 1.7;
+}
+
+.viewer__ctx-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.viewer__ctx-model {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--sz-text-light);
+}
+
+.viewer__ctx-dim {
+  color: var(--sz-text-light);
+  font-size: 0.68rem;
 }
 
 /* ===== 8a. Edit Status Bar & Toast ===== */

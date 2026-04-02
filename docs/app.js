@@ -1005,21 +1005,6 @@ function updateGroupFilter() {
 function renderViewerMeta(obj) {
   const gamsUrl = GAMS_BASE + obj.pid;
   const meta = document.getElementById('viewerMeta');
-  const v = obj.verification || {};
-
-  // Marker summary
-  const uncertain = v.uncertainCount || 0;
-  const illegible = v.illegibleCount || 0;
-  let markerHtml = '';
-  if (uncertain > 0 || illegible > 0) {
-    const parts = [];
-    if (uncertain > 0) parts.push(`${uncertain}\u00d7[?]`);
-    if (illegible > 0) parts.push(`${illegible}\u00d7[...]`);
-    markerHtml = `<div class="viewer__meta-item">
-      <span class="viewer__meta-label">Marker</span>
-      <span class="badge badge-markers badge-markers-some">${parts.join(', ')}</span></div>`;
-  }
-
   meta.innerHTML = `
     <div class="viewer__meta-item">
       <span class="viewer__meta-value viewer__meta-title">${escapeHtml(obj.titleClean || obj.label)}</span>
@@ -1030,43 +1015,109 @@ function renderViewerMeta(obj) {
     </div>
     <div class="viewer__meta-item">
       <a class="viewer__meta-link" href="${gamsUrl}" target="_blank" rel="noopener">${escapeHtml(obj.pid)}</a>
+    </div>`;
+}
+
+function renderViewerContext(obj) {
+  const ctx = document.getElementById('viewerContext');
+  if (!ctx) return;
+  const v = obj.verification || {};
+  const qs = obj.quality_signals;
+  const pi = PROMPT_INFO[obj.group];
+
+  // Notes (per-page) and confidence notes (per-object)
+  const page = (obj.pages || [])[state.currentPage];
+  const pageNotes = page?.notes || '';
+  const confNotes = obj.confidenceNotes || '';
+
+  // Document info
+  const docItems = [
+    COLLECTION_LABELS[obj.collection] || obj.collection,
+    escapeHtml(obj.classification || obj.groupLabel),
+    pi ? `<span class="badge badge-prompt" data-tooltip="${escapeHtml(pi.tip)}">Prompt ${pi.letter}</span>` : '',
+    escapeHtml(obj.lang),
+    `<span class="viewer__ctx-model">${escapeHtml(obj.model)}</span>`,
+  ].filter(Boolean).join(' \u00b7 ');
+
+  // Quality
+  const uncertain = v.uncertainCount || 0;
+  const illegible = v.illegibleCount || 0;
+  const qualItems = [];
+
+  // Review status
+  const approved = obj.reviewStatus === 'approved' || isObjectApproved(obj.id);
+  if (approved) {
+    qualItems.push('<span class="badge-review badge-review-approved">Gepr\u00fcft</span>');
+  } else if (obj.needsReview) {
+    qualItems.push('<span class="badge-review badge-review-yes">Review</span>');
+  } else if (obj.needsReview === false) {
+    qualItems.push('<span class="badge-review badge-review-llm-ok">LLM OK</span>');
+  }
+
+  // VLM confidence
+  qualItems.push(`<span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung: Das Modell bewertet seine eigene Transkription. LLMs \u00fcbersch\u00e4tzen systematisch \u2014 schwaches Signal.">${obj.confidence || '?'}</span>`);
+
+  // Markers
+  if (uncertain > 0 || illegible > 0) {
+    const parts = [];
+    if (uncertain > 0) parts.push(`${uncertain}\u00d7[?]`);
+    if (illegible > 0) parts.push(`${illegible}\u00d7[...]`);
+    const cls = (uncertain + illegible) >= 3 ? 'badge-markers-many' : 'badge-markers-some';
+    qualItems.push(`<span class="badge badge-markers ${cls}">${parts.join(', ')}</span>`);
+  }
+
+  // DWR
+  if (qs?.dwr_score > 0) {
+    const pct = Math.round(qs.dwr_score * 100);
+    const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
+    qualItems.push(`<span class="badge ${cls}" data-tooltip="Dictionary Word Ratio: ${pct}% der W\u00f6rter im W\u00f6rterbuch. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%</span>`);
+  }
+
+  // Volume
+  if (qs?.total_chars) {
+    qualItems.push(`<span class="viewer__ctx-dim">${qs.total_chars.toLocaleString('de')} Z., ${qs.total_words || '?'} W.</span>`);
+  }
+
+  // Blank pages
+  if (qs?.blank_pages > 0) {
+    qualItems.push(`<span class="viewer__ctx-dim">Leer ${qs.blank_pages} / ${(qs.content_pages || 0) + qs.blank_pages}</span>`);
+  }
+
+  // Consensus
+  let consHtml = '';
+  if (obj.consensus) {
+    const cat = obj.consensus.category || '';
+    const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
+    const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
+    const cls = 'badge-consensus-' + cat.replace('consensus_', '');
+    consHtml = `<span class="badge badge-consensus ${cls}">Konsensus: ${catLabel} \u00b7 ${cerPct}%</span>`;
+  }
+
+  // Review info
+  let reviewHtml = '';
+  if (obj.review) {
+    reviewHtml = `<span class="viewer__ctx-dim">Gepr\u00fcft von ${escapeHtml(obj.review.reviewed_by || '?')}${obj.review.reviewed_at ? ', ' + new Date(obj.review.reviewed_at).toLocaleDateString('de-AT') : ''}</span>`;
+  }
+
+  // Build notes section
+  let notesHtml = '';
+  if (pageNotes || confNotes) {
+    const parts = [];
+    if (pageNotes) parts.push(`<span data-tooltip="VLM-Beschreibung dieser Seite">${escapeHtml(pageNotes)}</span>`);
+    if (confNotes && confNotes !== pageNotes) parts.push(`<span data-tooltip="VLM-Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}</span>`);
+    notesHtml = `<div class="viewer__ctx-notes">${parts.join(' \u2014 ')}</div>`;
+  }
+
+  ctx.innerHTML = `
+    ${notesHtml}
+    <div class="viewer__ctx-row">
+      <span class="viewer__ctx-section">${docItems}</span>
+      ${consHtml ? `<span class="viewer__ctx-section">${consHtml}</span>` : ''}
+      ${reviewHtml ? `<span class="viewer__ctx-section">${reviewHtml}</span>` : ''}
     </div>
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-value">${COLLECTION_LABELS[obj.collection] || obj.collection}</span>
-    </div>
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-value">${escapeHtml(obj.classification || obj.groupLabel)}</span>
-      ${(() => {
-        const pi = PROMPT_INFO[obj.group];
-        return pi ? ` <span class="badge badge-prompt" data-tooltip="${escapeHtml(pi.tip)}">Prompt ${pi.letter}</span>` : '';
-      })()}
-    </div>
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-value">${escapeHtml(obj.lang)}</span>
-    </div>
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-label">VLM</span>
-      <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinschätzung (schwaches Signal)">${obj.confidence || '?'}</span>
-    </div>
-    ${markerHtml}
-    ${obj.consensus ? (() => {
-      const cat = obj.consensus.category || '';
-      const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
-      const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
-      const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-      return `<div class="viewer__meta-item">
-        <span class="viewer__meta-label">Konsensus</span>
-        <span class="badge badge-consensus ${cls}"
-              data-tooltip="Cross-Model CER ${cerPct}%">${catLabel} \u00b7 ${cerPct}%</span>
-      </div>`;
-    })() : ''}
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-label viewer__meta-model">${escapeHtml(obj.model)}</span>
-    </div>
-    ${obj.review ? `<div class="viewer__meta-item viewer__meta-review">
-      <span class="badge-review badge-review-approved">Gepr\u00fcft</span>
-      <span class="viewer__meta-value">von ${escapeHtml(obj.review.reviewed_by || '?')}${obj.review.reviewed_at ? ', ' + new Date(obj.review.reviewed_at).toLocaleDateString('de-AT') : ''}</span>
-    </div>` : ''}`;
+    <div class="viewer__ctx-row">
+      ${qualItems.join(' ')}
+    </div>`;
 }
 
 function renderViewerNav() {
@@ -1207,19 +1258,8 @@ function renderViewerPage() {
     renderReadMode(transcriptionText, notesText, !!edited);
   }
 
-  // Quality signals / confidence notes at bottom of text panel
-  const bar = document.getElementById('verificationBar');
-  if (bar) {
-    let barHtml = '';
-    const qs = obj.quality_signals;
-    if (qs) {
-      barHtml = renderQualitySignals(qs);
-    }
-    if (obj.confidenceNotes) {
-      barHtml += `<div class="viewer__vlm-notes">${escapeHtml(obj.confidenceNotes)}</div>`;
-    }
-    bar.innerHTML = barHtml;
-  }
+  // Context bar below panels
+  renderViewerContext(obj);
 
   renderViewerNav();
   updateEditButtons();
@@ -1234,9 +1274,6 @@ function renderReadMode(transcription, notes, isEdited) {
   if (!wrap) return;
   const label = isEdited ? '<span class="viewer__modified-label">bearbeitet</span> ' : '';
   wrap.innerHTML = `${label}<div class="viewer__transcription" id="transcription">${renderTranscription(transcription)}</div>`;
-
-  const notesEl = document.getElementById('notes');
-  if (notesEl) notesEl.innerHTML = notes ? renderTranscription(notes) : '';
 }
 
 function renderEditMode(transcription, notes) {
@@ -1244,12 +1281,6 @@ function renderEditMode(transcription, notes) {
   if (!wrap) return;
   wrap.innerHTML = '<textarea class="viewer__transcription-edit" id="transcriptionEdit"></textarea>';
   document.getElementById('transcriptionEdit').value = transcription || '';
-
-  const notesEl = document.getElementById('notes');
-  if (notesEl) {
-    notesEl.innerHTML = '<textarea class="viewer__notes-edit" id="notesEdit"></textarea>';
-    document.getElementById('notesEdit').value = notes || '';
-  }
 }
 
 function saveCurrentEdit() {
