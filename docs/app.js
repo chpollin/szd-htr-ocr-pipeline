@@ -2152,7 +2152,6 @@ function initEvents() {
   document.getElementById('approveBtn').addEventListener('click', () => {
     if (!state.isLocal || !state.currentObjectId) return;
     toggleObjectApproval(state.currentObjectId);
-    renderCatalog();
   });
 
   // Viewer: edit toggle
