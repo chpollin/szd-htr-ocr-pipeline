@@ -20571,7 +20571,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.1482_gemini-3.1-flash-lite-preview",

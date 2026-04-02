@@ -314,7 +314,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -15190,7 +15190,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -16869,7 +16869,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -20757,7 +20757,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -20827,7 +20827,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -20862,7 +20862,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -21004,7 +21004,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {

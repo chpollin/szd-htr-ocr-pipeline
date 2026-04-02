@@ -617,7 +617,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.179_gemini-3.1-flash-lite-preview",
@@ -15003,7 +15008,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.156_gemini-3.1-flash-lite-preview",
@@ -15121,7 +15131,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.158_gemini-3.1-flash-lite-preview",
@@ -15180,7 +15195,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.161_gemini-3.1-flash-lite-preview",
@@ -15398,7 +15418,12 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T12:47:11Z"
+      }
     },
     {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
