@@ -97,7 +97,7 @@ def build():
 
     # Scan collection result directories (skip test/, groundtruth/)
     SKIP_DIRS = {"test", "groundtruth"}
-    SKIP_SUFFIXES = ("_consensus", "_layout", "_gt_draft")
+    SKIP_SUFFIXES = ("_consensus", "_layout", "_gt_draft", "_gemini-3.1-pro", "_judge_data")
     result_files = []
     for subdir in sorted(RESULTS_BASE.iterdir()):
         if subdir.is_dir() and subdir.name not in SKIP_DIRS:

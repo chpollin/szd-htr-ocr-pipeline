@@ -149,133 +149,6 @@
       "review": null
     },
     {
-      "id": "o_szd.1079_gemini-3.1-pro",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.1079/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1079/IMG.5"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen\n\nf.",
-          "notes": "Briefumschlag Vorderseite. Handschrift in violetter Tinte. Poststempel und Briefmarken vorhanden."
-        },
-        {
-          "page": 2,
-          "transcription": "STEFAN ZWEIG",
-          "notes": "Briefumschlag Rückseite. Gedruckter Absendername. Ankunftsstempel vorhanden."
-        },
-        {
-          "page": 3,
-          "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein gnädiges Stillschweigen (die letzte Woche!) zu moquiren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartenpost. Es liegt\ngewiß mir noch nicht vor, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief –\nes ist ja ein Familienblatt und man muß sich in etwa dem\nRahmen anpassen – aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderhübsch, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, daß Sie mich sehen, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Cur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzu weit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, – schauerlich faul. Nicht einmal\nGedichte mache, {nur} zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, muß doch selbst der\nLernende durch Naturschönheit und Einsamkeit zer-\nstreut sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total zersplittere,\ndurch Spazierengehen, Herumträumen, Freunde etc.\nDas einzige Vernünftige ist, daß ich viel lese.",
-          "notes": "Handschrift. Violetter Tinte. Sehr dicht geschrieben."
-        },
-        {
-          "page": 4,
-          "transcription": "Leider Gottes muß ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nIhnen sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig",
-          "notes": "Handschrift. Untere Hälfte der Seite ist leer."
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung. Der sichtbare Text ist identisch mit Seite 4."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr klar und gut lesbar. Es gibt kaum unsichere Stellen, der Textfluss und Sinnzusammenhang bestätigen die Lesung.",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 2114,
-        "emptyPages": 1,
-        "avgCharsPerPage": 528,
-        "vlmConfidence": "high"
-      },
-      "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
-        "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0,
-        "marker_uncertain_count": 0,
-        "marker_illegible_count": 0,
-        "marker_density": 0,
-        "dwr_score": 0,
-        "duplicate_page_pairs": [],
-        "language_expected": "",
-        "language_detected": "",
-        "language_match": true,
-        "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
-      },
-      "consensus": {
-        "category": "consensus_divergent",
-        "effective_cer": 0.7314,
-        "overall_cer": 0.7314,
-        "word_overlap": 0.7216,
-        "content_pages": 5,
-        "skipped_pages": 0,
-        "model_a": "gemini-3.1-flash-lite-preview",
-        "model_b": "gemini-3-flash-preview",
-        "pages": [
-          {
-            "page": 0,
-            "cer": 0.0492,
-            "cer_orderless": 0.0,
-            "agreement": "high",
-            "type": "content",
-            "transcription_a": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
-            "transcription_b": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen\n\nf."
-          },
-          {
-            "page": 1,
-            "cer": 0.0,
-            "cer_orderless": 0.0,
-            "agreement": "high",
-            "type": "content",
-            "transcription_a": "STEFAN ZWEIG",
-            "transcription_b": "STEFAN ZWEIG"
-          },
-          {
-            "page": 2,
-            "cer": 0.6563,
-            "cer_orderless": 0.6563,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
-            "transcription_b": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein grässliches Briefpapier (der letzte Bogen!) zu moquieren!\nIch danke Ihnen recht herzlich für Ihre lieben Kartengrüße. Ihr Buch\ngelangte mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen — aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, dass Sie mich sehen, da\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzuweit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, schauerlich faul. Nicht einmal\nGedichte mehr, nur zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, müsste doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total vertändele,\ndurch Spazierengehen, Frauenträumen, Freunde etc.\nDas einzige Vernünftige ist, dass ich viel lese."
-          },
-          {
-            "page": 3,
-            "cer": 0.4761,
-            "cer_orderless": 0.4761,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
-            "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Loeffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nschon sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig"
-          },
-          {
-            "page": 4,
-            "cer": 0.6704,
-            "cer_orderless": 0.6704,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
-            "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\n\nStefan Zweig"
-          }
-        ]
-      },
-      "review": null
-    },
-    {
       "id": "o_szd.1080_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1080/IMG.1",
@@ -405,103 +278,6 @@
         "dwr_score": 0.2381,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
-        "language_match": true,
-        "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
-      },
-      "consensus": {
-        "category": "consensus_divergent",
-        "effective_cer": 1.0387,
-        "overall_cer": 1.0387,
-        "word_overlap": 0.5909,
-        "content_pages": 3,
-        "skipped_pages": 0,
-        "model_a": "gemini-3.1-flash-lite-preview",
-        "model_b": "gemini-3-flash-preview",
-        "pages": [
-          {
-            "page": 0,
-            "cer": 0.9375,
-            "cer_orderless": 0.9375,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-            "transcription_b": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\nNur für die Adresse"
-          },
-          {
-            "page": 1,
-            "cer": 0.1022,
-            "cer_orderless": 0.1022,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
-            "transcription_b": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich macht es statt „graciöse“ darin\n„graciöse“ hinten. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig"
-          },
-          {
-            "page": 2,
-            "cer": 1.0,
-            "cer_orderless": 1.0,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-            "transcription_b": ""
-          }
-        ]
-      },
-      "review": null
-    },
-    {
-      "id": "o_szd.1081_gemini-3.1-pro",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.1081/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1081/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1081/IMG.3"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
-          "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlicher Adresse in violetter Tinte. Poststempel 'WIEN 1/1 5 6.01 6-7 N' und ein weiterer, schwacher Stempel. Eingedruckte 5-Heller-Briefmarke. Der Text 'Nur für die Adresse' ist vertikal am linken Rand gedruckt."
-        },
-        {
-          "page": 2,
-          "transcription": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich muß es statt „graciöse“ darin\n„gratiöse“ heißen. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefanZweig",
-          "notes": "Nachrichtenseite der Postkarte. Handschrift von Stefan Zweig in violetter Tinte. Sehr gut lesbar."
-        },
-        {
-          "page": 3,
-          "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
-          "notes": "Adressseite der Postkarte (identisch mit Scan 1), zusammen mit Farb- und Grauskalen (Farbkarte #13, Grauskala #13) für die Archivierung abgelichtet."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr klar und deutlich lesbar. Es gibt keine unsicheren Stellen. Auch die gedruckten Passagen der Postkarte sind einwandfrei zu entziffern.",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 361,
-        "emptyPages": 0,
-        "avgCharsPerPage": 120,
-        "vlmConfidence": "high"
-      },
-      "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
-        "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0,
-        "marker_uncertain_count": 0,
-        "marker_illegible_count": 0,
-        "marker_density": 0,
-        "dwr_score": 0,
-        "duplicate_page_pairs": [],
-        "language_expected": "",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
@@ -683,103 +459,6 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
-        "language_match": true,
-        "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
-      },
-      "consensus": {
-        "category": "consensus_divergent",
-        "effective_cer": 0.7541,
-        "overall_cer": 0.7541,
-        "word_overlap": 0.587,
-        "content_pages": 3,
-        "skipped_pages": 0,
-        "model_a": "gemini-3.1-flash-lite-preview",
-        "model_b": "gemini-3-flash-preview",
-        "pages": [
-          {
-            "page": 0,
-            "cer": 0.9636,
-            "cer_orderless": 0.9636,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
-            "transcription_b": "Gruss aus Wien\nWähringerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße StefanZweig\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111."
-          },
-          {
-            "page": 1,
-            "cer": 0.0096,
-            "cer_orderless": 0.0096,
-            "agreement": "high",
-            "type": "content",
-            "transcription_a": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-            "transcription_b": "Correspondenz-Karte.\nNur für die Adresse.\nAn Max Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3"
-          },
-          {
-            "page": 2,
-            "cer": 1.0,
-            "cer_orderless": 1.0,
-            "agreement": "low",
-            "type": "content",
-            "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-            "transcription_b": ""
-          }
-        ]
-      },
-      "review": null
-    },
-    {
-      "id": "o_szd.1088_gemini-3.1-pro",
-      "images": [
-        "https://gams.uni-graz.at/o:szd.1088/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1088/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1088/IMG.3"
-      ],
-      "pages": [
-        {
-          "page": 1,
-          "transcription": "Gruss aus Wien Währingerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111. Viele Grüsse Stefan Zweig",
-          "notes": "Bildseite der Postkarte. Gedrucktes Motiv mit rotem Aufdruck, darüber handschriftlicher Text in violetter Tinte."
-        },
-        {
-          "page": 2,
-          "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn Max Fleischer\nstud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-          "notes": "Adressseite der Postkarte. Formulardruck mit handschriftlicher Adresse in violetter Tinte. Briefmarke (5 Heller) und Poststempel (Wien, 23.10.01 sowie Leipzig, 24.10.01) vorhanden."
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung. Zeigt die identische Bildseite der Postkarte wie Scan 1."
-        }
-      ],
-      "confidence": "high",
-      "confidenceNotes": "Handschrift und Drucktext sind klar und deutlich lesbar. Keine unsicheren Stellen oder nennenswerten Leseschwierigkeiten.",
-      "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 309,
-        "emptyPages": 1,
-        "avgCharsPerPage": 154,
-        "vlmConfidence": "high"
-      },
-      "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
-        "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0,
-        "marker_uncertain_count": 0,
-        "marker_illegible_count": 0,
-        "marker_density": 0,
-        "dwr_score": 0,
-        "duplicate_page_pairs": [],
-        "language_expected": "",
-        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -21951,6 +21630,2136 @@
           [
             2,
             4
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1484_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1484/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1484/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\n18.Maerz 1940.\n\nHerrn Dr.Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nB a t h .\n\nSehr geehrter Herr Doktor,\n\nWir erhalten aus der Schweiz eben Nachricht bezueglich Ihres\nWerkes \"DER VERWANDELTE KOMOEDIANT\",die wir Ihnen tieferstehend in Abschrift\nwiedergeben.\n\n\" La maison Felix Bloch Erben me fait remarquer que le\n\"Copyright de la piece de Stefan Zweig, \"Der verwandelte\n\"Komoediant\",s'ecoule au cours de cette annee. Il faudrait\n\"absolument faire une demande pour le renouvellement du\n\"Copyright. Je vous prie de prendre connaissance de ce\n\"fait et vous presente,Chere Mademoiselle,mes salutations\n\"empressees. \"\n\nIch weiss nicht,ob Sie selber,lieber Herr Doktor,bereits dies-\nbezuegliche Schritte unternommen haben oder was Sie vorzunehmen wuenschen.\nVielleicht haben Sie die Liebenswuerdigkeit,mir recht bald darueber Bescheid\nzu geben. Wir wuerden uns freuen,Ihnen in der Sache behilflich sein zu koennen.\n\nMit den besten Empfehlungen\nIhre\n\n(DR.SUZANNE CZECH)\n\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+          "notes": "Typoskript auf offiziellem Briefpapier des International Copyright Bureau Ltd. Die handschriftliche Unterschrift von Dr. Suzanne Czech ist deutlich erkennbar. Rote handschriftliche Notiz '45' oben rechts.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rueckseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1538,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1538,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1538,
+        "total_words": 223,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1538,
+          0,
+          0
+        ],
+        "chars_per_page_median": 1538,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.1638,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "language_mismatch"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1485_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1485/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1485/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1485/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nDear Sir,\n\nRe. statement dated 27th November, 1939\n\"VOLPONE\" France and Belgium.\n\nWe understand with regret that you are not satisfied\nwith the above mentioned statement.\n\nIn sending you statements of monies we receive for\nyou from the French Society of Authors, we always give you\nan exact copy of their statement, showing of course their\ndeduction of commission - in this case at 10%. We in our\nturn deduct 15% commission as arranged, from the total\namount received.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.\n\nWe are not quite clear as to your complaint, as\nall statements we receive from the French Society of Authors\nbear a deduction of 10% for their commission, and as you\nwill realise, our usual method is to deduct the arranged\ncommission from all monies we receive for the credit of\nclients.\n\nIf this explanation is insufficient, perhaps you\nwill write us further on the matter.\nYours faithfully,\n\nIMPORTANT.—Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS on the negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.\nSecretary.",
+          "notes": "Typoskript auf offiziellem Briefpapier. Die Unterschrift ist handschriftlich, aber aufgrund der Überlagerung durch den Textblock schwer lesbar (scheint ein Namenszug zu sein). Die handschriftliche Zahl '44' oben rechts ist vermutlich eine Archivnummer.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.",
+          "notes": "Dieses Bild zeigt das Dokument mit aufgelegten Archiv-Hilfsmitteln (Farb- und Grauskala). Der Text ist identisch mit Teilen der ersten Seite.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Archiv-Hilfsmittel auf Seite 3 verdecken einen Teil des Textes, dieser ist jedoch durch Seite 1 vollständig rekonstruierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2580,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1290,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2580,
+        "total_words": 409,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1926,
+          0,
+          654
+        ],
+        "chars_per_page_median": 1290.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.441,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1486_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1486/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1486/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1486/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                                                    11th May 1940.\nDear Sir,\n        Thank you for your letter of May 10th\nand your explanation.\n        As to the amount received from the\nFrench Society of Authors for the film rights\nof \"Volpone\" the facts are as follows:\n        As M. Alfred Bloch did not know my\naddress at that time and as a letter of mine\nhas apparently been lost, he sent the amount\ndirectly to you, not knowing that these film\nrights did not concern you at all. as these\nare outside our agreements. This amount has\ntherefore been sent to you only by a mistake\non the part of M. Alfred Bloch and should not\nhave gone through your hands at all. It is\nmy opinion therefore that the deduction of\n15 percent which you made in this case is\nwithout justification as you received this\namount only owing to a misunderstanding, and",
+          "notes": "Typoskript. Oben rechts handschriftliche Nummerierung '43' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "I propose that you pay me back half of the\ndeduction you have made in the case of this\namount for the film rights.\n        May I request you at the same time\nto make a note of my new and permanent address,\n\"Lyncombe Hill, BATH\".\n\n                                Yours very truly,\n\n                                Stefan Zweig",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "I propose that you pay me back half of the\ndeduction you have made in the case of this\namount for the film rights.\n        May I request you at the same time\nto make a note of my new and permanent address,\n\"Lyncombe Hill, BATH\".",
+          "notes": "Typoskript. Identisch mit dem oberen Teil von Seite 2. Farbskala/Grauskala fuer Archivierung.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1414,
+        "emptyPages": 0,
+        "avgCharsPerPage": 471,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1414,
+        "total_words": 240,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          861,
+          325,
+          228
+        ],
+        "chars_per_page_median": 325,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5756,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1487_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1487/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1487/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1487/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                                                    42\n\n                                          14th May 1940.\n\nInternational Copyright Bureau,\nDewar House,\nHaymarket,\nLondon S.W.1.\n\nDear Sir,\n\n          I have received the following letter\nof Dr. Franz Horch, New York, whom I had autho-\nrised to try to place the English version of\n\"Legende eines Lebens\" in USA provided that the\nfinal agreement would be concluded through your\nfirm as my agents. (His letter and my reply enclosed)\n          I am not quite certain about the justi-\nfication of all the claims of translators, adaptors\netc. and would like to have your opinior in this\nmatter. To me it seems that besides Dr. Horch -\nif he should really succeed in placing the play\nin the United States - and yourself as agents\nno one else should be entitled to claim part of\nmy royalties and I would be grateful for your\nsuggestions how best to arrange this matter.\n          Thanking you for an early reply, Yours sincerely",
+          "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Paginierung '42' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+          "notes": "Typoskript. Rückseite des ersten Blattes, Text steht im oberen Drittel.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+          "notes": "Typoskript. Identisch mit Seite 2, jedoch mit aufgelegten Archivierungs-Farbskalen (Farbkarte #13 und Grauskala #13).",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Paginierung '42' ist handschriftlich, aber deutlich.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1172,
+        "emptyPages": 0,
+        "avgCharsPerPage": 391,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1172,
+        "total_words": 186,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          992,
+          90,
+          90
+        ],
+        "chars_per_page_median": 90,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4974,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1489_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1489/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1489/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                                                16th May 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Mrs. Czech,\n\n                I thank you for your letter of\nMay 15th and your proposition with regard to\nthe placing of the play \"Legende eines Lebens\"\nin the United States. I gratefully accept your\nwillingness to reduce your commission in this\nparticular deal to 7 1/2 percent, and I also agree\nwith the draft of your proposed letter to Dr.\nHorch which you will please send off as soon\nas possible. I repeat his address: Dr. Franz\nHorch, 143 West 73rd Street, New York City .\n\n                I also acknowledge receipt of\nyour cheque for £ 13.3.10 as refund on your\ncommission for the amount mistakenly sent you\nby M. Alfred Bloch.\n\n                                Sincerely yours,\n\n\nStefan Zweig",
+          "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Seitenzahl '38' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 854,
+        "emptyPages": 1,
+        "avgCharsPerPage": 854,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 854,
+        "total_words": 126,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          854,
+          0,
+          0
+        ],
+        "chars_per_page_median": 854,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.45,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1490_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1490/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1490/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1490/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "C O P Y\n\nNovember 15th, 1938.\n\nDr. Stefan Zweig,\n49, Hallam Street,\nW.1.\n\nDear Dr. Zweig,\n\nWe beg to thank you for your letter of November 14th,\nand beg to confirm that we are pleased to accept the new rate of\ncommissions suggested by you, namely : 10%) ten per cent) on all\nbusiness which may be introduced by yourself, and 15% (fifteen per cent)\nif and whenever business is introduced and contracts are completed by\nour firm, always of course provided that you can successfully annul\nyour old agreement with Messrs. Felix Bloch Erben.\n\nWith kindest regards,\n\nYours sincerely,\n\nFOR & ON BEHALF OF\n(signed): INTERNATIONAL COPYRIGHT BUREAU LIMITED.\n\nGEORGE HEILBRON\n.................................................................. DIRECTOR",
+          "notes": "Typoskript auf Briefpapier. Oben rechts handschriftlich die Zahl '14' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "C O P Y\n\nNovember 15th, 1938.\n\nDr. Stefan Zweig,\n49, Hallam Street,\nW.1.\n\nFOR & ON BEHALF OF\n(signed): INTERNATIONAL COPYRIGHT BUREAU LIMITED.\n\nGEORGE HEILBRON\n.................................................................. DIRECTOR",
+          "notes": "Das Dokument ist mit einer Farb- und Grauskala für Archivierungszwecke überlagert. Der Text ist teilweise durch die Skalen verdeckt.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Überlagerung durch die Archivierungsskalen auf Seite 3 beeinträchtigt die Lesbarkeit dort, aber der Text ist durch den Abgleich mit Seite 1 eindeutig identifizierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 975,
+        "emptyPages": 1,
+        "avgCharsPerPage": 488,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 975,
+        "total_words": 143,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          740,
+          0,
+          235
+        ],
+        "chars_per_page_median": 487.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.3258,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1492_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1492/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1492/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\nTELEPHONES\nWHITEHALL 0175\n0176\n\n20.Januar 1939.\n\nHerrn Dr.Stefan Zweig,\nc/o The Viking Press Inc.,\n18 East 48th Street,\nNew York City.\n\nLieber Herr Doktor,\n\nEs freut mich zu hoeren,dass Sie drueben gut angelangt\nsind. Hoffentlich geht es Ihnen recht gut und haben Sie viel Erfolg\nauf Ihrer Vortragsreise.\n\nDie \"Editions Mondiales\" bitten uns um ein Exemplar\nder franzoesischen Uebersetzung von \"BRENNENDES GEHEIMNIS\", welche wir\nnatuerlich nicht haben. Ist das Werk ueberhaupt ins Franzoesische\nuebersetzt und falls ja, unter welchem Titel und bei welchem Verlag?\nWir bitten Sie, uns diese Auskunft moeglichst per Kabel zu geben. Wir\nhaetten Ihnen von hier aus gedrahtet, wissen aber nicht, wohin wir tele-\ngraphieren muessten und auch nicht, wann ein Telegramm ueber die \"Viking\nPress\" Sie erreichen wuerde.\n\nMit den besten Gruessen\n\nIhr ergebener\n[Unterschrift]\n\nerl. 8.II.",
+          "notes": "Typoskript auf Briefpapier mit Firmenkopf. Handschriftliche Unterschrift (unleserlich, vermutlich 'Georg[?] Heilborn[?]') und handschriftliche Notiz links unten 'erl. 8.II.'. Rote handschriftliche '77' oben rechts.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist schwer zu entziffern, wurde aber als solche markiert.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1080,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1080,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1080,
+        "total_words": 158,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1080,
+          0,
+          0
+        ],
+        "chars_per_page_median": 1080,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.3376,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1493_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1493/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1493/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                     COPY\n\n                                     The Theatre Guild, Inc.\n                                     245 West 52nd Street\n                                     New York City\n\n                                     June 22, 1939.\n\nInternational Copyright Bureau, Ltd.,\nDewar House,\nHaymarket, London, S.W.1.\n\nDear Sirs:\n\n          This is in reference to the motion picture rights for the play\nVOLPONE which we bought through you under contract dated the 12th day of April,\n1927, signed by H.M.Schiffer as your attorney in fact. Under this contract\nwe are entitled to 50% of the motion picture rights and because of this interest\nwe have been working on these rights for several years. Recently there seemed\nto have been several prospective purchasers and in order to expedite the sale,\nMr.Schiffer wrote to Dr.Zweig suggesting that he prepare a motion picture\ntreatment of the play, particularly in order to have the ban against the play\nlifted so that a picture could be made. Mr.Schiffer was informed by Dr.Zweig\nthat he was not interested in making such a film treatment because the film\nrights for VOLPONE had been sold a long time ago to a French Company.\n\n          I will appreciate it very much if you will advise us at your\nearliest possible convenience concerning the circumstances of this sale as,\nof course, we had no knowledge of it and did not receive our interest in the\nfilm rights, neither has Mr.Schiffer received his commission. It was therefore\nan unauthorized sale of these rights in which we did not participate. Therefore\nwe cannot permit the contract to remain in force or a picture authorized by\nsuch a contract to be shown.\n\n          I will appreciate any information you may be able to give me in\nthis matter. With best wishes,\n\n                                     Cordially yours,\n\n                                     signed: Warren P.Munsell\n                                     Business Manager",
+          "notes": "Typoskript auf Briefpapier. Rote handschriftliche Notiz '71' oben rechts.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1964,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1964,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1964,
+        "total_words": 279,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1964,
+          0,
+          0
+        ],
+        "chars_per_page_median": 1964,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4382,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "language_mismatch"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1497_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1497/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1497/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1497/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+          "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich, aber unleserlich. Die Zahl '80' oben rechts ist handschriftlich mit rotem Stift hinzugefügt.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+          "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript. Die Unterschrift ist die einzige handschriftliche Komponente und nicht entzifferbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2032,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1016,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2032,
+        "total_words": 272,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1016,
+          0,
+          1016
+        ],
+        "chars_per_page_median": 1016.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.3043,
+        "duplicate_page_pairs": [
+          [
+            0,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1498_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1498/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1498/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "like to be rescued, eventually, if only it could be done\nwithout too much inconvenience to themselves. They even\nwould like to strike some petty bargain during the time\nof \"inevitable collaboration\". That simply will not do. They\nwill get very poor, and not in money alone.\nA strange spot it is, this London, now. Out of the four streets\ngoing out from the corner of my house, two are more or less\nuninhabited for the time being. Passing through them by night\none might feel like in Rome during the time of the attacks\nof the Goths. The smell of broken brickwork and plaster; some\nshy cats; an iron dangling somewhere on a slowly collapsing\nroof. But in daylight the whole scene has changed. The same\nenormous vitality that was always a characteristic sign of\nthis amazing city: all the red buses running, and green coaches,\nincredibly large masses of glittering private cars rushing\nfor shopping, the shops full of gay spring colours, barrel-org-\nans at every corner. Living in a basement I hear all the noises\nfrom the street, and I enjoy them indeed. In the evening there\nwill always stroll around some couples, singing on the top of\ntheir voices, this being a rather proletarian district. I do\nnot think that anybody will sing in Berlin, inspite of all the\nvictories they have to digest. They will sit sullen and sulky\nin their chairs, listening with supicion to constant dripping\nof well-measured propaganda that is pouring from Goebbels'\nradio fountains. During one of the Blitz nights I heard some\nvoices in my entrance and went out to see who it was. It was\none of these singing couples; very young, perhaps eighteen or\nso. The whole sky was lit up by some large fire and bright like\nin daylight. They were sitting on the top of my dustbin, closely\nembraced, not at all afraid; the boy perhaps a bit, because he\nfelt responsible for the girl. I asked them to come in and take\nshelter. \"Oh no, thank you. We are quite all-right here. It's only\nfor a moment.\" I heard them for some hours, whispering quietly.\nThe other day I went to friends of mine in Park Lane. Their\nhouse was shattered during the last attack, and they had to\nclear out. Now they invited me again to the old place for tea.\nIn front of the house there was a large bomb hole, and a sort\nof trench dug by the gas repair people, some planks leading to\nthe entrance. They would show me their neatly repaired terra-\ncotta statues, almost invisibly mended, and the clever way they\nhad reconstructed their windows. Behind the cloak-room there\nwas a door leading to the shelter. They opened it. The whole\nshelter-room was one mass of fallen-down bricks and girders.\nA small bomb had smashed just that part of the house. Luckily\nnobody was in at that time. They closed the door, which, by the\nway, was spotlessly white and clean, and I put my mackintosh on\na hook of that door.\nThese are but a few instances, and not at all especially extra-\nordinary ones. But I have to close now.",
+          "notes": "Typoskript. Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2946,
+        "emptyPages": 1,
+        "avgCharsPerPage": 2946,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2946,
+        "total_words": 534,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          2946,
+          0,
+          0
+        ],
+        "chars_per_page_median": 2946,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5213,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1507_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1507/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1507/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "11.3.25\n\n\nLieber Herr Zweig !\n\nMeine Produktion ist eigentlich bis Ende des Jahres ausverkauft.\nDie Deutsche Verlags-Anstalt hat sich für den Heuschober entschieden\n(den übrigens die Frankfurter Zeitung zum vorherigen Abdruck ange-\nnommen hat); mit Axel Juncker habe ich in der Zeit meiner schlimmsten\nGeldknappheit einen Vorvertrag gemacht, wonach ich ihm einen Novellen-\nband bis zum Herbst zu übergeben habe. Von beiden bekam ich Vorschuss.\nSoll man aber noch ein drittes Eisen ins Feuer stossen ? Vielleicht\nschlägt einem dann doch der Rauch über die Augen. Ich bin freilich an\nAxel Juncker nur ganz lose gebunden und habe nur die Zahl der Stücke\nmit ihm abgemacht. Vielleicht könnte man also doch die \"Vergewaltigung\"\n- jetzt \"Marie Rebscheider\" genannt - einmal an Rütten und Loening\nschicken ? Ich weiss, dass der z.B. Bindings Prosa ganz ausgezeichnet\ngebracht hat. Es ist aber wohl nicht ganz unbedenklich sich so zu zer-\nsplittern.\n\nDarf ich einfach einmal Ihnen die Entscheidung überlassen ?\nWenn Sie meinen, dass man sich Rütten & Loening nicht damit vergrämt,\nkann man sie ja die Novelle lesen lassen. Es ist für mich auf alle Fälle\ngut - wie auch beim Insel-Verlag - wenn mich die Leute dadurch kennen\nlernen. Und wirklich entscheiden tun sich ja diese Herren immer erst,\nwenn sie die Konkurrenz auf dem Plan sehen. So macht jetzt sehr spass-\nhafterweise die Deutsche Verlags-Anstalt ihrem Berliner Direktor die\nbittersten Vorwürfe, dass er sich im Herbst die Sonette hat entgehen",
+          "notes": "Typoskript auf Briefpapier. Die erste Seite des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "lassen. Ich bot sie ihm damals an, aber er las sie natürlich so wenig\nwie Herr Kayser die Novelle.\n\nVerzeihen Sie den geschäftlichen Briefbogen, ich sitze in der\ngrössten Eile. Meine Korrespondenz geht heute nach Paris, Kuba, Riga\nund - Salzburg.",
+          "notes": "Typoskript auf Briefpapier. Die zweite Seite des Briefes.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 1740,
+        "emptyPages": 0,
+        "avgCharsPerPage": 870,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 1740,
+        "total_words": 282,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1494,
+          246,
+          0
+        ],
+        "chars_per_page_median": 870.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4909,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1508_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1508/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1508/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1508/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 11.4.25\nBerlinerstrasse 147\n\nLieber Herr Zweig !\n\nVon Rütten & Loening hatte ich einen sehr freundlichen Brief\nmit einem, vorläufig allerdings noch unbestimmt gehaltenen Verlags-\ngebot. Ich bin nun recht in der Enge, denn mit Axel Juncker habe ich\neinen Vorvertrag über ein Novellenbuch und mit der Deutschen Verlags-\nAnstalt bin ich mir über den \"Heuschober\" einig geworden. Rütten und\nLöning wären mir aber als Verlag ganz ausserordentlich sympathisch.\nNun muss ich sehen wie ich da herauskomme. Ich habe ja ein recht umfang-\nreiches Programm für dieses Jahr, etwa 10 Novellen grösseren Formates,\ndie zum Teil schon ausgearbeitet sind. Einzelstücke, wie der \"Heuschober\"\noder die chinesische Novelle sind dabei nicht eingerechnet. Soll man sich\naber damit auf zwei Verlage verteilen ? Ist es überhaupt gut, gleich mit\neinem solchen Sturz von Produktion zu erscheinen ? Vielleicht bringt\nRütten & Loening die \"Vergewaltigung\" zunächst als Einzelband, wie er\ndas mit Stücken von Binding gemacht hat.\n\nDas sind aber schliesslich alles äussere Fragen. Die Hauptsache\nist ja doch, dass es mit der Arbeit selbst weiter geht. Beiliegend sende\nich Ihnen eine kleine Aufstellung über das, was ich vorhabe. Es sind zum\ngrössten Teil Themen, an denen ich schon seit einigen Jahren herumgreife;\nich glaube, dass ich sie jetzt zu packen bekomme. Wenn sie nicht schon\nziemlich ausgearbeitet und durchgedacht wären, würde ich damit auch nicht\nandere Leute angehen. So aber, {meine} denke ich, ist es unbedenklich auch in\nVerhandlungen davon zu sprechen. Das Ganze ist gedacht als Vorbereitung\ndes grossen Romans, soll aber in seiner Sphäre auch schon eine Art Zeit-\nund Weltbild geben.\n\nEs wird Sie übrigens wohl interessieren, dass mir auch Thomas",
+          "notes": "Typoskript mit handschriftlicher Korrektur in Zeile 21.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Mann sehr zustimmend über eine der Novellen, die ich ihm geschickt hatte,\ngeschrieben hat. Er scheint sogar, soweit ihm das nach seinem Tempera-\nment möglich ist, begeistert zu sein : \"Das ist schöne, gesunde und\nechte Arbeit \", ruft er aus, und versichert mir, dass er sich entschieden\n\"auf die Seite derer schlage, die mein Auftreten freudig begrüssen \". Das\ntut einem doch gut, so etwas zu hören.\n\nIhnen wieder den herzlichsten Dank für Ihre Fürsorge und die\nbesten Grüsse für die Feiertage",
+          "notes": "Typoskript, Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Mann sehr zustimmend über eine der Novellen, die ich ihm geschickt hatte,\ngeschrieben hat. Er scheint sogar, soweit ihm das nach seinem Tempera-\nment möglich ist, begeistert zu sein : \"Das ist schöne, gesunde und\nechte Arbeit \", ruft er aus, und versichert mir, dass er sich entschieden\n\"auf die Seite derer schlage, die mein Auftreten freudig begrüssen \". Das\ntut einem doch gut, so etwas zu hören.\n\nIhnen wieder den herzlichsten Dank für Ihre Fürsorge und die\nbesten Grüsse für die Feiertage",
+          "notes": "Typoskript, identisch mit Seite 2, jedoch mit aufgelegter Grauskala/Farbkarte zur Archivierung.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Einfügung auf Seite 1 ist eindeutig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2741,
+        "emptyPages": 0,
+        "avgCharsPerPage": 914,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2741,
+        "total_words": 440,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1755,
+          493,
+          493
+        ],
+        "chars_per_page_median": 493,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.554,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1509_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1509/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.5",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.6",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.7",
+        "https://gams.uni-graz.at/o:szd.1509/IMG.8"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenberg, den 10.V. 25\n\nLieber Herr Zweig!\nIch bin immer gerührt wie [eingefügt] Sie an meinen Angelegenheiten teil-\nnehmen. Jedder [?] ~~damit~~ erhalte ich Ihnen das\nSkript und lasse nun, wie ich auf\nrichtigem Entgegen bemerkte, seit beinahe drei\nWochen nichts von mir hören. Es riß mich\naber in der letzten Zeit hier so fort und für,\ndaß ich kaum zur Besinnung kam. Ich\nhoffe von Tag zu Tag endlich einmal über\nmeine nähere Zukunft disponieren zu\nkönnen - es handelte sich um einen\n{Abschluß} ~~Geschäfts~~ einen [?] Vertrag, der mir für eine",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, die Schrift ist kursiv und teilweise schwer lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "gerade jetzt die materielle Unabhängig-\nkeit sichern soll - aber immer wieder fehlt\nes doch hinaus, und nun muß ich erst einmal\nwert von mir hören lassen. Überaus gern\nwürde ich einmal persönlich mit Ihnen\nzusammentreffen und wenn Sie in [?] Leipzig\noder sonst leidlich in der Nähe mir Gelegenheit\ndazu geben könnten würde ich mich sehr herz-\nlich darüber freuen. Vielleicht ist es schon garzig,\ndaß ich noch einfach etwas Geld zusammen-\nraffe und für einen Tag nach Salzburg fahre,\nda jetzt ich aber früher gesehen war ganz un-\ndankbar durch Frage zu schreiben, ja auch\nlich und kleinlich ist man doch jetzt darin ge-\nworden. Ich kann mich wohl entschuldigen.\nIch fühl ich habe auch an Rilke und\nZweig noch so klar geschrieben wie Sie es",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist dunkel, die Schrift ist kursiv.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "mir vorpflegen. Mein Brief war aber schon fremd\nals der Ihre kam und nun wollte ich gewiß\ndie Antwort [eingefügt] aus [?] [?] abwarten. Ich habe mich leider\nbei Axel [?] und der deutschen Verlags-\nAnstalt etwas fest gebunden, und das wird\nwohl auch Rilke und Zweig abstrecken.\nDas Wichtigste ist aber für mich doch, daß die\nArbeit flott vorankommt, daß ich dabei mich\nnicht verzetteln will sondern immer auch\nmit den einzelnen Stücken auf ein Ganzes\nziele dürfen Sie mir glauben. Der Drang\nda mir in größeren Zusammenhängen oder\nZyklen zu denken ist sogar so stark, daß ich\nzuweilen die Lust verspüre einmal auszubrechen,\netwas Negabedunst [?], einmaliges, ein\nNebenher (das durchaus meine Nebenbeschäftig-\nkeit zu sein braucht) zu machen. Sie haben\naber jetzt recht, daß nur das geschlossene Werk\nauf die Dauer Bestand hat.",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist dunkel, die Schrift ist kursiv.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "Tief schön ist das in Ihrem eigenen Werk zu\nsehen, das in dem Maße in dem es sich im\nHandwerk heraushebt immer weitere Hallen im\nBewußtsein pflegt. Der Kampf mit dem Dämon\nwar hier, und gerade auch bei fast im\nliterarischen Menschen, denen ich das Buch\nzu lesen gab, ein so ungeteilter Sieg des\nGeistes, daß ich Ihnen doch davon be-\nrichten muß, auf die Gefahr hin [eingefügt] (für meinen Teil)\netwas verdächtig zu machen. Das schafft aber\nso ganz besonders daran empfinde - über den\ngestaltgeschichtlichen Eindruck hinaus - ist der Ton\neiner [eingefügt] [?] klaren Erkenntnis, wenn ich das\nunter gewagt so ausdrücken darf. Überall\nsteht die menschliche Anteilnahme an den Dingen\nhinter dem Wort und treibt die Sätze heraus,\nnirgends wird nur gejagt oder geschwatzt.\nDadurch bekommt auch alles diesen geladenen,\nfinnlich dramatischen Ton: es ist wirklich ein",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist dunkel, die Schrift ist kursiv.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "ein weiter Beitrag, bei dem die Sätze Worte\netwas zeigerhaft [?] haben, das immer weiter\ndrängt zu neuen Formen der Gestaltung.\nIch war an vielen Stellen fast in Versuchung\ngeführt nur die Probleme und Schicksale\njedoch in dramatische Szenen umzu-\ndenken. Aber dies ist doch wohl das Kenn-\nzeichen einer wirklich notwendigen geist-\ngeschichtlichen Darstellung, daß nicht die\nDinge im freien Raume zeigt, sondern\ndie [?] so daß sie unmittelbar unsere Gäste be-\nrühren.\nIch werde wieder aufgehen und muß ich\nvorher schreiben damit doch endlich der\nBrief fertig geht. Es kann sein daß ich in\nden nächsten Wochen in geschäftlichen\nAngelegenheiten nach Paris fahre;",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist dunkel, die Schrift ist kursiv.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "vielleicht [eingefügt] da würde ich auf der Rückreise über Salzburg\nnehmen können [eingefügt] [?] [?] [?].\nMit den herzlichsten Grüßen\nIhr dankbar ergebener\nRichard Friedenthal\n\nP.S. Der „Gaußfobe“ kommt übrigens\njetzt aber in der Frankfurter Zeitung\nzu ein Abdruck, wenn Sie auch schon gehabt\nhaben.",
+          "notes": "Handschriftlicher Brief, Schluss. Die Tinte ist dunkel, die Schrift ist kursiv.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 8,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist sehr kursiv und teilweise schwer zu entziffern. Einige Wörter sind aufgrund der Tintenführung oder Abkürzungen unsicher.",
+      "verification": {
+        "uncertainCount": 13,
+        "illegibleCount": 0,
+        "totalChars": 3931,
+        "emptyPages": 2,
+        "avgCharsPerPage": 655,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 3931,
+        "total_words": 648,
+        "total_pages": 6,
+        "empty_pages": 3,
+        "blank_pages": 2,
+        "content_pages": 6,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          551,
+          738,
+          824,
+          858,
+          660,
+          300,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 699.0,
+        "marker_uncertain_count": 13,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0201,
+        "dwr_score": 0.5293,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1511_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1511/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1511/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 3.7.25\nBerlinerstrasse 147.\n\nLieber Herr Zweig\nHaben Sie den allerherzlichsten Dank für Ihren Brief vom 22. Juni, der\nleider erst heute, nach einer abscheulichen Irrfahrt, zu mir kam. Sie\nschreiben am zweckmässigsten immer an meine Charlottenburger Adresse;\nes ist das die Wohnung meiner Eltern, bei denen ich fast täglich vor-\nspreche.\nIhr Vertrauen macht mich sehr stolz; zugleich erleichtert es mich auch\nein wenig. Ich habe nämlich bei einem Verhältnis, in dem man nur der auf-\nnehmende Teil ist, stets ein etwas unbehagliches Gefühl. Wenn ich Ihnen\nalso wirklich nützen kann, so würde mich das aufrichtig freuen.\nUm gleich mitten in diese Dinge hinein zu gehen : meine Mutter, die\nein grosse Verehrerin Ihrer Arbeiten ist, hatte mir für meine Rückkehr\ndie Erzählung von der unsichtbaren Sammlung, die während meiner Reise in\nder Voss erschien, aufgehoben, und ich las wie sie das Stück mit grosser\nFreude. Es hat die still und eindringlich erzählende Art, die den Leser\nwirklich etwas bringt - wir stellten ja schon in Leipzig fest, dass durch-\naus nicht alle Prosaisten diese Manier, die die einzig anständige ist,\nverstehen. Sachlich ist mir aber eines aufgefallen. Ist es nicht unwahr-\nscheinlich, dass der Blinde, bei dem das Tastgefühl doch ungeheuer ge-\nschärft ist und der gewissermassen mit den Fingerspitzen wie mit\neinem Vergrößerungsglas sieht, durch die eingelegten Blätter getäuscht\nwird ? Ein Sammler kennt die Papierarten nach dem Gefühl, das dünne, etwas\ngeriefelte aus dem 16. Jahrhundert, das fast wie Leder genarbte und im Ge-\nfühl leicht speckige, das man später hat, das samtige Velin aus dem dix-\nhuitieme und so fort. Unmöglich können auch die Frauen entsprechende Bogen\nbeschaffen, ganz abgesehen davon, dass sie nicht genau die Verteilung\ntreffen würden. Dann würde auch der Grat des Druckes zu spüren sein. Sie",
+          "notes": "Typoskript. Die Seite ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "deuten das ja auch an der einen Stelle an, wo er mit dem Nagel nach\nder Stelle zeigt, wo der Stempel sitzen müsste. Vielleicht liesse sich\ndie Täuschung aber ganz plausibel motivieren, wenn man sagte, dass der\nAlte vollkommen ergichtete Hände hätte. Bei einem Förster ist das ja\nwahrscheinlich; er ist oft durch geregnet, hat in Nassen auf dem An-\nstand gehalten usw. Ausserdem ist er als ehemaliger Feldzugsteilnehmer\nohnehin Anwärter auf heftige Gicht. - Dann die Figuren der Mutter und\nTochter : käme der Gegensatz der Generationen und Anschauungen nicht noch\nstärker heraus, wenn man die neue Zeit bis in sein Haus hinein ihre Fühler\nliesse\nstrecken [eingefügt] ? Also die Tochter etwas leichtsinnig, sie vertut das Geld\nfür die Rembrandts im Café; auch die Mutter ist schleckrig und nasch-\nhaft, wie diese Provinzfrauen meist. Wenn man die ganze Familie als\nOpfer der Inflation hinstellt, bekommt die Geschichte einen leicht rühr-\nsamen Zug. Möglich aber auch, dass ich da schon zu boshaft denke, obwohl\nich meine, dass man als Autor seinen Gestalten nur alles Erdenkliche zu-\ntrauen muss. Vermögen sie sich dagegen zu wehren, umso besser.\nHoffentlich macht diese Probe nicht in Ihren Plan irre. Ich bin,\num es noch einmal zu sagen, von Herzen gern zu einer solchen Pakt bereit\nFrau Kippemberg werde ich gern den \"Heuschober\" schicken, der jetzt\nin diesen Tagen erscheint. Soll ich das Heft an ihre Privatadresse senden\nund können Sie mir die mitteilen ?\nIch wünsche Ihnen weiter recht guten Fortgang Ihrer Arbeiten. Sehr gern\nwerde ich einmal in Salzburg bei Ihnen vorsprechen, sobald ich nur ein\npaar Pfennige zusammen habe und ein leidliches Arbeitsquantum bewältigt\nist.\nMit den besten Grüssen",
+          "notes": "Typoskript. Die Zeile 'liesse strecken' wurde durch eine Einfügung korrigiert.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Korrekturen auf Seite 2 sind eindeutig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3563,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1782,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3563,
+        "total_words": 574,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1861,
+          1702,
+          0
+        ],
+        "chars_per_page_median": 1781.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5204,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1512_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1512/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1512/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1512/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1512/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1512/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Logen (Genf[?]) Güt[?] jenfen, den 13.8.25\nBerlin NW 40\nRoon-Straße 8\n\nLieber Herr Zweig,\nhalten Sie mich nicht für unfähig, wenn ich\nIhnen erst jetzt auf Ihren Brief antworte. Ich bin nämlich\nfür ein paar Tage hier auf dem Lande bei Freunden\nund bekam Ihre Sendung erst nachgeschickt. Gestern ging\naber sofort die Novelle an Sie zurück.\nIch weiß das Vertrauen, das Sie mir schenken, sehr\nzu würdigen. Hoffentlich kann ich Ihnen mit meinen\nBemerkungen wirklich etwas nützen. Bitte entschuldigen\nSie, wenn ich Ihnen einen Teil in Zettelform schicke,\nso wie ich sie mir während der Lektüre notierte. Sie\nkönnen so vielleicht nach der Durchsicht besser ver-\ngleichen. Ich müßte die reife Gelegenheit noch aus-\nnützen.\nZum Ganzen möchte ich noch sagen: ich finde\ndas Stück ausgezeichnet. Es hat ganz die spezifische\nArt der Erzählung, die auch Ihre anderen Novellen so le-\nbendig macht: ein allgemein menschliches Thema,\ndas doch so wiedergegeben wird, daß man es\n~~als ein Stück~~ {als ein Stück} Ihres Lebens, oder ~~weniger~~ {mündig} gesagt, Ihres Werde-\nganges, dadurch bekommen die Leute, die sich nieder-\n~~und~~ {als} eine nicht unnatürliche, jetzt geistige Auto-\nbiographie; das einzelne Stück hat die Beziehung zu",
+          "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Die Lesbarkeit ist gut, einige Stellen sind durch Korrekturen leicht überlagert.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "einem derartigen Ganzen und ist in dieser Bindung\nnoch eindringlicher. - Außerdem ist die Novelle nicht\n~~unbekannt~~ {unbekannt} und ~~schwierig~~ {schwierig} der Leser bekommt etwas für\nsein Geld und ~~findet~~ {findet} durch ein Zügeback[?] nur ich\n~~müssen~~ {müssen} sicher betrogen. Das ist doch auch ein sehr gesundes\n~~Mappas~~ {Mappas} (ich glaube wir sprachen schon in Salzburg darüber):\ndas Geld für ein Buch darf einem nicht reuen.\nFür Sie als Ganzes auch gerade sehr schön, besonders das\nAnklingen des Themas im Schluß, wo fast in die Gebärde\ndes Erzählers die der Polen kurz wiederingreift. Nicht ich ganz\n~~wieder~~ {wieder} finden die ich mit den Größenverhältnissen des uns\n~~gelten~~ {gelten} Ihr Artikel. Da könnte ich mit wieder noch knapp\n~~gedanken~~ {gedanken} denken. So fängt für mein Gefühl ein Finger\ndie Erzählung recht stark über. Auch in der Schlußszene ist,\nwie Sie selber noch schon gefühlt haben, das Gleichgewicht nicht\nganz gesagt. Es fehlt dort noch ein Wort Handlung.\nHab ich ja den Zettelkasten noch zu sagen habe finden\ndie auf den Zettel. Ich bitte nochmals um Ent-\nschuldigung für diese Form. Es ist nur um Sie nicht\nlange auf die ohnehin begehrte Antwort warten zu\nlassen.\nund meine eigenen Arbeiten gehen auch gut voran.\nund ich hoffe Ihnen bald etwas schicken zu können. Das\n~~Output~~ {Output} dieser Novelle, die ich Ihnen in der nächsten Post\n~~gesendet~~ {gesendet} will, bin ich mit dramatischen Szenen\n~~dampf~~ {dampf}. Es geht mir da allerdings noch oft etwas gehetzt\n~~mit~~ {mit} für die Arbeit.\nIhren verehrten Dank und nochmals den herz-\nlichen Dank für Ihr Vertrauen\nIhr Richard Friedenthal",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist violett. Einige Wörter sind durchgestrichen oder korrigiert.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Lieber Herr Zweig,\nhalten Sie mich nicht für unfähig, wenn ich\nIhnen erst jetzt auf Ihren Brief antworte. Ich bin\nnämlich für ein paar Tage hier auf dem Lande bei\nFreunden und bekam Ihre Sendung nachgeschickt. Gestern\nging aber sofort die Novelle an Sie zurück.\nIch weiß das Vertrauen, das Sie mir schenken,\ndankend zu würdigen. Hoffentlich kann ich Ihnen mit\nmeinen Bemerkungen wirklich etwas nützen. Bitte\nentschuldigen Sie wenn ich Ihnen einen Teil in\nZettelform schicke, so wie ich sie mir während\nder Lektüre notierte. Sie können so vielleicht nach\nder Durchsicht besser vergleichen.\nZum Ganzen möchte ich noch sagen: ich finde\ndas Stück ausgezeichnet. Es hat ganz die spezifische\nArt der Erzählung, die auch Ihre anderen Novellen\nso lebendig macht: ein allgemein menschliches\nThema, das doch so wiedergegeben ist, daß man es\nals ein Stück Ihres Lebens, oder weniger gesagt,\nIhres Werdeganges empfindet. Dadurch werden",
+          "notes": "Handschriftlicher Brief, erste Seite (Duplikat/Abschrift?). Die Tinte ist violett. Sehr gute Lesbarkeit.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "+ Allerdings ist das in der Produktion noch eingefügt;\nsie erfordert eine große Kenntnis des betreffenden Autors,\nund außerdem einen starken Blick für das Ganze. Denn\nnur solche Formate, die an sich schon etwas sind, können\ndenn an dem Amalgamierungsprozeß gesund werden\ndas wirklich ausgeht. Doch kommt man sehr dazu\nFreunden und fordert Figuren eines Schriftstellers\nLebens der Sachen anzubieten. Den Griff hierfür finde ich\nnun in dieser Novelle aufs genaueste belegt; das Werk\nist wirklich wirksam und spannend.",
+          "notes": "Handschriftlicher Brief, zweite Seite (Duplikat/Abschrift?). Die Tinte ist violett. Sehr gute Lesbarkeit.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "+ Allerdings ist das in der Produktion noch eingefügt;\nsie erfordert eine große Kenntnis des betreffenden Autors,\nund außerdem einen starken Blick für das Ganze. Denn\nnur solche Formate, die an sich schon etwas sind, können\ndenn an dem Amalgamierungsprozeß gesund werden\ndas wirklich ausgeht. Doch kommt man sehr dazu\nFreunden und fordert Figuren eines Schriftstellers\nLebens der Sachen anzubieten. Den Griff hierfür finde ich\nnun in dieser Novelle aufs genaueste belegt; das Werk\nist wirklich wirksam und spannend.",
+          "notes": "Identisch mit Seite 4, jedoch mit einer Grauskala/Farbkarte für Archivierungszwecke am unteren Rand.",
+          "type": "content"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist flüssig, aber teilweise schwer zu entziffern, insbesondere bei durchgestrichenen Passagen und Korrekturen. Einige Wörter sind aufgrund der Handschrift unsicher.",
+      "verification": {
+        "uncertainCount": 3,
+        "illegibleCount": 0,
+        "totalChars": 4819,
+        "emptyPages": 0,
+        "avgCharsPerPage": 964,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 4819,
+        "total_words": 761,
+        "total_pages": 5,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 5,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1219,
+          1647,
+          923,
+          515,
+          515
+        ],
+        "chars_per_page_median": 923,
+        "marker_uncertain_count": 3,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0039,
+        "dwr_score": 0.537,
+        "duplicate_page_pairs": [
+          [
+            3,
+            4
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1514_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1514/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1514/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1514/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1514/IMG.4"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 5.10.25\n\nLieber Herr Zweig,\n\nich danke Ihnen sehr herzlich für die Übersendung der Kritik\naus der Neuen Freien Presse, die mir grosse Freude gemacht hat. Es\nist doch ein recht angenehmes Gefühl, überall gleich so wohl auf-\ngenommen zu werden, und das danke ich, wie immer wieder zu spüren\nist, nicht zum wenigsten Ihrer Einführung. Nun muss ich aber mir\nselbst weiterhelfen, und ich hoffe allerdings, dass in meinen Sache\netwas Kraft steckt die sie vorwärtsbringt. Eine grosse Novelle\n\"Habakuk\" ist inzwischen fertig geworden und wird Ihnen zugehen,\nsobald sie abgeschrieben ist. Die chinesische Novelle, die Sie wohl\nschon gesehen haben, erscheint jetzt als illustriertes kleines Buch\nin der Orplid- Sammlung bei Axel Juncker. Man ist dort überhaupt sehr\num mich bemüht und macht die erdenklichsten Anstrengungen, mich dem\nVerlag fester zu verpflichten. Es ist von einer Lektorenstellung,\nneulich auch von einer Geschäftsführer die Rede ge-\nwesen. Sie wissen ja, dass ich eine praktische Arbeit nicht nur als\npeinliche Fron betrachte, ich halte sie sogar geisteshygienisch für\neinen Menschen meines Schlages für recht gesund und richtig. Zunächst\nfreilich möchte ich mich noch nicht so binden; man muss auch mit den\nwohlwollendsten Leuten seine Erfahrungen machen. Als Übergang ge-\nwissermassen und Versuchsarbeit habe ich Ihnen nun vorgeschlagen ein\nSammelwerk herauszugeben, dessen Idee mich schon seit einiger Zeit\nbeschäftigt hat. Es soll heissen : Deutsche Dichter der Gegenwart im\nSelbstporträt. Autobiographische Essais. In einem etwa 8 - Seiten",
+          "notes": "Typoskript auf Briefpapier.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "umfassenden Aufriss soll jeder eine Selbstcharakteristik geben,\nverbunden mit möglichst substantiellen Angaben über Lebenslauf\nund Bildungsgang, soweit sie dem einzelnen für seine Entwicklung\nrichtig erscheinen. Ich glaube, dass man auf diese Weise in Stil\nund Gesinnung wirkliche Dokumente zur zeitgenössischen Literatur-\ngeschichte bekommen wird; schon die Art wie etwa ein Thomas Mann\noder ein Sternheim eine solche Aufgabe anfassen wird, denke ich mir\nsehr bezeichnend. Mehr äusserlich gedacht kann man auf diese Weise\nauch das Publikum wieder etwas für die Poeten interessieren; bei\nvielen läuft doch nun einmal der Weg zum Werk über das persönliche\nInteresse am Autor und es wäre töricht wollte man diesen Trieb nicht\nnutzbar machen. Ich habe das auch in meinem Anschreiben - das zu-\nnächst noch Entwurf ist - betont und hoffe, dass man damit auch zu-\ntückhaltendere Leute bewegen könnte, ihren Beitrag zu geben. So las\nich kürzlich eine bewegliche Klage von Rilke, in der er seinen Unmut\nüber das mangelnde Interesse seiner Landsleute an seinen jüngsten\nArbeiten dartut. - Die Schwierigkeiten bei einen solchen Unternehmen\nschätze ich nicht gering ein, ich traue mir aber zu mit ihnen fertig\nzu werden. Nicht verhehlen kann ich, dass ich dabei, vielleicht etwas\nvorwitzig, auf Ihre Beihilfe gerechnet habe. Bitte sagen Sie mir aber\nganz offen, ob Sie Bedenken haben. Ich möchte durchaus nicht den Ein-\ndruck erwecken, als ob ich Sie nun für jeden, unter Umständen Ihnen\nrecht fern liegenden Zweck vorspannen [?] will. Die beiliegende\nListe gibt Ihnen einen Überblick über den Rahmen, der gedacht ist. Ich\nmöchte gern eine möglichst breite Resonanz erzielen und habe daher\nvielleicht einige feinere und versteckte Naturen vernachlässigt. Mir\nerscheinen aber für den beabsichtigten Zweck Leute wie auch etwa Su-\ndermann ( den ich übrigens wegen seiner Litauischen Geschichten un-\nter die guten Prosaisten rechne) wichtiger als z.B. Loerke. Die Ju-\ngend kommt auf meiner Liste verhältnismässig kurz weg. Es sind aber",
+          "notes": "Typoskript, Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Bl.2.\nzu wenig Persönlichkeiten da, die eine gewisse Dauerhaftigkeit\nversprechen. In den Fällen Goering, Hasenklever oder Edschmid\nhat man doch genügend Peinlichkeiten erlebt. Bei Unruh oder Ulitz\nliegt immerhin schon ein Werk von einigem Umfang vor, das legiti-\nmiert.\nFürchten Sie nicht, dass ich nun mit solchen Aufgaben ganz den\nPublizistik in die Hände falle. Ich werde immer meine besten Kräft\nfür die eigenen Arbeiten reservieren. Warum soll man aber nicht\nauch die anderen Fähigkeiten, über die man disponieren kann, nutz-\nbar machen ? Ich fühle mich durchaus auch geistespolitisch ver-\nanlagt. Hoffentlich beweisen mir die Ereignisse nicht das Gegen-\nteil.\nAlso nochmals : sagen Sie mir offen Ihre Meinung über das Un-\nternehmen, das zunächst nur bis zu einem Kontrakt zwischen Axel\nJuncker und mir gediehen ist. Sollten wir mit dem ersten Buch\nErfolg haben, so ist auch an Folgen mit Arbeiten ausländischer\nKapazitäten gedacht, die nach Ländern geordnet sein würden.\nMit den herzlichsten Grüssen",
+          "notes": "Typoskript, letzte Seite des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die wenigen Korrekturen oder Unklarheiten (wie das durchgestrichene Wort oder die Zeilenumbrüche) wurden gemäß den Regeln transkribiert.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 4598,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1533,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 4598,
+        "total_words": 707,
+        "total_pages": 3,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 3,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1573,
+          2020,
+          1005,
+          0,
+          0
+        ],
+        "chars_per_page_median": 1573,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0014,
+        "dwr_score": 0.5165,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1515_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1515/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1515/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 21. 10. 25\n\nLieber Herr Zweig,\nvielen Dank für Ihren Brief, der nun leider schon in eine\ngegebene Situation hineintraf. Der Verlag drängte nämlich sehr\n(wohl aus Furcht vor etwaiger Konkurrenz) und ich liess die\nSchreiben hinausgehen, auf die Gefahr hin - die Sie richtig vor-\naussehen - einer Reihe von Ablehnungen zu begegnen. Ich hatte nun\nallerdings von vornherein nicht damit gerechnet, von Rilke oder\nStefan George einen Beitrag zu bekommen. Diese Namen stehen nur\nder Vollständigkeit halber auf der Liste. Es wäre mir immerhin un-\nhöflich erschienen, sie nicht wenigstens aufzufordern. Im Übrigen\nist ja gerade von Menschen dieses Schlages eine wirklich brauch-\nbare Selbstdarstellung nicht zu erwarten. Worauf es mir ankam bei\ndem Werk das war nicht eine lückenlose Aneinanderreihung der be-\ndeutenden Namen, sondern der Versuch diejenigen, von denen man sich\neine charakteristische Äusserung ~~erwarten~~ {erwarten} kann, zum Sprechen zu\nbringen. Viele würden wohl sonst nichts über sich sagen und gerade\nbei dieser Art der Produktion bedarf es doch oft eines Anstosses von\naussen. Ich habe auch schon eine ganze Reihe von zum Teil sehr be-\nfriedigten Zustimmungen auf die Schnur geheftet. Unbedingt nötig\nwäre mir allerdings Thomas Mann, auch ohne Hauptmann oder Schnitz-\nler ist das Buch allzu unvollständig.\n\nIm Übrigen macht man dabei ganz eigentümliche Bekanntschaften.\nSo empfahl mir Wilhelm Schäfer als einen der 5 grössten deutschen\nLyriker E. V. Bodmann. Auch den greisen Benno Rittenauer, meinte er,\nsollte man nicht kränkend übergehen. Ich war ganz erschrocken, dass\nvon dieser Stelle solche Wünsche kamen. Dass den Damen W[...]",
+          "notes": "Typoskript. Die letzte Zeile bricht mitten im Wort ab, da die Seite endet. Die Korrektur 'erwarten' ist über der Zeile eingefügt.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "der sonst von dem Plan sehr angetan war, sich mit Sternheim und\nDöblin nicht ganz befreunden kann war mir schon weniger verwunder-\nlich.\n\nIch schulde Ihnen immer noch die angekündigte Novelle, die nun\nhoffentlich bald vom Abschreiben zurückkommt. Sehr gespannt bin\nich auf die weiteren Stücke aus Ihrem Bande. Auch sonst weiss ich\nviele Leute, die sich nach guter, knapper Prosa sehnen. Die Zähne\nhaben nach der Zeit des schrammigen und pappigen Expressionisten-\nberies einen gesunden Appetit auf etwas Schwarzbrotartiges.\n\nEin sehrschönes Buch, das ich in diesen Tagen bekam: die Hymnen\nan die Kirche von Gertrud le Fort. Sie kennen es wohl schon?\n\nMit den besten Wünschen für Ihre Arbeit\ngrüsst Sie herzlich",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die letzte Zeile auf Seite 1 ist aufgrund des Seitenumbruchs unvollständig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 1,
+        "totalChars": 2377,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1188,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2377,
+        "total_words": 369,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1668,
+          709,
+          0
+        ],
+        "chars_per_page_median": 1188.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 1,
+        "marker_density": 0.0027,
+        "dwr_score": 0.4904,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1517_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1517/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1517/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Dr. RICHARD FRIEDENTHAL\n\nCharlottenburg, den 14.1.26\nBerlinerstr. 147\n\nLieber Herr Zweig!\nRecht erbärmlicherweise komme ich erst heute dazu Ihren Brief vom\n31. Dezember zu beantworten. Hoffentlich stimmt Sie die beiliegende Probe\nmeiner Novelle Habakuk wieder günstig. Ich wollte mich doch nicht wieder\nvor Ihnen zeigen ehe ich etwas Produktives mitzubringen hätte. Das Stück\nhat mir viel Mühe gemacht; die Besondere Schwierigkeit lag darin, dass der\nStoff eigentlich über den Rand der Novellenform an verschiedenen Stellen\nheraussteht. Ich denke aber, dass ich durch die Verdichtung die enge\nBeziehung aller Glieder aufeinander die Berechtigung gewonnen habe die Er-\nzählung Novelle zu nennen. Man nimmt ja jetzt diese Bezeichnung etwas leicht-\nfertig für jedes kürzere Stück Prosa, das nicht gerade Essai ist, in Anspruch\n(Thomas Mann packt sogar in seiner Gesamtausgabe den Dialog FIORENZA in\neinen Band \"Novellen\", was ich ganz unzulässig finde); mir schwebt eine ziem-\nlich strenge Definition dabei vor. Ich habe auch schon darn gedacht einen\nAufsatz darüber zu schreiben, will das aber doch zurückstellen, bis ich\nmich durch genügende eigene Produktion legitimiert habe. Die alte Begriffs-\nbestimmung, die das stoffliche Moment, die abenteuerliche Neuheit der er-\nzählten Geschichte als Hauptmerkmal anzeigte, gilt nicht mehr, doch spielt\nsie immer noch etwas herein. Ich meine, dass man im Allgemeinen die Sonder-\nfälle und -formen des menschlichen Lebens der Novelle vorbehalten soll; sie\nist recht eigentlich die Form der Pathologie, während der Roman es mit der\nPhysiologie zu tun hat. Wir müssen aber mündlich einmal darüber sprechen.\nIch freue mich wirklich ganz ausserordentlich, Sie bald hier zu sehen.\nZu dem Vortrag am 29. werde ich suchen Karten zu bekommen; man versicherte\nmich es würde ~~bedenklich~~ ich voll werden. Über die theatralischen An-",
+          "notes": "Typoskript mit handschriftlicher Korrektur (Durchstreichung).",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "gelegenheiten müssten wir dann bei dem ausführlicheren Beisammensein im\nAnfang Februar uns unterhalten; ich hätte Sie da in vielen Dingen um Rat\nzu fragen. Wahrscheinlich horche ich wirklich zu sehr auf den Klang und\ndas Wort und achte nicht genug auf die Gebärde. Aber muss das Theater, wie\nes jetzt freilich tut, dem Film nachlaufen ? Und wird es dabei nicht sehr\nbald müde werden ? Die Ausdrucksfähigkeit der Filmgeste, die wir ja bis\nin alle Einzelheiten vergrösserte vorgesetzt bekommen können, erreicht es\nschon jetzt nicht mehr. Sollte sich die Bühne da nicht wieder auf das Wort,\ndas ihre ursprünglichste Kraft und Domäne ist und das man ihr bisher auch\nnicht nehmen kann, besinnen ? Voraussetzung wäre freilich dass man ihr\nnicht langweiliges Jambengeläute vorsetzt.\nAuf die Volpone bin ich sehr gespannt. Ich habe mich mit den Elisa-\nbethanern vor einiger Zeit wissenschaftlich abgegeben und dann auch ein-\nmal eine Bearbeitung von Websters White Devil im Auge gehabt. Es gibt aber\ndafür jetzt keine Rechte Bühne. Man müsste ein Shakespeare- Theater haben,\nmit leichter Bühneneinrichtung und der ausgesprochenen Tendenz dem Publi-\nkum in bunten Wechsel Stücke um der Stücke willen zu geben. Bei dem jetzige\nSchauspielertheater gibt es ja nur Stücke um der Rollen willen; ausserdem\nspielt man die einzelne Nummer viel zu lange. Früher waren doch Wieder-\nholungen von 7 - 8 mal schon eine Sensation.\nAuch darüber müssen wir mündlich einmal handeln. Und das ist noch nicht\nalles: das Sammelwerk der Autorenbiographien, die Pläne des Verlages Axel\nJuncker, der mich ganz für sich verpflichten will als Lektor und Geschäfts-\nführer - Sie sehen ich werde bereits unbescheiden mit meinem Programm.\nInzwischen bin ich mit den herzlichsten Grüssen und den besten Wünschen\nfür Ihre Arbeiten\n\nP.S. Die Novelle lasse ich mit gleicher Post als Drucksache abgehen..",
+          "notes": "Typoskript mit handschriftlichem Postskriptum am Ende.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript, die handschriftlichen Ergänzungen sind gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3726,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1863,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3726,
+        "total_words": 577,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1865,
+          1861,
+          0
+        ],
+        "chars_per_page_median": 1863.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5062,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1518_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1518/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1518/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Dr. Richard Friedenthal\nCharlottenburg, den 23.3.26\nBerlinerstrasse 147\n\nLieber Herr Zweig !\n\nIch habe gehört, dass Ihr Herr Vater gestorben ist und möchte\ndiese Nachricht nicht ganz stillschweigend an mir vorübergehen lassen. Es\nist allerdings sehr schwierig bei solcher Gelegenheit etwas Ehrliches zu\nsagen; ich weiss zu wenig von Ihrem Verhältnis zu Ihrer Familie. Nach dem\nwas Sie damals in Leipzig mir andeuteten nehme ich aber doch an, dass ein\nsolches Ereignis in Ihrem Leben etwas bedeutet. Sie haben immer so freund-\nlich auch nach meinen persönlichen Umständen gefragt, dass ich mich berech-\ntigt fühle auch an Ihren menschlichen Erlebnissen ein wenig teilzunehmen.\nVielleicht sind dies aber Dinge, die man ganz mit sich selber abmacht.\nIch habe in der Zwischenzeit viel gearbeitet und hoffe Ihnen bald ein\nzusammenhängendes Stück des Don Juan vorlegen zu können. Auch mein grosser\nKriegsroman rückt weiter. Das sind freilich alles nicht Arbeiten, von denen\nman leben kann. Ich schreibe nun, teils zum Geldverdienen und teils um mir\ndas Handwerkszeug noch zu schärfen einen Cortes- Roman; knapp, balladesk\nund - wie ich hoffe - farbig. Es ist eigentlich der Stoff für einen histo-\nrischen Roman kat' exochän; ich habe mich gewundert so wenig Vorgänger zu\ntreffen. Stuckens Trilogie, die Sie wohl kennen, ist in Einzelheiten bewun-\ndernswert, hat aber keinen Aufbau, und vor allem keinen Helden. Der histo-\nrische Roman braucht aber unbedingt den Heros. Ein solches Thema muss ent-\nweder als \"Cortes\" oder als \"Montezuma\" behandelt werden; Stucken lässt das\nineinanderfliessen. Perutz hat einen hübschen Abenteurerroman aus der Zeit\ngeschrieben; er ist aber, wie alles von ihm, zweiten Ranges. (Trotzdem wundere\nich mich immer, dass Perutz so wenig gelesen wird; er schreibt spannend und\nbunt und hat einen guten Blick für Themen. Wahrscheinlich fehlt ihm das Ele-\nment, was die Frauen brauchen und ohne die gibt es doch keinen Erfolg.) Von\nWassermann gibt es dann noch die Novelle, die ihm jetzt als Plagiat aus Pres-\ncott nachgewiesen wurde.",
+          "notes": "Typoskript. Brief von Richard Friedenthal an Stefan Zweig.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Ich lese wenig über die Zeit; nur die Berichte Cortes' und seiner\nZeitgenossen selber. Der Blick wird einem sonst leicht verwirrt. Man findet\naber auch da erschütternde Dokumente, wie z.B. die Denkschrift des Bischofs\nLas Casas, der die Indianer vor der Vernichtung zu retten versucht und die\nDaten für die brutal stumpfsinnigen Verwüstungen durch die Spanier gibt.\nBen Jonson hat mich noch weiter beschäftigt. Das dicke Buch von Caste-\nlain über ihn (Paris 1907) ist brav gemacht; man ist nach 953 Seiten aber\netwas matt und nicht sehr befriedigt. Ph. Aronstein hat in den Literar-\nhistorischen Forschungen von Schick und Waldberg noch eine Studie von 280\nSeiten herausgebracht (Berlin 1906); die übliche Neuphilologenarbeit. Der\neinzige, der von etwas höherer Warte über ihn gehandelt hat ist Swinburne\n(London 1889), den Sie wohl schon gelesen haben. Man muss aber Jonson selb\nlesen. Herrlich seine Unterhaltungen mit dem schottischen kleinen Poeten\nDrummond (die Shakespeare Soc. hat sie 1842 herausgegeben), den er auf einer\nReise besucht; bissig, überheblich und doch grossartig und tief, wie fast\nalles von ihm. Er ist ein Mann ersten Ranges und man muss ihn retten.\nMir ist die Idee gekommen, ihn in Zusammenhang mit eines Essaybandes\nCOMOEDIA vorzuführen, der an den markantesten Erscheinungen - Aristophanes,\nPlautus, Lope, Hans Sachs, Jonson, Holberg - die Gestalt der Komödie auf-\nzeigen soll. Dort gehört er hin; er ist einer der grossen Komödienschreiber.\nIch möchte Ihnen aber nicht ins Gehege reiten, falls Sie schon nach ihm\nzielen.\n\nBitte schreiben Sie mir doch, was Sie über einen solchen Plan denken.\nGern würde ich auch etwas von dem Schicksal des Volpone hören, den man hoffent-\nlich bei Reinhard nicht zu Tode gehetzt hat in der Parforcejagd der Instanzen.\n\nMit den herzlichsten Grüssen",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3861,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1930,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3861,
+        "total_words": 609,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          2052,
+          1809,
+          0
+        ],
+        "chars_per_page_median": 1930.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4891,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1520_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1520/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1520/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Richard Friedenthal                                Charlottenburg, den 2.8.26\n\n                                                 Berlinerstrasse 147.\n\nLieber Herr Zweig !\nJa, Sie haben so recht mich zu mahnen und zu fordern. Es gibt\naber zuweilen ein solches Gewirr und Netz von Dingen die einen hin-\ndern, dass man beim besten Willen sich nicht ganz frei machen kann.\nFamilienaffären, Liebesgeschichte, geschäftliche Sorgen und bei alledem\ndie materielle Unmöglichkeit der ganzen Unbehaglichkeit mit einem\nSprung zu entfliehen - das bindet einen auch dann an, wenn man an und\nfür sich garnicht so abhängig von diesen Dingen ist. Nun habe ich\naber endlich Ruhe und da geht es auch mit der Arbeit vorwärts. Ich\nschreibe täglich etwa 8 -- 10 Seiten; diesmal allerdings nicht wie\nsonst ganz für mich, sondern auch mit der ausgesprochenen Absicht\neinen Roman zu machen den man mir abkauft. Denn mit Novellen vom\nSchlage der \"Vergewaltigung\" komme ich nicht in die Höhe. Auch Kie-\npendheuer, der im übrigen sehr nett schrieb und beteuerte er halte\nden \"Heuschober\" für eine der besten neueren Novellen überhaupt, fuhr\nden sattsam bekannten Geschmack des Publikums, das nun einmal für\ngrausig-düstere Themen nicht zu haben sei gegen mich auf. Nun, mit\ndem \"Cortes\" hoffe ich mir wenigstens soviel Bewegungsfreiheit zu\nerkaufen, dass ich die anderen Arbeiten dann in Ruhe erledigen kann.\nIch schicke Ihnen beiliegend das erste Kapitel, aus dem Sie schon\nStil und Anlage des Ganzen ungefähr ersehen können. Man muss, glaube\nich ein solches Thema in Fresko behandeln, mit Farben die schnell\naufgetragen werden, mit feinen Strichen in niederländischer Manier\nist ihm nicht beizukommen. Was mich hauptsächlich an dem Thema in-\nteressierte die Möglichkeit in dieser zusammengewürfelten Aben-\nteurergesellschaft Europa in nuce zu geben; ich will den Roman durch",
+          "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "alle Schichten führen. Freilich soll Cortes selbst dabei nicht zu\nkurz kommen, denn der historische Roman braucht den Helden. (Das Fehlen\neiner Persönlichkeit die genügend für sich einnimmt ist der kapitale\nFehler an Döblins Wallenstein). Ich sehe ihn allerdings nicht so sehr\nals Haudegen und Landsknechtshauptmann wie als Politiker. Er ist ein\nwirklicher Kopf - übrigens der einzige unter allen Conquistadoren. Pi-\nzarro ist ein gewöhnlicher Strolch.\nVielleicht können Sie mir noch einen guten Rat geben; bisher hat\nnoch fast jedes Ihrer Worte erstaunlich bei mir geheckt. Das Gold-\nbuch von Cendrars habe ich gelesen.\nSehr gern würde ich wieder einmal von Ihren eigenen Arbeiten\netwas hören. Dass der Volpone in Wien und Dresden angenommen ist,\nlas ich in der Zeitung; ich gratuliere herzlichst dazu. Berlin wird\nohnehin immer unbedeutender; man will ja auch in der \"Komödie\" Revue\nspielen; Pallenberg, unser grosser Koniker, als Einlagenummer!\nIch las übrigens inzwischen Tiecks Bearbeitung des Volpone; sie\nsteht im 12. Band seiner Schriften, zusammen mit einer Übersetzung der\nEpicoene von Ben Jonson. Ein reichlich ledernes Machwerk in konven-\ntionellen Lustspielton der Zeit; alles, was bei Jonson grosser Atem\nund Schwung ist, engbrüstig und eingepresst. Trotzdem ist selbst da\ndie schlagende Wucht der Fabel nicht ganz umzubringen. Ich denke Ihre\nUmdichtung müsste wirklich Erfolg haben.\nMit den herzlichsten Grüssen und den besten Wünschen für Ihre\nArbeit bin ich immer\n\nIhr aufrichtig ergebener",
+          "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3353,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1676,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3353,
+        "total_words": 506,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1847,
+          1506,
+          0
+        ],
+        "chars_per_page_median": 1676.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.504,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1521_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1521/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1521/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1521/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Richard Friedenthal                                Charlottenburg, den 16.9.26\n                                                  Berlinerstr. 147.\n\nLieber Herr Zweig,\n\nhaben Sie den allerherzlichsten Dank für Ihren Brief und das Buch.\nMit Ihren Bemerkungen zu dem Cortes-Roman haben Sie überaus recht. Ich\nhabe mich auch schon geplagt den rechten Stil zu finden; es ist sehr schwer,\nweil unser Sprachgefühl all diese alten und sehr schön vollen Worte abge-\nstossen hat. Sie klingen unweigerlich nach Chronik, und das kann ich auf\nkeinen Fall brauchen. Wahrscheinlich bin ich aber mit dem Widerstand da\nzu weit gegangen. \"Rat von Indien\" ist wirklich viel schöner als Kolonialamt.\nSoll man aber die spanischen Bezeichnungen nehmen? Hidalgo hat für meinen\nGefühl einen ironisch-pathetischen Geschmack. Ich müsste dann auch Senor\nsagen, und das kann man nicht deklinieren.\nIm Übrigen komme ich gut voran und habe auch Freude an der Arbeit.\nAuch an den Essais über Ben Jonson und Lope habe ich weitergeschrieben. Frei-\nlich stört mich da meine Gewissenhaftigkeit. Ich nehme jeden so ernst vor\nals wollte ich zugleich das rassgebende wissenschaftliche Buch über ihn -\ndas bei beiden fehlt - nun: mindestens im Hintergrund ahnen lassen. Von Ben\nJonson gibt es übrigens Gespräche; ein einzigartiges Dokument aus der Zeit.\nVon seiner Frau sagt er: \"ashrew, yet honest.\" \"5 yeers he had not bedded\nwt her\". Von hier aus kann man sich auch denken, was mit dem Vertuschen\nvon Shakespears Verhältnis zu seiner Frau auf sich hat. Dann zitiert er ein\nEpigramm des Petronius: foeda et brevis est veneris voluptas, und fügt hin-\nzu \"it was better to lie still an kisse then pante.\"; als herumzukeuchen im\nBett. Das gibt doch eine Vorstellung von dem Mann.\nAn Ihrem Buch lese ich noch. Ich habe es zwar gleich nach der An-\nkunft durchflogen, möchte Ihnen aber erst etwas darüber sagen, wenn ich es",
+          "notes": "Typoskript auf Briefpapier. Die Zeilenumbrüche entsprechen dem Original. Die Korrekturen/Einfügungen im Text sind im Typoskript bereits integriert.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "wirklich durchaus studiert habe. Die letzte Novelle, die ich noch nicht\nkannte, scheint mir übrigens die stärkste. Sie bringt das was die Novelle\nja soll: einen Sonderfall, eine Sonderform des menschlichen Erlebens,\naber zugleich hebt sie ein ganzes Stück Erde und Existenz mit heraus. Sehr\nschön, wie Sie da [unleserlich: 4 Zeichen] die Landschaft verteilen, Berlin und die Klein-\nstadt heranziehen. Dadurch kommt auch in die ganze \"Kette\" mehr Weite,\nund es wird nicht angehen, wie manche Gemüter sicherlich schon insgeheim\ntun, Sie auf \"Reiseerlebnis\" und \"Österreich\" festzulegen.\n\nHerzlichste Grüsse und die besten Wünsche für Ihre Arbeiten\n\nIhr",
+          "notes": "Typoskript, Fortsetzung des Briefes. Das Wort 'HMMM' im Original ist unleserlich (durchgestrichen oder übertippt).",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "wirklich durchaus studiert habe. Die letzte Novelle, die ich noch nicht\nkannte, scheint mir übrigens die stärkste. Sie bringt das was die Novelle\nja soll: einen Sonderfall, eine Sonderform des menschlichen Erlebens,\naber zugleich hebt sie ein ganzes Stück Erde und Existenz mit heraus. Sehr\nschön, wie Sie da [unleserlich: 4 Zeichen] die Landschaft verteilen, Berlin und die Klein-\nstadt heranziehen. Dadurch kommt auch in die ganze \"Kette\" mehr Weite,\nund es wird nicht angehen, wie manche Gemüter sicherlich schon insgeheim\ntun, Sie auf \"Reiseerlebnis\" und \"Österreich\" festzulegen.\n\nHerzlichste Grüsse und die besten Wünsche für Ihre Arbeiten\n\nIhr",
+          "notes": "Identisch mit Seite 2, jedoch mit Farbskala/Grauskala für Archivierungszwecke am unteren Rand.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in einem durchgestrichenen/unleserlichen Wort in Zeile 5 auf Seite 2/3.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3180,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1060,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3180,
+        "total_words": 491,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1880,
+          650,
+          650
+        ],
+        "chars_per_page_median": 650,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.4979,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1522_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1522/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1522/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1522/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Berlin, den 6.5.35\n\nLieber Stefan Zweig!\n\nIch nehme an, dass dieser Brief Sie über Ihre\nSalzburger Adresse erreicht. Mit der Maria Stuart haben Sie mir eine\nsehr grosse Freude gemacht. Ich hatte in Gedanken die schweren, geträf-\nfelten roten Bande auf dem Bücherbrett Ihres Londoner flat vor mir,\nals ich das Buch aufmachte, und es war ein seltsames Erlebnis, so\nschnell diese ungefügen Folianten in leichte und schwingende einzel-\nne Sätze verwandelt zu sehen. Es ist für mein Gefühl eines der schön-\nsten und schwungvollsten Bücher, die sie geschrieben haben. Fast in kei-\nnem Ihrer Werke fand ich Ihre ausserordentliche Energie der Zeich-\nnung - und Zeichnen heisst ja nach Liebermann \"weglassen\"- so bewährt\nwie hier. Mehr als Andere kann ich ja vielleicht beurteilen, wie viel\nbei diesem Stoffe wegzulassen ist, und welche enorme Sicherheit der\nHand dazu gehört, hier ein kleines Licht aufzusetzen, wo bei Manchem\nein breiter Seich schwimmen würde, und da eine winzige Stelle auszu-\nsparen, die eine ganze Bibliothek von Kontroversen und Explikationen\nhinter sich hat. Manchmal, wenn ich eine Seite umblätterte, spürte ich\nförmlich die Wucht der Dinge, die das dünne Papier in sich aufgesogen\nhat. Es ist ja etwas seltsames um diesen Prozess, der sich so durch die\nJahrhunderte schleppt, und der wohl auch mit Ihrem Buch nicht zur Ruhe\nkommen wird, so überzeugend mir Vieles darin endgültig erledigt er-\nscheint. Wie in jedem Dichter verschiedene Gestalten und Berufe leben-\ndig sind, so ist in Ihnen ein grosser Anwalt verborgen; das fordensische\nIhrer Natur kommt sehr stark zum Ausdruck, manchmal, wie der Frage\nder Kassettenbriefe, mit einer fast davokatischen Lust am Pladoyer. Aber\nes ist sehr schön, zu sehen, wie Sie doch immer als advocatus hominis\nauftreten und nicht nur als Sachwalter {von} blossen historischen Materie.\nDas Dichterische kommt dabei keineswegs zu kurz (am schönsten für mein\nGefühl in dem Einfall mit dem Totentanz), wenn Sie auch mehr als sonst",
+          "notes": "Typoskript. Der Text bricht am Ende der Seite ab.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "der Versuchung \"Arien zu singen\" widerstanden haben. Das ist wohl\nder Einfluss des englischen Klimas. Er ist überhaupt im Ganzen stark\nspürbar, sehr zum Vorteil des Werkes, das damit irgendwie die richtige\nTemperatur bekommen hat, ohne dass viel mit Lokalfarben gearbeitet ist.\nMan sieht lehrreicher Weise, dass statt des British Museum unter Um-\nständen Portland Place oder schottische Golfplätze dieselben, oder noch\nbessere Dienste tun.\n\nMit meiner Compagnie bin ich natürlich noch nicht zu Rande gekommen.\nIch müsste mich damit an einer ganz neutralen Stelle damit hinsetzen\nkönnen, um flugs draufloszuschreiben. Aber die zugvogelhafte Freihäusig-\nkeit, die Ihnen und Ihrer Generation noch möglich war, innerlich und\nausserlich, ist uns Spätergeborenen abhanden gekommen. Vielleicht ge-\nlingt es mir aber, dieses Gefühl der Abgesperrtheit im Physischen in\neinen hitzigen Kolonialimperialismus auf geistigem Gebiete zu verwan-\ndeln, was diesem Stoffe nur gut tun kann.\n\nVor kurzem war übrigens Joachim Hamburger hier, und wir haben bei\ndieser Gelegenheit viel und herzlich Ihrer gedacht. Er ist bei aller\nscheinbaren Weichheit und Bequemlichkeit, als deren sichtbares Zeichen\nich ihm immer eine Art Schifferfrase ums Kinn denke, doch eine sehr\nunbeirrbare und eigenwüchsige Natur. Das ist viel in einer Welt, die zwar\nsehr rauh und gefährdet aussieht in allen Dingen des äusseren Lebens,\ngeistig aber doch allenthalben unaufhaltsam auf ein Schlaraffenland\nzuteuert, in dem die Gedanken fertig gebraten in die offenen Münder\nrutschen, die Einheitstauben speisefertig von den Zweigen regnen und\ndie vorschriftsmässig tranchierten Spanferkel mit beigegebenen Messern\nund Gabeln auf und ab trotten. Er hat demgegenüber die niedersächsische\nZähigkeit, und allerdings auch Langsamkeit, von der ich ja ebenfalls ei-\nnen ziemlichen Teil - und vielleicht schon zu viel-mitbekommen habe.\n\nNehmen Sie für heute nochmals herzlichen Dank und die besten\nWünsche für die weitere Arbeit von Ihrem",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Scan zeigt das Dokument von Seite 2 mit aufgelegten Farbskalen/Grauskalen zur Archivierung.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Einzig das Wort 'Compagnie' (in Scan 2, Zeile 8) wurde aufgrund der Schreibweise 'Conpagbie' im Original als 'Compagnie' transkribiert, wobei ich mich strikt an die Regel 'keine Korrektur' halte und es daher als 'Conpagbie' belasse.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3962,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1981,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3962,
+        "total_words": 606,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 2,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1979,
+          1983,
+          0
+        ],
+        "chars_per_page_median": 1981.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5132,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1523_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1523/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1523/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "23, Ladbroke Gardens, London W.11.\n24th April 41.\n\nMy dear Stefan Zweig,\nthanks for your kind letter from New Haven,\nMarch 3rd. It is always such a comfort to read your warmhearted\nlines and almost to h e a r your voice. I am fully convinced that\nyou try to help wherever you can, and certainly it is not your\nfault if things are sometimes going wrong. These are difficult times,\nand besides the arch-devil who is now apparent to everybody we are\nhaunted by hosts of small devils, ink-goblins, rubber-stamp ghosts,\nform-imps and similar spirits. And tortured we are no less by them\nthan the dark ages were by their hell-folk in all its refined hier-\narchy. One day our grand-children - not yet our children, I fear -\nwill laugh about all that as we did laugh about the reports from\nthe middle ages.\nIn the meantime we have to live through the present of these very\ndark ages. I do not complain that I am here in the centre of the\ntyphoon, in the contrary. It is a great comfort to feel that at least\nat one point in the world a stand has been made, and will be made\nagain and again, and to get that feeling by daily contact with this\namazing people here. We never doubted their qualities of endurance,\nhardiness and standing-power. But they have developed a lot of other\nqualities now, too. The other week was \"pretty noisy\", as they call\nit, and my place got some scratches over the face, like many houses.\nThe kitchen-windows went, and some of my crockery had to be shovelled\ninto the dust-bin, and the door was pressed in, the handle coming\ndown the corridor like a bullet and crashing into the wall. But that\nwas all. Early in the morning already the whole street was busy rep-\nairing the damage, the gas-people drilling the pavement, repair-squads\npropping up shaky houses, I would \"reconstruct\" my door and my win-\ndows with some glossy white stuff, and in the afternoon even two\nmen from the builders turned up to look after the frames and win-\ndows in the upper floor. None of the essential services was inter-\nrupted. I got my Eimes from the newspaperman, my milk from the dairy;\ngas-pressure was a bit low as, a matter of fact, owing to the repair\nin the street, and my stove didn't work because all the soot and some\nbricks had fallen down in the chimney. How quick all these repair-\npeople were, and how efficient! The very clatter of their drilling\nand of all the clearing away the glass sounded healthy and good. No\n\"we-are-aslow-people\" for them. No complaints, no grumbling. They truly\nare wonderful.\nAnd in Oxford-Street, where there are some deep scars, your 'Amok' is\nstill quietly going on. It must have a run of over a year, by now,\nhasn't it?\nI was very glad to hear about your Vespucci book, and the book about\nBrazil, too, besides all the lecturing you do. I wish I had half your\ncapacity in hammering out things. The gas pressure of my poetic\nburner is still a bit low, and the process of warming up a dish\nthat has boiled down half a year ago is somewhat tiresome. But I",
+          "notes": "Typoskript. Brief an Stefan Zweig. Die Seite endet mitten im Satz.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "carry on. Lack of tenacity never was one of my faults. And much\npleased I was to hear that Bermann-Fischer is still interested\nin the manuscript, and that he is now about to go on with his\npublishing.\nAs to immigration matters, I went several times to the U.S.A. Cons\nulate. There is indeed no quota restriction now, the German quota\nbeing undersubscribed. The only thing needed is a passage. Blooms-\nbury house has taken over the list of waiting applicants, and I\nhope to get a place there. Mrs. Kaiser was very optimistic about\ngetting a position in that Shady College, N.Y., and wrote me that\nthey would perhaps even send an affidavit for me. I am not quite\nsure how far she will succeed. If you could arrange for an affid-\navit in any way, I would be very grateful. The trouble with these\naffidavits is nowadays that affidavits of friends (not very near\nrelatives) are given not much weight \"unless special circumstanc\nes meriting consideration are fully explained\", as the form of\nthe Consulate says. But in another matter you could perhaps help\nimmediately. The Consule is asking for a written statement, in\nduplicate, from someone in authority or good standing, who has\nknown the applicant for a number of years, establishing his or\nher good character.\nOtherwise I have no \"special wish\", as you hinted so kindly. My\nfinancial situation is still not quite satisfactory, as you might\nimagine, until my book has gone through.\nThis letter, I am afraid, tends to develop into a kind of business\nepistle. How much I long for a long walk with you over some hills\npreferably at Bath, and some fire-side talks about more lasting\ntopics than all those dreadful silly migration matters! But\nthese are migratory times on the greatest imaginable scale. The\nword refugee has now become a household word to almost every\nnation. One is in good company with a lot of kings and ministers.\nLet's hope we may reach our Addis Ababa too one day as your\nformer neighbour in Bath! I remember him very well, how he would\nsit there quietly in one corner in his black coat, much dignif-\nied looking, although a bit ridiculous in the eyes of most people\nas the fallen \"Lion of Juda.\" And now he is in his capital again!\nPerseverance is everything.\nAll my best wishes and kindest regards to your wife and you\nalways yours,",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein gut lesbares Typoskript. Die wenigen Unklarheiten (z.B. 'Eimes' in Zeile 32, Seite 1, vermutlich ein Tippfehler für 'Times') wurden originalgetreu transkribiert.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 5297,
+        "emptyPages": 0,
+        "avgCharsPerPage": 2648,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 5297,
+        "total_words": 962,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          2996,
+          2301,
+          0
+        ],
+        "chars_per_page_median": 2648.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.498,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1525_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1525/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1525/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Richard Friedenthal, Ph.D.                                25, Ladbroke Gardens, W.11.\n                                                          21st August, 41.\n\nMy dear Stefan Zweig,\nI thank you very much for your letter ~~of~~ \nAugust 7th from New York. How well do I understand your feelings.\nThese are stressing times for people of your mould. All those gifts\nyou were justly proud of, power of imagination, insight, and foresight,\nthe quick and deep understanding of people and the world, are now\ntelling against you. Far better, and far healthier it would be indeed\nto have a sound patch of dullness in one's brain, a wholesome lack\nof imagination. But there we are. We can't get rid of that topheavy\nbrain. The British boat, fortunately, is built in the right way, and\ntrimmed in the right way with a well-balanced rigging, and that's\nwhy they are weathering the storm, and rule the waves still. And rule\nthey will in the years to come, and the land too, I suppose, and do\nhope.\nBut to a considerable degree, it seems to me, your trouble might be a\nmore physical one. It is not a question of age, although you are\ncounting your scores so carefully (and is it really sixty? I always\nthought of you as fifty and something). But only so hardened and\ntrained a body and mind as yours could have stood the strain of\nall that constant travelling and working. Perhaps you simply over-\nrated a bit your strength? Three books, and how many articles, and\nlectures, and how many miles of travelling, twice round the world\nyou say: well, even a man of thirty would feel rather shaky after\nthat. I earnestly do hope you might find now some rest in Rio. How\nfar better, alas, would be Bath! What a pity to think of your house,\nand all your books, and the garden, and all that out of reach for\nthe moment. I do not share your pessimism about the role you will\nplay after the war, in the contrary. There will be a new, and even\nmore urgent desire for spiritual leadership and advise, as it was\nafter the first war. You have much to give and to say, and perhaps\neven now more than ever; you are known, and sought after; it is simply\na question of carrying on. And carry on you do, as I know. War does\nnot alter the positions on the field of spiritual development, at\nleast not so quickly. That certainly was one of the lessons of the\nfirst War, whatever the changes in the political and economic sys-\ntems may have been. And, to adapt and alter Clausewitz' formula:\nspiritual warfare is not only the continuation, but the sharpening\nand hightening of the struggle of mental politics. All you always\nhave stood for is just now coming into the front-line all over the\nworld, and is not simply taken for granted, as before. The really\nlost generation is my generation. We never had the time to live our\nlife, to build up a reputation, not even to marry (I feel that very\nmuch now, with all that bachelor's life, and cooking, and sweeping\nthe floor, and shopping). My short visits in Salzburg, if I look back,\nseem to me only spells of leave in the pause between two great\noffensives. There was never peace, real peace in our time.",
+          "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "This is not to complain, as you know, but to explain - partly to\nexplain or excuse the pitiful failure of my, alas, alas, still not\nyet quite finished book. I don't know precisely what it is; perhaps\na lack of sound technique. I never can write down in one stroke a\nraw manuscript, and correct and go through it later on; I either hit\nthe right vein or have to rewrite the whole chapter. I know it is\nvery unpractical, but so far I have not been able to alter that pro-\ncess. And so, coming back from my seven months holiday, I found most\nof the chapters far too heavy and overfraught with ballast, and star-\nted to rewrite them. I think I was right, for I had been steeped to\ndeeply in research work, and overscrupulous research work at that,\nin those days, and maybe the pause has done the whole thing a lot\nof good. But in the whole it is dreadful, I know. I have sworn never\nto write a historic novel again. It always leads me to bottomless\nstudies and researches, and my far too thorough and solid mind will\nthen constantly have the excuse to escape into deeper res-\nearches. I have piled up almost a whole trunk full of material that\nwould last for a dozen novels and dissertations. At least I am now\nan authority on 18th century America, and perhaps one day this know-\nledge might help me, in lecturing etc. My lecture in Keswick was al-\nready one attempt, and even quite fine a success, as I wrote you be-\nfore.\nThen there is the question of language - there is no end of excu-\nses, but this is a very serious question indeed. I try very hard to\nworm my way into the niceties of the English language, reading with\niron jaws the toughest classics, tackling even Chaucer and Spenser.\nI even try my hand on some short stories, about War subjects, and I\nhope I have found the right person to go through these things to-\ngether. If only I could manage it to be a bit more lighthearted. That\nhowever, is hopeless. But in one or two years, I suppose, I might be\nable to write with sufficient ease. On the other side, this transit-\nory state of affairs is affecting my former vocabulary, and making\nme uncertain where I was just beginning to feel sure about every\npenstroke. And then there is the very great uncertainty about the\npublic you have to deal with. Who is one writing for? Prose cannot\nbe written without contact with the readers, even if they be\nonly imaginary ones. Spenser or Chaucer would not help there much,\nand I swallow Lewis and Steinbeck and Hemingway too. Sometimes in\na quite desperate mood I turn to Poetry. That one can do without\nany public, and at leat it gives some satisfaction. One cannot stand\nthat constant feeling of mortification without an outlet. What a pity\nthat I cannot show you those things, and talk them over. Some of them\nare probably the best I have written so far. But that is no excuse\nfor the failure of the novel, I know, I know. Perhaps I am no writer\nat all, but only a fairly bright mind and a bit of a poet. I am not\nproud of that. It is a curse.\nOh, my dear friend, I cannot say how much I long for a walk with you.\nBut when will that be? I have some good friends, and very nice English\nfriends, but nobody of real standing and understanding.\nI do hope you will have a good and reforshing time in Rio!",
+          "notes": "Typoskript, Fortsetzung des Briefes. Sehr gut lesbar.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Es gibt nur minimale Tippfehler im Original (z.B. 'leat' statt 'least', 'reforshing' statt 'refreshing'), die gemäß der Transkriptionsregeln beibehalten wurden.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 6371,
+        "emptyPages": 0,
+        "avgCharsPerPage": 3186,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 6371,
+        "total_words": 1182,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          3117,
+          3254,
+          0
+        ],
+        "chars_per_page_median": 3185.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5582,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1526_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1526/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1526/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Richard FRIEDENTHAL, Ph D.                                23, Ladbroke Gardens, W.11.\n                                                         4th November 1941.\n\nMy dear Stefan Zweig,\n\nI thank you very much for your kind letter, helpful\nand warmhearted and full of wise and sound advice, as always your letters\nare, and have been. What a waste of brain-power it is, that a man of your\ncapacity to help, and to enlighten, not only single friends, but the world\nat large, is compelled to sit in such a comparatively remote corner of the\nworld, restricted in his influence, instead of exercising the full power\nof his ripest years. How much you could do, and how much you are doing, in-\nspite of all the obstacles, as I know. I always marvel at the tireless en-\nergy with which you tackle all the new phases of your life. You are quite\nright: one day we will be weighted, according to what we have done during\nthese years, and you at least will not be found too light, that I am sure\nof.\nThis is not intended to be a birthday's sermon, as certainly some you will\nreceive at that date. But I must say some personal words, and I know that\nI am not the only one to feel like that. Always if one meets people, and\nyour name is mentioned, there is a certain warm response, a certain kind\nremembrance, not at all connected with the name of other writers or authors\nof our time. You have been able to build up a fame of a very peculiar kind,\nand I know no other instance of that sort. There is always something more\nthan only the remembrance of your books, although they are the fundament\nof your reputation; there is always the feeling of the man behind the\nbooks. And while generally it is far better n o t to know the author, and\nto become very much disappointed, in your case it is the reverse. And with\ndue respect to your great work, I might even say, that you as a personality\nare greater than most the books you have written. It is because of this\nspecial, and very rare gift of yours, that I am waiting with impatience for\nyour memoirs. And so do many people all over the world, still many people,\nalthough the realm of true authorship has shrunk terribly during these\nlast few years.\nI always remember how my father used to read to us children Verhaeren's\npoems in your translations. He used to read aloud, a very good custom that\nunfortunately now almost entirely has faded out; Ariosto, Homer, and modern\npoets too, and Verhaeren for some time was his - and our - favorite among\nthese modern poets. That was the first time I heard your name, and I still\nkeep those old Verhaeren books in their neat brown bindings. How remote\nthese times seem now, with their worship of the machine-age, and their joy\nto live in a kind of new renaissance! We feel now, hearing those machines\nover our heads, more like Samuel Butler and the Erewhonians about them.\nThen I must think back to the days where we met in Leipzig, at the Handel\nfestival, together with Romain Holland, and in Salzburg, and in Bath; and\nevery meeting with you was a kind of present and gave me something. Be sure\nthat I at least will not forget that. You certainly have had some disapp-\nointments, as everybody is bound to have in this not so very perfect world,\nbut I think they must be outweighed by experiences of the better kind.\nIt was very kind of Mrs. Altmann to invite me to Bath for some weeks, and\nI will greatly enjoy the comfort of The Rosemount, after all these weeks of\ndreadful discomfort with heating, sweeping, cooking and washing-up. But we\nwill terribly miss you. And we all hope for the day where we can sit again\nthere in the garden or in your library with you.\nAlways with my very best wishes to you and Mrs. Zweig",
+          "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und weist keine nennenswerten Leseschwierigkeiten auf.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3697,
+        "emptyPages": 1,
+        "avgCharsPerPage": 3697,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3697,
+        "total_words": 677,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          3697,
+          0,
+          0
+        ],
+        "chars_per_page_median": 3697,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5634,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1527_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1527/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1527/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1527/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 16.6.25\n\nLieber Herr Zweig !\n\nich muss Ihnen doch nun nach meiner Rückkehr schreiben wie sehr\ndankbar ich für das Zusammentreffen in Leipzig bin. So zurückgezogen\nund ohne jeden literarischen Verkehr ich sonst lebe so sehr habe ich\ndoch wieder das Bedürfnis mich auch einmal über diese Dinge auszusprechen\nEs ist ja nicht nur so, dass man unmittelbar von seinen Arbeiten reden\nwill - schon der Kontakt mit einem Menschen der ganz in dieser Sphäre\nlebt fördert einen ungemein. Da wird vieles ausgelöst, an das man bisher\nnicht dachte, eins stösst und treibt das andre und ganze Komplexe, die\nman in etwas einseitiger Beleuchtung sah, erhellen sich plötzlich. So\nbraute sich auch mir aus dem was sie erzählten ein ganzes Ungewitter\nvon Plänen, Szenen und Motiven zusammen, das sich nun in einem langan-\nhaltenden Notizenregen entladen hat. Vieles wird sicherlich nicht zur\nAusführung kommen, wie auch die Marschroute, die ich Ihnen zeigte, mich\nwohl nicht unbedingt an jeden Punkt des Planes führen wird, aber ich habe\ndas Gefühl, dass man mit wirklichem Ertrag eigentlich nur aufeinem Boden\narbeiten kann, der mit Themen gewissermassen gedüngt ist. Nichts ist wohl\nverhängnisvoller, als wenn man den einen mageren Motiv, das man aufgestö-\nbert hat, bis zur Erschöpfung nachjagen muss.\n\nEtwas bedenklich ist mir, dass ich bei diesen Zusammentreffen wohl\nallzu sehr der rein aufnehmende Teil war; ich habe nachträglich die Em-\npfindung als hätte ich nur still und fleissig in mich hineingelöffelt.\nAuch rein äusserlich habe ich Sie wahrscheinlich etwas reichlich in An-\nspruch genommen. Die Berechtigung dazu werde ich erst noch erweisen\nmüssen.\n\nHier zu Hause fand ich sogleich einen überquellenden Haufen Arbeit\nvor; als rechter Berliner setzte ich mich aber beinah fröhlich davor.\nWenn unser erlauchter Vorfahr Stendhal sich durch die bekannte Lektüre",
+          "notes": "Typoskript. Brief an Stefan Zweig. Die Seite ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "des Code für seinen Stil vorbereitete, so habe ich eine unfreiwillige\nSchulung zum strengen und exakten Denken in meinen Lizenzverträgen, die\nmeine stete Morgenarbeit bilden. Da erhält doch jedes Wort dadurch, dass\nes eine Bindung auf Jahre hinaus in sich enthält, ein Gewicht, das einen\nzwingt die feinsten Nuancen zu beachten. Unmöglich zu faseln oder zu\nträumen, wenn es um solche Realitäten wie Zahlungen oder Prozentsätze\ngeht. Obwohl auch da Raum ist für alle Menschlichkeiten. Es gibt Kontrakte\ndie pathetisch sind oder ängstlich erwartungsvoll oder unverschämt auf-\ntrumpfend. Es reizt mich sehr, wie ich vermutlich Ihnen schon erzählt\neinmal einen Finanzroman zu schreiben; als Thema habe ich bereits den\nsehr interessanten Herrn Strousberg aus der Gründerzeit aufs Korn ge-\nnommen.\n\nIch muss aber endlich einmal aufhören Ihnen immer von meinen Plä-\nnen zu sprechen und Ihnen wieder etwas Fertiges schicken.\n\nHoffentlich haben Sie eine gute Reise gehabt und finden jetzt\nwieder Freude an Ihrer Arbeit.",
+          "notes": "Typoskript. Fortsetzung des Briefes. Die Seite ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "des Code für seinen Stil vorbereitete, so habe ich eine unfreiwillige\nSchulung zum strengen und exakten Denken in meinen Lizenzverträgen, die\nmeine stete Morgenarbeit bilden. Da erhält doch jedes Wort dadurch, dass\nes eine Bindung auf Jahre hinaus in sich enthält, ein Gewicht, das einen\nzwingt die feinsten Nuancen zu beachten. Unmöglich zu faseln oder zu\nträumen, wenn es um solche Realitäten wie Zahlungen oder Prozentsätze\ngeht. Obwohl auch da Raum ist für alle Menschlichkeiten. Es gibt Kontrakte\ndie pathetisch sind oder ängstlich erwartungsvoll oder unverschämt auf-\ntrumpfend. Es reizt mich sehr, wie ich vermutlich Ihnen schon erzählt\neinmal einen Finanzroman zu schreiben; als Thema habe ich bereits den\nsehr interessanten Herrn Strousberg aus der Gründerzeit aufs Korn ge-\nnommen.\n\nIch muss aber endlich einmal aufhören Ihnen immer von meinen Plä-\nnen zu sprechen und Ihnen wieder etwas Fertiges schicken.\n\nHoffentlich haben Sie eine gute Reise gehabt und finden jetzt\nwieder Freude an Ihrer Arbeit.",
+          "notes": "Typoskript. Identisch mit Seite 2, jedoch mit überlagerten Archivierungshilfen (Grauskala und Farbskala).",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Wiederholung auf Seite 3 ist durch die Archivierungshilfen leicht verdeckt, aber der Text ist vollständig rekonstruierbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3891,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1297,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3891,
+        "total_words": 604,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1871,
+          1010,
+          1010
+        ],
+        "chars_per_page_median": 1010,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5042,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1528_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1528/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1528/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 1.9.25\n\nLieber Herr Zweig,\nhalten Sie mich nicht für träge, dass ich Ihnen erst jetzt\nantworte. Ich habe hier fortdauernd den schändlichsten Ärger auszustehen\nund wollte nur in klarer Stimmung an Sie schreiben. Nun, in ein paar Wochen,\nhoffe ich, ist alles überstanden. Dann will ich auch wieder ein wenig heraus\nund etwas südlichere Luft schnappen. Weiter als bis nach Wien werde ich aller-\ndings wohl kaum kommen. Solletn Sie aber um diese Zeit zu Haus sein, so würde\nich sehr gern auf der Durchreise bei Ihnen vorsprechen. Die Leipziger Zu-\nsammenkunft hat mir doch so viel gegeben, dass ich grossen Appetit verspüre\nsie zu wiederholen. Vieles lässt sich auch nur mündlich sagen, namentlich in\ndem, was ich über Ihre Arbeiten denke.\nDas neue Stück \"Leporella\" finde ich nun ganz ausgezeichnet und es\nist eigentlich kritisch für mein Gefühl nichts daran auszusetzen. In der\nKnappheit und Folgerichtigkeit ist es wie von Maupassant. Den Zug mit dem\nKlaps auf den Hintern habe ich recht wohl bemerkt und meine stille Freude\ndaran gehabt. Menschlich besonders schön ist es, wie aus dem dürren Scheit\ndoch noch etwas herausblüht - solche Wandlungen gelingen Ihnen überhaupt\nimmer sehr überzeugend und gut. Sie ist in dem Augenblick wirklich eine\nprachtvolle Kupplerin, und schliesslich ist es ja gleichgültig was ein\nMensch betreibt, wenn er nur das auswirken kann, was in ihm steckt. Den heim-\nlichen Hochmut des\"besseren Menschen\"vor niedrigen Verrichtungen werden wir\nja nur schwer los. Freilich sollte man sich auch nicht verleiten lassen, das\nandere zu überschätzen, und die Verhimmlung der Dirne, die man oft beliebt,\nist mir sehr zuwider.\nVortrefflich ist auch der Stil auf das Thema abgestimmt. Es ist sehr\nerfrischend, was Ihnen für eine Menge von Worten zur Verfügung steht, um diese\nderbe Gestalt und ihre Art zu bezeichnen. Einige Wiederholungen und Überdeut-\nlichkeiten - auch hier habe ich, wie schon bei dem vorigen Stück zuweilen das",
+          "notes": "Typoskript auf dünnem Papier. Die Tinte des Textes auf der Rückseite scheint leicht durch, wurde aber gemäß Anweisung ignoriert.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Gefühl, dass die Freude am treffenden Wort und der gutsitzenden Farbe Sie\nüberwältigen - werden Sie bei der Korrektur selbst bemerken.\nZu Ihren weiteren Plänen alles Gute, und den jungen Plantagen das\nschönste Wetter !\nMit den herzlichsten Grüssen",
+          "notes": "Typoskript. Fortsetzung des Briefes von Seite 1.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Ein kleiner Tippfehler im Original ('Solletn' statt 'Sollten') wurde originalgetreu übernommen.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2214,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1107,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 2214,
+        "total_words": 355,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1967,
+          247,
+          0
+        ],
+        "chars_per_page_median": 1107.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5369,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1529_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1529/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1529/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 9.12.25\n\nLieber Herr Zweig !\nWie freundlich, dass Sie gleich nach Ihrer Rückkehr an mich denken!\nIch muss Ihnen nun aber auch etwas von meinen Arbeiten zeigen. Das Haupt-\nstück, eine grössere Novelle \"Habakuk\" ist freilich immer noch nicht ab-\ngeschrieben; ich schicke es Ihnen aber sobald ich es bekomme. Es soll\netwa im Januar bei Axel Juncker als Buch erscheinen. Zu Weihnachten hat\nman dort die chinesische Novelle in der kleinen Orplid-Sammlung illustriert\nherausgebracht. Ich bringe das Büchelchen zugleich mit diesen Brief als\nDrucksache auf die Post. Die Deutsche Verlags-Anstalt ist mit dem Erfolg\nmeines \"Heuschober\" sehr zufrieden und will demnächst die \"Vergewaltigung\"\nin der gleichen Sammlung drucken. Die beiliegende Kritik aus dem Berliner\nTageblatt wird Sie interessieren. Ich kenne den Herrn Zadek tatsächlich\nnicht; umso erfreuter ist man sich so ernstwillig besprochen zu sehen.\nFreilich graut mir auch schon ein wenig vor dem Neid der Götter und mehr\nnoch der Halbgötter. Ich bin bisher von der Kritik überall so gut behandelt\nworden, dass bald wohl von irgendwoher der Widerspruch einsetzen wird. Wenn\nman etwas Vernünftiges einwendet höre ich aber gern zu; ich mache mir ja\nselbst die schärfsten Vorbehalte.\nDie andere Einlage ist eine Probe aus einen Komödie nach dem Spa-\nnischen des Alarcon. Sie werden die \"Verdad sospechosa\", sicher aber wohl\nden \"Menteur\" Corneille's kennen. Auch Goldoni hat den Stoff in seinen\n\"Bugiardo\" bearbeitet. Ich kam durch einen Aufsatz Ihres Lehrers Minor\nim Euphorion auf das herrliche Thema. Freilich bin ich sehr frei mit ihm\n~~umgegangen~~; es geht mir nicht um die Moral der Lüge, sondern um die Gestalt\ndes Helden, den ich als den Träumer und Poeten fast exochön sehe. Dadurch\nbekomme ich auch den Schluss, der beiden Spanier konventionell, bei Cor-\nneille eine Verlegenheit bleibt. Der Held hat sich durch seine ungestümen\nSchwindeleien um die Hand seiner wahren Geliebten gebracht, man glaubt ihm",
+          "notes": "Typoskript. Die Seite ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "nun auch nicht als er wahr spricht. Bei Alarcon wird er dann vom Vater mit\nden Degen in der Faust gezwungen, die andere Dame zu heiraten. Ich lasse\nihn aber in einen heiter träumerischen Schluss ganz lässig auf diese Ver-\ntauschung eingehen; die wahre Geliebte ist keine von beiden, sie lebt in\nseiner Phantasie und er hat alle Möglichkeiten, die ihm die Wirklichkeit\nbieten könnte bereits voraus genommen. - Die Probe ist die berühmte Lügen-\nerzählung des Gastmahls, die er seinen beiden Nebenbuhlern auftischt. Ich\nwürde sehr gern hören, ob Sie Stil und Tempo gelungen finden.\nDas Sammelbuch der autobiographischen Essais rückt auch ganz erfreu-\nlich weiter. Von etwa 30 Aufgeforderten habe ich schon Zusagen, darunter\nThomas Mann, Wassermann, Schäfer etc. Vollständig wird es freilich nicht\nwerden; ich hatte aber auch von vornherein nicht damit gerechnet. Der Plan\nals solcher hat bei allen lebhafte Zustimmung gefunden. Sehr wichtig wäre\nmir nun noch Hauptmann, der bisher nicht geantwortet hat. Er soll aller-\ndings krank sein, wie man bei Fischer sagte.\nAuf Ihre Jonson- Komödie bin ich sehr lüstern. Auch die Novelle im\nStil des Boccaccio, von der Sie mir in Leipzig einen Zipfel lüfteten, könnte\nich mir sehr schön denken.\nMit den herzlichsten Wünschen für Ihre Arbeit\nbin ich",
+          "notes": "Typoskript. Die Seite ist gut lesbar.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die wenigen Korrekturen (durchgestrichenes Wort) sind eindeutig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3266,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1633,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3266,
+        "total_words": 518,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1981,
+          1285,
+          0
+        ],
+        "chars_per_page_median": 1633.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5068,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1530_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1530/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1530/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1530/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1530/IMG.4"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "DR. RICHARD FRIEDENTHAL\nCharlottenburg, den 3.6.26\nBerlinerstrasse 147.\n\nLieber Herr Zweig,\nich bin tief in Ihre Schuld geraten. Heute komme ich von der\nReise zurück, aus dem Harz. Ich hätte aber schon vorher schreiben müssen,\nmir fehlte nur die Ruhe. Meine Eltern haben sich in diesen Wochen nach\ndreissigjähriger Ehe scheiden lassen.\nLeider habe ich auch bei meiner geschäftlichen Arbeit nur Ver-\ndruss erlebt. Mein Plan mir dadurch die Mittel zu verschaffen um leidlich\nunabhängig schreiben zu können ist so gut wie fehlgeschlagen. Ich habe\nzwar bisher jeden Prozess gegen meine Schuldner gewonnen, aber trotzdem\ndabei nur Geld zugesetzt. Auch mein Franzose zahlt mir keinen Centime.\nDer einzige Bargewinn, den ich bei diesen Affairen davontrage ist wahr-\nscheinlich eine etwas intimere Kenntnis von finanziellen und wirtschaft-\nlichen Dingen. Vielleicht gibt das auch einmal eine Komödie. Seit dem\nMercedet[?] hat man ja kaum etwas auf dem Gebiet.\nDass es jetzt auf die Komödie ankommt, ist mir in diesen Monaten,\nwo ich viel Theater sah, immer deutlicher geworden. Wir haben kein Publi-\nkum für die Tragödie – übrigens auch keinen Dichter. Die Tragödie verlangt\nUnterwerfung; die Leute wollen sich aber überheben, und vielleicht haben\nsie sogar Recht damit. Möglich, dass das noch eine Folge des Krieges ist,\neine Reaktion: genug nun mit Hingabe, Unterordnung und Disziplin. Frei-\nheit in jeder Beziehung ist ja recht eigentlich das Element der Komödie;\ndie Tragödie dient doch immer irgendeinem Wahn oder Aberglauben, um es\neinmal überheblich zu sagen. Welch ein Meister ist doch Aristophanes, gleich\nam Anfang und gleich allen Späteren überlegen! Die Luft bei ihm ist für\nmich eigentlich der Inbegriff der feinsten und hellsten griechischen Luft,\nganz scharf und rein, während bei den Tragikern sich immer ein schwerer\nund trüber Satz hineinmischt. Sie schmecken dadurch voller, aber die richt\nGötterspeise ist doch der Komödienschreiber. Wollen Sie aber wohl glauben,",
+          "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "dass man bisher nichts, aber auch garnichts annähernd Wichtiges über ihn\nzu lesen findet? Die Engländer haben noch das Meiste für ihn getan, aber\nüber sorgfältig kommentierte Ausgaben sind sie auch nicht hinausgekommen.\nDie Italiener gehörten sicherlich in den Band COMEDIA hinein, wie Sie\nmir richtig anmerkten. Wen soll man aber nehmen? Aretino ist überaus in-\nteressant, biographisch. Ob aber seine Stücke genug ausgeben? Ich habe\nsie bisher nur flüchtig einmal durchgeblättert; sie schienen mir etwas\nan seiner Peripherie zu liegen, wie das ja gerade bei den italienischen\nRenaissanceleuten häufig ist. Mit Gozzi und Goldoni bin ich auch nicht\nsehr befreundet. Die improvisierte Komödie ist eigentlich das Element der\nItaliener, und die kann man kaum fassen. Der Schauspieler ist bei ihnen\ndas Wichtige, der Autor verschwindet. In der Geschichte der Schauspiel-\nkunst – die ja immer mit der des Theaters und Dramas vermengt wird – machen\nsie Epoche; für das Drama haben sie kaum je etwas geleistet. Immerhin hat\nsich der Gedanke an Aretino schon mit Widerhaken bei mir festgesetzt.\nMoliere müsste auch behandelt werden, wenn man das Thema ganz rund\nfassen will. Ich habe aber sehr wenig Verhältnis zu ihm.\nWäre das Unternehmen übrigens nicht etwas für den Insel-Verlag?\nIch sollte doch meinen, dass Professor Kippenberg dafür Verständnis haben\nmüsste. Axel Juncker ist zwar stets sehr wohlwollend zu mir, scheint mir\naber jetzt doch zu schwach um irgend etwas Nachhaltiges zu tun.\nNun aber zu Ihren Dingen. Das Schicksal des Volpone wird von mir\ndeutlich mitempfunden; ich erlebe es ja auch, und als so viel jüngerer und\nunbekannterer Autor weit drückender, wie sehr es einen hemmt,\nwenn fertige Arbeiten nicht in dem richtigen Augenblick herausgestellt\nwerden. So liegt die \"Vergewaltigung\" nun schon seit über einem Jahr bei\nder Deutschen Verlagsanstalt herum; man versichert mir immer wieder, wie\nausgezeichnet das Stück sei, aber es erscheint nicht. Leider bin ich noch\nzu sehr auf jede Verbindung angewiesen, sonst würde ich ihnen die Arbeit\nfortnehmen. So muss man auf eine Zeit hoffen, wo man es sich erlauben kann",
+          "notes": "Typoskript. Die Lesbarkeit ist gut.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Brief an Stefan Zweig vom 3.6.26 Blatt 2\n\ndie Verleger ala Maupassant zu traktieren.\nAuch an dem Fortgang des Novellenbandes nehme ich grossen Anteil.\nEs gibt so blutwenig Menschen in Europa heute, die eine Geschichte mit\nSpannung erzählen können, dass man direkt hungrig ist auf solche Kost.\nDie \"Leporelle\" gehört vielleicht nicht in den zyklischen Zusammenhang,\nden Sie wohl im Auge haben; es wäre aber doch schade, wenn sie ganz\nausfiele. Können Sie nicht eine Art novellistisches Satyrspiel zwischen\ndie Bände stellen? Zunächst einmal gehörte das Stück freilich in eine\nliterarische Zeitschrift, aber dergleichen haben wir ja nicht. Die Neue\nRundschau ist jetzt doch ganz zum Haus der Lords geworden; ich glaube sie\nhat seit über drei Jahren keinen Namen mehr gebracht. Wo steckt aber\nein Verleger, der seit dem Debacle des Expressionismus sein Geld an eine\nZeitschrift für die jüngere Generation wagen würde? Die abenteuerlichsten\nPläne sind mir schon durch den Kopf spaziert; so habe ich an eine Zeit-\nschrift der Schriftsteller gedacht, bei der jeder Teilnehmer nach Massgabe\nseiner Beiträge Anteilscheine erhält, auf die am Ende des Geschäftsjahres\ndie Dividende verteilt wird. Ich glaube aber der Stand ist zu unverträg-\nlich für solche gemeinsame Arbeit. Dann habe ich mich mit dem Gedanken\ngeplagt, der neuen Akademie, die uns nun durch einen Ministerialerlass\nbeschert worden ist, vorzuschlagen, sie solle doch eine Zeitschrift heraus-\ngeben, in der die besten Arbeiten des Jahres, mit entsprechenden Preisen\nbedacht, abgedruckt würden. Es ist ja an und für sich nicht einzusehen, wes-\nhalb der Staat, der für Musiker, Bildhauer und Maler Millionen ausgibt, aus-\ngerechnet die Poeten so nachlässig behandeln soll. Man würde auch auf diesem\nWege die Schwierigkeiten der bisherigen Preisverteilungen, bei denen sich\ndie Richter fast nie einigen können, vermeiden. – Aber soll man vom Staat\nüberhaupt etwas erwarten?\nIch fürchte, ich werde schon geschwätzig. Sehr gern würde ich Ihnen\nwieder einmal etwas Positives zeigen; es ist aber noch nichts abgeschrieben.",
+          "notes": "Typoskript. Die Lesbarkeit ist gut.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "Die Aussicht, Sie auch persönlich wiederzusehen, könnte mich schon nach\nSalzburg locken. Zur Zeit sind aber auch meine finanziellen Verhältnisse\nsehr übel und ich muss unbedingt erst wieder etwas Geld machen ehe ich\nan Reisen denken kann.\nNehmen Sie mir nochmals mein langes Schweigen nicht übel und seien\nSie mit den besten Wünschen für Ihre Arbeiten\nherslichst gegrüsst von Ihrem\naufrichtig ergebenen",
+          "notes": "Typoskript. Die Lesbarkeit ist gut.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 6573,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1643,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 6573,
+        "total_words": 1022,
+        "total_pages": 4,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 4,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1975,
+          2125,
+          2071,
+          402,
+          0
+        ],
+        "chars_per_page_median": 2023.0,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.001,
+        "dwr_score": 0.532,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1531_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1531/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1531/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1531/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1531/IMG.4"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "R.FRIEDENTHAL, Ph.D.                                23,Ladbroke Gardens,W.11.\n                                                    6th June,41.\n\nMy dear Stefan Zweig,\n                                I thank you ever so much for ~~fxx~~ your\nkind ketter,and the recommandation to the U.S.A.Consulate.\nIt is always a great comfort and joy to have some lines from\nyou.And always you will say some nice words and offer help!\nUnfortunately,I need help,and not able to stand on my own\nfeet,at the moment.It is not quite my own fault,I think;but\na rather sad feeling it is for a man of forty-five(yes,45,\nnext week is my birth-day).I never felt so lone and lost in\nmy life as this year,cut off from all personal contact,sitting\nhere in my basement that slowly is becoming a sort of grotto\nor pill-box,the water from the shattered pipes constantly\ndripping over the entrance,smearing the door with white strip-\nes.I am getting pathetic.\nThere is,however,still that strange confident feeling that\nlife,the real thing,has yet to begin.Since more than twenty\nyears one has that strange feeling.It keeps young.I mean that\nhonestly,without irony.If we think of the genaration of our\ngrandparents and even our parents:how old,how settled,how\nterminated they would be in our age;grandfather and grand-\nmother.They had their settled accounts,their wine-cellar,their\nfixed memories,their wills,their paunches.I need not trouble\nabout my will,or any overeating,although I fare quite well\nwith my rations.I cannot think of you as of a grandfather,not\nat all,but far more as of a man just in the prime of his\nlife,with a third,and perhaps a fourth life still to come\n(or was it the fifth we talked about,one day in Bath?).I am\nvery keen on your memoir.To the younger generation it might\nsound like a fairy-tale.Is it possible that there was once\nupon a time a world to travel in without a passport?You just\nbought your ticket,and off you went,to Paris,or New York.Un-\nbelievable.\nYou know,I am not compaaining that I have to stay put here,in\nthe contrary.I even doubt wether I might not feel far more\ntroubled and haunted if sitting ~~fxx~~ more comfortably \"some-\nwhere in California\".Old Europe is changing,and changing fast,\nand it is something to be on the spot.Old England is changing,\ntoo,not so fast,but changing it is,and to the better,to be\nsure.Much rust is coming down.But there was always sound steel\nunder the surface,while in France,as it now turns out,the\ncorrosion has gone far too deep to be mended.They are fading\nout as a great power.Nobody will respect them any more.It is\nnot that Lavalism or Darlanism or the chalky and petrified\nsterility of the Petainites,but the slovenly and slavish sub-\nmission of so great a part of the people.Certainly,they shou",
+          "notes": "Typoskript. Brief von R. Friedenthal an Stefan Zweig. Die Seite endet mitten im Wort 'shou' (should).",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des ersten Blattes, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "like to be rescued,eventually,if only it could be done\nwithout too much inconvenience to themselves.They even\nwould like to strike some petty bargain during the time\nof \"inevitable collaboration\".That simply will not do.They\nwill get very poor,and not in money alone.\nA strange spot it is,this London,now.Out of the four streets\ngoing out from the corner of my house,two are more or less\nuninhabited for the time being.Passing through them by night\none might feel like in Rome during the time of the attacks\nof the Goths.The smell of broken brickwork and plaster;some\nshy cats;an iron dangling somewhere on a slowly collapsing\nroof.But in daylight the whole scene has changed.The same\nenormous vitality that was always a characteristic sign of\nthis amazing city:all the red buses running,and green coaches\nincredibly large masses of glittering private cars rushing\nfor shopping,the shops full of gay spring colours,barrel-org-\nans at every corner.Living in a basement I hear all the noises\nfrom the street,and I enjoy them indeed.In the evening there\nwill always stroll around some couples,singing on the top of\ntheir voices,this being a rather proletarian district.I do\nnot think that anybody will sing in Berlin,inspite of all the\nvictories they have to digest.They will sit sullen and sulky\nin their chairs,listening with supicion to constant dripping\nof well-measured propaganda that is pouring from Goebbels'\nradio fountains.During one of the Blitz nights I heard some\nvoices in my entrance and went out to see who it was.It was\none of these singing couples;very young,perhaps eighteen or\nso.The whole sky was lit up by some large fire and bright like\nin daylight.They were sitting on the top of my dustbin,closely\nembraced,not at all afraid;the boy perhaps a bit,because he\nfelt responsible for the girl.I asked them to come in and take\nshelter.\"Oh no,thank you.We are quite all-right here.It's only\nfor a moment.\"I heard them for some hours,whispering quietly.\nThe other day I went to friends of mine in Park Lane.Their\nhouse was shattered during the last attack,and they had to\nclear out.Now they invited me again to the old place for tea.\nIn front of the house there was a large bomb hole,and a sort\nof trench dug by the gas repair people,some planks leading to\nthe entrance.They would show me their neatly repaired terra-\ncotta statues,almost invisibly mended,and the clever way they\nhad reconstructed their windows.Behind the cloak-room there\nwas a door leading to the shelter.They opened it.The whole\nshelter-room was one mass of fallen-down bricks and girders.\nA small bomb had smashed just that part of the house.Luckily\nnobody was in at that time.They closed the door,which,by the\nway,was spotlessly white and clean,and I put my mackintosh on\na hook of that door.\nThese are but a few instances,and not at all especially extra-\nordinary ones.But I have to close now.",
+          "notes": "Typoskript. Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des zweiten Blattes, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein gut lesbares Typoskript. Es gibt nur wenige Tippfehler im Original (z.B. 'ketter', 'genaration', 'compaaining'), die originalgetreu transkribiert wurden.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 5633,
+        "emptyPages": 2,
+        "avgCharsPerPage": 2816,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 5633,
+        "total_words": 899,
+        "total_pages": 2,
+        "empty_pages": 3,
+        "blank_pages": 2,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          2753,
+          0,
+          2880,
+          0,
+          0
+        ],
+        "chars_per_page_median": 2816.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5223,
+        "duplicate_page_pairs": [],
+        "language_expected": "en",
+        "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1532_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1532/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1532/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Seit gestern ist Mougn da, Frevental leider heute\nfortgefahren, er ist wirklich ein prachtvoller Mensch\nund lässt Dich vielmals grüssen. Rieger wird jetzt\nwohl auch bald ausrücken, er wollte eigentlich ge-\nmeinsam mit ihm zurück von Wien, aber das Wetter\nist so schön, dass ich lieber hier blieb, herrlicher\nMai und im Hause alles still? Dass Du es gut hattest",
+          "notes": "Handschriftlicher Text auf einem Papierstreifen. Die Tinte ist leicht verblasst, aber gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Einzig das Wort 'Mougn' (Eigenname?) und 'Frevental' sind aufgrund der Eigennamen-Schreibweise als sicher eingestuft.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 360,
+        "emptyPages": 1,
+        "avgCharsPerPage": 360,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 360,
+        "total_words": 60,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          360,
+          0,
+          0
+        ],
+        "chars_per_page_median": 360,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.45,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1534_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1534/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1534/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1534/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Charlottenburg, den 29. IX. 24.\nBerlinerstr. 147.\n\nLieber Herr Zweig!\n\nSicherlich kann ich es verstehen, daß Sie einmal von\nallem Schreibwerk unbeschallt sein wollen; ich denke\nSie werden auf diesen Brief erst nach Ihrer Rückkehr vor-\nfinden. Wenn Sie dann das Buch, das in diesen Tagen\nherauskommen wird, besprechen wollen – soll man\nes Ihnen direkt oder durch eine Ihnen nahestehende\nZeitung zuschicken? – so wird mir das nicht nur helfen,\nund Hilfe kann man in meinem schriftstellerischen Alter\nimmer gebrauchen, sondern mir auch aufrichtige Freude\nmachen. Alles was von Ihnen kommt ruft mich eigen-\ntümlich menschlich an und ich empfinde dies auch in\nihren kritischen Äußerungen als eine Besonderheit,\ndie ich bisher nur bei Ihnen gesehen habe: daß auch eine\ngliedernde, ja gliedernde Betrachtung bei aller Klar-\nheit und Präzision des Urteils doch so vollkommen von\nder ganz persönlichen, humanitären Gestaltung des",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, gut lesbar. Am linken Rand sind zwei kleine Löcher (evtl. von einer Heftung).",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "~~Menschen~~ Zweig hat bestimmt sein Recht. (Seine Werke hu-\nmanitär: doch ich mir für alle Mal um Verzeihung bitten für\ndie Wendungen, die dadurch verdächtig geworden sind, daß sich\n~~alle~~ auf Sie legen! Man kann nichts dafür, daß auch andere\nmit den Worten fahren, die einem heilig sind. Es gibt kein Teufel\nWort, nur Teufel Sätze,) Auch in Ihrem Aufsatz in dem\nneuen Insel-Almanach ist mir dies allzusehr so ganz be-\nsonderes aufgefallen, daß Ihre Betrachtungsweise ganz grund-\nlegend von allen andern, ich denke vor allem an die Gründel[?],\nuntercheidet. dort jene eigenwillige und geistige Überlegen-\nheit, die dem ganzen Stefan George-Streit bis zu einem\ngewissen Grade eignet, und die für mein Gefühl selbst auf\ndas Ganze einen so schweren Schatten wirft jene Unpf-\nbarbeit, die fast ist ~~und die ich habe ergeben und für-\n~~ und die doch letzten Endes unpfbar\nist, die alles betrifft und aus dem Kern des Menschlichen kommt.\nUnd hier auf einer andern Gesinnung heraus unmittelbar\ndas ~~Gedanken~~ [?] fühlend gesehen und damit doch auch rein\nvernunftmäßig viel wahrer und tiefer begründet: Überzeugung,\n~~und für sich~~ Auffassung, Abwägung der an und für\nsich starken und notwendigen Triebe und Leidenschaften.\ndiese Aufsatz erschien mir vertraut als die beste Gabe des Alma-\nnachs – Sie werden mir glauben daß ich das aus ehrliche\nFreude und ganz ohne jede Absicht sage –, während der",
+          "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist dunkel. Es gibt einige Durchstreichungen und Korrekturen im Text. Die Lesbarkeit ist an einigen Stellen durch die Korrekturen leicht erschwert.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "~~Menschen~~ Zweig hat bestimmt sein Recht. (Seine Werke hu-\nmanitär: doch ich mir für alle Mal um Verzeihung bitten für\ndie Wendungen, die dadurch verdächtig geworden sind, daß sich\n~~alle~~ auf Sie legen! Man kann nichts dafür, daß auch andere\nmit den Worten fahren, die einem heilig sind. Es gibt kein Teufel\nWort, nur Teufel Sätze,) Auch in Ihrem Aufsatz in dem\nneuen Insel-Almanach ist mir dies allzusehr so ganz be-\nsonderes aufgefallen, daß Ihre Betrachtungsweise ganz grund-\nlegend von allen andern, ich denke vor allem an die Gründel[?],\nuntercheidet. dort jene eigenwillige und geistige Überlegen-\nheit, die dem ganzen Stefan George-Streit bis zu einem\ngewissen Grade eignet, und die für mein Gefühl selbst auf\ndas Ganze einen so schweren Schatten wirft jene Unpf-\nbarbeit, die fast ist ~~und die ich habe ergeben und für-\n~~ und die doch letzten Endes unpfbar\nist, die alles betrifft und aus dem Kern des Menschlichen kommt.\nUnd hier auf einer andern Gesinnung heraus unmittelbar\ndas ~~Gedanken~~ [?] fühlend gesehen und damit doch auch rein\nvernunftmäßig viel wahrer und tiefer begründet: Überzeugung,\n~~und für sich~~ Auffassung, Abwägung der an und für\nsich starken und notwendigen Triebe und Leidenschaften.\ndiese Aufsatz erschien mir vertraut als die beste Gabe des Alma-\nnachs – Sie werden mir glauben daß ich das aus ehrliche\nFreude und ganz ohne jede Absicht sage –, während der",
+          "notes": "Dies ist ein Scan mit aufgelegten Farbskalen/Grauskalen zur Archivierung. Der Text ist identisch mit Seite 2.",
+          "type": "content"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist flüssig, aber durch zahlreiche Korrekturen, Durchstreichungen und teilweise eng geschriebene Wörter an einigen Stellen schwer zu entziffern. Einige Wörter sind aufgrund der Handschrift unsicher.",
+      "verification": {
+        "uncertainCount": 4,
+        "illegibleCount": 0,
+        "totalChars": 3714,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1238,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 3714,
+        "total_words": 595,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          920,
+          1397,
+          1397
+        ],
+        "chars_per_page_median": 1397,
+        "marker_uncertain_count": 4,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0067,
+        "dwr_score": 0.5051,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
           ]
         ],
         "language_expected": "de",
