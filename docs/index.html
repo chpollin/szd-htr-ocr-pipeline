@@ -37,6 +37,7 @@
   <nav class="site-header__nav">
     <a href="#" class="site-header__back" id="backBtn">&#8592; Katalog</a>
     <span class="site-header__catalog-nav">
+      <a href="#stats">Statistiken</a>
       <a href="#knowledge">Methodik</a>
       <a href="#about">Projekt</a>
       <a href="#help">Hilfe</a>
@@ -339,6 +340,15 @@
   </article>
 </main>
 
+<!-- ===== Stats View ===== -->
+<main id="stats" class="stats-page">
+  <div class="stats-page__header">
+    <h1 class="stats-page__title">Statistiken</h1>
+    <p class="stats-page__subtitle">Transkriptionsfortschritt und Qualitaetsmetriken.</p>
+  </div>
+  <div class="stats-page__grid" id="statsGrid"></div>
+</main>
+
 <!-- ===== Footer ===== -->
 <footer class="site-footer">
   <span>
@@ -354,6 +364,7 @@
 </footer>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="lib/chart.umd.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
