@@ -6,8 +6,7 @@
         "https://gams.uni-graz.at/o:szd.139/IMG.1",
         "https://gams.uni-graz.at/o:szd.139/IMG.2",
         "https://gams.uni-graz.at/o:szd.139/IMG.3",
-        "https://gams.uni-graz.at/o:szd.139/IMG.4",
-        "https://gams.uni-graz.at/o:szd.139/IMG.5"
+        "https://gams.uni-graz.at/o:szd.139/IMG.4"
       ],
       "pages": [
         {
@@ -33,12 +32,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Übersichtsaufnahme mit Farb- und Grauskala, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -47,7 +40,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 399,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 200,
         "vlmConfidence": "high"
       },
@@ -538,8 +531,7 @@
         "https://gams.uni-graz.at/o:szd.168/IMG.1",
         "https://gams.uni-graz.at/o:szd.168/IMG.2",
         "https://gams.uni-graz.at/o:szd.168/IMG.3",
-        "https://gams.uni-graz.at/o:szd.168/IMG.4",
-        "https://gams.uni-graz.at/o:szd.168/IMG.5"
+        "https://gams.uni-graz.at/o:szd.168/IMG.4"
       ],
       "pages": [
         {
@@ -565,12 +557,6 @@
           "transcription": "",
           "notes": "Leere Rückseite.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Leere Rückseite mit Farbskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -579,7 +565,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 519,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 260,
         "vlmConfidence": "high"
       },
@@ -832,8 +818,7 @@
       "images": [
         "https://gams.uni-graz.at/o:szd.176/IMG.1",
         "https://gams.uni-graz.at/o:szd.176/IMG.2",
-        "https://gams.uni-graz.at/o:szd.176/IMG.3",
-        "https://gams.uni-graz.at/o:szd.176/IMG.4"
+        "https://gams.uni-graz.at/o:szd.176/IMG.3"
       ],
       "pages": [
         {
@@ -853,12 +838,6 @@
           "transcription": "",
           "notes": "Seitenansicht des Siegelstempels, kein Text vorhanden.",
           "type": "blank"
-        },
-        {
-          "page": 4,
-          "transcription": "",
-          "notes": "Seitenansicht des Siegelstempels mit Farbskala, kein Text vorhanden.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -867,7 +846,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 4,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2,
         "vlmConfidence": "high"
       },
@@ -2412,8 +2391,7 @@
         "https://gams.uni-graz.at/o:szd.69/IMG.61",
         "https://gams.uni-graz.at/o:szd.69/IMG.62",
         "https://gams.uni-graz.at/o:szd.69/IMG.63",
-        "https://gams.uni-graz.at/o:szd.69/IMG.64",
-        "https://gams.uni-graz.at/o:szd.69/IMG.65"
+        "https://gams.uni-graz.at/o:szd.69/IMG.64"
       ],
       "pages": [
         {
@@ -2799,12 +2777,6 @@
           "transcription": "",
           "notes": "Rückseite des Einbands.",
           "type": "blank"
-        },
-        {
-          "page": 65,
-          "transcription": "",
-          "notes": "Rückseite des Einbands mit Farbskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -2813,7 +2785,7 @@
         "uncertainCount": 1463,
         "illegibleCount": 0,
         "totalChars": 40197,
-        "emptyPages": 6,
+        "emptyPages": 5,
         "avgCharsPerPage": 681,
         "vlmConfidence": "medium"
       },
@@ -3013,10 +2985,7 @@
         "https://gams.uni-graz.at/o:szd.71/IMG.48",
         "https://gams.uni-graz.at/o:szd.71/IMG.49",
         "https://gams.uni-graz.at/o:szd.71/IMG.50",
-        "https://gams.uni-graz.at/o:szd.71/IMG.51",
-        "https://gams.uni-graz.at/o:szd.71/IMG.52",
-        "https://gams.uni-graz.at/o:szd.71/IMG.53",
-        "https://gams.uni-graz.at/o:szd.71/IMG.54"
+        "https://gams.uni-graz.at/o:szd.71/IMG.51"
       ],
       "pages": [
         {
@@ -3324,24 +3293,6 @@
           "transcription": "",
           "notes": "Leere Seite.",
           "type": "blank"
-        },
-        {
-          "page": 52,
-          "transcription": "",
-          "notes": "Farbskala für Archivierung.",
-          "type": "color_chart"
-        },
-        {
-          "page": 53,
-          "transcription": "",
-          "notes": "Grauskala für Archivierung.",
-          "type": "color_chart"
-        },
-        {
-          "page": 54,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -3350,7 +3301,7 @@
         "uncertainCount": 234,
         "illegibleCount": 0,
         "totalChars": 36400,
-        "emptyPages": 10,
+        "emptyPages": 7,
         "avgCharsPerPage": 827,
         "vlmConfidence": "medium"
       },
@@ -3489,8 +3440,7 @@
         "https://gams.uni-graz.at/o:szd.72/IMG.35",
         "https://gams.uni-graz.at/o:szd.72/IMG.36",
         "https://gams.uni-graz.at/o:szd.72/IMG.37",
-        "https://gams.uni-graz.at/o:szd.72/IMG.38",
-        "https://gams.uni-graz.at/o:szd.72/IMG.39"
+        "https://gams.uni-graz.at/o:szd.72/IMG.38"
       ],
       "pages": [
         {
@@ -3720,12 +3670,6 @@
           "transcription": "Dienstag 12. Man erfährt alles erst allmählich. In der\nStadt ist geschossen worden. Der Streik wächst über das gan-\nze Land. Freilich für die Gegenströmung stark. Es sind zu-\nviel kleine Besitzende, die sind der stärkste Wall gegen den\nUmsturz. Der kleine Rentier ist noch härter, noch zäher als der\nGrosse: der klammert sich an. Und die Arbeiter wieder für selbs,\nkleine Bürger, sonntäglich selbst am Vormittag. Sie wollen eigent-\nlich nur Recht, denn sonst haben sie fast gar nichts mehr zu\nfordern. Der Tag wird lang ohne Nachrichten. Und gar echt.\nMittwoch 13. Hie und da eine Kleinigkeit, die man erfährt, der\nWaffenstillstand abgeschlossen, Victor Adler gestorben, der Kai-\nser Karl demissioniert ~ früher wäre man kopfgestanden. Jetzt\nist man nur müde. Es war schon so viel vorher und es kommt\nnoch so viel nach. Man kann einfach nicht mehr. Und wenig-\nstens ich verbrauche die Hälfte meiner geistigen Kraft in den grau-\nhaften Visionen dieser kommenden Umstürze, wo der Hass der\nClassen, der Stände, riesengross diese Welt erfüllen wird.",
           "notes": "Handschrift, violette Tinte.",
           "type": "content"
-        },
-        {
-          "page": 39,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -3734,7 +3678,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 48727,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 1282,
         "vlmConfidence": "high"
       },
@@ -5255,8 +5199,7 @@
         "https://gams.uni-graz.at/o:szd.74/IMG.41",
         "https://gams.uni-graz.at/o:szd.74/IMG.42",
         "https://gams.uni-graz.at/o:szd.74/IMG.43",
-        "https://gams.uni-graz.at/o:szd.74/IMG.44",
-        "https://gams.uni-graz.at/o:szd.74/IMG.45"
+        "https://gams.uni-graz.at/o:szd.74/IMG.44"
       ],
       "pages": [
         {
@@ -5522,12 +5465,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 45,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -5536,7 +5473,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 30448,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 708,
         "vlmConfidence": "high"
       },
@@ -5763,8 +5700,7 @@
         "https://gams.uni-graz.at/o:szd.75/IMG.147",
         "https://gams.uni-graz.at/o:szd.75/IMG.148",
         "https://gams.uni-graz.at/o:szd.75/IMG.149",
-        "https://gams.uni-graz.at/o:szd.75/IMG.150",
-        "https://gams.uni-graz.at/o:szd.75/IMG.151"
+        "https://gams.uni-graz.at/o:szd.75/IMG.150"
       ],
       "pages": [
         {
@@ -6666,12 +6602,6 @@
           "transcription": "",
           "notes": "Rückseite des Einbands.",
           "type": "blank"
-        },
-        {
-          "page": 151,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -6680,7 +6610,7 @@
         "uncertainCount": 519,
         "illegibleCount": 0,
         "totalChars": 114002,
-        "emptyPages": 103,
+        "emptyPages": 102,
         "avgCharsPerPage": 2375,
         "vlmConfidence": "medium"
       },
@@ -6952,8 +6882,7 @@
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.100/IMG.1",
-        "https://gams.uni-graz.at/o:szd.100/IMG.2",
-        "https://gams.uni-graz.at/o:szd.100/IMG.3"
+        "https://gams.uni-graz.at/o:szd.100/IMG.2"
       ],
       "pages": [
         {
@@ -6967,12 +6896,6 @@
           "transcription": "",
           "notes": "Das Bild zeigt lediglich die Rückseite des Dokuments (Durchschlag-Effekt), kein neuer Text.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Das Bild zeigt lediglich die Rückseite des Dokuments mit Farb- und Graukarte, kein neuer Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -6981,7 +6904,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2057,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2057,
         "vlmConfidence": "high"
       },
@@ -7497,8 +7420,7 @@
       "id": "o_szd.103_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.103/IMG.1",
-        "https://gams.uni-graz.at/o:szd.103/IMG.2",
-        "https://gams.uni-graz.at/o:szd.103/IMG.3"
+        "https://gams.uni-graz.at/o:szd.103/IMG.2"
       ],
       "pages": [
         {
@@ -7512,12 +7434,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -7526,7 +7442,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1350,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1350,
         "vlmConfidence": "high"
       },
@@ -7563,8 +7479,7 @@
       "id": "o_szd.104_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.104/IMG.1",
-        "https://gams.uni-graz.at/o:szd.104/IMG.2",
-        "https://gams.uni-graz.at/o:szd.104/IMG.3"
+        "https://gams.uni-graz.at/o:szd.104/IMG.2"
       ],
       "pages": [
         {
@@ -7578,12 +7493,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Beschriftung.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, keine Beschriftung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -7592,7 +7501,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 987,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 987,
         "vlmConfidence": "high"
       },
@@ -7777,8 +7686,7 @@
       "id": "o_szd.107_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.107/IMG.1",
-        "https://gams.uni-graz.at/o:szd.107/IMG.2",
-        "https://gams.uni-graz.at/o:szd.107/IMG.3"
+        "https://gams.uni-graz.at/o:szd.107/IMG.2"
       ],
       "pages": [
         {
@@ -7792,12 +7700,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Beschriftung.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Grauskala, keine Beschriftung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -7806,7 +7708,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1439,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1439,
         "vlmConfidence": "high"
       },
@@ -7843,8 +7745,7 @@
       "id": "o_szd.108_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.108/IMG.1",
-        "https://gams.uni-graz.at/o:szd.108/IMG.2",
-        "https://gams.uni-graz.at/o:szd.108/IMG.3"
+        "https://gams.uni-graz.at/o:szd.108/IMG.2"
       ],
       "pages": [
         {
@@ -7858,12 +7759,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farbskala/Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -7872,7 +7767,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 2392,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2392,
         "vlmConfidence": "high"
       },
@@ -7909,8 +7804,7 @@
       "id": "o_szd.109_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.109/IMG.1",
-        "https://gams.uni-graz.at/o:szd.109/IMG.2",
-        "https://gams.uni-graz.at/o:szd.109/IMG.3"
+        "https://gams.uni-graz.at/o:szd.109/IMG.2"
       ],
       "pages": [
         {
@@ -7924,12 +7818,6 @@
           "transcription": "",
           "notes": "Rückseite des ersten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des ersten Blattes mit Farbskala und Graustufen-Referenz.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -7938,7 +7826,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2814,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2814,
         "vlmConfidence": "high"
       },
@@ -7975,8 +7863,7 @@
       "id": "o_szd.110_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.110/IMG.1",
-        "https://gams.uni-graz.at/o:szd.110/IMG.2",
-        "https://gams.uni-graz.at/o:szd.110/IMG.3"
+        "https://gams.uni-graz.at/o:szd.110/IMG.2"
       ],
       "pages": [
         {
@@ -7990,12 +7877,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farbskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8004,7 +7885,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2295,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2295,
         "vlmConfidence": "high"
       },
@@ -8041,8 +7922,7 @@
       "id": "o_szd.111_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.111/IMG.1",
-        "https://gams.uni-graz.at/o:szd.111/IMG.2",
-        "https://gams.uni-graz.at/o:szd.111/IMG.3"
+        "https://gams.uni-graz.at/o:szd.111/IMG.2"
       ],
       "pages": [
         {
@@ -8056,12 +7936,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farb- und Grauskala, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8070,7 +7944,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 693,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 693,
         "vlmConfidence": "high"
       },
@@ -8107,8 +7981,7 @@
       "id": "o_szd.112_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.112/IMG.1",
-        "https://gams.uni-graz.at/o:szd.112/IMG.2",
-        "https://gams.uni-graz.at/o:szd.112/IMG.3"
+        "https://gams.uni-graz.at/o:szd.112/IMG.2"
       ],
       "pages": [
         {
@@ -8122,12 +7995,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Kalibrierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8136,7 +8003,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1091,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1091,
         "vlmConfidence": "high"
       },
@@ -8173,8 +8040,7 @@
       "id": "o_szd.113_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.113/IMG.1",
-        "https://gams.uni-graz.at/o:szd.113/IMG.2",
-        "https://gams.uni-graz.at/o:szd.113/IMG.3"
+        "https://gams.uni-graz.at/o:szd.113/IMG.2"
       ],
       "pages": [
         {
@@ -8188,12 +8054,6 @@
           "transcription": "",
           "notes": "Leeres Blatt.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Grauskala (Archiv-Scan).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8202,7 +8062,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1479,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1479,
         "vlmConfidence": "high"
       },
@@ -8241,8 +8101,7 @@
         "https://gams.uni-graz.at/o:szd.114/IMG.1",
         "https://gams.uni-graz.at/o:szd.114/IMG.2",
         "https://gams.uni-graz.at/o:szd.114/IMG.3",
-        "https://gams.uni-graz.at/o:szd.114/IMG.4",
-        "https://gams.uni-graz.at/o:szd.114/IMG.5"
+        "https://gams.uni-graz.at/o:szd.114/IMG.4"
       ],
       "pages": [
         {
@@ -8268,12 +8127,6 @@
           "transcription": "",
           "notes": "Leere Seite (Rückseite von Blatt 2).",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbkarte/Grauskala-Referenzblatt.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8282,7 +8135,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 6805,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 3402,
         "vlmConfidence": "high"
       },
@@ -8321,8 +8174,7 @@
       "id": "o_szd.115_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.115/IMG.1",
-        "https://gams.uni-graz.at/o:szd.115/IMG.2",
-        "https://gams.uni-graz.at/o:szd.115/IMG.3"
+        "https://gams.uni-graz.at/o:szd.115/IMG.2"
       ],
       "pages": [
         {
@@ -8336,12 +8188,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer (bzw. Durchschlag-Rückseite).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Grauskala, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8350,7 +8196,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2220,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2220,
         "vlmConfidence": "high"
       },
@@ -8387,8 +8233,7 @@
       "id": "o_szd.116_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.116/IMG.1",
-        "https://gams.uni-graz.at/o:szd.116/IMG.2",
-        "https://gams.uni-graz.at/o:szd.116/IMG.3"
+        "https://gams.uni-graz.at/o:szd.116/IMG.2"
       ],
       "pages": [
         {
@@ -8402,12 +8247,6 @@
           "transcription": "",
           "notes": "Die Seite zeigt das Dokument als Durchschlag/Rückseite, der Text ist aufgrund der Transparenz des Papiers nur schemenhaft und spiegelverkehrt erkennbar. Keine eigenständige Transkription möglich.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Die Seite zeigt das Dokument mit einer Farb- und Grauskala zur Kalibrierung. Keine Transkription möglich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8416,7 +8255,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1380,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1380,
         "vlmConfidence": "high"
       },
@@ -8554,8 +8393,7 @@
       "id": "o_szd.118_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.118/IMG.1",
-        "https://gams.uni-graz.at/o:szd.118/IMG.2",
-        "https://gams.uni-graz.at/o:szd.118/IMG.3"
+        "https://gams.uni-graz.at/o:szd.118/IMG.2"
       ],
       "pages": [
         {
@@ -8569,12 +8407,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8583,7 +8415,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1078,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1078,
         "vlmConfidence": "high"
       },
@@ -8620,8 +8452,7 @@
       "id": "o_szd.119_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.119/IMG.1",
-        "https://gams.uni-graz.at/o:szd.119/IMG.2",
-        "https://gams.uni-graz.at/o:szd.119/IMG.3"
+        "https://gams.uni-graz.at/o:szd.119/IMG.2"
       ],
       "pages": [
         {
@@ -8635,12 +8466,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Schrift erkennbar.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbkarte/Grauskala, keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8649,7 +8474,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1249,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1249,
         "vlmConfidence": "high"
       },
@@ -8686,8 +8511,7 @@
       "id": "o_szd.120_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.120/IMG.1",
-        "https://gams.uni-graz.at/o:szd.120/IMG.2",
-        "https://gams.uni-graz.at/o:szd.120/IMG.3"
+        "https://gams.uni-graz.at/o:szd.120/IMG.2"
       ],
       "pages": [
         {
@@ -8701,12 +8525,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8715,7 +8533,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1300,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1300,
         "vlmConfidence": "high"
       },
@@ -8793,8 +8611,7 @@
       "id": "o_szd.122_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.122/IMG.1",
-        "https://gams.uni-graz.at/o:szd.122/IMG.2",
-        "https://gams.uni-graz.at/o:szd.122/IMG.3"
+        "https://gams.uni-graz.at/o:szd.122/IMG.2"
       ],
       "pages": [
         {
@@ -8808,12 +8625,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer (Durchschlag-Abdruck schwach sichtbar).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farbskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8822,7 +8633,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1281,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1281,
         "vlmConfidence": "high"
       },
@@ -8859,8 +8670,7 @@
       "id": "o_szd.123_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.123/IMG.1",
-        "https://gams.uni-graz.at/o:szd.123/IMG.2",
-        "https://gams.uni-graz.at/o:szd.123/IMG.3"
+        "https://gams.uni-graz.at/o:szd.123/IMG.2"
       ],
       "pages": [
         {
@@ -8874,12 +8684,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8888,7 +8692,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 860,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 860,
         "vlmConfidence": "high"
       },
@@ -8925,8 +8729,7 @@
       "id": "o_szd.124_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.124/IMG.1",
-        "https://gams.uni-graz.at/o:szd.124/IMG.2",
-        "https://gams.uni-graz.at/o:szd.124/IMG.3"
+        "https://gams.uni-graz.at/o:szd.124/IMG.2"
       ],
       "pages": [
         {
@@ -8940,12 +8743,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Schrift erkennbar (Durchschlag-Abdruck).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Graustufenkarte, keine Schrift.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -8954,7 +8751,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 868,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 868,
         "vlmConfidence": "high"
       },
@@ -8991,8 +8788,7 @@
       "id": "o_szd.125_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.125/IMG.1",
-        "https://gams.uni-graz.at/o:szd.125/IMG.2",
-        "https://gams.uni-graz.at/o:szd.125/IMG.3"
+        "https://gams.uni-graz.at/o:szd.125/IMG.2"
       ],
       "pages": [
         {
@@ -9006,12 +8802,6 @@
           "transcription": "",
           "notes": "Leeres Blatt.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Graukarte zur Kalibrierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9020,7 +8810,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1108,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1108,
         "vlmConfidence": "high"
       },
@@ -9057,8 +8847,7 @@
       "id": "o_szd.126_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.126/IMG.1",
-        "https://gams.uni-graz.at/o:szd.126/IMG.2",
-        "https://gams.uni-graz.at/o:szd.126/IMG.3"
+        "https://gams.uni-graz.at/o:szd.126/IMG.2"
       ],
       "pages": [
         {
@@ -9072,12 +8861,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Graukarte, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9086,7 +8869,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1061,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1061,
         "vlmConfidence": "high"
       },
@@ -9123,8 +8906,7 @@
       "id": "o_szd.128_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.128/IMG.1",
-        "https://gams.uni-graz.at/o:szd.128/IMG.2",
-        "https://gams.uni-graz.at/o:szd.128/IMG.3"
+        "https://gams.uni-graz.at/o:szd.128/IMG.2"
       ],
       "pages": [
         {
@@ -9138,12 +8920,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala-Referenzkarten.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9152,7 +8928,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 975,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 975,
         "vlmConfidence": "high"
       },
@@ -9189,8 +8965,7 @@
       "id": "o_szd.129_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.129/IMG.1",
-        "https://gams.uni-graz.at/o:szd.129/IMG.2",
-        "https://gams.uni-graz.at/o:szd.129/IMG.3"
+        "https://gams.uni-graz.at/o:szd.129/IMG.2"
       ],
       "pages": [
         {
@@ -9204,12 +8979,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, zeigt lediglich den durchscheinenden Text der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, zeigt lediglich den durchscheinenden Text der Vorderseite.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9218,7 +8987,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1261,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1261,
         "vlmConfidence": "high"
       },
@@ -9255,8 +9024,7 @@
       "id": "o_szd.130_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.130/IMG.1",
-        "https://gams.uni-graz.at/o:szd.130/IMG.2",
-        "https://gams.uni-graz.at/o:szd.130/IMG.3"
+        "https://gams.uni-graz.at/o:szd.130/IMG.2"
       ],
       "pages": [
         {
@@ -9270,12 +9038,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Beschriftung (Durchschlag-Abdruck).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farbskala und Graustufen-Referenzkarte, keine weitere Beschriftung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9284,7 +9046,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 779,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 779,
         "vlmConfidence": "high"
       },
@@ -9402,8 +9164,7 @@
       "id": "o_szd.132_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.132/IMG.1",
-        "https://gams.uni-graz.at/o:szd.132/IMG.2",
-        "https://gams.uni-graz.at/o:szd.132/IMG.3"
+        "https://gams.uni-graz.at/o:szd.132/IMG.2"
       ],
       "pages": [
         {
@@ -9417,12 +9178,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Transkription erforderlich.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Graustufenkarte, keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9431,7 +9186,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 938,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 938,
         "vlmConfidence": "high"
       },
@@ -9468,8 +9223,7 @@
       "id": "o_szd.133_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.133/IMG.1",
-        "https://gams.uni-graz.at/o:szd.133/IMG.2",
-        "https://gams.uni-graz.at/o:szd.133/IMG.3"
+        "https://gams.uni-graz.at/o:szd.133/IMG.2"
       ],
       "pages": [
         {
@@ -9483,12 +9237,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (durchscheinender Text von Seite 1).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite mit Farb- und Grauskala, keine historischen Textinhalte.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9497,7 +9245,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 663,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 663,
         "vlmConfidence": "high"
       },
@@ -9534,8 +9282,7 @@
       "id": "o_szd.134_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.134/IMG.1",
-        "https://gams.uni-graz.at/o:szd.134/IMG.2",
-        "https://gams.uni-graz.at/o:szd.134/IMG.3"
+        "https://gams.uni-graz.at/o:szd.134/IMG.2"
       ],
       "pages": [
         {
@@ -9549,12 +9296,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9563,7 +9304,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2715,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2715,
         "vlmConfidence": "high"
       },
@@ -9600,8 +9341,7 @@
       "id": "o_szd.135_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.135/IMG.1",
-        "https://gams.uni-graz.at/o:szd.135/IMG.2",
-        "https://gams.uni-graz.at/o:szd.135/IMG.3"
+        "https://gams.uni-graz.at/o:szd.135/IMG.2"
       ],
       "pages": [
         {
@@ -9615,12 +9355,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbkarte/Grauskala zur Dokumentation, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9629,7 +9363,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2033,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2033,
         "vlmConfidence": "high"
       },
@@ -9666,8 +9400,7 @@
       "id": "o_szd.136_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.136/IMG.1",
-        "https://gams.uni-graz.at/o:szd.136/IMG.2",
-        "https://gams.uni-graz.at/o:szd.136/IMG.3"
+        "https://gams.uni-graz.at/o:szd.136/IMG.2"
       ],
       "pages": [
         {
@@ -9681,12 +9414,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9695,7 +9422,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1975,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1975,
         "vlmConfidence": "high"
       },
@@ -9876,8 +9603,7 @@
         "https://gams.uni-graz.at/o:szd.140/IMG.143",
         "https://gams.uni-graz.at/o:szd.140/IMG.144",
         "https://gams.uni-graz.at/o:szd.140/IMG.145",
-        "https://gams.uni-graz.at/o:szd.140/IMG.146",
-        "https://gams.uni-graz.at/o:szd.140/IMG.147"
+        "https://gams.uni-graz.at/o:szd.140/IMG.146"
       ],
       "pages": [
         {
@@ -10755,12 +10481,6 @@
           "transcription": "",
           "notes": "Blauer Umschlag, Rückseite.",
           "type": "blank"
-        },
-        {
-          "page": 147,
-          "transcription": "",
-          "notes": "Blauer Umschlag mit Farbkarte und Grauskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -10769,7 +10489,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 25945,
-        "emptyPages": 74,
+        "emptyPages": 73,
         "avgCharsPerPage": 355,
         "vlmConfidence": "high"
       },
@@ -11259,8 +10979,7 @@
       "id": "o_szd.78_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.78/IMG.1",
-        "https://gams.uni-graz.at/o:szd.78/IMG.2",
-        "https://gams.uni-graz.at/o:szd.78/IMG.3"
+        "https://gams.uni-graz.at/o:szd.78/IMG.2"
       ],
       "pages": [
         {
@@ -11274,12 +10993,6 @@
           "transcription": "~~partagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes~~\n~~mandat général de traiter, au mieux de l'intérêt commun des parties.~~\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les éditions\nBERNARD GRASSET.\n\nIX. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\n\nX. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il était prouvé par M onsieur Stefan ZWEIG\nque le sinistre est la conséquence de la faute de l'éditeur. Dans le cas contraire,\nil ne sera dû aucun droit d'auteur sur les exemplaires détériorés ou détruits et le\nmontant de ces exemplaires viendra en déduction du montant total des exemplaires\ndont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assume\naucune responsabilité de ce fait.\n\nXI. — Les éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux éditions BERNARD GRASSET.\n\n~~XXXXXXXXXXXXXXXX~~\nFait double à Paris le\nXII. — En ce qui concerne la publication anté-\nrieure en revues ou périodiques, l'auteur s'engage\nà ne traiter qu'avec accord avec l'éditeur et les\nsommes à provenir seront partagées par moitié entre\neux.\n\nFait double à PARIS, le Premier\nFévrier, mil neuf cent trente deux.\n\nLu et approuvé\n[Unterschrift Bernard Grasset] \n\nLu et approuvé\nStefan Zweig",
           "notes": "Typoskript. Die ersten zwei Zeilen sind durchgestrichen. Handschriftliche Unterschriften am Ende.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung, überlagert den Text von Seite 2.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11288,7 +11001,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 4360,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 2180,
         "vlmConfidence": "high"
       },
@@ -11325,8 +11038,7 @@
       "id": "o_szd.79_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.79/IMG.1",
-        "https://gams.uni-graz.at/o:szd.79/IMG.2",
-        "https://gams.uni-graz.at/o:szd.79/IMG.3"
+        "https://gams.uni-graz.at/o:szd.79/IMG.2"
       ],
       "pages": [
         {
@@ -11340,12 +11052,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11354,7 +11060,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1512,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1512,
         "vlmConfidence": "high"
       },
@@ -11395,8 +11101,7 @@
         "https://gams.uni-graz.at/o:szd.80/IMG.1",
         "https://gams.uni-graz.at/o:szd.80/IMG.2",
         "https://gams.uni-graz.at/o:szd.80/IMG.3",
-        "https://gams.uni-graz.at/o:szd.80/IMG.4",
-        "https://gams.uni-graz.at/o:szd.80/IMG.5"
+        "https://gams.uni-graz.at/o:szd.80/IMG.4"
       ],
       "pages": [
         {
@@ -11422,12 +11127,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11436,7 +11135,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3295,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 1648,
         "vlmConfidence": "high"
       },
@@ -11475,8 +11174,7 @@
       "id": "o_szd.81_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.81/IMG.1",
-        "https://gams.uni-graz.at/o:szd.81/IMG.2",
-        "https://gams.uni-graz.at/o:szd.81/IMG.3"
+        "https://gams.uni-graz.at/o:szd.81/IMG.2"
       ],
       "pages": [
         {
@@ -11490,12 +11188,6 @@
           "transcription": "                                      VII.\nBei Streitigkeiten, die sich aus dem Vertrag ergeben\nkönnten, unterwerfen sich beide Parteien einem in Amsterdam\ntagenden Schiedsgericht von drei Personen. Jede Partei\nbestellt einen Vertrauensmann. Beide Vertrauensleute haben\nsich über die Wahl eines dritten zu einigen. Ist innerhalb eines\nMonats, nachdem eine der beiden Parteien den Streit verkündet\nhat, das Schiedsgericht noch nicht zusammengetreten, ist das\nordentliche Gericht in Amsterdam zuständig.\n\nAmsterdam, den 13. Oktober 1939\n\n                                     QUERIDO VERLAG NV, Amsterdam\n                                     [Unterschrift]\nBERMANN-FISCHER-VERLAG\nStockholm\n[Unterschrift]\n                                     ALLERT DE LANGE Verlag\n                                     Amsterdam\n                                     [Unterschrift]\n\n                                     Stefan Zweig London 27. oct. 1939",
           "notes": "Typoskript mit handschriftlichen Unterschriften und Datumsangabe.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11504,7 +11196,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3184,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 1592,
         "vlmConfidence": "high"
       },
@@ -11543,8 +11235,7 @@
         "https://gams.uni-graz.at/o:szd.82/IMG.1",
         "https://gams.uni-graz.at/o:szd.82/IMG.2",
         "https://gams.uni-graz.at/o:szd.82/IMG.3",
-        "https://gams.uni-graz.at/o:szd.82/IMG.4",
-        "https://gams.uni-graz.at/o:szd.82/IMG.5"
+        "https://gams.uni-graz.at/o:szd.82/IMG.4"
       ],
       "pages": [
         {
@@ -11570,12 +11261,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11584,7 +11269,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3769,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 1884,
         "vlmConfidence": "high"
       },
@@ -11627,8 +11312,7 @@
         "https://gams.uni-graz.at/o:szd.83/IMG.3",
         "https://gams.uni-graz.at/o:szd.83/IMG.4",
         "https://gams.uni-graz.at/o:szd.83/IMG.5",
-        "https://gams.uni-graz.at/o:szd.83/IMG.6",
-        "https://gams.uni-graz.at/o:szd.83/IMG.7"
+        "https://gams.uni-graz.at/o:szd.83/IMG.6"
       ],
       "pages": [
         {
@@ -11666,12 +11350,6 @@
           "transcription": "",
           "notes": "Leeres Blatt, vermutlich Schutzblatt oder Rückseite.",
           "type": "blank"
-        },
-        {
-          "page": 7,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11680,7 +11358,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 4594,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 1531,
         "vlmConfidence": "high"
       },
@@ -11721,8 +11399,7 @@
       "id": "o_szd.84_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.84/IMG.1",
-        "https://gams.uni-graz.at/o:szd.84/IMG.2",
-        "https://gams.uni-graz.at/o:szd.84/IMG.3"
+        "https://gams.uni-graz.at/o:szd.84/IMG.2"
       ],
       "pages": [
         {
@@ -11736,12 +11413,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11750,7 +11421,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1289,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1289,
         "vlmConfidence": "high"
       },
@@ -11789,8 +11460,7 @@
         "https://gams.uni-graz.at/o:szd.85/IMG.1",
         "https://gams.uni-graz.at/o:szd.85/IMG.2",
         "https://gams.uni-graz.at/o:szd.85/IMG.3",
-        "https://gams.uni-graz.at/o:szd.85/IMG.4",
-        "https://gams.uni-graz.at/o:szd.85/IMG.5"
+        "https://gams.uni-graz.at/o:szd.85/IMG.4"
       ],
       "pages": [
         {
@@ -11816,12 +11486,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11830,7 +11494,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1368,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 1368,
         "vlmConfidence": "high"
       },
@@ -11869,8 +11533,7 @@
       "id": "o_szd.86_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.86/IMG.1",
-        "https://gams.uni-graz.at/o:szd.86/IMG.2",
-        "https://gams.uni-graz.at/o:szd.86/IMG.3"
+        "https://gams.uni-graz.at/o:szd.86/IMG.2"
       ],
       "pages": [
         {
@@ -11884,12 +11547,6 @@
           "transcription": "sent traité deviendrait nul, et M. Stefan ZWEIG\nreprendrait tous ses droits.\nART. 7. - Si après épuisement de l'ouvrage, MM.\nF. RIEDER & C° n'ont pas décidé de faire une réim-\npression dans un délai de quatre ans, M; Stefan\nZWEIG reprendrait la libre disposition de ses\ndroits.\n\nFait en double exemplaire.\nA PARIS, le 6 Mars 1925.\npour F. RIEDER & C°, deux des Gérants :\n\nSalzburg 13. Mars 1925  lus approuvé  Lu et approuvé\n                        Rieder A. Chomier[?]",
           "notes": "Typoskript auf dünnem Papier (Durchschlag). Handschriftliche Ergänzungen in violetter Tinte (Ort/Datum) und schwarzer Tinte (Unterschriften/Vermerke).",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierungszwecke. Kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11898,7 +11555,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 2978,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 1489,
         "vlmConfidence": "high"
       },
@@ -11935,8 +11592,7 @@
       "id": "o_szd.87_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.87/IMG.1",
-        "https://gams.uni-graz.at/o:szd.87/IMG.2",
-        "https://gams.uni-graz.at/o:szd.87/IMG.3"
+        "https://gams.uni-graz.at/o:szd.87/IMG.2"
       ],
       "pages": [
         {
@@ -11950,12 +11606,6 @@
           "transcription": "VII. — Les sommes que pourrait produire la cession des droits de traduc-\ntion, de reproduction et d'adaptation théâtrale, cinématographique sous toutes ses\nformes, ou autres adaptations de l'ouvrage faisant l'objet du présent traité, seront\npartagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes\nmandat général de traiter, au mieux de l'intérêt commun des parties.\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les Éditions\nBERNARD GRASSET.\nIX. — En ce qui concerne la publication antérieure en revue ou en pério-\ndique, l'auteur s'engage à ne traiter qu'après accord avec l'éditeur et les sommes\nà provenir seraient partagées par moitié entre l'auteur et l'éditeur.\nX. — L'éditeur se réserve au moment de la remise par l'auteur du texte\ncomplet du manuscrit, de demander à celui-ci les corrections qui lui paraîtraient\nconvenables (par exemple celles relatives à des passages mettant en cause des\ntiers) sans qu'il puisse s'y refuser ni en discuter les raisons.\nSi l'auteur ne croyait pas devoir exécuter les corrections demandées, il\nlui serait loisible de considérer le présent contrat comme résilié, sans indemnité\nde part et d'autre et de son côté l'éditeur jouirait du même droit de résiliation,\nsans indemnité également de part et d'autre.\nXI. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\nXII. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il était prouvé par Monsieur Stefan ZWEIG\nque le sinistre est la conséquence de la faute de l'éditeur. Dans le cas contraire,\nil ne sera dû aucun droit d'auteur sur les exemplaires détériorés ou détruits et le\nmontant de ces exemplaires viendra en déduction du montant total des exemplaires\ndont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assumer\naucune responsabilité de ce fait.\nXIII. — Les Éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux Éditions BERNARD GRASSET.\nXIV. — Les droits de reproduction concernant les\npublications antérieures en revues ou en périodiques, de\nmeurent la propriété de Monsieur Stefan Zweig. Toutefoi\nau cas ou l'initiative de la reproduction appartiendrait\naux Editions Grasset, après accord de l'auteur, il leur\nserait réservé une commission de DIX pour CENT sur le\nmontant des sommes versées par la Revue, le périodique\nou le journal.\n\nFait en double à PARIS, le TROIS décembre MIL\nNEUF CENT TRENTE QUATRE\n\nlu et approuve\n[Unterschrift] Stefan Zweig",
           "notes": "Typoskript mit handschriftlichen Ergänzungen (Unterschriften). Die Seite enthält am Ende die eigenhändige Unterschrift von Stefan Zweig.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierungszwecke. Überlagert den unteren Teil des Dokuments (identisch mit Seite 2).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -11964,7 +11614,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 5309,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 2654,
         "vlmConfidence": "high"
       },
@@ -12001,8 +11651,7 @@
       "id": "o_szd.88_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.88/IMG.1",
-        "https://gams.uni-graz.at/o:szd.88/IMG.2",
-        "https://gams.uni-graz.at/o:szd.88/IMG.3"
+        "https://gams.uni-graz.at/o:szd.88/IMG.2"
       ],
       "pages": [
         {
@@ -12016,12 +11665,6 @@
           "transcription": "VII. — Les sommes que pourrait produire la cession des droits de traduc-\ntion et de reproduction, des droits d'adaptation théâtrale et d'adaptation cinéma-\ntographique sous toutes leurs formes, de tous droits de représentation et d'exécution,\net en général de tous droits d'adaptation sous une forme quelconque de l'ouvrage\nfaisant l'objet du présent traité, seront partagées par moitié entre l'auteur et\nl'éditeur. L'éditeur reçoit par les présentes mandat général de traiter, au mieux\nde l'intérêt commun des parties.\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe et à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur\net les sommes à provenir seraient partagées par moitié entre l'auteur et les\nÉditions BERNARD GRASSET.\nIX. — En ce qui concerne la publication antérieure en revue ou en pério-\ndique, l'auteur s'engage à ne traiter qu'après accord avec l'éditeur et les sommes\nà provenir seront partagées par moitié entre l'auteur et l'éditeur.\nX. — L'éditeur se réserve, au moment de la remise du texte complet\ndu manuscrit, de demander à l'auteur les corrections qui lui paraîtraient nécessaires\n(par exemple celles relatives à des passages mettant en cause des tiers) sans que\nl'auteur puisse s'y refuser ni en discuter les raisons.\nSi l'auteur ne croyait pas devoir exécuter les corrections demandées, il\nlui serait loisible de considérer le présent contrat comme résilié, sans indemnité\nde part et d'autre et de son côté l'éditeur jouirait du même droit de résiliation,\nsans indemnité également de part et d'autre.\nXI. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\nXII. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il est prouvé par l'auteur que le sinistre est la conséquence de la faute de\nl'éditeur. Dans le cas contraire, il ne sera dû aucun droit d'auteur sur les exem-\nplaires détériorés ou détruits et le montant de ces exemplaires viendra en déduc-\ntion du montant total des exemplaires dont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assumer\naucune responsabilité de ce fait.\nXIII. — Les Éditions BERNARD GRASSET se réservent la faculté de\nproposer à l'auteur, trois ans après la publication de l'ouvrage faisant l'objet du\nprésent traité, de reprendre les exemplaires restant en magasin pour une somme\nforfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, les\nÉditions BERNARD GRASSET auront le droit de les pilonner ou de les solder à\nleur seul bénéfice.\n\nFait double à Paris, le quinze Décembre 1936\n\nLu et approuvé\n[Unterschrift] Stefan Zweig",
           "notes": "Typoskript. Unten links handschriftliche Notiz 'Lu et approuvé' mit Unterschrift (Stefan Zweig) und einer weiteren, unleserlichen Unterschrift.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung. Überlagert den Text der Seite 2.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12030,7 +11673,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 5054,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 2527,
         "vlmConfidence": "high"
       },
@@ -12067,8 +11710,7 @@
       "id": "o_szd.89_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.89/IMG.1",
-        "https://gams.uni-graz.at/o:szd.89/IMG.2",
-        "https://gams.uni-graz.at/o:szd.89/IMG.3"
+        "https://gams.uni-graz.at/o:szd.89/IMG.2"
       ],
       "pages": [
         {
@@ -12082,12 +11724,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12096,7 +11732,7 @@
         "uncertainCount": 3,
         "illegibleCount": 0,
         "totalChars": 2006,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2006,
         "vlmConfidence": "high"
       },
@@ -12133,8 +11769,7 @@
       "id": "o_szd.90_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.90/IMG.1",
-        "https://gams.uni-graz.at/o:szd.90/IMG.2",
-        "https://gams.uni-graz.at/o:szd.90/IMG.3"
+        "https://gams.uni-graz.at/o:szd.90/IMG.2"
       ],
       "pages": [
         {
@@ -12148,12 +11783,6 @@
           "transcription": "§ 7.\n\nAlle andern Rechte als die oben festgelegten Buch und\nVorabdruckrechte bleiben ausdrücklich dem Eigentümer vor behalten .\n\n§ 8.\n\nAlle Zahlungen unter diesem Vertrag sind zu leisten an\nHerrn Dr.Stefan Zweig, Salzburg, Kapuzinerberg 5.Der ausschliesliche\nGerichtsstand für Streitigkeiten aus diesem Vertrage ist Mailand.\nVorstehender Vertrag wurde in zwei gleichen Exemplaren\nausgefertigt von beiden vertragsschliessenden Teile gelesen, anerkannt\nund unnachfolger der Vertragsschliessenden über.\n\nMailand, den\nSalzburg, den 18. Mai 1932\n\nSperling & Kupfer\n\nStefan Zweig",
           "notes": "Typoskript mit handschriftlichen Ergänzungen (Datum '18. Mai 1932' und Unterschrift 'Stefan Zweig' in violetter Tinte). Die Unterschrift 'Sperling & Kupfer' ist in schwarzer Tinte.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2, jedoch mit aufgelegten Archivierungshilfen.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12162,7 +11791,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2154,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 1077,
         "vlmConfidence": "high"
       },
@@ -12199,8 +11828,7 @@
       "id": "o_szd.91_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.91/IMG.1",
-        "https://gams.uni-graz.at/o:szd.91/IMG.2",
-        "https://gams.uni-graz.at/o:szd.91/IMG.3"
+        "https://gams.uni-graz.at/o:szd.91/IMG.2"
       ],
       "pages": [
         {
@@ -12214,12 +11842,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12228,7 +11850,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1822,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1822,
         "vlmConfidence": "high"
       },
@@ -12269,8 +11891,7 @@
         "https://gams.uni-graz.at/o:szd.92/IMG.1",
         "https://gams.uni-graz.at/o:szd.92/IMG.2",
         "https://gams.uni-graz.at/o:szd.92/IMG.3",
-        "https://gams.uni-graz.at/o:szd.92/IMG.4",
-        "https://gams.uni-graz.at/o:szd.92/IMG.5"
+        "https://gams.uni-graz.at/o:szd.92/IMG.4"
       ],
       "pages": [
         {
@@ -12296,12 +11917,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12310,7 +11925,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3347,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 1674,
         "vlmConfidence": "high"
       },
@@ -12349,8 +11964,7 @@
       "id": "o_szd.93_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.93/IMG.1",
-        "https://gams.uni-graz.at/o:szd.93/IMG.2",
-        "https://gams.uni-graz.at/o:szd.93/IMG.3"
+        "https://gams.uni-graz.at/o:szd.93/IMG.2"
       ],
       "pages": [
         {
@@ -12364,12 +11978,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12378,7 +11986,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 476,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 476,
         "vlmConfidence": "high"
       },
@@ -12415,8 +12023,7 @@
       "id": "o_szd.94_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.94/IMG.1",
-        "https://gams.uni-graz.at/o:szd.94/IMG.2",
-        "https://gams.uni-graz.at/o:szd.94/IMG.3"
+        "https://gams.uni-graz.at/o:szd.94/IMG.2"
       ],
       "pages": [
         {
@@ -12430,12 +12037,6 @@
           "transcription": "5. Die aus diesem Vertrag ergebenden Rechte und Verpflichtungen\ngehen auf die Rechtsnachfolger der Vertragsschliessenden über.\nIhr Einverständnis bekunden durch Ihre Unterschrift:\n\nSalzburg am 12. Juni 1935.              Budapest am 5. Juni 1935.\n\nStefan Zweig                          PANTHEON LITERARISCHE ANSTALT A. G.",
           "notes": "Typoskript mit handschriftlichen Ergänzungen (Datum '12.' und Unterschrift 'Stefan Zweig' in violetter Tinte). Die Unterschrift der Firma ist ein Stempel.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Im oberen Bereich sind die Unterschriften von Seite 2 durchscheinend sichtbar.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12444,7 +12045,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1516,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 758,
         "vlmConfidence": "high"
       },
@@ -12482,8 +12083,7 @@
       "images": [
         "https://gams.uni-graz.at/o:szd.95/IMG.1",
         "https://gams.uni-graz.at/o:szd.95/IMG.2",
-        "https://gams.uni-graz.at/o:szd.95/IMG.3",
-        "SZ_AAP_L13.18_004.jpg"
+        "https://gams.uni-graz.at/o:szd.95/IMG.3"
       ],
       "pages": [
         {
@@ -12503,12 +12103,6 @@
           "transcription": "5./ Im Falle, dass das Buch vergriffen werden sollte, ha-\nben Sie das Recht, sechs Monate nach Eintritt dieses Zustandes, wenn bis da-\nhin keine neue Auflage erschienen sein sollte, die Vereinbarung rechtskräf-\ntig durch einen rekommandierten Brief zu lösen; in diesem Falle kehren die\nRechte der ungarischen Ausgabe automatisch wieder in Ihr Eigentum zurück.\n6./ Sollte der Verlag fällig gewordene Beträge an den\nAutor trotz wiederholter schriftlich-rekommandierter Mahnung nicht erfüllen,\nso gelangt der Autor automatisch wieder in die Rechte der ungarischen Ausga-\nbe. Somit verliert der Verleger sein Recht auf den weiteren Vetrieb; wogegen\nder Autor befugt wird, über das Recht der ungarischen Ausgabe, als über sein\nrückerworbenes Eiegentum, frei zu verfügen. Dieselben Rechte fallen ihm zu,\nsobald der Verleger um Zwangsausgleich ansucht, oder in Konkurs gerät.\n7./ Die ungarische Ausgabe hat bis zum 1. Juli 1939 zu\nerscheinen. Die Übertragung hat sorgfältig und in vollem Umfange zu erfol-\ngen. Sollten irgendwelche Textveränderungen vorgenommen werden, so ist\nhiezu vorerst die schriftliche Zustimmung des Autors einzuholen.\n8./ Sämtliche Zahlungen aus diesem Vertrag sind an fol-\ngende Adresse zu leiten: Rechtsanwalt Dr. Eugen Kerpel, Budapest V., Do-\nrottya ucca 14; diese Kanzlei wird bei der Ungarischen Nationalbank um die\nÜberweisung der Beträge nach England vorstellig werden.\n9./ /Option/ s. unten.\n\nHochachtungsvoll\nATHENAEUM\nPUBLISHING AND PRINTING\nESTABLISHMENT LIMITED\n\n9./ Sie gewähren uns eine Option auf die ungarischen\nRechte Ihrer nächsten drei Werke und bei der tatsächlichen Erwerbung die-\nser Werke erhalten wir von Ihnen stets eine weitere Option auf die je-\nweiligen drei nächsten Werke.\n\nStefan Zweig\n25. Nov. 1938",
           "notes": "Typoskript mit Stempel und handschriftlicher Unterschrift von Stefan Zweig.",
           "type": "content"
-        },
-        {
-          "page": 4,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12517,7 +12111,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3002,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1501,
         "vlmConfidence": "high"
       },
@@ -12557,8 +12151,7 @@
         "https://gams.uni-graz.at/o:szd.96/IMG.1",
         "https://gams.uni-graz.at/o:szd.96/IMG.2",
         "https://gams.uni-graz.at/o:szd.96/IMG.3",
-        "https://gams.uni-graz.at/o:szd.96/IMG.4",
-        "https://gams.uni-graz.at/o:szd.96/IMG.5"
+        "https://gams.uni-graz.at/o:szd.96/IMG.4"
       ],
       "pages": [
         {
@@ -12584,12 +12177,6 @@
           "transcription": "Agreement between\nStefan Zweig and\nThe Viking Press Inc\n\"Volpone\"",
           "notes": "Rückseite des zweiten Blattes. Handschriftliche Notizen in blauer Tinte (vermutlich Archivvermerk oder Inhaltsangabe).",
           "type": "content"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung. Darüber handschriftliche Notizen wie auf Seite 4.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12598,7 +12185,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 3145,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1048,
         "vlmConfidence": "high"
       },
@@ -12639,8 +12226,7 @@
         "https://gams.uni-graz.at/o:szd.97/IMG.1",
         "https://gams.uni-graz.at/o:szd.97/IMG.2",
         "https://gams.uni-graz.at/o:szd.97/IMG.3",
-        "https://gams.uni-graz.at/o:szd.97/IMG.4",
-        "https://gams.uni-graz.at/o:szd.97/IMG.5"
+        "https://gams.uni-graz.at/o:szd.97/IMG.4"
       ],
       "pages": [
         {
@@ -12666,12 +12252,6 @@
           "transcription": "MEMORANDUM OF AGREEMENT\n\nbetween\n\nSTEFAN ZWEIG\n\nand\n\nTHE VIKING PRESS, INC.\n\nfor the Publication of\n\n\"THE RIGHT TO HERESY: Castellio\nAgainst Calvin\"\n\nDate June 30, 1936",
           "notes": "Deckblatt des Vertrags. Typoskript, sehr gut lesbar.",
           "type": "content"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung. Keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12680,7 +12260,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 11453,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 2863,
         "vlmConfidence": "high"
       },
@@ -12725,8 +12305,7 @@
         "https://gams.uni-graz.at/o:szd.98/IMG.1",
         "https://gams.uni-graz.at/o:szd.98/IMG.2",
         "https://gams.uni-graz.at/o:szd.98/IMG.3",
-        "https://gams.uni-graz.at/o:szd.98/IMG.4",
-        "https://gams.uni-graz.at/o:szd.98/IMG.5"
+        "https://gams.uni-graz.at/o:szd.98/IMG.4"
       ],
       "pages": [
         {
@@ -12752,12 +12331,6 @@
           "transcription": "MEMORANDUM OF AGREEMENT\n\n        between\n\nSTEFAN ZWEIG\n\n        and\n\nTHE VIKING PRESS, INC.\n\nfor the Publication of\n\n\"THE BURIED CANDELABRUM\"\n\nDate August 11, 1937",
           "notes": "Deckblatt des Vertragsdokuments.",
           "type": "content"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Darunter befindet sich das Deckblatt des Vertragsdokuments (identisch mit Seite 4).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12766,7 +12339,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 12619,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 3155,
         "vlmConfidence": "high"
       },
@@ -12811,8 +12384,7 @@
         "https://gams.uni-graz.at/o:szd.99/IMG.1",
         "https://gams.uni-graz.at/o:szd.99/IMG.2",
         "https://gams.uni-graz.at/o:szd.99/IMG.3",
-        "https://gams.uni-graz.at/o:szd.99/IMG.4",
-        "https://gams.uni-graz.at/o:szd.99/IMG.5"
+        "https://gams.uni-graz.at/o:szd.99/IMG.4"
       ],
       "pages": [
         {
@@ -12838,12 +12410,6 @@
           "transcription": "MEMORANDUM OF AGREEMENT\n\nbetween\nSTEFAN ZWEIG\nand\nTHE VIKING PRESS, INC.\n\nfor the Publication of\n\"MAGELLAN, DER MANN UND SEINE TAT\"\n\nDate November 15, 1937",
           "notes": "Deckblatt des Vertrages.",
           "type": "content"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Darunter befindet sich das Deckblatt des Vertrages (identisch mit Seite 4).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12852,7 +12418,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 12646,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 3162,
         "vlmConfidence": "high"
       },
@@ -13094,8 +12660,7 @@
       "id": "o_szd.145_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.145/IMG.1",
-        "https://gams.uni-graz.at/o:szd.145/IMG.2",
-        "https://gams.uni-graz.at/o:szd.145/IMG.3"
+        "https://gams.uni-graz.at/o:szd.145/IMG.2"
       ],
       "pages": [
         {
@@ -13109,12 +12674,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -13123,7 +12682,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 201,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 201,
         "vlmConfidence": "high"
       },
@@ -13598,8 +13157,7 @@
         "https://gams.uni-graz.at/o:szd.147/IMG.37",
         "https://gams.uni-graz.at/o:szd.147/IMG.38",
         "https://gams.uni-graz.at/o:szd.147/IMG.39",
-        "https://gams.uni-graz.at/o:szd.147/IMG.40",
-        "https://gams.uni-graz.at/o:szd.147/IMG.41"
+        "https://gams.uni-graz.at/o:szd.147/IMG.40"
       ],
       "pages": [
         {
@@ -13841,12 +13399,6 @@
           "transcription": "",
           "notes": "Rückseite des Heftes.",
           "type": "blank"
-        },
-        {
-          "page": 41,
-          "transcription": "",
-          "notes": "Rückseite des Heftes mit Farbskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -13855,7 +13407,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 20579,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 542,
         "vlmConfidence": "high"
       },
@@ -14356,8 +13908,7 @@
       "id": "o_szd.159_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.159/IMG.1",
-        "https://gams.uni-graz.at/o:szd.159/IMG.2",
-        "https://gams.uni-graz.at/o:szd.159/IMG.3"
+        "https://gams.uni-graz.at/o:szd.159/IMG.2"
       ],
       "pages": [
         {
@@ -14371,12 +13922,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (Durchdruck der Vorderseite).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farb- und Graustufen-Referenzkarte, kein historischer Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -14385,7 +13930,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 368,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 368,
         "vlmConfidence": "high"
       },
@@ -15370,8 +14915,7 @@
       "id": "o_szd.137_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.137/IMG.1",
-        "https://gams.uni-graz.at/o:szd.137/IMG.2",
-        "https://gams.uni-graz.at/o:szd.137/IMG.3"
+        "https://gams.uni-graz.at/o:szd.137/IMG.2"
       ],
       "pages": [
         {
@@ -15385,12 +14929,6 @@
           "transcription": "",
           "notes": "Die Rückseite ist leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Die Rückseite ist leer (Aufnahme mit Farbskala).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15399,7 +14937,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 65,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 65,
         "vlmConfidence": "high"
       },
@@ -15476,8 +15014,7 @@
       "id": "o_szd.138_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.138/IMG.1",
-        "https://gams.uni-graz.at/o:szd.138/IMG.2",
-        "https://gams.uni-graz.at/o:szd.138/IMG.3"
+        "https://gams.uni-graz.at/o:szd.138/IMG.2"
       ],
       "pages": [
         {
@@ -15491,12 +15028,6 @@
           "transcription": "",
           "notes": "Rückseite der Karte, unbeschriftet.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Übersichtsbild mit Farbskala und Graustufenkarte, keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15505,7 +15036,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 122,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 122,
         "vlmConfidence": "high"
       },
@@ -16162,8 +15693,7 @@
       "id": "o_szd.153_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.153/IMG.1",
-        "https://gams.uni-graz.at/o:szd.153/IMG.2",
-        "https://gams.uni-graz.at/o:szd.153/IMG.3"
+        "https://gams.uni-graz.at/o:szd.153/IMG.2"
       ],
       "pages": [
         {
@@ -16177,12 +15707,6 @@
           "transcription": "",
           "notes": "Rückseite der Karte, unbeschriftet.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Die Karte im Kontext der Digitalisierung mit Farb- und Grauskala. Die Karte selbst ist unbeschriftet.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -16191,7 +15715,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 24,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 24,
         "vlmConfidence": "high"
       },
@@ -16294,8 +15818,7 @@
       "id": "o_szd.155_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.155/IMG.1",
-        "https://gams.uni-graz.at/o:szd.155/IMG.2",
-        "https://gams.uni-graz.at/o:szd.155/IMG.3"
+        "https://gams.uni-graz.at/o:szd.155/IMG.2"
       ],
       "pages": [
         {
@@ -16309,12 +15832,6 @@
           "transcription": "",
           "notes": "Die Rückseite ist unbeschriftet.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Die Rückseite ist unbeschriftet (Aufnahme mit Farbskala).",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -16323,7 +15840,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 28,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 28,
         "vlmConfidence": "high"
       },
@@ -16665,8 +16182,7 @@
       "id": "o_szd.171_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.171/IMG.1",
-        "https://gams.uni-graz.at/o:szd.171/IMG.2",
-        "https://gams.uni-graz.at/o:szd.171/IMG.3"
+        "https://gams.uni-graz.at/o:szd.171/IMG.2"
       ],
       "pages": [
         {
@@ -16680,12 +16196,6 @@
           "transcription": "Alfred Zweig\n(Angaben)\nwahrscheinl Frühj\n1906\nWurstelprater\n\nm. u. SZweig\nr. o. Dr. Rob. Müller (Brüder v. Hans Müller\n= E. Lothar)\nl. u. Ing. Robert Goldmann\nl. o. Alfred Zweig\no. t. M. [?]",
           "notes": "Die Transkription folgt der handschriftlichen Notiz auf der Rückseite. Die Abkürzungen (m. u., r. o., etc.) beziehen sich auf die Positionen der Personen auf dem Foto (m. u. = mitte unten, r. o. = rechts oben, etc.). Die Zeile '= E. Lothar' ist unter 'Hans Müller' eingefügt.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Scan mit Farb- und Grauskala, zeigt erneut die Vorderseite der Postkarte. Kein zusätzlicher Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -16694,7 +16204,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 190,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 190,
         "vlmConfidence": "high"
       },

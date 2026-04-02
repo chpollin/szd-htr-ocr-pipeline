@@ -4467,8 +4467,7 @@
         "https://gams.uni-graz.at/o:szd.2325/IMG.41",
         "https://gams.uni-graz.at/o:szd.2325/IMG.42",
         "https://gams.uni-graz.at/o:szd.2325/IMG.43",
-        "https://gams.uni-graz.at/o:szd.2325/IMG.44",
-        "https://gams.uni-graz.at/o:szd.2325/IMG.45"
+        "https://gams.uni-graz.at/o:szd.2325/IMG.44"
       ],
       "pages": [
         {
@@ -4734,12 +4733,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 45,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala für Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -4748,7 +4741,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 129532,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 3159,
         "vlmConfidence": "high"
       },
@@ -9054,8 +9047,7 @@
       "id": "o_szd.2294_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.2294/IMG.1",
-        "https://gams.uni-graz.at/o:szd.2294/IMG.2",
-        "https://gams.uni-graz.at/o:szd.2294/IMG.3"
+        "https://gams.uni-graz.at/o:szd.2294/IMG.2"
       ],
       "pages": [
         {
@@ -9069,12 +9061,6 @@
           "transcription": "",
           "notes": "Leere Rückseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Faksimile mit Grauskala und Farbkarte über dem Text. Der Text ist identisch mit Seite 1, daher keine erneute Transkription.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -9083,7 +9069,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 7587,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 7587,
         "vlmConfidence": "high"
       },

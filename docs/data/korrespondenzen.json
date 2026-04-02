@@ -1494,8 +1494,7 @@
         "https://gams.uni-graz.at/o:szd.1099/IMG.3",
         "https://gams.uni-graz.at/o:szd.1099/IMG.4",
         "https://gams.uni-graz.at/o:szd.1099/IMG.5",
-        "https://gams.uni-graz.at/o:szd.1099/IMG.6",
-        "https://gams.uni-graz.at/o:szd.1099/IMG.7"
+        "https://gams.uni-graz.at/o:szd.1099/IMG.6"
       ],
       "pages": [
         {
@@ -1533,12 +1532,6 @@
           "transcription": "21219/15",
           "notes": "Rückseite des Briefbogens mit Archivnummer.",
           "type": "blank"
-        },
-        {
-          "page": 7,
-          "transcription": "21219/15",
-          "notes": "Briefbogen mit aufgelegten Farbkarten und Grauskala zur Digitalisierung. Archivnummer am unteren Rand.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -1546,9 +1539,9 @@
       "verification": {
         "uncertainCount": 2,
         "illegibleCount": 0,
-        "totalChars": 1680,
+        "totalChars": 1672,
         "emptyPages": 1,
-        "avgCharsPerPage": 280,
+        "avgCharsPerPage": 334,
         "vlmConfidence": "medium"
       },
       "quality_signals": {
@@ -2778,8 +2771,7 @@
         "https://gams.uni-graz.at/o:szd.1117/IMG.3",
         "https://gams.uni-graz.at/o:szd.1117/IMG.4",
         "https://gams.uni-graz.at/o:szd.1117/IMG.5",
-        "https://gams.uni-graz.at/o:szd.1117/IMG.6",
-        "https://gams.uni-graz.at/o:szd.1117/IMG.7"
+        "https://gams.uni-graz.at/o:szd.1117/IMG.6"
       ],
       "pages": [
         {
@@ -2817,12 +2809,6 @@
           "transcription": "",
           "notes": "Leere Seite (Rückseite von Seite 5).",
           "type": "blank"
-        },
-        {
-          "page": 7,
-          "transcription": "",
-          "notes": "Scan mit Farb- und Grauskala zur Kalibrierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -2831,7 +2817,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1199,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 400,
         "vlmConfidence": "high"
       },
@@ -2876,8 +2862,7 @@
       "id": "o_szd.1118_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1118/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1118/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1118/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1118/IMG.2"
       ],
       "pages": [
         {
@@ -2891,12 +2876,6 @@
           "transcription": "Lieber Scherle, diese Woche hält mich ein halb-\nweiser Anfall von Solidität und Arbeitslust, der\nhoffentlich bald überwunden sein wird. Ich beunru-\nhe mich wenigstens, denn unsere Lektüre ist der\nPietro Aretino und Casanova, ausgeleihen\nvon Arth. v. Jellinek, in dessen Bibliothek\nich - versteht mich - das Hauptwerk Jean Paul\nRichters in traurig zitternden Händen hält.\nMein Leppin-Anzeiger ist in der gemeinen\nPost zu L. Unger schon captiert. Heute bei\nPrager Tgb. erschienen. Die Wiener Baci sind\nfast alle nützbar - v. J. ich arbeite nur\nein bischen und in freier gemeiner Faulheit\nnicht auf. Die Krätze ist noch immer gräßlich\nund die Neuigkeit des Tages macht ganz\nsehnsüchtig nach die gegligert. Max lasse ich sagen,\ndass es die Männerkonferenzconcurrenz\nnicht hätte machen sollen; wir aßen die\nkleinen Madeln beim Anblick einer Lavaille\nfür apollinische Glieder geschwungen. Übrigens\nHeila ist ohne uns, dass ich ihn viel besser ver-\nstehe, indem ich selbst an einer Dissertation\narbite. Lass dich nicht abflagen und wenn\nunsere Leute belästigen, so ertrage es ohne die\ngemeine Rache, aus Krügel Reizen zu fertigen.",
           "notes": "Der Text am linken Rand ist vertikal geschrieben: 'Gruss an Euch und Komotau! Dein\nZweig'.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Dies ist ein Scan der Rückseite der Postkarte mit einer Farbskala. Keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -2905,7 +2884,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1266,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 633,
         "vlmConfidence": "medium"
       },
@@ -2946,8 +2925,7 @@
         "https://gams.uni-graz.at/o:szd.1119/IMG.3",
         "https://gams.uni-graz.at/o:szd.1119/IMG.4",
         "https://gams.uni-graz.at/o:szd.1119/IMG.5",
-        "https://gams.uni-graz.at/o:szd.1119/IMG.6",
-        "https://gams.uni-graz.at/o:szd.1119/IMG.7"
+        "https://gams.uni-graz.at/o:szd.1119/IMG.6"
       ],
       "pages": [
         {
@@ -2985,12 +2963,6 @@
           "transcription": "irdischen Unregelmäßigkeiten zu vergessen.\nIch hoffe in einer Woche, wenn ich wieder\nzu Hause bin, enthoben zu sein, Euch be-\nschimpfen zu müssen. Ich tue es ja un-\ngern, aber es ist leider zu nötig.\nHeute las ich im Berliner Tage-\nblatt den Artikel meines Leitsatzes[?] \nArtikels gegen den Richter Ast. Wenn er\nwüsste, wie sehr er mich amüsiert.\nIch arbeite hier ein wenig / freu mich\nunsäglich an der Landschaft, treibe\n~~förste~~ Geschlechtlichkeiten mit einem\njungen Mädchen bester Familie aus\n--- Carrel und Bade\nbazlich halt, habe schon Sonnenbräune\nund sehr viel Gemütsruhe.\nHerzlichst\nStefan",
           "notes": "Scan zeigt die Rückseite des Briefbogens (durchscheinender Text).",
           "type": "content"
-        },
-        {
-          "page": 7,
-          "transcription": "",
-          "notes": "Scan zeigt den Briefbogen mit aufgelegter Grauskala und Farbkarte.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -2999,7 +2971,7 @@
         "uncertainCount": 2,
         "illegibleCount": 0,
         "totalChars": 2685,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 448,
         "vlmConfidence": "high"
       },
@@ -4548,8 +4520,7 @@
       "id": "o_szd.1141_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1141/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1141/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1141/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1141/IMG.2"
       ],
       "pages": [
         {
@@ -4563,12 +4534,6 @@
           "transcription": "A",
           "notes": "Rückseite des Briefbogens, leer bis auf ein kleines 'A' in der oberen linken Ecke.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Diese Seite enthält lediglich technische Kalibrierungselemente (Farbkarte, Grauskala) für die Digitalisierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -4577,7 +4542,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 682,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 341,
         "vlmConfidence": "high"
       },
@@ -6454,8 +6419,7 @@
       "id": "o_szd.1172_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1172/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1172/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1172/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1172/IMG.2"
       ],
       "pages": [
         {
@@ -6469,12 +6433,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Briefes mit Farbkarte/Grauskala, kein Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -6483,7 +6441,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1707,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1707,
         "vlmConfidence": "high"
       },
@@ -6775,8 +6733,7 @@
       "id": "o_szd.1177_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1177/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1177/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1177/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1177/IMG.2"
       ],
       "pages": [
         {
@@ -6790,12 +6747,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Briefes mit aufgelegter Farb- und Grauskala zur Dokumentation.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -6804,7 +6755,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 450,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 450,
         "vlmConfidence": "high"
       },
@@ -10607,8 +10558,7 @@
         "https://gams.uni-graz.at/o:szd.1239/IMG.3",
         "https://gams.uni-graz.at/o:szd.1239/IMG.4",
         "https://gams.uni-graz.at/o:szd.1239/IMG.5",
-        "https://gams.uni-graz.at/o:szd.1239/IMG.6",
-        "https://gams.uni-graz.at/o:szd.1239/IMG.7"
+        "https://gams.uni-graz.at/o:szd.1239/IMG.6"
       ],
       "pages": [
         {
@@ -10646,12 +10596,6 @@
           "transcription": "",
           "notes": "Rückseite von Seite 5 mit Archivnummer '22421/7'.",
           "type": "blank"
-        },
-        {
-          "page": 7,
-          "transcription": "",
-          "notes": "Scan mit Farbskala und Grauskala, zeigt die Rückseite von Seite 5.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -10660,7 +10604,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1062,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 354,
         "vlmConfidence": "high"
       },
@@ -12275,8 +12219,7 @@
         "https://gams.uni-graz.at/o:szd.1260/IMG.3",
         "https://gams.uni-graz.at/o:szd.1260/IMG.4",
         "https://gams.uni-graz.at/o:szd.1260/IMG.5",
-        "https://gams.uni-graz.at/o:szd.1260/IMG.6",
-        "https://gams.uni-graz.at/o:szd.1260/IMG.7"
+        "https://gams.uni-graz.at/o:szd.1260/IMG.6"
       ],
       "pages": [
         {
@@ -12314,12 +12257,6 @@
           "transcription": "",
           "notes": "Rückseite der zweiten Briefseite, durchscheinender Text.",
           "type": "blank"
-        },
-        {
-          "page": 7,
-          "transcription": "",
-          "notes": "Scan mit Farb- und Grauskala über der zweiten Briefseite.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12328,7 +12265,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 949,
-        "emptyPages": 4,
+        "emptyPages": 3,
         "avgCharsPerPage": 316,
         "vlmConfidence": "high"
       },
@@ -12369,8 +12306,7 @@
       "id": "o_szd.1261_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1261/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1261/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1261/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1261/IMG.2"
       ],
       "pages": [
         {
@@ -12384,12 +12320,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Briefes mit aufgelegter Grauskala und Farbkarte.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12398,7 +12328,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1205,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1205,
         "vlmConfidence": "high"
       },
@@ -12524,8 +12454,7 @@
       "id": "o_szd.1263_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1263/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1263/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1263/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1263/IMG.2"
       ],
       "pages": [
         {
@@ -12539,12 +12468,6 @@
           "transcription": "erledigt.",
           "notes": "Rückseite des Briefbogens. Handschriftlicher Vermerk 'erledigt.' unten links.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbkarte und Grauskala zur Dokumentation. Kein transkribierbarer Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12553,7 +12476,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1565,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 782,
         "vlmConfidence": "high"
       },
@@ -12659,8 +12582,7 @@
       "id": "o_szd.1265_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1265/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1265/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1265/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1265/IMG.2"
       ],
       "pages": [
         {
@@ -12674,12 +12596,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Briefes mit Farbskala und Graustufen-Referenz, leer.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -12688,7 +12604,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 645,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 645,
         "vlmConfidence": "high"
       },
@@ -13066,8 +12982,7 @@
         "https://gams.uni-graz.at/o:szd.1270/IMG.1",
         "https://gams.uni-graz.at/o:szd.1270/IMG.2",
         "https://gams.uni-graz.at/o:szd.1270/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1270/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1270/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1270/IMG.4"
       ],
       "pages": [
         {
@@ -13093,12 +13008,6 @@
           "transcription": "",
           "notes": "Leere Seite.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Leere Seite mit Farbskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -13107,7 +13016,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 1765,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 588,
         "vlmConfidence": "high"
       },
@@ -13148,8 +13057,7 @@
       "id": "o_szd.1271_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1271/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1271/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1271/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1271/IMG.2"
       ],
       "pages": [
         {
@@ -13163,12 +13071,6 @@
           "transcription": "",
           "notes": "Rückseite des Kuverts, vollständig mit Briefmarken beklebt. Keine handschriftlichen Texte.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Kuverts mit Farbskala. Keine handschriftlichen Texte.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -13177,7 +13079,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 204,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 204,
         "vlmConfidence": "high"
       },
@@ -13966,8 +13868,7 @@
       "id": "o_szd.1295_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1295/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1295/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1295/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1295/IMG.2"
       ],
       "pages": [
         {
@@ -13981,12 +13882,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefbogens, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Rückseite des Briefbogens mit Farb- und Grauskala-Referenzkarten.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -13995,7 +13890,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 486,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 486,
         "vlmConfidence": "high"
       },
@@ -14240,8 +14135,7 @@
         "https://gams.uni-graz.at/o:szd.1299/IMG.1",
         "https://gams.uni-graz.at/o:szd.1299/IMG.2",
         "https://gams.uni-graz.at/o:szd.1299/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1299/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1299/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1299/IMG.4"
       ],
       "pages": [
         {
@@ -14267,12 +14161,6 @@
           "transcription": "A94 (237)",
           "notes": "Rückseite des leeren Blattes mit Archivsignatur/Nummerierung.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "A94 (237)",
-          "notes": "Rückseite mit Archivsignatur/Nummerierung, unter Farb- und Grauskala.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -14280,9 +14168,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 630,
+        "totalChars": 621,
         "emptyPages": 2,
-        "avgCharsPerPage": 210,
+        "avgCharsPerPage": 310,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -14630,8 +14518,7 @@
         "https://gams.uni-graz.at/o:szd.1305/IMG.1",
         "https://gams.uni-graz.at/o:szd.1305/IMG.2",
         "https://gams.uni-graz.at/o:szd.1305/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1305/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1305/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1305/IMG.4"
       ],
       "pages": [
         {
@@ -14657,12 +14544,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, durchscheinender Text der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Scan mit Farbskala, zeigt die Rückseite des zweiten Blattes.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -14671,7 +14552,7 @@
         "uncertainCount": 2,
         "illegibleCount": 0,
         "totalChars": 1257,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 628,
         "vlmConfidence": "high"
       },
@@ -15332,8 +15213,7 @@
       "id": "o_szd.1353_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1353/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1353/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1353/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1353/IMG.2"
       ],
       "pages": [
         {
@@ -15347,12 +15227,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefbogens, unbeschrieben.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbkarte/Grauskala zur Dokumentation, kein historischer Text.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15361,7 +15235,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 650,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 650,
         "vlmConfidence": "high"
       },
@@ -15540,8 +15414,7 @@
       "id": "o_szd.1356_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1356/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1356/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1356/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1356/IMG.2"
       ],
       "pages": [
         {
@@ -15555,12 +15428,6 @@
           "transcription": "Europe!\n\nPOSTCARD—CARTE POSTALE\nUNIVERSAL POSTAL UNION—UNION POSTALE UNIVERSELLE\nBRITISH INDIA—INDE BRITANNIQUE\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nussdorferstrasse 5",
           "notes": "Rückseite der Postkarte mit Adressfeld. Briefmarke und Poststempel vorhanden.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Übersichtsbild mit Farbskala, enthält keine neuen Textinformationen.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15569,7 +15436,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 247,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 124,
         "vlmConfidence": "high"
       },
@@ -15672,8 +15539,7 @@
       "id": "o_szd.1361_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1361/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1361/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1361/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1361/IMG.2"
       ],
       "pages": [
         {
@@ -15687,12 +15553,6 @@
           "transcription": "Lieber Freund, anbei mein Buch.\nden Rimbaud. Emsay habe ich\nEnde des Monats bestimmt fer-\ntig. Was sagten Sie dazu, dass ich\nplötzlich in den hofrätlichen Re-\ngionen Verehrer fand und für\nmeine Lyrik den Bauernfeldpreis\nbekam? Erstaunlich, nicht wahr.\nIch richte mir jetzt in Wien\neine eigene Wohnung ab Februar\nein, aber wir sehen uns wohl\ndoch noch früher. Herzlichst Ihr\nStefan Zweig",
           "notes": "Textseite der Postkarte. Handschrift in violetter Tinte.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Referenzbild mit Farb- und Grauskala, keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15701,7 +15561,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 439,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 220,
         "vlmConfidence": "high"
       },
@@ -15936,8 +15796,7 @@
       "id": "o_szd.1366_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1366/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1366/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1366/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1366/IMG.2"
       ],
       "pages": [
         {
@@ -15951,12 +15810,6 @@
           "transcription": "allem Fortbestehen eines grossen Hasses wenigstens in\nkulturellen Dingen bald eine Entspannung folgen müssen\nund dann will ich mir erlauben, mich sofort bei Ihnen\nzu melden.\nWenn Sie nach Salzburg kommen, hoffe ich, werden\nSie nicht an mir vorbeigehen. Für heute nun die herzlich-\nsten Grüsse\n\nIhres aufrichtig ergebenen:\nStefan Zweig\n\n[am rechten Rand vertikal:] an Karl Klammer = K.L. Ammer\n[unten links:] 263 125/ 3",
           "notes": "Die Unterschrift ist handschriftlich in violetter Tinte. Der Randvermerk 'an Karl Klammer = K.L. Ammer' ist handschriftlich.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Dies ist ein Scan des Dokuments mit einer Farbkarte/Grauskala. Der Textinhalt ist identisch mit Seite 2.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -15965,7 +15818,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1635,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 818,
         "vlmConfidence": "high"
       },
@@ -17937,8 +17790,7 @@
       "id": "o_szd.1406_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1406/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1406/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1406/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1406/IMG.2"
       ],
       "pages": [
         {
@@ -17952,12 +17804,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbkarte/Grauskala, keine Transkription erforderlich.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -17966,7 +17812,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1101,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 1101,
         "vlmConfidence": "high"
       },
@@ -18005,8 +17851,7 @@
         "https://gams.uni-graz.at/o:szd.1407/IMG.1",
         "https://gams.uni-graz.at/o:szd.1407/IMG.2",
         "https://gams.uni-graz.at/o:szd.1407/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1407/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1407/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1407/IMG.4"
       ],
       "pages": [
         {
@@ -18032,12 +17877,6 @@
           "transcription": "",
           "notes": "Rückseite des Briefbogens, leer bis auf leichte Durchdruckspuren und einen Tintenfleck.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Scan zeigt den Briefbogen mit aufgelegter Farb- und Grauskala zur Kalibrierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -18046,7 +17885,7 @@
         "uncertainCount": 2,
         "illegibleCount": 1,
         "totalChars": 1618,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 539,
         "vlmConfidence": "high"
       },
@@ -18158,8 +17997,7 @@
       "id": "o_szd.1409_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1409/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1409/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1409/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1409/IMG.2"
       ],
       "pages": [
         {
@@ -18173,12 +18011,6 @@
           "transcription": "sogar eine bestimmte Idee die ich einmal mit Ihnen durch\nsprechen möchte und dazu ist ja hoffentlich bald Gelegen-\nheit. Meine eigenen Bücher schicke ich Ihnen, wenn es\ndie Insel nicht tut natürlich gern selbst; durch die\nreichlichen Auflagen habe ich meist ja einen gewissen\ngewissen Vorrat und brauche nicht so sparsam zu sein.\nDagegen möchte ich Sie erinnern an Hofmannsthals Rodau-\nner Nachträge, ich würde gerne darüber ein Referat in\neiner allerersten Zeitung schreiben, dass dem Verlage\ndas Exemplar reichlich aufliegen würde. Denn nie war es\nso notwendig wie jetzt auf Bücher hinzuweisen, wo die\nZeitungen keinen Raum haben und die Käufer anscheinend\nkein Geld mehr. Gestern sah ich z.B. durch Zufall, was\ndas schäbig geheftete Reisetagebuch des Grafen Keyser-\nling kostet, geschlagene 800 Kronen, ein Betrag, mit\ndem man früher sämtliche Philosophen von Confuzius bis\nNietzsche sich in den schönsten Ausgaben anschaffen konn-\nte. Ich glaube, dass der Höhepunkt auch der bibliophilen\nPreise schon überschritten ist. Aber dennoch, wer könn-\nte sich von seinen Büchern trennen, solange es einen\nnoch nicht auf den Nägeln brennt!\n\nIch freue mich schon sehr, Sie im Sommer hier zu\nsehen, Salzburg ist jetzt geladen mit Literatur und The-\nater, ausser Max Reinhardt ist noch Dr. Paul Eger stän-\ndig über den Sommer hier und jeder Tag bringt neue Nach-\nricht. Sie werden also über Langeweile nicht zu klagen\nhaben.\n\nMit besten Grüssen Ihr\n\nStefan Zweig",
           "notes": "Handschriftlicher Brief in violetter Tinte. Unten links Archivvermerk 'VI/16' und 'Sorn'.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Überdeckt Teile des Textes der zweiten Seite.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -18187,7 +18019,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2604,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 1302,
         "vlmConfidence": "high"
       },
@@ -18363,8 +18195,7 @@
       "id": "o_szd.1412_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1412/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1412/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1412/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1412/IMG.2"
       ],
       "pages": [
         {
@@ -18378,12 +18209,6 @@
           "transcription": "Beziehungen es verraten: wie sehr, wie lange bewundere\nich die Güte, die bei Ihnen die Werke nicht ganz an sich\nheran kommen lässt, rohheitvoll und gewächlich, sondern ihnen\nimmer voll Verlangen schon ein Stück weg entgegengeht.\nUnd wie arg ist es eigentlich von mir, dass ich ~~wirklich~~\n{alltäglich}\nabgewartet habe, sie am eigenen Leibe warm zu fühlen, um\nIhnen das zu sagen, statt längst schon spontan, bei einer\nder vielen Gelegenheiten, die Sie geboten haben.\nAber nun, lieber Herr Doktor, müssen Sie mir bald\nGelegenheit geben, Ihnen die Hand zu drücken. Wann darf\nich kommen? Sagen Sie möglichst bald, denn am 5. Dez\nreise ich nach München, zum letztenmal das „Haus am\nMeer“ zu sehn und komme erst am 8ten wieder. Aber ger-\nne hätte ich Ihnen noch zuvor gedankt, bevor als ein Brief\nes vermag. Treulich Ihr\n\nStefan Zweig",
           "notes": "Handschriftlicher Brieftext, Fortsetzung von Seite 1. Violette Tinte. Das Wort 'alltäglich' wurde über das durchgestrichene 'wirklich' geschrieben.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit dem Text auf Seite 2, jedoch mit aufgelegten Archivierungshilfen.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -18392,7 +18217,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1934,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 967,
         "vlmConfidence": "high"
       },
@@ -18550,8 +18375,7 @@
       "id": "o_szd.1414_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1414/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1414/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1414/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1414/IMG.2"
       ],
       "pages": [
         {
@@ -18565,12 +18389,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer, leichte Stockflecken.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala und Grauskala für Archivierung über das Dokument gelegt.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -18579,7 +18397,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 728,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 728,
         "vlmConfidence": "high"
       },
@@ -18616,8 +18434,7 @@
       "id": "o_szd.1417_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1417/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1417/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1417/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1417/IMG.2"
       ],
       "pages": [
         {
@@ -18631,12 +18448,6 @@
           "transcription": "Dr. Stefan Zweig.\nSalzburg.\nKapuzinerberg 5.\n\nSehr verehrter Herr Mees!\n\nH. Höfflingshoff.\nMannheim a. Rhein.\nSophienstr. 15.",
           "notes": "Handschriftliche Adressierung und Absenderangabe auf der Rückseite des Briefbogens.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -18645,7 +18456,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 561,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 280,
         "vlmConfidence": "high"
       },
@@ -19185,8 +18996,7 @@
         "https://gams.uni-graz.at/o:szd.1429/IMG.1",
         "https://gams.uni-graz.at/o:szd.1429/IMG.2",
         "https://gams.uni-graz.at/o:szd.1429/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1429/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1429/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1429/IMG.4"
       ],
       "pages": [
         {
@@ -19212,12 +19022,6 @@
           "transcription": "",
           "notes": "Rückseite des dritten Blattes, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "medium",
@@ -19226,7 +19030,7 @@
         "uncertainCount": 3,
         "illegibleCount": 0,
         "totalChars": 2749,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 1374,
         "vlmConfidence": "medium"
       },
@@ -19265,8 +19069,7 @@
       "id": "o_szd.1430_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1430/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1430/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1430/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1430/IMG.2"
       ],
       "pages": [
         {
@@ -19280,12 +19083,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -19294,7 +19091,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 2749,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 2749,
         "vlmConfidence": "high"
       },
@@ -19397,8 +19194,7 @@
       "id": "o_szd.1432_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1432/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1432/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1432/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1432/IMG.2"
       ],
       "pages": [
         {
@@ -19412,12 +19208,6 @@
           "transcription": "Carone war ver-\nreist, Leonhard\nwohnte zu einer. Brenner\nso hatte ich [?] [?]\nmeinen letzten stillen\nabend.\n\nFrau Friderike Zweig\n[?] Salzburg\nKapuzinerberg 5",
           "notes": "Adressseite der Postkarte. Gedruckter Postkartenvordruck mit handschriftlichen Ergänzungen. Briefmarke und Poststempel (Leipzig 7.6.25) vorhanden.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "low",
@@ -19426,7 +19216,7 @@
         "uncertainCount": 18,
         "illegibleCount": 0,
         "totalChars": 670,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 335,
         "vlmConfidence": "low"
       },
@@ -19606,8 +19396,7 @@
         "https://gams.uni-graz.at/o:szd.1435/IMG.1",
         "https://gams.uni-graz.at/o:szd.1435/IMG.2",
         "https://gams.uni-graz.at/o:szd.1435/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1435/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1435/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1435/IMG.4"
       ],
       "pages": [
         {
@@ -19633,12 +19422,6 @@
           "transcription": "Jahne 147, 148: Die Kopfbedeckung der Ulanen war\ndie „Tschapka“, Helme hatten nur\ndie Dragoner.\nIm Allgemeinen: Die Worte „Verstörung“, „verstören“\nkommen zu häufig vor!\nTitelfrage: Der Titel erscheint mir nicht\nbezeichnend genug; man stellt sich\nzu wenig vor. Warum nicht, wie\neinmal geplant: „Mord aus Mitleid“\noder „Mordendes Mitleid“,\n„Mörder aus Mitleid“ etc...\nIch bitte Sie abermals, diese Anregungen\n(mehr soll es nicht sein) zu erwägen, sie\nerfolgen im Interesse der Sache. Denn oft\nkommt es gerade auf solche Impondere-\nbilien an.\nEntschuldigen Sie ev. Fehler in diesem Brief,\naber ich muß eilen, damit ich noch das Flugzeug\nerreiche, Abzüge sind bereits auf eben diesen\nWege abgegangen.\nIch schreibe Ihnen heute noch Persönliches bald",
           "notes": "Handschriftlicher Brief, Fortsetzung von Seite 3.",
           "type": "content"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text von Seite 4.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -19647,7 +19430,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 2991,
-        "emptyPages": 1,
+        "emptyPages": 0,
         "avgCharsPerPage": 748,
         "vlmConfidence": "high"
       },
@@ -19688,8 +19471,7 @@
         "https://gams.uni-graz.at/o:szd.1436/IMG.1",
         "https://gams.uni-graz.at/o:szd.1436/IMG.2",
         "https://gams.uni-graz.at/o:szd.1436/IMG.3",
-        "https://gams.uni-graz.at/o:szd.1436/IMG.4",
-        "https://gams.uni-graz.at/o:szd.1436/IMG.5"
+        "https://gams.uni-graz.at/o:szd.1436/IMG.4"
       ],
       "pages": [
         {
@@ -19715,12 +19497,6 @@
           "transcription": "",
           "notes": "Rueckseite der dritten Seite, leer.",
           "type": "blank"
-        },
-        {
-          "page": 5,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -19729,7 +19505,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 6128,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 3064,
         "vlmConfidence": "high"
       },
@@ -20017,8 +19793,7 @@
       "id": "o_szd.1438_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1438/IMG.1",
-        "https://gams.uni-graz.at/o:szd.1438/IMG.2",
-        "https://gams.uni-graz.at/o:szd.1438/IMG.3"
+        "https://gams.uni-graz.at/o:szd.1438/IMG.2"
       ],
       "pages": [
         {
@@ -20032,12 +19807,6 @@
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer (Durchschlag/Abdruck des Textes der Vorderseite sichtbar).",
           "type": "blank"
-        },
-        {
-          "page": 3,
-          "transcription": "",
-          "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -20046,7 +19815,7 @@
         "uncertainCount": 1,
         "illegibleCount": 0,
         "totalChars": 862,
-        "emptyPages": 2,
+        "emptyPages": 1,
         "avgCharsPerPage": 862,
         "vlmConfidence": "high"
       },
@@ -20150,8 +19919,7 @@
       "images": [
         "https://gams.uni-graz.at/o:szd.1440/IMG.1",
         "https://gams.uni-graz.at/o:szd.1440/IMG.2",
-        "SZ_AAP_B7_003.jpg",
-        "https://gams.uni-graz.at/o:szd.1440/IMG.4"
+        "SZ_AAP_B7_003.jpg"
       ],
       "pages": [
         {
@@ -20171,12 +19939,6 @@
           "transcription": "",
           "notes": "Rückseite des zweiten Blattes, zeigt den Durchdruck des Textes der Vorderseite.",
           "type": "blank"
-        },
-        {
-          "page": 4,
-          "transcription": "",
-          "notes": "Rückseite des zweiten Blattes mit Farbskala und Grauskala zur Dokumentation.",
-          "type": "color_chart"
         }
       ],
       "confidence": "high",
@@ -20185,7 +19947,7 @@
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 1286,
-        "emptyPages": 3,
+        "emptyPages": 2,
         "avgCharsPerPage": 1286,
         "vlmConfidence": "high"
       },

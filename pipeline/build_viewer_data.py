@@ -123,8 +123,11 @@ def build():
 
         # Determine which GAMS images to use per page
         all_images = meta.get("images", [])
-        pages = result.get("pages", [])
-        page_images = all_images[:len(pages)] if all_images else []
+        raw_pages = result.get("pages", [])
+        # Filter out color_chart pages (archival reference only, no transcription)
+        filtered = [(i, p) for i, p in enumerate(raw_pages) if p.get("type") != "color_chart"]
+        pages = [p for _, p in filtered]
+        page_images = [all_images[i] for i, _ in filtered if i < len(all_images)] if all_images else []
 
         full_title = meta.get("title", "")
         title_clean, signature = extract_signature(full_title)

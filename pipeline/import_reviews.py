@@ -149,15 +149,18 @@ def import_regular_edit(data: dict, *, reviewer: str, dry_run: bool) -> None:
         rp["notes"] = export_page.get("notes", "")
         edited_pages.append(page_num)
 
-    # Add review metadata
+    # Add review metadata — approve even without edits if "reviewed" flag is set
+    is_approved = data.get("reviewed", False) or len(edited_pages) > 0
     result["review"] = {
-        "status": "approved",
+        "status": "approved" if is_approved else "reviewed",
         "edited_pages": edited_pages,
         "reviewed_by": reviewer,
         "reviewed_at": data.get("exported_at"),
     }
 
-    print(f"  {object_id}: {len(edited_pages)} Seite(n) aktualisiert -- APPROVED")
+    suffix = " (keine Aenderungen noetig)" if not edited_pages else ""
+    print(f"  {result_path.stem}: {len(edited_pages)} Seite(n) editiert -- "
+          f"{'APPROVED' if is_approved else 'REVIEWED'}{suffix}")
 
     if dry_run:
         print(f"  [DRY-RUN] Wuerde schreiben: {result_path}")

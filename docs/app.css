@@ -608,7 +608,7 @@ body.view-help #about { display: none; }
 }
 
 .badge-review-yes {
-  color: var(--sz-burgundy);
+  color: var(--sz-danger);
 }
 
 .badge-review-yes::before {
@@ -617,20 +617,20 @@ body.view-help #about { display: none; }
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--sz-burgundy);
+  background: var(--sz-danger);
 }
 
-.badge-review-ok {
-  color: var(--sz-success);
+.badge-review-llm-ok {
+  color: var(--sz-warning);
 }
 
-.badge-review-ok::before {
+.badge-review-llm-ok::before {
   content: "";
   display: inline-block;
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--sz-success);
+  background: var(--sz-warning);
 }
 
 .badge-review-verified {
@@ -642,8 +642,8 @@ body.view-help #about { display: none; }
 }
 
 .badge-review-approved {
-  color: #1a1a1a;
-  background: var(--sz-gold-light);
+  color: #fff;
+  background: var(--sz-success);
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
   font-weight: 600;
@@ -810,10 +810,14 @@ body.view-help #about { display: none; }
   font-size: 0.68rem;
 }
 
+.viewer__meta-review {
+  gap: 0.4rem;
+}
+
 .catalog__stats-chip--review-warn { background: var(--sz-danger-bg); }
-.catalog__stats-chip--review-ok { background: var(--sz-success-bg); }
+.catalog__stats-chip--llm-ok { background: var(--sz-warning-bg); }
 .catalog__stats-chip--verified { background: var(--sz-success-bg); }
-.catalog__stats-chip--approved { background: var(--sz-warning-bg); }
+.catalog__stats-chip--approved { background: var(--sz-success-bg); }
 
 /* Navigation bar */
 .viewer__nav {

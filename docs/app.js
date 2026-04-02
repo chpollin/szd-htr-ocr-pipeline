@@ -500,18 +500,22 @@ async function showAbout() {
 /* ===== Review / Quality Signals ===== */
 
 function renderReviewCell(obj) {
+  // Tier 0: GT verified (highest)
   if (obj.gtVerified) {
     return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth verifiziert">GT \u2713</span>';
   }
+  // Tier 1: Human expert approved
   if (obj.reviewStatus === 'approved') {
-    return '<span class="badge-review badge-review-approved" data-tooltip="Expert gepr\u00fcft">Gepr\u00fcft</span>';
+    return '<span class="badge-review badge-review-approved" data-tooltip="Human-Expert hat verifiziert">Gepr\u00fcft</span>';
   }
   if (obj.needsReview === undefined) return '';
+  // Tier 2: Quality signals flagged problems
   if (obj.needsReview) {
-    const reasons = (obj.needsReviewReasons || []).join(', ') || 'Review empfohlen';
+    const reasons = (obj.needsReviewReasons || []).join(', ') || 'quality_signals hat Probleme erkannt';
     return `<span class="badge-review badge-review-yes" data-tooltip="${escapeHtml(reasons)}">Review</span>`;
   }
-  return '<span class="badge-review badge-review-ok" data-tooltip="Keine Auff\u00e4lligkeiten">OK</span>';
+  // Tier 3: Machine says OK, no human check
+  return '<span class="badge-review badge-review-llm-ok" data-tooltip="LLM-Transkription ohne manuelle Pr\u00fcfung">LLM OK</span>';
 }
 
 function renderQualitySignals(qs) {
@@ -525,7 +529,7 @@ function renderQualitySignals(qs) {
         <span class="badge-review badge-review-yes">Review empfohlen</span></div>`);
     } else {
       items.push(`<div class="viewer__quality-item">
-        <span class="badge-review badge-review-ok">OK</span></div>`);
+        <span class="badge-review badge-review-llm-ok">LLM OK</span></div>`);
     }
   }
 
@@ -631,7 +635,7 @@ function renderStats() {
   for (const col of state.collections) perCol[col] = 0;
   const perGroup = {};
   const confDist = { high: 0, medium: 0, low: 0 };
-  let reviewCount = 0, verifiedCount = 0, approvedCount = 0;
+  let reviewCount = 0, verifiedCount = 0, approvedCount = 0, llmOkCount = 0;
   let totalPages = 0, totalContentPages = 0, totalBlankPages = 0;
   let totalChars = 0;
   let dwrSum = 0, dwrCount = 0;
@@ -645,6 +649,7 @@ function renderStats() {
     if (o.needsReview) reviewCount++;
     if (o.gtVerified) verifiedCount++;
     if (o.reviewStatus === 'approved') approvedCount++;
+    if (o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved') llmOkCount++;
     if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
     totalPages += o.pageCount || 0;
     totalContentPages += o.contentPages || 0;
@@ -666,14 +671,17 @@ function renderStats() {
     return `<span class="catalog__stats-chip"><strong>${perCol[c]}</strong> ${escapeHtml(label)}</span>`;
   }).join('');
 
-  const reviewChip = state.hasReviewData
-    ? `<span class="catalog__stats-chip ${reviewCount > 0 ? 'catalog__stats-chip--review-warn' : 'catalog__stats-chip--review-ok'}"><strong>${reviewCount}</strong> Review</span>`
+  const reviewChip = state.hasReviewData && reviewCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--review-warn"><strong>${reviewCount}</strong> Review</span>`
     : '';
-  const verifiedChip = verifiedCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
+  const llmOkChip = llmOkCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--llm-ok"><strong>${llmOkCount}</strong> LLM OK</span>`
     : '';
   const approvedChip = approvedCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--approved"><strong>${approvedCount}</strong> Gepr\u00fcft</span>`
+    : '';
+  const verifiedChip = verifiedCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
     : '';
 
   // Detail section: groups
@@ -698,10 +706,14 @@ function renderStats() {
     ${colorChartPages > 0 ? `<span class="catalog__stats-bar-item"><strong>${colorChartPages}</strong> Farbskala</span>` : ''}
     <span class="catalog__stats-bar-item"><strong>${totalChars.toLocaleString('de')}</strong> Zeichen</span>`;
 
-  // Review stats
-  const reviewItems = state.hasReviewData
-    ? `<span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> / ${total} (${reviewPct}%) Review</span>`
-    : '';
+  // Review stats (3-tier)
+  const humanCount = approvedCount + verifiedCount;
+  let reviewItems = '';
+  if (state.hasReviewData) {
+    reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Human Verified</span>
+      <span class="catalog__stats-bar-item"><strong>${llmOkCount}</strong> LLM OK</span>
+      <span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> Needs Review (${reviewPct}%)</span>`;
+  }
 
   // DWR + Consensus
   const dwrItem = dwrCount > 0
@@ -719,7 +731,7 @@ function renderStats() {
   el.innerHTML = `
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
-      <div class="catalog__stats-chips">${colChips}${reviewChip}${verifiedChip}${approvedChip}</div>
+      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${llmOkChip}${reviewChip}</div>
       <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
@@ -771,14 +783,12 @@ function applyFilters() {
     list = list.filter(o => o.confidence === state.filterConfidence);
   }
   if (state.filterReviewStatus) {
-    if (state.filterReviewStatus === 'gt_verified') {
-      list = list.filter(o => o.gtVerified);
-    } else if (state.filterReviewStatus === 'approved') {
-      list = list.filter(o => o.reviewStatus === 'approved');
+    if (state.filterReviewStatus === 'human_verified') {
+      list = list.filter(o => o.reviewStatus === 'approved' || o.gtVerified);
+    } else if (state.filterReviewStatus === 'llm_ok') {
+      list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved');
     } else if (state.filterReviewStatus === 'needs_review') {
       list = list.filter(o => o.needsReview);
-    } else if (state.filterReviewStatus === 'ok') {
-      list = list.filter(o => o.needsReview === false);
     }
   }
   if (state.filterConsensus) {
@@ -997,7 +1007,11 @@ function renderViewerMeta(obj) {
     </div>` : ''}
     <div class="viewer__meta-item">
       <span class="viewer__meta-label viewer__meta-model">${escapeHtml(obj.model)}</span>
-    </div>`;
+    </div>
+    ${obj.review ? `<div class="viewer__meta-item viewer__meta-review">
+      <span class="badge-review badge-review-approved">Gepr\u00fcft</span>
+      <span class="viewer__meta-value">von ${escapeHtml(obj.review.reviewed_by || '?')}${obj.review.reviewed_at ? ', ' + new Date(obj.review.reviewed_at).toLocaleDateString('de-AT') : ''}</span>
+    </div>` : ''}`;
 }
 
 function renderViewerNav() {
