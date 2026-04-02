@@ -23229,8 +23229,8 @@
         },
         {
           "page": 4,
-          "transcription": "25. II. 35 - 23. XI. 36\n\nTHE\n“FEATHERWEIGHT”\nBOOKS\n\nKNOWN THE WORLD OVER\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
-          "notes": "Rückseite der Titelseite (durchscheinend).",
+          "transcription": "",
+          "notes": "Durchscheinende Schrift von der Vorderseite, kein eigener Text auf dieser Seite.",
           "type": "content"
         },
         {
@@ -23245,9 +23245,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 457,
-        "emptyPages": 0,
-        "avgCharsPerPage": 91,
+        "totalChars": 276,
+        "emptyPages": 1,
+        "avgCharsPerPage": 69,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -23281,7 +23281,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          4
+        ],
+        "reviewed_by": "Christopher Pollin",
+        "reviewed_at": "2026-04-02T11:36:49.897928+00:00"
+      }
     },
     {
       "id": "o_szd.195_gemini-3.1-flash-lite-preview",

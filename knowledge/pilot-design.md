@@ -11,7 +11,7 @@ related:
 ---
 
 > **Historisches Dokument.** Dieses Design wurde nicht ausgefuehrt. Stattdessen wurden zwei empirische Evaluationen durchgefuehrt, die dieselben Fragen beantworten:
-> - **27-Objekt-Konsensus-Validierung** ([[verification-concept]] §4.7): CER + word_overlap, 4-Tier-Klassifikation.
+> - **27-Objekt-Modellkonsensus-Validierung** ([[verification-concept]] §4.7): CER + word_overlap, 4-Tier-Klassifikation.
 > - **18-Objekt-GT-Pipeline** ([[verification-concept]] §7.1): 3-Modell-Merge, 46 Content-Seiten, Expert-Review.
 >
 > Das Design bleibt als Referenz fuer die Sampling-Kriterien und Eskalationsschwellen erhalten.

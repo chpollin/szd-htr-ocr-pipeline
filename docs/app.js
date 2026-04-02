@@ -6,6 +6,7 @@
 const ITEMS_PER_PAGE = 50;
 const GAMS_BASE = 'https://gams.uni-graz.at/';
 const SEARCH_DEBOUNCE_MS = 150;
+const LLM_ICON = '<span class="llm-sparkle">\u2726</span>';
 
 const COLLECTION_LABELS = {
   lebensdokumente: 'Lebensdokumente',
@@ -33,7 +34,13 @@ const PROMPT_INFO = {
 
 const CONSENSUS_SHORT = { consensus_verified: 'Verifiz.', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
 const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
-const CONSENSUS_TOOLTIPS = { consensus_verified: 'Konsensus: verifiziert', consensus_moderate: 'Konsensus: moderat', consensus_review: 'Konsensus: Review', consensus_divergent: 'Konsensus: divergent' };
+// ↑ Modellkonsensus = automatischer Cross-Model-Vergleich (2 VLMs transkribieren unabhaengig, Uebereinstimmung wird gemessen)
+const CONSENSUS_TOOLTIPS = {
+  consensus_verified: 'Modellkonsensus: 2 VLMs stimmen \u00fcberein (CER < 3%)',
+  consensus_moderate: 'Modellkonsensus: kleine Abweichungen zwischen 2 VLMs (CER < 10%)',
+  consensus_review: 'Modellkonsensus: gr\u00f6\u00dfere Abweichungen zwischen 2 VLMs \u2014 manuelle Pr\u00fcfung empfohlen',
+  consensus_divergent: 'Modellkonsensus: 2 VLMs lesen fundamental Verschiedenes \u2014 Pr\u00fcfung n\u00f6tig'
+};
 
 /* ===== State ===== */
 
@@ -52,7 +59,6 @@ const state = {
   filterGroup: '',
   filterConfidence: '',
   filterReviewStatus: '',
-  filterConsensus: '',
   editMode: false,
   diffMode: false,
   gtReviewMode: false,
@@ -223,7 +229,6 @@ function buildCatalogHash() {
   if (state.filterGroup) params.set('group', state.filterGroup);
   if (state.filterConfidence) params.set('confidence', state.filterConfidence);
   if (state.filterReviewStatus) params.set('review_status', state.filterReviewStatus);
-  if (state.filterConsensus) params.set('consensus', state.filterConsensus);
   if (state.searchQuery) params.set('q', state.searchQuery);
   if (state.sortField !== 'collection') params.set('sort', state.sortField);
   if (!state.sortAsc) params.set('asc', '0');
@@ -241,7 +246,6 @@ function parseCatalogParams(hash) {
   if (params.has('confidence')) state.filterConfidence = params.get('confidence');
   if (params.has('review_status')) state.filterReviewStatus = params.get('review_status');
   if (params.get('review') === '1') state.filterReviewStatus = 'needs_review';
-  if (params.has('consensus')) state.filterConsensus = params.get('consensus');
   if (params.has('q')) state.searchQuery = params.get('q');
   if (params.has('sort')) state.sortField = params.get('sort');
   if (params.has('asc')) state.sortAsc = params.get('asc') !== '0';
@@ -255,7 +259,12 @@ function restoreFilterUI() {
   document.getElementById('filterGroup').value = state.filterGroup;
   document.getElementById('filterConfidence').value = state.filterConfidence;
   document.getElementById('filterReviewStatus').value = state.filterReviewStatus;
-  document.getElementById('filterConsensus').value = state.filterConsensus;
+  // Highlight active selects
+  for (const id of ['filterCollection', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+    const el = document.getElementById(id);
+    el.classList.toggle('catalog__filter--active', !!el.value);
+  }
+  renderActiveFilters();
 }
 
 function updateCatalogURL() {
@@ -542,22 +551,22 @@ async function showAbout() {
 /* ===== Review / Quality Signals ===== */
 
 function renderReviewCell(obj) {
-  // Tier 0: GT verified (highest)
+  // Tier 0: GT verified (highest) — human
   if (obj.gtVerified) {
-    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth verifiziert">GT \u2713</span>';
+    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Von einem Experten manuell verifiziert">GT \u2713</span>';
   }
-  // Tier 1: Human expert approved (pipeline or local)
+  // Tier 1: Human expert approved — human
   if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
-    return '<span class="badge-review badge-review-approved" data-tooltip="Human-Expert hat verifiziert">Gepr\u00fcft</span>';
+    return '<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
   }
   if (obj.needsReview === undefined) return '';
-  // Tier 2: Quality signals flagged problems
+  // Tier 2: Quality signals flagged problems — automatic
   if (obj.needsReview) {
-    const reasons = (obj.needsReviewReasons || []).join(', ') || 'quality_signals hat Probleme erkannt';
-    return `<span class="badge-review badge-review-yes" data-tooltip="${escapeHtml(reasons)}">Review</span>`;
+    const reasons = (obj.needsReviewReasons || []).join(', ') || 'Automatische Qualit\u00e4tssignale haben Probleme erkannt';
+    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch erkannt: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
   }
-  // Tier 3: Machine says OK, no human check
-  return '<span class="badge-review badge-review-llm-ok" data-tooltip="LLM-Transkription ohne manuelle Pr\u00fcfung">LLM OK</span>';
+  // Tier 3: Machine says OK, no human check — automatic
+  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Automatisch: Qualit\u00e4tssignale ohne Befund, keine manuelle Pr\u00fcfung">LLM OK${LLM_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -569,27 +578,26 @@ function renderQualityCell(v, confidence, obj) {
 
   let markerHtml;
   if (total === 0) {
-    markerHtml = '<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine unsicheren Stellen im Text">—</span>';
+    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine [?] oder [...] Marker im VLM-Output">\u2014${LLM_ICON}</span>`;
   } else {
     const parts = [];
     if (uncertain > 0) parts.push(`${uncertain}\u00d7 [?]`);
     if (illegible > 0) parts.push(`${illegible}\u00d7 [...]`);
     const cls = total >= 3 ? 'badge-markers-many' : 'badge-markers-some';
-    const tooltip = parts.join(', ') + ` in ${v.totalChars || '?'} Zeichen`;
-    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="${tooltip}">${parts.join(', ')}</span>`;
+    const tooltip = `VLM-Unsicherheitsmarker: ${parts.join(', ')} in ${v.totalChars || '?'} Zeichen`;
+    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="${tooltip}">${parts.join(', ')}${LLM_ICON}</span>`;
   }
 
-  const vlmTooltip = 'VLM-Selbsteinschätzung (schwaches Signal)';
   const vlmHtml = confidence
-    ? ` <span class="badge badge-vlm" data-tooltip="${vlmTooltip}">${confidence}</span>`
+    ? ` <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung (schwach \u2014 LLMs \u00fcbersch\u00e4tzen systematisch)">${confidence}${LLM_ICON}</span>`
     : '';
 
-  // Consensus badge
+  // Modellkonsensus badge
   let consHtml = '';
   if (obj && obj.consensusCategory) {
     const cat = obj.consensusCategory;
     const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}</span>`;
+    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}${LLM_ICON}</span>`;
   }
 
   return markerHtml + vlmHtml + consHtml;
@@ -657,7 +665,7 @@ function renderStats() {
     ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
     : '';
   const consensusChip = consensusCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--consensus"><strong>${consensusCount}</strong> Konsensus</span>`
+    ? `<span class="catalog__stats-chip catalog__stats-chip--consensus"><strong>${consensusCount}</strong> Modellkonsensus</span>`
     : '';
 
   // Detail section: groups
@@ -701,7 +709,7 @@ function renderStats() {
     const cats = Object.entries(consCatDist).map(([cat, n]) =>
       `<span class="catalog__stats-bar-item"><strong>${n}</strong> ${CONSENSUS_LABELS[cat] || cat}</span>`
     ).join('');
-    consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Konsensus</span>${cats}`;
+    consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Modellkonsensus</span>${cats}`;
   }
 
   el.innerHTML = `
@@ -728,7 +736,7 @@ function renderStats() {
         <div class="catalog__stats-bar">${reviewItems}${dwrItem ? ` ${dwrItem}` : ''}</div>
       </div>` : ''}
       ${consItems ? `<div class="catalog__stats-section">
-        <div class="catalog__stats-section-label">Konsensus-Verifikation</div>
+        <div class="catalog__stats-section-label">Modellkonsensus (Cross-Model)</div>
         <div class="catalog__stats-bar">${consItems}</div>
       </div>` : ''}
     </div>`;
@@ -757,13 +765,6 @@ function applyFilters() {
       list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved');
     } else if (state.filterReviewStatus === 'needs_review') {
       list = list.filter(o => o.needsReview);
-    }
-  }
-  if (state.filterConsensus) {
-    if (state.filterConsensus === 'none') {
-      list = list.filter(o => !o.consensusCategory);
-    } else {
-      list = list.filter(o => o.consensusCategory === state.filterConsensus);
     }
   }
   if (state.searchQuery) {
@@ -858,13 +859,15 @@ function renderCatalog() {
   // Update group filter options based on current visible data
   updateGroupFilter();
 
-  // Show review/consensus filters only if data supports them
+  // Show review filter only if data supports it
   document.getElementById('filterReviewStatus').style.display = state.hasReviewData ? '' : 'none';
-  document.getElementById('filterConsensus').style.display = state.hasConsensusData ? '' : 'none';
 
-  // Show/hide clear button
-  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReviewStatus || state.filterConsensus;
-  document.getElementById('clearFilters').style.display = hasFilters ? '' : 'none';
+  // Highlight active selects + render filter chips
+  for (const id of ['filterCollection', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+    const el = document.getElementById(id);
+    el.classList.toggle('catalog__filter--active', !!el.value);
+  }
+  renderActiveFilters();
 
   // Sort indicators
   document.querySelectorAll('.catalog__table th[data-sort]').forEach(th => {
@@ -882,6 +885,40 @@ function renderCatalog() {
   });
 
   updateCatalogURL();
+}
+
+const REVIEW_STATUS_LABELS = { human_verified: 'Gepr\u00fcft', llm_ok: 'LLM OK', needs_review: 'Needs Review' };
+
+function renderActiveFilters() {
+  const el = document.getElementById('activeFilters');
+  if (!el) return;
+  const chips = [];
+  if (state.searchQuery) {
+    chips.push({ key: 'search', label: `\u201E${state.searchQuery}\u201C` });
+  }
+  if (state.filterCollection) {
+    chips.push({ key: 'collection', label: COLLECTION_LABELS[state.filterCollection] || state.filterCollection });
+  }
+  if (state.filterGroup) {
+    chips.push({ key: 'group', label: state.filterGroup });
+  }
+  if (state.filterConfidence) {
+    chips.push({ key: 'confidence', label: state.filterConfidence });
+  }
+  if (state.filterReviewStatus) {
+    chips.push({ key: 'reviewStatus', label: REVIEW_STATUS_LABELS[state.filterReviewStatus] || state.filterReviewStatus });
+  }
+  if (chips.length === 0) {
+    el.innerHTML = '';
+    return;
+  }
+  let html = chips.map(c =>
+    `<button type="button" class="catalog__filter-chip" data-filter="${c.key}" title="Filter entfernen">${escapeHtml(c.label)} <span class="catalog__filter-chip-x">\u00d7</span></button>`
+  ).join('');
+  if (chips.length > 1) {
+    html += `<button type="button" class="catalog__filter-chip catalog__filter-chip--reset" data-filter="reset-all" title="Alle Filter zur\u00fccksetzen">Alle zur\u00fccksetzen</button>`;
+  }
+  el.innerHTML = html;
 }
 
 function initCatalogFilters() {
@@ -978,7 +1015,7 @@ function renderViewerContext(obj) {
   }
 
   // VLM confidence
-  qualItems.push(`<span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung: Das Modell bewertet seine eigene Transkription. LLMs \u00fcbersch\u00e4tzen systematisch \u2014 schwaches Signal.">${obj.confidence || '?'}</span>`);
+  qualItems.push(`<span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung (schwach \u2014 LLMs \u00fcbersch\u00e4tzen systematisch)">${obj.confidence || '?'}${LLM_ICON}</span>`);
 
   // Markers
   if (uncertain > 0 || illegible > 0) {
@@ -993,7 +1030,7 @@ function renderViewerContext(obj) {
   if (qs?.dwr_score > 0) {
     const pct = Math.round(qs.dwr_score * 100);
     const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
-    qualItems.push(`<span class="badge ${cls}" data-tooltip="Dictionary Word Ratio: ${pct}% der W\u00f6rter im W\u00f6rterbuch. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%</span>`);
+    qualItems.push(`<span class="badge ${cls} llm-generated" data-tooltip="Dictionary Word Ratio: ${pct}% der W\u00f6rter aus der LLM-Transkription finden sich im W\u00f6rterbuch. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%</span>`);
   }
 
   // Volume
@@ -1013,7 +1050,7 @@ function renderViewerContext(obj) {
     const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
     const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
     const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = `<span class="badge badge-consensus ${cls}">Konsensus: ${catLabel} \u00b7 ${cerPct}%</span>`;
+    consHtml = `<span class="badge badge-consensus ${cls} llm-generated" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || ''}">Modellkonsensus: ${catLabel} \u00b7 ${cerPct}%</span>`;
   }
 
   // Review info
@@ -1026,8 +1063,8 @@ function renderViewerContext(obj) {
   let notesHtml = '';
   if (pageNotes || confNotes) {
     const parts = [];
-    if (pageNotes) parts.push(`<span data-tooltip="VLM-Beschreibung dieser Seite">${escapeHtml(pageNotes)}</span>`);
-    if (confNotes && confNotes !== pageNotes) parts.push(`<span data-tooltip="VLM-Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}</span>`);
+    if (pageNotes) parts.push(`<span class="llm-generated" data-tooltip="Vom VLM generierte Beschreibung dieser Seite">${escapeHtml(pageNotes)}</span>`);
+    if (confNotes && confNotes !== pageNotes) parts.push(`<span class="llm-generated" data-tooltip="Vom VLM generierte Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}</span>`);
     notesHtml = `<div class="viewer__ctx-notes">${parts.join(' \u2014 ')}</div>`;
   }
 
@@ -1296,10 +1333,10 @@ function updateEditButtons() {
       const agrPct = Math.round((1 - (consensus.effective_cer || 0)) * 100);
       const catShort = (consensus.category || '').replace('consensus_', '');
       diffBtn.innerHTML = `&#8700; Diff <span class="diff-btn__status diff-btn__status--${catShort}">${agrPct}%</span>`;
-      diffBtn.dataset.tooltip = `Konsensus: ${CONSENSUS_LABELS[consensus.category] || catShort} \u00b7 CER ${cerPct}%`;
+      diffBtn.dataset.tooltip = `Modellkonsensus: ${CONSENSUS_LABELS[consensus.category] || catShort} \u00b7 CER ${cerPct}%`;
     } else {
       diffBtn.innerHTML = '&#8700; Diff';
-      diffBtn.dataset.tooltip = 'Kein Konsensus-Vergleich verf\u00fcgbar';
+      diffBtn.dataset.tooltip = 'Kein Modellkonsensus-Vergleich verf\u00fcgbar';
     }
   }
 
@@ -1583,7 +1620,7 @@ function renderDiffView() {
 
   const consensus = getConsensusData(state.currentObjectId);
   if (!consensus || !consensus.pages) {
-    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Kein Konsensus-Vergleich für dieses Objekt verfügbar.</div>';
+    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Kein Modellkonsensus-Vergleich für dieses Objekt verfügbar.</div>';
     if (diffStats) diffStats.innerHTML = '';
     return;
   }
@@ -1809,7 +1846,7 @@ function renderGtReview() {
     : source === 'majority_2of3' ? 'gt-source--majority'
     : source === 'skipped' ? 'gt-source--skipped'
     : 'gt-source--pro';
-  const sourceLabel = source === 'consensus_3of3' ? '3/3 Konsensus'
+  const sourceLabel = source === 'consensus_3of3' ? '3/3 Modellkonsensus'
     : source === 'majority_2of3' ? '2/3 Mehrheit'
     : source === 'skipped' ? 'Uebersprungen'
     : 'Pro only';
@@ -1818,7 +1855,7 @@ function renderGtReview() {
   const stats = gt.merge_stats || {};
   diffStats.innerHTML = `<span class="gt-review-panel__source ${sourceClass}">${sourceLabel}</span>
     <span style="font-size:0.72rem;margin-left:0.5rem">
-      ${stats.consensus_3of3 || 0} Konsensus · ${stats.majority_2of3 || 0} Mehrheit · ${stats.pro_only || 0} Pro · ${stats.skipped || 0} Skip
+      ${stats.consensus_3of3 || 0} Modellkonsensus · ${stats.majority_2of3 || 0} Mehrheit · ${stats.pro_only || 0} Pro · ${stats.skipped || 0} Skip
     </span>`;
 
   if (source === 'skipped') {
@@ -1997,19 +2034,28 @@ function initEvents() {
     renderCatalog();
   });
 
-  document.getElementById('filterConsensus').addEventListener('change', e => {
-    state.filterConsensus = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('clearFilters').addEventListener('click', () => {
-    state.searchQuery = '';
-    state.filterCollection = '';
-    state.filterGroup = '';
-    state.filterConfidence = '';
-    state.filterReviewStatus = '';
-    state.filterConsensus = '';
+  // Active filter chips: delegate click for remove/reset
+  document.getElementById('activeFilters').addEventListener('click', e => {
+    const chip = e.target.closest('.catalog__filter-chip');
+    if (!chip) return;
+    const key = chip.dataset.filter;
+    if (key === 'reset-all') {
+      state.searchQuery = '';
+      state.filterCollection = '';
+      state.filterGroup = '';
+      state.filterConfidence = '';
+      state.filterReviewStatus = '';
+    } else if (key === 'search') {
+      state.searchQuery = '';
+    } else if (key === 'collection') {
+      state.filterCollection = '';
+    } else if (key === 'group') {
+      state.filterGroup = '';
+    } else if (key === 'confidence') {
+      state.filterConfidence = '';
+    } else if (key === 'reviewStatus') {
+      state.filterReviewStatus = '';
+    }
     state.catalogPage = 0;
     restoreFilterUI();
     renderCatalog();

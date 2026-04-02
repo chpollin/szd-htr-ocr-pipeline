@@ -1,8 +1,12 @@
-"""Multi-Model-Konsensus-Verifikation für SZD-HTR.
+"""Modellkonsensus-Verifikation fuer SZD-HTR.
 
-Verifiziert existierende Transkriptionen (Gemini Flash Lite) durch:
-- Modell B: Gemini 3 Flash (unabhängige Zweittranskription)
-- Judge: Claude Code Subagent mit Vision (manuell, nicht in diesem Skript)
+Automatischer Cross-Model-Vergleich: 2 VLMs transkribieren dasselbe Faksimile
+unabhaengig voneinander, die Uebereinstimmung wird zeichenweise (CER) und
+wortweise (Jaccard Word Overlap) gemessen.
+
+- Modell A: Gemini 3.1 Flash Lite (primaere Pipeline-Transkription)
+- Modell B: Gemini 3 Flash (unabhaengige Zweittranskription)
+- Optional Judge: Claude (manuell, nicht in diesem Skript)
 
 Basiert auf Zhang et al. 2025 (Consensus Entropy, ICLR 2026).
 Siehe knowledge/verification-concept.md §7.
@@ -256,7 +260,7 @@ def verify_object(
     out_path = out_dir / f"{object_id}_consensus.json"
 
     if out_path.exists() and not force:
-        print(f"  Konsensus existiert bereits: {out_path.name}")
+        print(f"  Modellkonsensus existiert bereits: {out_path.name}")
         return json.loads(out_path.read_text(encoding="utf-8"))
 
     # Load existing result (Model A)
@@ -362,7 +366,7 @@ def select_sample(n_per_group: int = 3) -> list[dict]:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="SZD-HTR: Multi-Model-Konsensus-Verifikation",
+        description="SZD-HTR: Modellkonsensus-Verifikation",
     )
     parser.add_argument("object_id", nargs="?", help="Object-ID (z.B. o_szd.161)")
     parser.add_argument("--collection", "-c", choices=list(COLLECTIONS.keys()))
@@ -404,7 +408,7 @@ def main():
         return
 
     # Run verification
-    print(f"Starte Konsensus-Verifikation: {len(sample)} Objekte, Modell B: {VERIFY_MODEL}")
+    print(f"Starte Modellkonsensus-Verifikation: {len(sample)} Objekte, Modell B: {VERIFY_MODEL}")
     print("=" * 60)
 
     results = {"verified": 0, "moderate": 0, "review": 0, "divergent": 0, "failed": 0}
@@ -426,7 +430,7 @@ def main():
     total = sum(results.values())
     if total > 0:
         verified_pct = results.get("verified", 0) / total * 100
-        print(f"Konsensus-Rate: {verified_pct:.0f}% consensus_verified")
+        print(f"Modellkonsensus-Rate: {verified_pct:.0f}% consensus_verified")
 
 
 if __name__ == "__main__":

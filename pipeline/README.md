@@ -29,7 +29,7 @@ Dreischichtiges Prompt-System für die VLM-Transkription:
 | Script | Funktion |
 |---|---|
 | `transcribe.py` | Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus mit Rate-Limit-Retry |
-| `verify.py` | Multi-Model-Konsensus: Gemini Flash Lite + Flash 3 + Claude Judge |
+| `verify.py` | Modellkonsensus: Gemini Flash Lite + Flash 3 + Claude Judge |
 | `quality_signals.py` | 8 Qualitaetssignale + Leerseiten-Klassifikation + DWR (v1.2) |
 | `evaluate.py` | CER/WER-Berechnung mit Normalisierung (annotation-protocol.md §5) |
 | `quality_report.py` | Aggregierte Statistiken pro Gruppe/Sammlung (CLI + JSON) |

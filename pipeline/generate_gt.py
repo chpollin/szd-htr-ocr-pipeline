@@ -1,13 +1,13 @@
-"""Ground-Truth-Erzeugung: 3-Modell-Konsensus + Expert-Review-Draft.
+"""Ground-Truth-Erzeugung: 3-Modell-Merge (Modellkonsensus) + Expert-Review-Draft.
 
 Transkribiert GT-Objekte mit Gemini 3.1 Pro, vergleicht mit Flash Lite
-(existierend) und Flash (aus Konsensus), erzeugt merged GT-Draft fuer
+(existierend) und Flash (aus Modellkonsensus), erzeugt merged GT-Draft fuer
 Expert-Review im Frontend.
 
 Workflow:
   1. Gemini Pro transkribiert (3. Modell)
   2. Vergleich aller 3 Transkriptionen pro Seite
-  3. Merge: 3/3 Konsensus → auto, 2/3 Mehrheit → Mehrheit, sonst Pro
+  3. Merge: 3/3 Modellkonsensus → auto, 2/3 Mehrheit → Mehrheit, sonst Pro
   4. GT-Draft in results/groundtruth/{object_id}_gt_draft.json
   5. Expert reviewed im Frontend → _gt.json (expert_verified: true)
 """
@@ -207,7 +207,7 @@ def generate_gt_for_object(
     # Load Model B (Flash) from consensus
     pages_b = load_flash_from_consensus(object_id, collection)
     if pages_b is None:
-        print(f"  WARNUNG: Kein Konsensus fuer {object_id}, nur A+C")
+        print(f"  WARNUNG: Kein Modellkonsensus fuer {object_id}, nur A+C")
         pages_b = [""] * n_pages
 
     # Transcribe with Model C (Pro)
@@ -293,7 +293,7 @@ def generate_gt_for_object(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="SZD-HTR: Ground-Truth-Erzeugung mit 3-Modell-Konsensus",
+        description="SZD-HTR: Ground-Truth-Erzeugung mit 3-Modell-Konsensus (Modellkonsensus)",
     )
     parser.add_argument("--force", "-f", action="store_true",
                         help="Bestehende GT-Drafts ueberschreiben")

@@ -24,7 +24,7 @@ Die Pipeline hat 601 Objekte transkribiert (Stand Session 14, 2026-04-02), davon
 
 **Empirischer Befund (Stand Session 8):** Die Gruppen-Prompts weisen das Modell explizit an, bei Kurrent-Ambiguitaeten (e/n, s/f) Unsicherheitsmarker zu setzen. Ergebnis: Null Marker bei 6.711 Zeichen Kurrent-Handschrift (o_szd.72). Die Vorsichts-Guidance in den Prompts wird faktisch ignoriert. Strukturelle Guidance (Briefformat bei Korrespondenz) wird hingegen befolgt. Die quality_signals flaggen aktuell 10/16 Objekte (63%) als `needs_review` — das ist zu viel fuer effektive Triage und zeigt, dass die Schwellenwerte vor Kalibrierung zu aggressiv sind.
 
-**Empirischer Befund (Stand Session 14):** quality_signals v1.4 aktiv (8 Signale + page.type + DWR). 27-Objekt-Konsensus-Validierung mit verbesserter Metrik (word_overlap + 4-Tier-Klassifikation) abgeschlossen. 18-Objekt-GT-Pipeline mit 3-Modell-Merge (Flash Lite + Flash + Pro) laeuft. Bleed-Through als neues Fehlermuster identifiziert und im System-Prompt adressiert (Regel 9).
+**Empirischer Befund (Stand Session 14):** quality_signals v1.4 aktiv (8 Signale + page.type + DWR). 27-Objekt-Modellkonsensus-Validierung mit verbesserter Metrik (word_overlap + 4-Tier-Klassifikation) abgeschlossen. 18-Objekt-GT-Pipeline mit 3-Modell-Merge (Flash Lite + Flash + Pro) laeuft. Bleed-Through als neues Fehlermuster identifiziert und im System-Prompt adressiert (Regel 9).
 
 Daraus ergeben sich drei Probleme, die dieses Dokument adressiert:
 1. Es gibt keine Ground Truth, um die tatsaechliche Fehlerrate zu messen.
@@ -317,7 +317,7 @@ Crosilla et al. (CRO25) und Diez Garcia et al. (DIE25, nur Abstract verifiziert)
 
 **Implikation fuer SZD-HTR:** Der Provider-Vergleich (Phase 4) sollte nicht nur VLMs untereinander vergleichen, sondern auch Transkribus als Baseline einbeziehen — zumindest auf dem Ground-Truth-Sample. Es ist nicht ausgemacht, dass VLMs fuer alle Dokumentgruppen die beste Wahl sind.
 
-### Befund 7: Multi-VLM-Konsensus als GT-freier Qualitaetsproxy (2025-2026)
+### Befund 7: Multi-VLM-Modellkonsensus als GT-freier Qualitaetsproxy (2025-2026)
 
 Drei juengere Arbeiten zeigen, dass Multi-Modell-Agreement ein starkes, GT-freies Qualitaetssignal liefert:
 
@@ -327,7 +327,7 @@ Drei juengere Arbeiten zeigen, dass Multi-Modell-Agreement ein starkes, GT-freie
 
 **Beyene & Dancy (BEY26, 2026):** Unsupervised Evaluation Framework fuer historische Digitalisate ohne GT. Drei Metriken: Semantic Coherence Score (SCS, Woerterbuch-Wortanteil pro Textregion), Region Entropy Divergence (RED, N-Gram-Diversitaet als Kohaerenzindikator), Textual Redundancy Score (TRS, Strafterm fuer wiederholten Text ueber Regionen).
 
-**Implikation fuer SZD-HTR:** Der 3-Modell-Konsensus-Ansatz ist wissenschaftlich fundiert und direkt umsetzbar:
+**Implikation fuer SZD-HTR:** Der 3-Modell-Modellkonsensus-Ansatz ist wissenschaftlich fundiert und direkt umsetzbar:
 
 1. **Gemini 3.1 Flash Lite** (bisheriger Ersttranskriptor, guenstig)
 2. **Gemini 3.1 Flash** (staerkeres Modell, unabhaengige Zweittranskription)
@@ -335,13 +335,13 @@ Drei juengere Arbeiten zeigen, dass Multi-Modell-Agreement ein starkes, GT-freie
 
 Bei hohem Agreement aller drei Modelle kann die Transkription als **automatisch generiertes Ground Truth** akzeptiert werden (Ensemble Agreement Error Rate ~2-6%, vgl. LLM-Generated GT Literatur). Bei Divergenz wird das Objekt fuer manuellen Review geflaggt. Dieser Ansatz reduziert den manuellen GT-Aufwand drastisch: Statt 30 Objekte vollstaendig manuell zu transkribieren, werden nur die ~7-15% Divergenz-Faelle manuell geprueft.
 
-**Abgrenzung zu Abschnitt 4 (Cross-Model-Verification):** Abschnitt 4 beschreibt Doppeltranskription als Qualitaetssignal. Der Konsensus-Ansatz geht weiter: Er nutzt drei Modelle + eine Judge-Rolle und akzeptiert bei Konsens automatisch als GT. Das ist eine staerkere Behauptung, die durch ZHA25 und RCO26 gestuetzt wird, aber am eigenen Corpus validiert werden muss.
+**Abgrenzung zu Abschnitt 4 (Cross-Model-Verification):** Abschnitt 4 beschreibt Doppeltranskription als Qualitaetssignal. Der Modellkonsensus-Ansatz geht weiter: Er nutzt drei Modelle + eine Judge-Rolle und akzeptiert bei Konsens automatisch als GT. Das ist eine staerkere Behauptung, die durch ZHA25 und RCO26 gestuetzt wird, aber am eigenen Corpus validiert werden muss.
 
 ### 7.1 Empirische Umsetzung: GT-Pipeline (Session 14)
 
 **Architektur (implementiert in `pipeline/generate_gt.py`):**
 - Modell A: Gemini 3.1 Flash Lite (existierende Transkription)
-- Modell B: Gemini 3 Flash (aus Konsensus-Verifikation)
+- Modell B: Gemini 3 Flash (aus Modellkonsensus-Verifikation)
 - Modell C: Gemini 3.1 Pro (staerkstes Modell, via API)
 - Expert: Mensch im Frontend (Review + Approval)
 
@@ -360,7 +360,7 @@ Bei hohem Agreement aller drei Modelle kann die Transkription als **automatisch 
 
 76% der Content-Seiten haben mindestens 2/3-Uebereinstimmung. Der Expert-Review-Aufwand konzentriert sich auf die 11 pro_only-Seiten.
 
-**Kosten:** 18 API-Calls mit Gemini Pro (ca. $3-5). Gesamt inkl. Flash-Konsensus: ca. $8-12.
+**Kosten:** 18 API-Calls mit Gemini Pro (ca. $3-5). Gesamt inkl. Flash-Modellkonsensus: ca. $8-12.
 
 **Frontend-Integration:** GT Review-Modus im Viewer mit 3-Varianten-Ansicht, Source-Badges pro Seite, Approve-Workflow. Expert-Reviewed-GT wird als `{object_id}_gt.json` exportiert.
 
@@ -692,7 +692,7 @@ Basierend auf den Benchmark-Daten (Stand der Forschung):
 
 Empfehlung: **Claude Sonnet** als zweites Modell neben Gemini Flash Lite. Begruendung: Maximale Diversitaet (anderer Anbieter, anderes Training), starke Baseline auf modernen und historischen Dokumenten, moderate Kosten. GPT-4o-mini als guenstige Alternative, falls Budget relevant.
 
-### 4.7 Empirische Ergebnisse: Konsensus-Validierung (Session 14)
+### 4.7 Empirische Ergebnisse: Modellkonsensus-Validierung (Session 14)
 
 **Durchfuehrung:** 27 Objekte, stratifiziert (3 pro Gruppe), mit `verify.py --sample 3 --force`. Modell A: Gemini Flash Lite, Modell B: Gemini 3 Flash. Neue Metriken: `effective_cer` (Minimum aus ordered/orderless CER) + `word_overlap` (Jaccard auf Wortmengen, order-invariant).
 
@@ -852,7 +852,9 @@ Vollstaendige Spezifikation: [[verification-by-vision]]
 
 ---
 
-## 7. Multi-Model-Konsensus (LLM-as-Judge)
+## 7. Modellkonsensus (LLM-as-Judge)
+
+> **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles. Zwei verschiedene Modelle (Gemini Flash Lite + Gemini Flash) transkribieren dasselbe Bild getrennt; die Uebereinstimmung wird zeichenweise (CER = Character Error Rate) und wortweise (Jaccard Word Overlap) gemessen. Wo die Modelle uebereinstimmen, ist die Transkription mit hoher Wahrscheinlichkeit korrekt. Wo sie divergieren, markiert das automatisch Stellen fuer menschliche Pruefung. Das Ergebnis wird in 4 Stufen klassifiziert: `consensus_verified` (CER < 3%), `consensus_moderate` (CER < 10%), `consensus_review` (Overlap >= 75%), `consensus_divergent` (Overlap < 75%).
 
 ### 7.1 Motivation
 
@@ -861,7 +863,7 @@ Die bisherigen Verifikationsansaetze (quality_signals, Cross-Model, VbV) haben j
 - **Cross-Model** (Abschnitt 4) vergleicht zwei Transkriptionen, aber ohne Judge-Rolle
 - **VbV** (Abschnitt 6) prueft Bild↔Text, aber nur stichprobenartig
 
-Der Multi-Model-Konsensus kombiniert alle drei Dimensionen und fuegt eine **Judge-Rolle** hinzu, die methodisch dem LLM-as-a-Judge-Paradigma (Gu et al. 2025, arXiv:2411.15594) folgt.
+Der Modellkonsensus kombiniert alle drei Dimensionen und fuegt eine **Judge-Rolle** hinzu, die methodisch dem LLM-as-a-Judge-Paradigma (Gu et al. 2025, arXiv:2411.15594) folgt.
 
 ### 7.2 Architektur
 
@@ -876,15 +878,15 @@ Faksimile-Bild
     │
     └──→ Judge: Claude (via Claude Code Subagent mit Vision)
              Eingabe: Bild + Transkription A + Transkription B
-             Ausgabe: Bewertung, korrigierte Version, Konsensus-Score
+             Ausgabe: Bewertung, korrigierte Version, Modellkonsensus-Score
 ```
 
 **Judge-Prompt-Struktur:**
 - Claude sieht das Originalbild UND beide Transkriptionen
 - Aufgabe: Identifiziere Abweichungen, entscheide welche Version korrekt ist, oder markiere Stellen wo beide falsch liegen
-- Output: Konsensus-Transkription + per-Seite-Konfidenz + Fehlerlog
+- Output: Modellkonsensus-Transkription + per-Seite-Konfidenz + Fehlerlog
 
-### 7.3 Konsensus-Kategorien
+### 7.3 Modellkonsensus-Kategorien
 
 | Kategorie | Bedingung | Aktion |
 |---|---|---|
@@ -909,16 +911,16 @@ Faksimile-Bild
 - Claude Code Subagent mit eingebautem Vision liest GAMS-Bilder direkt
 - Gemini 3.1 Flash als Zweittranskriptor (nicht Flash Lite)
 - CER zwischen A↔B, A↔Judge, B↔Judge berechnen
-- Konsensus-Kategorien zuweisen
+- Modellkonsensus-Kategorien zuweisen
 - Ergebnis: Wie viel % der Objekte erreichen `consensus_verified`?
 
 **Phase 2: Skalierung (nur bei Erfolg)**
 - Wenn >70% der Validierungs-Objekte `consensus_verified` erreichen:
-  → Selektive Konsensus-Pruefung fuer alle `needs_review`-Objekte (~44% von 2107)
+  → Selektive Modellkonsensus-Pruefung fuer alle `needs_review`-Objekte (~44% von 2107)
 - Wenn <70%: Rueckfall auf manuelles GT-Sample (Pilot-Design)
 
 **Phase 3: Kalibrierung**
-- Konsensus-verifizierte Objekte als automatisches GT verwenden
+- Modellkonsensus-verifizierte Objekte als automatisches GT verwenden
 - quality_signals-Schwellenwerte gegen dieses GT kalibrieren
 - DWR (Dictionary Word Ratio) und group_text_density validieren
 
@@ -930,11 +932,11 @@ Faksimile-Bild
 | Selektiv (44% von 2107, 2 Extra-Modelle) | ~930 | ~1860 | ~$100-200 |
 | Vollstaendig (alle 2107, 3 Modelle) | 2107 | ~6321 | ~$300-500 |
 
-**Empfehlung:** Validierung zuerst (30 Objekte). Entscheidung ueber Skalierung basiert auf Konsensus-Rate und manueller Stichprobe der Ergebnisse.
+**Empfehlung:** Validierung zuerst (30 Objekte). Entscheidung ueber Skalierung basiert auf Modellkonsensus-Rate und manueller Stichprobe der Ergebnisse.
 
 ### 7.7 Abgrenzungen
 
-- **Konsensus ≠ Wahrheit:** Drei Modelle koennen sich auf denselben Fehler einigen (systematischer Bias). Deshalb ist eine manuelle Stichprobe der `consensus_verified`-Objekte noetig (~5-10 Objekte pruefen).
+- **Modellkonsensus ≠ Wahrheit:** Drei Modelle koennen sich auf denselben Fehler einigen (systematischer Bias). Deshalb ist eine manuelle Stichprobe der `consensus_verified`-Objekte noetig (~5-10 Objekte pruefen).
 - **Judge ist nicht neutral:** Claude hat eigene Biases. Der Judge-Prompt muss instruieren, Abweichungen zu begruenden, nicht einfach "das bessere" auszuwaehlen.
 - **Kosten sind real:** 3 Modelle = ~3x Basiskosten. Nur sinnvoll wenn manuelle GT-Erstellung teurer waere (was bei ~2107 Objekten der Fall ist).
 
@@ -951,21 +953,21 @@ ERLEDIGT:
   ├── quality_report.py: Aggregierte Statistiken
   └── Batch-Transkription laeuft (~360+/2107 Objekte)
 
-NAECHSTER SCHRITT — Multi-Model-Konsensus-Validierung (Abschnitt 7):
+NAECHSTER SCHRITT — Modellkonsensus-Validierung (Abschnitt 7):
   └── 30 Objekte durch 3 Modelle (Flash Lite + Flash + Claude Judge)
         |
-        ├── Konsensus-Rate bestimmen (Ziel: >70% consensus_verified)
+        ├── Modellkonsensus-Rate bestimmen (Ziel: >70% consensus_verified)
         ├── CER zwischen Modellpaaren berechnen
-        ├── Manuelle Stichprobe der Konsensus-Ergebnisse (~5-10 Objekte)
+        ├── Manuelle Stichprobe der Modellkonsensus-Ergebnisse (~5-10 Objekte)
         └── Entscheidung: Automatisches GT akzeptieren?
               |
-              JA (>70% Konsensus):
-              │  ├── quality_signals kalibrieren gegen Konsensus-GT
-              │  ├── Selektive Konsensus-Pruefung fuer needs_review-Objekte
+              JA (>70% Modellkonsensus):
+              │  ├── quality_signals kalibrieren gegen Modellkonsensus-GT
+              │  ├── Selektive Modellkonsensus-Pruefung fuer needs_review-Objekte
               │  ├── DWR + group_text_density validieren
-              │  └── Statistik-Dashboard mit Konsensus-Metriken
+              │  └── Statistik-Dashboard mit Modellkonsensus-Metriken
               │
-              NEIN (<70% Konsensus):
+              NEIN (<70% Modellkonsensus):
                  ├── Manueller Pilot (5 Seiten, pilot-design.md)
                  ├── Manuelles GT-Sample (30 Objekte)
                  └── Klassischer CER-Workflow (Abschnitt 1)

@@ -444,21 +444,59 @@ body.view-help #about { display: none; }
   accent-color: var(--sz-burgundy);
 }
 
-.catalog__clear-btn {
-  padding: 0.4rem 0.7rem;
+.catalog__filter--active {
+  border-color: var(--sz-burgundy);
+  background: rgba(99, 26, 52, 0.04);
+}
+
+.catalog__active-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  min-height: 0;
+}
+
+.catalog__active-filters:empty { display: none; }
+
+.catalog__filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid var(--sz-burgundy-light);
-  border-radius: 4px;
-  background: var(--sz-white);
-  font-size: 0.8125rem;
+  border-radius: 12px;
+  background: rgba(99, 26, 52, 0.06);
+  font-size: 0.75rem;
   color: var(--sz-burgundy);
   cursor: pointer;
   transition: all var(--transition);
-  display: none; /* shown via JS when filters active */
+  white-space: nowrap;
 }
 
-.catalog__clear-btn:hover {
+.catalog__filter-chip:hover {
+  background: rgba(99, 26, 52, 0.14);
   border-color: var(--sz-burgundy);
-  background: rgba(99, 26, 52, 0.05);
+}
+
+.catalog__filter-chip-x {
+  font-size: 0.85em;
+  line-height: 1;
+  opacity: 0.6;
+}
+
+.catalog__filter-chip:hover .catalog__filter-chip-x { opacity: 1; }
+
+.catalog__filter-chip--reset {
+  background: transparent;
+  border-color: var(--sz-border);
+  color: var(--sz-text-light);
+}
+
+.catalog__filter-chip--reset:hover {
+  border-color: var(--sz-burgundy-light);
+  color: var(--sz-burgundy);
+  background: rgba(99, 26, 52, 0.04);
 }
 
 /* Table */
@@ -614,6 +652,13 @@ body.view-help #about { display: none; }
 .agreement-moderate { background: var(--sz-warning); }
 .agreement-low { background: var(--sz-danger); }
 .agreement-skipped { background: var(--sz-text-light); }
+
+/* LLM-generated indicator */
+.llm-sparkle {
+  font-size: 0.7em;
+  opacity: 0.45;
+  margin-left: 0.15em;
+}
 
 /* DWR score badges */
 .badge-dwr-good { background: var(--sz-success-bg); color: var(--sz-success); }
@@ -1369,7 +1414,7 @@ body.view-help #about { display: none; }
   transition: opacity 0.15s ease;
   transition-delay: 0s;
   z-index: 200;
-  max-width: 280px;
+  max-width: 340px;
   white-space: normal;
   text-align: center;
   line-height: 1.4;

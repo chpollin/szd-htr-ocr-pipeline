@@ -73,7 +73,7 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
  ┌──────┼──────────────────────────────┐
  │      ▼                              ▼
  │  verify.py                   build_viewer_data.py
- │  Multi-Model-Konsensus       → catalog.json
+ │  Modellkonsensus       → catalog.json
  │  (Flash Lite + Flash         → data/{collection}.json
  │   + Claude Judge)            → data/knowledge.json
  │      │                       → docs/ Viewer
@@ -110,7 +110,7 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
 
 ## Status
 
-**575 / 2107 Objekte** transkribiert (27%), **3463 / 18719 Seiten** (18%). Quality Signals v1.4 mit Seitentyp-Klassifikation (`content`/`blank`/`color_chart`) und Dictionary Word Ratio (DWR). Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) mit 4-Tier-Klassifikation (verified/moderate/review/divergent). Ground-Truth-Pipeline mit 3-Modell-Merge (18 Objekte, 46 Seiten).
+**575 / 2107 Objekte** transkribiert (27%), **3463 / 18719 Seiten** (18%). Quality Signals v1.4 mit Seitentyp-Klassifikation (`content`/`blank`/`color_chart`) und Dictionary Word Ratio (DWR). Modellkonsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) mit 4-Tier-Klassifikation (verified/moderate/review/divergent). Ground-Truth-Pipeline mit 3-Modell-Merge (18 Objekte, 46 Seiten).
 
 | Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
 |---|---:|---:|---:|---:|---:|---:|
@@ -127,7 +127,7 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 ├── pipeline/
 │   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt + Layout-Prompt
 │   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
-│   ├── verify.py             ← Multi-Model-Konsensus-Verifikation
+│   ├── verify.py             ← Modellkonsensus-Verifikation
 │   ├── generate_gt.py        ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
 │   ├── quality_signals.py    ← 8 Qualitaetssignale + Seitentyp + DWR (v1.4)
 │   ├── evaluate.py           ← CER/WER + word_overlap + normalize_for_consensus
@@ -191,7 +191,7 @@ python pipeline/build_viewer_data.py
 # Qualitaetsreport
 python pipeline/quality_report.py
 
-# Multi-Model-Konsensus (Verifikation)
+# Modellkonsensus (Verifikation)
 python pipeline/verify.py o_szd.100 -c lebensdokumente
 python pipeline/verify.py --sample 3 --dry-run
 

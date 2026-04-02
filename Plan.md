@@ -58,10 +58,10 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ### 4a: Ground Truth
 - [x] CER-Berechnungsscript (`pipeline/evaluate.py`)
-- [x] Konsensus-Metriken v2: `word_overlap()`, `effective_cer`, 4-Tier-Klassifikation (Session 14)
+- [x] Modellkonsensus-Metriken v2: `word_overlap()`, `effective_cer`, 4-Tier-Klassifikation (Session 14)
 - [x] GT-Pipeline: `generate_gt.py` — 3-Modell-Merge (Flash Lite + Flash + Pro), 18 Objekte, 46 Content-Seiten (Session 14)
 - [x] GT-Drafts in `results/groundtruth/` — consensus_3of3 (33%), majority_2of3 (43%), pro_only (24%)
-- [x] Pilot uebersprungen — Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch
+- [x] Pilot uebersprungen — Modellkonsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch
 - [~] **Expert-Review**: 3/18 GT-Objekte verifiziert (o_szd.153, o_szd.137, o_szd.194). 15 ausstehend.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
@@ -73,11 +73,11 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [~] Alle Sammlungen transkribieren (~646/2107 Objekte, 31%). Lebensdokumente 100%.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
-### 4c: Multi-Model-Konsensus & Vergleich
-- [x] `verify.py`: Multi-Model-Konsensus (Flash Lite + Flash + Claude Judge)
-- [x] Konsensus-Validierung: 29 Objekte (3/Gruppe), 4-Tier-Ergebnis: 26% verified, 33% moderate, 15% review, 26% divergent
-- [x] Diff-Ansicht im Viewer (echte Konsensus-Daten, CER, Modell-Namen)
-- [x] Statistik-Dashboard im Frontend (Seiten, Konfidenz, DWR, Konsensus, Review)
+### 4c: Modellkonsensus & Vergleich
+- [x] `verify.py`: Modellkonsensus (Flash Lite + Flash + Claude Judge)
+- [x] Modellkonsensus-Validierung: 29 Objekte (3/Gruppe), 4-Tier-Ergebnis: 26% verified, 33% moderate, 15% review, 26% divergent
+- [x] Diff-Ansicht im Viewer (echte Modellkonsensus-Daten, CER, Modell-Namen)
+- [x] Statistik-Dashboard im Frontend (Seiten, Konfidenz, DWR, Modellkonsensus, Review)
 - [x] GT Review-Modus: 3-Varianten-Panel, Approve, localStorage, JSON-Export
 - [ ] Prompt-Ablation: 3 Varianten × 18 GT-Objekte (nach Expert-Review)
 - [ ] Nondeterminismus-Test: 5 Objekte × 10 Runs
@@ -142,12 +142,12 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-01 | Gezieltes Sample statt voller Batch | 10/Gruppe reicht fuer group_text_density und Gruppenvergleich |
 | 2026-04-01 | quality_signals v1.2: Leerseiten-Klassifikation | VLM erkennt Blanks/Farbskalen in Notes — Post-Processing statt Pre-Filtering |
 | 2026-04-01 | DWR statt PPPL als GT-freie Metrik | Keine schwere Dependency (transformers), wissenschaftlich fundiert (Springmann 2016) |
-| 2026-04-01 | Multi-Model-Konsensus statt manuellem GT | Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell |
+| 2026-04-01 | Modellkonsensus statt manuellem GT | Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell |
 | 2026-04-01 | Gemini 3 Flash als Modell B | Staerker als Flash Lite, gleiche API, kein Provider-Wechsel noetig |
 | 2026-04-02 | word_overlap + effective_cer statt CER-only | CER bestraft Reading-Order-Divergenz unfair; Jaccard auf Wortmengen robust |
-| 2026-04-02 | 4-Tier statt 3-Tier Konsensus | "review" als Zwischenstufe fuer 75-90% word_overlap |
+| 2026-04-02 | 4-Tier statt 3-Tier Modellkonsensus | "review" als Zwischenstufe fuer 75-90% word_overlap |
 | 2026-04-02 | Gemini Pro als 3. GT-Modell | Gleiche API, staerkstes Gemini-Modell, kein Provider-Wechsel |
-| 2026-04-02 | Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch |
+| 2026-04-02 | Pilot uebersprungen | Modellkonsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch |
 | 2026-04-02 | Pre-rendered Markdown statt Client-Side | Null Runtime-Dependencies, Wiki-Links zur Build-Zeit aufgeloest |
 | 2026-04-02 | Chunking statt Downscaling | Volle Bildaufloesung beibehalten, 20 Bilder/Chunk sicher unter API-Limit |
 | 2026-04-02 | Objekt-Prompts als 4. Schicht | Spezialfaelle (Tabellen, Formulare) ohne Gruppen-Prompt-Aenderung loesbar |

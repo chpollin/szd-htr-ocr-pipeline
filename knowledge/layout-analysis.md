@@ -185,7 +185,7 @@ Phase 3c: PAGE XML Export (NEU)
   export_pagexml.py → *_page/page_NNN.xml (merged)
 
 Phase 4: Verifikation
-  verify.py → *_consensus.json (Multi-Model-Konsensus)
+  verify.py → *_consensus.json (Modellkonsensus)
 
 Phase 5: TEI-Export
   export_interchange.py → Interchange JSON → teiCrafter → TEI-XML

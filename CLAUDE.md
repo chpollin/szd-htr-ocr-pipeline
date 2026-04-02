@@ -29,7 +29,7 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 
 - **Alle 9 Prompt-Gruppen** aktiv (A-I), alle getestet
 - **quality_signals v1.4**: 8 Signale + `page.type` als First-Class-Feld auf jedem Page-Objekt (`content`/`blank`/`color_chart`) + DWR (Dictionary Word Ratio). Duplikat-Schwelle gesenkt fuer Halluzinationserkennung. needs_review bei ~41%.
-- **Multi-Model-Konsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. 29 Konsensus-Dateien. Blank-Seiten werden bei CER uebersprungen. Erste Tests: ~5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
+- **Modellkonsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. 29 Modellkonsensus-Dateien. Blank-Seiten werden bei CER uebersprungen. Erste Tests: ~5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
 - **CER/WER-Evaluierung**: `evaluate.py` mit Normalisierung per Annotationsprotokoll, `quality_report.py` fuer Aggregatstatistiken
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
 - **System-Prompt**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
@@ -48,7 +48,7 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 4. **Layout-Analyse ausweiten**: Stratifizierter Test (1 Objekt/Gruppe), dann Batch-Lauf
 5. **TEI-Export**: `export_interchange.py` (Phase 5)
 
-Erledigt (Session 14): Konsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
+Erledigt (Session 14): Modellkonsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
 Erledigt (Session 15): Knowledge Vault im Frontend, Projekt-Seite, README aktualisiert.
 Erledigt (Session 16): Expert-Review Write-Back (`import_reviews.py`), 3-stufiger Review-Status, Katalog-Bereinigung, Color-Chart-Filter, Knowledge Vault Konsolidierung (13 → 11 Docs), Frontmatter vereinheitlicht, Claude Code Banner.
 Erledigt (Session 17): Chunking fuer grosse Objekte, Objekt-Prompts (`prompts/objects/`), lokaler Dev-Server (`serve.py`) mit Review-API, Hauptbuch (249 Bilder) transkribiert, Batch Korrespondenzen.
@@ -120,7 +120,7 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
         ┌───────┼────────────────────┐
         ▼       ▼                    ▼
    verify.py  layout_analysis.py   build_viewer_data.py
-   Konsensus  VLM-Layout (1/Seite) → catalog.json
+   Modellkonsensus  VLM-Layout (1/Seite) → catalog.json
    (3 Modelle) → *_layout.json     → data/{collection}.json
         │               │           → docs/ Viewer
         │               ▼                    │
@@ -172,7 +172,7 @@ szd-htr/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
 │   ├── quality_signals.py           ← 8 Signale + page.type + DWR (v1.4)
-│   ├── verify.py                    ← Multi-Model-Konsensus (Flash Lite + Flash + Claude Judge)
+│   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
 │   ├── backfill_page_types.py       ← Backfill: page.type auf bestehende JSONs stempeln
@@ -191,10 +191,10 @@ szd-htr/
 ├── results/
 │   ├── test/                        ← 7 Legacy-Testergebnisse (nicht im Katalog)
 │   ├── groundtruth/                 ← 18 GT-Drafts + Pro-Transkriptionen
-│   ├── lebensdokumente/             ← 127 Ergebnisse + 18 Konsensus-JSONs
-│   ├── werke/                       ← 54 Ergebnisse + 5 Konsensus-JSONs
-│   ├── aufsatzablage/               ← 115 Ergebnisse + 3 Konsensus-JSONs
-│   └── korrespondenzen/             ← 350 Ergebnisse + 3 Konsensus-JSONs
+│   ├── lebensdokumente/             ← 127 Ergebnisse + 18 Modellkonsensus-JSONs
+│   ├── werke/                       ← 54 Ergebnisse + 5 Modellkonsensus-JSONs
+│   ├── aufsatzablage/               ← 115 Ergebnisse + 3 Modellkonsensus-JSONs
+│   └── korrespondenzen/             ← 350 Ergebnisse + 3 Modellkonsensus-JSONs
 ├── docs/
 │   ├── index.html                   ← SPA: Katalog + Viewer + Knowledge Vault + Projekt
 │   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit, Knowledge
@@ -361,7 +361,7 @@ Optional nach Expert-Review (geschrieben von `import_reviews.py`):
   3. **Textstatistik** (mittel): Zeichenzahl, Leerseiten, Zeichen/Seite als Plausibilitaets-Check
 - **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfuegung.
 - **Bilder direkt von GAMS** im Viewer — kein lokaler Image-Store im Repo, GAMS-URLs als `<img src>`.
-- **Multi-Model-Konsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell. Gemini Flash Lite (Modell A) + Gemini 3 Flash (Modell B), Claude als Judge fuer divergente Faelle.
+- **Modellkonsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell. Gemini Flash Lite (Modell A) + Gemini 3 Flash (Modell B), Claude als Judge fuer divergente Faelle.
 
 ## Verwandte Projekte
 

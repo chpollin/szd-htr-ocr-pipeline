@@ -399,7 +399,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
-## 2026-04-01 — Session 13: Quality Infrastructure, Batch-Lauf, Multi-Model-Konsensus
+## 2026-04-01 — Session 13: Quality Infrastructure, Batch-Lauf, Modellkonsensus
 
 **Schwerpunkt:** Pipeline-Qualitaetsinfrastruktur aufgebaut, parallelen Batch gestartet, Forschung zu GT-freier Qualitaetsbewertung.
 
@@ -422,21 +422,21 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 **Forschung GT-freie Qualitaetsbewertung:**
 - Gemini logprobs: NICHT verfuegbar fuer Flash Lite Preview (getestet, 400 INVALID_ARGUMENT). Verfuegbar fuer gemini-2.0-flash.
 - Aktuellste Literatur recherchiert: Zhang et al. 2025 (Consensus Entropy, ICLR 2026), Risk-Controlled VLM OCR (arXiv 2026), Beyene & Dancy 2026 (Survey)
-- Kernentscheidung: **Multi-Model-Konsensus statt manuellem GT** — 3 Modelle (Flash Lite + Flash + Claude Judge) als automatische GT-Generierung
-- verification-concept.md um Abschnitt 7 (Multi-Model-Konsensus) erweitert
+- Kernentscheidung: **Modellkonsensus statt manuellem GT** — 3 Modelle (Flash Lite + Flash + Claude Judge) als automatische GT-Generierung
+- verification-concept.md um Abschnitt 7 (Modellkonsensus) erweitert
 
 **Entscheidungen:**
 - DWR (Dictionary Word Ratio) als ergaenzendes Signal — einfach, bewaehrt, aber nicht primaer
 - PPPL (Pseudo-Perplexity) auf spaeter verschoben — zu schwere Dependency (transformers+torch)
-- Konsensus-Ansatz als naechster Schritt statt manuellem Pilot
+- Modellkonsensus-Ansatz als naechster Schritt statt manuellem Pilot
 
 ---
 
-## 2026-04-02 — Session 14: Konsensus-Metriken v2, GT-Pipeline, Frontend Review
+## 2026-04-02 — Session 14: Modellkonsensus-Metriken v2, GT-Pipeline, Frontend Review
 
-**Schwerpunkt:** Konsensus-Validierung mit verbesserten Metriken, GT-Erzeugung mit 3 Modellen, Frontend-Erweiterung fuer Expert-Review.
+**Schwerpunkt:** Modellkonsensus-Validierung mit verbesserten Metriken, GT-Erzeugung mit 3 Modellen, Frontend-Erweiterung fuer Expert-Review.
 
-### Konsensus-Metriken v2
+### Modellkonsensus-Metriken v2
 
 - **Problem identifiziert:** Alte CER-only-Metrik produzierte 74% "divergent" — hauptsaechlich wegen Reading-Order-Divergenz (Marginalia, Spalten) und Seiten-Halluzination, nicht wegen Lesefehler.
 - **Neue Metriken in evaluate.py:**
@@ -448,7 +448,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
   - word_overlap >= 0.75 ergibt "review" (neues Zwischenniveau)
 - **Ergebnis (27 Objekte, 3/Gruppe):** 26% verified, 33% moderate, 15% review, 26% divergent (vorher: 11% verified, 74% divergent)
 
-### Kernerkenntnisse aus Konsensus-Analyse
+### Kernerkenntnisse aus Modellkonsensus-Analyse
 
 1. **Reading-Order-Divergenz**: o_szd.142 hat CER 55% aber word_overlap 100% — identische Woerter in anderer Reihenfolge.
 2. **Seiten-Halluzination**: Flash Lite dupliziert gelegentlich Seiten (o_szd.101, Seiten 3/4). quality_signals v1.4: Duplikat-Schwelle 200→50 Zeichen.
@@ -459,10 +459,10 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 ### GT-Pipeline (generate_gt.py)
 
 - 18 Objekte (stratifiziert, 2/Gruppe + 3 Korrespondenzen) mit Gemini 3.1 Pro transkribiert
-- 3-Modell-Merge: Flash Lite (A) + Flash (B, aus Konsensus) + Pro (C)
+- 3-Modell-Merge: Flash Lite (A) + Flash (B, aus Modellkonsensus) + Pro (C)
 - Merge-Logik: consensus_3of3 (CER <2% paarweise) / majority_2of3 (CER <5%) / pro_only
-- **Ergebnis (46 Content-Seiten):** 15 Konsensus (33%), 20 Mehrheit (43%), 11 Pro-only (24%)
-- Korrekturfahne o_szd.1888: 3/3 Konsensus auf allen Content-Seiten
+- **Ergebnis (46 Content-Seiten):** 15 Modellkonsensus (33%), 20 Mehrheit (43%), 11 Pro-only (24%)
+- Korrekturfahne o_szd.1888: 3/3 Modellkonsensus auf allen Content-Seiten
 - GT-Drafts in `results/groundtruth/{object_id}_gt_draft.json`
 
 ### Frontend: GT Review-Modus
@@ -487,18 +487,18 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 | word_overlap als order-invariante Metrik | CER bestraft Reading-Order-Divergenz unfair; Jaccard auf Wortmengen ist robust |
 | 4-Tier statt 3-Tier Klassifikation | "review" als Zwischenstufe fuer Objekte mit 75-90% word_overlap |
 | Gemini Pro statt Claude als 3. GT-Modell | Gleiche API, kein Provider-Wechsel, staerkstes Gemini-Modell |
-| 5-Seiten-Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten die Pilot-Fragen empirisch |
+| 5-Seiten-Pilot uebersprungen | Modellkonsensus-Validierung + GT-Pipeline beantworten die Pilot-Fragen empirisch |
 | Bleed-Through im System-Prompt | Effizienter als Post-Processing; VLM soll es gar nicht erst transkribieren |
 
 ### Frontend-Upgrade (Lane 1, parallel)
 
 - **build_viewer_data.py Bug-Fixes:** Consensus-Dateien aus Katalog entfernt (583→564 Objekte), quality_signals Naming-Mismatch behoben (camelCase→snake_case), alle 20 QS-Felder inkl. dwr_score exportiert
-- **Konsensus-Daten im Frontend:** 29 Objekte mit consensus category/CER im Katalog, volle Konsensus-Daten (transcription_a/b) in Collection-JSONs fuer Diff-View
-- **Diff-Ansicht:** DIFF_PLACEHOLDER durch echte Konsensus-Daten ersetzt, CER im Header, dynamische Modell-Namen, Button disabled ohne Konsensus
-- **Enhanced Stats Dashboard:** Seiten-Stats, Zeichen-Summen, Konfidenz-Verteilung, Review-%, DWR-Durchschnitt, Konsensus-Uebersicht
-- **Neue Anzeigen:** DWR-Badge im Viewer, Page-Type-Badges (Leer/Farbskala), Konsensus-Status V/M/R/D im Katalog + Viewer, per-Page Agreement-Dots, Konsensus-Filter
+- **Modellkonsensus-Daten im Frontend:** 29 Objekte mit consensus category/CER im Katalog, volle Modellkonsensus-Daten (transcription_a/b) in Collection-JSONs fuer Diff-View
+- **Diff-Ansicht:** DIFF_PLACEHOLDER durch echte Modellkonsensus-Daten ersetzt, CER im Header, dynamische Modell-Namen, Button disabled ohne Modellkonsensus
+- **Enhanced Stats Dashboard:** Seiten-Stats, Zeichen-Summen, Konfidenz-Verteilung, Review-%, DWR-Durchschnitt, Modellkonsensus-Uebersicht
+- **Neue Anzeigen:** DWR-Badge im Viewer, Page-Type-Badges (Leer/Farbskala), Modellkonsensus-Status V/M/R/D im Katalog + Viewer, per-Page Agreement-Dots, Modellkonsensus-Filter
 - **Mobile:** Card-Layout fuer Katalog unter 600px
-- **Refactoring (7x):** Konsensus-Konstanten extrahiert, redundante Aufrufe entfernt, Inline-Styles→CSS, clearFilters vereinfacht, Feature-Flags gecacht, CSS-Fallback fuer Thumbnails
+- **Refactoring (7x):** Modellkonsensus-Konstanten extrahiert, redundante Aufrufe entfernt, Inline-Styles→CSS, clearFilters vereinfacht, Feature-Flags gecacht, CSS-Fallback fuer Thumbnails
 
 ### Layout-Analyse + PAGE XML (neu)
 
@@ -640,8 +640,8 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
 - [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
-- [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Konsensus-Validierung)
-- [x] Multi-Model-Konsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
+- [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Modellkonsensus-Validierung)
+- [x] Modellkonsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
 - [ ] Expert-Review: 18 GT-Objekte im Frontend pruefen und approven
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)

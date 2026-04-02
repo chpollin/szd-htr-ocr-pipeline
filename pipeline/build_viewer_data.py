@@ -17,7 +17,7 @@ GAMS_BASE = "https://gams.uni-graz.at/"
 
 
 def load_consensus(result_file) -> dict | None:
-    """Load consensus data for an object if it exists."""
+    """Load Modellkonsensus data for an object if it exists."""
     consensus_file = result_file.parent / (
         result_file.stem.split("_gemini")[0].split("_claude")[0] + "_consensus.json"
     )
@@ -97,7 +97,7 @@ def build():
 
     # Scan collection result directories (skip test/, groundtruth/)
     SKIP_DIRS = {"test", "groundtruth"}
-    # Whitelist: only include primary model results (not Pro, consensus, layout, etc.)
+    # Whitelist: only include primary model results (not Pro, Modellkonsensus, layout, etc.)
     expected_suffix = f"_{MODEL}.json"
     result_files = []
     for subdir in sorted(RESULTS_BASE.iterdir()):
@@ -159,7 +159,7 @@ def build():
         # Expert review status (added by import_reviews.py)
         review = data.get("review")
 
-        # Consensus data (from verify.py)
+        # Modellkonsensus data (from verify.py)
         consensus = load_consensus(result_file)
 
         obj = {

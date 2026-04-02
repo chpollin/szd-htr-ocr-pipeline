@@ -62,24 +62,15 @@
       <option value="medium">medium</option>
       <option value="low">low</option>
     </select>
-    <label for="filterConsensus" class="sr-only">Konsensus filtern</label>
-    <select class="catalog__filter" id="filterConsensus" style="display:none">
-      <option value="">Konsensus</option>
-      <option value="consensus_verified">Verifiziert</option>
-      <option value="consensus_moderate">Moderat</option>
-      <option value="consensus_review">Review</option>
-      <option value="consensus_divergent">Divergent</option>
-      <option value="none">Kein Konsensus</option>
-    </select>
     <label for="filterReviewStatus" class="sr-only">Review-Status filtern</label>
     <select class="catalog__filter" id="filterReviewStatus" style="display:none">
       <option value="">Alle Status</option>
-      <option value="human_verified">Human Verified</option>
+      <option value="human_verified">Gepr&uuml;ft</option>
       <option value="llm_ok">LLM OK</option>
       <option value="needs_review">Needs Review</option>
     </select>
-    <button type="button" class="catalog__clear-btn" id="clearFilters">Filter zurücksetzen</button>
   </div>
+  <div class="catalog__active-filters" id="activeFilters"></div>
 
   <div class="catalog__table-wrap">
     <table class="catalog__table">
@@ -296,7 +287,7 @@
     </ul>
     <p>
       Vergleicht Transkriptionen von Gemini Flash Lite (Modell A) und Gemini Flash (Modell B).
-      Verfügbar für Objekte mit Konsensus-Verifikation. CER und Übereinstimmungsrate werden
+      Verfügbar für Objekte mit Modellkonsensus-Verifikation. CER und Übereinstimmungsrate werden
       pro Seite und gesamt angezeigt.
     </p>
 

@@ -23773,6 +23773,452 @@
       },
       "consensus": null,
       "review": null
+    },
+    {
+      "id": "o_szd.1535_gemini-3.1-flash-lite-preview",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0.0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.0,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "page_image_mismatch"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1536_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1536/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1536/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1536/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Berlin-Schmargendorf, den 30.10.24.\nMarienbaderstrasse 9.\n\nLieber Herr Zweig!\n\nIch danke Ihnen herzlichst für Ihren letzten Brief. Ich habe nun aber\ninzwischen doch mit Axel Muncker abgeschlossen. Vielleicht ist das\nauch die richtigste Lösung im jetzigen Stadium der Dinge. Der Insel-\nVerlag kann ja eventuell später die Sammlung übernehmen, wenn sie sich\ndurchgesetzt hat. Ich habe durchaus Verständnis dafür, dass ein Verlag\nvon seinem Range und seiner Eigenart nicht experimentieren will, und als\nExperiment muss ihm wohl nach dem Fiasko der letzten Kunstbewegung jede\nneue Dichtung erscheinen. Sie haben das ja seinerzeit in Ihrem ersten\nBriefe an mich auch gleich angedeutet.\n\nDarf ich Sie nun ganz unbefangen um eine Freundlichkeit bitten?\nDer Verlag will einen Prospekt versenden, mit 3 Seiten Proben und einer\nTitelseite. Würden Sie dafür ein paar empfehlende Worte, die möglichst\nein ungefähres Bild des Inhalts, kühn gesagt eine Art kleines Vorwort\ndarstellen sollen, schreiben? Eine weitere Bitte wäre die, mir Ihre\nAdresse anzugeben; es würde mir gesagt, dass Sie die Absicht hätten für\nlängere Zeit ins Ausland zu verreisen. Ich weiss nun allerdings nicht,\nob Sie sich dabei nicht einmal der ganzen Literatur und ihrem Umtrieb\nentziehen wollen. Sollten Sie aber während der Zeit doch die Musse finden\ndas Büchlein zu besprechen - es wird noch vor Weihnachten erscheinen -\nso wäre mir das zweifellos eine grosse Hilfe. Ich habe auch verschie-\ndentlich von anderer Seite sehr zustimmende Urteile über die Sonette\ngehört und bin im Übrigen auch nicht unsicher. Trotzdem werden Sie wissen\nwie wichtig es für einen jungen Autor ist bei seinem ersten Auftreten\neinen",
+          "notes": "Typoskript auf Briefpapier. Die letzte Zeile 'einen' bricht den Satz ab, der auf der nächsten Seite fortgesetzt wird.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+          "notes": "Typoskript, Fortsetzung des Briefes.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+          "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am unteren Rand.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3297,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1099,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3297,
+        "total_words": 519,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1673,
+          812,
+          812
+        ],
+        "chars_per_page_median": 812,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5166,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1539_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1539/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1539/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Braunschweig, den 30. XII. 24.\nLieber Hilfsmpr. [?] 37 b Prof. Zweig\n\nLieber Herr Zweig!\nZum Jahresabschluss mache ich mich Gebel'sche Art\n~~wie~~ fest Silang und ich würde mir undankbar vor-\nkommen wenn ich nicht dabei fest jeglich der Be-\nziehung zu Ihnen gedenken wollte. Sie haben mich\nin einer entscheidenden Situation meines Lebens so\n~~respektvoll~~ {eingefügt} gefördert, dass ich Ihnen meine Dankbarkeit\nauch jetzt noch einmal bezeugen muss, auf die Gefahr hin\ndamit mir wenig gedanklich oder aufdringlich zu erscheinen.\nMich beherrscht sonst die Trübe zu scheiden und zu for-\nmulieren und ich bitte auch jetzt große Sitz Klage[?]lagen,\nworin ich diese Forderung wblikte [?] und was ihr spezifische\nWirkung ausmacht. Aber dieses mir menschliche Gefühl\nder Dankbarkeit ist doch stärker und reißt alle anderen\nGedankengänge mit fort, und wenn mich etwas in der\nGewissheit die ich immer fühlte bestätigte so war es diese\nErfahrung: dass tatsächlich das was ich ausgedrückt\nfüge die Fähigkeit hat einen Menschen anzurühren",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkelbraun/schwarz. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger unklarer Wörter (z.B. 'Hilfsmpr.', 'wblikte') als medium einzustufen.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "in dem Mitmenschen. Sinne: Gast an Gast. Die wenn\nder oft bei dem ich diese unmittelbare Wirkung sah, und die\nfruchtbar ein solches Gefühl zurückwirken und einen schweren\nMann, das Herzsein schnell und einen stetdrängt [?]\nzu einer Äußerung, das ich Ihnen etwa vielleicht keine\n~~jemand~~ {eingefügt} verantwortungsvolle [?] deutlich. Ich selten aber ist\nes doch, dass ein solches Herzsein, das wohl auch bei anderen\nich finden mag, so rauh und unmittelbar und so jeg-\nlich sich in Äußerung äußert wie bei Ihnen! Und in\ndiesem Wege, das Sie geben, in diesem Tage, das doch auch\nimmer ein Werk Arbeit, einen Blick bedeutet, oder\nman sehr wohl weiß, dass ich den Ausdruck einer Ge-\nsinnung der ich mich verehrungsvoll verbunden fühlte und\ndem Wirkung auf diesem Wege erfahren zu haben mich\nsehr günstig macht.\nHerzliche Worte, aber wenn man eine Hilf-\nlose als dann ob ich denke handelt unmittelbar ein\nGefühle zu äußern? Sie werden den Sinn erkennen.\nMit den aufrichtigsten Wünschen für das neue Jahr\nIhr dankbar ergebener\nRichard Friedenthal",
+          "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite. Die Tinte ist dunkelbraun/schwarz. Die Handschrift ist sehr kursiv und teilweise schwer zu entziffern.",
+          "type": "content"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist sehr flüchtig und kursiv, was die Identifikation einzelner Wörter (z.B. 'Hilfsmpr.', 'wblikte', 'stetdrängt') erschwert. Der Kontext ist jedoch weitgehend verständlich.",
+      "verification": {
+        "uncertainCount": 5,
+        "illegibleCount": 0,
+        "totalChars": 2068,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1034,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 2068,
+        "total_words": 330,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1027,
+          1041,
+          0
+        ],
+        "chars_per_page_median": 1034.0,
+        "marker_uncertain_count": 5,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0152,
+        "dwr_score": 0.5231,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1540_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1540/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1540/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Berlin NW 23, den 26. I. 25\nTiergarten Ufer 13 II\n\nStefan Zweig\n\nGleich den allerherzlichsten, ~~p~~fürnissesten[?] Dank, lieber\nHerr Zweig! Sie entbehren es gut leben, Andere falken[?]\nmit den Tönen am Horizont herum, aber Sie haben schon\nden Anfang und die rechte Gefühllage, wenn ich die ~~alguie~~[?]\nRegion, die Sie dort für mich ansehen, schon jetzt für\nmich in Anspruch nehmen darf. Ein wenig Gefühllage tut\neinem aber doch gut in diesen {furchtbar} [?] öden[?] Streben.\nUnd seien Sie überzeugt, daß ich den freundlichen Appell, der\nin Ihrer feinen Post, wohl durchführe. Ich weiß daß mir\njetzt Anspruch verpflichtet. Wenn ich nicht krank werde oder\ndie materiellen Bedingungen nicht ganz fortdauernd stören,\nhoffe ich in diesem Jahre ein richtiges Stück weiterzukommen.\nAn Arbeit fehlt es nicht.\nHoffen wir nun, daß Ihr Ton auch einigen anderen recht\nfür uns Gegn[?] nütze wird.\nMit den besten Grüßen und Wünschen f. Ihre neue\nArbeit\n\nRichard Friedenthal",
+          "notes": "Handschriftlicher Brief auf einem Blatt. Die Tinte ist teilweise verblasst oder durch das Papier gedrückt. Einige Wörter sind schwer lesbar oder weisen Korrekturen auf.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+          "type": "blank"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'fürnissesten', 'falken', 'alguie'). Die Struktur ist jedoch klar erkennbar.",
+      "verification": {
+        "uncertainCount": 6,
+        "illegibleCount": 0,
+        "totalChars": 962,
+        "emptyPages": 1,
+        "avgCharsPerPage": 962,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 962,
+        "total_words": 154,
+        "total_pages": 1,
+        "empty_pages": 2,
+        "blank_pages": 1,
+        "content_pages": 1,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          962,
+          0,
+          0
+        ],
+        "chars_per_page_median": 962,
+        "marker_uncertain_count": 6,
+        "marker_illegible_count": 0,
+        "marker_density": 0.039,
+        "dwr_score": 0.5067,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1541_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1541/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1541/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Berlin NW 23, den 2. III. 25\nSchleswiger Ufer 13 II\n\nLieber Herr Zweig!\n\nGelegentlich sende ich Ihnen hier zwei Novellen\nvon mir, die ich in der letzten Zeit fertiggemacht habe. Die Arbeit\ngeht mir jetzt gut von der Hand und ich komme endlich dazu diese\nDinge, die mich wohl schon seit längerer Zeit beschäftigt haben, aus\nsich zu geben. Ich habe einen ganzen Zyklus von etwa 10 größeren\n{jetzt das dritte Buch} Novellen vor mir; den ersten Band hoffe ich noch vor dem Sommer\nfertigzustellen. Ich ziele damit auf eine „große Form“ der Novelle;\ndas was man jetzt so {bezeichnet} nennt, ist ja meist nur ein kurzes Stück Ro-\nman, eine Skizze oder bestenfalls eine Erzählung. Ich glaube es ist\nnicht unrichtig auch hier etwas klarer und sauberer zu unter-\nscheiden als es meist in der letzten Zeit geschieht. Freilich bin ich\nnicht von Konstruktionen ausgegangen, {die Themen der Stücke} {eigentlich}\nBeschäftigung noch genauer nachforsch. Ich hatte zuerst vor sie\nnach dem Thema zu benennen, wie bei der „Morgendämmerung“, habe\ndas aber aufgegeben, {aufgegeben} weil ich sah, daß es zu Mißdeutungen\nführt. Vielleicht klingt es auch zu abfällig, wenn man sagt:\n„Morgendämmerung“, „Doppelehe“, „Pubertät“, „Fertig ist“.\nSo soll auch das eine Stück jetzt einfach „Maria Hubschmidt“ heißen.\nEs ist bisher überall gut aufgenommen worden und hat mir\nu. a. die Gunst der Frankfurter Zeitung verschafft. Diese hat mich\ndort – diese Firma scheint jetzt doch zu fette – eine andere",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, gut lesbar. Einige Korrekturen und Einfügungen über der Zeile.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Novelle gebeten und direkt auch in der nächsten Zeit einen Aufsatz\n„Rotterdam“ von mir ab. Auch die Vossische Zeitung hat an mich ge-\nschrieben, die Deutsche Verlags-Anstalt hat zunächst den Gutsherrn für\nden „Falten“ angenommen. Man unterhält sich doch sehr für mich\nund hat davon gesprochen mir ein Monatsgehalt zu geben. Ich sage\naber noch ab wenn ich damit nicht in eine etwas gefestigte {Stellung}\nverkauft. Weil {aufgekommen} behandelt hat mich bisher nur die „Neue Rund-\nschau“, die mir jetzt 3 Monat nach der Zusendung, das Manuskript mit\neinem ganz lächerlichen Bescheid (ausgeschrieben von mir & Sekretariat\nPapierchen u. a.) zurückschickte. Spuren behaftet genug genau ab am\nRande zugeklebt und konnte so feststellen, daß man es gemacht gelesen\nhat. Nun, ich denke ich werde auch ohne Herrn Kapper wieder Tag\nmachen. Ganz gut allerdings daß ich auch heute gegen mich habe, das\nkennt die Stücke.\nDie Novelle ist übrigens jetzt von der Verlags-Anstalt, die mich noch\nvorbehalten will, sie ebenfalls für den Falten, je nachdem an den\n„Neuen Werken“ gespielt worden. Falls Sie Herrn Fopp [?] kennen würden\nich Ihnen sehr dankbar wenn Sie ihm ein Wort über mich schreiben\nwürden. Er soll sehr schwer von Entschluß sein.\nHoffentlich mag Ihnen meine Sendung etwas Freude. Das\n„Falten“ Stück ist zwar nur eine Gelegenheitsarbeit aber doch, wie\nich denke, anständig gemacht, die Geschichte gehört überhaupt auch in\nden geplanten Zyklus hinein und ich werde die Falten ganz gut\naufgehoben. Die Bände werden übrigens auch weiter für ich günstig, wenn\nauch nicht immer wirklich anwendbar, beurteilt ist.\nIhr dankbar ergebener\nRichard Friedenthal",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, gut lesbar. Einige Korrekturen und Einfügungen über der Zeile.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist weitgehend klar lesbar. Einige Stellen sind aufgrund von Korrekturen, Einfügungen und der kursiven Handschrift leicht unsicher, aber im Kontext gut verständlich.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 3113,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1556,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3113,
+        "total_words": 501,
+        "total_pages": 2,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1469,
+          1644,
+          0
+        ],
+        "chars_per_page_median": 1556.5,
+        "marker_uncertain_count": 1,
+        "marker_illegible_count": 0,
+        "marker_density": 0.002,
+        "dwr_score": 0.5335,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1542_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1542/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1542/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1542/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1542/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1542/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Dr. RICHARD FRIEDENTHAL.                                Charlottenburg, den 11. IX. 24.\n                                                        Berlinerstrasse 147.\n\nAn Stefan Zweig\nLieber sehr verehrter Herr Doktor!\nWas haben Sie mir da für einen Brief geschrieben.\nDas ist besser als ein Ritterschlag — das ist ein voller\nSegen, ich bin wahrhaftig ganz rührig davon.\nDas Wort soll pulsieren unwillkürlich zwischen uns\nnun, es kann aber doch nicht nur aus meiner eigenen\n~~Phantasie~~ {Kraft} sondern muss irgendwo vom Gegen kommen.\nWie kann das aber sein dass diese, gedruckte Worte auf\nKopierpapier das machen. Ohne einige physische Töne\ndes Gesprächs-{mangels} wird es heute nicht abgehen. Ich\nbin wirklich ganz geblendet, dass jemand so gut ist\nmit seinem Namen, fast möchte ich ganz kindisch sagen, ich\nweiss nicht womit ich das verdient habe, aber ich muss\nmich etwas zusammennehmen um vor Ihnen nicht allzu\nlyrisch zu erscheinen.\nAn {oder besser} {Verlogenheit} {ist} {es} {mir} {nie} {gefehlt}. Ich arbeite\nseit fünf Jahren, wenn ich Ihnen das erzählen darf,\nan einem grossen Prosawerk, einer Art dichterischen Ge-\nschichte des Krieges, den ich 4 Jahre als Soldat miterlebt.\nBei meinem Alter, ich bin 28 Jahre, ein eigentüm-",
+          "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Tinte leicht verblasst, aber gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "liches Unterfangen, von dem ich auch ganz offen sagen\nmuss, dass ich noch nicht weiss wie es ausgeht. Aber obgleich\nich heute trotz mehrerer {Schreibtischtisch} {voll} Notizen und\nAufzeichnungen nicht ein Kapitel dieses Buches so weit fertig\nhabe, dass ich es jemand zeigen würde, ist mir doch kein\nja ein Zweifel gekommen, dass das was ich tue notwendig\nund richtig sei; ich bin auch durchaus darauf gefasst\nnoch mehrere Jahre im Dienst dieser Sache zubringen zu\nmüssen {oder dürfen}. Trotzdem gibt es immer wieder\nZeiten in denen diese Selbstverständlichkeit sich verdunkelt, na-\nmentlich wenn die äusseren Verhältnisse allzu drückend\nwerden. Ich habe mich absichtlich nach dem Studium nicht\ndem Journalismus ausgeliefert, sondern kaufmännisch\ngearbeitet. Das Schreiben von Briefen die mit: In Forderung\nIhres Geehrten vom 8. ds... beginnen und auch sonst in\nganz dürftigen Rahmen verbleiben {greift, aber prüft} {es} {die} {Sprach-}\ndas Sprachvermögen weniger an als die furchtbar aus-\nfüllende Trochenarbeit der üblichen Tagesberichterstatter.\nMan bleibt auch nicht in dem ewig gleichen Umtrieb\nvon Menschen die sich nur mit Literatur beschäftigen\nund ständig die gleichen Probleme diskutieren.",
+          "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Schön freilich ist ein solches Leben nicht, so lehrreich es\nauch sein mag der nackten Gemeinschaft — und wie aus-\ngesprochen gemein, und nur gemein das kaufmännische\nLeben heute ist kann sich der Aussenstehende vielleicht\ndoch nicht vorstellen — ein wenig direkt unter die\nAugen zu sehen.\nIch erzähle Ihnen das Alles nur um Ihnen eine\nVorstellung zu geben unter welchen Verhältnissen meine\nGedichte entstanden sind, und nur mancher allzu Gafige\nund unaufgeklärte, das Sie in der vollständigen Samm-\nlung recht finden werden, zu erklären. In den Abend-\nstunden nach Sitzungen, in denen die stumpfen Interessen\n~~pflaster~~ {geschlagen} werden, auf der Fahrt, in der elektrischen\ndes morgens, noch dazu in den alle Nächte bis zum\nspringenden anrennenden Widerstreit vieler Verhältnisse\nzu einer äusserlich und bis zu einem gewissen Grade auch\ninnerlich gebundenen Form — es ist wirklich nicht\nmöglich das Alles ganz gelassen vollendet zu schaffen.\nSeit über zwei Jahren habe ich nicht einmal Urlaub gehabt, ab-\ngesehen von ein paar Tagen die ich an die See fahren konnte.\nJetzt habe ich ihn freilich unfreiwillig, die Firma bei der\nich Geschäftsführer war ist durch die bekannten Zeiten-Umstände\nbankrott gegangen. {dass etwas richtiges Umstände} {des} {Schreiben} {meiner} {Arbeit}",
+          "notes": "Handschriftlicher Brief, Fortsetzung von Seite 2.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "daneben entschuldigen, das ich auch sehr peinlich nicht\nsicher in der Einteilung der Wichtigkeiten und Fehlern.\nGut wo Stücke der Sammlung habe ich ausgehoben; damit\nso sofern forme oder dem Tonart genügt ja eine pfadhafte\nStelle nun gewissermaßen den ganzen Inhalt ausbreiten\nzu lassen. Auch an den beibehaltenen Seiten habe ich sehr\nemsig gearbeitet, manchmal jahrelang und in geschlossenen\nFassungen; andere freilich habe ich wie von selbst er-\ngeben.\nAlles was Sie in äußerlicher Beziehung sagen wird\nliterarisch für mich wie tollen wird nur ganz plop-\nverständlich auch sein. Ich vertraue mich Ihnen denn\nvollkommen an. Vertrauende Hoffnungen würde ich nicht\nfolgen, obgleich ich weiss was Ihr Name im literarischen\nLeben gilt. Drückt die Neue Rundschau überhaupt Gedichte?\nIch erinnere mich nur an ein, längst bekanntes, von Hof-\nmannsthal aus dem jetzigen Jahrgang. Die holländischen Radios,\noder j. Generation, die Wiener Gods von Kloob, sind dann besser. Aber\nvielleicht muss man es abwarten. Das ist sonst richtig zu der\n„Neue Merkur“ die Frankfurter Zeitung? Ich kann das Alles mit\n{Ganz} werde Ihnen aber doch bedenken, ob ich die nicht zu\nStrenge bezeichne. Vielleicht sehen Sie aber gerade an den\nauch menschlichen Schicksalen dieses Briefes, mit welchem\nBriefe schwärmerischen Vertrauen Sie mich erfüllt haben.\n{Gott} sehr schön dass es so etwas gibt, sogar im 20. Jahrhundert.\n{Herzlich} Ihr aufrichtig dankbarer und ergebener\n\nRichard Friedenthal",
+          "notes": "Handschriftlicher Brief, Fortsetzung von Seite 3.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Dies ist eine Wiederholung von Seite 4 mit aufgelegten Archiv-Farbskalen und Grauskalen. Keine neue Transkription erforderlich.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist sehr flüssig und teilweise schwer zu entziffern, insbesondere bei Korrekturen und übergeschriebenen Wörtern. Einige Passagen sind aufgrund der Wortwahl und der Handschrift mehrdeutig.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 5174,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1294,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 5174,
+        "total_words": 780,
+        "total_pages": 4,
+        "empty_pages": 1,
+        "blank_pages": 1,
+        "content_pages": 4,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1233,
+          1198,
+          1280,
+          1463,
+          0
+        ],
+        "chars_per_page_median": 1256.5,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.5058,
+        "duplicate_page_pairs": [],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
+      "id": "o_szd.1543_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1543/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1543/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1543/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "An Stefan Zweig\nBerlin, den 13. XII. 24\nSchöneberger Ufer 13 II bei Sack\n\nLieber Herr Zweig!\nder zweite Brief am gleichen Tage (der erste war übereilt). Ich war eben auf der Redaktion des\nBerliner Tageblattes, wo mich Herr Fugel freundlich, aber mit\nall dem Stolz nicht ganz übermütigen Misstrauen empfing\ndas man jungen Lyrikern entgegenbringt. Er interessierte sich\nfür meine Familie, die ihm aus Breslau so bekannt ist: ihr\nGroßvater war der Kommerzienrat Friedenthal & der Minister war\nihr Großonkel? Ganz recht, mein Vater ist Professor an der hiesigen\nUniversität und ich schreibe nun Gedichte. Es kommt mir un-\nsprünglich respektabel gepflegt ~~etwa~~ auf den Grund. Er\nsah an meinem Pult entlang und schien mir den Grund nicht\nmehr zu glauben. Ich konnte ihm nicht recht auseinandersetzen,\ndass ich mit diesem Geblüt jetzt die Gütertreppe unser Hof-\n{...} hinaufgehe? der vordere Teil ist durchsichtbar) Ja, nun\ndie Gedichte, Sonette, mein Gott. Ich rief in der Not Ihren\nNamen an, der albald eine magische Wirkung hat. Das\nEndresultat war, dass Herr Fugel vorschlug, Sie möchten\ndoch für das Tageblatt das Buch rezensieren. Diesen Auftrag,\nder ich mit einem freundlichen Gruß zu überbringen habe,\nliefern ich nun ab, dass ich nicht vergesse: kurz soll",
+          "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger Korrekturen/Einfügungen stellenweise erschwert. Die Zeile 'der vordere Teil ist durchsichtbar)' scheint eine Anmerkung zum Papier oder zum Text zu sein.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+          "notes": "Handschriftlicher Brief, Fortsetzung auf Seite 2. Violette Tinte. Einige Korrekturen über der Zeile.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+          "notes": "Dies ist eine Wiederholung von Seite 2, jedoch mit einer aufgelegten Farbskala/Grauskala für Archivierungszwecke. Die Transkription ist identisch mit Seite 2.",
+          "type": "content"
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Die Handschrift ist sehr flüchtig und weist zahlreiche Korrekturen, Durchstreichungen und Einfügungen über der Zeile auf. Einige Wörter sind aufgrund der Tintenführung und der kursiven Schreibweise schwer zu entziffern (z.B. 'replikter', 'Zugang').",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2812,
+        "emptyPages": 0,
+        "avgCharsPerPage": 937,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 2812,
+        "total_words": 451,
+        "total_pages": 3,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 3,
+        "color_chart_pages": 0,
+        "chars_per_page": [
+          1260,
+          776,
+          776
+        ],
+        "chars_per_page_median": 776,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0,
+        "dwr_score": 0.509,
+        "duplicate_page_pairs": [
+          [
+            1,
+            2
+          ]
+        ],
+        "language_expected": "de",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
+      },
+      "consensus": null,
+      "review": null
     }
   ]
 }
