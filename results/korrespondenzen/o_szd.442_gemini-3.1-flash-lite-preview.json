@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.442",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Erwin Rieger an Stefan Zweig, 1921-08-31, SZ-SAM/AK.159",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.442/IMG.1",
+      "https://gams.uni-graz.at/o:szd.442/IMG.2",
+      "https://gams.uni-graz.at/o:szd.442/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Stefan Zweig, 1921-08-31, SZ-SAM/AK.159\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.159\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31.VIII 21.\nBUDAPEST. Alagut - Tunnel.",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv des Budapester Burgtunnels. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nLieber verehrter Herr Doktor, da ich nicht\nweiß, ob die Post funktioniert, nur ein\nWort des herzlichsten aufrichtigsten Dankes\nfür die wahrhaft rührende ~~Worte~~ und\nfeinehafte freundschaftliche Besprechung der\n„Zer.“[?], die ich heute in der Presse las. Verdienen\nich sie wirk[?] - Ich reise anfangs nächster\nWoche nach Wien und hoffe in der 2. Hälfte\nSeptember in Salzburg zu sein. Alles Liebe\nder verehrten Frau und Herzen von\nIhrem getreuen Erwin Rieger\nB., 31. VIII. 21.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel oben links. Die Lesung von 'Zer.' ist unsicher, vermutlich eine Abkürzung für ein Werk von Stefan Zweig (z.B. 'Jeremias' oder ähnlich). 'B.' steht vermutlich für Budapest.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Das Dokument selbst ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von einer Abkürzung im Textkörper ('Zer.') und einem Wort, das durchgestrichen wurde. Die Handschrift ist flüssig und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 563,
+    "total_words": 89,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      38,
+      525,
+      0
+    ],
+    "chars_per_page_median": 281.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0225,
+    "dwr_score": 0.3902,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

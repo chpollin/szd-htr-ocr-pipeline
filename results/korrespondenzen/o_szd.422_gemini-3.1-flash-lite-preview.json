@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.422",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Walter Behrend an Stefan Zweig, 1929-09-02, SZ-SAM/AK.14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.422/IMG.1",
+      "https://gams.uni-graz.at/o:szd.422/IMG.2",
+      "https://gams.uni-graz.at/o:szd.422/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Walter Behrend an Stefan Zweig, 1929-09-02, SZ-SAM/AK.14\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kitzbühel Schwarzsee mit dem Wilden Kaiser Tirol.\n2.9.29",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliches Datum unten rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nWir, Behrend und ich,\ngedenken Ihnen in\neinräumiger[?] Ergebenheit.\nUm\nA.O. R[?]ust\nHerzliche Grüße\nIhr\nW. Behrend",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke und Poststempel vorhanden (nicht transkribiert). Der Text ist teilweise schwer lesbar, insbesondere die Zeilen 6-7.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme der Postkarte mit Farbskala und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist teilweise flüchtig und schwer zu entziffern, insbesondere die Abkürzungen und die Zeile 'A.O. R[?]ust'."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 213,
+    "total_words": 31,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      56,
+      157,
+      0
+    ],
+    "chars_per_page_median": 106.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0645,
+    "dwr_score": 0.2581,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

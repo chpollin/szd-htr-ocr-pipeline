@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.536",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Oskar Wiener an Stefan Zweig, 1905-11-12, SZ-SAM/AK.244",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.536/IMG.1",
+      "https://gams.uni-graz.at/o:szd.536/IMG.2",
+      "https://gams.uni-graz.at/o:szd.536/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Oskar Wiener an Stefan Zweig, 1905-11-12, SZ-SAM/AK.244\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.244\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Grüß und Dank! 12/XI 05\nHerzlichst Ihr Oskar Wiener",
+        "notes": "Vorderseite der Postkarte mit Bildmotiv (Prag, Karlsbrücke). Handschriftliche Notiz am rechten Rand, vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Oskar Wiener\nKarolinenthal\nJägerstr. 75.- 9.\n\nP.T. Herrn Schriftsteller\nDr. Stefan Zweig\nWien I.\nRathhausstraße 17.",
+        "notes": "Rückseite der Postkarte (Adressseite). Gedruckte Postkarten-Vordrucke vorhanden. Briefmarke (5 Heller) und Poststempel (Wien 1, 14.11.05) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die Handschrift ist gut entzifferbar, die Abkürzungen (P.T., XI) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 166,
+    "total_words": 25,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      51,
+      115,
+      0
+    ],
+    "chars_per_page_median": 83.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0909,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

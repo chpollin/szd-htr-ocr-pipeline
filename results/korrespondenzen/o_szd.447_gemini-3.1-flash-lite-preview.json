@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.447",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Richard Tomaselli an Stefan Zweig, 1926-06-29, SZ-SAM/AK.163",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.447/IMG.1",
+      "https://gams.uni-graz.at/o:szd.447/IMG.2",
+      "https://gams.uni-graz.at/o:szd.447/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Richard Tomaselli an Stefan Zweig, 1926-06-29, SZ-SAM/AK.163\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.163\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "von meinem Kampf und meinen Genossen 29/6.\n[...1...] Rorenhoanz[?]. Herzlichst [?] ich cen 1926\nIhre Frau Gemahlin der dankbaren\nDas „tränende Angesicht“ stammt nicht Richard Tomaselli\nvon mir! Das ist eine böswillige Verleumdung.\nJedenfalls: „Tomaselli in Paris“ ist ein\nKapitel, würdig des größten bemerkten[?].",
+        "notes": "Vorderseite der Postkarte mit Bildmotiv (Eiffelturm). Handschriftliche Notizen in violett/schwarzer Tinte über das Bild geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Paris, le 29. Juni 1926.\n\nDie Reeperbahn wird seit\nzwei Tagen in Paris fortgesetzt. Sie\nmüssten dabei sein! Sehr schönen\nDank für den Einschreibebrief.\nHerzlichst Dankbarsten\nDie „Erinnerung der\nJubiläe“ ist vollständig\nMorgens abends bauenden\nGegenbesuch nach Hause\n(Salzburger Romanautor\ndas Genie nicht von uns [?] anderen\n\nAutriche!\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nAutriche",
+        "notes": "Rückseite der Postkarte. Handschriftlich in violett/schwarzer Tinte. Poststempel 'PARIS 18 30 VI 1926'. Briefmarke 'REPUBLIQUE FRANCAISE 75c'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Paris, le 29. Juni 1926.\n\nDie Reeperbahn wird seit\nzwei Tagen in Paris fortgesetzt. Sie\nmüssten dabei sein! Sehr schönen\nDank für den Einschreibebrief.\nHerzlichst Dankbarsten\nDie „Erinnerung der\nJubiläe“ ist vollständig\nMorgens abends bauenden\nGegenbesuch nach Hause\n(Salzburger Romanautor\ndas Genie nicht von uns [?] anderen\n\nAutriche!\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nAutriche",
+        "notes": "Farbskala/Grauskala für Archivierung. Die Postkarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise über das Bildmotiv geschrieben, was die Lesbarkeit erschwert. Einige Wörter sind aufgrund der kursiven Schreibweise und der Überlagerung mit dem Bildhintergrund unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1087,
+    "total_words": 154,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      313,
+      387,
+      387
+    ],
+    "chars_per_page_median": 350.0,
+    "marker_uncertain_count": 5,
+    "marker_illegible_count": 1,
+    "marker_density": 0.039,
+    "dwr_score": 0.4176,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.624",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ernst Fischer an Stefan Zweig, 1930-05-06, SZ-SAM/AK.55",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.624/IMG.1",
+      "https://gams.uni-graz.at/o:szd.624/IMG.2",
+      "https://gams.uni-graz.at/o:szd.624/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ernst Fischer an Stefan Zweig, 1930-05-06, SZ-SAM/AK.55\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "6. Mai 1930",
+        "notes": "Vorderseite einer Ansichtskarte mit der Wiener Staatsoper. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Wien I. Oper mit Kärntnerstraße\n\nWien, 6. Mai 30.\nSehr geehrter Herr Dr.!\nHabe Sonntag bei fast vollem\nHause das Stück mit großem Interesse\ngesehen. Heute habe ich Dr. Scheyer\ngetroffen, der noch in Wien ist.\nNochmal Dank für die schönen\nKarten!\nBeste Grüße\nIhr ergebener\nErnst Fischer\n\nHerren\nDr. Stefan Zweig\n\nSalzburg,\nKapuzinerberg 5.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke (10 Groschen, Österreich) oben rechts. Roter Kringel im Text.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Wien I. Oper mit Kärntnerstraße\n\nWien, 6. Mai 30.\nSehr geehrter Herr Dr.!\nHabe Sonntag bei fast vollem\nHause das Stück mit großem Interesse\ngesehen. Heute habe ich Dr. Scheyer\ngetroffen, der noch in Wien ist.\nNochmal Dank für die schönen\nKarten!\nBeste Grüße\nIhr ergebener\nErnst Fischer\n\nHerren\nDr. Stefan Zweig\n\nSalzburg,\nKapuzinerberg 5.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Abkürzungen sind kontextuell eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 687,
+    "total_words": 113,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      11,
+      338,
+      338
+    ],
+    "chars_per_page_median": 338,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2857,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

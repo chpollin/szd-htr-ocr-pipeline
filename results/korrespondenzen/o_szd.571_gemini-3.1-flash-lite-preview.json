@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.571",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1927-07-12, SZ-SAM/AK.277",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.571/IMG.1",
+      "https://gams.uni-graz.at/o:szd.571/IMG.2",
+      "https://gams.uni-graz.at/o:szd.571/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1927-07-12, SZ-SAM/AK.277\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.277\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Juli 1927\n\nNun der malerische Anblick\nangenehm mit 900 R.\nIch wandere und mich\nmit herzlichsten Grüßen an\n[...]\n\nSiegfried\nStoitzner",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in violetter Tinte. Der Text ist teilweise schwer lesbar, da er über das gedruckte Bild geschrieben wurde.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "lieber Herr Doktor!\nIch bin mit auf\nein paar Tage\nmit der hiesigen [?] am Tag\ngeschickt, die Vorred[?]mit\n[...]\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Enthält zwei Briefmarken (Österreich) und einen Poststempel. Der Text am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist aufgrund der violetten Tinte auf dem farbigen Untergrund der Postkarte teilweise schwer zu entziffern. Einige Wörter sind aufgrund der Überlagerung mit dem Bild oder der kursiven Schreibweise unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 292,
+    "total_words": 48,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      132,
+      160,
+      0
+    ],
+    "chars_per_page_median": 146.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0833,
+    "dwr_score": 0.4419,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

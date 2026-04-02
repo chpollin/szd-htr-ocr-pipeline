@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.463",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Fritz Schmidt-Berna an Stefan Zweig, 1930-07-26, SZ-SAM/AK.178",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.463/IMG.1",
+      "https://gams.uni-graz.at/o:szd.463/IMG.2",
+      "https://gams.uni-graz.at/o:szd.463/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Fritz Schmidt-Berna an Stefan Zweig, 1930-07-26, SZ-SAM/AK.178\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.178\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Palla Bianca\n26.7.30",
+        "notes": "Vorderseite einer Ansichtskarte mit Bergmotiv. Handschriftliche Notizen oben links und rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "26.7.30\n„Palla Bianca“ 3746 m\nSehr verehrter Herr Doktor Zweig\nAufrichtigen Dank für Ihren\ngütigen Brief, auch für die\n[...3...] habe meinen kurz[?] Aufenthalt\n[...3...] hier oben und die ferne\nGletscherwelt umso lieber\ngewonnen.\nAuf August werde ich\nvermutlich wieder ins das Berg\nkommen, weil ich dann auch\nmit Rute[?] lange Höhen-\ntouren kann. Ich werde mich\nhoffentlich bei Ihnen anmelden.\nSie haben mir so herzliche Freude\nmit Ihrer Ansicht gemacht.\nAus der nahen Wand\n\n[Am linken Rand, vertikal geschrieben:]\nHerzlichst Ihr Fritz Schmidt-Berna\n\n[Adressseite:]\nHerren\nDr. Stefan Zweig\nKapuzinerberg\nSalzburg\nÖsterreich",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Bolzano) vorhanden. Die Tinte ist teilweise verblasst oder durch Feuchtigkeit verlaufen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "26.7.30\n„Palla Bianca“ 3746 m\nSehr verehrter Herr Doktor Zweig\nAufrichtigen Dank für Ihren\ngütigen Brief, auch für die\n[...3...] habe meinen kurz[?] Aufenthalt\n[...3...] hier oben und die ferne\nGletscherwelt umso lieber\ngewonnen.\nAuf August werde ich\nvermutlich wieder ins das Berg\nkommen, weil ich dann auch\nmit Rute[?] lange Höhen-\ntouren kann. Ich werde mich\nhoffentlich bei Ihnen anmelden.\nSie haben mir so herzliche Freude\nmit Ihrer Ansicht gemacht.\nAus der nahen Wand\n\n[Am linken Rand, vertikal geschrieben:]\nHerzlichst Ihr Fritz Schmidt-Berna\n\n[Adressseite:]\nHerren\nDr. Stefan Zweig\nKapuzinerberg\nSalzburg\nÖsterreich",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist aufgrund der violetten Tinte und der teilweise verlaufenen Schriftstellen (insbesondere am linken Rand und im Mittelteil) schwer zu entziffern. Einige Wörter sind aufgrund von Tintenflecken oder Überlagerungen nur fragmentarisch lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1266,
+    "total_words": 187,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      20,
+      623,
+      623
+    ],
+    "chars_per_page_median": 321.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 4,
+    "marker_density": 0.0428,
+    "dwr_score": 0.3956,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

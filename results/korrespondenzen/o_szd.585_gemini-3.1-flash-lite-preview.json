@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.585",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Armand Brody an Stefan Zweig, 1912-10-06, SZ-SAM/AK.29",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.585/IMG.1",
+      "https://gams.uni-graz.at/o:szd.585/IMG.2",
+      "https://gams.uni-graz.at/o:szd.585/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1912-10-06, SZ-SAM/AK.29\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "viele Grüße aus\nLudgate Hill, London\nDein vielgehorsamer\nArmand\n\n58386\n6.OKT.12",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text. Oben links Stempel/Nummerierung '58386' und Datum '6.OKT.12'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "POST CARD\n\n\n\n\n\nHerrn Dr. Stefan Zweig,\n\nWien VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte mit gedruckten Feldern und handschriftlicher Adresse. Briefmarke oben rechts (König Edward VII., 1 Penny). Poststempel 'LONDON.S.W' und 'OCT 6 12'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "POST CARD\n\n\n\n\n\nHerrn Dr. Stefan Zweig,\n\nWien VIII.\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 205,
+    "total_words": 31,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      79,
+      63,
+      63
+    ],
+    "chars_per_page_median": 63,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1071,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "low_dwr"
+    ]
+  }
+}

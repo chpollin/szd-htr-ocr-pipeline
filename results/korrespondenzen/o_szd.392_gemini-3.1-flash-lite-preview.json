@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.392",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Božo Lovrić an Stefan Zweig, 1934-05-14, SZ-SAM/AK.112",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.392/IMG.1",
+      "https://gams.uni-graz.at/o:szd.392/IMG.2",
+      "https://gams.uni-graz.at/o:szd.392/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Božo Lovrić an Stefan Zweig, 1934-05-14, SZ-SAM/AK.112\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.112\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Prag 14. V. 34\n\nKAMENNÁ KAŠNA Z R. 1497. VLEVO U SPOŘITELNY KOSTEL SV. JANA NEP. Z R. 1750 OD KAŇKY.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand, handschriftliches Datum oben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "P. T. H. D. Stefan Zweig,\nSchriftsteller\nSalzburg\n(Österreich)\n\nSehr geehrter lieber Meister; ich\nwerde Ihnen sehr dankbar sein,\nwenn Sie die Güthe hätten mein\nDrama \"Kapitän Niko\" durchzulesen.\nDarf ich hoffen auf Ihre werthe\nAntwort?\nMit Hochachtung und\n14/V herzl. Grüßen\n934 Ihr ganz ergebener\nBožo Lovrić\nVršovice, Palackého 2 Prag XIII\nTschechoslowakei",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "P. T. H. D. Stefan Zweig,\nSchriftsteller\nSalzburg\n(Österreich)\n\nSehr geehrter lieber Meister; ich\nwerde Ihnen sehr dankbar sein,\nwenn Sie die Güthe hätten mein\nDrama \"Kapitän Niko\" durchzulesen.\nDarf ich hoffen auf Ihre werthe\nAntwort?\nMit Hochachtung und\n14/V herzl. Grüßen\n934 Ihr ganz ergebener\nBožo Lovrić\nVršovice, Palackého 2 Prag XIII\nTschechoslowakei",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 816,
+    "total_words": 129,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      100,
+      358,
+      358
+    ],
+    "chars_per_page_median": 358,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2344,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

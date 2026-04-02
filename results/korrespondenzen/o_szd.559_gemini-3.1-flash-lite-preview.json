@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.559",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1934-09-27, SZ-SAM/AK.266",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.559/IMG.1",
+      "https://gams.uni-graz.at/o:szd.559/IMG.2",
+      "https://gams.uni-graz.at/o:szd.559/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1934-09-27, SZ-SAM/AK.266\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.266\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Senate Building, Havana, Cuba.—19",
+        "notes": "Vorderseite einer Ansichtskarte mit dem 'Senate Building' in Havanna. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Senate Building, where the Cuban Senate con-\nvenes. Formerly headquarters of the Spanish\nLieutenant Governor.\nFebo de Limosin\nApartado 665\nHabana\n27-sep. 1934\nMi querido colega: sa-\nlud!.\n¿Sería Vd. tan amable\nque me dijera cual es la\ndireccion de su hermano\nArnold?.\nSiempre suyo camarada\n[Unterschrift]",
+        "notes": "Rückseite der Ansichtskarte. Gedruckter Text (links und oben) sowie handschriftlicher Text (Mitte und links). Zwei Briefmarken (República de Cuba) rechts aufgeklebt. Die Unterschrift ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, Ansicht der Rückseite der Postkarte in der Mitte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die Unterschrift ist zwar schwer zu entziffern, aber der restliche Text ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 337,
+    "total_words": 51,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      33,
+      304,
+      0
+    ],
+    "chars_per_page_median": 168.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.08,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

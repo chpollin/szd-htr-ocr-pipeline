@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.471",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gisella Selden-Goth an Stefan Zweig, 1934-02-07, SZ-SAM/AK.185",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.471/IMG.1",
+      "https://gams.uni-graz.at/o:szd.471/IMG.2",
+      "https://gams.uni-graz.at/o:szd.471/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gisella Selden-Goth an Stefan Zweig, 1934-02-07, SZ-SAM/AK.185\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.185\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Monte Carlo",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsaufnahme von Monte Carlo. Handschriftliche Notiz oben links 'Monte Carlo'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\n[Poststempel: MONTE CARLO 7.11.34]\n\n„Rella“, Fabrication française. = Reproduction interdite.\n\nGeschenke:\n24 Minuten aus dem\nLeben einer Frau!\nMontecarlo 7.11.34\n\nTrudy Goth\nmit vielen herzl. Grüssen.\nWas sagen Sie zu meinem\nliterarischen gebliebenen\nTochter? Herzlichste Ihre\n7.7.934. Gisela Selden-Goth",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Der Text ist teilweise überlagert durch den Poststempel und die gedruckten Angaben des Verlags. Die Datumsangabe '7.7.934' am Ende scheint ein Schreibfehler der Absenderin für 7.11.34 zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte befindet sich die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen am unteren Rand der Postkarte. Die Datumsangabe '7.7.934' ist so transkribiert, wie sie auf dem Dokument steht, obwohl sie inhaltlich widersprüchlich zum Poststempel und dem Text '7.11.34' ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 358,
+    "total_words": 47,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      11,
+      347,
+      0
+    ],
+    "chars_per_page_median": 179.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2381,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

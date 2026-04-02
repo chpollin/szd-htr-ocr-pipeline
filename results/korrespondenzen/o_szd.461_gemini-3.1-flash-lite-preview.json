@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.461",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Berta Schleicher an Stefan Zweig, 1929-09-10, SZ-SAM/AK.176",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.461/IMG.1",
+      "https://gams.uni-graz.at/o:szd.461/IMG.2",
+      "https://gams.uni-graz.at/o:szd.461/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Berta Schleicher an Stefan Zweig, 1929-09-10, SZ-SAM/AK.176\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.176\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10. 9. 29\n\nMeersburg a B. - Altes Schloß",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Alten Schlosses in Meersburg. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nSehr verehrter Herr Doktor,\ntausend Dank für Ihre\nfreundliche Einladung. Mit\ngroßer Freude werden Ka=\ntayama u. ich am Sonntag\ngegen 1 Uhr zu Ihnen kommen.\nHerzlich grüßt Ihre ergebene\nBerta Schleicher",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (München 10.9.29) vorhanden. Am unteren Rand gedruckter Verlagsvermerk: 'Verlag Zech, Meersburg a. B.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 290,
+    "total_words": 48,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      40,
+      250,
+      0
+    ],
+    "chars_per_page_median": 145.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2857,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

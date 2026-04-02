@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1781",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Rechtsanwälte Dr. H. und W. Weisflog vom 5. Mai 1938, SZ-AAP/B1.215",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1781/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1781/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Rechtsanwälte Dr. H. und W. Weisflog vom 5. Mai 1938, SZ-AAP/B1.215\n- Signatur: SZ-AAP/B1.215\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                   5.Mai 1938.\n\nRechtsanwälte Dr. H. und W.Weisflog,\nTalacker 48,\nZürich.\n\nSehr geehrte Herren!\n\n                    Ich gebe Ihnen hiermit Kenntnis\neines Briefes, den ich heute an Ihren Klienten, Herrn\nHerbert Reichner gerichtet habe, und bleibe mit den\nbesten Empfehlungen\n\n                    Ihr sehr ergebener",
+        "notes": "Typoskript auf Briefpapier. Das Dokument weist Lochungen am linken Rand auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 346,
+    "total_words": 40,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      346,
+      0
+    ],
+    "chars_per_page_median": 346,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

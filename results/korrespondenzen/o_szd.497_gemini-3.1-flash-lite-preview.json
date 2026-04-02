@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.497",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1928-06-02, SZ-SAM/AK.208",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.497/IMG.1",
+      "https://gams.uni-graz.at/o:szd.497/IMG.2",
+      "https://gams.uni-graz.at/o:szd.497/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1928-06-02, SZ-SAM/AK.208\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.208\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Paris Juni 28",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung von Notre-Dame. Handschriftliche Datumsangabe oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Imprimé\n\n\nHerrn Dr et Madame\nStefan Zweig\nKapuzinerberg 5\nSalzburg\nAutriche\n\nJeanne B. Peyrubin-Garry",
+        "notes": "Rückseite der Ansichtskarte. Gedruckte Elemente: 'Série 4 75 PARIS.. EN FLANT', 'Notre-Dame de Paris - Vue générale', 'Edition d'Art YVON, Paris', 'Fabrication française'. Handschriftliche Adressierung und Absenderin. Briefmarke und Poststempel (Paris, 30 VI 28) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierung, Ansichtskarte wie auf Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die handschriftliche Adresse und der Absendername sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 114,
+    "total_words": 17,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      13,
+      101,
+      0
+    ],
+    "chars_per_page_median": 57.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0625,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

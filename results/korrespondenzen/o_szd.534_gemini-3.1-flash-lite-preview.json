@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.534",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Louise Wandel an Stefan Zweig, 1926-09-20, SZ-SAM/AK.241",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.534/IMG.1",
+      "https://gams.uni-graz.at/o:szd.534/IMG.2",
+      "https://gams.uni-graz.at/o:szd.534/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Louise Wandel an Stefan Zweig, 1926-09-20, SZ-SAM/AK.241\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.241\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Val Gardena: S. Cristina m. 1427\nHôtel Grisi (già Wolkenstein)\nverso Sasso Lungo m. 3178.\n\n[Handschriftlich:]\nVie vorbei ein Mal\naller Gute u. [?] \nnach Wien\nu. viele Grüße\nIX. 1926 Louise Wandel",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Notiz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nÖsterreich\n\nGröden, September 20\nVerehrter Herr Doctor! ich konnte\nmich nicht entschließen, Mutter\nu. Bruder ohne meine höchst-\npersönliche Ansicht reisen\nzu lassen - u. befinde mich\ndemzufolge derzeit im direkten\nZuge Chiusa - Wien (Meraner\nZug). die Lockung „Salzburg“\nbesteht also weiter u. wird ihre\nErfüllung ein andermal finden\nmüssen. Vielleicht aber kommen\nleider!",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke und Poststempel (TRENTO 20.9.25) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Ein Wort in der handschriftlichen Notiz auf der Vorderseite ist unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 599,
+    "total_words": 93,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      195,
+      404,
+      0
+    ],
+    "chars_per_page_median": 299.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0108,
+    "dwr_score": 0.2558,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

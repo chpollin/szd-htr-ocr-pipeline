@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.498",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unidentified an Stefan Zweig, 1935-01-03, SZ-SAM/AK.209",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.498/IMG.1",
+      "https://gams.uni-graz.at/o:szd.498/IMG.2",
+      "https://gams.uni-graz.at/o:szd.498/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unidentified an Stefan Zweig, 1935-01-03, SZ-SAM/AK.209\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.209\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Postkarte: Ansicht von Schloss Miramare bei Triest.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Triest, 3. Jänner 1935\nSoeben komme\nich von der Insel zurück\nund sende erste\nGrüsse hier ich\nIhnen, sehr verehr=\nte Herr Doktor,\ndie ergebensten,\nherzlichsten Wünsche\nzu senden für das\nneue Jahr! Immer\n\nHochw. Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n(Austria)",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Am linken Rand vertikal geschrieben: 'in aufrichtiger Weise Ihr'. Poststempel 'TRIESTE - ARRIVO 8-9 1 35 XIII'. Briefmarken: 50 Centesimi (Dante) und 10 Centesimi (Augustus).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Postkarte (Rückseite) wie in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die vertikale Zeile am linken Rand wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 266,
+    "total_words": 43,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      266,
+      0
+    ],
+    "chars_per_page_median": 266,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

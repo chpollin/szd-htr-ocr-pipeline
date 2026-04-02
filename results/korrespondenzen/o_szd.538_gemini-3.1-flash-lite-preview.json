@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.538",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alfred von Winterstein an Stefan Zweig, 1911-12-11, SZ-SAM/AK.246",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.538/IMG.1",
+      "https://gams.uni-graz.at/o:szd.538/IMG.2",
+      "https://gams.uni-graz.at/o:szd.538/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alfred von Winterstein an Stefan Zweig, 1911-12-11, SZ-SAM/AK.246\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.246\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. 12. 11.\nLEIPZIG Neues Rathaus",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Neuen Rathauses in Leipzig. Handschriftliches Datum oben mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stefan Zweig\nVIII. Kochgasse 8\nWien\n\nLeipzig, Montag\nVielen, vielen Dank, liebster Doktor, für\nIhre schönen Worte in der N. Fr. Pr.; hoffentlich\nwurden Sie vom lesenden Publikum nicht\nmissverstanden! - Am 20. d. bin ich wieder in\nWien. Auf baldiges Wiedersehn!\nIn größter Erkenntlichkeit\nIhr aufrichtig ergebener\nWinterstein\n\nVerlag Kunsthandlung Hermann Vogel, Leipzig",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden (nicht transkribiert). 'N. Fr. Pr.' steht für 'Neue Freie Presse'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Postkarte ist in der Mitte abgebildet, entspricht inhaltlich Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzung 'N. Fr. Pr.' ist im Kontext der Korrespondenz von Stefan Zweig eindeutig als 'Neue Freie Presse' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 412,
+    "total_words": 62,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      33,
+      379,
+      0
+    ],
+    "chars_per_page_median": 206.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2321,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

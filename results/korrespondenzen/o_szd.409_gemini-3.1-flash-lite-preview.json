@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.409",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Marianne Neumann an Stefan Zweig, 1928-09-14, SZ-SAM/AK.128",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.409/IMG.1",
+      "https://gams.uni-graz.at/o:szd.409/IMG.2",
+      "https://gams.uni-graz.at/o:szd.409/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Marianne Neumann an Stefan Zweig, 1928-09-14, SZ-SAM/AK.128\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.128\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "hier, dann wieder in Wien. mit sehr herzlichen Grüßen Ihre\nGrand Hôtel, 14. 9 28 Marianne Neumann\nAuch von mir die\nherzlichsten Grüße!\nIhr stets ganz ergebener\nAlfred Neumann",
+        "notes": "Vorderseite einer Postkarte mit Ansicht von Juan-les-Pins. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Doktor, nach meiner\nRückkehr aus Gastein hat mein\nMann mir Ihre Briefe gezeigt, aus\ndenen ich mit Vergnügen ersehe, dass\nSie noch an mich und Ihre Besuche\nbei uns sich erinnern. Hätten Sie\nnicht Lust gelegentlich eines Ihres\nAufenthaltes uns einmal aufzu-\nsuchen? Bitte fassen Sie diese Auf-\nforderung nicht als Aufdringlichkeit\nauf, aber seien Sie überzeugt, dass wir\nuns jederzeit außerordentlich\nfreuen würden Sie bei uns zu\nsehen. Wir sind bis Ende September\n\nHerrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAutriche",
+        "notes": "Rückseite der Postkarte mit Adressfeld und Nachricht. Handschrift in violetter Tinte. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz der violetten Tinte auf dem leicht vergilbten Papier."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 706,
+    "total_words": 113,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      174,
+      532,
+      0
+    ],
+    "chars_per_page_median": 353.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4679,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

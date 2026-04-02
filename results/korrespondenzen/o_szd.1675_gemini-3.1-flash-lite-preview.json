@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1675",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hermann Haase an Stefan Zweig, SZ-SAM/AK.75",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1675/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1675/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1675/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hermann Haase an Stefan Zweig, SZ-SAM/AK.75\n- Signatur: SZ-SAM/AK.75\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "GELNHAUSEN\nVillenviertel",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Villenviertels von Gelnhausen. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Gelnhausen\nb. Hanau a/Main\nPreußen=\nHess. Nassau,\nden 17/1908.\n\nSehr geehrter Herr!\nÜber die beiden Arbeiten über\nBalzac aus Ihrer [?] Zukunft[?],\ndem sage ich Ihnen meinen herzlich\ndank für die vorzüglich, erfrischende\naufgefaßte stilistische Arbeit, die Balzac\nü. Sie gleich farfaßt.\nMit freundlichen Grüßen\nHermann Haase,\nLehrer & Schriftsteller.\n\nDem Schriftsteller, Dichter\nHerrn Stefan Zweig,\nWien.\n\nWohnung kann nicht angegeben\nwerden. Adresse ist ein bekannter\nMann u. in Wien geboren.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Enthält eine 5-Pfennig-Briefmarke des Deutschen Reiches und einen Poststempel 'GELNHAUSEN 17.7.08'. Am linken Rand vertikal gedruckter Verlagsvermerk: 'Verlag: Carl Seibig, Buchhandlung, Gelnhausen.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Gesamtansicht der Postkarte (Rückseite) mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere bei den Wörtern 'Zukunft' und 'farfaßt' (möglicherweise 'erfaßt' oder 'umfaßt'). Der Text am unteren rechten Rand der Postkarte ist durch die Stempelung und die Handschrift teilweise überlagert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 517,
+    "total_words": 73,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      24,
+      493,
+      0
+    ],
+    "chars_per_page_median": 258.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0274,
+    "dwr_score": 0.338,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

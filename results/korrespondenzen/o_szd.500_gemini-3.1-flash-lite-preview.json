@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.500",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1928-04-16, SZ-SAM/AK.210",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.500/IMG.1",
+      "https://gams.uni-graz.at/o:szd.500/IMG.2",
+      "https://gams.uni-graz.at/o:szd.500/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1928-04-16, SZ-SAM/AK.210\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.210\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Der Kaffee muß hier köstlich se’n,\nDenn er wird dargebracht\nVom hübschen Mädchen, nett und fein,\nIn Schweizer-Tracht.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unterhalb der Abbildung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Monsieur\nDr. Stephen Zweig\nSalzburg\nKapuzinerberg 4\n\nDepuis quelques jours\nà Karlsbad avec un temps\naffreux – J’espère rece-\nvoir de vos bonnes nou-\nvelles à Vienne et rece-\nvez mes cordiales\n16.4.28. salutations",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden. Gedruckte Verlagsangaben und Hotelwerbung am Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der handschriftliche Text ist gut lesbar, trotz der teilweise überlagerten Stempel und der gedruckten Werbetexte am Rand."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 329,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      117,
+      212,
+      0
+    ],
+    "chars_per_page_median": 164.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1154,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

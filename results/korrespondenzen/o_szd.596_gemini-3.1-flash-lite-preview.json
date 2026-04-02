@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.596",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jo van Ammers-Küller an Stefan Zweig, 1929-07-11, SZ-SAM/AK.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.596/IMG.1",
+      "https://gams.uni-graz.at/o:szd.596/IMG.2",
+      "https://gams.uni-graz.at/o:szd.596/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jo van Ammers-Küller an Stefan Zweig, 1929-07-11, SZ-SAM/AK.3\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "PRAHA.ORLOJ NA STAROMĚSTSKÉ RADNICI.\n11. VII. 29.",
+        "notes": "Vorderseite einer Ansichtskarte mit dem Prager Rathaus-Orloj. Handschriftliches Datum am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Herr und Frau\nZweig, Aus Prag sende\nwer Ihnen einen herz-\nlichen Gruss und möchte\nSie nochmals Ihr sehr\ndanken für den wunder\nschönen Abend die Sie\nuns in Salzburg geschenkt\nhaben und die uns un\nvergesslich sein wird.\nWir sind jetzt in Prag, und\ngehen morgen nach Hause\nda mein älteste Sohn, der\nFredes leider krank ist.\nGlücklich nicht schlimmste,\nich will doch so bald möglich\nbei Ihnen. Mit herzlichen\nGruss Ihr sehr Jo van Tonny van\nAmmers.",
+        "notes": "Rückseite der Ansichtskarte, handschriftlich. Adressfeld rechts: 'Herrn und Frau / Dr Stefan Zweig / 5 Kapuzinerberg / Salzburg / O. Österreich'. Poststempel 'PRAHA 25' erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebe Herr und Frau\nZweig, Aus Prag sende\nwer Ihnen einen herz-\nlichen Gruss und möchte\nSie nochmals Ihr sehr\ndanken für den wunder\nschönen Abend die Sie\nuns in Salzburg geschenkt\nhaben und die uns un\nvergesslich sein wird.\nWir sind jetzt in Prag, und\ngehen morgen nach Hause\nda mein älteste Sohn, der\nFredes leider krank ist.\nGlücklich nicht schlimmste,\nich will doch so bald möglich\nbei Ihnen. Mit herzlichen\nGruss Ihr sehr Jo van Tonny van\nAmmers.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige grammatikalische Unsicherheiten sowie orthographische Eigenheiten auf (z.B. 'sende wer' statt 'senden wir', 'Ihr sehr danken' statt 'Ihnen sehr danken'). Die Lesung ist insgesamt sicher, aber die Interpretation der Satzstruktur ist aufgrund der Grammatik des Schreibers herausfordernd."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 949,
+    "total_words": 167,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      49,
+      450,
+      450
+    ],
+    "chars_per_page_median": 249.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4253,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

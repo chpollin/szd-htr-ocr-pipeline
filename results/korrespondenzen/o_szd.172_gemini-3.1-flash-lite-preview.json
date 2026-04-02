@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.172",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ex Libris, SZ-SEF/L5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.172/IMG.1",
+      "https://gams.uni-graz.at/o:szd.172/IMG.2",
+      "https://gams.uni-graz.at/o:szd.172/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ex Libris, SZ-SEF/L5\n- Signatur: SZ-SEF/L5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "EX LIBRIS\n\nSTEFAN ZWEIG",
+        "notes": "Ex Libris von Stefan Zweig. Gedruckte Grafik in Blau auf weißem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Ex Libris, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen das Ex Libris (identisch mit Seite 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein gedrucktes Ex Libris und daher eindeutig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 23,
+    "total_words": 4,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      23,
+      0,
+      0
+    ],
+    "chars_per_page_median": 23,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

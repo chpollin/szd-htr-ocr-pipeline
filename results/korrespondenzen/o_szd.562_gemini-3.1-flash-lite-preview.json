@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.562",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1913-08-25, SZ-SAM/AK.269",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.562/IMG.1",
+      "https://gams.uni-graz.at/o:szd.562/IMG.2",
+      "https://gams.uni-graz.at/o:szd.562/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1913-08-25, SZ-SAM/AK.269\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.269\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Viele Grüsse - durch Schnee & Klüfte hieher verweht. Treue\nFRAGSBURG GEGEN MERAN (734 M.) 25.8.13.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text unten und handschriftlichem Text oben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Dr. ! Nach dem\ndauerhaften Schreiben=\nhören Ihr feuilleton\nmit B.t. [?] & oft\nSchriften der Literatur.\nNachricht von Ginzkey's\nVerheirung mag\nJelena = Szlony [?] hat\nuns mehrfach\nvermögt, ich fül, dass\nSalters zum Tyllut [?]\nWar fremdenblatt ?\nIch nenn' es: Stefan\nZweigen. Mit den\nbesten Wünschen für gute\nArbeit Ihr sehr Lallmann [?]",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressfeld. Briefmarke und Poststempel vorhanden. Die Handschrift ist teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, darunter die bereits transkribierte Postkartenrückseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Eigennamen und Begriffe auf (z.B. 'Szlony', 'Tyllut', 'Lallmann')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 445,
+    "total_words": 74,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      98,
+      347,
+      0
+    ],
+    "chars_per_page_median": 222.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0541,
+    "dwr_score": 0.3594,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

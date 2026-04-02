@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.405",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kurt Mickoleit an Stefan Zweig, 1908-07-23, SZ-SAM/AK.124",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.405/IMG.1",
+      "https://gams.uni-graz.at/o:szd.405/IMG.2",
+      "https://gams.uni-graz.at/o:szd.405/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kurt Mickoleit an Stefan Zweig, 1908-07-23, SZ-SAM/AK.124\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.124\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Warnicken\nWolfsschlucht\n23. 7. 08.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Wolfsschlucht in Warnicken. Handschriftliche Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Warnicken, 23. 7. 08.\nLieber Herr Dr. Zweig!\nBesten Dank für Ihre\nfreundliche Karte. Beiliegend\nfinden Sie ja meinen Wohn-\nsitz wohl mir jetzt auch\ndurch das Jahr: ich weile seit\neiner Woche im Ostseebade\nRossitten, seit dem 10. Juni\nbereits auf Reisen in Ost-\npreußen. Gern werde ich Sie\nim Winter in Berlin be-\nsuchen.\nMit schönstem Gruß\nIhr ergebener\nKurt Mickoleit.\n\nHerrn Dr. Stefan Zweig\n\nWien VIII\nKochg. 8II.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke 'Deutsches Reich' 5 Pfennig oben rechts, Poststempel 'Warnicken'. Vertikaler Druck am linken Rand: 'Stengel & Co. Dresden 596'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Warnicken, 23. 7. 08.\nLieber Herr Dr. Zweig!\nBesten Dank für Ihre\nfreundliche Karte. Beiliegend\nfinden Sie ja meinen Wohn-\nsitz wohl mir jetzt auch\ndurch das Jahr: ich weile seit\neiner Woche im Ostseebade\nRossitten, seit dem 10. Juni\nbereits auf Reisen in Ost-\npreußen. Gern werde ich Sie\nim Winter in Berlin be-\nsuchen.\nMit schönstem Gruß\nIhr ergebener\nKurt Mickoleit.\n\nHerrn Dr. Stefan Zweig\n\nWien VIII\nKochg. 8II.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Ortsangabe 'Rossitten' ist aufgrund der Handschrift leicht interpretativ, aber im Kontext der Region (Ostpreußen) und der Schriftzüge eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 866,
+    "total_words": 147,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      34,
+      416,
+      416
+    ],
+    "chars_per_page_median": 225.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3768,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

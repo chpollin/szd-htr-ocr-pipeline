@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.555",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Zech an Stefan Zweig, 1914-03-31, SZ-SAM/AK.262",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.555/IMG.1",
+      "https://gams.uni-graz.at/o:szd.555/IMG.2",
+      "https://gams.uni-graz.at/o:szd.555/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Zech an Stefan Zweig, 1914-03-31, SZ-SAM/AK.262\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.262\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DUISBURG-HOUHFELD\nNiederrheinische Hütte\n31. III 14. P. Zech",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Industrieansicht. Der Text ist teilweise gedruckt, teilweise handschriftlich (Datum und Signatur).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Monsieur\nDr. Stefan Zweig\nParis\n15 rue de Beaujolais\nHôtel Beaujolais\n\nLieber Freund, ich schreibe Ihnen in\nden nächsten Tagen ein paar Briefzeilen.\nVorläufig wäre Dank für die Karte.\nVon Verweyen erhielt ich die Adresse aus\neinem frühen Briefe. Würden Sie die Güte\nhaben und unserem dem Meister\nmeinen herzlichen Dank übermitteln.\nHand und Gruß Ihr Paul Zech",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke 'Deutsches Reich' 10 Pfennig oben links, Poststempel 'BERLIN-WILMERSDORF 31.3.14 3-4N'. Verlagsangabe am unteren Rand: 'Kunstverlag Bernhard Wandt, Oberhausen, Rbld. Nachdruck verboten. No. 9165'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Monsieur\nDr. Stefan Zweig\nParis\n15 rue de Beaujolais\nHôtel Beaujolais\n\nLieber Freund, ich schreibe Ihnen in\nden nächsten Tagen ein paar Briefzeilen.\nVorläufig wäre Dank für die Karte.\nVon Verweyen erhielt ich die Adresse aus\neinem frühen Briefe. Würden Sie die Güte\nhaben und unserem dem Meister\nmeinen herzlichen Dank übermitteln.\nHand und Gruß Ihr Paul Zech",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz der kursiven Schreibweise."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 778,
+    "total_words": 124,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      60,
+      359,
+      359
+    ],
+    "chars_per_page_median": 359,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3471,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

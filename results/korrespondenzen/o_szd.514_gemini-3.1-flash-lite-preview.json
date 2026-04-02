@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.514",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1912-08-24, SZ-SAM/AK.223",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.514/IMG.1",
+      "https://gams.uni-graz.at/o:szd.514/IMG.2",
+      "https://gams.uni-graz.at/o:szd.514/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1912-08-24, SZ-SAM/AK.223\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.223\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "17654 Engelberg und die Spannörter 3205 m\n24/8 12",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "H. Stefan Zweig\nIII Kochgasse 8\n~~M. uns fortfahren~~ [?]\nVienne\n(Autriche)\n\nLiebster Mordwiter, Sie kämen uns\nriesig gelegen, wenn wir am 27. Okt\nin Pressburg wären! Wir kommen\naber erst in der ersten September\ntage dorthin zurück. Am 4. Sept\nwürden Sie uns wegen Ihres 3 vor\nfinden und noch Ihren Besuch ab\nstatten. Lässt es sich gar nicht\neinrichten? Es wäre sehr hübsch.\nDas Theater fängt erst am 15. Sept\nan. Wir haben seit 1. Aug schlechtes\nWetter gehabt in Morzins und auf\nder Fahrt am Melchsee. Seit einer Woche\nsind wir hier. Also hoffentlich auf Wiedersehn\nHerz v. schönste Empfehlungen Ihnen\n[vertikal am rechten Rand:] Herzlichst Ihre [Name unleserlich]",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke und Poststempel vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere die vertikale Notiz am Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Rückseite der Ansichtskarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf, insbesondere bei den Ortsnamen und der vertikalen Randnotiz. Die Struktur der Postkarte ist klar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 714,
+    "total_words": 121,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      49,
+      665,
+      0
+    ],
+    "chars_per_page_median": 357.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0083,
+    "dwr_score": 0.4,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

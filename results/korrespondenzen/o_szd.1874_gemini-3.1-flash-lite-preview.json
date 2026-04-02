@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1874",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an das International Copyright Bureau vom 9. Dezember 1938, SZ-AAP/B3.3",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1874/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1874/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1874/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 9. Dezember 1938, SZ-AAP/B3.3\n- Signatur: SZ-AAP/B3.3\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\n9th December, 1938.\n\nThe International Copyright Bureau, Ltd.,\nDewar House,\nHaymarket,\nLondon, S.W.1.\n\nDear Sirs,\n\nIn the event of Messrs. Felix Bloch Erben\nsueing you for damages or payment of monies which they may\nclaim on account of your paying to me monies received from\nthe Theatre Guild, New York, I hereby undertake to keep you\nindemnified by repayment of any such monies paid to me.\n\nYours sincerely,\n\n(signed): STEFAN ZWEIG",
+        "notes": "Typoskript. Oben rechts handschriftliche Nummerierung '15' in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\n9th December, 1938.\n\nThe International Copyright Bureau, Ltd.,\nDewar House,\nHaymarket,\nLondon, S.W.1.\n\n(signed): STEFAN ZWEIG",
+        "notes": "Das Dokument enthält eine Farb- und Grauskala zur Archivierung. Der Text ist eine teilweise verdeckte Kopie des Typoskripts von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 641,
+    "total_words": 105,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      474,
+      0,
+      167
+    ],
+    "chars_per_page_median": 474,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3544,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

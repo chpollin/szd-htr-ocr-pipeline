@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.580",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1926-06-20, SZ-SAM/AK.285",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.580/IMG.1",
+      "https://gams.uni-graz.at/o:szd.580/IMG.2",
+      "https://gams.uni-graz.at/o:szd.580/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1926-06-20, SZ-SAM/AK.285\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.285\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hamburg\nSt. Pauli, Landungsbrücken.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Hamburger Landungsbrücken.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Stefan Zweig\nSalzburg\nOesterreich\nKapuzinerberg 5\n\nmeule [?] d'un [?] je fais\n~~g~~ voyage a locatide [?]\nrefender [?], Hamburg. Mime\n-Phenane [?]. Votre lettre est\ncome ce [?] pour [?] acheui [?].\nbon [?] receu [?] dentit [?]\n[...4...] [?]\n26 6/26",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht in französischer Sprache. Briefmarke 'Deutsches Reich' oben links, Poststempel 'KÖLN 11 Juli 1926'. Die Handschrift ist schwer lesbar, teilweise kursiv und in französischer Sprache verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "low",
+    "confidence_notes": "Die handschriftliche Nachricht auf der Rückseite der Postkarte ist in einer sehr flüchtigen, schwer lesbaren französischen Kursivschrift verfasst. Viele Wörter sind aufgrund der Schriftführung und möglicher orthographischer Eigenheiten des Schreibers nur schwer oder gar nicht eindeutig zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 289,
+    "total_words": 48,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      35,
+      254,
+      0
+    ],
+    "chars_per_page_median": 144.5,
+    "marker_uncertain_count": 12,
+    "marker_illegible_count": 1,
+    "marker_density": 0.2708,
+    "dwr_score": 0.1515,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

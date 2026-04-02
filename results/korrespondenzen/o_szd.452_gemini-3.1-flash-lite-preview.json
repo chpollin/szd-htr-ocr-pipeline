@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.452",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Dietmar Heinrich Sarnetzki an Stefan Zweig, 1931-12-13, SZ-SAM/AK.168",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.452/IMG.1",
+      "https://gams.uni-graz.at/o:szd.452/IMG.2",
+      "https://gams.uni-graz.at/o:szd.452/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Dietmar Heinrich Sarnetzki an Stefan Zweig, 1931-12-13, SZ-SAM/AK.168\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.168\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31.12.32\n\nKöln, Luftbild",
+        "notes": "Vorderseite einer Ansichtskarte mit Luftaufnahme des Kölner Doms. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stefan Zweig\nund Frau Gemahlin\nSalzburg, Kapuzinerberg 5\nOesterreich\n\nSehr verehrter und lieber Herr Dr. Zweig, an der\nSchwelle des alten und neuen Jahres Jahre[?] \ngütes wünschen und hoffentlich besseres gestern\nkam mir Ihre und Frau verehrte Frau G.\nmeine mit [?] Grüßen und Wünschen,\nund danken für Ihre freundliche\nReise Grüße. Habe ich Ihnen eigentlich für den\neben Sonderdruck vom Mozarts Geburt-\nhaus gedankt? Ich bin meines Tags auch\nallzu sehr und danke Ihnen auch dafür\ndie Hand. In alter Ergebenheit\nIhr Sarnetzki und Frau",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarken und Poststempel vorhanden. Der Text ist teilweise schwer lesbar, insbesondere die Zeilen 5-7.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Mittelteil des Textes). Die Transkription der Postkartenrückseite erfolgte nach bestem Wissen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 567,
+    "total_words": 91,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      24,
+      543,
+      0
+    ],
+    "chars_per_page_median": 283.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.022,
+    "dwr_score": 0.4318,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

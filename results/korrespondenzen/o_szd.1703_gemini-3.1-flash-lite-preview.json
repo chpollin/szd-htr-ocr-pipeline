@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1703",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 11. Januar 1936, SZ-SAM/B7.70",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1703/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1703/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 11. Januar 1936, SZ-SAM/B7.70\n- Signatur: SZ-SAM/B7.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Westminster\nNizza, den 11.Januar 1936.\n\nLiebe Frau Meingast!\n\nNatürlich ist es furchtbar schwer, solange ich unterwegs bin, aber wir wollen dann in London die Sache gründlich einrichten und Fräulein Altmann wird sich nur freuen, wenn sie direkt mit Ihnen in Verbindung treten kann. Im Allgemeinen möchte ich nicht immer von Fall zu Fall die Mitteilungen herüber und hinüber schicken sondern vorschlagen, dass dieser Austausch immer am Ende jedes Monats geschieht. Ein einzelner Brief wird leicht vergessen oder man kann ihn nicht immer notieren, während eine solche zusammenfassende Liste dann auf einmal hüben und drüben übertragen werden kann.\n\nHeute lege ich Ihnen nur bei von Juventud die Liste der in Chile erschienenen Bücher, die, solange sie im Original noch nicht vorhanden sind, mit Bleistift in der Bibliographie, aber auch in der Registratur zu vermerken sind, ferner die Mitteilung, dass von ihm die 3838.34 Peseten bereits überwiesen worden sind. Im Allgemeinen sind alle neuern Dinge trotz aller Schwierigkeiten ja in Uebersicht gehalten worden und es müssen nur jetzt noch die alten Rückstände aufgeräumt werden. Ich glaube, wir werden zu einer tadellosen Ordnung gelangen.\n\nWir haben hier schönes Wetter und es wird auch bald für Sie wieder ausgiebig Arbeit geben.\n\nMit besten Grüssen Ihr\nStefan",
+        "notes": "Typoskript mit handschriftlicher Unterschrift 'Stefan' und einem handschriftlichen Wort links unten ('Wenden').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ich nehme an, dass Sie das Exemplar an Juventud schon geschickt\nhaben. Bitte sehen Sie auch nach, wie es mit den Rechten der\n\"Briefe einer Unbekannten\" in spanisch steht.\n\nLiebe Frau Meingast!\nHerr Dr. Zweig sagt mir, dass Sie\ndadurch, dass ein Teil der Korrespondenz über\nLondon geht, Schwierigkeiten bei der Buchführung\nhaben und sie aus Mangel an vollständiger\nInformation nicht ordnungsgemäss führen kön-\nnen. Ich war bisher auch nicht über alle Vor-\ngänge unterrichtet, bitte Sie aber, sich jeder-\nzeit an mich zu wenden, wenn ich Ihnen durch\neine Auskunft in irgend einer Weise behilflich\nsein kann. Von jetzt an werde ich über alle\nEingänge, Beträge, Abrechnungen undsoweiter genau\nBuch führen und sende Ihnen dann, wie Herr Dr.\nZweig vorgeschlagen hat, Ende des Monats eine voll-\nständige Liste zu. Eine geregelte Buchführung\nwird ja erst in London möglich sein, aber\nich will Ihnen gerne, soweit es von hier aus\nmöglich ist, schon jede Auskunft geben. Ich möchte\ngerne alles tun, um die briefliche Zusammen-\narbeit, die sich ja späterhin zwischen uns fort-\nsetzen wird, in einer angenehmen und reibungs-\nlos laufenden zu machen und würde mich freuen,\nwenn es uns gelingen würde, es so einzurichten,\ndass durch gemeinsame Zusammenarbeit Herr Dr. Zweig\nin diesen Dingen entlastet würde.\nLassen Sie mich also bitte wissen, wenn ich\nIhnen von hier aus etwas sagen kann, ich werde\nmich freuen, Ihnen behilflich sein zu können.\nMit freundlichen Grüssen Lotte Altmann",
+        "notes": "Handschriftlicher Brief von Lotte Altmann auf der Rückseite des Typoskripts. Oben rechts befinden sich handschriftliche Notizen (Zahlen/Beträge), die vermutlich von einer anderen Hand stammen oder Ergänzungen sind.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen von Lotte Altmann sind flüssig geschrieben und gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2787,
+    "total_words": 440,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1318,
+      1469
+    ],
+    "chars_per_page_median": 1393.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5685,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

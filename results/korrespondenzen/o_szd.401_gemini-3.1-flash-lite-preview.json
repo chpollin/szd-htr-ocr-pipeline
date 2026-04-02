@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.401",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Eberhard Meckel an Stefan Zweig, 1929-10-12, SZ-SAM/AK.120",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.401/IMG.1",
+      "https://gams.uni-graz.at/o:szd.401/IMG.2",
+      "https://gams.uni-graz.at/o:szd.401/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Eberhard Meckel an Stefan Zweig, 1929-10-12, SZ-SAM/AK.120\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.120\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. X. 29. Tivoli",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Datums- und Ortsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stefan Zweig.\nKapuzinerberg 5.\nSalzburg.\n\n[Vertikal am linken Rand:] Austria\n\n[Text:]\nEin erstes Mal unter südlichem\n~~the~~ Florenz, Rom, Neapel, wobei\nich mir erlaube, Ihnen gemeinsam\nmit dem Genossen, dem Mitleser\nbei Ihnen in Salzburg März 1928, einen\nGruß zu schicken. Ihr ergebener\nEberhard Meckel.\n\nDie Augenblicke sind hier 12. X. 29.\nlänger als in Norden - und\ndie Menschen andächtiger zu sein [?] \nTile Petersen",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts, Poststempel 'ROMA' in der Mitte. Vertikaler Aufdruck am linken Rand: 'VILLA D'ESTE - TIVOLI - Prospetto'. Rechts am Rand vertikaler Aufdruck: 'Ediz. Prov. vietata'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'sein' am Ende ist aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 448,
+    "total_words": 72,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      17,
+      431,
+      0
+    ],
+    "chars_per_page_median": 224.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0139,
+    "dwr_score": 0.3281,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

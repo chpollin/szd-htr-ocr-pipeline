@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.544",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Zech an Stefan Zweig, 1915-10-05, SZ-SAM/AK.252",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.544/IMG.1",
+      "https://gams.uni-graz.at/o:szd.544/IMG.2",
+      "https://gams.uni-graz.at/o:szd.544/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Zech an Stefan Zweig, 1915-10-05, SZ-SAM/AK.252\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.252\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dombières-Friedhof. 5. 10. 15.",
+        "notes": "Vorderseite einer Ansichtskarte mit Fotografie eines Friedhofs. Handschriftliche Notiz oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Schriftsteller\nDr. Stefan Zweig\nWien VIII\nKochgasse 8\n\nLieber guter Freund, ich danke Ihnen viel-\nmals für Ihre mitgedenkende Karte. In der\nWüsten kommt jetzt fastferd[?]. Tage über:\nschlagen sich in furchtbaren Satz der Aufregung\nund Aufregung. Man kommt kaum zur\nBesinnung. Wäre nur das Ende bald da!\nHerzlich beide Hände\n81 Res. Bat. 3 Komp. Paul Zech\nFeldpost-Station 96 Conflans",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Poststempel 'K.D. Feldpoststation 5.10.15' und Stempel 'Res.-Bataillon Nr. 81 3. Komp.' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Schriftsteller\nDr. Stefan Zweig\nWien VIII\nKochgasse 8\n\nLieber guter Freund, ich danke Ihnen viel-\nmals für Ihre mitgedenkende Karte. In der\nWüsten kommt jetzt fastferd[?]. Tage über:\nschlagen sich in furchtbaren Satz der Aufregung\nund Aufregung. Man kommt kaum zur\nBesinnung. Wäre nur das Ende bald da!\nHerzlich beide Hände\n81 Res. Bat. 3 Komp. Paul Zech\nFeldpost-Station 96 Conflans",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen zur Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'fastferd' ist aufgrund der Handschrift unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 808,
+    "total_words": 128,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      30,
+      389,
+      389
+    ],
+    "chars_per_page_median": 209.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0156,
+    "dwr_score": 0.3115,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -23,9 +23,15 @@
       },
       {
         "page": 2,
-        "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+        "transcription": "L. g. F! Sein Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Sein Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin Brief kommt nächster Tage!",
         "notes": "Textseite der Postkarte. 'L. g. F!' steht vermutlich für 'Lieber guter Freund'. 'Se.' könnte 'Seite' oder 'Sendung' bedeuten.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [{
+          "original_transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
+          "edited_by": "Claude Code Agent",
+          "edited_at": "2026-04-02T21:00:00Z",
+          "source": "agent"
+        }]
       },
       {
         "page": 3,
@@ -76,5 +82,15 @@
     "needs_review_reasons": [
       "duplicate_pages"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.96,
+    "edited_pages": [2],
+    "notes": "Page 2: 3 corrections. (1) 'bin Sie nicht bös' → 'Sein Sie nicht bös' — Kurrent S misread as b; 'Sein Sie' is standard Austrian formal imperative. (2) 'Bin Sie gegrüßt' → 'Sein Sie gegrüßt' — same error in closing formula. (3) 'brief' → 'Brief' — German noun capitalization. Page 1 address side correct. Page 3 is color_chart, skipped. Duplicate_pages flag is false positive (color chart re-photography).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
   }
 }

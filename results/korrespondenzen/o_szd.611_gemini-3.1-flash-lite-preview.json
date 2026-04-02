@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.611",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Theodor Däubler an Stefan Zweig, 1921-03-08, SZ-SAM/AK.42",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.611/IMG.1",
+      "https://gams.uni-graz.at/o:szd.611/IMG.2",
+      "https://gams.uni-graz.at/o:szd.611/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Theodor Däubler an Stefan Zweig, 1921-03-08, SZ-SAM/AK.42\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Coburg\n8.III.21.",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung der Veste Coburg. Handschriftliche Notiz oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Stefan Zweig,\nich fahre jetzt nach Wien\nund aber vormals\nnach Berlin. Möchte\ndaber, wie telegraphiert\netwa am 10. IV. in\nSalzburg vorlesen. Ist\nman erreicht und durch\nAusblick Wien I.\nBurgtheater. Herzliche\nGrüße, auf Wiedersehen\nDäubler\n\nHerrn Stefan Zweig\nKapuzinerberg\nSalzburg\n(Österreich)",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Coburg 8.3.21) vorhanden. Gedruckter Text: 'POSTKARTE', 'Verlag der E. Riemann'schen Hofbuchhandlung, Coburg', 'Veste Coburg von Nordwest', 'Wiederherstellung nach Plänen von Professor Bodo Ebhardt', 'L3715 19'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Stefan Zweig,\nich fahre jetzt nach Wien\nund aber vormals\nnach Berlin. Möchte\ndaber, wie telegraphiert\netwa am 10. IV. in\nSalzburg vorlesen. Ist\nman erreicht und durch\nAusblick Wien I.\nBurgtheater. Herzliche\nGrüße, auf Wiedersehen\nDäubler\n\nHerrn Stefan Zweig\nKapuzinerberg\nSalzburg\n(Österreich)",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Theodor Däubler ist trotz der kursiven Schreibweise eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 616,
+    "total_words": 90,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      16,
+      300,
+      300
+    ],
+    "chars_per_page_median": 300,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3636,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

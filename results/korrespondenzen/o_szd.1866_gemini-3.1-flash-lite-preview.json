@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1866",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 30. März 1938, SZ-AAP/B1.196",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1866/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1866/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 30. März 1938, SZ-AAP/B1.196\n- Signatur: SZ-AAP/B1.196\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "30.März 1938.\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich.\n\nSehr geehrter Herr Reichner!\n\nIch habe gern gehört, dass Sie endlich einen\nAnwalt mit der Reglung der Verlagsangelegenheiten betraut\nhaben, weil vermutlich dadurch die Angestellten in eine\nweniger peinliche und verantwortliche Lage kommen. Auch\nGregor als Autor hat sich dringlich an mich gewandt, ich\nsollte Sie zu diesem notwendigen Schritt veranlassen. Ich\npersönlich habe bisher keinen Schritt unternommen und\nnicht einen einzigen Brief an den Verlag nach Wien gerich-\ntet.\n\nWas einen englischen Verlag betrifft, so ist\nmir nicht ganz klar, welches Interesse er haben sollte,\nsofern Sie ihm nicht ein grösseres Kapital und umfangrei-\nche Vorräte gangbarer Bücher einbringen. Auch halte ich den\nVertrieb von hier aus für völlig unmöglich. Ein anderes wä-\nre es gewesen, wenn man rechtzeitig, wie ich Sie immer\ndrängte, eine englische Deckgesellschaft für den Betrieb\nam Kontinent gegründet und dort produziert hätte. Ich",
+        "notes": "Typoskript auf Briefpapier. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "glaube nicht, dass die englischen Verleger, soweit ich\nsie in ihrer vorsichtigen und strengen Kalkulation ken-\nne, auch nur auf diesbezügliche Verhandlungen eingehen\nwürden.\n\nIch erwarte Ihre Nachricht, ob die Wiener\nAbwicklung gelungen ist, direkt von Ihnen, da eine\nKorrespondenz mit Wien mir untunlich erscheint. Hof-\nfentlich kommt alles bald zu einer gewissen Ordnung.\n\nMit besten Grüssen\nIhr sehr ergebener",
+        "notes": "Typoskript, Fortsetzung des Briefes. Die Unterschrift fehlt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1401,
+    "total_words": 206,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      989,
+      412
+    ],
+    "chars_per_page_median": 700.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4244,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

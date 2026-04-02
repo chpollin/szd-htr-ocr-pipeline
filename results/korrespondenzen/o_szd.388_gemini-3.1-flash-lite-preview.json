@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.388",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alix Winternitz an Stefan Zweig, 1932-02, SZ-SAM/AK.109",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.388/IMG.1",
+      "https://gams.uni-graz.at/o:szd.388/IMG.2",
+      "https://gams.uni-graz.at/o:szd.388/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alix Winternitz an Stefan Zweig, 1932-02, SZ-SAM/AK.109\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.109\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. 2. 32.\n\nKitzbühel i. Tirol",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Winterlandschaft von Kitzbühel. Handschriftliche Datumsangabe oben mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg\n\nLieber Stepfi!\nEs ist herrlich hier und\nich danke Dir auch vielmals.\nMit dem Skilaufen geht es\nrecht gut und wir haben\nherrliche Sonne und Schnee.\nHerzlichst Deine\ndankbare Lisl",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (nicht transkribiert). Gedruckte Angaben am linken Rand: 'Alpiner Wintersportplatz Kitzbühel (Tirol.) Blick auf Tristkogel 2066 m (links), Gamshag 2180 m (Mitte) und Schütz 2069 m (rechts)' sowie '3028 Orig.-Aufn. u. Verl.: H. Birkmeyer, Garmisch. Nachdruck verboten.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. Darunter liegt die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die gedruckten Teile der Postkarte sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 254,
+    "total_words": 42,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      30,
+      224,
+      0
+    ],
+    "chars_per_page_median": 127.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

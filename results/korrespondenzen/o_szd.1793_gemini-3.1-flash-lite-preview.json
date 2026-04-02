@@ -1,0 +1,89 @@
+{
+  "object_id": "o_szd.1793",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Max Rascher vom 12. Mai 1938, SZ-AAP/B1.227",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1793/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Max Rascher vom 12. Mai 1938, SZ-AAP/B1.227\n- Signatur: SZ-AAP/B1.227\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. Mai 1938.\n\nRascher & Co.,\nLimmatquai 50,\nZürich.\n\nLieber Herr Rascher!\n\nEs scheint doch, dass Sie im\nIrrtum sich befanden und der Herbert Reichner Verlag\nsich tatsächlich {als Ihr Kollege} in Zürich etabliert hat, denn ich\nerhalte zu meinem grossen Erstaunen beiliegenden\nProspekts des Vereinssortiments, worin der Verlag schon\nals \"Herbert Reichner Verlag, Zürich\" signiert.\n\nMit den besten Grüssen",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte. Die Ergänzung '{als Ihr Kollege}' ist über der Zeile eingefügt, das Wort 'schon' ist handschriftlich am Ende der Zeile ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "12. Mai 1938.\n\nRascher & Co.,\nLimmatquai 50,\nZürich.\n\nLieber Herr Rascher!\n\nEs scheint doch, dass Sie im\nIrrtum sich befanden und der Herbert Reichner Verlag\nsich tatsächlich {als Ihr Kollege} in Zürich etabliert hat, denn ich\nerhalte zu meinem grossen Erstaunen beiliegenden\nProspekts des Vereinssortiments, worin der Verlag schon\nals \"Herbert Reichner Verlag, Zürich\" signiert.\n\nMit den besten Grüssen",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Büroklammer am oberen linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen sind gut lesbar und wurden entsprechend den Regeln markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 806,
+    "total_words": 120,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      403,
+      0,
+      403,
+      0
+    ],
+    "chars_per_page_median": 403.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3929,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

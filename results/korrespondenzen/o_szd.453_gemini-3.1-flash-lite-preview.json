@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.453",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gerta Schaffner an Stefan Zweig, 1937-03-01, SZ-SAM/AK.169",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.453/IMG.1",
+      "https://gams.uni-graz.at/o:szd.453/IMG.2",
+      "https://gams.uni-graz.at/o:szd.453/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gerta Schaffner an Stefan Zweig, 1937-03-01, SZ-SAM/AK.169\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.169\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "187\nIDOLOS - TEMPLO DE QUETZALCOATL - TEOTIHUACAN\nMEXICO.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Tempels von Quetzalcoatl. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg\nKapuzinerberg\nAustria\n\n: I'm [?]\non a trip with my husband\nhave enjoyed the magic\nscenery and climate, the\nfascinating people and\nseeing the art treasures\nof ancient and modern\ncivilizations. You must\ninclude this in your American\nitinerary. When are you coming?\nGreetings! Gerta Schaffner[?]",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in englischer Sprache. Ein Teil des Textes ist durch einen vertikalen schwarzen Strich überdeckt. Poststempel 'MEXICO 937' erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der handschriftliche Text auf der Rückseite der Postkarte ist teilweise schwer lesbar, insbesondere durch die Überdeckung mit dem schwarzen Strich und die kursive Schrift. Die Identifikation der Unterschrift 'Gerta Schaffner' ist aufgrund der Schriftführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 358,
+    "total_words": 56,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      57,
+      301,
+      0
+    ],
+    "chars_per_page_median": 179.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0357,
+    "dwr_score": 0.4038,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

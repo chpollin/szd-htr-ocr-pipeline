@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.530",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Martha Walden an Stefan Zweig, 1925-09-07, SZ-SAM/AK.238",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.530/IMG.1",
+      "https://gams.uni-graz.at/o:szd.530/IMG.2",
+      "https://gams.uni-graz.at/o:szd.530/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Martha Walden an Stefan Zweig, 1925-09-07, SZ-SAM/AK.238\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.238\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Genova - Piazza Caricamento",
+        "notes": "Vorderseite einer Ansichtskarte mit Farbdruck des Piazza Caricamento in Genua.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Viele herzl. Grüße\nhoffe bald etwas\nzu hören - Nächste\nAdresse Poste Restante\nm.o. Indie\nKup[?] Martha Walden",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Ein Papierstreifen überdeckt Teile der Adresse. Poststempel: GENOVA FERROVIA 7-IX 1925. Briefmarke oben links.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Viele herzl. Grüße\nhoffe bald etwas\nzu hören - Nächste\nAdresse Poste Restante\nm.o. Indie\nKup[?] Martha Walden",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist weitgehend lesbar, jedoch ist die Handschrift teilweise flüchtig. Das Wort 'Kup[?]' vor dem Namen ist schwer zu entziffern (möglicherweise eine Abkürzung oder ein Schreibfehler der Absenderin)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 245,
+    "total_words": 40,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      109,
+      109
+    ],
+    "chars_per_page_median": 68.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.05,
+    "dwr_score": 0.0952,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

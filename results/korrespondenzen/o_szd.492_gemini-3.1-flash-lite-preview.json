@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.492",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ephraim Mose Lilien an Stefan Zweig, 1933-04-29, SZ-SAM/AK.203",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.492/IMG.1",
+      "https://gams.uni-graz.at/o:szd.492/IMG.2",
+      "https://gams.uni-graz.at/o:szd.492/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ephraim Mose Lilien an Stefan Zweig, 1933-04-29, SZ-SAM/AK.203\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.203\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "29. IV. 33 Budapest",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Aufnahme von Budapest. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "BUDAPEST\nKilátás a Gellérthegyről a Gellért szálló és\nfürdővel\nAussicht vom Gellértberg mit Hotel und\nSanatorium St Gellért\nVue du mont St Gellért avec Hôtel et Sana-\ntorium St. Gellért\nView from Gellérthill with Hotel and Sana-\ntorium St. Gellért\n\nMit freundl Gruß aus Hotel\nHungaria senden wir\nin Liebe an Sie & Ihre\nGnädige [?] herzlichen\n[...]\nDer Anblick grüsst aus\ndieser in jeder Hinsicht\nbezaubernden Stadt! Hoffe\nsie Wien weit voraus.\n[...]\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Budapest 29. IV. 33) vorhanden. Die Unterschrift ist unleserlich/verschmiert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Unterschrift und ein Wort in der Mitte des Textkörpers. Die Transkription der ungarischen und fremdsprachigen Drucktexte ist sicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 517,
+    "total_words": 85,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      19,
+      498,
+      0
+    ],
+    "chars_per_page_median": 258.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0353,
+    "dwr_score": 0.0964,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

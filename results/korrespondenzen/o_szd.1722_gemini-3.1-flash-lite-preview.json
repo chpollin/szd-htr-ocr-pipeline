@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1722",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 5. Februar 1937, SZ-SAM/B7.89",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1722/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1722/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. Februar 1937, SZ-SAM/B7.89\n- Signatur: SZ-SAM/B7.89\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Neapel, den 5. Februar 1937.\n\nLiebe Frau Meingast!\n\nHerr Dr. Geiringer hat diese Sache so\ngeschrieben, um allen falschen Auslegungen auszu-\nweichen, als ob ich in Salzburg nach meiner Ab-\nmeldung vor drei Jahren noch weiterhin ansässig\noder gar erwerbstätig sei. Es besteht ja keiner-\nlei Schwierigkeit, dass wenn Sie einen Ruhegehalt\nbéziehen, Sie auch noch in der Krankenkasse blei-\nben, wenn Sie auf Ihre eigenen Kosten den Betrag\neinzahlen, und ich bin selbstverständlich bereit,\nIhnen diesen Betrag direkt zurückzuerstatten. Sie\nmüssen verstehen, liebe Frau Meingast, dass ich\nnicht im mindesten daran denke, Ihnen irgendeine\nSchwierigkeit bereiten zu wollen. Aber Herr Dr. G.\nwar der Ansicht, dass diese Feststellung nötig sei,\num jede falsche Auslegung zu verhindert. Es handelt\nsich ja da nur eine Formalität, und es ist ganz\ngleichgültig, ob Sie das Geld einzahlen und ich es",
+        "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ihnen dann zurückerstatte oder ob es weiterhin\ndirekt von mir bezahlt wird.\n\nIch schreibe in ziemlicher Eile,\nweil ich nächster Tage nach Rom fahre. Meine\nnächste Adresse ist Mailand, Hotel Excelsior Gallia\nvon 12. bis 14. (also nicht 10.-12., wie ich Ih-\nnen vor einigen Tagen schreiben liess).\n\nMit den besten Grüssen\n\nStefan Zweig\n\nVerstehen Sie, liebe Frau M., die missver-\nstehen mich nur! Aber wenn ich weiter-\nhin die amelde[?] nur für Sie bezahle, würde\nman glauben, ich sei noch in S. oder kehrte\ndahin zurück. So handelte mir nur um eine\nFormalität - Sie können ja auch unter einem\nRuhegehalt in der Kr. Kasse bleiben falls der\nBeitrag nur bezahlt wird und den erstatte ich\n\n[am linken Rand, vertikal geschrieben:]\nIhnen selbstverständlich gern zurück!",
+        "notes": "Typoskript mit handschriftlichem Nachtrag von Stefan Zweig in violetter Tinte. Das Wort 'amelde' ist schwer lesbar, möglicherweise 'Anmeldegebühr' oder 'Anmeldung' gemeint.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der zweiten Seite sind typisch für Stefan Zweigs Handschrift und gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1646,
+    "total_words": 264,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      884,
+      762
+    ],
+    "chars_per_page_median": 823.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0038,
+    "dwr_score": 0.4806,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

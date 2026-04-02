@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.491",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1933-01-21, SZ-SAM/AK.202",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.491/IMG.1",
+      "https://gams.uni-graz.at/o:szd.491/IMG.2",
+      "https://gams.uni-graz.at/o:szd.491/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1933-01-21, SZ-SAM/AK.202\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.202\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SNAKE TEMPLE SUNGEI KLUANG PENANG.",
+        "notes": "Vorderseite einer Ansichtskarte mit Schwarz-Weiß-Fotografie des Schlangentempels. Am unteren Rand gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\n29. Jänner. Gestern\nBelawan, heute Penang\nmorgen Port Swettenham\nübermorgen Singapur.\nWas für ein unbeschreib-\nliches Land! Was für ein\nGeruch! Ich bin völlig\nberauscht. Heute auf\ndem Peak of Penang.\nGrüße Euch innigst.\n\n[Seitlich am linken Rand, um 90 Grad gedreht:]\nHerzliche Grüße auch an\nmeine liebe Frau!",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/blauer Tinte. Briefmarke 'Straits Settlements' oben links, Poststempel 'PENANG'. Die Zeilen im Adressfeld sind teilweise durch die Handschrift überlagert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist in der Mitte platziert, entspricht Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der teilweise überlagerten Schrift im Adressbereich der Postkarte."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 386,
+    "total_words": 60,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      34,
+      352,
+      0
+    ],
+    "chars_per_page_median": 193.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2982,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

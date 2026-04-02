@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.384",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lebisch an Stefan Zweig, 1908-12-30, SZ-SAM/AK.105",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.384/IMG.1",
+      "https://gams.uni-graz.at/o:szd.384/IMG.2",
+      "https://gams.uni-graz.at/o:szd.384/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lebisch an Stefan Zweig, 1908-12-30, SZ-SAM/AK.105\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.105\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Düsseldorf\n30.12.08.\nKunstakademie\nLebisch",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Kunstakademie Düsseldorf. Handschriftliche Notizen oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Sehr geehrter Herr\nZweig!\nAnlässlich d. Jahres\nwende und weil\nich gerne in die\nHeimat schreibe\ndie besten Glückwünsche\nIch bin hier in\nStellung und sehr\nzufrieden. Langsam\ngehts ja weiter, aber\nsicher. Bitte schreiben\nSie mir einmal,\nich würde mich sehr\nfreuen. Nehmen\nSie mirs nicht\nübel, dass ich eine\nKarte schreibe. Leider\njetzt nur sehr wenig\nfreie Zeit. Ein andermal mehr; mit besten\nGruss f. Lebisch.\n\n[Vertikal am linken Rand:]\nKath. Kunstakademie Düsseldorf, Prinz-Georg-Strasse 16\n\n[Adressseite:]\nWolg.\n\nHerrn Stefan Zweig\nWien\nVIII. Kochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke oben rechts (Deutsches Reich, 5 Pfennig), Poststempel teilweise lesbar. Die Adresse ist in zwei Spalten/Bereichen angeordnet.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die vertikale Notiz am linken Rand und die Adressierung wurden strukturell korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 598,
+    "total_words": 90,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      42,
+      556,
+      0
+    ],
+    "chars_per_page_median": 299.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3933,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

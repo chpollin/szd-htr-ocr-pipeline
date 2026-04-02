@@ -196,13 +196,25 @@
       </div>
     </div>
     <div class="viewer__diff-panel" id="diffPanel" style="display:none">
-      <div class="diff__header">
+      <div class="diff__tabs" id="diffTabs">
+        <button class="diff__tab active" data-diff-tab="consensus" onclick="switchDiffTab('consensus')">Modellkonsensus</button>
+        <button class="diff__tab" data-diff-tab="edits" onclick="switchDiffTab('edits')">Korrekturen</button>
+      </div>
+      <div class="diff__header" id="diffHeaderConsensus">
         <div class="diff__provider-toggle">
           <span class="diff__provider-label diff__provider-a">A: Gemini</span>
           <span class="diff__vs">vs.</span>
           <span class="diff__provider-label diff__provider-b">B: Claude</span>
         </div>
         <div class="diff__stats" id="diffStats"></div>
+      </div>
+      <div class="diff__header" id="diffHeaderEdits" style="display:none">
+        <div class="diff__provider-toggle">
+          <span class="diff__provider-label" style="background:var(--diff-edit-old-bg);color:var(--diff-edit-old-text)">Original</span>
+          <span class="diff__vs">&rarr;</span>
+          <span class="diff__provider-label" style="background:var(--diff-edit-new-bg);color:var(--diff-edit-new-text)">Korrigiert</span>
+        </div>
+        <div class="diff__stats" id="diffStatsEdits"></div>
       </div>
       <div class="diff__content" id="diffContent"></div>
     </div>

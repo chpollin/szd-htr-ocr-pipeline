@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.524",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unidentified an Stefan Zweig, , SZ-SAM/AK.232",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.524/IMG.1",
+      "SZ_SAM_AK.232-2.jpg",
+      "https://gams.uni-graz.at/o:szd.524/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unidentified an Stefan Zweig, , SZ-SAM/AK.232\n- Signatur: , SZ-SAM/AK.232\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "amberg. Dom, Figuren am Adamsportal",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung von Skulpturen am Bamberger Dom. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nHr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nDie herzlichsten\nOsterwünsche\nIhrer ergebenen\nWilly [?]",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Grußtext. Briefmarke und Poststempel vorhanden. Der Name des Absenders ist schwer lesbar, möglicherweise 'Willy' oder ähnlich.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift des Absenders ist kursiv und teilweise schwer zu entziffern, insbesondere die Unterschrift."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 139,
+    "total_words": 19,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      35,
+      104
+    ],
+    "chars_per_page_median": 69.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0526,
+    "dwr_score": 0.1176,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density",
+      "low_dwr"
+    ]
+  }
+}

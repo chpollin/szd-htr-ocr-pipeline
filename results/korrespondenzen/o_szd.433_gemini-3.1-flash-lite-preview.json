@@ -1,0 +1,78 @@
+{
+  "object_id": "o_szd.433",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alfred Bergmann an Stefan Zweig, 1926-09-19, SZ-SAM/AK.15",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.433/IMG.1",
+      "https://gams.uni-graz.at/o:szd.433/IMG.2",
+      "https://gams.uni-graz.at/o:szd.433/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alfred Bergmann an Stefan Zweig, 1926-09-19, SZ-SAM/AK.15\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19/9 26",
+        "notes": "Vorderseite der Postkarte mit einer Ansicht des Königssees. Unten rechts handschriftliches Datum in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dr Stefan Zweig\nAm Salz[?] [?] [?]\nMünchen\nHotel Leinfelder\n\nSehr geehrter Herr Doktor! 19/9\nFern wohl gelungener\nÜberquerung des Zöll[?]\nsende ich Ihnen\nvom Königssee einen\nhzgl Gruß Ihr dank-\nbarer Alf Bergmann",
+        "notes": "Rückseite der Postkarte. Handschrift in violetter Tinte. Briefmarke und Poststempel (Königssee 20 9 26) vorhanden. Der Text ist teilweise schwer lesbar, da er über das Bildmotiv bzw. die Adresszeilen geschrieben wurde.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme der Postkarte (Rückseite) zusammen mit einer Grauskala und einer Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, da sie über die gedruckten Linien und teilweise über den Stempel verläuft. Einige Wörter im Adressbereich und im Textkörper sind aufgrund der schwungvollen Schrift und Überlagerungen unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 219,
+    "total_words": 36,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      7,
+      212,
+      0
+    ],
+    "chars_per_page_median": 109.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.1111,
+    "dwr_score": 0.1935,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "marker_density"
+    ]
+  }
+}

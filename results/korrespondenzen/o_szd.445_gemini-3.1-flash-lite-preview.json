@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.445",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Arthur Roessler an Stefan Zweig, 1919-07-17, SZ-SAM/AK.161",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.445/IMG.1",
+      "https://gams.uni-graz.at/o:szd.445/IMG.2",
+      "https://gams.uni-graz.at/o:szd.445/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Arthur Roessler an Stefan Zweig, 1919-07-17, SZ-SAM/AK.161\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.161\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "BÜCKEBURG 17.7.19. SCHLOSSTOR",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Schlosstors in Bückeburg. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nBückeburg, Georgstrasse 9. 17.7.19.\nLieber Freund -\nmit Wochen fern von\nDaheim kann ich Ihnen den Witiko\nleider nicht zur Verfügung stellen, -\nwenn Sie nicht damit bis zum\nHerbst warten können. Das Buch muss\naber doch auch sonst wo zu beschaffen\nsein. Mir geht's gut u. wünsche ich Ihnen\ndasselbe. Herzlichst Ihr\nRoessler",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden. Der Absender ist Arthur Roessler.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen Abkürzungen (u. für und) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 399,
+    "total_words": 64,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      29,
+      370,
+      0
+    ],
+    "chars_per_page_median": 199.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4407,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.650",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Richard Herz an Stefan Zweig, 1910-10-22, SZ-SAM/AK.79",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.650/IMG.1",
+      "https://gams.uni-graz.at/o:szd.650/IMG.2",
+      "https://gams.uni-graz.at/o:szd.650/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Richard Herz an Stefan Zweig, 1910-10-22, SZ-SAM/AK.79\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.79\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "BERLIN\nKönigl. Schauspielhaus u. Französ. Dom\n22.10.10.\nRichard\nHerz",
+        "notes": "Vorderseite einer Ansichtskarte. Der Text 'Richard Herz' ist handschriftlich in Tinte über das Bild geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "d 22.10.10\n\nLieb geehrter Herr\neinen größeren Auf-\nsatz über Ihre Vor-\nlesungen-Reise die bei\nid Velhagen & Klasing[?]\nMonatsheften gehen.\nHoffentlich befindet\nSie. Mit besten Grüßen\nRichard Herz\nwg. [?] 16\n\nH.\nStefan Zweig\nWien VIII\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke 'DEUTSCHES REICH' mit Poststempel 'BERLIN 22.10.10'. Die Zeile 'wg. [?] 16' ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "d 22.10.10\n\nLieb geehrter Herr\neinen größeren Auf-\nsatz über Ihre Vor-\nlesungen-Reise die bei\nid Velhagen & Klasing[?]\nMonatsheften gehen.\nHoffentlich befindet\nSie. Mit besten Grüßen\nRichard Herz\nwg. [?] 16\n\nH.\nStefan Zweig\nWien VIII\nKochgasse 8",
+        "notes": "Scan enthält die Rückseite der Postkarte sowie Archiv-Farbskalen. Inhalt identisch mit Seite 2.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise flüchtig. Besonders die Zeile 'wg. [?] 16' und die Abkürzung 'id' (möglicherweise 'in' oder 'bei') sind unsicher. 'Velhagen & Klasing' ist eine Vermutung basierend auf dem Kontext des Verlagsnamens."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 558,
+    "total_words": 87,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      68,
+      245,
+      245
+    ],
+    "chars_per_page_median": 245,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.046,
+    "dwr_score": 0.2564,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

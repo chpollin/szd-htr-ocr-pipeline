@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1715",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 28. Oktober 1936, SZ-SAM/B7.82",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1715/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1715/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 28. Oktober 1936, SZ-SAM/B7.82\n- Signatur: SZ-SAM/B7.82\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 28.Oktober 1936.\n\nLiebe Frau Meingast!\nIch danke Ihnen sehr für Ih-\nren freundlichen Brief und möchte Sie bitten, mir\nnun noch folgende Bücher zu schicken:\nWassermann: Kolumbus\nWerfel: die letzten Gedichte\nWittlin: Salz der Erde\nJ. Roth: Beichte eines Mörders\nBrod: Annerl,\nferner von meinen eigenen Büchern aus der Insel jenen {früheren}\nBand meiner gesammelten Gedichte, vielleicht drei Exem-\nplare und vielleicht zwei Volpone.\nIch bin fleissig an der Arbeit und\nhoffe auch für Sie bald wieder etwas zu haben. Sagen\nSie mir nur bitte, wie es mit der Bibliographie auf\nlosen Blättern steht. Haben Sie schon angefangen, daran\nzu arbeiten?\nMit den besten Grüssen\n\nIhr\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Ergänzung ('früheren' über der Zeile eingefügt) und handschriftlicher Unterschrift von Stefan Zweig. Das Wort 'früheren' ist in violett-blauer Tinte geschrieben, ebenso die Unterschrift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'früheren' und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 691,
+    "total_words": 110,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      691,
+      0
+    ],
+    "chars_per_page_median": 691,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4771,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

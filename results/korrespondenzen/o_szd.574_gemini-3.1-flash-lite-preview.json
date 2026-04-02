@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.574",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Armand Brody an Stefan Zweig, 1910-02-04, SZ-SAM/AK.28",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.574/IMG.1",
+      "https://gams.uni-graz.at/o:szd.574/IMG.2",
+      "https://gams.uni-graz.at/o:szd.574/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1910-02-04, SZ-SAM/AK.28\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4. II. 1910.\nLe Caire-Ghezireh Palace Hôtel\nVue prise de la grotte",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "UNION POSTALE UNIVERSELLE\nEGYPTE\nCARTE POSTALE\n\n~~so leben wir - so leben wir - alle~~ \nTag !!\n\nAber nur noch heut, denn\nmorgen dampf' ich\nder wieder nach Wien ab\n(wo die u Zeit\" noch immer\n~~besten~~ \nGruss\nMelli\nernheint). herzlich\n\nDr. Stefan Zweig,\nWien\nIII. Kochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Poststempel 'CAIRO 4-II 10 7-PM'. Am linken Rand vertikal gedruckt: 'Made specialy for Nicolas Papadopoulos'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die Rückseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Durchstreichungen und Einfügungen sind eindeutig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 340,
+    "total_words": 60,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      66,
+      274,
+      0
+    ],
+    "chars_per_page_median": 170.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0364,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

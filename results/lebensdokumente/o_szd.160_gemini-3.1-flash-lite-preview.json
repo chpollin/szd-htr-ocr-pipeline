@@ -17,9 +17,17 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
+        "transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the County Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
         "notes": "Das Dokument ist ein offizielles Formular. Die handschriftlichen Einträge sind gut lesbar. Ein Stempelabdruck ist im Bereich der Unterschrift des Superintendent Registrar vorhanden.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T12:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -71,5 +79,17 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1: (1) Removed hallucinated extra 'by' in 'by licence before by me' -> 'by licence before me'. (2) Fixed capitalisation 'county Borough' -> 'County Borough' to match printed form text. The tabular layout linearisation is reasonable. Some handwritten details (entry number, ages) are hard to verify at scan resolution but appear plausible. Language mismatch flag is expected: document is English, TEI metadata says Deutsch.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
   }
 }

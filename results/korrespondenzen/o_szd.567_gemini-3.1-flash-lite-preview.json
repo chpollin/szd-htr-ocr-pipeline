@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.567",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Müller an Stefan Zweig, 1906, SZ-SAM/AK.273",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.567/IMG.1",
+      "https://gams.uni-graz.at/o:szd.567/IMG.2",
+      "https://gams.uni-graz.at/o:szd.567/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Müller an Stefan Zweig, 1906, SZ-SAM/AK.273\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.273\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "27. VI 02\nNeuhaus\nbei Weissenbach\na. d. Jr., N.-Oe.\n\n[Seitlich am Rand:]\nLieber Stefan\nEifernus Thor nach Neuhaus\nmarbina, Ja Womok gipfell - [?]",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text am rechten Rand. Der Text ist teilweise schwer lesbar (Eigennamen/Ortsbezeichnungen).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Postkarte\nDrucksache.\n\nMr. Stefan Zweig\nLondon W\n84. Kensington\nGardens square",
+        "notes": "Rückseite der Ansichtskarte mit Adressfeld. Briefmarken und Poststempel 'NEUHAUS' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, sowie die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf der Vorderseite der Postkarte ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Orts- oder Eigennamen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 223,
+    "total_words": 36,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      145,
+      78,
+      0
+    ],
+    "chars_per_page_median": 111.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0278,
+    "dwr_score": 0.125,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

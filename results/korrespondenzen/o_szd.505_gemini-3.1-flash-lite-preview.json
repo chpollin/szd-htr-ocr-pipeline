@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.505",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ernst Sander an Stefan Zweig, 1927-09-21, SZ-SAM/AK.215",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.505/IMG.1",
+      "https://gams.uni-graz.at/o:szd.505/IMG.2",
+      "https://gams.uni-graz.at/o:szd.505/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ernst Sander an Stefan Zweig, 1927-09-21, SZ-SAM/AK.215\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.215\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lago Maggiore Brissago e le Isole\n21.9 1927.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten rechts, handschriftliches Datum unten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nBrissago, 21. IX. 27.\nLieber Herr Doktor Zweig,\nnehmen Sie recht herzliche\nGrüße aus meinen überseeischen\nFerienorten!\nIhr ergebener\nE. Sander",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben links, Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, Ansichtskarte in der Mitte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzungen (Dr., IX.) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 230,
+    "total_words": 35,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      44,
+      186,
+      0
+    ],
+    "chars_per_page_median": 115.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

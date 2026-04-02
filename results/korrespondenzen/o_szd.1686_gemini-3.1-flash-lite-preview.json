@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1686",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 9. Mai 1938, SZ-SAM/B7.102",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1686/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1686/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. Mai 1938, SZ-SAM/B7.102\n- Signatur: SZ-SAM/B7.102\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "London, den 9.Mai 1938.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen bestens für Ihre\nfreundliche Mitteilung. Da Post an mich schon\nin den letzten zwei Jahren immer seltener nach\nSalzburg adressiert wird, kann man das Postfach\nruhig auflassen, und ich bitte Sie nur, dann an\ndas Postamt einen Brief zu richten, den ich al-\nlenfalls auch selbst unterzeichne, dass sämtli-\nche einlangenden Briefe und Drucksachen direkt\nan meine hiesige Adresse nachzusenden sind.\nWegen des Postsparkassenkontos werde ich veran-\nlassen, dass es mit dem bei meinem Anwalt be-\nfindlichen Sperrkonto vereinigt wird. Ich hoffe,\ndass jener letzte Scheck Ihnen schliesslich doch\nausgezahlt wurde. Wenn es nicht geschehen ist,\nmüsste ich noch um eine ausdrückliche Bewilli-\ngung einkommen, dass es geschieht.\nHoffentlich geht es Ihnen gut und",
+        "notes": "Typoskript auf Papier. Die Seite weist leichte Verfärbungen (Stockflecken) auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ihr Sohn hat seine Studien bald vollendet. Ich\nwar in der letzten Zeit einigermassen in der\nArbeit gehemmt, habe sie aber wieder aufgenom-\nmen und bleibe wohl vorläufig hier. Erst später\ngeht es zu einer Vorlesungstournee über das Meer.\n\nMit den besten Grüssen\n\nStefan Zweig",
+        "notes": "Typoskript auf Papier, Unterschrift handschriftlich in violetter Tinte. Die Unterschrift ist deutlich als 'Stefan Zweig' lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1084,
+    "total_words": 169,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      810,
+      274
+    ],
+    "chars_per_page_median": 542.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5179,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

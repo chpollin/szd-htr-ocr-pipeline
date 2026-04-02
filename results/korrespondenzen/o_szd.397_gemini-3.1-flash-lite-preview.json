@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.397",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Marcel Martinet an Stefan Zweig, 1922-10-25, SZ-SAM/AK.117",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.397/IMG.1",
+      "https://gams.uni-graz.at/o:szd.397/IMG.2",
+      "https://gams.uni-graz.at/o:szd.397/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Marcel Martinet an Stefan Zweig, 1922-10-25, SZ-SAM/AK.117\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.117\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "PARIS - La Chambre des Députés L. D.\n\n25. Okt. 22.",
+        "notes": "Vorderseite einer Ansichtskarte mit dem Gebäude der französischen Abgeordnetenkammer. Handschriftliche Datumsnotiz oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "25 octobre 1922. Cher Stefan, les nouvelles\nque j'ai reçues de toi, par tes cartes et par les\namis, m'ont fait bien plaisir. Mme Reber\nm'écrit qu'elle a terminé la traduction de la\nNuit et je me suis permis de te charger de mes\nintérêts. Dis-moi ce que vaut la traduction. Je\nne lui demande aucun droit annuel. Je désirerais\nseulement qu'un tant pour cent me soit réservé sur\nla vente et éventuellement la représentation et je te\nprie d'en fixer le taux conformément aux usages.\nBien amicalement Marcel Martinet\n43 Avenue Gambetta xx!\n\nMonsieur\nStefan Zweig\n3 Kapuzinerberg\nSalzburg\nAutriche\n\nL. D. Paris",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarke und Poststempel vorhanden. Am rechten Rand vertikal geschrieben: 'Amical bonjour à tous deux Fernand Desprès'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Gesamtansicht der Rückseite der Postkarte mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist klar strukturiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 654,
+    "total_words": 115,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      50,
+      604,
+      0
+    ],
+    "chars_per_page_median": 327.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3304,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

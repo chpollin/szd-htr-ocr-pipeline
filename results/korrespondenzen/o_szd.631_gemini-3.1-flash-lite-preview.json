@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.631",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Oskar Maurus Fontana an Stefan Zweig, 1918-06-18, SZ-SAM/AK.61",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.631/IMG.1",
+      "https://gams.uni-graz.at/o:szd.631/IMG.2",
+      "https://gams.uni-graz.at/o:szd.631/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Oskar Maurus Fontana an Stefan Zweig, 1918-06-18, SZ-SAM/AK.61\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.61\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Murnau\n16. VII. 1918",
+        "notes": "Vorderseite einer Ansichtskarte mit Ortsansicht von Murnau. Handschriftliche Datumsangabe oben mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Murnau gegen die Zugspitzgruppe.\nLieber Herr Doktor Zweig, seit\neiner Woche bin ich hier unter\nBergen, Burgen und Vögeln und\nwill bis in den Herbst hier bleiben.\nWie geht es Ihnen? Oft bin ich\nmit dem praktvollen Schmidt-\nbonn (ganz Ackerede) beisam-\nmen und wandere mit ihm.\nEben erhielt ich ein Heft von\n„Schlesien“ (Breslau), wo ich über\nVerhaerens Rembrandt geschrieben\nhabe. Nur ein paar Zeilen! Aber\nmit Freude! Ich würde mich recht\nfreuen, von Ihnen zu hören. Bestens\ngrüßt Sie\nOskar Maurus Fontana\nMurnau, Seidlstraße 313\n\nHerrn Dr.\nStefan Zweig\nWien VIII\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke (Bayern, 5 Pfennig) oben rechts. Poststempel teilweise lesbar. Gedruckter Text unten links: 'Original-Aufnahme und Verlag von Lorenz Fränzl, München. No. 1821.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Kein Dokumententext.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten. Die Ortsangabe auf der Vorderseite und der Text auf der Rückseite sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 595,
+    "total_words": 99,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      20,
+      575,
+      0
+    ],
+    "chars_per_page_median": 297.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3895,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

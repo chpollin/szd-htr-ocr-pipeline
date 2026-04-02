@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1720",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Anna Meingast vom 12. Januar 1937, SZ-SAM/B7.87",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1720/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1720/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 12. Januar 1937, SZ-SAM/B7.87\n- Signatur: SZ-SAM/B7.87\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. I. 37 A.Z.\n\nNapoli - Panorama",
+        "notes": "Vorderseite der Ansichtspostkarte. Handschriftliche Datierung und Initialen oben rechts, gedruckter Text unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, vielen\nDank! die 5 S. an die Verlags-\ngesellschaft bitte mir zu\nsenden, sonst ist ja alles\nin bester Ordnung. Ich komme\nhier mit der Arbeit bisher\ngut vorwärts der Winter-\nschlaf ist auch im Januar\nschon ganz frühlingshaft.\nAlles Gute nur viele Grüße\nan Johann und die Familie\nIhr S. Z.\n\nFrau Anna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Poststempel 'NAPOLI FERROVIA 12. I. 37' und zwei Briefmarken (Poste Italiane) vorhanden.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 395,
+    "total_words": 69,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      33,
+      362
+    ],
+    "chars_per_page_median": 197.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4154,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

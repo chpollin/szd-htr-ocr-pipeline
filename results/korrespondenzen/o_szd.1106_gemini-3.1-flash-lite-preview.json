@@ -17,9 +17,15 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotan in\nBöhmen, Villa Reim",
+        "transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotau in\nBöhmen, Villa Reim",
         "notes": "Adressseite der Postkarte. Die durchgestrichenen Wörter sind im Original erkennbar.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [{
+          "original_transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotan in\nBöhmen, Villa Reim",
+          "edited_by": "Claude Code Agent",
+          "edited_at": "2026-04-02T19:30:00Z",
+          "source": "agent"
+        }]
       },
       {
         "page": 2,
@@ -30,8 +36,8 @@
       {
         "page": 3,
         "transcription": "Lieber Max, ich habe es wirklich sehr peinlich emp-\ngefunden, dass du mit mir, der ich nach 6 Monaten\nnicht mehr wieder in Heimat nach Haus zurückfindet,\nverhielt wie ein altes Weib und mir keine Zeile von\ndir kommen lässt. Und ich hörte so gerne etwas\nvon dir. Camillo verlebter Brief kam erst nach 8\nTage, den Verlaine sah ich wohl schon lange. Paul\nRemer hat ihm vorgestern ein „Tag“ ein 8 Seiten\nlanges Feuilleton gewidmet, in dem auch ich\nherausgestrichen bin. Ich habe hier schon eine Wohnung\nund lebe mich nach alter Berliner Sitte gerne zu\nmit, wenn du hier unterhaltslos bist. Von Herzen\ntrotz allem dein treuer\nHelen",
-        "notes": "Identisch mit Seite 2, da es sich um eine Aufnahme mit Farbreferenzkarte handelt.",
-        "type": "content"
+        "notes": "Identisch mit Seite 2, fotografiert mit Farbreferenzkarte (Farbkarte #13 / Grauskala #13).",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -76,5 +82,15 @@
     "needs_review_reasons": [
       "duplicate_pages"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.85,
+    "edited_pages": [1],
+    "notes": "Page 1: Fixed 'Komotan' -> 'Komotau' (real place name, Chomutov in Bohemia). Page 3 reclassified as color_chart. Page 2 handwriting is dense 1902 Kurrent — many readings are uncertain but left unchanged due to low confidence in alternatives. The transcription has several suspicious readings ('Camillo verlebter Brief', 'unterhaltslos', 'Helen' as signature) that may contain Kurrent misreadings but cannot be confidently corrected from the scan resolution.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:30:00Z"
   }
 }

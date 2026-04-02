@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.589",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Louis Piérard an Stefan Zweig, 1908-09-08, SZ-SAM/AK.293",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.589/IMG.1",
+      "https://gams.uni-graz.at/o:szd.589/IMG.2",
+      "https://gams.uni-graz.at/o:szd.589/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Louis Piérard an Stefan Zweig, 1908-09-08, SZ-SAM/AK.293\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.293\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "5 FRAMERIES. 8.IX 08.\nL'Eglise. Un coin de la place.\nEdit. A. Duwez-Delcourt, Mons.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliche Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frameries, le\n8 7bre\nMonsieur, Mon ami Kam-\nmun Emile Verhaeren\nm'ayant donné votre\nadresse, je me suis fait\nun plaisir de vous\nenvoyer mon livre de\ndébut prié daté déjà\nde l'an dernier - j'espère\nqu'il vous sera parvenu.\nAgréez, je vous prie, l'assurance\nde ma considération Louis Piérard.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, sowie die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Datumsangabe '8 7bre' steht für '8 septembre' (8. September)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 373,
+    "total_words": 64,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      83,
+      290,
+      0
+    ],
+    "chars_per_page_median": 186.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.209,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

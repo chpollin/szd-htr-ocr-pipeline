@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.438",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Eugenie Reitter an Stefan Zweig, 1932-04-23, SZ-SAM/AK.155",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.438/IMG.1",
+      "https://gams.uni-graz.at/o:szd.438/IMG.2",
+      "https://gams.uni-graz.at/o:szd.438/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1932-04-23, SZ-SAM/AK.155\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.155\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Krems a. d. Donau\nKanzelhof",
+        "notes": "Vorderseite einer Ansichtskarte mit Fotografie eines Innenhofs. Handschriftliche Beschriftung unter dem Bild.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "23. 4. 32.\n\n[...]\n\nAn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.",
+        "notes": "Rückseite der Ansichtskarte. Der Textkörper ist durch einen aufgeklebten Papierstreifen teilweise verdeckt. Briefmarke oben rechts mit Stempel. Gedruckter Verlagsvermerk am linken Rand: '8022 Kunstverlag Johann Saska, Krems a.D., 1932'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text auf der Rückseite der Postkarte ist durch einen aufgeklebten Papierstreifen zu großen Teilen unleserlich gemacht, daher ist eine vollständige Transkription des Nachrichtentextes nicht möglich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 87,
+    "total_words": 15,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      60,
+      0
+    ],
+    "chars_per_page_median": 43.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0667,
+    "dwr_score": 0.1,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density",
+      "low_dwr"
+    ]
+  }
+}

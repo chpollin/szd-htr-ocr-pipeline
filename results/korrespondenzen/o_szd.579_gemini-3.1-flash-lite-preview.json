@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.579",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Walter Bauer an Stefan Zweig, 1933-01-07, SZ-SAM/AK.284",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.579/IMG.1",
+      "https://gams.uni-graz.at/o:szd.579/IMG.2",
+      "https://gams.uni-graz.at/o:szd.579/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Walter Bauer an Stefan Zweig, 1933-01-07, SZ-SAM/AK.284\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.284\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "haben Sie noch das\nVertrauen? Dann sind Sie\nnoch ganz glücklich?\nUnser Leben ist wie das\nphantastisch und wir hoffen\ndass es bleibt.\nIhr\nWalter\nBauer",
+        "notes": "Vorderseite der Postkarte mit handschriftlichem Text über dem Bildmotiv. Die Tinte ist blau/violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Herr Stefan Zweig, unser\nGruß u. unser Glück über unser\nkleines Österreich ist noch so groß\nwie im Augenblick der feierliche\nÜbergabe. Wir fahren heute mit\nFrau Richard von Kralik[?] nach\nMünchen. Vikt[or] der alten Reichstadt\n[...3...] dem, Herzensgruß H. W. B.\nUnser guter Stefan ist der Beste\nund je aber Nürnberg's Pflaster ge-\nlegen sind, als er wird scheinen\nund wenn w. muß u. befaßt eine\nliebe L. schon ordentlich nicht Pflaster.",
+        "notes": "Rückseite der Postkarte. Adressfeld und handschriftlicher Text. Der Text am linken Rand ist um 90 Grad gedreht geschrieben. Die Handschrift ist teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Keine Transkription erforderlich.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere im Bereich des um 90 Grad gedrehten Textes auf der Rückseite. Einige Wörter sind aufgrund der Schreibweise oder Überlagerung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 638,
+    "total_words": 106,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      149,
+      489,
+      0
+    ],
+    "chars_per_page_median": 319.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0189,
+    "dwr_score": 0.5094,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

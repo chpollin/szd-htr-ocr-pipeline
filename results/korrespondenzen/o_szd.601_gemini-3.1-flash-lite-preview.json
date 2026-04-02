@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.601",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Emma Burger an Stefan Zweig, 1932-07-12, SZ-SAM/AK.32",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.601/IMG.1",
+      "https://gams.uni-graz.at/o:szd.601/IMG.2",
+      "https://gams.uni-graz.at/o:szd.601/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Emma Burger an Stefan Zweig, 1932-07-12, SZ-SAM/AK.32\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel\nTiefenbrunner\nKitzbühel",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Illustration des Hotels Tiefenbrunner in Kitzbühel. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Kitzbühel, Tirol\nWintersportplatz I. Ranges\nAlpine Sommerfrische\nmit Moorbad am Schwarzsee\n\n12. VII. 1932.\nSehr erfreut mit\nFritzi zusammen\nhier zu kommen, ge-\ndanken wir Deine\ngrüsse doch herzlich\nLola\nalles, alles Liebe von\nherzlichste Grüße\nvon Emma-Fritzi\nWir hoffen sehr, auch Dich\neinmal hier begrüssen zu\nKönnen, herzlichst Carl[?]mayer\nFamilie Schi[?]ler-Sle[?]di[?]\n\nHerrn\nStefan Zweig,\n\nSalzburg,\nKapuzinerberg 5.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht in violett/blauer Tinte. Die Karte ist in der Mitte mit einem Klebestreifen repariert, was den Text teilweise verdeckt. Briefmarke und Poststempel (13. VII. 32) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. Darunter liegt die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere durch den Klebestreifen in der Mitte der Karte und die Überlagerung der Zeilen. Einige Namen und Wörter sind unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 452,
+    "total_words": 61,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      29,
+      423,
+      0
+    ],
+    "chars_per_page_median": 226.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0656,
+    "dwr_score": 0.2857,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

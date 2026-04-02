@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.429",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, 1911-01-24, SZ-SAM/AK.146",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.429/IMG.1",
+      "https://gams.uni-graz.at/o:szd.429/IMG.2",
+      "https://gams.uni-graz.at/o:szd.429/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1911-01-24, SZ-SAM/AK.146\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.146\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Halle. Moritzburg.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Moritzburg in Halle. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Halle, 24. 1. 11.\n\nHerzlichen Gruß\nund auf baldiges\nWiedersehen!\n\nHans.\n\nHerren D[r] Stefan Zweig\nWien VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel 'HALLE (SAALE) 24.1.11' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Halle, 24. 1. 11.\n\nHerzlichen Gruß\nund auf baldiges\nWiedersehen!\n\nHans.\n\nHerren D[r] Stefan Zweig\nWien VIII.\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die Abkürzung 'D[r]' für 'Dr.' wurde als sicher interpretiert, da es sich um eine Standardanrede für Stefan Zweig handelt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 260,
+    "total_words": 40,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      18,
+      121,
+      121
+    ],
+    "chars_per_page_median": 121,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1176,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "low_dwr"
+    ]
+  }
+}

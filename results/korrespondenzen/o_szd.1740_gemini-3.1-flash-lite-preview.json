@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.1740",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Elisabeth Monath vom 26. August 1940, SZ-SEF/B7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1740/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.7",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.8"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Elisabeth Monath vom 26. August 1940, SZ-SEF/B7\n- Signatur: SZ-SEF/B7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 8 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, Hotel Paysandú\n\nLiebe Liesl, ich traf eben hier in Rio\nSiegfried\nund erfuhr von dem dicken Buben, den\ndir deinem lieben Gatten abgeliefert\nhat, hoffentlich mit so wenig Beschwer-\nde, dass du deinen eigenen Wunsch\nnach einem Töchterchen bald nachholen\nwirst. Ich habe mich furchtbar für\nEuch alle gefreut und gratuliere Euch\nvon Herzen.\nVon Frizi habe ich ein Telegramm\nan ihr Lisa bewilligt hatte, ausser\ndem von dem notgedrungenen Liniste\nFerro ein Telegramm dass er alles hat\n./.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'Siegfried' ist über 'in Rio' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Die herzlichsten Glück-\nwünsche zum Sohn, den\nwir im Winter persönlich\nzu besuchen hoffen, und\nviele Grüsse Ihnen beiden\nIhre\nLotte Zweig",
+        "notes": "Handschriftlicher Text von Lotte Zweig in schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "für ihren Winteraufenthalt mitzuteilen.\nHoffentlich gelingt es - im Notfall kann\nich vielleicht für hza versorgen. [?]\nRio ist so materisch wie je, die\nWolke stall auf Erden, das wahre\nRefugium - ein glücklich Leben für\nalle Leute! Leider ist der Winter für\nso den es bei Hochsommerhitzferien\ngebe - den Sommer, ja selbst den\nFrühling kommt ich hier kaum ertragen.\nIch bleibe noch 5 Wochen, dann geht\nes weiter Uruguay, Argentinien, Chile\nund hoffentlich Newyork und noch\nhoffentlicher England!\nHerzlichst Euch allen\nder Gratulant\nStefan Zweig",
+        "notes": "Handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "für ihren Winteraufenthalt mitzuteilen.\nHoffentlich gelingt es - im Notfall kann\nich vielleicht für hza versorgen. [?]\nRio ist so materisch wie je, die\nWolke stall auf Erden, das wahre\nRefugium - ein glücklich Leben für\nalle Leute! Leider ist der Winter für\nso den es bei Hochsommerhitzferien\ngebe - den Sommer, ja selbst den\nFrühling kommt ich hier kaum ertragen.\nIch bleibe noch 5 Wochen, dann geht\nes weiter Uruguay, Argentinien, Chile\nund hoffentlich Newyork und noch\nhoffentlicher England!\nHerzlichst Euch allen\nder Gratulant\nStefan Zweig",
+        "notes": "Gleicher Text wie Seite 4, mit Archiv-Farbskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Zweig, Hotel Paysandú\nU.S.A\nLiesl & Paul Monath\n15 Harbor Road\nHewlett (Long Island)\nHewlett Harbour\nVIA AEREA\nPANAIR\nNDOR - LUFTHAN",
+        "notes": "Adressseite eines Briefumschlags mit Briefmarken und Stempeln.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Poststempel 'CORREIO AEREO 26 AGO 1940 DISTRITO FEDERAL'.",
+        "type": "blank"
+      },
+      {
+        "page": 8,
+        "transcription": "Zweig, Hotel Paysandú\nU.S.A\nLiesl & Paul Monath\n15 Harbor Road\nHewlett (Long Island)\nHewlett Harbour\nVIA AEREA\nPANAIR\nNDOR - LUFTHAN",
+        "notes": "Adressseite des Briefumschlags mit Archiv-Farbskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift Stefan Zweigs. Einige Wörter sind aufgrund der Tinte oder Schreibweise leicht interpretativ, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1973,
+    "total_words": 320,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 2,
+    "content_pages": 4,
+    "input_images": 8,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      486,
+      0,
+      137,
+      543,
+      543,
+      132,
+      0,
+      132
+    ],
+    "chars_per_page_median": 311.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0063,
+    "dwr_score": 0.3971,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

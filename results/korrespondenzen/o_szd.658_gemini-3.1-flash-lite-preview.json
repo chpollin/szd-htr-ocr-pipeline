@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.658",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Camill Hoffmann an Stefan Zweig, 1925-10-12, SZ-SAM/AK.86",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.658/IMG.1",
+      "https://gams.uni-graz.at/o:szd.658/IMG.2",
+      "https://gams.uni-graz.at/o:szd.658/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, 1925-10-12, SZ-SAM/AK.86\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.86\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ticino. Vegetazione",
+        "notes": "Vorderseite einer Postkarte mit einer Fotografie von Pflanzen im Tessin.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Stefan, Du hörst von mir\nnichts, weil ich seit einer Woche\nhier bin und in Berlin alles liegen\ngelassen habe. Ich hoffe, dass hier\nEnde der Woche genossen wird. In-\ndessen herzlichste Grüsse! Dein\nCamill.\n\nLocarno, 12. X. 1925\n\nH. Stefan Zweig\nSalzburg\nKapuzinerberg\n\n[Adressseite der Postkarte mit Briefmarke und Poststempel]",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Stefan, Du hörst von mir\nnichts, weil ich seit einer Woche\nhier bin und in Berlin alles liegen\ngelassen habe. Ich hoffe, dass hier\nEnde der Woche genossen wird. In-\ndessen herzlichste Grüsse! Dein\nCamill.\n\nLocarno, 12. X. 1925\n\nH. Stefan Zweig\nSalzburg\nKapuzinerberg\n\n[Adressseite der Postkarte mit Briefmarke und Poststempel]",
+        "notes": "Diese Seite enthält die gleiche Postkarte wie Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'H.' vor Stefan Zweig steht vermutlich für 'Herr'."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 685,
+    "total_words": 106,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      19,
+      333,
+      333
+    ],
+    "chars_per_page_median": 333,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4118,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

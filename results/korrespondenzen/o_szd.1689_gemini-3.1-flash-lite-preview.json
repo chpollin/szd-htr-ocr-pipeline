@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1689",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 15. August 1938, SZ-SAM/B7.105",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1689/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1689/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 15. August 1938, SZ-SAM/B7.105\n- Signatur: SZ-SAM/B7.105\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "15. August 1938.\n\nLiebe Frau Meingast!\n\nIch glaubte, ich hätte Ih-\nnen bereits bestätigt, dass ich von Herrn Fuch\nerfreuliche Nachricht hatte. Die Post erhalte\nich regelmässig nachgesandt, aber es kommt ja\nnur mehr ganz wenig. - Ich selbst bin den gan-\nzen Sommer in London geblieben und gehe erst\nim Winter hinüber nach Amerika zu einer Vor-\ntragsreise. Es heisst jetzt doppelt so viel\narbeiten wie früher und mit einem Fünftel der\nFreude.\n\nHoffentlich geht es Ihnen\ngut und Ihr Sohn kann seine Studien vollenden,\nund Sie sind damit von der eigentlich schwer-\nsten Sorge befreit.\n\nAlle herzlichen Wünsche\nvon Ihrem ergebenen\n\nStefan",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift ist als 'Stefan' lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Leichte Durchzeichnung des Textes von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist eindeutig als 'Stefan' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 633,
+    "total_words": 104,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      633,
+      0
+    ],
+    "chars_per_page_median": 633,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4851,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

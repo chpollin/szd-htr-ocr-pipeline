@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1770",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 28. April 1938, SZ-AAP/B1.204",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1770/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1770/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 28. April 1938, SZ-AAP/B1.204\n- Signatur: SZ-AAP/B1.204\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "28.April 1938.\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich\n\nSehr geehrter Herr Reichner!\n\nDa erwiesenemassen der Verlag Herbert Reich-\nner keinerlei Auskunft gibt über die Exemplare, die ohne sein\nWissen durch Sie zu Ihren Privatgunsten im Auslande verkauft\nwerden, muss ich als Miteigentümer zumindestens eines Gross-\nteils der Exemplare, die noch mit einer Perzentquote belastet\nsind, von Ihnen als dem Privatverkäufer sofortige und genaue\nAufstellung fordern, 1. welche Vorräte am 1. März, welche Vor-\nräte am 1. April sich im Ausland befanden, 2. wie vieler Sie\nsich davon bemächtigt haben, 3. wie viele Exemplare zwischen\ndiesen Daten neu hinausgeschafft wurden und wie viele meiner\nBücher noch verkauft. Es wird ferner im Einzelnen der Beweis\n(und nicht nur die blosse Behauptung) genau zu erbringen sein,\nwelche dieser Vorräte bezahlte Kommissionsexemplare waren und\nwelche davon noch nicht abgerechnet sind.\n\nWenn dies auch ein reines Privatgeschäft ist,\ndas Sie mit meinen Büchern betreiben und nichts mit dem regu-\nlären und buchhaltungsmässig kontrollierbaren Vertrieb des Ver-\nlages zu tun hat, so muss ich, da es sich sowohl um mein geisti-\nges Eigentum handelt als auch durch meine Perzentanteile um mein\nmaterielles, genaueste Aufstellung auch über Ihren Privathandel\nfordern. Ich ersuche um diese genaue Aufstellung bis Dienstag,\nden 3. Mai, sowie um diejenige Ihrer Zahlungsverpflichtungen aus\nden (meiner Meinung nach unberechtigterweise) an sich gerissenen\nExemplaren des Verlages. Ich würde mir sonst sofort Auskunft an\nanderer Stelle holen.\n\nIch bedaure, dass Sie mich zu solchen Massnahmen\nzwingen, erstens durch völlig unklare und vage Mitteilungen, wie\nviele Exemplare Sie ins Ausland gerettet haben. Sie meldeten\n\"rund viertausend\" nur als Leistung eines einzigen Tages, für\nwelche Sie zahlungspflichtig sind, während meiner Meinung nach\ndie Zahl der honorarpflichtigen Auslandsexemplare eine bedeutend\nhöhere ist. Das kann nur durch genaue Aufstellung und Vergleich\nmit den früheren Monatsabrechnungen festgestellt werden und die",
+        "notes": "Typoskript. Brief an Herbert Reichner. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "vage und hinhuschende Art, indem Sie einerseits schreiben,\ndass riesige Vorräte plötzlich vorhanden seien und anderer-\nseits, dass Sie die alle (wann, an welchem Datum?) mir schon\nhonoriert hätten, flösst mir das grösste Misstrauen ein. Aus-\nserdem haben Sie versucht, wo ich ein klares Entgegenkommen bot,\ndie Tatsache meiner Kündigung anzufechten. Wir wollen also die\nSache bis zum Ende durchkämpfen und dies ist nur der erste\nSchritt. Bitte sich da auf meine Energie und Entschlossenheit\nzu verlassen.\n\nMit den besten Empfehlungen\n\nIhr sehr ergebener",
+        "notes": "Typoskript. Fortsetzung des Briefes. Die Unterschrift fehlt im Dokument.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2614,
+    "total_words": 382,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      2061,
+      553
+    ],
+    "chars_per_page_median": 1307.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.472,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

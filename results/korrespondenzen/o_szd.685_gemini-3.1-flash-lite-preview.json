@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.685",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Camill Hoffmann an Stefan Zweig, SZ-SAM/AK.87",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.685/IMG.1",
+      "https://gams.uni-graz.at/o:szd.685/IMG.2",
+      "https://gams.uni-graz.at/o:szd.685/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, SZ-SAM/AK.87\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.87\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "LE ROUSSILLON\n529. - BANYULS-SUR-MER. - HALAGE DE BATEAU DE PÊCHE",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Fischern, die ein Boot an Land ziehen. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber! Ich habe mich bis an den\nletzten Ort von der spanischen Grenze ver-\nklagen u. versuche, nicht an Berlin zu\ndenken. Auf der Herreise habe ich Dei-\nnen „Volpone“ gelesen. Ein grosser, saf-\ntiger Spass! Als Stilkomödie voll-\nkommen. Ich bin ungebildet genug, um\nnicht zu erkennen, wo Ben Jonson\naufhört u. St. Z. anfängt. Vom Erfolg\nauf den Bühnen bin ich überzeugt.\nHerzlichst Dein\nCamill.\n\nStefan Zweig\nSalzburg\nKapuzinerberg\n\nÖsterreich",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht von Camill Hoffmann an Stefan Zweig. Poststempel 'BANYULS-SUR-MER 15 9' und eine französische Briefmarke (75c) sind vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Dies ist eine Aufnahme der Postkarte zusammen mit Archiv-Hilfsmitteln (Grauskala und Farbkarte). Die Postkarte selbst ist identisch mit der in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzungen 'u.' für 'und' sowie 'St. Z.' für 'Stefan Zweig' sind im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 509,
+    "total_words": 83,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      65,
+      444,
+      0
+    ],
+    "chars_per_page_median": 254.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3171,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

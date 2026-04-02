@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1732",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 19. Oktober 1937, SZ-SAM/B7.99",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1732/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1732/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 19. Oktober 1937, SZ-SAM/B7.99\n- Signatur: SZ-SAM/B7.99\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "P O S T C A R D\n\nFrau Anna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+        "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD', handschriftliche Adresse in violetter Tinte. Poststempel '19 OCT 1937'. Briefmarken: 1/2d und 1d (Großbritannien).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, vielen\nDank. In kurzer Zeit er\nhalten Sie die besten Bücher\nvon deren einem Sie das\nMeiste selbst geschrieben\nhaben / als Zeugen, das ist\ndankbar Ihrer gewalt![?]\nGrüßen Sie vielmals Herrn\nSchierl, ich schreibe ihm\nbald. Mit herzlichen\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Das Wort 'gewalt' ist schwer lesbar, möglicherweise 'gewaltig' oder eine Abkürzung/Verschreibung.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'gewalt' am Ende der siebten Zeile ist aufgrund der Handschrift leicht zweideutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 339,
+    "total_words": 59,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      70,
+      269
+    ],
+    "chars_per_page_median": 169.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0169,
+    "dwr_score": 0.3684,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

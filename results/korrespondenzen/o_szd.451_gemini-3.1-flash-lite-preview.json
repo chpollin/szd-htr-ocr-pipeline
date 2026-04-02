@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.451",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ernst Sander an Stefan Zweig, 1926-10-06, SZ-SAM/AK.167",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.451/IMG.1",
+      "https://gams.uni-graz.at/o:szd.451/IMG.2",
+      "https://gams.uni-graz.at/o:szd.451/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ernst Sander an Stefan Zweig, 1926-10-06, SZ-SAM/AK.167\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.167\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Schloß Nütschau bei Oldesloe. 6. X. 26",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung von Schloss Nütschau. Handschriftliche Datumsangabe unten rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nKapuzinergasse\nSalzburg\n\nNütschau 6.X.26\nLieber und verehrter Herr Zweig,\nsehr, sehr herzlichen Dank für „Amok“!\nIch bin recht stolz, gerade dieses Buch von Ihnen\nselbst bekommen zu haben. – Nach einer Reihe\nhöchst unglücklicher Wochen lebe ich hier, in meiner\nLandschaft, einige ruhevolle, feine und goldene\nTage erleben dürfen. – Meine Übertragung der\nShakespeare-Sonette schreitet rüstig fort.\nHerzlichst Ihr ergebener Ernst Sander",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Leipzig) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Nütschau 6.X.26\nLieber und verehrter Herr Zweig,\nsehr, sehr herzlichen Dank für „Amok“!\nIch bin recht stolz, gerade dieses Buch von Ihnen\nselbst bekommen zu haben. – Nach einer Reihe\nhöchst unglücklicher Wochen lebe ich hier, in meiner\nLandschaft, einige ruhevolle, feine und goldene\nTage erleben dürfen. – Meine Übertragung der\nShakespeare-Sonette schreitet rüstig fort.\nHerzlichst Ihr ergebener Ernst Sander",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 904,
+    "total_words": 133,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      38,
+      457,
+      409
+    ],
+    "chars_per_page_median": 247.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3429,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

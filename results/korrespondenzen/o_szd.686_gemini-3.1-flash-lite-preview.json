@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.686",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Maria Korten an Stefan Zweig, SZ-SAM/AK.99",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.686/IMG.1",
+      "https://gams.uni-graz.at/o:szd.686/IMG.2",
+      "https://gams.uni-graz.at/o:szd.686/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Maria Korten an Stefan Zweig, SZ-SAM/AK.99\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.99\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Klosterneuburg Blick von der Terrasse des Stiftskellers ins Kierlingertal",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand. Handschriftliche Notiz am oberen Rand (schwer lesbar, vermutlich 'Grüße aus Klosterneuburg').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\n\nIch theile sehr nie nun\n[...5...] einen Gast\ngeniess[?] hier mit\nIhnen Grüße\nfür den ganzen\nMaria Korten\nbrief folgt. Alles\n[...3...] gut Ihre[?] [...3...]",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text, teilweise schwer lesbar aufgrund der kursiven Schrift und Überlagerungen. Poststempel 'Klosterneuburg 21.7.13'. Briefmarke 10 Heller.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\n\nIch theile sehr nie nun\n[...5...] einen Gast\ngeniess[?] hier mit\nIhnen Grüße\nfür den ganzen\nMaria Korten\nbrief folgt. Alles\n[...3...] gut Ihre[?] [...3...]",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere im Textkörper der Postkarte. Einige Wörter sind aufgrund der Schriftführung und des Alters des Dokuments nur mutmaßlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 441,
+    "total_words": 67,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      73,
+      184,
+      184
+    ],
+    "chars_per_page_median": 184,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 6,
+    "marker_density": 0.1493,
+    "dwr_score": 0.377,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "marker_density"
+    ]
+  }
+}

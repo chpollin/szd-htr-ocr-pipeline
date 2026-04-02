@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.639",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Elsa Germani an Stefan Zweig, 1937-03-26, SZ-SAM/AK.69",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.639/IMG.1",
+      "https://gams.uni-graz.at/o:szd.639/IMG.2",
+      "https://gams.uni-graz.at/o:szd.639/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Elsa Germani an Stefan Zweig, 1937-03-26, SZ-SAM/AK.69\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.69\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "26. März 1937\n\n73 TRIESTE - Riviera di Barcola e Panorama",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Datum oben und gedrucktem Text unten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hochw. Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nTriest, den 26. März\nHochverehrter Herr Doktor -\nwir erinnern uns immer Ihrer\nmit der schönsten und tiefsten\nDankbarkeit und senden Ihnen\nunsere ergebensten Grüße\nund Wünsche\nIhre\nElsa u. Luise de Arim[?]",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Briefmarken und Poststempel vorhanden. Die Unterschrift ist schwer lesbar, 'Arim[?]' könnte auch 'Arimondi' oder ähnlich lauten.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch ist die Unterschrift am Ende der Nachricht aufgrund der Handschrift schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 316,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      57,
+      259,
+      0
+    ],
+    "chars_per_page_median": 158.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0192,
+    "dwr_score": 0.2222,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

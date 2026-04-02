@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.170",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Promotionskarte, SZ-SEF/L3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.170/IMG.1",
+      "https://gams.uni-graz.at/o:szd.170/IMG.2",
+      "https://gams.uni-graz.at/o:szd.170/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Promotionskarte, SZ-SEF/L3\n- Signatur: SZ-SEF/L3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig ∴ ∴\n\n                    gestattet sich, Ihnen seine\n                    Promotion zum Dr. phil.\n                    ergebenst mitzutheilen. ∴ ∴\n\nWien, 19. Juli 1904.",
+        "notes": "Gedruckte Promotionskarte auf braunem Karton. Unten rechts kleiner Druckvermerk: 'M. MUNK, WIEN'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Das Dokument aus Seite 1 ist hier erneut abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 179,
+    "total_words": 20,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      179,
+      0,
+      0
+    ],
+    "chars_per_page_median": 179,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2143,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

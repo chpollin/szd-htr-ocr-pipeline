@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.537",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Leopold Winkler an Stefan Zweig, 1923-11-26, SZ-SAM/AK.245",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.537/IMG.1",
+      "https://gams.uni-graz.at/o:szd.537/IMG.2",
+      "https://gams.uni-graz.at/o:szd.537/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Leopold Winkler an Stefan Zweig, 1923-11-26, SZ-SAM/AK.245\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.245\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "大正 12. 9. 1. 東京大震災実二兄\n焼け残れ3二王門と仲見世",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie der Zerstörungen nach dem Großen Kantō-Erdbeben 1923. Japanischer Text im Bild.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTALE\nvia America!\n\nHerrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nTokyo 26. Nov. 23\n\nSehr geehrter Herr Doktor!\nErlauben Sie, daß ich Ihnen\nund Ihrer Familie die besten Wünsche\nzum Jahreswechsel hiermit übersende.\nDie Erdbebenkatastrophe hat mich\npersönlich glücklicherweise gar nicht ge-\ntroffen, und ich bitte Sie, sich auch in\nZukunft gelegentlich freundlich erinnern\nzu wollen.\nThres sehr ergebenen\nLeopold Winkler\nTokyo, Okubo\nHyakuninmachi 277",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht in deutscher Sprache. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die japanischen Schriftzeichen auf der Vorderseite wurden als solche identifiziert, die deutsche Handschrift ist klar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 493,
+    "total_words": 72,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      34,
+      459,
+      0
+    ],
+    "chars_per_page_median": 246.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3387,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

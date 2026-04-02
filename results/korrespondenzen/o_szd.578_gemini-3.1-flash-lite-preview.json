@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.578",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1935-08-27, SZ-SAM/AK.283",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.578/IMG.1",
+      "https://gams.uni-graz.at/o:szd.578/IMG.2",
+      "https://gams.uni-graz.at/o:szd.578/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1935-08-27, SZ-SAM/AK.283\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.283\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "La Farnesina (Sede della Reale Accademia d'Italia)\nLoggia di Psiche",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unter dem Bild.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "24 ag.\n\nREALE ACCADEMIA D'ITALIA\n\nCaro signor Zweig,\nla ringrazio per le\ngentili parole scritte\na mia moglie. La\nmia settimana a\nSalisburgo è stata\nmolto piacevole.\nMi auguro vederla\na Firenze l'inverno\nprossimo.\nil suo amico\nlettore e ammiratore\n[Unterschrift/Kürzel][?]\n\nStefan Zweig\nvilla Souvenir\nWaldquellzeile\nMarienbad\nCecoslovacchia",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in italienischer Sprache. Briefmarken und Poststempel (FIRENZE FERROVIA 27.8.35) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Dazwischen die Ansichtskarte (Vorder- und Rückseite in einem Bild).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der handschriftliche Text ist gut lesbar. Die Unterschrift am Ende des Textkörpers ist ein unklares Kürzel."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 407,
+    "total_words": 58,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      67,
+      340,
+      0
+    ],
+    "chars_per_page_median": 203.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0172,
+    "dwr_score": 0.0328,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

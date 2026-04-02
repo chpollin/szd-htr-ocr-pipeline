@@ -24,6 +24,12 @@
   --diff-b-bg: #dbeafe;
   --diff-b-text: #1e40af;
   --diff-b-border: rgba(30, 64, 175, 0.25);
+  --diff-edit-old-bg: #fef3c7;
+  --diff-edit-old-text: #92400e;
+  --diff-edit-old-border: rgba(146, 64, 14, 0.25);
+  --diff-edit-new-bg: #d1fae5;
+  --diff-edit-new-text: #065f46;
+  --diff-edit-new-border: rgba(6, 95, 70, 0.25);
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, Monaco, 'Courier New', monospace;
@@ -1409,6 +1415,55 @@ body.view-stats #help { display: none; }
 .diff__legend-swatch--a { background: var(--diff-a-bg); border: 1px solid var(--diff-a-border); }
 .diff__legend-swatch--b { background: var(--diff-b-bg); border: 1px solid var(--diff-b-border); }
 .diff__legend-swatch--match { background: var(--sz-border-light); }
+
+/* Edit diff colors (green/amber for agent/human corrections) */
+.diff__word--edit-old {
+  background: var(--diff-edit-old-bg);
+  color: var(--diff-edit-old-text);
+  text-decoration: line-through;
+  text-decoration-color: var(--diff-edit-old-border);
+}
+
+.diff__word--edit-new {
+  background: var(--diff-edit-new-bg);
+  color: var(--diff-edit-new-text);
+}
+
+.diff__legend-swatch--edit-old { background: var(--diff-edit-old-bg); border: 1px solid var(--diff-edit-old-border); }
+.diff__legend-swatch--edit-new { background: var(--diff-edit-new-bg); border: 1px solid var(--diff-edit-new-border); }
+
+/* Diff tabs */
+.diff__tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid var(--sz-border);
+  padding: 0 1.25rem;
+}
+
+.diff__tab {
+  padding: 0.5rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--sz-text-light);
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.diff__tab:hover { color: var(--sz-text); }
+.diff__tab.active { color: var(--sz-burgundy); border-bottom-color: var(--sz-burgundy); font-weight: 600; }
+.diff__tab:disabled { opacity: 0.4; cursor: default; }
+
+.diff__edit-meta {
+  font-size: 0.72rem;
+  color: var(--sz-text-light);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--sz-border-light);
+  margin-bottom: 0.75rem;
+}
 
 @media (max-width: 900px) {
   .diff__side-by-side {

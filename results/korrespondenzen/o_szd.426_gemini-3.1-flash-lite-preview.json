@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.426",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "André Mabille de Poncheville an Stefan Zweig, 1913-05-09, SZ-SAM/AK.143",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.426/IMG.1",
+      "https://gams.uni-graz.at/o:szd.426/IMG.2",
+      "https://gams.uni-graz.at/o:szd.426/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: André Mabille de Poncheville an Stefan Zweig, 1913-05-09, SZ-SAM/AK.143\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.143\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "837. Montmartre – Le Lapin Agile en hiver – Coin Saint-Vincent\nParis 9. Mai 1913",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv 'Le Lapin Agile'. Der Text 'Paris 9. Mai 1913' ist handschriftlich unter dem gedruckten Titel hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Paris, le 9 mai 1913\nJ'ai reçu\nMerci, ce\nbeau livre, et je re-\ngrette bien de ne pas\nsavoir assez l'allemand\npour le lire. Je me console\nen le regardant, comme\nfaisaient les œuvres\nd'Homère les poètes de\nla Renaissance qui ne sa-\nvaient pas le grec. Voir\nle livre du poète leur était\ndéjà un plaisir.\nMerci encore, à l'été\n1914, je l'espère, au Caillon!\nCroyez-moi, très dévoué\nPoncheville\n\nM. Stephan Zweig\nVIII. Kochgasse 8\nVienne\nAutriche",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarke oben rechts, Poststempel teilweise lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Transkription folgt dem Originaltext auf der Postkarte."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 521,
+    "total_words": 94,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      80,
+      441,
+      0
+    ],
+    "chars_per_page_median": 260.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3913,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

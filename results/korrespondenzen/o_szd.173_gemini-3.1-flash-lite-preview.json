@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.173",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert Testament, SZ-SEF/L7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.173/IMG.1",
+      "https://gams.uni-graz.at/o:szd.173/IMG.2",
+      "https://gams.uni-graz.at/o:szd.173/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert Testament, SZ-SEF/L7\n- Signatur: SZ-SEF/L7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "AFTER 5 DAYS, RETURN TO\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+        "notes": "Vorderseite eines Kuverts. Gedruckter Text oben links, handschriftlicher Text in violetter Tinte rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts, leer. Die Lasche ist leicht beschädigt.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "AFTER 5 DAYS, RETURN TO\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+        "notes": "Vorderseite des Kuverts mit Grauskala und Farbkarte für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 302,
+    "total_words": 52,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      151,
+      0,
+      151
+    ],
+    "chars_per_page_median": 151,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.125,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

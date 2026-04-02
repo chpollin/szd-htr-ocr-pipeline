@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.552",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Armand Brody an Stefan Zweig, 1907-10-28, SZ-SAM/AK.26",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.552/IMG.1",
+      "https://gams.uni-graz.at/o:szd.552/IMG.2",
+      "https://gams.uni-graz.at/o:szd.552/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-10-28, SZ-SAM/AK.26\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kampala & Nakasero, Uganda. 28. Okt. 07. - hier Gottseidank, allein, ohne\nGesellschaft!",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "POST-CARD\nTHE ADDRESS ONLY TO BE WRITTEN HERE\n\nDr. Stefan Zweig,\nVienna VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte mit gedruckten Feldern und handschriftlicher Adresse. Briefmarke 'East Africa and Uganda Protectorates' (6 Cents) und Poststempel 'Mombasa 3 NO 07 E.A.P.' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Dr. Stefan Zweig,\nVienna VIII.\nKochgasse 8.",
+        "notes": "Wiederholung der Adressseite der Postkarte im Kontext von Archiv-Farbskalen. Die Transkription beschränkt sich auf den Text der Postkarte.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 220,
+    "total_words": 35,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      87,
+      90,
+      43
+    ],
+    "chars_per_page_median": 87,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

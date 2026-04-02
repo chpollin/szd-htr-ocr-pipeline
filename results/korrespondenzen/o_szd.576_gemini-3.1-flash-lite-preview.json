@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.576",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Rottauscher an Stefan Zweig, 1921-08-02, SZ-SAM/AK.281",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.576/IMG.1",
+      "https://gams.uni-graz.at/o:szd.576/IMG.2",
+      "https://gams.uni-graz.at/o:szd.576/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Rottauscher an Stefan Zweig, 1921-08-02, SZ-SAM/AK.281\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.281\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mauterndorf i. Lungau. Schloss. 2. VIII. 21.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text 'Mauterndorf i. Lungau. Schloss.', handschriftliches Datum '2. VIII. 21.' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "H. H.\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Freund! - Wohne Mautern-\ndorf, Gasthof Post. Ich\nbleibe bis Ende nächster\nWoche. Herzlichst und\nalles Gute immer\nIhr Rottauscher\nMauterndorf",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke oben links mit Poststempel 'MAUTERNDORF'. Verlagsangabe am unteren Rand: 'Johann Wassnigg's Kunstverlag, Mauterndorf. Nr. 1176. W. H., Brünn. 1909.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, die Abkürzungen (H. H. für Hochwohlgeboren/Herrn) sind im Kontext der Korrespondenz von Stefan Zweig eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 240,
+    "total_words": 37,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      44,
+      196,
+      0
+    ],
+    "chars_per_page_median": 120.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1818,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

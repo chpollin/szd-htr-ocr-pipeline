@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.168",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vollmacht Alfred Zweig, SZ-SEF/L1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.168/IMG.1",
+      "https://gams.uni-graz.at/o:szd.168/IMG.2",
+      "https://gams.uni-graz.at/o:szd.168/IMG.3",
+      "https://gams.uni-graz.at/o:szd.168/IMG.4",
+      "https://gams.uni-graz.at/o:szd.168/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vollmacht Alfred Zweig, SZ-SEF/L1\n- Signatur: SZ-SEF/L1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ich ermächtige hiemit meinen\nBruder Alfred Zweig in Angele-\ngenheiten des mir zu Hälfte ge\nhörigen Hauses IX Garnisongasse\n10 Wien alle Massnahmen und\nVerfügungen rechtsgiltig zu treffen\nund über diese mir gehörige Hälfte\nin meinem Auftrage so zu verfügen\nwie er es für richtig befindet\nund ich ermächtige ihn, diese\nVollmacht, über den mir gehörigen\nAnteil ebenso frei und berechtigt\nwie über seinen eigenen zu verfügen\njederzeit weiterzugeben an Personen",
+        "notes": "Handschriftliches Dokument auf blauem Papier. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "die er dazu bevollmächtigt\n\nStefan Zweig\nNewyork 9. August 1940",
+        "notes": "Fortsetzung des Textes auf der Rückseite des Blattes. Handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 519,
+    "total_words": 81,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      456,
+      0,
+      63,
+      0,
+      0
+    ],
+    "chars_per_page_median": 259.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

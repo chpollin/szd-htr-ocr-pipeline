@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.377",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Margot Alberts an Stefan Zweig, 1930-09-19, SZ-SAM/AK.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.377/IMG.1",
+      "https://gams.uni-graz.at/o:szd.377/IMG.2",
+      "https://gams.uni-graz.at/o:szd.377/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Margot Alberts an Stefan Zweig, 1930-09-19, SZ-SAM/AK.1\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19.9.30\n110-17. Nella Villa Carlotta",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliches Datum oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Cadenabbia/Lago di Como.\nd. 19.9.30\nSehr geehrter Herr Doktor,\nvor meiner schönsten\nu. abwechslungsreichsten\nReise, an der Sie so sehr\nschuld sind, erlaube ich\nmir, Ihnen frohe Grüße\nzu senden. Hier in C.\ndas mir überaus gut ge-\nfällt, bin ich jetzt seit\neiner Woche und werde\nnoch 8-10 weitere Tage hier\nbleiben, ehe ich nach\nMeran fahre. Diese Land-\nschaft ist begeisternd. Man\nmüßte einmal lange Zeit\nhier sein, um wirklich\nzu arbeiten u. die Atmosphäre\nzu erfassen. Ihnen\nnochmals herzlich dan-\nkend, verbleibe ich\nIhnen ergebenst Ihre\n\nAustria\n\nHerrn\nDr. Stefan Zweig,\n5, Kapuzinerberg\nSalzburg",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adressierung. Briefmarke und Poststempel vorhanden (nicht transkribiert). Der Text am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Vorderseite der Ansichtskarte (identisch mit Seite 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, trotz der teilweise engen Linienführung und der vertikalen Ausrichtung am linken Rand."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 635,
+    "total_words": 102,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      36,
+      599,
+      0
+    ],
+    "chars_per_page_median": 317.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.398,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

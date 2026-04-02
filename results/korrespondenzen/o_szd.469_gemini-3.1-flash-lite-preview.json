@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.469",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Heinrich Schwarz an Stefan Zweig, 1932-05-04, SZ-SAM/AK.183",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.469/IMG.1",
+      "https://gams.uni-graz.at/o:szd.469/IMG.2",
+      "https://gams.uni-graz.at/o:szd.469/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Heinrich Schwarz an Stefan Zweig, 1932-05-04, SZ-SAM/AK.183\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.183\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4.5.1932",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsaufnahme. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Villa Argentina\nDubrovnik - Rijeka\n4.5.1932.\n\nHerrliche dalmatinische\nFrühjahrstage, Erho-\nlung von einem recht\nbewegten und tätigen\nWinter, über den ich\nIhnen im Sommer in\nSalzburg zu berichten\nhope. Mögen diese Grüße\nSie bei guter Gesundheit\nerreichen. Ihr aufrichtig\nergebene\nHeinrich Schwarz\n\nHerrn u. Frau\nDr. Stefan Zweig\n\nSalzburg\nKapuzinerberg\nÖsterreich",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Zwei Briefmarken (Jugoslavija, 75 Para) sind oben rechts aufgeklebt. Vertikaler Aufdruck am linken Rand: 'Déposé, Ljubo Tosović Dubrovnik'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archiv-Scan mit Farbskala und Grauskala. Enthält die gleiche Ansichtskarte wie in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 370,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      8,
+      362,
+      0
+    ],
+    "chars_per_page_median": 185.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3265,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

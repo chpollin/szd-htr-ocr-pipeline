@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.641",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Elsa Germani an Stefan Zweig, 1937-07-20, SZ-SAM/AK.70",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.641/IMG.1",
+      "https://gams.uni-graz.at/o:szd.641/IMG.2",
+      "https://gams.uni-graz.at/o:szd.641/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Elsa Germani an Stefan Zweig, 1937-07-20, SZ-SAM/AK.70\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "702/30 - Dolomiti - Val Pusteria - MONGUELFO m. 1090\n20. Juli 1937. Elsa Germani",
+        "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Gedruckter Text unten links, handschriftlicher Text unten rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hochw. Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n/ Austria /\n\nMonguelfo, 20. Juli 1937\nDie ergebenste Grüße m.\nIhrer immer dankbaren\nElsa Germani",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarken mit Poststempel 'MONGUELFO' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Die Postkarte ist identisch mit der in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'm.' in der Nachricht könnte für 'mit' stehen, ist aber im Kontext der Grußformel etwas ungewöhnlich, jedoch eindeutig als 'm.' geschrieben."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 230,
+    "total_words": 39,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      80,
+      150,
+      0
+    ],
+    "chars_per_page_median": 115.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0741,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

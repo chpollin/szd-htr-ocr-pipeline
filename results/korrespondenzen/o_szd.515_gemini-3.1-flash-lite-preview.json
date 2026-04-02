@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.515",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1908-09-24, SZ-SAM/AK.224",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.515/IMG.1",
+      "https://gams.uni-graz.at/o:szd.515/IMG.2",
+      "https://gams.uni-graz.at/o:szd.515/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1908-09-24, SZ-SAM/AK.224\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.224\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wie gefällt Ihnen das?\n24.9.08.\nBRESLAU, PARTIE VOR DER SANDBRÜCKE.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text der Ortsbezeichnung, handschriftliche Notiz oben links und Datum oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Breslau 5, Gartenstr. 16.\nLieber Freund, fast jede Stunde\nich sehe des Abends Aufstellungen in\nWien zu entschuldigen, die Kopf-\nweh ist schuld. Ich ist 2 mal vergeblich\nim Hotel mich nach Nachrichten -\nkundigt, jetzt sind auch plötzlich Hrn.\nPaul Hegner tröstete dass Sie ~~nach~~ Herrn\nFriesen gedampft seien, dann habe\nIch Sie noch einmal ange-\nklingelt und vergebet auf Sie\ngewartet. Schade. Hoffentlich sehe\nich Sie nächstes Mal.\nViele Grüße Ihr\nRobert Lör[?] legh[?]\n\nAn:\nDr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Zwei Briefmarken (Deutsches Reich, 3 Pfennig) mit Poststempel 'BRESLAU 24.9.08'. Die Unterschrift ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Breslau 5, Gartenstr. 16.\nLieber Freund, fast jede Stunde\nich sehe des Abends Aufstellungen in\nWien zu entschuldigen, die Kopf-\nweh ist schuld. Ich ist 2 mal vergeblich\nim Hotel mich nach Nachrichten -\nkundigt, jetzt sind auch plötzlich Hrn.\nPaul Hegner tröstete dass Sie ~~nach~~ Herrn\nFriesen gedampft seien, dann habe\nIch Sie noch einmal ange-\nklingelt und vergebet auf Sie\ngewartet. Schade. Hoffentlich sehe\nich Sie nächstes Mal.\nViele Grüße Ihr\nRobert Lör[?] legh[?]\n\nAn:\nDr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Unterschrift des Absenders und einige Wörter im Textkörper (z.B. 'Aufstellungen', 'gedampft'). Die Transkription der Unterschrift ist daher unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1099,
+    "total_words": 178,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      67,
+      516,
+      516
+    ],
+    "chars_per_page_median": 291.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0225,
+    "dwr_score": 0.3864,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.180",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Geburtsschein Lotte Zweig, SZ-AP2/L-S6.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.180/IMG.1",
+      "https://gams.uni-graz.at/o:szd.180/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Geburtsschein Lotte Zweig, SZ-AP2/L-S6.1\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Reg. Nr 500/08.\n\nGeburtsschein\nnur gültig für Schul- und Unterrichtszwecke einschließlich\ndes Konfirmations-Unterrichts.\n\nVor- und Zuname Elisabet Charlotte\nUtmann\nGeburtstag und Ort fünften Mai tausend-\nneunhundertacht zu Kattowitz.\nVor- und Zuname sowie Stand des Vaters Kaufmann Josef\nGeorg Utmann, mosaisch.\nVor- und Zuname der Mutter Therese geborene Hirsch,\nmosaisch.\n\nKattowitz, den 18. Februar 1914.\n\nDer Standesbeamte.\nZehe.",
+        "notes": "Formulardruck mit handschriftlichen Ergänzungen. Stempel des Standesamtes Kattowitz vorhanden. Unten mittig Verlagsangabe: 'Julius Herzig, Kattowitz. 24821'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "NOTE: This declaration should not be made until the declarer's husband\n\ntakes the Oath of Allegiance and so becomes a British subject\n\n(G)\n\nD U P L I C A T E  D E C L A R A T I O N\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914\n\nDeclaration of Acquisition of British Nationality\n\n(1) Name in\nfull I, (1) ELISABET CHARLOTTE ZWEIG\n\n(2) Address in\nfull of (2) LYNCOMBE HILL, BATH, SOMERSET\n\nbeing the wife of (1) STEFAN ZWEIG\n\nto whom a certificate of naturalization (No. AZ 15747 )\n\nwas granted on or about 12th March, 1940 , hereby declare\n\nthat I desire to acquire British nationality.\n\n(Signature) Elisabet Charlotte Zweig\n\nMade and subscribed this 15th day of March, 1940,\nbefore me,\n\n(Signature) [Unleserliche Unterschrift]\n\nJustice of the Peace for the City of Bath\n(or other official title)\n\nA Commissioner for Oaths\n\nAddress\n\n[Stempel: HOME OFFICE - 8 APR 1940 - REGISTERED]",
+        "notes": "Maschinenschriftliches Formular mit handschriftlichen Ergänzungen (Name, Adresse, Ehemann, Datum, Unterschrift). Stempel des 'Home Office' unten links.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Texte sind sehr gut lesbar. Die Unterschrift des 'Justice of the Peace' auf Seite 2 ist unleserlich, wurde daher als [...] markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1318,
+    "total_words": 213,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      433,
+      885
+    ],
+    "chars_per_page_median": 659.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2589,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

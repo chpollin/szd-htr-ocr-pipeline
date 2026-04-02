@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.479",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Sergej Tocker an Stefan Zweig, 1930-05-06, SZ-SAM/AK.192",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.479/IMG.1",
+      "https://gams.uni-graz.at/o:szd.479/IMG.2",
+      "https://gams.uni-graz.at/o:szd.479/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Sergej Tocker an Stefan Zweig, 1930-05-06, SZ-SAM/AK.192\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.192\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7.5.30\n\nLWÓW. Kościół O. O. Bernardynów.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung einer Kirche in Lemberg (Lwów). Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lwów 6.V.30\nLieber Herr Doktor!\n\nBeste Grüsse. Seit\n2 Wochen schaue ich\nhier auf die Städte\nu. Orte die in meinem\nLeben eine solch verschwommene\nRolle gespielt haben.\nJetzt ist es noch trostloser\nals vor dem Kriege. Interessant\nder Vergleich mit elnüben[?]\ns.xv.mene an die Frau\n\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n[Unterschrift:]\nDr. S. Tocker",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Poststempel 'LWÓW 7 V 30'. Briefmarke 'POCZTA POLSKA' oben rechts. Der Text am Ende ist teilweise durch den Stempel und die Anordnung schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise flüchtig und durch Überlagerungen (Poststempel) sowie durchscheinende Elemente erschwert lesbar. Besonders die Zeilen am unteren Ende der Nachricht sind aufgrund der Platzierung und Schriftführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 393,
+    "total_words": 62,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      40,
+      353,
+      0
+    ],
+    "chars_per_page_median": 196.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0161,
+    "dwr_score": 0.3538,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

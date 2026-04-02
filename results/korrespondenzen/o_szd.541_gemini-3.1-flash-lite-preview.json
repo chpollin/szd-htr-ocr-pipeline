@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.541",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Armand Brody an Stefan Zweig, 1907-04-18, SZ-SAM/AK.25",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.541/IMG.1",
+      "https://gams.uni-graz.at/o:szd.541/IMG.2",
+      "https://gams.uni-graz.at/o:szd.541/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-04-18, SZ-SAM/AK.25\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "18.4.07.\nEdlach bei Reichenau in N.-Oe., 593 m Seehöhe.\n[...]",
+        "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Handschriftliche Datumsangabe und Ortsbezeichnung oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Stefan, solltest Du dies für\neinen Witz halten, so versichere ich\nDir im vollen Ernst: ich bin und\nbleibe in Edlach, Hotel Edlacherhof. Erwarte\nDich an einem schönen, sonnigen Tag, wie dem\nheutigen. Glaube mir es ist reizend. Herb\nerfrischend, lenzesbang, und - holla! -\nabsolut jundenrein!! Es sei denn, dass\nDu die Sünden meiner Väter mir auf\ndas Konto stellst ...) Am liebsten sähe\nich es, wenn Du eines Nachmittags heraus\nfrühst, übernachtetest und nächsten\nAbend nach Wien heimreistest!! Da Du\ndoch in Eile bist. Das ist dann just ein\nTag, nicht wahr? Einverstanden?! Du\nweisst, wie ich mich freuen werde. Schreibe\nzuvor, damit ich Dich erwarten kann in Payer-\nbach! Komm bald!!! Mehr hab ich dir nicht\nzu schreiben, oder höchstens noch: zwei Fanfaren\nfür Niederösterreich im Vorfrühling!!! Du wirst\n9276 Deine Reise nicht bereuen, mein\nBester!! Servus, auf Wiedersehen! Dein Armand.\n\n[Am linken Rand, quer geschrieben:]\n& dann wirst ins Höllental\nfahren, am nächsten Morgen!!",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Gedruckte Postkarten-Elemente vorhanden. Poststempel 'REICHENAU' teilweise lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Stefan, solltest Du dies für\neinen Witz halten, so versichere ich\nDir im vollen Ernst: ich bin und\nbleibe in Edlach, Hotel Edlacherhof. Erwarte\nDich an einem schönen, sonnigen Tag, wie dem\nheutigen. Glaube mir es ist reizend. Herb\nerfrischend, lenzesbang, und - holla! -\nabsolut jundenrein!! Es sei denn, dass\nDu die Sünden meiner Väter mir auf\ndas Konto stellst ...) Am liebsten sähe\nich es, wenn Du eines Nachmittags heraus\nfrühst, übernachtetest und nächsten\nAbend nach Wien heimreistest!! Da Du\ndoch in Eile bist. Das ist dann just ein\nTag, nicht wahr? Einverstanden?! Du\nweisst, wie ich mich freuen werde. Schreibe\nzuvor, damit ich Dich erwarten kann in Payer-\nbach! Komm bald!!! Mehr hab ich dir nicht\nzu schreiben, oder höchstens noch: zwei Fanfaren\nfür Niederösterreich im Vorfrühling!!! Du wirst\n9276 Deine Reise nicht bereuen, mein\nBester!! Servus, auf Wiedersehen! Dein Armand.\n\n[Am linken Rand, quer geschrieben:]\n& dann wirst ins Höllental\nfahren, am nächsten Morgen!!",
+        "notes": "Scan enthält die Postkarte sowie Archiv-Farbskalen (Grauskala #13 und Farbkarte #13). Transkription entspricht der Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Anmerkung am linken Rand wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2037,
+    "total_words": 328,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      61,
+      988,
+      988
+    ],
+    "chars_per_page_median": 524.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.003,
+    "dwr_score": 0.4259,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

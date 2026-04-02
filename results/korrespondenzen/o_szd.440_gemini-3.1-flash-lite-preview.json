@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.440",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Eugenie Reitter an Stefan Zweig, 1934-02-29, SZ-SAM/AK.157",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.440/IMG.1",
+      "https://gams.uni-graz.at/o:szd.440/IMG.2",
+      "https://gams.uni-graz.at/o:szd.440/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1934-02-29, SZ-SAM/AK.157\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.157\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ullersdorf 29. II. 34",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Datumsangabe oben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Brunn, Zalgasse 18.\nSchwefelbad Gr. Ullersdorf\nSchloss.\nAn einen schönen Vorfrühlings-\nmorgen schreibe ich im Wald\ndiese Karte, die Ihnen, lie-\nben Stefan Zweig und Ihrer\nlieben Frau all meine herzlig-\nsten Grüße bringen soll. Wo\nsie wohl Ihre Pfingsten ver-\nbringen? Ich habe schon so lan-\nge nichts von Ihnen gehört!\nnun hoffe ich auf die Pfingsten,\nwer der R. wird sie etwas für\nmich bringen? Herzlichst alles\nGute von Ihrer Eug. Reitter.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (nicht transkribiert). Verlagsangabe 'Verlag Rudolf Rammer M.-Schönberg' vertikal am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Brunn, Zalgasse 18.\nSchwefelbad Gr. Ullersdorf\nSchloss.\nAn einen schönen Vorfrühlings-\nmorgen schreibe ich im Wald\ndiese Karte, die Ihnen, lie-\nben Stefan Zweig und Ihrer\nlieben Frau all meine herzlig-\nsten Grüße bringen soll. Wo\nsie wohl Ihre Pfingsten ver-\nbringen? Ich habe schon so lan-\nge nichts von Ihnen gehört!\nnun hoffe ich auf die Pfingsten,\nwer der R. wird sie etwas für\nmich bringen? Herzlichst alles\nGute von Ihrer Eug. Reitter.\n\nHerrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.",
+        "notes": "Gesamtansicht der Postkarte mit Archiv-Farbskalen. Text identisch zu Seite 2, inklusive Adressfeld.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'Eug.' wurde als Eugenie identifiziert, 'R.' im Text bleibt als 'R.' stehen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 953,
+    "total_words": 159,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      21,
+      441,
+      491
+    ],
+    "chars_per_page_median": 441,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3506,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

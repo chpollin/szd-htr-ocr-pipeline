@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1670",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alfredo Cahn an Stefan Zweig, SZ-SAM/AK.37",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1670/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1670/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1670/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alfredo Cahn an Stefan Zweig, SZ-SAM/AK.37\n- Signatur: SZ-SAM/AK.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "BUENOS AIRES. — Plaza del Congreso.",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Plaza del Congreso in Buenos Aires. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(AUSTRIA)\n\nSehr geehrte Herr Doktor,\nleider habe ich von Ihnen nichts mehr\ngehört seit ich Ihnen die R. Rolland-Übersetzung\nund die [?] günstigen Kritiken sandte. Nächstens\ndas hoffe ich Sie hier begrüßen zu dürfen.\nFür heute will ich Ihnen nur das\nAllerbeste für dieses nächste Jahr wünschen.\nWie immer Ihr sehr ergebener getreuer\nAlfredo Cahn\n29/12/35",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (Buenos Aires, 28.12.35; Wien, 3.1.36). Die Zeile 'Nächstens das hoffe ich...' ist etwas unklar formuliert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(AUSTRIA)\n\nSehr geehrte Herr Doktor,\nleider habe ich von Ihnen nichts mehr\ngehört seit ich Ihnen die R. Rolland-Übersetzung\nund die [?] günstigen Kritiken sandte. Nächstens\ndas hoffe ich Sie hier begrüßen zu dürfen.\nFür heute will ich Ihnen nur das\nAllerbeste für dieses nächste Jahr wünschen.\nWie immer Ihr sehr ergebener getreuer\nAlfredo Cahn\n29/12/35",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Ein Wort vor 'günstigen' ist schwer zu entziffern, daher mit [?] markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 829,
+    "total_words": 130,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      35,
+      397,
+      397
+    ],
+    "chars_per_page_median": 216.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0154,
+    "dwr_score": 0.4308,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

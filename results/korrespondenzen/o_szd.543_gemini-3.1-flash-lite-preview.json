@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.543",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Otto Zarek an Stefan Zweig, 1921-06-20, SZ-SAM/AK.251",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.543/IMG.1",
+      "https://gams.uni-graz.at/o:szd.543/IMG.2",
+      "https://gams.uni-graz.at/o:szd.543/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Otto Zarek an Stefan Zweig, 1921-06-20, SZ-SAM/AK.251\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.251\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "MÜNCHEN\nNationaltheater\n20.6.21. Z.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Nationaltheaters in München. Handschriftliche Datierung oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Herr Zweig!\nSoeben erhalt' ich von\n[...10...] [...10...] \n[...10...] [...10...] \nKonto!\nIch schreibe das\nWissen Sie, dass für Sie\nzufällig einen [?] [?]\neinen guten Ort in\nSalzburgische [?] \n[...10...] meiner\nKinder habe. Könn-\n[...10...] \nIhr herzlichst M. Otto Zarek\n\nHerrn\nH. Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adressierung. Der Text ist teilweise durch den Poststempel und die Briefmarke überlagert sowie durch die Tinte der Vorderseite leicht durchscheinend. Die Handschrift ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "low",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise durch den Poststempel sowie die Briefmarke verdeckt. Viele Wörter sind aufgrund der schwungvollen Schrift und der Überlagerungen nur schwer oder gar nicht zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 350,
+    "total_words": 51,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      35,
+      315,
+      0
+    ],
+    "chars_per_page_median": 175.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 6,
+    "marker_density": 0.1765,
+    "dwr_score": 0.325,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

@@ -17,9 +17,15 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
+        "transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMeine Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
         "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [{
+          "original_transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
+          "edited_by": "Claude Code Agent",
+          "edited_at": "2026-04-02T21:00:00Z",
+          "source": "agent"
+        }]
       },
       {
         "page": 2,
@@ -36,6 +42,16 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist eindeutig identifizierbar."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [1],
+    "notes": "Page 1 (picture side): Fixed 'Mein Adresse' to 'Meine Adresse'. Printed text and handwritten greeting verified against image. Page 2 (address side): Printed French header, handwritten address to Max Fleischer in Komotau verified. Page 3: Correctly classified as color_chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

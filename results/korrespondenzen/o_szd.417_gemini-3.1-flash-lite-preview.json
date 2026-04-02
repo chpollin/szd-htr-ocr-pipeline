@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.417",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ferdinand von Paungarten an Stefan Zweig, 1907-08-16, SZ-SAM/AK.135",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.417/IMG.1",
+      "https://gams.uni-graz.at/o:szd.417/IMG.2",
+      "https://gams.uni-graz.at/o:szd.417/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ferdinand von Paungarten an Stefan Zweig, 1907-08-16, SZ-SAM/AK.135\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.135\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Haseldorf i. Holstein,\n16. VIII. 1907.\n\nHerrenhaus",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Herrenhauses. Gedruckter Text und handschriftliche Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig\nSchriftsteller u. Kritiker\nWien I. T.\nz. Adr. Redaction der\n„Neuen freien Presse“\nRathausstr. Rathausstr. 17\n\nLieber Herr Zweig! Kunde Ihnen von\nhier mein lieber Freund Emil\nSchoenaich-Carolath bei dem ich\nseit 9. Juli zu Gast bin, die\nherzlichsten Grüße. Ihr\nergebener\nFerd freih. von\nPaungarten.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke (5 Pfennig Deutsches Reich) und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme der Rückseite der Postkarte mit Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Korrespondenz ist klar strukturiert und weist keine kritischen Unleserlichkeiten auf."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 360,
+    "total_words": 55,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      50,
+      310,
+      0
+    ],
+    "chars_per_page_median": 180.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2692,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

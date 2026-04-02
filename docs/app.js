@@ -69,6 +69,7 @@ const state = {
   filterReviewStatus: '',
   editMode: false,
   diffMode: false,
+  diffTab: 'consensus',
   gtReviewMode: false,
   hasReviewData: false,
   hasConsensusData: false,
@@ -311,6 +312,7 @@ function route() {
 function resetDiffMode() {
   if (!state.diffMode) return;
   state.diffMode = false;
+  state.diffTab = 'consensus';
   const diffPanel = document.getElementById('diffPanel');
   const textPanel = document.getElementById('textPanel');
   const labelRight = document.getElementById('panelLabelRight');
@@ -319,6 +321,10 @@ function resetDiffMode() {
   if (textPanel) textPanel.style.display = '';
   if (labelRight) labelRight.textContent = 'Transkription';
   if (diffBtn) diffBtn.classList.remove('active');
+  // Reset tab visuals
+  document.querySelectorAll('.diff__tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.diffTab === 'consensus');
+  });
 }
 
 function showCatalog() {
@@ -1657,6 +1663,18 @@ function renderDiffView() {
   const diffStats = document.getElementById('diffStats');
   if (!diffPanel || !diffContent) return;
 
+  // Update tab availability
+  const editsTab = document.querySelector('[data-diff-tab="edits"]');
+  if (editsTab) {
+    editsTab.disabled = !hasAnyEditHistory(state.currentObjectId);
+  }
+
+  // Route to edit diff if that tab is active
+  if (state.diffTab === 'edits') {
+    renderEditDiffView();
+    return;
+  }
+
   const consensus = getConsensusData(state.currentObjectId);
   if (!consensus || !consensus.pages) {
     diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Kein Modellkonsensus-Vergleich für dieses Objekt verfügbar.</div>';
@@ -1764,6 +1782,95 @@ function toggleDiffMode() {
   }
 
   renderDiffView();
+}
+
+function switchDiffTab(tab) {
+  state.diffTab = tab;
+  document.querySelectorAll('.diff__tab').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.diffTab === tab);
+  });
+  document.getElementById('diffHeaderConsensus').style.display = tab === 'consensus' ? '' : 'none';
+  document.getElementById('diffHeaderEdits').style.display = tab === 'edits' ? '' : 'none';
+  renderDiffView();
+}
+
+function getEditHistory(objectId, pageIndex) {
+  const obj = getViewerObject(objectId);
+  if (!obj || !obj.pages) return null;
+  const page = obj.pages[pageIndex];
+  if (!page || !page.edit_history || page.edit_history.length === 0) return null;
+  return page.edit_history;
+}
+
+function hasAnyEditHistory(objectId) {
+  const obj = getViewerObject(objectId);
+  if (!obj || !obj.pages) return false;
+  return obj.pages.some(p => p.edit_history && p.edit_history.length > 0);
+}
+
+function renderEditDiffView() {
+  const diffContent = document.getElementById('diffContent');
+  const diffStatsEdits = document.getElementById('diffStatsEdits');
+  if (!diffContent) return;
+
+  const history = getEditHistory(state.currentObjectId, state.currentPage);
+  if (!history || history.length === 0) {
+    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Korrekturen auf dieser Seite.</div>';
+    if (diffStatsEdits) diffStatsEdits.innerHTML = '';
+    return;
+  }
+
+  // Use the first (oldest) edit_history entry as the original
+  const entry = history[0];
+  const obj = getViewerObject(state.currentObjectId);
+  const currentText = obj.pages[state.currentPage]?.transcription || '';
+  const originalText = entry.original_transcription || '';
+
+  const ops = diffWords(originalText, currentText);
+  const stats = computeDiffStats(ops);
+
+  // Meta info
+  const source = entry.source === 'agent' ? 'Agent' : 'Mensch';
+  const editedBy = entry.edited_by || 'Unbekannt';
+  const editedAt = entry.edited_at ? new Date(entry.edited_at).toLocaleDateString('de-AT') : '';
+
+  if (diffStatsEdits) {
+    diffStatsEdits.innerHTML = `
+      <span class="diff__stats-divergent">${stats.divergent} Änderung${stats.divergent !== 1 ? 'en' : ''}</span>
+      <span>${stats.matches} unverändert</span>`;
+  }
+
+  // Build side-by-side
+  let htmlA = '', htmlB = '';
+  for (const op of ops) {
+    if (op.type === 'match') {
+      const escaped = escapeHtml(op.wordA);
+      htmlA += `<span class="diff__word diff__word--match">${escaped}</span> `;
+      htmlB += `<span class="diff__word diff__word--match">${escaped}</span> `;
+    } else if (op.type === 'delete') {
+      htmlA += `<span class="diff__word diff__word--edit-old" data-tooltip="Entfernt">${escapeHtml(op.wordA)}</span> `;
+    } else if (op.type === 'insert') {
+      htmlB += `<span class="diff__word diff__word--edit-new" data-tooltip="Hinzugefügt">${escapeHtml(op.wordB)}</span> `;
+    }
+  }
+
+  diffContent.innerHTML = `
+    <div class="diff__edit-meta">Korrigiert von <strong>${escapeHtml(editedBy)}</strong> (${source})${editedAt ? ' am ' + editedAt : ''}</div>
+    <div class="diff__side-by-side">
+      <div class="diff__column">
+        <div class="diff__column-header">Original (VLM)</div>
+        ${htmlA}
+      </div>
+      <div class="diff__column">
+        <div class="diff__column-header">Korrigiert</div>
+        ${htmlB}
+      </div>
+    </div>
+    <div class="diff__legend">
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--edit-old"></span> Entfernt</span>
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--edit-new"></span> Korrigiert</span>
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--match"></span> Unverändert</span>
+    </div>`;
 }
 
 /* ===== GT Review Mode ===== */

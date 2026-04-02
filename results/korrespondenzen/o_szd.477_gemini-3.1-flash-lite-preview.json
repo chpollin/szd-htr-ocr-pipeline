@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.477",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Maria Tibaldi Chiesa an Stefan Zweig, 1934-05-09, SZ-SAM/AK.190",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.477/IMG.1",
+      "https://gams.uni-graz.at/o:szd.477/IMG.2",
+      "https://gams.uni-graz.at/o:szd.477/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Maria Tibaldi Chiesa an Stefan Zweig, 1934-05-09, SZ-SAM/AK.190\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.190\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "9. V. 34\n\nMILANO - Arco della Pace",
+        "notes": "Vorderseite einer Ansichtskarte mit dem Arco della Pace in Mailand. Handschriftliche Datumsnotiz oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Milano, 18 Via Petrarca - 9. V. 934\nGentilissimo Zweig,\nda gran tempo non ho Sue notizie.\nLe scrivo per dirle che Bloch il\n18 e 20 Maggio dirigerà alla Scala\ndue concerti: Helvetia, Melos,\nservizio sacro. Sarei felice se\nLei potesse venire: in caso la\nprego di avvertirmi e penserò\nper il posto. Mi creda con più\nvivi ossequi\nMaria Tibaldi Chiesa\n\n[Adressseite:]\nHerrn\nStefan Zweig\n5 Kapuzinerberg\nSalzburg\n\n[Stempel: MILANO FERROVIA 9.5.34 23]\n[Handschriftlicher Vermerk: Nachberichtet?]",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in italienischer Sprache. Briefmarke und Poststempel vorhanden. Der Vermerk 'Nachberichtet?' ist quer über die Adresse geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der italienische Text ist gut lesbar. Die Handschrift ist flüssig. Der Vermerk 'Nachberichtet?' ist aufgrund der Überlagerung mit dem Stempel und der Schriftrichtung etwas schwieriger zu lesen, aber im Kontext plausibel."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 522,
+    "total_words": 86,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      34,
+      488,
+      0
+    ],
+    "chars_per_page_median": 261.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0541,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

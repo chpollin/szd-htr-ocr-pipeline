@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.503",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1929-09-24, SZ-SAM/AK.213",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.503/IMG.1",
+      "https://gams.uni-graz.at/o:szd.503/IMG.2",
+      "https://gams.uni-graz.at/o:szd.503/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1929-09-24, SZ-SAM/AK.213\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.213\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Schloss Heilsberg\n23. 8. [?] ",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Gewölbes. Handschriftliche Notiz am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig\nSalzburg (Österreich)\nKapuzinerberg 5.\n\nKönigsberg i. Pr. 23./8. 29\nLieber Freund,\nherzlichen Dank für das neue\nBuch, es ist wunderbar geheimnisvoll,\nein aber nun das [?] in das!\nMorgen geht es heim, da ich nirgends zu [?] ",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Georgenswalde 24.8.29) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die letzten Wörter des Textes auf der Rückseite der Postkarte."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 265,
+    "total_words": 44,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      29,
+      236,
+      0
+    ],
+    "chars_per_page_median": 132.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0682,
+    "dwr_score": 0.4722,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

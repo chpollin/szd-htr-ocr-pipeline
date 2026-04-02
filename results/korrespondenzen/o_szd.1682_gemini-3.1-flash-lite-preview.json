@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1682",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Frederic Lewis Dunbar von Kalckreuth an Stefan Zweig, SZ-SAM/AK.94",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1682/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1682/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1682/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Frederic Lewis Dunbar von Kalckreuth an Stefan Zweig, SZ-SAM/AK.94\n- Signatur: SZ-SAM/AK.94\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "461. 33\n\nPension und Café Alpenglühen - Berchtesgaden, Salzberg",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand, handschriftliche Nummerierung am oberen Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Berchtesgaden 4. I. 1933\nVilla Alpenglühen.\nSehr verehrter Herr Dr. Zweig,\nIhnen und Ihrer lieben Gattin\nwünsche ich ein erfolgreiches\nneues Jahr. - Ich habe mit\nBegeisterung „Marie Antoinette“\ngelesen.\nDarf ich Sie auf mein letztes\nWesternbuch: „Die Köhler\nauf Schloss Mitterstill“ auf-\nmerksam machen, ein\nanspruchsloses Kriminalro-\nman in Dichtung & Wahrheit\ndas Motto verdanke ich Ihnen.\nIch schreibe jetzt einen histor.\nRoman: „Eine tolle Königin“\n(Gustav Adolfs Tochter, ein barockes\nLeben in 78 Transparenten).\nEnde der Woche fahre ich nach Berlin\nzurück. Ich würde mich freuen auch\nSie hier einmal begrüßen zu dürfen.\nF. L. D. v. Kalckreuth",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke und Poststempel (München 9.1.33) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte befindet sich die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen Abkürzungen sind kontextuell eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 711,
+    "total_words": 109,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      63,
+      648,
+      0
+    ],
+    "chars_per_page_median": 355.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3762,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

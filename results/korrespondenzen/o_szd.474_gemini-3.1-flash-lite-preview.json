@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.474",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Sochaczewer an Stefan Zweig, 1928-05-26, SZ-SAM/AK.188",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.474/IMG.1",
+      "https://gams.uni-graz.at/o:szd.474/IMG.2",
+      "https://gams.uni-graz.at/o:szd.474/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Sochaczewer an Stefan Zweig, 1928-05-26, SZ-SAM/AK.188\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.188\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "26/5\n1928\n\n229 København. Christianshavn's Vold",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber verehrter Herr Doktor Zweig\n\nVorgestern endlich erhielt ich Ihr\nBuch. Da ich gleichzeit~~ig~~ noch\nmeinen neuen Roman fertig\nwurde habe ich Zeit, Ihre\n~~Aufsätze~~ zugleich zu lesen; ist ~~jene~~\nnicht im ~~maus~~.\n\nNochmals: vielen Dank\n\nIhr sehr ergeb.\nHans Sochaczewer\n\nKopenh., 26.5.28.\nIm Juli bin ich gewiss 2 Tage in\nS.; falls ich darf käme ich zu an.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Poststempel 'KØBENHAVN 4-5 1928' und Briefmarke vorhanden. Der Text ist teilweise schwer lesbar, insbesondere die durchgestrichenen Passagen und das Ende des letzten Satzes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Keine Transkription erforderlich.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige Korrekturen und Durchstreichungen auf. Besonders die Wörter 'zugleich', 'jene', 'maus' sowie das Ende des letzten Satzes ('zu an.') sind schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 412,
+    "total_words": 65,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      47,
+      365,
+      0
+    ],
+    "chars_per_page_median": 206.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3651,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

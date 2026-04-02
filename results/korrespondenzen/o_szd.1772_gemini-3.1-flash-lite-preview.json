@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1772",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 3. Mai 1938, SZ-AAP/B1.206",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1772/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1772/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Mai 1938, SZ-AAP/B1.206\n- Signatur: SZ-AAP/B1.206\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr H. WEISFLOG\nUND\nDr WERNER WEISFLOG\nRECHTSANWÄLTE\nStändiger Mitarbeiter:\nDr ARNOLD HAUSER\nRechtsanwalt\nZÜRICH 1\nTalacker No. 48\nTelephon: 36.708\nTelegr.-Adresse: Dr. Weisflog, Zürich\nPostcheck- und Giro-Konto: VIII 1596\n\nZÜRICH, den 3. Mai 1938.\n\nHerrn\nDr. Stefan Zweig,\n49, Hallam Street,\nLondon W. 1.\nEngland.\n\nNamens des Herrn Herbert Reichner, des Alleininhabers\ndes gleichnamigen Verlages, derzeit in Zürich, St. Peter-\nstrasse 18, bestätige ich Ihnen den Empfang Ihrer an\nmeinen Klienten gerichteten Zuschrift vom 27. April 1938\nund gestatte mir, Ihnen zu entgegnen:\nIhre verschiedenen Ausführungen treffen sowohl in\ntatsächlicher als auch rechtlicher Hinsicht nicht zu und\nmüssen umso mehr zurückgewiesen werden, als Sie Dinge\nhereinzuziehen suchen, die Sie in keiner Weise berühren.\nDeswegen beschränke ich mich auf die folgenden\nErklärungen:\n1. Herr Herbert Reichner ist nach wie vor der recht-\nmässige Alleininhaber der von ihm gegründeten Einzelfirma,\ngleichgültig, wo diese Firma ihre Niederlassung besitzt\nund wo ihr Inhaber sich aufhält. Im besonderen gilt dies\nfür die seit 1935 bestehende Zürcherfirma (St. Peter-\nstrasse 18). Die im Deutschen Reiche durchgeführten Be-\nschlagnahmungen berühren diese Verhältnisse überhaupt\nnicht.\n2. Herr Herbert Reichner ist demnach der rechtmässige\nPartner aller von Ihnen unterzeichneten Verlagsverträge,\nunabhängig vom Verlagssitz und Wohnort des Inhabers.",
+        "notes": "Typoskript auf Geschäftspapier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "3. Herr Herbert Reichner macht die von ihm erworbe-\nnen Verlagsrechte nach wie vor in vollem Umfange geltend\nund ist gewillt und in der Lage, die damit verbundenen\nVerpflichtungen zu erfüllen.\n4. Mein Klient legt Wert darauf, Ihnen unnütze\nSchreibereien zu ersparen. Deshalb lade ich Sie ein,\nIhren Zürcher Rechtsanwalt zu bestimmen oder selbst\nhieher zu kommen, damit der vorliegende Fall einer\nrein sachlichen Erledigung zugeführt wird.\n\nHochachtungsvoll\nDres. H. & W. Weisflog\nRechtsanwälte\nA. H. Weisflog",
+        "notes": "Typoskript auf Geschäftspapier. Die Unterschrift 'A. H. Weisflog' ist handschriftlich in Tinte ausgeführt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und weist keine nennenswerten Leseschwierigkeiten auf."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1920,
+    "total_words": 276,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1412,
+      508
+    ],
+    "chars_per_page_median": 960.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3538,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

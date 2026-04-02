@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.627",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Victor Fleischer an Stefan Zweig, 1914-07-06, SZ-SAM/AK.58",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.627/IMG.1",
+      "https://gams.uni-graz.at/o:szd.627/IMG.2",
+      "https://gams.uni-graz.at/o:szd.627/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Victor Fleischer an Stefan Zweig, 1914-07-06, SZ-SAM/AK.58\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.58\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "6/7 1914.\nIschl.",
+        "notes": "Vorderseite einer Ansichtskarte mit Ortsansicht von Bad Ischl. Handschriftliche Datierung und Ortsangabe oben links/mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzkammergut\nBad Ischl mit kais. Villa\n\nMein lieber, es ist trotz aller\nberechtigten Einwände wun-\nderschön hier. Wenn ich nur\nzur Arbeit komme, will ich ganz\nzufrieden sein. Wir wohnen\nvon morgen an: Pension\nLehner, Brennerstr. 19, was\nDu Dir jedenfalls notieren\nkannst.\nHerzlichst\nVictor\n\nHerrn\nStefan Zweig\n\nWien VIII/1\n\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke (5 Heller, Franz Joseph I.) und Poststempel vorhanden. Gedruckte Verlagsangabe 'F. E. Brandt, Gmunden. No. 045 1918' am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzkammergut\nBad Ischl mit kais. Villa\n\nMein lieber, es ist trotz aller\nberechtigten Einwände wun-\nderschön hier. Wenn ich nur\nzur Arbeit komme, will ich ganz\nzufrieden sein. Wir wohnen\nvon morgen an: Pension\nLehner, Brennerstr. 19, was\nDu Dir jedenfalls notieren\nkannst.\nHerzlichst\nVictor\n\nHerrn\nStefan Zweig\n\nWien VIII/1\n\nKochgasse 8",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 688,
+    "total_words": 107,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      16,
+      336,
+      336
+    ],
+    "chars_per_page_median": 336,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3168,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

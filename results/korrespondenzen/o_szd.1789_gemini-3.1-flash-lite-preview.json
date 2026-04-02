@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1789",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 11. Mai 1938, SZ-AAP/B1.223",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1789/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1789/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. Mai 1938, SZ-AAP/B1.223\n- Signatur: SZ-AAP/B1.223\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wohlgeboren\nHerrn Stefan Zweig\nLondon\n\nBUDAPEST, 1938 Mai 11\n\nDankend erhielten wir Ihre Rundschrift vom 9-ten Mai wessen\nInhalt wenn wir uns so ausdrücken dürfen, ein wenig\nunverständlich finden. Wir haben nämlich mit gleicher\nPost, von der Firma Schweizerisches Vereinssortiment\nOlten, ein Rundschreiben erhalten, in welchem uns die\nFirma mitteilt, dass sie die Zweig Bücher resp. die\nim Reichner Verlag erschienenen Bücher für die ganze\nWelt ausliefert.\n\nWir bitten also höflichst, sich an die Firma Schweizerisches\nVereinssortiment zu wenden, die Ihnen wahrscheinlich\nNäheres mitteilen kann.\n\nWas die Abrechnungen mit Herrn Reichner anbelangt, so haben wir\ndie Bücher vom Verlag fest gekauft, u. sind dieselben\nfolglich unser Eigentum. Was die Zahlungen anbelangt,\nso erhielten wir die Bücher von Volkmar aus Leipzig\nwohin wir auch unsere Schulden bezahlen müssen. Wir\nhätten nur an Hand eines gerichtlichen Verbotes das\nRecht, an Reichner, resp. an Volkmar die Zahlung zu\nverweigern.\n.1.",
+        "notes": "Typoskript auf Geschäftspapier der Firma Somló Béla. Die Ziffer '1' am Ende ist vermutlich eine Seitenzahl.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Wir ersuchen um freundliche zur Kenntnissnahme von alldem,\nu. zeichnen mit\n\nvorzüglicher Hochachtung\nBÉLA SOMLÓ\n[Stempel: AUSLIEFERUNG AUSLÄNDISCHER VERLEGER\nBudapest, V., Dorottya u. 9]\n[Unterschrift: S. Somló?]",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in blauer Tinte. Der Stempel ist teilweise überlagert durch die Unterschrift.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist eine individuelle Handschrift, aber im Kontext der Firma Somló Béla gut zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1204,
+    "total_words": 174,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      992,
+      212
+    ],
+    "chars_per_page_median": 602.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3941,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

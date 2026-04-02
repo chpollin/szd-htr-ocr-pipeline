@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.612",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Fernand Desprès an Stefan Zweig, 1922-11-06, SZ-SAM/AK.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.612/IMG.1",
+      "https://gams.uni-graz.at/o:szd.612/IMG.2",
+      "https://gams.uni-graz.at/o:szd.612/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Fernand Desprès an Stefan Zweig, 1922-11-06, SZ-SAM/AK.43\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VERSAILLES - Hameau de Marie Antoinette - Le Moulin\nThe Hamlet of Marie Antoinette - The Mill",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des 'Le Moulin' im Hameau de la Reine in Versailles. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Monsieur et Madame\nStefan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\n17, Belgrand, Paris (XXe) le 6 nov. 22\nChers Amis De graves préoccupations\nont surgi, dès mon arrivée à Paris qui ne m'ont\npas laissé la liberté d'esprit nécessaire pour écrire\nà mes amis. Vous savez nos émissions de rédacteurs\nSuivant mon exemple Marcel Martinet a cherché des\noccupations dans les imprimeries, il a travaillé deux\njours à l'écho de Paris comme correcteur, il espère trou-\nver une place fixe. J'attends l'on désire mon succes-\nseur pour en faire autant. J'assure l'interim, je n'ai\npas ~~non~~ vu Le Fauconnier, ni le \"P'tit Père\". On\nm'a appris une nouvelle navrante : Pierre au-\nsait ~~foutu~~ Andrée pour vivre tout à fait avec Mlle R.\nJe regrette de n'avoir pu m'arrêter en Allemagne\nSi je suis tout à fait chômeur, j'essaierai d'al-\nler vivre soit à Munich soit à Berlin.\nBonjour à M. Fuchs. Bien cordialement à\ntous deux Fernand Desprès",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarken und Poststempel vorhanden. Der Text ist in französischer Sprache verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Monsieur et Madame\nStefan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\n17, Belgrand, Paris (XXe) le 6 nov. 22\nChers Amis De graves préoccupations\nont surgi, dès mon arrivée à Paris qui ne m'ont\npas laissé la liberté d'esprit nécessaire pour écrire\nà mes amis. Vous savez nos émissions de rédacteurs\nSuivant mon exemple Marcel Martinet a cherché des\noccupations dans les imprimeries, il a travaillé deux\njours à l'écho de Paris comme correcteur, il espère trou-\nver une place fixe. J'attends l'on désire mon succes-\nseur pour en faire autant. J'assure l'interim, je n'ai\npas ~~non~~ vu Le Fauconnier, ni le \"P'tit Père\". On\nm'a appris une nouvelle navrante : Pierre au-\nsait ~~foutu~~ Andrée pour vivre tout à fait avec Mlle R.\nJe regrette de n'avoir pu m'arrêter en Allemagne\nSi je suis tout à fait chômeur, j'essaierai d'al-\nler vivre soit à Munich soit à Berlin.\nBonjour à M. Fuchs. Bien cordialement à\ntous deux Fernand Desprès",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift und einiger Durchstreichungen gut lesbar. Die Sprache ist Französisch."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1945,
+    "total_words": 333,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      93,
+      926,
+      926
+    ],
+    "chars_per_page_median": 926,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3161,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "language_mismatch"
+    ]
+  }
+}

@@ -81,9 +81,18 @@
       },
       {
         "page": 5,
-        "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
-        "notes": "Handschriftlicher Eintrag. 'Eisena' am rechten Rand könnte ein Name oder eine Notiz sein, die Schrift ist hier etwas flüchtiger.",
-        "type": "content"
+        "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisemann}",
+        "notes": "Handschriftlicher Eintrag. 'Eisemann' am rechten Rand ist ein Händlername (auch auf späteren Seiten, z.B. bei Thomas Morus, lesbar). Unter 'Nürnberg' befinden sich weitere, teils radierte/verblasste Bleistiftnotizen.",
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T19:30:00Z",
+            "source": "agent",
+            "changes": "Korrektur: '{Eisena[?]}' -> '{Eisemann}' — der Name ist auf Seite 13 (Thomas Morus) eindeutig als 'Eisemann' lesbar und somit auch hier korrekt aufloesbar."
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -125,7 +134,18 @@
     "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "marker_density"
+      "marker_density",
+      "truncated_output"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [5],
+    "notes": "KRITISCH: Schwere Trunkierung — nur 5 von 43 Seiten transkribiert. Seiten 6-43 fehlen komplett. Content-Seiten mit handschriftlichen Eintraegen zu Inkunabeln, Buch- und Bildersammlung (u.a. Vespucci, Petrarca, Morus, Cervantes, Boccaccio, Lorrain, Guardi, Dürer, Beham, Weiditz, Terentius, Jordaens). Ca. 15 Content-Seiten + ca. 15 Leerseiten + 5 Rueckseiten/Durchscheiner + 3 Cover/Farbkarte fehlen. Seite 5: '{Eisena[?]}' korrigiert zu '{Eisemann}' (Haendlername, durch Vergleich mit Seite 13 verifiziert). Objekt muss mit --force neu transkribiert werden (43 Bilder > Standard-Chunk-Groesse, Chunking-Problem wahrscheinlich).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:30:00Z"
   }
 }

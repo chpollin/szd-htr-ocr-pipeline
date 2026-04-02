@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1701",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 11. Dezember 1935, SZ-SAM/B7.68",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1701/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1701/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 11. Dezember 1935, SZ-SAM/B7.68\n- Signatur: SZ-SAM/B7.68\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Anna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+        "notes": "Adressseite einer Postkarte. Gedruckte Postkarten-Vordrucke (POST CARD, UNIVERSAL POSTAL UNION, etc.) sind vorhanden. Briefmarke (1 1/2 Penny, King George V) und Poststempel (LONDON, 11 DEC 1935) sind sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, es ist nur na-\ntürlich unherrlich, dass ich Ihre Feiertage\nzerstöre, aber ich bin durch die vierzeh-\ntägige secretärliche Verlassenheit arg\nin Rückstand geraten und wäre Ihnen\nsehr dankbar, wenn Sie es sich so ein-\nteilen könnten, von etwa 20 bis in\ndie ersten Jännertage mit mir in Wien\nzu sein. Mir wäre es eine Wohltat,\nkönnte ich dann mit der erledigten\nArbeit abreisen und in vierzehn Tagen\nwürde das wohl gelingen. Selbstver-\nständlich ersetze ich auch die Spesen\ndie Ihnen aus dem Aufenthalt Willis\nin Wien erwachsen. Es war eine arge\nHetzjagd in den letzten Tagen, aber Capi-\ntel 2 und 6 sind ja längst so viel\nwie fertig, es fehlt mir im ganzen\nnur etwa 40 Seiten noch. Herzlichst AS",
+        "notes": "Handschriftlicher Text in violetter Tinte. Die Handschrift ist gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist typisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 761,
+    "total_words": 131,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      48,
+      713
+    ],
+    "chars_per_page_median": 380.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5238,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

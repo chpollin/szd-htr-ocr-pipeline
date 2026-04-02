@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.610",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Simeon Danowsky an Stefan Zweig, 1932-07-20, SZ-SAM/AK.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.610/IMG.1",
+      "https://gams.uni-graz.at/o:szd.610/IMG.2",
+      "https://gams.uni-graz.at/o:szd.610/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Simeon Danowsky an Stefan Zweig, 1932-07-20, SZ-SAM/AK.41\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Месемврия\n\nMESEMVRIA",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Luftaufnahme von Mesembria (heute Nessebar). Gedruckter Text in kyrillischer und lateinischer Schrift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mesemvria,\n20.7.1932\n\nVerehrter Herr Zweig,\nIch befinde mich im Mesemvria,\ndie alte bulgarische Stadt am\nSchwarzen Meere, mit dem\nbesten Strand und ich möchte\nSie hierher einladen. Es wäre\nwirklich schön, wenn Sie einige\nTage hier verbracht hätten!\nmit den besten Grüßen\nIhr ergebenster Simeon Danowsky\n\nHerrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5\nÖsterreich.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Poststempel 'MESEMVRIA 1.VII.1932' (Datum im Stempel weicht vom handschriftlichen Datum ab). Archivnummer '907618' am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Das Datum im Poststempel (1.VII.1932) weicht vom handschriftlichen Datum (20.7.1932) ab, was bei Postkarten vorkommen kann."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 379,
+    "total_words": 55,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      20,
+      359,
+      0
+    ],
+    "chars_per_page_median": 189.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4038,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

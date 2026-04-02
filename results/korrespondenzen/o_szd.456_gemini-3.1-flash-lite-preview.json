@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.456",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Will Scheller an Stefan Zweig, 1927-05-20, SZ-SAM/AK.171",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.456/IMG.1",
+      "https://gams.uni-graz.at/o:szd.456/IMG.2",
+      "https://gams.uni-graz.at/o:szd.456/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Will Scheller an Stefan Zweig, 1927-05-20, SZ-SAM/AK.171\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.171\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Cassel. Französ. Kirche mit Landgraf- Carl-Denkmal.\n20.V.\n1927",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text oben, handschriftliches Datum links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Postkarte.\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Herr Doktor! Haben Sie Dank für Ihre\nfreundliche Mitteilung und seien versichert, daß\nich Respekt ~~habe~~ geduldig werde - als Revanche im\nAugenblick des Opfers, das Sie mir bringen!!!\nMein Respekt gilt dann auch in erster Linie,\ndaß Sie nicht zu sehr enttäuscht sein möchten,\nindem Sie denken, daß das formhaft Reizvollere\nmeiner Lyrik stärker ist als der seelische Gehalt.\nAber reicht es nicht „auch solche Köpfe“ geben?\nHoffentlich ist dann der um den sichs hier han-\ndelt, nicht gerade einer der schlechtesten. Aber\ndas wissen Sie besser als Herr Sie in dankbarer\nGesinnung herzlich grüßender\nWill Scheller\n20.V.\n1927",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (Cassel, 20.5.27). Der Text enthält eine durchgestrichene Stelle.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Enthält die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die durchgestrichene Stelle ist eindeutig als 'habe' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 752,
+    "total_words": 117,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      62,
+      690,
+      0
+    ],
+    "chars_per_page_median": 376.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4561,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

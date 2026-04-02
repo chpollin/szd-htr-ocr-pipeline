@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1805",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Klara Modern vom 18. Mai 1938, SZ-AAP/B1.239",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1805/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1805/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Klara Modern vom 18. Mai 1938, SZ-AAP/B1.239\n- Signatur: SZ-AAP/B1.239\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Tit. Buchhandlung Klara Modern,\n\nLondon W.C.1\n1, Granville Square\n\nTit. Buchhandlung K.Modern,                                London\n\nAuf Ihre Anfrage vom 13.ds.Mts. teilen\nwir Ihnen mit, dass wir uns lediglich bereit erklärten\ndie Bücher des Verlages H.Reichner auch nach dem Aus-\nland zu liefern, solange der Hauptsitz Wien gesperrt\nist. Diese Lieferungen erfolgen mit 35%, alle anderen\nBedingungen wollen Sie direkt mit Herrn H.Reichner,\nZürich, Hauptpostlagernd, vereinbaren. Auch Zahlungen\nkönnen wir für ihn leider nicht entgegennehmen.\n\nHochachtungsvoll:\nSchweiz. Vereinssortiment\n\nOlten, den 18.5.38.\nH/G.",
+        "notes": "Typoskript auf Briefpapier. Die Unterschrift ist handschriftlich (Kürzel). Die Zeile 'Tit. Buchhandlung K.Modern, London' ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Enthält den Firmenaufdruck 'Schweiz. Vereinssortiment Olten', Telefonnummer, Archivnummer 'No. 53 5000 III. 38' sowie einen Poststempel 'HELVETIA 19.V.38-9'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die durchgestrichene Zeile wurde gemäß den Regeln transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 613,
+    "total_words": 79,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      613,
+      0
+    ],
+    "chars_per_page_median": 613,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.378,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

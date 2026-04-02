@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1690",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Anna Meingast vom 8. Februar 1939, SZ-SAM/B7.106",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1690/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1690/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1690/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 8. Februar 1939, SZ-SAM/B7.106\n- Signatur: SZ-SAM/B7.106\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE GOLDEN GATE BRIDGE SPANNING THE ENTRANCE TO SAN FRANCISCO BAY 87\n\n© STANLEY A. PILTZ 8. Februar 1939 SAN FRANCISCO TO MARIN SHORE, CALIF.",
+        "notes": "Vorderseite einer Ansichtspostkarte. Gedruckter Text mit handschriftlichem Datum in violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+        "notes": "Rückseite der Postkarte. Gedruckter Informationstext und handschriftliche Adresse/Nachricht in violett. Poststempel 'SAN FRANCISCO FEB 8 1939' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der gedruckte Teil als auch die handschriftliche Nachricht."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1575,
+    "total_words": 263,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      141,
+      717,
+      717
+    ],
+    "chars_per_page_median": 429.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.218,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.385",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Leischner an Stefan Zweig, 1927-05-20, SZ-SAM/AK.106",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.385/IMG.1",
+      "https://gams.uni-graz.at/o:szd.385/IMG.2",
+      "https://gams.uni-graz.at/o:szd.385/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Leischner an Stefan Zweig, 1927-05-20, SZ-SAM/AK.106\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.106\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "GASTEINERTAL, WEIDMOSERSCHLOSS\nN344",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herren\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nVerehrter lieber Herr Doktor! Indem [20/5 27]\nAugenblicke, da ich Ihnen auf [?] einer\nAndeutung m. Frau selbst schreiben wollte,\nkommen Ihre liebensw. Zeilen – ich danke\nIhnen aufrichtig für den wertvollen Hin=\nweis! Wäre hätte ich die beiden O.\ngesehen, ja, wenigstens gesehen, denn...\n1300 S. – das ist auch n. vor allem uns privit[?]\nSie haben sehr Recht: »sehr reichlich«!\nSchade das ist leider nicht zu verantworten.\nWoher soll man so viel Geld heute nehmen? O. sind\neben augenblicklich in Mode... mir gehts hier in\nvölliger Abgeschiedenheit u. Causaldiskretion-Schmeiza\n[am linken Rand vertikal geschrieben:]\n[...10...] gut, als ich mir selbst schreiben wollte.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Poststempel 'HOFGASTEIN 20.V.27'. Briefmarke vorhanden. Der Text am linken Rand ist teilweise durch den Stempel und die Faltung/Kante schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Keine Transkription erforderlich.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist aufgrund der kursiven Handschrift und der teilweise überlagerten Schrift am linken Rand sowie der durchscheinenden Tinte an einigen Stellen schwer zu entziffern. Einige Wörter sind aufgrund der Abkürzungen oder der Tintenführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 752,
+    "total_words": 114,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      35,
+      717,
+      0
+    ],
+    "chars_per_page_median": 376.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0263,
+    "dwr_score": 0.4486,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

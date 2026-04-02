@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.651",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Léon Bazalgette an Stefan Zweig, 1905-06-13, SZ-SAM/AK.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.651/IMG.1",
+      "https://gams.uni-graz.at/o:szd.651/IMG.2",
+      "https://gams.uni-graz.at/o:szd.651/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1905-06-13, SZ-SAM/AK.8\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "LA NORMANDIE – La \"C. P. A \"\n\n79. Environs de Flers – La Vallée du Noireau",
+        "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Avernes-sous-Exmes mardi\n\nMon cher Zweig,\nJe serai dimanche après-midi\net lundi à Paris. Donc je\nvous verrai et j'en suis bien heureux\nNous aurons ~~tout~~ juste le temps de\nnous serrer la main. Je vous donnerai\nrendez-vous par télégramme dimanche\nsoir ou lundi matin. Tout à vous\nL Bazalgette\n\nMonsieur Stefan Zweig\n5, rue Victor Massé\nParis IX",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Poststempel 'HAMBO[...]' und '1 JUIN 05'. Briefmarke 'REPUBLIQUE FRANCAISE 10c'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Avernes-sous-Exmes mardi\n\nMon cher Zweig,\nJe serai dimanche après-midi\net lundi à Paris. Donc je\nvous verrai et j'en suis bien heureux\nNous aurons ~~tout~~ juste le temps de\nnous serrer la main. Je vous donnerai\nrendez-vous par télégramme dimanche\nsoir ou lundi matin. Tout à vous\nL Bazalgette\n\nMonsieur Stefan Zweig\n5, rue Victor Massé\nParis IX",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Sprache ist Französisch, nicht Deutsch wie in der Aufgabenstellung vermerkt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 764,
+    "total_words": 133,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      74,
+      345,
+      345
+    ],
+    "chars_per_page_median": 209.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.32,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -17,9 +17,17 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]",
-        "notes": "Der Text ist mit blauem Stift geschrieben. Das Wort 'couplet' ist in Klammern gesetzt und schwer lesbar. 'Umbau' könnte auch 'Aufbau' oder 'Anbau' bedeuten, die Schrift ist hier sehr flüchtig.",
-        "type": "content"
+        "transcription": "Josef Roth\n\nEigener Vortrag (complet)\nund Notizen für weiteren\nAusbau",
+        "notes": "Der Text ist mit blauem Buntstift geschrieben (Stefan Zweigs Hand). 'complet' ist ein franzoesisches Wort in Klammern (= vollstaendig). Letzte Zeile liest sich als 'Ausbau' (Entwicklung/Erweiterung).",
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T14:34:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -29,9 +37,17 @@
       },
       {
         "page": 3,
-        "transcription": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]",
+        "transcription": "Josef Roth\n\nEigener Vortrag (complet)\nund Notizen für weiteren\nAusbau",
         "notes": "Identisch mit Seite 1, hier mit Farb- und Grauskala abgebildet.",
-        "type": "color_chart"
+        "type": "color_chart",
+        "edit_history": [
+          {
+            "original_transcription": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T14:34:00Z",
+            "source": "agent"
+          }
+        ]
       }
     ],
     "confidence": "medium",
@@ -71,5 +87,18 @@
     "needs_review_reasons": [
       "marker_density"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [
+      1,
+      3
+    ],
+    "notes": "3 corrections on page 1 (mirrored to page 3 color_chart): (1) '[couplet][?]' -> '(complet)' - word is French 'complet' in parentheses, not 'couplet' in brackets; (2) 'war' -> 'und' - misread of Zweig's handwriting; (3) 'Umbau[?]' -> 'Ausbau' - first letter is A not U. The corrected text reads: 'Eigener Vortrag (complet) und Notizen fuer weiteren Ausbau'. All uncertainty markers removed as reading is now confident.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T14:34:00Z"
   }
 }

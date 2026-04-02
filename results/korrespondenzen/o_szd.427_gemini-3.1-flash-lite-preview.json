@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.427",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, 1907-08-11, SZ-SAM/AK.144",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.427/IMG.1",
+      "https://gams.uni-graz.at/o:szd.427/IMG.2",
+      "https://gams.uni-graz.at/o:szd.427/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1907-08-11, SZ-SAM/AK.144\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.144\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stötterhof[?], was du hast -\n\nferner die Haus.\n\nOstende\n11/8.07.\n\nOstende. La Gare.",
+        "notes": "Vorderseite der Postkarte mit Ansicht des Bahnhofs Ostende. Handschriftliche Notizen am oberen Rand und rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTALE\nPOSTKAART\n\nPartie réservée à la correspondance.                                Adresse du destinataire\n\nLieber Stefan,\nich weiß nicht,\nwo du bist, noch, wenn du\nkommst. Bitte sei so nett\nund schreib mir auf Bozen\na/ Waldmüllersee (Hotel Wald[?])\n\nDr. Stefan Zweig\nVienne VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Postkarte mit handschriftlicher Nachricht und Adresse. Briefmarke und Poststempel 'OSTENDE 11 AOUT 07' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Darunter die Rückseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Ortsangabe 'Stötterhof' und die Hotelbezeichnung am Ende der Nachricht auf Seite 2 sind unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 386,
+    "total_words": 56,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      83,
+      303,
+      0
+    ],
+    "chars_per_page_median": 193.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0357,
+    "dwr_score": 0.283,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

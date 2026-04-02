@@ -71,5 +71,15 @@
     "needs_review_reasons": [
       "low_dwr"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Typewritten Italian publishing contract (Mondadori, 1932). All text verified against faksimile: header, 5 contract clauses, handwritten annotations ({Vertrag}, {Marie Antoinette}), and closing. Page types correct (content, blank, color_chart). No confident corrections needed. Estimated accuracy slightly below 1.0 due to image resolution limiting verification of small typographic details (spacing, punctuation).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
   }
 }

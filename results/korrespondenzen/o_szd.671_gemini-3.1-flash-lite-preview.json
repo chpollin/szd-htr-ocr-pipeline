@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.671",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, SZ-SAM/AK.150",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.671/IMG.1",
+      "https://gams.uni-graz.at/o:szd.671/IMG.2",
+      "https://gams.uni-graz.at/o:szd.671/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, SZ-SAM/AK.150\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.150\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Gries bei Bozen u. der Rosengarten. Etscherin Heinrich-Promenade.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text am oberen Rand. Farbiges Landschaftsbild.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bozen, 14. 8.\n\nHerzliche Grüße\n~~ein altes Haus~~\nBestens grüßend\nMary des Renards\ndito [?] Lothar\n\nMr le dr. Stefan Zweig\nParis\nHôtel Beaujolais, rue\nde Beaujolais",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in Tinte. Zwei Briefmarken (5 Heller, Österreich) mit Poststempel. Der Text 'ein altes Haus' ist durchgestrichen. 'dito' ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke, Ansicht der Postkarte (Vorder- und Rückseite) in der Mitte. Kein eigenständiger Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise flüchtig. 'dito' und die Zeile unter 'Mary des Renards' sind schwer zu entziffern. Die Adresszeile 'Hôtel Beaujolais' ist durch die Platzierung auf der Karte und die Handschrift etwas unklar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 229,
+    "total_words": 35,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      65,
+      164,
+      0
+    ],
+    "chars_per_page_median": 114.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0286,
+    "dwr_score": 0.1818,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

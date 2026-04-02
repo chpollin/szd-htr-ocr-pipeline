@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.642",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Franz Karl Ginzkey an Stefan Zweig, 1914-08-24, SZ-SAM/AK.71",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.642/IMG.1",
+      "https://gams.uni-graz.at/o:szd.642/IMG.2",
+      "https://gams.uni-graz.at/o:szd.642/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Franz Karl Ginzkey an Stefan Zweig, 1914-08-24, SZ-SAM/AK.71\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Pernegg a. Mur mit Hochlantsch. 24. 8. 14.",
+        "notes": "Vorderseite der Ansichtskarte. Gedruckter Text 'Pernegg a. Mur mit Hochlantsch.', handschriftliches Datum '24. 8. 14.' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Einen schönen Gruß aus\nmeinem alten Fernsitz.\nIch rufe mich hier tüchtig\nmit meinem Landungs- [?]\ngeschäft zusammen, am 5. Sept.\nbin ich wieder in Wien.\nAlles Gute!\nIhr getreuer\nF. K. Ginzkey\nEr sitz' ins [?]\n\nHerrn\nDr. Stefan Zweig\nin Wien VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts (5 Heller, Kaiser Franz Joseph I.), Poststempel teilweise lesbar. Flecken auf dem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Einen schönen Gruß aus\nmeinem alten Fernsitz.\nIch rufe mich hier tüchtig\nmit meinem Landungs- [?]\ngeschäft zusammen, am 5. Sept.\nbin ich wieder in Wien.\nAlles Gute!\nIhr getreuer\nF. K. Ginzkey\nEr sitz' ins [?]\n\nHerrn\nDr. Stefan Zweig\nin Wien VIII.\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen 'Landungs- [?]' und 'Er sitz' ins [?]'. Der Rest ist gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 560,
+    "total_words": 100,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      42,
+      259,
+      259
+    ],
+    "chars_per_page_median": 150.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.04,
+    "dwr_score": 0.2766,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

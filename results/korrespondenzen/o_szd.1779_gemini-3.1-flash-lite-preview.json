@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1779",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Werner Stauffacher vom 5. Mai 1938, SZ-AAP/B1.213",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1779/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1779/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 5. Mai 1938, SZ-AAP/B1.213\n- Signatur: SZ-AAP/B1.213\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "5. Mai 1938.\n\nHerrn Dr. Werner Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\nIch sende Ihnen anbei\ndie Kopie eines Briefes, den ich heute an Herrn Her-\nbert Reichner gerichtet habe, zur Kenntnisnahme und\nbleibe mit den besten Empfehlungen\n\nIhr sehr ergebener",
+        "notes": "Typoskript auf Briefpapier. Lochungen am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 283,
+    "total_words": 44,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      283,
+      0
+    ],
+    "chars_per_page_median": 283,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3415,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

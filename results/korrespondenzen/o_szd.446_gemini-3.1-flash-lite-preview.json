@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.446",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Rosenkranz an Stefan Zweig, 1924-02-20, SZ-SAM/AK.162",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.446/IMG.1",
+      "https://gams.uni-graz.at/o:szd.446/IMG.2",
+      "https://gams.uni-graz.at/o:szd.446/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Rosenkranz an Stefan Zweig, 1924-02-20, SZ-SAM/AK.162\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.162\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Georgenswalde 20. II 24.",
+        "notes": "Vorderseite einer Postkarte mit Landschaftsmotiv. Handschriftliche Datumsangabe oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Georgenswalde / Vor dem Gewitter\nb. Königsberg, 10. II. 24\nLieber St. Z., Sie haben lange nichts\nmehr von mir gehört. Es\nging uns wechselnd jeden-\nfalls weg von Bayern.\nJetzt treffe ich hier am\npreußischen Nordpol einen\nAnhänger von Ihnen u\ngebe gern ein Zeichen nach\nSalzburg hinüber. Herzlich\nIhr A. J.[?]\nIch bin sehr traurig, dass ich nichts\nmehr von Ihnen höre, lieber Herr Doktor.\nWarum? Warum kommen Sie\nnicht auch einmal her? V. - [?]\nGrüß Gott Hans Rosenkranz",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke und Poststempel 'KÖNIGSBERG 10.2.24' vorhanden. Die Signatur 'A. J.' ist schwer lesbar, der Name am Ende ist 'Hans Rosenkranz'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Georgenswalde / Vor dem Gewitter\nb. Königsberg, 10. II. 24\nLieber St. Z., Sie haben lange nichts\nmehr von mir gehört. Es\nging uns wechselnd jeden-\nfalls weg von Bayern.\nJetzt treffe ich hier am\npreußischen Nordpol einen\nAnhänger von Ihnen u\ngebe gern ein Zeichen nach\nSalzburg hinüber. Herzlich\nIhr A. J.[?]\nIch bin sehr traurig, dass ich nichts\nmehr von Ihnen höre, lieber Herr Doktor.\nWarum? Warum kommen Sie\nnicht auch einmal her? V. - [?]\nGrüß Gott Hans Rosenkranz",
+        "notes": "Scan enthält die Postkarte sowie Farb- und Grauskalen zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch sind einige Abkürzungen und die Signatur 'A. J.' sowie das Wort nach 'V. -' aufgrund der Handschrift schwer zu deuten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 960,
+    "total_words": 168,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      24,
+      468,
+      468
+    ],
+    "chars_per_page_median": 246.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0238,
+    "dwr_score": 0.3671,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

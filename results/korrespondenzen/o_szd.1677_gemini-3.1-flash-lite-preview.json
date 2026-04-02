@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.1677",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hermann Hesse an Stefan Zweig, SZ-SAM/AK.81",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1677/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1677/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1677/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hermann Hesse an Stefan Zweig, SZ-SAM/AK.81\n- Signatur: SZ-SAM/AK.81\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "25. Sept. 22\n\nMontagnola sulla Collina d'Oro",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten, handschriftliches Datum oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stefan Zweig\nKapuzinerberg\nSalzburg\n\nLieber Stefan Zweig, wir sind beide zur\nselben Zeit indische Dinge gewesen, u.\nIhr inniges Bruder hat einen Brief an\nmeinen Siddharthan, das bald erscheinen\nsoll. Ich habe neulich Ihren sehr wackern bei\ndem Buch der Fremden in Lugano, u.\nhabe heute aufmerksam Ihre schöne Le-\ngende gelesen für die ich Ihnen danke.\nIch sitze nun seit 3 1/2 Jahren in meiner\nEinsamkeit, u. sehe noch keine Änderung\nbevorstehen. Herzlich grüßt Sie\nIhr H. Hesse",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text von Hermann Hesse. Briefmarke und Poststempel (Stuttgart) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Dr. Stefan Zweig\nKapuzinerberg\nSalzburg\n\nLieber Stefan Zweig, wir sind beide zur\nselben Zeit indische Dinge gewesen, u.\nIhr inniges Bruder hat einen Brief an\nmeinen Siddharthan, das bald erscheinen\nsoll. Ich habe neulich Ihren sehr wackern bei\ndem Buch der Fremden in Lugano, u.\nhabe heute aufmerksam Ihre schöne Le-\ngende gelesen für die ich Ihnen danke.\nIch sitze nun seit 3 1/2 Jahren in meiner\nEinsamkeit, u. sehe noch keine Änderung\nbevorstehen. Herzlich grüßt Sie\nIhr H. Hesse",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Hermann Hesse ist bekannt und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1020,
+    "total_words": 169,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      44,
+      488,
+      488
+    ],
+    "chars_per_page_median": 488,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3659,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

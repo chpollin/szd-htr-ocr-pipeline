@@ -1,0 +1,78 @@
+{
+  "object_id": "o_szd.613",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Fernand Desprès an Stefan Zweig, 1924-04-26, SZ-SAM/AK.44",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.613/IMG.1",
+      "https://gams.uni-graz.at/o:szd.613/IMG.2",
+      "https://gams.uni-graz.at/o:szd.613/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Fernand Desprès an Stefan Zweig, 1924-04-26, SZ-SAM/AK.44\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "546 BLOIS. - Vue générale, prise du Château. - ND",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Blois. Poststempel 'PARIS 26 IV 24' und Briefmarke 'FRANCE 10 OLYMPIADE 1924'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Monsieur Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(Autriche)\n\n17 rue Belgrand\nParis, le 26 avril 1924\nCher Ami, Ch.H[?]. de\nMarseille me dit sa nostalgie, ce printemps, de Paris, de ses\nlilas et de ses seringas parfumés. Je viens d'aller faire un\nrapide voyage en Orléanais et en Touraine. Belles contrées\nà l'époque du renouveau! De ma fenêtre, par un clair soleil,\nj'apercevais les lanternes du château de Chambord. Me voici\nreplongé en plein journalisme...\nEn parcourant un joli ouvrage, j'apprends que J.A. Rim-\nbaud a visité Vienne et l'Autriche en 1876 et 1877.\nCet enfant génial avait alors 22 et 23 ans. N'a-t-il pas\nlaissé trace de son passage en Autriche: registres\nd'hôtel et de musées, correspondance, etc.? Parmi les\nhommes qui ont aujourd'hui 70 à 80 ans n'y a-t-il\npas quelques anciens amis de l'incurable voyageur?\nLes recherches ont peut-être déjà été faites. Qu'en sais-\ntu? As-tu reçu ma précédente lettre?\nMes amicales salutations à Madame Zweig.\nBien cordialement à toi\nFernand Desprès",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzung 'Ch.H[?].' ist aufgrund der Handschrift leicht unsicher, der Rest des Textes ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1052,
+    "total_words": 174,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      49,
+      1003,
+      0
+    ],
+    "chars_per_page_median": 526.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0057,
+    "dwr_score": 0.3222,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ]
+  }
+}

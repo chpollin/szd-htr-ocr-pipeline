@@ -8413,7 +8413,16 @@
           }
         ]
       },
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 0.98,
+        "edited_pages": [],
+        "notes": "Printed Korrekturfahne text verified line-by-line against faksimile — body text is accurate across pages 1 and 3. Handwritten annotations on p1 (erledigt!, Gelesen!, brauchbar, ueberhagn) have appropriate [?] markers for uncertain readings. Page 3 correctly omits handwritten annotations (clean copy). Duplicate_pages flag is a true positive: pp1, 3, 5 contain the same printed text (p1 with annotations, p3 clean, p5 with color chart). Pages 2, 4 confirmed blank. Page 5 correctly classified as color_chart.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.1888_gemini-3.1-flash-lite-preview",
@@ -8625,7 +8634,16 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 0.99,
+        "edited_pages": [],
+        "notes": "Printed proof sheet (Korrekturfahne) of Stefan Zweig's 'Dank an die Buecher' from 'Begegnungen'. Full text verified paragraph by paragraph against faksimile. All words, punctuation, and hyphenation match. Page types correct: page 1 content, page 2 blank verso, page 3 color_chart (same photo with calibration strip, duplicate_pages flag is expected/correct). Footer '271 Zweig: Begegnungen.' confirmed. No handwritten corrections visible on this proof sheet. No errors found.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T12:00:00Z"
+      }
     },
     {
       "id": "o_szd.1891_gemini-3.1-flash-lite-preview",
@@ -10358,7 +10376,16 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 0.93,
+        "edited_pages": [],
+        "notes": "Page 1 cover text and page 3 typescript base text verified against faksimile. Base typescript on p3 is accurately transcribed. Handwritten corrections on p3 are dense and complex (multiple inks, interlinear/marginal insertions, strikethroughs); readings appear plausible but some individual words in corrections may be approximate. No confident corrections possible at this resolution. Page 2 confirmed blank. Note: only 3 of 93 images were transcribed (konvolut covers first section only).",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.640",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Léon Bazalgette an Stefan Zweig, 1903-12-31, SZ-SAM/AK.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.640/IMG.1",
+      "https://gams.uni-graz.at/o:szd.640/IMG.2",
+      "https://gams.uni-graz.at/o:szd.640/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1903-12-31, SZ-SAM/AK.7\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31 déc 1903 - Cher Monsieur Zweig, merci\nde votre lettre et de toute le chose aimable qu'elle\ncontient. Recevez mes vœux bien sincère. Je serai content\nde vous voir à Paris l'an prochain.\n\nIl y aura un banquet en\nhonneur de Verhaeren le 23 Janvier\nà Paris. Vous pourriez écrire une petite\nlettre qui serait lue ou citée à la fin\ndu banquet, pour prouver qu'à Vienne on\nle connaît et on l'aime. Votre cordialement [?]",
+        "notes": "Handschriftliche Postkarte, französischsprachig. Die Unterschrift ist schwer lesbar, vermutlich 'Bazalgette'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTAL\nCe côté est exclusivement réservé à\n\nMonsieur Stefan Zweig\n\nI, Rathausstrasse (18)\nVienne\n(Autriche)",
+        "notes": "Adressseite der Postkarte. Gedruckte Formularvorgaben kombiniert mit handschriftlicher Adresse. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "CARTE POSTAL\nCe côté est exclusivement réservé à\n\nMonsieur Stefan Zweig\n\nI, Rathausstrasse (18)\nVienne\n(Autriche)",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift auf der ersten Seite ist aufgrund der flüchtigen Handschrift schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 642,
+    "total_words": 109,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      416,
+      113,
+      113
+    ],
+    "chars_per_page_median": 113,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0092,
+    "dwr_score": 0.3178,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "language_mismatch"
+    ]
+  }
+}

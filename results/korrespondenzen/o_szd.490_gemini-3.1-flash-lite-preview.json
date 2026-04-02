@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.490",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1924-08-26, SZ-SAM/AK.201",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.490/IMG.1",
+      "https://gams.uni-graz.at/o:szd.490/IMG.2",
+      "https://gams.uni-graz.at/o:szd.490/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1924-08-26, SZ-SAM/AK.201\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.201\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Meridianstötten ved Hammerfest.\n26.8. 1924",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hammerfest, 26.8. 1924.\nVon meiner heurigen Urlaubs-\nreise sende ich Euch von\nder nördlichsten Stadt\nder Welt die allerherzlich-\nsten Grüsse und hoffe Euch Wohlgebor[e]n\nbei bestem Wohlsein.\nEuer aufrichtiger\n[Unterschrift]\n\nHerrn & Frau\nDr. S t e f a n\nZ w e i g\n\nS a l z b u r g .\nØ s t e r r i g .",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text, gedruckte Adresslinien. Vertikaler Aufdruck: 'Eneberettiget G. Hagens Forlag, Hammerfest. No 187.' Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme mit Farb- und Grauskala sowie der Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift ist nicht entzifferbar, daher als [Unterschrift] markiert. Das Wort 'Wohlgebor[e]n' ist leicht durch den Zeilenumbruch und die Platzierung am Rand beeinträchtigt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 342,
+    "total_words": 69,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      42,
+      300,
+      0
+    ],
+    "chars_per_page_median": 171.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1746,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

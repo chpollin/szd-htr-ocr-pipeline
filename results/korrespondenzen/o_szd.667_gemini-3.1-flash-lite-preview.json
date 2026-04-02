@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.667",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ellen Key an Stefan Zweig, 1908-06-20, SZ-SAM/AK.95",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.667/IMG.1",
+      "https://gams.uni-graz.at/o:szd.667/IMG.2",
+      "https://gams.uni-graz.at/o:szd.667/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ellen Key an Stefan Zweig, 1908-06-20, SZ-SAM/AK.95\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.95\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kastelruth 20. VI. 08.",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv (Kirche und Berge). Handschriftliche Notiz am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bitte nachschicken!\nKurpension Kastelruth\nbei Waidbruck, Süd Tirol.\n20. VI 08. Lieber Stefan\nZweig, ich sehne mich\nnach Nachrichten\nvon Ihnen? Ellen Key\nIch sehne mich gleichfalls\nIch bin dauernd hier zur\nRuhe nach 6 Wochen Klinik!\nEllen's Adr: Wichersdorf bei\nSaalfeld, bis Anf. Juli. Wie\ngeht es Ihnen? Wie hübsch\nwenn wir uns auch treffen\nkönnten! Ellen besucht\nmich hier; hab ich's\nnicht gut?! Herzl.\nGruss! [Unterschrift: Lenore]",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in violett. Briefmarke und Poststempel vorhanden. Der Text ist teilweise über das gedruckte Adressfeld geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Bitte nachschicken!\nKurpension Kastelruth\nbei Waidbruck, Süd Tirol.\n20. VI 08. Lieber Stefan\nZweig, ich sehne mich\nnach Nachrichten\nvon Ihnen? Ellen Key\nIch sehne mich gleichfalls\nIch bin dauernd hier zur\nRuhe nach 6 Wochen Klinik!\nEllen's Adr: Wichersdorf bei\nSaalfeld, bis Anf. Juli. Wie\ngeht es Ihnen? Wie hübsch\nwenn wir uns auch treffen\nkönnten! Ellen besucht\nmich hier; hab ich's\nnicht gut?! Herzl.\nGruss! [Unterschrift: Lenore]",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der Überlagerung mit dem gedruckten Adressfeld und der teilweise engen Schriftführung gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 890,
+    "total_words": 142,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      22,
+      434,
+      434
+    ],
+    "chars_per_page_median": 434,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3623,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

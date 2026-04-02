@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.396",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1906, SZ-SAM/AK.116",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.396/IMG.1",
+      "https://gams.uni-graz.at/o:szd.396/IMG.2",
+      "https://gams.uni-graz.at/o:szd.396/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1906, SZ-SAM/AK.116\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.116\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hauptstrasse.\n\nHauptplatz.\n\nHauptplatz.\nWiener Str.\n\nK. u. k. Oesterr. Militär-Realschule\n\nSchule und Kirche.\n\nTRUMAU",
+        "notes": "Vorderseite einer Ansichtskarte mit verschiedenen Ortsansichten von Trumau. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Correspondenzkarte\n\nI would be pleased, if you\nhad ocasion to adress ones\na letter to Trumau N° 142 near\nBaden. We are here for all the\nsummer. Many thanks for\nyour pretty postal cards.\nDo you go to Marienbad this\nyear? Dorel sends many regards\nand tells you, here in Trumau\nthere are but girls with fair hair\nand blue eyes. Cannot you\ncome to see them?\n~~amuse yourself much but~~ \nnot to much! Good bye!\nEmmy\n\nDr. Stefan Zweig\n\nLondon W\n84 Kensington Garden Square",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht in englischer Sprache. Briefmarken und Poststempel vorhanden. Der durchgestrichene Text ist lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung, dazwischen die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die englische Handschrift ist klar, trotz einiger orthographischer Eigenheiten der Schreiberin (z.B. 'ocasion', 'adress', 'to much')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 583,
+    "total_words": 100,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      117,
+      466,
+      0
+    ],
+    "chars_per_page_median": 291.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3939,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

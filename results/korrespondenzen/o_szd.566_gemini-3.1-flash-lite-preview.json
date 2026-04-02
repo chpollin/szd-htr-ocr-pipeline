@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.566",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1926-10-03, SZ-SAM/AK.272",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.566/IMG.1",
+      "https://gams.uni-graz.at/o:szd.566/IMG.2",
+      "https://gams.uni-graz.at/o:szd.566/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1926-10-03, SZ-SAM/AK.272\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.272\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herzliche Grüße – Ich hoffe, Sie lassen es Rom bei uns auch\nso ergehen – Ihr [Unterschrift unleserlich]",
+        "notes": "Vorderseite der Postkarte mit Bildmotiv. Handschriftliche Notiz am linken Rand und am oberen Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stephan\nZweig\n5 Kapuzinerberg 5\nSalzburg\nAustria\n\nRoma 3.10.26\nSehr geehrter Herr Zweig, von Rom\naus ist die Zeit etwas [?] kurz!\nOktobers wieder zum [?] [?] \nsende ich Ihnen herzlichste Grüße!\nIch bin sehr glücklich hier zu sein\n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] ",
+        "notes": "Rückseite der Postkarte. Adressseite mit Briefmarke und Poststempel. Der Textkörper ist aufgrund der kursiven Handschrift und Überlagerungen schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Enthält keine Dokumenteninhalte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "low",
+    "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise durch den Poststempel überlagert, was eine präzise Transkription des Textkörpers erschwert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 573,
+    "total_words": 115,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      103,
+      470,
+      0
+    ],
+    "chars_per_page_median": 286.5,
+    "marker_uncertain_count": 59,
+    "marker_illegible_count": 0,
+    "marker_density": 0.513,
+    "dwr_score": 0.4902,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

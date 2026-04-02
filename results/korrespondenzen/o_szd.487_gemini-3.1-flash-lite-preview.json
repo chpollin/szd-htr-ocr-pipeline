@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.487",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Erna Alexich-Brettauer an Stefan Zweig, 1930-08-04, SZ-SAM/AK.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.487/IMG.1",
+      "https://gams.uni-graz.at/o:szd.487/IMG.2",
+      "https://gams.uni-graz.at/o:szd.487/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Erna Alexich-Brettauer an Stefan Zweig, 1930-08-04, SZ-SAM/AK.2\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzkammergut, Traunkirchen. 4. 8. 30.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nHerzlichen Dank für Ihre Antwort. Ich be-\ndauere sehr, dass Sie schon von S. Almunsel\nsind, umso mehr als es mir in Salzburg\nleider nicht möglich sein wird Sie zu sehen.\nWünschen Sie doch den nahtlos an meinen\nAufenthalt hier ist ein von kurzer Dauer die\nnächsten Monate verbringe ich bei Mama\nin der Schweiz. Indessen hoffe ich auf ein\nWiedersehen in einem andern Jahr u. grüße\nSie u. Ihre Gattin herzlich Erna Alexich-Brettauer",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Ein Papierstreifen verdeckt einen Teil des Textes. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nHerzlichen Dank für Ihre Antwort. Ich be-\ndauere sehr, dass Sie schon von S. Almunsel\nsind, umso mehr als es mir in Salzburg\nleider nicht möglich sein wird Sie zu sehen.\nWünschen Sie doch den nahtlos an meinen\nAufenthalt hier ist ein von kurzer Dauer die\nnächsten Monate verbringe ich bei Mama\nin der Schweiz. Indessen hoffe ich auf ein\nWiedersehen in einem andern Jahr u. grüße\nSie u. Ihre Gattin herzlich Erna Alexich-Brettauer",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz des überklebten Bereichs auf der Rückseite der Karte, der durch den Kontext rekonstruierbar ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 994,
+    "total_words": 167,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      38,
+      478,
+      478
+    ],
+    "chars_per_page_median": 258.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.506,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

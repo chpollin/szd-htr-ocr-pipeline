@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.698",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 23. Oktober 1937, SZ-AAP/B1.109",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.698/IMG.1",
+      "https://gams.uni-graz.at/o:szd.698/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 23. Oktober 1937, SZ-AAP/B1.109\n- Signatur: SZ-AAP/B1.109\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                     23.Oktober 1937.\n\nGeehrter Herr Reichner!\n\n     Ich bin schon sehr neugierig, die\ngebundenen Exemplare zu sehen. Ob es technisch richtig\nwar, die beiden Bücher in einem Zeitraum von vierzehn Ta-\ngen herauszubringen, werden Sie wohl besser verstehn. Da\nes nun so geschehen ist, wollen wir es jetzt munter lau-\nfen lassen. Auch Mansfield sieht sehr hübsch aus. Ich\nhätte Ihnen nur geraten, auf der Seite gegenüber dem Ti-\ntel, wie es Fischer bei Hesse und vielen andern tut, ein-\nzudrucken \"Gesammelte Werke\", denn wenn einmal der dritte\nBand da ist, so können Sie ja alle drei unter diesem Titel\nverkaufen.\n\n     Nun etwas Wichtiges für das Frühjahr.\nMax Brod schreibt mir, dass er Ihnen seinen neuen Roman ge-\nschickt hat. Ich habe ihm dies schon im Sommer nahegelegt,\nweil ich es für einen grossen Gewinn hielte, einen Autor\nseines Namens und seines grossen Könnens im Reichner-Ver-\nlag zu wissen, und er wäre auch lieber dort wie in Holland.\nSie wissen ja, dass die Bücher von Brod immer einen sehr",
+        "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "guten Absatz hatten, besonders in Böhmen. Ausserdem\nkann er Ihnen in seiner führenden Stellung beim Prager\nTagblatt sehr nützlich sein. Ich habe den Roman selbst\nnicht gelesen, möchte Ihnen aber dringend dazu raten,\ndenn es ist ja hohe Zeit, dass Sie an erzählerischer Pro-\nsa etwas Erstklassiges (nichts Uebersetztes) bringen. We-\ngen Erika Mitterer, die ja sogar in Deutschland zulässig\nist, haben Sie mir noch nicht geschrieben.\n\n     Alles andere geht in Ordnung. Mit besten Grüssen",
+        "notes": "Typoskript auf Briefpapier. Sehr gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1523,
+    "total_words": 242,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1037,
+      486
+    ],
+    "chars_per_page_median": 761.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4669,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

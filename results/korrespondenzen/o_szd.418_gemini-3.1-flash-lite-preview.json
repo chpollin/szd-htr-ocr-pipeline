@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.418",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ferdinand von Paungarten an Stefan Zweig, 1908-11-02, SZ-SAM/AK.136",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.418/IMG.1",
+      "https://gams.uni-graz.at/o:szd.418/IMG.2",
+      "https://gams.uni-graz.at/o:szd.418/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ferdinand von Paungarten an Stefan Zweig, 1908-11-02, SZ-SAM/AK.136\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.136\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "GRAZ.Karl Ludwig-Ring. Graz, Hans Sachsgasse 12, am 2. XI. 1908.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Orts- und Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Korrespondenz-Karte.\n\nAn Herrn\nDr. Stephan\nZweig\nin\nKochgasse № 8\n\nSehr geehrter Herr Dr.! freundlichen\nDank für die gütige Retonierung meines\nManuskriptes mit der ehrlichen Versiche=\nrung, daß ich Ihnen gewiß nicht bös bin.\nIch kann es recht gut verstehen, daß\nes oft merkwürdige Constellationen gibt,\ndie hindernd einschreiten. Wünsche Ihnen\neine recht schöne glückliche Studienreise mit\ngroßer reicher Ausbeute. Mit den\nbesten Grüßen Ihr ergebenster F. Paungarten.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke oben links, Poststempel teilweise lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 531,
+    "total_words": 78,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      64,
+      467,
+      0
+    ],
+    "chars_per_page_median": 265.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3158,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

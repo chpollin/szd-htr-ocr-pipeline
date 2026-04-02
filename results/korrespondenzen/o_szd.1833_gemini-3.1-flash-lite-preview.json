@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1833",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 8. November 1937, SZ-AAP/B1.126",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1833/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1833/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 8. November 1937, SZ-AAP/B1.126\n- Signatur: SZ-AAP/B1.126\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "8.November 1937.\n\nGeehrter Herr Reichner!\n\nIch erhielt heute zwei gebundene Exemplare\n\"Begegnungen\", die äusserst schön aussehen und\nmir viel Freude machen, und bestätige dankend\nIhre Mitteilung, dass fünfzig auf dem Wege sind.\nErfreulich ist auch die Abrechnung, in der mich\nnur ein Posten völlig ahnungslos findet, eine\nFaktur über Sonderabzüge des \"Magellan\" im Be-\ntrage von 110.- Sch., ich ich nie bekommen\nhabe und von der ich nicht weiss, für welche\nExemplare sie gelten soll und für wie viele\nExemplare. Ich rechne da bald auf Ihre Auf-\nklärung, um was für Exemplare es sich han-\ndelt, da ich vorher die Abrechnung natürlich\nnicht gutheissen kann.\nDen Schweizer Franken-Betrag von 2509.87\noder was vielleicht einfacher ist, rund 2500.-\nmöchte ich bitten, mir hierher zu überweisen.",
+        "notes": "Typoskript auf Briefpapier. Der Text ist klar und gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Das Debitsaldo in Schillingen dürfte ja bald\nabgedeckt sein.\nDas Exposé zu dem Schönberg Buch von Dr.\nWiesengrund sende ich Ihnen in wenigen Tagen.\nSonst (glücklicherweise) nichts Neues.\n\nMit den besten Empfehlungen",
+        "notes": "Typoskript, Fortsetzung des Briefes auf der Rückseite. Der Text ist klar und gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Beschädigungen oder Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1004,
+    "total_words": 156,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      789,
+      215
+    ],
+    "chars_per_page_median": 502.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4641,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.643",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1930-08-07, SZ-SAM/AK.72",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.643/IMG.1",
+      "https://gams.uni-graz.at/o:szd.643/IMG.2",
+      "https://gams.uni-graz.at/o:szd.643/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1930-08-07, SZ-SAM/AK.72\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ischl 7.8.30",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Bad Ischl. Unten links handschriftlicher Vermerk 'Ischl 7.8.30'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bad Ischl. 7/8.\n\nLieber Stefan!\nErlaube mir die höfliche\nAnfrage wie es der l.\nTante [?] Deiner Mutter\ngeht. Ich habe sehr wenig\nvon dieser Nun dies nun auch\nich, dass diese mir schreibt,\ndass sie schon um 1 Tag länger\nnach Wien will. Warum kommt\ndie [?] nicht her. Du hast übrigens\nihr doch versprochen zu kommen.\nmit herz. [?] Grüßen\nGusti\n\nMama berichtet.\n\n[Adressseite:]\n\n[Stempel: DIE HEILKRÄFTIGEN SOLBÄDER BAD ISCHL]\n\n[Empfänger:]\n\n[?] \nHerrn Dr Stefan Zweig\n\nSalzburg\nKapuzinerberg",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Am linken Rand vertikal 'Mama berichtet.'. Rechts Adressfeld mit Stempel und Briefmarke. Die Handschrift ist teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf, insbesondere in der Anrede und bei den Namen/Ortsbezeichnungen. Die Tinte ist teilweise verblasst oder ineinander verlaufen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 501,
+    "total_words": 82,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      12,
+      489,
+      0
+    ],
+    "chars_per_page_median": 250.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0488,
+    "dwr_score": 0.4,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1711",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 9. Mai 1936, SZ-SAM/B7.78",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1711/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1711/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. Mai 1936, SZ-SAM/B7.78\n- Signatur: SZ-SAM/B7.78\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49 Hallam Street\nLondon W.1.                                9.Mai 1936.\n\nLiebe Frau Meingast!\n\n                    Vielen Dank für Ihren lieben\nBrief. Mit der Post ist es nun so, dass durch das\nAusbleiben Deutschlands es ohnehin immer weniger\nwird, und die hauptsächlichen Briefe, die ich schrei-\nbe, sind Kampfbriefe um zurückgehaltene Beträge. Ich\nhabe eben wieder Felix Bloch Erben in solchem Sinne\ngeschrieben und von den Schwierigkeiten, die Reichner\nin Deutschland hat, werden Sie ja inzwischen erfahren\nhaben.\n                    Das Buch kommt erst in acht oder\nvierzehn Tagen, ein Exemplar natürlich für Sie und\nich lasse auch sonst noch einige nach Salzburg diri-\ngieren. Zur Zeit stelle ich die Novellen für eine\nneue Ausgabe zusammen und schreibe eine neue, für\ndie ich dann Ihre Kopierkunst erbitten werde, wenn\nes so weit ist.\n                    Etwa im Juni komme ich nach Oester-\nreich. Das genaue Datum kann ich erst bestimmen, sobald",
+        "notes": "Typoskript auf Briefpapier. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ich weiss, wann Herr Huebsch und ein Mann aus Holly-\nwood eintrifft, den ich hier im Juni erwarte. Und\nich freue mich schon sehr, Sie dann zu sehen.\n\n                    Mit vielen Grüssen\n\n                                        Ihr\n\n                                        Stefan Zweig",
+        "notes": "Typoskript, fortlaufender Text von Seite 1. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1239,
+    "total_words": 175,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      952,
+      287
+    ],
+    "chars_per_page_median": 619.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5607,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.522",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Camill Tyndall an Stefan Zweig, 1914-04-11, SZ-SAM/AK.230",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.522/IMG.1",
+      "https://gams.uni-graz.at/o:szd.522/IMG.2",
+      "https://gams.uni-graz.at/o:szd.522/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Camill Tyndall an Stefan Zweig, 1914-04-11, SZ-SAM/AK.230\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.230\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DESSAU. Lustgartentor. 11. IV. 14.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dessau,\n11. IV. 14.\nLieber Freund!\nHerzliche Ostergrüße.\nVom Verwandten Komöd.\nwerde auch Regie haben.\nIhre Karte aus Paris hat\nmich sehr erfreut, hoffentlich\nkomme ich im Juni nach\nWien. – Momentan ist Paula Taussig\nauch meine liebe Schwester\nin Nanterre b/Paris,\n„Villa Elena“. Wenn Sie\ngute deutsche Cirkel für\nsie wüßten, wär mirs sehr\nlieb! Stets Ihr Tyndall\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke und Poststempel (DESSAU 11.4.14 2-3 N) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Dessau,\n11. IV. 14.\nLieber Freund!\nHerzliche Ostergrüße.\nVom Verwandten Komöd.\nwerde auch Regie haben.\nIhre Karte aus Paris hat\nmich sehr erfreut, hoffentlich\nkomme ich im Juni nach\nWien. – Momentan ist Paula Taussig\nauch meine liebe Schwester\nin Nanterre b/Paris,\n„Villa Elena“. Wenn Sie\ngute deutsche Cirkel für\nsie wüßten, wär mirs sehr\nlieb! Stets Ihr Tyndall\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8.",
+        "notes": "Scan enthält die Ansichtskarte (wie Seite 2) zusammen mit einer Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Abkürzungen (b/Paris für bei Paris, IV für April) sind eindeutig im Kontext."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 856,
+    "total_words": 139,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      34,
+      411,
+      411
+    ],
+    "chars_per_page_median": 222.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3582,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

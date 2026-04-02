@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1734",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Hugo Wolf vom 14. Februar 1919, SZ-SAM/B9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1734/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1734/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1734/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Hugo Wolf vom 14. Februar 1919, SZ-SAM/B9\n- Signatur: SZ-SAM/B9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr Hugo Wolf\nbei Stefan Zweig\n\nWien (Österreich)\nVIII. Kochgasse 8",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke oben rechts, Poststempel 'SCHLIEREN 14.2.19-6' teilweise über der Marke.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Freund, ich habe einen so ganz con-\nfaden Kopf, dass ich diesmal den Zins zu\nzahlen vergas, mein Bruder hat das inzwi-\nschen schon besorgt. Ich komme vermutlich\nEnde März, Anfang April zurück, werde\naber ruhig doch dort dann noch gelegentlich\naufhalten, denn ich werde bei meinen Eltern\nwohnen und vermutlich auch gar nicht lan-\nge in dieser etwas kostspieligen Stadt verblei-\nben. Ich sehne mich nach Ruhe und Ordnung,\nhier hatte man immer das Hôtelgefühl und vor\nallem das leidig Provisorische. Immerhin hab\nich einiges gearbeitet, wenn auch ohne rechten Elan.\nIch freue mich auf Dich bald zu sehen und blei-\nbe mit vielen Grüßen Dein\n\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Nachrichtenseite der Postkarte ist in der Mitte abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 723,
+    "total_words": 121,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      66,
+      657,
+      0
+    ],
+    "chars_per_page_median": 361.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

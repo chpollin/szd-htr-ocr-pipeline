@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1676",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alzir Hella an Stefan Zweig, SZ-SAM/AK.76",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1676/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1676/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1676/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alzir Hella an Stefan Zweig, SZ-SAM/AK.76\n- Signatur: SZ-SAM/AK.76\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Monte Carlo 6.I. 34",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Aufnahme von Monte Carlo. Handschriftliche Datumsangabe oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarken und Poststempel vorhanden. Die Adresse ist an Stefan Zweig gerichtet.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Orts- und Datumsangaben sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 328,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      19,
+      309,
+      0
+    ],
+    "chars_per_page_median": 164.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2353,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

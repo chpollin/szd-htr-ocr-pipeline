@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.476",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Block an Stefan Zweig, 1920-08-03, SZ-SAM/AK.19",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.476/IMG.1",
+      "https://gams.uni-graz.at/o:szd.476/IMG.2",
+      "https://gams.uni-graz.at/o:szd.476/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Block an Stefan Zweig, 1920-08-03, SZ-SAM/AK.19\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "BADGASTEIN. 5/8 1920",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Datum unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nVerehrter Herr Zweig! Herzlichen Dank\nfür Ihre freundliche Karte. Ich bin\nvon Donnerstag Abend bis zum Frei-\ntag Nachmittag in Salzburg (Hotel\nBristol) und würde mich freuen, Sie\nzu begrüssen. Jedoch kann ich es\nnicht mit Sicherheit versprechen,\ndass ich Sie in Ihrem sicherlich\nschönen Heim - welcher Ort und\nwelche Aussicht! - aufsuchen werde,\nda meine Frau und ich in den wenigen\nStunden eine Menge zu besorgen haben.\nIhr aufrichtig Ergebener und grüßender\nBad Gastein 3.8. 1920. Paul Block.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke oben links, Poststempel teilweise lesbar. Der Text am unteren Rand 'Heliogravüre No. 18 F. Fuchs Kunstverlag Hofgastein. Nachdruck verboten.' ist gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsbild mit Farbskala und Grauskala. Die Postkarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 560,
+    "total_words": 89,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      20,
+      540,
+      0
+    ],
+    "chars_per_page_median": 280.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4268,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

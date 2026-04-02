@@ -23,9 +23,15 @@
       },
       {
         "page": 2,
-        "transcription": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nma[c]he, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+        "transcription": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nmache, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
         "notes": "Textseite des Briefes/der Postkarte. Handschriftlich in violetter Tinte.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [{
+          "original_transcription": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nma[c]he, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+          "edited_by": "Claude Code Agent",
+          "edited_at": "2026-04-02T21:30:00Z",
+          "source": "agent"
+        }]
       },
       {
         "page": 3,
@@ -76,5 +82,15 @@
     "needs_review_reasons": [
       "duplicate_pages"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [2],
+    "notes": "Page 1 (address side) correct. Page 2: removed non-standard [c] marker in 'ma[c]he' — letter is clearly legible, corrected to 'mache'. Page 3 skipped (color_chart). duplicate_pages flag is a known false-positive (color chart copy of page 2).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:30:00Z"
   }
 }

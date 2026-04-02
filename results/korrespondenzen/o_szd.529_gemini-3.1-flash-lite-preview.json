@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.529",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aloys Wach an Stefan Zweig, 1923-01-19, SZ-SAM/AK.237",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.529/IMG.1",
+      "https://gams.uni-graz.at/o:szd.529/IMG.2",
+      "https://gams.uni-graz.at/o:szd.529/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aloys Wach an Stefan Zweig, 1923-01-19, SZ-SAM/AK.237\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.237\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Braunau a. Inn 19. I. 23. Wach Alois[?]",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz am unteren Rand. Die Schrift ist in violetter Tinte verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Sehr verehrter Herr\nDr. Zweig!\nTausend Dank für Ihre\nerfreuliche Nachricht,\nich bitte Sie[?] nach\nIhrem Vorschlage den\nErlös der Arbeiten an\nGewerbebank Simbach,\nConto A. Wach, frdl. anzuweisen!\nVon Ihnen wirklich dank-\nbarst verbunden für Ihre\ngroßfreundlichkeit. Mit den\nfern allerbesten Grüßen\nIhr sehr ergebener A. Wach",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Am linken Rand vertikal gedruckt: 'Phot. u. Verlag Atelier G. Zimmermann, Braunau a. Inn' und 'Serie I. Nr. 3. Ges. gesch. 1921'. Rechts oben eine Briefmarke mit Poststempel 'BRAUNAU AM INN'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Sehr verehrter Herr\nDr. Zweig!\nTausend Dank für Ihre\nerfreuliche Nachricht,\nich bitte Sie[?] nach\nIhrem Vorschlage den\nErlös der Arbeiten an\nGewerbebank Simbach,\nConto A. Wach, frdl. anzuweisen!\nVon Ihnen wirklich dank-\nbarst verbunden für Ihre\ngroßfreundlichkeit. Mit den\nfern allerbesten Grüßen\nIhr sehr ergebener A. Wach",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist trotz der kursiven Ausprägung eindeutig zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 685,
+    "total_words": 104,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      39,
+      323,
+      323
+    ],
+    "chars_per_page_median": 323,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0288,
+    "dwr_score": 0.3529,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

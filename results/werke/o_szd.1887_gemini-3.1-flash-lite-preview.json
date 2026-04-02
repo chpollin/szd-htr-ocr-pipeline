@@ -102,5 +102,15 @@
     "needs_review_reasons": [
       "duplicate_pages"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Printed Korrekturfahne text verified line-by-line against faksimile — body text is accurate across pages 1 and 3. Handwritten annotations on p1 (erledigt!, Gelesen!, brauchbar, ueberhagn) have appropriate [?] markers for uncertain readings. Page 3 correctly omits handwritten annotations (clean copy). Duplicate_pages flag is a true positive: pp1, 3, 5 contain the same printed text (p1 with annotations, p3 clean, p5 with color chart). Pages 2, 4 confirmed blank. Page 5 correctly classified as color_chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:00:00Z"
   }
 }

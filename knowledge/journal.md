@@ -762,6 +762,69 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 
 ---
 
+## 2026-04-02 — Session 20: Edit-Tracking + 24 Agent-Verifikationen
+
+### Was wurde gemacht
+
+**1. Edit-Tracking-System implementiert**
+
+Problem: Agent-Korrekturen ueberschrieben den Originaltext ohne Spur — kein programmatischer Diff moeglich.
+
+Loesung: `edit_history`-Array auf Seitenebene im Ergebnis-JSON:
+```json
+"edit_history": [{
+  "original_transcription": "Originaltext vor Korrektur",
+  "edited_by": "Claude Code Agent",
+  "edited_at": "2026-04-02T...",
+  "source": "agent"   // oder "human"
+}]
+```
+
+Aenderungen:
+- `serve.py`: Menschliche Edits speichern jetzt automatisch `edit_history` vor dem Ueberschreiben
+- `backfill_edit_history.py`: Einmal-Script, hat 5 Seiten in 4 Dateien aus Git-History rekonstruiert
+- Frontend: Neuer Tab "Korrekturen" neben "Modellkonsensus" in der Diff-Ansicht (gruen/amber Farbschema)
+- CSS: Edit-Diff-Variablen, Tab-Styles
+
+**2. Agent-Verifikation: 24 Objekte in 4 Batches**
+
+| Batch | Fokus | Objekte | Fehler gesamt | Korrekturen |
+|---|---|---:|---:|---:|
+| 1 | 1-Seiter, diverse Gruppen | 8 | 11 | 6 Seiten |
+| 2 | Alle 8 Gruppen abgedeckt | 8 | 15 | 3 Seiten |
+| 3 | 3-5 Seiten, mittlere Objekte | 8 | 11 | 6 Seiten |
+| 4 | Korrespondenzen-Block | 8 | 5 | 3 Seiten |
+| **Gesamt** | | **24** | **42** | **18 Seiten** |
+
+### Neue Erkenntnisse
+
+**Truncation-Problem entdeckt**: 4 grosse Objekte (o_szd.149, o_szd.141, o_szd.175, o_szd.174) haben nur ~5 von 43-165 Bildern transkribiert. Chunking bricht nach erstem Chunk ab. Muss in `transcribe.py` geprueft werden.
+
+**Fraktur-Fehler haeufiger als angenommen**: o_szd.2217 (Walt Whitman) hatte 11 Fehler auf einer Seite — Nonsens-Halluzinationen ("Mitgebrine" statt "Mitbringsel"), falsche Eigennamen ("Hayel" statt "Hayek"), halluzinierte Werktitel ("Demokratie Lista" statt "Democratic Vistas").
+
+**Fremdsprachliche Typoskripte**: Italienische Vertraege (o_szd.91) haben systematische Vokal-Fehler bei Kohlekopien (titole/titolo, tiretura/tiratura).
+
+**Genauigkeits-Spread nach Gruppe** (Session 20):
+- Typoskript/Formular/Kurztext: 97-100% (zuverlaessig)
+- Korrekturfahne: 98-99% (zuverlaessig)
+- Korrespondenz: 85-99% (abhaengig von Handschrift-Qualitaet)
+- Zeitungsausschnitt: 97% (Fraktur-Fehler, aber meist einzelne Woerter)
+- Handschrift: 95-98% (Kurrent-Verwechslungen)
+- Tabellarisch: 75-99% (unvollstaendige Seiten bei grossen Objekten)
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Agent-verifizierte Objekte (Session 20) | 24 |
+| Korrekturen (Session 20) | 42 Fehler auf 18 Seiten |
+| Kumulativ agent-verified | 44 (20 + 24) |
+| Kumulativ reviewed gesamt | 58 (14 human + 44 agent) |
+| Objekte mit Truncation-Problem | 4 (brauchen Re-Transkription) |
+| Edit-Tracking backfilled | 4 Dateien / 5 Seiten |
+
+---
+
 ## Offene Fragen (Stand 2026-04-02)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -780,10 +843,12 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Modellkonsensus-Validierung)
 - [x] Modellkonsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
-- [~] Expert-Review: 34/2107 Objekte verifiziert (14 human + 20 agent), CER-Baseline steht (Session 18–19)
+- [~] Expert-Review: 58/~875 Objekte verifiziert (14 human + 44 agent), CER-Baseline steht (Session 18–20)
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)
-- [~] Agent-Verifikation auf weitere Objekte ausweiten — 20/2107 agent-verified (Session 18–19)
-- [ ] Fraktur-Post-Processing evaluieren (f/s-Verwechslungen automatisch korrigieren)
+- [~] Agent-Verifikation auf weitere Objekte ausweiten — 44/~875 agent-verified (Session 18–20)
+- [ ] Fraktur-Post-Processing evaluieren (f/s-Verwechslungen automatisch korrigieren, 28 dokumentierte Fehler)
 - [ ] `duplicate_pages` False-Positive fixen: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen (Session 19)
 - [ ] Halluziniertes "An" auf Adressseiten: Prompt-Fix oder Post-Processing (Session 19)
 - [ ] DWR-Score gegen Agent-Verifikationsergebnisse validieren (Session 19)
+- [ ] **Truncation fixen**: 4 Objekte (o_szd.149, 141, 175, 174) re-transkribieren, Chunk-Merge pruefen (Session 20)
+- [x] Edit-Tracking: `edit_history` in Pipeline-JSONs + Frontend-Diff implementiert (Session 20)

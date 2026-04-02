@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.484",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bernhard Trinius an Stefan Zweig, 1929-05-23, SZ-SAM/AK.197",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.484/IMG.1",
+      "https://gams.uni-graz.at/o:szd.484/IMG.2",
+      "https://gams.uni-graz.at/o:szd.484/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bernhard Trinius an Stefan Zweig, 1929-05-23, SZ-SAM/AK.197\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.197\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Gardasees bei Torbole. Kein handschriftlicher Text.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Torbole, Lago di Garda 23/V.29\nLieber verehrter Herr Doktor!\nIch erlaube mir, Ihnen vom\nunvergleichlichen Gardasee die\nherzlichsten Grüße zu senden.\nDie Färbung des Sees ist von\nAzurblau, violett und Smaragd\nzauberhaft gemischt, kein Maler\nkönnte es treffen. Die Kante ist nur\nknappe 15 Torbole klimatisch\nauch sehr günstig, die Wärme wirkt\ntäglich wohltuend durch die, [?]\n[?] und dieser rhythmische\nWechsel tut mir sehr wohl.\nEs ist nicht leicht, ein Klima\nzu finden. – Dalmatien, Wien usw\nhabe ich lassen müssen, weil es\nzu anstrengend gewesen wäre.\nHerzlich Ihrer gedenkend\nBernhard Trinius\n\nHerrn\nDr. Stefan Zweig\n5 Kapuzinerberg\nSalzburg\nAustria",
+        "notes": "Handschriftliche Postkarte. Der Text am rechten Rand verläuft vertikal. Briefmarken und Poststempel vorhanden. Die Zeile 'knappe 15 Torbole' ist schwer lesbar, möglicherweise 'knappe 15' als Zeitangabe oder Ortsbezeichnung. Die Zeile 'täglich wohltuend durch die, [?]' enthält ein unleserliches Wort.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Scan der Postkarte mit Farbskala und Grauskala zur Archivierung. Kein zusätzlicher Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (insbesondere bei den vertikalen Randnotizen und einigen Wörtern im Mittelteil) schwer zu entziffern. Die Lesung '15' bei 'knappe 15 Torbole' ist unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 651,
+    "total_words": 101,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      651,
+      0
+    ],
+    "chars_per_page_median": 651,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0198,
+    "dwr_score": 0.3646,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

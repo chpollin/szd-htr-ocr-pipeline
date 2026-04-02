@@ -140,7 +140,19 @@ def handle_edit(data: dict) -> dict:
         if not rp:
             continue
         if export_page.get("transcription") is not None:
-            rp["transcription"] = export_page["transcription"]
+            # Preserve original text before overwriting
+            old_text = rp.get("transcription", "")
+            new_text = export_page["transcription"]
+            if old_text != new_text:
+                history = rp.get("edit_history", [])
+                history.append({
+                    "original_transcription": old_text,
+                    "edited_by": reviewer,
+                    "edited_at": datetime.now(timezone.utc).isoformat(),
+                    "source": "human",
+                })
+                rp["edit_history"] = history
+            rp["transcription"] = new_text
         if export_page.get("notes") is not None:
             rp["notes"] = export_page["notes"]
         edited_page_nums.append(page_num)

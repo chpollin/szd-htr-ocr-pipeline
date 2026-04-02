@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.430",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, 1911-08-04, SZ-SAM/AK.147",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.430/IMG.1",
+      "https://gams.uni-graz.at/o:szd.430/IMG.2",
+      "https://gams.uni-graz.at/o:szd.430/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1911-08-04, SZ-SAM/AK.147\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.147\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Franzensbad - Stefan-Strasse",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung der Stefan-Strasse in Franzensbad. Gedruckter Text oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Franzensbad, Hotel Belvedere\nDe 4/8. 11.\n\nLieber Stefan,\nBist du in Wien?\nWie wohin wendet dieser\nGast aus Moor und\nLangeweile? Ich bleibe noch\nbis zum 10. Jina, deren\nist die Verbrennung[?] gemad.\nDann wahrscheinlich zu Auto nach\nCortina. Laß ein Wort an die\nFrau! herzlich wie immer\nHaus.\n\nHerren Dr Stefan Zweig\n\nWien XIX.\nKochgasse 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke oben rechts mit Poststempel 'Franzensbad -4.8.11'. Die Ortsangabe 'Wien XIX.' ist auf der Karte gedruckt/geschrieben, wobei die 'XIX' korrigiert oder unklar ist (sieht aus wie 'VIII' oder 'XIX').",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Franzensbad, Hotel Belvedere\nDe 4/8. 11.\n\nLieber Stefan,\nBist du in Wien?\nWie wohin wendet dieser\nGast aus Moor und\nLangeweile? Ich bleibe noch\nbis zum 10. Jina, deren\nist die Verbrennung[?] gemad.\nDann wahrscheinlich zu Auto nach\nCortina. Laß ein Wort an die\nFrau! herzlich wie immer\nHaus.\n\nHerren Dr Stefan Zweig\n\nWien XIX.\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Jina', 'gemad', 'Verbrennung') sind schwer zu entziffern. Die Ortsangabe 'Wien XIX.' ist aufgrund der Tinte und der Überlagerung durch den Stempel leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 704,
+    "total_words": 117,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      28,
+      338,
+      338
+    ],
+    "chars_per_page_median": 338,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0171,
+    "dwr_score": 0.4404,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

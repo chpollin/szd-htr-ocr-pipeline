@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.404",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kurt Meyerowitz an Stefan Zweig, 1929-03-03, SZ-SAM/AK.123",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.404/IMG.1",
+      "https://gams.uni-graz.at/o:szd.404/IMG.2",
+      "https://gams.uni-graz.at/o:szd.404/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kurt Meyerowitz an Stefan Zweig, 1929-03-03, SZ-SAM/AK.123\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.123\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "3.3.29.\n\nLeipzig.\nVölkerschlachtdenkmal.",
+        "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Völkerschlachtdenkmals. Handschriftliches Datum oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n3/III 1929.\nLieber Herr Zweig!\nJetzt bin ich in L,\nund versuche, mein Leben\nganz neu aufzubauen. Sie\nwissen selbst, wie sehr Sekun\nden über Leben u. Schicksal\n{können} eine solche warf\nmich hierher. - So recht in den\nMesstrubel! Herzlichst\nLeipzig C 1, \nReichelstr. 5. Ihr Kurt Meyerowitz",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben links mit Poststempel. Die Einfügung '{können}' steht über dem Wort 'bestimmen' (welches durchgestrichen ist, aber im Transkriptionskontext als 'bestimmen' lesbar bleibt, hier jedoch als 'können' über der Zeile ergänzt wurde).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n3/III 1929.\nLieber Herr Zweig!\nJetzt bin ich in L,\nund versuche, mein Leben\nganz neu aufzubauen. Sie\nwissen selbst, wie sehr Sekun\nden über Leben u. Schicksal\n{können} eine solche warf\nmich hierher. - So recht in den\nMesstrubel! Herzlichst\nLeipzig C 1, \nReichelstr. 5. Ihr Kurt Meyerowitz",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Einfügung '{können}' über dem durchgestrichenen Wort 'bestimmen' ist eindeutig als Korrektur des Satzbaus erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 708,
+    "total_words": 113,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      40,
+      334,
+      334
+    ],
+    "chars_per_page_median": 334,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4706,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

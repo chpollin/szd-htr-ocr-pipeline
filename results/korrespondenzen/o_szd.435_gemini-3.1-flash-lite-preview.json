@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.435",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Reinhart an Stefan Zweig, 1920-08-31, SZ-SAM/AK.152",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.435/IMG.1",
+      "https://gams.uni-graz.at/o:szd.435/IMG.2",
+      "https://gams.uni-graz.at/o:szd.435/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Reinhart an Stefan Zweig, 1920-08-31, SZ-SAM/AK.152\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.152\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Altﬁntermünz, bei Alpenhotel und Pension Hochﬁntermünz am Fintermünzpass",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Altﬁntermünz, 31. Aug. 20\nLieber Freund! Von Vulpera\naus am heutigen Morgen\nbei schönstem Wetter ins\nVaterland hinuntergefahren,\nsende ich Ihnen – nach\neinem ganz ausgezeichneten\nMittagsmahle hier – herzliche\nGrüsse, die ich auch an Frau v.\nWinternitz zu bestellen bitte.\nIn acht Tagen werde ich wohl\nwieder in Winterthur sein.\nMögen Sie das H.R.-Festheft\nfreundlich aufnehmen!\nIhr Hans Reinhart\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts, Poststempel teilweise lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme der Postkarte mit Archiv-Farbskalen und Grauskalen. Kein neuer Textinhalt.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 514,
+    "total_words": 74,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      72,
+      442,
+      0
+    ],
+    "chars_per_page_median": 257.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4133,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

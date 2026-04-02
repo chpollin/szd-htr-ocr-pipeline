@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.660",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hugo Hultenberg an Stefan Zweig, 1932-07-06, SZ-SAM/AK.89",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.660/IMG.1",
+      "https://gams.uni-graz.at/o:szd.660/IMG.2",
+      "https://gams.uni-graz.at/o:szd.660/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hugo Hultenberg an Stefan Zweig, 1932-07-06, SZ-SAM/AK.89\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.89\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Renar, 6. VII. 32",
+        "notes": "Vorderseite einer Postkarte mit einer Fotografie von Rentieren. Handschriftliche Notiz oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Fjällgården, Åre (Schweden),\nRenar, Jämtland. den 6 juli 1932.\nSehr verehrter Herr Doktor!\nIch danke Ihnen bestens für Ihren\nliebenswürdigen Brief u. die Mitteilung\nüber M.A. — Ich lese in New York\nTimes Book Review eine Besprechung\nIhrer Novelle \"Letters from an Un-\nknown Woman\". Ich weiss nicht\nden deutschen Titel. Darf ich Sie\nbitten, wenn diese Novelle separat\nerschienen ist, durch eine Buch-\nhandlung u. auf meine Kosten mir\ndieselbe zusenden zu lassen?\nVerzeihen Sie mir diese\ndirekte Hinwendung, aber durch\nAnfrage an eine Buchhandlung\nwird die Sache gern verzögert.\nIhr sehr ergebener\nHugo Hultenberg\n\nHerren Dr Stefan Zweig\nKapuzinerberg 5\n\nSalzburg\nÖsterreich",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in blauer Tinte. Briefmarke oben rechts (Sverige 15 öre). Vertikaler Text am linken Rand: 'Foto: Nils Thomasson, Åre, Kopiering förbjuden.' Unten rechts: 'B. No 163'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Fjällgården, Åre (Schweden),\nRenar, Jämtland. den 6 juli 1932.\nSehr verehrter Herr Doktor!\nIch danke Ihnen bestens für Ihren\nliebenswürdigen Brief u. die Mitteilung\nüber M.A. — Ich lese in New York\nTimes Book Review eine Besprechung\nIhrer Novelle \"Letters from an Un-\nknown Woman\". Ich weiss nicht\nden deutschen Titel. Darf ich Sie\nbitten, wenn diese Novelle separat\nerschienen ist, durch eine Buch-\nhandlung u. auf meine Kosten mir\ndieselbe zusenden zu lassen?\nVerzeihen Sie mir diese\ndirekte Hinwendung, aber durch\nAnfrage an eine Buchhandlung\nwird die Sache gern verzögert.\nIhr sehr ergebener\nHugo Hultenberg\n\nHerren Dr Stefan Zweig\nKapuzinerberg 5\n\nSalzburg\nÖsterreich",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1361,
+    "total_words": 212,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      17,
+      672,
+      672
+    ],
+    "chars_per_page_median": 672,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3883,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

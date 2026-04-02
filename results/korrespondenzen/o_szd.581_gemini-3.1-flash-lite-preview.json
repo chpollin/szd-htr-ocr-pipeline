@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.581",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1929-12-31, SZ-SAM/AK.286",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.581/IMG.1",
+      "https://gams.uni-graz.at/o:szd.581/IMG.2",
+      "https://gams.uni-graz.at/o:szd.581/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1929-12-31, SZ-SAM/AK.286\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.286\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "2. 1. 30.\n\n9. - BORDEAUX. - Ruines du Palais Gallien - M. D.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bordx 31. Dezember 29. Cher Confrère, mes\nvœux les meilleurs pour votre bien-être phy-\nsique (vous arrivez à l'âge où l'euphorie s'ap-\nprécie !) d'abord, pour vos succès et satisfactions en-\nsuite. Je vois avec plaisir que vous continuez votre\nbelle carrière. Donnez-nous encore de beaux livres en\n1930! Savez-vous que je me remets seulement de\nmon alerte de cet été? J'étais très bas, mais «qui\nvent peut», et je remonte la pente. Je viens de lire\nvotre «Jérémie», en français: c'est très puissant et très\ncourageant; ça console de tant d'hiers de farce [?]\nau [?] (et au Gadritel). Bien votre\n\nHerrn Stefan Zweig\nSalzburg (Tyrol).\nKapuzinerberg 5.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in blauer Tinte. Poststempel 'BORDEAUX' und Briefmarken vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, sowie die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf, insbesondere im französischen Textteil (z.B. 'farce' und 'Gadritel' sind unsicher)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 709,
+    "total_words": 123,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      60,
+      649,
+      0
+    ],
+    "chars_per_page_median": 354.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0163,
+    "dwr_score": 0.3417,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

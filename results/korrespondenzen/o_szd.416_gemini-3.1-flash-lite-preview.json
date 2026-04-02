@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.416",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ferdinand von Paungarten an Stefan Zweig, 1907-02-26, SZ-SAM/AK.134",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.416/IMG.1",
+      "https://gams.uni-graz.at/o:szd.416/IMG.2",
+      "https://gams.uni-graz.at/o:szd.416/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ferdinand von Paungarten an Stefan Zweig, 1907-02-26, SZ-SAM/AK.134\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.134\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bis jetzt erhielt ich noch nichts von\nden beiden Zeitungen zur Be=\nsprechung zugesandt.\n\nMünchen Barerstrasse 88, III.\n26. Februar 1907.",
+        "notes": "Vorderseite einer Ansichtskarte (Motiv: Universität München). Handschriftlicher Text oben rechts und unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStephan Zweig\nSchriftsteller\nWien VIII.\nKochgasse 8.\n\nSehr geehrter u. lieber Herr Zweig!\njetzt muß ich Sie aber doch fragen,\nob Sie meinen letzten Sch. vom 15. und\ndie noch am selben Tage aber etwas spä=\nter abgeschickte Photographie an er=\nhalten haben. Ihr Stillschweigen befremdet\nmich. Sie haben doch meinen Festschreiben[?]\nfür den Dichter Zweig doch nicht am Ende\nschon aufgehoben!? Das täte mir wirk=\nlich leid. Mit freundlichem Gruße\nzeichne ganz ergebenst:\nFerd. freih. von Paungarten.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarke oben links mit Poststempel 'MUENCHEN 26.2.07'. Die Zeile 'Sie haben doch meinen Festschreiben[?]' ist schwer lesbar, 'Festschreiben' könnte auch 'Festschreiben' oder 'Festschreiben' sein.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Kein Dokumententext.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort in der vorletzten Zeile des Brieftextes, das als 'Festschreiben[?]' transkribiert wurde."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 637,
+    "total_words": 100,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      136,
+      501,
+      0
+    ],
+    "chars_per_page_median": 318.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.01,
+    "dwr_score": 0.4316,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

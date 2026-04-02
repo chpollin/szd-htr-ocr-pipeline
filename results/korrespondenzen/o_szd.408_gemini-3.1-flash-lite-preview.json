@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.408",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, 1913-03-25, SZ-SAM/AK.127",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.408/IMG.1",
+      "https://gams.uni-graz.at/o:szd.408/IMG.2",
+      "https://gams.uni-graz.at/o:szd.408/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1913-03-25, SZ-SAM/AK.127\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.127\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "5298 Lago di Garda. Gardone-Riviera.",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Gardasees in Gardone-Riviera. Gedruckter Text am oberen linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Gardone, Ostermontag\nLieber Stefan, ich\nweiß nicht, ob diese Karte\ndich erreicht, aber ich\ngebe ihm das herzlichste\nreisen mit, ~~daß~~ {daß} ich dich\nin Wien nicht mehr gesehen\nhabe. Übermorgen für\nein paar Tage nach Bozen\n(Laurin), dann Berlin und\nHamburg. Grüß dich in Paris\nherzlichst dein Hans Müller",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Ein Poststempel 'GARDONE RIVIERA 25.3.13-6' und eine italienische Briefmarke sind vorhanden. Die Adresse 'Stefan Zweig, Kochgasse 8, Vienna VIII.' ist ebenfalls handschriftlich vermerkt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Gardone, Ostermontag\nLieber Stefan, ich\nweiß nicht, ob diese Karte\ndich erreicht, aber ich\ngebe ihm das herzlichste\nreisen mit, ~~daß~~ {daß} ich dich\nin Wien nicht mehr gesehen\nhabe. Übermorgen für\nein paar Tage nach Bozen\n(Laurin), dann Berlin und\nHamburg. Grüß dich in Paris\nherzlichst dein Hans Müller",
+        "notes": "Gesamtansicht der Postkarte mit Archiv-Farbskalen und Grauskalen. Der Text entspricht der Seite 2.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Korrektur 'daß' wurde als Einfügung/Korrektur gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 646,
+    "total_words": 105,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      36,
+      305,
+      305
+    ],
+    "chars_per_page_median": 305,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3429,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

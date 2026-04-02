@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.551",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Henri Le Fauconnier an Stefan Zweig, 1922-09-29, SZ-SAM/AK.259",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.551/IMG.1",
+      "https://gams.uni-graz.at/o:szd.551/IMG.2",
+      "https://gams.uni-graz.at/o:szd.551/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Henri Le Fauconnier an Stefan Zweig, 1922-09-29, SZ-SAM/AK.259\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.259\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "MÜNCHEN 29.9.22.\nRathaus (v. Hauberisser)",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "M. Stephan Zweig\nà Salzburg\nKapuzinerberg\nÖsterreich\n\nCher ami Janin\nje serai à vous\nLundi ou Mardi\n(selon la durée de séjour)\n{autour}\nps telegraphié\nvous cordialement F",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die französische Handschrift ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 211,
+    "total_words": 33,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      41,
+      170,
+      0
+    ],
+    "chars_per_page_median": 105.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0312,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

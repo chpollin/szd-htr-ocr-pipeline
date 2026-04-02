@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.561",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1936-02-12, SZ-SAM/AK.268",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.561/IMG.1",
+      "https://gams.uni-graz.at/o:szd.561/IMG.2",
+      "https://gams.uni-graz.at/o:szd.561/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1936-02-12, SZ-SAM/AK.268\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.268\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "(No. 19) The Lama Temple, Peiping. 北 平 雍 和 宮",
+        "notes": "Vorderseite einer Ansichtskarte mit Farbdruck des Lama-Tempels in Peking. Der Text am unteren Rand ist sowohl in Englisch als auch in Chinesisch gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5\n\n[Poststempel unleserlich]\n\nCher Monsieur. 12. Fevrier 1936\net ami. Je termine une\nbelle tournée de concerts\nen Orient, le Japon, con-\ncerts avec l'orchestre de\nShanghai, Peiping, Tokyo\nmaintenant le concerts de\nVarsovie. Nous serons\nma femme et moi à Paris,\nHotel Claridge, à partir du\n18. Mars. Peut-être aurons\nnous le plaisir de vous re-\nvoir, ainsi que Madam Zweig.\nNous vous envoyons nos souvenirs.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Die Adresse ist in deutscher Sprache verfasst. Der Poststempel ist teilweise überklebt und schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte befindet sich die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der handschriftliche Text ist gut lesbar. Die französische Sprache wurde korrekt erfasst. Die Adressdaten sind klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 492,
+    "total_words": 83,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      44,
+      448,
+      0
+    ],
+    "chars_per_page_median": 246.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.32,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

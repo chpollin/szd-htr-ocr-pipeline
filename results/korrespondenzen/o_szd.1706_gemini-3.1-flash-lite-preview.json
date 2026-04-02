@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1706",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom [März 1936], SZ-SAM/B7.73",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1706/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1706/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom [März 1936], SZ-SAM/B7.73\n- Signatur: SZ-SAM/B7.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "März 1936\n\nFrau Anna Meingast\nOer Zweig\nSalzburg (Austria)\nKapuzinerberg 5",
+        "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Briefmarke (1 1/2 Penny, King George V) und Poststempel (London W.1) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLiebe Frau Meingast\nvielen Dank für die Briefauszüge, ich brauche jetzt\nnicht mehr. Aber was ich vermisse, ist ein Ver-\nzeichnis aller Bücher, die in dem Vierteljahr meiner\nAbwesenheit gekommen sind. Einiges davon werde\nich doch sehen müssen und sicher erbitten!\nHerzlichst Ihr\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf, handschriftlicher Text in violetter Tinte. Rechts oben handschriftliche Archivnotizen '42.24' und '54.22'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 412,
+    "total_words": 64,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      74,
+      338
+    ],
+    "chars_per_page_median": 206.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4237,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

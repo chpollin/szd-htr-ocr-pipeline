@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1717",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 16. November 1936, SZ-SAM/B7.84",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1717/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1717/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 16. November 1936, SZ-SAM/B7.84\n- Signatur: SZ-SAM/B7.84\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49 Hallam Street\nLondon W.1.\n\n16.November 1936\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr für den Band.\nEs ist ja schade, dass dieser 15.Band auf mir uner-\nklärliche Weise verschwunden ist, aber auch der, den\nSie mir sandten, ist mir sehr willkommen. Das kleine\nBuch von Pigafetta \"Die erste Umseglung der Welt\"\nmuss auch noch irgendwo stecken, aber es ist nicht so\nwichtig, da ich ja die englische und französische\nUebersetzung davon zur Hand habe.\nWahrscheinlich bleibe ich in Salz-\nburg ein paar Stunden, jedesfalls fahre ich durch und\nverständige Sie rechtzeitig, dass wir uns notfalls an\nder Bahn sehen. Aber ich glaube doch, dass ich für ein\npaar Stunden, etwa zwischen zehn und sechs, hinaufkomme\nund freue mich schon furchtbar, Sie und Johann wieder\nzu sehen.\n\nVon Büchern bitte mir gelegentlich\nunrekommandiert Huizinga \"Herbst des Mittelalters\" zu\nschicken.\n\nMit vielen Grüssen Ihr\n\nStefanZweig\n\n[Am rechten Rand vertikal geschrieben:]\nMeine Frau sagte mir, es sei möglich alle 14 Bände des Reiseberichts zu\nfinden. Nun möchte ich wohl Sie wären gewesen - bitte senden Sie mir\nnur noch Band I davon",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlicher Randnotiz in violett. Die Randnotiz ist teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Haupttext ist ein klares Typoskript. Die handschriftliche Randnotiz am rechten Rand ist aufgrund der Kursivität und der Platzierung etwas schwieriger zu lesen, aber inhaltlich weitgehend erschließbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1109,
+    "total_words": 180,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1109,
+      0
+    ],
+    "chars_per_page_median": 1109,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5682,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

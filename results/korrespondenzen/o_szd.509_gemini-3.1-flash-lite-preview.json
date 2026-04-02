@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.509",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1908-07-31, SZ-SAM/AK.219",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.509/IMG.1",
+      "https://gams.uni-graz.at/o:szd.509/IMG.2",
+      "https://gams.uni-graz.at/o:szd.509/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1908-07-31, SZ-SAM/AK.219\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.219\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stubaital - Fulpmes gegen die Gletscher\n31/VII 08.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Stefan Zweig\nSchriftsteller\n\n[...5...] VIII\n[...5...] 8\n\nSehr verehrter Herr Doktor,\nleider bin ich noch hier\nin den Ferien liegen geblieben,\n~~um~~ Ihren [?] [?] \nzu lassen und Ihren\nBrief zu danken.\nmit bestem Gruß\n[...5...] ergebenst\nFrestery[?] J. Neur[?]\n31 VII 08",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Die Handschrift ist schwer lesbar, insbesondere die Ortsangabe und die Unterschrift.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Ortsangabe in der Adresse und die Unterschrift des Absenders."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 325,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      50,
+      275,
+      0
+    ],
+    "chars_per_page_median": 162.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 3,
+    "marker_density": 0.1346,
+    "dwr_score": 0.4524,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

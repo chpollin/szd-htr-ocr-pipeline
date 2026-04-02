@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.489",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vogt an Stefan Zweig, 1928-12-06, SZ-SAM/AK.200",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.489/IMG.1",
+      "https://gams.uni-graz.at/o:szd.489/IMG.2",
+      "https://gams.uni-graz.at/o:szd.489/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vogt an Stefan Zweig, 1928-12-06, SZ-SAM/AK.200\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.200\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Korosko mit Blick auf den Nil (Nubien). Korosko with a view of the Nile (Nubia). Korosko avec vue sur le Nil (Nubie).",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsdarstellung von Korosko am Nil. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ablegen\n\nAutriche (Österreich)\nHerre Stefan Zweig\nSalzburg\nKapuzinerberg\n\nLieber und verehrter Herr Dr.\nhaben Sie vielen Dank für Ihre\nfrdl. Zeilen. Bin auf 5 Wochen\nin Ägypten - Weihnachten bis Neujahr\nin Kairo, dann an d. Nilreise - darf\nich Sie dann in Salzburg einmal\nbesuchen? Wer Sie z. üb. ein\nladen? Sehr ergebene Grüße Ihr\nMax Vogt\nAssuan, 6.12.28",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht. Die Tinte ist blau/violett. Briefmarke und Poststempel oben links vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "ablegen\n\nAutriche (Österreich)\nHerre Stefan Zweig\nSalzburg\nKapuzinerberg\n\nLieber und verehrter Herr Dr.\nhaben Sie vielen Dank für Ihre\nfrdl. Zeilen. Bin auf 5 Wochen\nin Ägypten - Weihnachten bis Neujahr\nin Kairo, dann an d. Nilreise - darf\nich Sie dann in Salzburg einmal\nbesuchen? Wer Sie z. üb. ein\nladen? Sehr ergebene Grüße Ihr\nMax Vogt\nAssuan, 6.12.28",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzungen 'frdl.' (freundlichen) und 'z. üb.' (zu über) sind im Kontext der Korrespondenz eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 829,
+    "total_words": 142,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      117,
+      356,
+      356
+    ],
+    "chars_per_page_median": 236.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3077,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

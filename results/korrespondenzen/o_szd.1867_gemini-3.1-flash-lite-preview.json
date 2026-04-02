@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1867",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an das Schweizerische Vereinssortiment Olten vom 7. Januar 1947,\n        SZ-AAP/B1AN.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1867/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1867/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an das Schweizerische Vereinssortiment Olten vom 7. Januar 1947,\n        SZ-AAP/B1AN.1\n- Signatur: SZ-AAP/B1AN.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "xxx 6436 London, den 7.Jan,47\n\nMessrs.Schweizerisches\nVerlags sortiment,\nOlten bei Zuerich\n\nSehr geehrte Herren,\n\nIch bin,gemeinsam mit meiner Frau Johanna(Hannah)\nAltmann,Testamentsvollstrecker und Erbe des verstorbenen Dr.\nStefan Zweig.Wir entnehmen aus der vorgefundenen Korrespon-\ndenz,dass sich Ihnen seinerzeit ein beträchtlicher Posten\nvon Zweig's Büchern befand,der in den Auseinandersetzungen\nmit dem Reichnerverlage eine Rolle spielte.\nMeine Frau wird am Samstag,den 11.Januar,in Zuerich\nsein,und am Vormittag Herrn Dr.jur.H.David,Bahnhofstr.56,\naufsuchen.Sollte es zeitlich möglich sein(ich bitte um Entschul-\ndigung,dass ich so kurz vorher schreibe),so wären wir Ihnen sehr\ndankbar,wenn Sie dorthin mitteilen könnten,ob diese Bestände\nseinerzeit restlos verkauft worden sind,und ob noch irgendwelche\nSchritte in dieser Angelegenheit nötig oder zweckmässig sind-\nin diesem Falle würde meine Frau sich mit Ihnen in Verbindung\nsetzen und Sie evtl.aufsuchen.Bitte adressieren Sie Ihre evtl.\nMitteilung an Frau Dr.J.Altmann,c.o.Dr.David.\nSollte dieser Brief Sie zu spat erreichen,so bitte\nich Sie,an die obige Adresse in London mir mitzuteilen,was\nSie uns in dieser Angelegenheit für Aufklärungen geben können.\nMeine Frau hat eine photostatische Kopie des englischen\"Pro-\nbate's\"bei sich,das uns als Testamentsvollstrecker bestätigt.\nSelbstverständlich sind wir bereit,uns weiterhin durch die\nerforderlichen Dokumente auszuweisen,wenn sich noch Geschäfte\nergeben sollten,die das notwendig machen.\n\nMit vorzüglicher Hochachtung,\n\nManfred Altmann\nAntwort 14.1.47 am 2.2.48 an F. Neumann gesandt\n1938 Kommissionslager mit zahlreichen Zweig büchern\nan Schw. V. durch Reichner gegeben. 1940 alles ausverkauft\n+ mit R. abgerechnet. Saldo beim Gericht einberecht[?],\nangeblich später R. zur Verfügung gestellt.\n(laut Brief",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen am unteren Rand. Die handschriftliche Notiz ist in Tinte verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz am Ende ist gut lesbar, lediglich das Wort 'einberecht[?]' ist aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1822,
+    "total_words": 231,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1822,
+      0
+    ],
+    "chars_per_page_median": 1822,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0043,
+    "dwr_score": 0.434,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

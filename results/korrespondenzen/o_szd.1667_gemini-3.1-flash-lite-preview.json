@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1667",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stefanie und Alfred Zweig an Friderike Zweig, SZ-SAM/AK.300",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1667/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1667/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1667/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stefanie und Alfred Zweig an Friderike Zweig, SZ-SAM/AK.300\n- Signatur: SZ-SAM/AK.300\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Joe Lesti's Café - Restaurant „Eisvogel”\nWien II. Prater 44. (R 41-3-80).\n21.6.30.",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv des Wiener Praters. Das Datum '21.6.30.' ist handschriftlich in blauer Tinte hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frau\nFriederike Maria Zweig\nSalzburg\nKapuzinerberg 5.\n\nMeine l. Fritzi, noch vielen vielen\nDank für alles Liebe, Schöne und\nGüte, was ich bei Euch genossen habe.\nWir verbringen heute mit Mama bei\nEisvogel und Salamutschi einen\ngemütlichen Abend und gedenken\nEuer! Herzlichste Grüße Euch allen\nmit Ausnahme v. Kaspar! Eure\nStefanie\n\nHerzl. Grüße Alfred\nHerzliche Grüße von der\n[?] Eisvogel [?]schreibenden",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in blauer Tinte. Briefmarke und Poststempel vorhanden. Die letzte Zeile ist schwer lesbar und teilweise durch den Stempel überlagert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, identisch mit der Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist gut lesbar, jedoch sind die letzten zwei Zeilen auf der Rückseite der Postkarte durch den Poststempel und eine etwas flüchtigere Handschrift schwerer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 486,
+    "total_words": 74,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      82,
+      404,
+      0
+    ],
+    "chars_per_page_median": 243.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.027,
+    "dwr_score": 0.2464,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

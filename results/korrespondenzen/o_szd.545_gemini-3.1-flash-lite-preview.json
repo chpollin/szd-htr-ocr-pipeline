@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.545",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Zifferer an Stefan Zweig, 1921-05-04, SZ-SAM/AK.253",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.545/IMG.1",
+      "https://gams.uni-graz.at/o:szd.545/IMG.2",
+      "https://gams.uni-graz.at/o:szd.545/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Zifferer an Stefan Zweig, 1921-05-04, SZ-SAM/AK.253\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.253\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4430. NEUILLY-SUR-SEINE - Porte de Neuilly entrée du Bois de Boulogne E M.",
+        "notes": "Vorderseite der Postkarte mit Ansicht des Porte de Neuilly. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "le 4 Mai 1921\nCher amis,\nprofitant d'un bref\ncourt séjour d'aura [?] heureux\nnous prenons le déjeuner\nensemble ~~et~~ avons\nbeaucoup parlé de vous.\nQue diriez-vous ? Donnez\nvite signe de vie! Tant à vous\nPaul Zifferer\n\nAu revoir à Salzbourg!\nRaoul Auernheimer\nOui, mon vieux, une réunion\ninespérée — Alsazette,\nEt moi je ne vous ai pas oublié.\nQuand vous reverrai-je?\nF. Crommelynck\n\nCARTE POSTALE\nMonsieur\nStefan Zweig\nKapuzinerberg\nSalzbourg\nAutriche\nE. Malcuit phot.édit., Paris",
+        "notes": "Rückseite der Postkarte mit handschriftlichen Grüßen von Paul Zifferer, Raoul Auernheimer und F. Crommelynck. Zwei französische Briefmarken (5c und 25c) mit Poststempel 'PARIS 5 21 GRENELLE'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Postkarte (identisch mit Scan 1 und 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise sehr flüchtig und überlagert. Besonders die Zeilen von Raoul Auernheimer und F. Crommelynck sind schwer zu entziffern. 'Alsazette' ist eine unsichere Lesung."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 555,
+    "total_words": 90,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      74,
+      481,
+      0
+    ],
+    "chars_per_page_median": 277.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0111,
+    "dwr_score": 0.2778,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.644",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Else Graf an Stefan Zweig, 1927-07-26, SZ-SAM/AK.73",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.644/IMG.1",
+      "https://gams.uni-graz.at/o:szd.644/IMG.2",
+      "https://gams.uni-graz.at/o:szd.644/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Else Graf an Stefan Zweig, 1927-07-26, SZ-SAM/AK.73\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SAN PAOLO, 6.7.27\n\n45 BRASIL SÃO PAULO AVENIDA SÃO JOÃO",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg, 5\n(Austria)\n\nS. Paulo, 26-7-27\nVerehrter Herr Zweig,\nbin etwas besorgt, wegen\nder letzten Ereignisse in Wien.\nSie haben doch hoffentlich nichts\ndavon gespürt?\nSeien Sie herzlichst gegrüßt\nvon Ihrer Else Graf.\nRua Bella Cintra 521 - São Paulo - Brasil",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Ein violetter Poststempel ist oben links erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg, 5\n(Austria)\n\nS. Paulo, 26-7-27\nVerehrter Herr Zweig,\nbin etwas besorgt, wegen\nder letzten Ereignisse in Wien.\nSie haben doch hoffentlich nichts\ndavon gespürt?\nSeien Sie herzlichst gegrüßt\nvon Ihrer Else Graf.\nRua Bella Cintra 521 - São Paulo - Brasil",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 641,
+    "total_words": 102,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      55,
+      293,
+      293
+    ],
+    "chars_per_page_median": 293,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2105,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

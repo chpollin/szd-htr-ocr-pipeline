@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.570",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1917-08-18, SZ-SAM/AK.276",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.570/IMG.1",
+      "https://gams.uni-graz.at/o:szd.570/IMG.2",
+      "https://gams.uni-graz.at/o:szd.570/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1917-08-18, SZ-SAM/AK.276\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.276\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "18. Aug. 1917\n\nMarienbad\n\n& unser Logis",
+        "notes": "Vorderseite einer Ansichtskarte von Marienbad. Handschriftliche Notizen in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "MARIENBAD, den 18. Aug. 1917\n\nLiebster Stefan!\nAnbei schicke ich\nDir das Photo [?] unseres\nLogis! Wollte ich schnell\ngeben wir zwar\nkurz verbleiben an\nhier ist es sehr angenehm\nHab zu Wien das kühl\nAbends sogar kalt\nmuß ich etwas Pelz mit\nnehmen? Laß[?] man\nmis [?] uns f. G. m. senden",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in blauer Tinte. Die Adressseite enthält den gedruckten Text 'Hermann Selbt, Meßen. 1/1/160. Doppelton braun. Nachdruck verboten. 1917.' sowie die Empfängeradresse 'Herrn Dr. Stefan Zweig, Kalksburg, nächst Wien, Liechtensteinstraße 12'. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte (IMG_2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere am linken Rand der Postkarte, wo der Text durch den Falz oder die Platzierung beeinträchtigt ist. Einige Wörter sind aufgrund der kursiven Schreibweise und der Tinte unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 324,
+    "total_words": 60,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      39,
+      285,
+      0
+    ],
+    "chars_per_page_median": 162.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.05,
+    "dwr_score": 0.3774,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

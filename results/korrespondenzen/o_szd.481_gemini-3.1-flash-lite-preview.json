@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.481",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lucia Tranquilli an Stefan Zweig, 1933-12-24, SZ-SAM/AK.194",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.481/IMG.1",
+      "https://gams.uni-graz.at/o:szd.481/IMG.2",
+      "https://gams.uni-graz.at/o:szd.481/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lucia Tranquilli an Stefan Zweig, 1933-12-24, SZ-SAM/AK.194\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.194\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "25152 - TRIESTE - Notturno - pressi di Miramare",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Schwarz-Weiß-Fotografie des Schlosses Miramare bei Triest. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Trieste, Natale 1933\n\nDi tutto cuore - auguri\ndi ogni bene a lei\ne alla signora\nLucia e Vittorio\nTranquilli\n\nStephan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in blauer Tinte. Oben rechts eine Briefmarke (Vittorio Emanuele III, 75 Centesimi) mit Poststempel 'TRIESTE - PARTENZE 24.XII.33'. Oben mittig handschriftliche Notiz 'bedauert' (von fremder Hand?).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme der Postkarte (Rückseite) zusammen mit einer Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Passagen sind gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 194,
+    "total_words": 34,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      47,
+      147,
+      0
+    ],
+    "chars_per_page_median": 97.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

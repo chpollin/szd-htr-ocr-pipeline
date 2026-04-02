@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.439",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Eugenie Reitter an Stefan Zweig, 1933-04-14, SZ-SAM/AK.156",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.439/IMG.1",
+      "https://gams.uni-graz.at/o:szd.439/IMG.2",
+      "https://gams.uni-graz.at/o:szd.439/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1933-04-14, SZ-SAM/AK.156\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.156\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien,\nGrinzing,\nBeethovengasse\n14/IV. 33",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Orts- und Datumsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Wien, 14.4.33.\n\nLieb im Gedanken[?] bin ich\nheute bei Ihnen, lieber Stefan\nZweig, meine allerherzlichsten\nGrüße zu senden. Die Welt\nreift nun, alles grünt und\nblüht, aber was tun die Men-\nschen? Wie innig gedenke ich\nIhrer, wie folgen Sie all meine\nGedanken. Ihr Eugenie Reitter\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Briefmarke und Poststempel (Wien 14.V.33) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Lesung 'Gedanken' in Zeile 2 ist aufgrund der Tintenführung leicht unsicher, aber im Kontext schlüssig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 368,
+    "total_words": 58,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      40,
+      328,
+      0
+    ],
+    "chars_per_page_median": 184.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0172,
+    "dwr_score": 0.3273,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

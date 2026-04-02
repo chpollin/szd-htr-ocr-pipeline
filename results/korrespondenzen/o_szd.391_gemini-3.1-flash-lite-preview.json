@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.391",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Mark Lothar an Stefan Zweig, 1928-05-01, SZ-SAM/AK.111",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.391/IMG.1",
+      "https://gams.uni-graz.at/o:szd.391/IMG.2",
+      "https://gams.uni-graz.at/o:szd.391/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Mark Lothar an Stefan Zweig, 1928-05-01, SZ-SAM/AK.111\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.111\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Postkarte: Ansicht der Piazza della Signoria in Florenz.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "FIRENZE - Piazza della Signoria\ne Loggia dei Lanzi\n\nSehr verehrter Herr Dr. Zweig\nVon unserer ersten\nsehr erfolgreichen Italien-\nreise senden wir Ihnen u.\nIhrer lieben Frau in herz-\nlichem Gedenken unseres\nso anregenden Zusammen-\nseins viele Grüße.\nStets Ihr ergebenster\nChiuso Mark Lothar\nIhre Corry Nera.",
+        "notes": "Rückseite der Postkarte mit handschriftlichem Text. Adressseite: 'Dr. Stefan Zweig / Salzburg / Kapuzinerberg 5'. Poststempel 'FIRENZE FERROVIA 1.V.28'. Briefmarke 'POSTE ITALIANE' mit Aufdruck 'VISITATE LA TERZA FIERA INTERNAZIONALE DEL LIBRO FIRENZE'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die Ortsangabe 'Kapuzinerberg' wurde aufgrund der bekannten Adresse von Stefan Zweig korrekt als 'Kapuzinerberg' identifiziert (im Original 'Kapueinerberg' geschrieben)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 306,
+    "total_words": 48,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      306,
+      0
+    ],
+    "chars_per_page_median": 306,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2128,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1803",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Werner Stauffacher vom 18. Mai 1938, SZ-AAP/B1.237",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1803/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1803/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 18. Mai 1938, SZ-AAP/B1.237\n- Signatur: SZ-AAP/B1.237\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                          18.Mai 1938.\n\nHerrn Dr. W. Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\n          Ich danke Ihnen vielmals für Ihre private\nMitteilung, die ich als einen Beweis Ihres menschli-\nchen Vertrauens betrachte und selbstverständlich auf\ndas strengste privat behandle.\n          In der Angelegenheit Reichner möchte ich,\nsoweit es irgendwie möglich ist, schon aus Taktgefühl\ndie Schweizer Gerichte nicht bemühen. Wir Oesterrei-\ncher haben unsere Auseinandersetzungen nicht gewaltsam\nin die Schweiz zu zerren. Aber selbstverständlich muss\nich, wenn es dann dazu kommt, dass Herr Reichner ver-\nsucht, weiter diktatorisch zu handeln, ohne mich als\nAutor zu fragen und zu verständigen, meine Bücher als\nEigentum des Herbert Reichner Verlags Zürich anzukün-\ndigen (worüber keinerlei Kontrakt vorliegt) und aus\nanderen Gründen gegen ihn vorgehen. Heute ist es ja\nnoch nicht so weit, weil ich ausschliesslich Wien als\nden Ort des Vertragsabschlusses {und Gerichtsstand} anerkenne, wo meine",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte. Die Ergänzung '{und Gerichtsstand}' wurde über der Zeile eingefügt, das Wort 'und' wurde ebenfalls handschriftlich über 'zu' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Auseinandersetzungen mit Herrn Reichner zu erfolgen\nhaben. Aber ich werde mich natürlich sofort an Sie\nwenden, sobald die Möglichkeit vorhanden ist.\n\n                    Mit herzlichem Dank\n                    Ihr sehr ergebener",
+        "notes": "Typoskript. Die Seite ist am unteren Rand leer.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen auf Seite 1 sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1270,
+    "total_words": 169,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1042,
+      228
+    ],
+    "chars_per_page_median": 635.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4491,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

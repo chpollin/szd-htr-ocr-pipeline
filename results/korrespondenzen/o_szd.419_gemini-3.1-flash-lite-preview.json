@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.419",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gregory Petnikow an Stefan Zweig, 1929-04-24, SZ-SAM/AK.137",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.419/IMG.1",
+      "https://gams.uni-graz.at/o:szd.419/IMG.2",
+      "https://gams.uni-graz.at/o:szd.419/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gregory Petnikow an Stefan Zweig, 1929-04-24, SZ-SAM/AK.137\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.137\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "24.4.29",
+        "notes": "Vorderseite einer Postkarte mit einer Ansicht von Leningrad. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ПОЧТОВАЯ КАРТОЧКА\nPOŠTA KARTO\n\nSehr geehrter Herr Zweig!\n~~Haben~~ Sie herzlichen\nDank für Ihre freundliche\nKarte, und die Gesammel[?]\nten Gedichte die ich heute\nrichtig bekommen habe.\nMit herzlichen Gruß\nIhr ergebener\nGregory Petnikow\n\nКуда Австрия\nOestreich.\nКому Kapuzinerberg, 5\nHerrn Stefan Zweig\n\nЛЕНИНГРАД. Вид на здание Глав-\nного Адмиралтейства и Исаакиевский\nсобор с Дворца Искусств.\n№ 30\nЦена 5 коп.\nМеццо-тинто Сокрайшефсовета. Москва.\nГлавлит А 22515. ХРО Гиз № 26. Тираж 10.000.",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Gedruckte russische Angaben zur Postkarte und zum Bildmotiv. Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Das Wort 'Gesammelten' ist aufgrund der Handschrift leicht unsicher, aber im Kontext der 'Gedichte' eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 499,
+    "total_words": 74,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      7,
+      492,
+      0
+    ],
+    "chars_per_page_median": 249.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0135,
+    "dwr_score": 0.3421,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

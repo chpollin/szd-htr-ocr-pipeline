@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.414",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Akira Osawa an Stefan Zweig, 1921-07-01, SZ-SAM/AK.132",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.414/IMG.1",
+      "https://gams.uni-graz.at/o:szd.414/IMG.2",
+      "https://gams.uni-graz.at/o:szd.414/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Akira Osawa an Stefan Zweig, 1921-07-01, SZ-SAM/AK.132\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.132\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ASSISI - Panorama dalla Rocca minore 2.7.21",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "1 juli 1921 Assisi, Umbria\n(Hotel minerva)\nLieber Herr\nVerzeihen Sie mir dass ich so\nlange Ihnen nicht geschrieben\nhabe. Ich habe gehört von Romain\nRolland dass Sie waren in Florenz\nbeim Herrn P.J. Jouve gewesen, er\nhat mir seine Adresse gegeben; aber\nunglücklicherweise konnte ich damals\nnicht Rom verlassen. Jetzt bin ich in\nOmbrien; Assisi ist wahrlich wunder-\nbar, ich habe nie gedacht dass Cima-\nbue so ein so grosser Maler sei. In Flo-\nrenz oder in Rom man kann nicht\ngenug erfassen die Grösse Cimabues\noder Giottos. Vielleicht muss man\nnach Padova und Pisa gehen um Giotto\nin seiner Ganze zu erfassen. Es tut\nziemlich heiss selbst in dieser hohe\nBergstadt. I will hier zwei mon\nbleiben und studieren.\nIhr treuer Akira Osawa.\n\nWerner Hermann\nper Adr.\nSt. Haus Weg 7.21.15\nNW 7\nDorotheenstrasse 31\n\nSignor Stefan Zweig\n5. Kapuzinerberg\nSalzburg\nAustria",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Enthält Poststempel und Briefmarke (Italien). Der Text rechts oben scheint eine Adressnotiz des Empfängers oder Absenders zu sein, die quer zum Haupttext steht.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz einiger kleinerer orthographischer Eigenheiten des Schreibers."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 900,
+    "total_words": 151,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      43,
+      857,
+      0
+    ],
+    "chars_per_page_median": 450.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3819,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

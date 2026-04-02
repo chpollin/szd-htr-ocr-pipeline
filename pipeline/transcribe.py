@@ -494,7 +494,11 @@ def run_batch(
             continue
 
         print(f"[{i}/{total}] {oid} ({col})")
-        success, _ = transcribe_object(oid, col, max_images, force, chunk_size, delay)
+        try:
+            success, _ = transcribe_object(oid, col, max_images, force, chunk_size, delay)
+        except Exception as e:
+            print(f"  FEHLER (unbehandelt): {e}")
+            success = False
         if success:
             done += 1
         else:

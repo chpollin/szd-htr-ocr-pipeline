@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.638",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Karl Geigy-Hagenbach an Stefan Zweig, 1927-10-08, SZ-SAM/AK.68",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.638/IMG.1",
+      "https://gams.uni-graz.at/o:szd.638/IMG.2",
+      "https://gams.uni-graz.at/o:szd.638/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Karl Geigy-Hagenbach an Stefan Zweig, 1927-10-08, SZ-SAM/AK.68\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.68\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Marbach a. N. Schillers Geburtshaus",
+        "notes": "Vorderseite einer Ansichtskarte mit dem Geburtshaus von Friedrich Schiller in Marbach am Neckar. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stuttgart, 8 Oct. 27\nVerehrter, lieber Herr S!\nWie Sie sehen sind sie immer\nnoch auf der Fahrt. Ihr liebens-\nwürdiges Schreiben ist mir von\nBasel nach München nachgesandt\nworden. Vielen herzlichen Dank\nfür Ihre prächtigen Ergänzungen\ngratuliere ich Ihnen aufs Beste.\nIch hab den Haydn-Brief\nerhalten. Glück ist mir diese\nLumperei M. 30.-- entgegenge-\nDa sollte man selbst an der\nAndere sein. In München\nhebe ich herrlich Tage verbracht\nzu kommen sachst vor Marbach\nzurück. Sehr interessant. Morgen\nAbend in Basel. Auf Ihren\nBesuch freue ich mich\nsehr. Wie kann ich passen\nmit herzlichen Grüßen K.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel 'Stuttgart 8.10.27' vorhanden. Die Adresse lautet: 'Herrn H. Stefan Zweig / 5 Kapuzinerberg / Salzburg / Oesterreich'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere im Mittelteil der Postkarte ('entgegenge-', 'sachst vor Marbach'). Einige Wörter sind aufgrund der kursiven Schreibweise und der Tinte nur mit mittlerer Sicherheit zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 631,
+    "total_words": 102,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      35,
+      596,
+      0
+    ],
+    "chars_per_page_median": 315.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.47,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

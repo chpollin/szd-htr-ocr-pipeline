@@ -1,0 +1,81 @@
+{
+  "object_id": "o_szd.657",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Camill Hoffmann an Stefan Zweig, 1923-06-07, SZ-SAM/AK.85",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.657/IMG.1",
+      "https://gams.uni-graz.at/o:szd.657/IMG.2",
+      "https://gams.uni-graz.at/o:szd.657/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, 1923-06-07, SZ-SAM/AK.85\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.85\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "6. PAVILLON MUSÉE FLAUBERT à CROISSET\nLe Jardin",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text. Stempel 'MUSÉE FLAUBERT CROISSET près ROUEN'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Stefan,\nalle Dank Ratschläge waren\nglänzend, insbesondre\nPremier... In den nächsten\nTagen geht es zurück!\n7. 17. [?]                                  Camill\n\nMarcel Raître à Rouen\n\nM. Stefan Zweig\nSalzburg\nAutriche\nKapuzinerberg",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke 'REPUBLIQUE FRANCAISE 30c'. Poststempel 'ROUEN 25'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Stefan,\nalle Dank Ratschläge waren\nglänzend, insbesondre\nPremier... In den nächsten\nTagen geht es zurück!\n7. 17. [?]                                  Camill\n\nMarcel Raître à Rouen\n\nM. Stefan Zweig\nSalzburg\nAutriche\nKapuzinerberg",
+        "notes": "Rückseite der Ansichtskarte mit Archiv-Farbskalen. Identisch mit Seite 2.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Das Datum '7. 17.' ist etwas unklar, könnte sich auf den 7. Juli beziehen, daher als unsicher markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 517,
+    "total_words": 68,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      47,
+      235,
+      235
+    ],
+    "chars_per_page_median": 235,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0294,
+    "dwr_score": 0.1311,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "low_dwr"
+    ]
+  }
+}

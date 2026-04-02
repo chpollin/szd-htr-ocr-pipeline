@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.436",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Eugenie Reitter an Stefan Zweig, 1926-04-04, SZ-SAM/AK.153",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.436/IMG.1",
+      "https://gams.uni-graz.at/o:szd.436/IMG.2",
+      "https://gams.uni-graz.at/o:szd.436/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1926-04-04, SZ-SAM/AK.153\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.153\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4. April 26.\n\nSchwefelbad Ullersdorf, Nordm. Heilanstalt Teßtal.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand, handschriftliches Datum oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nLieber einmal auf ein paar\nTage der Welt entfliehen\ngenießen wir hier ein\nbißchen Frühling und\nSonne u. ich bitte Sie, die\nherzlichen Grüße freundlichst\nentgegen nehmen zu wollen.\nvon Ihrer Eugenie Reitter",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarken und Poststempel (Ullersdorf) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand. Keine zusätzliche Transkription erforderlich.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Ortsbezeichnung 'Teßtal' ist historisch korrekt für Ullersdorf (tschechisch: Velké Losiny)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 319,
+    "total_words": 48,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      64,
+      255,
+      0
+    ],
+    "chars_per_page_median": 159.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3556,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

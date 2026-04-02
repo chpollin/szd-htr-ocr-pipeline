@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.521",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Armand Brody an Stefan Zweig, 1907-02-06, SZ-SAM/AK.23",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.521/IMG.1",
+      "https://gams.uni-graz.at/o:szd.521/IMG.2",
+      "https://gams.uni-graz.at/o:szd.521/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-02-06, SZ-SAM/AK.23\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "59. BLIDA — Bois Sacré\nle 6. fevr. 07.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "CARTE POSTALE\n\nDr. Stefan Zweig\n\nWien VIII\nKochgasse 8\n\nAutriche\n\nRecht sollte haben, Robert: ich\nwar in Blida! Es ist ja auch soweit\nganz nett, aber du bist doch nur\nein naiver Enthusiast, mein Stefan.\nDu hast eben Italien nicht gesehen -\nCapri, Amalfi, Sorrent - was weisst\ndenn Du! Aber deshalb nichts\nfür ungut - es ist hier recht hübsch.\nübrigens ist es wohl noch zu zeitlich\nfür Blida, Servus, sei umarmt!\nDein A.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adresse. Briefmarke und Poststempel vorhanden (nicht transkribiert).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Keine Dokumentinhalte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, auch wenn einige Buchstaben leicht flüchtig geschrieben sind."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 457,
+    "total_words": 84,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      38,
+      419,
+      0
+    ],
+    "chars_per_page_median": 228.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3947,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.410",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Max Oppenheimer an Stefan Zweig, 1907-05-06, SZ-SAM/AK.129",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.410/IMG.1",
+      "https://gams.uni-graz.at/o:szd.410/IMG.2",
+      "https://gams.uni-graz.at/o:szd.410/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Max Oppenheimer an Stefan Zweig, 1907-05-06, SZ-SAM/AK.129\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.129\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Gruss aus der Hauptrestauration im Baumgarten! 6.5.07.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber H. Stefan Zweig!\nich grüße Sie vielmals u[nd]\nherzlich und werde Ihnen\ndemnächt ausführlich schreiben.\nich bitte Sie ein zurückgelassenes\nRequisiten um mich zuschicken\nAdresse: N.Ö. Baumgartenstrasse\nN° 242. Inserire, Brede[?]\nlassen Sie fest[?] grüßen.\n[...1...]erbleiben mit Gefahren[?]\nIhr ergebenster\nMax Oppenheimer\n\nStefan Zweig\nWien I.\nKochgasse N° 8.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich. Briefmarke und Poststempel 'PRAG 6.5.07' vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen 7-9.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Bereich der Adresse und der Grußformel). Die Transkription der Postkartenrückseite erfolgte nach bestem Wissen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 419,
+    "total_words": 57,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      54,
+      365,
+      0
+    ],
+    "chars_per_page_median": 209.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0702,
+    "dwr_score": 0.3036,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

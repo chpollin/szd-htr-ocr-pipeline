@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.602",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, 1927-09-05, SZ-SAM/AK.33",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.602/IMG.1",
+      "https://gams.uni-graz.at/o:szd.602/IMG.2",
+      "https://gams.uni-graz.at/o:szd.602/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, 1927-09-05, SZ-SAM/AK.33\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "PALERMO - Chiostro e Chiesa\nS. Giovanni degli Eremiti\n( dettaglio )\n5/9.27",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "S. Lorenzo\n5-9-27 Palermo\nNella speranza che\nla, egregio Dottore,\nmalgrado ch'io\nnon posso ancora\ndarle la bella no-\ntizia, vorrà gradi-\nre un mio pensie-\nro, Le invio un\ncordiale saluto.\nBerta Burgio Ahrens\n\nDoktor Stefan Zweig\n5 Kapuzinerberg\nSalzburg\n(Austria)",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in italienischer Sprache. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die italienische Handschrift ist klar strukturiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 337,
+    "total_words": 55,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      74,
+      263,
+      0
+    ],
+    "chars_per_page_median": 168.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.06,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

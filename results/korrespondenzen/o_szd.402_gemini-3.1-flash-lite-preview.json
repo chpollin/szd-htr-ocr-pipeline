@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.402",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Fritz Meyer an Stefan Zweig, 1924-08-07, SZ-SAM/AK.121",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.402/IMG.1",
+      "https://gams.uni-graz.at/o:szd.402/IMG.2",
+      "https://gams.uni-graz.at/o:szd.402/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Fritz Meyer an Stefan Zweig, 1924-08-07, SZ-SAM/AK.121\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.121\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Pontresina 7. VIII. 1924.",
+        "notes": "Vorderseite einer Ansichtskarte mit Gebirgsmotiv. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Sehr geehrter Herr Doktor, ich werde dafür\nsorgen, daß die Handschrift jehe[?] in\nkürzester Frist zurückbekommen.\nWahrscheinlich fahre ich am Ende des Urlaubs\n- in 14 Tagen - zu Fr. Zürcher[?] habe ich\nin Wien am reklamieren lassen.\nBitte also diesbezüglich um etwas\njedweder[?] haben. Besten Gruß und\n                                     Ihr ergebener Fritz Meyer\nliebe Stefan, den habe ich einen Jüngling anzweifel-\nhafter Konfession gesehen, der den \"Amok\" in der Hand trug.\n7. VIII. 24.                                Viele herzliche Grüße Dir u. Frau.\nSie sind ein netter Freund!\nAber die Frau grüße ich\nherzlichst. Ihr F.S.          Lotte Meyer\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nÖsterreich",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Die Adressseite ist um 180 Grad gedreht zum Textkörper. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Sehr geehrter Herr Doktor, ich werde dafür\nsorgen, daß die Handschrift jehe[?] in\nkürzester Frist zurückbekommen.\nWahrscheinlich fahre ich am Ende des Urlaubs\n- in 14 Tagen - zu Fr. Zürcher[?] habe ich\nin Wien am reklamieren lassen.\nBitte also diesbezüglich um etwas\njedweder[?] haben. Besten Gruß und\n                                     Ihr ergebener Fritz Meyer\nliebe Stefan, den habe ich einen Jüngling anzweifel-\nhafter Konfession gesehen, der den \"Amok\" in der Hand trug.\n7. VIII. 24.                                Viele herzliche Grüße Dir u. Frau.\nSie sind ein netter Freund!\nAber die Frau grüße ich\nherzlichst. Ihr F.S.          Lotte Meyer\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nÖsterreich",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'jehe', 'jedweder'). Die Anordnung des Textes auf der Postkarte ist durch die Drehung der Adresszeilen komplex."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1445,
+    "total_words": 208,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      25,
+      710,
+      710
+    ],
+    "chars_per_page_median": 710,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0288,
+    "dwr_score": 0.4184,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

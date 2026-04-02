@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1669",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.36",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1669/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1669/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1669/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.36\n- Signatur: SZ-SAM/AK.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Palermo - Quattro Canti e Corso Vittorio Emanuele",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text am unteren Rand. Handschriftliche Datierung oben links: '19. 9. 33'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Doktor Stefan Zweig\n5. Kapuzinerberg\nSalzburg\n(Austria)\n\n17. 9. 33. Palermo, o Colle [?]\nSehr geehrter Herr Doktor!\nIch bin Ihnen von Herzen\ndankbar für Ihren lieben\nBrief. Nun erwarte ich\ngerne die mir von Ihnen\nzugesagte Notiz v. Sperl.\nu. Hupfer. Ich werde Ihnen\ndann gleich schreiben.\nMit den herzlichsten Grüßen\nu. Wünschen, Hochachtungsvoll\nBerta Burgio Ahrens.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarken und Poststempel vorhanden. Die Zeile '17. 9. 33. Palermo, o Colle [?]' ist teilweise durch den Poststempel überlagert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Die Postkarte ist identisch mit der in Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich ein Wort in der Datumszeile der Rückseite ist durch den Poststempel leicht beeinträchtigt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 416,
+    "total_words": 66,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      49,
+      367,
+      0
+    ],
+    "chars_per_page_median": 208.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0152,
+    "dwr_score": 0.2833,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

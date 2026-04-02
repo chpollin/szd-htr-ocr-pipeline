@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1673",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hilde Coste an Stefan Zweig, SZ-SAM/AK.40",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1673/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1673/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1673/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hilde Coste an Stefan Zweig, SZ-SAM/AK.40\n- Signatur: SZ-SAM/AK.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "14.8.14. Hilde Coste Lübeck",
+        "notes": "Vorderseite der Postkarte mit Abbildung der Salzspeicher in Lübeck. Handschriftliche Notiz oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "POSTKARTE\nÖsterreich\nHerrn Stefan Zweig\nWien VIII\nKochgasse 8\n\nSehr geehrter Herr Doktor.\nTrotz der Kriegszeiten möchte ich\nIhnen, da ich in dem auch\nvon Ihnen so bewunderten Lübeck\nbin einen Gruß senden. Es hat\nmich damals so gefreut, als\nich von den Schönheiten dieser\nStadt mit Ihnen sprechen\nkonnte. – Ob Sie wohl\nauch Teil haben am großen heiligen\nKrieg? Bei uns gehen ja\nalle mit. Und je mehr man hört\nvon unsern Feinden, so dauert man\nimmer mehr, wenn man wie z.B. ich\nso unnütz [?] mit\nKünsten kann. Gruß Hilde Coste",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Lübeck 14.8.14) vorhanden. Der Text 'Alte Salzspeicher an der Trave' und 'Kunstverlag Nöhring, Lübeck' ist gedruckt und teilweise vom handschriftlichen Text überlagert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierung. Identisch mit Seite 2, jedoch mit Archivierungshilfen am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung des handschriftlichen Textes mit dem gedruckten Text auf der Postkarte. Ein Wort ('unnütz') ist aufgrund der Tintenführung leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 551,
+    "total_words": 98,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      524,
+      0
+    ],
+    "chars_per_page_median": 275.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0102,
+    "dwr_score": 0.4947,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

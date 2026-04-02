@@ -13,20 +13,22 @@ related:
 
 # Evaluationsergebnisse: CER-Baseline der SZD-HTR-Pipeline
 
-Stand: Session 19 (2. April 2026)
+Stand: Session 20 (2. April 2026)
 
 ---
 
 ## 1. Ueberblick
 
-34 Objekte wurden verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen sind abgedeckt.
+58 Objekte wurden verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen sind abgedeckt.
 
 | Review-Typ | Objekte | Content-Seiten | Zeichen |
 |---|---:|---:|---:|
 | Human Approved | 14 | 17 | 10.541 |
-| Agent Verified (Batch 1+2) | 12 | 22 | 19.863 |
-| Agent Verified (Batch 3) | 8 | 18 | ~8.000 |
-| **Gesamt** | **34** | **57** | **~38.400** |
+| Agent Verified (Session 18-19, Batch 1-3) | 20 | 40 | ~27.800 |
+| Agent Verified (Session 20, Batch 1-4) | 24 | ~42 | ~18.000 |
+| **Gesamt** | **58** | **~99** | **~56.300** |
+
+**Neu in Session 20**: Edit-Tracking eingefuehrt — alle Agent-Korrekturen werden mit `edit_history` pro Seite gespeichert (Original-Text + Korrektur + Quelle), im Frontend als Side-by-Side-Diff sichtbar.
 
 **Human Approved**: Experte prueft Transkription im Frontend-Viewer gegen das Faksimile, korrigiert bei Bedarf, markiert als `approved`.
 
@@ -59,15 +61,15 @@ Stand: Session 19 (2. April 2026)
 
 | Gruppe | Objekte | Zeichen | Fehler | Geschaetzte Genauigkeit | Hauptfehlertypen |
 |---|---:|---:|---:|---|---|
-| Korrekturfahne | 2 | 11.515 | 4 | 99.6–99.9% | Fraktur-Grossschreibung, Wortgrenze |
-| Typoskript | 2 | 3.093 | 1–2 | 99.8–99.9% | Fehlende Satzzeichen |
-| Zeitungsausschnitt | 2 | 10.032 | 9–12 | 99.7–99.8% | **Fraktur f/s-Verwechslung**, Grossschreibung |
-| Formular | 2 | 763 | 3 | 98.5–100% | Handschrift-Felder auf Formularen |
-| Konvolut | 1 | 1.655 | 5 | 99.1% | Artikelform (der/den), Grossschreibung |
-| Korrespondenz | 13 | ~3.600 | 37–39 | 90–100% | Kurrent-Verwechslungen, Nonsens-Halluzination, Grussformeln |
-| Handschrift | 6 | 709 | 1–3 | 99.4% | Fachbegriffe (Recension), Leseunsicherheiten |
-| Kurztext | 6 | 235 | 0 | ~100% | (zu kurz fuer Aussage) |
-| Tabellarisch | 1 | 457 | 1 | ~99% | (zu wenig Daten) |
+| Korrekturfahne | 4 | ~13.000 | 4 | 98–99.9% | Fraktur-Grossschreibung, Wortgrenze |
+| Typoskript | 6 | ~6.000 | 5 | 92–99.9% | Ital. Vokale (titolo/tiratura), handschr. Interlinear-Korrekturen |
+| Zeitungsausschnitt | 5 | ~14.000 | 28 | 97–99.8% | **Fraktur f/s**, Nonsens-Halluzination (Mitbringsel, Democratic Vistas) |
+| Formular | 5 | ~2.000 | 4 | 98–100% | Handschrift-Felder, Grossschreibung (County Borough) |
+| Konvolut | 2 | ~2.500 | 5 | 93–99.1% | Artikelform, handschr. Korrekturen auf Konvolut-Deckblatt |
+| Korrespondenz | 21 | ~6.000 | 42 | 85–100% | Kurrent-Verwechslungen, Nonsens-Halluzination, Grussformeln |
+| Handschrift | 9 | ~2.500 | 4 | 95–99.4% | Kurrent complet/couplet, Ausbau/Umbau, Fachbegriffe |
+| Kurztext | 8 | ~500 | 1 | 97–100% | Abkuerzung Gegr./Geor. |
+| Tabellarisch | 3 | ~1.500 | 4 | 75–99% | Unvollstaendige Seiten, fehlende Eintraege bei Adressbuch |
 
 ### Interpretation
 
@@ -91,9 +93,15 @@ Stand: Session 19 (2. April 2026)
 | ft ↔ st | gerei**st**e | gerei**ft**e | o_szd.2213 |
 | Fraktur a → Punkt | s**.g**en | s**ag**en | o_szd.2296 |
 
-**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen. Das lange ſ (Unicode U+017F) sieht dem f aehnlich; die Ligaturen ft und st sind in Fraktur nahezu identisch.
+| Wortfragment halluziniert | Mitge**brine** | Mitbr**ingsel** | o_szd.2217 |
+| Eigenname falsch | **Hayel** | **Hayek** | o_szd.2217 |
+| Werktitel halluziniert | Demokratie **Lista** | Democratic **Vistas** | o_szd.2217 |
+| D/W-Verwechslung | **Denn** sie wirklich | **Wenn** sie wirklich | o_szd.2249 |
+| Fehlende Silbe | auf**hetzter** | auf**gehetzter** | o_szd.2249 |
 
-**Haeufigkeit**: 3 Faelle in ~10.000 Fraktur-Zeichen (~0.03%). Selten, aber sinnentstellend.
+**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen. Das lange ſ (Unicode U+017F) sieht dem f aehnlich; die Ligaturen ft und st sind in Fraktur nahezu identisch. Bei Eigennamen und fremdsprachigen Werktiteln (z.B. Whitmans "Democratic Vistas") fehlt dem VLM das Kontextwissen.
+
+**Haeufigkeit**: ~28 Fehler in ~14.000 Fraktur-Zeichen (~0.2%). Hoeher als zuvor geschaetzt, weil Session 20 schwierigere Zeitungsausschnitte einschliesst.
 
 ### 4.2 Kurrent-Buchstabenverwechslungen (Schweregrad: hoch)
 
@@ -137,7 +145,36 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 | Wortgrenze | erhoben — Hand — | erhoben**e Hand** — | o_szd.1888 |
 | Fehlende Anfuehrung | ADEPTS IN SELF | **"**ADEPTS IN SELF | o_szd.102 |
 
-### 4.6 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
+### 4.6 Fremdsprachliche Fehler (Schweregrad: mittel)
+
+*Neu in Session 20.*
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Ital. Vokal | **titole** | **titolo** | o_szd.91 |
+| Fehlende Silbe | **conten-te** | **contenen-te** | o_szd.91 |
+| Ital. Vokal | **tiretura** | **tiratura** | o_szd.91 |
+| Ortsname | **Komotan** | **Komotau** | o_szd.1106 |
+| Datum | 30. Juli **1934** | 20. Juli **1934** | o_szd.1383 |
+
+**Ursache**: Bei fremdsprachigen Dokumenten (Italienisch, Franzoesisch, Englisch) fehlt dem VLM teils das Kontextwissen fuer korrekte Vokale und Ortsnamen. Die Fehler betreffen Kohlekopie-Typoskripte (schwacher Kontrast) und Eigennamen ausserhalb des ueblichen Wortschatzes.
+
+### 4.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch)
+
+*Neu in Session 20 — 3 Faelle entdeckt.*
+
+| Objekt | Bilder gesamt | Seiten transkribiert | Fehlende Seiten |
+|---|---:|---:|---:|
+| o_szd.149 (Bibliographie) | 165 | 5 | ~160 |
+| o_szd.141 (Notizbuch Russlandreise) | 84 | 5 | ~79 |
+| o_szd.175 (Register der Aufsaetze) | 43 | 5 | ~38 |
+| o_szd.174 (Adressbuch) | 122 | 5 | ~117 |
+
+**Ursache**: Grosse Objekte (>40 Bilder) werden unvollstaendig transkribiert — nur die ersten ~5 Seiten erscheinen im Ergebnis. Vermutlich ein Chunking-Problem: Das automatische Chunk-Splitting (>20 Bilder) bricht nach dem ersten Chunk ab oder merged die Folge-Chunks nicht korrekt.
+
+**Fix noetig**: Diese Objekte muessen mit `--force --chunk-size 20` re-transkribiert und die Chunk-Merge-Logik in `transcribe.py` geprueft werden.
+
+### 4.8 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
 
 | Fehler | Beschreibung | Objekt |
 |---|---|---|
@@ -163,8 +200,9 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 
 ### Naechste Schritte
 
-- Weitere Objekte agent-verifizieren — 20 von 2107 verifiziert, Korrespondenzen-Sample jetzt 13 Objekte
+- **Truncation fixen**: 4 grosse Objekte (o_szd.149, o_szd.141, o_szd.175, o_szd.174) re-transkribieren, Chunk-Merge-Logik pruefen
+- Weitere Objekte agent-verifizieren — 44 von ~875 verifiziert, ~730 ausstehend
 - Prompt-Ablation mit den 18 GT-Objekten (jetzt moeglich, da CER-Baseline steht)
-- Fraktur-spezifischen Post-Processing-Schritt evaluieren
+- Fraktur-spezifischen Post-Processing-Schritt evaluieren (28 dokumentierte Fehler als Trainingsmaterial)
 - `duplicate_pages` False-Positive fixen (Color-Chart-Seiten ausschliessen)
 - DWR-Score gegen Agent-Verifikation validieren (korreliert DWR mit tatsaechlicher Fehlerrate?)

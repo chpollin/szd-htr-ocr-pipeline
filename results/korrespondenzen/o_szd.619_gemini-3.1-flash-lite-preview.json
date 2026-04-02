@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.619",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Alfred von Ehrmann an Stefan Zweig, 1912-12-26, SZ-SAM/AK.50",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.619/IMG.1",
+      "https://gams.uni-graz.at/o:szd.619/IMG.2",
+      "https://gams.uni-graz.at/o:szd.619/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Alfred von Ehrmann an Stefan Zweig, 1912-12-26, SZ-SAM/AK.50\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KÜNSTLERPOSTKARTE No 2112 VON OTTMAR ZIEHER KUNSTANSTALT, MÜNCHEN VER. No 1158\nBADEN BEI WIEN, WEILBURG\n26. XII. XI",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv 'Baden bei Wien, Weilburg'. Gedruckter Text und handschriftliches Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Correspondenz-Karte.\nNur für die Adresse.\n\nAn den Architekten\nsovielen Häuser an\nweissgottwieviel Meeren\nfreundliche Weihnachts=\ngrüsse und besten Dank\nfür Karte aus Dresden; in\nwelchem Gau Deutschlond nun\ndas besteingerichtete steht,\ndarüber hätte gern einmal\nmit Ihnen geplaudert Ihr herzlich ergebener Ehrmann\n\nHerrn Dr Stefan Zweig\nWien VIII\nKochgasse 8.",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text von Alfred von Ehrmann an Stefan Zweig. Briefmarke und Poststempel vorhanden (nicht transkribiert).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Correspondenz-Karte.\nNur für die Adresse.\n\nAn den Architekten\nsovielen Häuser an\nweissgottwieviel Meeren\nfreundliche Weihnachts=\ngrüsse und besten Dank\nfür Karte aus Dresden; in\nwelchem Gau Deutschlond nun\ndas besteingerichtete steht,\ndarüber hätte gern einmal\nmit Ihnen geplaudert Ihr herzlich ergebener Ehrmann\n\nHerrn Dr Stefan Zweig\nWien VIII\nKochgasse 8.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. 'Deutschlond' ist so im Original geschrieben (kein Transkriptionsfehler). Die Handschrift ist flüssig und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 831,
+    "total_words": 118,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      115,
+      358,
+      358
+    ],
+    "chars_per_page_median": 236.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2462,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1712",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Meingast vom 20. Mai 1936, SZ-SAM/B7.79",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1712/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1712/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 20. Mai 1936, SZ-SAM/B7.79\n- Signatur: SZ-SAM/B7.79\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49 Hallam Street\nLondon W.1.                                20. Mai 1936.\n\nLiebe Frau Meingast!\n\n                    Wegen Rozsavölgyi habe ich bereits\nmit der Länderbank verhandelt. Er hat seine Pflicht\ngetan, und es wird hoffentlich bald zur Bezahlung ge-\nlangen. Fur das neue Buch wird die Bezahlung direkt\nan einen Freund von mir überwiesen.\n                    Es geht jetzt ziemlich wild zu wie\nimmer, wenn ein neues Buch in Schwung kommt, und dass\nich über das Wochenende weg war, habe ich mit einer\nFlut von Briefen gebüsst.\n                    Ein Exemplar des Castellio ist in-\nzwischen wohl an Sie direkt gelangt. Ich habe Reichner\nausserdem angewiesen, zwanzig Exemplare dorthin zu\nschicken, damit immer etwas Futter zu haben ist.\n                    Wegen der persönlichen Dinge werden\nwir wahrscheinlich noch im Juni in Salzburg ausführlich\nsprechen. Ich habe noch nicht die geringste Uebersicht\nüber mein Leben in dem nächsten halben Jahr, da sich ja",
+        "notes": "Typoskript auf Briefpapier. Die Zeilenumbrüche folgen dem Original.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Südamerika, Nordamerika und manches andere erst ent-\nscheiden muss. Arbeit werde ich Ihnen hoffentlich\nbald senden können, ich bin jetzt endlich wieder\nfleissig, und es ist eine Wohltat, vom Biographischen\nerlöst zu sein.\n\n                                   Herzlichen Grusses\n\n                                   Ihr\n\n                                   Stefan Zweig\n\n. Bei Lanyi bestellen Sie bitte zehn Exemplare der\n\"Ausgewählten Gedichte\" und zwei Exemplare 'Marce-\nline Desbordes-Valmore\" und bezahlen per Postspar-\nkasse.\n\nAus Deutschland höre ich fast gar nichts mehr\nwas was ich erfahre, ist bedrückend. Meine\nbesten Freunde schreiben nicht mehr direkt sondern\nauf den bekanntesten Umwegen",
+        "notes": "Fortsetzung des Typoskripts, gefolgt von einer handschriftlichen Ergänzung in violetter Tinte. Die Unterschrift ist ebenfalls handschriftlich.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung am Ende der zweiten Seite ist gut lesbar, weist aber eine etwas flüchtigere Schrift auf."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1661,
+    "total_words": 226,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      965,
+      696
+    ],
+    "chars_per_page_median": 830.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4933,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

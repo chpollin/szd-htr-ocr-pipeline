@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.617",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Luc Durtain an Stefan Zweig, 1924-07, SZ-SAM/AK.49",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.617/IMG.1",
+      "https://gams.uni-graz.at/o:szd.617/IMG.2",
+      "https://gams.uni-graz.at/o:szd.617/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Luc Durtain an Stefan Zweig, 1924-07, SZ-SAM/AK.49\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "July 24.\nCAIRO - A. Native Quarter",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Bild und handschriftlicher Datumsangabe unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Carte Postale\nUnion Postale Universelle.\n\nAmical souvenir\nde Luc Durtain\n\nHerrn Stephan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\nTHE CAIRO POSTCARD TRUST - CAIRO",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adresse. Briefmarke oben rechts mit Poststempel.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Carte Postale\nUnion Postale Universelle.\n\nAmical souvenir\nde Luc Durtain\n\nHerrn Stephan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\nTHE CAIRO POSTCARD TRUST - CAIRO",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 356,
+    "total_words": 53,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      34,
+      161,
+      161
+    ],
+    "chars_per_page_median": 161,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

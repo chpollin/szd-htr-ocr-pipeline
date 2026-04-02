@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.468",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Heinrich Schwarz an Stefan Zweig, 1931-04-24, SZ-SAM/AK.182",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.468/IMG.1",
+      "https://gams.uni-graz.at/o:szd.468/IMG.2",
+      "https://gams.uni-graz.at/o:szd.468/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Heinrich Schwarz an Stefan Zweig, 1931-04-24, SZ-SAM/AK.182\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.182\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Capri - Panorama dal Monte Solaro\n24.4.31\nH. Schwarz.",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Ergänzungen oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAustria\n\nCapri 24.4.1931.\nHerliche Tage in Neapel,\ndenen noch einige\nrömische folgen sollen.\nHo<s>f</s>fe Sie und die\nIhren wohlauf heimge-\nkehrt. Herzlichst wie\nimmer Ihr\nHeinrich Schwarz",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich. Briefmarken und Poststempel vorhanden. Das Wort 'hoffe' weist eine Korrektur auf (durchgestrichenes 's' oder ähnliches, hier als 'Ho<s>f</s>fe' transkribiert).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Korrektur im Wort 'hoffe' wurde als durchgestrichen markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 289,
+    "total_words": 43,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      53,
+      236,
+      0
+    ],
+    "chars_per_page_median": 144.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2326,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

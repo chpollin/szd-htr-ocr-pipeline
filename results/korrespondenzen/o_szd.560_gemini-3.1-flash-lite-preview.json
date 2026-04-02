@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.560",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1930-06-04, SZ-SAM/AK.267",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.560/IMG.1",
+      "https://gams.uni-graz.at/o:szd.560/IMG.2",
+      "https://gams.uni-graz.at/o:szd.560/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1930-06-04, SZ-SAM/AK.267\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.267\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "222. MOONLIGHT SCENE ON A FLORIDA RIVER.\n\nF.16. VIEW FROM GROUNDS OF THOMAS A. EDISON HOME, FORT MYERS, FLA. 4.VI.30 105322",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Fort Myers Florida\nvom 4. VI. 30\nLiebe Freunde! Hier\nsehen so viel Erfreuliches,\nInteressantes, dass\nes schwer fällt den\nFlorida ist die vollkommen\nKämpfung von suffi[?]\n~~v~~ vieler Zivilisation\nund völliger Wildheit.\nWir arbeiten augenblick-\nlich in den Everglades, den\neinigen Baumwollfeldern\n[...], wie es auf der Welt\nnoch gilt. So was von Er-\nlebnissen habe ich\nnie gesehen. Dazu viele\n[...], grauenhaftes\n[...], und viele kleine\nWürmer. Das genügt, nicht wahr?",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarken und Poststempel vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere am linken Rand und in den letzten Zeilen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Fort Myers Florida\nvom 4. VI. 30\nLiebe Freunde! Hier\nsehen so viel Erfreuliches,\nInteressantes, dass\nes schwer fällt den\nFlorida ist die vollkommen\nKämpfung von suffi[?]\n~~v~~ vieler Zivilisation\nund völliger Wildheit.\nWir arbeiten augenblick-\nlich in den Everglades, den\neinigen Baumwollfeldern\n[...], wie es auf der Welt\nnoch gilt. So was von Er-\nlebnissen habe ich\nnie gesehen. Dazu viele\n[...], grauenhaftes\n[...], und viele kleine\nWürmer. Das genügt, nicht wahr?\n\nHerren u. Frau\nDr. Stefan Zweig\nSalzburg\nLinzengasse 14\nEurope\nAustria",
+        "notes": "Identisch mit Seite 2, jedoch mit den Archiv-Farbskalen am oberen und unteren Rand. Die Adressseite ist rechts neben dem Textkörper sichtbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise durch die Überlagerung mit dem gedruckten Text der Postkarte schwer zu entziffern. Einige Wörter am linken Rand und im unteren Bereich sind aufgrund von Tintenverlauf oder unklarer Schriftführung nur fragmentarisch lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1129,
+    "total_words": 178,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      123,
+      467,
+      539
+    ],
+    "chars_per_page_median": 467,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 6,
+    "marker_density": 0.0449,
+    "dwr_score": 0.3697,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.1742",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Erich Ami Kaemmerer vom 1. Januar 1936, SZ-SHB/B3.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1742/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1742/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Erich Ami Kaemmerer vom 1. Januar 1936, SZ-SHB/B3.1\n- Signatur: SZ-SHB/B3.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien,\nGloriette",
+        "notes": "Vorderseite einer Ansichtspostkarte mit dem Motiv der Gloriette in Wien. Handschriftliche Notiz rechts oben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Kaemmerer, wie sehr\nhabe ich mich Ihres guten\nGrüsses gefreut und wie\nwünschte ich mir, Ihnen wieder\nzu begegnen. Ich wohne jetzt\nin London W1 Hallamstreet\n49 den meisten Teil des\nJahres und will für einige\nZeit nach Südamerika. Aber\nvielleicht glückt doch eine\nBegegnung in dieser trotz aller\nWiderwärtigkeiten immer\nnoch herrlichen Welt. Ihr\nStefan Zweig\n\nErich Ami Kaemmerer\nKobe (Japan)\nP. O. Box 35",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text von Stefan Zweig in violetter Tinte. Briefmarke (Österreich, 35 Groschen) und Poststempel vorhanden. Die Adresse ist rechtsbündig unter der Trennlinie platziert.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 430,
+    "total_words": 70,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      15,
+      415
+    ],
+    "chars_per_page_median": 215.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4706,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

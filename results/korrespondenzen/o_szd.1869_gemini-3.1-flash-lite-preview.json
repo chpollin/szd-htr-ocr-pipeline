@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1869",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Manfred Altmann vom 27. Januar 1947, SZ-AAP/B1AN.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1869/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1869/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Manfred Altmann vom 27. Januar 1947, SZ-AAP/B1AN.3\n- Signatur: SZ-AAP/B1AN.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. H. David & Dr. H. Gwalter\nRechtsanwälte\nTelefon 23 52 89 / Postcheck VIII 453\nMitglieder des\nSchweiz. Anwaltsverbandes\n\nZürich, den 27. Januar 1947.\nBahnhofstraße 56\n\nHerrn Dr. M. Altmann,\n352, Finchley Road,\nHampstead, N.W.3\nEngland\n\nSehr geehrter Herr Doktor,\n\nVom Schweizerischen Vereinsortiment in Olten erhalte ich\ndie Kopie eines Schreibens vom 14. Januar 1947 an Sie.\nFalls Sie es wünschen, könnte ich ermitteln, welcher Betrag\nbeim Gericht deponiert und ob dieser Betrag tatsächlich\nHerrn Reichner ausbezahlt wurde. Für diesen Fall bitte ich\nSie, mir die beigefügte Vollmacht auszustellen.\n\nMit vorzüglicher Hochachtung\n\nBeilage:\nVollmachtformular. \n\nD. H. David.\n\nAnbei Vollmacht. Wir wären Ihnen dankbar, wenn\nSie zunächst die feststellen würde[?]\nund uns das Res.[?] mitteilen würde[?],",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am unteren Rand. Der Nachtrag ist in Bleistift geschrieben und teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Haupttext ist sehr gut lesbar. Der handschriftliche Nachtrag am unteren Rand ist etwas undeutlich, insbesondere die Wörter 'feststellen' und 'Res.' (vermutlich Abkürzung für Resultat oder Resultate)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 801,
+    "total_words": 116,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      801,
+      0
+    ],
+    "chars_per_page_median": 801,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0259,
+    "dwr_score": 0.2762,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

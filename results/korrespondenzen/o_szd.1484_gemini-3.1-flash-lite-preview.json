@@ -71,5 +71,15 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Typed letter on International Copyright Bureau letterhead. German body text with embedded French quotation and English letterhead/footer — explains language_mismatch flag. Transcription accurate: letterhead, addresses, body text, French passage, closing and signature all verified against faksimile. Minor letterhead margin details (telephone/telegram refs) omitted but these are decorative printed elements.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
   }
 }

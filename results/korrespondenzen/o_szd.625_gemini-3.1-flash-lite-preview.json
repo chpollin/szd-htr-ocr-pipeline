@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.625",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Max Fleischer an Stefan Zweig, 1929-07-18, SZ-SAM/AK.56",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.625/IMG.1",
+      "https://gams.uni-graz.at/o:szd.625/IMG.2",
+      "https://gams.uni-graz.at/o:szd.625/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Max Fleischer an Stefan Zweig, 1929-07-18, SZ-SAM/AK.56\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "18. Juli 1929\n\n962.",
+        "notes": "Vorderseite einer Ansichtskarte mit Waldmotiv. Handschriftliche Datumsangabe oben rechts, gedruckte Nummer unten rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mein lieber Stefan!\nAuf\neinem kleinen Urlaube in\nBayern ereilt mich plötzlich\ndie Nachricht von dem\ntragischen Ende Hofmannsthals.\nIch bin sehr gebeugt und\nmuss einem lieben Menschen\ndie Hand drücken: sei innig\ngegrüßt, mein lieber Freund,\nvon deinem alten getreuen\nMax Fleischer\n\nHerrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Ludwigsthal, 18.7.29) vorhanden. Der Text 'Max Fleischer' und 'BÖHM WALD | EIMATBILDER' ist gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 343,
+    "total_words": 53,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      19,
+      324,
+      0
+    ],
+    "chars_per_page_median": 171.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3469,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

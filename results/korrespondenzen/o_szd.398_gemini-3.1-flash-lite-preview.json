@@ -1,0 +1,85 @@
+{
+  "object_id": "o_szd.398",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lavinia Mazzucchetti an Stefan Zweig, 1930-04-21, SZ-SAM/AK.118",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.398/IMG.1",
+      "https://gams.uni-graz.at/o:szd.398/IMG.2",
+      "https://gams.uni-graz.at/o:szd.398/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lavinia Mazzucchetti an Stefan Zweig, 1930-04-21, SZ-SAM/AK.118\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.118\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Heidelberg\nOstern 1930\nDas Schloß vom Philosophenweg",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unter dem Bild.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig\nSalzburg\nKapuzinerweg 4\n\nPasqua del 1930\nEgregio Dott. Zweig -\nle riceverà presto una\nmia lunga lettera - ma volevo\nfinalmente dirle che il suo Tonie -\nho fatto con pause forse {esa} [?] giorni\npause cura! - è già tutto ~~eseguito~~ {stampato}\ngià in corso di stampa. Se la [?] [?]\ndavvero arriva solo in maggio. Saremmo\narrivare contemporaneamente anche noi. E\npoi d'an le bozze tornano a Milano\nfra un paio di giorni. Mi farebbe piacere ri-\nvedermi se vi sono notizie da Parigi!\nMolto cordialmente Lavinia Mazzucchetti",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in italienischer Sprache. Briefmarke und Poststempel (Heidelberg 21.4.30) vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere bei den Korrekturen und den italienischen Begriffen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Stefan Zweig\nSalzburg\nKapuzinerweg 4\n\nPasqua del 1930\nEgregio Dott. Zweig -\nle riceverà presto una\nmia lunga lettera - ma volevo\nfinalmente dirle che il suo Tonie -\nho fatto con pause forse {esa} [?] giorni\npause cura! - è già tutto ~~eseguito~~ {stampato}\ngià in corso di stampa. Se la [?] [?]\ndavvero arriva solo in maggio. Saremmo\narrivare contemporaneamente anche noi. E\npoi d'an le bozze tornano a Milano\nfra un paio di giorni. Mi farebbe piacere ri-\nvedermi se vi sono notizie da Parigi!\nMolto cordialmente Lavinia Mazzucchetti",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare italienische Wörter auf. Die Korrekturen (durchgestrichen/eingefügt) sind teilweise undeutlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1118,
+    "total_words": 191,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      52,
+      533,
+      533
+    ],
+    "chars_per_page_median": 533,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0314,
+    "dwr_score": 0.069,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages",
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

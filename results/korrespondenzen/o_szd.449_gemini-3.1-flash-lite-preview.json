@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.449",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Cecil Roth an Stefan Zweig, 1934-08-03, SZ-SAM/AK.165",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.449/IMG.1",
+      "https://gams.uni-graz.at/o:szd.449/IMG.2",
+      "https://gams.uni-graz.at/o:szd.449/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Cecil Roth an Stefan Zweig, 1934-08-03, SZ-SAM/AK.165\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.165\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Postkarte mit einer Abbildung der Loggia dei Lanzi in Florenz. Oben rechts handschriftlich '4. 8. 34'.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Mr Stefan Zweig.\nKapuzinerberg 5\nSalzburg Austria\n\n3. VIII. 34.\n\nMany thanks for your\nnote about my \"Nephew of the\nalmighty\". I am sure that Brothers\nhimself would have appreciated\nwhat you say. We are here for\na few weeks for holiday & study\n& antique searching; but I hope\nthat you will come & see us after\nour return. My wife sends her kindest\nregards. Cecil Roth.",
+        "notes": "Rückseite der Postkarte. Handschriftliche Nachricht in englischer Sprache. Die Adresse ist teilweise durchgestrichen und korrigiert (ursprünglich 'H. Portland Place, London W.', dann 'Kapuzinerberg 5, Salzburg Austria' darüber geschrieben). Briefmarke und Poststempel 'FIRENZE' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Gesamtansicht der Postkarte mit Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der Korrekturen in der Adresszeile."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 367,
+    "total_words": 68,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      367,
+      0
+    ],
+    "chars_per_page_median": 367,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4516,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

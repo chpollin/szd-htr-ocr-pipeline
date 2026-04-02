@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1763",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 5. November 1937, SZ-AAP/B1.124",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1763/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1763/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 5. November 1937, SZ-AAP/B1.124\n- Signatur: SZ-AAP/B1.124\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\nIhr Schreiben vom 1.November 1937 5.November 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.\nWir können uns augenblicklich natürlich nicht an Frau Tal wenden\nund den Vertrag verlangen.Am besten ist es,wenn wir uns augenblicklich\nüberhaupt nicht rühren und erst dann,bis Frau Tal etwas unternimmt.\nVielleicht lässt sie die Geschichte überhaupt einschlafen.\n\nRozsavölgyi hat bereits ein provisorisches Exemplar des \"Magellan\"\nerhalten.Der Inhaber der Firma hat uns neulich aufgerufen und wir\nhaben gleich das Nötige veranlasst.\nIn Ihrem Schreiben heisst es am Schluss:\"Beilage.(Abrechnung 1.Halb-\njahr 37 von Tal).\" Wir stellen fest,dass diese Abrechnung nicht bei-\nlag.Vermutlich ist sie bei Ihnen liegengeblieben.\n\nWir begrüssen Sie als\nIhre sehr ergebenen\n\nPS. Wir sandten Ihnen gestern 50 gebundene Exemplare der \"Begegnungen\",\ndamit Sie noch vor Weihnachten genügend Vorrat haben.Alle anderen\nExemplare - Widmungs- und Besprechungsstücke - sind bereits versandt\nworden.",
+        "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich (Tinte). Unterstreichungen im Text sind im Original vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1453,
+    "total_words": 197,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1453,
+      0
+    ],
+    "chars_per_page_median": 1453,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3814,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

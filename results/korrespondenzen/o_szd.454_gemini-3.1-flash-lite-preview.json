@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.454",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friedrich Walther Bischoff an Stefan Zweig, 1928-10-05, SZ-SAM/AK.17",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.454/IMG.1",
+      "https://gams.uni-graz.at/o:szd.454/IMG.2",
+      "https://gams.uni-graz.at/o:szd.454/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friedrich Walther Bischoff an Stefan Zweig, 1928-10-05, SZ-SAM/AK.17\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wein-Terrasse „Vier Jahreszeiten“ 5.10.28 Breslau, Gartenstr. 66/70",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "L. Th. Zweig – Sie müssen\nmir sofort schreiben, wenn\nSie nach Berlin kommen\n\nLieber Herr Stefan Zweig\nAlford[?] Brenner hat gestern\nein Einladung aus Südwest[?]\n„lebt uns gültig u. willkommen“\nmein Gezwungen u. ich füßen[?]\nmich Ihnen sehr nahe mein\nwert Güt F. W. Gischoff\nHerzliche Grüßen, Ihr\nFranzjosephIngle[?] Otto[?] [?] \nRobert Marlitz.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich, Tinte. Enthält Poststempel 'BRESLAU 5.10.28' und Briefmarke '8' (Deutsches Reich). Der Text ist teilweise schwer lesbar und weist Korrekturen/Überlagerungen auf.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "L. Th. Zweig – Sie müssen\nmir sofort schreiben, wenn\nSie nach Berlin kommen\n\nLieber Herr Stefan Zweig\nAlford[?] Brenner hat gestern\nein Einladung aus Südwest[?]\n„lebt uns gültig u. willkommen“\nmein Gezwungen u. ich füßen[?]\nmich Ihnen sehr nahe mein\nwert Güt F. W. Gischoff\nHerzliche Grüßen, Ihr\nFranzjosephIngle[?] Otto[?] [?] \nRobert Marlitz.",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Eigennamen und einige Wörter im Textkörper (z.B. 'Alford', 'Südwest', 'füßen')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 755,
+    "total_words": 115,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      67,
+      344,
+      344
+    ],
+    "chars_per_page_median": 205.5,
+    "marker_uncertain_count": 12,
+    "marker_illegible_count": 0,
+    "marker_density": 0.1043,
+    "dwr_score": 0.3103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

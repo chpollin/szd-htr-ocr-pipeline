@@ -17,9 +17,17 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwarmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwärmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
         "notes": "Der Text ist in violetter Tinte geschrieben. Die Datumsangabe '1. Dez 1931' ist handschriftlich ergänzt. Die Zeile 'völlig ergebenen' wirkt wie ein Teil der Grußformel, die in den Namen übergeht.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwarmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T12:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -36,6 +44,18 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der individuellen Handschrift von Stefan Zweig. Die Transkription ist eindeutig."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Handwritten letter by Stefan Zweig in violet ink. One correction: 'erwarmt' -> 'erwärmt' (missing umlaut, inconsistent with other umlauts in text like 'wünsche', 'möge'). Closing formula 'Tausend Dank Eures auf völlig ergebenen' is unusual (standard would be 'aufrichtig ergebenen') but kept as-is — not confident enough to change v->r in Zweig's handwriting. Double 'uns' in lines 8-9 confirmed present in original. Page 2 blank, page 3 color chart — both skipped.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

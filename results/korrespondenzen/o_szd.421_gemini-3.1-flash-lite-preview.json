@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.421",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Nelly Pins an Stefan Zweig, 1914-06-16, SZ-SAM/AK.139",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.421/IMG.1",
+      "https://gams.uni-graz.at/o:szd.421/IMG.2",
+      "https://gams.uni-graz.at/o:szd.421/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Nelly Pins an Stefan Zweig, 1914-06-16, SZ-SAM/AK.139\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.139\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Scheit[?] sale in dem engen\nKreise kennen gelernt!\nAbends war ich mit\nBaz. bei Picard. Eine\nganz wunderbare\nAtmosphäre in dem\nHause. - Verhaeren war\nnicht bei der Réunion.\n- Jetzt bin ich im Be-\ngriffe, von einem Kath.\nPriester aus Hagen be-\nkehrt zu werden. 16.6.\n1914",
+        "notes": "Vorderseite einer Ansichtskarte (L'Église N.-D. du Sablon). Handschriftliche Notizen in violett/schwarzer Tinte. Der Text ist teilweise über das Bild geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr [?], ich will\ndoch vom gestrigen [?] \nberichten. Es war wirklich eine\nstimmungsvolle\nFeier - Vormittags in dem herrlichen\nWald, dann Mittags bei Donner und\nBlitz eine ergreifende Rede von Picard.\nBazalgette habe ich nun auch kennen\ngelernt - leider nicht so gründlich, als ich\nwünschte, aber ich bin sofort von seinem\nCharme captiviert worden. Der Südfranzo-\nse, wie man sich ihn denkt. Überhaupt,\nwas hab' ich da für interessante Typen und\n\nHerrn Dr.\nStefan Zweig\nWien VIII\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in violett/schwarzer Tinte. Poststempel 'BRUXELLES 16 VI 1914'. Briefmarke '10 BELGIE 10'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Enthält das gleiche Bild wie Seite 2 in der Mitte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Einige Wörter sind aufgrund der Handschrift und der Überlagerung mit dem gedruckten Bild auf der Vorderseite schwer zu entziffern (z.B. 'Scheit[?]', 'gestrigen [?]')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 767,
+    "total_words": 130,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      269,
+      498,
+      0
+    ],
+    "chars_per_page_median": 383.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0231,
+    "dwr_score": 0.4463,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

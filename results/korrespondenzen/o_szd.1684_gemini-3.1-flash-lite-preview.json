@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1684",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Anna Meingast vom 25. Oktober 1937, SZ-SAM/B7.100",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1684/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1684/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 25. Oktober 1937, SZ-SAM/B7.100\n- Signatur: SZ-SAM/B7.100\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frau\n\nAnna Meingast\n\nSalzburg (Austria)\n\nLinzergasse 16",
+        "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD' und Briefmarken (1/2 Penny und 1 Penny) vorhanden. Poststempel 'LONDON 15 PM 25 OCT 37'. Handschriftliche Adressierung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "London, den 25.Oktober 1937.\n\nLiebe Frau Meingast!\n\nVielen Dank. Fräulein Alt-\nmann hat das Gesandte richtig erhalten. Wollen\nSie so freundlich sein und mir das mir angekün-\ndigte Buch von Bartlett: \"They dared to live\",\nsobald es eintrifft, zu senden. Meine eigenen\nBücher erhalten Sie direkt vom Verlag.\n\nHerzlichst Ihr\n\nS.Z.",
+        "notes": "Nachrichtenseite der Postkarte. Maschinenschriftlicher Text, Unterschrift 'S.Z.' in violetter Tinte.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift 'S.Z.' ist eindeutig als Stefan Zweigs Kürzel identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 382,
+    "total_words": 58,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      55,
+      327
+    ],
+    "chars_per_page_median": 191.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4211,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

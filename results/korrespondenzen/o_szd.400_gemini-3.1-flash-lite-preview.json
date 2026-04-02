@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.400",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Milan Begovic an Stefan Zweig, 1913-06-01, SZ-SAM/AK.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.400/IMG.1",
+      "https://gams.uni-graz.at/o:szd.400/IMG.2",
+      "https://gams.uni-graz.at/o:szd.400/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Milan Begovic an Stefan Zweig, 1913-06-01, SZ-SAM/AK.12\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lovrana u. der Quarnero mit der Insel Cherso\n1. VI. 913\nAdresse: Abbazia\npostlagernd",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen links oben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber und verehrter Freund,\nIch beglückwünsche Sie zu Ihrem schönen\nVortrag über Bosnien, den ich mit großer\nVergnügen gelesen habe! Vor meiner Ab-\nreise konnte ich Sie nicht besuchen, weil\nich plötzlich fort fahren musste. Mitte\nJuni bin ich wieder auf einige Zeit\nin Wien - dann werden wir uns hoff-\nentlich öfter sehen. Ein Exemplar von\n\"Quci\" [?] am Meer brauche ich erst Ende\nJuni. Wie geht es Ihnen? Wie lange\nbleiben Sie noch in Wien? Ich fühle mich\nin meiner Heimat sehr wohl. Nach 6 Jahren\nsehe ich wieder meinen Himmel und mein\nMeer. Herzlichst grüßt Sie Ihr Begovic",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke (5 Heller) und Poststempel 'LOVRANA' vorhanden. Vertikaler Text am linken Rand: 'Verlag Josef Bassan, Lovrana'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber und verehrter Freund,\nIch beglückwünsche Sie zu Ihrem schönen\nVortrag über Bosnien, den ich mit großer\nVergnügen gelesen habe! Vor meiner Ab-\nreise konnte ich Sie nicht besuchen, weil\nich plötzlich fort fahren musste. Mitte\nJuni bin ich wieder auf einige Zeit\nin Wien - dann werden wir uns hoff-\nentlich öfter sehen. Ein Exemplar von\n\"Quci\" [?] am Meer brauche ich erst Ende\nJuni. Wie geht es Ihnen? Wie lange\nbleiben Sie noch in Wien? Ich fühle mich\nin meiner Heimat sehr wohl. Nach 6 Jahren\nsehe ich wieder meinen Himmel und mein\nMeer. Herzlichst grüßt Sie Ihr Begovic\n\nHerru [sic] Dr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+        "notes": "Scan enthält Farbskala und die Ansichtskarte. Die Transkription entspricht der Rückseite der Karte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Das Wort 'Quci' ist schwer zu entziffern, könnte auch 'Goci' oder ähnlich lauten, daher mit [?] markiert. 'Herru' ist ein Schreibfehler im Original für 'Herrn'."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1291,
+    "total_words": 225,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      84,
+      577,
+      630
+    ],
+    "chars_per_page_median": 330.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0089,
+    "dwr_score": 0.4545,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

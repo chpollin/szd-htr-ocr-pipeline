@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.403",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Richard M. Meyer an Stefan Zweig, 1912-06-11, SZ-SAM/AK.122",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.403/IMG.1",
+      "https://gams.uni-graz.at/o:szd.403/IMG.2",
+      "https://gams.uni-graz.at/o:szd.403/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Richard M. Meyer an Stefan Zweig, 1912-06-11, SZ-SAM/AK.122\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.122\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. 6. 12.",
+        "notes": "Vorderseite der Postkarte mit Abbildung des Berliner Schlosses. Handschriftliche Datumsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "B 11. 6. 12\nSehr geehrter Herr\nDr Stefan aus\n[?] bitte Arnold\nSonnabend um 5\nUhr zum Kaffee,\nhoffentlich bald.\nDer freundlichen\nSendung stets mit\nbesten Grüßen Ihr\nRichard M. Meyer\n\nAn\nHerrn\nDr Stefan Zweig\nVIII Kochgasse\nWien",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in Tinte. Briefmarke 'Deutsches Reich' oben rechts, Poststempel vorhanden. Die Adresse ist teilweise in die handschriftliche Nachricht integriert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Postkarte (Rückseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere das Wort nach 'Dr Stefan' und die Zeile 'bitte Arnold'. Die Adresszeilen sind durch die Anordnung auf der Postkarte etwas fragmentiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 236,
+    "total_words": 43,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      10,
+      226,
+      0
+    ],
+    "chars_per_page_median": 118.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0233,
+    "dwr_score": 0.2857,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.508",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": " Unidentified an Stefan Zweig, 1932-10-03, SZ-SAM/AK.218",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.508/IMG.1",
+      "https://gams.uni-graz.at/o:szd.508/IMG.2",
+      "https://gams.uni-graz.at/o:szd.508/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1932-10-03, SZ-SAM/AK.218\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.218\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Isola Bella - Lago Maggiore 13. X. 32",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text 'Isola Bella - Lago Maggiore', handschriftliches Datum '13. X. 32' in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nSalzburg\n\nTanti saluti\nSuo Manon\n\nSchönsten Dank\nfür Ihre l. Zeilen.\nWerde in Wien vor-\naussichtlich am 14. X.\nringen [?] Chemin.\nHerzlichst Ihr Manon",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht in blauer Tinte. Briefmarken und Poststempel vorhanden. 'l.' steht vermutlich für 'lieben'. Das Wort 'ringen' ist schwer lesbar, möglicherweise ein Eigenname oder eine Ortsbezeichnung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Die Postkarte ist identisch mit der Rückseite aus Scan 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise flüchtig. Das Wort 'ringen' und der Name 'Manon' (der als Absender fungiert) sind aufgrund der kursiven Schreibweise schwer eindeutig zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 206,
+    "total_words": 36,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      37,
+      169,
+      0
+    ],
+    "chars_per_page_median": 103.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0278,
+    "dwr_score": 0.1935,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.496",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hugo Salus an Stefan Zweig, 1930-05-03, SZ-SAM/AK.207",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.496/IMG.1",
+      "https://gams.uni-graz.at/o:szd.496/IMG.2",
+      "https://gams.uni-graz.at/o:szd.496/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hugo Salus an Stefan Zweig, 1930-05-03, SZ-SAM/AK.207\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.207\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "3/E 30",
+        "notes": "Vorderseite einer Ansichtskarte mit Motiv der Karlsbrücke in Prag. Handschriftliche Notiz '3/E 30' oben mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hugo Salus Prag I Celakovskyplatz 6\n\nlieber Freund Zweig,\nwir freuen uns Alle, Mutter, Vater\nund Kind, auf Ihr Kommen und\nIhre Vorlesung, vor allem aber auf\neinige gemütliche Stunden zusammen-\nsein. Sie wissen, den Sie zu\nfreunde Kommen!\nfür das neue Jahr alles Gute und\nHerzliche! Ihr Salus\nPrag. 3.V. 1930\n\np.t. Herrn\nDr. Stefan Zweig\nWien VIII\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text von Hugo Salus. Briefmarke (5 Heller, Franz Joseph I.) und Poststempel 'PRAHA' vorhanden. Gedruckter Text am linken Rand: 'Carl Bellmann in Prag. 1909. 1507.' und unten 'Ein Teil der Karlsbrücke mit Hradschin. — 485.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Hugo Salus ist klar erkennbar. Die Transkription folgt der Anordnung auf der Postkarte."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 364,
+    "total_words": 63,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      6,
+      358,
+      0
+    ],
+    "chars_per_page_median": 182.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.45,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

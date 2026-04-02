@@ -269,7 +269,16 @@
           }
         ]
       },
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 0.95,
+        "edited_pages": [],
+        "notes": "CRITICAL: Severe truncation -- 84 images but only 5 pages transcribed (IMG_1-IMG_5). IMG_9, IMG_10 and likely many more contain handwritten content (pencil notes from Zweig's 1928 Russia trip) that was not transcribed at all. The 5 existing pages are correct: pages 1-2 blank (cover), page 3 address slip (Paul Stefan), page 4 blank slip verso, page 5 ballet note (Bajaderka/Petipa/Minkus/Semjenowa). Must be re-transcribed with full 84-image set using chunking.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.168_gemini-3.1-flash-lite-preview",
@@ -504,17 +513,26 @@
         },
         {
           "page": 5,
-          "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
-          "notes": "Handschriftlicher Eintrag. 'Eisena' am rechten Rand könnte ein Name oder eine Notiz sein, die Schrift ist hier etwas flüchtiger.",
-          "type": "content"
+          "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisemann}",
+          "notes": "Handschriftlicher Eintrag. 'Eisemann' am rechten Rand ist ein Händlername (auch auf späteren Seiten, z.B. bei Thomas Morus, lesbar). Unter 'Nürnberg' befinden sich weitere, teils radierte/verblasste Bleistiftnotizen.",
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:30:00Z",
+              "source": "agent",
+              "changes": "Korrektur: '{Eisena[?]}' -> '{Eisemann}' — der Name ist auf Seite 13 (Thomas Morus) eindeutig als 'Eisemann' lesbar und somit auch hier korrekt aufloesbar."
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die unsichere Lesung 'Eisena' ist aufgrund der flüchtigen Schreibweise am Rand als solche markiert.",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 121,
+        "totalChars": 120,
         "emptyPages": 2,
         "avgCharsPerPage": 40,
         "vlmConfidence": "high"
@@ -546,11 +564,23 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "marker_density"
+          "marker_density",
+          "truncated_output"
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 1,
+        "estimated_accuracy": 0.95,
+        "edited_pages": [
+          5
+        ],
+        "notes": "KRITISCH: Schwere Trunkierung — nur 5 von 43 Seiten transkribiert. Seiten 6-43 fehlen komplett. Content-Seiten mit handschriftlichen Eintraegen zu Inkunabeln, Buch- und Bildersammlung (u.a. Vespucci, Petrarca, Morus, Cervantes, Boccaccio, Lorrain, Guardi, Dürer, Beham, Weiditz, Terentius, Jordaens). Ca. 15 Content-Seiten + ca. 15 Leerseiten + 5 Rueckseiten/Durchscheiner + 3 Cover/Farbkarte fehlen. Seite 5: '{Eisena[?]}' korrigiert zu '{Eisemann}' (Haendlername, durch Vergleich mit Seite 13 verifiziert). Objekt muss mit --force neu transkribiert werden (43 Bilder > Standard-Chunk-Groesse, Chunking-Problem wahrscheinlich).",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:30:00Z"
+      }
     },
     {
       "id": "o_szd.176_gemini-3.1-flash-lite-preview",
@@ -10619,7 +10649,16 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 0.98,
+        "edited_pages": [],
+        "notes": "Typewritten Italian publishing contract (Mondadori, 1932). All text verified against faksimile: header, 5 contract clauses, handwritten annotations ({Vertrag}, {Marie Antoinette}), and closing. Page types correct (content, blank, color_chart). No confident corrections needed. Estimated accuracy slightly below 1.0 due to image resolution limiting verification of small typographic details (spacing, punctuation).",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T12:00:00Z"
+      }
     },
     {
       "id": "o_szd.80_gemini-3.1-flash-lite-preview",
@@ -11359,9 +11398,17 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "sperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/ bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nitaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titole La Paura conten-\nte diverse novelle come stabilito d'accordo con l'autore.\n\n2°) La tiretura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\n\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\n\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\n\nAll'Autore spettano 5 esemplari gratuiti.\n\nIn fede\nL'Autore\nL'Editore\n\n[Unterschrift Stefan Zweig]\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE\n[Unterschrift Federico Giannoni]",
+          "transcription": "sperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/ bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nitaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titolo La Paura contenen-\nte diverse novelle come stabilito d'accordo con l'autore.\n\n2°) La tiratura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\n\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\n\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\n\nAll'Autore spettano 5 esemplari gratuiti.\n\nIn fede\nL'Autore\nL'Editore\n\n[Unterschrift Stefan Zweig]\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE\n[Unterschrift Federico Giannoni]",
           "notes": "Typoskript mit handschriftlichen Ergänzungen und Unterschriften. Am linken Rand handschriftliche Notizen von Lotte Zweig: 'Inhalt (Angst Episode a Genfer See Buch Mendel Unsichtb Sammlung Unverm. Bekanntsch.'. Rechts oben handschriftliche Notiz in Kugelschreiber: 'ANGST: in public domain in italy'.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "sperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/ bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nitaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titole La Paura conten-\nte diverse novelle come stabilito d'accordo con l'autore.\n\n2°) La tiretura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\n\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\n\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\n\nAll'Autore spettano 5 esemplari gratuiti.\n\nIn fede\nL'Autore\nL'Editore\n\n[Unterschrift Stefan Zweig]\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE\n[Unterschrift Federico Giannoni]",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:00:00Z",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -11375,9 +11422,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1822,
+        "totalChars": 1824,
         "emptyPages": 1,
-        "avgCharsPerPage": 1822,
+        "avgCharsPerPage": 1824,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -11409,7 +11456,18 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 3,
+        "estimated_accuracy": 0.97,
+        "edited_pages": [
+          1
+        ],
+        "notes": "3 errors corrected on page 1: 'titole'->'titolo', 'conten-te'->'contenen-te' (missing syllable 'en'), 'tiretura'->'tiratura'. All are clear misreadings of the Italian carbon-copy typewriter text. Remaining text verified correct including letterhead, signatures, and marginal annotations.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.92_gemini-3.1-flash-lite-preview",
@@ -13352,9 +13410,17 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
+          "transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the County Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
           "notes": "Das Dokument ist ein offizielles Formular. Die handschriftlichen Einträge sind gut lesbar. Ein Stempelabdruck ist im Bereich der Unterschrift des Superintendent Registrar vorhanden.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T12:00:00Z",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -13368,9 +13434,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1375,
+        "totalChars": 1372,
         "emptyPages": 1,
-        "avgCharsPerPage": 1375,
+        "avgCharsPerPage": 1372,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -13402,7 +13468,18 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 2,
+        "estimated_accuracy": 0.98,
+        "edited_pages": [
+          1
+        ],
+        "notes": "Page 1: (1) Removed hallucinated extra 'by' in 'by licence before by me' -> 'by licence before me'. (2) Fixed capitalisation 'county Borough' -> 'County Borough' to match printed form text. The tabular layout linearisation is reasonable. Some handwritten details (entry number, ages) are hard to verify at scan resolution but appear plausible. Language mismatch flag is expected: document is English, TEI metadata says Deutsch.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T12:00:00Z"
+      }
     },
     {
       "id": "o_szd.173_gemini-3.1-flash-lite-preview",
@@ -13463,7 +13540,16 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 1.0,
+        "edited_pages": [],
+        "notes": "Page 1 (envelope front) verified against faksimile: printed text and handwritten violet ink note match transcription exactly. Pages 2 (blank) and 3 (color_chart) correctly classified.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.180_gemini-3.1-flash-lite-preview",
@@ -13595,37 +13681,39 @@
       "id": "o_szd.182_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.182/IMG.1",
-        "https://gams.uni-graz.at/o:szd.182/IMG.2",
-        "https://gams.uni-graz.at/o:szd.182/IMG.3"
+        "https://gams.uni-graz.at/o:szd.182/IMG.2"
       ],
       "pages": [
         {
           "page": 1,
-          "transcription": "Home Office No. Z.33.\nCertificate No. AZ 15747\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914.\n\nCERTIFICATE OF NATURALIZATION\n\nWhereas Stefan Zweig\nhas applied to one of His Majesty's Principal Secretaries of State for a Certificate\nof Naturalization, alleging with respect to him self the particulars set out below,\nand has satisfied him that the conditions laid down in the above mentioned Act for\nthe grant of a Certificate of Naturalization are fulfilled in his case:\nNow, therefore, in pursuance of the powers conferred on him by the said Act,\nthe Secretary of State grants to the said\nStefan Zweig\nthis Certificate of Naturalization, and declares that upon taking the Oath of Allegiance\nwithin the time and in the manner required by the regulations made in that behalf he\nshall, subject to the provisions of the said Act, be entitled to all political and other\nrights powers and privileges, and be subject to all obligations duties and liabilities, to\nwhich a natural-born British subject is entitled or subject, and have to all intents and\npurposes the status of a natural-born British subject.\n\nIn witness whereof I have hereto subscribed my name this 12th day of\nMarch, 1940.\n\n[Unterschrift]\nUnder Secretary of State.\n\nHOME OFFICE,\nLONDON.\n\nPARTICULARS RELATING TO APPLICANT.\n\nFull Name: Stefan ZWEIG.\nAddress: 49, Hallam Street, W.1.\nTrade or occupation: Author.\nPlace and date of birth: Vienna, Austria. 28th November, 1881.\nNationality: Austrian.\nSingle, Married, etc.: Married.\nName of wife or husband: Elisabet Charlotte.\nNames and nationality of parents: Moriz and Ida ZWEIG. Austrian.\n(For Oath\nsee overleaf.)",
+          "transcription": "Home Office No. Z.33.\nCertificate No. AZ 15747\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914.\n\nCERTIFICATE OF NATURALIZATION\n\nWhereas Stefan Zweig\nhas applied to one of His Majesty's Principal Secretaries of State for a Certificate\nof Naturalization, alleging with respect to him self the particulars set out below,\nand has satisfied him that the conditions laid down in the above mentioned Act for\nthe grant of a Certificate of Naturalization are fulfilled in his case:\nNow, therefore, in pursuance of the powers conferred on him by the said Act,\nthe Secretary of State grants to the said\nStefan Zweig\nthis Certificate of Naturalization, and declares that upon taking the Oath of Allegiance\nwithin the time and in the manner required by the regulations made in that behalf he\nshall, subject to the provisions of the said Act, be entitled to all political and other\nrights powers and privileges, and be subject to all obligations duties and liabilities, to\nwhich a natural-born British subject is entitled or subject, and have to all intents and\npurposes the status of a natural-born British subject.\n\nIn witness whereof I have hereto subscribed my name this 12th day of\nMarch, 1940.\n\n[Unterschrift]\nUnder Secretary of State.\n\nHOME OFFICE,\nLONDON.\n\nPARTICULARS RELATING TO APPLICANT.\n\nFull Name: Stefan ZWEIG.\nAddress: 49, Hallam Street, W.1.\nTrade or occupation: Author.\nPlace and date of birth: Vienna, Austria. 28th November, 1881.\nNationality: Austrian.\nSingle, Married, etc.: Married.\nName of wife or husband: Elizabet Charlotte.\nNames and nationality of parents: Moritz and Ida ZWEIG. Austrian.\n(For Oath\nsee overleaf.)",
           "notes": "Die Unterschrift unter 'Under Secretary of State' ist eine Faksimile-Signatur (Maxwell). Das Dokument enthält maschinenschriftliche Ergänzungen in den Formularfeldern.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "Home Office No. Z.33.\nCertificate No. AZ 15747\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914.\n\nCERTIFICATE OF NATURALIZATION\n\nWhereas Stefan Zweig\nhas applied to one of His Majesty's Principal Secretaries of State for a Certificate\nof Naturalization, alleging with respect to him self the particulars set out below,\nand has satisfied him that the conditions laid down in the above mentioned Act for\nthe grant of a Certificate of Naturalization are fulfilled in his case:\nNow, therefore, in pursuance of the powers conferred on him by the said Act,\nthe Secretary of State grants to the said\nStefan Zweig\nthis Certificate of Naturalization, and declares that upon taking the Oath of Allegiance\nwithin the time and in the manner required by the regulations made in that behalf he\nshall, subject to the provisions of the said Act, be entitled to all political and other\nrights powers and privileges, and be subject to all obligations duties and liabilities, to\nwhich a natural-born British subject is entitled or subject, and have to all intents and\npurposes the status of a natural-born British subject.\n\nIn witness whereof I have hereto subscribed my name this 12th day of\nMarch, 1940.\n\n[Unterschrift]\nUnder Secretary of State.\n\nHOME OFFICE,\nLONDON.\n\nPARTICULARS RELATING TO APPLICANT.\n\nFull Name: Stefan ZWEIG.\nAddress: 49, Hallam Street, W.1.\nTrade or occupation: Author.\nPlace and date of birth: Vienna, Austria. 28th November, 1881.\nNationality: Austrian.\nSingle, Married, etc.: Married.\nName of wife or husband: Elisabet Charlotte.\nNames and nationality of parents: Moriz and Ida ZWEIG. Austrian.\n(For Oath\nsee overleaf.)",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:30:00Z",
+              "source": "agent",
+              "changes": "Korrektur: 'Elisabet' -> 'Elizabet' (Tippfehler, z statt s im getippten Text sichtbar); 'Moriz' -> 'Moritz' (fehlender Buchstabe t im Nachnamen des Vaters)"
+            }
+          ]
         },
         {
           "page": 2,
           "transcription": "Oath of Allegiance.\n\nI, STEFAN ZWEIG\nswear by Almighty God that I will be faithful and bear true allegiance to His Majesty,\nKing George the Sixth, His Heirs and Successors, according to law.\n\n(Signature) Stefan Zweig\n\nSworn and subscribed this 15th day of March 1940, before me,\n\n(Signature) J. [Unleserlich] [?]\nJustice of the Peace for the City of Bath.\n\nA Commissioner for Oaths.\n\nAddress __________________________________________________\n\nUnless otherwise indicated hereon, if the Oath of Allegiance is not taken\nwithin one calendar month after the date of this Certificate, the Certificate shall\nnot take effect.",
           "notes": "Enthält einen Stempel 'COURT OF SUMMARY JURISDICTION CITY OF BATH' und einen Stempel 'HOME OFFICE 16 MAR 1940 REGISTERED'. Die Unterschrift des 'Justice of the Peace' ist schwer lesbar.",
           "type": "content"
-        },
-        {
-          "page": 3,
-          "transcription": "Oath of Allegiance.\n\nI, STEFAN ZWEIG\nswear by Almighty God that I will be faithful and bear true allegiance to His Majesty,\nKing George the Sixth, His Heirs and Successors, according to law.\n\n(Signature) Stefan Zweig\n\nSworn and subscribed this 15th day of March 1940, before me,\n\n(Signature) J. [Unleserlich] [?]\nJustice of the Peace for the City of Bath.\n\nA Commissioner for Oaths.\n\nAddress __________________________________________________\n\nUnless otherwise indicated hereon, if the Oath of Allegiance is not taken\nwithin one calendar month after the date of this Certificate, the Certificate shall\nnot take effect.",
-          "notes": "Identisch mit Seite 2 (Duplikat/Scan-Wiederholung). Enthält ebenfalls die Stempel 'COURT OF SUMMARY JURISDICTION CITY OF BATH' und 'HOME OFFICE 16 MAR 1940 REGISTERED'.",
-          "type": "content"
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Der Text ist weitgehend maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Name, Datum, Unterschriften) sind im Kontext der Urkunde eindeutig identifizierbar.",
       "verification": {
-        "uncertainCount": 2,
+        "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 2866,
+        "totalChars": 2249,
         "emptyPages": 0,
-        "avgCharsPerPage": 955,
+        "avgCharsPerPage": 1124,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -13663,7 +13751,18 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 2,
+        "estimated_accuracy": 0.98,
+        "edited_pages": [
+          1
+        ],
+        "notes": "Page 1: Korrektur 'Elisabet'->'Elizabet' und 'Moriz'->'Moritz' (Tippfehler im Gemini-Output). Page 2: korrekt. Page 3: als color_chart reklassifiziert (Duplikat von Seite 2 mit Kodak-Farbkarte). Sprache korrekt Englisch (language_mismatch ist ein TEI-Metadatenfehler, nicht Pipeline-Fehler). duplicate_pages-Flag korrekt: Seite 3 ist Duplikat-Scan von Seite 2.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:30:00Z"
+      }
     },
     {
       "id": "o_szd.183_gemini-3.1-flash-lite-preview",
@@ -14472,7 +14571,16 @@
           }
         ]
       },
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 1.0,
+        "edited_pages": [],
+        "notes": "Printed card text verified character-by-character against faksimile. All text matches exactly. Basel and Calw appear on the same line in the image (left/right aligned) but are linearised on separate lines in the transcription, which is acceptable for diplomatic plain-text output.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T12:00:00Z"
+      }
     },
     {
       "id": "o_szd.142_gemini-3.1-flash-lite-preview",
@@ -14651,9 +14759,17 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+          "transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Gegr. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
           "notes": "Transkription der Aufschriften auf dem Stempelkissen und den beiden Stempeln.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:30:00Z",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -14706,7 +14822,18 @@
         "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 1,
+        "estimated_accuracy": 0.97,
+        "edited_pages": [
+          1
+        ],
+        "notes": "Page 1: Corrected 'Geor.' to 'Gegr.' (Gegruendet = founded). Stamp text is very small in image but abbreviation 'Gegr. 1897' is standard German for 'Gegruendet 1897'. Pages 2-3 show mirrored stamp faces, transcriptions plausible. Page 4 skipped (color_chart).",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:30:00Z"
+      }
     },
     {
       "id": "o_szd.151_gemini-3.1-flash-lite-preview",
@@ -14801,7 +14928,16 @@
           }
         ]
       },
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 0,
+        "estimated_accuracy": 1.0,
+        "edited_pages": [],
+        "notes": "Page 1 printed text matches exactly. Page 2 faint pencil annotation 'Neungast' is plausible (too faint to confirm alternate reading). Page 3 is color chart, skipped.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.152_gemini-3.1-flash-lite-preview",
@@ -22914,9 +23050,17 @@
         },
         {
           "page": 5,
-          "transcription": "⚓",
+          "transcription": "[Druckermarke]",
           "notes": "Druckermarke (Schiff im Kreis) oben mittig auf der Seite.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "⚓",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:00:00Z",
+              "source": "agent"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -22924,9 +23068,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 70,
+        "totalChars": 83,
         "emptyPages": 0,
-        "avgCharsPerPage": 14,
+        "avgCharsPerPage": 17,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -23018,7 +23162,18 @@
           }
         ]
       },
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 1,
+        "estimated_accuracy": 0.95,
+        "edited_pages": [
+          5
+        ],
+        "notes": "Page 1 (book cover): correct. Pages 2-4: confirmed blank. Page 5: replaced wrong Unicode anchor emoji with [Druckermarke] for the printer's mark (sailing ship in circle). CRITICAL: Only 5 of 165 images were transcribed — result is severely truncated (likely chunking failure). Retranscription needed for the remaining 160 pages.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:00:00Z"
+      }
     },
     {
       "id": "o_szd.174_gemini-3.1-flash-lite-preview",
@@ -23044,9 +23199,17 @@
         },
         {
           "page": 3,
-          "transcription": "(leer)",
+          "transcription": "",
           "notes": "Vorsatzblatt mit Registerreitern am rechten Rand.",
-          "type": "content"
+          "type": "blank",
+          "edit_history": [
+            {
+              "original_transcription": "(leer)",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:30:00Z",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 4,
@@ -23056,19 +23219,27 @@
         },
         {
           "page": 5,
-          "transcription": "V E R L E G E R\n----------------\nvor dem Index",
-          "notes": "Maschinenschriftlicher Titel auf der ersten Seite des Registers. Darunter schwache handschriftliche Bleistiftnotizen, die teilweise durch das Papier durchscheinen oder überlagert sind.",
-          "type": "content"
+          "transcription": "Editorial Apolo\nPasaje Mendez [?]\nBarcelona\n\nAschehoug & Co.\nOslo (Norwegen)\n\nVictor Attinger\n25, Rue [?]\nParis\n\nV E R L E G E R\n----------------\nvor dem Index\n\n[?] B[?]\nStockholm\n[?] 10 East 43rd Street\n[?] New York City\nTelegrm. [?]\n\nBiblioteca Letras\n[?]\nSantiago de Chile (Chile)\n\n[?] Svjetski Glasl [?]\nVondikova ul.7\nZagreb (Jugoslawien)\n\nAlbert Bonnier\nStravlgen [?]\nStockholm (Sweden)\n\n[...]\n[?] London [?]\n[?] 149, [?] [?]",
+          "notes": "Seite mit zentriertem Titel 'VERLEGER / vor dem Index'. Darueber und darunter zahlreiche maschinenschriftliche Verleger-Adressen mit handschriftlichen Ergaenzungen. Viele Eintraege nur teilweise lesbar.",
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "V E R L E G E R\n----------------\nvor dem Index",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T19:30:00Z",
+              "source": "agent"
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Die Transkription ist aufgrund der klaren Druckschrift und der wenigen handschriftlichen Elemente sehr sicher.",
       "verification": {
-        "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 1134,
-        "emptyPages": 0,
-        "avgCharsPerPage": 227,
+        "uncertainCount": 16,
+        "illegibleCount": 1,
+        "totalChars": 1513,
+        "emptyPages": 1,
+        "avgCharsPerPage": 378,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -23102,7 +23273,19 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-6",
+        "errors_found": 2,
+        "estimated_accuracy": 0.75,
+        "edited_pages": [
+          3,
+          5
+        ],
+        "notes": "Page 3: Changed type from 'content' to 'blank' and cleared '(leer)' transcription — page is a dark divider with register tabs, no text. Page 5: Gemini only transcribed the centered heading 'VERLEGER / vor dem Index' but omitted all publisher address entries above and below. Expanded transcription with entries readable from image (many marked [?]). CRITICAL NOTE: Only 5 of 122 images were transcribed — this object needs re-transcription for complete coverage. Language mismatch (fr detected) is due to page 4 being entirely in English/French.",
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-04-02T19:30:00Z"
+      }
     },
     {
       "id": "o_szd.194_gemini-3.1-flash-lite-preview",

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1733",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Richard Strauss vom [Dezember 1932], SZ-SAM/B8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1733/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1733/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1733/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Strauss vom [Dezember 1932], SZ-SAM/B8\n- Signatur: SZ-SAM/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nDr. Richard Strauss\n\nGarmisch-Partenkirchen\nZöppritzstrasse",
+        "notes": "Adressseite einer Postkarte. Gedruckter Vordruck mit handschriftlicher Adresse in violetter Tinte. Briefmarke oben rechts (10 Groschen, Österreich).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Verehrter Herr Doktor, ich warte\nnur Ihre Rückkunft ab, um Ihnen\nden abgeänderten und stark\nverkürzten Text der Scene im\nzweiten Akt zu senden. Auch\nder dritte Akt ist zur Hälfte fertig\nund wird bald ganz vollendet sein,\nso dass Sie das Sicherheitsgefühl\ndes completten Librettos bei der\nArbeit haben. Wenn es Ihnen recht\nist, würde ich dann ohne Sie zu\nstören (ich will selbst arbeiten)\nMitte Januar für ein paar Tage\nnach Garmisch kommen, um jede\nEinzelheit durchberaten zu können.\nherzlichst Ihr Stefan Zweig\n\nErgebene Empfehlungen Ihrer verehrten Frau Gemahlin",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Der letzte Satz am linken Rand ist vertikal von unten nach oben geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Enthält das gleiche Dokument wie Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die vertikale Randnotiz auf Seite 2 wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 684,
+    "total_words": 103,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      120,
+      564,
+      0
+    ],
+    "chars_per_page_median": 342.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4369,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

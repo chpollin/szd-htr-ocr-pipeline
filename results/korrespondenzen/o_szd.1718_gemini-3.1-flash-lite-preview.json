@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1718",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Anna Meingast vom 2. Dezember 1936, SZ-SAM/B7.85",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1718/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1718/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 2. Dezember 1936, SZ-SAM/B7.85\n- Signatur: SZ-SAM/B7.85\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Law Courts and Fleet Street, London. 2. Dez. 36\nStefan Z.",
+        "notes": "Vorderseite einer Ansichtspostkarte. Gedruckter Titel der Ansicht, handschriftliche Datierung und Signatur von Stefan Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebe Frau Meingast, ich habe\nIhnen noch gar nicht\ngedankt, aber sei es drum\nwir sind seit einem schrecklich\nknappen nur an London ja\nbald. Ich melde mich vor\nder Rückkehr nur rechtzeitig\nan. Viele Grüße an alle\nStefan Zweig\n\nFrau Anna Meingast\nSalzburg (Austria)\nLinzergasse 16",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Gedruckter Text im oberen Bereich ('POST CARD', 'CHURCH OF ST. CLEMENT DANES...'). Briefmarke oben rechts mit Poststempel.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist charakteristisch und weitgehend eindeutig zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 335,
+    "total_words": 58,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      57,
+      278
+    ],
+    "chars_per_page_median": 167.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4364,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

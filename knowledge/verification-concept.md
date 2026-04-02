@@ -1013,12 +1013,27 @@ Agent-Verifikation kombiniert die Staerke von VbV (Bild-Text-Vergleich) mit der 
 
 ### 8.5 Empirische Ergebnisse
 
-In Session 18 wurden 12 Objekte agent-verifiziert (→ [[evaluation-results]] fuer Details):
+Bis Session 20 wurden **44 Objekte** agent-verifiziert in 7 Batches (→ [[evaluation-results]] fuer Details):
 
-- **4 Objekte fehlerfrei** (100% Genauigkeit)
-- **6 Objekte mit 1–5 Fehlern** (99.1–99.9%)
-- **2 Objekte mit Strukturproblemen** (90–98.5%)
-- **Hauptfehlertypen**: Fraktur f/s-Verwechslung (hoch), Grossschreibung (niedrig), Tabellenstruktur (hoch)
+- **22 Objekte fehlerfrei** (97–100% Genauigkeit)
+- **18 Objekte mit 1–5 Fehlern** (95–99.9%)
+- **4 Objekte mit schweren Problemen** (75–93%, Truncation oder tabellarisch)
+- **Hauptfehlertypen**: Fraktur f/s + Nonsens-Halluzination (hoch), Kurrent-Verwechslungen (hoch), fremdsprachliche Vokale (mittel), Truncation bei grossen Objekten (kritisch)
+
+### 8.6 Edit-Tracking (ab Session 20)
+
+Alle Agent-Korrekturen werden mit `edit_history` pro Seite gespeichert — der Originaltext bleibt erhalten und ist im Frontend als Side-by-Side-Diff sichtbar (Tab "Korrekturen" neben "Modellkonsensus"). Gleiches gilt fuer menschliche Edits via `serve.py`.
+
+```json
+"edit_history": [{
+  "original_transcription": "Text vor Korrektur",
+  "edited_by": "Claude Code Agent",
+  "edited_at": "2026-04-02T...",
+  "source": "agent"
+}]
+```
+
+**Implementierung**: `serve.py` (human edits), Agent-Anweisungen (agent edits), `backfill_edit_history.py` (retroaktiv). Frontend: `renderEditDiffView()` in `app.js`, gruen/amber Farbschema in `app.css`.
 
 ---
 

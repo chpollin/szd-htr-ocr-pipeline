@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1668",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.35",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1668/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1668/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1668/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.35\n- Signatur: SZ-SAM/AK.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "PALERMO - Il Monte Pellegrino visto dal Mare",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Palermo und dem Monte Pellegrino. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Palermo 26-11-28\nSehr froh, Ihren Freund\nFelix Braun, kennen ge-\nlernt zu haben, hoffe\nich sehr, Sie u. Frau Stefan\nSie bald bei uns begrü-\nssen zu können. Berta Burgio-\nAhrens.\nSchönen Gruß! Felix\nneunzehnjährige Lehrerin.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Die Adresse ist durchgestrichen. Briefmarken und Poststempel vorhanden (Palermo 27.XI.28). Der Text am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Palermo 26-11-28\nSehr froh, Ihren Freund\nFelix Braun, kennen ge-\nlernt zu haben, hoffe\nich sehr, Sie u. Frau Stefan\nSie bald bei uns begrü-\nssen zu können. Berta Burgio-\nAhrens.\nSchönen Gruß! Felix\nneunzehnjährige Lehrerin.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der durchgestrichenen Adresszeilen und der vertikalen Schrift am Rand."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 490,
+    "total_words": 80,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      44,
+      223,
+      223
+    ],
+    "chars_per_page_median": 223,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3636,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

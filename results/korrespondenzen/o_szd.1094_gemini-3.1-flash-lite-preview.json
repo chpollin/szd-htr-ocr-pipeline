@@ -23,19 +23,39 @@
       },
       {
         "page": 2,
-        "transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur” Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit” und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+        "transcription": "Lieber Max, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur“ Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit“ und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende Dir\nherzliche Grüße Dein\nStefan Zweig",
         "notes": "Textseite der Postkarte. 'Pariser' und 'Binder' sind unsichere Lesungen aufgrund der Handschrift.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur“ Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit“ und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 3,
-        "transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur” Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit” und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+        "transcription": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur“ Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit“ und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
         "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet.",
         "type": "color_chart"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist flüssig, aber einige Eigennamen und Abkürzungen sind schwer zu entziffern. Die Lesung 'Komotau' und 'Binder' ist aufgrund der Schriftführung unsicher."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 1 (address side): Transcription captures main address elements but postal stamps obscure some text; pre-printed 'Correspondenz-Karte' header not transcribed — acceptable. Page 2: Three corrections made: (1) 'Mac' → 'Max' (addressee is Max Fleischer, Kurrent x misread as c), (2) 'nur' → 'Dir' (Kurrent n/D confusion, 'sende Dir' is grammatically correct), (3) 'Viele' → 'Dein' (closing formula 'Dein Stefan Zweig' is standard). Uncertain readings 'Pariser[?]' and 'Binder[?]' retained — both plausible but not confirmable from image alone. Page 3 correctly classified as color_chart. duplicate_pages flag is a false positive caused by color-chart re-photography of page 2.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

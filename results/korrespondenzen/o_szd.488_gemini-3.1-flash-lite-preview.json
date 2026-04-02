@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.488",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jean de Bosschère an Stefan Zweig, 1920-06-20, SZ-SAM/AK.20",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.488/IMG.1",
+      "https://gams.uni-graz.at/o:szd.488/IMG.2",
+      "https://gams.uni-graz.at/o:szd.488/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jean de Bosschère an Stefan Zweig, 1920-06-20, SZ-SAM/AK.20\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Huis ” de Gulde Spoor ” Antwerpen. – St. Christoffelzaal, schoorsteenzijde.\nLichtdruk G. Hermans, Antwerpen. 20. Juni 1920",
+        "notes": "Vorderseite der Postkarte mit Abbildung eines Interieurs. Der Text am unteren Rand ist gedruckt, das Datum handschriftlich hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bruxelles,\n7 rue de la Bigorne\n\nCARTE POSTALE\nPOSTKAART\n\nCorrespondance — Briefwisseling\nMonsieur, par ce courrier je vous\nenvoie mon dernier livre. – Voulez-\nvous me dire si vous lisez la\nrevue ” l'Occident ”? Si vous n'avez\npas le no qui contient mon portrait\nde Cuerbal (Suarès), je vous l'en-\nverrai volontiers. Vous trouverez\ndans le prochain no de Poème et\nDrame un dessin qui représente\nla chambre de Suarès, vous le re-\nconnaîtrez. Salutations distingués,\nJean de Bosschère.\n\nÀ Monsieur Stefan Zweig,\n8 Kochgasse,\nWien,\nAutriche.",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in französischer Sprache. Der Absender ist Jean de Bosschère. Ein Poststempel ist schwach erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist klar und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 659,
+    "total_words": 106,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      122,
+      537,
+      0
+    ],
+    "chars_per_page_median": 329.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2755,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

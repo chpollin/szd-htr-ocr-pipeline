@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.407",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hans Müller Einigen an Stefan Zweig, 1912-12-28, SZ-SAM/AK.126",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.407/IMG.1",
+      "https://gams.uni-graz.at/o:szd.407/IMG.2",
+      "https://gams.uni-graz.at/o:szd.407/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1912-12-28, SZ-SAM/AK.126\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.126\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ganz hübsche Vorstellung werden. Aber\ndiese [?] antlofen [?] Verfasserin! Heute morgen\nbin ich bei Thoma und Barnowski am,\nsage und schreibe, 7 Uhr weckfreitag[?] kommen.\nSei gegrüßt von Deinem\nHansM.",
+        "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text über dem Bildmotiv. Das Bild zeigt den Marienplatz in München.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "München, 28.12.12.\n\nLieber Stefan herzlichen Dank\nfür Deine liebe Karte und\nunsre Grüße aus München.\nWir sprechen viel über das Herren\nSchicksal Deines Stückes; und\nes wird von den Theaterleuten\nselbst zugegeben, daß man sich\nverfängt hat. Nur, wer hält es\nnoch besser. Übrigens heißen die\nProben aufs schärfste, es wird eine\n\nHr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressierung. Briefmarke Bayern 5 Pfennig, Poststempel München 28.12.12.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Grauskala und Farbkarte zur Archivierung, dazwischen die bereits transkribierte Postkartenrückseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere bei Eigennamen und einzelnen Wörtern wie 'antlofen' oder 'weckfreitag'. Der Kontext der Postkarte ist jedoch gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 566,
+    "total_words": 90,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      200,
+      366,
+      0
+    ],
+    "chars_per_page_median": 283.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0333,
+    "dwr_score": 0.4118,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

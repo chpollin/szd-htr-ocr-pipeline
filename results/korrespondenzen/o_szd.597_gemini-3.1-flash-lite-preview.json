@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.597",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Martin Buber an Stefan Zweig, 1917-08-26, SZ-SAM/AK.30",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.597/IMG.1",
+      "https://gams.uni-graz.at/o:szd.597/IMG.2",
+      "https://gams.uni-graz.at/o:szd.597/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Martin Buber an Stefan Zweig, 1917-08-26, SZ-SAM/AK.30\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Oberstdorf Allgäu. 26.8.17",
+        "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Handschriftliche Orts- und Datumsangabe am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Abendstimmung im Oytal\nBirsau 1006m, b. Oberstdorf, Allgäu, 26.VIII.17\n\nVielen Dank, lieber Herr\nZweig, für die wertvolle Gabe.\nIch bin leidend und weiss\ndaher nicht, ob ich im „Juda“,\nder an dem Buch gewiss nicht\nvorbeigehen darf, selber darüber\nschreiben kann, oder einen an-\ndern (etwa Viertel?) darum\nersuchen muss. Nächstens mehr\ndavon. Mit herzlichem Gruss\nM. Buber\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden. Gedruckte Verlagsangaben am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Abendstimmung im Oytal\nBirsau 1006m, b. Oberstdorf, Allgäu, 26.VIII.17\n\nVielen Dank, lieber Herr\nZweig, für die wertvolle Gabe.\nIch bin leidend und weiss\ndaher nicht, ob ich im „Juda“,\nder an dem Buch gewiss nicht\nvorbeigehen darf, selber darüber\nschreiben kann, oder einen an-\ndern (etwa Viertel?) darum\nersuchen muss. Nächstens mehr\ndavon. Mit herzlichem Gruss\nM. Buber\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+        "notes": "Scan der Ansichtskarte inklusive Archiv-Farbskalen. Inhalt identisch mit Seite 2.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige unsichere Stelle ist der Name 'Viertel' (im Kontext einer Person/eines Autors), der jedoch paläographisch plausibel ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 862,
+    "total_words": 135,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      26,
+      418,
+      418
+    ],
+    "chars_per_page_median": 418,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3636,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

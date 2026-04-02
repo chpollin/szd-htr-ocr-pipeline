@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.546",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Paul Zifferer an Stefan Zweig, 1924-07-29, SZ-SAM/AK.254",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.546/IMG.1",
+      "https://gams.uni-graz.at/o:szd.546/IMG.2",
+      "https://gams.uni-graz.at/o:szd.546/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Paul Zifferer an Stefan Zweig, 1924-07-29, SZ-SAM/AK.254\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.254\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Cima Rosetta m. 2741\nRifugio della Rosetta m. 2568 s. m.\n29. Juli 1924",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum. Stempel der 'Società Alpinisti Tridentini' überlagert den Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "29. Juli 24\nLieber Freund,\ndiese Karte möge Ihnen\nmit meinen herzlichen\nGrüßen die Nachricht\nbringen, dass ich vom 3. - 7.\nAugust in Tablach (Italien)\nSüdbahnhotel sind vom 8. - 16.\nAugust in Alt - Aussee\nbin. Vielleicht machen Sie\nBesuch eine Ausreise\nnach Kammern [?] [?]\nWir wohnen im Parkhotel.\nEine Herzens Ihren Frau\nGemahlin!\naufrichtig Ihr\nPaul Zifferer",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarken und Poststempel vorhanden. Die Zeile 'nach Kammern [?] [?]' ist schwer lesbar, möglicherweise Ortsnamen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf, insbesondere im Bereich der Reisepläne und der Grußformel."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 431,
+    "total_words": 75,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      70,
+      361,
+      0
+    ],
+    "chars_per_page_median": 215.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0267,
+    "dwr_score": 0.35,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

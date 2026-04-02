@@ -1,0 +1,76 @@
+{
+  "object_id": "o_szd.554",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Felix Albrecht Harta an Stefan Zweig, 1926-08-11, SZ-SAM/AK.261",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.554/IMG.1",
+      "https://gams.uni-graz.at/o:szd.554/IMG.2",
+      "https://gams.uni-graz.at/o:szd.554/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Felix Albrecht Harta an Stefan Zweig, 1926-08-11, SZ-SAM/AK.261\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.261\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Postkarte: Fotografie von Wasserspeiern an der Kathedrale Notre-Dame de Paris. Unten links 'Yvon'.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Série 7\n130\nPARIS..EN FLANANT\nNotre-Dame de Paris - Détail de la façade Sud\nA detail of the southern front\n\nLieber Freund, Salzburg\nund Ihrer geliebten\nsenden wir Ihnen aus\nParis die besten Grüße.\nIhr HARTA\nElly Harta\nSeuphor[?]\n(Antwerpen)\nun peintre\njaponais\n\nMonsieur\nStefan Zweig\n\nSalzburg\nKapuzinerberg\n[durchgestrichen: Trompeter-Schlössl]\nAutriche",
+        "notes": "Rückseite der Postkarte. Handschriftliche Nachricht von Felix Albrecht Harta und Elly Harta. Der Text 'Trompeter-Schlössl' ist durchgestrichen. Zwei französische Briefmarken (Pasteur, 45c) mit Poststempel 'PARIS 11-8 26'. Der Name 'Seuphor' ist schwer lesbar, könnte auch 'Seuphor' oder ähnlich lauten.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von der Signatur 'Seuphor', die aufgrund der Handschrift leicht unsicher ist. Die Durchstreichung wurde gemäß den Regeln markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 354,
+    "total_words": 51,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      354,
+      0
+    ],
+    "chars_per_page_median": 354,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0196,
+    "dwr_score": 0.098,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch",
+      "low_dwr"
+    ]
+  }
+}

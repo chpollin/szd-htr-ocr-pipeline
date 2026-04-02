@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1810",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Werner Stauffacher vom 24. Mai 1938, SZ-AAP/B1.244",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1810/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1810/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 24. Mai 1938, SZ-AAP/B1.244\n- Signatur: SZ-AAP/B1.244\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                          24. Mai 1938.\nHerrn Dr. Werner Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\nIch danke Ihnen sehr für Ihren freundlichen\nBrief. Mein Standpunkt ist ja der, dass ich schon aus\nTaktgefühl ungern die Schweizer Gerichte in einer Ange-\nlegenheit anrufen würde, die zwischen zwei Oesterrei-\nchern spielt. Erst wenn mich Herr Reichner durch sein\nunqualifizierbares Vorgehen dazu zwingt, werde ich es\ntun müssen. Ich habe jetzt ganze Packen Briefe in Hän-\nden, die nachweisen, dass Verleger und Vertreter gleich-\nfalls seine Adresse nicht erfahren können und es liegt\nmeiner Ansicht nach eine Absicht darin, die mir suspekt\nerscheinen muss, wenn er, der mir zur Auskunft legal\nverpflichtet ist und sich durchaus mein Verleger nennen\nwill, mir seine Adresse und seine Dispositionen ver-\nschweigt. Nicht nur ich allein, sondern jeder merkt,\ndass da etwas nicht in Ordnung geht. Ich warte also\nzunächst noch ruhig ab und fühle mich anderseits viel",
+        "notes": "Typoskript auf Briefpapier. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sicherer, solange Sie noch sein Prokurist und Vertreter\nsind. Allerdings glaube ich, dass Sie als sein einge-\ntragener Vertreter und Prokurist gleicherweise den An-\nspruch hätten, über die Art der Geschäfte des sogenann-\nten Züricher Verlages informiert zu werden. Denn nach\naussen hin gelten Sie schon durch Ihre Adresse als sein\nVertreter. Aber Herr Reichner glaubt aller Menschen\nsich bedienen zu können und niemandem verpflichtet zu\nsein, eine Auskunft zu geben: ich habe dies, wie gesagt,\nnicht nur an meiner Person, sondern auch bei seinen Ver-\ntretern, Buchhändlern und Angestellten zur Genüge fest-\nstellen können.\nMir war es sehr unangenehm, Sie in\ndieser Sache bemühen zu müssen, aber bitte glauben Sie\nmir, dass ich auch in Ihrem Interesse daran gedacht habe.\nDenn wie ich als Autor, so werden auch Sie als Prokurist\nbis zu einem gewissen Grade für die Gestionen des Herbert\nReichner Verlages mitverantwortlich gemacht, da doch jeder\nals selbstverständlich annimmt, dass Herr Reichner uns\nverständigt hat.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript auf Briefpapier. Die Seite endet vor der Unterschrift.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, es handelt sich um ein klares Typoskript."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2067,
+    "total_words": 316,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1003,
+      1064
+    ],
+    "chars_per_page_median": 1033.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5208,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1747",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 4. Oktober 1937, SZ-AAP/B1.101",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1747/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1747/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 4. Oktober 1937, SZ-AAP/B1.101\n- Signatur: SZ-AAP/B1.101\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4.Oktober 1937.\n\nGeehrter Herr Reichner!\n\nIch danke Ihnen sehr für die drei Bücher,\ndie alle sehr schön aussehen. Leider hat ja gerade\n\"Kette\" und \"Kaleidoskop\" den Tiefpunkt der Reichne-\nrischen Einbände dargestellt.\nZu \"Magellan\" und \"Begegnungen\" möchte ich\nnoch erinnern (ich schrieb es schon einmal), dass ich\nlieber jetzt schon die Versandlisten der Bücher haben\nmöchte, damit ich darin eine Reihe Namen streichen,\nrespektive einfügen kann.\nEbenso erwarte ich noch von Herrn Fuchs\ndie kleine Liste der in der dritten Korrektur vorge-\nnommenen Verbesserungen, damit ich sie den ausländi-\nschen Verlegern weitergeben kann.\n\nMit besten Empfehlungen",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 651,
+    "total_words": 96,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      651,
+      0
+    ],
+    "chars_per_page_median": 651,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4737,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

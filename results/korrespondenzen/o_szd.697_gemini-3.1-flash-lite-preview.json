@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.697",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 19. Oktober 1937, SZ-AAP/B1.108",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.697/IMG.1",
+      "https://gams.uni-graz.at/o:szd.697/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 19. Oktober 1937, SZ-AAP/B1.108\n- Signatur: SZ-AAP/B1.108\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19.Oktober 1937.\n\nGeehrter Herr Reichner!\n\nEs sind hier wohlbehalten 27 Exemplare der\n\"Begegnungen\" eingetroffen und ich hoffe dann auch bald\ndie gebundenen zu erhalten (Bitte zunächst zwanzig Exempla-\nre). Die gehefteten sehen ausgezeichnet aus, freilich wäre\nzu erproben, ob der Rückeneinband bei wirklich starkem Le-\nsen standhält, was ja immerhin bei einem so umfangreichen\nBuche eine Gefahr darstellt.\nMit Magellan geht alles , wie ich hoffe, mun-\nter vorwärts und ich bitte nur nicht zu vergessen, Cassell\nrechtzeitig die Illustrationen zu schicken.\nDr. Wiesengrund, der ja bei dem Bergbuch mit-\ngearbeitet hat, machte mich auf etwas aufmerksam, was für\nden Verlag meiner Meinung nach eine sehr schöne Sache wä-\nre, nämlich dass von Arnold Schönberg eine sehr bedeutende\nungedruckte Studie über Mahler etwa im Umfang von Walters\n\"Moralischen Kräften..\" existiert. Willi Reich kennt sie\nund vielleicht könnte es gelingen, sie für Ihre Serie zu",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "bekommen. Sie hätten dann eine wunderbare Konzentration\nder ganzen modernen Musik, wenn Sie auch seinen Namen un-\nter den Autoren hätten. Lassen Sie diese Sache nicht aus-\nser Acht und schreiben Sie ihm entweder direkt oder viel-\nleicht besser, lassen Sie sich durch Willi Reich erst in-\nformieren.\n\nMit den besten Empfehlungen\n\nBitte schicken Sie mir auch ein Verzeichnis, an wen Sie\nausser den in den beiden Listen aufgeführten Personen noch\nKorrekturbogen oder Exemplare der \"Begegnungen\" und \"Ma-\ngellan\" gesandt haben, damit ich nicht versehentlich dop-\npelt schicke.",
+        "notes": "Typoskript auf Briefpapier, Fortsetzung der Seite 1.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1520,
+    "total_words": 232,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      948,
+      572
+    ],
+    "chars_per_page_median": 760.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4629,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

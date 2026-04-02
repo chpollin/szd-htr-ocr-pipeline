@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.465",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jethro Bithell an Stefan Zweig, 1909-08-09, SZ-SAM/AK.18",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.465/IMG.1",
+      "https://gams.uni-graz.at/o:szd.465/IMG.2",
+      "https://gams.uni-graz.at/o:szd.465/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jethro Bithell an Stefan Zweig, 1909-08-09, SZ-SAM/AK.18\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dorfpartie auf Föhr\n9.8.09.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Grosze Stiasze, 58, Wyk auf Föhr,\nAug 9/09.\n\nDear Sir,\nI beg to thank you very sincerely for\nyour kind permission to print my\ntranslation of your poems, and for the\ninterest you show in the work. I will\nsend you the proofs which concern you,\nand, of course, the book itself. I am\nvery much interested to hear of the\nFrench translations. Yours very sincerely\nJ. Bithell\n\nPostkarte\n\nStefan Zweig, Esq.\nVIII. Kochgasse 8\nIn Wien.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in englischer Sprache. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 453,
+    "total_words": 81,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      426,
+      0
+    ],
+    "chars_per_page_median": 226.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4156,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -17,9 +17,17 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschenmdass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+        "transcription": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschehn,dass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
         "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die handschriftliche Einfügung '{Menschen von res}' am linken Rand bezieht sich auf die Zeile 'groesste Courtoisie'. Das Wort 'das' wurde handschriftlich über der Zeile eingefügt.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschenmdass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T20:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -36,6 +44,16 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [1],
+    "notes": "Typewritten letter with handwritten annotations. Page 1: corrected 'geschenmdass' → 'geschehn,dass' (misread 'h' as 'm', missing comma). Handwritten marginal note '{Menschen von res}' is difficult but left as-is (not confident enough to correct). Top archival annotations (undatiert, Brasilien, (Rio?) 1941) correctly captured. Page 2 blank (reverse shows bleed-through). Page 3 confirmed color chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.1783",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 6. Mai 1938, SZ-AAP/B1.217",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1783/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. Mai 1938, SZ-AAP/B1.217\n- Signatur: SZ-AAP/B1.217\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\n\nZürich 1, Limmatquai 50\n\nHerrn\nDr. Stefan Z w e i g ,\nL o n d o n W. I.\n49. Hallam street.\n\nZürich, den 6. Mai 1938.\n\nLieber Herr Doktor,\nIhr Schreiben an die Vereinigung schweizer Verleger habe ich an den Präsidenten des Vereins schweizerischer Verlagsbuchhändler weitergeleitet.\nOb ein Ausländer die Genehmigung zur Ausübung seiner Tätigkeit und die Niederlassung erhält, wird von der städtischen, kantonalen und eidgenössischen Behörde entschieden. Falls Herr Reichner in Zürich eine Niederlassung verlangen würde, so würde mir hier davon Mitteilung gemacht. Sie können sicher sein, dass wir Schweizerischen Buchhändler und Verleger alles tun werden, um die Niederlassung zu verhindern, da wir sonst bei den gegenwärtigen Verhältnissen von den Ausländern die in die Schweiz kommen einfach erdrückt würden.\nEs wundert mich übrigens sehr, dass Herr Reichner diesen Standpunkt einnimmt, nachdem Sie mir doch vor einigen Jahren erklärt haben, dass Sie Ihre Verlagswerke ihm übergeben haben, weil es Ihr intimer Freund sei.\nWenn ich Ihnen einen Rat erteilen darf\nso würde ich in der Weise vorgehen, dass Sie Herrn Reichner durch eingeschriebenen Brief mitteilen, dass Sie verlangen,\ndass Ihre Bücher innert drei Monaten wieder im Buchhandel",
+        "notes": "Typoskript auf Firmenpapier. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\n\nZürich 1, Limmatquai 50\n\nBlatt 2 zu Brief an Herrn Dr. Stefan Zweig, London, 6.Mai 38.\n\nzu haben sind, ansonst Sie auf jeden Fall die Verlagsrechte wieder an sich zurückziehen würden.\nVor einigen Wochen habe ich sowohl an den Inselverlag, als auch an Herrn Reichner geschrieben, ob sie uns gestatten würden die Sternstunden der Menschheit in unserer Europäischen Bibliothek erscheinen zu lassen. Vom Inselverlag habe ich die Antwort bekommen, dass er die Verlagsrechte nicht mehr besitze. Von Herrn Reichner bin ich bis heute ohne Antwort geblieben.\nIch möchte Ihnen daher heute vorschlagen, dass Sie uns das Recht einräumen, die Sternstunden der Menschheit in unserer Europäischen Bibliothek erscheinen zu lassen. Es wäre dies zugleich ein Versuchsballon in der Reichner Angelegenheit.\nDarf ich Sie bitten sich gleich zu äussenn und uns Ihre Bedingungen mitzuteilen.\n\nMit den besten Grüssen zeichnet\nhochachtungsvoll:\nRascher & Cie A.-G.\n~~Rascher~~",
+        "notes": "Typoskript auf Firmenpapier. Die Unterschrift 'Rascher' ist handschriftlich durchgestrichen, darüber steht 'Rascher & Cie A.-G.' in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Korrektur auf Seite 3 ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2546,
+    "total_words": 375,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1417,
+      0,
+      1129,
+      0
+    ],
+    "chars_per_page_median": 1273.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3978,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

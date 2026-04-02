@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.457",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Will Scheller an Stefan Zweig, 1933-06-05, SZ-SAM/AK.172",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.457/IMG.1",
+      "https://gams.uni-graz.at/o:szd.457/IMG.2",
+      "https://gams.uni-graz.at/o:szd.457/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Will Scheller an Stefan Zweig, 1933-06-05, SZ-SAM/AK.172\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.172\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bad Heilbrunn 5/5. 33\nFodquelle",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notiz am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn Dr. Stefan Zweig\nSalzburg (Österreich)\nKapuzinerberg 5\n\nLieber Herr Doktor, bei dem Versuch, mich\nhier an frische Luft und dort für drei Jahre\nArbeit und für die Erlebnisse der letzten Zeit\nzuerholen, möchte ich die Frage nicht\nunterlassen, ob bei dieser vorern[?] Orientie-\nrung nicht ein Treffen und gründ-\nliche Aussprache möglich ist. Ich bin je-\ndenfalls in der ersten Juli-Woche noch\nin München - vielleicht läßt sich drin\netwas verabreden? Ich würde mich jedenfalls\nungeheuer freuen, auch so bald an eine\nGelegenheit wohl nicht wieder geboten\nwerden. Mein Domizil ist Haus\nViktoria. Mit herzlichen Grüßen\nIhr Will Scheller\n5. 5. 33.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarke und Poststempel vorhanden. 'vorern' ist unsicher gelesen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Scan mit Farbskala und Grauskala. Zeigt die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort ('vorern'), das aufgrund der Handschrift leicht zweideutig ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 676,
+    "total_words": 108,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      31,
+      645,
+      0
+    ],
+    "chars_per_page_median": 338.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0093,
+    "dwr_score": 0.4706,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

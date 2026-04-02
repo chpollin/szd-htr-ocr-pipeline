@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.470",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Carl Seelig an Stefan Zweig, 1931-09-03, SZ-SAM/AK.184",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.470/IMG.1",
+      "https://gams.uni-graz.at/o:szd.470/IMG.2",
+      "https://gams.uni-graz.at/o:szd.470/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Carl Seelig an Stefan Zweig, 1931-09-03, SZ-SAM/AK.184\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.184\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "37 CONSTANTINOPLE. Bosphore (Tours de Roumeli-Hissar)",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie der Festung Rumeli Hisarı am Bosporus.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nDr. Stefan Zweig\nSalzburg\nOesterreich (Austriche)\n\nStamboul, 3. Sept. 1930.\nLieber Stefan Zweig, Nachdem ich vor 2 Jahren für die N.F.P. in\nJapan, Australien u. China war, habe ich vor zwei Monaten\neine neue Reise durch den Balkan u. Kleinasien angetreten.\nVon hier aus wollte ich durch Russland heim, aber leider kommt\ndie Reise trotz den Erleichterungen, die mir die Sowjetgranddydje[?]\nauf den charmanten Empf. Brief von Barbusse verschaffen wollte,\nzu teuer. Ich gehe also durch Rumänien u. Ungarn, mache in\nWien wegen Tal etc. einige Tage Rast u. treffe wahrscheinlich\nam 28. Sept. in Salzburg ein. Hast Du Lust, dass wir uns dort\ntreffen, nur für ein, zwei Stunden, da ich Dich nicht aufhalten\nmöchte - jedoch nur, wenn es Dir wirklich Vergnügen macht,\nmich wiederzusehen? Dann bitte ich Dich um ein Wort an die Ad-\nresse: Carl Seelig, Schweizerische Gesandtschaft, Seilerstätte 3, Wien.\nMit besten [umgedreht am Rand:] Grüß an Dich u.\nDeine Frau.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violett-blauer Tinte. Briefmarke und Poststempel vorhanden. Das Wort 'Granddydje' ist schwer lesbar und könnte eine fehlerhafte Transkription oder ein Eigenname sein. Der Text am unteren Rand ist um 180 Grad gedreht geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierungszwecke. Die Ansichtskarte ist in der Mitte platziert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es bei einigen Wörtern (z.B. 'Granddydje') Unsicherheiten aufgrund der Handschrift. Die Ausrichtung des Textes am unteren Rand der Postkarte ist ungewöhnlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1012,
+    "total_words": 163,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      53,
+      959,
+      0
+    ],
+    "chars_per_page_median": 506.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0061,
+    "dwr_score": 0.3962,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
