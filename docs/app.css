@@ -1564,6 +1564,11 @@ body.view-stats #help { display: none; }
   border: 1px solid var(--sz-border);
 }
 
+.help-page__content a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .help-page__content h2 {
   font-size: 1.25rem;
   color: var(--sz-burgundy);
