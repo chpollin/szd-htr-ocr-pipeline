@@ -1,7 +1,7 @@
 ---
 title: "Research Vault"
 created: 2026-04-01
-updated: 2026-04-02
+updated: 2026-04-03
 type: moc
 status: stable
 ---
@@ -12,7 +12,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Leseordnung
 
-1. [[data-overview]] — Datengrundlage: 4 Sammlungen, 9 Gruppen, ~2107 Objekte
+1. [[data-overview]] — Datengrundlage: 4 Sammlungen, 9 Gruppen, 2107 Backup-Objekte
 2. [[annotation-protocol]] — Transkriptionskonventionen fuer das Referenz-Sample
 3. [[verification-concept]] — Qualitaetsmessung: GT, quality_signals, Cross-Model, VbV, GT-Pipeline (§7), Agent-Verifikation (§8)
 4. [[evaluation-results]] — CER-Baseline: 26 Objekte, 9 Gruppen, Agent-Verified vs. Human-Approved
@@ -31,7 +31,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Projektlog
 
-- [[journal]] — Chronologisches Log aller Sessions (1–18)
+- [[journal]] — Chronologisches Log aller Sessions
 
 ## Verwandte Dokumente (ausserhalb des Vaults)
 

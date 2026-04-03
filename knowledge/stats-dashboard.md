@@ -46,16 +46,23 @@ Zeigt die 3-stufige Verifikationsarchitektur (automatisch → Cross-Model → Ex
 - **Review-Status** (Donut): 5 Segmente — GT Verifiziert, Expert Geprueft, Agent Verifiziert, LLM OK, Needs Review. Nur Segmente mit Wert > 0 angezeigt. Klick auf "Needs Review" navigiert zu gefiltertem Katalog.
 - **VLM-Konfidenz** (Donut): High / Medium / Low. Explizit als "schwaches Signal" deklariert — Modelle ueberschaetzen ihre Leistung, validiert durch DWR und Konsensus.
 
-### Sektion 3: Qualitaetsverteilung
+### Sektion 2: Textcharakteristik
 
-Zeigt die Verteilung der wichtigsten Quality-Proxy-Metriken.
+Zeichen pro Inhaltsseite nach Dokumenttyp (horizontaler Balken). Zeigt die strukturelle Vielfalt des Nachlasses: Registerblaetter (Gruppe A, 73% der Handschrift) haben ~50 Zeichen/Seite, Zeitungsausschnitte ~4800. Quelle: `quality_signals.py` (chars_per_page) → `catalog.json` (verification.avgCharsPerPage).
 
-- **DWR-Verteilung** (Histogramm, 8 Bins): Farbcodiert — rot fuer DWR < 0.2 (Schwelle fuer `low_dwr`-Signal bei 0.15), gelb fuer Uebergangsbereich, gruen fuer akzeptabel. DWR ist der staerkste verfuegbare Qualitaets-Proxy ohne Ground Truth.
-- **Review-Gruende** (Horizontaler Balken): 6 Quality Signals sortiert nach Haeufigkeit. Zeigt welche Signale am haeufigsten feuern. Klick navigiert zur Needs-Review-Ansicht.
+### Sektion 3: Signalanalyse
 
-### Sektion 4: Modellkonsensus (konditional)
+Heatmap: Welche Dokumenttypen loesen welche Quality Signals aus? Anteil Objekte pro Gruppe in Prozent. Quelle: `quality_signals.py` (needs_review_reasons) → `catalog.json` (needsReviewReasons).
 
-Nur angezeigt wenn Konsensus-Daten vorhanden (`d.consensusCount > 0`, aktuell 29/746 Objekte).
+### Entfernte Sektionen (Session 22)
+
+Folgende Sektionen wurden entfernt, weil sie nicht gegroundet oder transient waren:
+
+- **Abdeckung/Fortschritt** — Produktions-Tracking, wird bei 100% sinnlos
+- **Seitenkomposition** — Inhalt/Leer/Farbskala als Chart, Information steht im Katalog
+- **DWR-Histogram** — DWR in v1.5 entfernt (rho=0.05, F1=0.20, mass Prosadichte, nicht Qualitaet)
+- **VLM-Konfidenz-Donut** — High/Medium/Low diskriminiert nicht zwischen fehlerfreien und fehlerhaften Transkriptionen
+- **Modellkonsensus** — CER zwischen Modellen misst Agreement, nicht Korrektheit; nur 29/1973 Objekte hatten Daten
 
 - **Konsensus-Kategorien** (Donut): 4 Kategorien — Verifiziert (CER < 3%), Moderat (CER < 10%), Abweichung, Divergent. Farbskala: dunkelgruen → gelb → orange → rot.
 - **CER-Verteilung** (Histogramm, 5 Bins): < 3%, 3–5%, 5–10%, 10–20%, ≥ 20%. Zeigt die Character Error Rate zwischen den beiden unabhaengigen VLM-Transkriptionen.

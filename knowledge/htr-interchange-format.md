@@ -89,7 +89,7 @@ Zusaetzlich `regions[]` mit Bounding Boxes, Regionstypen und regionsbezogenem Te
 
 ## 3. JSON Schema
 
-Das Schema ist als eigenstaendige, validierbare Datei verfuegbar: [`schemas/page-json-v0.1.json`](../schemas/page-json-v0.1.json)
+Das Schema ist als eigenstaendige, validierbare Datei verfuegbar: [`schemas/page-json-v0.2.json`](../schemas/page-json-v0.2.json) (v0.1 bleibt fuer Rueckwaertskompatibilitaet erhalten)
 
 ```json
 {
