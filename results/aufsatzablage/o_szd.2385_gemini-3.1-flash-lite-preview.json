@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2385",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Neumann, Karl Eugen, SZ-AAP/W-AA151.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2385/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2385/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Neumann, Karl Eugen\n- Signatur: SZ-AAP/W-AA151.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig\n- Anmerkungen: Ursprüngliche Aufschrift: \"(Karl Eugen\n                        Neumann)\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "(Neumann, Karl Eugen)\nErhabenes Vermächtnis (Reden Gotamo Buddhos)\n\n(Karl Eugen Neumann)\n\nErhabenes Vermächtnis.\n„Reden Gotamo Buddhos”",
+        "notes": "Handschriftliches Dokument, Tinte auf Papier. Es handelt sich um eine Beschriftung/Etikett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, daher keine Transkription.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "(Karl Eugen Neumann)\n\nErhabenes Vermächtnis.\n„Reden Gotamo Buddhos”",
+        "notes": "Handschriftliches Dokument, Tinte auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, daher keine Transkription.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "(Neumann, Karl Eugen)\nErhabenes Vermächtnis (Reden Gotamo Buddhos)",
+        "notes": "Handschriftliches Dokument, Tinte auf Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, daher keine Transkription.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "(Neumann, Karl Eugen)\nErhabenes Vermächtnis (Reden Gotamo Buddhos)\n\n(Karl Eugen Neumann)\n\nErhabenes Vermächtnis.\n„Reden Gotamo Buddhos”",
+        "notes": "Dokument mit Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich lesbar, da es sich um eine klare handschriftliche Beschriftung handelt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 403,
+    "total_words": 48,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      135,
+      0,
+      67,
+      0,
+      66,
+      0,
+      135
+    ],
+    "chars_per_page_median": 67,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

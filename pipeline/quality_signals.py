@@ -170,13 +170,18 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     marker_density = (n_uncertain + n_illegible) / total_words if total_words > 0 else 0.0
 
     # needs_review: Zusammengesetztes Flag (§2.4)
+    # Evaluated against 62 agent-verified objects (Session 21):
+    #   page_image_mismatch: 100% Precision (3/3) — strongest signal
+    #   page_length_anomaly: 100% Precision (2/2) — small sample but plausible
+    #   language_mismatch:    50% Precision (4/8) — measures metadata inconsistency
+    #   duplicate_pages:       0% Precision (0/1) — measures document structure, not errors
+    # duplicate_pages removed: flags Korrekturfahnen (2 versions of same proof) and
+    # registers (repetitive headers). Remains as informational field.
     reasons = []
     if page_length_anomalies:
         reasons.append("page_length_anomaly")
     if page_image_mismatch:
         reasons.append("page_image_mismatch")
-    if duplicate_page_pairs:
-        reasons.append("duplicate_pages")
     if not language_match:
         reasons.append("language_mismatch")
 

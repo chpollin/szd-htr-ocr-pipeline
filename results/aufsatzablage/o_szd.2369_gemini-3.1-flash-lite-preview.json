@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2369",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Romane, Zwei historische, SZ-AAP/W-AA166.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2369/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Romane, Zwei historische\n- Signatur: SZ-AAP/W-AA166.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Zwei historische\n                        Romane\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)\n\nZwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+        "notes": "Handschriftliches Dokument auf Papier. Zwei verschiedene Handschriften/Tintenfarben erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Ausschnitt eines Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Zwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+        "notes": "Ausschnitt des Dokuments, zeigt den unteren Teil mit dem Titel und den Autoren.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite des Papierstücks.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)",
+        "notes": "Ausschnitt des Dokuments, zeigt den oberen Teil mit der Notiz.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Rückseite des Papierstücks.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)\n\nZwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Keine Unklarheiten bei der Transkription."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 415,
+    "total_words": 51,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      139,
+      0,
+      79,
+      0,
+      58,
+      0,
+      139
+    ],
+    "chars_per_page_median": 79,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

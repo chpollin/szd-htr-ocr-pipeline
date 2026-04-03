@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2366",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Romain Rolland, SZ-AAP/W-AA165.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2366/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Romain Rolland\n- Signatur: SZ-AAP/W-AA165.4\n- Datum: 25. IV 1930\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violettes\n                                       Durchschlagpapier, Bleistift, schwarze Tinte, violette\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsatz abgesandt an\nHandbook-School, Michigan\n25. IV 1930\n\nDer Kampf für den Frieden und für die Verständigung der\nVölker, so notwendig er in unseren Tagen ist, hat eine moralische\nSchönheit verloren: die Gefahr. Es ist heute allgemein erlaubt, vom\nFrieden zu sprechen und die Brüderschaft zwischen den Nationen als\nSelbstverständlichkeit unserer Zivilisation zu fordern, und man\nfordert{eingefügt} damit eigentlich dasselbe ~~was~~ die meisten Staats-\nmänner, ~~was~~ die ersten geistigen Menschen der Epoche. Aber es gab\neine Zeit, wo das Wort \"Friede\" als Verrat galt, die Forderung nach\nVerständigung als Verbrechen gegen den eigenen Staat, und damals, als\nes Mut galt, diese Idee zu verteidigen, waren es nur wenige, die sich\naus den europäischen Ländern um Romain Rolland zu scharen wagten, eine\nkleine, heute fast vergessene Gruppe. Aber sie allein hat damals gezeigt\ndass Ideale nicht eine Sache sind, die man im unbequemen Augenblick\nablegt wie ein zu enges Kleid, sondern dass jede Idee, einmal als\nwahr und notwendig erkannt, auch in Zeiten der Gefahr verteidigt\nwerden muss. Es ist darum nicht genug, wenn wir ~~heute viel von Frieden~~ den gefährlichen Begeisterten\nund xxx Verständigung reden, denn die meisten ~~unter uns~~ werden im\ngefährlichen Augenblick genau wie 1914 ~~wieder Hass predigen, über-~~\ntätigt von der Massensuggestion. Wichtig ist darum, die jungen Men-\nschen darauf vorzubereiten, innerlich gerüstet und bereit zu sein für\nden Augenblick, wo ihre Gesinnung ein Opfer verlangt, ~~und sogar gegen ihr Vaterland~~ (~~von Frieden~~)\nGegensatz zur allgemeinen Gesinnung steht. Das blosse Sprechen ~~genug~~\nnicht, es muss ein Gelöbnis werden, auch in den schweren Stunden bei\ndieser Ueberzeugung zu verharren, und es ist besser, wie bleiben wenige,\naber vollkommen Sichere als viele Ungewisse und Schwankende. Das Bei-.\nspiel Romain Rollands möge da einer ganzen Generation ein Vorbild sein,\n~~sie~~ an den Preis, den er für seine Haltung bezahlte, nähmlich\n~~sie~~ möge sich erinnern, dass sein eigenes Land ihn wie einen Feind ver-\nfolgt hat, weil er der Idee der Humanität treu blieb, und dass noch\nheute ihm ein engstirniger und unhumaner Patriotismus sein Bekennt-\nnis zur Unabhängigkeit des Geistes nicht verziehen hat. Vergessen wir\nnicht, dass den Krieg verabscheuen keineswegs bedeutet, dem geistigen\nKampf auszuweichen - im Gegenteil, wir lieben diesen Kampf, er ist der\neinzige auf Erden, um dessenwillen wir freundig und verantwortlich leben",
+        "notes": "Typoskript mit zahlreichen handschriftlichen Korrekturen und Ergänzungen in Tinte und Bleistift. Die Lesbarkeit ist aufgrund der Korrekturen stellenweise erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "- 2 -\nund indem wir immer und immer wieder die Jugend aufrufen, den Krieg zu\nhassen, rufen wir sie auch gleichzeitig auf, diesem einzigen, der\nMenschheit würdigen Krieg gegen die Gleichgültigkeit, die Lauheit und\ndem Opportunismus auf Morden[?] immer treu zu sein.",
+        "notes": "Typoskript, Fortsetzung des Textes. Handschriftliche Ergänzung 'auf Morden' über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "- 2 -\nund indem wir immer und immer wieder die Jugend aufrufen, den Krieg zu\nhassen, rufen wir sie auch gleichzeitig auf, diesem einzigen, der\nMenschheit würdigen Krieg gegen die Gleichgültigkeit, die Lauheit und\ndem Opportunismus auf Morden[?] immer treu zu sein.",
+        "notes": "Identisch mit Seite 3, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Die handschriftlichen Korrekturen sind gut identifizierbar, auch wenn sie den ursprünglichen Typoskript-Text teilweise überlagern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3012,
+    "total_words": 462,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2484,
+      0,
+      264,
+      0,
+      264
+    ],
+    "chars_per_page_median": 1374.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0043,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

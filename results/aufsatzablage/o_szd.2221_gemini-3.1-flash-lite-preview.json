@@ -119,9 +119,7 @@
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

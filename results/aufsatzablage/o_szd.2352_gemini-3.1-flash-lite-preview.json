@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2352",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Reisen oder Gereist-Werden, SZ-AAP/W-AA161.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2352/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Reisen oder Gereist-Werden\n- Signatur: SZ-AAP/W-AA161.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift, roter Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Frühere Aufschrift: \"Reiseaufsätze\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Reisen oder Gereist-Werden\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+        "notes": "Handschrift. Der Text besteht aus einer Überschrift, einer Zwischenzeile, dem Haupttitel und einer Anmerkung am unteren Rand. Roter Strich unter der ersten Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Reiseaufsätze\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+        "notes": "Handschrift. Dies scheint eine Variante oder ein früherer Entwurf der Vorderseite zu sein. 'Reiseaufsätze' ist in rotem Stift geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Reisen oder Gereist-Werden",
+        "notes": "Handschrift auf einem schmalen Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Reisen oder Gereist-Werden\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+        "notes": "Identisch mit Seite 1, inklusive Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es handelt sich um wiederholte Notizen zum selben Thema."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 346,
+    "total_words": 43,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      111,
+      0,
+      98,
+      0,
+      26,
+      0,
+      111
+    ],
+    "chars_per_page_median": 98,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

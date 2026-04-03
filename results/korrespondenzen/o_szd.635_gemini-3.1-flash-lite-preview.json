@@ -73,7 +73,6 @@
     "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "duplicate_pages",
       "language_mismatch"
     ]
   }

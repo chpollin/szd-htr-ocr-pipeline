@@ -2,7 +2,7 @@
 title: "Research Journal"
 aliases: ["Journal"]
 created: 2026-03-30
-updated: 2026-04-02
+updated: 2026-04-03
 type: log
 status: stable
 related:
@@ -829,6 +829,70 @@ Klaerung einer scheinbaren Diskrepanz (127 Backup-Objekte vs. 138 Results bei Le
 - **Korrespondenzen-Qualitaet**: Ueberwiegend high confidence, vereinzelt medium/low bei schwieriger Handschrift
 - **JSON-Parsing-Retries**: Einige Objekte brauchen Retry wegen nicht-parseabrem Gemini-Output (z.B. o_szd.482, o_szd.564) — werden automatisch behandelt
 - **Batch-Robustheit**: Mit dem try/except-Fix ist die Pipeline jetzt resilient gegen Einzelfehler
+
+---
+
+## 2026-04-03 — Session 21: Scope-Bereinigung, GT-Review-Workflow, Signal-Evaluation
+
+### Scope-Bereinigung
+
+**Entfernt aus dem Projekt:**
+- Prompt-Ablation, Nondeterminismus-Test, Provider-Vergleich (nicht noetig fuer Projektziel)
+- Phase 5 (TEI/teiCrafter) — TEI-Erzeugung passiert im teiCrafter-Repo, nicht hier
+- `knowledge/tei-target-structure.md` und `knowledge/teiCrafter-integration.md` geloescht
+- Phase 6 (DIA-XAI) → Phase 5
+
+Beruehrte Dateien: Plan.md, CLAUDE.md, README.md, knowledge/index.md, dia-xai-integration.md, htr-interchange-format.md, layout-analysis.md, journal.md, evaluation-results.md, verification-concept.md.
+
+### GT-Review-Workflow
+
+**Problem:** Kein einziges Objekt hatte `gt_verified`-Status. Die CER-Zahlen in evaluation-results.md basierten auf Agent-Schaetzungen, nicht auf echtem Ground Truth. Nicht publikationsfaehig.
+
+**Loesung:** End-to-End GT-Review-Workflow implementiert:
+- `serve.py`: `gt_verified` als neuer Status (Tier 0), `ThreadingHTTPServer` (POST-Requests hingen bei Single-Threaded-Server), `find_result_file` bevorzugt primaeres Modell
+- `app.js`: GT Verify Button, "Gespeichert (JSON)" statt localStorage-Anzeige
+- `index.html`: GT Verify Button, Hilfe-Seite mit 4-Tier Review-Modell erklaert, verbesserte Tooltips
+- `/api/edit` speichert Originaltext in `edit_history` — Grundlage fuer CER-Berechnung (Pipeline-Original vs. Human-Korrektur)
+
+**Ergebnis:** o_szd.139 als erstes Objekt im Viewer editiert und verifiziert. edit_history bestaetigt. 14 weitere GT-Objekte definiert (15 Objekte, ~39 Content-Seiten, alle 9 Gruppen).
+
+### Quality-Signals v1.6: Empirische Evaluation
+
+**Methode:** 62 agent-verified Objekte mit `errors_found`-Daten als Referenz. Precision pro Signal berechnet.
+
+| Signal | N geflaggt | Precision | Entscheidung |
+|---|---|---|---|
+| `page_image_mismatch` | 3 | **100%** | Behalten — bestes Signal |
+| `page_length_anomaly` | 2 | **100%** | Behalten — kleine Stichprobe |
+| `language_mismatch` | 8 | **50%** | Behalten — Metadaten-Signal |
+| `duplicate_pages` | 1 | **0%** | Aus needs_review entfernt |
+| DWR | 0 | — | Seit v1.5 entfernt |
+| Marker-Density | 0 | — | Seit v1.5 entfernt |
+
+**Aenderungen:**
+- `duplicate_pages` aus `needs_review_reasons` entfernt (0% Precision, misst Dokumentstruktur statt Fehler)
+- DWR, Marker-Density, Seitenduplikate aus Dashboard-Signalanalyse entfernt
+- Backfill: 125 Objekte entflaggt
+- `needs_review`-Quote: 25% → **19.4%**
+
+**Begruendung `duplicate_pages`:** Korrekturfahnen enthalten physisch 2x denselben Text (Original + Korrekturversion, z.B. o_szd.1888: p0≡p7). Register haben repetitive Headers. Beides ist Dokumentstruktur, kein Transkriptionsfehler.
+
+### Truncation Re-Transkription
+
+5 Objekte mit extremer Truncation identifiziert (result_pages < 10% der Backup-Bilder):
+- o_szd.66 (2/141), o_szd.68 (3/202), o_szd.221 (1/51), o_szd.2271 (1/25), o_szd.2234 (2/13)
+
+Re-Transkription mit `--force --chunk-size 20` gestartet.
+
+### Statistiken
+
+| Metrik | Vorher | Nachher |
+|---|---|---|
+| needs_review-Quote | ~25% | 19.4% |
+| Signale im Dashboard | 6 Spalten | 3 Spalten |
+| gt_verified Objekte | 0 | 0 (Workflow bereit, 15 Objekte definiert) |
+| approved (human) | 15 | 16 (+o_szd.139 mit edit_history) |
+| Pipeline-Phasen | 6 (inkl. TEI) | 5 (ohne TEI) |
 
 ### Kontext
 

@@ -2209,12 +2209,9 @@ function showHelp() {
 /* ===== Stats Page ===== */
 
 const REASON_LABELS = {
-  duplicate_pages: 'Seitenduplikate',
   page_length_anomaly: 'Seitenl\u00e4ngen-Anomalie',
   page_image_mismatch: 'Bild-Text-Mismatch',
   language_mismatch: 'Sprach-Mismatch',
-  low_dwr: 'Niedriger DWR',
-  marker_density: 'Hohe Markerdichte',
 };
 const REASON_KEYS = Object.keys(REASON_LABELS);
 

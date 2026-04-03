@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2374",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Roth, Josef, SZ-AAP/W-AA168.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2374/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2374/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Roth, Josef\n- Signatur: SZ-AAP/W-AA168.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Josef Roth | Rechts und\n                        links\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Roth, Josef\nRechts und links\nDer Hiob von heute\nVerlust von J. Roth\nHommage a J. Roth\n\nIn memoriam\n\nJosef Roth\nRechts und links",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Zeilen enthalten Haken (Checkmarks) am Ende, die hier nicht explizit als Textzeichen transkribiert wurden, da sie als Markierungen dienen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Sichtbare Durchzeichnung der Tinte von der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "In memoriam\n\nJosef Roth\nRechts und links",
+        "notes": "Ausschnitt/Detailansicht des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Roth, Josef\nRechts und links\nDer Hiob von heute\nVerlust von J. Roth\nHommage a J. Roth",
+        "notes": "Ausschnitt/Detailansicht des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Roth, Josef\nRechts und links\nDer Hiob von heute\nVerlust von J. Roth\nHommage a J. Roth\n\nIn memoriam\n\nJosef Roth\nRechts und links",
+        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Haken am Zeilenende wurden als Markierungen interpretiert und nicht als Textbestandteil transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 379,
+    "total_words": 72,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      127,
+      0,
+      40,
+      0,
+      85,
+      0,
+      127
+    ],
+    "chars_per_page_median": 85,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

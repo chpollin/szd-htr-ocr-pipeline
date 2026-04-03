@@ -1,0 +1,122 @@
+{
+  "object_id": "o_szd.2387",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Nietzsche, SZ-AAP/W-AA152.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2387/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Nietzsche\n- Signatur: SZ-AAP/W-AA152.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Blatt nachträglich zugeschnitten, ursprüngliche Aufschrift\n                        unleserlich",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer bis auf einen braunen Fleck (Büroklammerabdruck).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "2. Juli.\n~~Der mordische Torture~~",
+        "notes": "Rückseite des Blattes, gedreht. Bleistiftnotiz '2. Juli.' und eine durchgestrichene Zeile in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer bis auf einen Fleck.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+        "notes": "Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+        "notes": "Vorderseite des Blattes mit Archiv-Farbskalen oben und unten.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die durchgestrichene Zeile auf Seite 3 ist aufgrund der Tintenführung gut als 'Der mordische Torture' (oder ähnlich) lesbar, wobei das letzte Wort aufgrund der Durchstreichung leicht unsicher ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 298,
+    "total_words": 47,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      88,
+      0,
+      34,
+      0,
+      88,
+      0,
+      88
+    ],
+    "chars_per_page_median": 88.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

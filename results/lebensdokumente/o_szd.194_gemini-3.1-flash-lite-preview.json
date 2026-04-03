@@ -1268,8 +1268,7 @@
     ],
     "needs_review": true,
     "needs_review_reasons": [
-      "page_length_anomaly",
-      "duplicate_pages"
+      "page_length_anomaly"
     ]
   }
 }

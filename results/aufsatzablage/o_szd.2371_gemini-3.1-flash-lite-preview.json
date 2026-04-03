@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2371",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Rosegger, Peter, SZ-AAP/W-AA167.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2371/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2371/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Rosegger, Peter\n- Signatur: SZ-AAP/W-AA167.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Peter Rosegger\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rosegger, Peter\nDer alle Heimgärtner\nPeter Rosegger +\n\n\n\nPeter\nRosegger\n\nWalte Heimgärtner",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus einem aufgeklebten Streifen mit dem Namen und dem Titel oben, sowie einer darunterliegenden Signatur und einem weiteren Namen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des aufgeklebten Streifens, teilweise sichtbar durch das Papier, aber nicht direkt beschriftet.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Peter\nRosegger\n\nWalte Heimgärtner",
+        "notes": "Handschrift in violetter Tinte auf dem Hauptblatt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Hauptblattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Rosegger, Peter\nDer alle Heimgärtner\nPeter Rosegger +",
+        "notes": "Detailaufnahme des aufgeklebten Streifens.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Hauptblattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Rosegger, Peter\nDer alle Heimgärtner\nPeter Rosegger +\n\n\n\nPeter\nRosegger\n\nWalte Heimgärtner",
+        "notes": "Gesamtansicht mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist deutlich lesbar. Bei 'Walte' könnte es sich um eine Abkürzung oder einen Eigennamen handeln, die Schrift ist jedoch eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 266,
+    "total_words": 36,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      90,
+      0,
+      33,
+      0,
+      53,
+      0,
+      90
+    ],
+    "chars_per_page_median": 53,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -20,7 +20,8 @@
       "https://gams.uni-graz.at/o:szd.2234/IMG.11",
       "https://gams.uni-graz.at/o:szd.2234/IMG.12",
       "https://gams.uni-graz.at/o:szd.2234/IMG.13"
-    ]
+    ],
+    "input_image_count_total": 13
   },
   "context": "## Dieses Dokument\n\n- Titel: Turm zu Babel, Der\n- Signatur: SZ-AAP/W-AA198.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"Die jüngste Generation der heutigen Lyriker\"; ursprüngliche\n                        Aufschrift des zweiten: \"Die Wanderung\"",
   "result": {
@@ -28,38 +29,126 @@
       {
         "page": 1,
         "transcription": "Turm zu Babel, Der\n(deutsch & französisch)\n\ndie jüngste Generation\nder deutschen\nLyriker",
-        "notes": "Zusammenstellung aus den ersten drei Scans (IMG_1, IMG_2, IMG_3). IMG_1 zeigt die Kombination der beiden Zettel.",
+        "notes": "Handschrift, violette Tinte. Es handelt sich um eine Zusammenstellung von zwei Zetteln, die hier gemeinsam abgebildet sind.",
         "type": "content"
       },
       {
         "page": 2,
-        "transcription": "Turm zu Babel, Der\n2 Ex\n\nDie Wanderung\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
-        "notes": "Zusammenstellung aus den Scans IMG_7, IMG_9, IMG_13. IMG_7 zeigt die Kombination der beiden Zettel.",
+        "transcription": "Turm zu Babel, Der\n(deutsch & französisch)",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 1.",
         "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "die jüngste Generation\nder deutschen\nLyriker",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 2.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite von Zettel 2, durchscheinender Text von der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Turm zu Babel, Der\n(deutsch & französisch)",
+        "notes": "Handschrift, violette Tinte. Zettel 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite von Zettel 2, durchscheinender Text von der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Turm zu Babel, Der\n\n2 Ex\n\nDie Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+        "notes": "Handschrift, violette Tinte. Zettel 3.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Die Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 3.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "Turm zu Babel, Der\n\n2 Ex",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 3.",
+        "type": "content"
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar.",
+        "type": "blank"
+      },
+      {
+        "page": 13,
+        "transcription": "Turm zu Babel, Der\n\n2 Ex\n\nDie Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+        "notes": "Handschrift, violette Tinte. Zettel 3 mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
-    "confidence_notes": "Der Text ist klar lesbar, die Struktur der Zettel (Vorder- und Rückseiten sowie Kombinationen) ist durch die Scans eindeutig nachvollziehbar."
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar."
   },
   "quality_signals": {
     "version": "1.5",
-    "total_chars": 193,
-    "total_words": 33,
-    "total_pages": 2,
-    "empty_pages": 0,
-    "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "total_chars": 535,
+    "total_words": 93,
+    "total_pages": 7,
+    "empty_pages": 5,
+    "blank_pages": 5,
+    "color_chart_pages": 1,
+    "content_pages": 7,
     "input_images": 13,
     "page_types": [
       "content",
-      "content"
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
     ],
     "chars_per_page": [
       88,
-      105
+      42,
+      44,
+      0,
+      42,
+      0,
+      107,
+      0,
+      81,
+      0,
+      24,
+      0,
+      107
     ],
-    "chars_per_page_median": 96.5,
+    "chars_per_page_median": 44,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
@@ -68,9 +157,7 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }
