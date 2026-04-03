@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2771",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Balzac, SZ-AAP/W-AA13.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2771/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2771/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2771/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2771/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2771/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Balzac\n- Signatur: SZ-AAP/W-AA13.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Balzac\nDie verloreirdischen[?] Bücher B's\nBalzac\nBesuch bei Balzac\nAnmerkungen zu Balzac\n\n\n\nHonoré Balzac\n\n\n\nTitel\nBesuch bei Balzac\nBalzac\nAnmerkungen zu Balzac\nDie unterirdischen Bücher\nBalzac",
+        "notes": "Handschriftliches Manuskript auf Papier. Die Zeile 'Die verloreirdischen Bücher' scheint ein Schreibfehler oder eine Korrektur zu sein, die im unteren Teil als 'Die unterirdischen Bücher' korrigiert wurde.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Teils des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Honoré Balzac\n\n\n\nTitel\nBesuch bei Balzac\nBalzac\nAnmerkungen zu Balzac\nDie unterirdischen Bücher\nBalzac",
+        "notes": "Ausschnitt des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des unteren Teils des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Balzac\nDie verloreirdischen[?] Bücher B's\nBalzac\nBesuch bei Balzac\nAnmerkungen zu Balzac\n\n\n\nHonoré Balzac\n\n\n\nTitel\nBesuch bei Balzac\nBalzac\nAnmerkungen zu Balzac\nDie unterirdischen Bücher\nBalzac",
+        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von dem Wort 'verloreirdischen', das vermutlich eine fehlerhafte Schreibweise für 'unterirdischen' ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 490,
+    "total_words": 66,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      194,
+      0,
+      102,
+      0,
+      194
+    ],
+    "chars_per_page_median": 148.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0303,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

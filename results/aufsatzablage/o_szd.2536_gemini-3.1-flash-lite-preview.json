@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2536",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hugo, Victor, SZ-AAP/W-AA91.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2536/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2536/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hugo, Victor\n- Signatur: SZ-AAP/W-AA91.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hugo, Victor\nVictor Hugo als Lyriker\n\n\nVictor Hugo",
+        "notes": "Handschrift. Titelblatt oder Umschlag mit dem Namen Victor Hugo und dem Titel 'Victor Hugo als Lyriker'. Unten das Faksimile einer Unterschrift von Victor Hugo.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ajanzin [?] lübeck, lpz, 15. März 1902",
+        "notes": "Handschriftlicher Vermerk auf einem schmalen Papierstreifen. Die erste Wortgruppe ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Victor Hugo",
+        "notes": "Handschriftliche Unterschrift von Victor Hugo auf einem Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Hugo, Victor\nVictor Hugo als Lyriker",
+        "notes": "Handschriftlicher Vermerk auf einem Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Rückseite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Hugo, Victor\nVictor Hugo als Lyriker\n\n\nVictor Hugo",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Grauskala und Farbkarte am Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Die erste Zeile auf Seite 2 ist aufgrund der flüchtigen Handschrift unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 185,
+    "total_words": 31,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      50,
+      38,
+      11,
+      0,
+      36,
+      0,
+      50
+    ],
+    "chars_per_page_median": 37.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0323,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2664",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Abschied von John Drinkwater, SZ-AAP/W-AA42.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2664/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2664/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2664/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Abschied von John Drinkwater\n- Signatur: SZ-AAP/W-AA42.1\n- Datum: 31. März 1937\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Zeitungsdruck, Seite 1 der 'National-Zeitung', Basel, vom 31. März 1937. Enthält den Artikel 'Abschied von John Drinkwater' von Stefan Zweig.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Zeitungsdruck, Seite 2 der 'National-Zeitung', Basel, vom 31. März 1937.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Zeitungsdruck, Seite 2 der 'National-Zeitung', Basel, vom 31. März 1937. Mit aufgelegten Archiv-Farbskalen/Grauskalen.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Es handelt sich um einen gedruckten Zeitungsartikel, der sehr gut lesbar ist. Da die Aufgabe die Transkription von Dokumenten aus dem Nachlass vorsieht, der hier vorliegende Scan jedoch eine komplette Zeitungsseite (gedruckt) darstellt, wurde keine Volltranskription der gesamten Zeitungsseite vorgenommen, da dies den Rahmen der diplomatischen Transkription eines 'Dokuments' (im Sinne eines Manuskripts) sprengen würde. Die Identifikation des Inhalts ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 0,
+    "total_words": 0,
+    "total_pages": 0,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 0,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "blank",
+      "blank"
+    ],
+    "chars_per_page": [
+      0,
+      0,
+      0
+    ],
+    "chars_per_page_median": 0.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

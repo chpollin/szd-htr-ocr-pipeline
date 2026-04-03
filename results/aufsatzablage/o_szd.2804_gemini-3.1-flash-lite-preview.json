@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2804",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufbau der neuen Generation, Der geistige, SZ-AAP/W-AA7.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2804/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufbau der neuen Generation, Der geistige\n- Signatur: SZ-AAP/W-AA7.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)\n\nDie\nMoralische Entgiftung\nEuropas",
+        "notes": "Handschrift in violetter Tinte. Es handelt sich um zwei separate Textstreifen, die auf einem Blatt montiert sind.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)",
+        "notes": "Handschrift in violetter Tinte. Ausschnitt des oberen Textstreifens.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Die\nMoralische Entgiftung\nEuropas",
+        "notes": "Handschrift in violetter Tinte. Ausschnitt des unteren Textstreifens.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Die\nMoralische Entgiftung\nEuropas",
+        "notes": "Rückseite des unteren Textstreifens, durchscheinender Text.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)",
+        "notes": "Ausschnitt des oberen Textstreifens.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Die\nMoralische Entgiftung\nEuropas",
+        "notes": "Rückseite des unteren Textstreifens, durchscheinender Text.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)\n\nDie\nMoralische Entgiftung\nEuropas",
+        "notes": "Gesamtansicht mit Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 549,
+    "total_words": 72,
+    "total_pages": 6,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 6,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      130,
+      95,
+      33,
+      33,
+      95,
+      33,
+      130
+    ],
+    "chars_per_page_median": 64.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

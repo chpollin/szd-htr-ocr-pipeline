@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2731",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bewerber, Sechsunddreißig ehrenwerte, SZ-AAP/W-AA18.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2731/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2731/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bewerber, Sechsunddreißig ehrenwerte\n- Signatur: SZ-AAP/W-AA18.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bewerber, Sechsunddreißig ehrenwerte\n\n\n\n\nSechsunddreissig\nBewerber",
+        "notes": "Handschrift in violetter Tinte. Es handelt sich um ein Blatt, das oben einen Streifen mit dem ersten Textabschnitt aufweist, darunter der zweite Textabschnitt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Streifens, durchscheinender Text von der Vorderseite sichtbar (nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Sechsunddreissig\nBewerber",
+        "notes": "Vorderseite des unteren Blatteils.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des unteren Blatteils, durchscheinender Text von der Vorderseite sichtbar (nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Bewerber, Sechsunddreißig ehrenwerte",
+        "notes": "Vorderseite des oberen Streifens.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des unteren Blatteils, durchscheinender Text von der Vorderseite sichtbar (nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Bewerber, Sechsunddreißig ehrenwerte\n\n\n\n\nSechsunddreissig\nBewerber",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich in violetter Tinte geschrieben. Die Struktur ist durch die verschiedenen Scans klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 193,
+    "total_words": 15,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      66,
+      0,
+      25,
+      0,
+      36,
+      0,
+      66
+    ],
+    "chars_per_page_median": 36,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2687",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Flaubert, SZ-AAP/W-AA51.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2687/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2687/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Flaubert\n- Signatur: SZ-AAP/W-AA51.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Flaubert\nFlauberts Nachlaß\nein schlichtes Herz. Herodias (Rezension)\nMadame Bovary (Rezension)\nDie Schule der Empfindsamkeit (Rezension)\n\nGustave Flaubert\n\nein schlichtes Herz (übersetzt von Ernst Hardt s. dort)\nHerodias ( „ „ Dr Paul Adler „ )\nMadame Bovary ( „ „ Dr Josef Ettlinger „ )\nDie Schule der Empfindsamkeit ( „ „ Luise Wolf „ )\nFlauberts Nachlaß (1. Band „ „ Paul Zifferer „ )",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Transkription umfasst den gesamten Text auf der Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Gustave Flaubert\n\nein schlichtes Herz (übersetzt von Ernst Hardt s. dort)\nHerodias ( „ „ Dr Paul Adler „ )\nMadame Bovary ( „ „ Dr Josef Ettlinger „ )\nDie Schule der Empfindsamkeit ( „ „ Luise Wolf „ )\nFlauberts Nachlaß (1. Band „ „ Paul Zifferer „ )",
+        "notes": "Ausschnitt der Vorderseite, unterer Teil.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Flaubert\nFlauberts Nachlaß\nein schlichtes Herz. Herodias (Rezension)\nMadame Bovary (Rezension)\nDie Schule der Empfindsamkeit (Rezension)",
+        "notes": "Ausschnitt der Vorderseite, oberer Teil.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Flaubert\nFlauberts Nachlaß\nein schlichtes Herz. Herodias (Rezension)\nMadame Bovary (Rezension)\nDie Schule der Empfindsamkeit (Rezension)\n\nGustave Flaubert\n\nein schlichtes Herz (übersetzt von Ernst Hardt s. dort)\nHerodias ( „ „ Dr Paul Adler „ )\nMadame Bovary ( „ „ Dr Josef Ettlinger „ )\nDie Schule der Empfindsamkeit ( „ „ Luise Wolf „ )\nFlauberts Nachlaß (1. Band „ „ Paul Zifferer „ )",
+        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Anführungszeichen und Abkürzungen sind eindeutig als solche zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1159,
+    "total_words": 201,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      387,
+      0,
+      249,
+      0,
+      136,
+      0,
+      387
+    ],
+    "chars_per_page_median": 249,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

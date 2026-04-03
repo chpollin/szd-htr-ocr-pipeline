@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2814",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze A, SZ-AAP/W-AA-A",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2814/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2814/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2814/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze A\n- Signatur: SZ-AAP/W-AA-A\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nAlgier ✓ Abendauquelle aus Algier\nAmbrosi ✓\nAmerika ✓\nAnnunzio, d' ✓\nAsch ✓\nAuernheimer ✓\nAufbau der neuen Generation ✓\nAufgaben der höheren Schulen ✓\nAufruf zur Geduld ✓\nAus abgesperrter Welt ✓\nAutographen ✓\nAustin, Jane : Notizen zu ✓",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte/Bleistift (Häkchen und Text). Oben rechts ein handschriftliches 'A' in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsätze\n--------\n\nAufgaben der höheren Schulen ✓\nAufruf zur Geduld ✓\nAus abgesperrter Welt ✓\nAutographen ✓\nAustin, Jane : Notizen zu ✓",
+        "notes": "Das Dokument ist teilweise von einer Farb- und Grauskala überdeckt. Der sichtbare Text entspricht dem unteren Teil der ersten Seite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen (Häkchen) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 390,
+    "total_words": 67,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      255,
+      0,
+      135
+    ],
+    "chars_per_page_median": 255,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

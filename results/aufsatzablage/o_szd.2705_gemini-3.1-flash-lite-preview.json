@@ -1,0 +1,132 @@
+{
+  "object_id": "o_szd.2705",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Chartres, Die Kathedrale von, SZ-AAP/W-AA33.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2705/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.9"
+    ],
+    "input_image_count_total": 9
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Chartres, Die Kathedrale von\n- Signatur: SZ-AAP/W-AA33.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+        "notes": "Handschriftliches Dokument auf einem gefalteten Blatt. Der obere Teil ist eine Notiz, der untere Teil scheint ein Titelblatt oder eine Beschriftung zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Die Kathedrale von\n\nChartres",
+        "notes": "Rückseite des unteren Teils des gefalteten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt",
+        "notes": "Vorderseite des oberen Teils des gefalteten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Die Kathedrale von\n\nChartres",
+        "notes": "Rückseite des unteren Teils des gefalteten Blattes (durchscheinend).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+        "notes": "Vorderseite des gefalteten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+        "notes": "Dokument mit Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich geschrieben. Die Wiederholungen in den Scans resultieren aus der Faltung des Blattes."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 330,
+    "total_words": 52,
+    "total_pages": 5,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 9,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      76,
+      28,
+      46,
+      28,
+      0,
+      0,
+      76,
+      0,
+      76
+    ],
+    "chars_per_page_median": 46,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

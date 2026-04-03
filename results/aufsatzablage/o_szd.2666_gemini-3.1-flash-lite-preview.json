@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2666",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ehrenstein, Albert, SZ-AAP/W-AA43.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2666/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2666/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ehrenstein, Albert\n- Signatur: SZ-AAP/W-AA43.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ehrenstein, Albert\nZwei Wiener (Soyka, Ehrenstein) (Rezension) \nA. E.'s Gedichte\nWiederbegegnung mit Kubelsky[?] (Rezensionen)\n\n\n\nAlbert Ehrenstein\nDer Selbstmord des Katers\n\nTitel\nZwei Wiener\nAlbert Ehrensteins Gedichte",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Transkription umfasst den gesamten Text auf dem Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Albert Ehrenstein\nDer Selbstmord des Katers\n\nTitel\nZwei Wiener\nAlbert Ehrensteins Gedichte",
+        "notes": "Ausschnitt/Detailansicht des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Ehrenstein, Albert\nZwei Wiener (Soyka, Ehrenstein) (Rezension) \nA. E.'s Gedichte\nWiederbegegnung mit Kubelsky[?] (Rezensionen)",
+        "notes": "Ausschnitt/Detailansicht des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Ehrenstein, Albert\nZwei Wiener (Soyka, Ehrenstein) (Rezension) \nA. E.'s Gedichte\nWiederbegegnung mit Kubelsky[?] (Rezensionen)\n\n\n\nAlbert Ehrenstein\nDer Selbstmord des Katers\n\nTitel\nZwei Wiener\nAlbert Ehrensteins Gedichte",
+        "notes": "Gesamtansicht des Dokuments mit Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. 'Kubelsky' ist aufgrund der Handschrift leicht unsicher, aber im Kontext von Albert Ehrenstein plausibel."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 656,
+    "total_words": 78,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      220,
+      0,
+      90,
+      0,
+      126,
+      0,
+      220
+    ],
+    "chars_per_page_median": 126,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0385,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

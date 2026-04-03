@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2787",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Registerblatt \"Ambrosi\", SZ-AAP/W-AA2.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2787/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2787/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2787/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2787/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2787/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ambrosi\n- Signatur: SZ-AAP/W-AA2.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ambrosi\n\nAmbrosi Gustinus",
+        "notes": "Handschrift, violette Tinte. Es handelt sich um ein Blatt, das oben links 'Ambrosi' und mittig 'Ambrosi Gustinus' zeigt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ambrosi",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Detailaufnahme der oberen linken Ecke von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Ambrosi Gustinus",
+        "notes": "Handschrift, violette Tinte. Ausschnitt/Detailaufnahme der mittigen Beschriftung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Ambrosi Gustinus",
+        "notes": "Handschrift, violette Tinte. Rückseite des Blattes, durchscheinende Schrift erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Ambrosi\n\nAmbrosi Gustinus",
+        "notes": "Handschrift, violette Tinte. Identisch mit Seite 1, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 89,
+    "total_words": 11,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      25,
+      7,
+      16,
+      16,
+      25
+    ],
+    "chars_per_page_median": 16.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

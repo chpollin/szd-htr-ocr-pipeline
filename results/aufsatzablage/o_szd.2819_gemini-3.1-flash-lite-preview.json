@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.2819",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze F, SZ-AAP/W-AA-F",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2819/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2819/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2819/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze F\n- Signatur: SZ-AAP/W-AA-F\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nFaesi, Robert ✓\nFlorenz ✓\nFlake, Otto ✓\nFlaubert ✓\nFrance, Anatole ✓\nFranck, Hans ✓\nFrankreich\nFrauen, An die ✓\nFreud, S. ✓\nFreunde, An die, in Fremdland ✓\nFried ✓\nFriedensbotschaft im Herbst ✓\n~~Freudenthal~~\nFünfzigjährigen, Die ✓\n\nFragment aus einer Novelle ✓\nFlüchtiger Spiegelblick ✓\nFuture of Writing in a World at War, The ✓",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen (Häkchen, Durchstreichungen, handschriftliche Zeilen am Ende). Das Dokument weist einen Einriss am linken Rand auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgelegter Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der handschriftlichen Ergänzungen und des Einrisses am linken Rand sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 350,
+    "total_words": 60,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      350,
+      0,
+      0
+    ],
+    "chars_per_page_median": 350,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

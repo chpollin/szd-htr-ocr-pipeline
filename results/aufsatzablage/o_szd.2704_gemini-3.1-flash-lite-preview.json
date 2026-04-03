@@ -1,0 +1,140 @@
+{
+  "object_id": "o_szd.2704",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Cenci, Legende und Wahrheit der Beatrice, SZ-AAP/W-AA32.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2704/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.9"
+    ],
+    "input_image_count_total": 9
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Cenci, Legende und Wahrheit der Beatrice\n- Signatur: SZ-AAP/W-AA32.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+        "notes": "Handschriftliches Dokument, violette Tinte für Titel und Name, roter Stift für 'in Zeit u. Welt'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+        "notes": "Rückseite von Seite 1, durchscheinender Text sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Beatrice Cenci",
+        "notes": "Rückseite von Seite 2, Text durchscheinend.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Cenci, Legende und Wahrheit der Beatrice\n\nBeatrice Cenci",
+        "notes": "Rückseite von Seite 3, Text durchscheinend.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+        "notes": "Handschriftliches Dokument, violette Tinte und roter Stift.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+        "notes": "Dokument mit Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich auf den verschiedenen Scans."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 362,
+    "total_words": 58,
+    "total_pages": 5,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 9,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      73,
+      73,
+      14,
+      56,
+      0,
+      0,
+      73,
+      0,
+      73
+    ],
+    "chars_per_page_median": 73,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

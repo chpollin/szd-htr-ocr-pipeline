@@ -1,0 +1,122 @@
+{
+  "object_id": "o_szd.2702",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Carossa, Hans, SZ-AAP/W-AA31.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2702/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2702/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Carossa, Hans\n- Signatur: SZ-AAP/W-AA31.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Carossa, Hans\n\nin: Begegnungen\n\nHans Carossa.\n\nerschienen in: Berliner Tageblatt, 8. XI 1928",
+        "notes": "Handschriftliches Dokument auf einem Blatt Papier, das auf einen Träger aufgeklebt ist. Violette Tinte für den Haupttext, roter Stift für 'in: Begegnungen'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Carossa, Hans\n\nin: Begegnungen\n\nHans Carossa.\n\nerschienen in: Berliner Tageblatt, 8. XI 1928",
+        "notes": "Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Carossa, Hans\n\nin: Begegnungen\n\nHans Carossa.\n\nerschienen in: Berliner Tageblatt, 8. XI 1928",
+        "notes": "Identisch mit Seite 1, inklusive Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die Transkription ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 276,
+    "total_words": 39,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      92,
+      0,
+      0,
+      0,
+      92,
+      0,
+      92
+    ],
+    "chars_per_page_median": 92,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

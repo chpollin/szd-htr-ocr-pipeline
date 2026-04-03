@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2767",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hermann Bahr, Austriaca., SZ-AAP/W-AA12.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2767/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2767/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2767/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hermann Bahr, Austriaca.\n- Signatur: SZ-AAP/W-AA12.3\n- Datum: 1911\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hermann Bahr, Austriaca. Fischer, Berlin, geb. 4.00.\nIn Österreich hat sich in den letzten zehn Jahren seit dem Erstarken so vieler\nTalente und aus dem erneuten Selbstbewußtsein infolge günstiger politischer\nKonstellationen eine zwiefache Form des nationalen Patriotismus herausgebildet:\ndie „Östereicherei“, womit jene Kritiklose nationalistische Selbstbegeisterung ver-\nstanden möge, die alles Bestehende lobt und nach berühmten Mustern\ndas heimische Land als die beste der irdischen Welten ausgibt, und daneben ein\nunosfizielles, höchst unbeliebtes Österreichertum, das in der Fülle der neuen Er-\nscheinungen erst ein Versprechen, die Möglichkeit eines wirklichen Österreichs\nsieht. Für das erste mag als Repräsentant Rudolf Hans Bartsch gelten, dieser\nüberschwänglich Blindbegeisterte, für das zweite Hermann Bahr, bei dem die\nLiebe noch herzlich mit Haß vermengt ist, der erruptiv und temperamentvoll zu-\nerst alles Untüchtige und Verjährte beseitigen möchte, ehe die Liebe sich im Auf-\nbauen versuchen soll. Flüchtig gelesen, würde dieses Buch „Austriaca“, das seine\npolitischen Ansichten in einzelnen prachtvollen und temperamentvollen Essays\nzusammenfaßt, wie ein Pamphlet gegen Österreich anmuten, aber sieht man\nnäher zu, so spürt man, daß diese Erbitterung nur brennende Liebe ist, ein\nStampfen gegen die lastende Eiskruste einer verzopften und böswilligen Bureau-\nkratie, unter der sich ein neuer Frühling ungestüm entfalten will. Man bewundert\nin diesen Essays vor allem die wunderbare Kunst, allgemeine Zustände durch ein\ngeschicktes Beispiel plastisch zu verkörpern, worin sich allein schon verraten würde,\ndaß der Autor dieses Buches kein professioneller Politiker ist, sondern der Dra-\nmatiker, den Deutschland immer mehr lieben lernt und der es wie kein zweiter\nverstanden hat, das letzte halbe Jahrhundert in Österreich durch einzelne Ge-\nstalten auf der Bühne sinnfällig zu machen. Und andererseits spürt man wieder\nmit stetem Entzücken den vortrefflichen Essaysten, der mit einer Klarheit ohne-\ngleichen das Verworrenste in seine reinen Linien zurückdrängt, spürt diesen ganz\nTemperamentvollen, der an dem neuen Österreich, von dem er Kunde gibt, inner-\nlich mehr mitgearbeitet und geschaffen hat, als er selber eingesteht. Gefährlich in\nseinen Paradoren, nicht immer bezwingend in seinem Urteil, ist es doch eines der\nhinreißendsten Bücher, die je von uns geschrieben wurden und läßt einem all das viele,\ndas man in Tageszeitungen täglich als Politik vorgesetzt bekommt, leer, kalt und\nals flüchtiges Geschreibsel ohne Wucht und Autorität erscheinen. Stefan Zweig",
+        "notes": "Zeitungsdruck (Fraktur). Der Text ist auf dem Faksimile in zwei Teilen abgebildet, die hier zusammengefügt transkribiert wurden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "politischen Ansichten in einzelnen prachtvollen und temperamentvollen Essays\nzusammenfaßt, wie ein Pamphlet gegen Österreich anmuten, aber sieht man\nnäher zu, so spürt man, daß diese Erbitterung nur brennende Liebe ist, ein\nStampfen gegen die lastende Eiskruste einer verzopften und böswilligen Bureau-\nkratie, unter der sich ein neuer Frühling ungestüm entfalten will. Man bewundert\nin diesen Essays vor allem die wunderbare Kunst, allgemeine Zustände durch ein\ngeschicktes Beispiel plastisch zu verkörpern, worin sich allein schon verraten würde,\ndaß der Autor dieses Buches kein professioneller Politiker ist, sondern der Dra-\nmatiker, den Deutschland immer mehr lieben lernt und der es wie kein zweiter\nverstanden hat, das letzte halbe Jahrhundert in Österreich durch einzelne Ge-\nstalten auf der Bühne sinnfällig zu machen. Und andererseits spürt man wieder\nmit stetem Entzücken den vortrefflichen Essaysten, der mit einer Klarheit ohne-\ngleichen das Verworrenste in seine reinen Linien zurückdrängt, spürt diesen ganz\nTemperamentvollen, der an dem neuen Österreich, von dem er Kunde gibt, inner-\nlich mehr mitgearbeitet und geschaffen hat, als er selber eingesteht. Gefährlich in\nseinen Paradoren, nicht immer bezwingend in seinem Urteil, ist es doch eines der\nhinreißendsten Bücher, die je von uns geschrieben wurden und läßt einem all das viele,",
+        "notes": "Ausschnitt des Textes mit Grauskala und Farbkarte für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Wiederholung auf Seite 3 ist ein Teilausschnitt des Textes von Seite 1."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3938,
+    "total_words": 563,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2585,
+      0,
+      1353
+    ],
+    "chars_per_page_median": 2585,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

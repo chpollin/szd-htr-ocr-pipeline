@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2568",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hellens, Franz, SZ-AAP/W-AA81.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2568/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2568/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hellens, Franz\n- Signatur: SZ-AAP/W-AA81.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hellens, Franz\n(französisch)\n\nFranz Hellens",
+        "notes": "Handschrift. Es handelt sich um einen Zettel, auf dem der Name 'Franz Hellens' zweimal notiert ist, einmal mit dem Zusatz '(französisch)'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hellens, Franz\n(französisch)",
+        "notes": "Ausschnitt/Detailaufnahme des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Franz Hellens",
+        "notes": "Ausschnitt/Detailaufnahme des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Franz Hellens",
+        "notes": "Rückseite des Dokuments, durchscheinende Schrift.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Hellens, Franz\n(französisch)",
+        "notes": "Rückseite des Dokuments, durchscheinende Schrift.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Franz Hellens",
+        "notes": "Rückseite des Dokuments, durchscheinende Schrift.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Hellens, Franz\n(französisch)\n\nFranz Hellens",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 181,
+    "total_words": 22,
+    "total_pages": 6,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 6,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      43,
+      28,
+      13,
+      13,
+      28,
+      13,
+      43
+    ],
+    "chars_per_page_median": 20.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

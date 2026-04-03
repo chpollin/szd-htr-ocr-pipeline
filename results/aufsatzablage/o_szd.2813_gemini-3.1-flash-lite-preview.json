@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2813",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze Y-Z, SZ-AAP/W-AA-Y-Z",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2813/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2813/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2813/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze Y\n- Signatur: SZ-AAP/W-AA-Y-Z\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, rote Tinte, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nYpen\n      gedruckt (in Begegnungen)\n\nZ\n\nZwei Einsame",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in Bleistift und roter Tinte. Oben rechts ein blaues handschriftliches 'Y'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsätze\n--------\n\nYpen\n      gedruckt (in Begegnungen)\n\nZ\n\nZwei Einsame",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 144,
+    "total_words": 18,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      72,
+      0,
+      72
+    ],
+    "chars_per_page_median": 72,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

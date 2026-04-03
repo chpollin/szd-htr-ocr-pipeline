@@ -1,0 +1,150 @@
+{
+  "object_id": "o_szd.2786",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aus abgesperrter Welt, SZ-AAP/W-AA10.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2786/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2786/IMG.11"
+    ],
+    "input_image_count_total": 11
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aus abgesperrter Welt\n- Signatur: SZ-AAP/W-AA10.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Gabriele\n                        d'Annunzio\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aus abgesperrter Welt\n\nGabriele d'Annunzio\n\n\" La Nave - Venedig glückhaftes Schiff\n; Römische Elegien - {Titel} übersetzt von Eugen Guglia s. dort)",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Zeile mit 'Titel' ist über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aus abgesperrter Welt",
+        "notes": "Handschrift, violette Tinte. Oberer Teil des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Gabriele d'Annunzio\n\n\" La Nave - Venedig glückhaftes Schiff\n; Römische Elegien - {Titel} übersetzt von Eugen Guglia s. dort)",
+        "notes": "Handschrift, violette Tinte. Unterer Teil des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Aus abgesperrter Welt",
+        "notes": "Handschrift, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Aus abgesperrter Welt\n\nGabriele d'Annunzio\n\n\" La Nave - Venedig glückhaftes Schiff\n; Römische Elegien - {Titel} übersetzt von Eugen Guglia s. dort)",
+        "notes": "Handschrift, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "Aus abgesperrter Welt\n\nGabriele d'Annunzio\n\n\" La Nave - Venedig glückhaftes Schiff\n; Römische Elegien - {Titel} übersetzt von Eugen Guglia s. dort)",
+        "notes": "Handschrift, violette Tinte. Mit Farb- und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 607,
+    "total_words": 95,
+    "total_pages": 5,
+    "empty_pages": 5,
+    "blank_pages": 5,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 11,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      147,
+      0,
+      21,
+      124,
+      0,
+      0,
+      21,
+      0,
+      147,
+      0,
+      147
+    ],
+    "chars_per_page_median": 124,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        8
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

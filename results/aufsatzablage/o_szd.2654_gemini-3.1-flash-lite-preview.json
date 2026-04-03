@@ -1,0 +1,127 @@
+{
+  "object_id": "o_szd.2654",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Fünfzigjährigen, Den, SZ-AAP/W-AA62.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2654/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2654/IMG.9"
+    ],
+    "input_image_count_total": 9
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Fünfzigjährigen, Den\n- Signatur: SZ-AAP/W-AA62.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Fünfzigjährigen, Dien\n\n\n\nDen fünfzigjährigen",
+        "notes": "Handschrift in violetter Tinte. Das Dokument ist einmal horizontal gefaltet.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Den fünfzigjährigen",
+        "notes": "Rückseite des oberen Teils des gefalteten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Fünfzigjährigen, Dien",
+        "notes": "Rückseite des unteren Teils des gefalteten Blattes. In der Mitte befindet sich ein kleines, unleserliches Bleistift-Kürzel.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Fünfzigjährigen, Dien\n\n\n\n[Bleistift-Kürzel]",
+        "notes": "Das Blatt ist hier entfaltet. Die Tinte ist violett, das Kürzel in der Mitte ist mit Bleistift geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Den fünfzigjährigen",
+        "notes": "Rückseite des entfalteten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Fünfzigjährigen, Dien\n\n\n\nDen fünfzigjährigen",
+        "notes": "Das Dokument mit Archiv-Farbskalen/Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 190,
+    "total_words": 17,
+    "total_pages": 6,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 6,
+    "input_images": 9,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      44,
+      19,
+      21,
+      0,
+      43,
+      19,
+      0,
+      0,
+      44
+    ],
+    "chars_per_page_median": 32.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

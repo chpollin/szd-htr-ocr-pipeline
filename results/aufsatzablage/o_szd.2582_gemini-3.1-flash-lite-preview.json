@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2582",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hochzeit von Lyon, Die, SZ-AAP/W-AA87.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2582/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2582/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hochzeit von Lyon, Die\n- Signatur: SZ-AAP/W-AA87.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hochzeit von Lyon, Die\n\n\n\n\n\nDie Hochzeit von Lyon\n(Uhu, Aug. 27)",
+        "notes": "Handschriftliches Dokument (Umschlag/Deckblatt). Der Text '3 Ex' ist mit blauem Buntstift geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Die Hochzeit von Lyon\n(Uhu, Aug. 27)",
+        "notes": "Handschriftliches Dokument (Inhalt/Blatt).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar (nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Hochzeit von Lyon, Die",
+        "notes": "Handschriftlicher Vermerk auf einem Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Papierstreifens, durchscheinender Text von der Vorderseite sichtbar (nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Hochzeit von Lyon, Die\n\n\n\n\n\nDie Hochzeit von Lyon\n(Uhu, Aug. 27)",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Zuordnung der Seiten zu den Scans ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 186,
+    "total_words": 33,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      64,
+      0,
+      36,
+      0,
+      22,
+      0,
+      64
+    ],
+    "chars_per_page_median": 50.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

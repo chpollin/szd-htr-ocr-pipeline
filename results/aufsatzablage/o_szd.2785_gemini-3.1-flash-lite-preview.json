@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.2785",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Registerblatt \"Algier\", SZ-AAP/W-AA1.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2785/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Algier\n- Signatur: SZ-AAP/W-AA1.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Jean Jacques Rousseau |\n                        (Doppelaufsatz)\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Algier\nAbendaquarelle aus Algier\nJean Jacques Rousseau\n(Doppelaufsatz)",
+        "notes": "Handschriftliche Notiz auf einem Zettel. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Jean Jacques Rousseau\n(Doppelaufsatz)",
+        "notes": "Rückseite des Zettels, der links umgeknickt ist. Der umgeknickte Teil zeigt den Text von Seite 1 (Algier / Abendaquarelle aus Algier) spiegelverkehrt/durchscheinend.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Jean Jacques Rousseau\n(Doppelaufsatz)",
+        "notes": "Rückseite des Dokuments. Der Text ist durchscheinend von der Vorderseite zu sehen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Algier\nAbendaquarelle aus Algier\nJean Jacques Rousseau\n(Doppelaufsatz)",
+        "notes": "Das Dokument mit Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich lesbar und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 214,
+    "total_words": 24,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      70,
+      37,
+      37,
+      70
+    ],
+    "chars_per_page_median": 37,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

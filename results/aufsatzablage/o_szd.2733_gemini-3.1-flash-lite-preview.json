@@ -1,0 +1,136 @@
+{
+  "object_id": "o_szd.2733",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Blake, SZ-AAP/W-AA19.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2733/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.9"
+    ],
+    "input_image_count_total": 9
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Blake\n- Signatur: SZ-AAP/W-AA19.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.\n\nWilliam Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Transkription umfasst den gesamten Text auf der Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.",
+        "notes": "Ausschnitt der oberen Hälfte der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "William Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+        "notes": "Ausschnitt der unteren Hälfte der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.",
+        "notes": "Wiederholung der oberen Hälfte der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "William Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+        "notes": "Wiederholung der unteren Hälfte der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.\n\nWilliam Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+        "notes": "Gesamtaufnahme des Dokuments mit Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist gut lesbar, jedoch sind einige Eigennamen und Abkürzungen (insbesondere die Zeile mit 'Dr. A. Zweig' und der Übersetzername) aufgrund der Handschrift und der Tintenspuren leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1376,
+    "total_words": 184,
+    "total_pages": 5,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 9,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      345,
+      87,
+      256,
+      0,
+      0,
+      87,
+      256,
+      0,
+      345
+    ],
+    "chars_per_page_median": 256,
+    "marker_uncertain_count": 12,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0652,
+    "duplicate_page_pairs": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

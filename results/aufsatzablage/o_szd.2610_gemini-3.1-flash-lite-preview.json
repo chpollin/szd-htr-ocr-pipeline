@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2610",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gontscharow, Iwan, SZ-AAP/W-AA70.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2610/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2610/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gontscharow, Iwan\n- Signatur: SZ-AAP/W-AA70.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Gontscharow, Iwan\nDer Triumph der Trägheit (Oblomow)\n\n\n\n\nIwan Gontscharow\n\nOblomow - \n\nTitel\nDer Triumph der Trägheit",
+        "notes": "Handschriftliches Dokument. Die Transkription umfasst den gesamten sichtbaren Text auf dem Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Iwan Gontscharow\n\nOblomow - \n\nTitel\nDer Triumph der Trägheit",
+        "notes": "Ausschnitt/Detailansicht des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Gontscharow, Iwan\nDer Triumph der Trägheit (Oblomow)",
+        "notes": "Ausschnitt/Detailansicht des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Gontscharow, Iwan\nDer Triumph der Trägheit (Oblomow)\n\n\n\n\nIwan Gontscharow\n\nOblomow - \n\nTitel\nDer Triumph der Trägheit",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 346,
+    "total_words": 48,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      117,
+      0,
+      60,
+      0,
+      52,
+      0,
+      117
+    ],
+    "chars_per_page_median": 60,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

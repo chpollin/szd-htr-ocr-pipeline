@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2807",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufgaben der höheren Schule, SZ-AAP/W-AA8.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2807/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2807/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2807/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufgaben der höheren Schule\n- Signatur: SZ-AAP/W-AA8.1\n- Datum: 22. Mai 29\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wilhelm von Scholz.\n\nWichtigste Aufgabe der höheren Schule — eben von einem\nwirklich höheren Standpunkt, von einer Weltschau den jungen\nMenschen unsere Zeit und alle früheren anschauen zu lassen. Ihn\nständig zu erinnern, daß wir mit neuen, weiteren Maßen rech-\nnen müssen, ihm neben dem deutschen auch ein europäisches\nNationalgefühl selbstverständlich machen. Ihn nicht nur die\nHistorie der Kriege und Entzweiungen lehren, sondern auch die\ngegenwärtige und künftige unaufhaltsame Vereinheitlichung der\nweißen Welt durch die Leistungen der Technik und den Willen\nder Zeit. Ihn immer wieder erinnern, daß Vergangenheiten, so\nwertvoll sie auch gewesen sein mögen, doch vergangen sind und\nunsere Zeit keine geringere ist, sondern eine der großartigsten\nEtappen in der geistigen Eroberung der Erde. Ihm die Er-\nfindungen der Technik, die Fortschritte der Medizin, Physik,\nBiologie, alles was der europäische Geist in den letzten Jahr-\nzehnten neben einer selbstmörderischen Politik unbekümmert ge-\nschaffen hat, deutlich vor Augen zu führen, damit er nicht re-\nsigniert aus der Schule in die Welt trete, sondern erfüllt vom\nschöpferischen Glauben an die Zeit, vom Stolz auf unser Jahr-\nhundert. Alles also aufs Welthafte stellen, ihm die ungeheuren\nZusammenhänge aufzeigen, in denen jedes Reich, jedes Volk,\njeder Stand eingebettet liegt, ihn retten vor jeder Art mensch-\nlicher und politischer Engstirnigkeit, vor gewaltsamen Absonde-\nrungen und unfruchtbaren Gehässigkeiten. Ihm die Seele weit\nmachen, dem jungen Menschen, weit und aufgetan allem Neuen,\nallem Zukünftigen, das er ja selber zu schaffen bestimmt ist.\nStefan Zweig.",
+        "notes": "Gedruckter Zeitungsausschnitt. Rechts am Rand handschriftliche Notiz in Bleistift: 'Deutsches Philologenblatt. Leipzig 22. Mai 29'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Wilhelm von Scholz.\n\nWichtigste Aufgabe der höheren Schule — eben von einem\nwirklich höheren Standpunkt, von einer Weltschau den jungen\nMenschen unsere Zeit und alle früheren anschauen zu lassen. Ihn\nständig zu erinnern, daß wir mit neuen, weiteren Maßen rech-\nnen müssen, ihm neben dem deutschen auch ein europäisches\nNationalgefühl selbstverständlich machen. Ihn nicht nur die\nHistorie der Kriege und Entzweiungen lehren, sondern auch die\ngegenwärtige und künftige unaufhaltsame Vereinheitlichung der\nweißen Welt durch die Leistungen der Technik und den Willen\nder Zeit. Ihn immer wieder erinnern, daß Vergangenheiten, so\nwertvoll sie auch gewesen sein mögen, doch vergangen sind und\nunsere Zeit keine geringere ist, sondern eine der großartigsten\nEtappen in der geistigen Eroberung der Erde. Ihm die Er-\nfindungen der Technik, die Fortschritte der Medizin, Physik,\nBiologie, alles was der europäische Geist in den letzten Jahr-\nzehnten neben einer selbstmörderischen Politik unbekümmert ge-\nschaffen hat, deutlich vor Augen zu führen, damit er nicht re-\nsigniert aus der Schule in die Welt trete, sondern erfüllt vom\nschöpferischen Glauben an die Zeit, vom Stolz auf unser Jahr-\nhundert. Alles also aufs Welthafte stellen, ihm die ungeheuren\nZusammenhänge aufzeigen, in denen jedes Reich, jedes Volk,\njeder Stand eingebettet liegt, ihn retten vor jeder Art mensch-\nlicher und politischer Engstirnigkeit, vor gewaltsamen Absonde-\nrungen und unfruchtbaren Gehässigkeiten. Ihm die Seele weit\nmachen, dem jungen Menschen, weit und aufgetan allem Neuen,\nallem Zukünftigen, das er ja selber zu schaffen bestimmt ist.\nStefan Zweig.",
+        "notes": "Gleicher Zeitungsausschnitt wie auf Seite 1, hier mit Archiv-Farbskala und Maßstab abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen klaren Druck handelt. Die handschriftliche Annotation am Rand ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3254,
+    "total_words": 478,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1627,
+      0,
+      1627
+    ],
+    "chars_per_page_median": 1627,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

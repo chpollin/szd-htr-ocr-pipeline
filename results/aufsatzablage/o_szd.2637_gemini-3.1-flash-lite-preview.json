@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2637",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Père Lachaise., SZ-AAP/W-AA56.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2637/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2637/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2637/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Père Lachaise.\n- Signatur: SZ-AAP/W-AA56.5\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Anmerkungen: Quelle des Abdrucks unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Père Lachaise.\n\nZwischen tausenden Gräbern das seine im unendlichen Fried-\nhof von Paris. Vorbei an unzähligen Namen, berühmten und\nunberühmten, durch einen Wald von Kreuzen und verwitterndem\nMarmor.\nUnten liegt Paris in einer zarten Wolke von Dunst. Aus\ntausend Schornsteinen keucht es schmutzigen Atem, wildes Brausen\nhebt sich manchmal mit dem Wind hoch und spült einen feindlich\nan. Man spürt diese Welt da drunten leben wie ein Einziges,\ndiese Myriadenmasse als eine einzige Gewalt. Und plötzlich über-\nkommt einen die Erinnerung, wie Rastignac in Balzacs Roman von\neben demselben Friedhof die Fäuste ballt und seinen Fluch, seine\nFeindschaft diesem grollenden Tiere entgegenschreitet. Der einzelne\ngegen die Masse, der Enttäuschte gegen die Welt — so ist er ein\nLeben lang gegen seine ganze Nation gestanden, der hier ruht\nunter dem kalten Stein eines täglichen Denkmals, erdrückt von der\nArbeit, zerschmettert von seinen Siegen.\nRiesenhaft ist unten die Stadt gewachsen. Wo die Mühlenflügel\nvon Montmartre sich im Grünen idyllisch drehten, steht weiß die\nKirche, umgeben von hochstöckigen Häusern, ein stählernes Spielzeug\nbohrt sich der Eiffelturm in die Luft hoch über das Gewirr der\nStraßen und Kirchen, weiße Fluten von Stein spülen endlos über\ndie Wiesen von einst und reichen bis an den Horizont. Aber so sehr\nsie sich dehnt, so sehr sie ihren Reichtum vertausendfacht, ihren\nGlanz aufblendet, ihre Leidenschaften steigert — hier ruht einer, der\nsie noch größer geschaut, und ihre Verwirklichungen erfüllen nur\nmatt seinen gebildeten Traum. Jetzt erst, in ihrer vielmaligen Ver-\nvielfachung beginnt das wahrhafte Paris seinem dämonisch erschauten\nähnlich zu werden, und sie alle, die da unten ihre Leidenschaften in\nTat verwandeln, schaffen erst seine Welt, die, früher überdimensional,\nsich den Proportionen der wirklichen anpaßt. Indes er ruht, gestaltet\nsich die Welt der seinen entgegen, und man spürt, steigt man wieder\nnieder von seinem Grab in das Fieber der Straßen, seinen Atem und\nseine Glut, in den Geschehnissen der Politik und der Journalistit[?] seine\nGestalten, in dem Reichtum der Läden, dem Prunt der Frauen seine\ngierigen Träume von Geld und Geld. Seine Bücher werden jetzt\nneuerlich wahr als Wirklichkeiten, und nirgends stärker als in der\nHeimkehr von seinem Grab fühlt man sein wahrhaftiges Leben und\nseine ungebrochene fortschaffende Gewalt.",
+        "notes": "Zeitungsausschnitt, Frakturschrift. Das Wort 'Journalistit' scheint ein Druckfehler für 'Journalistik' zu sein, wurde aber diplomatisch transkribiert. 'Prunt' ist vermutlich ein Druckfehler für 'Prunk'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Ausschnitt des Textes ist hier teilweise verdeckt durch die Skalen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen fragwürdigen Stellen (z.B. 'Journalistit') sind als solche markiert, da sie offensichtliche Druckfehler im Original sind."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2376,
+    "total_words": 362,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2376,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2376,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0028,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

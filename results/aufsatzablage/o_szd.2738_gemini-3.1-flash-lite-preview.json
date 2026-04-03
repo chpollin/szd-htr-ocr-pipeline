@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2738",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brandes, SZ-AAP/W-AA21.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2738/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2738/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brandes\n- Signatur: SZ-AAP/W-AA21.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Briefe von St. Z. zu\n                        verschiedenen Gelegenheiten\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Brandes\nBriefwechsel von Georg Brandes.\n\n\n\nBriefe von St. Z.\nzu\nverschiedenen Gelegenheiten",
+        "notes": "Handschriftliches Dokument. Der obere Teil ist in violetter Tinte geschrieben, der untere Teil in hellerer, bräunlicher Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Seite, Ausschnitt eines Papierstreifens.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Briefe von St. Z.\nzu\nverschiedenen Gelegenheiten",
+        "notes": "Handschrift in bräunlicher Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Brandes\nBriefwechsel von Georg Brandes.",
+        "notes": "Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Brandes\nBriefwechsel von Georg Brandes.\n\n\n\nBriefe von St. Z.\nzu\nverschiedenen Gelegenheiten",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Identifikation der Handschriften und Tintenfarben entspricht den Vorgaben."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 269,
+    "total_words": 36,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      91,
+      0,
+      48,
+      0,
+      39,
+      0,
+      91
+    ],
+    "chars_per_page_median": 48,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

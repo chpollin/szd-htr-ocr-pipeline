@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2815",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze B, SZ-AAP/W-AA-B",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2815/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2815/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2815/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze B\n- Signatur: SZ-AAP/W-AA-B\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nBahr\nBalzac\nBarbusse\nBekenntnis zum Defaitismus ✓\nBelgien\nBelgien, Warum nur...? ✓\nBesuch bei den Milliarden ✓\nBewerber, Sechsunddreissig e hrenwerte ✓\nBlake ✓\nBonchamps, Irrfahrt und Ende des Pierre\nBrandes ✓\nBriefe Elisabeth Lensings an Christine Hebbel, Drei ✓\nBriefe, Offene ✓\nBrod, Max ✓\nBuch\nBureuaphobie ✓\nBusoni\nByron\nBrasilien, Kleine Reise nach ✓",
+        "notes": "Typoskript mit handschriftlichen Haken (✓) und einer handschriftlichen Markierung oben rechts (B). Die Zeile 'Bewerber, Sechsunddreissig e hrenwerte' weist eine Lücke im Wort 'ehrenwerte' auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsätze\n--------\n\nBahr\nBalzac\n\nBonchamps, Irrfahrt und Ende des Pierre\nBrandes ✓\nBriefe Elisabeth Lensings an Christine Hebbel, Drei ✓\nBriefe, Offene ✓\nBrod, Max ✓\nBuch\nBureuaphobie ✓\nBusoni\nByron\nBrasilien, Kleine Reise nach ✓",
+        "notes": "Typoskript mit aufgelegten Farb- und Grauskalen zur Archivierung. Der Text ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, abgesehen von den durch die Archivierungsskalen verdeckten Bereichen auf Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 603,
+    "total_words": 94,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      375,
+      0,
+      228
+    ],
+    "chars_per_page_median": 375,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

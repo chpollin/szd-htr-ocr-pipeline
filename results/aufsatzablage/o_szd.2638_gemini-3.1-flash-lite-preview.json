@@ -1,0 +1,96 @@
+{
+  "object_id": "o_szd.2638",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Frauen, An die, SZ-AAP/W-AA57.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2638/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Frauen, An die\n- Signatur: SZ-AAP/W-AA57.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An die Frauen\n\nerschienen in: Stimmen z. internationalen Frauenkonferenz, 14. IV 1918\n\nDie Vergeblichen Opfer\n\nFrauen, An die",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus einem Blatt, das einmal gefaltet wurde. Die Zeilen 'An die Frauen', 'erschienen in...', 'Die Vergeblichen Opfer' stehen auf der oberen Hälfte, 'Frauen, An die' steht auf der unteren Hälfte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "An die Frauen\n\nerschienen in: Stimmen z. internationalen Frauenkonferenz, 14. IV 1918\n\nDie Vergeblichen Opfer",
+        "notes": "Gleiche Seite wie Seite 1, jedoch ohne den unteren Teil 'Frauen, An die' (der auf dem Foto 1 durch das Umklappen des Papiers sichtbar war). Es handelt sich um die Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Frauen, An die",
+        "notes": "Rückseite des Blattes, unterer Teil. Die Schrift scheint durch das Papier von der Vorderseite durch, aber der Text 'Frauen, An die' ist hier explizit auf der Rückseite notiert.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, weitgehend leer bis auf den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Archiv-Farbskalen/Grauskalen.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Struktur der Seiten wurde durch die Faltung des Papiers auf den ersten Bildern leicht verdeckt, ist aber durch den Vergleich der Aufnahmen eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 248,
+    "total_words": 36,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank"
+    ],
+    "chars_per_page": [
+      125,
+      109,
+      14,
+      0,
+      0
+    ],
+    "chars_per_page_median": 109,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

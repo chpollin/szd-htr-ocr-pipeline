@@ -146,6 +146,8 @@
               aria-label="Ansicht zur&uuml;cksetzen" data-tooltip="Ansicht zur&uuml;cksetzen (0)">&#8634;</button>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navFitBtn"
               aria-label="Einpassen umschalten" data-tooltip="Einpassen umschalten">&#x21F2;</button>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navLayoutBtn"
+              aria-label="Layout-Regionen ein/aus" data-tooltip="Layout-Regionen (L)">&#9638;</button>
     </div>
 
     <div class="viewer__nav-group">
@@ -195,7 +197,12 @@
     <div class="viewer__panel-label" id="panelLabelRight">Transkription</div>
     <div class="viewer__img-panel" id="imgPanel">
       <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
-      <img id="faksimile" src="" alt="Faksimile" class="is-hidden">
+      <div class="viewer__img-wrapper" id="imgWrapper">
+        <img id="faksimile" src="" alt="Faksimile" class="is-hidden">
+        <svg id="layoutOverlay" class="viewer__layout-overlay is-hidden"
+             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+             preserveAspectRatio="none"></svg>
+      </div>
     </div>
     <div class="viewer__text-panel" id="textPanel">
       <div class="viewer__transcription-wrap">

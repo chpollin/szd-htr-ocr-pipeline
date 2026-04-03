@@ -1,0 +1,158 @@
+{
+  "object_id": "o_szd.2764",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bahr, SZ-AAP/W-AA12.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2764/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2764/IMG.11"
+    ],
+    "input_image_count_total": 11
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bahr\n- Signatur: SZ-AAP/W-AA12.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bahr\nHermann Bahrs neuer Roman\nTheaterskandale\nAustriaca\nHermann Bahr, der fünfzigjährige\nHermann Bahrs Herbstlese\nNachwort\nGeburtstagsbrief an Hermann Bahr?\n\nHermann Bahr\nAufsätze",
+        "notes": "Handschriftliches Dokument, violette Tinte auf beigem Papier. Die Transkription umfasst den gesamten Text auf der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Bahr\nHermann Bahrs neuer Roman\nTheaterskandale\nAustriaca\nHermann Bahr, der fünfzigjährige\nHermann Bahrs Herbstlese\nNachwort\nGeburtstagsbrief an Hermann Bahr?",
+        "notes": "Ausschnitt der Vorderseite (oberer Teil).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Hermann Bahr\nAufsätze",
+        "notes": "Ausschnitt der Vorderseite (unterer Teil).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "Hermann Bahr\nAufsätze",
+        "notes": "Ausschnitt der Vorderseite (unterer Teil).",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Bahr\nHermann Bahrs neuer Roman\nTheaterskandale\nAustriaca\nHermann Bahr, der fünfzigjährige\nHermann Bahrs Herbstlese\nNachwort\nGeburtstagsbrief an Hermann Bahr?",
+        "notes": "Ausschnitt der Vorderseite (oberer Teil).",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "Bahr\nHermann Bahrs neuer Roman\nTheaterskandale\nAustriaca\nHermann Bahr, der fünfzigjährige\nHermann Bahrs Herbstlese\nNachwort\nGeburtstagsbrief an Hermann Bahr?\n\nHermann Bahr\nAufsätze",
+        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 716,
+    "total_words": 88,
+    "total_pages": 5,
+    "empty_pages": 5,
+    "blank_pages": 5,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 11,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      180,
+      0,
+      157,
+      21,
+      0,
+      21,
+      0,
+      0,
+      157,
+      0,
+      180
+    ],
+    "chars_per_page_median": 157,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        2,
+        8
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

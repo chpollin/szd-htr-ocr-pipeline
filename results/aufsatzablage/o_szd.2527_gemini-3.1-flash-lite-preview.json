@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2527",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jonson, Ben, SZ-AAP/W-AA101.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2527/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2527/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jonson, Ben\n- Signatur: SZ-AAP/W-AA101.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Kämmerer | Gedächtnis eines\n                        deutschen Menschen\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Jonson, Ben\nBen Jonson\nDer erneuerte Volpone\n\n\nKämmerer\nGedächtnis eines deutschen Menschen",
+        "notes": "Handschrift in violetter Tinte auf einem Blatt Papier. Die Anordnung entspricht einem Umschlag oder einer Titelseite.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Kämmerer\nGedächtnis eines deutschen Menschen",
+        "notes": "Ausschnitt/Detailansicht der unteren Hälfte des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Jonson, Ben\nBen Jonson\nDer erneuerte Volpone",
+        "notes": "Ausschnitt/Detailansicht der oberen Hälfte des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Jonson, Ben\nBen Jonson\nDer erneuerte Volpone\n\n\nKämmerer\nGedächtnis eines deutschen Menschen",
+        "notes": "Gesamtansicht des Dokuments mit Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 270,
+    "total_words": 36,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      91,
+      0,
+      44,
+      0,
+      44,
+      0,
+      91
+    ],
+    "chars_per_page_median": 44,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

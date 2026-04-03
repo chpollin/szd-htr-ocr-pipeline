@@ -2,7 +2,7 @@
 title: "Verifikationskonzept"
 aliases: ["Verifikationskonzept"]
 created: 2026-04-01
-updated: 2026-04-02
+updated: 2026-04-03
 type: concept
 status: stable
 related:
@@ -25,6 +25,8 @@ Die Pipeline hat 601 Objekte transkribiert (Stand Session 14, 2026-04-02), davon
 **Empirischer Befund (Stand Session 8):** Die Gruppen-Prompts weisen das Modell explizit an, bei Kurrent-Ambiguitaeten (e/n, s/f) Unsicherheitsmarker zu setzen. Ergebnis: Null Marker bei 6.711 Zeichen Kurrent-Handschrift (o_szd.72). Die Vorsichts-Guidance in den Prompts wird faktisch ignoriert. Strukturelle Guidance (Briefformat bei Korrespondenz) wird hingegen befolgt. Die quality_signals flaggen aktuell 10/16 Objekte (63%) als `needs_review` — das ist zu viel fuer effektive Triage und zeigt, dass die Schwellenwerte vor Kalibrierung zu aggressiv sind.
 
 **Empirischer Befund (Stand Session 14):** quality_signals v1.4 aktiv (8 Signale + page.type + DWR). 27-Objekt-Modellkonsensus-Validierung mit verbesserter Metrik (word_overlap + 4-Tier-Klassifikation) abgeschlossen. 18-Objekt-GT-Pipeline mit 3-Modell-Merge (Flash Lite + Flash + Pro) laeuft. Bleed-Through als neues Fehlermuster identifiziert und im System-Prompt adressiert (Regel 9).
+
+**Empirischer Befund (Stand Session 22, 2026-04-03):** quality_signals v1.5 (DWR entfernt: rho=0.05, F1=0.20 — mass Prosadichte, nicht Qualitaet). `_fill_missing_pages()` behebt Seiten-Bild-Desynchronisation (41 Objekte backfilled). Signal-Precision empirisch bestimmt: page_length_anomaly 100%, page_image_mismatch 100%, language_mismatch 50%. needs_review bei 25% der Objekte (330/1328) — deutlich besser als die 63% aus Session 8. Batch-Transkription laeuft Richtung 100% Abdeckung.
 
 Daraus ergeben sich drei Probleme, die dieses Dokument adressiert:
 1. Es gibt keine Ground Truth, um die tatsaechliche Fehlerrate zu messen.

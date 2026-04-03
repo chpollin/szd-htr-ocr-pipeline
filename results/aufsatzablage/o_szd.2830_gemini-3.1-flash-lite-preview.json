@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2830",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze R, SZ-AAP/W-AA-R",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2830/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2830/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2830/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze R\n- Signatur: SZ-AAP/W-AA-R\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nRathenau, Walter\nReisen oder Gereist-Werd[?]en ✓\nRevolte gegen die Langsamkeit ✓\nRilke ✓\nRimbaud ✓\nRolland ✓\nRomane, Zwei historische ✓\nRosegger ✓\nRoth, Joseph ✓\nRousseau ✓\nRückkehr zum Märchen ✓\nRamuz, Pour (Zum 60.Geburtstag) ✓\nRadio Adress : to the American Schoolchildren ✓",
+        "notes": "Typoskript mit handschriftlichen Haken (✓) und einer handschriftlichen Ergänzung in der letzten Zeile. Oben rechts ein handschriftliches Monogramm/Kürzel in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsätze\n--------\n\nRathenau, Walter\nReisen oder Gereist-Werd[?]en ✓\nRevolte gegen die Langsamkeit ✓\nRilke ✓\nRimbaud ✓\nRolland ✓\nRomane, Zwei historische ✓\nRosegger ✓\nRoth, Joseph ✓\nRousseau ✓\nRückkehr zum Märchen ✓\nRamuz, Pour (Zum 60.Geburtstag) ✓\nRadio Adress : to the American Schoolchildren ✓",
+        "notes": "Identisch mit Seite 1, jedoch mit angefügter Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige Unsicherheit besteht bei dem Wort 'Werd[?]en', da das 'e' durch den Haken leicht überdeckt ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 592,
+    "total_words": 94,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      296,
+      0,
+      296
+    ],
+    "chars_per_page_median": 296,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0213,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

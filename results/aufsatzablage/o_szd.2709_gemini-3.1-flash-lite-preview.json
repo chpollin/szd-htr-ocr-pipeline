@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2709",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Dehmel, SZ-AAP/W-AA36.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2709/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2709/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Dehmel\n- Signatur: SZ-AAP/W-AA36.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dehmel\nRichard Dehmels „Michel Michael“\n„Zwei Menschen“ (Rezension)\nLeutnant Dehmels Kriegstagebuch\n\nRichard Dehmel\n\n„Zwei Menschen“\n„Michel Michael“\n„Leutnants Dehmels Kriegstagebuch“",
+        "notes": "Handschriftliches Dokument, Tinte auf Papier. Es handelt sich um eine Liste von Werken Richard Dehmels.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Richard Dehmel\n\n„Zwei Menschen“\n„Michel Michael“\n„Leutnants Dehmels Kriegstagebuch“",
+        "notes": "Handschriftliches Dokument, Tinte auf Papier. Ausschnitt/Detailansicht des unteren Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Dehmel\nRichard Dehmels „Michel Michael“\n„Zwei Menschen“ (Rezension)\nLeutnant Dehmels Kriegstagebuch",
+        "notes": "Handschriftliches Dokument, Tinte auf Papier. Ausschnitt/Detailansicht des oberen Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Dehmel\nRichard Dehmels „Michel Michael“\n„Zwei Menschen“ (Rezension)\nLeutnant Dehmels Kriegstagebuch\n\nRichard Dehmel\n\n„Zwei Menschen“\n„Michel Michael“\n„Leutnants Dehmels Kriegstagebuch“",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es handelt sich um eine einfache Auflistung von Werktiteln."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 550,
+    "total_words": 60,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      184,
+      0,
+      83,
+      0,
+      99,
+      0,
+      184
+    ],
+    "chars_per_page_median": 99,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "object_id": "o_szd.2566",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Heimfahrt nach Oesterreich, SZ-AAP/W-AA80.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2566/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2566/IMG.9"
+    ],
+    "input_image_count_total": 9
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Heimfahrt nach Oesterreich\n- Signatur: SZ-AAP/W-AA80.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette              \n                         Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Stefan George\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Heimfahrt nach Oesterreich\n\nStefan George",
+        "notes": "Handschrift. Der Text 'Heimfahrt nach Oesterreich' ist in violetter Tinte geschrieben, 'Stefan George' in feinerer, dunklerer Tinte/Bleistift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Heimfahrt nach Oesterreich",
+        "notes": "Handschrift. Oberer Teil des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Stefan George",
+        "notes": "Handschrift. Unterer Teil des Blattes, auf dem Kopf stehend.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "Heimfahrt nach Oesterreich",
+        "notes": "Handschrift. Gleicher Text wie auf Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Stefan George",
+        "notes": "Handschrift. Gleicher Text wie auf Seite 3, auf dem Kopf stehend.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Heimfahrt nach Oesterreich\n\nStefan George",
+        "notes": "Handschrift. Dokument mit Archiv-Farbskalen oben und unten.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 160,
+    "total_words": 20,
+    "total_pages": 6,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 6,
+    "input_images": 9,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      41,
+      26,
+      13,
+      0,
+      0,
+      26,
+      13,
+      0,
+      41
+    ],
+    "chars_per_page_median": 26.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

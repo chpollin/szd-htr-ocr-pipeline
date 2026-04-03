@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.2590",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "du Gard, Roger Martin, SZ-AAP/W-AA65.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2590/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2590/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: du Gard, Roger Martin\n- Signatur: SZ-AAP/W-AA65.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "du Gard, Roger Martin\n1914 und heute (anlässlich seines Romans „Été 1914“)\n\n\nRoger Martin du Gard\n1914 und heute (anlässlich seines Romans „Été 1914“)",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus zwei übereinandergelegten oder zusammengeklebten Papierstreifen mit identischem Inhalt. Die Transkription erfasst beide sichtbaren Textblöcke.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Roger Martin du Gard\n1914 und heute (anlässlich seines Romans „Été 1914“)",
+        "notes": "Handschrift in violetter Tinte. Unterer Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des unteren Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "du Gard, Roger Martin\n1914 und heute (anlässlich seines Romans „Été 1914“)",
+        "notes": "Handschrift in violetter Tinte. Oberer Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des unteren Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "du Gard, Roger Martin\n1914 und heute (anlässlich seines Romans „Été 1914“)\n\n\nRoger Martin du Gard\n1914 und heute (anlässlich seines Romans „Été 1914“)",
+        "notes": "Gesamtansicht mit Archiv-Grauskala und Farbkarte #13.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und in einer gut lesbaren Handschrift verfasst. Es gibt keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 447,
+    "total_words": 72,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      150,
+      0,
+      73,
+      0,
+      74,
+      0,
+      150
+    ],
+    "chars_per_page_median": 74,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

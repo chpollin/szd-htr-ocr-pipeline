@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2580",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Hölz, Max, SZ-AAP/W-AA86.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2580/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2580/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Hölz, Max\n- Signatur: SZ-AAP/W-AA86.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hölz, Max\nAnklage aus dem Zuchthaus\n\n\n\n\nHölz Max\n\nAnklage aus dem Zuchthaus",
+        "notes": "Handschriftliches Dokument auf Papier. Der Text erscheint zweimal, einmal als Kopfzeile auf einem aufgeklebten Streifen und einmal auf dem Hauptblatt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hölz, Max\nAnklage aus dem Zuchthaus",
+        "notes": "Rückseite des aufgeklebten Streifens, durchscheinender Text von der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Hölz Max\n\nAnklage aus dem Zuchthaus",
+        "notes": "Hauptblatt, Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Hölz Max\n\nAnklage aus dem Zuchthaus",
+        "notes": "Rückseite des Hauptblatts, durchscheinender Text von der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Hölz, Max\nAnklage aus dem Zuchthaus",
+        "notes": "Einzelaufnahme des aufgeklebten Streifens.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Hölz Max\n\nAnklage aus dem Zuchthaus",
+        "notes": "Einzelaufnahme der Rückseite des Hauptblatts, durchscheinender Text.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Hölz, Max\nAnklage aus dem Zuchthaus\n\n\n\n\nHölz Max\n\nAnklage aus dem Zuchthaus",
+        "notes": "Gesamtaufnahme mit Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich lesbar, es gibt keine Unklarheiten bei der Transkription."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 325,
+    "total_words": 54,
+    "total_pages": 6,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 6,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      75,
+      35,
+      35,
+      35,
+      35,
+      35,
+      75
+    ],
+    "chars_per_page_median": 35.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

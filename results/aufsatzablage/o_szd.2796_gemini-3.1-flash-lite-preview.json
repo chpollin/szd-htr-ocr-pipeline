@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2796",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Römische Elegien. Von Gabriele D'Annunzio, SZ-AAP/W-AA4.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2796/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2796/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2796/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Römische Elegien.\n- Signatur: SZ-AAP/W-AA4.1\n- Datum: 15. 6. 1904\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "IV.\nRömische Elegien. Von Ga-\nbriele D'Annunzio. Deutsch\nvon Eugen Guglia. Wien,\nC. M. Stern. 1903. 62 S. M. 1,50.\n\nAus Leben und Dichtung kennt man die bewußte\nKofetterie D'Annunzios, seinen Namen mit denen\nder Größten zu verbinden und oft mit Absicht\nsich ihnen zur Seite zu stellen. Titel, Motto und\nForm weisen hier allzu deutlich auf Goethe hin, als\ndaß man eine Zufälligkeit annehmen könnte, aber ich\nglaube kaum, daß man sich dadurch zu einem Vergleich\nzwischen Goethe und D'Annunzio veranlaßt sehen\nwird — bestenfalls zu einer Distanzierung. Denn nicht\neinmal die günstigste Entfaltung der hervorragenden\nMöglichkeiten könnte die innere Dekadenz und Passivität\nim Typus D'Annunzios überbrücken; sicherlich ist er\neiner der feinsten Geister moderner Geschmackskultur, ein\nwundervoller Genießer, der erstaunlich befähigt ist, den\nfeinen, berauschenden Duft in den Dingen, im Leben wie\nim Kunstwerk, im Stoff wie in den Worten aufzuspüren.\nAber er ist nur ein erlesener Artist; seine Empfindungen\nhaben selten den Reiz des Unmittelbaren, sie sind nicht\nBlüten des Lebens, sondern eine raffinierte Essenz, ein\nversparter und verfeinerter Flacon. Grandios ist bei\nD'Annunzio nur die erstaunliche Energie seines Ehrgeizes,\ndie eitle Anspannung seiner Kräfte, die das feminine und\neklektische Thun überwinden will und Fernwirkungen,\nKlassizität und Volkstum nachstrebt. Er hat sich eine\nkofett betonte Brutalität angelernt, eine fanatische Liebe\nzum Leben, ein überquellendes Selbstbewußtsein, einen\ngroßzügigen Stil und eine beinahe imvolante Geberde,\n— es fehlt nur noch das geschlossene Werk, das uns\nvon der dauernden Größe, von der klassischen Bedeutung\nD'Annunzios für die lateinische Rasse überzeugen könnte.\nDarum muß man seine Anlehnungen, die einseitige\nFraternität mit den Heroen, einstweilen noch zurück-\nweisen, ohne seine liebhaberischen, künstlerischen und\nkulturellen Fähigkeiten leugnen zu wollen.\n\nDie „Römischen Elegien“ zählen zu den frühen\nVersen D'Annunzios, sind aber noch heute für seine\nPersönlichkeit charakteristisch durch ihr klassisches Be-\nstreben und die verwirrende Glut ihrer Bilder. Wie\nweit sie in Temperamentsauffassung und Behandlung\nsich von denen Goethes entfernen, hat Eugen Guglia in\nseiner Vorrede klar dargelegt und insbesondere den\ncharakteristischen Zug des Lyrikers D'Annunzio, das That-\nsächliche und Lokale in die Verse einzuspinnen, mit Bei-\nspielen belegt und betont. Allerdings gestatten die\nElegien noch kein zusammenfassendes Urteil über die\nKunst des italienischen Dichters, denn sein neuestes\nVersbuch „Laudi“ scheint wirklich neuen und eigenartigen\nBeitrebungen sich hinzugeben.\n\nDaß Eugen Guglia bei seiner Uebertragung die\neintönige Form des Distichons nicht beibehalten und\neinzelne Elegien, wie auch einzelne Strophen ausgelassen\nhat, ist klug und berechtigt. Hingeegen scheint mir die\nForm des sechsfäßigen Jambus, die er vorgezogen, auch\nnicht ganz glücklich, so sorgsam ihn Guglia auch hand-\nhabt; das Richtige wären, meinem Empfinden nach, ge-\nbundene Prosarythmen in der Art der „Ballades\nFrançaises“ des Paul Fort gewesen, die Strenge halten,\nohne aber den Rhythmus so enge einzuschränken und\nden Satzbau zu verschnüren, wie es beim sechsfäßigen\nJambus oft unvermeidlich ist. Sprachlich ist Guglias\nNachdichtung außerordentlich rühmenswert und auch bis\nauf eine einzige Stelle — „so müd war unser Fleisch“ —\nsehr geschmackvoll in der Fülle und Prägung der Worte.\nVielleicht wäre er der Rechte für die Uebertragung der\n„Francesca da Rimini“ in das jambische Metrum, dem\ner so viel Fluß verleiht, daß auch der Schauspieler die\nVerse gern sprechen würde.\nWien. Stefan Zweig.",
+        "notes": "Zeitungsausschnitt, Frakturschrift. Handschriftliche Notiz oben rechts: 'Literarisches Echo 15. 6. 1904'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung, überdeckt Teile des Zeitungsausschnitts.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz oben rechts wurde transkribiert. Die Farbskala auf Seite 3 verdeckt Teile des Textes, diese konnten jedoch durch den Vergleich mit Seite 1 vollständig rekonstruiert werden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3638,
+    "total_words": 527,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3638,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3638,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

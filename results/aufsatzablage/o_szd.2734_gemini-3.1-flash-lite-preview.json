@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2734",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ausgewählte Dichtungen., SZ-AAP/W-AA19.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2734/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2734/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2734/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ausgewählte Dichtungen.\n- Signatur: SZ-AAP/W-AA19.1\n- Datum: 14/IV 1907\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ausgewählte Dichtungen.\nVon William Blake. Uebersezt von Adolf Knob-\nlauch. Berlin 1907. Oesterheld & Ko.\nDer Germanisten und Literaturpsychologen sind\nviele. Und noch keiner hat sich bisher der spezifisch\ndeutschen Eigenart, des Entdeckens im Rummel, in\nplötzlicher wilder Ueberstürzung, als des dankbarsten\nMotivs bemächtigt. Denken wir nur an England.\nVor vier Jahren war es Wilde, voriges Jahr\nShaw, nun ist es William Blake. 1827 ist er\ngestorben. Kein Buch hat seiner in Deutschland je\ngedacht, mit Ausnahme der herrlichen Studie von\nRudolf Kaßner in „Die Mystik, die Künstler und\ndas Leben“. Und nun: ein, zwei, drei Uebersetzungen\nzugleich, zwei Biographien, ein Haufen Studien.\nSchon sehe ich die Folge: Faksimileausgabe seiner\nWerke, Reproduktionen des „Book of Job“, irr-\nsinnige Ueberschätzung, Lärm — Rummel. Und\nWilliam Blake hat doch wahrlich Zeit gelassen, sich\nentdecken zu lassen. So still war keiner wie er. Nicht\neinmal gesammelt waren seine Werke, seine Bilder\nunverkäuflich und die herrliche Swinburne-Studie\nvor vierzig Jahren nur des Predigers Stimme in\nder Wüste. Im „print-room“ des Britischen\nMuseums lagen seine Bücher: ich zweifle, daß sie in\nden letzten fünfzig Jahren fünfzig Deutsche verlangt\nhaben. Und jetzt wird man sich bald schämen, nicht jede\nZeile Blakes gelesen, jedes Blatt gesehen zu haben.\nWas natürlich wieder sehr überflüssig ist.\n\nSeine Dichtungen sind nur zum kleinsten Teil\ngenießbar, und ihre innerste Schönheit ist so in die\nSprache vergraben, so ganz andererseits mit der\nbegleitenden Zeichnung verwoben, daß die Ueber-\nsetzungen, die uns hier geboten werden, nur vage\nBilder dieser ossianischen Landschaften sein können.\nDie Auswahl hat zwar Geschick und die Ueber-\ntragung Geschmack: und doch ist durch den fehlenden\nReim die wundervolle Musik dieser lyrischen Verse\n\nwie in einem Schallrohr vergrößert, ist die heftige\nFarbe der epischen Dichtungen wie mit Schleiern\ngedämpft. Was aber ganz bleibt, ist jener unendliche\nfeurige Wille, der weit über sein Können hinaus\neine neue Kosmogonie versuchte, der in tobender und\noft irrer Schöpferglut alles Bestehende zerschlug,\num es in der feurigen Esse seiner Visionen zu\nneuen Werten umzuschmelzen. Und vollkommen sind\ndie Sprüche, die nicht durch die Umsehung in Prosa\ngelitten haben, sie strahlen das volle Licht seiner\nLebensgläubigkeit, seiner unbezähmbaren Freudigkeit\nüber alle Dinge. Vieles findet man da, was ihm\nspäter entwendet wurde, vieles, das er manchen\nvorausgesagt. Ein paar will ich zur Probe hinsehen:\n„Kein Vogel schwingt sich zu hoch, wenn er sich mit\nseinen eigenen Flügeln schwingt.“ — „Gefängnisse\nsind gebaut mit Steinen des Gesetzes, Bordelle mit\nden Steinen der Religion.“ — „Ein Brunnen saht\nein, die Quelle läuft über.“ — „Ueberfluß ist\nSchönheit.“ — „Ewigkeit ist mit den Schöpfungen\nder Zeit in Liebe.“ Alle diese Aphorismen sind\nnicht nur flüchtige Funken sinnender Ueberlegung,\nsondern einzelne Wurzeln seiner Weltanschauung, die\neine grandiose Verherrlichung des freien Instinkts\nsein sollte.\n\nIn diesem ersten Teil seiner Werke sind freilich\nnur die kleineren, schlichteren Schöpfungen vereint,\ndas blumenzarte kleine Epos „Thel“, die Sprüche, die\nGedichte und eines der großen Even „Amerika“.\nDer zweite Teil verspricht die titanischen Dichtungen,\ndie den Kranz seines Mythos bilden. Sie werden\nin der sorgsamen Uebersetzung sicherlich gewaltiger\nwirken, als die kleinen Bruchstücke, die arm sind,\nohne Reim und Rhythmus. Hier ist nur der Umriß\neiner Welt gegeben und nicht ihre Fülle, ihre\nKontur, nicht ihre Farbe. Aber William Blake ist so\ngewaltig, daß selbst in dieser Abschwächung sich die\nGröße seines Werkes nicht verleugnet.\nWien. 14 IV 1907 Die Zeit Stefan Zweig.",
+        "notes": "Zeitungsausschnitt, gedruckt in Fraktur. Der Text ist in drei Spalten/Abschnitten angeordnet, die hier fortlaufend transkribiert wurden. Das Datum und der Name 'Stefan Zweig' am Ende sind ebenfalls gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist hier erneut abgebildet, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die Transkription folgt dem Layout des Originals."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3708,
+    "total_words": 558,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3708,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3708,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

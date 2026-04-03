@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2746",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Max Brod, SZ-AAP/W-AA25.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2746/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2746/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Max Brod\n- Signatur: SZ-AAP/W-AA25.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Max Brod",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinende Schrift von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Max Brod",
+        "notes": "Wiederholung der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Max Brod",
+        "notes": "Dokument mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text besteht lediglich aus dem Namen 'Max Brod', der deutlich lesbar ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 24,
+    "total_words": 6,
+    "total_pages": 2,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      8,
+      0,
+      0,
+      0,
+      8,
+      0,
+      8
+    ],
+    "chars_per_page_median": 8.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

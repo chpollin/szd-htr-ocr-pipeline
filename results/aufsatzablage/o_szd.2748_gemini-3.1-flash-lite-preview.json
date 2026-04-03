@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2748",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Buch, SZ-AAP/W-AA26.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2748/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Buch\n- Signatur: SZ-AAP/W-AA26.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher\n\nDas Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+        "notes": "Handschrift. Die ersten Zeilen sind in einer flüssigen, leicht kursiven Handschrift verfasst, der untere Teil in einer deutlich formelleren, kalligraphischen Schrift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Das Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+        "notes": "Ausschnitt der Vorderseite, kalligraphischer Teil.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher",
+        "notes": "Ausschnitt der Vorderseite, oberer Teil.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher\n\nDas Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Handschrift handelt. Die Begriffe sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 733,
+    "total_words": 126,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      245,
+      0,
+      76,
+      0,
+      167,
+      0,
+      245
+    ],
+    "chars_per_page_median": 167,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

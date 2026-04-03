@@ -11445,7 +11445,204 @@
           "page": 1,
           "transcription": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\n[Lotte Altmann signature] \nWitness\n\n[Signature of witness] \nWitness\n\nStefan Zweig [Signature]\nAuthor\n\nLongmans, Green & Company, Inc.\nBy Edward Mill [Signature] (Secretary)",
           "notes": "Die Unterschriften wurden als Platzhalter in Klammern gesetzt, da sie handschriftlich sind. Die Identifikation der Namen (Lotte Altmann, Edward Mill) basiert auf den bereitgestellten Metadaten.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "heading",
+              "bbox": [
+                3.9,
+                2.9,
+                4.8,
+                0.3
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Titel des Dokuments"
+            },
+            {
+              "id": "r2",
+              "type": "paragraph",
+              "bbox": [
+                3.9,
+                3.2,
+                12.6,
+                1.0
+              ],
+              "reading_order": 2,
+              "lines": 4,
+              "label": "Einleitungstext"
+            },
+            {
+              "id": "r3",
+              "type": "list",
+              "bbox": [
+                3.9,
+                4.3,
+                12.6,
+                0.8
+              ],
+              "reading_order": 3,
+              "lines": 4,
+              "label": "Vertragspunkt 1"
+            },
+            {
+              "id": "r4",
+              "type": "heading",
+              "bbox": [
+                7.6,
+                5.1,
+                8.9,
+                0.3
+              ],
+              "reading_order": 4,
+              "lines": 2,
+              "label": "Buchtitel"
+            },
+            {
+              "id": "r5",
+              "type": "paragraph",
+              "bbox": [
+                3.9,
+                5.4,
+                12.6,
+                0.6
+              ],
+              "reading_order": 5,
+              "lines": 3,
+              "label": "Fortsetzung Vertragspunkt 1"
+            },
+            {
+              "id": "r6",
+              "type": "list",
+              "bbox": [
+                3.9,
+                6.1,
+                12.6,
+                0.8
+              ],
+              "reading_order": 6,
+              "lines": 4,
+              "label": "Vertragspunkt 2"
+            },
+            {
+              "id": "r7",
+              "type": "list",
+              "bbox": [
+                3.9,
+                7.0,
+                12.6,
+                0.6
+              ],
+              "reading_order": 7,
+              "lines": 3,
+              "label": "Vertragspunkt 3"
+            },
+            {
+              "id": "r8",
+              "type": "list",
+              "bbox": [
+                3.9,
+                7.7,
+                12.6,
+                0.3
+              ],
+              "reading_order": 8,
+              "lines": 2,
+              "label": "Vertragspunkt 4"
+            },
+            {
+              "id": "r9",
+              "type": "paragraph",
+              "bbox": [
+                3.9,
+                8.2,
+                12.6,
+                0.3
+              ],
+              "reading_order": 9,
+              "lines": 2,
+              "label": "Abschlusssatz"
+            },
+            {
+              "id": "r10",
+              "type": "heading",
+              "bbox": [
+                3.9,
+                8.7,
+                2.8,
+                0.2
+              ],
+              "reading_order": 10,
+              "lines": 1,
+              "label": "Anwesenheitsvermerk"
+            },
+            {
+              "id": "r11",
+              "type": "paragraph",
+              "bbox": [
+                3.9,
+                8.9,
+                2.8,
+                0.3
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Unterschriftenlabel Zeuge"
+            },
+            {
+              "id": "r12",
+              "type": "paragraph",
+              "bbox": [
+                10.9,
+                8.9,
+                2.8,
+                0.3
+              ],
+              "reading_order": 12,
+              "lines": 1,
+              "label": "Unterschriftenlabel Autor"
+            },
+            {
+              "id": "r13",
+              "type": "paragraph",
+              "bbox": [
+                3.9,
+                9.7,
+                2.8,
+                0.3
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Unterschriftenlabel Zeuge 2"
+            },
+            {
+              "id": "r14",
+              "type": "paragraph",
+              "bbox": [
+                10.9,
+                9.3,
+                5.5,
+                0.3
+              ],
+              "reading_order": 14,
+              "lines": 1,
+              "label": "Firmenname"
+            },
+            {
+              "id": "r15",
+              "type": "paragraph",
+              "bbox": [
+                10.9,
+                9.7,
+                5.5,
+                0.3
+              ],
+              "reading_order": 15,
+              "lines": 1,
+              "label": "Unterschriftenlabel Sekretär"
+            }
+          ]
         },
         {
           "page": 2,
@@ -19136,19 +19333,1425 @@
           "page": 1,
           "transcription": "TA 536045\n[Printed by Authority of the Registrar-General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE.\nPursuant to the Marriage Acts, 1811 to 1934. M. Cert. S.R.\nThe Statutory Fee for this Certificate is 2s. 7d. If required subsequently to registration, a Search Fee is payable in addition.\nRegistration District Bath.\n1939 Marriage Solemnized at The Register Office in the County Borough of Bath.\nDistrict of Bath\nColumns: 1 When Married. 2 Name and Surname. 3 Age. 4 Condition. 5 Rank or Profession. 6 Residence at the time of Marriage. 7 Father's Name and Surname. 8 Rank or Profession of Father.\n138 Sixth September 1939 Stefan Zweig 57 years The divorced husband of Friederike Maria Zweig formerly Burger. Author Lansdown Lodge Lansdown Road Bath. Moritz Zweig (deceased) Textile Manufacturer\nElisabet Charlotte Altmann 31 years Spinster Author's Secretary Lansdown Lodge Lansdown Road Bath. Joseph George Altmann (deceased) Hardware Merchant.\nMarried in the Register Office according to the Rites and Ceremonies of the by licence before me, A. Clegg Registrar\nThis Marriage was solemnized between us, Stefan Zweig Elisabet Charlotte Altmann in the Presence of us, Arthur I. Ingram Johanna Altmann B. J. Butlin Supt. Registrar\nI, W. R. Loxston Deputy Superintendent Registrar for the District of Bath in the County Borough of Bath do hereby certify that this is a true copy of the Entry No. 138 in the Register Book of Marriages No. 96 and that such Register Book is now legally in my custody.\nWITNESS MY HAND this 17th day of May, 1940.\nW. R. Loxston Deputy Superintendent Registrar\nCAUTION.—Any person who (1) falsifies any of the particulars on this Certificate, or (2) uses it as true, knowing it to be falsified, is liable to Prosecution.",
           "notes": "Das Dokument ist eine beglaubigte Heiratsurkunde. Die handschriftlichen Einträge sind gut lesbar. Die Briefmarke (Victoria & George 1840-1940) ist unten rechts aufgeklebt.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "heading",
+              "bbox": [
+                9.4,
+                21.7,
+                8.5,
+                2.6
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Dokumentennummer",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "heading",
+              "bbox": [
+                73.6,
+                22.9,
+                15.9,
+                1.2
+              ],
+              "reading_order": 2,
+              "lines": 1,
+              "label": "Druckvermerk",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r3",
+              "type": "heading",
+              "bbox": [
+                26.2,
+                24.3,
+                17.1,
+                6.0
+              ],
+              "reading_order": 3,
+              "lines": 2,
+              "label": "Titel",
+              "source": "docling"
+            },
+            {
+              "id": "r4",
+              "type": "heading",
+              "bbox": [
+                48.9,
+                24.6,
+                14.6,
+                2.6
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "Titel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r5",
+              "type": "heading",
+              "bbox": [
+                84.0,
+                25.0,
+                4.7,
+                1.7
+              ],
+              "reading_order": 5,
+              "lines": 1,
+              "label": "Zertifikats-ID",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r6",
+              "type": "paragraph",
+              "bbox": [
+                8.9,
+                27.3,
+                14.8,
+                3.5
+              ],
+              "reading_order": 6,
+              "lines": 2,
+              "label": "Gebührenhinweis",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r7",
+              "type": "heading",
+              "bbox": [
+                48.9,
+                27.4,
+                13.5,
+                2.8
+              ],
+              "reading_order": 7,
+              "lines": 1,
+              "label": "Gesetzesgrundlage",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r8",
+              "type": "heading",
+              "bbox": [
+                85.1,
+                26.8,
+                2.6,
+                1.9
+              ],
+              "reading_order": 8,
+              "lines": 1,
+              "label": "S.R. Kürzel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r9",
+              "type": "paragraph",
+              "bbox": [
+                35.1,
+                31.0,
+                4.0,
+                2.6
+              ],
+              "reading_order": 9,
+              "lines": 1,
+              "label": "Registrierungsort",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r10",
+              "type": "marginalia",
+              "bbox": [
+                83.3,
+                30.6,
+                6.5,
+                6.6
+              ],
+              "reading_order": 10,
+              "lines": 4,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r11",
+              "type": "heading",
+              "bbox": [
+                22.7,
+                31.3,
+                10.9,
+                2.0
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Label Registrierungsbezirk",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r14",
+              "type": "heading",
+              "bbox": [
+                9.7,
+                34.3,
+                3.9,
+                2.0
+              ],
+              "reading_order": 12,
+              "lines": 1,
+              "label": "Jahr",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r15",
+              "type": "heading",
+              "bbox": [
+                17.1,
+                34.2,
+                14.8,
+                2.1
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Label Ort der Eheschließung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r16",
+              "type": "paragraph",
+              "bbox": [
+                31.2,
+                33.9,
+                2.5,
+                2.3
+              ],
+              "reading_order": 14,
+              "lines": 1,
+              "label": "Ortsteil",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r17",
+              "type": "paragraph",
+              "bbox": [
+                34.3,
+                34.2,
+                4.9,
+                2.2
+              ],
+              "reading_order": 15,
+              "lines": 1,
+              "label": "Ortsteil",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r18",
+              "type": "heading",
+              "bbox": [
+                78.7,
+                34.2,
+                3.8,
+                2.3
+              ],
+              "reading_order": 16,
+              "lines": 1,
+              "label": "Label Ortsteil",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r20",
+              "type": "paragraph",
+              "bbox": [
+                19.6,
+                35.8,
+                3.1,
+                3.1
+              ],
+              "reading_order": 17,
+              "lines": 1,
+              "label": "Ort",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r22",
+              "type": "heading",
+              "bbox": [
+                11.5,
+                36.3,
+                5.6,
+                2.5
+              ],
+              "reading_order": 18,
+              "lines": 1,
+              "label": "Label Distrikt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r25",
+              "type": "table",
+              "bbox": [
+                9.0,
+                38.5,
+                75.0,
+                35.0
+              ],
+              "reading_order": 19,
+              "lines": 15,
+              "label": "Haupttabelle Eheeintrag",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r73",
+              "type": "paragraph",
+              "bbox": [
+                9.8,
+                55.5,
+                6.6,
+                2.1
+              ],
+              "reading_order": 20,
+              "lines": 1,
+              "label": "Ort der Eheschließung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r74",
+              "type": "paragraph",
+              "bbox": [
+                35.0,
+                55.8,
+                19.9,
+                1.7
+              ],
+              "reading_order": 21,
+              "lines": 1,
+              "label": "Ritus",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r75",
+              "type": "paragraph",
+              "bbox": [
+                79.3,
+                55.7,
+                3.2,
+                1.7
+              ],
+              "reading_order": 22,
+              "lines": 1,
+              "label": "Zustimmung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r77",
+              "type": "paragraph",
+              "bbox": [
+                10.4,
+                60.8,
+                5.4,
+                2.0
+              ],
+              "reading_order": 23,
+              "lines": 1,
+              "label": "Eheschließungs-Bestätigung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r82",
+              "type": "paragraph",
+              "bbox": [
+                16.9,
+                62.1,
+                17.3,
+                3.6
+              ],
+              "reading_order": 24,
+              "lines": 2,
+              "label": "Namen der Eheleute",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r87",
+              "type": "paragraph",
+              "bbox": [
+                10.3,
+                66.8,
+                4.9,
+                2.0
+              ],
+              "reading_order": 25,
+              "lines": 1,
+              "label": "Name des Registrars",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r93",
+              "type": "heading",
+              "bbox": [
+                83.9,
+                67.4,
+                7.1,
+                1.2
+              ],
+              "reading_order": 26,
+              "lines": 1,
+              "label": "Stempel/Siegel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r94",
+              "type": "paragraph",
+              "bbox": [
+                9.4,
+                68.2,
+                43.4,
+                1.7
+              ],
+              "reading_order": 27,
+              "lines": 1,
+              "label": "Beglaubigungstext",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r97",
+              "type": "paragraph",
+              "bbox": [
+                23.6,
+                70.8,
+                10.4,
+                1.7
+              ],
+              "reading_order": 28,
+              "lines": 1,
+              "label": "Datum der Beglaubigung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r100",
+              "type": "paragraph",
+              "bbox": [
+                75.4,
+                72.5,
+                8.8,
+                1.5
+              ],
+              "reading_order": 29,
+              "lines": 1,
+              "label": "Titel des Registrars",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                70.0,
+                66.0,
+                15.0,
+                8.0
+              ],
+              "reading_order": 30,
+              "lines": 3,
+              "label": "Unterschrift des Registrars",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Leerseite (automatisch ergaenzt).",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "heading",
+              "bbox": [
+                18.3,
+                25.4,
+                13.8,
+                2.0
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Dokumentennummer",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "paragraph",
+              "bbox": [
+                17.4,
+                30.0,
+                24.1,
+                2.7
+              ],
+              "reading_order": 2,
+              "lines": 2,
+              "label": "Gebührenhinweis",
+              "source": "docling"
+            },
+            {
+              "id": "r3",
+              "type": "heading",
+              "bbox": [
+                45.9,
+                27.2,
+                27.9,
+                4.8
+              ],
+              "reading_order": 3,
+              "lines": 2,
+              "label": "Titel: Certified Copy of an Entry of Marriage",
+              "source": "docling"
+            },
+            {
+              "id": "r6",
+              "type": "heading",
+              "bbox": [
+                83.0,
+                27.2,
+                16.9,
+                4.5
+              ],
+              "reading_order": 4,
+              "lines": 2,
+              "label": "Gesetzesverweis",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r4",
+              "type": "heading",
+              "bbox": [
+                40.2,
+                32.8,
+                27.0,
+                2.3
+              ],
+              "reading_order": 5,
+              "lines": 1,
+              "label": "Registrierungsbezirk",
+              "source": "docling"
+            },
+            {
+              "id": "r10",
+              "type": "heading",
+              "bbox": [
+                18.9,
+                35.8,
+                6.2,
+                1.9
+              ],
+              "reading_order": 6,
+              "lines": 1,
+              "label": "Jahr",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r11",
+              "type": "heading",
+              "bbox": [
+                31.1,
+                35.9,
+                21.3,
+                1.5
+              ],
+              "reading_order": 7,
+              "lines": 1,
+              "label": "Eheschließungsort",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r12",
+              "type": "heading",
+              "bbox": [
+                35.0,
+                37.1,
+                5.4,
+                2.4
+              ],
+              "reading_order": 8,
+              "lines": 1,
+              "label": "Ort: Bath",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r13",
+              "type": "heading",
+              "bbox": [
+                21.9,
+                37.8,
+                9.2,
+                1.6
+              ],
+              "reading_order": 9,
+              "lines": 1,
+              "label": "Distrikt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "table",
+              "bbox": [
+                18.0,
+                39.0,
+                82.0,
+                15.0
+              ],
+              "reading_order": 10,
+              "lines": 5,
+              "label": "Eheregister Tabelle",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r50",
+              "type": "paragraph",
+              "bbox": [
+                19.4,
+                54.0,
+                10.6,
+                1.5
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Ort der Eheschließung",
+              "source": "docling"
+            },
+            {
+              "id": "r54",
+              "type": "paragraph",
+              "bbox": [
+                20.4,
+                58.5,
+                8.8,
+                1.4
+              ],
+              "reading_order": 12,
+              "lines": 2,
+              "label": "Eheschließungsbestätigung",
+              "source": "docling"
+            },
+            {
+              "id": "r52",
+              "type": "paragraph",
+              "bbox": [
+                34.4,
+                57.3,
+                6.6,
+                2.5
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Unterschrift Stefan Zweig",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r57",
+              "type": "paragraph",
+              "bbox": [
+                31.3,
+                59.4,
+                28.3,
+                2.7
+              ],
+              "reading_order": 14,
+              "lines": 1,
+              "label": "Unterschrift Elisabet Charlotte Altmann",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r53",
+              "type": "paragraph",
+              "bbox": [
+                71.5,
+                57.3,
+                17.2,
+                2.2
+              ],
+              "reading_order": 15,
+              "lines": 1,
+              "label": "Unterschrift Zeuge Arthur J. Ingram",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r60",
+              "type": "paragraph",
+              "bbox": [
+                73.5,
+                60.5,
+                7.2,
+                0.9
+              ],
+              "reading_order": 16,
+              "lines": 1,
+              "label": "Unterschrift Zeuge Johanna Altmann",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r67",
+              "type": "paragraph",
+              "bbox": [
+                18.9,
+                64.6,
+                70.7,
+                0.9
+              ],
+              "reading_order": 17,
+              "lines": 3,
+              "label": "Beglaubigungstext",
+              "source": "docling"
+            },
+            {
+              "id": "r5",
+              "type": "heading",
+              "bbox": [
+                42.1,
+                66.8,
+                15.4,
+                1.0
+              ],
+              "reading_order": 18,
+              "lines": 1,
+              "label": "Datum der Beglaubigung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r71",
+              "type": "heading",
+              "bbox": [
+                59.6,
+                65.7,
+                10.9,
+                2.5
+              ],
+              "reading_order": 19,
+              "lines": 1,
+              "label": "Tag der Beglaubigung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r70",
+              "type": "heading",
+              "bbox": [
+                85.9,
+                66.2,
+                5.8,
+                1.6
+              ],
+              "reading_order": 20,
+              "lines": 1,
+              "label": "Jahr der Beglaubigung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r69",
+              "type": "paragraph",
+              "bbox": [
+                21.3,
+                69.5,
+                38.0,
+                2.0
+              ],
+              "reading_order": 21,
+              "lines": 2,
+              "label": "Rechtlicher Warnhinweis",
+              "source": "docling"
+            }
+          ]
         },
         {
           "page": 3,
           "transcription": "",
           "notes": "Leerseite (automatisch ergaenzt).",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "heading",
+              "bbox": [
+                23.1,
+                25.5,
+                25.7,
+                0.8
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Druckvermerk",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "heading",
+              "bbox": [
+                0,
+                27.3,
+                6.8,
+                1.9
+              ],
+              "reading_order": 2,
+              "lines": 1,
+              "label": "Dokumententitel Fragment",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r3",
+              "type": "heading",
+              "bbox": [
+                40.0,
+                27.2,
+                7.6,
+                1.4
+              ],
+              "reading_order": 3,
+              "lines": 1,
+              "label": "Zertifikatstyp",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r4",
+              "type": "heading",
+              "bbox": [
+                41.8,
+                28.7,
+                4.0,
+                1.5
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "S.R. Abkürzung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r5",
+              "type": "heading",
+              "bbox": [
+                0,
+                29.4,
+                5.1,
+                2.4
+              ],
+              "reading_order": 5,
+              "lines": 1,
+              "label": "Jahrgang",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r6",
+              "type": "marginalia",
+              "bbox": [
+                40.4,
+                31.9,
+                8.8,
+                1.1
+              ],
+              "reading_order": 6,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r7",
+              "type": "marginalia",
+              "bbox": [
+                39.1,
+                33.0,
+                10.0,
+                1.2
+              ],
+              "reading_order": 7,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r8",
+              "type": "marginalia",
+              "bbox": [
+                38.9,
+                33.9,
+                10.4,
+                1.3
+              ],
+              "reading_order": 8,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r9",
+              "type": "marginalia",
+              "bbox": [
+                31.8,
+                35.1,
+                5.7,
+                1.6
+              ],
+              "reading_order": 9,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r10",
+              "type": "marginalia",
+              "bbox": [
+                39.0,
+                35.0,
+                10.4,
+                1.1
+              ],
+              "reading_order": 10,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r11",
+              "type": "marginalia",
+              "bbox": [
+                39.0,
+                36.1,
+                8.7,
+                1.1
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Randnotiz Anweisung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r12",
+              "type": "table",
+              "bbox": [
+                14.3,
+                39.4,
+                0.8,
+                0.7
+              ],
+              "reading_order": 12,
+              "lines": 1,
+              "label": "Tabellenspalte 7",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r13",
+              "type": "table",
+              "bbox": [
+                30.8,
+                39.1,
+                1.1,
+                0.9
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Tabellenspalte 8",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r14",
+              "type": "table",
+              "bbox": [
+                0,
+                40.4,
+                4.1,
+                1.2
+              ],
+              "reading_order": 14,
+              "lines": 1,
+              "label": "Tabellenzeile Eheschließung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r15",
+              "type": "table",
+              "bbox": [
+                8.7,
+                40.3,
+                13.2,
+                1.0
+              ],
+              "reading_order": 15,
+              "lines": 1,
+              "label": "Tabellenkopf Spalte 7",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r16",
+              "type": "table",
+              "bbox": [
+                24.9,
+                40.2,
+                13.0,
+                0.9
+              ],
+              "reading_order": 16,
+              "lines": 1,
+              "label": "Tabellenkopf Spalte 8",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r17",
+              "type": "table",
+              "bbox": [
+                25.0,
+                41.0,
+                7.5,
+                3.0
+              ],
+              "reading_order": 17,
+              "lines": 1,
+              "label": "Berufsbezeichnung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r18",
+              "type": "table",
+              "bbox": [
+                6.8,
+                42.0,
+                6.0,
+                2.6
+              ],
+              "reading_order": 18,
+              "lines": 1,
+              "label": "Name Vater",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r19",
+              "type": "table",
+              "bbox": [
+                0,
+                42.6,
+                4.0,
+                1.0
+              ],
+              "reading_order": 19,
+              "lines": 1,
+              "label": "Tabelleninhalt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r20",
+              "type": "table",
+              "bbox": [
+                24.4,
+                43.2,
+                13.4,
+                3.9
+              ],
+              "reading_order": 20,
+              "lines": 2,
+              "label": "Berufsbezeichnung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r21",
+              "type": "table",
+              "bbox": [
+                0,
+                44.7,
+                3.0,
+                1.1
+              ],
+              "reading_order": 21,
+              "lines": 1,
+              "label": "Tabelleninhalt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r22",
+              "type": "table",
+              "bbox": [
+                14.2,
+                44.4,
+                8.4,
+                2.4
+              ],
+              "reading_order": 22,
+              "lines": 1,
+              "label": "Status Vater",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r23",
+              "type": "table",
+              "bbox": [
+                25.3,
+                47.2,
+                9.6,
+                3.7
+              ],
+              "reading_order": 23,
+              "lines": 1,
+              "label": "Berufsbezeichnung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r24",
+              "type": "table",
+              "bbox": [
+                7.0,
+                48.4,
+                3.5,
+                1.0
+              ],
+              "reading_order": 24,
+              "lines": 1,
+              "label": "Name Vater",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r25",
+              "type": "table",
+              "bbox": [
+                8.2,
+                50.0,
+                9.2,
+                2.0
+              ],
+              "reading_order": 25,
+              "lines": 1,
+              "label": "Name Vater",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r26",
+              "type": "table",
+              "bbox": [
+                16.6,
+                49.9,
+                8.4,
+                2.0
+              ],
+              "reading_order": 26,
+              "lines": 1,
+              "label": "Status Vater",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r27",
+              "type": "table",
+              "bbox": [
+                25.3,
+                49.7,
+                11.0,
+                2.6
+              ],
+              "reading_order": 27,
+              "lines": 1,
+              "label": "Berufsbezeichnung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r28",
+              "type": "paragraph",
+              "bbox": [
+                15.6,
+                53.3,
+                9.2,
+                1.7
+              ],
+              "reading_order": 28,
+              "lines": 1,
+              "label": "Trauungsformel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r29",
+              "type": "paragraph",
+              "bbox": [
+                32.7,
+                53.2,
+                5.4,
+                1.3
+              ],
+              "reading_order": 29,
+              "lines": 1,
+              "label": "Trauungsformel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r30",
+              "type": "paragraph",
+              "bbox": [
+                11.2,
+                59.0,
+                4.7,
+                1.6
+              ],
+              "reading_order": 30,
+              "lines": 1,
+              "label": "Name Standesbeamter",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r31",
+              "type": "paragraph",
+              "bbox": [
+                21.1,
+                62.3,
+                5.3,
+                2.0
+              ],
+              "reading_order": 31,
+              "lines": 1,
+              "label": "Titel Standesbeamter",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r32",
+              "type": "paragraph",
+              "bbox": [
+                4.5,
+                63.3,
+                3.3,
+                0.8
+              ],
+              "reading_order": 32,
+              "lines": 1,
+              "label": "Ort",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r33",
+              "type": "paragraph",
+              "bbox": [
+                16.2,
+                63.8,
+                21.7,
+                1.4
+              ],
+              "reading_order": 33,
+              "lines": 1,
+              "label": "Registeramt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r34",
+              "type": "paragraph",
+              "bbox": [
+                7.3,
+                64.3,
+                1.3,
+                0.9
+              ],
+              "reading_order": 34,
+              "lines": 1,
+              "label": "Registeramt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r35",
+              "type": "paragraph",
+              "bbox": [
+                0,
+                64.7,
+                4.7,
+                0.8
+              ],
+              "reading_order": 35,
+              "lines": 1,
+              "label": "Registeramt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r36",
+              "type": "paragraph",
+              "bbox": [
+                10.0,
+                64.6,
+                2.0,
+                0.8
+              ],
+              "reading_order": 36,
+              "lines": 1,
+              "label": "Registeramt",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r37",
+              "type": "heading",
+              "bbox": [
+                26.7,
+                67.5,
+                14.3,
+                1.1
+              ],
+              "reading_order": 37,
+              "lines": 1,
+              "label": "Unterschrift/Titel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r38",
+              "type": "heading",
+              "bbox": [
+                40.8,
+                68.4,
+                11.5,
+                0.9
+              ],
+              "reading_order": 38,
+              "lines": 1,
+              "label": "Briefmarken-Jahreszahl",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r39",
+              "type": "table",
+              "bbox": [
+                86.4,
+                18.9,
+                3.3,
+                27.0
+              ],
+              "reading_order": 39,
+              "lines": 11,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r40",
+              "type": "table",
+              "bbox": [
+                84.6,
+                37.7,
+                1.5,
+                6.6
+              ],
+              "reading_order": 40,
+              "lines": 3,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r41",
+              "type": "table",
+              "bbox": [
+                84.5,
+                44.5,
+                2.1,
+                5.8
+              ],
+              "reading_order": 41,
+              "lines": 2,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r42",
+              "type": "table",
+              "bbox": [
+                84.2,
+                49.6,
+                2.2,
+                6.7
+              ],
+              "reading_order": 42,
+              "lines": 3,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r43",
+              "type": "table",
+              "bbox": [
+                90.6,
+                52.5,
+                0.8,
+                0.7
+              ],
+              "reading_order": 43,
+              "lines": 1,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r44",
+              "type": "table",
+              "bbox": [
+                90.8,
+                55.5,
+                0.6,
+                0.5
+              ],
+              "reading_order": 44,
+              "lines": 1,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r45",
+              "type": "table",
+              "bbox": [
+                84.4,
+                57.4,
+                2.3,
+                5.1
+              ],
+              "reading_order": 45,
+              "lines": 2,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r46",
+              "type": "table",
+              "bbox": [
+                90.8,
+                58.4,
+                0.5,
+                0.6
+              ],
+              "reading_order": 46,
+              "lines": 1,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r47",
+              "type": "table",
+              "bbox": [
+                84.4,
+                63.8,
+                2.4,
+                7.6
+              ],
+              "reading_order": 47,
+              "lines": 3,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r48",
+              "type": "table",
+              "bbox": [
+                84.6,
+                70.7,
+                1.9,
+                4.6
+              ],
+              "reading_order": 48,
+              "lines": 2,
+              "label": "Farbkontrollstreifen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                18.0,
+                64.0,
+                18.0,
+                2.0
+              ],
+              "reading_order": 49,
+              "lines": 1,
+              "label": "Unterschrift Standesbeamter",
+              "source": "vlm_added"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -19203,13 +20806,72 @@
           "page": 1,
           "transcription": "Stefan Zweig\nAt Home\n\nR. S. V. P,\n49, Hallam Street,\nLondon, W. 1",
           "notes": "Es handelt sich um eine gedruckte Einladungskarte.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "heading",
+              "bbox": [
+                37.4,
+                39.8,
+                26.7,
+                9.7
+              ],
+              "reading_order": 1,
+              "lines": 2,
+              "label": "Name und Anlass (Stefan Zweig, At Home)",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                46.8,
+                59.8,
+                6.5,
+                2.5
+              ],
+              "reading_order": 2,
+              "lines": 1,
+              "label": "R.S.V.P.",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r2",
+              "type": "paragraph",
+              "bbox": [
+                52.2,
+                62.5,
+                20.2,
+                2.5
+              ],
+              "reading_order": 3,
+              "lines": 1,
+              "label": "Adresszeile 1 (49, Hallam Street)",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r3",
+              "type": "paragraph",
+              "bbox": [
+                63.5,
+                65.5,
+                16.0,
+                2.5
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "Adresszeile 2 (London, W. 1)",
+              "source": "vlm_reclassified"
+            }
+          ]
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Die Rückseite ist leer.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": []
         }
       ],
       "confidence": "high",
@@ -27995,31 +29657,80 @@
           "page": 1,
           "transcription": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
           "notes": "Buchumschlag, hellblaues Papier, goldfarbenes Etikett. Handschriftlicher Vermerk „Ergänzt“ oben links.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "marginalia",
+              "bbox": [
+                18.7,
+                9.1,
+                13.6,
+                2.8
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Handschriftliche Anmerkung 'Ergänzt'",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "heading",
+              "bbox": [
+                33.5,
+                30.4,
+                33.5,
+                8.1
+              ],
+              "reading_order": 2,
+              "lines": 3,
+              "label": "Buchtitel",
+              "source": "vlm_reclassified"
+            }
+          ]
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Vorsatzblatt, leer.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": []
         },
         {
           "page": 3,
           "transcription": "",
           "notes": "Vorsatzblatt, leer.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": []
         },
         {
           "page": 4,
           "transcription": "",
           "notes": "Vorsatzblatt, leer.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": []
         },
         {
           "page": 5,
           "transcription": "",
           "notes": "Schmutztitel mit Verlagslogo (Schiff), leerer Textbereich.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": [
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                78.0,
+                77.0
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Verlagslogo",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 6,
@@ -32589,31 +34300,558 @@
           "page": 1,
           "transcription": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb {von} einem Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 {April} 1939 Bukarest, den 30 {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
           "notes": "Handschriftlicher Vertragsentwurf in schwarzer Tinte. Korrekturen und Ergänzungen in Tinte und Bleistift.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "paragraph",
+              "bbox": [
+                12.5,
+                24.5,
+                79.8,
+                10.1
+              ],
+              "reading_order": 1,
+              "lines": 4,
+              "label": "Vertragseinleitung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "paragraph",
+              "bbox": [
+                12.9,
+                35.1,
+                55.5,
+                5.6
+              ],
+              "reading_order": 2,
+              "lines": 2,
+              "label": "Vertragsgegenstand",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r3",
+              "type": "paragraph",
+              "bbox": [
+                14.1,
+                40.8,
+                75.0,
+                4.3
+              ],
+              "reading_order": 3,
+              "lines": 2,
+              "label": "Zahlungsbedingungen",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r4",
+              "type": "paragraph",
+              "bbox": [
+                34.5,
+                45.3,
+                23.2,
+                3.3
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "Honorarbetrag",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r5",
+              "type": "paragraph",
+              "bbox": [
+                58.6,
+                44.8,
+                21.7,
+                4.1
+              ],
+              "reading_order": 5,
+              "lines": 2,
+              "label": "Währungsangabe",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r6",
+              "type": "paragraph",
+              "bbox": [
+                66.1,
+                48.8,
+                18.4,
+                2.2
+              ],
+              "reading_order": 6,
+              "lines": 1,
+              "label": "Fristangabe",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r7",
+              "type": "paragraph",
+              "bbox": [
+                15.4,
+                51.9,
+                72.9,
+                6.8
+              ],
+              "reading_order": 7,
+              "lines": 3,
+              "label": "Rückfallklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r8",
+              "type": "paragraph",
+              "bbox": [
+                83.1,
+                61.3,
+                4.4,
+                2.2
+              ],
+              "reading_order": 8,
+              "lines": 1,
+              "label": "Belegexemplar-Anzahl",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r9",
+              "type": "paragraph",
+              "bbox": [
+                15.6,
+                63.4,
+                19.1,
+                3.6
+              ],
+              "reading_order": 9,
+              "lines": 1,
+              "label": "Belegexemplar-Text",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r10",
+              "type": "paragraph",
+              "bbox": [
+                17.0,
+                68.9,
+                15.9,
+                2.8
+              ],
+              "reading_order": 10,
+              "lines": 1,
+              "label": "Zahlungs- und Inkrafttretensklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r11",
+              "type": "heading",
+              "bbox": [
+                65.2,
+                76.8,
+                13.4,
+                2.8
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Unterschrift Verlag",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r12",
+              "type": "heading",
+              "bbox": [
+                76.6,
+                76.8,
+                2.1,
+                1.0
+              ],
+              "reading_order": 12,
+              "lines": 1,
+              "label": "Unterschrift Kürzel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r13",
+              "type": "heading",
+              "bbox": [
+                57.0,
+                77.5,
+                4.3,
+                2.0
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Unterschrift Kürzel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                14.5,
+                76.5,
+                35.0,
+                5.0
+              ],
+              "reading_order": 14,
+              "lines": 2,
+              "label": "Ort und Datum (London)",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new2",
+              "type": "heading",
+              "bbox": [
+                14.5,
+                81.5,
+                15.0,
+                3.0
+              ],
+              "reading_order": 15,
+              "lines": 1,
+              "label": "Unterschrift Stefan Zweig",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new3",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                50.0
+              ],
+              "reading_order": 16,
+              "lines": 2,
+              "label": "Ort und Datum (Bukarest)",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": []
         },
         {
           "page": 3,
           "transcription": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\n\nUNGEDULD DES HERZENS\n\nEditurei Socec & Co. S.A. pentru suma de :\n\n£ 30.-.- (Treizeci)\n\nodată pentru totdeauna.-\n\nIn cazul cănd traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cănd Domnul Dr.\nStefan Zweig va fi in posesia sumei de £. 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S.A.\n\nbezahlt!",
           "notes": "Typoskript (Vertrag in rumänischer Sprache). Handschriftliche Notiz 'bezahlt!' in Bleistift am unteren Rand.",
-          "type": "content"
+          "type": "content",
+          "layout_regions": [
+            {
+              "id": "r1",
+              "type": "paragraph",
+              "bbox": [
+                19.1,
+                20.2,
+                71.1,
+                6.7
+              ],
+              "reading_order": 1,
+              "lines": 3,
+              "label": "Vertragseinleitung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r2",
+              "type": "paragraph",
+              "bbox": [
+                19.2,
+                29.1,
+                74.2,
+                4.1
+              ],
+              "reading_order": 2,
+              "lines": 2,
+              "label": "Vertragsgegenstand",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r3",
+              "type": "heading",
+              "bbox": [
+                43.0,
+                34.1,
+                23.2,
+                1.4
+              ],
+              "reading_order": 3,
+              "lines": 1,
+              "label": "Buchtitel",
+              "source": "docling"
+            },
+            {
+              "id": "r4",
+              "type": "paragraph",
+              "bbox": [
+                42.9,
+                39.3,
+                20.3,
+                1.4
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "Honorarbetrag",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r5",
+              "type": "paragraph",
+              "bbox": [
+                19.6,
+                42.0,
+                25.1,
+                1.3
+              ],
+              "reading_order": 5,
+              "lines": 1,
+              "label": "Zahlungsbedingung",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r6",
+              "type": "paragraph",
+              "bbox": [
+                28.7,
+                44.3,
+                62.8,
+                1.4
+              ],
+              "reading_order": 6,
+              "lines": 1,
+              "label": "Fristklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r7",
+              "type": "paragraph",
+              "bbox": [
+                28.9,
+                50.8,
+                66.3,
+                1.1
+              ],
+              "reading_order": 7,
+              "lines": 1,
+              "label": "Belegexemplarklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r8",
+              "type": "paragraph",
+              "bbox": [
+                19.6,
+                54.5,
+                72.1,
+                6.5
+              ],
+              "reading_order": 8,
+              "lines": 3,
+              "label": "Inkrafttretensklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r9",
+              "type": "paragraph",
+              "bbox": [
+                19.9,
+                63.4,
+                69.6,
+                4.1
+              ],
+              "reading_order": 9,
+              "lines": 2,
+              "label": "Exklusivitätsklausel",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r10",
+              "type": "heading",
+              "bbox": [
+                19.8,
+                70.9,
+                23.2,
+                1.7
+              ],
+              "reading_order": 10,
+              "lines": 1,
+              "label": "Ort und Datum London",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r11",
+              "type": "heading",
+              "bbox": [
+                65.2,
+                70.6,
+                27.8,
+                1.7
+              ],
+              "reading_order": 11,
+              "lines": 1,
+              "label": "Ort und Datum Bukarest",
+              "source": "vlm_reclassified"
+            },
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                80.0
+              ],
+              "reading_order": 12,
+              "lines": 1,
+              "label": "Unterschrift Socec & Co.",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new2",
+              "type": "marginalia",
+              "bbox": [
+                100,
+                100,
+                100,
+                35.0
+              ],
+              "reading_order": 13,
+              "lines": 1,
+              "label": "Vermerk bezahlt",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 4,
           "transcription": "",
           "notes": "Rückseite des Dokuments, leer (durchscheinender Text von Seite 3 sichtbar).",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": [
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                50.0
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Briefkopf/Adressat",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new2",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                50.0
+              ],
+              "reading_order": 2,
+              "lines": 1,
+              "label": "Betreffzeile",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new3",
+              "type": "paragraph",
+              "bbox": [
+                100,
+                100,
+                100,
+                30.0
+              ],
+              "reading_order": 3,
+              "lines": 1,
+              "label": "Einleitung",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new4",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                20.0
+              ],
+              "reading_order": 4,
+              "lines": 1,
+              "label": "Zwischenüberschrift",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new5",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                20.0
+              ],
+              "reading_order": 5,
+              "lines": 1,
+              "label": "Aktenzeichen",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new6",
+              "type": "paragraph",
+              "bbox": [
+                100,
+                100,
+                100,
+                100
+              ],
+              "reading_order": 6,
+              "lines": 6,
+              "label": "Haupttext",
+              "source": "vlm_added"
+            },
+            {
+              "id": "r_new7",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                30.0
+              ],
+              "reading_order": 7,
+              "lines": 1,
+              "label": "Datumszeile",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 5,
           "transcription": "",
           "notes": "Leeres Blatt Papier.",
-          "type": "blank"
+          "type": "blank",
+          "layout_regions": [
+            {
+              "id": "r_new1",
+              "type": "heading",
+              "bbox": [
+                100,
+                100,
+                100,
+                45.0
+              ],
+              "reading_order": 1,
+              "lines": 1,
+              "label": "Durchscheinender Text (Rückseite)",
+              "source": "vlm_added"
+            }
+          ]
         },
         {
           "page": 6,

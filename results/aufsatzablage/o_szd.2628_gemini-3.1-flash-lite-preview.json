@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2628",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Franck, Hans, SZ-AAP/W-AA55.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2628/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Franck, Hans\n- Signatur: SZ-AAP/W-AA55.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript und\n                                          Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, violettes Durchschlagpapier\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr\n\n\nHans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+        "notes": "Kombination aus handschriftlichen Notizen in violetter Tinte und maschinengeschriebenen Zeilen am unteren Rand. Die Handschrift scheint eine Auflistung von Werktiteln zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Hans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+        "notes": "Ausschnitt des Dokuments, zeigt den unteren Teil mit dem Typoskript.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Ein Godiva Drame\nZum fünfzigsten Geburtstag",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text des Typoskripts (spiegelverkehrt).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr",
+        "notes": "Ausschnitt des Dokuments, zeigt den oberen handschriftlichen Teil.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Ein Godiva Drame\nZum fünfzigsten Geburtstag",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text des Typoskripts (spiegelverkehrt).",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr\n\n\nHans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar lesbar, sowohl die Handschrift als auch das Typoskript weisen keine nennenswerten Beschädigungen oder Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 620,
+    "total_words": 84,
+    "total_pages": 5,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      179,
+      0,
+      82,
+      43,
+      94,
+      43,
+      179
+    ],
+    "chars_per_page_median": 82,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

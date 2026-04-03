@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2826",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze M, SZ-AAP/W-AA-M",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2826/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2826/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2826/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze M\n- Signatur: SZ-AAP/W-AA-M\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nMaass, Joachim ✓\nMacht und Moral, Etwas über\nMaeterlinck ✓\nMahler, Gustav ✓\nMann, Thomas ✓\nMasaryk ✓\nMasereel, Frans ✓\nMeunier, Konstantin ✓\nMeyer-Sammlungen, Die drei ✓\nMeysenbug ✓\nMitterer, Erika ✓\nMoissis Neubeginn ✓\nMonotonisierung der Welt, Die ✓\nMozarteum ✓\nMusset und Baudelaire ✓\nMartinet, Marcel ✓\nMunthe, Axel ✓\nMéndez Pereira : Núñez de Balboa ✓\nMörder und der Staat, Der ✓\nMoralische Entgiftung Europas, Die ✓",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'n' über 'Maeterlick') und handschriftlichen Ergänzungen der letzten drei Zeilen. Rechts oben ein handschriftliches 'M' in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsätze\n--------\n\nMaass, Joachim ✓\nMacht und Moral, Etwas über\nMaeterlinck ✓",
+        "notes": "Dies ist eine Aufnahme mit aufgelegten Farb- und Grauskalen. Der Text ist identisch mit dem oberen Teil von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 517,
+    "total_words": 85,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      440,
+      0,
+      77
+    ],
+    "chars_per_page_median": 440,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

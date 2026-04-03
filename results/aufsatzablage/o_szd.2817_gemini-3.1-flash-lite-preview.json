@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2817",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze D, SZ-AAP/W-AA-D",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2817/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2817/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2817/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze D\n- Signatur: SZ-AAP/W-AA-D\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n---------\n\nDante\nDehmel ✓\nDenkmäler des Theaters ✓\nDeutschland, Ein Wort von ✓\nDichter der Aufrichtigkeit, E[?]in ✓\nDichter, Vom \" österreichischen \" ✓\nDostojewski\nDrama in Tausendundeine Nacht, Das ✓\nDrinkwater, Abschied von John ✓\nDeutsche Bücherei, Die ✓",
+        "notes": "Typoskript mit handschriftlichen Häkchen (✓) und einer handschriftlichen Korrektur/Ergänzung bei 'E[?]in'. Die Seitenzahl '2' ist oben rechts handschriftlich vermerkt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Farbskala für Archivierung am unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Häkchen sind eindeutig als solche identifizierbar. Das 'E' in 'E[?]in' ist durch einen Tintenklecks oder eine Korrektur leicht überlagert, daher die Markierung."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 266,
+    "total_words": 41,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 0,
+    "color_chart_pages": 2,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "color_chart",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      266,
+      0,
+      0
+    ],
+    "chars_per_page_median": 266,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0244,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

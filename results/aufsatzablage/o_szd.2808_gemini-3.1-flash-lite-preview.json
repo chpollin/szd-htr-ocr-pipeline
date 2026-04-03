@@ -1,0 +1,145 @@
+{
+  "object_id": "o_szd.2808",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufruf zur Geduld, SZ-AAP/W-AA9.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2808/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2808/IMG.11"
+    ],
+    "input_image_count_total": 11
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufruf zur Geduld\n- Signatur: SZ-AAP/W-AA9.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Georg Brandes\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufruf zur Geduld.\n\nGeorg Brandes",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Georg Brandes",
+        "notes": "Handschrift in violetter Tinte. Rückseite des Dokuments, Kopf steht auf dem Kopf.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Aufruf zur Geduld.\n\nGeorg Brandes",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Aufruf zur Geduld.\n\nGeorg Brandes",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "Aufruf zur Geduld.\n\nGeorg Brandes",
+        "notes": "Handschrift in violetter Tinte. Dokument mit Farb- und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 145,
+    "total_words": 22,
+    "total_pages": 4,
+    "empty_pages": 6,
+    "blank_pages": 6,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 11,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      33,
+      13,
+      0,
+      0,
+      33,
+      0,
+      33,
+      0,
+      0,
+      0,
+      33
+    ],
+    "chars_per_page_median": 33.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

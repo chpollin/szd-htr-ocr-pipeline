@@ -1,0 +1,122 @@
+{
+  "object_id": "o_szd.2683",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Flake, Otto, SZ-AAP/W-AA50.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2683/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2683/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Flake, Otto\n- Signatur: SZ-AAP/W-AA50.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Flake, Otto\nRomane aus Rußland\nZwei Romane O. F. \nVilla U. S. A. \n\nFlake Otto\nVilla U. S. A.\nRomane aus Rußland",
+        "notes": "Handschriftliches Dokument, violette Tinte. Die Seite enthält zwei Textblöcke, die sich inhaltlich überschneiden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, aber kein eigenständiger Text.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Flake Otto\nVilla U. S. A.\nRomane aus Rußland",
+        "notes": "Ausschnitt/Detailaufnahme des unteren Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, kein eigenständiger Text.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Flake, Otto\nRomane aus Rußland\nZwei Romane O. F. \nVilla U. S. A. ",
+        "notes": "Ausschnitt/Detailaufnahme des oberen Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite sichtbar, kein eigenständiger Text.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Flake, Otto\nRomane aus Rußland\nZwei Romane O. F. \nVilla U. S. A. \n\nFlake Otto\nVilla U. S. A.\nRomane aus Rußland",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Wiederholungen auf dem Blatt sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 331,
+    "total_words": 66,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      111,
+      0,
+      44,
+      0,
+      65,
+      0,
+      111
+    ],
+    "chars_per_page_median": 88.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

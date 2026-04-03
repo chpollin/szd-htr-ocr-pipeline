@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2523",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kirchweih des guten Essens, Die, SZ-AAP/W-AA112.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2523/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2523/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kirchweih des guten Essens, Die\n- Signatur: SZ-AAP/W-AA112.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Lotte Zweig\n- Anmerkungen: Ursprüngliche Aufschrift: \"Kirchweih des guten\n                        Essens\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kirchweih des guten Essens, Die\n(Dijon)\n\nKirchweih\ndes guten Essens",
+        "notes": "Handschrift. Oben violette Tinte, unten Bleistift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Kirchweih des guten Essens, Die\n(Dijon)",
+        "notes": "Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Kirchweih des guten Essens, Die\n(Dijon)\n\nKirchweih\ndes guten Essens",
+        "notes": "Farb- und Grauskala für Archivierung. Dokument wie auf Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich auf den verschiedenen Aufnahmen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 173,
+    "total_words": 26,
+    "total_pages": 2,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      67,
+      0,
+      0,
+      0,
+      39,
+      0,
+      67
+    ],
+    "chars_per_page_median": 53.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

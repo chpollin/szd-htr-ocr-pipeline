@@ -74,6 +74,7 @@ const state = {
   knowledgeData: null,         // loaded from knowledge.json
   isLocal: false,
   fitMode: 'height',         // 'height' or 'width'
+  layoutVisible: false,      // layout region overlay on/off
   approvals: new Map(),      // objectId → { approved, reviewed_by, reviewed_at }
   statsCharts: [],           // Chart.js instances for stats page (destroyed on re-render)
 };
@@ -147,6 +148,7 @@ function toggleFitMode() {
   state.fitMode = state.fitMode === 'height' ? 'width' : 'height';
   try { localStorage.setItem(LS_FIT_KEY, state.fitMode); } catch { /* ignore */ }
   applyFitMode();
+  syncLayoutOverlayPosition();
 }
 
 /* ===== localStorage ===== */
@@ -1216,7 +1218,7 @@ function renderViewerPage() {
     spinner.classList.remove('is-hidden');
 
     if (imgUrl) {
-      img.onload = () => { img.classList.remove('is-hidden'); spinner.classList.add('is-hidden'); applyFitMode(); };
+      img.onload = () => { img.classList.remove('is-hidden'); spinner.classList.add('is-hidden'); applyFitMode(); syncLayoutOverlayPosition(); };
       img.onerror = () => {
         spinner.textContent = 'Bild konnte nicht geladen werden.';
         spinner.className = 'viewer__img-error';
@@ -1249,6 +1251,9 @@ function renderViewerPage() {
   // Update diff or GT review if active
   if (state.diffMode) renderDiffView();
   if (state.gtReviewMode) renderGtReview();
+
+  // Layout overlay
+  renderLayoutOverlay();
 }
 
 function renderReadMode(transcription, notes, isEdited) {
@@ -1484,9 +1489,9 @@ function imgViewReset() {
 }
 
 function imgViewApply() {
-  const img = document.getElementById('faksimile');
-  if (!img) return;
-  img.style.transform = `translate(${imgView.panX}px, ${imgView.panY}px) scale(${imgView.scale}) rotate(${imgView.rotation}deg)`;
+  const wrapper = document.getElementById('imgWrapper');
+  if (!wrapper) return;
+  wrapper.style.transform = `translate(${imgView.panX}px, ${imgView.panY}px) scale(${imgView.scale}) rotate(${imgView.rotation}deg)`;
 }
 
 function imgViewZoom(delta, clientX, clientY) {
@@ -1514,6 +1519,101 @@ function imgViewZoom(delta, clientX, clientY) {
 function imgViewRotate() {
   imgView.rotation = (imgView.rotation + 90) % 360;
   imgViewApply();
+}
+
+/* ===== Layout Overlay ===== */
+
+/**
+ * Sync SVG overlay position to the actual rendered image bounds.
+ * Needed because object-fit:contain letterboxes the image within its CSS box,
+ * but the SVG must cover only the visible image area.
+ */
+function syncLayoutOverlayPosition() {
+  const img = document.getElementById('faksimile');
+  const svg = document.getElementById('layoutOverlay');
+  if (!img || !svg || !img.naturalWidth || !img.naturalHeight) return;
+
+  const imgW = img.clientWidth;
+  const imgH = img.clientHeight;
+  const natW = img.naturalWidth;
+  const natH = img.naturalHeight;
+
+  const imgAspect = natW / natH;
+  const boxAspect = imgW / imgH;
+
+  let renderW, renderH, offsetX, offsetY;
+  if (imgAspect > boxAspect) {
+    // Wider image → letterboxed top/bottom
+    renderW = imgW;
+    renderH = imgW / imgAspect;
+    offsetX = 0;
+    offsetY = (imgH - renderH) / 2;
+  } else {
+    // Taller image → letterboxed left/right
+    renderH = imgH;
+    renderW = imgH * imgAspect;
+    offsetX = (imgW - renderW) / 2;
+    offsetY = 0;
+  }
+
+  svg.style.left = offsetX + 'px';
+  svg.style.top = offsetY + 'px';
+  svg.style.width = renderW + 'px';
+  svg.style.height = renderH + 'px';
+}
+
+function renderLayoutOverlay() {
+  const svg = document.getElementById('layoutOverlay');
+  const panel = document.getElementById('imgPanel');
+  if (!svg) return;
+
+  if (!state.layoutVisible) {
+    svg.classList.add('is-hidden');
+    panel?.querySelector('.viewer__layout-legend')?.remove();
+    return;
+  }
+
+  const obj = getViewerObject(state.currentObjectId);
+  const page = obj?.pages?.[state.currentPage];
+  const regions = page?.layout_regions || [];
+
+  if (!regions.length) {
+    svg.classList.add('is-hidden');
+    panel?.querySelector('.viewer__layout-legend')?.remove();
+    return;
+  }
+
+  svg.classList.remove('is-hidden');
+  syncLayoutOverlayPosition();
+
+  let html = '';
+  const typesUsed = new Set();
+  for (const r of regions) {
+    const [x, y, w, h] = r.bbox;
+    const cls = `layout-region--${r.type}`;
+    typesUsed.add(r.type);
+    html += `<rect x="${x}" y="${y}" width="${w}" height="${h}" class="${cls}"><title>${escapeHtml(r.label || r.type)} (${r.type}, #${r.reading_order})</title></rect>`;
+    html += `<text x="${x + 0.5}" y="${y + 2}" class="layout-region-label">${r.reading_order}</text>`;
+  }
+  svg.innerHTML = html;
+
+  // Legend
+  panel?.querySelector('.viewer__layout-legend')?.remove();
+  const typeLabels = { paragraph: 'Paragraph', heading: 'Heading', list: 'Liste', table: 'Tabelle', marginalia: 'Marginalie' };
+  let legend = '<div class="viewer__layout-legend">';
+  for (const t of ['paragraph', 'heading', 'list', 'table', 'marginalia']) {
+    if (!typesUsed.has(t)) continue;
+    legend += `<span class="viewer__layout-legend-item"><span class="viewer__layout-legend-swatch swatch--${t}"></span>${typeLabels[t]}</span>`;
+  }
+  legend += '</div>';
+  panel?.insertAdjacentHTML('beforeend', legend);
+}
+
+function toggleLayoutOverlay() {
+  state.layoutVisible = !state.layoutVisible;
+  const btn = document.getElementById('navLayoutBtn');
+  btn?.classList.toggle('viewer__nav-btn--layout-active', state.layoutVisible);
+  renderLayoutOverlay();
 }
 
 function initImgViewEvents() {
@@ -2667,6 +2767,7 @@ function initEvents() {
   document.getElementById('navRotateBtn').addEventListener('click', imgViewRotate);
   document.getElementById('navResetBtn').addEventListener('click', imgViewReset);
   document.getElementById('navFitBtn').addEventListener('click', toggleFitMode);
+  document.getElementById('navLayoutBtn').addEventListener('click', toggleLayoutOverlay);
   initImgViewEvents();
 
   // Viewer: diff
@@ -2768,6 +2869,7 @@ function initEvents() {
       if (e.key === '-') { e.preventDefault(); imgViewZoom(-1); }
       if (e.key === '0') { e.preventDefault(); imgViewReset(); }
       if (e.key === 'r' || e.key === 'R') { e.preventDefault(); imgViewRotate(); }
+      if (e.key === 'l' || e.key === 'L') { e.preventDefault(); toggleLayoutOverlay(); }
       if (e.key === 'Escape') {
         if (state.editMode) {
           saveCurrentEdit();

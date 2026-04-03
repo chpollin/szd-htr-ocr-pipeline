@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2789",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Registerblatt \"Amerika\", SZ-AAP/W-AA3.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2789/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2789/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2789/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2789/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2789/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Amerika\n- Signatur: SZ-AAP/W-AA3.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift, schwarze Tinte, rote Tinte\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Amerika\n\n✓ Bei den Franzosen in Canada\n✓ Der Rhythmus von New-York\n✓ Politische Eindrücke von einer mexikanischen Reise\n✓ Die Stunde zwischen zwei Oceanen - PanamaKanal\n✓ Parsifal in New-York\n✓ Radiovortrag über New York\n\nAkt RF\nJuli 5. XII 1911",
+        "notes": "Handschriftliches Dokument auf beigem Papier. Rote Tinte bei 'Akt RF' und Datum. Haken vor den Zeilen in schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Amerika\n\nPolitische Eindrücke von einer mexikanischen Reise.\nDer Rhythmus von Newyork.\nDie Stunde zwischen zwei Oceanen.\nParsifal in New York.",
+        "notes": "Handschriftliches Dokument auf einem schmalen Papierstreifen. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Amerika\n\n✓ Bei den Franzosen in Canada\n\n",
+        "notes": "Dokument mit aufgelegter Grauskala und Farbkarte zur Archivierung. Der Text entspricht dem Anfang von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 427,
+    "total_words": 69,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      245,
+      142,
+      0,
+      0,
+      40
+    ],
+    "chars_per_page_median": 193.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

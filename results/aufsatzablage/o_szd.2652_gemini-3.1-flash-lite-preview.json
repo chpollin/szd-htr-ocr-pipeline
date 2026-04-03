@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2652",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Friedensbotschaft im Herbst, SZ-AAP/W-AA61.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2652/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2652/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Friedensbotschaft im Herbst\n- Signatur: SZ-AAP/W-AA61.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Frühlingsfahrt durch die\n                        Provence\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Friedensbotschaft im Herbst\n\n\n\n\n\nFrühlingsfahrt durch die Provence\n~~in Frankreich~~",
+        "notes": "Handschrift in violetter Tinte. Der Text 'Frühlingsfahrt durch die Provence' ist unterstrichen, 'in Frankreich' ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Frühlingsfahrt durch die Provence\n~~in Frankreich~~",
+        "notes": "Handschrift in violetter Tinte. 'in Frankreich' ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Friedensbotschaft im Herbst",
+        "notes": "Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Friedensbotschaft im Herbst\n\n\n\n\n\nFrühlingsfahrt durch die Provence\n~~in Frankreich~~",
+        "notes": "Handschrift in violetter Tinte. Mit Grauskala und Farbkarte für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Durchstreichungen sind eindeutig als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 246,
+    "total_words": 27,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      84,
+      0,
+      51,
+      0,
+      27,
+      0,
+      84
+    ],
+    "chars_per_page_median": 51,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -66,11 +66,12 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4b: Quality Signals & Batch
-- [x] `quality_signals` implementieren (8 Signale + page.type + DWR, v1.4)
+- [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
 - [x] `needs_review`-Indikator im Viewer
-- [x] quality_signals v1.1–v1.4: Rekalibrierung, Leerseiten-Klassifikation, DWR, Duplikat-Schwelle 200→50
+- [x] quality_signals v1.1–v1.5: Rekalibrierung, Leerseiten-Klassifikation, DWR entfernt, Duplikat-Schwelle 200→50
 - [x] System-Prompt: JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien, Bleed-Through-Regel
-- [~] Alle Sammlungen transkribieren (~646/2107 Objekte, 31%). Lebensdokumente 100%.
+- [x] Seiten-Bild-Synchronisation: `_fill_missing_pages()` fuer VLM-Luecken (41 Objekte backfilled)
+- [~] Alle Sammlungen transkribieren. Lebensdokumente 100%, Korrespondenzen 100%. Fortschritt → `--dry-run`.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Modellkonsensus & Vergleich

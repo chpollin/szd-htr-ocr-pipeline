@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2540",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Im Schnee, SZ-AAP/W-AA94.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2540/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2540/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Im Schnee\n- Signatur: SZ-AAP/W-AA94.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Im Schnee\n\n\n\nIm Schnee\nc. 1903 oder 05[?]",
+        "notes": "Handschriftliches Manuskript auf Papier. Der Text 'Im Schnee' erscheint zweimal, einmal oben links, einmal mittig. Unten eine Datumsnotiz in roter Tinte/Kugelschreiber.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Im Schnee\nc. 1903 oder 05[?]",
+        "notes": "Ausschnitt/Detailaufnahme der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Im Schnee",
+        "notes": "Ausschnitt/Detailaufnahme der oberen linken Ecke der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Im Schnee\n\n\n\nIm Schnee\nc. 1903 oder 05[?]",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Datumsangabe '05?' ist aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 119,
+    "total_words": 24,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      41,
+      0,
+      28,
+      0,
+      9,
+      0,
+      41
+    ],
+    "chars_per_page_median": 28,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.125,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

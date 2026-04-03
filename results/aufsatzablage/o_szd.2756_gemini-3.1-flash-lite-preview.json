@@ -1,0 +1,170 @@
+{
+  "object_id": "o_szd.2756",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Autographen, SZ-AAP/W-AA11.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2756/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.11"
+    ],
+    "input_image_count_total": 11
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Autographen\n- Signatur: SZ-AAP/W-AA11.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Das Dokument ist einmal horizontal gefaltet.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen",
+        "notes": "Oberer Teil des Dokuments, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Meine Autographensammlung",
+        "notes": "Unterer Teil des Dokuments, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen",
+        "notes": "Detailaufnahme des oberen Teils.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+        "notes": "Gesamtaufnahme des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+        "notes": "Dokument mit Farbskala und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1256,
+    "total_words": 133,
+    "total_pages": 5,
+    "empty_pages": 5,
+    "blank_pages": 5,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 11,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      257,
+      0,
+      230,
+      25,
+      0,
+      0,
+      230,
+      0,
+      257,
+      0,
+      257
+    ],
+    "chars_per_page_median": 230,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
