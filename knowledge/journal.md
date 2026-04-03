@@ -985,11 +985,124 @@ Betrifft: `renderReviewCell()`, `renderQualityCell()`, `renderViewerContext()`, 
 
 ---
 
+## 2026-04-03 — Session 23: Datenbestand-Inventur, Batch 100%, Page-JSON v0.2, METS als Zielformat
+
+**Schwerpunkt:** Rohdaten-Inventur, Batch-Transkription Richtung 100%, Stats-Dashboard als epistemische Infrastruktur, Page-JSON v0.2 mit deskriptiven Metadaten, METS/MODS + PAGE XML als Zielformat.
+
+### Datenbestand-Inventur
+
+Erstmals exakt dokumentiert: 2.107 Objekte, 18.719 Faksimile-Scans, 23 GB. Pro Sammlung: Lebensdokumente 127/2.879, Werke 169/7.842, Aufsatzablage 625/3.844, Korrespondenzen 1.186/4.154. Bildformat: JPEG, Median 4800x7234 px. Alle Objekte vollstaendig (metadata.json + mets.xml + Bilder). In data-overview.md, README.md, CLAUDE.md dokumentiert.
+
+### Batch-Transkription
+
+- Korrespondenzen auf 100% (43 fehlende einzeln transkribiert)
+- Aufsatzablage ~97% (318 neue, 19 Fehler)
+- Werke-Batch laeuft (85/115, viele Timeouts bei Objekten >50 Bilder)
+- Problem: 5-Min-Timeout im Batch-Skript reicht nicht fuer Chunking-Objekte
+
+### Seiten-Bild-Synchronisation
+
+Bug entdeckt: VLM nummeriert nach Manuskriptblaettern (1,3,5,...), ueberspringt Rueckseiten. Viewer zeigt falsches Bild ab Seite 2. Fix: `_fill_missing_pages()` in quality_signals.py — fuellt Luecken mit Blank-Eintraegen. 41 Objekte backfilled. Zwei Faelle abgedeckt: Luecken in Seitennummern und weniger Seiten als Bilder.
+
+### Stats-Dashboard: Epistemische Infrastruktur
+
+5 Sektionen entfernt (nicht gegroundet oder transient): Fortschritt/Abdeckung, Seitenkomposition, DWR-Histogram (rho=0.05), VLM-Konfidenz-Donut (diskriminiert nicht), Modellkonsensus (Agreement ≠ Korrektheit, nur 29/1973 Objekte).
+
+3 neue Sektionen: Verifikation (Review-Status + Review-Gruende mit Signal-Precision), Textcharakteristik (Zeichen/Seite pro Dokumenttyp — Handschrift ~50 Z/S wegen 73% Registerblaetter, Zeitungsausschnitt ~4800), Signalanalyse (Heatmap).
+
+Provenienz-Annotationen: Jede Sektion zeigt dezent (opacity 0.35, hover 0.7) welches Pipeline-Script die Daten erzeugt.
+
+### Page-JSON v0.2: Deskriptive Metadaten
+
+Neuer `descriptive_metadata`-Block in `source`: Dublin Core (creator+GND, subject, origin_place, extent, rights, provenance) + materialtypologische Erweiterungen (writing_instrument, writing_material, hands[], dimensions, binding, inscriptions, correspondence). Schema: `schemas/page-json-v0.2.json`. Export: `pipeline/export_page_json.py`. TEI-Extraktion: `_extract_full_metadata()` in tei_context.py mit persName-Parsing und Whitespace-Normalisierung.
+
+### METS/MODS als Zielformat
+
+Architektur-Entscheidung: Page-JSON = internes Arbeitsformat, METS/MODS + PAGE XML = Archiv- und Austauschformat (Zielformat). Gruende: GAMS arbeitet mit METS, Transkribus/eScriptorium/OCR-D verstehen es, MODS ist reicher als DC fuer Archivmetadaten, kein eigenes Schema zu pflegen. Wissensdokument: `knowledge/page-xml-mets-architecture.md`. Terminologie durchgaengig in CLAUDE.md, README, Plan.md, Knowledge Vault nachgezogen.
+
+### Knowledge Vault Audit
+
+8 Fixes: stale Zahlen in dia-xai-integration.md (1328→1973), Session-Zaehler in index.md, DWR-Referenzen in stats-dashboard.md, Schema-Referenz v0.1→v0.2, updated-Daten.
+
+### Entscheidungen
+
+| Entscheidung | Begruendung |
+|---|---|
+| DWR aus Dashboard entfernt | rho=0.05, F1=0.20 — mass Prosadichte, nicht Qualitaet |
+| VLM-Konfidenz aus Dashboard entfernt | High/Medium/Low diskriminiert nicht |
+| Modellkonsensus aus Dashboard entfernt | CER zwischen Modellen = Agreement, nicht Korrektheit |
+| Provenienz-Annotationen | Jede Visualisierung zeigt Datenherkunft — epistemische Transparenz |
+| Page-JSON v0.2 mit descriptive_metadata | DC + Materialtypologie — alle TEI-Felder ins Arbeitsformat |
+| METS/MODS als Zielformat | Etablierter Stack, GAMS-kompatibel, kein eigenes Schema noetig |
+| _fill_missing_pages | Seiten-Bild-Sync als Pipeline-Schritt, nicht Viewer-Workaround |
+
+### Neue/Geaenderte Dateien
+
+- `pipeline/quality_signals.py` — `_fill_missing_pages()` (v1.5 Fix)
+- `pipeline/tei_context.py` — `_extract_full_metadata()`, `parse_tei_full_metadata()`, persName-Parser, Whitespace-Fix
+- `pipeline/export_page_json.py` — Vollstaendige Implementierung (~210 Zeilen)
+- `schemas/page-json-v0.2.json` — Neues Schema mit descriptive_metadata
+- `knowledge/page-xml-mets-architecture.md` — Neues Wissensdokument
+- `knowledge/data-overview.md` — Physischer Bestand, TEI vs. Backup, Sprachen
+- `docs/app.js` — Dashboard-Umbau (5 Sektionen entfernt, 3 neu)
+- `docs/app.css` — Provenienz-Styling
+
+## 2026-04-03 — Session 24: teiCrafter Pipeline Mode + Page-JSON Batch-Export
+
+**Schwerpunkt:** Analyse szd-htr ↔ teiCrafter-Verbindung, Implementierung Pipeline-Modus in teiCrafter, Page-JSON-Batch-Export fuer alle 2030 Objekte, Batch-TEI-Generierung.
+
+### Analyse der Projektverbindung
+
+szd-htr und teiCrafter bilden eine sequentielle Pipeline: szd-htr (Bild → Text + Layout + Metadaten) → teiCrafter (Text → TEI-XML). Design-Entscheidung: TEI-Erzeugung passiert in teiCrafter, nicht in szd-htr. teiCrafter hat bereits 3 SZD-spezifische Mapping-Templates (correspondence-szd, manuscript-szd, print-szd).
+
+### teiCrafter Pipeline-Modus (Phase P)
+
+Neuer Modus neben dem bestehenden interaktiven Browser-Modus. Node.js-CLI (`pipeline.mjs`), 6 reine ES6-Module unter `docs/js/pipeline/`. Deterministisch wo moeglich, LLM (Gemini 3.1 Flash Lite) nur fuer div-Grenzen bei komplexen Dokumenten (noch nicht implementiert).
+
+Module:
+- `utils.js` — XML-Escaping, Element-Builder, Sprachcodes
+- `mods-to-header.js` — Page-JSON Metadaten → teiHeader (100% deterministisch)
+- `page-to-body.js` — Seiten + Regionen → TEI-Elementliste (Regionstyp-Mapping)
+- `div-structurer.js` — Heading-Heuristik, Briefe als Single-div
+- `tei-assembler.js` — Orchestriert alles
+- `pipeline-validator.js` — Tag-Matching + Struktur-Check + Plaintext-Erhaltung
+
+DTABf-Schema um 30+ Elemente erweitert (msDesc-Hierarchie, fw, table, list, Header-Elemente). Plan.md mit 9 Teilphasen erstellt.
+
+### Page-JSON Batch-Export (szd-htr)
+
+`python pipeline/export_page_json.py --all` — 2.030 Page-JSON-Dateien exportiert (vorher: 3). Aufgeteilt: Lebensdokumente 127, Korrespondenzen 1.186, Aufsatzablage 606, Werke 111.
+
+### Batch-TEI-Generierung (teiCrafter)
+
+`node pipeline.mjs --batch` ueber alle 4 Sammlungen: **2.030 TEI-Dateien, 0 Fehler**. Plaintext-Erhaltung 99-100%. Output: 21 MB in `teiCrafter/output/`. Fix fuer leere Dokumente (5 Objekte ohne Seiten → leerer div).
+
+### Entscheidungen
+
+| Entscheidung | Begruendung |
+|---|---|
+| Page-JSON-Fallback statt METS | METS-Export (`export_mets.py`) existiert noch nicht; Page-JSON v0.2 enthaelt alle benoetigten Daten |
+| Kein LLM fuer teiHeader | MODS-zu-TEI ist deterministische Abbildung |
+| Kein LLM fuer body-Grundstruktur | Regionstypen aus Layout-Analyse genuegen |
+| Briefe als Single-div | Umschlag-Adressen und Briefkoepfe sind keine Kapitelgrenzen |
+| Node.js CLI statt Browser-Pipeline | Batch-Verarbeitung braucht Dateisystem-Zugriff |
+
+### Naechste Schritte
+
+- Layout-Analyse skalieren (18 → ~2000 Objekte, benoetigt API-Calls)
+- `export_mets.py` in szd-htr bauen (Phase 5b)
+- teiCrafter METS-Parser (Phase P.1)
+- LLM-Fallback fuer komplexe div-Grenzen (P.4.2/P.4.3)
+
+---
+
 ## Offene Fragen (Stand 2026-04-03)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
-- [ ] Lizenz klaeren: MIT fuer Code, CC-BY fuer Daten?
 - [ ] Korrektur-Markup: Erweitertes Markup noetig?
+- [ ] VLM-Seitenzuordnungsfehler: VLM schreibt Text auf falsche Seite bei Typoskripten mit Rueckseiten — Erkennung und Fix?
+- [ ] export_mets.py: METS-Container mit MODS + PAGE XML implementieren
+- [ ] Korrespondenzen-TEI-Matching: correspDesc aus Konvolut-Eintraegen den Einzelbriefen zuordnen
 - [x] Fraktur-Erkennung: o_szd.2232 high confidence (Session 7)
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)

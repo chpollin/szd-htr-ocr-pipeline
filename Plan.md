@@ -98,7 +98,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] `_extract_full_metadata()` in `tei_context.py` — 10 neue TEI-Felder (creators+GND, holding+GND, provenance, origPlace, writing_material, dimensions, binding, inscriptions)
 - [x] `export_page_json.py` — OCR + Layout + TEI-Metadaten → Page-JSON v0.2
 - [x] Wissensdokument `knowledge/page-xml-mets-architecture.md` — Schichtenarchitektur PAGE XML / MODS / METS
-- [ ] Batch-Export aller Objekte nach Page-JSON v0.2
+- [x] Batch-Export aller Objekte nach Page-JSON v0.2 (2030 Dateien, Session 24)
 
 ### 5b: METS/MODS + PAGE XML (Zielformat)
 - [x] PAGE XML Export (`export_pagexml.py`) — deterministisch, PAGE 2019
