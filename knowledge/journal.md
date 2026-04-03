@@ -910,7 +910,82 @@ Paralleler Betrieb mit zweitem Claude (Session 20): Einer transkribiert neue Obj
 
 ---
 
-## Offene Fragen (Stand 2026-04-02)
+## 2026-04-03 — Session 22: UI-Redesign (Badge-System, Header, CSS/HTML-Refactoring)
+
+**Schwerpunkt:** Komplettes Redesign des Badge-Systems im Katalog-Viewer, Projekttitel im Header, CSS/HTML-Qualitaetsrefactoring, Accessibility-Verbesserungen.
+
+### Badge-System: 5-Stufen-Redesign
+
+**Problem:** Badges waren visuell inkonsistent (manche Pills, manche Text+Punkt), Labels unklar fuer Expert:innen ("LLM OK", "Agent ✓"), Farben widersprachen der Semantik (gelber Punkt fuer OK-Zustand).
+
+**Neues System — einheitliche Pills mit Vertrauens-Farbverlauf:**
+
+| Tier | Alt | Neu | Farbe |
+|---|---|---|---|
+| 0 | GT ✓ | Verifiziert | Dunkelgruen (#1a5c1a / #c8e6c8) |
+| 1 | Geprueft | Geprueft | Gruen (#2d6a2d / #d4e8d4) |
+| 2 | Agent ✓ | Auto-geprueft | Schiefergrau (#475569 / #e2e8f0) |
+| 3a | LLM OK | Ungeprueft | Grau (#4b5563 / #e5e7eb) |
+| 3b | Review | Review noetig | Amber (#b45309 / #fef3c7) |
+
+Alle 5 Stufen bestehen WCAG AA (≥4.5:1 Kontrast). Farben nach Kontrastpruefung nachgeschaerft: "Review noetig" von #d97706 auf #b45309, "Ungeprueft" von #6b7280 auf #4b5563.
+
+VLM-Konfidenz ("high/medium/low") aus Qualitaets-Spalte entfernt (laut eigener Evaluation unzuverlaessig). LLM-Sparkle-Icon (✦) entfernt — Labels sind selbsterklaerend.
+
+Betrifft: `renderReviewCell()`, `renderQualityCell()`, `renderViewerContext()`, `renderStats()`, `renderReviewDonut()`, Filter-Dropdown (5 statt 3 Optionen), Help-Tabelle (5-Tier), Summary-Bar-Chips.
+
+### Header-Redesign
+
+- **Titel:** "SZD-HTR" → "SZD OCR/HTR Pipeline"
+- **Subtitle:** "Experimentelles Teilprojekt von Stefan Zweig Digital" (italic, dezent)
+- **Claude-Badge:** Vereinfacht auf "Built with Claude Code" (ohne Modell/Methode)
+- **Meta-Tags:** `<title>`, OG-Tags, Description aktualisiert
+
+### CSS/HTML-Refactoring
+
+**Accessibility:**
+- `:focus-visible` auf alle interaktiven Buttons (Katalog-Pagination, Viewer-Navigation, Action-Buttons, GT-Approve)
+- `aria-label` auf 9 Icon-only-Buttons (Pfeile, Zoom, Rotate, Reset, Fit)
+- Disabled-Buttons: `opacity` ersetzt durch echte Farben (WCAG AA konform)
+
+**Inline-Styles eliminiert:**
+- `.is-hidden` CSS-Klasse ersetzt 12× `style="display:none"` im HTML
+- 27× `style.display` im JS → `classList.add/remove/toggle('is-hidden')`
+- 5× JS-generierte Inline-Styles → CSS-Klassen (`.placeholder-message`, `.gt-review-panel__stats`, `.gt-review-panel__hint`, `.diff__provider-label--old/--new`)
+
+**Farb-Fallbacks bereinigt:**
+- 12× `var(--sz-*, #fallback)` Fallbacks in GT-Review-CSS entfernt
+- Hardcodierte Farben (#888, #1a1a1a) → CSS-Variablen
+- `'JetBrains Mono', monospace` → `var(--font-mono)`
+
+**Weitere Fixes:**
+- `::selection`-Style (Burgundy/Cream)
+- Knowledge-Sidebar auf 600px versteckt
+- Help-Links: Underline-Style konsistent mit Markdown-Content
+- Umlaut-Fix: "Qualitaetsmetriken" → "Qualitaetsmetriken" (HTML-Entity)
+- Diff-Beschreibung: Generisch statt hardcoded Modellnamen
+- `.catalog__stats` CSS `display:none` → `.is-hidden` Klasse
+
+### Neue/Geaenderte Dateien
+
+- `docs/app.css` — 10 neue CSS-Variablen (Review-Tiers), Badge-Klassen, Focus-Styles, `.is-hidden`, Farb-Bereinigung
+- `docs/app.js` — Badge-Rendering, classList statt style.display, Filter-Logik, Donut-Labels
+- `docs/index.html` — Header, Meta-Tags, Dropdown, Help-Tabelle, aria-labels, is-hidden
+
+### Entscheidungen
+
+| Entscheidung | Begruendung |
+|---|---|
+| "Ungeprueft" statt "LLM OK" | Ehrlicher — sagt was es ist (nicht geprueft), nicht was die Maschine meint |
+| VLM-Konfidenz entfernt | Eigene Evaluation zeigt: unzuverlaessig (LLMs ueberschaetzen Leistung) |
+| Icons entfernt (✦, ⚙, ✓) | Labels sind selbsterklaerend, Icons waren visuell unausbalanciert |
+| WCAG-Kontrastpruefung | Amber-Text und Grau-Text nachgeschaerft nach Berechnung der Kontrastverhaeltnisse |
+| `!important` bei `.is-hidden` | Utility-Class muss alle anderen display-Regeln ueberschreiben |
+| `!important` bei reduced-motion | Anerkanntes A11y-Pattern, stellt sicher dass keine Animation die Einstellung ueberschreibt |
+
+---
+
+## Offene Fragen (Stand 2026-04-03)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
 - [ ] Lizenz klaeren: MIT fuer Code, CC-BY fuer Daten?

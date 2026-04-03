@@ -1,12 +1,14 @@
-# SZD-HTR — Textextraktion aus digitalisierten Nachlassfaksimiles
+# SZD OCR/HTR Pipeline — Textextraktion aus digitalisierten Nachlassfaksimiles
 
 ## Projektziel
 
-VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). Erzeugt maschinenlesbaren Text aus digitalisierten Faksimiles. Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/), liefert Textdaten für den Expert-in-the-Loop-Workflow im [DIA-XAI](https://github.com/chpollin/dia-xai)-Projekt (PLUS Early Career Grant, ab Mai 2026).
+Experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/). VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). Erzeugt maschinenlesbaren Text aus digitalisierten Faksimiles.
+
+**Promptotyping-Projekt:** Sämtlicher Code, die Pipeline-Architektur, das Frontend und die Dokumentation wurden von Claude Code (Opus 4.6) generiert. Die Rolle des Projektleiters (Christopher Pollin) ist die eines Projektmanagers und fachlichen Entscheiders — nicht die eines Software-Entwicklers.
 
 - GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
 - Python 3.10+ (getestet mit 3.11)
-- Lizenz: MIT
+- Lizenz: CC-BY 4.0
 
 ## Aktueller Stand
 
