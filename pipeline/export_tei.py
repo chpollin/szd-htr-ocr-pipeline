@@ -73,7 +73,7 @@ def jsround(v: float) -> int:
 
 # --- Konverter: Page-JSON -> TEI-String (Port von szd-pagejson-to-tei.mjs) ---
 
-def build_tei(pj: dict, enrich: bool = False) -> str:
+def build_tei(pj: dict, enrich: bool = False, carry_notes: bool = False) -> str:
     src = pj.get("source") or {}
     dm = src.get("descriptive_metadata") or {}
     prov = pj.get("provenance") or {}
@@ -145,10 +145,15 @@ def build_tei(pj: dict, enrich: bool = False) -> str:
     def body_for_page(page: dict) -> str:
         sid = f"surf_{page['page']}"
         facs = f' facs="#{sid}"' if has_surface(page) else ""
-        pb = f'      <pb n="{esc_attr(page["page"])}"{facs}/>'
+        head = f'      <pb n="{esc_attr(page["page"])}"{facs}/>'
+        if carry_notes:  # opt-in: KI-Seitennotiz, attributiert als maschinell/ungeprueft
+            note = (page.get("notes") or "").strip()
+            if note:
+                head += (f'\n      <note resp="#szd-htr-ai" type="page">'
+                         f'{esc_text(note)}</note>')
         text = (page.get("text") or "").replace("\r\n", "\n")
         if not text.strip():
-            return pb  # blank / color_chart: Folio ohne Text
+            return head  # blank / color_chart: Folio ohne Text (ggf. + Notiz)
         def cell(ln: str) -> str:
             c = esc_text(ln)
             return enrich_line(c) if enrich else c  # enrich nur im opt-in Pfad
@@ -156,7 +161,7 @@ def build_tei(pj: dict, enrich: bool = False) -> str:
         for para in re.split(r"\n{2,}", text):
             inner = "\n        ".join(f"<lb/>{cell(ln)}" for ln in para.split("\n"))
             paras.append(f"      <p>\n        {inner}\n      </p>")
-        return pb + "\n" + "\n".join(paras)
+        return head + "\n" + "\n".join(paras)
 
     body = "\n".join(body_for_page(p) for p in pages)
 
@@ -245,13 +250,14 @@ def page_json_path(object_id: str, collection: str) -> Path:
     return RESULTS_BASE / collection / f"{object_id}_page.json"
 
 
-def output_suffix(enrich: bool) -> str:
-    return ".enriched.tei.xml" if enrich else ".tei.xml"
+def output_suffix(enrich: bool, carry_notes: bool = False) -> str:
+    # Jede Nicht-Default-Option schreibt in .enriched.tei.xml -> Default bleibt byte-identisch.
+    return ".enriched.tei.xml" if (enrich or carry_notes) else ".tei.xml"
 
 
 def export_object_tei(object_id: str, collection: str, force: bool = False,
-                      enrich: bool = False) -> Path | None:
-    out_path = results_dir_for(collection) / f"{object_id}{output_suffix(enrich)}"
+                      enrich: bool = False, carry_notes: bool = False) -> Path | None:
+    out_path = results_dir_for(collection) / f"{object_id}{output_suffix(enrich, carry_notes)}"
     if out_path.exists() and not force:
         return None
     in_path = page_json_path(object_id, collection)
@@ -259,7 +265,7 @@ def export_object_tei(object_id: str, collection: str, force: bool = False,
         print(f"  {object_id}: kein Page-JSON ({in_path.name})", file=sys.stderr)
         return None
     pj = json.loads(in_path.read_text(encoding="utf-8"))
-    tei = build_tei(pj, enrich=enrich)
+    tei = build_tei(pj, enrich=enrich, carry_notes=carry_notes)
     # newline="" verhindert Windows-CRLF-Uebersetzung -> Byte-Identitaet zum Prototyp.
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         f.write(tei)
@@ -288,11 +294,16 @@ def main():
     parser.add_argument("--force", action="store_true", help="Bestehende ueberschreiben")
     parser.add_argument("--dry-run", action="store_true", help="Nur zaehlen, nicht exportieren")
     parser.add_argument("--enrich-markers", action="store_true",
-                        help="Opt-in: Marker ([...N...], ~~x~~, {x}, WORT[?]) in TEI-Editorial-"
-                             "Elemente umwandeln. Schreibt {id}.enriched.tei.xml (Standard-TEI "
-                             "bleibt unveraendert). Mehrdeutiges bleibt Literal.")
+                        help="Opt-in: Marker ([Stempel:], [...N...], [...], ~~x~~, {x}, WORT[?]) in "
+                             "TEI-Editorial-Elemente umwandeln. Schreibt {id}.enriched.tei.xml "
+                             "(Standard-TEI bleibt unveraendert). Mehrdeutiges bleibt Literal.")
+    parser.add_argument("--carry-notes", action="store_true",
+                        help="Opt-in: KI-Seitennotizen (pages[].notes) als <note resp=\"#szd-htr-ai\"> "
+                             "an den <pb> haengen, attributiert als maschinell/ungeprueft. Schreibt "
+                             "ebenfalls {id}.enriched.tei.xml (Standard-TEI bleibt unveraendert).")
     args = parser.parse_args()
     enrich = args.enrich_markers
+    carry_notes = args.carry_notes
 
     objects = []  # (object_id, collection)
     if args.object_id:
@@ -309,7 +320,7 @@ def main():
         parser.print_help()
         sys.exit(1)
 
-    mode = " [enrich-markers]" if enrich else ""
+    mode = ((" [enrich-markers]" if enrich else "") + (" [carry-notes]" if carry_notes else ""))
     if args.dry_run:
         print(f"TEI Export (dry-run){mode}: {len(objects)} Objekte mit Page-JSON")
         for col in COLLECTIONS:
@@ -322,11 +333,11 @@ def main():
     print("=" * 60)
     done, skipped, failed = 0, 0, 0
     for i, (oid, col) in enumerate(objects):
-        out_path = results_dir_for(col) / f"{oid}{output_suffix(enrich)}"
+        out_path = results_dir_for(col) / f"{oid}{output_suffix(enrich, carry_notes)}"
         if out_path.exists() and not args.force:
             skipped += 1
             continue
-        path = export_object_tei(oid, col, args.force, enrich)
+        path = export_object_tei(oid, col, args.force, enrich, carry_notes)
         if path:
             done += 1
             if done <= 5 or done % 200 == 0:

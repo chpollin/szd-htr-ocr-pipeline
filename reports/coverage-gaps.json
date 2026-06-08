@@ -1,0 +1,370 @@
+{
+  "summary": {
+    "total_objects": 2103,
+    "with_text": 2063,
+    "empty_pagejson": 34,
+    "all_blank": 6,
+    "retransscribable": 34
+  },
+  "empty_pagejson": [
+    {
+      "object_id": "o_szd.2230",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2230_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.2256",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2256_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.2302",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2302_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.2307",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2307_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.2309",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2309_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 7
+    },
+    {
+      "object_id": "o_szd.2314",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2314_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.2333",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2333_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 17
+    },
+    {
+      "object_id": "o_szd.2422",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2422_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.2491",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2491_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 7
+    },
+    {
+      "object_id": "o_szd.2681",
+      "collection": "aufsatzablage",
+      "ocr_file": "o_szd.2681_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.1110",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1110_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.1418",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1418_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.1461",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1461_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.1535",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1535_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.1546",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1546_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.1568",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1568_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.1672",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.1672_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.482",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.482_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.564",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.564_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.649",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.649_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.843",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.843_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 4
+    },
+    {
+      "object_id": "o_szd.937",
+      "collection": "korrespondenzen",
+      "ocr_file": "o_szd.937_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.121",
+      "collection": "lebensdokumente",
+      "ocr_file": "o_szd.121_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.170",
+      "collection": "lebensdokumente",
+      "ocr_file": "o_szd.170_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 3
+    },
+    {
+      "object_id": "o_szd.70",
+      "collection": "lebensdokumente",
+      "ocr_file": "o_szd.70_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 91
+    },
+    {
+      "object_id": "o_szd.76",
+      "collection": "lebensdokumente",
+      "ocr_file": "o_szd.76_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 60
+    },
+    {
+      "object_id": "o_szd.77",
+      "collection": "lebensdokumente",
+      "ocr_file": "o_szd.77_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 95
+    },
+    {
+      "object_id": "o_szd.1879",
+      "collection": "werke",
+      "ocr_file": "o_szd.1879_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 25
+    },
+    {
+      "object_id": "o_szd.1886",
+      "collection": "werke",
+      "ocr_file": "o_szd.1886_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 175
+    },
+    {
+      "object_id": "o_szd.202",
+      "collection": "werke",
+      "ocr_file": "o_szd.202_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 13
+    },
+    {
+      "object_id": "o_szd.209",
+      "collection": "werke",
+      "ocr_file": "o_szd.209_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 5
+    },
+    {
+      "object_id": "o_szd.267",
+      "collection": "werke",
+      "ocr_file": "o_szd.267_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 232
+    },
+    {
+      "object_id": "o_szd.311",
+      "collection": "werke",
+      "ocr_file": "o_szd.311_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 17
+    },
+    {
+      "object_id": "o_szd.319",
+      "collection": "werke",
+      "ocr_file": "o_szd.319_gemini-3.1-flash-lite-preview.json",
+      "ocr_pages": 0,
+      "ocr_text_pages": 0,
+      "images": 16
+    }
+  ],
+  "all_blank": [
+    {
+      "object_id": "o_szd.2664",
+      "collection": "aufsatzablage",
+      "pages": 3,
+      "types": {
+        "blank": 3
+      }
+    },
+    {
+      "object_id": "o_szd.176",
+      "collection": "korrespondenzen",
+      "pages": 4,
+      "types": {
+        "blank": 3,
+        "color_chart": 1
+      }
+    },
+    {
+      "object_id": "o_szd.230",
+      "collection": "werke",
+      "pages": 99,
+      "types": {
+        "blank": 99
+      }
+    },
+    {
+      "object_id": "o_szd.275",
+      "collection": "werke",
+      "pages": 33,
+      "types": {
+        "blank": 33
+      }
+    },
+    {
+      "object_id": "o_szd.290",
+      "collection": "werke",
+      "pages": 91,
+      "types": {
+        "blank": 91
+      }
+    },
+    {
+      "object_id": "o_szd.939",
+      "collection": "werke",
+      "pages": 99,
+      "types": {
+        "blank": 99
+      }
+    }
+  ],
+  "retry_commands": [
+    "python pipeline/transcribe.py o_szd.121 -c lebensdokumente --force",
+    "python pipeline/transcribe.py o_szd.170 -c lebensdokumente --force",
+    "python pipeline/transcribe.py o_szd.70 -c lebensdokumente --force",
+    "python pipeline/transcribe.py o_szd.76 -c lebensdokumente --force",
+    "python pipeline/transcribe.py o_szd.77 -c lebensdokumente --force",
+    "python pipeline/transcribe.py o_szd.1879 -c werke --force",
+    "python pipeline/transcribe.py o_szd.1886 -c werke --force",
+    "python pipeline/transcribe.py o_szd.202 -c werke --force",
+    "python pipeline/transcribe.py o_szd.209 -c werke --force",
+    "python pipeline/transcribe.py o_szd.267 -c werke --force",
+    "python pipeline/transcribe.py o_szd.311 -c werke --force",
+    "python pipeline/transcribe.py o_szd.319 -c werke --force",
+    "python pipeline/transcribe.py o_szd.2230 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2256 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2302 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2307 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2309 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2314 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2333 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2422 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2491 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.2681 -c aufsatzablage --force",
+    "python pipeline/transcribe.py o_szd.1110 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1418 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1461 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1535 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1546 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1568 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.1672 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.482 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.564 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.649 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.843 -c korrespondenzen --force",
+    "python pipeline/transcribe.py o_szd.937 -c korrespondenzen --force"
+  ]
+}

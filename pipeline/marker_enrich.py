@@ -19,32 +19,47 @@ Arbeitet auf der BEREITS XML-escapeten Zeile (esc_text). Marker-Delimiter
 ([ ] { } ~ ?) ueberleben das Escaping; Payloads sind schon escapet (auch '{< x}' ->
 '{&lt; x}'), daher entsteht stets gueltiges XML.
 
-Konvertiert in v1:
+Konvertiert (v2.1, nach adversarischer Semantik-Pruefung):
+  [Stempel: X]      -> <note type="stamp">X</note>      (ganze Zeile)
+  [Poststempel: X]  -> <note type="postmark">X</note>   (ganze Zeile; Postmark != Stempel)
+  [Marginalie: X]   -> <note type="marginal">X</note>   (ganze Zeile; Protokoll §3.5)
+  WORT[?]    -> <unclear cert="low">WORT</unclear>
+               (nur direkt am Wort; KEIN reason="illegible" -- [?] ist unsicher-aber-lesbar
+                (50-90%), nicht unleserlich (das waere [...]); nachgestellte Satzzeichen bleiben
+                ausserhalb, weil [?] das Wort markiert, nicht den Punkt; §3.2)
   [...N...]  -> <gap reason="illegible" quantity="N" unit="chars"/>
-               (nur wenn NICHT allein auf der Zeile -- ein gap-only-<lb> faellt im
+  [...]      -> <gap reason="illegible"/>
+               (beide nur NICHT allein auf der Zeile -- ein gap-only-<lb> faellt im
                 Editor auf cells=0 und verschwaende, darum dann Literal)
-  ~~x~~      -> <del rend="strikethrough">x</del>
-               (nur bei GERADER ~~-Zahl auf der Zeile, Payload ohne ~ [ ] { } = kein Nesting)
-  {x}        -> <add place="above">x</add>
-               (nur bei balancierten {}-Klammern auf der Zeile, Payload ohne ~ [ ] = kein
-                Nesting; NICHT der Platzhalter {eingefuegt})
-  WORT[?]    -> <unclear reason="illegible" cert="low">WORT</unclear>
-               (nur direkt am Wort ohne Leerzeichen -- genau die protokollkonforme Stelle,
-                annotation-protocol.md S3.2 "direkt nach dem unsicheren Wort, ohne Leerzeichen")
+  ~~x~~      -> <del>x</del>
+               (gerade ~~-Zahl, kein Nesting; OHNE @rend -- Protokoll §3.3 kodiert die
+                Streichungsform bewusst nicht, "strikethrough" waere unbelegt)
+  {x}        -> <add>x</add>   KONSERVATIV
+               (nur GENAU EIN kurzes {Wort}, eingebettet in anderen Text. Der VLM nutzt {}
+                massenhaft als Wortsegmentierungs-Rauschen -- ~81% der {} sind keine echten
+                Einfuegungen; daher bleiben >=2/Zeile, sole-on-line, Worttrennung (endet auf -),
+                Mehrwort und {eingefuegt} literal. OHNE @place -- §3.4 = "ueber der Zeile ODER am
+                Rand", "above" waere erfunden.)
 
-Bewusst NICHT in v1 (bleibt Literal, verlustfrei): plain [...] (meist allein-auf-Zeile),
-[Stempel:]/[Label:] (braucht standoff-<note> mit @target, vom Zeilen-Hook nicht erreichbar),
-mehrzeilige Spans, unbalancierte/verschachtelte Marker, [?] mit Leerzeichen / in Laeufen,
-{eingefuegt}-Platzhalter, das [?3?]-Sonderzeichen.
+Bewusst NICHT (bleibt Literal, verlustfrei): mid-line/mehrzeilige Stempel und sonstige
+[Label: ...]-Varianten (Bild/Abbildung/Briefmarke ...), mehrzeilige ~~/{ }-Spans,
+unbalancierte/verschachtelte Marker, [?] mit Leerzeichen / in Laeufen / direkt nach einem Tag,
+plain/gez. Luecke allein-auf-Zeile, das [?3?]-Sonderzeichen.
 """
 
 import re
 
+_STAMP = re.compile(r"^(\s*)\[(Stempel|Poststempel):\s?(.*)\]\s*$")
+_MARGIN = re.compile(r"^(\s*)\[Marginalie:\s?(.*)\]\s*$")
+_UNCLEAR = re.compile(r"([^\s\[\]{}~]+)\[\?\]")
 _GAP_N = re.compile(r"\[\.{3}(\d+)\.{3}\]")
+_GAP_PLAIN = re.compile(r"\[\.{3}\]")
 _DEL = re.compile(r"~~([^~\[\]{}]+?)~~")
 _ADD = re.compile(r"\{([^{}~\[\]]+)\}")
-_UNCLEAR = re.compile(r"([^\s\[\]{}~]+)\[\?\]")
 _PLACEHOLDER = {"eingefuegt", "eingefügt"}
+# Trailing-Satzzeichen, die NICHT zum unsicheren Wort gehoeren (";" bewusst NICHT, sonst
+# wuerde eine Entity wie &amp; / &lt; zerschnitten).
+_TRAIL = ".,:!?)\"'»«"
 
 
 def _has_other_text(line: str, start: int, end: int) -> bool:
@@ -57,27 +72,64 @@ def enrich_line(escaped_line: str) -> str:
     Faelle; alles andere bleibt unveraendert (Fail-safe auf Literal)."""
     s = escaped_line
 
-    # 1. [...N...] gezaehlte Luecke -> <gap/>  (nie allein auf der Zeile)
-    def _gap(m: "re.Match") -> str:
-        if not _has_other_text(s, m.start(), m.end()):
-            return m.group(0)  # allein auf der Zeile -> Literal (sonst cells=0, Zeile weg)
-        return f'<gap reason="illegible" quantity="{m.group(1)}" unit="chars"/>'
-    s = _GAP_N.sub(_gap, s)
+    # 0a. Stempel/Poststempel (ganze Zeile) -> <note type="stamp|postmark">
+    m = _STAMP.match(s)
+    if m:
+        typ = "postmark" if m.group(2) == "Poststempel" else "stamp"
+        return f'{m.group(1)}<note type="{typ}">{m.group(3)}</note>'
+    # 0b. Marginalie (ganze Zeile) -> <note type="marginal">  (Protokoll §3.5)
+    m = _MARGIN.match(s)
+    if m:
+        return f'{m.group(1)}<note type="marginal">{m.group(2)}</note>'
 
-    # 2. ~~x~~ Tilgung -> <del>  (nur bei gerader ~~-Anzahl auf DIESER Zeile = sauber paarbar)
+    # 1. WORT[?] -> <unclear cert="low">WORT</unclear>  (ZUERST, auf tag-freiem Text.
+    #    KEIN reason="illegible": [?]=unsicher-aber-lesbar (50-90%), nicht unleserlich -- das
+    #    waere [...]. Nachgestellte Satzzeichen bleiben ausserhalb (markiert das Wort, nicht
+    #    den Punkt; Protokoll §3.2).
+    def _unclear(mm: "re.Match") -> str:
+        tok = mm.group(1)
+        core = tok.rstrip(_TRAIL)
+        if not core:
+            return mm.group(0)  # nur Satzzeichen vor [?] -> literal
+        return f'<unclear cert="low">{core}</unclear>{tok[len(core):]}'
+    s = _UNCLEAR.sub(_unclear, s)
+
+    # 2. [...N...] gezaehlte Luecke -> <gap/>  (nie allein auf der Zeile -> sonst cells=0)
+    def _gap_counted(mm: "re.Match") -> str:
+        if not _has_other_text(s, mm.start(), mm.end()):
+            return mm.group(0)
+        return f'<gap reason="illegible" quantity="{mm.group(1)}" unit="chars"/>'
+    s = _GAP_N.sub(_gap_counted, s)
+
+    # 3. [...] plain Luecke -> <gap/>  (nie allein auf der Zeile)
+    def _gap_plain(mm: "re.Match") -> str:
+        if not _has_other_text(s, mm.start(), mm.end()):
+            return mm.group(0)
+        return '<gap reason="illegible"/>'
+    s = _GAP_PLAIN.sub(_gap_plain, s)
+
+    # 4. ~~x~~ Tilgung -> <del>  (gerade ~~-Zahl; OHNE @rend -- Protokoll §3.3 kodiert die
+    #    Streichungsform bewusst nicht, "strikethrough" waere eine unbelegte Aussage)
     if s.count("~~") % 2 == 0:
-        s = _DEL.sub(lambda m: f'<del rend="strikethrough">{m.group(1)}</del>', s)
+        s = _DEL.sub(lambda mm: f'<del>{mm.group(1)}</del>', s)
 
-    # 3. {x} Einfuegung -> <add>  (nur bei balancierten {}-Klammern auf DIESER Zeile)
-    if s.count("{") == s.count("}"):
-        def _add(m: "re.Match") -> str:
-            if m.group(1).strip().lower() in _PLACEHOLDER:
-                return m.group(0)  # Platzhalter ohne echten Inhalt -> Literal
-            return f'<add place="above">{m.group(1)}</add>'
+    # 5. {x} Einfuegung -> <add>  KONSERVATIV. Der VLM nutzt {} massenhaft als
+    #    Wortsegmentierungs-Rauschen (laufender Prosatext, >=2/Zeile, sole-on-line,
+    #    Worttrennung, Mehrwort) -- ~81% sind KEINE echten Einfuegungen. Daher nur GENAU EIN
+    #    kurzes {Wort}, eingebettet in anderen Text, konvertieren; Rest bleibt literal.
+    #    OHNE @place -- {} kodiert "ueber der Zeile ODER am Rand" (§3.4), "above" waere erfunden.
+    if s.count("{") == 1 and s.count("}") == 1:
+        def _add(mm: "re.Match") -> str:
+            payload = mm.group(1)
+            if payload.strip().lower() in _PLACEHOLDER:
+                return mm.group(0)  # {eingefuegt}-Platzhalter -> literal
+            if not _has_other_text(s, mm.start(), mm.end()):
+                return mm.group(0)  # sole-on-line -> literal
+            if payload.rstrip().endswith("-"):
+                return mm.group(0)  # Worttrennungs-Fragment -> literal
+            if len(payload.split()) > 2:
+                return mm.group(0)  # Mehrwort -> unplausible Einfuegung -> literal
+            return f'<add>{payload}</add>'
         s = _ADD.sub(_add, s)
 
-    # 4. WORT[?] -> <unclear>WORT</unclear>  (nur direkt am Wort, protokollkonform)
-    s = _UNCLEAR.sub(
-        lambda m: f'<unclear reason="illegible" cert="low">{m.group(1)}</unclear>', s
-    )
     return s
