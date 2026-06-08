@@ -84,10 +84,15 @@ def _tei_owner_index() -> dict:
     """PID (o:szd.N) -> Sammlung, aus den TEI-Katalogen aller Sammlungen.
 
     Die maßgebliche Sammlungszugehörigkeit steht in der TEI, nicht im Backup-Layout.
-    Die korrespondenzen-TEI nutzt ein abweichendes Schema und liefert hier 0 PIDs
-    (deshalb der Backup-Fallback in _canonical_collection). Da lebensdokumente in
-    COLLECTIONS vor korrespondenzen steht, gewinnt bei (theoretischer) Doppellistung
-    die zuerst eingetragene Sammlung (setdefault)."""
+    Die korrespondenzen-TEI liefert hier 0 PIDs -- kein Parser-Bug, sondern eine
+    Granularitätsfrage: sie katalogisiert auf Konvolut-Ebene (o:szd.korrespondenzen.NAME,
+    231 Briefpartner), nicht auf numerischer Einzelbrief-Ebene; es gibt schlicht keine
+    o:szd.N-Objekt-PID und keine Brücke (auch metadata.json/mets.xml führen den Konvolut
+    nicht). Daher laufen alle korrespondenzen-Objekte über den Backup-Fallback in
+    _canonical_collection. Bei realer Doppellistung (z.B. o:szd.118 steht in der
+    lebensdokumente- UND der werke-TEI) gewinnt via setdefault die in COLLECTIONS zuerst
+    eingetragene Sammlung -- diese Reihenfolge ist also scharf, nicht beliebig
+    (Regression: test_canonical_collection.py)."""
     idx: dict[str, str] = {}
     for col, meta in COLLECTIONS.items():
         tei = DATA_DIR / meta["tei"]

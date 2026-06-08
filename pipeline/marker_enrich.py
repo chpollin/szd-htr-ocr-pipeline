@@ -32,8 +32,11 @@ Konvertiert (v2.1, nach adversarischer Semantik-Pruefung):
                (beide nur NICHT allein auf der Zeile -- ein gap-only-<lb> faellt im
                 Editor auf cells=0 und verschwaende, darum dann Literal)
   ~~x~~      -> <del>x</del>
-               (gerade ~~-Zahl, kein Nesting; OHNE @rend -- Protokoll §3.3 kodiert die
-                Streichungsform bewusst nicht, "strikethrough" waere unbelegt)
+               (gerade ~~-Zahl; OHNE @rend -- Protokoll §3.3 kodiert die Streichungsform
+                bewusst nicht, "strikethrough" waere unbelegt. "Kein Nesting" meint ROH-Marker
+                ineinander (~~ in ~~); ein in Schritt 1 erzeugtes <unclear>/<gap> DARF dagegen
+                in <del>/<add> stehen -- z.B. ~~Wort[?]~~ -> <del><unclear cert="low">Wort
+                </unclear></del>, semantisch ein getilgtes unsicheres Wort, stets wohlgeformt)
   {x}        -> <add>x</add>   KONSERVATIV
                (nur GENAU EIN kurzes {Wort}, eingebettet in anderen Text. Der VLM nutzt {}
                 massenhaft als Wortsegmentierungs-Rauschen -- ~81% der {} sind keine echten
@@ -43,7 +46,7 @@ Konvertiert (v2.1, nach adversarischer Semantik-Pruefung):
 
 Bewusst NICHT (bleibt Literal, verlustfrei): mid-line/mehrzeilige Stempel und sonstige
 [Label: ...]-Varianten (Bild/Abbildung/Briefmarke ...), mehrzeilige ~~/{ }-Spans,
-unbalancierte/verschachtelte Marker, [?] mit Leerzeichen / in Laeufen / direkt nach einem Tag,
+unbalancierte/ineinander verschachtelte ROH-Marker (~~ in ~~), [?] mit Leerzeichen / in Laeufen / direkt nach einem Tag,
 plain/gez. Luecke allein-auf-Zeile, das [?3?]-Sonderzeichen.
 """
 

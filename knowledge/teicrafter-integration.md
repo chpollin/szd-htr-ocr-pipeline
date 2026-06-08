@@ -200,8 +200,13 @@ Gegen o_szd.100, 72, 1079, 2215, 161 geprueft:
 5. **images 1:1 zu pages**: bestaetigt fuer alle.
 
 ### Gemeldete Anomalien (Datenlage, nicht Konverter)
-- **o_szd.161 doppelt**: liegt in `korrespondenzen/` *und* `lebensdokumente/`
-  mit verschiedenem Inhalt. Beide werden in ihren Sammlungsordner konvertiert.
+- **Backup-Cross-Listing (34 Objekte, GELÖST)**: o_szd.161 ist einer von 34
+  lebensdokumente-Objekten, die das Backup zusätzlich physisch unter `korrespondenzen/`
+  listet. Die Transkriptions-Pipeline (`discover_objects` → `_canonical_collection`)
+  dedupliziert diese seit Commit `fb48ca0` TEI-kanonisch (jedes Objekt genau einer
+  Sammlung); die verwaisten korrespondenzen-Result-Kopien wurden entfernt. Der
+  TEI-Konverter hier arbeitet pro vorhandenem Page-JSON und ist davon unberührt.
+  Nicht zu verwechseln mit den „34 leeren `pages[]`" unten — anderes Phänomen, gleiche Zahl.
 - **40 „leere" TEI** im Voll-Lauf: 34 Objekte mit leerem `pages[]` (kein
   transkribierter Inhalt — stromaufwaerts OCR/Page-JSON), 6 mit ausschliesslich
   `blank`/`color_chart`-Seiten (reine Faksimile-Objekte). Der Konverter erzeugt

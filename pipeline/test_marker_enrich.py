@@ -13,10 +13,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from marker_enrich import enrich_line
-
-
-def esc(s: str) -> str:
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+# Test- und Produktions-Escaping muessen identisch bleiben: dieselbe Funktion nutzen, die
+# der TEI-Export vor enrich_line anwendet, statt sie hier zu duplizieren (Drift-Schutz).
+from export_tei import esc_text as esc
 
 
 def run(line: str) -> str:

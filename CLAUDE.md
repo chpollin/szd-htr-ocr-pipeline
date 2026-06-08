@@ -41,6 +41,8 @@ Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJ
 | `aufsatz/` | `aufsatzablage` | 625 | 3.844 | 5 | `szd_aufsatzablage_tei.xml` |
 | `facsimiles/` | `werke` | 169 | 7.842 | 21 | `szd_werke_tei.xml` |
 
+Die Spalte **Objekte** zählt physische Backup-Verzeichnisse. Das Backup listet einen Teil der lebensdokumente-Objekte zusätzlich unter `korrespondenzen/` (physische Doppelung). `discover_objects()` ordnet jedes Objekt TEI-kanonisch genau einer Sammlung zu (Backup-Tie-Break über die `COLLECTIONS`-Reihenfolge für Objekte ohne numerische TEI-PID), sodass keine PID doppelt transkribiert wird — die kanonisch transkribierte korrespondenzen-Größe ist daher kleiner als der Verzeichniszähler. Kanonische Zahlen → `python pipeline/transcribe.py --all --dry-run`. Detail → `knowledge/data-overview.md`.
+
 Werke ist die bildintensivste Sammlung (42% aller Bilder, 50 Objekte mit >50 Bildern). Sprachen: Deutsch (95,6%), Englisch (2,6%), Französisch (1,5%), Italienisch, Spanisch. Detailanalyse → `knowledge/data-overview.md`.
 
 Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg`. Pipeline-Abdeckung → `python pipeline/transcribe.py --all --dry-run` bzw. `docs/catalog.json`.

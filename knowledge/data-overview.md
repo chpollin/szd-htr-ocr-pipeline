@@ -24,6 +24,8 @@ Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.jso
 | Korrespondenzen | `korrespondenzen/` | 1.186 | 4.154 | 5,8 GB | 3 | 151 |
 | **Gesamt** | | **2.107** | **18.719** | **23,6 GB** | | |
 
+**Hinweis Cross-Listing:** 34 lebensdokumente-Objekte (o_szd.71, 75–93, 159, 161, 168–181) liegen im Backup zusätzlich physisch unter `korrespondenzen/`. Die Spalte **Objekte** zählt physische Verzeichnis-Einträge; die Gesamtsumme zählt diese 34 doppelt. Die Pipeline (`discover_objects` → `_canonical_collection`, `pipeline/transcribe.py`) dedupliziert TEI-kanonisch, sodass jedes Objekt genau einmal transkribiert wird — die kanonisch transkribierte korrespondenzen-Größe ist entsprechend kleiner als 1.186 (aktuelle Zahlen → `python pipeline/transcribe.py --all --dry-run`). Fünf der 34 (o_szd.76/77/175/176/179) stehen in **keiner** TEI; ihre Sammlung folgt allein dem Backup-Tie-Break entlang der `COLLECTIONS`-Reihenfolge (lebensdokumente vor korrespondenzen) — Reihenfolge in `config.py` daher nicht beliebig ändern. Regressionstest: `pipeline/test_canonical_collection.py`.
+
 **Bildformat:** JPEG, Median 4800 x 7234 px, ca. 1,3 MB/Bild.
 
 ### Grosse Objekte (>50 Bilder)
@@ -58,6 +60,8 @@ TEI-XML als primaere Metadatenquelle, heruntergeladen am 30.03.2026 von https://
 | Aufsatzablage | 624 | 625 | ~1:1 | `szd_aufsatzablage_tei.xml` |
 | Korrespondenzen | 723 | 1.186 | Backup +463 (spaetere Digitalisierungen) | `szd_korrespondenzen_tei.xml` |
 | **Gesamt** | **1.842** | **2.107** | | |
+
+Die korrespondenzen-TEI katalogisiert auf **Konvolut-Ebene** (231 Briefpartner, `o:szd.korrespondenzen.NAME`), nicht auf numerischer Einzelbrief-Ebene. `list_tei_objects()` liefert daraus **0 nutzbare Objekt-PIDs** (die 723 sind correspDesc-Metadaten ohne `o:szd.N`-PID); es ist kein Parser-Bug. Folge: alle korrespondenzen-Objekte werden über den Backup-Tie-Break kanonisiert, nicht über die TEI (s. Cross-Listing-Hinweis oben). Die 1.186 Backup-Objekte sind der physische Verzeichniszähler inkl. der 34 Cross-Listings.
 
 ---
 
@@ -200,12 +204,12 @@ Unbekannt (391), **Erwin Rieger** (225 — Zweigs Sekretaer, hat die Registerbla
 
 **TEI-Quelle:** `data/szd_korrespondenzen_tei.xml` — 723 Eintraege, NUR Korrespondenz-Metadaten (`<correspDesc>`: wer schrieb an wen, wann). Keine physischen Beschreibungen, keine PIDs.
 
-**Backup-Quelle:** `szd-backup/data/korrespondenzen/` — **1186 Objekte** mit metadata.json und Bildern.
+**Backup-Quelle:** `szd-backup/data/korrespondenzen/` — **1186 physische Objekte** mit metadata.json und Bildern. Weil die TEI 0 nutzbare Objekt-PIDs liefert (Konvolut-Ebene, s. „TEI-Metadaten vs. Backup"), werden alle korrespondenzen-Objekte über den Backup-Tie-Break kanonisiert; davon zählen 34 cross-gelistete Objekte kanonisch zu lebensdokumente, sodass die transkribierte korrespondenzen-Größe kleiner als 1186 ist (kanonisch → `transcribe.py --all --dry-run`).
 
 ### Charakteristika
 
 - Primaer handschriftliche **Briefe** (Zweigs Hand, violette Tinte)
-- Mit Abstand groesste Sammlung (1186 Objekte)
+- Mit Abstand groesste Sammlung (physisch 1186 Objekte)
 - Keine TEI-Klassifikation — Dokumenttypen aus Titeln ableitbar: Brief, Postkarte, Telegramm, Visitenkarte
 - Kontextinformation kommt aus Backup-metadata.json (Titel, Sprache, Bildliste, GAMS-URLs)
 
