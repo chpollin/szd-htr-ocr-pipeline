@@ -1,6 +1,7 @@
 """SZD-HTR Batch-Transkription: Einzelobjekte oder ganze Sammlungen transkribieren."""
 
 import argparse
+import functools
 import json
 import re
 import sys
@@ -15,8 +16,8 @@ from config import (
 )
 from quality_signals import compute_signals
 from tei_context import (
-    context_from_backup_metadata, format_context, parse_tei_for_object,
-    resolve_group,
+    context_from_backup_metadata, format_context, list_tei_objects,
+    parse_tei_for_object, resolve_group,
 )
 
 
@@ -78,20 +79,68 @@ def find_ocr_file(results_dir: Path, object_id: str) -> Path | None:
 
 # --- Object Discovery ---
 
+@functools.lru_cache(maxsize=1)
+def _tei_owner_index() -> dict:
+    """PID (o:szd.N) -> Sammlung, aus den TEI-Katalogen aller Sammlungen.
+
+    Die maßgebliche Sammlungszugehörigkeit steht in der TEI, nicht im Backup-Layout.
+    Die korrespondenzen-TEI nutzt ein abweichendes Schema und liefert hier 0 PIDs
+    (deshalb der Backup-Fallback in _canonical_collection). Da lebensdokumente in
+    COLLECTIONS vor korrespondenzen steht, gewinnt bei (theoretischer) Doppellistung
+    die zuerst eingetragene Sammlung (setdefault)."""
+    idx: dict[str, str] = {}
+    for col, meta in COLLECTIONS.items():
+        tei = DATA_DIR / meta["tei"]
+        if tei.exists():
+            for pid in list_tei_objects(tei):
+                idx.setdefault(pid, col)
+    return idx
+
+
+def _canonical_collection(object_id: str) -> str | None:
+    """Kanonische Sammlung eines Objekts.
+
+    1. Steht die PID in einer TEI -> deren Sammlung (eindeutiger Katalog).
+    2. Sonst (in KEINER TEI, z.B. o_szd.76/77/175/176/179): erste Sammlung in
+       COLLECTIONS-Reihenfolge, deren Backup das Objekt physisch enthält.
+
+    So werden Objekte, die im Backup faelschlich in mehreren Sammlungs-Subdirs liegen
+    (34 lebensdokumente-Objekte tauchen auch unter korrespondenzen/ auf), genau EINER
+    Sammlung zugeordnet statt doppelt transkribiert."""
+    owner = _tei_owner_index().get(object_id.replace("_", ":"))
+    if owner is not None:
+        return owner
+    for col, meta in COLLECTIONS.items():
+        if (BACKUP_ROOT / meta["subdir"] / object_id / "metadata.json").exists():
+            return col
+    return None
+
+
 def discover_objects(collection: str) -> list[dict]:
-    """List all objects in a collection from backup directories."""
+    """Objekte einer Sammlung aus dem Backup auflisten -- kanonisch gefiltert.
+
+    Objekte, die laut TEI (bzw. Backup-Tie-Break) einer ANDEREN Sammlung gehoeren,
+    werden uebersprungen, damit dieselbe PID nicht in zwei Sammlungen transkribiert
+    wird (siehe _canonical_collection)."""
     subdir = COLLECTIONS[collection]["subdir"]
     base = BACKUP_ROOT / subdir
     if not base.exists():
         print(f"FEHLER: Backup-Verzeichnis nicht gefunden: {base}")
         return []
     objects = []
+    skipped = 0
     for obj_dir in sorted(base.glob("o_szd.*")):
-        if (obj_dir / "metadata.json").exists() and (obj_dir / "images").exists():
-            objects.append({
-                "object_id": obj_dir.name,
-                "collection": collection,
-            })
+        if not ((obj_dir / "metadata.json").exists() and (obj_dir / "images").exists()):
+            continue
+        if _canonical_collection(obj_dir.name) != collection:
+            skipped += 1
+            continue
+        objects.append({
+            "object_id": obj_dir.name,
+            "collection": collection,
+        })
+    if skipped:
+        print(f"  ({skipped} Objekte uebersprungen: kanonisch andere Sammlung)")
     return objects
 
 
