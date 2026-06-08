@@ -64,6 +64,9 @@ CASES = [
      lambda o: "<del" not in o, "ungerade ~~ -> literal"),
     ("EX ~ LIBRIS ~ tantum",
      lambda o: "<del" not in o, "einzelnes ~ (Trenner) -> literal"),
+    ("~~Latzust[?]~~",
+     lambda o: o == '<del><unclear cert="low">Latzust</unclear></del>',
+     "Tilgung um unsicheres Wort -> del>unclear (zulaessiges, wohlgeformtes Nesting)"),
     # --- Einfuegung {} KONSERVATIV (ohne @place) ---
     ("Er ist {sehr} verzweifelt",
      lambda o: "<add>sehr</add>" in o and "place" not in o, "echte Einfuegung -> add ohne @place"),

@@ -48,6 +48,30 @@ def main() -> int:
             except Exception as e:  # noqa: BLE001 -- Testdiagnose
                 out.append(f"     ({label}: {type(e).__name__}: {e})")
             check(f"build_tei({label}) -> wohlgeformtes XML", ok)
+
+        # 3. End-to-End: line-lokale Marker-Garantie + carry_notes auf injiziertem Inhalt.
+        pj2 = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        target = next((p for p in (pj2.get("pages") or []) if (p.get("text") or "").strip()), None)
+        if target is not None:
+            target["text"] = "alpha ~~weg\nund weg~~ omega"  # mehrzeilige Tilgung
+            target["notes"] = "Test-Seitennotiz"
+            literal = False
+            try:
+                xe = build_tei(pj2, enrich=True)
+                ET.fromstring(xe)
+                # an \n getrennt -> jede Zeile hat ungerade ~~-Zahl -> KEIN <del>, Marker literal
+                literal = "~~weg" in xe and "und weg~~" in xe
+            except Exception as e:  # noqa: BLE001 -- Testdiagnose
+                out.append(f"     (multiline: {type(e).__name__}: {e})")
+            check("mehrzeilige ~~Tilgung~~ bleibt literal (line-lokale Garantie e2e)", literal)
+            noted = False
+            try:
+                xn = build_tei(pj2, carry_notes=True)
+                ET.fromstring(xn)
+                noted = '<note resp="#szd-htr-ai" type="page">Test-Seitennotiz</note>' in xn
+            except Exception as e:  # noqa: BLE001 -- Testdiagnose
+                out.append(f"     (carry_notes: {type(e).__name__}: {e})")
+            check('carry_notes -> attributierte Seitennotiz <note resp="#szd-htr-ai">', noted)
     else:
         out.append(f"WARN Fixture fehlt, build_tei-Checks uebersprungen: {FIXTURE}")
 
