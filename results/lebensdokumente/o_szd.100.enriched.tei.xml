@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Agreement Longmans, Green &amp; Co. Inc.</title>
+        <respStmt><resp>contributor</resp><persName>Stefan Zweig</persName></respStmt>
+        <respStmt><resp>contributor</resp><persName>Lotte Zweig</persName></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Machine-generated TEI from szd-htr Page-JSON (gemini-3.1-flash-lite-preview). Structure unreviewed; transcription approved. Rights: CC-BY.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Literaturarchiv Salzburg</repository>
+            <idno type="shelfmark">SZ-AAP/L13.23</idno>
+            <idno type="objectId">o_szd.100</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="en"/></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="pers_stefan_zweig">
+        <persName>Stefan Zweig</persName>
+        <idno type="GND">http://d-nb.info/gnd/118637479</idno>
+      </person>
+      <person xml:id="pers_lotte_zweig">
+        <persName>Lotte Zweig</persName>
+        <idno type="GND">http://d-nb.info/gnd/116001151</idno>
+      </person>
+    </listPerson>
+  </standOff>
+  <facsimile>
+    <surface xml:id="surf_1" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.100/IMG.1"/>
+      <zone xml:id="z_1_r1" ulx="192" uly="213" lrx="427" lry="236" type="heading"/>
+      <zone xml:id="z_1_r2" ulx="192" uly="236" lrx="810" lry="309" type="paragraph"/>
+      <zone xml:id="z_1_r3" ulx="192" uly="316" lrx="810" lry="375" type="list"/>
+      <zone xml:id="z_1_r4" ulx="373" uly="375" lrx="810" lry="397" type="heading"/>
+      <zone xml:id="z_1_r5" ulx="192" uly="397" lrx="810" lry="442" type="paragraph"/>
+      <zone xml:id="z_1_r6" ulx="192" uly="449" lrx="810" lry="508" type="list"/>
+      <zone xml:id="z_1_r7" ulx="192" uly="515" lrx="810" lry="559" type="list"/>
+      <zone xml:id="z_1_r8" ulx="192" uly="567" lrx="810" lry="589" type="list"/>
+      <zone xml:id="z_1_r9" ulx="192" uly="604" lrx="810" lry="626" type="paragraph"/>
+      <zone xml:id="z_1_r10" ulx="192" uly="640" lrx="329" lry="655" type="heading"/>
+      <zone xml:id="z_1_r11" ulx="192" uly="655" lrx="329" lry="677" type="paragraph"/>
+      <zone xml:id="z_1_r12" ulx="535" uly="655" lrx="673" lry="677" type="paragraph"/>
+      <zone xml:id="z_1_r13" ulx="192" uly="714" lrx="329" lry="736" type="paragraph"/>
+      <zone xml:id="z_1_r14" ulx="535" uly="684" lrx="806" lry="707" type="paragraph"/>
+      <zone xml:id="z_1_r15" ulx="535" uly="714" lrx="806" lry="736" type="paragraph"/>
+    </surface>
+    <surface xml:id="surf_2">
+      <graphic url="https://gams.uni-graz.at/o:szd.100/IMG.2"/>
+    </surface>
+    <surface xml:id="surf_3">
+      <graphic url="https://gams.uni-graz.at/o:szd.100/IMG.3"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="document" n="o_szd.100">
+      <pb n="1" facs="#surf_1"/>
+      <p>
+        <lb/>THIS AGREEMENT
+      </p>
+      <p>
+        <lb/>is made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam
+        <lb/>Street, London, W. 1., England, of the first part and Longmans, Green &amp; Co. Inc.,
+        <lb/>of 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually
+        <lb/>agreed as follows:
+      </p>
+      <p>
+        <lb/>1. The said Stefan Zweig agrees to furnish and deliver to the said Long-
+        <lb/>mans, Green &amp; Co. Inc. not later than October 31, 1938 a treatise in the German
+        <lb/>language containing about six thousand words to be used as a preface in a work
+        <lb/>which is to be published by the said Longmans, Green &amp; Co. Inc. entitled
+      </p>
+      <p>
+        <lb/>THE LIVING THOUGHTS OF TOLSTOI
+        <lb/>PRESENTED BY STEFAN ZWEIG
+      </p>
+      <p>
+        <lb/>together with a condensation to run from thirty thousand (30,000) to thirty-
+        <lb/>five thousand (35,000) words, said condensation to be indicated in German
+        <lb/>editions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred
+        <lb/>words.
+      </p>
+      <p>
+        <lb/>2. The copyright in this treatise and condensation including all foreign
+        <lb/>copyrights and all rights of translation and reproduction and all other rights
+        <lb/>shall be the property of the said Longmans, Green &amp; Co. Inc. subject to the pay-
+        <lb/>ment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven
+        <lb/>cents ($666.67) to be paid on the acceptance of the manuscript by the said Long-
+        <lb/>mans, Green &amp; Co. Inc.
+      </p>
+      <p>
+        <lb/>3. The said Longmans, Green &amp; Co. Inc. shall be at liberty to deduct
+        <lb/>from any payment, or payments, which may become due to the said Stefan Zweig
+        <lb/>under this agreement any sum, or sums, which the said Longmans, Green &amp; Co. Inc.
+        <lb/>shall be under statutory obligation to pay in respect of income tax.
+      </p>
+      <p>
+        <lb/>4. The said Longmans, Green &amp; Co. Inc. will present to the said Stefan
+        <lb/>Zweig upon publication, five (5) copies of the said work gratis.
+      </p>
+      <p>
+        <lb/>IN WITNESS WHEREOF the parties hereto have hereunto subscribed their names
+        <lb/>and affixed their seals the day and year first above written.
+      </p>
+      <p>
+        <lb/>In the presence of
+      </p>
+      <p>
+        <lb/>[Lotte Altmann signature] 
+        <lb/>Witness
+      </p>
+      <p>
+        <lb/>[Signature of witness] 
+        <lb/>Witness
+      </p>
+      <p>
+        <lb/>Stefan Zweig [Signature]
+        <lb/>Author
+      </p>
+      <p>
+        <lb/>Longmans, Green &amp; Company, Inc.
+        <lb/>By Edward Mill [Signature] (Secretary)
+      </p>
+      <pb n="2" facs="#surf_2"/>
+      <pb n="3" facs="#surf_3"/>
+      </div>
+    </body>
+  </text>
+</TEI>

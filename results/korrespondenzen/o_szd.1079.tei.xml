@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Machine-generated TEI from szd-htr Page-JSON (gemini-3.1-flash-lite-preview). Structure unreviewed; transcription agent_verified. Rights: CC-BY.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno type="objectId">o_szd.1079</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="de"/></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="surf_1" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.1079/IMG.1"/>
+      <zone xml:id="z_1_r1" ulx="860" uly="2789" lrx="2574" lry="3172" type="heading"/>
+      <zone xml:id="z_1_r2" ulx="1331" uly="3305" lrx="3586" lry="4666" type="heading"/>
+    </surface>
+    <surface xml:id="surf_2" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.1079/IMG.2"/>
+      <zone xml:id="z_2_r1" ulx="2274" uly="3238" lrx="2652" lry="3312" type="heading"/>
+    </surface>
+    <surface xml:id="surf_3">
+      <graphic url="https://gams.uni-graz.at/o:szd.1079/IMG.3"/>
+    </surface>
+    <surface xml:id="surf_4">
+      <graphic url="https://gams.uni-graz.at/o:szd.1079/IMG.4"/>
+    </surface>
+    <surface xml:id="surf_5">
+      <graphic url="https://gams.uni-graz.at/o:szd.1079/IMG.5"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="document" n="o_szd.1079">
+      <pb n="1" facs="#surf_1"/>
+      <p>
+        <lb/>Wohlgeboren
+      </p>
+      <p>
+        <lb/>Herrn Max Fleischer
+        <lb/>Schriftsteller
+      </p>
+      <p>
+        <lb/>Komotau
+        <lb/>Böhmen
+      </p>
+      <pb n="2" facs="#surf_2"/>
+      <p>
+        <lb/>STEFAN ZWEIG
+      </p>
+      <pb n="3" facs="#surf_3"/>
+      <p>
+        <lb/>Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer
+        <lb/>genügend hohen Weltauffassung erhoben haben, um sich nicht
+        <lb/>über mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!
+        <lb/>Ich danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch
+        <lb/>ging mir noch nicht zu, doch las ich es mit aufrichtiger Freude
+        <lb/>bei Donath durch und schrieb eine Kritik ins Residenzblatt,
+        <lb/>die bald erscheint. Sie geht selbstverständlich nicht tief -
+        <lb/>es ist ja ein Familienblatt und man muß sich immer dem
+        <lb/>Rahmen anpassen - aber ich hoffe Sie wird Ihnen nicht
+        <lb/>mißfallen. Schaden ganz sicher nicht!
+        <lb/>Ihre Absicht mit Donath ist wunderbar, nur glaube
+        <lb/>ich nicht daß er nach Karlsbad wird abkommen können,
+        <lb/>da es so viel wahrscheinlicher, daß Sie nach fahren, der
+        <lb/>ich nun geschlagene 16 Jahre nach Marienbad gehen muß
+        <lb/>(wie Sie aber wissen, nicht der Kur halber). Ich würde den
+        <lb/>Abstecher zu Karlsbad gar keinem Falle hier nicht scheuen,
+        <lb/>es kann ja auch allzu weit sein.
+        <lb/>Ich habe hier jetzt zwar sehr angenehm, wie das
+        <lb/>aber Hand in Hand geht, bäuerlich faul. Nicht einmal
+        <lb/>Gerichte wahr, die mir zu einem Aufsatz über Franz
+        <lb/>Evers (für die Stimmen der Gegenwart) habe ich
+        <lb/>mich aufgerafft. Hoffentlich machen Sie es da besser,
+        <lb/>obwohl Sie eine Staatsprüfung haben. In so einer
+        <lb/>idealen Freude, wie dort, muß doch selbst das
+        <lb/>Lernen durch Naturgefühl und Einsamkeit ver-
+        <lb/>klärt sein. Ich, der ich eigentlich nie die Allein-
+        <lb/>samkeit ganz erlebt habe, halte mir das wunder-
+        <lb/>schön vor. Ich glaube da fielen mir mehr Gedichte
+        <lb/>ein als hier in Wien, wo ich mich total verbüchere,
+        <lb/>durch Spazierengehen, herumträumen, Freunde etc.
+        <lb/>Das einzige Wesentliche ist, daß ich viel lese.
+      </p>
+      <pb n="4" facs="#surf_4"/>
+      <p>
+        <lb/>Leider Gottes muß ich jetzt hier schließen. Ich schreibe
+        <lb/>aber nächstens, sobald ich Zeit finde. Mein Buch habe
+        <lb/>ich noch nicht von Schuster &amp; Löffler bekommen, aber
+        <lb/>bereits bestellt, Sie bekommen es im Laufe dieser
+        <lb/>Woche. Für die Schrift es bedenken zu wollen bin ich
+        <lb/>Ihnen dankbar und grüße Sie herzlichst
+        <lb/>als Ihr freundschaftlich ergebenster
+      </p>
+      <p>
+        <lb/>Stefan Zweig
+      </p>
+      <pb n="5" facs="#surf_5"/>
+      <p>
+        <lb/>Leider Gottes muß ich jetzt hier schließen. Ich schreibe
+        <lb/>aber nächstens, sobald ich Zeit finde. Mein Buch habe
+        <lb/>ich noch nicht von Schuster &amp; Löffler bekommen, aber
+        <lb/>bereits bestellt, Sie bekommen es im Laufe dieser
+        <lb/>Woche. Für die Schrift es bedenken zu wollen bin ich
+        <lb/>Ihnen dankbar und grüße Sie herzlichst
+        <lb/>als Ihr freundschaftlich ergebenster
+      </p>
+      <p>
+        <lb/>Stefan Zweig
+      </p>
+      </div>
+    </body>
+  </text>
+</TEI>

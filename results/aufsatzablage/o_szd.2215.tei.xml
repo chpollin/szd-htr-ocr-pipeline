@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Aus der Werkstatt der Dichter</title>
+        <respStmt><resp>contributor</resp><persName>Stefan Zweig</persName></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Machine-generated TEI from szd-htr Page-JSON (gemini-3.1-flash-lite-preview). Structure unreviewed; transcription agent_verified. Rights: CC-BY.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Literaturarchiv Salzburg</repository>
+            <idno type="shelfmark">SZ-AAP/W-AA215.1</idno>
+            <idno type="objectId">o_szd.2215</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="de"/></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="pers_stefan_zweig">
+        <persName>Stefan Zweig</persName>
+        <idno type="GND">http://d-nb.info/gnd/118637479</idno>
+      </person>
+    </listPerson>
+  </standOff>
+  <facsimile>
+    <surface xml:id="surf_1" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.2215/IMG.1"/>
+      <zone xml:id="z_1_r1" ulx="1090" uly="1295" lrx="2667" lry="1560" type="heading"/>
+      <zone xml:id="z_1_r2" ulx="1356" uly="1627" lrx="3817" lry="2392" type="heading"/>
+      <zone xml:id="z_1_r3" ulx="1562" uly="2576" lrx="3610" lry="3621" type="paragraph"/>
+      <zone xml:id="z_1_r4" ulx="1282" uly="4004" lrx="3866" lry="5410" type="paragraph"/>
+      <zone xml:id="z_1_r5" ulx="3365" uly="4364" lrx="3846" lry="5152" type="marginalia"/>
+      <zone xml:id="z_1_r6" ulx="2810" uly="5204" lrx="3851" lry="5373" type="heading"/>
+      <zone xml:id="z_1_r7" ulx="1331" uly="5380" lrx="3782" lry="5461" type="heading"/>
+      <zone xml:id="z_1_r8" ulx="1282" uly="5520" lrx="2535" lry="6013" type="paragraph"/>
+      <zone xml:id="z_1_r9" ulx="2579" uly="5513" lrx="3826" lry="5998" type="paragraph"/>
+      <zone xml:id="z_1_r10" ulx="3684" uly="6072" lrx="3782" lry="6182" type="heading"/>
+    </surface>
+    <surface xml:id="surf_2" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.2215/IMG.2"/>
+      <zone xml:id="z_2_r1" ulx="1277" uly="2458" lrx="2446" lry="2517" type="heading"/>
+      <zone xml:id="z_2_r2" ulx="1189" uly="2547" lrx="2456" lry="4342" type="paragraph"/>
+      <zone xml:id="z_2_r3" ulx="2574" uly="2451" lrx="3866" lry="3783" type="paragraph"/>
+      <zone xml:id="z_2_r4" ulx="3193" uly="3790" lrx="3242" lry="3864" type="paragraph"/>
+      <zone xml:id="z_2_r5" ulx="1223" uly="4600" lrx="1277" lry="4637" type="heading"/>
+      <zone xml:id="z_2_r6" ulx="3438" uly="2392" lrx="3561" lry="2502" type="marginalia"/>
+      <zone xml:id="z_2_r7" ulx="1940" uly="4453" lrx="2210" lry="4710" type="marginalia"/>
+    </surface>
+    <surface xml:id="surf_3" ulx="0" uly="0" lrx="4912" lry="7360">
+      <graphic url="https://gams.uni-graz.at/o:szd.2215/IMG.3"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="document" n="o_szd.2215">
+      <pb n="1" facs="#surf_1"/>
+      <p>
+        <lb/>5. Februar 25
+      </p>
+      <p>
+        <lb/>AUS DER
+        <lb/>WERKSTATT DER
+        <lb/>DICHTER
+      </p>
+      <p>
+        <lb/>Die Geburt der geistigen Werke wird immer ein
+        <lb/>Mysterium bleiben. Aber schon das Auftauchen der
+        <lb/>künstlerischen Vision, das Wachstum der Form und
+        <lb/>die individuellen Arbeitsweisen sind so persönlich und
+        <lb/>verschieden, daß es uns bedeutsam genug erschien,
+        <lb/>mehrere bekannte Autoren um einen Beitrag zu
+        <lb/>diesem Thema zu bitten.
+      </p>
+      <p>
+        <lb/>Stefan Zweig
+        <lb/>Aus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)
+      </p>
+      <p>
+        <lb/>Stefan Zweig schreibt:
+        <lb/>„In einem seiner psychoanalytischen Werke
+        <lb/>hat Professor Freud ausgezeichnet dar-
+        <lb/>gestellt, wie jeder Mensch in seinen täg-
+        <lb/>lich wiederholten Funktionen – Anziehen,
+        <lb/>Waschen, Zähneputzen – ein gewisses
+        <lb/>„Ritual“ entwickelt, eine ganz persönliche,
+        <lb/>geradezu zwanghaft gewordene Form; uns,
+        <lb/>denen die Arbeit eine fast tägliche und ge-
+        <lb/>wiß die bestimmende Funktion des Lebens
+        <lb/>bedeutet, ist es unmöglich (und dafür bie-
+        <lb/>ten gerade die Manuskripte ein sinnbild-
+        <lb/>liches Zeugnis), gerade bei der Arbeit dieser
+        <lb/>Fortsetzung auf Seite 41
+      </p>
+      <pb n="2" facs="#surf_2"/>
+      <p>
+        <lb/>Stefan Zweig. Fortsetzung von S. 41
+        <lb/>allmählich despotischen Gesetzlichkeit, die-
+        <lb/>sem Ritual zu entgehen. So beobachtete ich
+        <lb/>bei mir die Gewohnheit, jede Arbeit bei
+        <lb/>der ersten Niederschrift unweigerlich mit
+        <lb/>Bleistift vorzunehmen, offenbar aus einem
+        <lb/>geheimen Sicherungsgefühl, es sei nur eine
+        <lb/>ganz unverbindliche, ganz provisorische
+        <lb/>Form der Fixierung, nur ein Brouillon (in-
+        <lb/>des in den meisten Fällen die Urform doch
+        <lb/>die gültige bleibt). Dann erst schreibe ich
+        <lb/>mit Tinte, womöglich auf gleichmäßig
+        <lb/>großes Papier, den ersten Entwurf ab –
+        <lb/>und dies möchte ich im Gegensatz zu der
+        <lb/>ersten heißen, jagdhaften, eilenden und oft
+        <lb/>beflügelten Form die eigentliche Arbeit
+        <lb/>nennen. Denn was dann folgt, das oft und
+        <lb/>oft wiederholte Durchbosseln und Durch-
+        <lb/>feilen der Sätze zu stärkerem, präziserem
+        <lb/>Ausdruck – dieses Spiel mit der schon
+        <lb/>gesicherten, gleichsam gebundenen, eines
+        <lb/>Entweichens nicht mehr fähigen Gestaltung
+        <lb/>ist ein Vergnügen, eine Lust, die ich mit
+        <lb/>keiner anderen vergleichen möchte. Darum
+        <lb/>auch nichts von Mitleid mit den Künstlern,
+        <lb/>deren Manuskripte auf jeder Seite un-
+        <lb/>zählige Spuren der Nachbesserung auf-
+      </p>
+      <p>
+        <lb/>weisen – denn dies ständige Klären und
+        <lb/>Herausschälen der Formen ist nicht
+        <lb/>Kärrnerarbeit, eine ungern vollbrachte
+        <lb/>Ackers- und Pflügermühe, sondern die ur-
+        <lb/>eigentliche Artistenfreude, eine bewußt be-
+        <lb/>schworene Verlängerung des produktiven
+        <lb/>Zustandes über die eigentliche Produktion
+        <lb/>hinaus. Es läßt sich nicht beschreiben, nur
+        <lb/>immer wieder erleben – und auch ein
+        <lb/>Blatt seiner Hand reproduziert nur sein
+        <lb/>eindringliches Wirken, ohne aber die ge-
+        <lb/>heime Freude zu lassen, die diesen
+        <lb/>Zustand durchwaltet: so wird gerade, was
+        <lb/>sinnlich Mühe scheint, in der Kunst geistig
+        <lb/>zum Genuß, was für den oberflächlichen
+        <lb/>Blick die eigentliche Anstrengung zu be-
+        <lb/>deuten scheint, das wahre von der Angst
+        <lb/>und dem Krampf der ersten Selbstüber-
+        <lb/>raschung schon erlöste Spiel.“
+      </p>
+      <pb n="3" facs="#surf_3"/>
+      <p>
+        <lb/>großes Papier, den ersten Entwurf ab –
+        <lb/>und dies möchte ich im Gegensatz zu der
+        <lb/>ersten heißen, jagdhaften, eilenden und oft
+        <lb/>beflügelten Form die eigentliche Arbeit
+        <lb/>nennen. Denn was dann folgt, das oft und
+        <lb/>oft wiederholte Durchbosseln und Durch-
+        <lb/>feilen der Sätze zu stärkerem, präziserem
+        <lb/>Ausdruck – dieses Spiel mit der schon
+        <lb/>gesicherten, gleichsam gebundenen, eines
+        <lb/>Entweichens nicht mehr fähigen Gestaltung
+        <lb/>ist ein Vergnügen, eine Lust, die ich mit
+        <lb/>keiner anderen vergleichen möchte. Darum
+        <lb/>auch nichts von Mitleid mit den Künstlern,
+        <lb/>deren Manuskripte auf jeder Seite un-
+        <lb/>zählige Spuren der Nachbesserung auf-
+      </p>
+      <p>
+        <lb/>Zustand durchwaltet: so wird gerade, was
+        <lb/>sinnlich Mühe scheint, in der Kunst geistig
+        <lb/>zum Genuß, was für den oberflächlichen
+        <lb/>Blick die eigentliche Anstrengung zu be-
+        <lb/>deuten scheint, das wahre von der Angst
+        <lb/>und dem Krampf der ersten Selbstüber-
+        <lb/>raschung schon erlöste Spiel.“
+      </p>
+      </div>
+    </body>
+  </text>
+</TEI>

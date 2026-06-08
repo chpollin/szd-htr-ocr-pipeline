@@ -19,3 +19,19 @@ __pycache__/
 
 # Claude Code
 .claude/
+
+# Generierte TEI-Exporte (jederzeit neu erzeugbar via pipeline/export_tei.py).
+# Bulk wird ignoriert; nur die Demo-Handvoll (plain + enriched) bleibt getrackt.
+results/**/*.tei.xml
+!results/lebensdokumente/o_szd.100.tei.xml
+!results/lebensdokumente/o_szd.100.enriched.tei.xml
+!results/lebensdokumente/o_szd.72.tei.xml
+!results/lebensdokumente/o_szd.72.enriched.tei.xml
+!results/lebensdokumente/o_szd.161.tei.xml
+!results/lebensdokumente/o_szd.161.enriched.tei.xml
+!results/aufsatzablage/o_szd.2215.tei.xml
+!results/aufsatzablage/o_szd.2215.enriched.tei.xml
+!results/korrespondenzen/o_szd.1079.tei.xml
+!results/korrespondenzen/o_szd.1079.enriched.tei.xml
+!results/korrespondenzen/o_szd.161.tei.xml
+!results/korrespondenzen/o_szd.161.enriched.tei.xml

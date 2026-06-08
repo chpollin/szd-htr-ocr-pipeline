@@ -47,6 +47,17 @@ PAGE XML bleibt als Export-Format fuer Tools, die es erwarten (`export_pagexml.p
 
 Dieses Format ersetzt das "HTR Interchange Format" (v0.1, April 2026), das Text und Layout getrennt hielt und nie als Code implementiert wurde. Page-JSON fuehrt die drei bisher getrennten Dateien (Pipeline-JSON, Layout-JSON, PAGE XML) konzeptionell zusammen.
 
+### 1.4 TEI-Export fuer teiCrafter
+
+Aus Page-JSON wird zusaetzlich eine **teiCrafter-ladbare TEI** abgeleitet
+(`pipeline/export_tei.py`, deterministisch, kein LLM): ein `<pb>` je Seite, `<lb/>`
+je Zeile, Personen/GND im `<standOff>`, Bild+Zonen im `<facsimile>`. Abnahme:
+byte-identischer Round-Trip und line-level-Laden gegen die echte teiCrafter-Engine.
+Optionale Marker-Anreicherung (`--enrich-markers`) wandelt `[...N...]`/`~~x~~`/`{x}`/
+`WORT[?]` in `<gap>`/`<del>`/`<add>`/`<unclear>` um (fail-safe auf Literal). Details,
+Mapping und Abnahme: → [[teicrafter-integration]]. TEI ist damit das dritte
+Ausgabeformat neben Page-JSON (Arbeitsformat) und METS/MODS+PAGE XML (Archiv).
+
 ---
 
 ## 2. Datenmodell

@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tagebuch 1918</title>
+        <respStmt><resp>contributor</resp><persName>Stefan Zweig</persName></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Machine-generated TEI from szd-htr Page-JSON (gemini-3.1-flash-lite-preview). Structure unreviewed; transcription unreviewed. Rights: CC-BY.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Literaturarchiv Salzburg</repository>
+            <idno type="shelfmark">SZ-AAP/L6</idno>
+            <idno type="objectId">o_szd.72</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage><language ident="de"/></langUsage>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listPerson>
+      <person xml:id="pers_stefan_zweig">
+        <persName>Stefan Zweig</persName>
+        <idno type="GND">http://d-nb.info/gnd/118637479</idno>
+      </person>
+    </listPerson>
+  </standOff>
+  <facsimile>
+    <surface xml:id="surf_1">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.1"/>
+    </surface>
+    <surface xml:id="surf_2">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.2"/>
+    </surface>
+    <surface xml:id="surf_3">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.3"/>
+    </surface>
+    <surface xml:id="surf_4">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.4"/>
+    </surface>
+    <surface xml:id="surf_5">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.5"/>
+    </surface>
+    <surface xml:id="surf_6">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.6"/>
+    </surface>
+    <surface xml:id="surf_7">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.7"/>
+    </surface>
+    <surface xml:id="surf_8">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.8"/>
+    </surface>
+    <surface xml:id="surf_9">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.9"/>
+    </surface>
+    <surface xml:id="surf_10">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.10"/>
+    </surface>
+    <surface xml:id="surf_11">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.11"/>
+    </surface>
+    <surface xml:id="surf_12">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.12"/>
+    </surface>
+    <surface xml:id="surf_13">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.13"/>
+    </surface>
+    <surface xml:id="surf_14">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.14"/>
+    </surface>
+    <surface xml:id="surf_15">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.15"/>
+    </surface>
+    <surface xml:id="surf_16">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.16"/>
+    </surface>
+    <surface xml:id="surf_17">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.17"/>
+    </surface>
+    <surface xml:id="surf_18">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.18"/>
+    </surface>
+    <surface xml:id="surf_19">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.19"/>
+    </surface>
+    <surface xml:id="surf_20">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.20"/>
+    </surface>
+    <surface xml:id="surf_21">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.21"/>
+    </surface>
+    <surface xml:id="surf_22">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.22"/>
+    </surface>
+    <surface xml:id="surf_23">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.23"/>
+    </surface>
+    <surface xml:id="surf_24">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.24"/>
+    </surface>
+    <surface xml:id="surf_25">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.25"/>
+    </surface>
+    <surface xml:id="surf_26">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.26"/>
+    </surface>
+    <surface xml:id="surf_27">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.27"/>
+    </surface>
+    <surface xml:id="surf_28">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.28"/>
+    </surface>
+    <surface xml:id="surf_29">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.29"/>
+    </surface>
+    <surface xml:id="surf_30">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.30"/>
+    </surface>
+    <surface xml:id="surf_31">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.31"/>
+    </surface>
+    <surface xml:id="surf_32">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.32"/>
+    </surface>
+    <surface xml:id="surf_33">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.33"/>
+    </surface>
+    <surface xml:id="surf_34">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.34"/>
+    </surface>
+    <surface xml:id="surf_35">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.35"/>
+    </surface>
+    <surface xml:id="surf_36">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.36"/>
+    </surface>
+    <surface xml:id="surf_37">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.37"/>
+    </surface>
+    <surface xml:id="surf_38">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.38"/>
+    </surface>
+    <surface xml:id="surf_39">
+      <graphic url="https://gams.uni-graz.at/o:szd.72/IMG.39"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="document" n="o_szd.72">
+      <pb n="1" facs="#surf_1"/>
+      <p>
+        <lb/>Montreux 20. September, Freitag.
+        <lb/>Das Tagebuch nach mehr als einem halben Jahre
+        <lb/>wieder aufgenommen. Die Zeit war tot, nun wird sie
+        <lb/>weiterdings grauenhaft lebendig. Ich war müde des
+        <lb/>Sinnlosen, nun findet sich allmählich wieder ein Sinn
+        <lb/>der Zeit, oder besser: der immer in dieser Krise verborgene
+        <lb/>Sinn beginnt sich zu zeigen. In den letzten Wochen schon,
+        <lb/>seit der denkwürdigen Kriegswende in der zweiten Mar-
+        <lb/>neschlacht war viel wichtig für mich nebst eigener Arbeit,
+        <lb/>jene Polemik vorerst, die mein Aufsatz in der Neuen Züri-
+        <lb/>cher Zeitung erregte, dann die Besprechung mit Giesner,
+        <lb/>der nur seine allerhöchste Unzufriedenheit einschüchternd
+        <lb/>mitteilen wollte und dabei auf eigene Entschlossenheit stieß
+        <lb/>(denn von dem Cadaver Österreichs lasse ich mich nicht
+        <lb/>mehr einschüchtern und noch weniger von seinen Diplomaten,
+        <lb/>die des stille und beschämliche Lauf in den Abgrund eines
+        <lb/>falschen Heroismus gestossen haben.) Dann eine kurze Stelle
+        <lb/>Hoffnung: das Friedensangebot, bald zerschellt an der stei-
+        <lb/>nern fest aufgetürmten Mauer des andern Imperialismus.
+        <lb/>Ein wenig Freiheit der Sinne gab dazu die Fahrt in die Ber-
+        <lb/>ge: ich habe gelernt, gegen den unnützen Flagellantismus
+        <lb/>anzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-
+        <lb/>dankenstrichen. Man muss die Kunst lernen, dumpf zu leben
+      </p>
+      <pb n="2" facs="#surf_2"/>
+      <p>
+        <lb/>sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,
+        <lb/>Hemmung und nicht Befreiung. Hier in Montreux in einem
+        <lb/>kleinen Zimmer hoch über dem See milder Ausblick und
+        <lb/>stillerer Blick nach innen. Das Wetter noch umfällt aber
+        <lb/>mit Aussicht auf Klärung.
+        <lb/>Abends kommt Chapiro uns besuchen, dieser drollige und
+        <lb/>liebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie
+        <lb/>er von seiner riesenhaften Familie daheim in Kiow erzählt; wenn
+        <lb/>die auf Reisen gingen, brauchten sie einen ganzen Waggon, sie
+        <lb/>konnten nie zusammen eine Tramway benützen. So war immer
+        <lb/>eine Schar, die Köchin musste zum Einkaufen auf den Markt
+        <lb/>immer einen Wagen mitfahren. Auch von der Zeit erzählt er
+        <lb/>wo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und
+        <lb/>ihm abends alle Gelenke krachten. Aber vom Heitern kommen
+        <lb/>wir zum Ernsten: auch er ist einer, den Rolland „gerettet“
+        <lb/>hat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit
+        <lb/>für ihn, half ihm in jeder Weise: R. ist jetzt mitten im Kriege
+        <lb/>und auf der Höhe seines Ruhmes noch nicht frei von Geld-
+        <lb/>sorgen, weil er seine ganze Familie ernährt und eine Reihe von
+        <lb/>Freunden unterstützt. Von seinen Taten eine verschwiegene: er
+        <lb/>ist in Bern direct zum frz. Cons. gegangen und hat alle Aus-
+        <lb/>künfte über J. erwirkt, um ihn gegebenfalls „a fond“ verteidi-
+        <lb/>gen zu können. Denn für seine ihm teure Freunde gehört zur
+      </p>
+      <pb n="3" facs="#surf_3"/>
+      <p>
+        <lb/>rührendsten, das man sich denken kann und je mehr man
+        <lb/>von ihm erfährt, desto grösser wird das Gefühl von der Ein-
+        <lb/>zigheit seiner Gestalt, die ein unendliches Wissen um die Dinge
+        <lb/>mit einer unzerstörbaren Liebe zu den Menschen vereint. Seine
+        <lb/>Unermüdlichkeit hat etwas heroisches wie überhaupt die ungeheure
+        <lb/>Einsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn
+        <lb/>wir von ihm sprechen.
+        <lb/>Samstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von
+        <lb/>Zauberischer Schönheit. Ich sitze auf der Terrasse in der Sonne,
+        <lb/>zum erstenmal seit langer Zeit wieder in Person lebend, ge-
+        <lb/>lesenen und geschriebenen. Das Bewusstsein, nachmittags zu
+        <lb/>R. zu gehen, ein Licht über den Tag! Ein kleines Gesicht wächst
+        <lb/>klar aus der Landschaft heraus, das erste seit einer Unendlich-
+        <lb/>keit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine
+        <lb/>~~kleine~~ Mutter, sie ist ein wenig hinfälliger geworden, aber dies-
+        <lb/>mal im Gegensatz zum vergangenen Jahr ganz offen zu uns und
+        <lb/>von besonderer Herzlichkeit. Ich suche sein Gesicht in ihr: es ist
+        <lb/>kaum zu finden in den versunkenen Zügen. Wunderbar der
+        <lb/>Zusammenhalt der vier Menschen, die doch alle eigentlich selten
+        <lb/>im Alter stehn, eine linde Zärtlichkeit von einem zum andern
+        <lb/>(die vielleicht manche kleine Conflicte verbirgt) Im Hotel
+        <lb/>grüsst uns R.: er sieht voller aus, herrlich seine klaren durch-
+        <lb/>dringenden Augen, die Güte aber irgendwie diesmal durch eine
+      </p>
+      <pb n="4" facs="#surf_4"/>
+      <p>
+        <lb/>irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er
+        <lb/>ist sehr verzweifelt über den Augenblick: wie das freie Den-
+        <lb/>ken immer mehr zusammen schmilzt, der Heroismus einzig
+        <lb/>sich in den gewohnten, ererbten, Idealen auslebt. Er sieht
+        <lb/>die Eroberung Frankreichs durch Amerika, den Geist dieses neuen
+        <lb/>Krieges nicht vereint, die Sieger in der Entente vereint und
+        <lb/>verschönt, Generationen in einer Selbstglorie, den Stolz als
+        <lb/>Triumphator der Welt. Ein tiefes Misstrauen hat sich seines
+        <lb/>Wesens bemächtigt, das die ganze Zeit umfaßt: er spricht
+        <lb/>auch von den deutschen Revolutionären, die für die die
+        <lb/>gefährlichsten seien. Ich kann, (wie immer) das erstenmal
+        <lb/>nicht gut mit ihm reden, er ist selbst irgendwie versäumt
+        <lb/>zu sprechen und ich bin es mit ihm. Wir gehen dann lange
+        <lb/>spazieren zu drei, ich erzähle ihm einiges und spreche dann
+        <lb/>viel mit seiner Schwester. Ich liebe es so sehr ihn zuzusehen,
+        <lb/>den ernsten Betart seines Ganges, die Ruhe seiner Bewegun-
+        <lb/>gen und spüre dann immer, wie sehr ich ihn liebe und umso
+        <lb/>mehr als ich fühle, dass er voll Trauer ist. Er muss seine Elter-
+        <lb/>nur seine Schwester wieder nach Paris zurücklassen (sie braucht
+        <lb/>ihre Stellung dort und die Eltern folgen ihr hinüber) und es
+        <lb/>scheint, dass das Leben im Hotel auch langsam anfängt,
+        <lb/>ihm schwer zu werden. Wie wir alle leidet er an der Zeit
+        <lb/>und - vielleicht auch daran, dass (als Franzosen) sie die
+      </p>
+      <pb n="5" facs="#surf_5"/>
+      <p>
+        <lb/>schefuisse ins Unrecht setzen. Für Jahre zumindest. Aber „le
+        <lb/>temps viendra!“ Abends dann noch kleine Arbeit.
+        <lb/>22. Sept. Sonntag Regentag und voll mit geschäftlichen
+        <lb/>literarischen Schreibereien. Feuilleton über Falsi, ein Dutzend
+        <lb/>Briefe, heraalamt durch die plötzliche Annahme der „Legende“.
+        <lb/>Ein Anderes freute sich. Ich bin ganz stumpf diesen Din-
+        <lb/>gen gegenüber: ich spüre sie gar nicht (ich notierte nicht
+        <lb/>einmal gestern das Brief darüber mit der komischen Be-
+        <lb/>schränkung der affairs zu Andrian-Meyerbeer). Diese vie-
+        <lb/>len Briefe und Erledigungen zerstören das Beste in mir, sie
+        <lb/>verschwemmen das Gehirn und ich erfinde keine Methode
+        <lb/>sich abzuhüten. Man müsste vielleicht ganz frühmorgens aufste-
+        <lb/>hen und vor dem Frühstück schon alles wegdichtet haben, alles
+        <lb/>aus dem Tag geräumt, was ihn hemmt, ebenso die Zeitungen.
+        <lb/>Aber ich bringe die notwendige Kraft nicht auf: gleichgültig ge-
+        <lb/>gen alles was meine Sachen betrifft, habe ich eine merkwür-
+        <lb/>dig brennende Vorliebe für das Äussere, das Problem sich
+        <lb/>abzuschliessen und aufzurufen will mir nicht gelingen: es
+        <lb/>scheint doch die Unruhe auch tätiges Element in mir zu sein,
+        <lb/>freilich stösst sie nach aussen in die Menschen neben mir
+        <lb/>und trifft sie fast, härter als mich. Ich kann es ruhig sagen:
+        <lb/>verlorener Tag! so voll er voll Arbeit (scheinbares) war.
+        <lb/>23. Sept. Montag Noch Nachwehen von Schreibereien aus
+      </p>
+      <pb n="6" facs="#surf_6"/>
+      <p>
+        <lb/>Geschäftlichkeiten, dann spazieren und viel Zeitungen ge-
+        <lb/>lesen (ich frage mich selbst, wozu?) Nachmittags kommt R.
+        <lb/>wir sprechen lange allein. Er ist sehr niedergebrochen darüber,
+        <lb/>dass ganz gegen die Voraussetzung im vierten Jahr die freien
+        <lb/>selbstständigen Menschen seltener sind als im ersten. Er
+        <lb/>hat anderweit viel Freunde verloren und sagt von der
+        <lb/>Magie des geschriebenen Wortes: seine besten Freunde in
+        <lb/>Genf die ihn seit Jahren kannten, hätten mit Genuss und
+        <lb/>fast mit Glauben jene Anschwärzungen der Madame D
+        <lb/>gegen ihn gelesen. Die Macht des Gedruckten hat über den
+        <lb/>primitiven Menschen unerhörte Gewalt und in dieser Be-
+        <lb/>ziehung sind eben die meisten Menschen primitiv. In Eng-
+        <lb/>land, Frankreich ist Alles von ihm abgefallen: Wells hat
+        <lb/>einen offenen Brief gegen ihn gerichtet, in Paris bereitet
+        <lb/>Loyson ein neues Buch gegen ihn vor. Die Hetze drüben ist
+        <lb/>wirklich aber bitterlich. Er erwartet vom Docen Guilbeaux
+        <lb/>die Entfernung der ganzen Meute und es scheint dass J. einige
+        <lb/>Unvorsichtigkeiten tatsächlich begangen hat. So handelt sich
+        <lb/>darum die Bewegung für das Land zu compromittieren und
+        <lb/>die ungeheuer verlinkte Fälschung von 23 verbündeten Natio-
+        <lb/>nen wird das noch besiegeln. Dabei ist er wie ich von der
+        <lb/>Schweiz tief degoutiert, möchte eigentlich trotz allem nach
+        <lb/>Frankreich zurück und überlegt ernstlich, es zu tun. Seine
+      </p>
+      <pb n="7" facs="#surf_7"/>
+      <p>
+        <lb/>Correspondance ist zu Hälfte inhibiert, seine Stellung isoliert
+        <lb/>~ wir sprechen lächelnd von einem neuen Land, das wir uns
+        <lb/>erst finden müssten. Dabei arbeitet er viel: an einem neuen
+        <lb/>Roman, der fertig ist, einer satirischen Comoedie. Seltsam
+        <lb/>diese Mischung, die er selbst betont, von Skepticismus der
+        <lb/>gleichzeitig mit einem Enthusiasmus läuft (stärker wie
+        <lb/>bei France.) Echt französisch die Mischung - und sagt
+        <lb/>er „je stärker sie wird, desto weniger werden sie mich
+        <lb/>als den Ihren erkennen.“ Selbst tief voll Misstrauen (ich
+        <lb/>habe ihn nie so niedergeschlagen gesehen) flösst er andern,
+        <lb/>besonders der Jugend immer Mut ein: wirklich, die An-
+        <lb/>dern werden nie wissen, was für eine Zeit der inneren An-
+        <lb/>spannung dies für uns gewesen ist, während sie in ihren
+        <lb/>kleinen Sorgen stecken. Er sieht Krieg, Unruhe, Kampf
+        <lb/>noch auf 5 - 6 Jahre hinaus und fürchtet dann nicht
+        <lb/>mehr die physische Kraft zu haben: dazu die Tragödie
+        <lb/>seiner Eltern, die sich nur gerade noch am Leben erhalten
+        <lb/>und denen er nicht folgen kann. Ich spüre eigentlich
+        <lb/>seinen wirklichen Zustand: den Fremden gibt er sich,
+        <lb/>als Helfenwollender, viel sicherer als er eigentlich ist. Er
+        <lb/>fühlt sich durch die fortwährenden Polemiken genötigt,
+        <lb/>immer wieder wach zu sein und sein Ideal wäre ein
+        <lb/>Chalet, wo er ruhig und gesichert leben könnte, ohne
+      </p>
+      <pb n="8" facs="#surf_8"/>
+      <p>
+        <lb/>etwas von den Dingen zu wissen. In welcher furchtbaren
+        <lb/>Einsamkeit diese seine Jahre vergehen, wie unbeglückt ha-
+        <lb/>gisch dem Kampf (ohne irgend einen ebenbürtigen Part-
+        <lb/>ner in einer andern Nation) war, lässt sich kaum sagen.
+        <lb/>Wir müssen es versuchen. Wenn ich ihn so sehe, wie er
+        <lb/>mild und doch ernst einem in die Augen blickt, fühle
+        <lb/>ich die fromme Verpflichtung: dies Buch ganz zu der Größe
+        <lb/>zu bringen, die er verdient
+        <lb/>Dienstag 24. Sept Vormittags eine Depesche, ich sollte etwas
+        <lb/>für das Forum schreiben. Ich setze mich hin und schreibe mit der
+        <lb/>ganzen Ernstlichkeit, die ich jetzt wieder habe, in einem Zuge einen
+        <lb/>Aufsatz gegen den Opportunismus. Ich bin jetzt dermassen innerlich
+        <lb/>gefüllt: die Diskussionen, die sinnlos scheinen, schleifen einen
+        <lb/>Standpunkt doch dermassen heraus, dass man in jedem Augenblick
+        <lb/>sich concentriert und gerüstet fühlt. Nachmittags Zeitungen gele-
+        <lb/>sen - der Zusammenbruch der türkischen und bulgarischen
+        <lb/>Front bezeigt mit seiner furchtbaren Gleichzeitigkeit die Kraft
+        <lb/>der Entente. Ich fürchte es kommen ähnliche Nachspiele in Öster-
+        <lb/>reich und Deutschland: immerhin besser das Ende mit Schrecken
+        <lb/>als der Schrecken ohne Ende. Gearbeitet wenig, dagegen einiges ge-
+        <lb/>lesen, ich muss erst tiefer in den Rytmus kommen, der ein wenig
+        <lb/>durch die Artikelschreiberei gestört worden ist. -
+        <lb/>Mittwoch 25. Eine seltsame Figur unser Witt. Ein Quartabaufe,
+      </p>
+      <pb n="9" facs="#surf_9"/>
+      <p>
+        <lb/>der gerade jetzt seinen Anfall zu haben scheint: er schreibt
+        <lb/>z.B. die ganze Correspondance ein und gibt sie nicht heraus
+        <lb/>trägt zum Beispiel heute einen Westbrief von mir den ganzen
+        <lb/>Tag herum und schläft mit ihm in der Tasche seinen Rausch aus.
+        <lb/>Vormittags kleine Arbeit und Briefe, nachmittags schöner Spazier-
+        <lb/>gang mit Mont-Henri und dann zu Rolland. Wir gehen
+        <lb/>zuerst im Garten. Er sieht weit in die Dinge hinein: die Zeit
+        <lb/>vor uns als eine einzige der Krisen, er glaubt nicht an ein
+        <lb/>Ende mit dem Kriege. Ich stelle die Frage, ob wir etwas noch
+        <lb/>dafür wären, ob wir das Recht haben werden eine neue Genera-
+        <lb/>tion zu vertreten: in uns zwei Elemente im Kampf, Wille zur
+        <lb/>Wirkung und Neigung zur Ruhe. Rolland meint, wir würden
+        <lb/>nicht mehr zu Worte kommen, wir würden es nicht mehr er-
+        <lb/>leben. Ganz von unten würde alles durchgeschüttelt werden, die
+        <lb/>neue Schichte nach oben kommen. Immer fühlter, der Historiker
+        <lb/>uns schon als das vergangene: das Gefühl des Neuen, urwüchsig
+        <lb/>in ihm, lebt im Zukünftigen. Deshalb seine Bewunderung für
+        <lb/>Lenin (trotz dessen Brutalitäten) er nennt seine Geraaten
+        <lb/>un boulet de canon, mörderisch aber zielstrebig. Er weiss,
+        <lb/>dass wir für diese Menschen nicht existieren: die gar keine
+        <lb/>Menschlichkeit mehr haben, nur Furcht sind, nicht mehr Psycho-
+        <lb/>logie und Gefühl. Aber der Weltblick Lenins, der die Kampf
+        <lb/>auf Generationen sieht, berührt ihn und die Jugend des Be-
+      </p>
+      <pb n="10" facs="#surf_10"/>
+      <p>
+        <lb/>les das natürlich würde durch das Leiden, oder unsere
+        <lb/>Müde würden am Renz. Der kleine Rentier, der Arbeiter nie
+        <lb/>waren schon an das Bestehende durch Renz geheftet, sie ver-
+        <lb/>wandelten die Zeit nicht mehr, weil sie noch wollten (noch
+        <lb/>släther des in Deutschland.) Aber Verwandlungen sind not-
+        <lb/>wendig, deshalb müsste diese Krise kommen, die von oben
+        <lb/>bis unten die Welt durchschüttelte. Er hat kein Parteigefühl,
+        <lb/>ist im Gegenteil ein immer Pflicht gezeigt, die Vergewalti-
+        <lb/>gung der Freiheit in Frankreich als die grössere Katastrophe
+        <lb/>anzusehn - ohne freilich unsere Pflicht verunwerten zu
+        <lb/>wollen, gegen das Regime zu sein. Auch ein tiefes
+        <lb/>Misstrauen gegen die Ideen. Alle Unruhe, alles Unglück
+        <lb/>kommt von ihnen. Die Rufe der einfachen Menschen kommt
+        <lb/>davon, dass er keine hat. Ideen sind irgendwie Feinde des
+        <lb/>Lebens und doch seine höchste Form. Das gefährlichste aber
+        <lb/>das Geld. Wir sprechen viel von den Möglichkeiten: er richtet in
+        <lb/>allen Formen nur Kampf Unruhe. Hier man spürt, dass irgend
+        <lb/>etwas in ihm sich schon nach Ruhe sehnt. Wir sprechen viel und
+        <lb/>gut: er ist so wunderbar in seinem Vertrauen; sein Skepticismus
+        <lb/>vor der Zeit macht vor dem Menschen ihn nur fall. Nur ohne
+        <lb/>Heimkehr dann durch den klaren Abend. -
+        <lb/>Donnerstag 26. Vormittags allerlei kleine Arbeit. Nachmittag
+        <lb/>Ausflug nach Vevey. Eine entzückende unerwartet Stadt mit
+      </p>
+      <pb n="11" facs="#surf_11"/>
+      <p>
+        <lb/>altfranzösischen Häusern, lieblich, altväterisch, wohltuend
+        <lb/>gegen den Luxus von Montreux. Die Hotels, schön conserver
+        <lb/>die Vornehmheit von einst (wo man das Wort Eleganz noch
+        <lb/>nicht kannte) Das ganze eine warme milde Atmosphäre
+        <lb/>friedlich und poetisch. Beide haben wir den innigen Wunsch
+        <lb/>hier zu wohnen, vielleicht dass ihn der Frühling erfüllt. An
+        <lb/>Tour de Peilz vorbei, dem uralten Schloss mit Vaudeville
+        <lb/>wieder zurück.
+        <lb/>Freitag 27 Vormittags verträumt, vergangen und kleine
+        <lb/>Vorarbeiten für den Rolland Bau. Mittags die Nachricht vom
+        <lb/>scheinbaren Abfall Bulgariens. Paul weint. Besser ein
+        <lb/>Ende mit Schrecken. Ich glaube die Lawine ist jetzt ins Rollen
+        <lb/>gekommen, man hört das Donnern bis nach Deutschland
+        <lb/>herein. Freilich: wie erbärmlich diese Reden. Kein einziges
+        <lb/>warmes kluges lebendiges Wort. Eine Ode. Immer zu spät
+        <lb/>nur zwei Tage hinter den Ereignissen. Aber ich verfolge es
+        <lb/>schon impassibel.
+        <lb/>Nachmittags R. mit seiner Schwester bei uns. Wir sprechen viel
+        <lb/>bis in den tiefen Abend hinein. Wir zärtlich überlegen und
+        <lb/>liebevoll er aus des von J. erzählt: ohne discretion zu for-
+        <lb/>dern. Aber aus der Art der Rede weiss ich, dass er sie er-
+        <lb/>wartet. Diese Alltagsfeiten es kosten ihn viel: mit heissem
+        <lb/>Wort beklagt er sich darüber. Ich kann ihn ein wenig in
+      </p>
+      <pb n="12" facs="#surf_12"/>
+      <p>
+        <lb/>formieren. Die Sache ist ernster als ich dachte.
+        <lb/>Wir sprechen dann viel über den Plan vom Werke. Er erzählt
+        <lb/>von seiner Jugend, wie die ersten Berührung mit Paris
+        <lb/>und dann die gesellschaftliche als er im Hause seines Schwie-
+        <lb/>gervaters Michel Breal die ganze Sorbonne kennen lernt
+        <lb/>auf ihn wie ein Choc gewirkt haben. Die Aufopferung seines
+        <lb/>Vaters gab den früh ein Verantwortungsgefühl (das sich
+        <lb/>bis auf diesen Tag so tiefst bezeugt.) Wir sprechen über
+        <lb/>das Schicksalhafte in seinem Leben: er wenn auf Rom fu,
+        <lb/>wohin er durch den Zufall gelangte, den die besten andern
+        <lb/>nicht für würdig befunden würden, gegen seinen Willen fast
+        <lb/>zum Jean Cl. in Paris ein Aufsatz zu einem decadenten
+        <lb/>Roman vom grossen Künstler der Katastrophe. Das der
+        <lb/>Triumph. Am Janiculus die Idee wie ein Blitz. Auch in
+        <lb/>den Hero eine lange Linie geplant. Aber die Traurigkeit
+        <lb/>bricht durch: nur bei Beethoven gelingt ihm noch in einen
+        <lb/>Triumph umzuschaffen. Mazzini die Distanz (Ernst halten
+        <lb/>verwischt die Papiere). Da lässt er es: Jean Cristoph entsteht,
+        <lb/>ganz zufällige Folgen. Für sich selbst geschrieben. So wie er
+        <lb/>ganze Hörm von Holizen hat. Jahrzehntelang seine Schriften
+        <lb/>ein Dialog mit sich selbst. Mit Menschen wenig: die wirken
+        <lb/>die Kraft erst aus dem Pathos des Erfolges. Ich sage, es
+        <lb/>war sinnvoll und notwendig, dass er in diesem Augen-
+      </p>
+      <pb n="13" facs="#surf_13"/>
+      <p>
+        <lb/>blicke kam. Er lächelt melancholisch und sagt: pour le bon-
+        <lb/>heur trop tard. Man spürt, wie sich er gelitten unter der
+        <lb/>vergeblichen Anstrengung, vielleicht auch von der Ehe viel
+        <lb/>damit zerstört. Im ganzen scheint er sehr dem Plan der Bü-
+        <lb/>cher bei, viel zu beichten natürlich am einen Wunsch zu
+        <lb/>äussern und doch wunderbar sicher. Er erzählt dann von
+        <lb/>seinem Enthusiasmus für Renan, (den er herrlich schildert)
+        <lb/>und klagt wie viel Enthusiasmus nutzlos verbraucht sei in
+        <lb/>dieser vertrollten Zeit mangels an Menschen. Alle seine Con-
+        <lb/>fessionen haben eine zauberische Macht: er spricht von
+        <lb/>sich wie von einem ganz Fremden, ganz ohne Überhebung
+        <lb/>gleichsam historisch: es ist so ganz weit darum von Stolz
+        <lb/>oder Eitelkeit, nun ganz sachlich und darum ohne kleine Eitel.
+        <lb/>Für sich nimmt er immer als sittliches Problem: er fühlt
+        <lb/>sich schon drüben über dem Berg der Unsicherheiten. Er hat
+        <lb/>Conflicte, ist aber sicher in den Entscheidungen. Wie mir
+        <lb/>immer ehrfürchtig wird, wenn ich ihn so sehe, leicht vorge-
+        <lb/>beugt die Augen, die ja Fremden so fast klar
+        <lb/>sind, weich und ihr helles Blau von weichen Lichte und die
+        <lb/>Stimme immer ganz leise, dass alles was er sagt, irgendwie
+        <lb/>verwandelt wirkt. Wie bei Verhaeren spüre ich immer, dass
+        <lb/>ein Beisammensein mit ihm „Epoche“ ist wie Goethe sagte.
+        <lb/>So wird nun immer nasser so hinend wohlig, einseitig
+      </p>
+      <pb n="14" facs="#surf_14"/>
+      <p>
+        <lb/>übertragener Gefühl von der gestillten Liebesempfin
+        <lb/>durch einer Frau, etwas langsam in sich gehendes Fron
+        <lb/>Eindruck, das lange nachschwingt. Er harmoniert Men-
+        <lb/>schen durch seine Gegenwart wie auch heraufschreit durch
+        <lb/>seine Existenz: wir müsste sein Wesen irgendwie entlohnen
+        <lb/>die einen ein. Es ist immer ein reiner Tag in der Seele waffen.
+        <lb/>Samstag 28. Erregter Tag! Bulgarien, besiegt, capituliert
+        <lb/>oder will capitulieren. Die Folgen noch ganz unabseh-
+        <lb/>bar, aber ganz im Sinne der Beschleunigung. So wertet
+        <lb/>es auch die Börse, die selbst den deutschen Valuten einen
+        <lb/>Ausprung gab. Ich jage nach den Zeitungen, es ist wieder einer
+        <lb/>jener heissen Augenblicke wie ganz zu Anfang des Krieges,
+        <lb/>da man nach jeder Nachricht jappte. In Wien muss die
+        <lb/>Aufregung eine unerhörte sein, sie wird auch auf die De-
+        <lb/>moralisierung in Deutschland aufpeitschend wirken, das
+        <lb/>„on les aura“ ist wahrheit geworden: es spiegelt sich hier
+        <lb/>im Blick der Internierten. Vormittags in Vevey, der
+        <lb/>lieblichen Stadt ein wenig umhergeschlendert, nach-
+        <lb/>mittag Briefe. Es ist so gut einmal nicht zu arbeiten
+        <lb/>Sonntag 29 Heller Tag. Schöne Fernverwegs gelesen.
+        <lb/>Nachmittags bei R. Er ist sehr aufgeregt über die Affaire
+        <lb/>J. Die Sozialisten, Graber vor allem sind ihm in den
+        <lb/>Rücken gefallen, haben seine privaten Mitteilungen
+      </p>
+      <pb n="15" facs="#surf_15"/>
+      <p>
+        <lb/>missbraucht und ihn der gerichtlichen und politischen
+        <lb/>Verfolgung preisgegeben, obwohl in die Sache gar nichts
+        <lb/>angeht, die nichts als eine imprudence J. war. Der
+        <lb/>Brief war von der Secrétaire Ehlers entwendet
+        <lb/>worden, der ja überhaut eine recht traurige Rolle
+        <lb/>spielt: ich sehe erst in welche Gefahren diese couche
+        <lb/>Bande einen bringt und habe mir geschworen, Bern
+        <lb/>so viel als möglich zu vermeiden. Ich mache R. nur
+        <lb/>den Vorwurf, ihn nicht informiert zu haben. Er ist wun-
+        <lb/>derbar in seiner Festigkeit, obwohl dieser neue Angriff
+        <lb/>ihn schwer trifft und schädigt: die ganze Situation die-
+        <lb/>ser Menschen ist furchtbar. Er fällt mich herrlich auf-
+        <lb/>recht, weil er so ganz frei handelt, ganz für sich allein
+        <lb/>mit jener edlen Sicherheit, die in sich selbst ihren Compass
+        <lb/>hat. Auch mich trifft das Ungeschick J. mit, aber ich
+        <lb/>werde nicht zögern, zu ihm zu halten, so peinlich es
+        <lb/>im jetzigen Augenblicke auch sein mag: der arme
+        <lb/>Teufel hat mir bitter leid, in seiner Jungenhaftigkeit ist
+        <lb/>eine tiefe Tragik. Mit R. sprechen wir viel von Reisen
+        <lb/>und andern Dingen: seine Mutter und Schwester, die da-
+        <lb/>bei sind finden tieferes Gespräch. Aber zum Abschied
+        <lb/>fühle ich noch einmal seine grosse und ernste Herz-
+        <lb/>lichkeit - und seine tiefe unendliche Einsamkeit
+      </p>
+      <pb n="16" facs="#surf_16"/>
+      <p>
+        <lb/>Montag 30 Die Ereignisse rollen rasend weiter. Die
+        <lb/>Capitulation Bulgariens angenommen, Hertling gestürzt,
+        <lb/>die deutschen Blätter voll Bestürzung: das Gewitter droht
+        <lb/>endlich auszubrechen. In Wien ein Kurssturz ohne gleichen
+        <lb/>anders per phantastischer wenn die Valuten steigen: es ahnt
+        <lb/>dass die Capitulation Österreichs nicht zu ferne ist. Tag ohne
+        <lb/>Glänzen: jeder ein Jahrzehnt deutscher Entwicklung mitreissend,
+        <lb/>alle preussischen Ideen wegschwemmend, aber doch unaugbar
+        <lb/>grandios. Ich kann für mich nicht arbeiten, ganz herrn und
+        <lb/>ganz Zeitgefühl.
+        <lb/>Dienstag 1. October Morgens die schöne Fahrt nach
+        <lb/>Coppet - Mies. Herbstlicher Wein, gehaltenes Blau. Mittags
+        <lb/>Lausanne - Ouchy, dann
+        <lb/>mit den Jouves, sie sind wirklich entzückend zu uns. Er
+        <lb/>ein schwacher sensitiver Mensch, der langsam schwach lebt,
+        <lb/>wenig isst, wenig geht, sich überhaupt nicht abnützt aus
+        <lb/>Eitelkeit, innen aber von der stärksten Seelenkraft
+        <lb/>gefasst ist. Dichterlich liebt er sich nicht, überhaupt kein
+        <lb/>Selbstvertrauen, aber welche moralische Kraft. Da leben sie
+        <lb/>zu dritt mit 300 Franken im Monat ein kleines Haus
+        <lb/>ohne Dienstboten, die Frau sorgt für Küche, Wohnung
+        <lb/>das Kind, als Schreibmaschinenistin und Übersetzerin
+        <lb/>dabei zartfrei - Kameraden im hohen Sinne. Wie
+        <lb/>viele viele Milieus der Aufopferung keine schildert!
+      </p>
+      <pb n="17" facs="#surf_17"/>
+      <p>
+        <lb/>Auch er ganz gebrochen von der Affaire, wir kommen
+        <lb/>kaum dazu vom Wesentlichsten zu sprechen
+        <lb/>Mittwoch 2. October. Vormittags mit J. allein. Wir gehen
+        <lb/>zu Arcos. Auch da in einer Dachstube zu 30 Francs alles
+        <lb/>gestlich beisammen, die Frau (entzückend!) die für ihn
+        <lb/>über die Grenze geflohen ist, Chapiro, der Strobentel, Rieger,
+        <lb/>- natürlich erbitterte Diskussionen, denen wir bald wieder
+        <lb/>entfliehen. Er erzählt mir viel von seiner Jugend: es ist
+        <lb/>voll Dunkelheit, Tragödie im Elternhaus, dann gefährliche
+        <lb/>Jahre mit allen Lastern, Alkohol und die Weinen,
+        <lb/>bis seine Schwiegermutter und seine Frau ihn retten. Weiter-
+        <lb/>bas die ganze sittliche Klarheit: nicht die verschränkten, ver-
+        <lb/>bogenen Verhältnisse von der andern Seite. Auch wie ich des
+        <lb/>Alles bewundernd fühle! wie diese fester erfragene Armut rein
+        <lb/>Donnerstag 3. Oct. Vormittags Charles Hofer da. Eine fabel-
+        <lb/>hafte Geschichte, dieser Schweizer, der in die Fremdenlegion
+        <lb/>freiatappt, das Verfluchte an Verworfenheit mitmacht,
+        <lb/>und des seine Frau subsistenzlos in Paris lässt. Man weiss
+        <lb/>te es einmal erzählen. Dann mit Beaumond, abend
+        <lb/>mit den hefflichen Arcos: fell war leider. Er ist ein so
+        <lb/>vergnüglicher Mensch, den man wirklich gern haben muss.
+        <lb/>Abends mit Debrit war J. Eine winterliche Scene. Er ganz
+        <lb/>verletzt, seine Frau verweint. Aber noch immer dieses Böse
+      </p>
+      <pb n="18" facs="#surf_18"/>
+      <p>
+        <lb/>in ihm, die vehemente rasende Ehrsucht, die zu seiner
+        <lb/>intellectuellen Schwäche so contrastiert. Die Radamontaden
+        <lb/>hin und weg, weil Angst dahinter steht. Und Misstrauung
+        <lb/>gegen Menschen wie R. Ich glaube nicht mehr an Men-
+        <lb/>schen ohne Ehrfurcht als produktive Factoren, da muss
+        <lb/>Alles kommen, er ist ein verlorener Mensch: wie ein
+        <lb/>Fronde, der sich zu stark bläht, wird er eines Tages platzen.
+        <lb/>Ich wusste es voraus, und es war ein harter Gang zu ihm.
+        <lb/>Aber ihn jetzt zu lassen, wäre verächtlich gewesen. Nur doch
+        <lb/>kann ihn niemand vor sich selbst retten.
+        <lb/>Freitag 4. October. Die Reise von Genf nach Zürich ist wirk-
+        <lb/>lich eine Marter. Erst wenn man sie antritt. Um
+        <lb/>1/2 6 Uhr aufstehen, nachts ohne Frühstück auf den dunklen
+        <lb/>Bahnhof tappen, langsame, ungefähr überfüllte Züge und
+        <lb/>diese Proletarisierung der Zeitung: immer dritter Classe als
+        <lb/>ob es keine andere gäbe, so versuchen hier ein paar an-
+        <lb/>ständige Briefe zu kaufen, weil man nicht weiss, ob man
+        <lb/>sie nicht nach dem fortwirft. In Bern im Cafe gesessen und
+        <lb/>lange herumgeirrt: nichts macht mehr müde als diese
+        <lb/>ziellosen wandern ohne Ruhepunkt. Commer gehofft,
+        <lb/>er warnt mich, es aber angenehm nett zu war. Denn
+        <lb/>wieder weitergejagt bis tief in die Nacht hinein.
+        <lb/>Bei der Ankunft hör ich dass wir nicht mehr im Belvoir
+      </p>
+      <pb n="19" facs="#surf_19"/>
+      <p>
+        <lb/>wohnen, sondern schon zu B. übersiedelt sind; ich bin
+        <lb/>aber so müde, dass ich kaum Zeit habe, nur im Zimmer umzu-
+        <lb/>sehen und gleich ins Bett falle.
+        <lb/>Samstag 5. Octob Den ganzen Vormittag mit dem Briefschreiben
+        <lb/>verbracht. das wird allmählich eine Marter für mich, diese gan-
+        <lb/>zen geschäftlichen und persönlichen Correspondenzen mit der Hand
+        <lb/>zu erledigen, ich verbrauche dafür meine beste Kraft und falle
+        <lb/>dann immer also mit einer gewissen Unfreudigkeit in den Tag
+        <lb/>Da gibt es freilich keinen Ausweg in dieser unmöglichen Zeit.
+        <lb/>Aber ich sehe wirklich, dass gerade das Kostbarste, des Dichterische
+        <lb/>in mir ganz zugrundegeht durch diese Tätigkeit, die bezeichnend ist
+        <lb/>Ohne Ertrag. Hofmannsthal hat mich oft geopfert. Hätte ich irgendeinen
+        <lb/>ganz starken jungen Dichter zu beraten, ich redete ihm zu, dass
+        <lb/>ersten Tage an nie einen Brief zu beantworten, ganz aussen zu
+        <lb/>bleiben. Nachmittags in der Stadt war ich die Ankunft vom
+        <lb/>neuen Friedensangebot und Waffenstillstandsvorschlag, der
+        <lb/>also bedenklich einer Capitulation ähnlich sieht. Immerhin
+        <lb/>der Friede ist jetzt gewiss für das Frühjahr. Vielleicht überstür-
+        <lb/>zen sich die Ereignisse noch rascher als ich vermutete! Man
+        <lb/>alimet freier. Morgen die Rede des Reichskanzlers und die Antwort
+        <lb/>Wilsons wohl in einigen Tagen. Dann wird man ganz klar
+        <lb/>sehen und mit der Uhr in der Hand zu zählen beginnen
+        <lb/>können, was der Totenkampf eintritt.
+      </p>
+      <pb n="20" facs="#surf_20"/>
+      <p>
+        <lb/>Sonntag 6. October Vormittags Briefschreiberei und Folgen.
+        <lb/>Ich verzweifle mich eigentlich je ganz durch diesen Berg von
+        <lb/>Arbeiten durchzuringen, der mich erdrückt. Der Mangel an
+        <lb/>kleiner äusserer Regierbarkeit in der Protection ist für
+        <lb/>mich furchtbar. Abends die Rede des deutschen Kanzler,
+        <lb/>gut aber spät, sehr spät. Ich glaube Wilsons Bedin-
+        <lb/>gungen werden jetzt auch die Räumung Lothringens
+        <lb/>umfassen. Ob das Deutschland annimmt? Die Zeit
+        <lb/>geht zu rasend rasch nach vorwärts, kaum dass
+        <lb/>unsere Gedanken nachkommen können.
+        <lb/>Montag 7. Oct. Unruhiger Tag durch die Erwartung,
+        <lb/>dazu noch diese Affaire Bech-Alfer. Dass ich doch
+        <lb/>meinen Instinct, meinem ursprünglichen, ewig treu
+        <lb/>werde: jetzt habe ich wieder 14 Tage hervorital, Auf-
+        <lb/>regung, Peinlichkeit, Telegrafiererei, Ungewissheit - ich
+        <lb/>nur ekelt dafür bis zum äussersten! Und doch patsche
+        <lb/>ich in diese Dinge immer hinein, ohne mich vorher zu über-
+        <lb/>sehen. Der ganze Arbeitstag dadurch zerstört, ich möchte
+        <lb/>fast sagen. Das Gefühl des nahen Friedens verstümmelt
+        <lb/>Die Annahme des Waffenstillstandes unter leidlichen
+        <lb/>Bedingungen scheint mir gesichert, nur überschätzt man,
+        <lb/>glaube ich, die Härte für die geschwächten Mittelmächte..
+        <lb/>Wie Österr. zu leidlicher Geltung jemals wieder kommen sollte,
+      </p>
+      <pb n="21" facs="#surf_21"/>
+      <p>
+        <lb/>ist mir unverständlich - ich kann auch kein Resonanz
+        <lb/>irgend eines Gefühles aufbringen: ich glaube in den Kriegs-
+        <lb/>ländern, besonders aber bei uns, werden die ersten zwei
+        <lb/>Jahre nach dem Krieg noch ärger sein als die Kriegsjahre
+        <lb/>selbst. Dass irgend etwas mit rechtem Elan, mit ganzer
+        <lb/>Freude unterkommen werden könnte, scheint mir un-
+        <lb/>audenkbar: oder urteile ich nur aus meinem eigenen
+        <lb/>gelähmten Gefühle, das keine Schwung und Ehrungskraft mehr
+        <lb/>hat oder wenigstens nicht jetzt. Die besten Jahre sind
+        <lb/>mitten durch getroffen; ich beneide die Jüngeren und die
+        <lb/>Älteren, diejenigen die sich noch gewöhnen können an
+        <lb/>die neue Zeit und diejenigen, die es nicht mehr müssen.
+        <lb/>Dienstag 8. Oct. Spannungen ohne Ende. Hetzjagd auf
+        <lb/>Josef B. die mich etwas beruhigt: schliesslich wird
+        <lb/>sich es schon irgendwie regeln lassen, man sollte sich
+        <lb/>um anderes sorgen. Die moralische Qual unsäglich: die
+        <lb/>Ententeblätter schlagen einen strengen Ton mit Deutsch-
+        <lb/>land an und mit einem Delinquenten und drüben
+        <lb/>schämen sie zu fühlen, dass ihnen das Wasser bis an
+        <lb/>den Kragen geht. Ein blödsinniger Artikel Rathenaus
+        <lb/>der von einem Nationalheer redet, steht allein für
+        <lb/>sich: sonst Alles in einem nassen Geplätscher. Die Si-
+        <lb/>tuation des liberalen Cabinettes ist eine höchst gefähr-
+      </p>
+      <pb n="22" facs="#surf_22"/>
+      <p>
+        <lb/>liche: nehmen sie schwere Bedingungen an, so wer-
+        <lb/>den sie auf alle Ewigkeit von den Conservativen
+        <lb/>dafür belastet werden, nehmen sie sie nicht an, dann
+        <lb/>ist es eben der Untergang. Mit Liberalismus kommt
+        <lb/>man eben in einem so vorgeschrittenen Stadium nicht
+        <lb/>mehr weiter: jetzt muss es Radicalismus sein. Für Deutsch-
+        <lb/>land kommen jetzt erst die bitteren Erkenntnisse.
+        <lb/>Mittwoch 9. October Vormittags Aufsatz über das (ganz
+        <lb/>schlechte) Buch von Latzko. Mich ekeln diese Kriegs-
+        <lb/>schreibereien schon. Nachmittags mit Berau, dann bei
+        <lb/>Kesser, mit dem ich sehr gut und klug von Politik
+        <lb/>da reden kann. Wir sind ganz einer Meinung. Dann
+        <lb/>kommt Kurah, krampfierend: er sagt, das deutsche
+        <lb/>Reich werde jetzt alles bewilligen, auch die Hohen-
+        <lb/>zollern wegschicken. Er glaubt von ihnen her, wie
+        <lb/>ich ihn jeiterer, er erfährt von einem Telegramm, das
+        <lb/>er vor einer Stunde vom Prinzen August Wilhelm
+        <lb/>sch erhielt: die Demütigung geht ihm nicht nah, auch
+        <lb/>jedes finanzielle Zusammenbruch nicht, er lebt ego-
+        <lb/>centrisch nur in sich. Mitten im Gespräch zitiert er
+        <lb/>sein letztes Stück, erzählt fern offenbar seitenlang, die
+        <lb/>nur recht flach und seicht klingen. In seiner herreissen-
+        <lb/>den Genialität ist viel Dilletantismus oder unge-
+      </p>
+      <pb n="23" facs="#surf_23"/>
+      <p>
+        <lb/>hehrt vielleicht das Verhältnis. Wildenbruch steckt ihm
+        <lb/>in den Knochen - dabei ist er herzlich und aufgetan,
+        <lb/>ein Bündel Leben und Begeisterung. In seinen Zügen
+        <lb/>steckt ein Knabe voll heller Glut, der sich aber allmäh-
+        <lb/>lich vergröbert: auch schon ein schwerer Erbelbier
+        <lb/>will in ihm heraus. Selten habe ich diese Selbstbegei-
+        <lb/>sterung so stark empfinden, bei Fraeien vielleicht
+        <lb/>nur, die sich ununterbrochen selbst geniessen in je-
+        <lb/>dem Wort, in jeder Geste. Ich mag diese Trunken-
+        <lb/>heit seiner selbst sehr an ihm: auf die Dauer muss
+        <lb/>sie wohl unerträglich werden. Nur dabei diese
+        <lb/>Ehrbarkeit: Tagebücher, zwei Cyclen fertig, dazwischen
+        <lb/>Aufsätze, Arbeiten Tätigkeit. Selten habe ich Ehrgeiz
+        <lb/>so rein, so ungemischt gesehen: nicht wieder, der
+        <lb/>Erfolg will, sondern den kleistisch-dämonischen,
+        <lb/>der alles Sterne will, Shakespeare sein und nicht
+        <lb/>weniger. Er denkt so gar nicht an Literatur: erfüllt
+        <lb/>sich byronisch als Genius, als poeta Borussiae und
+        <lb/>Germaniae. Er discuriert sich gar nicht, stellt sich wie
+        <lb/>in Trage und Vergleur: er hört auch nur sich, sich
+        <lb/>und sonst keinen. Aber in dieser Selbstgefälligkeit
+        <lb/>ist nichts Kleines, alles Grosse, Leidenschaft, Kraft und
+        <lb/>man muss sie wirklich lieben. In unser Gespräch
+      </p>
+      <pb n="24" facs="#surf_24"/>
+      <p>
+        <lb/>Wilsons Antwort: eine kalte Hoffnung, eine versteckte
+        <lb/>Demütigung, eine Aufforderung zur Waffenstreckung
+        <lb/>in milder Form. Es ist zu erwarten, dass ~ da der Ton
+        <lb/>höflich ist ~ Deutschland sie annimmt, es hat ja viel
+        <lb/>Bescheidenheit gelernt in den letzten 14 Tagen war das
+        <lb/>Unmöglichste ist von heute das Selbstverständliche.
+        <lb/>Donnerstag 10. October. Noch immer irritiert
+        <lb/>durch das Fehlen einer Entscheidung in der Sache
+        <lb/>B. Politisch scheint sich alles zu klaren, Deutschland
+        <lb/>gleiten die härtesten Brocken heute glatt durch die
+        <lb/>Gurgel, er wird auch sie fressen, freilich wird ihm
+        <lb/>die Sache länger im Magen rumoren als die Leute
+        <lb/>meinen. Ich arbeite ein wenig. Nachmittags mit
+        <lb/>James Joyce, dem irischen Dichter, hager, spriesig
+        <lb/>scharf, klug, aber sehr „quaint“. Er hat 14 Jahre in
+        <lb/>Trient gelebt und liebt die Stadt weil sie keine
+        <lb/>Steuern von ihm gefordert hat: sein dichterisches
+        <lb/>Werk hat erst bedeutend später begonnen, d.h.
+        <lb/>er hat 10 Jahre an seinem Roman gearbeitet. Jetzt
+        <lb/>erscheint eine irische Odyssee in einer Zeitschrift ohne
+        <lb/>dass er selbst damit fertig wäre - seltsame Zu-
+        <lb/>stände wie die auch, dass kein Drucker in England
+        <lb/>sein Werk übernehmen wollte. Er nennt sonderlings:
+      </p>
+      <pb n="25" facs="#surf_25"/>
+      <p>
+        <lb/>haft und wie alle solchen Schnarren einzig mit sich
+        <lb/>selbst beschäftigt: in 14 Jahren Triest ist er nicht einmal
+        <lb/>nach Fiume, Agram oder Wien gefahren, auch hier
+        <lb/>lebt er ganz in der Höhle. Kesser war bei Frau Herz.
+        <lb/>Ka: Wiener Tratsch ohne tiefere Bedeutung.
+        <lb/>Freitag 11 Die Unruhe in Sachen B. wirklich ärgerlich
+        <lb/>und gesteigert durch die Steigerung der Valuten. Ausserdem
+        <lb/>Müdigkeit, ich verhehle nicht die Angst bei jeder Schwäche,
+        <lb/>man ist mit Grippe jetzt von allen Seiten umstellt, in
+        <lb/>Zürich liegt die halbe Stadt krank und täglich ein Dutzend
+        <lb/>Todesfälle. Nachmittags Anruf der Neuen Züricher Zeitung
+        <lb/>nun einen Aufsatz über Lammasch: er soll Ministerprä-
+        <lb/>sident werden, was herrlich wäre. Ich versuche etwas zu
+        <lb/>schreiben: es wird miserabel. Abend zweite Schrift: noch
+        <lb/>immer ganz schlecht. Ich habe keine bildnerische oder
+        <lb/>dichterische Kraft jetzt in mir: ich bin steril und irritiert
+        <lb/>vielleicht eine Folge, dass ich alle Narkotika, Tabak und
+        <lb/>Kaffee so plötzlich abstellte - ein Heroismus über den ich
+        <lb/>mich selbst wundere. Ich fühle mich jetzt wohl, aber faul
+        <lb/>und schlaff, ohne Arbeitswille und Fähigkeit
+        <lb/>Samstag 12. Frühmorgens endlich das Telegramm von A.
+        <lb/>Es machte mir ein leichtes Herz. Ich ging zu B. ging
+        <lb/>zum Director und war froh, die Stadt wieder zu lassen. Nach-
+      </p>
+      <pb n="26" facs="#surf_26"/>
+      <p>
+        <lb/>mittag Spaziergang, anrufen, hingegeben, lesend,
+        <lb/>faul und glücklich. Ich darf nur nichts Materielles
+        <lb/>auf mich getrennt haben, dann versage ich sofort.
+        <lb/>Sonntag 13. Heute die Nachricht, dass Deutschland
+        <lb/>alle Vorbedingungen annimmt. Eine Erleichterung: das
+        <lb/>Ende ist jetzt naht weichlich. In Deutschland ist der Kai-
+        <lb/>ser aufs Eis gestellt samt dem Kronprinzen, die Capi-
+        <lb/>tulation eingeleitet: das härteste Stich erwartet uns
+        <lb/>in Österreich, wo eine Aufteilung und gänzliche Zer-
+        <lb/>störung naht weichlich scheint. Immerhin ein guter
+        <lb/>Tag, ich verbringe ihn herrlich faul, lesend nirbesbeas, an
+        <lb/>die Arbeit komme ich nicht recht heran.
+        <lb/>Montag 14. Die Grippeepidemie entsetzlich. Dreissig
+        <lb/>Leute sterben in Zürich jeden Tag, tausende sind
+        <lb/>krank. Natürlich hat man das törichte Gefühl wie
+        <lb/>im Krieg, es könne einen nicht betreffen, aber wie
+        <lb/>unbehaglich doch im Grunde, wie peinlich an jeder
+        <lb/>Ecke das Gespenst lauernd zu fühlen, Falsi in Wien er-
+        <lb/>braucht, überall das Gleiche. Ich arbeite an einem
+        <lb/>Feuilleton für die Presse, oh wie müde bin ich
+        <lb/>schon dieser literarischen Holzhackerei, ich möchte
+        <lb/>gerne eine Zeitung für mich und nur für mich arbei-
+        <lb/>ben - seit Jahren unerfüllbar, unerreichbar.
+      </p>
+      <pb n="27" facs="#surf_27"/>
+      <p>
+        <lb/>Dienstag 15. Ein wenig Arbeit, das Feuilleton fertig, gute
+        <lb/>Briefe, Jeremias in Nürnberg gespielt (meine Gleich-
+        <lb/>gültigkeit zu diesen Dingen ist wirklich organisch)
+        <lb/>Nachmittags kommt Berau mit der Botschaft, dass
+        <lb/>Wilson jene kalte Antwort gegeben habe, die unum-
+        <lb/>wunden die Abdankung der Hohenzollern verlangt
+        <lb/>die gänzliche Räumung ohne Bedingungen und
+        <lb/>separate Verhandlungen mit Österreich ankündigt
+        <lb/>Ich spüre bis in Mark das Schauerlich-Historische,
+        <lb/>jetzt kommt etwas über Deutschland, wogegen Brest-
+        <lb/>Litowsk ein Kinderspiel war. Jetzt sind wieder Se-
+        <lb/>cunden von der grässlichen Spannung von 1914,
+        <lb/>nur dass in den Nerven nichts mehr zieht; man
+        <lb/>ist lahm, ausgehofft, ausgeängstet. Man kann
+        <lb/>nicht mehr. Morgen sie nachdenken, die Brest-
+        <lb/>Litowsk beschlossen haben, ich mag mein Gehirn nicht
+        <lb/>damit quälen. An ein Ende zu denken wagt man
+        <lb/>gar nicht mehr, denn der Frieden ist ja nur
+        <lb/>ein neuer Unruheanfang.
+        <lb/>Mittwoch 16. Allerhand Kleinkram, Kritiken
+        <lb/>über Jeremias gelesen, mit Rübiner gesprochen
+        <lb/>Beide sehen wir das Tragische in der entsetzlichen
+        <lb/>Verarmung Deutschlands, die ohne Beispiel in der
+      </p>
+      <pb n="28" facs="#surf_28"/>
+      <p>
+        <lb/>Weltgeschichte sein wird, wie überhaupt mich
+        <lb/>in diesen Grad eines Zusammenbruchs je wieder
+        <lb/>Bieten kann. Alle Phantasie ist da nutzlos, man
+        <lb/>muss in Utopien denken. Nachmittags Arbeit,
+        <lb/>Correcturen zu meinem neuen Stück und
+        <lb/>damit eine wirkliche Freude inmitten des Chaos.
+        <lb/>Donnerstag 17. Jetzt jeden Tag in der Stadt und
+        <lb/>keine rechte Arbeit. Man ist ganz nervös von diesen
+        <lb/>ewigen Angelegenheiten der Welt, die heissesten stir-
+        <lb/>zen furchtbar vehement übereinander. Es sind innere
+        <lb/>Interessentenstürmen: das Schicksal Europas formt sich um.
+        <lb/>Aber was ist uns Europa als eine Illusion, ein Fleck Lauthar-
+        <lb/>te, der sich in ein schmerzhaftes Innengefühl verwandelt
+        <lb/>hat: könnte man sich jenen letzten Ausschwung geben
+        <lb/>nur dermassen unzeitlich denken, dass man diesen Krieg
+        <lb/>als etwas historisches empfindet wie Türkenkriege und ein
+        <lb/>passibel aussieht, woran man selbst unschuldig ist und mora-
+        <lb/>lisch verantwortlich los.
+        <lb/>Freitag 18 Nichts von Belang, nichts gearbeitet. Und gewar-
+        <lb/>tet auf die Entscheidungen. Der Kaiser soll jeden Augenblick
+        <lb/>gehen: aber die Hohenzollern sind ein starrnackiges Volk, das
+        <lb/>zäh an seinen Posten sich klammert. Mein Hass gegen das
+        <lb/>Gesindel ist grenzenlos: frei in Erfolg und feige in Unglück.
+      </p>
+      <pb n="29" facs="#surf_29"/>
+      <p>
+        <lb/>Samstag 19. Mit Kesser viel gesprochen. Die Welt ganz
+        <lb/>einig bis auf den Polodamer Klingel. Die Verwirrung
+        <lb/>in Berlin scheint grenzenlos: die Nachrichten lächerlich eben
+        <lb/>so wie die Zeitungsartikel confus. Es fefet jede Orientierung.
+        <lb/>Auf der Börse ein wüstes Valutengeschiebe, in der Stadt die
+        <lb/>Grippe in entsetzlichstem Masse. Eine Weltseuche gegen
+        <lb/>die die Pest in Florenz oder ähnliche Chronikgeschichten
+        <lb/>ein Kinderspiel sind. Sie frisst Europa täglich 20000
+        <lb/>bis 40000 Menschen weg: aber was ist Europa? Eine Fiktion,
+        <lb/>die man sich abgewöhnen soll wie alle Zusammenfassungen.
+        <lb/>Sonntag 20. Auf die deutsche Antwortnote gewartet. Statt
+        <lb/>ihrer kommt die Wilsons an Österreich, Eine Zerschmette-
+        <lb/>ring, die glatte Auflösung statuiert. Mit den Habsburgern wä-
+        <lb/>re es dann ebenso Freude wie mit den Hohenzollern. Die
+        <lb/>ganzen Dinge, die wie Gotteslästerung noch vor 14 Tagen ge-
+        <lb/>klungen hätten, werden heute als einfache Selbstverständlichei-
+        <lb/>ten ausgesprochen.
+        <lb/>Montag 21. Gute Nachrichten. Legende vom Lessing Theater
+        <lb/>angenommen, Druck der Bücher fast fertig. Ob das nicht eigent-
+        <lb/>lich wichtiger wäre als die widerliche Politik, die area ganz
+        <lb/>auffrisst und verzehrt, ohne einem etwas zu geben.
+        <lb/>Montag 22. Endlich alle Briefe abgeschoben. Tiori erzählte
+        <lb/>Neues aus Berlin von dem Chaos dort. aber keine Explosion. Es
+      </p>
+      <pb n="30" facs="#surf_30"/>
+      <p>
+        <lb/>wird weitergeschachert, während schon die Revolution auf
+        <lb/>dem Dachsparren sitzt. Man brennt von einer Zeitung auf
+        <lb/>die andere und in keiner irgend etwas, das Erleichterung
+        <lb/>zu bringen vermöchte
+        <lb/>Mittwoch 23 Spannungen ohne Ende, keine Arbeit. Nur
+        <lb/>lesen, darunter Hiesche, ein Auf-Zeitungen-Hetzen und
+        <lb/>Unruhe, Aber ein herrlicher Herbsttag, klar, rein, die Bäu-
+        <lb/>me wie auf einem Zauberwald. Die Grippe nimmt einen frei-
+        <lb/>lich die rechte Freude daran: täglich rückt sie einem näher
+        <lb/>an den Leib, man ist schon eine Curiosität als Aktueller.
+        <lb/>Donnerstag 24 Die Schicksalsnote Wilsons, die deutlich Ab-
+        <lb/>schlag des deutschen Kaisers fordert. Die Börse antwortete
+        <lb/>darauf mit einem wilden Sprung nach oben; geschmälert
+        <lb/>wird all das durch die Nachrichten von der Auflösung
+        <lb/>Österreichs. Wir wissen nicht mehr, was wir sein werde,
+        <lb/>ob Deutsche, Tschechoslowaken, alles ist im Dunkel und Un-
+        <lb/>gewissen, freilich besorgt es einen nicht mehr. Aber dieses
+        <lb/>Fieber, diese Ungewissheit! Diese Unruhe!
+        <lb/>Freitag 25 Bech erledigt, dann bei Falsio, wo ich von ihm
+        <lb/>höre, der noch immer in Wien sich aufhält. Sonst nichts
+        <lb/>nur Erschwerung und Ungeduld.
+        <lb/>Samstag 26 Von Rolland ein wunderbarer Brief. Über
+        <lb/>Matereel geschrieben, sonst nichts. Nur Erwartung auf die
+      </p>
+      <pb n="31" facs="#surf_31"/>
+      <p>
+        <lb/>Abdankung, die noch immer zögert und zögert.
+        <lb/>Sonntag 27. Noch immer Spannungen. Man kann gar nicht
+        <lb/>atmen vor Erregung. In Österreich überstürzen sich die Dinge
+        <lb/>mit namenloser Geschwindigkeit. Die Lawine rollt rasch: man
+        <lb/>möchte ihr zuschauen, wie sie stürzt, aber sie hält nicht inne.
+        <lb/>Es ist furchtbar, diese Eile, dieses rasende Tempo.
+        <lb/>Montag 28 Lammasch soll Ministerpräsident werden. Jegli
+        <lb/>Aber immerhin besser als zu spät. Deutsche Antwort - Hau
+        <lb/>nur ausweichend. Oh, dieses Chaos! Innen und aussen!
+        <lb/>Donnerstag 29 Mein Aufsatz erschienen. Matereel abgeholt, Er
+        <lb/>ist ein wunderbarer einfacher Mensch voll Tiefe, treu und
+        <lb/>klug: man kann nicht anders als ihn lieben. Er erzählt so-
+        <lb/>viel und alles so schlicht menschlich: man hat den Wunsch
+        <lb/>so zu sein wie er.
+        <lb/>Mittwoch 30. Mit Canicres zu Tisch. Heiter im Chaos. Das
+        <lb/>sich kommt und erzählt viel Revolution in Ungarn, der
+        <lb/>rote Hahn gahrt auf Österreichs Dach. Unmöglich die Dinge
+        <lb/>aufzudenken, es ist zuviel auf einmal
+        <lb/>Donnerstag 31 Mit Franch. Typus der Börse: ganz am Haus.
+        <lb/>Gestaltet und gefaltet. Wie er sich ärgert, wenn jemand
+        <lb/>anderer etwas geschrieben, wie er der laut und sich selbst
+        <lb/>mit Hass kauft. Ich habe immer Mitleid mit ihm.
+        <lb/>Ludwig erzählt viel, mit reichlich viel Diplomatenzeugs. Aber
+      </p>
+      <pb n="32" facs="#surf_32"/>
+      <p>
+        <lb/>blutig bis in die Fingerspitzen, höflich mehr noch als fähig.
+        <lb/>Waffenstillstandsangebot Österreichs: verzweifelte Schreie
+        <lb/>einer Sterbenden, den man nicht sterben lassen will. Und
+        <lb/>Wilson zögert mit der Antwort
+        <lb/>Freitag 1. Nov. Immer schneller die Lawine. Pista ermor
+        <lb/>det. Endlich, sagt man. Nur doch zu spät. Helle Revolution
+        <lb/>überall in Ungarn, in Österreich Victor Adler Minister des
+        <lb/>Äussern. Nachmittags bei Lasto: er ist an Bell. Die Tra-
+        <lb/>gödie seiner Frau entsetzlich, die für Schmerzen verlang
+        <lb/>um da bei seiner Arbeit nicht zu stören und ein Zufun
+        <lb/>degeh. Er darf sie nicht sehen wegen der Grippe: Compli-
+        <lb/>cationen, der Zufall, die er als persönliche Gefährlichkeit des
+        <lb/>Schicksal empfindet. Er ist so ganz Fanatiker der Güte dass
+        <lb/>man kann ihn nicht vergessen, wie er an Bell liegt, lei-
+        <lb/>dend und zerrissen in der Seele. Abend wieder neue Nach-
+        <lb/>richten: die Engländer in Lastay. Man kann es auch nicht
+        <lb/>fassen es wird allmählich zuviel.
+        <lb/>Samstag 2. Nov Die Spannungen überdauerten einen
+        <lb/>allmählich. Österreich in voller Revolte und schon ganz
+        <lb/>mit Bolchewismus. Man zerreisst sich das Gehirn, um alles
+        <lb/>auszudenken. Nur Tagen fast man aus der Zeitung der
+        <lb/>Rest brennende Phantasie. Ich verraume den Zug, so
+        <lb/>sehr bin ich in die Zeitungen verloren. Dazu das Debacle
+      </p>
+      <pb n="33" facs="#surf_33"/>
+      <p>
+        <lb/>am Isonzo, die Rückflut der Armee, das letzte Kriegsschiff
+        <lb/>torpediert, ~ man schreit nach den Engländern und Ame-
+        <lb/>rikanern so wie die Finnländer nach den Deutschen
+        <lb/>schrien. Die Abdankung der deutschen Kaisers steht knapp
+        <lb/>bevor, die des österreichischen scheint bereits erfolgt zu sein
+        <lb/>ein Chaos lebt bei uns an, wie es die Welt noch nicht ge-
+        <lb/>sehen. Nur Wilson schweigt mit verbissenen Lippen, innerer
+        <lb/>Greuel die Seele zerspringt vor Erwartung seiner Worte.
+        <lb/>Sonntag 3. Zu allem noch die Affaire von B-chs. Brüder.
+        <lb/>Noch einmal durch die Hölle der Bilder des tods. Mir ist es dies-
+        <lb/>mal nicht so persönlich peinlich und dann die Zeiten so viel
+        <lb/>durcheinander, dass man gar nicht an eine Durchführung den-
+        <lb/>ken kann. Das ganze Reich knarrt in allen Fugen, man brennt
+        <lb/>auf Nachrichten und das Ganze gibt kein Bild. Leider haben
+        <lb/>die Schreier, die Deutschnationalen wieder gesiegt, noch immer
+        <lb/>ist der mit dem grossen Maul der Einflussreichste. Die Conse-
+        <lb/>quenzen unabsehbar, wenn Deutschösterreich zum D. Reiche
+        <lb/>käme und sich von den andern Staaten isolierte: totale Ver-
+        <lb/>armung vor allem, Wien mit seinen 2 1/2 Millionen sinnlos
+        <lb/>gross und Central am Ende des Reiches hängend wie ein Wasser-
+        <lb/>opf und dann die Verarmung, die unaufhaltsame, der rettungs-
+        <lb/>lose Untergang. Ich spreche lange mit Ludwig Bauer darüber,
+        <lb/>er rät fast als vernünftigsten Ausweg den, Jude zu werden.
+      </p>
+      <pb n="34" facs="#surf_34"/>
+      <p>
+        <lb/>Montag 4 Elend geschlafen. Oder gar nicht, seit vierzehn Ta-
+        <lb/>gen keinen Strich getan, nur Zeitungen gefressen, sind gehetzt
+        <lb/>nur gesagt, Nachricht vom Waffenstillstand. Mitleidslos: ein
+        <lb/>zweiter Brest-Litowsk. Bei allem meinem Pessimismus, ein
+        <lb/>derart schmähliches Ende hätte ich nie vorausgesehen. Aber die
+        <lb/>Dummheit der Deutschen jagt alle Teufel aus ihren Löchern, noch
+        <lb/>immer vermögen sie von ihrem geliebten Monarchen nicht ab-
+        <lb/>schied zu nehmen. Und das kostet Tausenden das Leben, an
+        <lb/>gefährdeten unschuldigen Menschen. Nachmittags noch mit Rie-
+        <lb/>ger, der jetzt zurückwill, mitten in diesen entsetzlichen tragi-
+        <lb/>schen Tumult. Keine Briefe, keine Telegramme: man ist
+        <lb/>ganz abgeschnitten. Und dabei fehlt noch das Beste, das Not-
+        <lb/>wendigste den Menschen, die Vernunft. Sie sehen nicht ein,
+        <lb/>dass dort in Österreich jetzt bald ein Chaos losbrechen wird,
+        <lb/>gegen das alles Bisherige ein Kinderspiel war. Und wieder
+        <lb/>werden die Schreier, die lauten Menschen sich der Sache be-
+        <lb/>mächtigen und sie verderben. Ein Trost in diesen Tagen Ma-
+        <lb/>tereel, der Klare, Reine, Gütige. Ich weiss, dass ich nur ganz
+        <lb/>wenige Menschen habe, die ich so sehr liebe wie ihn. Ganz Güte
+        <lb/>und Kraft: er ist doch die wunderbarste Mischung.
+        <lb/>Dienstag 5 Die Verbindung wird immer lockerer. In Vorarlberg
+        <lb/>ist Revolte, sie wollen zur Schweiz, die sie nicht mit viel Liebe
+        <lb/>erwartet. In Innsbruck plündern Soldaten die Züge, in Grenzrhein
+      </p>
+      <pb n="35" facs="#surf_35"/>
+      <p>
+        <lb/>auf das wirkliche Tumult erst vorzubereiten. Man sagt nach
+        <lb/>wirklichen authentischen Nachrichten und findet keine. Das
+        <lb/>Chaos scheint erst im Werden begriffen: und von Deutschland
+        <lb/>schreiben auch die Verleger und Bücher, alles geht seinen
+        <lb/>ruhigen gemessenen Gang. Es ist nur wie wenn ein Sterben.
+        <lb/>der vom nächsten Jahre spricht, denn an Pardon ist nicht
+        <lb/>mehr zu denken: der Friede für Deutschland wird von Tag zu
+        <lb/>Tag zerschmetternder sein. Die Alliirten beeilen sich auch gar
+        <lb/>nicht die Waffenstillstandsverhandlungen zu beschleunigen,
+        <lb/>im Gegenteil, sie warten die innere Zermürbung ruhig und
+        <lb/>gemächlich ab: es ist die stärkste Nervenspannung die ertart
+        <lb/>werden kann und man geht daran zugrunde
+        <lb/>Mittwoch 6 Gearbeitet am Rollandbuche, von R. u. Foerding
+        <lb/>angerieben. Es ist noch immer sehr wirr in der Welt, das selbst
+        <lb/>sich mancher allmählich zu klären. Aus Österreich bessere
+        <lb/>Nachrichten, J.f. persönlich keine, aber aus den Zeitungen. Die
+        <lb/>Ordnung scheint, um den Preis ungeheurer Anstrengungen aufrecht
+        <lb/>erhalten zu werden. Entsetzlich die Schilderung der zurückflutenden
+        <lb/>Soldaten, die in Vorarlberg werden mit Gewalt zurückgestossen
+        <lb/>Man lebt den ganzen Tag in diesen Bildern. Entsetzlich die Unru-
+        <lb/>er, die dabei nur ihre kleine Angst um sich selber haben
+        <lb/>Donnerstag 7 Der gute Rieger doch nicht abgereist, Er hat hier
+        <lb/>in einer Apotheke eine Stellung angenommen, was ich wun-
+      </p>
+      <pb n="36" facs="#surf_36"/>
+      <p>
+        <lb/>derbar auswärtig finde. Der Vertrag mit Deutschland für den
+        <lb/>Waffenstillstand knapp vor der Unterzeichnung, in zwei Tagen wird
+        <lb/>alles zuende sein, umso mehr nach jener Revolte in Kiel. Bei Ragar,
+        <lb/>mit dem ich mich nur im letzten verstehe, in den Dingen hinter
+        <lb/>dem theologischen Tanzer. Josef B. getroffen, der mich sehr beruhigt,
+        <lb/>wir sind von der Sache gar nicht berührt.
+        <lb/>Freitag 8. November. Historischer Tag. Ein Trommelfeuer von Nach-
+        <lb/>richten. Bayern Republik, Schweiz in Generalstreik, Ultimatum
+        <lb/>an den deutschen Kaiser, Waffenstillstandsverhandlungen -
+        <lb/>der Atem kann es kaum auffangen. Und doch innen keine
+        <lb/>rechte Kraft mehr dafür. Man ist zu müde. Das Klugscheiss, man
+        <lb/>spürt es, ohne die rechte Fähigkeit zu haben, es zu fassen. Die Leu-
+        <lb/>te schlottern hier mir so vor Angst, es ist fast unerträglich, mit
+        <lb/>ihnen zu sprechen. Aus Österreich kein Wort.
+        <lb/>Samstag 9. Streik wegen des Militäraufgebots. Und knapp
+        <lb/>keine Zeitungen gerade jetzt wo man danach fiebert. Endlose
+        <lb/>Aufregung überall, man zittert jeder Secunde entgegen. Die Bür-
+        <lb/>ger hier aschgrau vor Angst, bebend vor jedem Wort. Gerücht
+        <lb/>von Mund zu Mund, dabei ist das Ganze doch ein Possenspiel gegen
+        <lb/>das broderige Treiben einer Heer. Abend mit Kurah: er ist doch
+        <lb/>jetzt wie alle von dem furchtbaren Schicksal des deutschen
+        <lb/>Volkes tief ergriffen. Es sagte sich früher leicht: Zentralstaat wird
+        <lb/>geschlagen werden. Nun sieht man, dieser Krieg war zu lang und
+      </p>
+      <pb n="37" facs="#surf_37"/>
+      <p>
+        <lb/>eine Niederlage fasst so viel wie Untergang.
+        <lb/>Sonntag 10 wieder keine Zeitungen. Und es ist Revolution in
+        <lb/>Deutschland, Bayern Republik, der Kaiser versagt, mit ihm alle
+        <lb/>Könige und Grossherzöge. Die Waffenstillstandsbedingun-
+        <lb/>gen ein zweites Brest-Litowsk, aber die Situation Deutschland
+        <lb/>der Russland verzweifelt ähnlich. Dazu Ankündigung des Eisen-
+        <lb/>bahnerstreiks infolge der Provocation durch die Regierung: die
+        <lb/>Stadt starrt von Waffen, mit Maschinengewehren, in Convoy
+        <lb/>und Staffelfilmen sausen die Soldaten hin und her. Und wir
+        <lb/>fragen uns: wo ist unsere Freude? Der Krieg ist zuende, die
+        <lb/>Republik Deutschland geschaffen, die Könige versagt, ein
+        <lb/>Weltgericht beginnt für die Kriegsheter. Und statt dieser Freude
+        <lb/>eine dumpfe Spannung, ein Grauen vor allem, das kommt.
+        <lb/>Montag 11 Frühmorgens mit M. der arbeiten will an der B.
+        <lb/>Kein Zug, keine Zeitung, es wird ernst. Aber die ganze Welt geht
+        <lb/>diese Welle. Aus Holland, Schweden gleiche Weltkrieg. Der
+        <lb/>Krieg hat furchtbare Rache genommen an denen, die ihn woll-
+        <lb/>ten: Kaiser, Könige, Diplomaten, Militärs, Capitalisten -
+        <lb/>diese ganze Welt geht in Trümmer. Immer werden Macht
+        <lb/>nicht zerstört: sie zerstören sich selbst. Wir stehen an einer Wende
+        <lb/>wie der der französischen Revolution. Nur dass Alles zu un-
+        <lb/>enerlichen Massen sich gesteigert hat. Wir müssen ein neues De-
+        <lb/>ben lernen, anders wird es nicht gehn.
+      </p>
+      <pb n="38" facs="#surf_38"/>
+      <p>
+        <lb/>Dienstag 12. Man erfährt alles erst allmählich. In der
+        <lb/>Stadt ist geschossen worden. Der Streik wächst über das gan-
+        <lb/>ze Land. Freilich für die Gegenströmung stark. Es sind zu-
+        <lb/>viel kleine Besitzende, die sind der stärkste Wall gegen den
+        <lb/>Umsturz. Der kleine Rentier ist noch härter, noch zäher als der
+        <lb/>Grosse: der klammert sich an. Und die Arbeiter wieder für selbs,
+        <lb/>kleine Bürger, sonntäglich selbst am Vormittag. Sie wollen eigent-
+        <lb/>lich nur Recht, denn sonst haben sie fast gar nichts mehr zu
+        <lb/>fordern. Der Tag wird lang ohne Nachrichten. Und gar echt.
+        <lb/>Mittwoch 13. Hie und da eine Kleinigkeit, die man erfährt, der
+        <lb/>Waffenstillstand abgeschlossen, Victor Adler gestorben, der Kai-
+        <lb/>ser Karl demissioniert ~ früher wäre man kopfgestanden. Jetzt
+        <lb/>ist man nur müde. Es war schon so viel vorher und es kommt
+        <lb/>noch so viel nach. Man kann einfach nicht mehr. Und wenig-
+        <lb/>stens ich verbrauche die Hälfte meiner geistigen Kraft in den grau-
+        <lb/>haften Visionen dieser kommenden Umstürze, wo der Hass der
+        <lb/>Classen, der Stände, riesengross diese Welt erfüllen wird.
+      </p>
+      <pb n="39" facs="#surf_39"/>
+      </div>
+    </body>
+  </text>
+</TEI>

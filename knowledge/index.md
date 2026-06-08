@@ -21,6 +21,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 - [[htr-interchange-format]] — Page-JSON v0.2: Text + Layout + deskriptive Metadaten (Arbeitsformat)
 - [[page-xml-mets-architecture]] — PAGE XML, MODS und METS-Schichtenarchitektur (Zielformat)
+- [[teicrafter-integration]] — Page-JSON → teiCrafter-ladbare TEI (Editor-/Annotationsformat) + Marker-Anreicherung
 - [[layout-analysis]] — VLM-basierte Layout-Analyse + PAGE XML Export
 - [[dia-xai-integration]] — EQUALIS-Mapping: SZD-HTR → DIA-XAI
 - [[stats-dashboard]] — Statistik-Dashboard: Visualisierungen, Metrik-Definitionen, Literatur
