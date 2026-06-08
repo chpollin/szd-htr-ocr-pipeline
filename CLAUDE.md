@@ -288,6 +288,16 @@ python pipeline/export_page_json.py --all                      # Fehlende export
 python pipeline/export_page_json.py --all --force              # Alle neu exportieren
 ```
 
+### Tests
+
+Eigenstaendige Regressionstests (kein pytest noetig, Exit 0 = gruen, ohne API-Key/Backup):
+
+```bash
+python pipeline/test_marker_enrich.py        # Marker-Konverter (Fail-safe + Wohlgeformtheit)
+python pipeline/test_canonical_collection.py # Dedup: TEI-kanonische Sammlungszuordnung
+python pipeline/test_export_tei.py           # jsround + build_tei Wohlgeformtheit/Notes
+```
+
 ## Umgebungsvariablen (.env)
 
 | Variable | Pflicht | Default | Beschreibung |

@@ -99,8 +99,10 @@ Pruefwege:
   identisch ⇒ erbt die bereits bewiesene Engine-Abnahme.
 - `teiCrafter/test/tools/roundtrip_sweep.mjs` (Engine-Tokenizer-Round-Trip).
 - Ladbarkeits-Sweep (analog `hersch_loadability.mjs`) ueber das ganze Korpus.
-- `pipeline/test_marker_enrich.py` (eigenstaendig, ohne pytest): 23 Faelle, sichert den
-  Fail-safe-Kontrakt + Invariante „jede Ausgabe ist wohlgeformtes XML".
+- `pipeline/test_marker_enrich.py` (eigenstaendig, ohne pytest): 30 Faelle, sichert den
+  Fail-safe-Kontrakt + Invariante „jede Ausgabe ist wohlgeformtes XML". Ergaenzt durch
+  `pipeline/test_canonical_collection.py` (Dedup, 6 Checks) und `pipeline/test_export_tei.py`
+  (jsround + build_tei-Wohlgeformtheit, 12 Checks).
 
 ### Drei Byte-Identitaets-Fallen im Port (geloest)
 - **`Math.round` ≠ Python `round()`**: JS rundet `.5` immer auf, Python macht
@@ -156,7 +158,7 @@ nach einem Tag, `[?3?]`, `{eingefügt}`-Platzhalter.
 identisch zum Standard. Erzeugt: **888 `<unclear>`, 26.971 `<del>`, 3.013 `<add>`,
 731 `<gap>`** (44 plain) · **18 `<note>`** (13 stamp, 5 postmark). Der konservative
 `{}`-Filter entfernte ~12.900 zweifelhafte `<add>` (vorher 15.872) — nur die ~19 %
-plausiblen Einfuegungen bleiben. Regressionstest: `pipeline/test_marker_enrich.py` (29 Faelle).
+plausiblen Einfuegungen bleiben. Regressionstest: `pipeline/test_marker_enrich.py` (30 Faelle).
 
 > Zwei adversarische Pruefungen haben das Mapping geformt: die erste verwarf einen
 > „per-Marker, ganze Seite"-Entwurf (Mehrzeilen-Spans, unbalancierte Marker) zugunsten

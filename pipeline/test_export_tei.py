@@ -73,7 +73,10 @@ def main() -> int:
                 out.append(f"     (carry_notes: {type(e).__name__}: {e})")
             check('carry_notes -> attributierte Seitennotiz <note resp="#szd-htr-ai">', noted)
     else:
-        out.append(f"WARN Fixture fehlt, build_tei-Checks uebersprungen: {FIXTURE}")
+        # Fehlende Fixture ist ein FEHLER, kein stiller Skip -- sonst meldete die Suite gruen
+        # auf nur den jsround-Checks und eine build_tei-Regression bliebe unbemerkt.
+        failed += 1
+        out.append(f"FAIL Fixture fehlt (build_tei-Checks nicht ausfuehrbar): {FIXTURE}")
 
     print("\n".join(out))
     print("=" * 60)
