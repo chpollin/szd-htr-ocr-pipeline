@@ -197,7 +197,7 @@ Vorher: `index.html` (Scroll-Dump) + `viewer.html` (Side-by-Side). Nachher:
 
 Befund: 12/12 "high confidence", fast keine Marker. VLMs ueberschaetzen systematisch ihre Leistung â†’ staerkere Metriken noetig.
 
-### Lane 1 Bericht
+### Frontend-Arbeiten
 
 **Katalog:** Typ-Spalte zeigt TEI `classification` (Verlagsvertraege, Tagebuecher) statt Prompt-Gruppe. Tooltip zeigt `objecttyp`.
 
@@ -205,21 +205,17 @@ Befund: 12/12 "high confidence", fast keine Marker. VLMs ueberschaetzen systemat
 
 **Neue Felder in catalog.json:** `titleClean`, `signature`, `classification`, `objecttyp`, `thumbnail`, `pageCount`, `verification`.
 
-**Interface-Vertrag fuer L3:** `obj.needsReview` (boolean), `obj.needsReviewReasons` (string[]), `obj.quality_signals` (ganzes Objekt), `obj.quality_signals.page_length_anomalies` (int[]).
+**Datenfelder fuer die UI:** `obj.needsReview` (boolean), `obj.needsReviewReasons` (string[]), `obj.quality_signals` (ganzes Objekt), `obj.quality_signals.page_length_anomalies` (int[]).
 
-**Befunde fuer L2:** 12/16 Objekte haben 0 Marker. Marker-Dichte ist kein negatives, nur positives Signal. TEI-Klassifikation nutzbar fuer Sampling-Strategie.
+**Methodische Befunde:** 12/16 Objekte haben 0 Marker. Marker-Dichte ist kein negatives, nur positives Signal. TEI-Klassifikation nutzbar fuer Sampling-Strategie.
 
 Geloeschte Dateien: `docs/viewer.html`, `docs/data.json`.
 
 ---
 
-## 2026-04-01 â€” Session 7: Forschungsleitstelle, 3 Lanes, Gruppenabdeckung 9/9
+## 2026-04-01 â€” Session 7: Gruppenabdeckung 9/9, Methodik, Frontend
 
-### Lane-System initialisiert
-
-Drei parallele Claude-Code-Agents: L1 (Frontend), L2 (Methodik), L3 (Backend). Koordination ueber [Lane.md](../Lane.md).
-
-### L3: Gruppenabdeckung vervollstaendigt
+### Gruppenabdeckung vervollstaendigt
 
 | Objekt | Sammlung | Gruppe | Confidence | Beobachtung |
 |---|---|---|---|---|
@@ -230,15 +226,15 @@ Drei parallele Claude-Code-Agents: L1 (Frontend), L2 (Methodik), L3 (Backend). K
 
 **Alle 9 Gruppen A-I haben mindestens ein Testobjekt. Gesamtstand: 16 Objekte (15x high, 1x medium).**
 
-### L2: Methodische Deliverables
+### Methodische Deliverables
 
 - [[verification-concept]] v2 (5 Abschnitte, Literatur-Review mit 6 Papers)
 - [[annotation-protocol]] (8 Abschnitte, Normalisierung, Beispiele)
 - [[verification-concept]] (5 Seiten, Pruefprotokoll, Eskalationsschwellen)
 
-### L1: quality_signals-UI vorbereitet
+### Frontend: quality_signals-UI vorbereitet
 
-Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-Daten.
+Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, sobald die Datenfelder geliefert sind.
 
 ### Entscheidungen
 
@@ -251,15 +247,15 @@ Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-D
 
 ## 2026-04-01 â€” Session 8: Interchange-Format, Selbstkritik, Korrekturen
 
-### L2: Deliverables abgeschlossen
+### Methodische Deliverables abgeschlossen
 
 - **htr-interchange-format.md** geschrieben â€” JSON Schema v0.1, Abgrenzung ALTO/PAGE/hOCR, Beispiel basierend auf o_szd.100.
 - **verification-concept.md Â§1.9** geprueft und bestaetigt â€” keine Aenderungen noetig.
-- Schritt 1 + 2 der L2-Auftraege erledigt. Schritt 3+4 blockiert (warten auf Pilot-Durchfuehrung durch Operator).
+- Format und Schema fertig. Die weiterfuehrenden Schritte warten auf die Pilot-Durchfuehrung.
 
 ### Selbstkritische Review aller knowledge-Dokumente
 
-Systematische Pruefung aller 6 knowledge-Dateien + Lane.md auf Konsistenz, Korrektheit und empirische Fundierung.
+Systematische Pruefung aller 6 knowledge-Dateien auf Konsistenz, Korrektheit und empirische Fundierung.
 
 **Korrekturen durchgefuehrt:**
 - **verification-concept.md**: Objektzahlen 12â†’16, Konfidenz "alle high" â†’ "15 high + 1 medium", Gruppe G ins Sample-Design aufgenommen (31 statt 30), Anachronismus direkt in Fehlertaxonomie-Tabelle Â§1.5, empirische Einordnung der quality_signals ergaenzt (10/16 flagged = zu aggressiv)
@@ -284,7 +280,7 @@ Systematische Pruefung aller 6 knowledge-Dateien + Lane.md auf Konsistenz, Korre
 
 ### Systematische Pruefung aller knowledge-Dokumente
 
-Alle 6 knowledge-Dateien + Lane.md auf Konsistenz, empirische Fundierung und Redundanz geprueft.
+Alle 6 knowledge-Dateien auf Konsistenz, empirische Fundierung und Redundanz geprueft.
 
 ### Korrekturen
 
@@ -300,11 +296,11 @@ Alle 6 knowledge-Dateien + Lane.md auf Konsistenz, empirische Fundierung und Red
 
 ---
 
-## 2026-04-01 â€” Session 11: Verification-by-Vision, Build, Lane-Updates
+## 2026-04-01 â€” Session 11: Verification-by-Vision, Build
 
-### Forschungsleitstelle: Verification-by-Vision getestet
+### Verification-by-Vision getestet
 
-8 Objekte via Claude Code Vision verifiziert (Bild lesen + Transkription vergleichen). 8 von 9 Gruppen abgedeckt:
+8 Objekte via Vision verifiziert (Bild lesen + Transkription vergleichen). 8 von 9 Gruppen abgedeckt:
 - o_szd.161 (D Kurztext): `llm_verified` â€” null Fehler
 - o_szd.72 (A Handschrift/Kurrent): `llm_error_suggestion` â€” Kurrent-Ambiguitaeten, keine Halluzinationen
 - o_szd.277 (G Konvolut): `llm_error_suggestion` â€” klare Fehler ("entbalten", "Ictreesten") in Korrekturschicht
@@ -320,16 +316,15 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 `build_viewer_data.py`: 62 Objekte im Frontend (46 Lebensdokumente, 13 Werke, 2 Aufsatzablage, 1 Korrespondenz).
 
-### Lane.md aktualisiert (v0.5)
+### Arbeitsstand
 
-- Forschungsleitstelle als eigene Sektion mit Auftraegen
-- L1: Schritt 3+4 als erledigt (Dashboard, Diff-Prototyp)
-- L2: neue Schritte 5-7
-- L3: Status auf ~62 Objekte, Interchange-Export als Schritt 6
+- Frontend: Dashboard und Diff-Prototyp fertig
+- Methodik: neue Schritte 5-7
+- Backend: Status auf ~62 Objekte, Interchange-Export als naechster Schritt
 
 ### Erkenntnisse
 
-1. **Verification-by-Vision funktioniert** â€” actionable Fehler in ~2 Min/Objekt, kein API-Cost fuer Claude-Kanal.
+1. **Verification-by-Vision funktioniert** â€” actionable Fehler in ~2 Min/Objekt, kein API-Cost fuer den Vision-Vergleich.
 2. **Muster:** Drucktext korrekt, Handschrift gut, Korrekturen/Vermerke schwach (~60-70%).
 3. **Pipeline-Bug:** Objekte mit vielen Bildern (o_szd.147: 64 Bilder) erzeugen leere Ergebnisse.
 4. **Methodischer Beitrag:** VbV ist der staerkste Verifikationsansatz im Projekt â€” direkter Bildâ†”Text-Vergleich statt nur Textvergleich. Fuer den Aufsatz relevant.
@@ -338,7 +333,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ## 2026-04-01 â€” Session 12: Mapping-Templates, JSON-Schema, DIA-XAI-Integration
 
-### L2: 3 Bonus-Deliverables
+### Methodik: 3 Bonus-Deliverables
 
 **1. JSON-Schema als validierbare Datei**
 `schemas/htr-interchange-v0.1.json` â€” das Schema aus htr-interchange-format.md Â§3 als eigenstaendige Datei. Aenderungen gegenueber Codeblock: `$id` auf GitHub Pages URL, `source.language` mit Regex-Pattern (`^[a-z]{2,3}$`), `source.document_type` als kontrolliertes Vokabular (14 Enum-Werte). Validiert mit `python -m json.tool`.
@@ -450,7 +445,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 | 5-Seiten-Pilot uebersprungen | Modellkonsensus-Validierung + GT-Pipeline beantworten die Pilot-Fragen empirisch |
 | Bleed-Through im System-Prompt | Effizienter als Post-Processing; VLM soll es gar nicht erst transkribieren |
 
-### Frontend-Upgrade (Lane 1, parallel)
+### Frontend-Upgrade
 
 - **build_viewer_data.py Bug-Fixes:** Consensus-Dateien aus Katalog entfernt (583â†’564 Objekte), quality_signals Naming-Mismatch behoben (camelCaseâ†’snake_case), alle 20 QS-Felder inkl. dwr_score exportiert
 - **Modellkonsensus-Daten im Frontend:** 29 Objekte mit consensus category/CER im Katalog, volle Modellkonsensus-Daten (transcription_a/b) in Collection-JSONs fuer Diff-View
@@ -612,10 +607,10 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ### Agent-Verifikation (NEU)
 
-Neuer Review-Tier zwischen Human Approved und LLM OK: Claude Code Sub-Agents (Opus 4.6 mit Vision) vergleichen Faksimile-Bilder gegen VLM-Transkription.
+Neuer Review-Tier zwischen Human Approved und LLM OK: agentenbasierte Vision-Verifikation (Opus 4.6 mit Vision) vergleicht Faksimile-Bilder gegen VLM-Transkription.
 
-- **Batch 1 (4 Objekte):** Typoskript, Zeitungsausschnitt, Konvolut, Formular. Schwere Fraktur-Fehler gefunden: "selbstfeligen" â†’ "selbstseligen", "gereiste" â†’ "gereifte" (f/s-Verwechslung).
-- **Batch 2 (8 Objekte):** Korrespondenz, Handschrift, Korrekturfahne, Zeitungsausschnitt. Strukturfehler bei tabellarischen Daten (o_szd.1475: Betraege falscher Zeile zugeordnet).
+- **Erste Charge (4 Objekte):** Typoskript, Zeitungsausschnitt, Konvolut, Formular. Schwere Fraktur-Fehler gefunden: "selbstfeligen" â†’ "selbstseligen", "gereiste" â†’ "gereifte" (f/s-Verwechslung).
+- **Zweite Charge (8 Objekte):** Korrespondenz, Handschrift, Korrekturfahne, Zeitungsausschnitt. Strukturfehler bei tabellarischen Daten (o_szd.1475: Betraege falscher Zeile zugeordnet).
 - **Insgesamt 12 agent-verified Objekte**, Fehler direkt korrigiert.
 
 Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten (`agent_model`, `errors_found`, `estimated_accuracy`). Frontend: blauer Badge "Agent âœ“".
@@ -666,7 +661,7 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 
 ### Agent-Verifikation Batch 3 (8 Objekte, Korrespondenzen)
 
-4 Sub-Agents parallel, jeweils 2 Objekte. Alle Objekte sind Korrespondenzen an Max Fleischer (~1901-1902).
+Agentenbasierte Vision-Verifikation von 8 Objekten. Alle Objekte sind Korrespondenzen an Max Fleischer (~1901-1902).
 
 | Objekt | Fehler | Genauigkeit | Editiert | Hauptprobleme |
 |---|---:|---:|---|---|
@@ -841,6 +836,36 @@ Aenderungen:
 | Sachfotos statt Dokumente (o_szd.148) | `page.type=photograph` geplant | Offen |
 | VLM-Nichtdeterminismus (o_szd.206) | Bekannte VLM-Eigenschaft | Akzeptiert |
 
+---
+
+## 2026-06-09 â€” Session 25: AAL-Lieferung, GAMS-Ingest-Vorbereitung, HTR-Provenienz + lokale Faksimiles
+
+**Schwerpunkt:** Neue AAL-Digitalisat-Lieferung (Briefe an/von Stefan und Lotte Zweig, Signaturen SZ-AAL/Bâ€¦) validiert, ingest-ready fuer GAMS/Cirilo aufbereitet und im HTR-Tool als Platzhalter-Objekte mit Ingest-Label und lokaler Faksimile-Anzeige integriert.
+
+### Validierung der Quell-ZIPs
+- Vier Export-Batches B1-B4 (B1-B3 = Signaturgruppen, B4 = Sammel-Batch B4-B21), gemischte Signaturen. CRC aller ZIPs ok, keine 0-Byte-Seitenscans, keine Signatur-Duplikate ueber Batches.
+- **Befund B3 unvollstaendig:** viele Objekte ohne Bilddateien (XML referenziert Seiten, JPGs fehlen), einige Bildordner ohne XML. Re-Download ist eine identische Kopie -> Luecke ist quellseitig, Neuexport noetig.
+- Lightroom-Kataloge (`.lrcat`, `.lrdata`, `previews.db`) versehentlich in einzelnen Objektordnern mitexportiert (B1.61/62/95/117, B3.108/109, B4/B21).
+
+### Ingest-ready Aufbereitung (GAMS/Cirilo)
+- `PROJECTS/szd/ingeste`: ein Ordner je vollstaendiges Objekt = Result-XML + genau die referenzierten Scans, Lightroom-Muell und Fremddateien weggelassen, verifiziert sauber. Cirilo bestaetigte den Import ("creates N objects from source").
+- `PROJECTS/szd/B3_unvollstaendig`: separate Ablage der nicht ingest-fertigen B3-Objekte + `_FEHLENDE_BILDER.csv` als Neuexport-Einkaufsliste. Vault-Doku: `Projects/szd/GAMS-Ingest mit Cirilo (SZD).md`.
+
+### HTR-Tool-Integration (neue Features)
+- `transcribe.py`: `signature` + `provenance`-Block fliessen ins Ergebnis-`metadata`.
+- `serve.py`: Route `/local-image/<collection>/<object_id>/IMG_n.jpg` liefert Faksimiles lokal aus `BACKUP_ROOT` (Traversal-geschuetzt) â€” fuer noch nicht ingestierte Platzhalter ohne GAMS-PID; graceful Fallback (onerror) auf anderen Rechnern, echte GAMS-Objekte unveraendert.
+- `build_viewer_data.py`: erkennt Platzhalter (`provenance.in_gams=false`) -> lokale Bild-URLs + `ingestLabel`/`pidStatus` im Katalog.
+- `app.js`: Ingest-Label-Badge in der Katalog-Titelzelle.
+- Pilot: B1.1-B1.5 als `o_szd.99001-99005` (Label `SZ-AAL-2026-06`) transkribiert (3x high, 2x medium), lokal im Viewer inkl. Faksimile sichtbar.
+
+### Qualitaetsbefund (Vision, B1.4)
+Bestaetigt das bekannte Muster aus Session 19/20: bei schwerer violetter Kurrentschrift produziert das Modell fluessiges, plausibles Deutsch, markiert aber kaum Unsicherheit (`marker_density` weiterhin praktisch wertlos). Geplant: kontrolliertes A/B/C-Experiment (Unsicherheits-Kalibrierung / Metadaten-Kontext / staerkeres Modell) auf einem erweiterten B1-Test-Set mit Vision-Evaluation, um den besten Hebel zu identifizieren.
+
+### Offen
+- Echte GAMS-PIDs nach dem Ingest erfassen, HTR-Platzhalter darauf umstellen (`in_gams=true`, Faksimile dann aus GAMS statt lokal).
+- B3 quellseitig neu exportieren (Liste: `_FEHLENDE_BILDER.csv`).
+- A/B/C-Transkriptions-Experiment durchfuehren und auswerten.
+
 ### Entscheidungen
 
 - **Merge+Verify zusammenlegen**: Laengerer Prompt hat Qualitaet nicht verschlechtert (getestet auf o_szd.148)
@@ -867,7 +892,7 @@ Aenderungen:
 
 ---
 
-## 2026-04-02 â€” Session 20b: Korrespondenzen-Massenbatch (Lane 3)
+## 2026-04-02 â€” Session 20b: Korrespondenzen-Massenbatch
 
 ### Was wurde gemacht
 
@@ -965,7 +990,7 @@ Re-Transkription mit `--force --chunk-size 20` gestartet.
 
 ### Kontext
 
-Paralleler Betrieb mit zweitem Claude (Session 20): Einer transkribiert neue Objekte (dieser Eintrag), einer verifiziert bestehende (Session 20 oben).
+Zwei parallele Arbeitsstraenge in dieser Phase: Transkription neuer Objekte (dieser Eintrag) und Verifikation bestehender (Session 20 oben).
 
 ### Statistiken
 
@@ -1283,13 +1308,13 @@ Systematischer Audit aller 12 Knowledge-Dokumente. 10 Probleme in 7 Dateien gefu
 
 ### Kontext
 
-Der Code4Lib-Abstract (Pollin/Zangerl/Hintersteiner) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims über das Interface:
+Der Code4Lib-Abstract (Pollin/Zangerl/Hintersteiner) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims ï¿½ber das Interface:
 
 1. *Reading / Curation / Verification als drei Funktionen desselben Codes, mode-switched by deployment*
 2. *Expert review deepens editorial commitment along a concentric-edition progression*
-3. *Obsidian vault + JOURNAL.md als Audit-Trail, Git als Multi-User-Koordinator*
+3. *Obsidian vault + JOURNAL.md als Audit-Trail, Git als Versionsverlauf*
 
-Alle drei waren zwar im Code realisiert, aber nicht sichtbar nachvollziehbar. Diese Session hat zwei Iterationen durchlaufen: erst Sichtbarmachung (Durchgang 1: Mode-Banner, Curation Progress, README-Sektion), dann eine zu viele Panels im Katalog, dann Documents-First-Refactor auf Anregung der Projektleitung.
+Alle drei waren zwar im Code realisiert, aber nicht sichtbar nachvollziehbar. Diese Session hat zwei Iterationen durchlaufen: erst Sichtbarmachung (Durchgang 1: Mode-Banner, Curation Progress, README-Sektion), dann eine zu viele Panels im Katalog, dann Documents-First-Refactor.
 
 ### Was wurde gemacht
 
@@ -1299,32 +1324,32 @@ Schmales Band oberhalb des Site-Headers, nur im Local-Modus sichtbar: `szd@edito
 
 **2. Editorial Progress Bar im Stats-Dashboard** (Commit 0c351d9)
 
-Horizontale gestapelte Bar mit fünf Segmenten in Tier-Reihenfolge (Ungeprüft \u2192 Review nötig \u2192 Auto-geprüft \u2192 Geprüft \u2192 Verifiziert), matcht die 4-Tier-Trust-Priorität. Visualisiert Vogelers konzentrische Ring-Bewegung quantitativ. Segmente sind mutex aggregiert \u2014 ein Objekt kann nur in einem Tier sein, keine Doppelzählung mehr (Bug: Chip zeigte 348, Bar zeigte 338; fix: 84a111c hat die Aggregationsschleife auf else-if umgestellt).
+Horizontale gestapelte Bar mit fï¿½nf Segmenten in Tier-Reihenfolge (Ungeprï¿½ft \u2192 Review nï¿½tig \u2192 Auto-geprï¿½ft \u2192 Geprï¿½ft \u2192 Verifiziert), matcht die 4-Tier-Trust-Prioritï¿½t. Visualisiert Vogelers konzentrische Ring-Bewegung quantitativ. Segmente sind mutex aggregiert \u2014 ein Objekt kann nur in einem Tier sein, keine Doppelzï¿½hlung mehr (Bug: Chip zeigte 348, Bar zeigte 338; fix: 84a111c hat die Aggregationsschleife auf else-if umgestellt).
 
-**3. Summary-Row entrümpelt** (Commit 7d63735)
+**3. Summary-Row entrï¿½mpelt** (Commit 7d63735)
 
-Review-Chips (verified/approved/agent/unreviewed/flagged) und Modellkonsensus-Chip aus der Summary entfernt \u2014 werden alle in der Editorial Progress Bar dargestellt, Duplikation war verwirrend. Summary enthält jetzt nur Total + Collection-Chips + Details-Toggle.
+Review-Chips (verified/approved/agent/unreviewed/flagged) und Modellkonsensus-Chip aus der Summary entfernt \u2014 werden alle in der Editorial Progress Bar dargestellt, Duplikation war verwirrend. Summary enthï¿½lt jetzt nur Total + Collection-Chips + Details-Toggle.
 
 **4. Modellkonsensus-Tooltip** (Commit 84a111c)
 
-Section-Label im Details-Panel bekommt erklärenden Tooltip + Info-Symbol. Cross-Model-Konsens ist der am häufigsten missverstandene Begriff: zwei VLMs (Gemini Flash Lite + Flash) transkribieren unabhängig, die CER zwischen den Ergebnissen wird als Kategorie abgelegt. Indikator für VLM-Stabilität, *nicht* für menschliches Review.
+Section-Label im Details-Panel bekommt erklï¿½renden Tooltip + Info-Symbol. Cross-Model-Konsens ist der am hï¿½ufigsten missverstandene Begriff: zwei VLMs (Gemini Flash Lite + Flash) transkribieren unabhï¿½ngig, die CER zwischen den Ergebnissen wird als Kategorie abgelegt. Indikator fï¿½r VLM-Stabilitï¿½t, *nicht* fï¿½r menschliches Review.
 
 **5. Erste Iteration: Workspace-Dashboard + Transparency-Panel auf Catalog-Seite** (Commits ae8e98e, dd72e76, 80f2b9a)
 
 Zwei neue Panels im Katalog:
 - **Local Editorial Workspace** (Recent Activity via GitHub API, Uncommitted via neuem `/api/git-status`, Quick Actions als Copy-to-Clipboard).
-- **Public Transparency Panel** (Promptotyping-Vault-Enumeration, Journal-Teaser, Exports-Links \u2014 sichtbar in beiden Modi, damit Paper-Reviewer die Claims verifizieren können).
+- **Public Transparency Panel** (Promptotyping-Vault-Enumeration, Journal-Teaser, Exports-Links \u2014 sichtbar in beiden Modi, damit Paper-Reviewer die Claims verifizieren kï¿½nnen).
 
 Neuer API-Endpoint `GET /api/git-status` liefert `git status --porcelain results/` als JSON (mit Host-Check, Timeout, fix-argumentiertem Subprocess).
 
-**6. Zweite Iteration: Documents-First-Refactor** (diese Session abschließend)
+**6. Zweite Iteration: Documents-First-Refactor** (diese Session abschlieï¿½end)
 
-Feedback der Projektleitung: Die beiden neuen Panels nahmen zu viel vertikalen Platz ein; die Katalog-Tabelle \u2014 das eigentliche Produkt der Edition \u2014 wurde in die untere Hälfte gedrängt. Konsequenz:
+Die beiden neuen Panels nahmen zu viel vertikalen Platz ein; die Katalog-Tabelle (das eigentliche Produkt der Edition) wurde in die untere Hï¿½lfte gedrï¿½ngt. Konsequenz:
 
-- **Workspace-Panel kollabiert by default** zu einer einzelnen ~32px-Zeile mit Summary-Indikatoren: `\u25B8 Editorial Workspace · <n> uncommitted · last commit \u2026 · 4 quick actions`. Klick aufs Summary-Band toggelt auf / zu, Zustand persistiert in `localStorage` (`szd-htr-workspace-collapsed`). Default: collapsed.
+- **Workspace-Panel kollabiert by default** zu einer einzelnen ~32px-Zeile mit Summary-Indikatoren: `\u25B8 Editorial Workspace ï¿½ <n> uncommitted ï¿½ last commit \u2026 ï¿½ 4 quick actions`. Klick aufs Summary-Band toggelt auf / zu, Zustand persistiert in `localStorage` (`szd-htr-workspace-collapsed`). Default: collapsed.
 - **Transparency-Panel aus dem Katalog entfernt.** Inhalte leben jetzt unter "Verifiable artefacts" auf der Projekt-Seite (`#about`), unterhalb des gerenderten README. Das ist die semantisch richtige Heimat \u2014 Reviewer klicken auf "Projekt" im Header, nicht auf den Katalog.
-- **Journal als prominenter Link** statt Teaser. Die Karte auf der Projekt-Seite zeigt `Read the Research Journal \u2192` als CTA-Button, verlinkt auf die bereits existierende In-App-Rendering-View `#knowledge/journal` (mit TOC und allen 27 Sessions). Der frühere Teaser (drei geparste H2-Headlines aus `journal.md`) war ein Provisorium \u2014 die vollständige Journal-View ist der echte Ort.
-- **Mode-Banner bekommt Live-Status-Chips.** Kleine Terminal-Badges rechts neben dem Prompt: `\u25CF clean` / `\u25CF N dirty` (aus `/api/git-status`) und `\u21BB <rel-time> · <short-sha>` (aus GitHub-API, letzter Commit auf `results/`). Die Live-Info bleibt damit jederzeit sichtbar, ohne Panel-Expansion.
+- **Journal als prominenter Link** statt Teaser. Die Karte auf der Projekt-Seite zeigt `Read the Research Journal \u2192` als CTA-Button, verlinkt auf die bereits existierende In-App-Rendering-View `#knowledge/journal` (mit TOC und allen 27 Sessions). Der frï¿½here Teaser (drei geparste H2-Headlines aus `journal.md`) war ein Provisorium \u2014 die vollstï¿½ndige Journal-View ist der echte Ort.
+- **Mode-Banner bekommt Live-Status-Chips.** Kleine Terminal-Badges rechts neben dem Prompt: `\u25CF clean` / `\u25CF N dirty` (aus `/api/git-status`) und `\u21BB <rel-time> ï¿½ <short-sha>` (aus GitHub-API, letzter Commit auf `results/`). Die Live-Info bleibt damit jederzeit sichtbar, ohne Panel-Expansion.
 
 **7. Unicode-Escape-Bugfix**
 
@@ -1332,17 +1357,17 @@ In der ersten Iteration standen literal-`\u2192`, `\u21BB`, `\u2014` im HTML \u2
 
 ### Architekturentscheidungen
 
-- **Documents-First als Leitprinzip.** Jede UI-Entscheidung muss beantworten: "Drängt das die Dokumente aus dem Sichtfeld?" Alle nicht-dokumentbezogenen Surfaces müssen kompakt sein, optional expandierbar, oder in Nebenräume (About, Methodik).
-- **Dreiraum-Topologie des Interfaces:** (a) Katalog = Dokumente-Ansicht, primär. (b) Viewer = Einzeldokument mit Facsimile + Transcription + Edit-Controls. (c) Projekt (`#about`) + Methodik (`#knowledge`) = Verifizierbarkeit der Methode. Die Navigation im Header unterstützt diese Dreiteilung.
-- **"Zurückschauen" auf zwei Ebenen:** Live-Status (Banner-Chips, letzter Commit in Echtzeit) vs. Narrative (Journal, lesbar mit Kontext und Begründung). Git zeigt *was*, Journal erklärt *warum*.
-- **GitHub-API als einzige externe Abhängigkeit zur Laufzeit.** CSP erweitert um `https://api.github.com` im `connect-src`. Graceful Fallback bei Rate-Limit.
-- **Keine Export-Trigger via Button** \u2014 nur Copy-to-Clipboard der Kommandos. Background-Execution mit Progress-UI und Error-Handling wäre eine eigene Baustelle; Copy-to-Clipboard ist ehrlich und funktioniert.
+- **Documents-First als Leitprinzip.** Jede UI-Entscheidung muss beantworten: "Drï¿½ngt das die Dokumente aus dem Sichtfeld?" Alle nicht-dokumentbezogenen Surfaces mï¿½ssen kompakt sein, optional expandierbar, oder in Nebenrï¿½ume (About, Methodik).
+- **Dreiraum-Topologie des Interfaces:** (a) Katalog = Dokumente-Ansicht, primï¿½r. (b) Viewer = Einzeldokument mit Facsimile + Transcription + Edit-Controls. (c) Projekt (`#about`) + Methodik (`#knowledge`) = Verifizierbarkeit der Methode. Die Navigation im Header unterstï¿½tzt diese Dreiteilung.
+- **"Zurï¿½ckschauen" auf zwei Ebenen:** Live-Status (Banner-Chips, letzter Commit in Echtzeit) vs. Narrative (Journal, lesbar mit Kontext und Begrï¿½ndung). Git zeigt *was*, Journal erklï¿½rt *warum*.
+- **GitHub-API als einzige externe Abhï¿½ngigkeit zur Laufzeit.** CSP erweitert um `https://api.github.com` im `connect-src`. Graceful Fallback bei Rate-Limit.
+- **Keine Export-Trigger via Button** \u2014 nur Copy-to-Clipboard der Kommandos. Background-Execution mit Progress-UI und Error-Handling wï¿½re eine eigene Baustelle; Copy-to-Clipboard ist ehrlich und funktioniert.
 
-### Offene Punkte / Nächste Schritte
+### Offene Punkte / Nï¿½chste Schritte
 
-- Edit-History-Panel pro Objekt im Viewer (geplant für Durchgang 2 vor First Draft 22.05.).
+- Edit-History-Panel pro Objekt im Viewer (geplant fï¿½r Durchgang 2 vor First Draft 22.05.).
 - Quality-Signals-Popover-Erweiterung (ebenfalls Durchgang 2).
-- Vogeler-Ring-Referenz: Untertitel der Progress Bar ("From machine transcription toward expert verification (Vogeler 2025)") wurde auf Wunsch entfernt \u2014 Theorie gehört ins Paper, nicht ins UI. Verortung bleibt implizit in der Tier-Reihenfolge.
+- Vogeler-Ring-Referenz: Untertitel der Progress Bar ("From machine transcription toward expert verification (Vogeler 2025)") wurde auf Wunsch entfernt \u2014 Theorie gehï¿½rt ins Paper, nicht ins UI. Verortung bleibt implizit in der Tier-Reihenfolge.
 
 ### Statistiken
 
@@ -1354,3 +1379,130 @@ In der ersten Iteration standen literal-`\u2192`, `\u21BB`, `\u2014` im HTML \u2
 | CSP erweitert | `connect-src: https://api.github.com` |
 | Paper-Claim-Coverage | Obsidian Vault verlinkt, Journal verlinkt, Exports verlinkt, Git-Workflow sichtbar |
 | LOC (ca.) | +400 JS, +350 CSS, +50 HTML |
+
+---
+
+## 2026-06-08 â€” TEI-Export: Page-JSON â†’ teiCrafter (deterministisch)
+
+### Was wurde gemacht
+- `pipeline/export_tei.py` gebaut: faithful Python-Port des teiCrafter-Referenz-
+  Prototyps (`teiCrafter/test/tools/szd-pagejson-to-tei.mjs`), **bit-fuer-bit**
+  identische Ausgabe. Page-JSON v0.2 â†’ teiCrafter-ladbare TEI. Kein LLM/API.
+  Schliesst die Luecke â€žnur Katalog-TEI, keine Transkriptions-TEI".
+- **Voll-Lauf**: alle 2103 Objekte â†’ `{id}.tei.xml`, 0 Fehler. Ladbarkeits-Sweep
+  ueber das ganze Korpus (analog `hersch_loadability.mjs`): **0 Parse-Fehler,
+  alle line-level**, 2063/2103 mit nutzbarer Editor-Ansicht.
+- **40 â€žleere" TEI** nach Ursache geklaert: 34 leeres `pages[]` (stromaufwaerts
+  OCR/Page-JSON), 6 reine Faksimile-Objekte (nur blank/color_chart). Kein
+  Konverter-Fehler.
+- **Marker-Anreicherung** (`pipeline/marker_enrich.py`, opt-in `--enrich-markers`,
+  separate `{id}.enriched.tei.xml`): line-lokales, fail-safe-auf-Literal Mapping â†’
+  `<unclear>/<del>/<add>/<gap>`. Korpusweit **922 / 26.971 / 15.850 / 687**
+  Elemente, **0 Round-Trip-Abweichungen, 0 verlorene Zeilen**. Haertefaelle
+  (ungerade `~~`, unbalancierte `{`, `[?3?]`, mehrzeiliger Stempel) blieben
+  korrekt literal.
+- Doku: [[teicrafter-integration]] (neu, `status: active`), Querverweis in
+  [[htr-interchange-format]] Â§1.4, Index ergaenzt.
+
+### Methodik / Entscheidungen
+- **Byte-Identitaets-Fallen** im Port geloest: JS `Math.round` (round-half-up) â†’
+  `jsround()` (`floor(v+0.5)`); Windows-CRLF â†’ `open(..., newline="")`;
+  Template-Whitespace exakt wie im Prototyp.
+- **Marker-Design adversarisch geprueft** (Multi-Agent-Workflow): ein frueherer
+  â€žganze-Seite, alle 5 Marker"-Entwurf war unsicher (176 mehrzeilige `~~`-Spans,
+  unbalancierte `{`, `[?]` nur ~11 % direkt am Wort). Konsequenz: v1 konvertiert
+  nur das **line-lokal Eindeutige**, Rest bleibt verlustfrei literal.
+- **Seiten-Notizen**: drop-by-default â€” CER-neutral (verifiziert: `evaluate.py`
+  liest nur `pages[].transcription`); nuetzlicher Teil schon in `page.type`; Rest
+  KI-unzuverlaessig. Optionales `<note resp="#szd-htr-ai">` spaeter hinter Flag.
+
+### Abnahme (belegt)
+- 6 Demo-Objekte byte-identisch zum Prototyp; `roundtrip_sweep.mjs` 6/6 gruen.
+- Default-Pfad nach Einbau der Anreicherung weiter byte-identisch (Regression ok).
+
+### Offen / naechste Schritte
+- Operator-Entscheidungen: o_szd.161-Duplikat (zwei Sammlungen), Stempel-/
+  Mehrzeilen-Marker als eigener getesteter v2-Schritt, optionales Notes-Carry.
+- Kontrakt `converter-reference.md` (teiCrafter-Repo) auf `status: active` heben â€”
+  durch Operator (hier nur szd-htr beschrieben).
+- Im Repo getrackt: Demo-Handvoll (plain + enriched); Bulk gitignored.
+
+---
+
+## 2026-06-08 â€” TEI v2: Marker-Anreicherung erweitert + Coverage-Diagnose
+
+### Was wurde gemacht
+- **Marker v2** (`marker_enrich.py`, weiter line-lokal + fail-safe-auf-Literal):
+  - `[Stempel:]`/`[Poststempel:]` sole-on-line â†’ `<note type="stamp">` (5. Marker-Familie).
+  - plain `[...]` â†’ `<gap reason="illegible"/>` (mid-line; sole-on-line bleibt literal).
+  - `[?]` jetzt ZUERST auf tag-freiem Text (kann sonst ein eingefuegtes Tag verschlucken).
+  - mehrzeilige `~~`/`{}`-Spans bleiben bewusst literal (korrektes Fail-safe).
+- **Notizen-Mitnahme** (`export_tei.py --carry-notes`): `pages[].notes` â†’
+  `<note resp="#szd-htr-ai" type="page">` am `<pb>`, attributiert maschinell/ungeprueft,
+  separate `{id}.enriched.tei.xml`. Default bleibt byte-identisch.
+- **Coverage-Diagnose** (`diagnose_coverage.py`, read-only): findet die 34 leeren
+  (stille Transkriptions-Fehlschlaege, Bilder da/OCR leer) + 6 blank-Objekte,
+  schreibt `reports/coverage-gaps.json`, gibt Re-Transkriptions-Befehl aus (loest
+  ihn NICHT aus â€” Operator-Entscheidung).
+
+### Abnahme (belegt, gegen teiCrafter-Engine)
+- Default-Pfad nach allen v2-Aenderungen weiter **byte-identisch** (Regression ok).
+- enriched v2 ueber alle 2103: **0 Parse-Fehler, 0 Round-Trip-Abweichung, 0
+  verlorene Zeile**, Struktur identisch. Erzeugt 889 `<unclear>`, 26.971 `<del>`,
+  15.872 `<add>`, 731 `<gap>` (44 plain), 18 `<note type="stamp">`.
+- Spot-Checks: Stempel 1083 â†’ note; mehrzeiliger Stempel 1789 bleibt literal;
+  Haertefaelle 2404 (ungerade `~~`) / 2846 (`[?3?]`) bleiben literal. Notizen-Mitnahme
+  1079: byte-Round-Trip + line-level (folios=5, cells=58).
+- Zusaetzlich adversarische Multi-Agent-Semantikpruefung der v2-Umwandlung.
+
+### Offen (Operator)
+- Re-Transkription der 34 stillen Fehlschlaege (API-Kosten) â€” oder Transkriptions-Lane.
+- o_szd.161-Duplikat; Mehrzeilen-/`[Label:]`-Marker als v3; converter-reference active.
+
+### Nachtrag â€” Marker v2.1 (adversarische Semantik-Pruefung, Multi-Agent)
+3 Review-Agenten (Protokoll-Treue, TEI-Modellierung, valide-aber-falsch) fanden 1 Blocker
++ 10 major. Umgesetzt:
+- **Blocker `{x}`->`<add>`**: der VLM nutzt `{}` massenhaft als Wortsegmentierungs-Rauschen
+  (Beleg o_szd.248: `{PersÃ¶nlich} {die} {hÃ¶here}` = laufender Prosatext). Nur ~19 % sind echte
+  Einfuegungen. Neuer konservativer Filter (genau EIN kurzes `{Wort}` in anderem Text;
+  `>=2`/Zeile, sole-on-line, Worttrennung, Mehrwort -> literal): `<add>` von 15.872 auf **3.013**,
+  ~12.900 falsche Editionsaussagen entfernt.
+- `<unclear>`: `reason="illegible"` entfernt (`[?]` = unsicher-aber-lesbar, nicht unleserlich);
+  nachgestellte Satzzeichen bleiben ausserhalb des Wraps.
+- `<del>`: `@rend="strikethrough"` entfernt (Protokoll Â§3.3 kodiert Streichungsform nicht).
+- `<add>`: `@place="above"` entfernt (`{}` = ueber Zeile ODER Rand, Â§3.4).
+- Stempel differenziert: `[Poststempel:]`->`type="postmark"`, `[Stempel:]`->`type="stamp"`;
+  `[Marginalie:]`->`type="marginal"` (Protokoll Â§3.5).
+- Neu: `pipeline/test_marker_enrich.py` (29 Faelle, Verhalten + Wohlgeformtheit), gruen.
+Abnahme: enriched v2.1 ueber alle 2103: 0 Parse-Fehler, 0 Round-Trip-Abweichung, 0 verlorene
+Zeile. Default weiter byte-identisch.
+
+## 2026-06-08 â€” Dedup: korrespondenzen-Discovery TEI-kanonisch (Commit fb48ca0)
+
+Befund: Das Backup listet **34 Lebensdokumente-Objekte physisch doppelt** â€” in
+`korrespondenzen/` UND `lebensdokumente/`. `discover_objects()` scannte das Verzeichnis blind
+und transkribierte sie daher unter beiden Sammlungen (korrespondenzen mit falschem
+Korrespondenz-Prompt). Sichtbar wurde es an o_szd.161.
+
+Kanonisch laut TEI: 29 der 34 stehen ausschliesslich in der lebensdokumente-TEI, 0 in
+korrespondenzen. 5 (o_szd.76/77/175/176/179) stehen in **keiner** TEI, sind inhaltlich aber
+eindeutig Lebensdokumente (Notizbuch, NY-Notizen, Aufsatz-Register, Siegelstempel, Rede).
+Die korrespondenzen-TEI liefert 0 numerische PIDs â€” **kein Parser-Bug**, sondern
+Konvolut-Granularitaet (o:szd.korrespondenzen.NAME, 231 Briefpartner), keine Einzelbrief-PID.
+
+Fix: `discover_objects` filtert TEI-kanonisch (neu `_tei_owner_index` + `_canonical_collection`):
+PID in einer TEI -> deren Sammlung; sonst (Orphan) -> erste Sammlung in `COLLECTIONS`-Reihenfolge
+mit Backup-Dir. Realer Tie-Break-Fall: o:szd.118 steht in lebensdokumente- UND werke-TEI ->
+deterministisch lebensdokumente. korrespondenzen-Discovery jetzt 1152 statt 1186; lebensdokumente
+/werke/aufsatzablage unveraendert (127/169/625). 34 verwaiste korrespondenzen-Result-Saetze
+(170 Dateien) entfernt, lebensdokumente-Versionen intakt.
+
+Abnahme: alle Sammlungszahlen verifiziert, 0 Dangling-Referenzen. Adversarischer Multi-Agent-Review
+(5 Dimensionen): 0 funktionale Bugs. Folgearbeit: `pipeline/test_canonical_collection.py` (6 Checks)
++ `pipeline/test_export_tei.py` (jsround + build_tei Wohlgeformtheit) ergaenzt; irrefuehrende
+Code-Kommentare praezisiert. **Abzugrenzen** von den â€ž34 leeren `pages[]`" (Coverage-Diagnose,
+`reports/coverage-gaps.json`) â€” gleiche Zahl, anderes Phaenomen.
+
+Offen (Operator): docs/-Viewer via `build_viewer_data.py` neu bauen (entfernt die 34 aus dem
+korrespondenzen-Katalog; bewusst ausgelassen, da Frontend-Lane docs/ bearbeitet); 5 Orphans =
+Daten-Provenienz-Frage (in keinem GAMS-TEI-Katalog).
