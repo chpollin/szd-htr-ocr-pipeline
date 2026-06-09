@@ -25,12 +25,16 @@ from pathlib import Path
 
 # Pipeline imports
 sys.path.insert(0, str(Path(__file__).parent))
-from config import COLLECTIONS, RESULTS_BASE
+from config import BACKUP_ROOT, COLLECTIONS, RESULTS_BASE
 
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 DEFAULT_REVIEWER = "Christopher Pollin"
-_VALID_OBJECT_ID = re.compile(r"^o_szd\.[0-9a-zA-Z]+$")
+_VALID_OBJECT_ID = re.compile(r"^o_szd\.[0-9a-zA-Z._-]+$")
 _VALID_COLLECTION = frozenset(COLLECTIONS.keys())
+# Lokale Faksimile-Auslieferung: /local-image/<collection>/<object_id>/IMG_<n>.jpg
+_LOCAL_IMAGE_RE = re.compile(
+    r"^/local-image/([a-z]+)/(o_szd\.[0-9a-zA-Z._-]+)/(IMG_\d+\.(?:jpg|jpeg))$"
+)
 
 
 def _validate_ids(object_id: str, collection: str) -> str | None:
@@ -263,8 +267,41 @@ class SZDHandler(SimpleHTTPRequestHandler):
             self._json_response({"local": True, "server": "szd-htr-serve"})
         elif self.path == "/api/git-status":
             self._json_response(git_status_results())
+        elif self.path.startswith("/local-image/"):
+            self._serve_local_image()
         else:
             super().do_GET()
+
+    def _serve_local_image(self):
+        """Liefert ein Faksimile aus BACKUP_ROOT fuer noch nicht ingestierte Platzhalter.
+
+        Pfad: /local-image/<collection>/<object_id>/IMG_<n>.jpg
+        -> BACKUP_ROOT/<subdir>/<object_id>/images/IMG_<n>.jpg
+        Nur lokal nutzbar; auf anderen Rechnern ohne BACKUP_ROOT schlaegt es fehl
+        (Frontend zeigt dann sein onerror-Fallback), echte GAMS-Objekte sind nicht betroffen.
+        """
+        m = _LOCAL_IMAGE_RE.match(self.path.split("?")[0])
+        if not m:
+            self.send_error(404, "invalid local-image path")
+            return
+        collection, object_id, filename = m.group(1), m.group(2), m.group(3)
+        if collection not in _VALID_COLLECTION:
+            self.send_error(404, "unknown collection")
+            return
+        subdir = COLLECTIONS[collection]["subdir"]
+        base = (BACKUP_ROOT / subdir / object_id / "images").resolve()
+        target = (base / filename).resolve()
+        # Traversal-Schutz: target muss innerhalb des images-Ordners liegen
+        if base not in target.parents or not target.is_file():
+            self.send_error(404, "image not found")
+            return
+        data = target.read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", "image/jpeg")
+        self.send_header("Content-Length", str(len(data)))
+        self.send_header("Cache-Control", "no-cache")
+        self.end_headers()
+        self.wfile.write(data)
 
     def do_POST(self):
         if not self._check_host():

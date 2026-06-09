@@ -1175,9 +1175,12 @@ function renderCatalog() {
       const v = obj.verification || {};
       const qualityHtml = renderQualityCell(v, obj.confidence, obj);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
+      const ingestBadge = obj.ingestLabel
+        ? `<span class="badge-ingest" data-tooltip="Neuer Ingest: ${escapeHtml(obj.ingestLabel)} — noch nicht im GAMS (Platzhalter-PID)" style="display:inline-block;margin-right:.4em;padding:.05em .45em;border-radius:.6em;background:#7a1f3d;color:#fff;font-size:.68em;font-weight:600;vertical-align:middle;letter-spacing:.02em;">${escapeHtml(obj.ingestLabel)}</span>`
+        : '';
       html += `<tr data-id="${escapeHtml(obj.id)}" tabindex="0">
         <td class="col-thumb"><img src="${escapeHtml(obj.thumbnail || '')}" loading="lazy" alt=""></td>
-        <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${titleFull}</td>
+        <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${ingestBadge}${titleFull}</td>
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>

@@ -121,6 +121,21 @@ def build():
 
         # Determine which GAMS images to use per page
         all_images = meta.get("images", [])
+
+        # Ingest-/Provenienz-Metadaten (leer fuer regulaere GAMS-Objekte)
+        prov = meta.get("provenance") or {}
+        ingest_label = prov.get("ingest_label", "")
+        pid_status = prov.get("pid_status", "")
+        is_placeholder = bool(prov) and not prov.get("in_gams", False)
+        if is_placeholder:
+            # Faksimiles noch nicht im GAMS -> lokale Dev-Server-Route aus BACKUP_ROOT.
+            # Auf anderen Rechnern/GitHub Pages laeuft die Route ins Leere (onerror-Fallback);
+            # sobald das Objekt im GAMS ist (in_gams=true), greift wieder die GAMS-URL unten.
+            all_images = [
+                f"/local-image/{data['collection']}/{data['object_id']}/IMG_{i + 1}.jpg"
+                for i in range(len(all_images))
+            ]
+
         raw_pages = result.get("pages", [])
         # Filter out color_chart pages (archival reference only, no transcription)
         filtered = [(i, p) for i, p in enumerate(raw_pages) if p.get("type") != "color_chart"]
@@ -196,8 +211,11 @@ def build():
             "objecttyp": objecttyp,
             "lang": meta.get("language", ""),
             "model": data.get("model", ""),
-            "thumbnail": GAMS_BASE + pid + "/THUMBNAIL",
+            "thumbnail": (all_images[0] if is_placeholder and all_images
+                          else GAMS_BASE + pid + "/THUMBNAIL"),
             "images": page_images,
+            "ingestLabel": ingest_label,
+            "pidStatus": pid_status,
             "pages": pages,
             "confidence": result.get("confidence", ""),
             "confidenceNotes": result.get("confidence_notes", ""),
@@ -257,6 +275,8 @@ def build():
             "objecttyp": obj["objecttyp"],
             "lang": obj["lang"],
             "model": obj["model"],
+            "ingestLabel": obj["ingestLabel"],
+            "pidStatus": obj["pidStatus"],
             "confidence": obj["confidence"],
             "pageCount": obj["pageCount"],
             "thumbnail": obj["thumbnail"],

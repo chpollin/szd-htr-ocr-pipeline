@@ -674,9 +674,12 @@ def transcribe_object(
         "model": MODEL,
         "metadata": {
             "title": backup_meta.get("title", ""),
+            "signature": backup_meta.get("signature", ""),
             "language": backup_meta.get("language", ""),
             "images": gams_images,
             "input_image_count_total": total_backup_images,
+            # Ingest-/Provenienz-Metadaten (leer fuer regulaere GAMS-Objekte)
+            "provenance": backup_meta.get("provenance", {}),
         },
         "context": context,
         "result": result_json,
