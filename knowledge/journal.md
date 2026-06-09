@@ -864,7 +864,7 @@ Bestaetigt das bekannte Muster aus Session 19/20: bei schwerer violetter Kurrent
 ### Offen
 - Echte GAMS-PIDs nach dem Ingest erfassen, HTR-Platzhalter darauf umstellen (`in_gams=true`, Faksimile dann aus GAMS statt lokal).
 - B3 quellseitig neu exportieren (Liste: `_FEHLENDE_BILDER.csv`).
-- A/B/C-Transkriptions-Experiment durchfuehren und auswerten.
+- A/B/C-Transkriptions-Experiment durchfuehren und auswerten -> erledigt, siehe Session 25b.
 
 ### Entscheidungen
 
@@ -889,6 +889,63 @@ Bestaetigt das bekannte Muster aus Session 19/20: bei schwerer violetter Kurrent
 - [ ] Welle 2 visuell verifizieren (9 URLs bereit)
 - [ ] Phase 2c: Sachfoto-Erkennung (page.type=photograph)
 - [ ] Layout-Batch ueber ~1300 transkribierte Objekte (nach visueller Verifikation)
+
+---
+
+## 2026-06-09 — Session 25b: A/B/C-Transkriptions-Experiment (Vision-Auswertung)
+
+**Frage:** Welcher Hebel verbessert die Transkription schwerer Kurrentschrift am meisten? Drei
+Verbesserungen parallel gegen die aktuelle Pipeline (Kontrolle) getestet, danach Vision-Evaluation
+gegen die echten Faksimiles (LLM-Halluzinationsrisiko bewusst — nur am Bild entscheidbare Stellen
+als belegt gewertet).
+
+### Aufbau
+- Test-Set B1.1/1.2/1.4/1.6/1.7/1.8 (6 Objekte, 20 Seiten; Misch aus Postkarte, schwerer Handschrift, Typoskript).
+- Vier Bedingungen, je `c:\tmp\htr_experiment\<shelf>__<cond>.json`:
+  - **control** — aktuelles Modell (`gemini-3.1-flash-lite-preview`), aktueller Prompt, Kontext minimal.
+  - **V1_uncert** — flash-lite + Unsicherheits-Kalibrierungs-Prompt + Feld `uncertain_words`.
+  - **V2_context** — flash-lite + reichhaltiger Metadaten-Kontext (Verfasser/Adressat/Ort/Datierung) im Prompt.
+  - **V3_model** — staerkeres Modell (`gemini-3-flash-preview`), sonst wie control.
+
+### Quantitatives Aggregat (Summe Test-Set, 20 Seiten)
+| Bedingung | chars | `[?]` | `uncertain_words` |
+|---|---|---|---|
+| control | 10014 | 3 | 0 |
+| V1_uncert | 9708 | 6 | 24 |
+| V2_context | 10372 | 1 | 0 |
+| V3_model | 9203 | 2 | 0 |
+
+Zeichenmenge ist kein Qualitaetsmass (control blaeht durch Mit-Transkription der Farbtafel-Seite auf).
+
+### Vision-Befunde (am Faksimile belegt)
+- **B1.6 (Postkarte):** Bild-Poststempel = „BATH / SOMERSET / 1939". V3 liest „BATH SOMERSET" korrekt;
+  control/V1 lesen faelschlich „HAMPSTEAD". Im Fliesstext zeigt das Bild „im Haus" — V3 korrekt,
+  **V2 halluziniert „Hier in Bath musiciert"** (der Metadaten-Prior „Entstehungsort: Bath" sickert in
+  den Text). V3 korrigiert ausserdem das sinnlose „verbauten Gesichter" -> „vertrauten Gesichter".
+- **B1.4 (schwere Handschrift):** V3 korrigiert mehrere stille Fehler der Kontrolle:
+  „Glaskasten" (statt „Glashütten"), „Garage" (statt „Sarge", passt zu „box room"), „Sie und Ihren
+  Mann bitten" (statt verstuemmeltem „hi mit Ihren Namen"), Schlussformel „Ihr (oder wenn Sie
+  zustimmen) Dein Stefan Zweig" (statt halluziniertem „Ihr Lotte … Sei"); erfasst Streichung/Einfuegung
+  und die rote Randnotiz. **V1s `uncertain_words` zeigen verlaesslich genau auf die Fehlerstellen**
+  (Glashütten, Sarge, gefällt, Lotte) — repariert sie nicht, flaggt sie aber ehrlich.
+- **B1.8 (Typoskript):** alle Bedingungen ~99 % korrekt; nicht diskriminierend. control ueber-
+  transkribiert die Farbtafel-Seite 3 (Duplikat-Artefakt), V3 laesst sie korrekt leer und faengt den
+  vertikalen Briefkopf „TELEPHONE: BATH 4983." mit.
+
+### Verdikt + Entscheidung
+- **V3 (staerkeres Modell) = klarer Genauigkeits-Gewinner** bei Handschrift; korrigiert stille Fehler, die
+  control selbstsicher emittiert.
+- **V1 (Unsicherheit) = bestes Review-Signal**: `uncertain_words` treffen die realen Fehlerstellen —
+  wertvoll fuer den GT-Review.
+- **V2 (Metadaten-Kontext) = netto negativ/gefaehrlich**: belegte Prior-Leckage in den Fliesstext;
+  unterdrueckt zudem Unsicherheitsmarker. Nicht uebernehmen (allenfalls mit explizitem „Metadaten sind
+  Hintergrund, nicht in den Text uebernehmen").
+- **Empfehlung fuer Produktivlauf:** `gemini-3-flash` als Basismodell **+** Unsicherheits-Kalibrierung
+  mit `uncertain_words`; V2 verwerfen. Kostenabwaegung: flash teurer als flash-lite — bei der durchweg
+  handschriftlichen AAL-Korrespondenz gerechtfertigt; reines Typoskript koennte bei flash-lite bleiben.
+- **Methodik-Vorbehalt:** belegt sind nur am Bild eindeutig entscheidbare Stellen (Garage/Sarge,
+  Glaskasten, im Haus, Bath-Stempel); feine Palaeografie auf Wortebene bleibt Fachperson. Richtung ist
+  ueber B1.6 und B1.4 konsistent.
 
 ---
 
