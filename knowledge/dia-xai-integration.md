@@ -154,7 +154,7 @@ DIA-XAI importiert JSON im folgenden Schema (Drag-and-Drop in die Web-App):
   "exported": "2026-08-15T10:00:00Z",
   "session": {
     "duration_minutes": null,
-    "expert_role": "Forschungsleitstelle"
+    "expert_role": "domain-expert"
   },
   "outcomes": {
     "total_items": 31,
@@ -197,7 +197,7 @@ Die `null`-Werte werden befuellt, sobald die entsprechenden Daten vorliegen (GT-
 
 | EQUALIS-Feld | Befuellt nach | Datenquelle |
 |---|---|---|
-| `quality.cer` | Pilot + GT-Sample | CER-Script (L3) |
+| `quality.cer` | Pilot + GT-Sample | CER-Script |
 | `quality.fields.{group}` | GT-Sample (31 Objekte) | CER pro Gruppe |
 | `outcomes.total_items` | Sofort | Anzahl transkribierter Objekte |
 | `outcomes.accuracy_ai_only` | GT-Kalibrierung | quality_signals Precision |
@@ -209,7 +209,7 @@ Die `null`-Werte werden befuellt, sobald die entsprechenden Daten vorliegen (GT-
 ### 4.3 Export-Implementierung
 
 **Fuer UC3 (HTR-Verifikation):**
-L3 schreibt ein Script (`pipeline/export_dia_xai.py`), das:
+Ein Script (`pipeline/export_dia_xai.py`), das:
 1. Alle Result-JSONs liest
 2. quality_signals aggregiert
 3. CER-Werte (wenn vorhanden) einfuegt
