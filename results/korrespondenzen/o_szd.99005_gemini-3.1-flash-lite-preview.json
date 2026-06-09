@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.99005",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte; Altmann, Hannah Zweig [1939], SZ-AAL/B1.5",
+    "signature": "SZ-AAL/B1.5",
+    "language": "Deutsch",
+    "images": [
+      "SZ_AAL_B1.5_001.jpg",
+      "SZ_AAL_B1.5_002.jpg",
+      "SZ_AAL_B1.5_003.jpg"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "ingest_batch": "SZ_AAL_B1_Results",
+      "ingest_date": "2026-06-09T17:30:21+02:00",
+      "pid_status": "placeholder",
+      "in_gams": false,
+      "placeholder_id": "o:szd.99005"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte; Altmann, Hannah Zweig [1939], SZ-AAL/B1.5\n- Signatur: SZ-AAL/B1.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "L. L. war eben bei Wooter wegen näherer Central-\nheizung. Der Mann ist unglaublich anständig, riet mir ab\nneuen Ofen zu kaufen, behauptet, es genüge ~~ausserhalb des Sink~~ {eingefügt: unterhalb des Sink}\nguten Boiler zu transferieren. Für die Küche und Bad\nempfiehlt er die Wasserheizung (Gas) zu mieten, weil dann\ndie Leute verlässlicher alle Reparaturen machen. All das\nscheint mir die ideale Lösung — eine Centralheizung, in\nden Schlafzimmern Gas oder Elektrik, da man sie unter Tag\ndoch kaum benützt und ist auch nachts es wohl gerne so\nwarm in den Zimmern habe. Damit ist das hier uns herlaafen\nzu alten Küche erledigt: ein Kohlenofen wird im Winter\ntäglich geheizt, teils Monate, die übrige Zeit Gas und Elektrik.\nEr sagte mir zu in verzehn Tagen, sobald er die\nPläne umplant habe, so viele Arbeiter zu herfassen zu haben\nals er wolle. Er lasse uns bekommen nicht im Stich.\nWenn es Dir keine Reihe macht bringe den Baker\nmit, er kann aber ebenso in der kleinen Kammer bleiben und\ndie nimmt allenfalls Dinge, die Dir wichtiger sind.\nHerzenst\nDie Forder kommt ausserhalb\nder Küche\nS.\nDear Johanna, thanks for all your trouble. I have\nno news yet about Mrs Kalu. I hope you yourself\nwill come occasionally and help a little lotte, who is not",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'Die Forder kommt ausserhalb der Küche' ist am linken Rand vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "much practical about house-furnishing and house-keeping.\nI believe it will become, as we cut the old kitchen entirely\nout (reserving her to become a Wasch- und Bügelraum)\na snug little house with all possibilities of later expansion\nand this seems to me the ideal solution in those enigmatical\ntimes. I hope Manfred will not go immediately go to France\n- it is very easy to get into such an obligation but\nvery difficult to get out again. „Gehe nie zu einem\nFerscht wenn du nicht gerufen werst“ kassa - His\nlaw I learnt in my schooldays and my later\nexperiences have proved the thruth of this profound\nsentence. Truly yours ever\nStefan",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "times. I hope Manfred will not go immediately go to France\n- it is very easy to get into such an obligation but\nvery difficult to get out again. „Gehe nie zu einem\nFerscht wenn du nicht gerufen werst“ kassa - His\nlaw I learnt in my schooldays and my later\nexperiences have proved the thruth of this profound\nsentence. Truly yours ever\nStefan",
+        "notes": "Dies ist eine Wiederholung des Textes von Seite 2, inklusive Archiv-Farbskala/Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz einiger Korrekturen und Einfügungen durch den Autor. Die Handschrift ist charakteristisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2221,
+    "total_words": 390,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1245,
+      635,
+      341
+    ],
+    "chars_per_page_median": 940.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

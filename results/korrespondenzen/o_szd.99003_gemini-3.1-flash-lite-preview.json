@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.99003",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Januar 1939], SZ-AAL/B1.3",
+    "signature": "SZ-AAL/B1.3",
+    "language": "Deutsch",
+    "images": [
+      "SZ_AAL_B1.3_001.jpg",
+      "SZ_AAL_B1.3_002.jpg",
+      "SZ_AAL_B1.3_003.jpg"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "ingest_batch": "SZ_AAL_B1_Results",
+      "ingest_date": "2026-06-09T17:30:21+02:00",
+      "pid_status": "placeholder",
+      "in_gams": false,
+      "placeholder_id": "o:szd.99003"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Januar 1939], SZ-AAL/B1.3\n- Signatur: SZ-AAL/B1.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Frau Doktor, ich kann Sie über\nIhr Befinden beruhigen – das\nobige Hotel mit Marmorbädern und\nEmpfangshalle war sogar derart\nblinkfein, dass man's nicht ertragen\nkonnte. An Theatern, Concerten,\nnetten Menschen, Negern und Inter-\nviewern hat sie für einige Monate\ngenug gelitten bekommen, heute\nvermisste ich ihr noch einen echt\namerikanischen Glucestiren[?] zu",
+        "notes": "Handschriftlicher Brief auf Hotelpapier (The Ritz-Carlton, Boston). Violette Tinte. Die letzte Zeile bricht mitten im Wort ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "servieren, leider ist der Zug so gut\nair conditioned, dass man davon\nnichts merkt. Ich habe so jeden zweiten\nTag 1000 bis 1500 Zuhörern den\nBegriff eines Engländers beizubringen, das\nsie wahrscheinlich für Superoxford\nhalten, ausserdem halte ich noch heute\neine Probe des Jeremias und jeder\nTag bringt andere Orte, Tempera-\nturen aber bisher noch kein einziges\nÄrgernis. Ich möchte gern dabei auf\nHolz klopfen, aber der ganze Zug be-\nsteht aus funkelndem Glas und Stahl\n(ausser den Betten glücklicherweise)\nmit schönsten Grüssen Ihr Vorleser",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Textausschnitt ist eine Wiederholung des Textes von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort in der letzten Zeile von Seite 1 ('Glucestiren') ist orthographisch unklar, vermutlich ein Schreibfehler oder eine spezifische Bezeichnung."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 906,
+    "total_words": 139,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      365,
+      541,
+      0
+    ],
+    "chars_per_page_median": 453.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0072,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

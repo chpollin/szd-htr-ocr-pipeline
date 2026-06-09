@@ -1,0 +1,100 @@
+{
+  "object_id": "o_szd.99004",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [11. September 1939], SZ-AAL/B1.4",
+    "signature": "SZ-AAL/B1.4",
+    "language": "Deutsch",
+    "images": [
+      "SZ_AAL_B1.4_001.jpg",
+      "SZ_AAL_B1.4_002.jpg",
+      "SZ_AAL_B1.4_003.jpg",
+      "SZ_AAL_B1.4_004.jpg",
+      "SZ_AAL_B1.4_005.jpg"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "ingest_batch": "SZ_AAL_B1_Results",
+      "ingest_date": "2026-06-09T17:30:21+02:00",
+      "pid_status": "placeholder",
+      "in_gams": false,
+      "placeholder_id": "o:szd.99004"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [11. September 1939], SZ-AAL/B1.4\n- Signatur: SZ-AAL/B1.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Frau Doktor, ich wollte Ihnen noch\nvielmals danken und mich entschuldigen\nfür all die unendliche Mühe, die ich Ihnen\n~~mache~~ {mache}. Bitte denken Sie auch Frau Kahn\nherzlichst in meinem Namen: selbstverständ\nlich bedanke ich mich auch in materieller\nSchuld für deren Mühe. Ich glaube, es ist\nsehr vorteilhaft wenn die Bücher, beson-\nders jene aus dem Glashütten (der eine ist\nohnehin wacklig) nur das Porzellan etwa\nvorangepackt werden [am besten in mich\nzu Hause Kosten] so dass man wenn der Van\nnicht ausreicht, sie notfalls mit der Bahn\nnachschicken kann. Wir kämpfen für eine\neine Möglichkeit und so wird ich alles\nfinden; einziehen können wir ja doch\nnicht vor dem ersten October und bis dahin\n* Packer sind wohl leicht zu finden",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Zeile 'am besten in mich zu Hause Kosten' ist schwer lesbar und syntaktisch unklar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "kommen wir zuverlässig nach London.\nNoch eines, ich bin, wie Sie leider\nschon bemerkt haben werden, ein etwas\ngehemmtes Individuum. Natürlich wollte\nich hi mit Ihren Namen bitten anlässlich\njenes angetretenen Kriegsunglücks, das uns\nzu Verwandten macht, statt der formellen\nSie das ~~Sie~~ {wir} Mischpoche würde ich sagen\nzu Duzen [?] aus unserem Bedürfnis\nfreundschaftlicher Empfindung! dass ich als\nder - leider - viel Ältere Ihnen und\nManfred diesen Vorschlag hiemit ergebenst\nnur herzlichst unterbreiten.\nIhr Lotte wenn Sie [?] [?]\nSei\n\nStefan Zweig\n\nErste Folge wenn man eine Secretaria heirathet: dass\nman von diesem Tag an alle Briefe mit eigener Hand\nschreiben muss. Beware of pity !!!",
+        "notes": "Handschriftlicher Brief, violette Tinte. Am rechten Rand vertikal mit roter Tinte: 'Thanks for everything! gesehen und gebilligt. Lotte'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Erläuterungen\nRegistratur muss alles herausgenommen\nwerden, da Raum an sich Badezimmer.\nSchreibtische sind alle nicht stabil,\nkönnen gut gefüllt, aber nicht von aussen\nbelastet werden. (Blanka)\nin Bath dasselbe wie in London.\nalle vans diese Woche requiriert,\naber einige machen Hoffnung für\nnächste Woche.\nAnfrage des Gemahls: ob unge-\nfähr mit den Möbeln Marta\n(die mir übrigens nicht Mrs Zweig,\nsondern Lotte sagen soll) etwas\nherkommen könnte, einkaufen etc.\nAlice dann vielleicht später, Zu-\nVerzeihung, Stefan - hat ein bisschen\nAngst wegen englisch und Marta kennt",
+        "notes": "Handschriftlicher Brief, violette Tinte. 'Blanka' ist eingekreist.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "die Stadt schon.\nAll dies natürlich nur, wenn Du\ndie Damen entbehren kannst. Bitte\nsag es ganz ehrlich, wir machen so\nschon genug Umstand für Euch,\nMarta könnte hier wohnen in\nihrem alten Haus.\nIn Rosemount haben wir ab Ende\ndieser Woche Sarge, 1 box room und\nnursery, ab 1. 10. ground floor.\nZentralheizung lassen wir vor-\nläufig, nehmen halt Gas, elektr etc.\nHerzliche Grüsse und allen Hel-\nfern besten Dank\nLotte\n\nContract soll morgen unterzeichnet werden:\nhaltet die Daumen!",
+        "notes": "Handschriftlicher Brief, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Wiederholung des unteren Teils von Seite 4 mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es einige Stellen mit schwieriger Handschrift (z.B. 'am besten in mich zu Hause Kosten' auf Seite 1, 'Mischpoche' auf Seite 2) und einige Korrekturen/Einfügungen, die die Lesbarkeit leicht erschweren."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2486,
+    "total_words": 398,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      743,
+      694,
+      571,
+      478,
+      0
+    ],
+    "chars_per_page_median": 632.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0075,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
