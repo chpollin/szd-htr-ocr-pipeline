@@ -976,39 +976,13 @@ function renderReviewCell(obj) {
   if (obj.needsReview === undefined) return '';
   if (obj.needsReview) {
     const reasons = (obj.needsReviewReasons || []).join(', ');
-    return `<span class="badge-review badge-review-flagged" data-tooltip="Ungeprüft, zuerst sichten — Qualitätssignale: ${escapeHtml(reasons)}">Ungeprüft ⚠${MACHINE_ICON}</span>`;
+    return `<span class="badge-review badge-review-unchecked" data-tooltip="Ungeprüft, zuerst sichten — Qualitätssignale: ${escapeHtml(reasons)}">Ungeprüft <span class="status-flag">⚠</span></span>`;
   }
   return `<span class="badge-review badge-review-unchecked" data-tooltip="Nur Pipeline-Selbsteinschätzung, noch von niemandem geprüft">Ungeprüft${MACHINE_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
 
-function renderQualityCell(v, confidence, obj) {
-  const uncertain = v.uncertainCount || 0;
-  const illegible = v.illegibleCount || 0;
-  const total = uncertain + illegible;
-
-  // markers are only meaningful when present: the VLM often invents words
-  // instead of setting [?], so "no markers" is NOT a quality statement
-  let markerHtml = '';
-  if (total > 0) {
-    const parts = [];
-    if (uncertain > 0) parts.push(`${uncertain}× [?]`);
-    if (illegible > 0) parts.push(`${illegible}× [...]`);
-    const cls = total >= 3 ? 'badge-markers-many' : 'badge-markers-some';
-    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="Vom VLM markierte unsichere oder unleserliche Stellen">${parts.join(', ')}${MACHINE_ICON}</span>`;
-  }
-
-  // Modellkonsensus badge
-  let consHtml = '';
-  if (obj && obj.consensusCategory) {
-    const cat = obj.consensusCategory;
-    const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}${MACHINE_ICON}</span>`;
-  }
-
-  return (markerHtml + consHtml) || '<span class="quality-none" aria-hidden="true">·</span>';
-}
 
 /* ===== Stats Dashboard ===== */
 
@@ -1197,10 +1171,6 @@ function applyFilters() {
     if (field === 'needsReview') {
       return o.needsReview ? 1 : 0;
     }
-    if (field === 'markerCount') {
-      const v = o.verification || {};
-      return (v.uncertainCount || 0) + (v.illegibleCount || 0);
-    }
     return o[field] ?? '';
   };
   list = [...list].sort((a, b) => {
@@ -1237,8 +1207,6 @@ function renderCatalog() {
 
     let html = '';
     for (const obj of pageItems) {
-      const v = obj.verification || {};
-      const qualityHtml = renderQualityCell(v, obj.confidence, obj);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
       const ingestTip = ingestInfo(obj.ingestLabel)
         || `Lieferung ${obj.ingestLabel}${obj.pidStatus ? ' — noch nicht im GAMS (Platzhalter-PID)' : ''}`;
@@ -1251,11 +1219,9 @@ function renderCatalog() {
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
-        <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)}</td>
+        <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)} <span class="cell-sub" data-tooltip="${obj.contentPages || obj.pageCount || 0} Inhalt, ${obj.blankPages || 0} Leer">${obj.pageCount || '?'} S.</span></td>
         <td class="col-lang">${escapeHtml(obj.lang)}</td>
         <td class="col-review">${renderReviewCell(obj)}</td>
-        <td class="col-quality">${qualityHtml}</td>
-        <td class="col-pages" data-tooltip="${obj.contentPages || obj.pageCount || 0} Inhalt, ${obj.blankPages || 0} Leer">${obj.pageCount || '—'}</td>
       </tr>`;
     }
     tbody.innerHTML = html;
@@ -2718,6 +2684,7 @@ const CHART_COLORS = {
   successMid: '#4a8f4a',
   warning: '#8a6914',
   warningOrange: '#c47a20',
+  agentBlue: '#1e5a8a',
   danger: '#a0522d',
   muted: '#E0D8CC',
   gold: '#C2A360',
@@ -2950,10 +2917,10 @@ function renderReviewDonut(d) {
   const ctx = document.getElementById('chartReview');
   if (!ctx) return;
   const segments = [
-    { label: 'Mensch-geprüft', value: d.gtVerifiedCount + d.approvedCount, color: CHART_COLORS.successDark },
-    { label: 'Agent-geprüft', value: d.agentCount, color: CHART_COLORS.successMid },
-    { label: 'Ungeprüft', value: d.llmOkCount, color: CHART_COLORS.warning },
-    { label: 'Zuerst sichten', value: d.needsReview, color: CHART_COLORS.danger },
+    { label: 'Mensch-geprüft', value: d.gtVerifiedCount + d.approvedCount, color: CHART_COLORS.success },
+    { label: 'Agent-geprüft', value: d.agentCount, color: CHART_COLORS.agentBlue },
+    { label: 'Ungeprüft', value: d.llmOkCount, color: CHART_COLORS.muted },
+    { label: 'Zuerst sichten', value: d.needsReview, color: CHART_COLORS.warningOrange },
   ].filter(s => s.value > 0);
   const opts = donutOptions('bottom');
   opts.onClick = (_, elems) => {
