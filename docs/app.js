@@ -60,6 +60,7 @@ const state = {
   sortAsc: true,
   filterCollection: '',
   filterIngest: '',
+  filterKonvolut: '',
   filterGroup: '',
   filterConfidence: '',
   filterReviewStatus: '',
@@ -480,6 +481,7 @@ function buildCatalogHash() {
   const params = new URLSearchParams();
   if (state.filterCollection) params.set('collection', state.filterCollection);
   if (state.filterIngest) params.set('ingest', state.filterIngest);
+  if (state.filterKonvolut) params.set('konvolut', state.filterKonvolut);
   if (state.filterGroup) params.set('group', state.filterGroup);
   if (state.filterConfidence) params.set('confidence', state.filterConfidence);
   if (state.filterReviewStatus) params.set('review_status', state.filterReviewStatus);
@@ -497,6 +499,7 @@ function parseCatalogParams(hash) {
   const params = new URLSearchParams(hash.slice(qIdx + 1));
   if (params.has('collection')) state.filterCollection = params.get('collection');
   if (params.has('ingest')) state.filterIngest = params.get('ingest');
+  if (params.has('konvolut')) state.filterKonvolut = params.get('konvolut');
   if (params.has('group')) state.filterGroup = params.get('group');
   if (params.has('confidence')) state.filterConfidence = params.get('confidence');
   if (params.has('review_status')) state.filterReviewStatus = params.get('review_status');
@@ -512,11 +515,12 @@ function restoreFilterUI() {
   document.getElementById('filterCollection').value = state.filterCollection;
   document.getElementById('filterIngest').value = state.filterIngest;
   updateGroupFilter();
+  updateKonvolutFilter();
   document.getElementById('filterGroup').value = state.filterGroup;
   document.getElementById('filterConfidence').value = state.filterConfidence;
   document.getElementById('filterReviewStatus').value = state.filterReviewStatus;
   // Highlight active selects
-  for (const id of ['filterCollection', 'filterIngest', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+  for (const id of ['filterCollection', 'filterIngest', 'filterKonvolut', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
     const el = document.getElementById(id);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
@@ -1101,6 +1105,9 @@ function applyFilters() {
   if (state.filterIngest) {
     list = list.filter(o => o.ingestLabel === state.filterIngest);
   }
+  if (state.filterKonvolut) {
+    list = list.filter(o => konvolutOf(o.signature) === state.filterKonvolut);
+  }
   if (state.filterGroup) {
     list = list.filter(o => (o.classification || o.groupLabel) === state.filterGroup);
   }
@@ -1215,12 +1222,13 @@ function renderCatalog() {
 
   // Update group filter options based on current visible data
   updateGroupFilter();
+  updateKonvolutFilter();
 
   // Show review filter only if data supports it
   document.getElementById('filterReviewStatus').classList.toggle('is-hidden', !state.hasReviewData);
 
   // Highlight active selects + render filter chips
-  for (const id of ['filterCollection', 'filterIngest', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+  for (const id of ['filterCollection', 'filterIngest', 'filterKonvolut', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
     const el = document.getElementById(id);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
@@ -1258,6 +1266,9 @@ function renderActiveFilters() {
   }
   if (state.filterIngest) {
     chips.push({ key: 'ingest', label: state.filterIngest });
+  }
+  if (state.filterKonvolut) {
+    chips.push({ key: 'konvolut', label: state.filterKonvolut });
   }
   if (state.filterGroup) {
     chips.push({ key: 'group', label: state.filterGroup });
@@ -1327,6 +1338,51 @@ function updateGroupFilter() {
   } else {
     sel.value = '';
     state.filterGroup = '';
+  }
+}
+
+// Archivische Einheit aus der Signatur: letztes ".N"-Segment abschneiden
+// (SZ-AAL/B1.113 -> SZ-AAL/B1, SZ-SAM/AK.159 -> SZ-SAM/AK, SZ-AAP/W-AA90.0 -> SZ-AAP/W-AA90)
+function konvolutOf(signature) {
+  if (!signature) return '';
+  return signature.replace(/\.[^./]+$/, '');
+}
+
+function updateKonvolutFilter() {
+  const sel = document.getElementById('filterKonvolut');
+  const prev = sel.value;
+
+  // Konvolute available in current collection/ingest filter
+  let source = state.catalog;
+  if (state.filterCollection) {
+    source = source.filter(o => o.collection === state.filterCollection);
+  }
+  if (state.filterIngest) {
+    source = source.filter(o => o.ingestLabel === state.filterIngest);
+  }
+  const counts = new Map();
+  for (const o of source) {
+    const k = konvolutOf(o.signature);
+    if (k) counts.set(k, (counts.get(k) || 0) + 1);
+  }
+  // Nur echte Gruppierungen anbieten; Einzelobjekte bleiben ueber die Suche erreichbar
+  const konvolute = [...counts.keys()].filter(k => counts.get(k) >= 2).sort();
+
+  sel.innerHTML = '<option value="">Alle Konvolute</option>';
+  for (const k of konvolute) {
+    const opt = document.createElement('option');
+    opt.value = k;
+    opt.textContent = `${k} (${counts.get(k)})`;
+    sel.appendChild(opt);
+  }
+  sel.classList.toggle('is-hidden', konvolute.length === 0);
+
+  // Restore selection if still valid, otherwise reset
+  if (konvolute.includes(prev)) {
+    sel.value = prev;
+  } else {
+    sel.value = '';
+    state.filterKonvolut = '';
   }
 }
 
@@ -3017,6 +3073,12 @@ function initEvents() {
     renderCatalog();
   });
 
+  document.getElementById('filterKonvolut').addEventListener('change', e => {
+    state.filterKonvolut = e.target.value;
+    state.catalogPage = 0;
+    renderCatalog();
+  });
+
   document.getElementById('filterGroup').addEventListener('change', e => {
     state.filterGroup = e.target.value;
     state.catalogPage = 0;
@@ -3044,6 +3106,7 @@ function initEvents() {
       state.searchQuery = '';
       state.filterCollection = '';
       state.filterIngest = '';
+      state.filterKonvolut = '';
       state.filterGroup = '';
       state.filterConfidence = '';
       state.filterReviewStatus = '';
@@ -3053,6 +3116,8 @@ function initEvents() {
       state.filterCollection = '';
     } else if (key === 'ingest') {
       state.filterIngest = '';
+    } else if (key === 'konvolut') {
+      state.filterKonvolut = '';
     } else if (key === 'group') {
       state.filterGroup = '';
     } else if (key === 'confidence') {
