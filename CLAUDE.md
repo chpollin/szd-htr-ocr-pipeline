@@ -22,7 +22,9 @@ Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/bui
 | Agent-geprueft | `agent_verified` | Claude-Vision-Agent (Bild-Text-Vergleich) — kann stimmen, ersetzt keine menschliche Pruefung |
 | Ungeprueft | kein Review | Nur Pipeline-Selbsteinschaetzung. `needs_review` ist kein Status, sondern Triage ("zuerst sichten") innerhalb von Ungeprueft |
 
-Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte; das LLM-Original bleibt je Seite in `edit_history` erhalten.
+Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte.
+
+**Zwei Datenstroeme je Seite** (seit 2026-06-10): `transcription` ist die Arbeitsfassung, `transcription_llm` der unveraenderliche Roh-Output des Modells (wird beim ersten Edit gesetzt; Bestand per `backfill_transcription_llm.py` migriert). `edit_history` protokolliert jede Aenderung. CER aus Korrekturen: `python pipeline/report_cer_from_edits.py` (Report: `reports/cer-from-edits.md`).
 
 ### Bekannte Schwaechen
 

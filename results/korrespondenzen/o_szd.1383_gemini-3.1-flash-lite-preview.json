@@ -27,7 +27,8 @@
             "edited_at": "2026-04-02T20:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Agnetendorf i/R \"Der Wiesenstein\" , 30. Juli 1934\n\nLieber und verehrter Herr Stefan Zweig!\nDank für Ihren \"Erasmus von Rotterdam\". Er ist ein\nwundervolles Buch und ich freue mich seiner wahrhaft. Schon die\nEinleitung ist ein unendlich wohltätiger Klang. Das was bei\nIhnen das Erasmische genannt wird, ist meiner Wesenheit aufs\ntiefste verwandt: Und so fühle ich, herzlich verbunden, die\nVerwandtschaft mit der Ihren.\nMit vielen Grüssen Ihr Ihr\n(gez): Gerhart Hauptmann"
       },
       {
         "page": 2,
@@ -47,7 +48,8 @@
             "edited_at": "2026-04-02T20:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Agnetendorf i/R \"Der Wiesenstein\" , 30. Juli 1934\n\nLieber und verehrter Herr Stefan Zweig!\nDank für Ihren \"Erasmus von Rotterdam\". Er ist ein\nwundervolles Buch und ich freue mich seiner wahrhaft. Schon die\nEinleitung ist ein unendlich wohltätiger Klang. Das was bei\nIhnen das Erasmische genannt wird, ist meiner Wesenheit aufs\ntiefste verwandt: Und so fühle ich, herzlich verbunden, die\nVerwandtschaft mit der Ihren.\nMit vielen Grüssen Ihr Ihr\n(gez): Gerhart Hauptmann"
       }
     ],
     "confidence": "high",

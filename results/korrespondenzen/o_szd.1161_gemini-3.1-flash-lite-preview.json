@@ -32,7 +32,8 @@
             "edited_at": "2026-04-02T21:30:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gendrene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus"
       }
     ],
     "confidence": "high",

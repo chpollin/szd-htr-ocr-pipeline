@@ -27,7 +27,8 @@
             "edited_at": "2026-04-02T16:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16"
       },
       {
         "page": 2,
@@ -41,7 +42,8 @@
             "edited_at": "2026-04-02T16:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20"
       },
       {
         "page": 3,

@@ -145,7 +145,21 @@ def import_regular_edit(data: dict, *, reviewer: str, dry_run: bool) -> None:
             print(f"  WARNUNG: Seite {page_num} nicht im Ergebnis-JSON gefunden, uebersprungen.")
             continue
 
-        rp["transcription"] = export_page.get("transcription", "")
+        old_text = rp.get("transcription", "")
+        new_text = export_page.get("transcription", "")
+        if old_text != new_text:
+            # immutable raw LLM stream, set once on first edit
+            if "transcription_llm" not in rp:
+                rp["transcription_llm"] = old_text
+            history = rp.get("edit_history", [])
+            history.append({
+                "original_transcription": old_text,
+                "edited_by": reviewer,
+                "edited_at": data.get("exported_at"),
+                "source": "human",
+            })
+            rp["edit_history"] = history
+        rp["transcription"] = new_text
         rp["notes"] = export_page.get("notes", "")
         edited_pages.append(page_num)
 

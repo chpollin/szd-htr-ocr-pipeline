@@ -27,7 +27,8 @@
             "edited_at": "2026-04-02T14:34:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]"
       },
       {
         "page": 2,
@@ -47,7 +48,8 @@
             "edited_at": "2026-04-02T14:34:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Josef Roth\n\nEigener Vortrag [couplet][?]\nwar Notizen für weiteren\nUmbau[?]"
       }
     ],
     "confidence": "medium",

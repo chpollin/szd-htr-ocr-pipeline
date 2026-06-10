@@ -27,7 +27,8 @@
             "edited_at": "2026-04-02T16:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan"
       },
       {
         "page": 2,
@@ -41,7 +42,8 @@
             "edited_at": "2026-04-02T16:00:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3"
       },
       {
         "page": 3,

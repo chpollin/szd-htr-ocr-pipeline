@@ -41,7 +41,8 @@
             "edited_at": "2026-04-03T07:05:21.112206+00:00",
             "source": "human"
           }
-        ]
+        ],
+        "transcription_llm": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte"
       },
       {
         "page": 2,

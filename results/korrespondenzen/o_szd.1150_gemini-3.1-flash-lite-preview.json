@@ -32,7 +32,8 @@
             "edited_at": "2026-04-02T21:30:00Z",
             "source": "agent"
           }
-        ]
+        ],
+        "transcription_llm": "Liebe Frau Meingast\nIhnen und Villi\nvon Luse n. mir\nherzliche Grüße.\nHerzlichst\nIhre Le\nschätzende\nFr. M. Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzerstrasse\n(Hauer u. Laubingerhaus)"
       }
     ],
     "confidence": "high",

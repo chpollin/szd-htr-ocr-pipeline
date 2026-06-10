@@ -151,10 +151,13 @@ def handle_edit(data: dict) -> dict:
         if not rp:
             continue
         if export_page.get("transcription") is not None:
-            # Preserve original text before overwriting
             old_text = rp.get("transcription", "")
             new_text = export_page["transcription"]
             if old_text != new_text:
+                # immutable raw LLM stream, set once on first edit;
+                # "transcription" remains the working text
+                if "transcription_llm" not in rp:
+                    rp["transcription_llm"] = old_text
                 history = rp.get("edit_history", [])
                 history.append({
                     "original_transcription": old_text,
