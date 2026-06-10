@@ -254,7 +254,7 @@ const GITHUB_COMMITS_URL =
 
 const LS_WORKSPACE_COLLAPSED_KEY = 'szd-htr-workspace-collapsed';
 
-// Cached status for summary-line rendering (also used by Mode-Banner chips).
+// Cached status for summary-line rendering.
 const workspaceStatus = {
   uncommitted: null,   // integer or null if unknown
   lastCommit: null,    // { iso, sha, author } or null
@@ -309,7 +309,6 @@ async function fetchRecentCommits() {
       </li>`;
     }).join('');
     updateWorkspaceSummary();
-    updateModeBannerStatus();
   } catch (err) {
     listEl.innerHTML = `<li class="workspace__activity-empty">Could not reach GitHub API (${escapeHtml(err.message || 'offline')}).</li>`;
   }
@@ -327,7 +326,6 @@ async function fetchGitStatus() {
         <div class="workspace__uncommitted-note">${escapeHtml(data.error)}</div>`;
       workspaceStatus.uncommitted = null;
       updateWorkspaceSummary();
-      updateModeBannerStatus();
       return;
     }
     const n = data.modified || 0;
@@ -345,17 +343,15 @@ async function fetchGitStatus() {
         <div class="workspace__uncommitted-files">${files}</div>`;
     }
     updateWorkspaceSummary();
-    updateModeBannerStatus();
   } catch (err) {
     el.innerHTML = `<div class="workspace__uncommitted-big">\u2014</div>
       <div class="workspace__uncommitted-note">Git status unavailable.</div>`;
     workspaceStatus.uncommitted = null;
     updateWorkspaceSummary();
-    updateModeBannerStatus();
   }
 }
 
-/* ===== Summary line (collapsed state) + Mode-Banner chips ===== */
+/* ===== Summary line (collapsed state) ===== */
 
 function updateWorkspaceSummary() {
   const sumU = document.getElementById('workspaceSummaryUncommitted');
@@ -383,22 +379,6 @@ function updateWorkspaceSummary() {
   }
 }
 
-function updateModeBannerStatus() {
-  const el = document.getElementById('modeBannerStatus');
-  if (!el) return;
-  const chips = [];
-  if (workspaceStatus.uncommitted === 0) {
-    chips.push('<span class="mode-banner__chip mode-banner__chip--clean">● clean</span>');
-  } else if (workspaceStatus.uncommitted > 0) {
-    chips.push(`<span class="mode-banner__chip mode-banner__chip--dirty">● ${workspaceStatus.uncommitted} dirty</span>`);
-  }
-  if (workspaceStatus.lastCommit && workspaceStatus.lastCommit.iso) {
-    const when = escapeHtml(relativeTime(workspaceStatus.lastCommit.iso));
-    const sha = escapeHtml(workspaceStatus.lastCommit.sha || '');
-    chips.push(`<span class="mode-banner__chip mode-banner__chip--commit">↻ ${when} · ${sha}</span>`);
-  }
-  el.innerHTML = chips.join('');
-}
 
 function toggleWorkspaceCollapse(force) {
   const panel = document.getElementById('workspacePanel');
@@ -468,24 +448,6 @@ function applyWorkspacePanel() {
   }
 }
 
-/* ===== Mode Banner ===== */
-
-function applyModeBanner() {
-  const banner = document.getElementById('modeBanner');
-  if (!banner) return;
-  if (state.isLocal) {
-    banner.hidden = false;
-    document.body.classList.add('has-mode-banner');
-    const endpoint = document.getElementById('modeBannerEndpoint');
-    if (endpoint) {
-      const host = location.host || 'localhost';
-      endpoint.textContent = host;
-    }
-  } else {
-    banner.hidden = true;
-    document.body.classList.remove('has-mode-banner');
-  }
-}
 
 /* ===== Fit Mode ===== */
 
@@ -3281,7 +3243,6 @@ function changeViewerObject(delta) {
 
 async function init() {
   detectLocal();
-  applyModeBanner();
   loadFitMode();
   applyFitMode();
   loadEditsFromStorage();

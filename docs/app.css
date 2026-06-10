@@ -126,120 +126,6 @@ a:hover { color: var(--sz-burgundy-dark); }
 /* ===== Mode Banner (Editorial Workspace, local only) =====
    Terminal aesthetic: signals a distinct, more privileged interface
    (not the public read-only Pages site). */
-.mode-banner {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.35rem 1rem;
-  background: #0d1117;                    /* near-black, terminal bg */
-  color: #d1d5db;                         /* neutral terminal text */
-  border-top: 2px solid var(--sz-gold);   /* gold accent = "you are logged in" */
-  border-bottom: 1px solid #1f2937;
-  font-family: var(--font-mono);
-  font-size: 0.74rem;
-  line-height: 1.4;
-  position: sticky;
-  top: 0;
-  z-index: 101;
-  flex-shrink: 0;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-}
-
-.mode-banner[hidden] { display: none; }
-
-.mode-banner__prompt {
-  color: #7dd3a0;                         /* bright terminal green */
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.mode-banner__sep {
-  color: #6b7280;
-}
-
-.mode-banner__path {
-  color: #60a5fa;                         /* terminal blue for paths */
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.mode-banner__sigil {
-  color: #7dd3a0;
-  font-weight: 700;
-  margin-right: 0.15rem;
-}
-
-.mode-banner__label {
-  color: var(--sz-gold-light);
-  letter-spacing: 0.12em;
-  font-weight: 700;
-  font-size: 0.68rem;
-  flex-shrink: 0;
-}
-
-.mode-banner__endpoint {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  color: #6b7280;
-  white-space: nowrap;
-  padding-left: 0.5rem;
-  border-left: 1px solid #1f2937;
-}
-
-.mode-banner__status {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  flex: 1;
-  min-width: 0;
-  overflow: hidden;
-}
-
-.mode-banner__chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  padding: 0.05rem 0.45rem;
-  border-radius: 2px;
-  border: 1px solid;
-  white-space: nowrap;
-}
-
-.mode-banner__chip--clean {
-  color: #7dd3a0;
-  border-color: rgba(125, 211, 160, 0.35);
-  background: rgba(125, 211, 160, 0.07);
-}
-
-.mode-banner__chip--dirty {
-  color: #fbbf24;
-  border-color: rgba(251, 191, 36, 0.4);
-  background: rgba(251, 191, 36, 0.08);
-}
-
-.mode-banner__chip--commit {
-  color: #9ca3af;
-  border-color: rgba(156, 163, 175, 0.25);
-  background: rgba(156, 163, 175, 0.05);
-}
-
-.mode-banner__cursor {
-  display: inline-block;
-  width: 7px;
-  height: 0.9em;
-  background: #7dd3a0;
-  animation: modeBannerBlink 1.1s steps(2, start) infinite;
-  vertical-align: middle;
-}
-
-@keyframes modeBannerBlink {
-  to { visibility: hidden; }
-}
-
-/* When the banner is visible, the sticky header sits below it. */
-body.has-mode-banner .site-header { top: 30px; }
 
 /* ===== 4. Header ===== */
 .site-header {
@@ -254,6 +140,16 @@ body.has-mode-banner .site-header { top: 30px; }
   top: 0;
   z-index: 100;
   flex-shrink: 0;
+}
+
+.site-header__home {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header__home:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .site-header__title {
