@@ -173,7 +173,24 @@ VLMs linearisieren Tabellen von oben nach unten; bei rechtsbuendigen Betraegen u
 | `duplicate_pages` | 0% (0/1) | **aus needs_review entfernt** — flaggt Dokumentstruktur (Korrekturfahnen-Versionen, Register), nicht Fehler; bleibt informatives Feld |
 | `marker_density` | — | **aus needs_review entfernt** — Gemini setzt praktisch keine `[?]`-Marker, Signal wertlos |
 
-### 5.3 Fraktur-Post-Processing — Evaluation
+### 5.3 page_length_anomaly im Briefbestand — Umschlag-False-Positives (v1.6, Session 26)
+
+Die Agent-Triage der 28 geflaggten SZ-AAL-Objekte (2026-06-10, Bild-gegen-Text mit claude-opus-4-8, Report `reports/aal-review-triage.md`) liefert erstmals einen vollstaendigen Goldstandard fuer ein geflaggtes Set — und zeigt, dass die Session-21-Precision (5.2) nicht auf Briefbestaende uebertragbar war:
+
+| | v1.5 (vor Fix) | v1.6 (Umschlag-Ausnahme) |
+|---|---|---|
+| Geflaggte Objekte im Set | 28 | 4 |
+| davon echte Generierungsfehler (Runaway) | 2 | 2 |
+| davon legitim kurze Seiten (Umschlag/Ausschnitt/Vermerk) | 22 | 2 |
+| Objekt-Precision (echtes Problem / Flag) | 21% (6/28)* | 50% (2/4) |
+
+\* Die 6 zaehlen die 4 strittigen Kursive-Faelle mit — die waren aber aus dem **falschen Grund** geflaggt (Umschlag-Artefakt); ihren Halluzinationsverdacht hat erst der Pruef-Agent gefunden, nicht das Signal. Signal-detektierte echte Probleme: nur die 2 Runaways.
+
+**Ursache**: In Briefkonvoluten ist die kurze Adressseite des Umschlags der Normalfall — gemessen gegen den Median langer Briefseiten faellt sie unter die 10%-Schwelle. **Fix v1.6**: `_is_envelope()` erkennt Umschlag-/Adressseiten an den Seiten-Notes und nimmt sie von Signal 1 aus. Korpusweiter Backfill: 43 Flags entfernt (24 autographen, 16 korrespondenzen, 3 sonstige), 0 neue. Die 2 verbleibenden Kurzseiten-Flags im Set (Zeitungsausschnitt mit Signaturen, Kurzvermerk) sind triage-bestaetigt korrekt transkribiert und als agent_verified markiert.
+
+**Lehre** (ergaenzt die Kalibrierungs-Lehre in [[verification-concept]] §2.3): Signal-Precision ist bestandsabhaengig — ein auf Lebensdokumenten/Werken kalibriertes Signal muss bei einem strukturell neuen Bestand (Briefe mit Umschlaegen) neu validiert werden.
+
+### 5.4 Fraktur-Post-Processing — Evaluation
 
 Prototyp `fraktur_postprocess.py` (pyspellchecker + 13 Fraktur-Verwechslungspaare): fand 2-3 von 11 bekannten Fehlern (o_szd.2217), Precision ~38% (Batch 58 Zeitungsausschnitte). Einzelzeichen-Substitution zu eng, Komposita nicht im Woerterbuch. **Empfehlung**: als Flagging-Tool fuer Agent-Verifikation nutzbar, **nicht fuer Auto-Korrektur** — Mehrzeichen-Fehler ("ihrisch"→"lyrisch"), Eigennamen ("Hayel"→"Hayek") und Komposita bleiben unerkannt.
 
