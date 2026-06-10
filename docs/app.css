@@ -663,6 +663,12 @@ body.view-stats #help { display: none; }
   background: rgba(99, 26, 52, 0.04);
 }
 
+/* empty signals cell: nothing reported is not a quality statement */
+.quality-none {
+  color: var(--sz-text-light);
+  opacity: 0.4;
+}
+
 /* Table */
 .catalog__table-wrap {
   background: var(--sz-white);

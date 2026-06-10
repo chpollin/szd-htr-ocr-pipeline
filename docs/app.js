@@ -988,13 +988,13 @@ function renderQualityCell(v, confidence, obj) {
   const illegible = v.illegibleCount || 0;
   const total = uncertain + illegible;
 
-  let markerHtml;
-  if (total === 0) {
-    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine Unsicherheitsstellen markiert">\u2014${MACHINE_ICON}</span>`;
-  } else {
+  // markers are only meaningful when present: the VLM often invents words
+  // instead of setting [?], so "no markers" is NOT a quality statement
+  let markerHtml = '';
+  if (total > 0) {
     const parts = [];
-    if (uncertain > 0) parts.push(`${uncertain}\u00d7 [?]`);
-    if (illegible > 0) parts.push(`${illegible}\u00d7 [...]`);
+    if (uncertain > 0) parts.push(`${uncertain}× [?]`);
+    if (illegible > 0) parts.push(`${illegible}× [...]`);
     const cls = total >= 3 ? 'badge-markers-many' : 'badge-markers-some';
     markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="Vom VLM markierte unsichere oder unleserliche Stellen">${parts.join(', ')}${MACHINE_ICON}</span>`;
   }
@@ -1007,7 +1007,7 @@ function renderQualityCell(v, confidence, obj) {
     consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}${MACHINE_ICON}</span>`;
   }
 
-  return markerHtml + consHtml;
+  return (markerHtml + consHtml) || '<span class="quality-none" aria-hidden="true">·</span>';
 }
 
 /* ===== Stats Dashboard ===== */

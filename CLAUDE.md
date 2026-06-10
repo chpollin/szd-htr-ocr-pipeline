@@ -14,14 +14,15 @@ Experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digit
 
 Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/build_viewer_data.py` oder `docs/catalog.json`. Offene Aufgaben und Entscheidungslog → `Plan.md`. Session-Log → `knowledge/journal.md`. CER-Baseline und Fehlermuster → `knowledge/evaluation-results.md`.
 
-### 4-Tier Review-Modell
+### Review-Modell (drei Status, Operator-Entscheidung 2026-06-10)
 
-| Tier | Status im JSON | Vertrauensniveau | Quelle |
-|---|---|---|---|
-| 0 | `gt_verified` | Hoechstes | Mensch auf 3-Modell-GT-Draft |
-| 1 | `approved` | Hoch | Mensch im Frontend-Viewer |
-| 2 | `agent_verified` | Mittel-hoch | Claude Code Sub-Agent (Vision) |
-| 3 | kein Review | Niedrig | Nur Pipeline-Selbsteinschaetzung |
+| Status (Anzeige) | Status im JSON | Bedeutung |
+|---|---|---|
+| Mensch-geprueft | `gt_verified` oder `approved` | Am Faksimile gegengelesen, bei Bedarf korrigiert — gilt als verifiziert und Ground-Truth-faehig. Approve heisst verbindlich: gegengelesen, nicht ueberflogen. |
+| Agent-geprueft | `agent_verified` | Claude-Vision-Agent (Bild-Text-Vergleich) — kann stimmen, ersetzt keine menschliche Pruefung |
+| Ungeprueft | kein Review | Nur Pipeline-Selbsteinschaetzung. `needs_review` ist kein Status, sondern Triage ("zuerst sichten") innerhalb von Ungeprueft |
+
+Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte; das LLM-Original bleibt je Seite in `edit_history` erhalten.
 
 ### Bekannte Schwaechen
 

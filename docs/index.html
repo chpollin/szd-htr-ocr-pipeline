@@ -183,7 +183,7 @@
           <th scope="col" class="col-group" data-sort="classification">Typ <span class="sort-arrow"></span></th>
           <th scope="col" class="col-lang" data-sort="lang">Sprache <span class="sort-arrow"></span></th>
           <th scope="col" class="col-review" data-sort="needsReview" data-tooltip="Pr&uuml;fstatus: manuell oder automatisch">Review <span class="sort-arrow"></span></th>
-          <th scope="col" class="col-quality" data-sort="markerCount" data-tooltip="Marker, Konfidenz, Modellkonsensus">Qualit&auml;t <span class="sort-arrow"></span></th>
+          <th scope="col" class="col-quality" data-sort="markerCount" data-tooltip="Maschinelle Signale: Unsicherheits-Marker und Modellkonsensus. Leer = nichts gemeldet (keine G&uuml;te-Aussage)">Signale <span class="sort-arrow"></span></th>
           <th scope="col" class="col-pages" data-sort="pageCount" data-tooltip="Anzahl Seiten im Objekt">S. <span class="sort-arrow"></span></th>
         </tr>
       </thead>
@@ -432,40 +432,30 @@
     </ul>
 
     <h3>Review &amp; Ground Truth (nur lokal)</h3>
-    <p>5-stufiges Vertrauensmodell f&uuml;r jedes Objekt:</p>
+    <p>Drei Status f&uuml;r jedes Objekt:</p>
     <table>
-      <thead><tr><th>Tier</th><th>Badge</th><th>Button</th><th>Bedeutung</th></tr></thead>
+      <thead><tr><th>Badge</th><th>Button</th><th>Bedeutung</th></tr></thead>
       <tbody>
         <tr>
-          <td>0</td><td><strong>Verifiziert</strong></td>
-          <td>&#9733; GT Verify</td>
-          <td>H&ouml;chste Stufe: Jede Seite wurde <em>zeichengenau</em> gegen das Faksimile gepr&uuml;ft. Z&auml;hlt als wissenschaftliche Referenz (Ground Truth) f&uuml;r CER-Berechnung.</td>
+          <td><strong>Mensch-gepr&uuml;ft</strong></td>
+          <td>&#10003; Approve / &#9733; GT Verify</td>
+          <td>Ein Mensch hat jede Seite am Faksimile gegengelesen und bei Bedarf korrigiert. Gilt im Projekt als verifiziert und als Ground Truth f&uuml;r die CER-Berechnung. Approve bedeutet verbindlich: gegengelesen, nicht nur &uuml;berflogen.</td>
         </tr>
         <tr>
-          <td>1</td><td><strong>Gepr&uuml;ft</strong></td>
-          <td>&#10003; Approve</td>
-          <td>Expert:in hat die Transkription gepr&uuml;ft und f&uuml;r korrekt befunden.</td>
-        </tr>
-        <tr>
-          <td>2</td><td>Auto-gepr&uuml;ft</td>
+          <td>Agent-gepr&uuml;ft</td>
           <td>&mdash;</td>
-          <td>Automatischer Bild-Text-Vergleich durch Claude Code Agent (maschinell).</td>
+          <td>Bild-Text-Vergleich durch einen Claude-Vision-Agenten. Kann stimmen, ersetzt aber keine menschliche Pr&uuml;fung.</td>
         </tr>
         <tr>
-          <td>3a</td><td>Ungepr&uuml;ft</td>
+          <td>Ungepr&uuml;ft</td>
           <td>&mdash;</td>
-          <td>Keine Auff&auml;lligkeiten in den Qualit&auml;tssignalen, aber noch nicht gepr&uuml;ft.</td>
-        </tr>
-        <tr>
-          <td>3b</td><td><strong>Review n&ouml;tig</strong></td>
-          <td>&mdash;</td>
-          <td>Qualit&auml;tssignale haben Probleme erkannt (z.B. Truncation, viele Unsicherheitsstellen).</td>
+          <td>Nur Pipeline-Selbsteinsch&auml;tzung. Objekte mit <strong>&#9888;</strong> haben Qualit&auml;tssignale ausgel&ouml;st (z.B. Seitenl&auml;ngen-Anomalie) und sollten zuerst gesichtet werden &mdash; Filter &bdquo;Zuerst sichten&ldquo;.</td>
         </tr>
       </tbody>
     </table>
     <p>
-      <strong>GT-Review-Workflow:</strong> Objekt &ouml;ffnen &rarr; jede Seite gegen Faksimile lesen &rarr;
-      bei Fehlern: Edit &rarr; korrigieren &rarr; Speichern &rarr; wenn alle Seiten gepr&uuml;ft: &#9733; GT Verify.
+      <strong>Review-Workflow:</strong> Objekt &ouml;ffnen &rarr; jede Seite gegen Faksimile lesen &rarr;
+      bei Fehlern: Edit &rarr; korrigieren &rarr; Speichern &rarr; Approve. Der LLM-Originaltext bleibt in <code>edit_history</code> erhalten.
     </p>
 
     <h3>Diff-Ansicht (Cross-Model)</h3>
