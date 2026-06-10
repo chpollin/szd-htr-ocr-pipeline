@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich geschrieben. Die Wiederholungen in den Scans resultieren aus der Faltung des Blattes."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 330,
     "total_words": 52,
     "total_pages": 5,

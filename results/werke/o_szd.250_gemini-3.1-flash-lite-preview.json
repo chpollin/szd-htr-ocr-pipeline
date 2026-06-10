@@ -711,7 +711,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen.; S.21-40: Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen.; S.41-60: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut lesbar und wurden entsprechend den Vorgaben transkribiert.; S.61-80: Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig.; S.81-99: Der Text ist gut lesbar, die handschriftlichen Ergänzungen sind im Kontext der Erzählung eindeutig zuordenbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 59102,
     "total_words": 9880,
     "total_pages": 49,

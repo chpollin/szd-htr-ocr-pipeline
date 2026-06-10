@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind deutlich erkennbar und wurden entsprechend markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6820,
     "total_words": 1069,
     "total_pages": 3,

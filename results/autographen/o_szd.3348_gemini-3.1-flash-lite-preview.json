@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein standardisiertes Telegrammformular mit maschinengeschriebenem Inhalt, der sehr gut lesbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 560,
     "total_words": 86,
     "total_pages": 1,

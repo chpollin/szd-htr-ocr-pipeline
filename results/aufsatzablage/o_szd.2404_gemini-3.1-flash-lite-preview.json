@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist trotz der zahlreichen handschriftlichen Korrekturen und Streichungen gut lesbar. Die Korrekturen sind eindeutig dem Typoskript zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5311,
     "total_words": 825,
     "total_pages": 2,

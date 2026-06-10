@@ -45,7 +45,7 @@
     "confidence_notes": "Der maschinengeschriebene Text ist exzellent lesbar. Die handschriftlichen Notizen auf der letzten Seite sind aufgrund der Bleistiftführung und Kursivität etwas schwieriger, aber im Kontext interpretierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2540,
     "total_words": 336,
     "total_pages": 3,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist trotz der Frakturschrift und der typischen Zeitungsqualität (Vergilbung, Durchscheinen) sehr gut lesbar. Die Struktur ist klar, und es gab keine größeren Probleme bei der Transkription."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 33562,
     "total_words": 5033,
     "total_pages": 2,

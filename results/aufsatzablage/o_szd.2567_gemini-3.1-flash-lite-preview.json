@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Unschärfe an den Rändern des Zeitungsausschnitts. Die Struktur ist klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10762,
     "total_words": 1686,
     "total_pages": 2,

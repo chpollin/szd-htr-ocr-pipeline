@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist klar gedruckt und vollständig lesbar. Keine Unklarheiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5072,
     "total_words": 757,
     "total_pages": 1,

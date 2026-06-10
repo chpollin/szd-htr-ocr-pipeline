@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist klar lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 810,
     "total_words": 134,
     "total_pages": 1,

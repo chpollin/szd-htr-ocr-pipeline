@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Die Anmerkung 'finden Sie schon im Telefon' ist etwas kleiner geschrieben, aber eindeutig lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 567,
     "total_words": 89,
     "total_pages": 1,

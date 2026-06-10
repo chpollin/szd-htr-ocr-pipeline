@@ -80,7 +80,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt. Einzelne Wörter wie 'Gelände' oder der Name 'Zicherlautl' sind aufgrund der kursiven Schrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1960,
     "total_words": 325,
     "total_pages": 3,

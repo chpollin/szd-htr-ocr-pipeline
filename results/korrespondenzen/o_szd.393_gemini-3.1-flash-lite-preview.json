@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist weitgehend lesbar, jedoch sind einige Wörter am unteren Rand der Karte aufgrund der Platzierung und des Druckbildes schwer zu entziffern (insbesondere 'kommen [?] abend' und der letzte Satzteil)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 727,
     "total_words": 115,
     "total_pages": 2,

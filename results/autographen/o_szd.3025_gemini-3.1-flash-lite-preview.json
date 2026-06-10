@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotizen und der Nachsatz von Stefan Zweig auf Seite 5/7 wurden korrekt zugeordnet."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9169,
     "total_words": 1790,
     "total_pages": 3,

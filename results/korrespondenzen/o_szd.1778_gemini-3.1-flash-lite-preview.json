@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind deutlich erkennbar und wurden entsprechend der Anweisungen transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3624,
     "total_words": 542,
     "total_pages": 3,

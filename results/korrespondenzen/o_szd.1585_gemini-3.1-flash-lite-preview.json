@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'ich' wurde korrekt identifiziert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1283,
     "total_words": 205,
     "total_pages": 1,

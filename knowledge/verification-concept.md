@@ -206,13 +206,13 @@ Das `confidence`-Feld ("high"/"medium"/"low") ist eine VLM-Selbsteinschaetzung a
 
 Ersatz: automatisch berechenbare Textstatistik-Signale, nach der Transkription ohne weiteren API-Call berechnet (`quality_signals.py`). Sie messen keine Korrektheit, sondern priorisieren menschlichen Review-Aufwand (Triage "zuerst sichten" innerhalb des Status Ungeprueft).
 
-### 2.2 Signalkatalog (v1.5, Stand des Codes)
+### 2.2 Signalkatalog (v1.6, Stand des Codes)
 
 `quality_signals.py` klassifiziert zunaechst jede Seite (`page.type`: `content`/`blank`/`color_chart`, aus Notes + Textlaenge) und ergaenzt fehlende Seiten (`_fill_missing_pages()`: VLM-Seitenzaehlung wird auf die Bildanzahl synchronisiert, Luecken als Leerseiten aufgefuellt — behebt die Seiten-Bild-Desynchronisation, 41 Objekte backfilled). Signale rechnen nur auf Content-Seiten, wo sinnvoll.
 
-| Signal | Berechnung (v1.5) | Rolle | Empirische Precision* |
+| Signal | Berechnung (v1.6) | Rolle | Empirische Precision* |
 |---|---|---|---|
-| `page_length_anomaly` | Content-Seite mit 0 < Zeichen < 10% des Medians | → needs_review | 100% (2/2) |
+| `page_length_anomaly` | Content-Seite mit 0 < Zeichen < 10% des Medians; Umschlag-/Adressseiten ausgenommen (Notes-Erkennung, v1.6) | → needs_review | 100% (2/2) auf Session-21-Set; im Brief-Set SZ-AAL waren 7/28 Flags Umschlag-False-Positives (Agent-Triage 2026-06-10) |
 | `page_image_mismatch` | `n_pages != n_images` ODER >75% der Content-Seiten leer | → needs_review | 100% (3/3) |
 | `language_mismatch` | Stoppwort-Heuristik (Top-20 DE/FR/EN) vs. TEI-Sprache; nur bei ≥50 Woertern und klarer Erkennung | → needs_review | 50% (4/8) — misst eher Metadaten-Inkonsistenz |
 | `duplicate_page_pairs` | Jaccard > 0.9 auf Wortmengen, beide Content-Seiten > 50 Zeichen | nur informativ | 0% (0/1) — flaggt Korrekturfahnen (zwei Fassungen derselben Fahne) und Register; zudem False-Positives bei Color-Chart-Doppelfotografie |
@@ -232,6 +232,7 @@ Ersatz: automatisch berechenbare Textstatistik-Signale, nach der Transkription o
 | v1.2 | Leerseiten-Klassifikation (`page.type`), DWR integriert | — |
 | v1.4 (Session 14) | Duplikat-Mindestlaenge 200 → 50 Zeichen (erkennt Seiten-Halluzination) | ~41% |
 | v1.5 (Session 22) | DWR entfernt, `marker_density` und `duplicate_pages` aus needs_review entfernt, Anomalie-Schwelle 20% → 10% des Medians, Sprachsignal-Guards | ~25–27% (330/1328) |
+| v1.6 (Session 26) | Umschlag-/Adressseiten von `page_length_anomaly` ausgenommen (legitim kurz; in Briefbestaenden Haupt-False-Positive: kurze Adressseite gegen Median langer Briefseiten) | 43 Flags weniger ueber alle Sammlungen, kein neues |
 
 Lehre: Schwellenwerte ohne empirische Kalibrierung sind zu aggressiv; jedes Signal muss gegen verifizierte Objekte auf Precision geprueft werden, bevor es Review-Aufwand erzeugen darf.
 

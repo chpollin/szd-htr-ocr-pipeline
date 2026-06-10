@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text besteht nur aus einer kurzen, deutlich lesbaren Zeile."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 87,
     "total_words": 12,
     "total_pages": 2,

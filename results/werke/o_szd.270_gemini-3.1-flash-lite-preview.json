@@ -1285,7 +1285,7 @@
     "confidence_notes": "S.1-20: Die Handschrift von Stefan Zweig ist in diesem Notizbuch sehr flüchtig, mit vielen Überlagerungen, Randnotizen und Durchstreichungen, was die Transkription an einigen Stellen erschwert.; S.81-100: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.101-120: Alle Seiten sind leer und weisen keine Schrift auf.; S.121-140: Alle Seiten sind unbeschrieben und weisen keine Textspuren auf.; S.141-160: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.161-180: Die meisten Seiten sind leer. Die Transkription von Seite 178 ist aufgrund der Handschrift Stefan Zweigs gut lesbar, mit einer leichten Unsicherheit bei einem Wort.; S.181-181: Die Bleistiftnotizen sind sehr blass und werden teilweise von den Archiv-Farbskalen verdeckt, was die Lesung einzelner Wörter erschwert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2053,
     "total_words": 306,
     "total_pages": 20,

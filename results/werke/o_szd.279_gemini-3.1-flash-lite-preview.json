@@ -403,7 +403,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, trotz der typischen Handschrift Stefan Zweigs. Die Korrekturen und Einfügungen sind weitgehend eindeutig zuzuordnen.; S.21-40: Die Handschrift ist gut lesbar, trotz der typischen Zweig-Kürzel und Korrekturen. Die Struktur ist konsistent.; S.41-55: Die Handschrift ist sehr flüchtig und weist viele Korrekturen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern (mit [?] markiert)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 37956,
     "total_words": 5566,
     "total_pages": 26,

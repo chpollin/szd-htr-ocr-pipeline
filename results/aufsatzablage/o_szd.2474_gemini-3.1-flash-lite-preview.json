@@ -123,7 +123,7 @@
     "confidence_notes": "Der Text ist gut lesbar, jedoch sind die zahlreichen handschriftlichen Einfügungen und Korrekturen (oft über den Zeilen oder am Rand) teilweise schwer zu entziffern und in den Lesefluss zu integrieren. Die Transkription der Korrekturen erfolgte nach bestem Wissen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20324,
     "total_words": 3120,
     "total_pages": 7,

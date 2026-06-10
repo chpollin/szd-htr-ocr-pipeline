@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift und einiger Korrekturen gut lesbar. Die französische Orthographie weist einige Eigenheiten auf (z.B. 'interessantes' statt 'intéressantes'), die originalgetreu transkribiert wurden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1794,
     "total_words": 297,
     "total_pages": 4,

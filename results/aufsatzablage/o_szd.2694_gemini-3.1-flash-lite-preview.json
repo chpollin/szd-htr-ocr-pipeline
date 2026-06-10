@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einige wenige Stellen sind durch den Durchschlag-Charakter oder leichte Unschärfen im Scan als [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4571,
     "total_words": 674,
     "total_pages": 1,

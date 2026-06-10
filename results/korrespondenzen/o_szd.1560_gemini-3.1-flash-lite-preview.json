@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die wenigen unsicheren Stellen betreffen lediglich die Platzierung der Skalen auf dem dritten Scan."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2921,
     "total_words": 549,
     "total_pages": 2,

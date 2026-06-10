@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und einiger Korrekturen. Die Überlappung auf Seite 3 ist durch die Archivierungsskalen bedingt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2114,
     "total_words": 335,
     "total_pages": 2,

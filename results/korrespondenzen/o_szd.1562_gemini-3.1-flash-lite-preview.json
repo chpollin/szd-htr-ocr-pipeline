@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Korrekturen (Durchstreichungen und Einfügungen) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3214,
     "total_words": 592,
     "total_pages": 1,

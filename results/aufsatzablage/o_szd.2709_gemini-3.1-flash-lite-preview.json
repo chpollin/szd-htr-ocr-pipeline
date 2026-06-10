@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es handelt sich um eine einfache Auflistung von Werktiteln."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 550,
     "total_words": 60,
     "total_pages": 3,

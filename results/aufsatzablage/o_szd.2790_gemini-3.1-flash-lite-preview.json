@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um gedruckte Zeitungsartikel handelt. Die Frakturschrift ist klar erkennbar. Die Farbskalen auf den letzten Scans verdecken keine relevanten Textstellen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 43990,
     "total_words": 6403,
     "total_pages": 5,

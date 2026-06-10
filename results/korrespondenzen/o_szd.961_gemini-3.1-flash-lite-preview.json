@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Ein paar französische Begriffe und Eigennamen wurden kontextuell geprüft."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2150,
     "total_words": 335,
     "total_pages": 2,

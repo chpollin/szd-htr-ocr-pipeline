@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Trennung zwischen Typoskript und handschriftlicher Unterschrift ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 708,
     "total_words": 115,
     "total_pages": 2,

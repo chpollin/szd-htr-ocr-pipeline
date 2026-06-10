@@ -59,7 +59,7 @@
     "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (insbesondere bei den Korrekturen und den Ortsnamen/Hotelnamen) schwer zu entziffern. Die Lesung 'nach Ankunft' und 'ab das war' ist aufgrund der Korrekturen unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1903,
     "total_words": 324,
     "total_pages": 3,

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr klar. Die handschriftlichen Ergänzungen am Rand sind gut lesbar, auch wenn sie teilweise durch die Archiv-Skalen auf dem dritten Bild überlagert werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3700,
     "total_words": 609,
     "total_pages": 3,

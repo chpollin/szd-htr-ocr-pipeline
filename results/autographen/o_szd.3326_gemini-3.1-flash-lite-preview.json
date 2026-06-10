@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzelne Wörter wie 'Autre' oder 'j'parle' sind aufgrund der kursiven Handschrift leicht unsicher, aber im Kontext gut verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1782,
     "total_words": 298,
     "total_pages": 5,

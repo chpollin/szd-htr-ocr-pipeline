@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und des Zeitungsdrucks. Die wenigen unsicheren Stellen betreffen nur Textfragmente am oberen Rand der vierten Seite, die nicht zum eigentlichen Artikel gehören."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 22197,
     "total_words": 3575,
     "total_pages": 4,

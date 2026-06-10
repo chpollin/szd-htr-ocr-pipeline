@@ -711,7 +711,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist sehr flüchtig, teilweise sind Wörter durchgestrichen oder überlagert. Viele Begriffe sind aufgrund der schnellen Schreibweise und der violetten Tinte nur schwer zu entziffern.; S.21-40: Die Handschrift ist sehr flüchtig, teilweise mit Bleistift geschrieben, was die Lesbarkeit erschwert. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung nur mutmaßlich lesbar.; S.41-60: Alle Seiten sind leer und weisen keine Schriftspuren auf.; S.61-80: Die Handschrift ist flüchtig, teilweise durchgestrichen und weist Überschneidungen mit der Rückseite auf (bleed-through), was die Lesbarkeit erschwert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18657,
     "total_words": 2985,
     "total_pages": 35,

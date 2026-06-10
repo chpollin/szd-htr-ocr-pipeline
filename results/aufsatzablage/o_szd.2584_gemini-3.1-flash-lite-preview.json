@@ -95,7 +95,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen hochwertigen Druck handelt. Die Struktur ist klar, die wenigen unsicheren Stellen sind durch [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 32249,
     "total_words": 4847,
     "total_pages": 10,

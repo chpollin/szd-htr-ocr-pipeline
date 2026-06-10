@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die letzte Zeile ist aufgrund des Papierrands unvollständig, was durch [...] markiert wurde."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2106,
     "total_words": 290,
     "total_pages": 1,

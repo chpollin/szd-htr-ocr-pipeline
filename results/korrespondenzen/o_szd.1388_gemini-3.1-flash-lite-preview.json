@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine Schreibmaschinenschrift handelt, ergänzt durch eine gut lesbare handschriftliche Signatur."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1527,
     "total_words": 239,
     "total_pages": 1,

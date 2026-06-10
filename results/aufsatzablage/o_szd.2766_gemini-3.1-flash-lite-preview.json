@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die Struktur wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4804,
     "total_words": 755,
     "total_pages": 1,

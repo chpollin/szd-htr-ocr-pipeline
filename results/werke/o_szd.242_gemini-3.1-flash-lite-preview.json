@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist ein Entwurf mit vielen Streichungen, Einfügungen und Korrekturen. Einige Wörter sind durchgestrichen und schwer zu entziffern, was die Lesbarkeit an manchen Stellen erschwert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4260,
     "total_words": 615,
     "total_pages": 3,

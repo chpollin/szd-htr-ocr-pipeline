@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist ein sehr gut lesbarer Typoskriptdurchschlag. Die Struktur ist klar, die wenigen handschriftlichen Ergänzungen auf der ersten Seite sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7028,
     "total_words": 1059,
     "total_pages": 3,

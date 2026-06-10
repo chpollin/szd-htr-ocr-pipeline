@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Handschrift handelt. Die Begriffe sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 733,
     "total_words": 126,
     "total_pages": 3,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und flüssig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7488,
     "total_words": 1404,
     "total_pages": 2,

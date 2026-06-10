@@ -102,7 +102,7 @@
     "confidence_notes": "Der Text ist ein Typoskript mit handschriftlichen Korrekturen. Die Lesbarkeit ist sehr gut, da es sich um mehrfache Entwürfe desselben Textes handelt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10786,
     "total_words": 1799,
     "total_pages": 6,

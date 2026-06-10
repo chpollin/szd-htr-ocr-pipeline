@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einige Wörter sind aufgrund der Handschrift leicht interpretativ (z.B. 'torribly' statt 'terribly'), wurden aber originalgetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2314,
     "total_words": 468,
     "total_pages": 1,

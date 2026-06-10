@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen unsicheren Stellen (z.B. 'Erdäpfelnudeln') sind durch den Kontext gut erschließbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8553,
     "total_words": 1670,
     "total_pages": 2,

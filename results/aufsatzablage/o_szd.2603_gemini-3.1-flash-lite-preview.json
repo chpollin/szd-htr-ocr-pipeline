@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Struktur durch die Faltung des Blattes klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 542,
     "total_words": 77,
     "total_pages": 3,

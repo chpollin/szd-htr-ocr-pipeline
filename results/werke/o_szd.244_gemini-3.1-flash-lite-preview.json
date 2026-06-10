@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es einige handschriftliche Kürzel und Begriffe (insbesondere in den Randnotizen auf Seite 3), die schwer zu entziffern sind."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3152,
     "total_words": 413,
     "total_pages": 5,

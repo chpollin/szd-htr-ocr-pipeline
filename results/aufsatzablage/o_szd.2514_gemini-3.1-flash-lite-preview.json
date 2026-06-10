@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die handschriftliche Notiz am linken Rand ist ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5156,
     "total_words": 754,
     "total_pages": 1,

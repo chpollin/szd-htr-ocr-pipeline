@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist aufgrund der zahlreichen Korrekturen, Einfügungen und des vertikal am Rand geschriebenen Textes teilweise schwer zu entziffern und in der Lesereihenfolge komplex. Einige Wörter am Rand sind aufgrund der Schriftführung und Überlagerung unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 816,
     "total_words": 134,
     "total_pages": 1,

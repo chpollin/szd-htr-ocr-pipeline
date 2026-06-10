@@ -38,7 +38,7 @@
     "confidence_notes": "Der handschriftliche Text ist teilweise schwer lesbar, insbesondere das Wort 'autobiograph[?]' und die Zeilenumbrüche im Textkörper. Die Adressierung ist quer geschrieben und überlagert den gedruckten Bereich der Postkarte."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 375,
     "total_words": 59,
     "total_pages": 2,

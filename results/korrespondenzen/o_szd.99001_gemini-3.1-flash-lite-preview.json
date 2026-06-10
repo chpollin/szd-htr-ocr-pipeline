@@ -48,7 +48,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Flecken beeinträchtigen die Lesbarkeit kaum. Die durchgestrichenen Wörter sind eindeutig als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1380,
     "total_words": 273,
     "total_pages": 2,

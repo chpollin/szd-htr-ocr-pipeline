@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist kurz, prägnant und trotz der Brandlöcher sehr gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 254,
     "total_words": 27,
     "total_pages": 6,

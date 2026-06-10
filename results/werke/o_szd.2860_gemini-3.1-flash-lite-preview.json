@@ -375,7 +375,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind deutlich als solche erkennbar und wurden entsprechend transkribiert.; S.21-40: Der Text ist gut lesbar, die handschriftlichen Korrekturen und Einfügungen sind eindeutig zuzuordnen.; S.41-51: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 53261,
     "total_words": 7883,
     "total_pages": 25,

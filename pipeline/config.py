@@ -37,6 +37,18 @@ COLLECTIONS = {
     "autographen":     {"subdir": "autographen",      "tei": "szd_autographen_tei.xml"},
 }
 
+# Display labels per collection (viewer). "autographen" carries a working
+# label: the SZ-AAL delivery is letter convolutes, not autographs in the
+# strict sense; official naming pending with the archive (Korrekturmeldung
+# 2026-06).
+COLLECTION_LABELS = {
+    "lebensdokumente": "Lebensdokumente",
+    "werke":           "Werke",
+    "aufsatzablage":   "Aufsatzablage",
+    "korrespondenzen": "Korrespondenzen",
+    "autographen":     "Briefkonvolute (SZ-AAL)",
+}
+
 # Archival unit display term per collection (unit = signature minus last
 # dot segment, see derive_unit). Only listed collections get the unit
 # filter in the viewer; terminology pending with the archive.

@@ -137,7 +137,7 @@
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Keine handschriftlichen Ergänzungen im Textkörper, die die Lesbarkeit beeinträchtigen könnten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18484,
     "total_words": 2967,
     "total_pages": 13,

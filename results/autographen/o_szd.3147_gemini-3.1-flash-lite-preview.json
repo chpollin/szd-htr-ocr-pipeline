@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Anordnung der Randnotizen auf Seite 4 wurde logisch in den Textfluss integriert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2302,
     "total_words": 448,
     "total_pages": 4,

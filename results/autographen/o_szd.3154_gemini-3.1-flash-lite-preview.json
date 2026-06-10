@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Ein Wort in Zeile 3 auf Seite 2 ('Eva' oder 'Erdmann'?) ist leicht unsicher, ich habe es als 'Eva' transkribiert, da es im Kontext des Briefes (Erwähnung von Eva auf Seite 1) Sinn ergibt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1260,
     "total_words": 256,
     "total_pages": 2,

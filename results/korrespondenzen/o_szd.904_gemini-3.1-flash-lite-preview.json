@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen durchgestrichenen Wörter sind eindeutig identifizierbar. Die Sprache ist Französisch, obwohl im Prompt 'Deutsch' angegeben war."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 971,
     "total_words": 157,
     "total_pages": 1,

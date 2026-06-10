@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2874,
     "total_words": 411,
     "total_pages": 2,

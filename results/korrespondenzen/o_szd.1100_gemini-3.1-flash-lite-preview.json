@@ -59,7 +59,7 @@
     "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 397,
     "total_words": 62,
     "total_pages": 2,

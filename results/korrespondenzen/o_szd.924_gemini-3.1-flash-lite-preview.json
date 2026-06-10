@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Adressseite und die Unterschrift sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 689,
     "total_words": 106,
     "total_pages": 2,

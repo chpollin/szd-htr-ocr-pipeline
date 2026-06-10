@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist klar lesbar, abgesehen von den durch die Archivierungsskalen verdeckten Bereichen auf Seite 3."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 603,
     "total_words": 94,
     "total_pages": 1,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Ein Wort in Zeile 10 auf Seite 2 ist unklar (Temuande[?])."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2495,
     "total_words": 418,
     "total_pages": 3,
@@ -90,12 +90,8 @@
     "language_expected": "",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      3
-    ],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_length_anomaly"
-    ]
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr gut. Die handschriftliche Unterschrift auf Seite 6 ist etwas schwer zu entziffern, daher mit [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8399,
     "total_words": 1200,
     "total_pages": 6,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar. Einige Wörter in den Randnotizen sind aufgrund der vertikalen Ausrichtung und der engen Platzierung leicht unsicher, aber im Kontext verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2230,
     "total_words": 415,
     "total_pages": 2,

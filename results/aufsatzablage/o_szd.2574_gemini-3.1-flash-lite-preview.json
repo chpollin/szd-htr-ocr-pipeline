@@ -313,7 +313,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein klares Typoskript. Die handschriftlichen Korrekturen sind gut lesbar und wurden entsprechend den Regeln transkribiert.; S.21-40: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig.; S.41-42: Der Text ist klar lesbar, keine unsicheren Stellen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 32647,
     "total_words": 5185,
     "total_pages": 21,

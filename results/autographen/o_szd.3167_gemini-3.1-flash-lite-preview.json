@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einige Wörter wie 'Hausbuch' sind aufgrund der Handschrift leicht unsicher, aber im Kontext plausibel."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1935,
     "total_words": 358,
     "total_pages": 1,

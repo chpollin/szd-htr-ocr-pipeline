@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 356,
     "total_words": 53,
     "total_pages": 3,

@@ -67,7 +67,7 @@
     "confidence_notes": "Die Handschrift ist flüssig, aber durch die vielen Korrekturen, Durchstreichungen und Einfügungen sowie die teilweise unklare Orthographie (z.B. 'Ingenuer' statt 'Jugend'?) ist die Transkription an einigen Stellen interpretativ."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4006,
     "total_words": 607,
     "total_pages": 3,

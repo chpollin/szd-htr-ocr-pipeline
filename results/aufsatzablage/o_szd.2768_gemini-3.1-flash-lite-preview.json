@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Unschärfe an den Rändern. Die Struktur ist klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 28135,
     "total_words": 4221,
     "total_pages": 4,

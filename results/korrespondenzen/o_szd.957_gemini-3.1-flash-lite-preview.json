@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Durchstreichungen wurden gemäß den Regeln erfasst."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 995,
     "total_words": 146,
     "total_pages": 2,

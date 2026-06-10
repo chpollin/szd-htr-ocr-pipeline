@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Haken am Zeilenende wurden als Markierungen interpretiert und nicht als Textbestandteil transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 379,
     "total_words": 72,
     "total_pages": 3,

@@ -32,7 +32,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüssig und kursiv, was die Identifikation einzelner französischer Wörter erschwert. Einige Wörter sind durchgestrichen oder über der Zeile eingefügt, was die Lesbarkeit beeinträchtigt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1720,
     "total_words": 310,
     "total_pages": 2,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist in Fraktur gedruckt und sehr gut lesbar. Die wenigen unsicheren Stellen sind auf die Druckqualität zurückzuführen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5126,
     "total_words": 744,
     "total_pages": 2,

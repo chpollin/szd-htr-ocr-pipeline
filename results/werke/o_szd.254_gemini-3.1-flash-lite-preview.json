@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der typischen Eigenschaften eines Durchschlags (blassere Tinte). Die handschriftlichen Korrekturen sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8948,
     "total_words": 1326,
     "total_pages": 4,

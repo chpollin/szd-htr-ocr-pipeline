@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Vergilbung des Papiers. Die Struktur ist durch die Spalten klar vorgegeben."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 16163,
     "total_words": 2394,
     "total_pages": 2,

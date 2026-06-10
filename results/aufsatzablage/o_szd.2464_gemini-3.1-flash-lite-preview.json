@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Annotation am linken Rand ist teilweise schwer zu entziffern, wurde aber als solche in den Notizen vermerkt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4294,
     "total_words": 630,
     "total_pages": 1,

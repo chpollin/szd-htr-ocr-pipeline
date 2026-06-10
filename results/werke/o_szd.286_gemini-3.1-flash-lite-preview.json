@@ -67,7 +67,7 @@
     "confidence_notes": "Der gedruckte Text ist exzellent lesbar. Die handschriftlichen Notizen auf den ersten Seiten sind aufgrund von Verblassung und Fragmentierung schwer zu entziffern, aber der Haupttext (die Einleitung) ist vollständig und klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5476,
     "total_words": 780,
     "total_pages": 4,

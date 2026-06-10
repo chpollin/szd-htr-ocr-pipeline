@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige unsichere Stelle ist der Name 'Viertel' (im Kontext einer Person/eines Autors), der jedoch paläographisch plausibel ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 862,
     "total_words": 135,
     "total_pages": 3,

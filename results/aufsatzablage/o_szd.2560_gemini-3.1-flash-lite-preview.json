@@ -95,7 +95,7 @@
     "confidence_notes": "Der Text ist durchgehend sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die handschriftlichen Annotationen auf Seite 1 sind klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 23885,
     "total_words": 3526,
     "total_pages": 10,

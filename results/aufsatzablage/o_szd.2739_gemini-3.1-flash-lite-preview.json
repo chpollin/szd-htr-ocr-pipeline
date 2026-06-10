@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die Duplikate (Scans 6 und 7) enthalten Archivierungshilfen (Farbskala/Grauskala), die den Text teilweise verdecken, aber der Text ist durch den Kontext und die anderen Scans vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 34441,
     "total_words": 5194,
     "total_pages": 5,

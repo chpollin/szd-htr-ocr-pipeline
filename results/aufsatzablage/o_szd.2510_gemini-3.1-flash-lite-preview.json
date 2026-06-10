@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr kurz, gut lesbar und wiederholt sich auf den verschiedenen Scans."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 220,
     "total_words": 40,
     "total_pages": 5,

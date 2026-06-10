@@ -1684,7 +1684,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die Typoskripte sind klar. Die handschriftlichen Randnotizen sind teilweise flüchtig, aber im Kontext des Textes gut interpretierbar.; S.21-40: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschrift von Stefan Zweig sehr zuverlässig. Unsichere Stellen wurden entsprechend markiert.; S.41-60: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Korrekturen sind eindeutig Stefan Zweigs Handschrift zuzuordnen und gut lesbar.; S.61-80: Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr hoch. Einzelne handschriftliche Korrekturen wurden korrekt erfasst.; S.81-100: Die Transkription der Typoskripte ist sehr gut lesbar (high). Die handschriftlichen Ergänzungen und Randnotizen (insbesondere auf Seite 99) sind teilweise schwer zu entziffern und wurden diplomatisch transkribiert, wobei einige Stellen als unsicher markiert wurden.; S.101-120: Die Transkription ist aufgrund der klaren Typoskripte sehr zuverlässig. Handschriftliche Randnotizen sind teilweise schwer lesbar, wurden aber nach bestem Wissen transkribiert.; S.121-140: Der Text ist sehr gut lesbar, da es sich überwiegend um Typoskripte handelt. Die handschriftlichen Randnotizen sind teilweise schwer zu entziffern, wurden aber nach bestem Wissen transkribiert.; S.141-160: Die Transkription ist aufgrund der klaren Typoskript-Grundlage sehr zuverlässig. Die handschriftlichen Randnotizen sind teilweise kursiv und in französischer Sprache, wurden jedoch weitestgehend korrekt erfasst.; S.161-180: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschrift von Stefan Zweig sehr zuverlässig. Unsichere Stellen wurden entsprechend markiert.; S.181-200: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut lesbar, wenngleich sie teilweise in einer flüchtigen Handschrift verfasst wurden.; S.201-220: Die Transkription ist aufgrund der klaren Typoskript-Vorlage sehr gut lesbar. Handschriftliche Ergänzungen wurden als solche gekennzeichnet. Unsichere Stellen sind mit [?] markiert.; S.221-238: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Randnotizen sind teilweise schwer zu entziffern, wurden aber nach bestem Wissen transkribiert."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.6",
     "total_chars": 176431,
     "total_words": 28027,
     "total_pages": 129,
@@ -2177,7 +2177,6 @@
     "marker_uncertain_count": 25,
     "marker_illegible_count": 0,
     "marker_density": 0.0009,
-    "dwr_score": 0.4163,
     "duplicate_page_pairs": [
       [
         132,

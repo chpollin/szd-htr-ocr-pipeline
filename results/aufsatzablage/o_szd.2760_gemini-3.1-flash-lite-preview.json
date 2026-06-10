@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Überlagerung durch die Archivierungsskala auf dem dritten Bild. Die Transkription folgt den Regeln für diplomatische Wiedergabe."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 12266,
     "total_words": 1690,
     "total_pages": 2,

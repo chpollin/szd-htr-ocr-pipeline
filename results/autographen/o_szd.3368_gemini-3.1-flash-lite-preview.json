@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist weitgehend klar lesbar. Einzelne Wörter wie 'Tatsachen' (evtl. 'Tatsachen' oder 'Tatsach'?) oder 'Alban Johans' (Eigenname) sind aufgrund der Handschrift leicht unsicher, aber im Kontext verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1243,
     "total_words": 212,
     "total_pages": 2,

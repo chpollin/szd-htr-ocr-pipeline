@@ -95,7 +95,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen handschriftlichen Korrekturen sind eindeutig lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7410,
     "total_words": 1053,
     "total_pages": 5,

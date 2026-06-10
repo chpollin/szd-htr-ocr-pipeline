@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Annotation 'Büchel 29/X. 1911' wurde als solche identifiziert und in den Notes vermerkt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4267,
     "total_words": 648,
     "total_pages": 1,

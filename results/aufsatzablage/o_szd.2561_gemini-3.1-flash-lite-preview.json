@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die Frakturschrift ist klar. Die Archivierungshilfen auf Seite 3 verdecken den Text nicht wesentlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 37973,
     "total_words": 5681,
     "total_pages": 2,

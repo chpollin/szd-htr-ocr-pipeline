@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Kleinere Unklarheiten bei der Interpretation von 'Lyncoube' (möglicherweise 'Lyncombe') wurden gemäß der Vorlage transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1244,
     "total_words": 215,
     "total_pages": 4,

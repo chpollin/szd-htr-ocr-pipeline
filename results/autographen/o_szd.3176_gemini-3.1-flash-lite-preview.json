@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. 'Lotte Sch[?]' bezieht sich vermutlich auf eine Person, deren Nachname aufgrund der Handschrift leicht unsicher ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1965,
     "total_words": 369,
     "total_pages": 1,

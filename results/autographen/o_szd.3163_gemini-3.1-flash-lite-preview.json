@@ -45,7 +45,7 @@
     "confidence_notes": "Der Haupttext ist gut lesbar. Die Randnotizen am linken Rand und am oberen Rand sind aufgrund der Platzierung und der teilweise flüchtigen Handschrift schwerer zu entziffern und teilweise fragmentarisch."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2542,
     "total_words": 490,
     "total_pages": 1,

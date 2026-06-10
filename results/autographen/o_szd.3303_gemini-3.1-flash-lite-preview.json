@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist trotz der blauen Papierfarbe und der verblassten Tinte sehr gut lesbar. Ein Wort ('almountant') ist unsicher, da es sich um eine ungewöhnliche Schreibweise oder ein Fremdwort handeln könnte."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1863,
     "total_words": 310,
     "total_pages": 3,

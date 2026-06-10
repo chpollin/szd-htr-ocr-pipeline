@@ -221,7 +221,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr dicht geschrieben, mit zahlreichen Korrekturen, Einfügungen und Durchstreichungen. Die Handschrift ist flüchtig, was die Lesbarkeit einzelner Wörter erschwert. Die Transkription ist eine diplomatische Annäherung an den komplexen Textfluss.; S.21-29: Der Text ist aufgrund zahlreicher Korrekturen, Streichungen und Einfügungen (oft über den Zeilen) teilweise schwer zu entziffern. Die Handschrift ist flüchtig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 54124,
     "total_words": 6391,
     "total_pages": 28,

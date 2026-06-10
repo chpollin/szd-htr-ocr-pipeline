@@ -403,7 +403,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, sowohl die Typoskripte als auch die handschriftlichen Notizen. Die Struktur ist konsistent.; S.21-40: Der Text ist sehr gut lesbar, da es sich um Typoskripte handelt. Handschriftliche Korrekturen wurden als solche gekennzeichnet.; S.41-55: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschriften sehr zuverlässig. Einige wenige Stellen mit handschriftlichen Korrekturen oder unklaren Abkürzungen wurden mit [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 79853,
     "total_words": 12265,
     "total_pages": 53,

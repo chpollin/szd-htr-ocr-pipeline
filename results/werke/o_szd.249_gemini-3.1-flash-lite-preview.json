@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist weitgehend lesbar, aber Stefan Zweigs Handschrift weist einige schwierige Passagen auf, insbesondere bei Eigennamen oder spezifischen Begriffen, die durch die schnelle Schreibweise und Tintenverläufe schwer zu entziffern sind."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4065,
     "total_words": 640,
     "total_pages": 5,
@@ -120,13 +120,8 @@
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      0,
-      2
-    ],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_length_anomaly"
-    ]
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

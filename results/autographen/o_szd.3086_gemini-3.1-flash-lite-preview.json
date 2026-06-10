@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Abkürzungen sind im Kontext verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3808,
     "total_words": 744,
     "total_pages": 2,

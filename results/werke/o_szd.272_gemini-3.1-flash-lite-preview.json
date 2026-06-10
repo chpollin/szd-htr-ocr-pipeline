@@ -319,7 +319,7 @@
     "confidence_notes": "S.21-40: Die Handschrift ist sehr flüchtig, enthält zahlreiche Korrekturen, Überstreichungen und Randnotizen, die teilweise ineinander übergehen. Die Lesung ist an vielen Stellen interpretativ.; S.41-43: Die Transkription von Seite 43 ist aufgrund der zahlreichen Korrekturen, Einfügungen und der Überlagerung durch die Archiv-Farbskalen an einigen Stellen unsicher. Die Seiten 41 und 42 sind gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 13661,
     "total_words": 2051,
     "total_pages": 14,

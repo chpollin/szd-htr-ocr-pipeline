@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr deutlich und gut lesbar. Die mehrfachen Aufnahmen desselben Dokuments bestätigen die Lesung."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 303,
     "total_words": 38,
     "total_pages": 6,

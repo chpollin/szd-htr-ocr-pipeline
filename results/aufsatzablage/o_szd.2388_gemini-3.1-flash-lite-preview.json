@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist in Frakturschrift gedruckt und sehr gut lesbar. Es gibt keine handschriftlichen Annotationen auf den Textseiten. Die Struktur der Spalten wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 32020,
     "total_words": 4724,
     "total_pages": 6,

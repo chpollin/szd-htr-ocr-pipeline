@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift. Die Scans sind von hoher Qualität."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 24146,
     "total_words": 3626,
     "total_pages": 4,

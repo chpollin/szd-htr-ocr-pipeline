@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der mehrspaltigen Anordnung. Die Transkription folgt den Regeln strikt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 28417,
     "total_words": 4102,
     "total_pages": 2,

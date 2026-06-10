@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist ein klar lesbarer, maschinengeschriebener Geschäftsbrief. Die handschriftlichen Zusätze am Ende sind ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2407,
     "total_words": 413,
     "total_pages": 0,

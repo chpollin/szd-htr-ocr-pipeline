@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist aufgrund der schnellen Handschrift und zahlreicher Korrekturen (Durchstreichungen, Einfügungen) an einigen Stellen schwer zu entziffern. Die Lesung ist jedoch im Kontext des Themas weitgehend schlüssig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6906,
     "total_words": 1104,
     "total_pages": 4,

@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist ein klar gedrucktes Typoskript/Druckfahne. Die handschriftlichen Korrekturen sind deutlich lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 16503,
     "total_words": 2662,
     "total_pages": 6,

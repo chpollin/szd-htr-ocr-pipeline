@@ -123,7 +123,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Frakturschrift ist klar und weist kaum Beschädigungen auf."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 41790,
     "total_words": 6267,
     "total_pages": 14,

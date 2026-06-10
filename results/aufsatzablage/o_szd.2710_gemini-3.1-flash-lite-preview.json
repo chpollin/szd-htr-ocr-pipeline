@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Frakturschrift wurde korrekt erkannt. Die letzte Seite enthält Archivierungshilfen (Farbskala/Grauskala) und überdeckt einen Teil des Textes, der jedoch auf Seite 6 vollständig lesbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18954,
     "total_words": 2773,
     "total_pages": 6,

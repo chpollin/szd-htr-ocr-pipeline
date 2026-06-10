@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am Rand sind ebenfalls gut lesbar, wenngleich die französische Handschrift etwas flüchtiger ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3212,
     "total_words": 533,
     "total_pages": 2,

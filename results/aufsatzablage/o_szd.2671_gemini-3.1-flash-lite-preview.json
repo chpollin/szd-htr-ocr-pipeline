@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und des Zeitungsformats. Die Struktur ist klar, und es gibt kaum unleserliche Stellen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20160,
     "total_words": 2675,
     "total_pages": 2,

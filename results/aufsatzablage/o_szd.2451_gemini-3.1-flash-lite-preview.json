@@ -41,7 +41,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Spaltenstruktur. Es gibt keine nennenswerten Leseprobleme."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 28322,
     "total_words": 4472,
     "total_pages": 2,

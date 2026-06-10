@@ -1656,7 +1656,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gut lesbares Typoskript in Jiddisch. Die Transkription folgt den Regeln der diplomatischen Wiedergabe, inklusive der Beibehaltung von Tippfehlern und handschriftlichen Korrekturen.; S.21-40: Der Text ist gut lesbar, trotz der Durchschlag-Qualität und der jiddischen Sprache. Die handschriftlichen Korrekturen sind gut erkennbar.; S.41-60: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind eindeutig als solche erkennbar und wurden entsprechend transkribiert.; S.81-100: Die Transkription ist aufgrund der guten Lesbarkeit des Typoskripts und der klaren Struktur hoch. Handschriftliche Korrekturen wurden als solche gekennzeichnet.; S.101-120: Die Transkription ist aufgrund der klaren Maschinenschrift sehr zuverlässig. Die jiddische Orthografie wurde originalgetreu übernommen.; S.121-140: Die Transkription ist aufgrund der klaren Maschinenschrift gut lesbar. Handschriftliche Korrekturen wurden als solche markiert. Die Qualität der Scans ist durchgehend gut.; S.141-160: Die Transkription ist aufgrund der klaren Maschinenschrift sehr zuverlässig. Unsichere Stellen wurden mit [?] markiert, insbesondere bei handschriftlichen Korrekturen oder unklaren Zeichenfolgen.; S.181-200: Der Text ist ein gut lesbares Typoskript. Die wenigen handschriftlichen Korrekturen und Einfügungen sind im Kontext gut verständlich. Die Qualität der Scans ist hoch.; S.221-232: Der Text ist gut lesbar, die jiddische Transkription folgt dem Typoskript inklusive der handschriftlichen Korrekturen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 166190,
     "total_words": 28618,
     "total_pages": 86,
@@ -2150,12 +2150,9 @@
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
-    "page_length_anomalies": [
-      233
-    ],
+    "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "page_length_anomaly",
       "page_image_mismatch"
     ]
   }

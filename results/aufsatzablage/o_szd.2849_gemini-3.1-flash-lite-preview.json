@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist in sehr gutem Zustand und klar lesbar. Die Frakturschrift ist standardmässig und weist keine nennenswerten Beschädigungen auf."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 28228,
     "total_words": 4231,
     "total_pages": 2,

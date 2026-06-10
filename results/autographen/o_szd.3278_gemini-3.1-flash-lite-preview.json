@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Einzelne Wörter wie 'wir' (statt 'von') oder 'muss' sind aufgrund des Kontextes und der Schriftform sicher interpretierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2663,
     "total_words": 443,
     "total_pages": 4,

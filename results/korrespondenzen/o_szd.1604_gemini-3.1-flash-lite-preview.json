@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 606,
     "total_words": 90,
     "total_pages": 2,

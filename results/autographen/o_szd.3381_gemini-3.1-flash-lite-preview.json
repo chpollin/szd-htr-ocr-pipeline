@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und charakteristisch. Die wenigen unsicheren Stellen (z.B. 'wünscht[e]') sind durch den Kontext klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1151,
     "total_words": 184,
     "total_pages": 3,

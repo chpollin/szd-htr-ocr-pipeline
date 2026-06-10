@@ -1257,7 +1257,7 @@
     "confidence_notes": "S.21-40: Die Transkription ist aufgrund der guten Lesbarkeit des Typoskripts und der klaren handschriftlichen Korrekturen sehr zuverlässig. Einige wenige Stellen sind aufgrund von Überlagerungen oder unklaren Korrekturen als [?] markiert.; S.41-60: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind weitgehend eindeutig zu entziffern.; S.61-80: Die Transkription ist aufgrund der klaren Maschinenschrift gut lesbar. Handschriftliche Korrekturen wurden gemäß den Anweisungen in den Text integriert.; S.81-100: Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Korrekturen (Anna Meingast) sehr zuverlässig. Unsichere Stellen wurden wie gefordert markiert.; S.121-140: Die Transkription ist aufgrund der guten Lesbarkeit des Typoskripts und der klaren handschriftlichen Korrekturen sehr zuverlässig. Unsichere Stellen wurden gemäß den Vorgaben mit [?] markiert.; S.141-160: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind weitgehend eindeutig zu entziffern.; S.161-177: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 150390,
     "total_words": 23043,
     "total_pages": 68,

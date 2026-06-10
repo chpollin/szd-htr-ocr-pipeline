@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift Zweigs. Einige wenige Wörter wie 'Manfred' sind aufgrund der Tintenführung leicht unsicher, aber im Kontext der Korrespondenz eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2421,
     "total_words": 487,
     "total_pages": 2,

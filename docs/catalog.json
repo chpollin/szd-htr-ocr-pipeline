@@ -108,8 +108,8 @@
       },
       "needsReview": false,
       "needsReviewReasons": [],
-      "blankPages": 0,
-      "contentPages": 6,
+      "blankPages": 2,
+      "contentPages": 4,
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
@@ -28678,10 +28678,8 @@
         "avgCharsPerPage": 1324,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 2,
       "dwrScore": 0,
@@ -28825,27 +28823,25 @@
       "model": "gemini-3.1-flash-lite-preview",
       "ingestLabel": "SZ-AAL-2026-06",
       "pidStatus": "",
-      "confidence": "",
-      "pageCount": 0,
+      "confidence": "high",
+      "pageCount": 2,
       "thumbnail": "https://gams.uni-graz.at/o:szd.3135/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
+        "totalChars": 1054,
         "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "avgCharsPerPage": 527,
+        "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
-      "contentPages": 0,
+      "contentPages": 2,
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasLayout": false,
       "hasGT": false
     },
@@ -32545,10 +32541,8 @@
         "avgCharsPerPage": 493,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 5,
       "dwrScore": 0,
@@ -33483,10 +33477,8 @@
         "avgCharsPerPage": 756,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 5,
       "dwrScore": 0,
@@ -33524,10 +33516,8 @@
         "avgCharsPerPage": 817,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -33565,10 +33555,8 @@
         "avgCharsPerPage": 679,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -33840,10 +33828,8 @@
         "avgCharsPerPage": 514,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 3,
       "dwrScore": 0,
@@ -33881,10 +33867,8 @@
         "avgCharsPerPage": 744,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 4,
       "dwrScore": 0,
@@ -33961,10 +33945,8 @@
         "avgCharsPerPage": 511,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 4,
       "dwrScore": 0,
@@ -34002,10 +33984,8 @@
         "avgCharsPerPage": 712,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -34082,10 +34062,8 @@
         "avgCharsPerPage": 766,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 3,
       "dwrScore": 0,
@@ -34162,10 +34140,8 @@
         "avgCharsPerPage": 1167,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 9,
       "dwrScore": 0,
@@ -34242,10 +34218,8 @@
         "avgCharsPerPage": 480,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 3,
       "dwrScore": 0,
@@ -34361,10 +34335,8 @@
         "avgCharsPerPage": 832,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -34441,10 +34413,8 @@
         "avgCharsPerPage": 538,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -34482,10 +34452,8 @@
         "avgCharsPerPage": 656,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 2,
       "dwrScore": 0,
@@ -34562,10 +34530,8 @@
         "avgCharsPerPage": 419,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -35500,10 +35466,8 @@
         "avgCharsPerPage": 661,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -35541,10 +35505,8 @@
         "avgCharsPerPage": 1152,
         "vlmConfidence": "medium"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 2,
       "dwrScore": 0,
@@ -35582,10 +35544,8 @@
         "avgCharsPerPage": 647,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -38188,27 +38148,25 @@
       "model": "gemini-3.1-flash-lite-preview",
       "ingestLabel": "SZ-AAL-2026-06",
       "pidStatus": "",
-      "confidence": "",
-      "pageCount": 0,
+      "confidence": "low",
+      "pageCount": 14,
       "thumbnail": "https://gams.uni-graz.at/o:szd.3375/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 12084,
+        "emptyPages": 5,
+        "avgCharsPerPage": 1343,
+        "vlmConfidence": "low"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_image_mismatch"
-      ],
-      "blankPages": 0,
-      "contentPages": 0,
+      "needsReview": false,
+      "needsReviewReasons": [],
+      "blankPages": 5,
+      "contentPages": 9,
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasLayout": false,
       "hasGT": false
     },
@@ -38357,10 +38315,8 @@
         "avgCharsPerPage": 668,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 4,
       "dwrScore": 0,
@@ -38437,10 +38393,8 @@
         "avgCharsPerPage": 757,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -38790,10 +38744,8 @@
         "avgCharsPerPage": 687,
         "vlmConfidence": "medium"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -38870,10 +38822,8 @@
         "avgCharsPerPage": 859,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -38911,10 +38861,8 @@
         "avgCharsPerPage": 1078,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 2,
       "dwrScore": 0,
@@ -39108,10 +39056,8 @@
         "avgCharsPerPage": 521,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -39544,10 +39490,8 @@
         "avgCharsPerPage": 518,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 5,
       "dwrScore": 0,
@@ -39663,10 +39607,8 @@
         "avgCharsPerPage": 334,
         "vlmConfidence": "medium"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 4,
       "dwrScore": 0,
@@ -39862,10 +39804,8 @@
         "avgCharsPerPage": 466,
         "vlmConfidence": "medium"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 7,
       "dwrScore": 0,
@@ -40020,10 +39960,8 @@
         "avgCharsPerPage": 416,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 6,
       "dwrScore": 0,
@@ -40336,10 +40274,8 @@
         "avgCharsPerPage": 400,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 3,
       "dwrScore": 0,
@@ -40416,10 +40352,8 @@
         "avgCharsPerPage": 448,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 6,
       "dwrScore": 0,
@@ -40652,10 +40586,8 @@
         "avgCharsPerPage": 372,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -40732,10 +40664,8 @@
         "avgCharsPerPage": 409,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 7,
       "dwrScore": 0,
@@ -40851,10 +40781,8 @@
         "avgCharsPerPage": 1638,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 4,
       "dwrScore": 0,
@@ -44759,10 +44687,8 @@
         "avgCharsPerPage": 892,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 1,
       "contentPages": 3,
       "dwrScore": 0,
@@ -45151,10 +45077,8 @@
         "avgCharsPerPage": 477,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 6,
       "dwrScore": 0,
@@ -45270,10 +45194,8 @@
         "avgCharsPerPage": 470,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 6,
       "dwrScore": 0,
@@ -45623,10 +45545,8 @@
         "avgCharsPerPage": 873,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -46294,7 +46214,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
         "language_mismatch"
       ],
       "blankPages": 0,
@@ -47352,10 +47271,8 @@
         "avgCharsPerPage": 378,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 0,
       "contentPages": 4,
       "dwrScore": 0,
@@ -53532,10 +53449,8 @@
         "avgCharsPerPage": 838,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 4,
       "contentPages": 6,
       "dwrScore": 0,
@@ -86907,10 +86822,8 @@
         "avgCharsPerPage": 355,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 73,
       "contentPages": 73,
       "dwrScore": 0,
@@ -89450,7 +89363,7 @@
       ],
       "blankPages": 41,
       "contentPages": 122,
-      "dwrScore": 0.184,
+      "dwrScore": 0,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.04,
       "reviewStatus": null,
@@ -90455,10 +90368,8 @@
         "avgCharsPerPage": 813,
         "vlmConfidence": "medium"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 3,
       "contentPages": 5,
       "dwrScore": 0,
@@ -92979,10 +92890,8 @@
         "avgCharsPerPage": 1268,
         "vlmConfidence": "high"
       },
-      "needsReview": true,
-      "needsReviewReasons": [
-        "page_length_anomaly"
-      ],
+      "needsReview": false,
+      "needsReviewReasons": [],
       "blankPages": 2,
       "contentPages": 39,
       "dwrScore": 0,
@@ -95278,7 +95187,6 @@
       },
       "needsReview": true,
       "needsReviewReasons": [
-        "page_length_anomaly",
         "page_image_mismatch"
       ],
       "blankPages": 148,
@@ -95558,7 +95466,7 @@
       "needsReviewReasons": [],
       "blankPages": 72,
       "contentPages": 72,
-      "dwrScore": 0.4285,
+      "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
       "reviewStatus": null,
@@ -96158,7 +96066,7 @@
       ],
       "blankPages": 107,
       "contentPages": 129,
-      "dwrScore": 0.4163,
+      "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
       "reviewStatus": null,
@@ -96199,7 +96107,7 @@
       ],
       "blankPages": 50,
       "contentPages": 38,
-      "dwrScore": 0.4512,
+      "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
       "reviewStatus": null,
@@ -96384,6 +96292,13 @@
     },
     "ingestInfo": {
       "SZ-AAL-2026-06": "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan und Lotte Zweig (379 Objekte, GAMS-Ingest 10.06.2026)"
+    },
+    "collectionLabels": {
+      "lebensdokumente": "Lebensdokumente",
+      "werke": "Werke",
+      "aufsatzablage": "Aufsatzablage",
+      "korrespondenzen": "Korrespondenzen",
+      "autographen": "Briefkonvolute (SZ-AAL)"
     }
   }
 }

@@ -41,7 +41,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, nur wenige Wörter sind aufgrund der Frakturschrift oder kleiner Druckfehler leicht zweideutig (z.B. 'gefault' statt 'gefaßt')."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 21526,
     "total_words": 3293,
     "total_pages": 2,

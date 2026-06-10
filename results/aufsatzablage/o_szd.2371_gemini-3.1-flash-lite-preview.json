@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist deutlich lesbar. Bei 'Walte' könnte es sich um eine Abkürzung oder einen Eigennamen handeln, die Schrift ist jedoch eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 266,
     "total_words": 36,
     "total_pages": 3,

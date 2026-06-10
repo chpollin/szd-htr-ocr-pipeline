@@ -45,7 +45,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige Korrekturen sowie Überlagerungen auf. Das deutsche Zitat 'Ferscht' ist möglicherweise eine dialektale oder individuelle Schreibweise (evtl. 'Fürst' gemeint?)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2146,
     "total_words": 366,
     "total_pages": 2,

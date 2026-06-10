@@ -47,7 +47,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Transkription der Postkarten-Adressseite und des Textkörpers ist konsistent."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1320,
     "total_words": 231,
     "total_pages": 2,

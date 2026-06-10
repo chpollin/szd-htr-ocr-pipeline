@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist trotz der handschriftlichen Ergänzungen und des Einrisses am linken Rand sehr gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 350,
     "total_words": 60,
     "total_pages": 1,

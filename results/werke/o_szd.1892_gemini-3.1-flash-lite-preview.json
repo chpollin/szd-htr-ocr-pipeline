@@ -1040,7 +1040,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Korrekturen sind deutlich und in den Kontext integrierbar. Die Struktur der Seiten (Text/Leerseite) ist konsistent.; S.21-40: Der Text ist sehr gut lesbar, da es sich um eine gedruckte Vorlage handelt. Die handschriftlichen Korrekturen sind deutlich und wurden entsprechend den Anweisungen transkribiert.; S.41-60: Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen sind deutlich und wurden entsprechend der Anweisungen transkribiert.; S.61-80: Der Text ist sehr gut lesbar, da es sich um eine gedruckte Vorlage (Druckfahne) handelt. Keine handschriftlichen Korrekturen in diesem Abschnitt erkennbar.; S.81-100: Der Text ist ein klar gedrucktes Typoskript/Druckfahne. Die Lesbarkeit ist exzellent, keine nennenswerten Probleme bei der Transkription.; S.101-120: Der Text ist ein klarer, gut lesbarer Druck. Die Transkription ist aufgrund der hohen Qualität der Scans und der deutlichen Typografie sehr zuverlässig.; S.121-140: Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Keine handschriftlichen Korrekturen vorhanden.; S.141-146: Der Text ist ein klar gedruckter Text aus einem Buch (Zweig: Begegnungen). Die Lesbarkeit ist exzellent, keine handschriftlichen Korrekturen auf den abgebildeten Seiten erkennbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.6",
     "total_chars": 246375,
     "total_words": 39497,
     "total_pages": 72,
@@ -1349,7 +1349,6 @@
     "marker_uncertain_count": 9,
     "marker_illegible_count": 0,
     "marker_density": 0.0002,
-    "dwr_score": 0.4285,
     "duplicate_page_pairs": [
       [
         0,

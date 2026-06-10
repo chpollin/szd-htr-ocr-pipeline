@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist deutlich als Stefan Zweig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2523,
     "total_words": 394,
     "total_pages": 3,

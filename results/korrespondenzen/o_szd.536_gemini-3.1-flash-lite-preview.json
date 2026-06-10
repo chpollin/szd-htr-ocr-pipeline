@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar. Die Handschrift ist gut entzifferbar, die Abkürzungen (P.T., XI) sind eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 166,
     "total_words": 25,
     "total_pages": 2,

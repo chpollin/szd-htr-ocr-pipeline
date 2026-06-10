@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription auf Seite 3 ist aufgrund der überlagerten Farbskalen teilweise redundant zu Seite 1, aber vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7846,
     "total_words": 1172,
     "total_pages": 1,

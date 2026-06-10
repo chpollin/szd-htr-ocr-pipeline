@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar. Einzig bei 'j'aurai' besteht eine minimale Unsicherheit aufgrund der Schreibweise."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 627,
     "total_words": 106,
     "total_pages": 1,

@@ -172,7 +172,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein klares Typoskript. Die Lesbarkeit ist sehr hoch, es gibt keine nennenswerten Probleme bei der Transkription.; S.21-22: Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 17846,
     "total_words": 2658,
     "total_pages": 11,

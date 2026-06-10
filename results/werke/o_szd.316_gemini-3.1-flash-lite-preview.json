@@ -242,7 +242,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, da es sich überwiegend um Typoskripte handelt. Handschriftliche Ergänzungen sind klar zugeordnet.; S.21-32: Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr gut. Die wenigen handschriftlichen Korrekturen auf Seite 21 sind ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 33116,
     "total_words": 4977,
     "total_pages": 32,

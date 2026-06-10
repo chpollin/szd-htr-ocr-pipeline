@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Überlagerung durch die Farbskala auf dem dritten Bild."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7468,
     "total_words": 1079,
     "total_pages": 2,

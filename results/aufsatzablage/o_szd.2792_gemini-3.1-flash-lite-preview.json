@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist in gut lesbarer Fraktur gedruckt. Die wenigen unsicheren Stellen (z.B. 'vefiset' in Seite 1) sind auf die Druckqualität zurückzuführen. Die Struktur der Zeitung (Spalten) wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18352,
     "total_words": 2726,
     "total_pages": 2,

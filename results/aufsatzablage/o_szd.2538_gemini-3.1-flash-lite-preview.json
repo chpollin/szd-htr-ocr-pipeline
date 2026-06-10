@@ -137,7 +137,7 @@
     "confidence_notes": "Der Text ist ein gedrucktes Zeitschriftenheft, daher sehr gut lesbar. Die Transkription folgt dem Layout und dem Inhalt der Seiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 82223,
     "total_words": 14064,
     "total_pages": 16,

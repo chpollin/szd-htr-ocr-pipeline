@@ -8,8 +8,8 @@ import markdown
 import yaml
 
 from config import (
-    COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, INGEST_INFO, MODEL,
-    PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR, UNIT_TERMS,
+    COLLECTION_LABELS, COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS,
+    INGEST_INFO, MODEL, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR, UNIT_TERMS,
 )
 from tei_context import parse_tei_for_object
 
@@ -314,6 +314,7 @@ def build():
             # source of truth is config.py; the frontend only reads
             "unitTerms": UNIT_TERMS,
             "ingestInfo": INGEST_INFO,
+            "collectionLabels": COLLECTION_LABELS,
         },
     }
     CATALOG_PATH.write_text(

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 736,
     "total_words": 116,
     "total_pages": 1,

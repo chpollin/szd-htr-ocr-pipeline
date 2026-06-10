@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die durchgestrichenen Wörter und die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1813,
     "total_words": 356,
     "total_pages": 2,

@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und weist keine ungewöhnlichen Schwierigkeiten auf."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3557,
     "total_words": 592,
     "total_pages": 3,

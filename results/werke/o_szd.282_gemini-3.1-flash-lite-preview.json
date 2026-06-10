@@ -319,7 +319,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Ergänzungen sind deutlich und wurden entsprechend der Anweisungen transkribiert.; S.21-40: Der Text ist gut lesbar, die handschriftlichen Ergänzungen sind durch die Anweisungen und den Kontext gut zuzuordnen.; S.41-43: Der Text auf Seite 41 ist trotz der handschriftlichen Korrekturen gut lesbar. Die Seiten 42 und 43 sind leer."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 35953,
     "total_words": 5328,
     "total_pages": 21,

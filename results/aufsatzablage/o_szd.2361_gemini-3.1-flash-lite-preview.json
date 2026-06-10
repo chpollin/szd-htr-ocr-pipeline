@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die handschriftlichen Annotationen auf Seite 1 sind teilweise schwer zu entziffern, wurden aber als solche in den Notizen vermerkt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6993,
     "total_words": 1113,
     "total_pages": 2,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die Lesbarkeit ist sehr hoch, abgesehen von den durchscheinenden Texten auf den Rückseiten, die gemäß Anweisung ignoriert wurden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8147,
     "total_words": 1553,
     "total_pages": 2,

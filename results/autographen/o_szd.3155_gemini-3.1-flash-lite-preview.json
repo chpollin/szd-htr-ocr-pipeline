@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist charakteristisch. Einige Stellen sind durch Korrekturen oder Klammern leicht komplex, aber insgesamt eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2485,
     "total_words": 397,
     "total_pages": 4,

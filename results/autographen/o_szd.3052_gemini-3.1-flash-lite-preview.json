@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotiz auf Seite 1 ist aufgrund der Ausrichtung und der Platzierung am Rand etwas schwieriger zu lesen, aber inhaltlich eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2794,
     "total_words": 552,
     "total_pages": 1,

@@ -305,7 +305,7 @@
     "confidence_notes": "S.41-41: Der Großteil des Textes ist durch die Archiv-Skalen verdeckt. Nur wenige Fragmente sind lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20,
     "total_words": 4,
     "total_pages": 1,

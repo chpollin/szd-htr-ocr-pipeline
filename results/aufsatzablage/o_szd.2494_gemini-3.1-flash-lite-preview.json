@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die violetten Markierungen (Kreuze) beeinträchtigen die Lesbarkeit kaum."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 13904,
     "total_words": 2150,
     "total_pages": 6,

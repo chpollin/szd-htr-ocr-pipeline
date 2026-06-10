@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig am Ende des Briefes sind gut entzifferbar, trotz einiger orthographischer Eigenheiten (z.B. 'funchois', 'quich devopement')."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4399,
     "total_words": 807,
     "total_pages": 1,

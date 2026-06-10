@@ -1347,7 +1347,7 @@
     "confidence_notes": "S.41-60: Die Handschrift ist sehr flüchtig, mit vielen Korrekturen, Durchstreichungen und Einfügungen. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern.; S.141-160: Die Handschrift ist sehr flüchtig und weist viele Abkürzungen sowie unkonventionelle Buchstabenverbindungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte nur schwer zu entziffern.; S.181-189: Der Text ist gut lesbar, die wenigen unsicheren Stellen betreffen Eigennamen oder Abkürzungen am Zeilenende."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 33618,
     "total_words": 5437,
     "total_pages": 38,

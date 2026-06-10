@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist in Frakturschrift gedruckt und sehr gut lesbar. Die Struktur der Zeitungsausschnitte ist klar erkennbar. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 26251,
     "total_words": 4062,
     "total_pages": 4,

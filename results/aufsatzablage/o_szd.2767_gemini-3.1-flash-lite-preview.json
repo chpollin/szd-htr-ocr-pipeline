@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Wiederholung auf Seite 3 ist ein Teilausschnitt des Textes von Seite 1."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3938,
     "total_words": 563,
     "total_pages": 1,

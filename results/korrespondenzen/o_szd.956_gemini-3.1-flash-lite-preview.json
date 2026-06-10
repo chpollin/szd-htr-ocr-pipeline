@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist durch den Typendruck sehr klar lesbar. Die handschriftlichen Ergänzungen auf dem Formular sind teilweise überlagert oder unklar, beeinträchtigen aber nicht den Haupttext des Telegramms."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1098,
     "total_words": 178,
     "total_pages": 1,

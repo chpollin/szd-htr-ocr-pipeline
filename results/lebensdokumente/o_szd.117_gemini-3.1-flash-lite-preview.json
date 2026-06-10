@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Datum, Unterschriften) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4075,
     "total_words": 621,
     "total_pages": 4,

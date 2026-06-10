@@ -375,7 +375,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der klaren Typoskript-Vorlage gut lesbar. Handschriftliche Korrekturen wurden gemäß den Anweisungen erfasst.; S.41-51: Der Text ist gut lesbar, trotz zahlreicher handschriftlicher Korrekturen und Ergänzungen, die den Lesefluss an einigen Stellen erschweren."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 27494,
     "total_words": 4297,
     "total_pages": 17,

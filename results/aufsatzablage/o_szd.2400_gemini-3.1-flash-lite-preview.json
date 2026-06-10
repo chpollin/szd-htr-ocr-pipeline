@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Spaltenumbrüche. Die Transkription folgt dem Original exakt, inklusive der Druckfehler (z.B. „mermüdlich“)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9087,
     "total_words": 1371,
     "total_pages": 2,

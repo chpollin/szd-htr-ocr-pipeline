@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die mehrfachen Aufnahmen zeigen denselben Inhalt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 326,
     "total_words": 45,
     "total_pages": 3,

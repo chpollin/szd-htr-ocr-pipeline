@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der teilweise beschnittenen rechten Spalte auf Seite 2."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8934,
     "total_words": 1318,
     "total_pages": 2,

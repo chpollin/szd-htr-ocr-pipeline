@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Transkription folgt dem Original exakt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7715,
     "total_words": 1438,
     "total_pages": 2,

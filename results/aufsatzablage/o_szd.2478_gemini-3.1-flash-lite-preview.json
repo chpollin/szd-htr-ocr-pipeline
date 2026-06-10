@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist kurz und trotz der kursiven Handschrift Stefan Zweigs eindeutig lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 67,
     "total_words": 10,
     "total_pages": 1,

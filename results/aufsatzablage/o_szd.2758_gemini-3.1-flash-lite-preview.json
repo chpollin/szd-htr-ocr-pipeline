@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Wiederholung auf Seite 3 ist ein technisches Artefakt des Scans (Überlappung/Layout), der Text wurde originalgetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10682,
     "total_words": 1576,
     "total_pages": 2,

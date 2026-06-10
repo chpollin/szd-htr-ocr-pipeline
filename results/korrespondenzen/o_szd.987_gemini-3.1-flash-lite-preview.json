@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von einem Wort in Zeile 6, das aufgrund der Handschrift leicht interpretierbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 421,
     "total_words": 70,
     "total_pages": 1,

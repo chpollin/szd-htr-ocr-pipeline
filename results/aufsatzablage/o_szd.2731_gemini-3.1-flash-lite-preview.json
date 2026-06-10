@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich in violetter Tinte geschrieben. Die Struktur ist durch die verschiedenen Scans klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 193,
     "total_words": 15,
     "total_pages": 3,

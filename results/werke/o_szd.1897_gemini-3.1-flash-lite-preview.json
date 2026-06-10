@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist ein klarer Druck, die Lesbarkeit ist exzellent. Die Scans 2, 4, 6, 8 sind leere Rückseiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 15164,
     "total_words": 2168,
     "total_pages": 4,

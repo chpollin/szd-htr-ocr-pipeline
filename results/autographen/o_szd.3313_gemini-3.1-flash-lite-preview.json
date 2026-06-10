@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort wurde als {oder} ergänzt, da es über der Zeile eingefügt wurde."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1009,
     "total_words": 157,
     "total_pages": 2,

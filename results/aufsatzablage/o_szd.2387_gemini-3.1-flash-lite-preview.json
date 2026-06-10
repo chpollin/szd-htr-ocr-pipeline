@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die durchgestrichene Zeile auf Seite 3 ist aufgrund der Tintenführung gut als 'Der mordische Torture' (oder ähnlich) lesbar, wobei das letzte Wort aufgrund der Durchstreichung leicht unsicher ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 298,
     "total_words": 47,
     "total_pages": 4,

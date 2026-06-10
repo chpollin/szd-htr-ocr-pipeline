@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und klar. Einzig das Wort 'deus' in der Grußformel ist orthographisch ungewöhnlich (wahrscheinlich 'à bientôt' gemeint, aber 'deus' geschrieben)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1399,
     "total_words": 242,
     "total_pages": 1,

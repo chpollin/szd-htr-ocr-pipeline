@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist trotz der handschriftlichen Kursivschrift und der vertikalen Randnotiz gut lesbar. Die englische Sprache ist flüssig und der Kontext klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1576,
     "total_words": 299,
     "total_pages": 1,

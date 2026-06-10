@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die wenigen handschriftlichen Annotationen (Datumsstempel, Korrekturen) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6714,
     "total_words": 975,
     "total_pages": 1,

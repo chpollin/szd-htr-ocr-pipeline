@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr deutlich und gut lesbar. Einzig das Wort 'I' am Anfang der zweiten Zeile scheint ein Schreibfehler des Autors für 'it' zu sein, wurde aber originalgetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 698,
     "total_words": 139,
     "total_pages": 1,

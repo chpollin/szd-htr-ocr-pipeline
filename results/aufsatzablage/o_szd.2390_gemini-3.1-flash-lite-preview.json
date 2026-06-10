@@ -137,7 +137,7 @@
     "confidence_notes": "Der Text ist aufgrund der vielen Korrekturen, Durchstreichungen und Einfügungen (oft in roter Tinte oder Bleistift) sowie der schnellen, teils schwer lesbaren Handschrift Stefan Zweigs anspruchsvoll. Die Transkription gibt den Textverlauf inklusive der Korrekturen wieder."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 14660,
     "total_words": 2233,
     "total_pages": 8,

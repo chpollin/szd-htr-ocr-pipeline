@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist ein klar gedruckter Zeitungsausschnitt. Die Lesbarkeit ist durchgehend sehr gut."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9022,
     "total_words": 1357,
     "total_pages": 4,

@@ -47,7 +47,7 @@
     "confidence_notes": "Der Text ist ein klarer Druck, die handschriftliche Annotation auf Seite 1 ist gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5627,
     "total_words": 976,
     "total_pages": 3,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten. Die durchscheinenden Stellen auf der Rückseite wurden ignoriert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 715,
     "total_words": 136,
     "total_pages": 1,

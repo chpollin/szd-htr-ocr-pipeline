@@ -1307,7 +1307,7 @@
     "confidence_notes": "S.21-40: Die Handschrift ist gut lesbar, obwohl sie sehr dicht ist und viele Korrekturen sowie Einfügungen enthält. Die Struktur der Notizen ist konsistent.; S.41-60: Die Handschrift ist sehr flüchtig, enthält zahlreiche Korrekturen, Streichungen und Einfügungen, die den Lesefluss erschweren. Viele Wörter sind nur fragmentarisch lesbar oder durch die Korrekturen überlagert.; S.61-80: Die Handschrift ist flüchtig, enthält viele Korrekturen, Streichungen und Einfügungen. Die Lesbarkeit ist durch die violette Tinte und die teils sehr kleinen, schnellen Buchstaben erschwert. Einige Stellen sind aufgrund von Überlagerungen oder unklarer Syntax nur interpretativ lesbar.; S.141-160: Der Text besteht aus sehr fragmentarischen, oft durchgestrichenen und schwer lesbaren Entwürfen. Viele Wörter sind aufgrund der schnellen Handschrift und der Überlagerungen nur mutmaßlich lesbar.; S.181-184: Die Handschrift ist flüssig, aber teilweise schwer zu entziffern (z.B. 'Medianalrates', 'u'ar'). Die Farbskala auf Seite 184 verdeckt Teile des Textes, was die Lesung erschwert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 67952,
     "total_words": 10865,
     "total_pages": 57,

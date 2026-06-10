@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'habe' am Zeilenende wurde aufgrund des Kontextes und der Handschrift als 'hab[e]' ergänzt, da das 'e' leicht abgeschnitten oder flüchtig geschrieben ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 689,
     "total_words": 101,
     "total_pages": 2,

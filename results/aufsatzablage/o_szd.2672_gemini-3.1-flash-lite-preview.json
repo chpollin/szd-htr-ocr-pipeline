@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Wiederholungen auf dem Blatt sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 152,
     "total_words": 21,
     "total_pages": 3,

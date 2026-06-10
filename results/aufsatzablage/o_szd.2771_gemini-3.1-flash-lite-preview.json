@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist gut lesbar, abgesehen von dem Wort 'verloreirdischen', das vermutlich eine fehlerhafte Schreibweise für 'unterirdischen' ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 490,
     "total_words": 66,
     "total_pages": 2,

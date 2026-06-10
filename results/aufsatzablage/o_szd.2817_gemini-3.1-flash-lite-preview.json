@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Häkchen sind eindeutig als solche identifizierbar. Das 'E' in 'E[?]in' ist durch einen Tintenklecks oder eine Korrektur leicht überlagert, daher die Markierung."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 266,
     "total_words": 41,
     "total_pages": 1,

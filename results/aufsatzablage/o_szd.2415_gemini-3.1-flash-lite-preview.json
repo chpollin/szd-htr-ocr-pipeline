@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text besteht lediglich aus dem Namen 'Masaryk', der deutlich lesbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 64,
     "total_words": 8,
     "total_pages": 4,

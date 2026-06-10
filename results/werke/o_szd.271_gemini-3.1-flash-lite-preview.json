@@ -1187,7 +1187,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist flüchtig und weist viele Korrekturen sowie Überlagerungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenspuren schwer zu entziffern.; S.21-40: Die Handschrift ist flüchtig, enthält viele französische Zitate und Abkürzungen. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern.; S.61-80: Der Text ist klar lesbar, die Handschrift ist typisch für Stefan Zweig. Einige Seiten sind leer.; S.81-100: Alle Seiten sind leer und weisen keine Beschriftung auf.; S.101-120: Alle Seiten sind leer und weisen keine Beschriftung auf.; S.121-140: Alle Seiten sind unbeschriebene, linierte Seiten eines Notizbuchs.; S.141-160: Die meisten Seiten sind leer. Die letzte Seite (160) ist gut lesbar, trotz der flüchtigen Handschrift und der Mischung aus Deutsch und Französisch.; S.161-167: Die Handschrift ist teilweise flüchtig und weist Korrekturen sowie Überlagerungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenspuren schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 27647,
     "total_words": 4140,
     "total_pages": 37,

@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die handschriftliche Notiz auf Seite 4 ist ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8811,
     "total_words": 1347,
     "total_pages": 4,

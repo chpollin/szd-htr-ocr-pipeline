@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Zeitungsstruktur. Die Spaltenumbrüche wurden durch Leerzeilen markiert. Die Archivierungshilfen auf Seite 3 wurden als leere Seite mit Notiz erfasst, da sie den Text überlagern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 19107,
     "total_words": 2940,
     "total_pages": 1,

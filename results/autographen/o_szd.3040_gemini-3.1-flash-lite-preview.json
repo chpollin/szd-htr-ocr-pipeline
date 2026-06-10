@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf. Die Überlagerung durch die Farbskala auf Seite 3 beeinträchtigt die Lesbarkeit des Originals nicht, da der Text auf Seite 1 vollständig vorliegt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2073,
     "total_words": 399,
     "total_pages": 1,

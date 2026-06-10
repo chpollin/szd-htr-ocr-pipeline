@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist deutlich lesbar. Die Anordnung der Fragmente in den Scans wurde logisch zusammengeführt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 326,
     "total_words": 40,
     "total_pages": 3,

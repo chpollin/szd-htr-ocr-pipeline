@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Wiederholung auf Seite 5 mit den Skalen bestätigt die Lesung der Seite 3."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3552,
     "total_words": 678,
     "total_pages": 3,

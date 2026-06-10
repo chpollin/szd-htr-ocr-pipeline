@@ -66,7 +66,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift von Lotte Zweig. Die Archivierungshilfen (Skalen) verdecken teilweise den Text, dieser ist jedoch durch den Kontext und die Wiederholung auf anderen Scans eindeutig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6493,
     "total_words": 1267,
     "total_pages": 4,

@@ -165,7 +165,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein klar gedrucktes Dokument. Die Wiederholungen der Seiten 11-20 (identisch mit 1-10) bestätigen die Lesart.; S.21-21: Der Text ist trotz der Überlagerung durch die Archiv-Skalen gut lesbar. Die Struktur der Spalten wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 68157,
     "total_words": 10605,
     "total_pages": 21,

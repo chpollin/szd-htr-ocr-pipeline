@@ -84,11 +84,11 @@
     "confidence_notes": "Der Text besteht lediglich aus dem Wort 'Ypern', das zweimal auf dem Blatt erscheint. Die Lesung ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
-    "total_chars": 44,
-    "total_words": 8,
+    "version": "1.6",
+    "total_chars": 34,
+    "total_words": 6,
     "total_pages": 3,
-    "empty_pages": 1,
+    "empty_pages": 3,
     "blank_pages": 3,
     "color_chart_pages": 1,
     "content_pages": 3,
@@ -106,9 +106,9 @@
       12,
       0,
       5,
+      0,
       5,
-      5,
-      5,
+      0,
       12
     ],
     "chars_per_page_median": 5,

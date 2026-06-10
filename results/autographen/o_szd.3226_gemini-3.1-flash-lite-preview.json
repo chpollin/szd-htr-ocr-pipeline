@@ -129,7 +129,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es einige handschriftliche Ergänzungen und Korrekturen, die schwer zu entziffern sind (z.B. 'tehavat', 'BreukelenKamp')."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 14690,
     "total_words": 2171,
     "total_pages": 9,

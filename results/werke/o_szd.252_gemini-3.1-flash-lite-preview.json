@@ -711,7 +711,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der klaren Maschinenschrift gut lesbar. Handschriftliche Korrekturen wurden gemäß den Anweisungen in den Text integriert.; S.21-40: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind weitgehend eindeutig interpretierbar.; S.41-60: Die Transkription ist aufgrund der vielen handschriftlichen Korrekturen, Einfügungen und Durchstreichungen anspruchsvoll. Einige Stellen sind durch die Überlagerung von getipptem Text und handschriftlichen Anmerkungen schwer zu entziffern.; S.61-80: Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen (meist Korrekturen oder Einfügungen) gut möglich. Unsichere Stellen wurden entsprechend markiert.; S.81-99: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Handschriftliche Korrekturen wurden als solche erfasst."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 84526,
     "total_words": 12862,
     "total_pages": 49,

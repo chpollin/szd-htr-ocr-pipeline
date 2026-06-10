@@ -122,7 +122,7 @@
     "confidence_notes": "Der Text ist ein klares, maschinengeschriebenes Typoskript. Die Lesbarkeit ist sehr hoch, auch bei den Durchschlägen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10793,
     "total_words": 1784,
     "total_pages": 6,

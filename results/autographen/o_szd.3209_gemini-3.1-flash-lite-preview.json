@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, es handelt sich um ein klares Typoskript. Die wenigen handschriftlichen Ergänzungen/Unterschriften sind eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7497,
     "total_words": 1456,
     "total_pages": 2,

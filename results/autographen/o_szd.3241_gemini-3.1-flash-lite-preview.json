@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Wiederholung auf Seite 5 ist identisch mit Seite 4."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2530,
     "total_words": 390,
     "total_pages": 3,

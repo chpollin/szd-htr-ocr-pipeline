@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift. Die Struktur ist klar. Die zweite Seite enthält einen Text, der thematisch nicht zum ersten Dokument gehört, aber dennoch transkribiert wurde."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11300,
     "total_words": 1596,
     "total_pages": 2,

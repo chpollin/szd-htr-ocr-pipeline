@@ -47,7 +47,7 @@
     "confidence_notes": "Der Text ist aufgrund der maschinellen Vorlage und der klaren Handschrift sehr gut lesbar. Die Struktur wurde linear abgebildet."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1523,
     "total_words": 272,
     "total_pages": 1,

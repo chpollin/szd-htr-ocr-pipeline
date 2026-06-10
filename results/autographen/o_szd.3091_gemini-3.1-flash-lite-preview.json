@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Wiederholung auf Seite 3 ist durch die Archivierungshilfen (Farbskala/Grauskala) teilweise verdeckt, aber der Text ist durch den Kontext von Seite 1 eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4386,
     "total_words": 833,
     "total_pages": 1,

@@ -1173,7 +1173,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar. Die Struktur der Bibliographie ist klar erkennbar. Handschriftliche Ergänzungen wurden als solche transkribiert.; S.21-40: Die Transkription ist aufgrund der klaren Typoskripte und der strukturierten Anordnung sehr zuverlässig. Unsichere Stellen wurden mit [?] markiert.; S.41-60: Die Transkription ist aufgrund der klaren Typoskript-Struktur und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig. Einige wenige unsichere Stellen bei fremdsprachigen Titeln oder Abkürzungen wurden mit [?] markiert.; S.61-80: Die Transkription ist aufgrund der klaren Typoskript-Vorlage sehr zuverlässig. Handschriftliche Ergänzungen wurden als solche erfasst.; S.81-100: Der Text ist sehr gut lesbar, da es sich um eine gedruckte Bibliographie handelt. Die handschriftlichen Ergänzungen sind ebenfalls klar lesbar.; S.101-120: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschriften sehr zuverlässig. Unsichere Stellen wurden entsprechend markiert.; S.121-140: Der Text ist klar lesbar, da es sich um Typoskripte auf Papierstreifen handelt. Die wenigen handschriftlichen Ergänzungen (Nummerierungen) sind ebenfalls gut lesbar.; S.141-160: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Ergänzungen (Nummern) sind ebenfalls klar erkennbar.; S.161-165: Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die wenigen unsicheren Stellen (z.B. Fragezeichen bei Formatangaben) sind im Original bereits so vorhanden oder schwer lesbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.6",
     "total_chars": 122699,
     "total_words": 18745,
     "total_pages": 122,
@@ -1520,7 +1520,6 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.184,
     "duplicate_page_pairs": [
       [
         69,
@@ -1535,7 +1534,6 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [
-      0,
       53,
       87,
       89,

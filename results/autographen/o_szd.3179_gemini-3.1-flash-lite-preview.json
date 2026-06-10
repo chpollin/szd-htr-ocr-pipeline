@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort in Zeile 3 von Seite 3 ('unhovat') ist unklar, vermutlich ein Schreibfehler der Autorin für 'unhappy' oder 'unpleasant', wurde aber diplomatisch transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2981,
     "total_words": 566,
     "total_pages": 2,

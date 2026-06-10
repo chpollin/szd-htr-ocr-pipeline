@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Identifikation der Handschriften und Tintenfarben entspricht den Vorgaben."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 269,
     "total_words": 36,
     "total_pages": 3,

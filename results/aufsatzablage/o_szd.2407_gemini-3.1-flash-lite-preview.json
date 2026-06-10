@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist deutlich lesbar, die Handschrift ist klar. Die Strukturierung in zwei Blöcke auf Seite 1 ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1330,
     "total_words": 171,
     "total_pages": 3,

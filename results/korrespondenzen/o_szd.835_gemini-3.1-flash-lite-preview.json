@@ -31,7 +31,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist ein unleserliches Kürzel, was jedoch für Geschäftsbriefe dieser Zeit typisch ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1330,
     "total_words": 189,
     "total_pages": 1,

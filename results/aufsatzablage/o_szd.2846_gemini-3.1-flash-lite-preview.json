@@ -123,7 +123,7 @@
     "confidence_notes": "Der Text ist in einer sehr flüchtigen, teilweise unleserlichen Handschrift verfasst. Viele Wörter sind durchgestrichen, überschrieben oder aufgrund des Alters und der Tinte verblasst. Die Transkription ist daher mit vielen Unsicherheiten behaftet."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7736,
     "total_words": 1339,
     "total_pages": 12,

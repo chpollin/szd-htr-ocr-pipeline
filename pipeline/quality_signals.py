@@ -6,6 +6,7 @@ sie zu einem needs_review-Flag.
 v1.2: Leerseiten-Klassifikation.
 v1.4: Duplikat-Schwelle gesenkt (50 statt 200 Zeichen) fuer Halluzinationserkennung.
 v1.5: DWR entfernt (rho=0.05, wertlos), marker_density aus needs_review entfernt.
+v1.6: Umschlag-/Adressseiten von der Seitenlaengen-Anomalie ausgenommen.
 """
 
 import re
@@ -53,6 +54,13 @@ def _classify_page(page: dict) -> str:
         if not text:
             return "blank"
     return "content"
+
+
+def _is_envelope(page: dict) -> bool:
+    """Envelope/address pages are legitimately short — exempt from Signal 1."""
+    notes = (page.get("notes", "") or "").lower()
+    return any(kw in notes for kw in ("umschlag", "kuvert", "adressseite",
+                                       "envelope", "adressfeld"))
 
 
 def _detect_language(text: str) -> str:
@@ -173,10 +181,14 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     med = median(non_empty) if non_empty else 0.0
 
     # Signal 1: Seitenlängen-Anomalie (nur content pages, Schwelle: <10% des Median)
+    # Envelope pages exempt since v1.6: in the SZ-AAL letter set, 7 of 28 flags
+    # were short address sides measured against long letter pages (all confirmed
+    # correct in the 2026-06-10 agent triage).
     page_length_anomalies = []
     if med > 0:
         for i, c in enumerate(chars_per_page):
-            if page_types[i] == "content" and 0 < c < 0.1 * med:
+            if (page_types[i] == "content" and 0 < c < 0.1 * med
+                    and not _is_envelope(pages[i])):
                 page_length_anomalies.append(i)
 
     # Signal 2: Seiten-Bild-Abgleich (nur content pages vs. input images)
@@ -237,7 +249,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("language_mismatch")
 
     return {
-        "version": "1.5",
+        "version": "1.6",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),

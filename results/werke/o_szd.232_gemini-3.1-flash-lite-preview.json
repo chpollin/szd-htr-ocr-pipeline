@@ -207,7 +207,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist teilweise sehr flüchtig und weist viele Abkürzungen sowie Eigennamen auf, die schwer zu identifizieren sind. Die Bleistiftnotizen auf den Seiten 2, 4, 5, 6, 7 und 8 sind teilweise verblasst.; S.21-27: Die Handschrift auf Seite 25 ist sehr flüchtig und weist viele Korrekturen und Überlagerungen auf, was die Transkription erschwert. Die Seiten 23 und 27 sind durch Archivmaterialien (Briefkopf, Farbskala) teilweise überdeckt oder in ihrer Struktur komplex."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4722,
     "total_words": 744,
     "total_pages": 13,

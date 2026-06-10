@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Die vertikalen Randnotizen wurden logisch in den Textfluss integriert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3051,
     "total_words": 593,
     "total_pages": 1,

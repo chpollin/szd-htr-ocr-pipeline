@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Einzig das Wort 'distrea' (Zeile 17) scheint ein Schreibfehler des Autors für 'distractions' oder ähnlich zu sein, wurde aber originalgetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1911,
     "total_words": 380,
     "total_pages": 1,

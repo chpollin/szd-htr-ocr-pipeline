@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf. Die Korrekturen (durchgestrichene Wörter, Einfügungen) sind eindeutig erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1850,
     "total_words": 293,
     "total_pages": 2,

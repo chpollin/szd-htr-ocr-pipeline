@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Frakturschrift ist gut erhalten. Die Farbskalen auf Seite 3 verdecken den Text, aber da der Inhalt identisch mit Seite 2 ist, konnte die Transkription vollständig und sicher durchgeführt werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20354,
     "total_words": 2939,
     "total_pages": 2,

@@ -95,7 +95,7 @@
     "confidence_notes": "Die Handschrift ist flüssig, aber durch zahlreiche Korrekturen, Streichungen und Einfügungen (oft über der Zeile) an einigen Stellen schwer zu entziffern. Die Tinte ist teilweise verblasst."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10616,
     "total_words": 1493,
     "total_pages": 5,

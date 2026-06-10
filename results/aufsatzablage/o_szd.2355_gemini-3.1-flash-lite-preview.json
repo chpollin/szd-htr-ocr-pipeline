@@ -109,7 +109,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10772,
     "total_words": 1540,
     "total_pages": 6,

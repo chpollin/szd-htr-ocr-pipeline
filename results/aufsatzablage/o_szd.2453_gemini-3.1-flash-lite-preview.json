@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text enthält zahlreiche handschriftliche Korrekturen, Einfügungen und Streichungen, die teilweise schwer zu entziffern sind. Die Lesung der handschriftlichen Zusätze ist teilweise interpretativ."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8104,
     "total_words": 1212,
     "total_pages": 3,

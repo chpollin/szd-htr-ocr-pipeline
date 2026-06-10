@@ -711,7 +711,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein klares Typoskript mit gut lesbaren handschriftlichen Korrekturen. Die Struktur ist konsistent.; S.21-40: Der Text ist ein gut lesbares Typoskript mit einigen handschriftlichen Korrekturen, die eindeutig zugeordnet werden können.; S.41-60: Der Text ist ein gut lesbares Typoskript mit einigen handschriftlichen Korrekturen und Ergänzungen, die ebenfalls gut lesbar sind.; S.61-80: Die Transkription ist aufgrund der klaren Typoskript-Vorlage und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig.; S.81-99: Der Text ist ein klares Typoskript mit gut lesbaren handschriftlichen Korrekturen. Die Struktur ist durch die Seitenzahlen und den fortlaufenden Text eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 58881,
     "total_words": 9862,
     "total_pages": 49,

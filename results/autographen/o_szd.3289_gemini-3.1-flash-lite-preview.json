@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist klar lesbar, da es sich um eine Standard-Adressierung auf einem Hotel-Kuvert handelt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 396,
     "total_words": 60,
     "total_pages": 1,

@@ -1369,7 +1369,7 @@
     "confidence_notes": "S.81-100: Seite 81 ist aufgrund der Bleistiftnotizen und der vielen Durchstreichungen sehr schwer zu entziffern. Die restlichen Seiten sind leer.; S.101-120: Alle Seiten sind unbeschriebene, linierte Blätter eines Spiralblocks.; S.121-140: Die Handschrift ist sehr flüchtig und weist viele Korrekturen und Überlagerungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8138,
     "total_words": 1402,
     "total_pages": 14,

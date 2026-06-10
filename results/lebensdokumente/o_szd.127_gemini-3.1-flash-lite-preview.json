@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 1 und die rumänische Fassung auf Seite 3 sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1632,
     "total_words": 269,
     "total_pages": 2,

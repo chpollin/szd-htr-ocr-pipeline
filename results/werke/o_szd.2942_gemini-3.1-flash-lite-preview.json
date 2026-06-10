@@ -445,7 +445,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind weitgehend eindeutig zuordbar.; S.21-40: Der Text ist gut lesbar, die handschriftlichen Korrekturen und Randnotizen sind weitgehend entzifferbar. Einige wenige Stellen sind aufgrund der Durchschlag-Qualität oder der Handschrift leicht unsicher.; S.41-60: Der Text ist gut lesbar, aber die handschriftlichen Ergänzungen am Rand sind teilweise schwer zu entziffern und wurden daher mit [?] markiert.; S.61-61: Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 48492,
     "total_words": 7520,
     "total_pages": 30,

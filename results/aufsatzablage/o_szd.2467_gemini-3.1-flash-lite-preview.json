@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist ein klarer Drucksatz. Die Transkription ist vollständig und originalgetreu. Die Überlagerung durch die Farbskala auf Seite 5 beeinträchtigt die Lesbarkeit des darunterliegenden Textes nicht, da dieser bereits auf Seite 4 vollständig erfasst wurde."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11860,
     "total_words": 1770,
     "total_pages": 4,

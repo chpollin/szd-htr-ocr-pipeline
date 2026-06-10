@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Struktur der Seiten wurde durch die Faltung des Papiers auf den ersten Bildern leicht verdeckt, ist aber durch den Vergleich der Aufnahmen eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 248,
     "total_words": 36,
     "total_pages": 3,

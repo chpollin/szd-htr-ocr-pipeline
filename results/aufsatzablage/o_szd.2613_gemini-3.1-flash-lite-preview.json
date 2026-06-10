@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die wenigen unsicheren Stellen (z.B. 'unbeglofn') sind auf kleine Druckfehler oder leichte Unschärfen im Original zurückzuführen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 12634,
     "total_words": 1816,
     "total_pages": 2,

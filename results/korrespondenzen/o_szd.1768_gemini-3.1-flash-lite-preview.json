@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift auf der letzten Seite ist ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5467,
     "total_words": 749,
     "total_pages": 4,

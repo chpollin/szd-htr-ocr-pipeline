@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist ein klar gedrucktes Dokument. Die Lesbarkeit ist exzellent. Die Scans 6 und 7 enthalten Archivierungshilfen, die den Text teilweise überlagern, aber der Text ist durch die anderen Scans vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 29777,
     "total_words": 4360,
     "total_pages": 4,

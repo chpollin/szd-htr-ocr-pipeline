@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrektur 'bin' über dem durchgestrichenen 'ir' ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 455,
     "total_words": 74,
     "total_pages": 2,

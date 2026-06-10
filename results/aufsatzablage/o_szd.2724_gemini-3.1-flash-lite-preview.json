@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist gut lesbar, trotz der Frakturschrift und der Tatsache, dass es sich um einen Zeitungsausschnitt handelt. Die Fragmentierung auf Seite 2 ist deutlich erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6168,
     "total_words": 928,
     "total_pages": 2,

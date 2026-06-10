@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist gut lesbar, jedoch gibt es am rechten Rand von Seite 4 eine vertikal geschriebene Notiz, die aufgrund der Handschrift und der Platzierung schwer zu entziffern ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2478,
     "total_words": 415,
     "total_pages": 4,

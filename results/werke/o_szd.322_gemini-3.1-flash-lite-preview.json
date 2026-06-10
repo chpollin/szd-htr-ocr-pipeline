@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist aufgrund der zahlreichen Korrekturen, Durchstreichungen und Einfügungen sowie der schnellen, teils flüchtigen Handschrift Stefan Zweigs an vielen Stellen schwer zu entziffern. Die Lesung ist an einigen Stellen interpretativ."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9687,
     "total_words": 1278,
     "total_pages": 6,

@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die Farbskalen auf der letzten Seite verdecken Teile des Textes, diese sind jedoch aus den vorherigen Seiten rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18767,
     "total_words": 2851,
     "total_pages": 6,

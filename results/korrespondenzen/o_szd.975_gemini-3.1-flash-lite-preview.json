@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige Unsicherheit besteht in der Grußformel 'In Verehrung geben', da das letzte Wort etwas flüchtig geschrieben ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 383,
     "total_words": 59,
     "total_pages": 1,

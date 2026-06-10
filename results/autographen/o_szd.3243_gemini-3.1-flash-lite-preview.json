@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und weitgehend eindeutig. Die letzte Zeile der Adresse auf Seite 1 ist durchgestrichen und daher schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1247,
     "total_words": 210,
     "total_pages": 2,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist trotz der Frakturschrift und des Zeitungsformats sehr gut lesbar. Die wenigen unsicheren Stellen (z.B. Namen oder Eigennamen) wurden mit [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7644,
     "total_words": 1089,
     "total_pages": 1,

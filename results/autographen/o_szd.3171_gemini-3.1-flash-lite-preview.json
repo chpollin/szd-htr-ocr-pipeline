@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der teilweise überlagerten Texte am Rand. Die violette Tinte auf dem rosa Papier bietet einen guten Kontrast."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7456,
     "total_words": 1439,
     "total_pages": 2,

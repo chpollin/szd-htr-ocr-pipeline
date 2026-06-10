@@ -45,7 +45,7 @@
     "confidence_notes": "Die Handschrift von Stefan Zweig ist sehr flüchtig und weist zahlreiche Korrekturen sowie eine sehr individuelle Orthografie auf. Einige Wörter (insbesondere Eigennamen oder spezifische Begriffe wie 'Brazilitat' oder 'identpermenten') sind schwer zu entziffern und wurden nach bestem Wissen transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2904,
     "total_words": 467,
     "total_pages": 1,

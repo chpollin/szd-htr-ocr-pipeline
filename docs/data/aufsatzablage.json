@@ -247,7 +247,7 @@
           "page": 4,
           "transcription": "",
           "notes": "Spiegelverkehrte Ansicht des Hauptblattes (Durchscheinung).",
-          "type": "content",
+          "type": "blank",
           "edit_history": [
             {
               "original_transcription": "Die Wiederherstellung der\ngeistigen Internationale",
@@ -268,7 +268,7 @@
           "page": 6,
           "transcription": "",
           "notes": "Spiegelverkehrte Ansicht des Hauptblattes.",
-          "type": "content",
+          "type": "blank",
           "edit_history": [
             {
               "original_transcription": "Die Wiederherstellung der\ngeistigen Internationale",
@@ -291,23 +291,23 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 457,
-        "total_words": 45,
-        "total_pages": 6,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 6,
+        "total_chars": 357,
+        "total_words": 35,
+        "total_pages": 4,
+        "empty_pages": 2,
+        "blank_pages": 2,
+        "content_pages": 4,
         "color_chart_pages": 1,
         "chars_per_page": [
           103,
           50,
           50,
-          50,
+          0,
           51,
-          50,
+          0,
           103
         ],
-        "chars_per_page_median": 50.0,
+        "chars_per_page_median": 50.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
@@ -859,10 +859,10 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 44,
-        "total_words": 8,
+        "total_chars": 34,
+        "total_words": 6,
         "total_pages": 3,
-        "empty_pages": 1,
+        "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
         "color_chart_pages": 1,
@@ -870,9 +870,9 @@
           12,
           0,
           5,
+          0,
           5,
-          5,
-          5,
+          0,
           12
         ],
         "chars_per_page_median": 5,

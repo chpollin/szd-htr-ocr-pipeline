@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Signatur unter 'KURVERWALTUNG BAD HOMBURG' ist unleserlich, daher als solche markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 472,
     "total_words": 70,
     "total_pages": 2,

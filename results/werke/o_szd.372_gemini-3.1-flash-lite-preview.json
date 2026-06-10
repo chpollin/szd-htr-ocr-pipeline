@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist ein klarer Druck, sehr gut lesbar. Keine handschriftlichen Ergänzungen vorhanden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2599,
     "total_words": 397,
     "total_pages": 3,

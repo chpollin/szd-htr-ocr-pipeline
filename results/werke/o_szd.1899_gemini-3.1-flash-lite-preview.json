@@ -137,7 +137,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine gedruckte Vorlage handelt. Die handschriftlichen Korrekturen sind klar identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 30697,
     "total_words": 4543,
     "total_pages": 8,

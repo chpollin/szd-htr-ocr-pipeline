@@ -48,7 +48,7 @@
     "reviewed_at": "2026-04-02T20:00:00Z"
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1607,
     "total_words": 247,
     "total_pages": 1,

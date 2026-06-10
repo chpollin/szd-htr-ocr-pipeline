@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'nicht' in der Zeile 'geht die Visum-Schreiberei nicht nicht' scheint eine Wiederholung oder ein Schreibfehler des Autors zu sein, daher als 'nicht[?]' markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2594,
     "total_words": 424,
     "total_pages": 1,

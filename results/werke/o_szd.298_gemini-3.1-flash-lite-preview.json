@@ -487,7 +487,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist flüchtig, weist viele Korrekturen und Durchstreichungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenspuren schwer zu entziffern.; S.41-60: Der Text ist gut lesbar, die Handschrift ist typisch für Zweig. Einige Stellen sind durchgestrichen oder mit Bleistift korrigiert, was die Transkription an diesen Stellen leicht erschwert, aber insgesamt ist der Text gut verständlich.; S.61-67: Der Text ist gut lesbar, trotz der typischen Zweig-Handschrift und einiger Korrekturen. Die Struktur der Dialoge ist klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 19181,
     "total_words": 3242,
     "total_pages": 38,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Farbskalen verdecken teilweise den Text, dieser ist jedoch durch die anderen Scans vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6600,
     "total_words": 1273,
     "total_pages": 2,

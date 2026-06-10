@@ -46,7 +46,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift und der französischen Sprache. Die wenigen Korrekturen (durchgestrichen) sind eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1979,
     "total_words": 357,
     "total_pages": 3,

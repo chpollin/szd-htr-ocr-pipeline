@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist ein klar lesbares Maschinendokument. Die Unterschrift ist deutlich, wenn auch in einer anderen Farbe als der restliche Text."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1286,
     "total_words": 186,
     "total_pages": 1,

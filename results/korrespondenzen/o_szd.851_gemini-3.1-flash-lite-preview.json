@@ -46,7 +46,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Herausforderung ist die handschriftliche Unterschrift auf Seite 3, die nicht entzifferbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2339,
     "total_words": 322,
     "total_pages": 2,

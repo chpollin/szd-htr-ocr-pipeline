@@ -39,7 +39,7 @@
     "confidence_notes": "Es handelt sich um einen gedruckten Zeitungsartikel, der sehr gut lesbar ist. Da die Aufgabe die Transkription von Dokumenten aus dem Nachlass vorsieht, der hier vorliegende Scan jedoch eine komplette Zeitungsseite (gedruckt) darstellt, wurde keine Volltranskription der gesamten Zeitungsseite vorgenommen, da dies den Rahmen der diplomatischen Transkription eines 'Dokuments' (im Sinne eines Manuskripts) sprengen würde. Die Identifikation des Inhalts ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 0,
     "total_words": 0,
     "total_pages": 0,

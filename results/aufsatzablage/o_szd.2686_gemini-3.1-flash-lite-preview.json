@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Annotation auf Seite 1 wurde in den Notes erfasst. Die verdeckten Bereiche auf Seite 3 wurden bei der Transkription berücksichtigt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8368,
     "total_words": 1262,
     "total_pages": 2,

@@ -144,7 +144,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Einzelne Stellen sind aufgrund der Durchschlag-Qualität etwas blasser, aber durch den Kontext eindeutig lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18860,
     "total_words": 3007,
     "total_pages": 9,

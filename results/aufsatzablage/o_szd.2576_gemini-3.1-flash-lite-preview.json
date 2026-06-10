@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Transkription auf Seite 3 ist aufgrund der überlagerten Farbskalen lückenhaft, was jedoch durch Seite 1 vollständig kompensiert wird."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6362,
     "total_words": 1030,
     "total_pages": 2,

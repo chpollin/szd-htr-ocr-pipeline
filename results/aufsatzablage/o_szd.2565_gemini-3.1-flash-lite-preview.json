@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Spaltenumbrüche. Die Archiv-Farbskala verdeckt in den letzten beiden Bildern Teile des Textes, die jedoch aus den vorherigen Bildern rekonstruierbar sind."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20630,
     "total_words": 3207,
     "total_pages": 5,

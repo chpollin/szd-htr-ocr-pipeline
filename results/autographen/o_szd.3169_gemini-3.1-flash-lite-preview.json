@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, sowohl die Handschrift als auch das Typoskript. Die Struktur ist durch die Scans klar vorgegeben."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7197,
     "total_words": 1413,
     "total_pages": 2,

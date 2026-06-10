@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Unterschrift auf der zweiten Seite ist als Stempel erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2064,
     "total_words": 304,
     "total_pages": 2,

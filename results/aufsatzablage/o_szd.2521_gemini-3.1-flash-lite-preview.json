@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Unschärfe an den Rändern. Die handschriftliche Notiz am unteren Rand ist ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8587,
     "total_words": 1209,
     "total_pages": 1,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Überlagerung durch die Archivierungsskala auf Seite 3. Die Transkription folgt dem Originaltext inklusive der typischen Fraktur-Besonderheiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 12025,
     "total_words": 1828,
     "total_pages": 2,

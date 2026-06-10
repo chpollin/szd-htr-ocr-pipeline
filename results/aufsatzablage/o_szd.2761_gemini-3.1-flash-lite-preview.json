@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist klar gedruckt und gut lesbar. Die Frakturschrift stellt keine Probleme dar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5787,
     "total_words": 921,
     "total_pages": 4,

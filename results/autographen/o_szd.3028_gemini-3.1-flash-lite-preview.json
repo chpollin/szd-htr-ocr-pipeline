@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Korrekturen sind gut lesbar. Die 'help[?]' Stelle ist aufgrund eines kleinen Tintenkleckses leicht unsicher, aber kontextuell eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2423,
     "total_words": 423,
     "total_pages": 1,

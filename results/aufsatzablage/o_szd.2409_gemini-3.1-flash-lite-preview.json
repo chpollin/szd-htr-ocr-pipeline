@@ -109,7 +109,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Fraktur-Schrift ist klar. Die Annotationen auf der ersten Seite sind deutlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 31061,
     "total_words": 4563,
     "total_pages": 12,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die Archivierungshilfen auf Seite 3 verdecken Teile des Textes, diese sind jedoch durch den Vergleich mit Seite 1 vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 21202,
     "total_words": 3630,
     "total_pages": 2,

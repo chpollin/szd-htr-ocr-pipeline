@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Fraktur-Schrift ist klar gedruckt. Die handschriftlichen Annotationen am Rand sind ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4172,
     "total_words": 624,
     "total_pages": 1,

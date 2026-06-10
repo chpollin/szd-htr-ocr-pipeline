@@ -725,7 +725,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist teilweise sehr flüchtig und weist viele Abkürzungen sowie unleserliche Stellen auf, insbesondere bei den griechischen Namen und den durchgestrichenen Passagen.; S.61-80: Die Handschrift ist flüchtig, teilweise sind Wörter durchgestrichen oder überlagert. Einige Passagen sind aufgrund der schnellen Schreibweise und der Tinte-auf-Papier-Beschaffenheit schwer zu entziffern.; S.101-101: Der Text auf dem Etikett ist gut lesbar, obwohl das Papier einen Riss aufweist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 17240,
     "total_words": 3142,
     "total_pages": 39,

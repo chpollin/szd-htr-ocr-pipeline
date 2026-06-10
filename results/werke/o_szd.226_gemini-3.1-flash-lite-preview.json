@@ -627,7 +627,7 @@
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind weitgehend entzifferbar. Die Struktur der Typoskripte ist konsistent.; S.21-40: Die Transkription ist aufgrund der zahlreichen handschriftlichen Korrekturen, Einfügungen und Durchstreichungen im Typoskript anspruchsvoll. Einige Stellen sind aufgrund der Überlagerung von getipptem und handschriftlichem Text schwer zu entziffern.; S.41-60: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind weitgehend eindeutig zu entziffern.; S.61-80: Die Transkription ist aufgrund der zahlreichen, teils überlappenden handschriftlichen Korrekturen und Ergänzungen in violettem Stift sowie der Durchschlag-Qualität des Typoskripts an einigen Stellen (besonders bei den Korrekturen) als 'medium' einzustufen. Die Lesbarkeit ist durch die Korrekturen teilweise stark beeinträchtigt.; S.81-87: Die Dokumente enthalten zahlreiche handschriftliche Korrekturen, Streichungen und Einfügungen, die sich teilweise überschneiden und schwer zu entziffern sind. Die Transkription gibt den Textfluss unter Berücksichtigung dieser Korrekturen wieder."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 76071,
     "total_words": 10727,
     "total_pages": 44,

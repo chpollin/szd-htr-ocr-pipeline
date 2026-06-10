@@ -39,7 +39,7 @@
     "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Korrekturen auf Seite 2 sind teilweise flüchtig geschrieben, mit Bleistift, und teilweise durch Überlagerung oder Verblassung schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4098,
     "total_words": 638,
     "total_pages": 2,

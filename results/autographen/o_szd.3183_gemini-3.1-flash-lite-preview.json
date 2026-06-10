@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Lotte und Stefan Zweig ist klar. Die Struktur des Briefes ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4143,
     "total_words": 805,
     "total_pages": 2,

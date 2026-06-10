@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Sprache ist Französisch, nicht Deutsch wie in der Aufgabenstellung vermerkt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 764,
     "total_words": 133,
     "total_pages": 2,

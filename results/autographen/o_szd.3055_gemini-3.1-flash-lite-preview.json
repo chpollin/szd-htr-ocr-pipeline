@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und trotz der kursiven Form gut zu entziffern. Die Anmerkung von Lotte am Ende ist ebenfalls klar lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1310,
     "total_words": 207,
     "total_pages": 2,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'prixirt' ist aufgrund der Handschrift leicht unsicher, scheint aber im Kontext von 'etwas prixirt' (vielleicht 'privat' oder 'fixiert' gemeint, aber so geschrieben) korrekt transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1374,
     "total_words": 216,
     "total_pages": 3,

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift auf der ersten Seite ist aufgrund der flüchtigen Handschrift schwer zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 642,
     "total_words": 109,
     "total_pages": 3,

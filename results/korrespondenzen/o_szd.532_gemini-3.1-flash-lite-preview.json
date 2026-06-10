@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Ergänzungen auf der Postkarte sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 408,
     "total_words": 65,
     "total_pages": 2,

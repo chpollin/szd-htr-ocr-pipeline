@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige Unsicherheit besteht bei dem Wort 'Werd[?]en', da das 'e' durch den Haken leicht überdeckt ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 592,
     "total_words": 94,
     "total_pages": 1,

@@ -277,7 +277,7 @@
     "confidence_notes": "S.21-37: Die Dokumente sind gut lesbar, da es sich überwiegend um Typoskripte handelt. Die handschriftlichen Korrekturen sind im Kontext gut verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 32710,
     "total_words": 4779,
     "total_pages": 12,

@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die durchgestrichenen Stellen auf der Rückseite des Umschlags sind schwer zu entziffern, daher mit [?] markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1154,
     "total_words": 188,
     "total_pages": 3,

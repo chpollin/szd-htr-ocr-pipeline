@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Frakturschrift ist klar. Die wenigen unsicheren Stellen (z.B. 'fordiniert') sind als solche markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9854,
     "total_words": 1447,
     "total_pages": 2,

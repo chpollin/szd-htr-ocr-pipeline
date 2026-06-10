@@ -584,7 +584,7 @@
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift sehr zuverlässig. Einige Blätter sind Duplikate oder Rückseiten mit Farbskalen, was die hohe Konfidenz stützt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 49463,
     "total_words": 7571,
     "total_pages": 39,
@@ -840,12 +840,8 @@
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      0
-    ],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_length_anomaly"
-    ]
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

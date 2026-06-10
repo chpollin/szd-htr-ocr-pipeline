@@ -179,7 +179,7 @@
     "confidence_notes": "S.21-23: Der Text ist sehr gut lesbar, trotz der mehrspaltigen Struktur und der eingestreuten ungarischen Werbeanzeigen. Die Transkription folgt den Regeln für diplomatische Wiedergabe."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11889,
     "total_words": 1865,
     "total_pages": 2,

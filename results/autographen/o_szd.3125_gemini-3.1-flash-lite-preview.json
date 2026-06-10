@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die wenigen handschriftlichen Korrekturen und die durch Risse/Klebestreifen verdeckten Stellen konnten durch den Kontext sicher rekonstruiert werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4341,
     "total_words": 811,
     "total_pages": 1,

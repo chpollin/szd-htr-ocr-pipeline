@@ -132,13 +132,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": {
         "category": "consensus_divergent",
@@ -1328,13 +1324,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -1569,13 +1561,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -1963,14 +1951,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          5,
-          6
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -2256,13 +2239,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          5
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -2762,13 +2741,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -2925,14 +2900,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0,
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -3347,13 +3317,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -3508,13 +3474,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          6
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -3737,13 +3699,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -9775,13 +9733,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -10502,14 +10456,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          4,
-          5
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -10723,13 +10672,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -11400,14 +11345,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0,
-          1
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -12582,13 +12522,9 @@
         "language_expected": "de",
         "language_detected": "fr",
         "language_match": false,
-        "page_length_anomalies": [
-          4,
-          5
-        ],
+        "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_length_anomaly",
           "language_mismatch"
         ]
       },
@@ -14324,13 +14260,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -24631,14 +24563,9 @@
         "language_expected": "en",
         "language_detected": "en",
         "language_match": true,
-        "page_length_anomalies": [
-          8,
-          9
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null

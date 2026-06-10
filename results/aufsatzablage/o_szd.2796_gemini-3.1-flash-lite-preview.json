@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz oben rechts wurde transkribiert. Die Farbskala auf Seite 3 verdeckt Teile des Textes, diese konnten jedoch durch den Vergleich mit Seite 1 vollständig rekonstruiert werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3638,
     "total_words": 527,
     "total_pages": 1,

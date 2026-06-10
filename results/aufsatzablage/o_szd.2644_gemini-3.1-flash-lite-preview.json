@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist in tschechischer Sprache verfasst und in einer gut lesbaren, zeitgenössischen Druckschrift gesetzt. Die Scans sind von hoher Qualität, was eine präzise Transkription ermöglicht. Es gibt keine nennenswerten Leseprobleme."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 34680,
     "total_words": 3750,
     "total_pages": 2,

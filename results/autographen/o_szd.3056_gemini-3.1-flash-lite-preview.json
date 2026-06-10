@@ -45,7 +45,7 @@
     "confidence_notes": "Der Haupttext ist gut lesbar. Die vertikale Randnotiz am linken Rand ist jedoch schwer zu entziffern, da sie sehr klein geschrieben ist und teilweise ineinander übergeht."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2243,
     "total_words": 431,
     "total_pages": 1,

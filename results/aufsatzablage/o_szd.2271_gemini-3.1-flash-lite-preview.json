@@ -193,7 +193,7 @@
     "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die Durchschläge sind ebenfalls gut lesbar.; S.21-25: Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 33849,
     "total_words": 4873,
     "total_pages": 12,

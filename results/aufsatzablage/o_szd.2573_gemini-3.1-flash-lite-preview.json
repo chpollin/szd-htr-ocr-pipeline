@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die Mehrfachscans der gleichen Seiten wurden konsistent transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20035,
     "total_words": 3051,
     "total_pages": 5,

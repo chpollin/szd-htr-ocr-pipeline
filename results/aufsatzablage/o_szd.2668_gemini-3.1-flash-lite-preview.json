@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Frakturschrift ist klar. Die Spaltenumbrüche wurden logisch zusammengeführt. Die Fragmente am unteren Rand (Börsenbericht) wurden als solche erkannt und nicht in den Haupttext integriert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9098,
     "total_words": 1283,
     "total_pages": 2,

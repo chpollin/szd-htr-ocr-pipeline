@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Überlagerungen durch die Farbskalen in Bild 5 wurden bei der Transkription berücksichtigt (nur sichtbare Teile transkribiert)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9694,
     "total_words": 1449,
     "total_pages": 5,

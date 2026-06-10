@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist trotz der Archiv-Farbskalen und der leichten Unschärfe durch die Scans sehr gut lesbar. Die Frakturschrift ist klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 15455,
     "total_words": 2248,
     "total_pages": 3,

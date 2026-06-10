@@ -59,7 +59,7 @@
     "confidence_notes": "Die Handschrift ist sehr kursiv und weist einige schwer lesbare Wörter auf (z.B. 'daswinten', 'Verorsteleute', 'dritte'). Die Tinte ist teilweise verblasst."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1307,
     "total_words": 204,
     "total_pages": 3,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die Archiv-Hilfsmittel auf Seite 3 verdecken Teile des Textes, die jedoch auf Seite 1 vollständig lesbar sind."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6717,
     "total_words": 954,
     "total_pages": 2,

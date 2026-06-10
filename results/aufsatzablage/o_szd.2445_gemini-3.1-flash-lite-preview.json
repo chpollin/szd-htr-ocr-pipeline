@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die wenigen Unklarheiten (z.B. durch den Falz oder die Archivierungsskala) konnten durch den Kontext der anderen Seiten oder den logischen Satzbau aufgelöst werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11034,
     "total_words": 1564,
     "total_pages": 2,

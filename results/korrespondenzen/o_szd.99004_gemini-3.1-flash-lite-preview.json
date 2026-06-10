@@ -62,7 +62,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es einige Stellen mit schwieriger Handschrift (z.B. 'am besten in mich zu Hause Kosten' auf Seite 1, 'Mischpoche' auf Seite 2) und einige Korrekturen/Einfügungen, die die Lesbarkeit leicht erschweren."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2486,
     "total_words": 398,
     "total_pages": 4,

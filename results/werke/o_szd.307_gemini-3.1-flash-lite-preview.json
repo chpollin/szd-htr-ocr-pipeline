@@ -263,7 +263,7 @@
     "confidence_notes": "S.1-20: Die Handschriften sind teilweise sehr flüchtig, durchgestrichen oder fragmentarisch, was die Lesung erschwert.; S.21-35: Einige handschriftliche Notizen sind aufgrund der verblassten Tinte oder der flüchtigen Schrift schwer zu entziffern. Die Struktur der Formularstreifen ist klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2677,
     "total_words": 450,
     "total_pages": 31,

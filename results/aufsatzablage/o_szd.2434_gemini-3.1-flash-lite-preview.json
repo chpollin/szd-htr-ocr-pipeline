@@ -123,7 +123,7 @@
     "confidence_notes": "Der Text ist ein gedruckter Separatdruck und daher sehr gut lesbar. Keine handschriftlichen Ergänzungen vorhanden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18216,
     "total_words": 2671,
     "total_pages": 11,

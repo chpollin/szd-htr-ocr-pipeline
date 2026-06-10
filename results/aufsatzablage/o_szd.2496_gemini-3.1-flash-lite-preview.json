@@ -95,7 +95,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die wenigen durch die Archiv-Skala verdeckten Zeilen auf Seite 11 konnten durch den Abgleich mit Seite 9 zweifelsfrei rekonstruiert werden."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8452,
     "total_words": 1578,
     "total_pages": 5,

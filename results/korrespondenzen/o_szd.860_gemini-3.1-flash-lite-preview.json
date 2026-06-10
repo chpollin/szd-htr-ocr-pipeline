@@ -46,7 +46,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die Lesbarkeit ist sehr gut, abgesehen von der handschriftlichen Unterschrift auf Seite 3, die jedoch als solche erkennbar ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2200,
     "total_words": 306,
     "total_pages": 2,

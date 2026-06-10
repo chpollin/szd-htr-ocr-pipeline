@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Lotte und Stefan Zweig ist klar erkennbar. Die wenigen Korrekturen im Text (wie 'than' über der Zeile) wurden gemäß den Regeln transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2952,
     "total_words": 565,
     "total_pages": 2,

@@ -501,7 +501,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der zahlreichen handschriftlichen Korrekturen, Überlagerungen und der teilweise blassen Durchschlag-Qualität an einigen Stellen (insbesondere bei den Korrekturen) schwierig. Die Lesung der handschriftlichen Ergänzungen erfolgte nach bestem Wissen.; S.41-60: Die Transkription ist aufgrund der zahlreichen handschriftlichen Korrekturen, Durchstreichungen und Randnotizen, die teilweise den gedruckten Text überlagern oder ersetzen, komplex. Die Lesbarkeit ist bei den Durchschlägen teilweise eingeschränkt."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 37442,
     "total_words": 5668,
     "total_pages": 20,

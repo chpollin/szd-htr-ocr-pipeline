@@ -67,7 +67,7 @@
     "confidence_notes": "Das Wort in der Klammer '(~~k~~[?] Wort der Teilnahme)' ist aufgrund der schnellen Handschrift und der Durchstreichung schwer zu entziffern. Der Rest ist gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 334,
     "total_words": 39,
     "total_pages": 3,

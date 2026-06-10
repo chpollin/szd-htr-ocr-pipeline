@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift auf Seite 5 ist zwar handschriftlich, aber gut als 'Herbert Reichner' identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5258,
     "total_words": 775,
     "total_pages": 3,

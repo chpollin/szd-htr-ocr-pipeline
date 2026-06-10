@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen sind deutlich als solche erkennbar und wurden entsprechend transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4282,
     "total_words": 638,
     "total_pages": 3,

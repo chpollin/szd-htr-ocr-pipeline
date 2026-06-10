@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Annotation am Rand ist aufgrund der Überlagerung durch den Zeitungsdruck und der Bleistift-Schrift leicht unsicher, aber im Kontext des Datums gut interpretierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5483,
     "total_words": 859,
     "total_pages": 1,

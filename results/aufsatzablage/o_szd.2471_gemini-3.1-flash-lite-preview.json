@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist trotz der Überlagerung durch die Archivierungsskalen auf dem dritten Bild und der leichten Unschärfe im Originalscan sehr gut lesbar. Die Fraktur-Schrift ist klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6307,
     "total_words": 916,
     "total_pages": 0,

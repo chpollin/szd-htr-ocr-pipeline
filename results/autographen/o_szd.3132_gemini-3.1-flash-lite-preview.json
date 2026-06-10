@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und typisch für Stefan Zweig. Einzig das Wort 'Daarbarheit' ist orthographisch unklar, wurde aber buchstabengetreu transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1583,
     "total_words": 251,
     "total_pages": 2,

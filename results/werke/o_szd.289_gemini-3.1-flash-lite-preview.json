@@ -809,7 +809,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist flüchtig und weist viele Korrekturen, Durchstreichungen und Einfügungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern.; S.21-40: Die Handschrift ist gut lesbar, die Korrekturen und Einfügungen sind eindeutig zuzuordnen.; S.41-60: Der Text ist durchgehend gut lesbar, die Handschrift ist typisch für Stefan Zweig. Einige wenige Stellen sind aufgrund von Durchstreichungen oder Überlagerungen leicht unsicher, aber der Kontext ist klar.; S.81-100: Die Handschrift ist flüchtig und weist viele individuelle Kürzel auf. Einige Wörter sind aufgrund der Tintenführung und der schnellen Schreibweise schwer zu entziffern.; S.101-113: Der Text ist in einer flüchtigen, teils schwer lesbaren Handschrift verfasst. Einige Wörter sind aufgrund von Tintenfluss oder Schreibgeschwindigkeit nur kontextuell erschließbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 39685,
     "total_words": 6804,
     "total_pages": 62,

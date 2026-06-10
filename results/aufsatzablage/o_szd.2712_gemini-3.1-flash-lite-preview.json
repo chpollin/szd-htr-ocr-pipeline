@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die wenigen unsicheren Stellen resultieren aus der kleinen Schriftgröße oder leichten Unschärfen im Scan."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9988,
     "total_words": 1418,
     "total_pages": 2,

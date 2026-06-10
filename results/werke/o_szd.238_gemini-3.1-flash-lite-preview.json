@@ -587,7 +587,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Ergänzungen sind in violetter Tinte und gut lesbar, auch wenn sie teilweise den Text überlagern oder am Rand stehen.; S.21-40: Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen sind teilweise schwer lesbar, aber der Haupttext ist sehr gut lesbar.; S.41-60: Der Text ist ein Typoskript, das sehr gut lesbar ist. Die handschriftlichen Ergänzungen sind ebenfalls gut lesbar.; S.61-80: Der Text ist ein klares Typoskript. Die wenigen handschriftlichen Korrekturen/Anmerkungen auf Seite 61 sind zwar teilweise überlagert, aber der Haupttext ist sehr gut lesbar.; S.81-81: Der Text ist ein klares Typoskript. Die durch die Farbskala verdeckten Wortanfänge sind aufgrund des Kontextes eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 68241,
     "total_words": 11205,
     "total_pages": 40,

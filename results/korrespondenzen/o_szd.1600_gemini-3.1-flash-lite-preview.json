@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. 'gänzlich' wurde als 'gänzlich[?]' markiert, da das 'l' im Typoskript leicht verschwommen ist, aber der Kontext eindeutig ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1033,
     "total_words": 170,
     "total_pages": 1,

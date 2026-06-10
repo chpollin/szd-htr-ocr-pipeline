@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen unsicheren Stellen resultieren aus Druckfehlern im Original oder leichten Unschärfen im Faksimile, die jedoch den Sinn nicht beeinträchtigen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4482,
     "total_words": 676,
     "total_pages": 1,

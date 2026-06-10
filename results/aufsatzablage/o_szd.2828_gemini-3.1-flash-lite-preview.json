@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr kurz und klar lesbar. Die handschriftlichen Haken und die Ziffer '10' sind deutlich erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 184,
     "total_words": 26,
     "total_pages": 1,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine gedruckte Vorlage handelt. Die handschriftliche Signatur auf Seite 2 ist eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 790,
     "total_words": 130,
     "total_pages": 2,

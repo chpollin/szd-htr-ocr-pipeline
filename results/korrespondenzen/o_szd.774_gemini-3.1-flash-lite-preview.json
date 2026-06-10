@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist exzellent."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5721,
     "total_words": 510,
     "total_pages": 4,

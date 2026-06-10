@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from build_viewer_data import derive_unit
-from config import COLLECTIONS, UNIT_TERMS
+from config import COLLECTION_LABELS, COLLECTIONS, UNIT_TERMS
 
 
 def main() -> int:
@@ -52,6 +52,8 @@ def main() -> int:
         check(f"UNIT_TERMS-Key {col!r} ist bekannte Sammlung", col in COLLECTIONS)
     for col in ("korrespondenzen", "autographen"):
         check(f"UNIT_TERMS enthaelt {col!r}", col in UNIT_TERMS)
+    check("COLLECTION_LABELS deckt genau die Sammlungen ab",
+          set(COLLECTION_LABELS) == set(COLLECTIONS))
 
     print("=" * 60)
     if failed:

@@ -641,7 +641,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gut lesbares Typoskript. Die wenigen handschriftlichen Korrekturen sind eindeutig identifizierbar.; S.41-60: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig.; S.61-80: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen Korrekturen sind gut erkennbar.; S.81-89: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 77527,
     "total_words": 11525,
     "total_pages": 34,

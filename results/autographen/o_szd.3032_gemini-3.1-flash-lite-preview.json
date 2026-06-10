@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und flüssig. Die Archiv-Skalen auf Seite 3 verdecken keine relevanten Textstellen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4850,
     "total_words": 944,
     "total_pages": 2,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift ist aufgrund der Handschrift als 'Stefan' identifiziert, wobei das 'Zweig' durch den Strich der Unterschrift überlagert/abstrahiert ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2380,
     "total_words": 385,
     "total_pages": 3,

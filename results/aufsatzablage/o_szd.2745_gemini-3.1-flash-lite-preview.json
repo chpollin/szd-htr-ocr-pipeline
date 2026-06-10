@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist ein gut lesbarer Druck. Die wenigen handschriftlichen Notizen (Seitenzahlen) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 25508,
     "total_words": 4136,
     "total_pages": 4,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Einzelne Wörter wie 'difficul[?]' sind aufgrund des Zeilenendes oder der Tintenführung leicht unsicher, aber im Kontext eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1891,
     "total_words": 356,
     "total_pages": 1,

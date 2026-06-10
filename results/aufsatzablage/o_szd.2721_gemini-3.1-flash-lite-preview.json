@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die wenigen Unklarheiten (z.B. bei Zeilenumbrüchen oder kleinen Druckfehlern) beeinträchtigen das Verständnis nicht."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20802,
     "total_words": 2979,
     "total_pages": 4,

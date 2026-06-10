@@ -354,7 +354,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist teilweise sehr flüchtig und weist viele Korrekturen, Durchstreichungen und Überlagerungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern.; S.21-40: Die Seiten 21-23 sind aufgrund der Bleistift-Schrift und der vielen Korrekturen sehr schwer zu entziffern. Die Seiten 36-37 sind ebenfalls sehr schwer lesbar. Die übrigen Seiten sind gut lesbar.; S.41-48: Die Handschrift ist sehr flüchtig, teilweise in einer Mischung aus Kurrent und lateinischen Buchstaben, was die Identifikation einzelner Wörter erschwert (insbesondere auf Seite 41, 44 und 46)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20521,
     "total_words": 2598,
     "total_pages": 33,

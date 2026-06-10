@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch, aber durch die klare Linienführung und den Kontext gut zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1169,
     "total_words": 195,
     "total_pages": 2,

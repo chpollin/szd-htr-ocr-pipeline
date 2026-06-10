@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr klar gedruckt und weist keine nennenswerten Beschädigungen oder Unleserlichkeiten auf."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 8894,
     "total_words": 1410,
     "total_pages": 2,

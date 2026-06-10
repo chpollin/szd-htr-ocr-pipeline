@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch sind die handschriftlichen Zusätze am unteren Rand und am rechten Rand der zweiten Seite teilweise schwer zu entziffern oder durch den Scan-Schnitt leicht beschnitten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4397,
     "total_words": 699,
     "total_pages": 2,

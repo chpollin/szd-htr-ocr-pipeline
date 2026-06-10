@@ -249,7 +249,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist sehr sicher, da es sich um ein Typoskript handelt, das mehrfach vorliegt. Die handschriftlichen Korrekturen sind gut lesbar.; S.21-33: Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Korrekturen sind deutlich und im Kontext des Textes gut verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 28809,
     "total_words": 4377,
     "total_pages": 16,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Lotte und Stefan Zweig ist klar erkennbar. Einige kleine orthographische Eigenheiten des Autors wurden originalgetreu übernommen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1766,
     "total_words": 350,
     "total_pages": 1,

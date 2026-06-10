@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich auf den verschiedenen Seiten des gefalteten Blattes."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 238,
     "total_words": 18,
     "total_pages": 3,

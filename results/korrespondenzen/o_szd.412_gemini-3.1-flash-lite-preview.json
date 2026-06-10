@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz einiger grammatikalischer Eigenheiten des Schreibers (z.B. 'Die Wetter', 'Die blauen Grotte')."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 618,
     "total_words": 108,
     "total_pages": 2,

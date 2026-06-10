@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein gedrucktes Formular handelt. Die Unterschrift ist unleserlich, wurde aber als solche markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 352,
     "total_words": 50,
     "total_pages": 1,

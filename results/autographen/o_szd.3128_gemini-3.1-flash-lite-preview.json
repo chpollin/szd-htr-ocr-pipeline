@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von den durch die Archivierungsskalen verdeckten Bereichen in Scan 3."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 5978,
     "total_words": 1077,
     "total_pages": 2,

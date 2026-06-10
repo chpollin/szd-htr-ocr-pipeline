@@ -13312,14 +13312,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0,
-          2
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -33861,10 +33856,6 @@
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [
-          0,
-          2,
-          4,
-          5,
           7
         ],
         "needs_review": true,
@@ -38197,13 +38188,9 @@
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          0
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -57794,12 +57781,9 @@
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
-        "page_length_anomalies": [
-          233
-        ],
+        "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_length_anomaly",
           "page_image_mismatch"
         ]
       },
@@ -62929,7 +62913,7 @@
         "marker_uncertain_count": 9,
         "marker_illegible_count": 0,
         "marker_density": 0.0002,
-        "dwr_score": 0.4285,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             0,
@@ -68378,7 +68362,7 @@
         "marker_uncertain_count": 25,
         "marker_illegible_count": 0,
         "marker_density": 0.0009,
-        "dwr_score": 0.4163,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             132,
@@ -69167,7 +69151,7 @@
         "marker_uncertain_count": 2,
         "marker_illegible_count": 0,
         "marker_density": 0.0002,
-        "dwr_score": 0.4512,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             6,

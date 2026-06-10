@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist ein klarer Druck, die Transkription ist sehr zuverlässig. Die handschriftliche Notiz auf Seite 6 ist unsicher, aber als solche markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 9392,
     "total_words": 1517,
     "total_pages": 4,

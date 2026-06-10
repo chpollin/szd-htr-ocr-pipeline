@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist trotz der komplexen Randnotizen und der dichten Handschrift gut lesbar. Die Transkription folgt dem Layout des Briefes inklusive der Randnotizen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3368,
     "total_words": 645,
     "total_pages": 1,

@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz einiger ungewöhnlicher Schreibweisen (z.B. 'anticearhaltring'). Die Archiv-Hilfsmittel auf Seite 3 verdecken den Text teilweise, dieser ist jedoch durch den Vergleich mit Seite 1 vollständig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4430,
     "total_words": 822,
     "total_pages": 1,

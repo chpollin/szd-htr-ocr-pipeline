@@ -94,7 +94,7 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
                 ▼
  ┌─────────────────────────────────────┐
  │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.5         │
+ │     quality_signals.py v1.6         │
  │     • page.type (content/blank/     │
  │       color_chart) pro Seite        │
  │     • Marker-Dichte, Duplikate      │
@@ -177,7 +177,7 @@ szd-htr/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context(), parse_tei_full_metadata()
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 7 Signale + page.type (v1.5, DWR entfernt)
+│   ├── quality_signals.py           ← 7 Signale + page.type (v1.6, Umschlag-Ausnahme)
 │   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
@@ -339,7 +339,7 @@ Jedes Ergebnis in `results/{collection}/{object_id}_{model}.json`:
 ```
 
 - `page.type`: `content` / `blank` / `color_chart` — gesetzt von `quality_signals.py`, Schema in `schemas/page-json-v0.2.json`
-- `quality_signals`: 7 Signale (v1.5, DWR entfernt), Details in `quality_signals.py` und `verification-concept.md` §2
+- `quality_signals`: 7 Signale (v1.6, Umschlagseiten von der Laengen-Anomalie ausgenommen), Details in `quality_signals.py` und `verification-concept.md` §2
 - `review`: Optional, geschrieben von `serve.py` (API), `import_reviews.py` (CLI) oder Agent-Verifikation
 
 ## Ausgabeformate

@@ -66,7 +66,7 @@
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar, sowohl die Tinte als auch die Bleistiftnotiz."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 173,
     "total_words": 33,
     "total_pages": 3,

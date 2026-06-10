@@ -137,7 +137,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen Unklarheiten bei den Durchschlägen sind durch den Vergleich mit den Original-Typoskripten (bzw. den anderen Durchschlägen) eindeutig auflösbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 12488,
     "total_words": 1956,
     "total_pages": 8,

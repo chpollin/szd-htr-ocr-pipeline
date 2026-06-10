@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Lotte Zweig ist klar. Es gibt nur minimale Unsicherheiten bei einzelnen Wörtern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4703,
     "total_words": 911,
     "total_pages": 2,

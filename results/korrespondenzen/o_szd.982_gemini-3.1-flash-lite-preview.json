@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist durch die Verwendung von Typendruckstreifen sehr gut lesbar. Die handschriftlichen Vermerke auf dem Formular sind teilweise überlagert oder schwer zu entziffern, beeinträchtigen aber nicht den Haupttext."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1150,
     "total_words": 184,
     "total_pages": 1,

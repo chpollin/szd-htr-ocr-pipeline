@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist klar lesbar, es handelt sich um eine Adressierung auf einem Kuvert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 153,
     "total_words": 32,
     "total_pages": 2,

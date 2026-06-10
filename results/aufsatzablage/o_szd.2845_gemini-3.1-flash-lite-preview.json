@@ -445,7 +445,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein gedrucktes Dokument in Devanagari-Schrift. Die Qualität der Scans ist sehr gut, was eine präzise Transkription ermöglicht. Die Struktur (Spalten, Überschriften) ist klar erkennbar.; S.21-40: Der Text ist ein gedrucktes Buch (Hindi), die Zeichen sind klar und gut lesbar. Die Transkription folgt den Regeln der diplomatischen Wiedergabe.; S.41-60: Die Dokumente sind gedruckte Seiten in Hindi (Devanagari-Schrift). Da die Anweisung explizit die Transkription von Dokumenten aus dem Nachlass von Stefan Zweig verlangt, diese Seiten jedoch keine handschriftlichen Notizen von Zweig enthalten, wurde der Inhalt als gedruckter Text identifiziert.; S.61-61: Der Text ist gedruckt und trotz der Überlagerung durch die Farbskalen gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 120644,
     "total_words": 22300,
     "total_pages": 61,

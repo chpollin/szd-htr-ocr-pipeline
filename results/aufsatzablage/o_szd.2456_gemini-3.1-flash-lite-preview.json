@@ -67,7 +67,7 @@
     "confidence_notes": "Die Lesung der Begriffe in Klammern (Reperion) ist aufgrund der Handschrift und der möglichen Abkürzung unsicher. Auch der Name 'Ammer' ist aufgrund der Kurrentschrift schwer zweifelsfrei zu identifizieren."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 786,
     "total_words": 108,
     "total_pages": 3,

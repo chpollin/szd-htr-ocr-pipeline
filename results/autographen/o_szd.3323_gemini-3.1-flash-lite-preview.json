@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist gut lesbar. Die Zeile '9in czewski[?]' ist aufgrund der Handschrift unsicher. Die vertikale Randnotiz auf Seite 2 wurde korrekt zugeordnet."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 677,
     "total_words": 128,
     "total_pages": 2,

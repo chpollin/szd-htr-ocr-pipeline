@@ -73,7 +73,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Keine größeren Unklarheiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1441,
     "total_words": 232,
     "total_pages": 3,
@@ -108,13 +108,9 @@
     "language_expected": "",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      4
-    ],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_length_anomaly"
-    ]
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",

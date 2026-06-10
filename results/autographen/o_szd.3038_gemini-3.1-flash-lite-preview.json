@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Ein Name (Schatffer[?]) ist aufgrund der Schreibweise leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4325,
     "total_words": 827,
     "total_pages": 2,

@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Zeilenumbrüche wurden gemäß der Vorlage übernommen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 556,
     "total_words": 91,
     "total_pages": 2,

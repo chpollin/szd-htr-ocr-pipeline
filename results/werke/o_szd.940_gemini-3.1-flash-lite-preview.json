@@ -319,7 +319,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist teilweise sehr flüchtig und weist viele Abkürzungen oder unleserliche Passagen auf, insbesondere in den späteren Einträgen. Die violette Tinte ist gut erhalten, aber die Buchstabenverbindungen sind oft schwer zu entziffern.; S.21-40: Die Handschrift ist flüchtig und weist viele Abkürzungen sowie Eigennamen auf, die schwer zu identifizieren sind. Die violette Tinte ist gut lesbar, aber die Buchstabenverbindungen sind oft unklar.; S.41-43: Die Seiten enthalten keinen Text, sondern lediglich den Einband des Notizbuchs sowie Archivierungshilfsmittel (Grauskala und Farbkarte)."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 12520,
     "total_words": 1834,
     "total_pages": 27,

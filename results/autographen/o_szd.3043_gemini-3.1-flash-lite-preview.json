@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Lotte Zweig ist klar. Die Randnotiz auf Seite 3 ist aufgrund der Überlagerung durch die Farbskala auf Scan 5 etwas schwieriger zu lesen, aber im Kontext verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4382,
     "total_words": 836,
     "total_pages": 2,

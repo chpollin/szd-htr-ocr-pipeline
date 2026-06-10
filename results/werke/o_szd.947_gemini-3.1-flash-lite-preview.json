@@ -452,7 +452,7 @@
     "confidence_notes": "S.41-60: Die Handschrift ist sehr flüchtig, teilweise mit Korrekturen in Bleistift über violette Tinte geschrieben. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenverläufe schwer zu entziffern.; S.61-62: Der Text auf dem Etikett ist gedruckt und sehr gut lesbar. Die handschriftliche Notiz '1. Nov. 1941 Petropolis' ist ebenfalls klar lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11067,
     "total_words": 1753,
     "total_pages": 21,

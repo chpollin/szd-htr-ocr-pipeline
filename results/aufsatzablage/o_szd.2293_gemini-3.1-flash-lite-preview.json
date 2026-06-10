@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist klar gedruckt und gut lesbar. Die Frakturschrift wurde konsistent transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6179,
     "total_words": 839,
     "total_pages": 1,

@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die Abkürzung 'N.F.P.' ist im Kontext der Zweig-Korrespondenz eindeutig als 'Neue Freie Presse' zu identifizieren."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 364,
     "total_words": 57,
     "total_pages": 3,

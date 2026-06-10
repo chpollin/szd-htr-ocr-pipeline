@@ -9,17 +9,6 @@ const SEARCH_DEBOUNCE_MS = 150;
 const MACHINE_ICON = '';
 const HUMAN_ICON = '';
 
-const COLLECTION_LABELS = {
-  // Arbeitsbegriff: Lieferung SZ-AAL sind durchweg Briefe in Konvoluten,
-  // keine Autographensammlung im engeren Sinn; offizielle Benennung wird
-  // mit der Erschliessung geklaert (Korrekturmeldung 2026-06)
-  autographen: 'Briefkonvolute (SZ-AAL)',
-  lebensdokumente: 'Lebensdokumente',
-  werke: 'Werke',
-  aufsatzablage: 'Aufsatzablage',
-  korrespondenzen: 'Korrespondenzen',
-};
-
 /* Catalog filter registry: one definition per filter. State, URL params,
    dropdown options, visibility, chips and listeners are wired generically
    from this list (updateFilterOptions, applyFilters, renderActiveFilters,
@@ -30,11 +19,11 @@ const COLLECTION_LABELS = {
 const FILTER_DEFS = [
   {
     key: 'collection', param: 'collection', elementId: 'filterCollection',
-    chipLabel: v => COLLECTION_LABELS[v] || v,
+    chipLabel: v => collectionLabel(v),
     predicate: (o, v) => o.collection === v,
     dependsOn: [],
     options: source => [...new Set(source.map(o => o.collection))].sort()
-      .map(c => ({ value: c, label: COLLECTION_LABELS[c] || c })),
+      .map(c => ({ value: c, label: collectionLabel(c) })),
     visible: () => true,
   },
   {
@@ -105,6 +94,10 @@ function countBy(list, keyFn) {
 
 function ingestInfo(label) {
   return ((state.catalogMeta || {}).ingestInfo || {})[label] || '';
+}
+
+function collectionLabel(collection) {
+  return ((state.catalogMeta || {}).collectionLabels || {})[collection] || collection;
 }
 
 function hasUnitTerm(collection) {
@@ -990,7 +983,7 @@ function renderStats() {
 
   // Summary line: chips for collections
   const colChips = state.collections.map(c => {
-    const label = COLLECTION_LABELS[c] || c;
+    const label = collectionLabel(c);
     return `<span class="catalog__stats-chip"><strong>${perCol[c]}</strong> ${escapeHtml(label)}</span>`;
   }).join('');
 
@@ -1180,7 +1173,7 @@ function renderCatalog() {
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${ingestBadge}${titleFull}</td>
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
-        <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
+        <td class="col-collection">${collectionLabel(obj.collection)}</td>
         <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)} <span class="cell-sub" data-tooltip="${obj.contentPages || obj.pageCount || 0} Inhalt, ${obj.blankPages || 0} Leer">${obj.pageCount || '?'} S.</span></td>
         <td class="col-lang">${escapeHtml(obj.lang)}</td>
         <td class="col-review">${renderReviewCell(obj)}</td>
@@ -1344,7 +1337,7 @@ function renderViewerContext(obj) {
 
   // Document info
   const docItems = [
-    COLLECTION_LABELS[obj.collection] || obj.collection,
+    collectionLabel(obj.collection),
     escapeHtml(obj.classification || obj.groupLabel),
     pi ? `<span class="badge badge-prompt" data-tooltip="${escapeHtml(pi.tip)}">Prompt ${pi.letter}</span>` : '',
     escapeHtml(obj.lang),

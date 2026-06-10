@@ -7324,13 +7324,9 @@
         "language_expected": "",
         "language_detected": "en",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -7537,44 +7533,69 @@
     },
     {
       "id": "o_szd.3135_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.3135/IMG.1",
+        "https://gams.uni-graz.at/o:szd.3135/IMG.2"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Liebe Hannah, vielen Dank! Ich setze bei Dir einen\ngrossen Hunger auf Neuigkeiten voraus - die wichtigste\nist, dass ich den Kampf wider Hell und Dunkel\ngewagt habe und die staircase statt wie zerflossene\nErdbeercreme rötlichweiss zu glänzen, nun wieder\nmahogany imitiert - alles wirkt dadurch viel\ngeschlossener und ausserdem war ich der Meinung\ndass eine so enge Treppe bald jeden Riss und Stoss\neines Vorbeigehenden zeigen würde, wenn sie in\nUnschuldsfarben schimmern. Alles andere geht\nrasch vorwärts und Samstag dürfte unter dem\nKlingen des Radio Einzug gehalten werden.\nSonntag habe ich Haussperre angeordnet, um\nalle Papiere, Karten, Registraturen in Ordnung\nzu bringen, Montag will ich an die Arbeit\ngehn und Lotte bekommt Urlaub, sobald sie\nwill.\nErinnerst Du Dich, dass ich Dir damals auf\nHalifaxens Rede hinwies in der der Hinweis\nplötzlich fehlte, man verfault mit mit\nder gegenwärtigen Regierung? Jedenfalls ist",
+          "notes": "Handschriftlicher Brief in violetter Tinte. Am rechten Rand ist eine Archivnummer 'W 72673' vertikal notiert. Die Schrift ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "jetzt eine Chance da – hoffentlich wird sie aus-\ngenützt. Alles Gute für Euch!\nStefan\n\n\n\n\n\n\n\n\n\nHerzlichen Gruss!\nBrief folgt.\nLotte",
+          "notes": "Handschriftlicher Text in zwei verschiedenen Farben/Stiften. Oben violette Tinte (Stefan Zweig), unten graue Tinte/Bleistift (Lotte Zweig). Das Blatt weist Faltspuren auf.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "S.1-1: Der Text ist sehr gut lesbar, die Handschrift ist flüssig und eindeutig. Keine kritischen Stellen.; S.2-2: Der Text ist sehr gut lesbar. Die Trennung der beiden Handschriften ist eindeutig.; S.3-3: Der Text ist trotz der Überlagerung durch die Archivierungshilfen (Farb- und Grauskala) vollständig und eindeutig lesbar.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
+        "totalChars": 1054,
         "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "avgCharsPerPage": 527,
+        "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
+        "total_chars": 1170,
+        "total_words": 182,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
-        "content_pages": 0,
-        "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          923,
+          131,
+          116
+        ],
+        "chars_per_page_median": 527.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_image_mismatch"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:52:53.758012+00:00"
+      }
     },
     {
       "id": "o_szd.3136_gemini-3.1-flash-lite-preview",
@@ -13941,13 +13962,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          6
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -15678,13 +15695,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          5
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -15764,13 +15777,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -15850,13 +15859,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -16354,13 +16359,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          5
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -16454,13 +16455,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -16647,13 +16644,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          6
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -16733,13 +16726,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -16910,13 +16899,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          5
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -17151,14 +17136,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          10,
-          11
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -17329,13 +17309,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          4
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -17565,13 +17541,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -17735,13 +17707,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -17821,13 +17789,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -17991,13 +17955,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -19682,13 +19642,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -19761,13 +19717,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -19847,14 +19799,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3,
-          4
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -24627,44 +24574,188 @@
     },
     {
       "id": "o_szd.3375_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.3375/IMG.1",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.2",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.3",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.4",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.5",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.6",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.7",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.8",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.9",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.10",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.11",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.12",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.13",
+        "https://gams.uni-graz.at/o:szd.3375/IMG.14"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Rechtsanwalt\nDr. Walther Haupolter\nSalzburg, Judengasse 1\nFernsprechstelle 622\nPostsparkassen-Konto 42.899\n\nSalzburg, am 2.Dezember 1938.\n\nWohlgeboren\n\nHerrn Dr. Stefan Z w e i g ,\n\nL o n d o n W 1 , 49 Hallam street\n-. - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . -\n\nSehr geehrter Herr Doktor !\n\nIch bestätige mit bestem Dank den Empfang Ihres\ngesch.Schreibens vom 28. November 1938. Ich habe heute bei Ge-\nricht um eine baldige Ausfertigung des Urteiles gebeten ; der\nAkt liebt noch beim Richter, der gegenwärtig mit Arbeit sehr über-\nhäuft ist. Sobald ich das Urteil bekomme, sende ich Ihnen das\nOriginal ein. Ein Rechtsmittel wird von keiner Seite eingelegt\nwerden, die Rechtskraftsklausel kann jedoch vom Gericht erst nach\nAblauf der Berufungsfrist erteilt werden. In der allernächsten\nZeit können Sie daher mit einem mit Rechtskraftsklausel versehenen\nUrteil nicht rechnen.\n\nDie gewünschte Kostenrechnung liegt bei.\n\nUrteil 22. Nov. 1938\nGeschäftszahl Cg 591/38\nLandesgericht Salzburg\n1 Beilage.\n\nIn vorzüglicher Hochachtung\n\n[Unterschrift: Dr. Haupolter]",
+          "notes": "Typoskript mit handschriftlichen Ergänzungen (Notizen am linken unteren Rand). Die Unterschrift ist handschriftlich. Die Notiz am linken Rand scheint eine Aktennotiz oder ein Vermerk des Anwalts zu sein.",
+          "type": "content",
+          "transcription_llm": "Rechtsanwalt\nDr. Walther Haupolter\nSalzburg, Judengasse 1\nFernsprechstelle 622\nPostsparkassen-Konto 42.899\n\nSalzburg, am 2.Dezember 1938.\n\nWohlgeboren\n\nHerrn Dr. Stefan Z w e i g ,\n\nL o n d o n W 1 , 49 Hallam street\n-. - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . -\n\nSehr geehrter Herr Doktor !\n\nIch bestätige mit bestem Dank den Empfang Ihres\ngesch.Schreibens vom 28. November 1938. Ich habe heute bei Ge-\nricht um eine baldige Ausfertigung des Urteiles gebeten ; der\nAkt liebt noch beim Richter, der gegenwärtig mit Arbeit sehr über-\nhäuft ist. Sobald ich das Urteil bekomme, sende ich Ihnen das\nOriginal ein. Ein Rechtsmittel wird von keiner Seite eingelegt\nwerden, die Rechtskraftsklausel kann jedoch vom Gericht erst nach\nAblauf der Berufungsfrist erteilt werden. In der allernächsten\nZeit können Sie daher mit einem mit Rechtskraftsklausel versehenen\nUrteil nicht rechnen.\n\nDie gewünschte Kostenrechnung liegt bei.\n\nUrteil 22. Nov. 1938\nGeschäftszahl Cg 597/38\nLandesgericht Salzburg\n1 Beilage.\n\nIn vorzüglicher Hochachtung\n\n[Unterschrift: Dr. Haupolter]",
+          "edit_history": [
+            {
+              "original_transcription": "Rechtsanwalt\nDr. Walther Haupolter\nSalzburg, Judengasse 1\nFernsprechstelle 622\nPostsparkassen-Konto 42.899\n\nSalzburg, am 2.Dezember 1938.\n\nWohlgeboren\n\nHerrn Dr. Stefan Z w e i g ,\n\nL o n d o n W 1 , 49 Hallam street\n-. - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . - . -\n\nSehr geehrter Herr Doktor !\n\nIch bestätige mit bestem Dank den Empfang Ihres\ngesch.Schreibens vom 28. November 1938. Ich habe heute bei Ge-\nricht um eine baldige Ausfertigung des Urteiles gebeten ; der\nAkt liebt noch beim Richter, der gegenwärtig mit Arbeit sehr über-\nhäuft ist. Sobald ich das Urteil bekomme, sende ich Ihnen das\nOriginal ein. Ein Rechtsmittel wird von keiner Seite eingelegt\nwerden, die Rechtskraftsklausel kann jedoch vom Gericht erst nach\nAblauf der Berufungsfrist erteilt werden. In der allernächsten\nZeit können Sie daher mit einem mit Rechtskraftsklausel versehenen\nUrteil nicht rechnen.\n\nDie gewünschte Kostenrechnung liegt bei.\n\nUrteil 22. Nov. 1938\nGeschäftszahl Cg 597/38\nLandesgericht Salzburg\n1 Beilage.\n\nIn vorzüglicher Hochachtung\n\n[Unterschrift: Dr. Haupolter]",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-06-10T10:52:53.758012+00:00",
+              "source": "agent"
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Typoskript. Der Text ist sehr schwach gedruckt, teilweise kaum lesbar. Die Zeilenumbrüche und der Textfluss wirken durch den schwachen Druck und die Faltung des Papiers fragmentarisch. Die Unterschrift ist nicht deutlich erkennbar, scheint aber vorhanden zu sein.",
+          "type": "blank",
+          "transcription_llm": "Dr. Walter Haupolter\nSalzburg, Judengasse 3\n\nSalzburg, 2. Dezember 1938.\n\n\nHerrn Stefan Zweig\n\nL o n d o n W 1, 45 Hallam Street\n---------------------------------\n\nSehr geehrter Herr Doktor!\n\nIch bestätige mit bestem Dank den Empfang Ihres\nSchreibens vom 28. November 1938. Ich habe heute noch an\nNicht um eine baldige Erledigung gebeten; der\nAkt liegt noch beim Amte, die Bearbeitung der Arbeit geht\nlangsam, ich hoffe, das Beste, sobald ich etwas\nOriginales, ein Resultat von Ihrer Seite vorliegen\nwerde, die notwendigen Schritte doch noch\nnicht der bevorstehenden Frist. Es ist als allererstes\nSie können mir auch mit Rechtlicher Vertretung\n\nUnfrei nicht.\n\nDie Kostenfrage liegt bei.\n\nIn vorzüglicher Hochachtung\n\n1 Beilage.",
+          "edit_history": [
+            {
+              "original_transcription": "Dr. Walter Haupolter\nSalzburg, Judengasse 3\n\nSalzburg, 2. Dezember 1938.\n\n\nHerrn Stefan Zweig\n\nL o n d o n W 1, 45 Hallam Street\n---------------------------------\n\nSehr geehrter Herr Doktor!\n\nIch bestätige mit bestem Dank den Empfang Ihres\nSchreibens vom 28. November 1938. Ich habe heute noch an\nNicht um eine baldige Erledigung gebeten; der\nAkt liegt noch beim Amte, die Bearbeitung der Arbeit geht\nlangsam, ich hoffe, das Beste, sobald ich etwas\nOriginales, ein Resultat von Ihrer Seite vorliegen\nwerde, die notwendigen Schritte doch noch\nnicht der bevorstehenden Frist. Es ist als allererstes\nSie können mir auch mit Rechtlicher Vertretung\n\nUnfrei nicht.\n\nDie Kostenfrage liegt bei.\n\nIn vorzüglicher Hochachtung\n\n1 Beilage.",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-06-10T10:52:53.758012+00:00",
+              "source": "agent"
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "transcription": "Abschrift.\n-.-.-.-.-.-.-.-.-.\n\n                                     Cg 591/38.\n\n   K l a g e  auf  E h e s c h e i d u n g\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.\n\nKlagende Partei : Frau Friederike Maria Z w e i g , Paris\nbeklagte Partei : Dr. Stefan Z w e i g .\n\n1.) Ich habe am 28.Jänner 1920 mit dem Beklagten\nvor dem Magistrat der Stadt Wien die Ehe geschlossen.\nBeweis : Trauschein vom 28.I.1920.\n2.) Unsere Ehe ist kinderlos geblieben. Meine beiden\nTöchter aus meiner früheren Ehe haben in unserem gemeinschaftlichen\nHaushalt in Salzburg gelebt. Durch die Verschiedenheit unserer\nCharaktere kam es zwischen uns allmählich zu einer Entfremdung\nund unheilbaren Zerrüttung unserer Ehe, die sich äusserlich dahin\nzeigte,dass der Beklagte mich häufig monatelang verliess und auf\nReisen ging.\nMit 1.März 1934 verliess mich der Beklagte vollständ-\ndig und zog von unserem gemeinsamen Wohnsitz in Salzburg weg. Er\nlebt seither ständig in London, um dort vollkommen seinen künstle-\nrischen Neigungen nachzugehen. Unsere häusliche Gemeinschaft ist\nseit dieser Zeit aufgehoben. Ich selbst zog am 1.I.1938 von Salz-\nburg nach Paris. Infolge der über 4 Jahre dauernden, vom Beklagten\nverschuldeten Trennung ist es zu einer derart tief greifenden Zer-\nrüttung unseres ehelichen Verhältnisses gekommen,dass eine Wieder-\nherstellung einer Lebensgemeinschaft überhaupt nicht mehr in Frage\nkommt.\nBeweis : Elisabeth Winternitz, Salzburg, Nonntalerhauptstr.49\n         als Zeugin,\n         Anfrage an das Meldeamt der Polizeidirektion Salzburg,\n         Parteienvernehmung.\n3.) Unser gemeinsamer letzter Wohnsitz war Salzburg,\nKapüzinerberg Nr.5.\nBeweis : wie oben Punkt 2.",
+          "notes": "Typoskript, Abschrift einer Scheidungsklage. Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "4.) Mit Rücksicht auf die seit den letzten vier\nJahren bestehende faktische Trennung und der dieser Zeit noch\njahrelang vorausgehenden Zerrüttung unserer Ehe und mit Rück-\nsicht darauf, dass sowohl der Beklagte als auch ich im Aus-\nlande leben und keine Einreisebewilligung nach Deutschland\nerhalten, stelle ich den Antrag (§ 32/2 LGBL.302/38) von der\nAnordnung eines Sühneversuches Abstand zu nehmen.\n5.) Ich stelle daher durch meinen ausgewiesenen\nMachthaber den Antrag, das Landgericht wolle erlassen folgendes\nU r t e i l :\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.\nDie zwischen der Klägerin, Frau Friedericke Maria\nZweig und dem Beklagten Dr.Stefan Zweig am 28.I.1920 vor dem\nMagistrat der Stadt Wien abgeschlossene Ehe wird aus dem Ver-\nschulden des Beklagten geschieden.\nDer Beklagte ist schuldig, bei Zwangsvermeidung\nbinnen 14 Tagen der Klägerin die Streitkosten zu ersetzen.\nIch beantrage die Klage zu Handen des zur Empfang-\nnahme bevollmächtigten Vertreters des Beklagten, Herrn Dr.Walther\nHaupolter, Rechtsanwalt in Salzburg, zuzustellen.\nSalzburg, am 31.August 1938.\nFriederike Maria Zweig,",
+          "notes": "Typoskript auf einem Blatt Papier. Der Text ist klar und gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "8. Dez. 1938\n\nBeurkundet: Dieses Urteil ist\nin Rechtskraft erwachsen\nLandesgericht Salzburg\nAbg 1 am 28 Dez 1938\nJosef Orkat\nFarbeamter mit\nWirksamkeitskreis\nfür die\nRedlichkeit\nder Ausfertigung\n\nG Z. Cg 591/38\n5\n\nIm Namen des deutschen Volkes !\n\nDas Landgericht Salzburg hat durch den Oberlandes-\ngerichtsrat Dr. Rigele als Richter in der Rechtssache der\nklagenden Partei : F r i e d e r i c k e M a r i a Z w e i g ,\nParis, 16., Rue Obligado 1, vertreten durch Dr. Emmerich\nS i n g e r , Rechtsanwalt in Salzburg, wider die beklagte\nPartei D r . S t e f a n Z w e i g , Schriftsteller in\nLondon W 1, 49 Hallam Street, vertreten durch Dr. Walther\nH a u p o l t e r , Rechtsanwalt in Salzburg, wegen Ehe-\nscheidung zu Recht erkannt :\n\nDie zwischen der Klägerin Friedericke Maria Zweig\nund dem Beklagten St.Stefan Zweig am 28. Jänner 1920 vor dem\nStadtmagistrate Wien geschlossene Ehe wird aus dem Allein-\nverschulden des Beklagten geschieden.\n\nDer Beklagte ist schuldig, der Klägerin binnen vierzehn\nTagen bei Zwangsfolge die mit RM 177.26 bestimmten Kosten des\nEhescheidungsverfahrens zu ersetzen.\n\nEntscheidungsgründe :\n\nDurch den Eheschein des Stadtmagistrates Wien vom\n28.1.1920, XIII/135/755o, ist festgestellt, daß die Streit-\nteile vor dem Standesamt am 28.1.1920 die Ehe geschlossen\nhaben.\n\nAus der Aussage der Zeugin Elise Winternitz ergibt\nsich, daß die Streitteile bis zur Wiedervereinigung der\nOstmark mit dem Deutschen Reich österreichische Staatsange-\nhörige waren.",
+          "notes": "Typoskript mit handschriftlichen Vermerken am linken Rand und oben links (violette Tinte). Der handschriftliche Text am Rand ist teilweise vertikal geschrieben.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "Die Klägerin macht als Ehescheidungsgrund schwere\nEheverfehlung des Beklagten und Auflösung der häuslichen\nGemeinschaft geltend, er habe sich der Klägerin immer mehr\nentfremdet, sei im Jahre 1934 von seiner Frau überhaupt\nfortgezogen, habe die häusliche Gemeinschaft damit aufgeho-\nben und lebe seither ständig in London. Die Ehe sei daher\naus seinem Verschulden vollkommen zerrüttet.\nDer Beklagte gibt diese Behauptungen als richtig\nzu und wendet gegen das Scheidungsbegehren nichts ein.\nDas Gericht hat auf Grund der Zeugenaussage Elise\nWinternitz, die als Tochter erster Ehe der Klägerin im ge-\nmeinsamen Haushalte lebte, als erwiesen angenommen, daß\nder Beklagte die Klägerin im Laufe der Ehe immer mehr ver-\nnachlässigte, monatelang, ja sogar einmal ein ganzes Jahr\nvom gemeinsamen Haushalt wegblieb, ohne sich um seine Frau\nzu kümmern. Im Jahre 1934 hat der Beklagte die häusliche\nGemeinschaft ganz aufgegeben ; wenn er seither nach Salz-\nburg kam, begab er sich nicht zu seiner Frau, sondern wohn-\nte im Hotel. Schon vorher bestand nach dieser Zeugenaussage\nkeine dem Wesen der Ehe entsprechende geistige Gemeinschaft\nmehr, die Ehegatten lebten nicht mit-, sondern nur neben-\neinander, es gab keine Harmonie mehr zwischen ihnen, sodaß\nes oft zu Reibereien kam und z.B. auch vorkam, daß beim\nMittagessen überhaupt kein Wort gesprochen wurde.\nIn diesem Aufgeben einer dem Wesen der Ehe entspre-\nchenden geistigen Gemeinschaft durch den Beklagten, die er\nals richtig zugibt und für die er keine Entschuldigung vor-\nbringt, wobei er selbst der Klägerin auch kein Verschulden\nbeimisst, ist als schwere Eheverfehlung im Sinne des § 49 Ehe-\ngesetz zu werten. Überdies liegt auch der Ehescheidungsgrund\nder Auflösung der häuslichen Gemeinschaft gemäß § 55 Ehe -\ngesetz vor, da die Zerrüttung der Ehe nach diesem Beweis -",
+          "notes": "Typoskript, juristisches Dokument (Urteilsbegründung oder Schriftsatz). Sehr gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "ergebnisse eine so tiefgehende ist, daß die Wiederherstellung\neiner dem Wesen der Ehe entsprechenden Lebensgemeinschaft\nnicht mehr erwartet werden kann.\nDem Klagebegehren war daher Folge zu geben, wobei die\nEntscheidung über die Kosten des Verfahrens auf § 41 Z.P.O.\nberuht.\n\n\nLandgericht Salzburg\nAbt.1, am 22. November 1938.\n\nDr.August Rigele\nFür die Richtigkeit der Ausfertigung\nder Leiter der Geschäftsabteilung :\nL.S.                                     Kaiser e.h.\n\nB.\n\nDieses Urteil ist in Rechtskraft erwachsen.\n\nLandgericht Salzburg,Abt.1, am 24.Dez.1938.\n\nJosef Dukat\nFachbeamter mit erweitertem Wirkungskreis\nFür die Richtigkeit der Ausfertigung :\nDukat e.h,\nL.S.: Landgericht Salzburg.",
+          "notes": "Typoskript, amtliches Dokument (Urteilsausfertigung).",
+          "confidence": "high",
+          "confidence_notes": "Der Text ist sehr klar und gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 8,
+          "transcription": "",
+          "notes": "Die Seite ist leer. Es handelt sich um die Rückseite eines Blattes aus dem Briefkonvolut.",
+          "type": "blank"
+        },
+        {
+          "page": 9,
+          "transcription": "8. Dez. 1938\n\n                                                                    2038\n\n                                     GZ. Cz 591/38\n                                         5\n\n                     IM NAMEN DES DEUTSCHEN VOLKES !\n\n          Das Landgericht Salzburg hat durch den Oberlandes-\n     gerichtsrat Dr. H i g e l e als Richter in der Rechtssache\n     der klagenden Partei Friederike Maria Z w e i g, Paris,\n     Rue Obligado 1, vertreten durch Dr. Emmerich S i n -\n     e r, Rechtsanwalt in Salzburg, wider die beklagte Partei\n     Stefan Z w e i g, Schriftsteller in London W 1, 49 Hallam\n     Street, vertreten durch Dr. Walter H a u p o l t e r, Rechts-\n     anwalt in Salzburg, wegen Ehescheidung zu Recht erkannt:\n          Die zwischen der Klägerin Friederike Maria Zweig\n     und dem Beklagten Dr. Stefan Zweig am 28. Jänner 1920 vor dem\n     Stadtmagistrate Wien geschlossene Ehe wird aus dem Allein-\n     verschulden des Beklagten geschieden.\n          Der Beklagte ist schuldig, der Klägerin binnen\n     14 Tagen bei Zwangsfolge die mit RM 177.26 bestimmten Ko-\n     sten des Ehescheidungsverfahrens zu ersetzen.\n\n                                     Entscheidungsgründe:\n\n          Durch den Eheschein des Stadtmagistrates Wien vom\n     28.1.1920, XIII/135/1550, ist festgestellt, dass die Streit -\n     teile vor dem Standesamt am 28.1.1920 die Ehe geschlossen haben.\n          Aus der Aussage der Zeugin Elise Winternitz er-\n     gibt sich, dass die Streitteile bis zur Wiedervereinigung der\n     Ostmark mit dem Deutschen Reich österreichische Staatsangehöri-\n     ge waren.\n          Die Klägerin macht als Ehescheidungsgrund schwere\n     Eheverfehlung des Beklagten und Auflösung der häuslichen Ge -\n\nB.\nRechtskräftig ist dieses Rechtskraft\nzumachen.\n[Stempel: Landgericht Salzburg, Abt. 24. Dez. 1938]\n[Stempel: Fachbearbeiter für die Rückgabe...]",
+          "notes": "Es handelt sich um ein Typoskript (Gerichtsurteil). Am linken Rand befindet sich ein vertikaler handschriftlicher Vermerk: 'Rechtskräftig ist dieses Rechtskraft zumachen.' sowie ein Dienststempel des Landgerichts Salzburg. Der Text ist auf einem dunklen Hintergrund abgebildet (Negativ-Scan oder Kopie auf dunklem Papier).",
+          "type": "content"
+        },
+        {
+          "page": 10,
+          "transcription": "",
+          "notes": "Leere Seite. Papier weist eine vertikale Faltlinie in der Mitte sowie eine Knickspur am linken Rand auf.",
+          "type": "blank"
+        },
+        {
+          "page": 11,
+          "transcription": "2.\n\nmeinschaft geltend, er habe sich der Klägerin immer mehr\nentfremdet, sei im Jahre 1934 von seiner Frau überhaupt\nfortgezogen, habe die häusliche Gemeinschaft damit aufge=\nhoben und lebe seither ständig in London. Die Ehe sei da=\nher aus seinem Verschulden vollkommen zerrüttet.\n\nDer Beklagte gibt diese Behauptungen als rich=\ntig zu und wendet gegen das Scheidungsbegehren nichts ein.\n\nDas Gericht hat auf Grund der Zeugenaussage\nElise Winternitz, die als Tochter erster Ehe der Klägerin\nim gemeinsamen Haushalte lebte, als erwiesen angenommen, dass\nder Beklagte die Klägerin im Laufe der Ehe immer mehr ver=\nnachlässigte, monatelang, ja sogar einmal ein ganzes Jahr\nvom gemeinsamen Haushalt wegblieb, ohne sich um seine Frau\nzu kümmern. Im Jahre 1934 hat der Beklagte die häusliche\nGemeinschaft ganz aufgegeben; wenn er seither nach Salzburg\nkam, begab er sich nicht zu seiner Frau, sondern wohnte im\nHotel. Schon vorher bestand nach dieser Zeugenaussage keine\ndem Wesen der Ehe entsprechende geistige Gemeinschaft mehr,\ndie Ehegatten lebten nicht mit-, sondern nur nebeneinander,\nes gab keine Harmonie mehr zwischen ihnen, sodass es oft zu\nReibereien kam und z.B. auch vorkam, dass beim Mittagessen\nüberhaupt kein Wort gesprochen wurde.\n\nIn diesem Aufgeben einer dem Wesen der Ehe ent=\nsprechenden geistigen Gemeinschaft durch den Beklagten, die\ner als richtig zugibt und für die er keine Entschuldigung\nvorbringt, wobei er selbst der Klägerin auch kein Verschul=\nden beimisst, ist als schwere Eheverfehlung im Sinne des § 49\nEhegesetz zu werten. Ueberdies liegt auch der Ehescheidungs=\ngrund der Auflösung der häuslichen Gemeinschaft gemäss § 55",
+          "notes": "Typoskript auf einem Blatt Papier. Es handelt sich um eine juristische Urteilsbegründung oder einen Schriftsatz. Die Seite ist mit '2.' nummeriert. Der Text ist gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 12,
+          "transcription": "",
+          "notes": "Leere Seite. Es handelt sich um die Rückseite eines Blattes aus dem Briefkonvolut.",
+          "type": "blank"
+        },
+        {
+          "page": 13,
+          "transcription": "                                3.\n\nEhegesetz vor, da die Zerrüttung der Ehe nach diesem\nBeweisergebnisse eine so tiefgehende ist, dass die Wie-\nderherstellung einer dem Wesen der Ehe entsprechenden\nLebensgemeinschaft nicht mehr erwartet werden kann.\n\n                Dem Klagebegehren war daher Folge zu geben,\nwobei die Entscheidung über die Kosten des Verfahrens\nauf § 41 ZPO. beruht.\n\n                Landgericht Salzburg\n                Abt.1, am 22.November 1938.\n\n                                Dr. August Rigele\n                                Für die Richtigkeit der Ausfertigung\n                                der Leiter der Geschäftsabteilung:\n                                [Unterschrift]",
+          "notes": "Typoskript auf dunklem Papier (Durchschlag/Kopie). Rundstempel des Landgerichts Salzburg mit Hakenkreuz in der Mitte. Die Unterschrift ist handschriftlich.",
+          "type": "content"
+        },
+        {
+          "page": 14,
+          "transcription": "",
+          "notes": "Leere Seite. Es handelt sich um die Rückseite eines Blattes aus dem Briefkonvolut.",
+          "type": "blank"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "S.1-1: Der Text ist sehr gut lesbar. Die handschriftlichen Vermerke am linken Rand wurden originalgetreu transkribiert.; S.2-2: Der Text ist extrem schwach gedruckt (vermutlich Durchschlag oder Farbband fast leer), was die Lesbarkeit massiv einschränkt. Viele Wörter sind nur durch Kontext oder Raten identifizierbar. Die Zeilenstruktur ist aufgrund der schwachen Abbildung und der Papierfaltung teilweise unsicher.; S.3-3: Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.; S.4-4: Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.; S.5-5: Der Text ist sehr gut lesbar. Die handschriftlichen Vermerke am Rand sind aufgrund der kursiven Schrift und der vertikalen Ausrichtung etwas schwieriger zu lesen, aber eindeutig identifizierbar.; S.6-6: Der Text ist ein klares Typoskript ohne nennenswerte Beschädigungen oder Unklarheiten.; S.7-7: Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.; S.8-8: Die Seite ist eindeutig leer.; S.9-9: Der Text ist sehr gut lesbar, trotz der dunklen Hintergrundfarbe des Scans. Die handschriftlichen Vermerke am Rand sind ebenfalls gut lesbar.; S.10-10: Die Seite ist eindeutig leer.; S.11-11: Der Text ist ein klares Typoskript und sehr gut lesbar. Keine nennenswerten Unsicherheiten.; S.12-12: Die Seite ist eindeutig leer.; S.13-13: Der Text ist trotz des dunklen Hintergrunds sehr gut lesbar. Die Unterschrift ist nicht lesbar, daher als [Unterschrift] markiert.; S.14-14: Die Seite ist vollständig leer.; S.15-15: Der Text ist klar lesbar, die Struktur ist eindeutig.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 12084,
+        "emptyPages": 5,
+        "avgCharsPerPage": 1343,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
-        "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "total_chars": 12579,
+        "total_words": 1837,
+        "total_pages": 9,
+        "empty_pages": 5,
+        "blank_pages": 5,
+        "content_pages": 9,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1084,
+          0,
+          1677,
+          1093,
+          1479,
+          1819,
+          697,
+          0,
+          1880,
+          0,
+          1652,
+          0,
+          703,
+          0,
+          495
+        ],
+        "chars_per_page_median": 1479,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_image_mismatch"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 2,
+        "edited_pages": [
+          1,
+          2
+        ],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:52:53.758012+00:00"
+      }
     },
     {
       "id": "o_szd.3376_gemini-3.1-flash-lite-preview",
@@ -24943,13 +25034,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          6
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -25104,13 +25191,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          4
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -25706,13 +25789,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          4
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -25867,13 +25946,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -25953,13 +26028,9 @@
         "language_expected": "",
         "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [
-          3
-        ],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "page_length_anomaly"
-        ]
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {

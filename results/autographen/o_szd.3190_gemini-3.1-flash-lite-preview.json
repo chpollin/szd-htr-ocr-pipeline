@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Lotte und Stefan Zweig ist klar. Die wenigen Korrekturen (wie 'in summer') wurden entsprechend der Vorgaben als Einfügungen markiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3113,
     "total_words": 618,
     "total_pages": 2,

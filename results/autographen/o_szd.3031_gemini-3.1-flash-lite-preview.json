@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift und der Randnotizen. Die Transkription folgt dem Layout des Originals."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3410,
     "total_words": 648,
     "total_pages": 1,

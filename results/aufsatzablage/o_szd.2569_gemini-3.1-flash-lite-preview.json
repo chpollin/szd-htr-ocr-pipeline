@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist klar und gut lesbar. Die Duplizierung der Seite 2 (einmal mit und einmal ohne Farbskala) wurde entsprechend transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 14142,
     "total_words": 2373,
     "total_pages": 2,

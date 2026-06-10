@@ -60,7 +60,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr gut. Die Struktur der Listen wurde beibehalten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3657,
     "total_words": 567,
     "total_pages": 3,

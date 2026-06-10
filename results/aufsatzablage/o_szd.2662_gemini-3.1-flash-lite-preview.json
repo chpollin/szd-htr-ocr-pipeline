@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsausschnitt handelt. Die wenigen unsicheren Stellen (z.B. [?]) beziehen sich auf einzelne, leicht verschwommene oder durch den Druck leicht veränderte Buchstaben."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 23867,
     "total_words": 3673,
     "total_pages": 4,

@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Es gibt keine Unklarheiten."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 241,
     "total_words": 33,
     "total_pages": 2,

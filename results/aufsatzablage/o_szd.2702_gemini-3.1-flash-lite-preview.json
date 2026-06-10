@@ -67,7 +67,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die Transkription ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 276,
     "total_words": 39,
     "total_pages": 3,

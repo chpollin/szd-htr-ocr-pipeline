@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und trotz einiger kleinerer orthographischer Eigenheiten des Verfassers (z.B. 'parsqu'il' statt 'parce qu'il') eindeutig zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1021,
     "total_words": 185,
     "total_pages": 1,

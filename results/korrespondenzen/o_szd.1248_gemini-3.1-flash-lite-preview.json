@@ -52,7 +52,7 @@
     "confidence_notes": "Der Text ist größtenteils maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1739,
     "total_words": 265,
     "total_pages": 4,

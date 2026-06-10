@@ -711,7 +711,7 @@
     "confidence_notes": "S.61-80: Der Text ist aufgrund der schnellen Handschrift, der vielen Durchstreichungen und der Überlagerungen (durchscheinende Tinte) teilweise schwer zu entziffern. Viele Stellen sind nur fragmentarisch lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 50798,
     "total_words": 6885,
     "total_pages": 52,

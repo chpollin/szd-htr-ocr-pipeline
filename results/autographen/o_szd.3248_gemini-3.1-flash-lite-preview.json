@@ -87,7 +87,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig, die Typoskript-Abschrift dient als gute Referenz für die Interpretation der Handschrift."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3963,
     "total_words": 634,
     "total_pages": 7,

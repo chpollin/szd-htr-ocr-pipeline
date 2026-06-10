@@ -59,7 +59,7 @@
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Hrebnt', 'Marfarletti', 'defrihr', 'Belacunte'). Der Textzusammenhang ist jedoch weitgehend erschließbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4533,
     "total_words": 761,
     "total_pages": 2,
@@ -90,13 +90,9 @@
     "language_expected": "",
     "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [
-      3
-    ],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_length_anomaly"
-    ]
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",

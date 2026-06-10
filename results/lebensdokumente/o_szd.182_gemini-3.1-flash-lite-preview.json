@@ -48,7 +48,7 @@
     "confidence_notes": "Der Text ist weitgehend maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Name, Datum, Unterschriften) sind im Kontext der Urkunde eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2867,
     "total_words": 447,
     "total_pages": 2,

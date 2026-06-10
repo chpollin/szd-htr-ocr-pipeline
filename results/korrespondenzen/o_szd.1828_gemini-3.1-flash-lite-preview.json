@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'vorliegen' in Zeile 4 der Nachrichtenseite ist aufgrund der Handschrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 662,
     "total_words": 110,
     "total_pages": 2,

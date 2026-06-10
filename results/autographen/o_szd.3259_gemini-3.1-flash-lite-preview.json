@@ -59,7 +59,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Wiederholung auf Seite 3 ist identisch mit Seite 2."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1808,
     "total_words": 288,
     "total_pages": 3,

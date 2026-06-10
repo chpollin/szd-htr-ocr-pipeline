@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Zeitungsqualität. Die Spaltenstruktur wurde linear transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 18090,
     "total_words": 2693,
     "total_pages": 4,

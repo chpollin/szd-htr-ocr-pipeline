@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift. Die Archivierungshilfen auf Seite 3 verdecken einen Teil des Textes, dieser ist jedoch auf Seite 2 vollständig und ungestört lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7496,
     "total_words": 1112,
     "total_pages": 2,

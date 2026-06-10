@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Frakturschrift ist klar. Die handschriftliche Annotation auf Seite 1 ist leicht zu entziffern."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 21308,
     "total_words": 3065,
     "total_pages": 4,

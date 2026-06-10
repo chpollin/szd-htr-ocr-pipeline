@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen Korrekturen sind deutlich als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 7203,
     "total_words": 1063,
     "total_pages": 4,

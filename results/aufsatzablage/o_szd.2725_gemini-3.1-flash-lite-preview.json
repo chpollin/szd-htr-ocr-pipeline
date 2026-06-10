@@ -95,7 +95,7 @@
     "confidence_notes": "Der Text ist ein klar gedruckter französischer Text. Die Transkription ist aufgrund der guten Lesbarkeit und der klaren Struktur sehr sicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 19760,
     "total_words": 3275,
     "total_pages": 10,

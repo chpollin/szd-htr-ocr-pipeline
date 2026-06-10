@@ -466,7 +466,7 @@
     "confidence_notes": "S.1-20: Der Text ist ein sehr gut lesbares Typoskript. Die Transkription folgt den Regeln (diplomatisch, Beibehaltung der Zeilenumbrüche, keine Korrekturen).; S.21-40: Der Text ist sehr gut lesbar, es handelt sich um ein sauberes Typoskript. Nur sehr wenige Stellen sind aufgrund von Druckfehlern oder leichten Verschmierungen minimal unsicher.; S.41-60: Der Text ist ein klares Typoskript, die Lesbarkeit ist sehr gut. Einzelne Stellen mit [?] markiert, wo die Tinte des Durchschlags leicht verblasst ist.; S.61-64: Der Text ist sehr gut lesbar, es handelt sich um ein sauberes Typoskript."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 77042,
     "total_words": 12071,
     "total_pages": 63,

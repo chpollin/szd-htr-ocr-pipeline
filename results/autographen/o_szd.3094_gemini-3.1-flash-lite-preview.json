@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript. Die Wiederholungen im Text sind im Original vorhanden und wurden entsprechend transkribiert."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3364,
     "total_words": 617,
     "total_pages": 1,

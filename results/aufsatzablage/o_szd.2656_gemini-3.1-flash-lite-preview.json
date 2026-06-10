@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Zeitungsartikel handelt. Die Struktur ist klar. Die handschriftlichen Annotationen wurden in den Notizen erfasst."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 17034,
     "total_words": 3055,
     "total_pages": 2,

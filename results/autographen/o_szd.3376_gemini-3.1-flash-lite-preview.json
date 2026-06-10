@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar vorhanden, aber aufgrund der Tinte und der Durchzeichnung auf der Rückseite nicht eindeutig zu entziffern, was jedoch für den Inhalt des Dokuments nicht kritisch ist."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1920,
     "total_words": 265,
     "total_pages": 1,

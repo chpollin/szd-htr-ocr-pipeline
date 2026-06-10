@@ -333,7 +333,7 @@
     "confidence_notes": "S.1-20: Die Handschrift ist sehr flüchtig und enthält viele Abkürzungen sowie eine Mischung aus Deutsch und Französisch. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern.; S.21-40: Die ersten drei Seiten (21-23) sind aufgrund der flüchtigen Handschrift, der Korrekturen und der teilweise unklaren Wortwahl (viele Eigennamen und historische Begriffe) als 'medium' eingestuft. Die restlichen Seiten sind leer.; S.41-45: Seite 43 ist aufgrund der Überlagerung durch die Farbskala und der Fragmentierung des Textes sehr schwer zu lesen. Die übrigen Seiten sind klar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 17010,
     "total_words": 2610,
     "total_pages": 21,

@@ -60,7 +60,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die violetten Unterstreichungen und handschriftlichen Anmerkungen sind ebenfalls gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 6474,
     "total_words": 844,
     "total_pages": 3,

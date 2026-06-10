@@ -53,7 +53,7 @@
     "confidence_notes": "Es handelt sich um einen gedruckten Zeitschriftenartikel. Der Text ist sehr klar und gut lesbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 20178,
     "total_words": 3065,
     "total_pages": 4,

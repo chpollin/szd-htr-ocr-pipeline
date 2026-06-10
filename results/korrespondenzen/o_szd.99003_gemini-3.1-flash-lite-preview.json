@@ -48,7 +48,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort in der letzten Zeile von Seite 1 ('Glucestiren') ist orthographisch unklar, vermutlich ein Schreibfehler oder eine spezifische Bezeichnung."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 906,
     "total_words": 139,
     "total_pages": 2,

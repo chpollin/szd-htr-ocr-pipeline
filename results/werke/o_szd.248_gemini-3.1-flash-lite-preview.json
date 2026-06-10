@@ -109,7 +109,7 @@
     "confidence_notes": "Der Text ist aufgrund der zahlreichen handschriftlichen Korrekturen und der teilweise blassen Durchschläge an einigen Stellen schwer zu entziffern. Die Transkription der handschriftlichen Ergänzungen erfolgte nach bestem Wissen."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 11097,
     "total_words": 1660,
     "total_pages": 6,

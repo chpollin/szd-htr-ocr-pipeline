@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der vertikalen Randnotizen. Einige wenige Wörter sind aufgrund der Handschrift leicht unsicher, aber im Kontext gut verständlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 4380,
     "total_words": 874,
     "total_pages": 1,

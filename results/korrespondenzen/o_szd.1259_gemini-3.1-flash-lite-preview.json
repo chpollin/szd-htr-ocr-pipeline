@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Orts- und Adressangaben sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 161,
     "total_words": 22,
     "total_pages": 0,

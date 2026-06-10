@@ -81,7 +81,7 @@
     "confidence_notes": "Der Text ist ein klar gedruckter Text (Druckfahne), der sehr gut lesbar ist. Es gibt keine handschriftlichen Korrekturen auf den Scans."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 15526,
     "total_words": 2342,
     "total_pages": 4,

@@ -39,7 +39,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar. Die Frakturschrift ist klar. Die handschriftliche Datierung auf Seite 1 ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 10222,
     "total_words": 1656,
     "total_pages": 2,

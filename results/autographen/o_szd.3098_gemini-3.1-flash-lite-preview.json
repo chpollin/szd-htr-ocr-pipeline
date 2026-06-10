@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Randnotizen, die sich teilweise überlappen. Einige Wörter wie 'entrenchous' sind aufgrund der Handschrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 3105,
     "total_words": 602,
     "total_pages": 1,

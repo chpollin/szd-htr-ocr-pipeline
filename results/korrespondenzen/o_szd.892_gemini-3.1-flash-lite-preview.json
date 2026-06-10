@@ -32,7 +32,7 @@
     "confidence_notes": "Der Text ist weitgehend klar lesbar. Einige französische Wörter weisen eine typische Zweig-Handschrift auf, die bei flüchtiger Schreibweise leicht interpretierbar ist, aber im Kontext des Briefes eindeutig erscheint."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1855,
     "total_words": 324,
     "total_pages": 2,

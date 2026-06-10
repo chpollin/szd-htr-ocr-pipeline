@@ -669,7 +669,7 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der guten Lesbarkeit der Vorlagen (sowohl Typoskripte als auch Handschriften) sehr zuverlässig. Unsichere Stellen wurden entsprechend markiert.; S.21-40: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschrift von Stefan Zweig sehr zuverlässig. Die Korrekturen und Einfügungen wurden gemäss den Vorgaben erfasst.; S.61-80: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren handschriftlichen Korrekturen (meist in violetter Tinte) gut durchführbar. Unsichere Stellen wurden mit [?] markiert.; S.81-93: Der Text ist ein Typoskript mit sehr vielen handschriftlichen Korrekturen, Einfügungen und Streichungen, die teilweise schwer zu entziffern sind. Die Lesbarkeit ist durch die Überlagerung von Typoskript und Handschrift sowie durchscheinenden Text von der Rückseite beeinträchtigt."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.6",
     "total_chars": 60585,
     "total_words": 8947,
     "total_pages": 38,
@@ -872,7 +872,6 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0002,
-    "dwr_score": 0.4512,
     "duplicate_page_pairs": [
       [
         6,

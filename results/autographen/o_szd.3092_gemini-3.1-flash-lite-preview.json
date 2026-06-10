@@ -45,7 +45,7 @@
     "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 2327,
     "total_words": 445,
     "total_pages": 1,

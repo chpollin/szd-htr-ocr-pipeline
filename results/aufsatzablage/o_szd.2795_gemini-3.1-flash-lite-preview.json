@@ -53,7 +53,7 @@
     "confidence_notes": "Der Text ist klar lesbar, trotz der verschiedenen verwendeten Schreibmittel."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 364,
     "total_words": 51,
     "total_pages": 2,

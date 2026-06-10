@@ -38,7 +38,7 @@
     "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es bei einigen Wörtern (z.B. 'Granddydje') Unsicherheiten aufgrund der Handschrift. Die Ausrichtung des Textes am unteren Rand der Postkarte ist ungewöhnlich."
   },
   "quality_signals": {
-    "version": "1.5",
+    "version": "1.6",
     "total_chars": 1012,
     "total_words": 163,
     "total_pages": 2,
