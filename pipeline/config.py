@@ -37,6 +37,27 @@ COLLECTIONS = {
     "autographen":     {"subdir": "autographen",      "tei": "szd_autographen_tei.xml"},
 }
 
+# --- Bestandseinheiten (archivische Einheit aus der Signatur) ---
+# Anzeige-Begriff je Sammlung fuer die aus der Signatur abgeleitete Einheit
+# (Signatur minus letztes Punkt-Segment, siehe derive_unit in build_viewer_data.py).
+# Die offizielle Terminologie der Erschliessung ist offen (Korrekturmeldung
+# SZ-AAL 2026-06); bis dahin gelten diese Arbeitsbegriffe.
+UNIT_TERMS = {
+    "lebensdokumente": "Mappe",
+    "werke":           "Werkmappe",
+    "aufsatzablage":   "Werkmappe",
+    "korrespondenzen": "Konvolut",
+    "autographen":     "Konvolut",
+}
+
+# Klartext-Beschreibung je Ingest-Label (Tooltip im Viewer).
+INGEST_INFO = {
+    "SZ-AAL-2026-06": (
+        "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan "
+        "und Lotte Zweig (379 Objekte, GAMS-Ingest 10.06.2026)"
+    ),
+}
+
 # --- Batch ---
 BATCH_DELAY = float(os.environ.get("HTR_BATCH_DELAY", "2.0"))
 CHUNK_SIZE = int(os.environ.get("HTR_CHUNK_SIZE", "20"))

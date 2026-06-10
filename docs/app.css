@@ -663,6 +663,28 @@ body.view-stats #help { display: none; }
   background: rgba(99, 26, 52, 0.04);
 }
 
+/* Bestandseinheiten-Badge (Konvolut/Mappe) in der Signatur-Spalte:
+   Klick filtert den Katalog auf die Einheit */
+.badge-unit {
+  display: inline-block;
+  margin-top: 0.15rem;
+  padding: 0.05em 0.45em;
+  border: 1px solid var(--sz-burgundy-light);
+  border-radius: 0.6em;
+  background: rgba(99, 26, 52, 0.06);
+  color: var(--sz-burgundy);
+  font-size: 0.68em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.badge-unit:hover {
+  background: rgba(99, 26, 52, 0.14);
+  border-color: var(--sz-burgundy);
+}
+
 /* Table */
 .catalog__table-wrap {
   background: var(--sz-white);

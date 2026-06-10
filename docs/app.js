@@ -17,6 +17,119 @@ const COLLECTION_LABELS = {
   korrespondenzen: 'Korrespondenzen',
 };
 
+/* ===== Katalog-Filter: deklaratives Registry =====
+   Ein Filter = eine Definition. State (state.filters), URL-Parameter,
+   Dropdown-Befuellung, Sichtbarkeit, Chips und Listener werden generisch
+   aus dieser Liste verdrahtet (updateFilterOptions, applyFilters,
+   renderActiveFilters, buildCatalogHash, parseCatalogParams, initEvents).
+   Ein neuer Filter braucht nur einen Eintrag hier plus ein <select> in
+   index.html.
+   - predicate(o, v): Objekt-Praedikat bei gesetztem Wert v
+   - options(source): dynamische Optionen aus dem (per dependsOn
+     vorgefilterten) Katalog; null = statische Optionen in index.html
+   - dependsOn: Filter-Keys, deren Werte die Options-Quelle einschraenken
+   - visible(opts): Sichtbarkeit des Dropdowns; ein per URL gesetzter Wert
+     filtert auch bei verstecktem Dropdown (Chip bleibt sichtbar) */
+const FILTER_DEFS = [
+  {
+    key: 'collection', param: 'collection', elementId: 'filterCollection',
+    chipLabel: v => COLLECTION_LABELS[v] || v,
+    predicate: (o, v) => o.collection === v,
+    dependsOn: [],
+    options: source => [...new Set(source.map(o => o.collection))].sort()
+      .map(c => ({ value: c, label: COLLECTION_LABELS[c] || c })),
+    visible: () => true,
+  },
+  {
+    key: 'ingest', param: 'ingest', elementId: 'filterIngest',
+    chipLabel: v => v,
+    chipTitle: v => ingestInfo(v),
+    predicate: (o, v) => o.ingestLabel === v,
+    dependsOn: ['collection'],
+    options: source => {
+      const counts = countBy(source, o => o.ingestLabel);
+      return [...counts.keys()].sort().map(l => ({
+        value: l, label: `${l} (${counts.get(l)})`, title: ingestInfo(l),
+      }));
+    },
+    visible: opts => opts.length > 0,
+  },
+  {
+    key: 'unit', param: 'unit', elementId: 'filterUnit',
+    chipLabel: v => v,
+    chipTitle: v => state.filters.collection ? `${unitTerm(state.filters.collection)} ${v}` : '',
+    predicate: (o, v) => o.unit === v,
+    dependsOn: ['collection', 'ingest'],
+    // Nur echte Gruppierungen anbieten; Einzelobjekte bleiben ueber die Suche erreichbar
+    options: source => {
+      const counts = countBy(source, o => o.unit);
+      return [...counts.keys()].filter(u => counts.get(u) >= 2).sort()
+        .map(u => ({ value: u, label: `${u} (${counts.get(u)})` }));
+    },
+    // Bestandseinheiten sind nur innerhalb einer Sammlung ein sinnvoller Zugriff
+    visible: opts => !!state.filters.collection && opts.length > 0,
+    emptyLabel: () => `Alle ${unitTermPlural(state.filters.collection)}`,
+  },
+  {
+    key: 'group', param: 'group', elementId: 'filterGroup',
+    chipLabel: v => v,
+    predicate: (o, v) => (o.classification || o.groupLabel) === v,
+    dependsOn: ['collection'],
+    options: source => [...new Set(source.map(o => o.classification || o.groupLabel).filter(Boolean))]
+      .sort().map(g => ({ value: g, label: g })),
+    visible: () => true,
+  },
+  {
+    key: 'confidence', param: 'confidence', elementId: 'filterConfidence',
+    chipLabel: v => v,
+    predicate: (o, v) => o.confidence === v,
+    dependsOn: [],
+    options: null,
+    visible: () => true,
+  },
+  {
+    key: 'reviewStatus', param: 'review_status', elementId: 'filterReviewStatus',
+    chipLabel: v => REVIEW_STATUS_LABELS[v] || v,
+    predicate: (o, v) => reviewStatusPredicate(o, v),
+    dependsOn: [],
+    options: null,
+    visible: () => state.hasReviewData,
+  },
+];
+
+function countBy(list, keyFn) {
+  const m = new Map();
+  for (const o of list) {
+    const k = keyFn(o);
+    if (k) m.set(k, (m.get(k) || 0) + 1);
+  }
+  return m;
+}
+
+function ingestInfo(label) {
+  return ((state.catalogMeta || {}).ingestInfo || {})[label] || '';
+}
+
+function unitTerm(collection) {
+  return ((state.catalogMeta || {}).unitTerms || {})[collection] || 'Bestandseinheit';
+}
+
+function unitTermPlural(collection) {
+  const t = unitTerm(collection);
+  if (t.endsWith('e')) return t + 'n';      // Mappe -> Mappen
+  if (t.endsWith('eit')) return t + 'en';   // Bestandseinheit -> Bestandseinheiten
+  return t + 'e';                            // Konvolut -> Konvolute
+}
+
+function reviewStatusPredicate(o, v) {
+  if (v === 'gt_verified') return !!o.gtVerified;
+  if (v === 'human_verified') return (o.reviewStatus === 'approved' || isObjectApproved(o.id)) && !o.gtVerified;
+  if (v === 'agent_verified') return o.reviewStatus === 'agent_verified';
+  if (v === 'llm_ok') return o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified';
+  if (v === 'needs_review') return !!o.needsReview;
+  return true;
+}
+
 
 
 const LS_KEY = 'szd-htr-edits';
@@ -59,12 +172,9 @@ const state = {
   searchQuery: '',
   sortField: 'collection',
   sortAsc: true,
-  filterCollection: '',
-  filterIngest: '',
-  filterKonvolut: '',
-  filterGroup: '',
-  filterConfidence: '',
-  filterReviewStatus: '',
+  // Filter-Werte, Keys aus FILTER_DEFS
+  filters: { collection: '', ingest: '', unit: '', group: '', confidence: '', reviewStatus: '' },
+  catalogMeta: {},
   editMode: false,
   diffMode: false,
   diffTab: 'consensus',
@@ -434,6 +544,7 @@ async function loadCatalog() {
   const data = await resp.json();
   state.catalog = data.objects || [];
   state.collections = data.collections || [];
+  state.catalogMeta = data.meta || {};
 }
 
 async function loadCollectionData(collection) {
@@ -480,12 +591,9 @@ function navigate(hash) {
 
 function buildCatalogHash() {
   const params = new URLSearchParams();
-  if (state.filterCollection) params.set('collection', state.filterCollection);
-  if (state.filterIngest) params.set('ingest', state.filterIngest);
-  if (state.filterKonvolut) params.set('konvolut', state.filterKonvolut);
-  if (state.filterGroup) params.set('group', state.filterGroup);
-  if (state.filterConfidence) params.set('confidence', state.filterConfidence);
-  if (state.filterReviewStatus) params.set('review_status', state.filterReviewStatus);
+  for (const def of FILTER_DEFS) {
+    if (state.filters[def.key]) params.set(def.param, state.filters[def.key]);
+  }
   if (state.searchQuery) params.set('q', state.searchQuery);
   if (state.sortField !== 'collection') params.set('sort', state.sortField);
   if (!state.sortAsc) params.set('asc', '0');
@@ -498,13 +606,12 @@ function parseCatalogParams(hash) {
   const qIdx = hash.indexOf('?');
   if (qIdx === -1) return;
   const params = new URLSearchParams(hash.slice(qIdx + 1));
-  if (params.has('collection')) state.filterCollection = params.get('collection');
-  if (params.has('ingest')) state.filterIngest = params.get('ingest');
-  if (params.has('konvolut')) state.filterKonvolut = params.get('konvolut');
-  if (params.has('group')) state.filterGroup = params.get('group');
-  if (params.has('confidence')) state.filterConfidence = params.get('confidence');
-  if (params.has('review_status')) state.filterReviewStatus = params.get('review_status');
-  if (params.get('review') === '1') state.filterReviewStatus = 'needs_review';
+  for (const def of FILTER_DEFS) {
+    if (params.has(def.param)) state.filters[def.key] = params.get(def.param);
+  }
+  // Legacy-Parameter aelterer Links
+  if (params.get('review') === '1') state.filters.reviewStatus = 'needs_review';
+  if (params.has('konvolut')) state.filters.unit = params.get('konvolut');
   if (params.has('q')) state.searchQuery = params.get('q');
   if (params.has('sort')) state.sortField = params.get('sort');
   if (params.has('asc')) state.sortAsc = params.get('asc') !== '0';
@@ -513,16 +620,9 @@ function parseCatalogParams(hash) {
 
 function restoreFilterUI() {
   document.getElementById('searchInput').value = state.searchQuery;
-  document.getElementById('filterCollection').value = state.filterCollection;
-  document.getElementById('filterIngest').value = state.filterIngest;
-  updateGroupFilter();
-  updateKonvolutFilter();
-  document.getElementById('filterGroup').value = state.filterGroup;
-  document.getElementById('filterConfidence').value = state.filterConfidence;
-  document.getElementById('filterReviewStatus').value = state.filterReviewStatus;
-  // Highlight active selects
-  for (const id of ['filterCollection', 'filterIngest', 'filterKonvolut', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
-    const el = document.getElementById(id);
+  updateFilterOptions();
+  for (const def of FILTER_DEFS) {
+    const el = document.getElementById(def.elementId);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
   renderActiveFilters();
@@ -1100,33 +1200,9 @@ function renderStats() {
 function applyFilters() {
   let list = state.catalog;
 
-  if (state.filterCollection) {
-    list = list.filter(o => o.collection === state.filterCollection);
-  }
-  if (state.filterIngest) {
-    list = list.filter(o => o.ingestLabel === state.filterIngest);
-  }
-  if (state.filterKonvolut) {
-    list = list.filter(o => konvolutOf(o.signature) === state.filterKonvolut);
-  }
-  if (state.filterGroup) {
-    list = list.filter(o => (o.classification || o.groupLabel) === state.filterGroup);
-  }
-  if (state.filterConfidence) {
-    list = list.filter(o => o.confidence === state.filterConfidence);
-  }
-  if (state.filterReviewStatus) {
-    if (state.filterReviewStatus === 'gt_verified') {
-      list = list.filter(o => o.gtVerified);
-    } else if (state.filterReviewStatus === 'human_verified') {
-      list = list.filter(o => (o.reviewStatus === 'approved' || isObjectApproved(o.id)) && !o.gtVerified);
-    } else if (state.filterReviewStatus === 'agent_verified') {
-      list = list.filter(o => o.reviewStatus === 'agent_verified');
-    } else if (state.filterReviewStatus === 'llm_ok') {
-      list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified');
-    } else if (state.filterReviewStatus === 'needs_review') {
-      list = list.filter(o => o.needsReview);
-    }
+  for (const def of FILTER_DEFS) {
+    const v = state.filters[def.key];
+    if (v) list = list.filter(o => def.predicate(o, v));
   }
   if (state.searchQuery) {
     const q = state.searchQuery.toLowerCase();
@@ -1191,13 +1267,18 @@ function renderCatalog() {
       const v = obj.verification || {};
       const qualityHtml = renderQualityCell(v, obj.confidence, obj);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
+      const ingestTip = ingestInfo(obj.ingestLabel)
+        || `Lieferung ${obj.ingestLabel}${obj.pidStatus ? ' — noch nicht im GAMS (Platzhalter-PID)' : ''}`;
       const ingestBadge = obj.ingestLabel
-        ? `<span class="badge-ingest" data-tooltip="Neuer Ingest: ${escapeHtml(obj.ingestLabel)} — noch nicht im GAMS (Platzhalter-PID)" style="display:inline-block;margin-right:.4em;padding:.05em .45em;border-radius:.6em;background:#7a1f3d;color:#fff;font-size:.68em;font-weight:600;vertical-align:middle;letter-spacing:.02em;">${escapeHtml(obj.ingestLabel)}</span>`
+        ? `<span class="badge-ingest" data-tooltip="${escapeHtml(ingestTip)}" style="display:inline-block;margin-right:.4em;padding:.05em .45em;border-radius:.6em;background:#7a1f3d;color:#fff;font-size:.68em;font-weight:600;vertical-align:middle;letter-spacing:.02em;">${escapeHtml(obj.ingestLabel)}</span>`
+        : '';
+      const unitBadge = obj.unit && obj.unit !== obj.signature
+        ? `<br><button type="button" class="badge-unit" data-unit="${escapeHtml(obj.unit)}" data-collection="${escapeHtml(obj.collection)}" data-tooltip="${escapeHtml(unitTerm(obj.collection))} ${escapeHtml(obj.unit)} — Klick zeigt alle Objekte dieser Einheit">${escapeHtml(obj.unit)}</button>`
         : '';
       html += `<tr data-id="${escapeHtml(obj.id)}" tabindex="0">
         <td class="col-thumb"><img src="${escapeHtml(obj.thumbnail || '')}" loading="lazy" alt=""></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${ingestBadge}${titleFull}</td>
-        <td class="col-sig">${escapeHtml(obj.signature)}</td>
+        <td class="col-sig">${escapeHtml(obj.signature)}${unitBadge}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
         <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)}</td>
@@ -1221,16 +1302,12 @@ function renderCatalog() {
   const pagesEl = document.getElementById('paginationPages');
   pagesEl.textContent = total > 0 ? `Seite ${state.catalogPage + 1} / ${totalPages}` : '';
 
-  // Update group filter options based on current visible data
-  updateGroupFilter();
-  updateKonvolutFilter();
-
-  // Show review filter only if data supports it
-  document.getElementById('filterReviewStatus').classList.toggle('is-hidden', !state.hasReviewData);
+  // Filter-Dropdowns (Optionen, Sichtbarkeit, Auswahl) aus dem Registry aktualisieren
+  updateFilterOptions();
 
   // Highlight active selects + render filter chips
-  for (const id of ['filterCollection', 'filterIngest', 'filterKonvolut', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
-    const el = document.getElementById(id);
+  for (const def of FILTER_DEFS) {
+    const el = document.getElementById(def.elementId);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
   renderActiveFilters();
@@ -1262,31 +1339,24 @@ function renderActiveFilters() {
   if (state.searchQuery) {
     chips.push({ key: 'search', label: `\u201E${state.searchQuery}\u201C` });
   }
-  if (state.filterCollection) {
-    chips.push({ key: 'collection', label: COLLECTION_LABELS[state.filterCollection] || state.filterCollection });
-  }
-  if (state.filterIngest) {
-    chips.push({ key: 'ingest', label: state.filterIngest });
-  }
-  if (state.filterKonvolut) {
-    chips.push({ key: 'konvolut', label: state.filterKonvolut });
-  }
-  if (state.filterGroup) {
-    chips.push({ key: 'group', label: state.filterGroup });
-  }
-  if (state.filterConfidence) {
-    chips.push({ key: 'confidence', label: state.filterConfidence });
-  }
-  if (state.filterReviewStatus) {
-    chips.push({ key: 'reviewStatus', label: REVIEW_STATUS_LABELS[state.filterReviewStatus] || state.filterReviewStatus });
+  for (const def of FILTER_DEFS) {
+    const v = state.filters[def.key];
+    if (v) {
+      chips.push({
+        key: def.key,
+        label: def.chipLabel(v),
+        title: def.chipTitle ? def.chipTitle(v) : '',
+      });
+    }
   }
   if (chips.length === 0) {
     el.innerHTML = '';
     return;
   }
-  let html = chips.map(c =>
-    `<button type="button" class="catalog__filter-chip" data-filter="${c.key}" title="Filter entfernen">${escapeHtml(c.label)} <span class="catalog__filter-chip-x">\u00d7</span></button>`
-  ).join('');
+  let html = chips.map(c => {
+    const tip = c.title ? `${escapeHtml(c.title)} \u2014 Klick entfernt den Filter` : 'Filter entfernen';
+    return `<button type="button" class="catalog__filter-chip" data-filter="${c.key}" title="${tip}">${escapeHtml(c.label)} <span class="catalog__filter-chip-x">\u00d7</span></button>`;
+  }).join('');
   if (chips.length > 1) {
     html += `<button type="button" class="catalog__filter-chip catalog__filter-chip--reset" data-filter="reset-all" title="Alle Filter zur\u00fccksetzen">Alle zur\u00fccksetzen</button>`;
   }
@@ -1294,96 +1364,47 @@ function renderActiveFilters() {
 }
 
 function initCatalogFilters() {
-  const sel = document.getElementById('filterCollection');
-  for (const col of state.collections) {
-    const opt = document.createElement('option');
-    opt.value = col;
-    opt.textContent = COLLECTION_LABELS[col] || col;
-    sel.appendChild(opt);
-  }
-  // Ingest-Filter nur zeigen, wenn der Katalog Lieferungs-Labels enthaelt
-  const ingestSel = document.getElementById('filterIngest');
-  const ingestLabels = [...new Set(state.catalog.map(o => o.ingestLabel).filter(Boolean))].sort();
-  for (const label of ingestLabels) {
-    const opt = document.createElement('option');
-    opt.value = label;
-    opt.textContent = label;
-    ingestSel.appendChild(opt);
-  }
-  ingestSel.classList.toggle('is-hidden', ingestLabels.length === 0);
-  updateGroupFilter();
+  updateFilterOptions();
 }
 
-function updateGroupFilter() {
-  const sel = document.getElementById('filterGroup');
-  const prev = sel.value;
+/* Befuellt alle Filter-Dropdowns generisch aus FILTER_DEFS: Options-Quelle
+   nach dependsOn vorfiltern, Optionen setzen, Sichtbarkeit anwenden,
+   Auswahl wiederherstellen (oder State zuruecksetzen, wenn der Wert in den
+   neuen Optionen nicht mehr existiert). */
+function updateFilterOptions() {
+  for (const def of FILTER_DEFS) {
+    const sel = document.getElementById(def.elementId);
+    if (!sel) continue;
 
-  // Get groups available in current collection filter
-  let source = state.catalog;
-  if (state.filterCollection) {
-    source = source.filter(o => o.collection === state.filterCollection);
-  }
-  const groups = [...new Set(source.map(o => o.classification || o.groupLabel).filter(Boolean))].sort();
+    let opts = [];
+    if (def.options) {
+      let source = state.catalog;
+      for (const depKey of def.dependsOn) {
+        const dep = FILTER_DEFS.find(d => d.key === depKey);
+        const v = state.filters[depKey];
+        if (dep && v) source = source.filter(o => dep.predicate(o, v));
+      }
+      opts = def.options(source);
 
-  sel.innerHTML = '<option value="">Alle Gruppen</option>';
-  for (const g of groups) {
-    const opt = document.createElement('option');
-    opt.value = g;
-    opt.textContent = g;
-    sel.appendChild(opt);
-  }
+      const placeholder = sel.options[0];
+      if (def.emptyLabel) placeholder.textContent = def.emptyLabel();
+      sel.innerHTML = '';
+      sel.appendChild(placeholder);
+      for (const opt of opts) {
+        const el = document.createElement('option');
+        el.value = opt.value;
+        el.textContent = opt.label;
+        if (opt.title) el.title = opt.title;
+        sel.appendChild(el);
+      }
+      // Auswahl nur behalten, wenn sie in den neuen Optionen existiert
+      if (state.filters[def.key] && !opts.some(o => o.value === state.filters[def.key])) {
+        state.filters[def.key] = '';
+      }
+    }
 
-  // Restore selection if still valid, otherwise reset
-  if (groups.includes(prev)) {
-    sel.value = prev;
-  } else {
-    sel.value = '';
-    state.filterGroup = '';
-  }
-}
-
-// Archivische Einheit aus der Signatur: letztes ".N"-Segment abschneiden
-// (SZ-AAL/B1.113 -> SZ-AAL/B1, SZ-SAM/AK.159 -> SZ-SAM/AK, SZ-AAP/W-AA90.0 -> SZ-AAP/W-AA90)
-function konvolutOf(signature) {
-  if (!signature) return '';
-  return signature.replace(/\.[^./]+$/, '');
-}
-
-function updateKonvolutFilter() {
-  const sel = document.getElementById('filterKonvolut');
-  const prev = sel.value;
-
-  // Konvolute available in current collection/ingest filter
-  let source = state.catalog;
-  if (state.filterCollection) {
-    source = source.filter(o => o.collection === state.filterCollection);
-  }
-  if (state.filterIngest) {
-    source = source.filter(o => o.ingestLabel === state.filterIngest);
-  }
-  const counts = new Map();
-  for (const o of source) {
-    const k = konvolutOf(o.signature);
-    if (k) counts.set(k, (counts.get(k) || 0) + 1);
-  }
-  // Nur echte Gruppierungen anbieten; Einzelobjekte bleiben ueber die Suche erreichbar
-  const konvolute = [...counts.keys()].filter(k => counts.get(k) >= 2).sort();
-
-  sel.innerHTML = '<option value="">Alle Konvolute</option>';
-  for (const k of konvolute) {
-    const opt = document.createElement('option');
-    opt.value = k;
-    opt.textContent = `${k} (${counts.get(k)})`;
-    sel.appendChild(opt);
-  }
-  sel.classList.toggle('is-hidden', konvolute.length === 0);
-
-  // Restore selection if still valid, otherwise reset
-  if (konvolute.includes(prev)) {
-    sel.value = prev;
-  } else {
-    sel.value = '';
-    state.filterKonvolut = '';
+    sel.classList.toggle('is-hidden', !def.visible(opts));
+    sel.value = state.filters[def.key];
   }
 }
 
@@ -1400,6 +1421,11 @@ function renderViewerMeta(obj) {
       <span class="viewer__meta-label">Sig.</span>
       <span class="viewer__meta-value">${escapeHtml(obj.signature)}</span>
     </div>
+    ${obj.unit && obj.unit !== obj.signature ? `
+    <div class="viewer__meta-item">
+      <span class="viewer__meta-label">${escapeHtml(unitTerm(obj.collection))}</span>
+      <a class="viewer__meta-link" href="#catalog?collection=${encodeURIComponent(obj.collection)}&unit=${encodeURIComponent(obj.unit)}" title="Alle Objekte aus ${escapeHtml(obj.unit)} im Katalog zeigen">${escapeHtml(obj.unit)}</a>
+    </div>` : ''}
     <div class="viewer__meta-item">
       <a class="viewer__meta-link" href="${gamsUrl}" target="_blank" rel="noopener">${escapeHtml(obj.pid)}</a>
     </div>`;
@@ -3061,42 +3087,14 @@ function initEvents() {
     renderCatalog();
   }, SEARCH_DEBOUNCE_MS));
 
-  // Filters
-  document.getElementById('filterCollection').addEventListener('change', e => {
-    state.filterCollection = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('filterIngest').addEventListener('change', e => {
-    state.filterIngest = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('filterKonvolut').addEventListener('change', e => {
-    state.filterKonvolut = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('filterGroup').addEventListener('change', e => {
-    state.filterGroup = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('filterConfidence').addEventListener('change', e => {
-    state.filterConfidence = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
-
-  document.getElementById('filterReviewStatus').addEventListener('change', e => {
-    state.filterReviewStatus = e.target.value;
-    state.catalogPage = 0;
-    renderCatalog();
-  });
+  // Filters: ein Change-Listener je Registry-Eintrag
+  for (const def of FILTER_DEFS) {
+    document.getElementById(def.elementId).addEventListener('change', e => {
+      state.filters[def.key] = e.target.value;
+      state.catalogPage = 0;
+      renderCatalog();
+    });
+  }
 
   // Active filter chips: delegate click for remove/reset
   document.getElementById('activeFilters').addEventListener('click', e => {
@@ -3105,26 +3103,11 @@ function initEvents() {
     const key = chip.dataset.filter;
     if (key === 'reset-all') {
       state.searchQuery = '';
-      state.filterCollection = '';
-      state.filterIngest = '';
-      state.filterKonvolut = '';
-      state.filterGroup = '';
-      state.filterConfidence = '';
-      state.filterReviewStatus = '';
+      for (const def of FILTER_DEFS) state.filters[def.key] = '';
     } else if (key === 'search') {
       state.searchQuery = '';
-    } else if (key === 'collection') {
-      state.filterCollection = '';
-    } else if (key === 'ingest') {
-      state.filterIngest = '';
-    } else if (key === 'konvolut') {
-      state.filterKonvolut = '';
-    } else if (key === 'group') {
-      state.filterGroup = '';
-    } else if (key === 'confidence') {
-      state.filterConfidence = '';
-    } else if (key === 'reviewStatus') {
-      state.filterReviewStatus = '';
+    } else if (FILTER_DEFS.some(d => d.key === key)) {
+      state.filters[key] = '';
     }
     state.catalogPage = 0;
     restoreFilterUI();
@@ -3149,6 +3132,16 @@ function initEvents() {
   // Table row click + keyboard
   const catalogBody = document.getElementById('catalogBody');
   catalogBody.addEventListener('click', e => {
+    // Einheiten-Badge: filtert auf die Bestandseinheit statt das Objekt zu oeffnen
+    const badge = e.target.closest('.badge-unit');
+    if (badge) {
+      state.filters.collection = badge.dataset.collection;
+      state.filters.unit = badge.dataset.unit;
+      state.catalogPage = 0;
+      restoreFilterUI();
+      renderCatalog();
+      return;
+    }
     const row = e.target.closest('tr[data-id]');
     if (row) navigate('view/' + row.dataset.id);
   });

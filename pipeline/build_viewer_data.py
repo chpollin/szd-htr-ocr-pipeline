@@ -7,7 +7,10 @@ from datetime import datetime, timezone
 import markdown
 import yaml
 
-from config import COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, MODEL, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
+from config import (
+    COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, INGEST_INFO, MODEL,
+    PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR, UNIT_TERMS,
+)
 from tei_context import parse_tei_for_object
 
 DOCS_DIR = PROJECT_ROOT / "docs"
@@ -64,6 +67,18 @@ def extract_signature(title: str) -> tuple[str, str]:
     if len(parts) == 2 and parts[1].strip().startswith("SZ-"):
         return parts[0].strip(), parts[1].strip()
     return title, ""
+
+
+def derive_unit(signature: str) -> str:
+    """Bestandseinheit aus der Signatur: letztes Punkt-Segment abschneiden.
+
+    SZ-AAL/B1.113 -> SZ-AAL/B1 (Konvolut), SZ-SAM/AK.159 -> SZ-SAM/AK,
+    SZ-AAP/W-AA90.0 -> SZ-AAP/W-AA90 (Werkmappe). Signaturen ohne
+    Punkt-Segment (SZ-AAP/L3) sind selbst die Einheit.
+    """
+    if not signature:
+        return ""
+    return re.sub(r"\.[^./]+$", "", signature)
 
 
 def compute_verification(pages: list[dict]) -> dict:
@@ -271,6 +286,7 @@ def build():
             "title": obj["title"],
             "titleClean": obj["titleClean"],
             "signature": obj["signature"],
+            "unit": derive_unit(obj["signature"]),
             "classification": obj["classification"],
             "objecttyp": obj["objecttyp"],
             "lang": obj["lang"],
@@ -292,7 +308,17 @@ def build():
             "hasLayout": obj.get("hasLayout", False),
         })
 
-    catalog = {"objects": catalog_objects, "collections": collections}
+    catalog = {
+        "objects": catalog_objects,
+        "collections": collections,
+        "meta": {
+            # Anzeige-Begriff der Bestandseinheit je Sammlung + Klartext der
+            # Ingest-Labels; Quelle der Wahrheit ist config.py, das Frontend
+            # liest nur.
+            "unitTerms": UNIT_TERMS,
+            "ingestInfo": INGEST_INFO,
+        },
+    }
     CATALOG_PATH.write_text(
         json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8"
     )

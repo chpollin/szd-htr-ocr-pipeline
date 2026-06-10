@@ -1624,3 +1624,14 @@ Daten-Provenienz-Frage (in keinem GAMS-TEI-Katalog).
 - Wiedereinstieg: Batch-Ergebnis pruefen (`Get-ChildItem results/autographen/*_gemini-*.json`
   zaehlen, Log-Ende auf "BATCH KOMPLETT"), Stichprobe sichten, Korrekturmeldung versenden,
   Commit der Sammlungs-Integration steht aus.
+
+## 2026-06-10 — Session 26: AAL-Batch abgeschlossen, Katalog-Filter-Refactor (Bestandseinheiten)
+
+**Schwerpunkt:** AAL-Voll-Batch fertig (377/379, 2 Restanten ohne Faksimiles = B3-Re-Export-Fall; 91% high, 21 REVIEW-Flags; Stichproben o_szd.3307/3100 bestaetigen Diskriminanz der Selbsteinschaetzung). Sammlungs-Integration als Sammel-Commit gesichert und gepusht (Operator-Freigabe), GitHub Pages zeigt 2.451 Objekte.
+
+- **Filter-Refactor (Operator-Auftrag):** Katalog-Filter auf deklaratives Registry umgestellt (`FILTER_DEFS` in `docs/app.js`): State, URL-Parameter, Dropdown-Befuellung, Sichtbarkeit, Chips und Listener werden generisch verdrahtet; ein neuer Filter = ein Registry-Eintrag plus `<select>` in index.html.
+- **Bestandseinheiten pipeline-seitig:** `derive_unit()` in `build_viewer_data.py` schreibt je Objekt `unit` (Signatur minus letztes Punkt-Segment) in den Katalog; `config.py` traegt `UNIT_TERMS` (Anzeige-Begriff je Sammlung: Konvolut/Mappe/Werkmappe) und `INGEST_INFO` (Klartext je Ingest-Label, Tooltip). Neuer Test `test_unit_derivation.py` (eigenstaendig, Exit 0 = gruen).
+- **Einheiten-Filter** ersetzt den Konvolut-Filter vom Vormittag: erscheint nur bei gewaehlter Sammlung (sonst 257 Optionen), Optionen abhaengig von Sammlung+Lieferung, nur Einheiten mit >=2 Objekten; Legacy-URL-Param `konvolut` wird weiter gelesen.
+- **Badges:** klickbares Einheiten-Badge in der Signatur-Spalte (filtert auf die Einheit) und Einheiten-Zeile mit Katalog-Link in der Viewer-Meta; Ingest-Badge-Tooltip nutzt jetzt `INGEST_INFO` (alter Text behauptete faelschlich "noch nicht im GAMS").
+- Terminologie-Vorbehalt: UNIT_TERMS sind Arbeitsbegriffe; offizielle Bezeichnung (und Aufloesung des Kuerzels AAL) wird ueber die Korrekturmeldung mit der Erschliessung geklaert.
+- Wiedereinstieg: REVIEW-Sichtung der 21 markierten AAL-Objekte (lokal, `?ingest=SZ-AAL-2026-06&review_status=needs_review`), Korrekturmeldung versenden; Browser-Sichtpruefung des Filter-Refactors steht aus (nur node --check + Tests + Datenchecks gelaufen).
