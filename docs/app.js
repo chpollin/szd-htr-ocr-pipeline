@@ -20,19 +20,13 @@ const COLLECTION_LABELS = {
   korrespondenzen: 'Korrespondenzen',
 };
 
-/* ===== Katalog-Filter: deklaratives Registry =====
-   Ein Filter = eine Definition. State (state.filters), URL-Parameter,
-   Dropdown-Befuellung, Sichtbarkeit, Chips und Listener werden generisch
-   aus dieser Liste verdrahtet (updateFilterOptions, applyFilters,
-   renderActiveFilters, buildCatalogHash, parseCatalogParams, initEvents).
-   Ein neuer Filter braucht nur einen Eintrag hier plus ein <select> in
-   index.html.
-   - predicate(o, v): Objekt-Praedikat bei gesetztem Wert v
-   - options(source): dynamische Optionen aus dem (per dependsOn
-     vorgefilterten) Katalog; null = statische Optionen in index.html
-   - dependsOn: Filter-Keys, deren Werte die Options-Quelle einschraenken
-   - visible(opts): Sichtbarkeit des Dropdowns; ein per URL gesetzter Wert
-     filtert auch bei verstecktem Dropdown (Chip bleibt sichtbar) */
+/* Catalog filter registry: one definition per filter. State, URL params,
+   dropdown options, visibility, chips and listeners are wired generically
+   from this list (updateFilterOptions, applyFilters, renderActiveFilters,
+   buildCatalogHash, parseCatalogParams, initEvents). A new filter is one
+   entry here plus one <select> in index.html. options=null means static
+   options in the HTML; dependsOn narrows the option source; a URL-set
+   value still filters while its dropdown is hidden (chip stays visible). */
 const FILTER_DEFS = [
   {
     key: 'collection', param: 'collection', elementId: 'filterCollection',
@@ -63,14 +57,14 @@ const FILTER_DEFS = [
     chipTitle: v => state.filters.collection ? `${unitTerm(state.filters.collection)} ${v}` : '',
     predicate: (o, v) => o.unit === v,
     dependsOn: ['collection', 'ingest'],
-    // Nur echte Gruppierungen anbieten; Einzelobjekte bleiben ueber die Suche erreichbar
+    // only real groupings; singletons stay reachable via search
     options: source => {
       const counts = countBy(source, o => o.unit);
       return [...counts.keys()].filter(u => counts.get(u) >= 2).sort()
         .map(u => ({ value: u, label: `${u} (${counts.get(u)})` }));
     },
-    // Bestandseinheiten sind nur innerhalb einer Sammlung ein sinnvoller Zugriff
-    visible: opts => !!state.filters.collection && opts.length > 0,
+    // only for collections with a unit term (UNIT_TERMS) and a chosen collection
+    visible: opts => !!state.filters.collection && hasUnitTerm(state.filters.collection) && opts.length > 0,
     emptyLabel: () => `Alle ${unitTermPlural(state.filters.collection)}`,
   },
   {
@@ -113,6 +107,10 @@ function ingestInfo(label) {
   return ((state.catalogMeta || {}).ingestInfo || {})[label] || '';
 }
 
+function hasUnitTerm(collection) {
+  return !!((state.catalogMeta || {}).unitTerms || {})[collection];
+}
+
 function unitTerm(collection) {
   return ((state.catalogMeta || {}).unitTerms || {})[collection] || 'Bestandseinheit';
 }
@@ -124,12 +122,19 @@ function unitTermPlural(collection) {
   return t + 'e';                            // Konvolut -> Konvolute
 }
 
+function isHumanChecked(o) {
+  return !!o.gtVerified || o.reviewStatus === 'approved' || isObjectApproved(o.id);
+}
+
+function isAgentChecked(o) {
+  return !isHumanChecked(o) && o.reviewStatus === 'agent_verified';
+}
+
 function reviewStatusPredicate(o, v) {
-  if (v === 'gt_verified') return !!o.gtVerified;
-  if (v === 'human_verified') return (o.reviewStatus === 'approved' || isObjectApproved(o.id)) && !o.gtVerified;
-  if (v === 'agent_verified') return o.reviewStatus === 'agent_verified';
-  if (v === 'llm_ok') return o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified';
-  if (v === 'needs_review') return !!o.needsReview;
+  if (v === 'human_verified') return isHumanChecked(o);
+  if (v === 'agent_verified') return isAgentChecked(o);
+  if (v === 'unchecked') return !isHumanChecked(o) && !isAgentChecked(o);
+  if (v === 'priority') return !isHumanChecked(o) && !isAgentChecked(o) && !!o.needsReview;
   return true;
 }
 
@@ -175,7 +180,6 @@ const state = {
   searchQuery: '',
   sortField: 'collection',
   sortAsc: true,
-  // Filter-Werte, Keys aus FILTER_DEFS
   filters: { collection: '', ingest: '', unit: '', group: '', confidence: '', reviewStatus: '' },
   catalogMeta: {},
   editMode: false,
@@ -612,9 +616,11 @@ function parseCatalogParams(hash) {
   for (const def of FILTER_DEFS) {
     if (params.has(def.param)) state.filters[def.key] = params.get(def.param);
   }
-  // Legacy-Parameter aelterer Links
-  if (params.get('review') === '1') state.filters.reviewStatus = 'needs_review';
+  // legacy URL params
+  if (params.get('review') === '1') state.filters.reviewStatus = 'priority';
   if (params.has('konvolut')) state.filters.unit = params.get('konvolut');
+  const legacyReview = { gt_verified: 'human_verified', llm_ok: 'unchecked', needs_review: 'priority' };
+  if (legacyReview[state.filters.reviewStatus]) state.filters.reviewStatus = legacyReview[state.filters.reviewStatus];
   if (params.has('q')) state.searchQuery = params.get('q');
   if (params.has('sort')) state.sortField = params.get('sort');
   if (params.has('asc')) state.sortAsc = params.get('asc') !== '0';
@@ -961,26 +967,18 @@ async function showAbout() {
 /* ===== Review / Quality Signals ===== */
 
 function renderReviewCell(obj) {
-  // Tier 0: GT verified (highest) — human
-  if (obj.gtVerified) {
-    return `<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Jede Seite zeichengenau gegen Faksimile verifiziert">Verifiziert${HUMAN_ICON}</span>`;
+  if (isHumanChecked(obj)) {
+    return `<span class="badge-review badge-review-approved" data-tooltip="Von einem Menschen am Faksimile gegengelesen und bei Bedarf korrigiert — gilt als verifiziert (Ground-Truth-fähig)">Mensch-geprüft${HUMAN_ICON}</span>`;
   }
-  // Tier 1: Human expert approved
-  if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
-    return `<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft${HUMAN_ICON}</span>`;
-  }
-  // Tier 2: Agent verified — automated image↔text comparison
-  if (obj.reviewStatus === 'agent_verified') {
-    return `<span class="badge-review badge-review-auto" data-tooltip="Automatischer Bild-Text-Vergleich durch Claude Code Agent">Auto-gepr\u00fcft${MACHINE_ICON}</span>`;
+  if (isAgentChecked(obj)) {
+    return `<span class="badge-review badge-review-auto" data-tooltip="Bild-Text-Vergleich durch einen Claude-Vision-Agenten — kann stimmen, ersetzt aber keine menschliche Prüfung">Agent-geprüft${MACHINE_ICON}</span>`;
   }
   if (obj.needsReview === undefined) return '';
-  // Tier 3b: Quality signals flagged problems
   if (obj.needsReview) {
     const reasons = (obj.needsReviewReasons || []).join(', ');
-    return `<span class="badge-review badge-review-flagged" data-tooltip="Qualit\u00e4tssignale: ${escapeHtml(reasons)}">Review n\u00f6tig${MACHINE_ICON}</span>`;
+    return `<span class="badge-review badge-review-flagged" data-tooltip="Ungeprüft, zuerst sichten — Qualitätssignale: ${escapeHtml(reasons)}">Ungeprüft ⚠${MACHINE_ICON}</span>`;
   }
-  // Tier 3a: No issues found but no human check
-  return `<span class="badge-review badge-review-unchecked" data-tooltip="Keine Auff\u00e4lligkeiten \u2014 aber noch nicht gepr\u00fcft">Ungepr\u00fcft${MACHINE_ICON}</span>`;
+  return `<span class="badge-review badge-review-unchecked" data-tooltip="Nur Pipeline-Selbsteinschätzung, noch von niemandem geprüft">Ungeprüft${MACHINE_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -1025,7 +1023,7 @@ function renderStats() {
   for (const col of state.collections) perCol[col] = 0;
   const perGroup = {};
   const confDist = { high: 0, medium: 0, low: 0 };
-  let reviewCount = 0, verifiedCount = 0, approvedCount = 0, agentCount = 0, llmOkCount = 0;
+  let humanCount = 0, agentCount = 0, uncheckedCount = 0, priorityCount = 0;
   let totalPages = 0, totalContentPages = 0, totalBlankPages = 0;
   let totalChars = 0;
   let dwrSum = 0, dwrCount = 0;
@@ -1036,13 +1034,10 @@ function renderStats() {
     perCol[o.collection] = (perCol[o.collection] || 0) + 1;
     const g = o.classification || o.groupLabel || '?';
     perGroup[g] = (perGroup[g] || 0) + 1;
-    // Mutually-exclusive tier assignment, identical to renderReviewCell priority.
-    // Ensures Chips and Curation Progress use the same numbers.
-    if (o.gtVerified) verifiedCount++;
-    else if (o.reviewStatus === 'approved') approvedCount++;
+    // mutually exclusive, same priority as renderReviewCell
+    if (isHumanChecked(o)) humanCount++;
     else if (o.reviewStatus === 'agent_verified') agentCount++;
-    else if (o.needsReview === true) reviewCount++;
-    else if (o.needsReview === false) llmOkCount++;
+    else if (o.needsReview !== undefined) { uncheckedCount++; if (o.needsReview) priorityCount++; }
     if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
     totalPages += o.pageCount || 0;
     totalContentPages += o.contentPages || 0;
@@ -1055,7 +1050,6 @@ function renderStats() {
     }
   }
 
-  const reviewPct = total > 0 ? Math.round((reviewCount / total) * 100) : 0;
   const avgDwr = dwrCount > 0 ? Math.round((dwrSum / dwrCount) * 100) : 0;
 
   // Summary line: chips for collections
@@ -1064,24 +1058,6 @@ function renderStats() {
     return `<span class="catalog__stats-chip"><strong>${perCol[c]}</strong> ${escapeHtml(label)}</span>`;
   }).join('');
 
-  const reviewChip = state.hasReviewData && reviewCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--review-warn"><strong>${reviewCount}</strong> Review n\u00f6tig</span>`
-    : '';
-  const llmOkChip = llmOkCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--llm-ok"><strong>${llmOkCount}</strong> Ungepr\u00fcft</span>`
-    : '';
-  const approvedChip = approvedCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--approved"><strong>${approvedCount}</strong> Gepr\u00fcft</span>`
-    : '';
-  const agentChip = agentCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--agent"><strong>${agentCount}</strong> Auto-gepr\u00fcft</span>`
-    : '';
-  const verifiedChip = verifiedCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> Verifiziert</span>`
-    : '';
-  const consensusChip = consensusCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--consensus"><strong>${consensusCount}</strong> Modellkonsensus</span>`
-    : '';
 
   // Detail section: groups
   const groupEntries = Object.entries(perGroup).sort((a, b) => b[1] - a[1]);
@@ -1105,13 +1081,12 @@ function renderStats() {
     ${colorChartPages > 0 ? `<span class="catalog__stats-bar-item"><strong>${colorChartPages}</strong> Farbskala</span>` : ''}
     <span class="catalog__stats-bar-item"><strong>${totalChars.toLocaleString('de')}</strong> Zeichen</span>`;
 
-  // Review stats (3-tier)
-  const humanCount = approvedCount + verifiedCount + agentCount;
+  // Review stats
   let reviewItems = '';
   if (state.hasReviewData) {
-    reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Manuell gepr\u00fcft</span>
-      <span class="catalog__stats-bar-item"><strong>${llmOkCount}</strong> Ungepr\u00fcft</span>
-      <span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> Review n\u00f6tig (${reviewPct}%)</span>`;
+    reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Mensch-geprüft</span>
+      <span class="catalog__stats-bar-item"><strong>${agentCount}</strong> Agent-geprüft</span>
+      <span class="catalog__stats-bar-item"><strong>${uncheckedCount}</strong> Ungeprüft, davon <strong>${priorityCount}</strong> zuerst sichten</span>`;
   }
 
   // DWR + Consensus
@@ -1127,15 +1102,10 @@ function renderStats() {
     consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Modellkonsensus</span>${cats}`;
   }
 
-  // Curation Progress: outer ring → inner ring.
-  // Counts come from the aggregation loop above, which is mutually-exclusive
-  // by the same priority as renderReviewCell (verified > approved > agent > flagged > unreviewed).
   const segments = [
-    { key: 'unreviewed', count: llmOkCount,    label: 'Ungepr\u00fcft',   cls: 'curation-seg--unreviewed', tip: 'Pipeline-Selbsteinsch\u00e4tzung, kein Qualit\u00e4tssignal ausgel\u00f6st, kein Review' },
-    { key: 'flagged',    count: reviewCount,   label: 'Review n\u00f6tig', cls: 'curation-seg--flagged',    tip: 'Mindestens ein Qualit\u00e4tssignal hat ausgel\u00f6st (siehe Tooltip am Objekt)' },
-    { key: 'agent',      count: agentCount,      label: 'Auto-gepr\u00fcft', cls: 'curation-seg--agent',      tip: 'Claude-Vision-Agent hat Bild und Transkript Seite f\u00fcr Seite verglichen' },
-    { key: 'approved',   count: approvedCount,   label: 'Gepr\u00fcft',      cls: 'curation-seg--approved',   tip: 'Expert-Review im Editorial Workspace abgeschlossen' },
-    { key: 'verified',   count: verifiedCount,   label: 'Verifiziert',       cls: 'curation-seg--verified',   tip: 'Ground-Truth-Standard: jede Seite zeichengenau verifiziert' }
+    { key: 'unchecked', count: uncheckedCount, label: 'Ungeprüft', cls: 'curation-seg--unreviewed', tip: `Nur Pipeline-Selbsteinschätzung; ${priorityCount} davon von den Qualitätssignalen zur Sichtung priorisiert` },
+    { key: 'agent', count: agentCount, label: 'Agent-geprüft', cls: 'curation-seg--agent', tip: 'Claude-Vision-Agent hat Bild und Transkript verglichen — kann stimmen, ersetzt keine menschliche Prüfung' },
+    { key: 'human', count: humanCount, label: 'Mensch-geprüft', cls: 'curation-seg--approved', tip: 'Am Faksimile gegengelesen und bei Bedarf korrigiert — gilt als verifiziert (Ground-Truth-fähig)' }
   ];
   const curTotal = segments.reduce((s, x) => s + x.count, 0);
   const curationBarSegments = curTotal > 0
@@ -1160,7 +1130,7 @@ function renderStats() {
       <div class="catalog__stats-curation-head">
         <span class="catalog__stats-section-label">Editorial Progress</span>
       </div>
-      <div class="curation-bar" role="img" aria-label="Editorial Progress: ${llmOkCount} ungepr\u00fcft, ${reviewCount} Review n\u00f6tig, ${agentCount} auto-gepr\u00fcft, ${approvedCount} gepr\u00fcft, ${verifiedCount} verifiziert">${curationBarSegments}</div>
+      <div class="curation-bar" role="img" aria-label="Editorial Progress: ${uncheckedCount} ungeprüft (${priorityCount} zuerst sichten), ${agentCount} Agent-geprüft, ${humanCount} Mensch-geprüft">${curationBarSegments}</div>
       <div class="curation-legend">${curationLegend}</div>
     </div>` : '';
 
@@ -1275,15 +1245,10 @@ function renderCatalog() {
       const ingestBadge = obj.ingestLabel
         ? `<span class="badge-ingest" data-tooltip="${escapeHtml(ingestTip)}" style="display:inline-block;margin-right:.4em;padding:.05em .45em;border-radius:.6em;background:#7a1f3d;color:#fff;font-size:.68em;font-weight:600;vertical-align:middle;letter-spacing:.02em;">${escapeHtml(obj.ingestLabel)}</span>`
         : '';
-      // Signatur mit klickbarem Einheiten-Praefix (SZ-AAL/B1.113: "SZ-AAL/B1"
-      // filtert auf das Konvolut, ".113" bleibt Text)
-      const sigHtml = obj.unit && obj.unit !== obj.signature
-        ? `<button type="button" class="sig-unit" data-unit="${escapeHtml(obj.unit)}" data-collection="${escapeHtml(obj.collection)}" data-tooltip="${escapeHtml(unitTerm(obj.collection))} ${escapeHtml(obj.unit)} — Klick zeigt alle Objekte dieser Einheit">${escapeHtml(obj.unit)}</button>${escapeHtml(obj.signature.slice(obj.unit.length))}`
-        : escapeHtml(obj.signature);
       html += `<tr data-id="${escapeHtml(obj.id)}" tabindex="0">
         <td class="col-thumb"><img src="${escapeHtml(obj.thumbnail || '')}" loading="lazy" alt=""></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${ingestBadge}${titleFull}</td>
-        <td class="col-sig">${sigHtml}</td>
+        <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
         <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)}</td>
@@ -1307,7 +1272,6 @@ function renderCatalog() {
   const pagesEl = document.getElementById('paginationPages');
   pagesEl.textContent = total > 0 ? `Seite ${state.catalogPage + 1} / ${totalPages}` : '';
 
-  // Filter-Dropdowns (Optionen, Sichtbarkeit, Auswahl) aus dem Registry aktualisieren
   updateFilterOptions();
 
   // Highlight active selects + render filter chips
@@ -1335,7 +1299,10 @@ function renderCatalog() {
   updateCatalogURL();
 }
 
-const REVIEW_STATUS_LABELS = { gt_verified: 'Verifiziert', human_verified: 'Gepr\u00fcft', agent_verified: 'Auto-gepr\u00fcft', llm_ok: 'Ungepr\u00fcft', needs_review: 'Review n\u00f6tig' };
+/* Three statuses (operator decision 2026-06-10): human-checked counts as
+   verified and ground-truth-capable; "priority" is a triage hint within
+   unchecked, not a status. Stored review.status values stay unchanged. */
+const REVIEW_STATUS_LABELS = { human_verified: 'Mensch-gepr\u00fcft', agent_verified: 'Agent-gepr\u00fcft', unchecked: 'Ungepr\u00fcft', priority: 'Zuerst sichten' };
 
 function renderActiveFilters() {
   const el = document.getElementById('activeFilters');
@@ -1372,10 +1339,9 @@ function initCatalogFilters() {
   updateFilterOptions();
 }
 
-/* Befuellt alle Filter-Dropdowns generisch aus FILTER_DEFS: Options-Quelle
-   nach dependsOn vorfiltern, Optionen setzen, Sichtbarkeit anwenden,
-   Auswahl wiederherstellen (oder State zuruecksetzen, wenn der Wert in den
-   neuen Optionen nicht mehr existiert). */
+/* Rebuild all filter dropdowns from FILTER_DEFS: narrow the option source
+   by dependsOn, fill options, apply visibility, restore selection (reset
+   state if the value vanished from the options). */
 function updateFilterOptions() {
   for (const def of FILTER_DEFS) {
     const sel = document.getElementById(def.elementId);
@@ -1402,7 +1368,7 @@ function updateFilterOptions() {
         if (opt.title) el.title = opt.title;
         sel.appendChild(el);
       }
-      // Auswahl nur behalten, wenn sie in den neuen Optionen existiert
+      // reset if the value vanished from the options
       if (state.filters[def.key] && !opts.some(o => o.value === state.filters[def.key])) {
         state.filters[def.key] = '';
       }
@@ -1426,7 +1392,7 @@ function renderViewerMeta(obj) {
       <span class="viewer__meta-label">Sig.</span>
       <span class="viewer__meta-value">${escapeHtml(obj.signature)}</span>
     </div>
-    ${obj.unit && obj.unit !== obj.signature ? `
+    ${obj.unit && obj.unit !== obj.signature && hasUnitTerm(obj.collection) ? `
     <div class="viewer__meta-item">
       <span class="viewer__meta-label">${escapeHtml(unitTerm(obj.collection))}</span>
       <a class="viewer__meta-link" href="#catalog?collection=${encodeURIComponent(obj.collection)}&unit=${encodeURIComponent(obj.unit)}" title="Alle Objekte aus ${escapeHtml(obj.unit)} im Katalog zeigen">${escapeHtml(obj.unit)}</a>
@@ -2925,7 +2891,7 @@ function renderStatsPage() {
     <div class="stats-section">
       <div class="stats-section__header">
         <h2 class="stats-section__title">1. Verifikation</h2>
-        <p class="stats-section__desc">4-Tier-Review: GT-verifiziert, Expert-gepr\u00fcft, Agent-verifiziert, ungepr\u00fcft.</p>
+        <p class="stats-section__desc">Drei Status: Mensch-geprüft (gilt als verifiziert, Ground-Truth-fähig), Agent-geprüft, Ungeprüft; Qualitätssignale priorisieren die Sichtung.</p>
         <p class="stats-section__source">Quelle: <code>serve.py</code> (Review-API) + <code>quality_signals.py</code> \u2192 <code>catalog.json</code> (reviewStatus, needsReview)</p>
       </div>
       <div class="stats-section__grid">
@@ -2984,15 +2950,14 @@ function renderReviewDonut(d) {
   const ctx = document.getElementById('chartReview');
   if (!ctx) return;
   const segments = [
-    { label: 'GT-verifiziert', value: d.gtVerifiedCount, color: CHART_COLORS.successDark },
-    { label: 'Expert-gepr\u00fcft', value: d.approvedCount, color: CHART_COLORS.success },
-    { label: 'Agent-verifiziert', value: d.agentCount, color: CHART_COLORS.successMid },
-    { label: 'Nur VLM', value: d.llmOkCount, color: CHART_COLORS.warning },
-    { label: 'Review n\u00f6tig', value: d.needsReview, color: CHART_COLORS.danger },
+    { label: 'Mensch-geprüft', value: d.gtVerifiedCount + d.approvedCount, color: CHART_COLORS.successDark },
+    { label: 'Agent-geprüft', value: d.agentCount, color: CHART_COLORS.successMid },
+    { label: 'Ungeprüft', value: d.llmOkCount, color: CHART_COLORS.warning },
+    { label: 'Zuerst sichten', value: d.needsReview, color: CHART_COLORS.danger },
   ].filter(s => s.value > 0);
   const opts = donutOptions('bottom');
   opts.onClick = (_, elems) => {
-    if (elems.length > 0 && segments[elems[0].index].label === 'Review n\u00f6tig') navigate('catalog?review_status=needs_review');
+    if (elems.length > 0 && segments[elems[0].index].label === 'Zuerst sichten') navigate('catalog?review_status=priority');
   };
   state.statsCharts.push(new Chart(ctx, {
     type: 'doughnut',
@@ -3035,7 +3000,7 @@ function renderReasonsChart(d) {
   if (entries.length === 0) return;
   const opts = chartOptions({ indexAxis: 'y' });
   opts.scales.x.title = axisTitle('Anzahl');
-  opts.onClick = () => navigate('catalog?review_status=needs_review');
+  opts.onClick = () => navigate('catalog?review_status=priority');
   state.statsCharts.push(new Chart(ctx, {
     type: 'bar',
     data: {
@@ -3092,7 +3057,7 @@ function initEvents() {
     renderCatalog();
   }, SEARCH_DEBOUNCE_MS));
 
-  // Filters: ein Change-Listener je Registry-Eintrag
+  // Filters
   for (const def of FILTER_DEFS) {
     document.getElementById(def.elementId).addEventListener('change', e => {
       state.filters[def.key] = e.target.value;
@@ -3137,16 +3102,6 @@ function initEvents() {
   // Table row click + keyboard
   const catalogBody = document.getElementById('catalogBody');
   catalogBody.addEventListener('click', e => {
-    // Einheiten-Praefix in der Signatur: filtert auf die Bestandseinheit statt das Objekt zu oeffnen
-    const badge = e.target.closest('.sig-unit');
-    if (badge) {
-      state.filters.collection = badge.dataset.collection;
-      state.filters.unit = badge.dataset.unit;
-      state.catalogPage = 0;
-      restoreFilterUI();
-      renderCatalog();
-      return;
-    }
     const row = e.target.closest('tr[data-id]');
     if (row) navigate('view/' + row.dataset.id);
   });

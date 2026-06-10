@@ -70,11 +70,10 @@ def extract_signature(title: str) -> tuple[str, str]:
 
 
 def derive_unit(signature: str) -> str:
-    """Bestandseinheit aus der Signatur: letztes Punkt-Segment abschneiden.
+    """Archival unit = signature minus its last dot segment.
 
-    SZ-AAL/B1.113 -> SZ-AAL/B1 (Konvolut), SZ-SAM/AK.159 -> SZ-SAM/AK,
-    SZ-AAP/W-AA90.0 -> SZ-AAP/W-AA90 (Werkmappe). Signaturen ohne
-    Punkt-Segment (SZ-AAP/L3) sind selbst die Einheit.
+    SZ-AAL/B1.113 -> SZ-AAL/B1; signatures without a dot segment
+    (SZ-AAP/L3) are their own unit.
     """
     if not signature:
         return ""
@@ -312,9 +311,7 @@ def build():
         "objects": catalog_objects,
         "collections": collections,
         "meta": {
-            # Anzeige-Begriff der Bestandseinheit je Sammlung + Klartext der
-            # Ingest-Labels; Quelle der Wahrheit ist config.py, das Frontend
-            # liest nur.
+            # source of truth is config.py; the frontend only reads
             "unitTerms": UNIT_TERMS,
             "ingestInfo": INGEST_INFO,
         },

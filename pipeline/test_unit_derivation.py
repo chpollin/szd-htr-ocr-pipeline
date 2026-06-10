@@ -1,11 +1,10 @@
-"""Regressionstest fuer die Bestandseinheiten-Ableitung (derive_unit).
+"""Regression test for archival unit derivation (derive_unit).
 
-Eigenstaendig, keine pytest-Abhaengigkeit:  python pipeline/test_unit_derivation.py
-Laeuft ohne API-Key und ohne Backup. Sichert den Kontrakt ab, auf dem der
-Einheiten-Filter im Viewer steht: Einheit = Signatur minus letztes
-Punkt-Segment, signaturlose Objekte haben keine Einheit. Zusaetzlich:
-jede Sammlung in COLLECTIONS hat einen Anzeige-Begriff in UNIT_TERMS.
-Exit 0 = gruen, Exit 1 = Regression.
+Standalone, no pytest:  python pipeline/test_unit_derivation.py
+Runs without API key or backup. Contract: unit = signature minus its last
+dot segment; signatures without one are their own unit. Also checks that
+UNIT_TERMS only references known collections and covers the letter
+collections. Exit 0 = green.
 """
 
 import sys
@@ -25,31 +24,33 @@ def main() -> int:
         if not cond:
             failed += 1
 
-    # 1. Ableitung: letztes Punkt-Segment faellt weg.
+    # derivation
     cases = [
-        ("SZ-AAL/B1.113", "SZ-AAL/B1"),        # Briefkonvolut
+        ("SZ-AAL/B1.113", "SZ-AAL/B1"),
         ("SZ-AAL/B2.71", "SZ-AAL/B2"),
-        ("SZ-SAM/AK.159", "SZ-SAM/AK"),         # Korrespondenz-Album
-        ("SZ-AAP/W-AA90.0", "SZ-AAP/W-AA90"),   # Werkmappe (Suffix .0)
+        ("SZ-SAM/AK.159", "SZ-SAM/AK"),
+        ("SZ-AAP/W-AA90.0", "SZ-AAP/W-AA90"),
         ("SZ-AP2/W-F4.3", "SZ-AP2/W-F4"),
-        ("SZ-AAP/L3", "SZ-AAP/L3"),             # ohne Punkt: selbst die Einheit
+        ("SZ-AAP/L3", "SZ-AAP/L3"),  # no dot: own unit
         ("SZ-SAM/W2", "SZ-SAM/W2"),
-        ("", ""),                                # leer bleibt leer
+        ("", ""),
     ]
     for sig, expected in cases:
         check(f"derive_unit({sig!r}) == {expected!r}", derive_unit(sig) == expected)
 
-    # 2. Idempotenz: eine Einheit bleibt unter erneuter Ableitung stabil.
+    # idempotence
     for sig, _ in cases:
         unit = derive_unit(sig)
         check(f"idempotent: derive_unit({unit!r}) == {unit!r}", derive_unit(unit) == unit)
 
-    # 3. Kein Schraegstrich-Segment wird angeschnitten (Punkt nur im letzten Segment).
-    check("Punkt vor Schraegstrich bleibt: SZ-X.Y/B1 -> SZ-X.Y/B1",
+    # dots in earlier path segments are untouched
+    check("dot before slash kept: SZ-X.Y/B1 -> SZ-X.Y/B1",
           derive_unit("SZ-X.Y/B1") == "SZ-X.Y/B1")
 
-    # 4. Registry-Vollstaendigkeit: jede Sammlung hat einen Einheiten-Begriff.
-    for col in COLLECTIONS:
+    # registry consistency
+    for col in UNIT_TERMS:
+        check(f"UNIT_TERMS-Key {col!r} ist bekannte Sammlung", col in COLLECTIONS)
+    for col in ("korrespondenzen", "autographen"):
         check(f"UNIT_TERMS enthaelt {col!r}", col in UNIT_TERMS)
 
     print("=" * 60)

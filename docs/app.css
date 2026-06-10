@@ -663,24 +663,6 @@ body.view-stats #help { display: none; }
   background: rgba(99, 26, 52, 0.04);
 }
 
-/* Klickbares Einheiten-Praefix in der Signatur-Spalte (Konvolut/Mappe):
-   sieht aus wie Text, Klick filtert den Katalog auf die Einheit */
-.sig-unit {
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  color: var(--sz-burgundy);
-  cursor: pointer;
-  text-decoration: underline dotted;
-  text-underline-offset: 2px;
-}
-
-.sig-unit:hover {
-  text-decoration: underline solid;
-}
-
 /* Table */
 .catalog__table-wrap {
   background: var(--sz-white);

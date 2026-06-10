@@ -37,20 +37,15 @@ COLLECTIONS = {
     "autographen":     {"subdir": "autographen",      "tei": "szd_autographen_tei.xml"},
 }
 
-# --- Bestandseinheiten (archivische Einheit aus der Signatur) ---
-# Anzeige-Begriff je Sammlung fuer die aus der Signatur abgeleitete Einheit
-# (Signatur minus letztes Punkt-Segment, siehe derive_unit in build_viewer_data.py).
-# Die offizielle Terminologie der Erschliessung ist offen (Korrekturmeldung
-# SZ-AAL 2026-06); bis dahin gelten diese Arbeitsbegriffe.
+# Archival unit display term per collection (unit = signature minus last
+# dot segment, see derive_unit). Only listed collections get the unit
+# filter in the viewer; terminology pending with the archive.
 UNIT_TERMS = {
-    "lebensdokumente": "Mappe",
-    "werke":           "Werkmappe",
-    "aufsatzablage":   "Werkmappe",
     "korrespondenzen": "Konvolut",
     "autographen":     "Konvolut",
 }
 
-# Klartext-Beschreibung je Ingest-Label (Tooltip im Viewer).
+# Human-readable description per ingest label (viewer tooltips).
 INGEST_INFO = {
     "SZ-AAL-2026-06": (
         "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan "
