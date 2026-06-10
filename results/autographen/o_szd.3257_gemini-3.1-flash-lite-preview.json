@@ -97,5 +97,13 @@
     "needs_review_reasons": [
       "page_length_anomaly"
     ]
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-8",
+    "errors_found": 2,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
   }
 }

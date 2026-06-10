@@ -34,6 +34,7 @@
               "source": "human"
             }
           ],
+          "transcription_llm": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
           "layout_regions": [
             {
               "id": "r1",
@@ -12718,6 +12719,7 @@
               "source": "agent"
             }
           ],
+          "transcription_llm": "AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n1. The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n2. It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n(a) The Author grants and assigns to the Publishers the\nsole and exclusive right to publish said work in all\ncountries; and\n\n(b) The Publishers agree to pay to the Author fifteen\n(15%) per cent of the amount that they may receive for\neditions for export; and\n\n(c) The Publishers agree to pay the author eighty (80%)\nper cent of such income as they may derive from the\nsale of the right to an English or other foreign publisher\nto publish an edition in English on a royalty basis or\nfor an outright sum.\n\n3. The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n4. The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\" at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\nIN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\nStefan Zweig\nAUTHOR\nTHE VIKING PRESS INC.\nB. W. Huebsch\nVice-President",
           "layout_regions": [
             {
               "id": "r1",
@@ -17535,7 +17537,8 @@
               "edited_at": "2026-04-02T19:00:00Z",
               "source": "agent"
             }
-          ]
+          ],
+          "transcription_llm": "sperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/ bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nitaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titole La Paura conten-\nte diverse novelle come stabilito d'accordo con l'autore.\n\n2°) La tiretura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\n\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\n\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\n\nAll'Autore spettano 5 esemplari gratuiti.\n\nIn fede\nL'Autore\nL'Editore\n\n[Unterschrift Stefan Zweig]\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE\n[Unterschrift Federico Giannoni]"
         },
         {
           "page": 2,
@@ -20324,7 +20327,8 @@
               "edited_at": "2026-04-02T12:00:00Z",
               "source": "agent"
             }
-          ]
+          ],
+          "transcription_llm": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the county Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before by me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980"
         },
         {
           "page": 2,
@@ -20599,7 +20603,8 @@
               "source": "agent",
               "changes": "Korrektur: 'Elisabet' -> 'Elizabet' (Tippfehler, z statt s im getippten Text sichtbar); 'Moriz' -> 'Moritz' (fehlender Buchstabe t im Nachnamen des Vaters)"
             }
-          ]
+          ],
+          "transcription_llm": "Home Office No. Z.33.\nCertificate No. AZ 15747\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914.\n\nCERTIFICATE OF NATURALIZATION\n\nWhereas Stefan Zweig\nhas applied to one of His Majesty's Principal Secretaries of State for a Certificate\nof Naturalization, alleging with respect to him self the particulars set out below,\nand has satisfied him that the conditions laid down in the above mentioned Act for\nthe grant of a Certificate of Naturalization are fulfilled in his case:\nNow, therefore, in pursuance of the powers conferred on him by the said Act,\nthe Secretary of State grants to the said\nStefan Zweig\nthis Certificate of Naturalization, and declares that upon taking the Oath of Allegiance\nwithin the time and in the manner required by the regulations made in that behalf he\nshall, subject to the provisions of the said Act, be entitled to all political and other\nrights powers and privileges, and be subject to all obligations duties and liabilities, to\nwhich a natural-born British subject is entitled or subject, and have to all intents and\npurposes the status of a natural-born British subject.\n\nIn witness whereof I have hereto subscribed my name this 12th day of\nMarch, 1940.\n\n[Unterschrift]\nUnder Secretary of State.\n\nHOME OFFICE,\nLONDON.\n\nPARTICULARS RELATING TO APPLICANT.\n\nFull Name: Stefan ZWEIG.\nAddress: 49, Hallam Street, W.1.\nTrade or occupation: Author.\nPlace and date of birth: Vienna, Austria. 28th November, 1881.\nNationality: Austrian.\nSingle, Married, etc.: Married.\nName of wife or husband: Elisabet Charlotte.\nNames and nationality of parents: Moriz and Ida ZWEIG. Austrian.\n(For Oath\nsee overleaf.)"
         },
         {
           "page": 2,
@@ -22219,7 +22224,8 @@
               "edited_at": "2026-04-02T19:30:00Z",
               "source": "agent"
             }
-          ]
+          ],
+          "transcription_llm": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5"
         },
         {
           "page": 2,

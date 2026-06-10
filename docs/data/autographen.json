@@ -7333,7 +7333,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3132_gemini-3.1-flash-lite-preview",
@@ -11944,7 +11951,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3203_gemini-3.1-flash-lite-preview",
@@ -15673,7 +15687,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3256_gemini-3.1-flash-lite-preview",
@@ -15752,7 +15773,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 3,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3257_gemini-3.1-flash-lite-preview",
@@ -15831,7 +15859,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 2,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3258_gemini-3.1-flash-lite-preview",
@@ -16328,7 +16363,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 2,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3265_gemini-3.1-flash-lite-preview",
@@ -16421,7 +16463,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3266_gemini-3.1-flash-lite-preview",
@@ -16607,7 +16656,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 1,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3268_gemini-3.1-flash-lite-preview",
@@ -16686,7 +16742,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3269_gemini-3.1-flash-lite-preview",
@@ -16856,7 +16919,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3271_gemini-3.1-flash-lite-preview",
@@ -17091,7 +17161,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 3,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3273_gemini-3.1-flash-lite-preview",
@@ -17261,7 +17338,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 1,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3275_gemini-3.1-flash-lite-preview",
@@ -17660,7 +17744,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3280_gemini-3.1-flash-lite-preview",
@@ -17909,7 +18000,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 1,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3283_gemini-3.1-flash-lite-preview",
@@ -19672,7 +19770,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3308_gemini-3.1-flash-lite-preview",
@@ -19752,7 +19857,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3309_gemini-3.1-flash-lite-preview",
@@ -22782,7 +22894,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 1,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3352_gemini-3.1-flash-lite-preview",
@@ -24833,7 +24952,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3381_gemini-3.1-flash-lite-preview",
@@ -24987,7 +25113,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3383_gemini-3.1-flash-lite-preview",
@@ -25582,7 +25715,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3392_gemini-3.1-flash-lite-preview",
@@ -25736,7 +25876,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3394_gemini-3.1-flash-lite-preview",
@@ -25815,7 +25962,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "agent_verified",
+        "agent_model": "claude-opus-4-8",
+        "errors_found": 0,
+        "edited_pages": [],
+        "reviewed_by": "Claude Code Agent",
+        "reviewed_at": "2026-06-10T10:25:07.863495+00:00"
+      }
     },
     {
       "id": "o_szd.3395_gemini-3.1-flash-lite-preview",
