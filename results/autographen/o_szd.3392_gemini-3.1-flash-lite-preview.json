@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3392",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Charlotte Kaufmann an Lotte Zweig [20. März 1936], SZ-AAL/B7.2",
+    "signature": "SZ-AAL/B7.2",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3392/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3392/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3392/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3392/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3392/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B7.2"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Charlotte Kaufmann an Lotte Zweig [20. März 1936], SZ-AAL/B7.2\n- Signatur: SZ-AAL/B7.2\n- Datum: 20.3.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Gut Winkel 20. III. 36\n\nLiebe Lotte,\ndank für Deine\nKarte. Es freut mich wirklich\nsehr, dass mir geantwortet hast.\nDu wirst erstaunt sein, dass\nich schon wieder wo anders bin. Es\nist so, dass mir in Repit[?] die\nArbeit zu schwer war, ferner ich dort\nganz allein war. Nun, bin ich 14 Tage\nhier in einem zionistischen Heim\nbei den Kindern des Gutsverwalters\nund auch hier fühle ich mich\nnicht wohl, da ich auch hier\nganz allein bin. Ich müsste\nirgendwo arbeiten können, wo ich\nnicht ganz allein bin, so geht\nes nicht u. s. Zeit schon geruht[?].\nVielleicht ist es falsch, dass\nich darüber schreibe. Meistens\nschäme ich mich auch selbst\nüber meine ewige Wanderschaft\nzu berichten. Ich bin selbst\ngespannt, wie das noch enden wird?",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. 'Repit' ist unsicher gelesen, könnte auch ein Ortsname sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "jedenfalls werde ich am 1. April\nhier weggehen u. ich habe keine\nAhnung wohin. Direkt eine Stelle\nannehmen werde ich nicht, dazu\nbin ich zu müde u. mittlos.\nNun, irgendwo werde ich schon sein\nhingeben.\nIch möchte eine Heimat\nhaben, d. h. irgendwo zu Hause sein,\nklingt vielleicht sentimental. Aber\nwenn ich mal nicht weiterkann u.\ndann so buchstäblich auf der Strasse liege.\nSie wie jetzt am 1.\nGenug davon, es\nist so unerfreulich.\nVon Jella Veitberger habe ich\nheute einen sehr lieben Brief bekommen\naus Erss. Meine Schwester ist auch daüben.\nAlso, ich würde mich sehr freuen,\nwenn Du Zeit hast, wenn Du mir\netwas über Dich u. Deine Arbeit schreibst.\nWo leben Deine Geschwister?\nLeb wohl, herzlichst Deine\nLotte.\n\nVielleicht schreibst Du mir an Summari[?]\nAdresse, p.h. Berlin-W 24, jüd. Kinderheim\nFehrbellinerstr. 92.",
+        "notes": "Fortsetzung des Briefes. 'Summari' unsicher gelesen. 'Fehrbellinerstr.' ist eine bekannte Berliner Straße.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Umschlagrückseite mit handschriftlicher Notiz: 'Lotte Kaufmann Gut Winkel Post Spreenhagen b/Erkner'.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Frl. Lotte Altmann\n\nLondon-N.W. II\nWoodstock-Road 50\n\nEngland",
+        "notes": "Adressseite eines Briefumschlags. Poststempel oben rechts, Briefmarke teilweise überklebt.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Lotte Kaufmann Gut Winkel Post Spreenhagen\nb/Erkner",
+        "notes": "Rückseite des Briefumschlags mit Absenderangabe.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist flüssig. Einige Ortsnamen oder Eigennamen sind aufgrund der Schreibweise leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1658,
+    "total_words": 278,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      726,
+      820,
+      0,
+      61,
+      51
+    ],
+    "chars_per_page_median": 393.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0108,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

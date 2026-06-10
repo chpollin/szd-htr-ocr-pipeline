@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3275",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [4. August 1935], SZ-AAL/B2.42",
+    "signature": "SZ-AAL/B2.42",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3275/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3275/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3275/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3275/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3275/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.42"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [4. August 1935], SZ-AAL/B2.42\n- Signatur: SZ-AAL/B2.42\n- Datum: 4.8.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Villa Souvenir, Waldquellzeile\nMarienbad\n\nLiebes Fräulein Altmann, ich gebe Ihnen rasch meine\nneue Adresse – ich wohne ganz außerhalb der Stadt im\nWalde, schön und etwas prixirt[?]. Aber nur die Wälder\nsind hier traumhaft schön, nicht die Menschen, es ist\nals ob Tel-Aviv sich in die böhmischen Berge verlegt\nhätte. Ich werde hier sehr gequält, um meine widerliche\nCorpulence loszuwerden, Spaziergänge, Moorbaeder,\nwandern und eine wahrhaft grausame Diät, eine\nverschleierte Hungercure mit Gemüsen, kein gutes weisses\nGebäck, keine Beefsteaks, nichts Süsses, ach es ist schreck-\nlich, aber ich will es durchhalten wie in der Bibel\ndie sieben magern nach den sieben fetten Jahren.\nDie Promenade betrete ich nicht, habe bisher mich\nversteckt gehalten nur niemanden gesehen und arbeite\nauch fest in die Arbeit, da das Vergnügen\nso völlig fehlt und ich nur mein Fett abschlinde.\nWalter Bauer ist vergnügt vom Comersee zurück-\ngekommen und hat mir schon geschrieben. Sein letztes\nBuch ist zart und menschlich wie er selbst. Ach auf\nmit Toscanini hatte ich grossartige Stunden!\nHoffentlich sind Sie gut zurückgekehrt und Sie leben",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Sie in London in bestem Wohlbefinden im October.\nPlaignez votre martyre de son embonpoint\n\nSt. Z.",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "1935\nMiss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Handschriftlich in violetter Tinte. Briefmarken und Poststempel (Marienbad, 4. VIII. 35) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Sie in London in bestem Wohlbefinden im October.\nPlaignez votre martyre de son embonpoint\n\nSt. Z.",
+        "notes": "Wiederholung der Rückseite des Briefes (Seite 2) mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'prixirt' ist aufgrund der Handschrift leicht unsicher, scheint aber im Kontext von 'etwas prixirt' (vielleicht 'privat' oder 'fixiert' gemeint, aber so geschrieben) korrekt transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1374,
+    "total_words": 216,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1124,
+      97,
+      56,
+      0,
+      97
+    ],
+    "chars_per_page_median": 97,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0046,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3387",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Joachim Maass an Lotte Zweig [27. Juli 1938], SZ-AAL/B4.9",
+    "signature": "SZ-AAL/B4.9",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3387/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3387/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3387/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.9"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Joachim Maass an Lotte Zweig [27. Juli 1938], SZ-AAL/B4.9\n- Signatur: SZ-AAL/B4.9\n- Datum: 27.7.1938\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss\n\nLotte Altmann,\n\nLondon W1,\n\n49, Hallam Street 9. Dr. Zweig.",
+        "notes": "Adressseite einer Postkarte. Briefmarken (2x 8 Pfennig Deutsches Reich) mit Poststempel 'HAMBURG-ALTONA 27.7.38'. Gedruckter Text 'Internationale Leipziger Messe 28.VIII.-1.IX.' und 'EDEPE 450'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "27.VII.38.\n\nLiebe Lotte,\n\nmus[?] noch auf dem Laufenden halten - Verbesserungen, die ich zur Popula-\nvisierung meine Arbeit vornehme muß, damit sie meinem Auftraggebern gefället, halten\nmich noch auf, ich nehme an: bis Ende (oder wenigstens 2. Drittel) August. Ihr wa-\ndet mir doch nicht einfach davonlaufen? Ich würde euch schön (und mit Vergnügen)\ndie Hörm strafen ziehen, ihr alten Bummelanten! Ich traf Onkel Richard in Berlin.\nEr war voll Mut und Plänen - daran fehlt es auch mir nicht. Ich muß alles mit\neuch beraten, auch, wie ich das Original des Testamentes in einem Sinne verän-\ndern will. Bis dahin mache ich eine Art Highschool für Hollywood durch, nach\ndem Grundsatz: ungeprüft soll man nicht schlafen gehen. Ja, ihr werdet nur wun-\ndern, was für ein Ellenbogen-Mensch ich geworden bin. Aber es muß sein.\n\nIhr Liebe euer alter\n\nOnkel William",
+        "notes": "Handschriftliche Nachricht auf der Rückseite der Postkarte. Tinte violett. Die Lesung 'mus' in Zeile 3 ist unsicher, könnte auch 'muß' oder ein Schreibfehler sein.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Das Dokument (Postkarte) ist in der Mitte platziert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Einige Wörter wie 'mus' oder 'Popula-visierung' sind aufgrund der Handschrift leicht interpretativ, aber im Kontext schlüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 919,
+    "total_words": 152,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      65,
+      854,
+      0
+    ],
+    "chars_per_page_median": 459.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0066,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

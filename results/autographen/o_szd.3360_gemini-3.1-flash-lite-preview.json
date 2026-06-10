@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3360",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.120",
+    "signature": "SZ-AAL/B3.120",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3360/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3360/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3360/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3360/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3360/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.120"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.120\n- Signatur: SZ-AAL/B3.120\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Montag\n\nLieber Stefan,\nschreibe in gr. Eile dem. vor Luftpost\nabgeht. Mit zähem Kureden habe\nich nun 2 Käufer mit 3/4 Sicher-\nheit. der eine Gallhofer 90%\nsicher unter Bedingungen, die er\nmir heute Nachm. schriftlich an\nbietet. Mündlich haben wir\nFolgendes besprochen:\n62 - 63.000 Sch mit\neinigen Möbeln, sodass der Haus\nKaufpreis niederer wäre. Davon\nhättest du Auslagen c 3%\nan Makler, der es vermittelt.\nAber allerdings ist das Ganze\nnur perfekt, wenn er die\nHypothek bekommt. Hättest",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist teilweise verblasst, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "bedenken.\nvor ein paar Tagen wurde. Ich schlug ihm vor diese in öst.\nSchillingen zu verzinsen, (von Silber gesichert)\nBitte ruf mich an, nachdem ich\nDir die Bedingungen von Gallhofer\nO.K. sein lasse oder\nTelegrafiere. Um Weniges kann ich\nnoch mit dem Preis hinaufgehen. Ich\nbin sehr übermüdet, da neue 10 Schimpf-\nwort den Feind hat u. ich alle Belege\nüber Kosten, Steuern, Abgaben, Möbel,\njedem 5 Mal das alles mit Eltern\nhas es enthält durchsprechen muss. Ich habe\nkeinen Schlaf mehr u. bereit weder den rechten\nArm halb Leben in Neuralgie, dass die\nschlechte Schrift. Deinen Vorschlag um\ndazu haben um Wort zu bleiben\nu. könnte vill. noch mehr besseren Käufer\nIch würde Gallhofer aber auch noch",
+        "notes": "Handschriftlicher Brief. Der Text ist teilweise quer geschrieben oder am Rand ergänzt. Die Lesbarkeit ist durch die dichte Schrift und Überlagerungen anspruchsvoll.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "2\nDu dich von mir statt von Alfred\nberaten lassen, wäre es schon\nperfekt. Zehentner (K. Hyp Amt)\nwill jetzt nur 30.000 Sch mehr\nu. ~~dass das noch nicht sicher~~ \ngeben. Gallhofer würde diese\nund 15.. Sch bar, weitere\n15.. Sch etwa innerhalb\n2 Jahre, 2. Satz oder mit\nanderen Garantien bezahlen.\nDas Geld für die Möbel\ndenke ich bar 2-3000 Sch.\nIch würde ihn zu Dr Singer\nschicken, wenn du vorschlägst?\nEin zweiter Käufer kommt\nMittwoch ein Ing. Hess aus\nLambach, der 60.000\nSch. davon aber 100.000 Sch\nezech. Kronen geben\n[Randnotiz: x Vielleicht werde er auch 18.000 Sch. bar, 4.4. 48.000 gehen]",
+        "notes": "Handschriftlicher Brief. Die Randnotiz ist vertikal am rechten Rand geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "x noch 4 [?] immer noch\nGarde meuble zu übersiedeln\nkann ich nicht annehmen.\nDas einzige was mich vor Trübsinn\ngründlich rettet ist\nein neues Heim in der\nschönen Landschaft, mag\nes auch den Namen der\nKinder tragen u. die\npaar Wochen Kurzzeit\ninvolvieren.\nZur Familie gehören [?] \nJa alles recht, wenn ich\nzu Dir gehöre, aber Separation,\nwie Du es nennst ist keine\nFamilienzugehörigkeit mehr:\nHältst Du an ihr fest, verunglimpfst\nDu mir deinen Advocaten zu nennen, da sonst\neine Verhandlung [?] \nDu mir das Du in forma Separation\nanders entschlossen hast. Wenn mir bitte ich\nDu mir London, nachdem ich im\nBegriff bin unser Heim hier zu\nverlassen zu müssen, so hast\nDu mich verlassen und wir\nmüssen uns leider scheiden,\nda Du es so willst. Meine Ansprüche\nwaren geringes zu verhindern u. ich\nbin heute noch bereit von Dir",
+        "notes": "Handschriftlicher Brief. Der Text ist sehr dicht geschrieben, teilweise mit Randnotizen, die in den Haupttext übergehen.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist teilweise über der Skala platziert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig, teilweise überlagert und weist viele Korrekturen sowie Randnotizen auf, die den Lesefluss erschweren."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2600,
+    "total_words": 444,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      487,
+      697,
+      597,
+      819,
+      0
+    ],
+    "chars_per_page_median": 647.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0068,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

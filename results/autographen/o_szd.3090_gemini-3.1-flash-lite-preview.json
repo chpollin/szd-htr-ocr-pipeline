@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3090",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [August 1941], SZ-AAL/B1.161",
+    "signature": "SZ-AAL/B1.161",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3090/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3090/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3090/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.161"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [August 1941], SZ-AAL/B1.161\n- Signatur: SZ-AAL/B1.161\n- Datum: 08.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H. & M. now we have to economise VIA AIR MAIL paper\nas the airmail takes from Rio only 5 grammes. We had\nan extremely quiet voyage and are both\nagain restored after the heavy strain of Newyork\n- I have never been so down as S. S. Uruguay\nin these last weeks and Lotte too has not been too\nwell. What we want both is some months in\na quiet place and not hotellife; we hope to find\nthis near Rio. In America you feel already\nthe war in the atmosphere, the preparations\nare tremendous and life became still more ex-\npeansive than it was - I believe we have seen\nfor the last time the splendour and the luxu\nry there as this war will unfortunately be\na very long one and the expenses are simply\nfantastic. We have here with the sister of\nMorgentau, who has the whole financial prepa\nration in hand, her husband is from here\nand arched since many years in Newyork;\nI start already learning better Portuguese\nas I shall stay at least six months here -\nwe do not know when it will possible to\ngo to the States and if it will be the right\nthing for us who are longing to have rest\nfrom travelling; it was hard for us to leave\nEva behind but we feel that she is better\nhere with her \"auntie\" Han with us\nwho do not know where to we go; perhaps\nI have to lecture again in Argentine. I be-",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Stempel 'Moore-McCormack Lines' oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "lieve I was right to go to Brazil where I have\na right for permanent stay while in Ame\nrica I was only a visitor and in case of\nwar I would have had all these little\nannoyances as a foreigner (a friendly one\nin this case). I hope you have got my letter\nabout the house; it is important for me\nthat you dispose in such a way that you\ncan ~~dispose~~ take it over completely - dont\nthink about me, I have written all in the\nchimney what I had (as one said in short)\nand I feel happy with everything you\ncan use of what I have - my clothes\nshoes, furniture and so on. I hear that\nclothing, suits etc are difficult to get (in England!)\nand so you could let change some of\nmine for Manfred [?] and some of\nother things for you. We want here\nnothing of all that and I feel, I shall\nnever use it any more. Please make\nme the pleasure to use everything and\neverything as if it were yours. As soon\nas we have a definitive adress we shall\nwrite immediately to you. Kindest regards\nto you all. Yours Stefan Zweig\nWe write this still on the ____________\nship and you shall soon have news from us. My\nbook will be sent directly to you by the publisher",
+        "notes": "Handschriftlicher Brief, Fortsetzung. Am linken Rand vertikal geschrieben: 'and I hope to come through soon with the other, when I wrote in Ossining.'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift Zweigs. Einige wenige Wörter wie 'Manfred' sind aufgrund der Tintenführung leicht unsicher, aber im Kontext der Korrespondenz eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2421,
+    "total_words": 487,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1283,
+      1138,
+      0
+    ],
+    "chars_per_page_median": 1210.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0021,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

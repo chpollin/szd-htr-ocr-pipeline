@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.3395",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joseph Roth an Lotte Zweig [27. Februar 1935], SZ-AAL/B9.1",
+    "signature": "SZ-AAL/B9.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3395/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3395/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3395/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3395/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3395/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B9.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joseph Roth an Lotte Zweig [27. Februar 1935], SZ-AAL/B9.1\n- Signatur: SZ-AAL/B9.1\n- Datum: 27.2.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann,\nich danke Ihnen herzlich für das Papier. Wenn Sie diese\nQualität (die beste) „auf gelbeig“ finden, wäre ich Ihnen sehr dankbar, das\nmeine ist großartig, aber zu dick und hart.\nIch danke Ihnen sehr herzlich und wünsche Ihnen alles Gute,\nIhr ergeben\nJoseph Roth\n\nNizza,\nHotel Imperator,\n27.II.1935.",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist dunkelblau/schwarz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Mademoiselle Lotte Altmann\n50, Woodstock Rd\nLondon\nN.W.11.",
+        "notes": "Vorderseite eines Briefumschlags. Enthält Poststempel von Nizza (27.II.1935) und eine französische Briefmarke. Der Text 'Angleterre' wurde handschriftlich unter den Stempel 'MONDAINES' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Mademoiselle Lotte Altmann\n50, Woodstock Rd\nLondon\nN.W.11.",
+        "notes": "Identisch mit Seite 3 (Detailaufnahme des Umschlags).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "R. SCHWOB & RICHARD _ 17bis, Rue La Boëtie - PARIS",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Firmenname/Adresse auf der Umschlagklappe.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Joseph Roth ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 487,
+    "total_words": 78,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      321,
+      0,
+      58,
+      58,
+      50
+    ],
+    "chars_per_page_median": 58.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        2,
+        3
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

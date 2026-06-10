@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3200",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Januar 1941], SZ-AAL/B1.80",
+    "signature": "SZ-AAL/B1.80",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3200/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3200/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3200/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.80"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Januar 1941], SZ-AAL/B1.80\n- Signatur: SZ-AAL/B1.80\n- Datum: 01.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, we have frightfully to do before leaving - like in Newyork all\nthings rush together in the last moment. As to our friends; I hope Eidemann will\nget his visa as my friend the minister Cator has guaranties for him, I did not dare\nto promise it to him {but I believe it is quite sure} for Credental I will do my best and have already arran-\nged something with my publisher. For Barcla I can do nothing as it is my Ameri-\ncan publisher who has the only right to act and I am only his guest. I am very\nglad that I shall not be here when Frinhaber arrives here, he will spoil the\ngood situation we all enjoy here by his feverish activity. In any case I avoid\nto introduce him, he will do this himself (for some time) with his stories. I\nunderstand however that he wanted to find another position and as far as\nI can I help everybody in this regard. We are thinking continually where you\nmay be and what you are doing - please do not worry about Eva, my sister\nin law wrote that she feels extremely happy, has a lot of friends and will start\nskating next month, a pleasure which we could not afford to her in Bath. We\nare very glad that Heiner can finally go to America, I would like to take for\nmy my tails (I have taken only the smoking with me) and if he hears from\nsome new music (here you get nothing at all of this kind) I would be grateful.\nI hope he will not leave too soon, the idea of travelling in winter - true has\nsomething frightening - I would not like it myself. We do not know more\nwhat winter really is, every day sunshine - sometimes a little too much -\nand blue sky; how you would like the view from our windows.\nI see that in your kindness you make the servant and cook for all people\nin Bath - what are the others women doing? Please advise Manfred to take\nas much rest as possible in Bath. Could he not work there in an hospital? I\nam afraid he overdoes his duty.\nKindest regards to all; also to Eidemann, who will I hope, find interesting\nthings and you give him certainly all help he wants. And yourself please\ndont worry about money and dispose freely as I can by my lectures come\nthrough without any difficulty - it is true, it means a great strain, this\nlecturing in three different languages (or four even) but I have no right to\ncomplain. Love to all from yours\nStefanZweig",
+        "notes": "Handschriftlicher Brief auf gelbem Papier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Einfügung in Zeile 2 wurde korrekt als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2309,
+    "total_words": 453,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2309,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2309,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

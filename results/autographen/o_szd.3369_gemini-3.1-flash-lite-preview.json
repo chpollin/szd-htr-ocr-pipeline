@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3369",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.130",
+    "signature": "SZ-AAL/B3.130",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3369/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3369/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3369/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.130"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.130\n- Signatur: SZ-AAL/B3.130\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "3\n\n~~[...10...]~~ ~~erlegten~~ ~~Gelder~~ hast\n~~Du~~ ~~eine~~ ~~selbst~~, ~~als~~ ~~auch~~ ~~hier~~ \n~~[...10...]~~ ~~ehestens~~ ~~[...10...]~~ ~~[...10...]~~ Solltest\nDu jetzt anders bestimmen, lass es mich\nwissen. Schreib mir auch wohin ich\ndas Geld für die „Denkmäler des Theaters“,\ndie Hinterberger damals nur deshalb\nnicht mitnahm, weil ich nur einen\nKäufer hatte (es ist jetzt zwar ein anderer)\nüberweisen soll. (Postspark. oder L. B. Conte)\nDie anderen Bücher, die Hinterberger\nnicht mitnahm gehen ja verabredungs-\ngemäß an mich. (Reise~~hand~~dichonnäre auch verkauft)\nfalls du das für dich willst.)\nEinen kleinen Zweifel habe ich noch\nbei der Freudausgabe, doch ist\nmis da der Käufer noch 25 Sch\nschuldig. erlös des\nAuch der Globus, den Hinterberger\nmitnehmen wollte, falls ich ihn\nverkaufen kann, genge dir zu.",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die ersten Zeilen sind stark durchgestrichen. 'mis' ist vermutlich ein Schreibfehler für 'mir'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sobald du hoffentlich Dir mit der nun\ngewis nicht improvisierten Schrift einverstanden erklärst.\nDie Widmungsbücher, die Du mir\nin Verwahrung gabst, beginne ich\nnoch diese Woche zu katalogisieren\nund versperre sie dann nach\nMöglichkeit so sicher als es geht u.\nzwar ganz abseits meiner Bibliothek.\nIch kann sie aber statt in einem\ngrossen Koffer oder Kasten auch wieder\nin die Kisten zurückgeben und diese\nvernageln. Die Liste werde ich Dir\ndann schicken.\n\nIch glaube, dass ich nun alle diesbezügl.\nmateriellen u. Besitz-Angelegenheiten\nbesprochen, damit auch dies in\nOrdnung gebracht und nach deinen\nWünschen erledigt werde.\n\nIch wünsche Dir gute Reise, bitte\nDich vielmals nur bei bestem\nWetter zu fliegen und viel Freude\nin Paris nebst dem Geschäftlichen\nTausend Grüße deine Fr.\n\nMein Bruder Rudi erhielt das Solot. verkleinertes, das Rep. Ost.\nHans Prager hatte Sonntag 50. Geburtstag, wir schenkte ihm lieber\nFriedwien überspringt morgen hier deinen Zug auf dem Hbf. der\nnach Paris. Jakob ist gestern es wieder eingetroffen. Warst Du bei Maestro?",
+        "notes": "Handschriftlicher Brief, violette Tinte. Am linken Rand vertikal verlaufender Text.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die erste Seite enthält stark durchgestrichene Passagen, die nur schwer zu entziffern sind. Der vertikale Text am Rand der zweiten Seite ist aufgrund der Ausrichtung und der Handschrift teilweise unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1872,
+    "total_words": 283,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      821,
+      1051,
+      0
+    ],
+    "chars_per_page_median": 936.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 4,
+    "marker_density": 0.0141,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

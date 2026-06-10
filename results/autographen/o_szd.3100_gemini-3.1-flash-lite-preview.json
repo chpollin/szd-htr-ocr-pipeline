@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3100",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.170",
+    "signature": "SZ-AAL/B1.170",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3100/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3100/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3100/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.170"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.170\n- Signatur: SZ-AAL/B1.170\n- Datum: 10.1941\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "From Wilmot I had direct infomation. As far all is in order, let us hope the same\nfor the future.\nAbout the business and financial arrangements you had to make for us with\nWilmot etc. I suppose Stein will write you himself. I feel sure that you\nhave done everything at lest as well as we could have done it ourselves,\nand I am afraid you spent as much time and thought on it than Stefan would\nhave done. Many, many thanks! Thori wrote us a letter some time ago, that\nhe is not allowed to have any relations with people in Hungary and that the\nmoney the Hungarian publisher has or had in England is blocked, so that no\npayment may be expected. Ax - Now I have written more than my share and must\nleave the rest of the page to Stefan. Please send the two first sheets of\nthis letter on to mother so that I need not repeat myself.\n\nDear H. & R. we like our stay here very much. It is life like our\nparents and grandfathers had and the people are so extremely nice and\never clean in their great poverty. Food is still not artificial, the baker\nbakes his bread and his excellent cakes himself and our life-expenses\nare one third as those in America. Others would call Petropolis out of\nreason a frightfully dull place but for somebody like me who wants\nno other thing than to work and to read quietly, to enjoy walks in the\nbeautiful surroundings. it is the perfect thing I cant imagine the variety of types and chara-\nteristic topics in the Brazilian life, I enjoy it enormously after the\nmonotony of American streets. Dear Hannah, you will understand that\none gets more and more sceptic against a civilization & seeing the gloss\nresults of it and that this peaceful, more primitive, more natural life\nhas a quite new attraction; the only weak point are books but I have\nbought a Shakespeare, a Goethe, a Homer and with this and some other\nwhich I can lend from others one can live for a certain time especially\nif one writes his own ones. What I miss are reference-books when I\nneed some details and in urgent cases I have to wait 4-6 weeks to\nget information from Newyork. As to the material things I feel much\nmore free and careless than there; I have certain things and fears which\nworried me very much and which I cannot explain to you as they\nare too complicated but I repeat that from here all looks much\nmore indifferent and we become more and more able to forget the\npossibilities of the future. This war takes such proportions that all\npositions and all fears are futile, every thought of a post war life\nand consequences of former mistakes is wasted. I do quietly my\nwork and hope to be through my autobiography in a few weeks\nhaving completed still in Ossining the record draft - Lottes health\nis somewhat improved and so we have not to complain; I wish you\n\n[Randnotiz links, von unten nach oben geschrieben:]\ncould see our little bungalow in the mountains\nElegante (in reality a tiny room but nicknamed open café, in which I am nearly the only\nwhite man and Lotte the sensation as never another white lady would enter\nsuch a popular place) Perhaps we shall even get a dog! knows Stefan",
+        "notes": "Handschriftlicher Brief auf einem Blatt, beidseitig beschrieben. Die Randnotiz links ist vertikal geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt). Keine eigene Beschriftung.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text der Vorderseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der Randnotizen. Die Transkription folgt dem Layout des Originals."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3095,
+    "total_words": 577,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3095,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3095,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

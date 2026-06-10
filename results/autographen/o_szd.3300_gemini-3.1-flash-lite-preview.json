@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3300",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [3. Juli 1936], SZ-AAL/B2.65",
+    "signature": "SZ-AAL/B2.65",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3300/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3300/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3300/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.65"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [3. Juli 1936], SZ-AAL/B2.65\n- Signatur: SZ-AAL/B2.65\n- Datum: 3.7.1936\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "40, Promenade Albert Ier\nMaison Floréal\n\nLiebes Fräulein Altmann, ich telefonierte Ihnen heute\num zu sagen\n1) Dass ich Sie hier erwarte\n2) Dass Sie Hallam Street etwas Geld lassen\n(ein Pfund) zum Nachfrankieren und Nachtelegrafieren\n3) Dass Sie allenfalls (aber nicht dringend) den\nPhotoapparat mitbringen\n4) Die Maschine natürlich\n5) Dass Sie der Luft in 1 1/4 Stunden hier landen\nkönnen.\n\nNun zur Wohnung. Sie ist primitiv, aber hat\nden einen frommen Vorteil für mich, dass sie eine grosse\nLoggia hat wo ich bei jedem Wetter im Freien arbeiten\nkann – ein alter Traum von mir. Nachteile: kein Lift,\nim dritter Stock, sie verter{sichtig auf das Meer} eine rechte Barbarei gegen\nSie. Aber ich wollte diesmal in kein Hotel. Dafür innen alles\nrecht bequem. Den einen Nachteil muss man hinnehmen –\nich habe nie nötiger gewohnt, dafür steigt man auch Stiegen.\nEben traf ich im Cafe Hermann Kesten, wahrscheinlich\nkommt auch Roth, also noch einmal Nizza.\nIch bin gespannt, ob Nachricht aus Südamerika\nvorliegt. Hele Grüße und auf bald. Ihr\n\nGrüssen Sie die Ihren.\nJener Novellenband ist bereits im Druck, wir müssen also\nmit der Umarbeitung fertig werden vor August.\n\n[Rand links, von unten nach oben:] Ich bin ganz nahe zum Hafen, kaum zu abholen, aber\nSie können auch leicht herher.\n[Rand rechts, von unten nach oben:] Geld brauche ich eines, allen falls ein eher der Westm. Bk.",
+        "notes": "Handschriftlicher Brief auf gelblichem Papier. Die Anordnung der Randnotizen wurde linear am Ende der Transkription erfasst. Die Einfügung 'sichtig auf das Meer' wurde als {eingefügt} markiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "40, Promenade Albert Ier\nMaison Floréal\n\nLiebes Fräulein Altmann, ich telefonierte Ihnen heute\num zu sagen\n1) Dass ich Sie hier erwarte\n2) Dass Sie Hallam Street etwas Geld lassen\n(ein Pfund) zum Nachfrankieren und Nachtelegrafieren\n3) Dass Sie allenfalls (aber nicht dringend) den\nPhotoapparat mitbringen\n4) Die Maschine natürlich\n5) Dass Sie der Luft in 1 1/4 Stunden hier landen\nkönnen.\n\nNun zur Wohnung. Sie ist primitiv, aber hat\nden einen frommen Vorteil für mich, dass sie eine grosse\nLoggia hat wo ich bei jedem Wetter im Freien arbeiten\nkann – ein alter Traum von mir. Nachteile: kein Lift,\nim dritter Stock, sie verter{sichtig auf das Meer} eine rechte Barbarei gegen\nSie. Aber ich wollte diesmal in kein Hotel. Dafür innen alles\nrecht bequem. Den einen Nachteil muss man hinnehmen –\nich habe nie nötiger gewohnt, dafür steigt man auch Stiegen.\nEben traf ich im Cafe Hermann Kesten, wahrscheinlich\nkommt auch Roth, also noch einmal Nizza.\nIch bin gespannt, ob Nachricht aus Südamerika\nvorliegt. Hele Grüße und auf bald. Ihr\n\nGrüssen Sie die Ihren.\nJener Novellenband ist bereits im Druck, wir müssen also\nmit der Umarbeitung fertig werden vor August.\n\n[Rand links, von unten nach oben:] Ich bin ganz nahe zum Hafen, kaum zu abholen, aber\nSie können auch leicht herher.\n[Rand rechts, von unten nach oben:] Geld brauche ich eines, allen falls ein eher der Westm. Bk.",
+        "notes": "Scan mit Farbskala/Grauskala für Archivierung. Inhalt identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist bekannt. Die Randnotizen wurden kontextuell korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2748,
+    "total_words": 458,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1374,
+      0,
+      1374
+    ],
+    "chars_per_page_median": 1374,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

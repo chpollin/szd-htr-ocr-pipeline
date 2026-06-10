@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3337",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Emmerich Singer an Stefan Zweig [20. Oktober 1938], SZ-AAL/B21",
+    "signature": "SZ-AAL/B21",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3337/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3337/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3337/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B21"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Emmerich Singer an Stefan Zweig [20. Oktober 1938], SZ-AAL/B21\n- Signatur: SZ-AAL/B21\n- Datum: 20.10.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DR. RICHARD EISENDLE\nUND\nDR. EMMERICH SINGER\nRECHTSANWÄLTE\nS A L Z B U R G\nDREIFALTIGKEITSGASSE 9\nTELEFON 2038\n\nSalzburg,am 20.10.1938\n\nWohlgeboren Herrn\nDr.Stefan Z w e i g ,\nSchriftsteller\n\nin L o n d o n .\n\nIn Sachen:Blaickner.\n\nSehr geehrter Herr Doktor !\n\nVon Blaickner wurde heute ein Teilbetrag von RM 1333.33 an meine\nKanzlei eingezahlt.Ich habe Blaickner zur Bezahlung der restlichen\nRate im Betrage von RM 667.67 aufgefordert.Den Betrag behalte ich\ngemäss Ihrer letzten Weisung vorläufig in meiner Verfügung.\nIch zeichne mit vorzüglicher\nHochachtung ergebener",
+        "notes": "Brief auf Geschäftspapier der Kanzlei Dr. Richard Eisendle und Dr. Emmerich Singer. Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text vom Vorderblatt sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "In Sachen:Blaickner.\n\nSehr geehrter Herr Doktor !\n\nVon Blaickner wurde heute ein Teilbetrag von RM 1333.33 an meine\nKanzlei eingezahlt.Ich habe Blaickner zur Bezahlung der restlichen\nRate im Betrage von RM 667.67 aufgefordert.Den Betrag behalte ich\ngemäss Ihrer letzten Weisung vorläufig in meiner Verfügung.\nIch zeichne mit vorzüglicher\nHochachtung ergebener",
+        "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text entspricht dem Hauptteil des Briefes auf Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist gut erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 928,
+    "total_words": 140,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      569,
+      0,
+      359
+    ],
+    "chars_per_page_median": 569,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

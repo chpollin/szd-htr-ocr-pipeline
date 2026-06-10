@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3023",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred; Mrs Rauman; Mr. Rauman Altmann [17. Februar 1941], SZ-AAL/B1.101",
+    "signature": "SZ-AAL/B1.101",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3023/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3023/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3023/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.101"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred; Mrs Rauman; Mr. Rauman Altmann [17. Februar 1941], SZ-AAL/B1.101\n- Signatur: SZ-AAL/B1.101\n- Datum: 17.2.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Taft Hotel\nNewhaven, Conn.                                     17.2.41\n\nDear Hanna u Manfred, I have written you two days ago about Eva's\nschools. In the meantime I phoned her and Mrs. Sch. and heard\nthat everything is alright. This week I expect information about\nher music lessons - that is to say, new teacher - and also, whether and\nwhen she has holidays and in March, and I suppose we will then take\nher here although besides us there are no attractions in Newhaven.\nThere is not much to report from here. The weather is rather bad at the\nmoment, storm or snow or cold alternatively, so we work quietly\nwithout any desire to go out. We had Maass here for two days this\nafternoon comes Thornton Wilder, Wednesday Landshof who just phoned\nthat he has seen Manfred before leaving and we are naturally\nimpatient to meet him. Saturday we may go up to Newyork to see\nthe publisher as well as a \"Fidelio\" performance conducted by Bruno\nWalter. - We had no letter from you last week, but as the clipper\narrived yesterday, I hope to get one to-morrow.\n                                     Best love and kisses Lotte\nPlease give the attached letter to Rauman's.\n\nDear Mr. and Mrs. Rauman,\n                                     Newhaven, 17.2.41\nI am glad to hear that you have become faithful Bethonians\nand it is a good feeling to know you at \"Rosemount\", keeping Mama\ncompany and I hope, enjoying Bath as we always did. Hanna wrote me\nthat the children were acting Mr. Rauman's play, and this information\ncombined with the fact that you also like coffee, gives me complete\nassurance that our tradition is being maintained. I hope that your\npets are on good terms with the children and suppose that they enjoy\nbeing in the country. Stefan has just written a short story - the main\ncharacter a bulldog, the setting the Kenneth-Avon canal (is the name\nright, I have half forgotten it already) in a house on the hill to Bethampton,\nI am sure you would like this combination of families landscape\nand dog psychology. It gave Stefan pleasure to write it and kept me\nbusy in Newyork besides my other activities of resettling Eva and\nflat-hunting in Newhaven. I have been successful with Eva, I\nbelieve, but unsuccessful in finding a flat, and so we are continuing\nour hotel life which gets more complicated in the degree as papers,\nnecessary books and manuscripts accumulate. But we are enjoying\nbeing again in a smaller town, seeing snow and having cold fresh air,\nand the greatest pleasure are the books. - Once more: we are very happy to\nknow you in our house and hope that you will continue to enjoy it in relative\npeacefulness and quiet. \n                                     Kindest regards from us both, Lotte Zweig",
+        "notes": "Brief auf rosa Papier. Am linken Rand vertikal geschriebene Notizen: 'We enclose a letter of Eva's which just arrived' (oben) und 'Kindest regards Stefan Zweig' (unten).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Das Dokument liegt unter der Skala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die vertikalen Randnotizen wurden korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2711,
+    "total_words": 461,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2711,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2711,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

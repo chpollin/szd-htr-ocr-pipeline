@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3097",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [3. Oktober 1941], SZ-AAL/B1.168",
+    "signature": "SZ-AAL/B1.168",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3097/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3097/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3097/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.168"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [3. Oktober 1941], SZ-AAL/B1.168\n- Signatur: SZ-AAL/B1.168\n- Datum: 3.10.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n3.10.41\n\nCan you find out - perhaps via Hirschfeld,\nLotte Sch. I have not heard from her since\nJune in spite of various letters addressed to\nthe Raeburn address in the country, and am worried.\n\nMy dear Mamma,\nWe have just received your, Manfred's and Victor's letter\nof Sept 7th and nobody can understand your feelings about it and things in\ngeneral better than we do, who on the other side of the question have just the\nsame alternating periods of being depressed, reasonable, and sometimes opti-\nmistic, sometimes resigned. And we know from own experience that in such moments\nof depression the only reasonable answer - that we should be glad that our fears\nwere exaggerated and our precautions perhaps superfluous - does not help to make\none feel better. But I hope that in the meantime you have already got out of\nthat mood, that now you have fewer things on your mind and no urgent questions\nto settle. I can imagine how long it took you to come to the decision to send\nUrsula back to her parents although on the other hand it seems natural that\nthey should have her at their home again instead of living separately.\nI hope, especially for your sake, and also because Miller seems a part of Rosemond\nthat he is better again and fully appreciate that you continue with his salary\nso that he can afford to be cured effectively, instead of trying to rush back\nto work. But I am sorry that in this moment it gives you an enormous amount of\nwork and little pleasure, and I do wish I could be with you and do my own\nshare. Instead I am sitting here in our little bungalow, learning again how to\ncook by showing the maid how to do it, and in spite of the language difficulties\nam having an easy time of it, being busy mostly re-writing parts of the\nautobiography for Stefan, and when the weather - in rare moments so far\nis good, we go out for walks. We are already quite settled here, Stefan has\nhis barber, his coffee-houses, his writing-table, and I know my shops and\nalready most of the household- and shopping expressions. No need to say\nthat sometimes it is a phantastic thought to live in a little mountain town in\nBrazil, but we are quite happy here and certainly did well to come here in-\nstead of remaining in the States. I do miss Eva, too, it was so nice to be near\nher and to be with her every few days, but I don't think she misses us\nvery much, she feels as much at home in Amity Hall as she did in\nBath without in the least forgetting about her real home and parents.\nStefan's first wife saw Eva the other day. I believe she invited her, I have\nno report yet from Eva about it - and she wrote how well Eva looks,\nand with how much love she talked about auntie Olga. - In the mean-\ntime you may already have got the Brazil book and will learn more about the\nreasons of our love for this country. Strangely enough we have now for\nthe first time again a number of books in our own language, there are two\nlending libraries in Rio and here we met a Mr. Sternberg from Berlin who\nhas all the usual modern books which one had to have. And as the chess\ntakes also some time every day, we are quite busy even without all the\npeople who promised to visit us here. To-morrow I believe Paul will come up.\nThe last time I saw him and Marika in Rio they looked unbelievably\nmodest bourgeois and normal. Marika was cleanly and well dressed with care-\nfully groomed hair, doing needle-work, playing chess with Stefan, and Paul too\nseemed quite harmless and just friendly. Kindest regards, fondest love,\nLotte\n\n[Randnotiz links, von unten nach oben geschrieben]:\nTell Friedenthal we found here in the lending library his volume \"Marie Antoinette\"\nand have read and re-read it with greatest pleasure and regret more than this\nnew novel is not yet finished.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Randnotiz am linken Rand ist vertikal geschrieben. Die Tinte ist blau/violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 1, jedoch mit aufgelegten Archivierungshilfen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotiz wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3854,
+    "total_words": 714,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3854,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3854,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

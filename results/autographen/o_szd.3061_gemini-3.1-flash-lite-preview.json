@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3061",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juni 1941], SZ-AAL/B1.135",
+    "signature": "SZ-AAL/B1.135",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3061/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3061/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3061/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.135"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juni 1941], SZ-AAL/B1.135\n- Signatur: SZ-AAL/B1.135\n- Datum: 06.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, there are not much news about us,\nLotte is a bit better but I hope that when the systematic\ntreatment begins she will be perfectly alright. Now summer\nis approaching and we have not yet made up our minds\nwhat to do. I hate to go to the country here as in the\nhotels of this kind I would find no place to work quietly\nand all is so far and we have no experience what would\nbe convenient to us - The others have now taken houses\nin California because the climate is perfect there, but\nwe as visitors cannot do this. Newyork is terrible\nduring the summer and an air-conditionate apparte-\nment would be the only possibility but the prices\nare fantastic. Going to Brazil would be the best but\nwe see not yet a possibility or probability in case\nof Americas entrance into the war to come\nback (except immigrating what we would of course\navoid.) So we see not yet any solutions and time\nflies (with black wings). And you may imagine how\nI am longing to sit somewhere quietly and to work\nin continuity. The terrifying doom comes nearer and\nnearer and I must hurry to do what I have to do\n- but who can act today after his own wishes? For\nyour friend Fridlauer dont worry, he has already announ-\nced here that he writes in Brazil the biografie of the\nPresident and I suppose he will be soon\nhere to meet all the others Fridlauers. You underrate\nhim, there is a hint of genius in him to overcome\nall difficulties and the darker the waters the better he swims. I\nhis tenacity and courage. We are not fit enough for such\ntimes with our \"alergic\" moral conscience.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Am linken Rand befindet sich ein vertikal geschriebener Textabsatz, der hier in die Transkription integriert wurde (beginnend mit 'all difficulties...').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Text ist durch die Skalen teilweise verdeckt, entspricht dem Text von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der handschriftlichen Kursivschrift und der vertikalen Randnotiz gut lesbar. Die englische Sprache ist flüssig und der Kontext klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1576,
+    "total_words": 299,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1576,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1576,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

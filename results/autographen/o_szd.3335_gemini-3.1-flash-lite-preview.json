@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3335",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [24. April 1940], SZ-AAL/B2.97",
+    "signature": "SZ-AAL/B2.97",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3335/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3335/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3335/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3335/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3335/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.97"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [24. April 1940], SZ-AAL/B2.97\n- Signatur: SZ-AAL/B2.97\n- Datum: 24.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nTrés l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\nParis, le Wednesday\n\nF. MOLLARD, PROP RE\nDear Lotte, I shall leave\nMonday 9 30 and will be\n(I suppose) about 1 o clock\nor 2 oclock in London. If you\nare not at Victoria {air-} station,\nI shall leave the luggage\nthere and we meet then\nat 6 30 at Paddington for\nthe Bath train. You can\nhowever easily find out by\nphone the time of my arrival\nEAU COURANTE CHAUDE ET FROIDE DANS TOUTES LES CHAMBRES\nHOT AND COLD RUNNING WATER IN EVERY ROOM\nCHAMBRES ET APPARTEMENTS AVEC BAIN PRIVÉ - ROOMS AND SUITES WITH BATH",
+        "notes": "Briefbogen des Hotel Louvois, Paris. Handschrift in violetter Tinte. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "and if I do not find you there\nperhaps you leave me a letter.\n~~All~~ ~~lie~~ ~~Here~~ I am\nliving here in a great turmoil\nas now all people know that\nI am here. Saturday I shall\nsee still Roger Martin du Gard.\nKindest regards to Hannah\nand the whole family\nYours\n\nStefanZweig\n\nRings are marvellous here and\nso cheap but I have not a\nminute for shopping - I\nhave not seen one bookseller\nand even not Stock, my publisher",
+        "notes": "Zweite Seite des Briefes. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "StefanZweig\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS (OPÉRA)\nPARIS\n\n[Poststempel: PARIS 49 RUE DES PETITS-CHAMPS 14 H 24 IV 1940]\n\nMrs Stefan Zweig\nc/o Altmann\n\nLondon N.W 11\n\n50, Woodstock Road",
+        "notes": "Umschlag des Briefes. Handschriftliche Adresse und Absenderangabe. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Umschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Korrekturen (durchgestrichene Wörter) wurden gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1288,
+    "total_words": 235,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      622,
+      419,
+      0,
+      183,
+      64
+    ],
+    "chars_per_page_median": 301.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3190",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [11. Dezember 1940], SZ-AAL/B1.71",
+    "signature": "SZ-AAL/B1.71",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3190/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3190/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3190/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3190/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3190/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.71"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [11. Dezember 1940], SZ-AAL/B1.71\n- Signatur: SZ-AAL/B1.71\n- Datum: 11.12.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, 11.12.40\nDear Hanna + Manfred, Finally we had a letter from\nyou after more than 3 weeks without mail. In the meantime\nyou seem to have moved into your new flat, and I hope\nyou can stay there as long as you like. What did you do with\nyour maid, could you take her to Bath? Whom are you going\nto take instead of Mrs Youngman and her children? I am\nvery glad, Hanna, that you wrote about yourselves, because I\nwant to know as much as possible about your life, and\nthere are still lots of questions which I could put you. For\ninstance, who is Frank? I thought you had Erwin there and I\ncannot think of any Frank I know. From your brother we had a\nletter, thanking us, but I hope he does not travel now\nduring the cold season, should he go, one of Stefan's tweed\nsuits might be useful. - As to my dear Brother's letter: help\nhim with money if you think he needs it and as you say\nyourself, he might be really at the end of his ressources.\nAs to the Brazilian visa, I do not think it will be possible. As\nthey do not give visas now as a rule it would mean giving a\npersonal guarantee and that is the only thing I cannot ask of\nStefan in this case. I shall write him next week, should you\nsee him before tell him we think it over and give him\nsomething if you think he needs it. I think I shall also write\nto mama, and don't you worry too much about it. I know\nwhat it means beginning to help him, but we were not sus-\nprised - it had to come one day. - Forgive if I do not\nwrite more to-day, it is already late for posting, and\nit is hot. I hope for a thunderstorm to-night and\nthen I shall write more at length. Keep well and\ninduce Manfred to stay as long as possible with you\nin Bath.\nYours Lotte.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Zeile 'of 6.11.' wurde oben rechts nachträglich eingefügt. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "I join a few lines on this famous paper which would be more\nconvenient for other purposes. Rio is and will always remain\nthe most beautiful town of the world, even such a\nuncnthusiastic being as Lotte finds it wonderful. All would be\nideal here without the heat {in summer} as there are already flats with\naircooling I think it over if it should be necessary for my health\nto go to a southern climat. And how far is this world from\nfrom America! One can write only by air mail\nand that won't mean for me never to send manuscripts\nand for Lotte to write still shorter letters than usual. My Spanish\nmakes good progress and I like the language enormously - the\neasiest perhaps of all Latin ones and I wonder what they will\nsay in Buenos Aires when I am lecturing in Spanish.\nHere we live a very quiet live, I do my best to continue\nthis retirement after having seen so many people and if\nI am giving a lecture I will do it on the last days. I\nhave not heard a word from Europe since months ex-\ncept your letters and also from America I hear nearly\nnothing, but I do not complain, all personal things\nbeing quite indifferent now. For Friedental I can\ndo nothing from here except if he would like to live\nhere, all correspondence has no effect in America, one\nhas to phone and phone every day and to run. A few\nweeks ago it would have been much easier, but he never\nmentioned his intention. Thanks for all Stefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes mit Archiv-Farbskala und Grauskala. Durchscheinender Text der Vorderseite sichtbar.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Lotte und Stefan Zweig ist klar. Die wenigen Korrekturen (wie 'in summer') wurden entsprechend der Vorgaben als Einfügungen markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3113,
+    "total_words": 618,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1699,
+      0,
+      1414,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1556.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

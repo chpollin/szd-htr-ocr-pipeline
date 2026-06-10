@@ -14,10 +14,10 @@ import json
 import sys
 from pathlib import Path
 
+from config import COLLECTIONS
 from quality_signals import compute_signals
 
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
-COLLECTIONS = ["lebensdokumente", "korrespondenzen", "aufsatzablage", "werke"]
 
 
 def main():

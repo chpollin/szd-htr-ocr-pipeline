@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3285",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [23. September 1935], SZ-AAL/B2.51",
+    "signature": "SZ-AAL/B2.51",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3285/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3285/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3285/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.51"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [23. September 1935], SZ-AAL/B2.51\n- Signatur: SZ-AAL/B2.51\n- Datum: 23.9.1935\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite einer Postkarte. Gedruckte Felder 'CARTE POSTALE', 'CORRESPONDANCE', 'ADRESSE'. Briefmarke (90c, Republik Frankreich) und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Frl. Altmann, falls ich\nnicht abtelegrafiere komme\nich Donnerstag den 26.ten\num 15 21 (drei Uhr 21) in\nVictoria-Station an (via\n~~Dover~~ Calais). Bei irgend\neiner Veränderung verständige\nich telegrafisch. Bestens\n\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Postkarte ist hier erneut abgebildet (Nachrichtenseite).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrektur 'Dover' zu 'Calais' ist eindeutig durchgestrichen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 285,
+    "total_words": 43,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      51,
+      234,
+      0
+    ],
+    "chars_per_page_median": 142.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

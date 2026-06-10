@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3333",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [21. April 1940], SZ-AAL/B2.95",
+    "signature": "SZ-AAL/B2.95",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3333/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3333/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3333/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3333/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3333/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.95"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [21. April 1940], SZ-AAL/B2.95\n- Signatur: SZ-AAL/B2.95\n- Datum: 21.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Conference Radio pour Mercredi 18 heures\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le 21.\n\nDear Lotte, merci pour ta lettre\ndu 20. J'ai un sale travail avec\nla traduction de Hella, j'abord je\nl'ai ~~retravaillé~~ {re-travaillé} avec lui, mainte-\nnant je laisse la encore revirer\npar un autre, elle est trop mauvaise\ncela veut dire elle est literale et\npas pour la parole parlé. Quel mi-\ntere! deux jours perdus dans ma\nchambre! J'ai fait ma conference\n~~pour~~ {moi même} pour le Radio français\npour l'empêcher de devenir trop\nlourd. Tu dois comprendre: je parlerai\nici devant un public exigeant\nqui ~~a~~ a l'oreille pour les fautes\net maintenant il faut a commencer par l'entier",
+        "notes": "Brief auf Hotelpapier. Handschrift in violetter Tinte. Die Zeile 'Conference Radio...' steht am oberen Rand. Der Text am unteren Rand 'et maintenant...' ist leicht abgeschnitten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "et des lourdeurs.\nJ'ai diné prodigieusement hier avec\nles Romains chez Larue, il avait lui\nmême combiné le menu. Je vois des\ngens tres importantes et interessantes\nLundi je vais au theatre de nouveau,\nMercredi je parle (Radio National 18\nheures) je verrai encore les Cortot, ten-\ndres j'ai apres la conference un petit\ndiner avec quelques camerades au\nPendub. Puis le delicieuse samedi,\nlibre pour flaner, le Dimanche pour\nune excursion et Lundi je veux re-\nTurner, si te irrai ou telegrafierai\n~~re~~ l'heure exacte, mais il ne faut\npas m'attendre a la station.\nParis etait ravissant aujourd-\nhui - la seule chose que je peux\nfaire etait decrire la conference pour\nle Radio sur un café-terasse au boule-\nvard. Demain Dimanche travail agen\navec la traductrice de Roth, qui refait\nen cachette avec moi le maquillage de\nHella. Portez regards Stefan Zweig\n* Ils envoient les meilleurs salutations",
+        "notes": "Fortsetzung des Briefes. Am linken Rand vertikal geschrieben: 'Hella. Portez regards Stefan Zweig'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Wiederholung des Textes von Seite 2.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nMrs Stefan Zweig\n\nBath (Angleterre)\nLyncombe Hill\nRosemount",
+        "notes": "Umschlag des Briefes. Briefmarken und Poststempel vorhanden (Paris-Aviation 21-4 40). Handschriftliche Adresse.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift und einiger Korrekturen gut lesbar. Die französische Orthographie weist einige Eigenheiten auf (z.B. 'interessantes' statt 'intéressantes'), die originalgetreu transkribiert wurden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1794,
+    "total_words": 297,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      764,
+      893,
+      0,
+      73,
+      64
+    ],
+    "chars_per_page_median": 418.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3384",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joachim Maass an Lotte Zweig [7. April 1938], SZ-AAL/B4.6",
+    "signature": "SZ-AAL/B4.6",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3384/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3384/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3384/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.6"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joachim Maass an Lotte Zweig [7. April 1938], SZ-AAL/B4.6\n- Signatur: SZ-AAL/B4.6\n- Datum: 7.4.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7. April 1938.\n\nLiebe Lotte,\nvielen Dank für euren Brief; ihr könnt euch wohl denken, dass ich um euch in Sorge war. Ich fühle\nmich nun wenigstens etwas erleichtert, aber ich muss bald Genaueres hören. Vielleicht regeln sich meine Ange-\nlegenheiten schneller, als ich bisher gedacht hatte, dann komme ich auf einen Sprung zu euch. Inzwischen\nkommt das Manuskript eines Buches zu euch, das ihr bitte mit Sorgfalt und Liebe lesen wollt - manche\nLeute hier halten große Stücke davon, und es knüpfen sich wohl vielerlei verlegerische und andere Pläne\ndaran, in denen euer Rat und Beistand erwünscht wäre. Das Buch kommt aus Italien, es wird in\nzehn bis vierzehn Tagen bei euch sein; behaltet es dann da.\n\nPersönlich habe ich heute nichts zu erzählen. Merkwürdigerweise fühle ich mich dadurch, dass ich meine\ngroße Arbeit abgeschlossen habe, fürs Erste noch gar nicht recht erleichtert. Es bleibt noch zu viel Ärgernis\nzu tun, und die Finanzsorgen sind drückend wie immer. Es wäre mir lieb, mit ein paar Tagen bei euch an-\nruhen zu können, geht die Visum-Schreiberei nicht nicht[?]; ob sie mir allerdings wirklich hineinbringt,\nweiß man zu warten; alte Leute sind störrisch, müsst ihr bedenken.\n\nAlso, Vänderlen, bis auf Weiteres alles Gute und Schöne und die herzlichsten Grüße.\nEuer alter Onkel Willy",
+        "notes": "Handschriftlicher Brief auf einem Blatt Papier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "7. April 1938.\n\nLiebe Lotte,\nvielen Dank für euren Brief; ihr könnt euch wohl denken, dass ich um euch in Sorge war. Ich fühle\nmich nun wenigstens etwas erleichtert, aber ich muss bald Genaueres hören. Vielleicht regeln sich meine Ange-\nlegenheiten schneller, als ich bisher gedacht hatte, dann komme ich auf einen Sprung zu euch. Inzwischen\nkommt das Manuskript eines Buches zu euch, das ihr bitte mit Sorgfalt und Liebe lesen wollt - manche\nLeute hier halten große Stücke davon, und es knüpfen sich wohl vielerlei verlegerische und andere Pläne\ndaran, in denen euer Rat und Beistand erwünscht wäre. Das Buch kommt aus Italien, es wird in\nzehn bis vierzehn Tagen bei euch sein; behaltet es dann da.\n\nPersönlich habe ich heute nichts zu erzählen. Merkwürdigerweise fühle ich mich dadurch, dass ich meine\ngroße Arbeit abgeschlossen habe, fürs Erste noch gar nicht recht erleichtert. Es bleibt noch zu viel Ärgernis\nzu tun, und die Finanzsorgen sind drückend wie immer. Es wäre mir lieb, mit ein paar Tagen bei euch an-\nruhen zu können, geht die Visum-Schreiberei nicht nicht[?]; ob sie mir allerdings wirklich hineinbringt,\nweiß man zu warten; alte Leute sind störrisch, müsst ihr bedenken.\n\nAlso, Vänderlen, bis auf Weiteres alles Gute und Schöne und die herzlichsten Grüße.\nEuer alter Onkel Willy",
+        "notes": "Scan mit Farbskala und Grauskala für Archivierungszwecke. Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'nicht' in der Zeile 'geht die Visum-Schreiberei nicht nicht' scheint eine Wiederholung oder ein Schreibfehler des Autors zu sein, daher als 'nicht[?]' markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2594,
+    "total_words": 424,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1297,
+      0,
+      1297
+    ],
+    "chars_per_page_median": 1297,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0047,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

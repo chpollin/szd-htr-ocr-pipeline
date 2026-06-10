@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3064",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [17. Juni 1941], SZ-AAL/B1.138",
+    "signature": "SZ-AAL/B1.138",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3064/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3064/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3064/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.138"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [17. Juni 1941], SZ-AAL/B1.138\n- Signatur: SZ-AAL/B1.138\n- Datum: 17.6.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "I hear Hal an old friend of mine Guido Baron Fuchs\nis in great need after Harry been interned for some months\nhe is also a great friend of Sir Frankenstein. Please send\nhim to Baron Fuchs in my name a few words to Manor Farm,\nUpper Quinton,\nWarwick\n\nHotel Wyndham                                Newyork, 17.6.41.\n\nDear Hanna & Manfred,\n\nTo-day was mail-day and we got a letter from\nKorner but none of you, and as we had nothing from you last week\nwe were very much disappointed. Eva showed us a letter from you\nwhen we visited her last Sunday, but ~~that~~ that is not the same.\n- I hope that you are all well and that Manfred's exam is soon\nover. Please inform us by cable of the result. And then go to\nBath and remain there, both of you. We feel that the house has\na certain justification of existing if you are in it, and it ought\nto be nice now in summer. We do not yet quite know where to go,\nbut it will not be far from Newyork, probably, and we shall continue\nto see Eva and have her with us for a while. To-morrow I shall see\nher teacher, Miss Baker, who is passing through Newyork and will\ncome to see me. It is a pity Eva cannot be here, but her school\ndoes not finish until next week, and right now they seem to have\nexaminations. I shall also discuss the school problem with Miss\nBaker. - From us there is little to be told. We work, with lazy,\ntired or excited periods in between, according to weather and news,\nand besides that cocktail party we gave and where we had the whole\ncrowd here, we do not see many people just now. - I wrote you\nthat we had an answer from the Visa Department in Washington that\nthey do not more send cabled enquiries about the status of prospective\nimmigrants, so we must wait until your brother gets his reply in the\nregular manner. Let us know at once if his affidavit is sufficient\nor if not, which sum would be required as a deposit here. Maybe we\ncould get his sponsor to put up a deposit because this would mean\nsaving considerable time compared with trying to find an additional\naffidavit etc.\n\nAs I hope to get a letter in a few days time,\nI only send this as a preliminary note until I can reply to what\nyou write. With kindest regards to all,\n\nDear both, really there is not much to tell,             fondest love and kisses,\nwe live quietly and are ashamed that we have\nfood and leisure, while you are in foarba, we are\nLotte\nfurious when we see how much to {here} waste our spent; Lotte is much\nbetter and the treatment has already clearly shown where the real source\nof her ,alergic' cealhes are and we hope the best just because her reactions\nto the injections have been sometimes rather violent. Now we have to look\nwhere to go for the summer. It is not easy because houses in the country are\nvery expensive and as we have no car we should be near to a station and\nall what ~~is~~ is near and has easy access is overcrowded especially in the week\nend by millions of cars - no possibility for walks as Manfred loves them so\nmuch. We hope to see Eva again next week, she feels happy as she really\nmerits it and I am glad that you feel now sure about her. Yours Stefan",
+        "notes": "Brief auf Hotelpapier, Typoskript mit handschriftlichen Ergänzungen am linken Rand und am Ende des Briefes (von Stefan Zweig). Die handschriftlichen Teile sind in violetter Tinte verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Der Text der Vorderseite ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind gut entzifferbar, auch wenn die Schrift etwas flüchtig ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3122,
+    "total_words": 601,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3122,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3122,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

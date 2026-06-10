@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3292",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [24. Dezember 1935], SZ-AAL/B2.58",
+    "signature": "SZ-AAL/B2.58",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3292/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3292/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3292/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3292/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3292/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.58"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [24. Dezember 1935], SZ-AAL/B2.58\n- Signatur: SZ-AAL/B2.58\n- Datum: 24.12.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Weihnachtsabend\nHotel Regina\n\nLiebes Fräulein Altmann, Sie sind ja furchtbar\nfleissig gewesen und ich danke Ihnen von\nHerzen für Ihre Hilfsbereitschaft, die umso höher\nanzurechnen ist, als Sie ja wirklich knapp vom\nKrankenbett geholt wurden. Ich arbeite hier,\nvon vielen Reunhen[?] gestört, kräftig weiter —\nleider aber zwei arge Zwischenfälle, die mich sehr\nerregt haben, der Tod Alban Bergs und die Ver-\nhaftung Eduard Heinrich Jacobs — beide standen\nauf der Liste der wenigen Leute, die ich sehen\nwollte.\nDie Pläne nun: 1 und 2ter Januar Salzburg,\n3 und 4ter Zürich, 7ter Nizza, wo meine\nFrau mit mir etwa 8 Tage bleibt, dann fährt\nsie nach London voraus, während ich dort noch\netwa einen Monat, zumindest aber drei Wochen\nzu bleiben hoffe. Könnten Sie also zu uns etwa\num den 7ten nach Nizza kommen, so wäre ich",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Am Ende der Seite ist der Satz abgeschnitten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sehr erfreut und es würde Ihnen wohl auch gut\ntun. Hochgebirge vertrage ich nicht länger als 8\nTage, es liegt mir nicht, in Hotelhallen von lang-\nweiligen Menschen belästigt zu werden.\nBitte also Folgendes. Wenn Sie Ihr Visum haben\ntelegrafieren Sie uns. Ich schreibe dann Mr.\nChild von Orchard Place, er solle mir die Post\nwohl länger senden und Sie holen Sie vor der\nAbfahrt ab. Sie nehmen am besten von Paris\naus Schlafwagen und erkundigen sich im West-\nminsterhotel ob wir dort sind. Logieren wir\nanders so finden Sie dort einen Brief mit\nder Angabe unserer Wohnung. Hoffentlich klappt\nalles. Telegr. oder briefliche Adressen sind\n1 und 2ten Salzburg\n3 und 4ten morgens Zürich, Hotel Habis\n7 ten (ich bin wahrscheinlich schon am 6ten\ndort, Nizza, poste restante)\nAll das im Flug. Sie wissen Sie, wie\nunentbehrlich Sie mir geworden sind für meine\nArbeit und meine Frau freut sich gleichfalls schon\n[Randnotiz links:] sehr auf Nizza und das Zusammensein. Grüßen Sie die Frau Melina[?]\n[Randnotiz rechts:] Paris glauben Sie wohl auch, ich fahre erst am Rückweg mit. Maschine",
+        "notes": "Fortsetzung des Briefes. Enthält Randnotizen links und rechts.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Hotel Regina Wien\nDollfußplatz\n\nMiss Lotte Altmann\nLondon NW 11\n50, Woodstock Road\n\n[Stempel: EXPRESS FEE PAID]\n[Aufkleber: Durch Eilboten. Exprès.]",
+        "notes": "Adressseite des Briefumschlags. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Poststempeln (Wien, London).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Einzelne Wörter wie 'Reunhen' oder 'Melina' sind aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2038,
+    "total_words": 337,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      815,
+      1075,
+      0,
+      148,
+      0
+    ],
+    "chars_per_page_median": 815,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0059,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

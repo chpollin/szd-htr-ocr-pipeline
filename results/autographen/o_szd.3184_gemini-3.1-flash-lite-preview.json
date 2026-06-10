@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3184",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [27. November 1940], SZ-AAL/B1.66",
+    "signature": "SZ-AAL/B1.66",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3184/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3184/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3184/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3184/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3184/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.66"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [27. November 1940], SZ-AAL/B1.66\n- Signatur: SZ-AAL/B1.66\n- Datum: 27.11.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Editora Guanabara\n132 rua Ouvidor\nRio de Janeiro. Rio, 27.11.40\n\nDear Hanna u Manfred,\nWe have not had any letters\nfrom you last week and so far not\nthis week, and I am glad we had at\nleast the cable giving us your new\naddress. From us there is little to re-\nport. We had a quiet week, did not\nsee many people, enjoyed our balcony\nand the fact that it is not yet hot.\nOur plans are still uncertain. We\nintend to stay here in the Hotel Centra\nas long as it does not get too hot,\nand then - by the middle or end of\nJanuary - we would like to go to\nNewyork during the hot season here.\nBut it is a very expensive journey,\nand therefore it would be good if\nyou could enquire at the Pal. Lloyd\nby phone perhaps about the possibility\nof sending the ticket from Engl or to pay\nit there and give instructions to book\nhere to make it out for us. Perhaps you\nor the travel bureau could wire us",
+        "notes": "Handschriftlicher Brief auf Aerogramm-Formular. Die Tinte ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "whether this can be done without\ndifficulty and how it is to be\ndone. - Stefan wants still to add some\nlines, so kindest regards only\nand the information that we had\nat last a letter from Eva, a\nfairly long one. We hope to see her\nin February. Best love\nLotte\nDear Hannah and Manfred, we do\nnot yet know what we shall do in\nJanuary. Till now the weather is very\nagreeable but if it does not get worse\nwe shall stay here in our very airy hotel.\nAs to our voyage to Newyork we have\nnot yet decided anything. It is at least\n13 days voyage, perhaps even more and\nrather expensive. Perhaps you could once\nask at the travel-office where we bought\nour passage, if we could buy from them\nthe passage from here to Newyork at the\nMac Coun'd line and they could cable\nthe passages over here - this would faci-\nlitate very much our intention and\nwe are then nearer to England. Should\nthis be possible please do it and inform\nus by cable. We have a lot to do here\nwith formalities as our permit expires",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf der Rückseite des Aerogramms.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "soon and to facilitate matters our voyage\nin the future we took an unlimited one\nwhich is of cause a sort of garantie not\nto depend always on their applications, but\nwhat formalities we has to fulfil, fingerprints\nphotos with attestations, papers and papers\nnow it is done and we have never to worry\nabout delays, difficulties and so on. As to\nfurther lectures I am rather [?] reluctant,\nthe voyages from country to country in\nthis enormous continent take days and\ndays; I prefer to sit quietly and to work\n- till now the heat has not yet arrived\nand the beauty of this town fascinates\nus after weeks more and more. If we\ncould have you here for a fortnights rest\nyou would forget all the hard days and\nrecover physically as morally. Eva got\na very severe letter of us, because she\nhas not written to us and the same day\nfinally arrived some scribbled information\nfrom her. I hope she will write now more\nregularly to you - we do understand what\nher news must mean to you and I wish\nI could stand behind her with all my",
+        "notes": "Handschriftlicher Brief, Fortsetzung.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "mental cruelty and force her to write\nyou twice a week, I can imagine that\neven the tiniest and sillest detail of her\nis interesting to you. We are here very glad\nto have finished with our lectures -\nonly yesterday I had still one in the\nForeign Office in honour to our friend, the\nCuban minister, whom we lost in an air\naccident. Lotte feels allright and I repeat\nwe should be happy, if we would know you\nin safety - I hope you will have both\na few days rest at Bath, at least at\nChristmas. We would have liked to send\nyou some coffee, sugar and similar\nBrazilian samples as a Christmas {werend} [?]\nbut we will ask first, if it is possible\nand if there are no special permissions\n- one is already screeching formalities\neverywhere and I would have liked so\nmuch to show you that we dont forget\nyou and remember well our last Christ\nwas in Bath. Let us hope, that our\ngood and central hours will come again\nYours\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Ende des Textes mit Unterschrift.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter ist ein Ausschnitt des Brieftextes (Seite 4) zu sehen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Einzelne Wörter wie 'werend' (evtl. 'present' gemeint) sind aufgrund der Korrektur/Einfügung schwerer zu lesen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3820,
+    "total_words": 747,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      886,
+      989,
+      1019,
+      926,
+      0
+    ],
+    "chars_per_page_median": 957.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0027,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

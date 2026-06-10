@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3241",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [23. August 1934], SZ-AAL/B2.11",
+    "signature": "SZ-AAL/B2.11",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3241/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3241/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3241/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3241/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3241/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.11"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [23. August 1934], SZ-AAL/B2.11\n- Signatur: SZ-AAL/B2.11\n- Datum: 23.8.1934\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "WIEN, Donnerstag\n\nLiebes Fräulein Altmann,\nich bestätige Ihnen dankend\nden Schluss des Mants und Ihren\nfreundlichen Brief! Ich habe hier bei\nder grässlichsten Hitze grässlich viel zu\ntun, dabei fehlen Sie mir als verläss-\nliche Schreibhand sehr, ich habe eben Ihrem\nFreunde Smolka mein Leid geklagt. Gera-\nde jetzt ist furchtbar viel Briefliches zu\nerledigen, ich habe Ärger mit meinem Leip-\nziger Verleger und muss ganze Akten-\nstücke mit meinen ungeschickten Fingern\nverfassen.\nVerzeihen Sie wenn ich\nmeine nächsten Aufenthaltsorte und\nPläne Ihnen telegrafisch melden werde,",
+        "notes": "Brief auf Hotel Regina Briefpapier. Handschriftlich in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "es ist alles (ausser dem geliebten London)\nbei mir gefährlich in Schwebe. Ich reise\nmorgen Freitag nachts nach Salzburg, wo wir\nSamstag Toscanini und Bruno Walter zu\nTisch erwarten, höre Sonntag das Concert\nToscaninis und den Don Giovanni Walters,\nreche Montag und fahre — aber wohin?\nIch weiss es nicht, weil ich Prof. Kippen-\nberg ein Ultimatum für eine Begegnung\nHolland oder Schweiz gestellt habe und\nerst Montag seinen Bescheid haben werde.\nAdresse ist bis Montag abends Salzburg\nund eigentlich dann auch weiter (meine\nSecretarin oder meine Frau, die zurück\nbleibt, berichten mir alles nach) bis ich\nIhnen meine näheren Daten melden\nkann.\nBitte empfehlen Sie mich\nIhres verehrten Frau Mutter und\nerholen Sie sich gut: es ist dies kein\negoistisches Verlangen, nur Sie dann",
+        "notes": "Handschriftlicher Text auf der Innenseite des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "für die anstrengende Beschäftigung aus-\ngeruht zu wissen, sondern der aufrichtige\nWunsch, Sie möchten Ihre Ferien voll\ngeniessen. Ihr herzlich ergebener\n\nStefan Zweig\n\nWenn ich länger in Frankreich bleiben\nmuss und Sie wirklich so gütig wären, mich\nfreizumachen und es amtlich gelingt, beden-\nke es für mich natürlich eine grosse Ar-\nbeitsentlastung, könnten Sie mir schon vor\nLondon Beistand leisten (die Maria Stuart\nhat hier durch die widerlichen Verlegedinge\narge Verzögerung erfahren) Ich schreibe oder\ntelegrafiere Ihnen jedenfalls sobald ich\nKlar vor mir sehe — ich bin nur jetzt von\nder Antwort Prof. Kippenbergs abhängig.",
+        "notes": "Handschriftlicher Text auf der Rückseite des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Wunsch, Sie möchten Ihre Ferien voll\ngeniessen. Ihr herzlich ergebener\n\nStefan Zweig\n\nWenn ich länger in Frankreich bleiben\nmuss und Sie wirklich so gütig wären, mich\nfreizumachen und es amtlich gelingt, beden-\nke es für mich natürlich eine grosse Ar-\nbeitsentlastung, könnten Sie mir schon vor\nLondon Beistand leisten (die Maria Stuart\nhat hier durch die widerlichen Verlegedinge\narge Verzögerung erfahren) Ich schreibe oder\ntelegrafiere Ihnen jedenfalls sobald ich\nKlar vor mir sehe — ich bin nur jetzt von\nder Antwort Prof. Kippenbergs abhängig.",
+        "notes": "Wiederholung der letzten Seite mit Archiv-Farbskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Wiederholung auf Seite 5 ist identisch mit Seite 4."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2530,
+    "total_words": 390,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      576,
+      0,
+      776,
+      630,
+      548
+    ],
+    "chars_per_page_median": 630,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

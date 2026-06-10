@@ -1563,3 +1563,64 @@ Code-Kommentare praezisiert. **Abzugrenzen** von den „34 leeren `pages[]`" (Co
 Offen (Operator): docs/-Viewer via `build_viewer_data.py` neu bauen (entfernt die 34 aus dem
 korrespondenzen-Katalog; bewusst ausgelassen, da Frontend-Lane docs/ bearbeitet); 5 Orphans =
 Daten-Provenienz-Frage (in keinem GAMS-TEI-Katalog).
+
+---
+
+## 2026-06-10 — Autographen (SZ-AAL): GAMS-Verifikation + fuenfte Sammlung
+
+### Was wurde gemacht
+- **GAMS-Ingest SZ-AAL-2026-06 vollstaendig verifiziert**: 379 Objekte (o:szd.3020 bis
+  o:szd.3398), alle 1.599 Bild-URLs (`{pid}/IMG.{n}`) per HTTP geprueft -> 200 image/jpeg,
+  0 fehlend. Visuelle Stichproben (o:szd.3020, o:szd.3024) passen zu den Book-XMLs.
+- **Fuenfte Sammlung `autographen` onboarded**: neues `pipeline/import_autographen.py` baut
+  aus dem Ingest-Staging (`PROJECTS\szd\ingeste`) die Backup-Struktur
+  (`metadata.json` + `mets.xml` + `images/IMG_n.jpg`) und generiert die TEI-Kontextquelle
+  `data/szd_autographen_tei.xml` (379 biblFull). Idempotent re-runnbar (METS-Cache,
+  Groessenvergleich beim Kopieren).
+- Registrierung: `COLLECTIONS` in `config.py` (am Ende, Tie-Break-Reihenfolge!),
+  `COLLECTION_LABELS` in `docs/app.js`, `resolve_group()` routet autographen -> Gruppe I.
+- `backfill_quality_signals.py`: hartkodierte Sammlungsliste durch `config.COLLECTIONS` ersetzt.
+- Pilot: 10 Objekte transkribiert (10/10 ok, Konfidenz high). Transkriptionsqualitaet an
+  zwei Objekten gegen die Faksimiles geprueft (englische Handschrift Lotte + Stefan Zweig,
+  praktisch fehlerfrei inkl. tabellarischer Reiseroute).
+
+### Erkenntnisse / Entscheidungen
+- **METS kommt von `archive/get/{pid}/METS_SOURCE`** (wie szd-zenodo-backup); `{pid}/METS`
+  liefert 404. structMap ist bei Cirilo-Ingests leer -> Bildreihenfolge = IMG.n-Nummerierung.
+- **Zuordnung Scan -> IMG.n ueber Bildmasse verifiziert**: exif-Dimensionen im METS gegen
+  lokale JPEG-Header (alle 1.599 deckungsgleich) — kein Bild-Download noetig.
+- **Cirilo setzt pauschal Sprache "Deutsch"** in die MODS — kein Katalogwert. Viele
+  AAL-Briefe sind englisch; der Wert erzeugte beim Pilot 9/10 falsche
+  `language_mismatch`-Review-Flags. Entscheidung: Sprache wird NICHT in metadata.json/TEI
+  uebernommen (mets.xml bleibt als Beleg), das VLM erkennt die Sprache selbst.
+  Nach dem Fix: 0 Review-Flags im Pilot.
+- Cirilo vergibt PIDs in alphabetischer Mappenreihenfolge (B1.10 vor B1.2).
+- Datenkuriositaet fuer die fachliche Sichtung: ein Book-XML traegt den Autor
+  "BRIEFE GEHOEREN NICHT ZUSAMMEN!" (Quelldaten-Notiz im Autorfeld).
+
+### Offen
+- Voll-Lauf der restlichen 369 Objekte (laeuft als Hintergrund-Batch, danach
+  `build_viewer_data.py`).
+- Sprachfeld der AAL-Objekte in GAMS/Cirilo ist fachlich zu klaeren (pauschal "Deutsch").
+- `B3_unvollstaendig` (Staging) wartet auf quellseitigen Re-Export, danach Nach-Ingest +
+  erneuter `import_autographen.py`-Lauf.
+
+### Nachtrag (10.06. vormittags) — Sessionende, Stand fuer den Wiedereinstieg
+
+- QA-Report ueber alle 379 ingestierten Objekte erstellt (`reports/aal-ingest-qa.md` + `.csv`):
+  Bilder 379/379 fehlerfrei (Zaehlung, Masse, GAMS-URLs); Metadaten-Befunde: 3 Autor-Faelle
+  (B1.110 "BRIEFE GEHOEREN NICHT ZUSAMMEN!" = o:szd.3034, B10.9 "Trading", B3.138
+  "Unidentified") + 23 fehlende Datierungen (Block B3.110-B3.130 + B12/B19) — alle
+  quellseitig, bereits in der Lieferung enthalten.
+- Mail-Entwurf Korrekturmeldung an die Erschliessung liegt im Obsidian-Vault
+  (`Projects/szd/2026-06-10 - Mail-Entwurf Korrekturmeldung SZ-AAL Ingest.md`),
+  in ACTIVE-WORK verlinkt.
+- Voll-Batch laeuft detached (Start ~06:46, bei Sessionende 115/379, ~18s/Objekt,
+  Log `c:/tmp/aal_batch.log`); baut am Ende automatisch `build_viewer_data.py`.
+  Dev-Server lief auf Port 8000 (`pipeline/serve.py`).
+- GAMS war ab ~Vormittag nicht erreichbar (Timeout auch auf der Startseite). Betrifft
+  NUR die Faksimile-Anzeige im Viewer (GAMS-URLs); Batch unbeeinflusst (lokale Bilder).
+  Kein Handlungsbedarf unsererseits — nach GAMS-Rueckkehr erscheinen die Bilder wieder.
+- Wiedereinstieg: Batch-Ergebnis pruefen (`Get-ChildItem results/autographen/*_gemini-*.json`
+  zaehlen, Log-Ende auf "BATCH KOMPLETT"), Stichprobe sichten, Korrekturmeldung versenden,
+  Commit der Sammlungs-Integration steht aus.

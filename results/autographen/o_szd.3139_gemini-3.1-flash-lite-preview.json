@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3139",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [20. Oktober 1939], SZ-AAL/B1.25",
+    "signature": "SZ-AAL/B1.25",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3139/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3139/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3139/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.25"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [20. Oktober 1939], SZ-AAL/B1.25\n- Signatur: SZ-AAL/B1.25\n- Datum: 20.10.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, vielen Dank. Aber ein so teurer und\nprachtvoller Teppich kommt trotz Deiner Empfehlung nicht\nin Betracht. Solche Beträge will ich nicht „mit Füssen treten“.\nWichtiger als all dies ist das die Führung des Hauses jetzt\nendlich in Gang kommt und ich endlich erlebe, dass alles\nklaglos läuft ohne dass ich mich bekümmern muss, wie ein\nTisch gedeckt wird und die Centralheizung angelassen. Das\nerste Gebot - Hannah kennen wir besser zu teilen -\nein simpler Tee meisterte daran, dass wir keine zweite Kanne\nfür heisses Wasser (zum Nachgiessen/heisse sind Abwarten der\nersten Tasse) haben, das hatte also in den Monaten seit\nwir in Bath bin nicht die primitivste Handwerkszeug einer\nfeinfühlenden Nation vorbereitet hat (in Lansdown besah ich\nnun einmal eine Woolworthtasse.) darum geht es mir -\nnicht ob zwei Farbtöne von Holz besser oder aberher [?] zu-\nsammenstimmen, sondern dass ich endlich die Sicherheit\nhabe, dass, wenn es läutet, die Tür aufgemacht wird und\nwenn ein Gast {kommt}, ich mich nicht {um Haustechnisches} zu kümmern habe. Dass\nLotte lernt, einen Haushalt auf einem gewissen Niveau\nklaglos und geräuschlos laufen zu lassen. Sie wendet dann\nimmer ein, sie hätte nicht gesehen, wie man einen Tisch\nanständig deckt oder wie man in guten Händen serviere“ —",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesbarkeit ist gut, einige Wörter sind aufgrund der kursiven Handschrift leicht interpretativ (z.B. 'aberher').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "darauf muss ich antworten: gerade das darf niemand {gleich} mer-\nken, dass sie nicht in grosser Gesellschaft verkehrt hat. Fran-boi-\nner hat es eben auch gelernt und man muss sich darum\nkümmern — es genügt auch nicht, einmal (in vielen Jahren)\nin zwei Monaten ins Dienstbotenbüro zu gehen, sondern man\nmuss jeden zweiten Tag gehen und drängen und fragen. Deine\nSchwester hat das Beste, aber sie kann nicht, ermüdet und\nrastet von diesen Arbeiten, kochen und aufräumen und\neinkaufen und für die Kinder sorgen. Lotte muss sich ener-\ngisch dafür sorgen, dass der Haushalt läuft ohne dass ich\netwas davon spüre und höre. Ich habe auch monatelang\nmit einem ungeputzten Anzug und ebensolchen Schuhen\nohne den Schatten einer Bedienung abgefunden; aber jetzt\nmuss einmal mit den ewigen Provisorien Schluss gemacht\nwerden; wenn sie zurückkommt muss sie anders ein-\ngreifen und zugreifen: dies ist wichtiger als alle Anschaffungen.\nHeute ein erster Trinkenfall - nachts tropfte\nes nach einem Regenguss in mein Schlafzimmer. Sie hätten\nauchneuer etwas am Dach beim Reparieren vergessen; ich\nmusste in aller Früh schon um Woolter trompeten\nAlles Herzliche von Eurem\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung. Die Tinte ist durchgehend violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlappt teilweise den Text der zweiten Seite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Die Handschrift ist flüssig, weist aber typische Zweig-Kürzel und eine sehr individuelle Orthographie auf. Die Überlappung der Farbskala auf Seite 3 ist ein technisches Hilfsmittel."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2445,
+    "total_words": 392,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1279,
+      1166,
+      0
+    ],
+    "chars_per_page_median": 1222.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0026,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

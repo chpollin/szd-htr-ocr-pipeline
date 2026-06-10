@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3312",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [11. Mai 1937], SZ-AAL/B2.76",
+    "signature": "SZ-AAL/B2.76",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3312/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3312/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3312/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3312/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3312/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.76"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [11. Mai 1937], SZ-AAL/B2.76\n- Signatur: SZ-AAL/B2.76\n- Datum: 11.5.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, Plaignez moi; ich\nkomme hier nicht so rasch los, muss jedes-\nfalls über Pfingsten hier bleiben und kann\nkaum vor Mittwoch oder Donnerstag abends\nin London sein, vielleicht wird es sogar\nFreitag. Die familiären Auseinander-\nsetzungen (nicht mit meinem Bruder) sind\nerschöpfend, ebenso die andern Angelegen-\nheiten; alles noch schweriger als ich dachte.\nIn meinem Leben hatte ich nicht soviel mit\nAdvocaten zu tun. Heute nachmittags, nach\ndem ich heute morgens den Aetthorantrieb[?]\nnoch abholte, bei dem Anwalt war, dann\nbei meinem Bruder, mittags bei meiner\nMutter jetzt eine (die erste) Conferenz mit\ndem Ehe[?] Perlner. Freitag kommt meine",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Lesung 'Aetthorantrieb' ist unsicher, da das Wort schwer lesbar ist.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frau und da müssen verschiedene Dinge\nfixiert werden, sie macht alles ~~schwieriger~~[?]\n~~R~~[?] unglaublich schwer. Dabei muss ich\nheute zum Geburtstag meiner alten Freundin\nLida, wo ich alle Leute sehen werde\nund dann verfolgt bin; wie alles hies[?]\ngeht, ist noch Roth da, Raffaeletti\nkommt morgen, ihr Jollos hat Premiere.\nPlaignez moi und erledigen Sie mir\nbitte alles, damit ich diese Gewissheit\nhabe und fahren Sie keine Belishaffeiler[?]\nund — bewahren Sie wenigstens Ihren\nKopf, meider geht in Fransen. Herzl[ich]\n\n[Randnotiz, vertikal geschrieben:]\nWenn ich nicht abtelefoniere bleibe ich bis\nMontag abends hier: Post also Sutton express\nda dann\nnicht aus\ngetragen\nwird\n\nSteyer Versicherung noch gecontact",
+        "notes": "Handschriftlicher Brief, Fortsetzung. Die Randnotiz ist vertikal am linken Rand geschrieben. 'Belishaffeiler' ist eine unsichere Lesung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lüftpost (Air Mail)\n\nMiss Lotte Altmann\n\nLondon N.W. 11\n50 Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Österreich 1 Schilling', Poststempel 'Wien 11. V. 37. 15'. Blaue Aufkleber 'BY AIR MAIL' und 'MIT FLUGPOST'.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Zwei Poststempel 'T.Z.ST. WIEN 11. V. 37' und 'TELEGRAPHENAMT WIEN 11. V. 37'.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Frau und da müssen verschiedene Dinge\nfixiert werden, sie macht alles ~~schwieriger~~[?]\n~~R~~[?] unglaublich schwer. Dabei muss ich\nheute zum Geburtstag meiner alten Freundin\nLida, wo ich alle Leute sehen werde\nund dann verfolgt bin; wie alles hies[?]\ngeht, ist noch Roth da, Raffaeletti\nkommt morgen, ihr Jollos hat Premiere.\nPlaignez moi und erledigen Sie mir\nbitte alles, damit ich diese Gewissheit\nhabe und fahren Sie keine Belishaffeiler[?]\nund — bewahren Sie wenigstens Ihren\nKopf, meider geht in Fransen. Herzl[ich]\n\n[Randnotiz, vertikal geschrieben:]\nWenn ich nicht abtelefoniere bleibe ich bis\nMontag abends hier: Post also Sutton express\nda dann\nnicht aus\ngetragen\nwird\n\nSteyer Versicherung noch gecontact",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Aetthorantrieb', 'Belishaffeiler'). Die Struktur ist jedoch klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2171,
+    "total_words": 328,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      666,
+      716,
+      73,
+      0,
+      716
+    ],
+    "chars_per_page_median": 666,
+    "marker_uncertain_count": 10,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0305,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

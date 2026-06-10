@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3035",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [April 1941], SZ-AAL/B1.111",
+    "signature": "SZ-AAL/B1.111",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3035/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3035/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3035/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.111"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [April 1941], SZ-AAL/B1.111\n- Signatur: SZ-AAL/B1.111\n- Datum: 04.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, we are forwarding today the photos of\nyour daughter, lets hope, they will safely arrive. You will see\n- they are excellent - that Eva is looking well and so your mothers\nheart will be glad. Today she goes back to Accily Hall and I think\nit is a good sign that she is rather eager to see her auntie Olga\nagain; she feels there perfectly at home and in all those good days\nwith her we heard not a single complaint about anything there. So we\nare rather satisfied to have found the right thing. She ~~do~~ has made\nsome progress and I hope you will not regret that she has seen and\nlearned so much.\nThanks for all what you are doing for me. The consul has promis-\nsed to me that a new power of attorney will be made in the Consu-\nlate here; I shall go there in the next few days. Please drop a\nline also to Siegmund Warburg, and telling him that I have written\nthree times to him and once to Koerner and never got a reply. It\nis really not my fault. And give Frietental all material help, I hope\nI can send also to him a food-parcel.\nWe lose here much time by thinking what to do next. On the 15th\nof May I shall have to speak at the great dinner of the Pen Club\none of this enormous dinners with 1000 persons which I have avoided\nall my life long. But this time I cannot refuse as it is important\nfor our common cause. Somerset Maugham will speak - every one ten\nminutes sharp - for the English, Sigrid Undset for the Scandinavian, Jules\nRomains for the French and I for the German-speaking writers, the other\n~~persons~~ {ones} get only 1 minute; I have to speak one half in German, the\nother in English. All this will be relayed by short-wave all over the\nworld and I shall give you in time the exact hour, that you may hear\nme in London. Will we have afterwards still time and occasion to\ngo to Brazil? Who can tell it? Lotte is now in competent treatment\nand many tests are made to find out the real reason and center of her\nasthma. I would not like to travel before she is perfectly fit. Love Stefan\n\n[Rand links, vertikal:] I have written an obituary for our good Hermann Meine for\nthe \"Anfanger\" here and shall send it to his widow.\n\n[Rand rechts, vertikal:] Best love (I will write soon)",
+        "notes": "Handschriftlicher Brief von Stefan Zweig in violetter Tinte. Der Text am linken Rand ist vertikal geschrieben, ebenso der Text am rechten Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Brief ist hinter die Skalen gelegt, der Text ist durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der Korrekturen. Die wenigen Korrekturen (durchgestrichene Wörter, eingefügte Wörter) wurden gemäß den Anweisungen transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2218,
+    "total_words": 431,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2218,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2218,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

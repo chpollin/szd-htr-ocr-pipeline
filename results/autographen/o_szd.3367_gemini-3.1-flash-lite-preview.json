@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3367",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.127",
+    "signature": "SZ-AAL/B3.127",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3367/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3367/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3367/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.127"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.127\n- Signatur: SZ-AAL/B3.127\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "9\nNur Du kannst mir alles\nMisstrauen nehmen, mir\nzeigen, dass ich Dir mehr\nbedeutete, dass wir zusammen\ngehören trotz der Freiheit Deiner\nLebensführung und weil ich\nsie Dir zubillige Trotz der\nZusammengehörigkeit als\ndas liebste, was Du Dir ein-\nforderst. Nur Du kannst zeigen\nwie weit der Trotz noch der\nLiebe u. Treue Platz gibt, Du\nmusst es wissen ob noch\nfür mich bei Dir Zuflucht ist\nwie sie jeder Freund hat, den\nDu lieb hast u. dem deine\nTüre nicht verwehrt ist. Wie soll\nich es wissen, nach all dem,\nwas Du mir getan, was Du\nmir genommen hast. Und\nwarum willst Du dies auch\nan das Materielle binden.\n„Will er denn ersparen“",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Ziffer '9' am oberen Rand könnte eine Seitenzahl sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "fragte mich heiler, der Dich nicht\nverstehen kann. Du selbst sagst\ndoch, dass dann viele Diskussion-\npunkte wegfallen, wenn auch das\nMaterielle bereinigt ist. Und\nwenn ich mein, in der Erklärung\ngegebene Wort breche kannst\nDu ja ~~mit mehr Recht als~~ \ndu die Ungültigkeit verlangen\nbisher, wo ich doch selbst\njetzt mit allen Rechten der\nbestehenden Ehe nie der\nFreiheit, die Du Dir nahmst\nnahegetreten, weder Dir noch\ndiesem Mädchen, das sich so\nfalsch gegen mich verhalten.\nMir zu vertrauen, wenn ich Dir\ndie Erklärung gebe, hast Du\ndoch allen Grund. Nur mein\nHerz, nicht die Tat hat sich gewehrt.\nNun soll auch dieses schweigen u.\nwird es, wenn Du beweist, dass\nDu mir zugehören willst.\nIn Liebe u. Dankbarkeit\ndeine Fr.",
+        "notes": "Handschriftlicher Brief, Fortsetzung der Seite 1. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "wenn ich mein, in der Erklärung\ngegebene Wort breche kannst\nDu ja ~~mit mehr Recht als~~ \ndu die Ungültigkeit verlangen\nbisher, wo ich doch selbst\njetzt mit allen Rechten der\nbestehenden Ehe nie der\nFreiheit, die Du Dir nahmst\nnahegetreten, weder Dir noch\ndiesem Mädchen, das sich so\nfalsch gegen mich verhalten.\nMir zu vertrauen, wenn ich Dir\ndie Erklärung gebe, hast Du\ndoch allen Grund.",
+        "notes": "Ausschnitt aus Seite 2, teilweise verdeckt durch Archivierungshilfen (Farb- und Grauskala).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Durchstreichungen und Einfügungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1743,
+    "total_words": 303,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      631,
+      723,
+      389
+    ],
+    "chars_per_page_median": 677.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

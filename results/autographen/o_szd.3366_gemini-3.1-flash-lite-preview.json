@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3366",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.126",
+    "signature": "SZ-AAL/B3.126",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3366/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3366/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3366/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.126"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.126\n- Signatur: SZ-AAL/B3.126\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Sonntag,\nLieber Stefan,\nich sende Dir hier so lange\nich hier bin nochmals eine Er_\nklärung, die Dir - so hoffe ich\ninständigst - vollauf {zu} beruhigen\nim Stande ist und Dir zeigt,\ndass mich nichts leitet als\ndass unsere Freundschaft rein\nerhalten bleibt und durch\nkeine weitere Bitternis gestört\nwird. Ich bitte Dich auch an\nmeiner Vernunft nicht zu zwei_\nfeln und Dich nicht wegen\nfinanzieller Dinge zu beunruhi_\ngen, die ich gewiss nicht\nunernst behandeln werde.\nIch hatte von {von} Meiler {aus} gleich\neinen hier vorgef. Brief beant_\nvortet u. ihm auf seine\nAnfragen wegen der Namens_\nsache bedeutet, dass er erst\nErkundigungen wegen günstiger\nErledigung der Zurückziehung\nan deren Möglichkeit zweifel[?]",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Die Tinte ist dunkelblau/schwarz. Die Zeile 'Ich hatte von Meiler aus gleich' enthält eine Korrektur/Einfügung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "einholen solle u. dass ich\nab 8ten in Salzb. sein\nwerde u. wann immer\nnach Wien kommen kann.\nDen Brief Yella's lege ich\nDir gleich zur Information\nbei u. auch weil er Dir zeigt\nwelch guter Geist Dir von den\nMenschen zuweht, die mir nahe_\nstehen u. um das wissen, was\nmich am Tiefsten bewegt.\nLeb recht wohl mein geliebter\nStefan. Ich schreibe Dir\nvon unterwegs noch.\nAlles, alles Gute und\nbleib mir gut u.\nim Herzen treu\nDeine\nFr.\nandrée grüßt\nDich.",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der untere Teil zeigt einen Ausschnitt des Brieftextes von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Einzelne Wörter wie 'zweifel' am Ende von Seite 1 sind durch den Seitenrand leicht beschnitten, aber im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1157,
+    "total_words": 197,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      708,
+      449,
+      0
+    ],
+    "chars_per_page_median": 578.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0051,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

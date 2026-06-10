@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3062",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [2. Juni 1941], SZ-AAL/B1.136",
+    "signature": "SZ-AAL/B1.136",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3062/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3062/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3062/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3062/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3062/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.136"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [2. Juni 1941], SZ-AAL/B1.136\n- Signatur: SZ-AAL/B1.136\n- Datum: 2.6.1941\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Wyndham 42 West 58 Street\n2. June 1941\nDear Hannah we have been for one day on Atlantic\nCity to discuss different matters and to {get} also an im-\npression if such a place would do for the coming months\nof heat. It was very pleasant now but {it will} be unpleasant\nwhen the great crowds begin to come; so we have to look\nfor another place; it is not easy for old fashioned people without car.\nAbout Eva, you will have the best news, she feels perfectly\nat home {in Croton} and I shall not forget your wish that she\nshall learn French during the holidays. I had two long\nand very friendly letters from our friend Eize but there is\nsomething in it which does not please me; he has since\na year not notified a single precise thing and I see\nthat the drawing from which you gave me news he has\nafterwards sold to somebody other. I can well understand\nhis situation; it seems that he cannot resist the tempta-\ntion if some new friends come now who were not so inter-\nested in art as myself and have discovered her inclination\nbut now, he forgets his old friends and also the promise he\ngave to them. If he would have written straightaway: I\ncould not do anything this whole year for you I would\nhave been clear. But I cannot get rid of the idea that\nhe whenever a better offer comes for the same things\nhe reserved months and months ago for me he gives\nthem away with profits and forgets what {he has let him down?} Perhaps I\nam wrong but there is something evasive in his letters\nand I wonder if he has given {you} clear information;",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Tinte violett. Die Zeile 'he has let him down?' ist eine Einfügung über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "The situation in the book market is not more the same than\na year ago and that is why I tried to reserve me in\ntime the material for my work. I did not write to him\nmyself because {it may} be a mere suspicion\nof my part and as I know how hard he works, how diffi-\ncult his life must be; perhaps you can make it out and\nact without to let him feel that I begin to feel a bit dis-\nappointed. I want to believe always the best of my\nfriends as long as I have no absolute proof of the\ncontrary. Wednesday we have our great 'spring cleaning'\n- I have invited all those people I had to see to our\ncocktail. It is impossible to make visits here {individually} \nby it takes too much time and the distances are too\ngreat.\nYou never wrote me dear Hannah if there any\nbooks or letters of interest came all this year long; I\ndo not want of course the whole list {and busy that} if anything\nof personal interest would arrive you will let me\nknow it; altogether our correspondence is very small\nnow during that all writers are already {have} arrived here\nI hope you will {have} with brillant teeth a brillant\nsummer in Bath and enjoy after Manfrets examina-\ntion the well merited rest. Lotte is much better, she has\nlost a litte weight and I will do my best to let her\nregain all his ounces; if we only could sit some-\nwhere quitely and be out of this Hotel and hometic\nlife! Yours faithful\nStefan",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf zweitem Blatt. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "The situation in the book market is not more the same than\na year ago and that is why I tried to reserve me in\ntime the material for my work. I did not write to him\nmyself because {it may} be a mere suspicion\nof my part and as I know how hard he works, how diffi-\ncult his life must be; perhaps you can make it out and\nact without to let him feel that I begin to feel a bit dis-\nappointed. I want to believe always the best of my\nfriends as long as I have no absolute proof of the\ncontrary. Wednesday we have our great 'spring cleaning'\n- I have invited all those people I had to see to our\ncocktail. It is impossible to make visits here {individually} \nby it takes too much time and the distances are too\ngreat.\nYou never wrote me dear Hannah if there any\nbooks or letters of interest came all this year long; I\ndo not want of course the whole list {and busy that} if anything\nof personal interest would arrive you will let me\nknow it; altogether our correspondence is very small\nnow during that all writers are already {have} arrived here\nI hope you will {have} with brillant teeth a brillant\nsummer in Bath and enjoy after Manfrets examina-\ntion the well merited rest. Lotte is much better, she has\nlost a litte weight and I will do my best to let her\nregain all his ounces; if we only could sit some-\nwhere quitely and be out of this Hotel and hometic\nlife! Yours faithful\nStefan",
+        "notes": "Identisch mit Seite 3, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz einiger Korrekturen und Einfügungen durch den Autor. Die Handschrift ist charakteristisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4301,
+    "total_words": 842,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1535,
+      0,
+      1383,
+      0,
+      1383
+    ],
+    "chars_per_page_median": 1459.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

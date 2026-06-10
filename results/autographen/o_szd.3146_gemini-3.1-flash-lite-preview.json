@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3146",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [13. Juli 1940], SZ-AAL/B1.31",
+    "signature": "SZ-AAL/B1.31",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3146/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3146/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3146/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.31"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [13. Juli 1940], SZ-AAL/B1.31\n- Signatur: SZ-AAL/B1.31\n- Datum: 13.7.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Viking Press\n18 East 48th St\n\nNew York, 13.7.40.\n\nDear Hanna,\nI hope that we will hear\nfrom you by clipper while we are still\nhere, and there is even a remote possi-\nbility that we might not take the boat\non the 26th but the one after it as we\nwould like to await the replies from\nBrazil and the other countries.\nYou will have got a cable\nfrom Rabbi Stephen Wise to your Lon-\ndon address giving an affidavit for\nEva, which as I am told, is now ne-\ncessary, in order to get children over.\nStefan and I went to see him in quite\ndifferent matters and we just mentioned\nthat we wanted to bring over our niece.\nHe immediately said he would see to it\nand give the necessary guarantee and\nthe committee where his wife or daughter\nis one of the leading people would\nsee to it that she comes into a nice fa-\nmily. In these twenty minutes - he is\na big person and it was more or less\nlike an extremely friendly audience -\nI suppose you have heard from him.\n\n[Randnotiz links, von unten nach oben geschrieben:]\nDear Hannah, warmest regards. I have not yet the replies from Brazil\nand quite about my lectures and perhaps we have to wait for another\nship. Meanwhile I write here and prepare the lectures and I work at all\n\n[Randnotiz rechts, von oben nach unten geschrieben:]\n'Bote'\nI hope as we expected. Hope Manfred, the children all well\nand I have done all I could for Edemann and hope good results. Lotte",
+        "notes": "Handschriftlicher Brief auf Briefpapier. Die Randnotizen sind in einer anderen Ausrichtung geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "there was no chance to talk more\nabout it and ask questions. But\nfor the moment it seems to me the\nmost important to have the necessary\ndocuments and to be able to send Eva\nover. My sister-in-law and Rose (on whom\nI rely more) have promised to look after\nher, I am promised addresses of schools\nand boarding-schools and am looking\nround and asking all the people who\nmight know something. Rose is doing the\nsame, she and her brother-in-law have\nguaranteed Elsie's and Carmel's children\nand she does not yet know what to do\nwith them. The most important thing for\nthe moment is: do you want to send her\nat the present moment, can you send\nher with someone and when would she\ncome? I suppose you will let us know while\nwe are still here and I'll see to it that\nshe will be met at the boat by some\nnice and reliable person I know.\nI hope you are all well. Please\nwrite as often as possible, if only a post-\ncard so that we are not without news.\nKindest regards to you, the children\nand all the others,\nLotte.",
+        "notes": "Zweite Seite des Briefes, handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Darunter ist ein Teil des Brieftextes von Seite 2 durch das Papier hindurch sichtbar.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotizen auf Seite 1 sind aufgrund der Ausrichtung und der Platzierung etwas schwieriger zu lesen, aber eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2406,
+    "total_words": 464,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1401,
+      1005,
+      0
+    ],
+    "chars_per_page_median": 1203.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

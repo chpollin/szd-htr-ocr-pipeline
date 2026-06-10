@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3124",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1942], SZ-AAL/B1.192",
+    "signature": "SZ-AAL/B1.192",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3124/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3124/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3124/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.192"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1942], SZ-AAL/B1.192\n- Signatur: SZ-AAL/B1.192\n- Datum: 01.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah & Manfred, in our monotonous and quiet existence was today\na little excitement; our gardener's wife {she is all day in a factory} who lives in the little hut behind our\nbungalow got a child today and Manfred would have had something to learn -\nhow primitive the thing happens here which is quite complicated in our world. In\na little room, half of my study {in Petropolis} were during the great moment the husband, the\nmidwife, a sister, her child, a dog so that was no room at all; every even the\nsmallest comfort like running water is missing in this small space which has still\nthe kitchen-shore in it and nevertheless a brown boy was brought to the world, a\nvery quiet child, which makes no noise till now. Lotte was very excited about\nnot so the husband who immediately after went quietly to the café. One is al-\nways astonished by the poverty of the people here and one learns how many things\nof our life are superfluous - if I remember Rene Fülöp's dies with all kind\nof sterilisations and protections; here a black midwife does (not very cleanly)\nall the work and the children grow nevertheless here like strawberries - our\nblack maid has no less than five. Living here means to get knowledge of\nlife, all is here (except in the Frischauer luxurious quarters) like two hun-\ndred years ago and this gives here life a great charm; people live the old\nfamily life and are happy to have a dozen children without to worry how to\nfeed them and God helps. It would be strange for us to return to European\nand Northamerican ideas after all this experiences - The one big advantage\nis that one is not more so afraid to become poor. In such countries one could\nlive with very few if one would forget his former standard. We had not very\ngood weather here, since 40 years it did not rain so much in Brazil but\nwe make every good moment our long walks (mostly with our dog) and dis-\ncover always new picturesq sceneries; at night there are myriads of glow-worms\nthe whole forest glittering like a christmas-tree. Altogether we are very happy\nto be here instead of Northamerica and Lotte feels somewhat better - I am\nnot yet satisfied completely, but I hope that she will stop soon her night-music\nespecially as summer is now beginning. I have not worked too much -\ndepressed by the eternity of war, the daily rain, but I hope now to start\nas it is senseless to wait for better times one two three years. From Era\nwe have very good news and our confidence in Mr. Schaeffer is like before\nvery great - I believe it was thousand times better that Eva has grown\nup with children of all ages, kinds, religious, languages and was obliged\nto do many things herself as to remain always at home as the only child\n- I envy you the moment when you will have her again. I hope you have\na fairly good time and my matters give not too much annoyance to you -\nI myself have written everything I had in the \"Raumfang\" and cannot understand\nthe people who believe that life will continue after the war on the same old and standard of\nSeptember 1939. We hope to get soon good news from you. Heartest regards and love to all Stefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Randnotiz am linken Rand wurde in den Textfluss integriert, da sie den Satzbau ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear Hannah & Manfred, in our monotonous and quiet existence was today\na little excitement; our gardener's wife {she is all day in a factory} who lives in the little hut behind our\nbungalow got a child today and Manfred would have had something to learn -\n\nof sterilisations and protections; here a black midwife does (not very cleanly)\nall the work and the children grow nevertheless here like strawberries - our\nblack maid has no less than five. Living here means to get knowledge of\nlife, all is here (except in the Frischauer luxurious quarters) like two hun-\ndred years ago and this gives here life a great charm; people live the old\nfamily life and are happy to have a dozen children without to worry how to\nfeed them and God helps. It would be strange for us to return to European\nand Northamerican ideas after all this experiences - The one big advantage\nis that one is not more so afraid to become poor. In such countries one could\nlive with very few if one would forget his former standard. We had not very\ngood weather here, since 40 years it did not rain so much in Brazil but\nwe make every good moment our long walks (mostly with our dog) and dis-\ncover always new picturesq sceneries; at night there are myriads of glow-worms\nthe whole forest glittering like a christmas-tree. Altogether we are very happy\n\n- I envy you the moment when you will have her again. I hope you have\na fairly good time and my matters give not too much annoyance to you -\nI myself have written everything I had in the \"Raumfang\" and cannot understand",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Überlagerung durch die Archivierungsskalen auf Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4660,
+    "total_words": 866,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3120,
+      0,
+      1540
+    ],
+    "chars_per_page_median": 3120,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

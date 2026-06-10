@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3094",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [13. September 1941], SZ-AAL/B1.165",
+    "signature": "SZ-AAL/B1.165",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3094/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3094/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3094/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.165"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [13. September 1941], SZ-AAL/B1.165\n- Signatur: SZ-AAL/B1.165\n- Datum: 13.9.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                             Rio, Sept. 13th, 41.\n\nEDITORA GUANABARA\nWAISSMAN KOOGAN LTDA.\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG. EDIGUA - BRASIL\n\nDear Hanna & Manfred,\nNo news from you yet this week,\nbut so far two letters from Eva, they are already in\nthe new house and she writes very cheerfully. Of\ncourse Mrs. Sch. will report to you now every few\nweeks, but you must excuse her, I believe, for the\nlast weeks and a few more to come - they have not very much furniture to move\nand to instal, and I suppose the noble house will be rather shabbily furnished\nat first, but nevertheless the noble house will be rather shabbily furnished\nat first, but nevertheless it must be an immense amount of work to change over\nfrom one house to another with about twenty or more children. - From us there\nis not much to report. I had a cold and did not go out much the last week, and\nStefan spends four to six hours daily at the dentist's. Our only regular \"work\"\nwere the Portuguese lessons every day, a rather boring business, as we both\nhave no love for this language and rather resent it - Spanish would have been\nso much more convenient and easy while we are quite sure that we will never\nmaster the pronunciation of Portuguese. Anyhow, it has to be done, the Brazi-\nlians naturally prefer their language to French in the long run, and keeping\nhouse absolutely requires Portuguese. About the house in Petropolis I have\nwritten in detail in the enclosed letter to Mama, and you will hear more about\nmy experiences when we will be up there. - I have thought over what you wrote\nabout mother coming to Bath for a visit, and there is for my opinion not the\nslightest reason why she should visit there while you have household and servia\ntroubles. I can understand that whe would like to return to London and that she\nprefers being near Manfred, you and her friends to just personal safety which,\nI have come to think, is not worth too much trouble and isolation. On the other\nhand I would have acted like you did, declining all responsibility and advising\nrather that she stays on where she is. But I do not see any reason why she\nshould go to Bath now, and I am sure she does not even want it. She has had\ncountry life enough for a while, she does not need a rest, and what else does\nBath and Rosemount offer now that neither nor Eva are there? So do not worry\nabout this now. If mother really returns to London - she did not mention this\nintention to me and I did not write to her about it - and again has spent a\nwinter there, this problem might arise, but how much will have happened until\nthen?! - I hope that you are both well and that Manfred will soon find the job\nhe wants. Do not bother too much about us and our problems, every European is\nbound to have his worries in one way or the other nowadays, and if only the war\ngoes well, everything will have been worth while. So do not worry if Rosemount\nhas to be neglected for a while, and don't let other affairs of ours take too\nmuch time and thought. We know you manage everything as well or better than we\ncould do it, and we only hate the thought to burden you with our affairs, you\nmust have enough of your own.\n\n                                             Warmest greetings to all and love to you\n                                             Lotte",
+        "notes": "Typoskript auf Briefpapier der Editora Guanabara. Der Text enthält einige Wiederholungen (Zeilen 8-10) und Tippfehler (z.B. 'servia' statt 'service', 'whe' statt 'she').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke über den Brief gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die Wiederholungen im Text sind im Original vorhanden und wurden entsprechend transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3364,
+    "total_words": 617,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3364,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3364,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

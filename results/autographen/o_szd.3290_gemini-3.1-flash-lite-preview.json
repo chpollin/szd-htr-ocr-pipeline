@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3290",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [21. Dezember 1935], SZ-AAL/B2.56",
+    "signature": "SZ-AAL/B2.56",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3290/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3290/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3290/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3290/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3290/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.56"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [21. Dezember 1935], SZ-AAL/B2.56\n- Signatur: SZ-AAL/B2.56\n- Datum: 21.12.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, 21. Dezember 1935\n\nLiebes Fräulein Altmann!\n\nMein Freund Einstein erzählte mir gestern eine sonderbare Ge-\nschichte, nämlich, dass jetzt Verschärfungen auch für Durchrei-\nsevisen in Frankreich für Deutsche notwendig seien und angeblich\nmuss jedes Gesuch erst nach Paris. Es wäre also jedenfalls besser,\nSie gingen gleich hin und liessen es sich für ein vorgerücktes\nDatum im Januar schon jetzt ausstellen. Sollten Schwierigkeiten\nsein, so telegrafieren Sie mir einfach und ich schreibe nochmals\nan den Herrn der Gesandtschaft dorten, aber ich hoffe, es wird\nkeine geben, nachdem Sie es schon zweimal anstandslos erhalten\nhaben.\n\nIch hoffe, dass es Ihnen gut geht, ich selbst bin noch\nnicht ganz in der Arbeit und habe mich gegen viele Besuche\nkonstant zu wehren.\n\nMit den besten Grüssen an Sie alle, Ihr\n\nStefan Zweig\n\nBücher sind bereits verpackt war alles\nvorbereitet für Leipzig - eine schwerere Arbeit\nstatt der eigenen!",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am Ende.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer (durchscheinender Text von der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Wien, 21. Dezember 1935\n\nLiebes Fräulein Altmann!\n\nMein Freund Einstein erzählte mir gestern eine sonderbare Ge-\nschichte, nämlich, dass jetzt Verschärfungen auch für Durchrei-\nsevisen in Frankreich für Deutsche notwendig seien und angeblich\nmuss jedes Gesuch erst nach Paris. Es wäre also jedenfalls besser,\nSie gingen gleich hin und liessen es sich für ein vorgerücktes\nDatum im Januar schon jetzt ausstellen. Sollten Schwierigkeiten\nsein, so telegrafieren Sie mir einfach und ich schreibe nochmals\nan den Herrn der Gesandtschaft dorten, aber ich hoffe, es wird\nkeine geben, nachdem Sie es schon zweimal anstandslos erhalten\nhaben.\n\nIch hoffe, dass es Ihnen gut geht, ich selbst bin noch\nnicht ganz in der Arbeit und habe mich gegen viele Besuche\nkonstant zu wehren.\n\nMit den besten Grüssen an Sie alle, Ihr\n\nStefan Zweig\n\nBücher sind bereits verpackt war alles\nvorbereitet für Leipzig - eine schwerere Arbeit\nstatt der eigenen!",
+        "notes": "Scan mit Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Dr. Stefan Zweig, Hotel Regina Wien IX.\n\nLuftpost\n\nFräulein\n\nLotte Altmann\n\nLondon N.W.\n\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarken und Poststempel vorhanden. Stempel 'MIT FLUGPOST' und 'PAR AVION' sowie französischer Text 'Manque avion les dimanches' und 'Im Postwege befördert, da Sonntag kein Flug'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit zwei Poststempeln.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl das Typoskript als auch die handschriftlichen Ergänzungen von Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1967,
+    "total_words": 306,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      930,
+      0,
+      930,
+      107,
+      0
+    ],
+    "chars_per_page_median": 518.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

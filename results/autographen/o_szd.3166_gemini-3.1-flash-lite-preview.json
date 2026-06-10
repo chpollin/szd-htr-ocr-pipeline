@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3166",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte; Altmann, Hannah Zweig [1939], SZ-AAL/B1.5",
+    "signature": "SZ-AAL/B1.5",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3166/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3166/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3166/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.5"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte; Altmann, Hannah Zweig [1939], SZ-AAL/B1.5\n- Signatur: SZ-AAL/B1.5\n- Datum: 1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "L. L. war eben bei Wooster wegen näherer Central-\nheizung. Der Mann ist unglaublich anständig, riet mir ab\nneuen Ofen zu kaufen, behauptet, es genüge ~~außerhalb des sink~~ {eingefügt: unterhalb des sink}\nguten Boiler zu transferieren. Für die Küche und Bad\nempfiehlt er die Wasserheizung (Gas) zu mieten, weil dann\ndie Leute verlässlicher alle Reparaturen machen. All das\nscheint mir die ideale Lösung — unten Centralheizung, in\nden Schlafzimmern Gas oder Elektrik, da man sie unter Tag\ndoch kaum benützt und ist auch nachts es wohl gerne so\nwarm in den Zimmern habe. Damit ist das hier uns herlaafen\nzu alten Küche erledigt: ein Kohlenofen wird im Winter\ntäglich geheizt, teils Monate, die übrige Zeit Gas und Elektrik.\nEr sagte mir zu in verzehn Tagen, sobald er die\nStelle umplant habe, so viele Arbeiter zu herfahren zu haben\nals er wolle. Er lasse uns bekommen nicht in Stich.\nWenn es Dir keine Reihe macht bringe den Baker\nmit, er kann aber ebenso in der kleinen Kammer bleiben und\ndie nimmt allenfalls Dinge, die Dir wichtiger sind.\nHerzenst\nDie harder kommt ausserhalb\ndes Küche                                S.",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger Korrekturen stellenweise herausfordernd.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "much practical about house-furnishing and house-keeping.\nI believe it will {eingefügt: become} now, as we cut the old kitchen entirely\nout (reserving her to become a Wasch- und Bügelraum)\na snug little house with all possibilities of later expansion\nand this seems to me the ideal solution in those enigmatical\ntimes. I hope Manfred will not go immediately go to France\n- it is very easy {eingefügt: to get} in their such an obligation but\nvery difficult to get out again. „Gehe nie zu einem\nFerscht wenn du nicht gerufen werst“ [?] — His\nlaw I learnt in my schooldays and my later\nexperiences have proved the thruth of this profound\nsentence. Truly yours ever\n\nStefan",
+        "notes": "Handschriftlicher Briefteil in englischer Sprache, mit einem deutschen Zitat. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "times. I hope Manfred will not go immediately go to France\n- it is very easy {eingefügt: to get} in their such an obligation but\nvery difficult to get out again. „Gehe nie zu einem\nFerscht wenn du nicht gerufen werst“ [?] — His\nlaw I learnt in my schooldays and my later\nexperiences have proved the thruth of this profound\nsentence. Truly yours ever\n\nStefan",
+        "notes": "Dies ist eine Wiederholung des Textes von Seite 2, inklusive Archiv-Farbskala und Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige Korrekturen sowie Überlagerungen auf. Das deutsche Zitat 'Ferscht' ist möglicherweise eine dialektale oder individuelle Schreibweise (evtl. 'Fürst' gemeint?)."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2146,
+    "total_words": 366,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1121,
+      668,
+      357
+    ],
+    "chars_per_page_median": 894.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0055,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

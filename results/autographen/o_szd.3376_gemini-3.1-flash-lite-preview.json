@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3376",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Unidentified an Stefan Zweig [7. Dezember 1938], SZ-AAL/B3.138",
+    "signature": "SZ-AAL/B3.138",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3376/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3376/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3376/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.138"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Unidentified an Stefan Zweig [7. Dezember 1938], SZ-AAL/B3.138\n- Signatur: SZ-AAL/B3.138\n- Datum: 7.12.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "R B K\n„Vita“ Lebensversicherungs-Aktiengesellschaft\n\nTELEPHON 34.747\nTELEGRAMM-ADRESSE VITA\nPOSTCHECK-RECHNUNG VIII 1117\n\nMYTHENQUAI 10\nZÜRICH\n\nden 7.Dezember 1938.\n\nHerrn Dr. Stefan Zweig,\n49, Hallam Street,\nL o n d o n W.1.\n\nBetrifft Ihre Police No. 59577.\n\nSehr geehrter Herr Doktor,\n\nWir besitzen Ihren Brief vom 1.ds. und haben bestens davon\nKenntnis genommen, dass Sie die aus der vorstehenden Police\nfällig werdenden Renten unwiderruflich Ihrer geschiedenen\nEhegattin, Frau Friderike Maria Zweig, auf die Dauer ihres\nLebens zugewiesen haben. Wir werden somit den jährlichen\nRentenbetrag von Fr. 6184.15 vom 1.Januar 1939 hinweg an die\nuns aufgegebene Adresse, 218, Rue de Grenelle, Paris VII,\nvergüten.\n\nSofern Sie die jetzige Rentenbezügerin überleben, geht das\nVerfügungsrecht über die Rente von dem in Frage stehenden\nZeitpunkt hinweg automatisch wiederum an Sie zurück.\n\nMit vorzüglicher Hochachtung\n\n„VITA“\nLEBENSVERSICHERUNGS-AKTIENGESELLSCHAFT\n\nFM/K",
+        "notes": "Typoskript auf Briefpapier der 'Vita' Lebensversicherungs-Aktiengesellschaft. Die Unterschrift ist handschriftlich in violetter Tinte, jedoch aufgrund der Durchzeichnung auf der Rückseite schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt die Durchzeichnung (bleed-through) des Textes der Vorderseite. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "R B K\n„Vita“ Lebensversicherungs-Aktiengesellschaft\n\nTELEPHON 34.747\nTELEGRAMM-ADRESSE VITA\nPOSTCHECK-RECHNUNG VIII 1117\n\nMYTHENQUAI 10\nZÜRICH\n\nden 7.Dezember 1938.\n\nHerrn Dr. Stefan Zweig,\n49, Hallam Street,\nL o n d o n W.1.\n\nBetrifft Ihre Police No. 59577.\n\nSehr geehrter Herr Doktor,\n\nWir besitzen Ihren Brief vom 1.ds. und haben bestens davon\nKenntnis genommen, dass Sie die aus der vorstehenden Police\nfällig werdenden Renten unwiderruflich Ihrer geschiedenen\nEhegattin, Frau Friderike Maria Zweig, auf die Dauer ihres\nLebens zugewiesen haben. Wir werden somit den jährlichen\nRentenbetrag von Fr. 6184.15 vom 1.Januar 1939 hinweg an die\nuns aufgegebene Adresse, 218, Rue de Grenelle, Paris VII,\nvergüten.\n\nSofern Sie die jetzige Rentenbezügerin überleben, geht das\nVerfügungsrecht über die Rente von dem in Frage stehenden\nZeitpunkt hinweg automatisch wiederum an Sie zurück.\n\nMit vorzüglicher Hochachtung\n\n„VITA“\nLEBENSVERSICHERUNGS-AKTIENGESELLSCHAFT",
+        "notes": "Gleiches Dokument wie Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar vorhanden, aber aufgrund der Tinte und der Durchzeichnung auf der Rückseite nicht eindeutig zu entziffern, was jedoch für den Inhalt des Dokuments nicht kritisch ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1920,
+    "total_words": 265,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      963,
+      0,
+      957
+    ],
+    "chars_per_page_median": 963,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

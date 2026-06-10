@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3319",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [25. August 1937], SZ-AAL/B2.82",
+    "signature": "SZ-AAL/B2.82",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3319/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3319/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3319/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.82"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [25. August 1937], SZ-AAL/B2.82\n- Signatur: SZ-AAL/B2.82\n- Datum: 25.8.1937\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lotte Altmann\n\nMarienbad / Tchech. Slow Rep /\nVilla Souvenir\nMarienquelle",
+        "notes": "Adressseite der Postkarte. Handschriftlich in violetter Tinte. Poststempel: LUZERN 2, 25.VIII.1937. Briefmarke: 20 Rappen Helvetia.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "L. Fräulein Altmann, ich habe mich\nentschlossen bis etwa 31. hier in Luzern\nin dem stillen Hotel Tivoli zu blei-\nben, wo ich dort erwarte bis spätestens\n31. August, dann bin ich für einen\nTag oder zwei wahrscheinlich Hotel Royal\nHabis, wo Sie ja mindestens meine\nAdresse finden. Ich habe Luzern gewählt,\nweil ich der Heimfahrerei müde war\n- von Wien war noch eine riesige Men-\nge leihweise aufzuarbeiten. Hoffent-\nlich fühlen Sie sich wohl, empfehlen\nSie auch Ihre Frau Mutter, Frau Pollak\nund allen Freunden. Ihr [?] A.Z.",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Die Unterschrift ist schwer lesbar, vermutlich 'Ihr S.Z.' oder 'Ihr A.Z.' (Stefan Zweig).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter befindet sich die Nachrichtenseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift am Ende der Nachricht ist aufgrund der Handschrift leicht zweideutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 595,
+    "total_words": 100,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      73,
+      522,
+      0
+    ],
+    "chars_per_page_median": 297.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.01,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3188",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Eva Altmann an Hannah Altmann [2. Dezember 1939], SZ-AAL/B1.7",
+    "signature": "SZ-AAL/B1.7",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3188/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3188/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3188/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.7"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Eva Altmann an Hannah Altmann [2. Dezember 1939], SZ-AAL/B1.7\n- Signatur: SZ-AAL/B1.7\n- Datum: 2.12.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "2 décembre 1939\n\nChère Maman,\nIl fait gris. L'école est belle. Le\nbâtiment de l'école est grand. Urisel est\nplus grande que moi. Il est beau à Bath\nTante Martha est belle. Je ne'ai pas un chien.\nJe ne sais pas ecrire en Francais.\nEva.\n\nP. S. I have not learnt to write proper French\nletters yet so I have not written much\n\nLiebe Mama!, ich beglückwünsche Dir zum ersten\nfranzösischen Brief Deiner Tochter, die sich allem\nAnschein nach ohne ihre Mutter ganz ungehörig\nwohl befindet. Sonst nicht viel Neues. Herrn Wooster\nwerde ich nächstens auf das Dach steigen, weil seine\nLeute noch immer auf unserem Dach herumsteigen\nIch werde mein Freiprintsdecret wahrscheinlich\nam Montag bekommen und will dann Dienstag oder\noder Mittwoch nach Bath, bitte sag's niemandem",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Der obere Teil ist von Eva (in Französisch und Englisch), der untere Teil von Stefan Zweig (in deutscher Kurrentschrift, violette Tinte).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ich telefoniere noch. Euer Caffeegeschirr ist so schön, das\nich fürchte nur andere Leute werden es benutzen dürfen\neinige Kleinigkeiten haben wir bei Auchonen ge-\nkauft, der Teppich und das Eßkartel fehlen noch\n- ich fürchte ich werde in London nicht viel Zeit\nhaben zu derlei. Euch beiden alles Gute\nund wir wollen versuchen, das Häuschen bei Weih-\nnachten warm und wohnlich zu machen.\nHerzlichst Euer\nStefan",
+        "notes": "Fortsetzung des Briefes von Stefan Zweig auf der Rückseite des Blattes. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Textbereich ist eine Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch, aber durch die klare Linienführung und den Kontext gut zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1169,
+    "total_words": 195,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      760,
+      409,
+      0
+    ],
+    "chars_per_page_median": 584.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

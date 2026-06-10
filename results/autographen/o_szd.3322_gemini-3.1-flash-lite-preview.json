@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3322",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Stefan Zweig an Lotte Altmann [26. November 1937], SZ-AAL/B2.85",
+    "signature": "SZ-AAL/B2.85",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3322/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3322/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3322/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.85"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Stefan Zweig an Lotte Altmann [26. November 1937], SZ-AAL/B2.85\n- Signatur: SZ-AAL/B2.85\n- Datum: 26.11.1937\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "PRAHA - Staroměstské náměstí",
+        "notes": "Vorderseite der Ansichtspostkarte mit einer Abbildung des Altstädter Rings in Prag. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Olmo\n3/4 Stunden zu früh nach\nherrlichem Flug angelangt.\n9 Uhr statt 2 Uhr 20\nfliege programmäßig weiter.\nAdresse Wien Regina bis\njedesfalls Dienstag früh.\nbin früh auch telefonisch\nerreichbar 7 Uhr früh.\nSollten Wien uns in den\nimmer bis 1 1/2 9 zu haben.\n\nMiss Lotte Altmann\nLondon NW\n50 Woodstock Road",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Enthält Briefmarken und Poststempel (PRAHA 82 LETIŠTĚ, 26.XI.37). Der Text am linken Rand ist vertikal geschrieben: 'Kurze Reise, aber glücklich gewesen'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Die Postkarte ist in der Mitte platziert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der teilweise flüchtigen Handschrift und der vertikalen Ausrichtung am linken Rand."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 348,
+    "total_words": 59,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      28,
+      320,
+      0
+    ],
+    "chars_per_page_median": 174.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

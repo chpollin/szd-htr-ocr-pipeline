@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3138",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [12. März 1940], SZ-AAL/B1.24",
+    "signature": "SZ-AAL/B1.24",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3138/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3138/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3138/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.24"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [12. März 1940], SZ-AAL/B1.24\n- Signatur: SZ-AAL/B1.24\n- Datum: 12.3.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, ich wollte Dir nur mitteilen, dass Quittner heute\ntelephonisch das Eintreffen 49, HALLAM STREET,\nder Certificate meldete. Ich LONDON, W. 1.\nbin etwas melancholisch für Euch bei diesem Anlass, denn wo LANGHAM 3693.\nich Bürger bin wird kein Korb gewonnen, ich bin eine sehr\nschlechte militärische Acquisition. Ich komme dann nächste Woche\n(zu Anfang) mit Lotte nach London, um alles registrieren zu lassen\nund den Pass anzufordern und hoffe auf Euren Gegenbesuch\nam Donnerstag. Rastet Euch gut aus, wir werden unsere Nerven\nnoch ausgiebig benötigen in den nächsten Monaten und Jahren.\nDeine Tochter liegt vergnügt zu Bett und hat\nheute einen Schneefall versäumt - unsere armen Erdbeeren,\naber wie wird der Gärtner jubeln, der sie nicht einpflanzen\nwollte! Victor f. ist gestern noch einmal operiert worden,\nhoffentlich ist diese Episode dann abgeschlossen.\nGestern waren wir bei dem naughty play, aber\nes war so grauenhaft wenn meine Landsleute einmal naughty\nsein wollen, dass wir nach dem zweiten Akt flüchteten\nHerzlichst Euch allen\nHerzliche Grüsse Lotte. Stefan",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Zeilenumbrüche im Textkörper wurden beibehalten. Der Briefkopf ist in den Text integriert, wie er auf dem Original erscheint.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Leichte Stockflecken erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "(zu Anfang) mit Lotte nach London, um alles registrieren zu lassen\nund den Pass anzufordern und hoffe auf Euren Gegenbesuch\nam Donnerstag. Rastet Euch gut aus, wir werden unsere Nerven\nnoch ausgiebig benötigen in den nächsten Monaten und Jahren.\nDeine Tochter liegt vergnügt zu Bett und hat\nheute einen Schneefall versäumt - unsere armen Erdbeeren,\naber wie wird der Gärtner jubeln, der sie nicht einpflanzen\nwollte!\n\nHerzliche Grüsse Lotte. Stefan",
+        "notes": "Scan mit Farbskala und Grauskala. Der Text ist ein Ausschnitt des Briefes von Seite 1, der unter der Farbskala sichtbar ist.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Integration des Briefkopfes in den Textfluss auf Seite 1 entspricht der physischen Anordnung auf dem Papier."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1526,
+    "total_words": 237,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1078,
+      0,
+      448
+    ],
+    "chars_per_page_median": 1078,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

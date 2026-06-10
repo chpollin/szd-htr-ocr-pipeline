@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3140",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [19. September 1939], SZ-AAL/B1.26",
+    "signature": "SZ-AAL/B1.26",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3140/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3140/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3140/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.26"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [19. September 1939], SZ-AAL/B1.26\n- Signatur: SZ-AAL/B1.26\n- Datum: 19.9.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Johanna, ich muss Dir um Entschuldigung\nbitten, für dermassen belästigt zu haben, aber es\nging hart an die Nerven. Ich stand von 1/2 9 mit\nzwei laufesten Männern (die bereits in Hemds-\närmeln nur bereit, 100 Kilo zu stemmen) vor dem Haus\nund es würde 9, würde 10 und dann 11, 12, 1, 2, 3, 4\n5, mein Wagen fiel herein und mein arbeitsames Gehirn\nsah das Auto zertrümmert irgendwo am Wege liegen, den\nBeethovenschrank zerschellt, da riss es mich natürlich\nmehrmals an das Telefon. Um 3/4 6, ich hatte meine Sachen\nbereits weggepackt, kam, als ich längst jede Hoffnung auf-\ngegeben, das Auto, ich liess meine Sachen per Taxi holen\nund in reger Zusammenarbeit (sogar Lotte trug einen\nPapierkorb und ähnliches fremd) was in einer Stunde alles\nverstand. Ich stürzte zu Christophers Hotel, schlang zwei\nSausages with mashed und ein Bier hinunter und schlief\nals ob ich selbst alles auf dem Rücken getragen hätte.\nVerzeih also mein Geklingel, 9 Stunden Warten ohne\nBescheid machen nervös. Jetzt ist alles geborgen und\nwartet nur mehr auf deutsche Bomber (der deutsche\nRundfunk ist bereits verkündigt, dass die Admiralty\nhin ihr Hauptquartier nehmen wolle) aber wie gesagt, ich\nglaube nicht an einen langen Krieg; dazu gehört etwas\ndrei und ich bezweifle ob die Franzosen noch einmal die",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Tinte violett. Die Lesung 'laufesten' ist unsicher, könnte auch 'laufenden' oder 'laufstarken' bedeuten. '1/2 9' steht für halb neun.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hauptlast auf sich werden nehmen wollen.\nDu siehst, mein altes Lebensgesetz erfüllt sich wieder,\nes gelingt alles was ich will nur nichts direct; es sind\nimmer Hindernisse zu übertauchen, diesmal ein unter-\nwegs geplatztes Pneu. Alles andere verrate Dir Lotte, bitte\nheute nur den Mithelfern noch einmal Dank zu sagen\nund mir alle die Mühe, Plage, Irritation und Spannung\nzu verzeihen. Mit herzlichsten Grüssen Euer\n\nSZ.",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. 'SZ' steht für Stefan Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "immer Hindernisse zu übertauchen, diesmal ein unter-\nwegs geplatztes Pneu. Alles andere verrate Dir Lotte, bitte\nheute nur den Mithelfern noch einmal Dank zu sagen\nund mir alle die Mühe, Plage, Irritation und Spannung\nzu verzeihen. Mit herzlichsten Grüssen Euer\n\nSZ.",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist eine Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Einige Wörter wie 'laufesten' oder 'übertauchen' sind aufgrund der Handschrift leicht interpretativ, aber im Kontext schlüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1970,
+    "total_words": 322,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1284,
+      420,
+      266
+    ],
+    "chars_per_page_median": 852.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3141",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Martha Kahn [25. Juni 1940], SZ-AAL/B1.27",
+    "signature": "SZ-AAL/B1.27",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3141/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3141/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3141/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3141/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3141/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.27"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Martha Kahn [25. Juni 1940], SZ-AAL/B1.27\n- Signatur: SZ-AAL/B1.27\n- Datum: 25.6.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Cunard White Star\n\"Scythia\"\n\n25.6.40\n\nDear Marta,\nAll the forma-\nlities are over and as soon\nas we get our luggage in\nthe cabin we can have a\nrest. Even Stefan admits\nthat he is tired and a few\nquiet days on the boat\nwould be very nice.\nI don't quite\nknow whether I feel sorry\nbecause I have left home\nor whether I am looking\nforward to the journey.",
+        "notes": "Handschriftlicher Brief auf Briefpapier der Cunard White Star Line.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "I am afraid I got a bit\ntoo attached to Rosemount\nand all \"our family\" and\nas you were also part of the\nfamily I missed you the\nlast weeks; I wish nothing\nbetter than to be able to\nreturn in a few months\ntime and to continue life\nwhere we ~~stay~~ left it six\nweeks ago. And then I hope\nyou would be willing to\nreturn too.\nIn any case thanks\nfor your company during\nall those months! And",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "kindest regards to Mayers\nand Manfred!\nYours, Lotte\n\nWhat about your room?\nThese were hard days. At night\nair-raid-alarm at 1.30 and\nmore than an hour in a cellar\nwith forty people in (not always\nnice looking) negligés. This morning\nup ~~at~~ at 6.45 and from then\nwaiting, waiting, waiting without\nto sit down till to 1.30. We are\nboth tired not so much physically",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "but in my age the fear of continual\nexamination of papers of luggage,\nof passports, of money has something\nwhich exasperates. Let us hope that\nthe worst is over for us all —\nthe best I can wish to us!\nYours\nStefanZweig",
+        "notes": "Handschriftlicher Brief, Ende des Textes mit Unterschrift von Stefan Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Enthält einen Ausschnitt des bereits transkribierten Textes von Seite 4.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen Korrekturen (Durchstreichungen) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1319,
+    "total_words": 257,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      349,
+      387,
+      365,
+      218,
+      0
+    ],
+    "chars_per_page_median": 357.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3390",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Friderike Zweig an Lotte Zweig [Juni 1934], SZ-AAL/B6",
+    "signature": "SZ-AAL/B6",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3390/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3390/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3390/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B6"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Friderike Zweig an Lotte Zweig [Juni 1934], SZ-AAL/B6\n- Signatur: SZ-AAL/B6\n- Datum: 06.1934\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Ansichtspostkarte mit einer Abbildung eines Gebäudes (Kapuzinerberg 5, Salzburg). Keine Schrift.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg, Kapuzinerberg 5.\n\nfür Fräulein Lotte\n\nliebes Fräulein Lotte, vielen guten Dank für Ihren\nlieben Brief u. die freundlichen Worte [Eingefügt: Echte] \nSchwägerin. Ja, auch ich würde mich herzlich\nfreuen Sie wiederzusehen. Ich hoffe zuversichtlich,\ndaß mein Mann mit Ihnen weiterarbeiten wird\nund eine Unterbrechung wird Ihnen gewiß zur\nErholung gut tun, so daß Sie nicht gleich etwas\nanderes bestimmen. Hier scheint es jetzt Gott sei Dank\nruhig zu werden. Es sind schon viele Freunde hier.\nIch bin leider nicht sehr leistungsfähig wegen Schlaflosig-\nkeit, also auch gar nicht erpicht auf die kommenden\nFestspiele, auf die man sich das ganze Jahr freut, was also schon\nein Vorliebe[?] Vorteil hat. Indem ich Ihnen einen sehr\nguten Sommerende wünsche u. noch gratuliere (zum Prüfungserfolg\n[Am rechten Rand vertikal geschrieben:] Ihre Friderike Zweig",
+        "notes": "Handschriftliche Postkarte in violetter Tinte. Die Schrift ist teilweise eng und leicht verblasst. Das Wort 'Vorliebe' ist schwer lesbar, könnte auch 'vorliegendem' oder ähnlich gemeint sein, hier als 'Vorliebe[?]' transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Darunter befindet sich die bereits transkribierte Postkartenseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (besonders am rechten Rand und bei den eingefügten Wörtern) schwer zu entziffern. Die Tinte ist teilweise verblasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 855,
+    "total_words": 130,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      855,
+      0
+    ],
+    "chars_per_page_median": 855,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0077,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

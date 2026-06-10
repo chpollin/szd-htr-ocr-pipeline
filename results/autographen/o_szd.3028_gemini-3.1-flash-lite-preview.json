@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3028",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Jan (Hans) Altmann [13. März 1941], SZ-AAL/B1.106",
+    "signature": "SZ-AAL/B1.106",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3028/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3028/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3028/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.106"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Jan (Hans) Altmann [13. März 1941], SZ-AAL/B1.106\n- Signatur: SZ-AAL/B1.106\n- Datum: 13.3.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Taft Hotel                                      Newhaven, 13th March 1941.\n\nDear Jan,\n\nI am sorry that you seem to have misunderstood my letter\nto mean that we would be able to help you indefinitely until you had\nfound a suitable position for yourself. Unfortunately this is not\nthe case. You must realise that besides all the other obligations\n(house, support of former wife, relatives and friends, enormous taxes)\nStefan is now maintaining our mother completely since months. I am\nhappy that this has been possible and that in these difficult times\nI have been able to take over temporarily from you, Manfred and Richard\nthe care for mother, and I sincerely hope that for the next future I\nwill be able to continue that. - But that we are now temporarily in\nAmerica means in no way a pleasure trip, and Stefan is working hard to\nmeet both ends, although I purposely have avoided to mention this in my\nletters to Mama. Hardly anyone has been so severely hit in his pro-\nfessional activity that a Jewish writer whose books are forbidden in\nall Europe except England (where nearly the whole stock was burned ~~at~~\nthe ~~bookbinder~~. And the sales in America have always been but the smallest\npart of his former income.\n\nI am sorry that this misunderstanding has arisen, sorry for\nyou and for Hanna who of course could not dispose of Stefan's money\nwithout instruction from us, after she had given you those £ 35. With\nStefan's consent I am now asking her to-day to let you have once more\n£ 20 (twenty pounds) which is all which we can do for you until August.\n\nAs to an affidavit for USA I have also no good news for you\nmuch as I had liked to help[?] you. We are unfortunately experts in\nthis matter as since months Stefan gets letters from relatives and\nfriends nearly every day. Unfortunately the situation has now become\nvery difficult. The affidavit-giver, besides many other things has to\nshow his bank account and income and to undertake a guarantee. And we\nhave had in the last weeks nothing but refusals, as all our friends have\nalready given too many or have no money themselves. Should I hear of\nanybody, however, I shall of course let you know it at once.\n\nHoping that you have good news from your wife and that your\nown situation will quickly improve,\n                                                Lotte\n\nAs I do not know whether your address is still the same, I have to\nsend you this letter through Hanna.",
+        "notes": "Typoskript auf Briefpapier. Handschriftliche Korrekturen/Streichungen im Text (z.B. 'at', 'bookbinder').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den Durchdruck des Typoskripts der Vorderseite. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den unteren Teil des Briefes (identisch mit Seite 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Korrekturen sind gut lesbar. Die 'help[?]' Stelle ist aufgrund eines kleinen Tintenkleckses leicht unsicher, aber kontextuell eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2423,
+    "total_words": 423,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2423,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2423,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0024,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

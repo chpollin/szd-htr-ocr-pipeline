@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3036",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [4. April 1941], SZ-AAL/B1.112",
+    "signature": "SZ-AAL/B1.112",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3036/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3036/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3036/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.112"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [4. April 1941], SZ-AAL/B1.112\n- Signatur: SZ-AAL/B1.112\n- Datum: 4.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Wyndham Newyork\n42 West 58 Street\nTaft Hotel\nNewhaven, Conn.                                Newyork, 4. April\n                                              Newhaven, 23rd March 1941.\n\nDear Hanna,\n        As you see from the letter which I wrote to my accountant\nI will have to bother you with the task of compiling an income tax\nstatement for me. You will have to make a list of all my literary\nincome during the past taxation year. As to investments there are\n1.) at the Westminster Bank as far as they have not yet been called\nup for sale by order of the Treasury which they will know better than\nI do, 2) at the New Trading Co. From all those investments income\ntax will already have been deducted at the source. I suppose that\nyou have also received from Cassell the royalties for \"Tide of For-\ntune\" and the other books, for which income tax will not have been\nand there will deducted yet. I myself have not received a single letter from them\nhave been a since I am away and do not know anything about the sales. Should\nsmall payment they not have sent you the statement you ought to claim statement\nfrom Hungary and payment from them (as well as the author's copies of \"Tide of\nthrough Ant Fortune\" to which I am entitled).\nchiron or        I am very sorry that I have to give you all this trouble.\nTabori You know that it was my intention to be back long before to do it all\nmyself, but God knows when we shall see each other and I would not\nlike to delay fulfilling my duties in due time.\n        Also do not forget to declare the income from Lotte's\ninvestments which are at Layton's and from whom you doubtless re-\nceived regular statements.\n        We shall see Eva next week here in Newyork\nand will write you soon. We have so much to do with\nall plans and preparations for the next months that\nI can send only the kindest regards and our love\n\n                                              StefanZweig\n\nThere has been much loss of mail as I read in\nthe papers. Please confirm this letter by cable\nTo the Accountant I did send the letter 1/ by\nair mail and 2/ by ordinary mail, because I want to\nkeep my things in order as far as it is possible in this nomadic life",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte am linken Rand und im unteren Bereich. Die handschriftlichen Ergänzungen am linken Rand sind vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "1.) at the Westminster Bank as far as they have not yet been called\nup for sale by order of the Treasury which they will know better than\nI do, 2) at the New Trading Co. From all those investments income\ntax will already have been deducted at the source. I suppose that\nyou have also received from Cassell the royalties for \"Tide of For-\ntune\" and the other books, for which income tax will not have been\nand there will deducted yet. I myself have not received a single letter from them\nhave been a since I am away and do not know anything about the sales. Should\nsmall payment they not have sent you the statement you ought to claim statement\nfrom Hungary and payment from them (as well as the author's copies of \"Tide of\nthrough Ant Fortune\" to which I am entitled).\nchiron or        I am very sorry that I have to give you all this trouble.\nTabori You know that it was my intention to be back long before to do it all\nmyself, but God knows when we shall see each other and I would not\nlike to delay fulfilling my duties in due time.\n        Also do not forget to declare the income from Lotte's\ninvestments which are at Layton's and from whom you doubtless re-\nceived regular statements.\n        We shall see Eva next week here in Newyork\nand will write you soon. We have so much to do with\nall plans and preparations for the next months that\nI can send only the kindest regards and our love\n\n                                              StefanZweig\n\n\nkeep my things in order as far as it is possible in this nomadic life",
+        "notes": "Scan mit Farbskala und Grauskala für Archivierungszwecke. Der Text entspricht dem unteren Teil des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind deutlich von der Maschinenschrift zu unterscheiden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3708,
+    "total_words": 673,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2183,
+      0,
+      1525
+    ],
+    "chars_per_page_median": 2183,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

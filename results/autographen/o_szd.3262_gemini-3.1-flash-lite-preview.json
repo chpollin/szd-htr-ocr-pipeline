@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3262",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [April 1935], SZ-AAL/B2.30",
+    "signature": "SZ-AAL/B2.30",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3262/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3262/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3262/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.30"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [April 1935], SZ-AAL/B2.30\n- Signatur: SZ-AAL/B2.30\n- Datum: 04.1935\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, mit bedeutend weniger\nZahnen aber gleich herzlicher Gesinnung als einst\nnur eine kleine Mitteilung. Meine liebe Freundin\nLavinia Mazzucchetti wird von morgen an von\ndort sein und dort Crosby-Hall* wohnen (ir-\ngend eine Frauenakademie). Sie kann alles\nnur nicht Englisch; vielleicht sind Sie so\nfreundlich, falls Sie noch nicht über Ostern\nweg sind einmal mit ihr ausgehen oder\nSie (auf mein Schutzkonto) in ein Theater\noder sonstwie einzuladen. Sie wissen ja, was\nfür ein famoser Mensch sie ist. Herzlichst\n\nR. Z.\n\nfinden Sie schon im Telefon",
+        "notes": "Handschriftlicher Brief auf hellgrünem Papier. Die Zeile 'finden Sie schon im Telefon' steht am unteren linken Rand, vermutlich als Nachtrag.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Der Text ist identisch mit Seite 1, jedoch teilweise durch die Archivierungshilfen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Die Anmerkung 'finden Sie schon im Telefon' ist etwas kleiner geschrieben, aber eindeutig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 567,
+    "total_words": 89,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      567,
+      0,
+      0
+    ],
+    "chars_per_page_median": 567,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

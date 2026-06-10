@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3213",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [30. Januar 1941], SZ-AAL/B1.92",
+    "signature": "SZ-AAL/B1.92",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3213/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3213/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3213/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.92"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [30. Januar 1941], SZ-AAL/B1.92\n- Signatur: SZ-AAL/B1.92\n- Datum: 30.1.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "30. I 1941 Dear Hannah & Manfred,\nfrom Lottes letter you will see, that we\nare trying out all possibilities - boarding\nschool or private for Eva and I hope the de-\nfinitive choice will be the right one. Both\npossibilities - private and boarding school -\nhave their advantages; be sure we will do\nour best. But now I want to ask you a\nfavour. I would like very much that Man-\nfred and you go to Bath immediately\nhe has passed his examinations in Febru-\nary. Like in Shakespeares Julius Cesar I\nam afraid of the „ides of March“; it is\nno secret and the newspapers are full\nof it here, that the Huns will start the\nlong expected air attack and I believe\nthat Manfred should just after the streuous\ndays of his studies and examinations\nhave the necessary rest. As for the materi-\nal side I tell you that I have to deliver\nmy last foreign investments on the\nlatest order, which included all kinds",
+        "notes": "Handschriftlicher Brief auf einem Aerogramm-Formular. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "and so my bank account will be con-\nsiderably increased, so that you can\ndispose freely. Please follow my advice\n- you know how I appreciate your courage\nbut I cannot approve that a man like\nManfred, instead of continuing his\nscientific work in a relatively quiet\nplace, should be worn by a continuous\nstrain on his nerves. Had he any public\nduty I would be the last to advise you\nto take some rest but as his medical\npractice has gone down he does best to\ndevote him entirely to the science and\nperhaps to write in Bath some scienti-\nfic essays. You cannot imagine how\nmuch I feel all the sufferings in England,\nthe present ones and perhaps still more\nthe coming ones and our hope is that fi-\nnally the States are speeding up; only\nthe public machinery is so slow and I\nwish I could oil it a little. Please follow\nmy advice, I have seldom been mistaken\nand I wish that a man like Manfred\nshould remain fit for his scientific work and his\nfuture. Yours sincere Stefan",
+        "notes": "Rückseite des Aerogramms. Der Text am linken Rand ist vertikal geschrieben und gehört zum Haupttext.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierungszwecke. Kein Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die violette Tinte ist auf dem hellen Papier gut kontrastiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1858,
+    "total_words": 352,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      891,
+      967,
+      0
+    ],
+    "chars_per_page_median": 929.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

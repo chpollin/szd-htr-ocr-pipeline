@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3130",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. Februar 1942], SZ-AAL/B1.198",
+    "signature": "SZ-AAL/B1.198",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3130/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3130/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3130/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.198"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. Februar 1942], SZ-AAL/B1.198\n- Signatur: SZ-AAL/B1.198\n- Datum: 10.2.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petropolis, Febr. 10th, 1942.\nDear Hanna & Manfred,\nNearly a month has passed again without letter from you\nor mother, and also from USA we have not had mail for almost a fortnight. So\nwe spend every morning between 11 and 12, sitting on the steps and watching\nout for the postman - unfortunately in vain. There are many reasons for postal\ndelay and we explain them to each other, but this does not make us less impat-\nient. I hope you have not had the same experience but are in continuous contact\nwith Eva. I am longing to hear how you are, what you are doing, whether there\nare any changes in your life, that is to say whether Manfred has found an X-job\nor whether Hanna is working with Anna Freud or anything else, etc. etc.\nand hardly less we like to know about all our friends and acquaintances. -\nWe have been slightly more busy seeing people these last weeks and rather\nenjoyed it after four months of almost complete solitude. We have made the\nacquaintance of a few more European couples, pleasant and cultured people,\nand my poor maid even had to stand the extra strain and excitement of luncheon\nguests - tea guests do not excite her any more, this has already become routine\nwork. Also the weather has been fine the last weeks, real summer weather, hot\nduring the day and cool at night, but nevertheless we have not yet managed to\nattain our ambition: to get up at 6 or 7 like most Brazilians do, in order to\nprofit from the fine morning. Also our walks have been reduced lately on\naccount of the more frequent visitors and invitations, and our dog whom I\ntook to Rio the other day to have him trimmed and who now looks perfectly\nridiculous, is rather reproachful about this matter of going out only in the\nevening. But it can't be helped, it is too hot for long walks in daytime,\nand the dog is not allowed either in train or busses. I suppose these few\ndetails give you an idea of our life which is more quiet even now during the\nseason than we had dared to hope. But I am convinced the steps up to our\nhouse detain many potential visitors from just dropping in, and as we care-\nfully avoid the two or three places where you can meet everybody we only meet\nthose people we really want to meet. Stefan was at the reception of the\nprefeito of Petropolis the other day (by some mistake I was not invited too)\nbut it seems that he kept in a corner with a few friends and only learned by\nthe visitor's list in the newspaper later on, how many acquaintances he has\nmissed. - He continues working and so I am occupied too, but on a somewhat\nreduced scale, in the morning we wait for the mail half of the time, in the\nafternoon there are often visitors, sometimes also in the evening, and so I\nam enjoying a half-holiday which I partly use for trying out some more cooking\nrecipes. Linzertorte I could not make yet as the stove is so bad that our\nlandlady even promised me a new one, but I am mentally ready for it, as well\nas for knitting another jumper for Eva as soon as I have news from her that\nthe cardigan arrived and how it fits. You see I am falling more and more in\nthe mentality of those women ~~which~~ who once bored me to death, and I also\nunderstand now the writers' wives who do not always want to listen to their\nrespective husbands' intelligent conversation but prefer to discuss women's\nproblems among themselves. I simply have to get rid of the such trifling\ndetails like the one that my maid when she needed greaseproof paper for a\ncake used the wrapping paper of a tilsit cheese, or that she uses the dog's\nspecial comb for herself (fortunately they both are very clean) and other\ninteresting things, and I badly need someone to talk over dressproblems and\nhairdresser and the many kinds of insects in the house and so on and so on.\nSo far I have not yet found the right woman for all this as most of our\nEuropean friends have no household of their own, and mostly the acquaintance\nis so new that they prefer to talk or to listen to Stefan instead of small\ntalk. So I unload part of these problems on Stefan, who listens with great\npatience and, as the conditions here are so totally different, even with\nsome interest. Therefore you need not pity me too much.\nPlease send this letter on to mother, she will see from this one\nthat I really have nothing special or interesting to tell, and I am waiting\nto hear from her again to write her at length (as I did about three weeks\nago with an enclosure to brother Jan).\nLove to all Lotte\n\n{Marginalie links: Stefan wants me to inform you that we will keep this little house for the so-called winter here.}",
+        "notes": "Typoskript mit handschriftlicher Marginalie am linken Rand. Die Marginalie ist in der Handschrift von Lotte Zweig verfasst.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes (Ausschnitt).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Marginalie am linken Rand wurde transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4578,
+    "total_words": 863,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      4578,
+      0,
+      0
+    ],
+    "chars_per_page_median": 4578,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

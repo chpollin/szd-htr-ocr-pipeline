@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3370",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Walter Haupolter an Stefan Zweig [25. August 1938], SZ-AAL/B3.132",
+    "signature": "SZ-AAL/B3.132",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3370/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3370/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3370/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.132"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Walter Haupolter an Stefan Zweig [25. August 1938], SZ-AAL/B3.132\n- Signatur: SZ-AAL/B3.132\n- Datum: 25.8.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rechtsanwalt\nDr. Walther Haupolter\nSalzburg, Alter Markt 4\nFernsprechstelle 622\nPostsparkassen-Konto 42.899\n\nSalzburg, am 25. August 1938.\n\nWohlgeboren\n\nHerrn Dr. S t e f a n Z w e i g ,\n\nL o n d o n W 1\n-.-.-.-.-.-.-.-.-.-.-.-.-.\n49 Hallam Street.\n\nSehr geehrter Herr Doktor !\n\nIch bestätige dankend den Erhalt Ihres gesch.Schreibens\nvon 20.August 1938 mit der unterfertigten Vollmacht und teile\nIhnen mit, daß ich Ihre Vertretung in der Ehescheidungsangele-\ngenheit gerne übernehme. Ich habe die Vollmacht Herrn Kollegen\nDr.Emmerich Singer zur Verfügung gestellt, damit er dieselbe\nder Klage beilegen und sohin Zustellung zu meinen Handen bean-\ntragen kann.\n\nWollen Sie dies bitte vorläufig zur Kenntnis nehmen.\n\nIn vorzüglicher Hochachtung\n\nRechtsanwalt\nDr. Walther Haupolter\nSalzburg, Alter Markt 4\n[Unterschrift]\nPostsparkassenkonto 42.899",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich in violetter Tinte, ebenso der Stempelabdruck.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "L o n d o n W 1\n-.-.-.-.-.-.-.-.-.-.-.-.-.\n49 Hallam Street.\n\nSehr geehrter Herr Doktor !\n\nIch bestätige dankend den Erhalt Ihres gesch.Schreibens\nvon 20.August 1938 mit der unterfertigten Vollmacht und teile\nIhnen mit, daß ich Ihre Vertretung in der Ehescheidungsangele-\ngenheit gerne übernehme. Ich habe die Vollmacht Herrn Kollegen\nDr.Emmerich Singer zur Verfügung gestellt, damit er dieselbe\nder Klage beilegen und sohin Zustellung zu meinen Handen bean-\ntragen kann.\n\nWollen Sie dies bitte vorläufig zur Kenntnis nehmen.\n\nIn vorzüglicher Hochachtung\n\nRechtsanwalt\nDr. Walther Haupolter\nSalzburg, Alter Markt 4\n[Unterschrift]\nPostsparkassenkonto 42.899",
+        "notes": "Scan mit Archiv-Farbskalen oben und unten. Der Text ist identisch mit Seite 1, jedoch ohne den Briefkopf oben.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftliche Unterschrift ist gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1500,
+    "total_words": 218,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      844,
+      0,
+      656
+    ],
+    "chars_per_page_median": 750.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

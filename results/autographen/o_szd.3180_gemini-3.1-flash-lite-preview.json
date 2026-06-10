@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3180",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [12. November 1940], SZ-AAL/B1.62",
+    "signature": "SZ-AAL/B1.62",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3180/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3180/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3180/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3180/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3180/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.62"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [12. November 1940], SZ-AAL/B1.62\n- Signatur: SZ-AAL/B1.62\n- Datum: 12.11.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. Nov. 1940\nDear Hannah, I did send you today a cable asking\nfor you to inform Friedental that I was informed today\nthat the Argentine ~~Consulate~~ {in London} has been instructed to\ndeliver a visa for him. I was here in private audience at the minister\nof the Exterior Roca to ask him for three visas, one for Friedental\nand he was so kind to grant it to me and as his secretary told me the\ncables have gone already to London. Please help him with money for\nthe passage and as much as he wants; here in Buenos Aires I have\ninstructed my friends to be useful to him and also in Brazil he can\nhave opportunities. For the United States I could not help him for the\nmoment.\nI have just returned from the tour in the province\nwhich was as strenuous as successful - I am glad Lotte remained\nin Buenos Aires, she would not have stood this strain, lectures, nights\nin the train, and drives from 7 in the morning, receptions, photographs.\nIt was a sort of sensation, an author of Europe who speaks Spanish\nand now it goes to Montevideo where I have to speak in a hall be-\nfore 4000 - 5000 people, leaving behind our flowergarden - even\nthe W.C and the bidet are full of flowers for Lotte. But how happy\nwe shall be to have again a quiet life and not to rivalise with\ncinema-stars. We have refused, Chile, Paraguay, Colombia, Cuba, we\nhave enough for the moment - enough of success, fees, flowers,\npeople and refugees. How we are longing to sit quietly again in\nBath!\nA sad news was that our best friend in Rio, Hernandez Catá",
+        "notes": "Brief auf Hotelpapier (City Hotel, Buenos Aires). Handschrift in violetter Tinte. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "The ambassador of Cuba has been killed in an stupid\naeroplan-accident. Three days after his death a letter\nof him ~~reaches~~ {would} me here, saying, that he wait with his\ncarf on the aerodrom, when we arrive - and he lost his\nlife meanwhile in a plane excursion. He was the kindest man\nI have met since years and he guaranties for Friedental in\nCuba - I hope they did send the visa to Friedental from Ha-\nvanna. You understand that the only way to be grateful for\nthe preference and happiness which we enjoy is that we try to\nuse here our influence to help to others. It is frightfully\ndifficult for there exits a secret order not to give any more\nvisas to Jews and only the minister of the Exterior could\npersonally break this iron rule. What times, - and how\noften, you can not imagine to go our thoughts to you and\nwhat we have too much of happiness here would be due\nto you all. Now I have to work for two month on my book\non Brazil and then we will think over if we go to Newyork\n- my sister in law is in contact with Eva and we get always\nnotices through her - not from Eva herself, who seems to be\ntoo happy to write. Yours\n\nStefan Zweig\nMy dears, I am terribly busy, tired and still upset\nabout the news of the death of Catá, and that is the\nonly thing which spoils the pleasure of returning to\nRio to a normal working life and a beautiful landscape.\nI shall write you at length immediately we arrive in Rio.\nIn the meantime kindest regards and kisses\nLotte",
+        "notes": "Zweite Seite des Briefes. Handschrift in violetter Tinte. Enthält eine Nachricht von Stefan Zweig und einen Nachsatz von Lotte Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "The ambassador of Cuba has been killed in an stupid\naeroplan-accident. Three days after his death a letter\nof him ~~reaches~~ {would} me here, saying, that he wait with his\ncarf on the aerodrom, when we arrive - and he lost his\nlife meanwhile in a plane excursion. He was the kindest man\nI have met since years and he guaranties for Friedental in\nCuba - I hope they did send the visa to Friedental from Ha-\nvanna. You understand that the only way to be grateful for\nthe preference and happiness which we enjoy is that we try to\nuse here our influence to help to others. It is frightfully\ndifficult for there exits a secret order not to give any more\nvisas to Jews and only the minister of the Exterior could\npersonally break this iron rule. What times, - and how\noften, you can not imagine to go our thoughts to you and\nwhat we have too much of happiness here would be due\nto you all. Now I have to work for two month on my book\non Brazil and then we will think over if we go to Newyork\n- my sister in law is in contact with Eva and we get always\nnotices through her - not from Eva herself, who seems to be\ntoo happy to write. Yours\n\nStefan Zweig\nMy dears, I am terribly busy, tired and still upset\nabout the news of the death of Catá, and that is the\nonly thing which spoils the pleasure of returning to\nRio to a normal working life and a beautiful landscape.\nI shall write you at length immediately we arrive in Rio.\nIn the meantime kindest regards and kisses\nLotte",
+        "notes": "Identisch mit Seite 3, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Korrekturen und Einfügungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4454,
+    "total_words": 863,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1520,
+      0,
+      1467,
+      0,
+      1467
+    ],
+    "chars_per_page_median": 1493.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

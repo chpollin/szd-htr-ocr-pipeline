@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3143",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [8. Juli 1940], SZ-AAL/B1.29",
+    "signature": "SZ-AAL/B1.29",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3143/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3143/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3143/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.29"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [8. Juli 1940], SZ-AAL/B1.29\n- Signatur: SZ-AAL/B1.29\n- Datum: 8.7.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "address until 26th July c/o Liking Press, as we might go to the\ncounty for a few days.\nNew York, 8.7.40.\nRegards to all who write to me!\nDear Hanna,\nI had nearly finished a letter to you announcing our\ngood arrival in the States when I heard that a Clipper is leaving\nto-morrow so that I try to catch it still with this letter.\nWe have arrived yesterday afternoon after a long and\nin the last days very agreable crossing, were met by Stefan's\nbrother, went in our old hotel, the Wyndham, had dinner with my\nbrother-in-law and afterwards went to see Huebsch and his wife\nwho are taking us to the World Fair to-night. To-day we went to\nthe shipping company and arranged pur departure for the 26th July\nso that we would arrive in Rio on the 7th or 8th August. We in-\ntend to stay in the Wyndham for a week - Stefan has only the wish\nto work quietly in his room and as it is beginning to get warm and\nprobably soon very hot work will be the best thing to do. We do\nnot want to see many people and hope that the announcement of our\narrival in the papers will not lead to a number of unnecessary\nor unwelcome visitors. About Eva I shall let you know as soon\nas possible and we shall do our best to fix her up. In the mean-\ntime I hope that the arrangements in England are well under way.\nWe had a lot of children on board who very quickly got out of\ncontrol of their parents and made more noise than I ever expected\nEnglish children to do. - In the meantime I hope that Legintals\nhave moved in so that you have good company and help. I wonder\nwhether William is still there and who was with you all this time\nand most of all whether you have had a quiet time or had to use\nthe old kitchen a lot. That is the worst of this distance that\nsuch a lot of time must elapse until we hear from you. Don't for-\nget to let me know how long this letter took, and when you write\ntell me everything as much in detail as possible. We get a lot\nof tomatoes and salad now, and that makes me think of Rosemount\neach time. I hope that Manfred has been able to be with you at\nleast for a few days. Have you been in London in the meantime?\nWhat about Heiner, Marta, Mama and all the others?\n\nKindest regards and best wishes\nLotte\n\nDear Hanna, we remember every moment our dear England\nand follow all the news still with more eagerness than ever - as we\nhave not forgotten you. I have not yet all my lectures prepared\nbut I hope all will easily to be arranged on the way. The idea\nthat letters are taking still more time from South America is\nvery oppressive as we would like to hear every day from you and\nto have your news as fresh as our eggs at Rosemount. Please tell\nEidemann that he may do after his own choice and go also farther\nthan I thought first, give him and everybody my best regards\nStefan Zweig\n\n[Randnotiz links:] A big photograph of Lotte was in the\nnewspapers with my own.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen von Stefan Zweig am Ende des Briefes sowie einer Randnotiz von Lotte Zweig. Die Randnotiz ist vertikal am linken Rand geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archiv-Scan mit Farbskala und Grauskala. Der Text ist identisch mit Seite 1, teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen von Stefan Zweig sind klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2864,
+    "total_words": 567,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2864,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2864,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

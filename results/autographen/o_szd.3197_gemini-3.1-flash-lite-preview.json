@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3197",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. Dezember 1940], SZ-AAL/B1.78",
+    "signature": "SZ-AAL/B1.78",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3197/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3197/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3197/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.78"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. Dezember 1940], SZ-AAL/B1.78\n- Signatur: SZ-AAL/B1.78\n- Datum: 31.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hanna + Manfred,                                Rio, 31. XII. 40\nWe very much hope that you have spent not only Christmas but\nalso the following week until at least New Year in Bath and that\nyou both had a thorough rest. I have heard that the winter is very\ncold in Europe this year, and I hope there is a good livable shelter\nin your new apartment. We are living just the extreme of your\nlife. It has now become very hot - exceptionally hot, as we are told\n- and we have taken an attitude of defense against the heat.\nThe days are not too bad, although to-day where the temperature\ninside the house has been 33° celsius at 11 in the morning, we\nsought refuge in the air-conditioned bar (which usually does not\nopen before nightfall). The evening and nights which are hot and\nairless are a little hard to bear sometimes but the thought of\nyou all over there does not allow us to complain as the\nothers do. On the whole we stand the heat very well and Stefan\nis grateful to it as he is losing weight without any special\neffort. We have again thought of going away to the mountains\nbut decided that it is not worth while and that we better\nleave a little earlier than we originally intended.\nAbout our plans I do not want to tell you too much because\nwe may change them again. We intend to go first to the\nnorth of Brazil and visit Bahia, Recife and Belem.\nIt will not be much hotter than here, and as this journey\nwill not cost us anything - except receptions, signatures\nand innumerable photographs - we will already be half the\nway up to the States.\nKindest regards and New Year wishes, Lotte.\n                                Rio 3. January 1941\nDear Hannah and Manfred, your letter from the 24. November\nhas just arrived, you see, it takes sometimes five weeks and\nyou may be sure that we have written every week to you and\neven sometimes twice a week. We have really the feeling that\nwe must talk to you even by distance and if one or the\nother letter is belated or lost, it will never be our fault.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Tinte auf Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Kein Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine nennenswerten Leseschwierigkeiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2007,
+    "total_words": 375,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2007,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2007,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

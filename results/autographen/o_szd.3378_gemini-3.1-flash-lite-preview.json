@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3378",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig [17. November 1936], SZ-AAL/B3.14",
+    "signature": "SZ-AAL/B3.14",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3378/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3378/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3378/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3378/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3378/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.14"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig [17. November 1936], SZ-AAL/B3.14\n- Signatur: SZ-AAL/B3.14\n- Datum: 17.11.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, Dienstag 17/XI 36\n\nLieber Stefan,\n\neben erwarte ich Felix, der bisher\nauf seine neuerliche Berufung\nwartend, hier war und nun\nwieder nach Palermo reisen\nwird. Mittag bin ich mit Erwin\nund Baron F. bei Grete und\nMonju. Gestern war ich mit\ndeiner Mutter spazieren. Sie\ngeht wie schon lange nicht\nund ist ein herzerfreuendes\nBeispiel, dass der aufs äusserste\ngeschwächte Mensch sich wieder\nganz erholen kann. Möge es\nso bleiben, denn sie geniesst\nja ihr Leben mit den kleinen\nFreuden. Mittwoch habe ich\nsie hier mit Frau Tobell\nzu Gast, denn es macht ihr",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Freude eingeladen zu sein.\nSamstag sehe ich dann Deine\nGeschwister, die rätselhaften.\nSonntag war grosser musika=\nlischer Thee bei Yella in\nihrem reizenden Häuschen,\ndas sie uns immerzu anträgt.\nEs war eine unübersehbare\nMenge von Componisten und\nRediteuren und Kritikern.\nDa ich zuerst in Angern ge=\nwesen war machte ich den\nmehr gemütlichen Teil mit,\nder schon ein wenig wein=\nselig war. Es tat wohl ein\nmal in unbeschwerter, also\nunjüdischer Gesellschaft zu\nsein, die das Zeitleid nicht\nin Trauerweiden verwandelt.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Und Yella ist ja ein so ganz\npositiver Mensch. Die ewige\nNegation ist ein böses Gift.\nIch weiss nicht ob ich Dir schon\nvom Concert des herrlichen Maestro\nschrieb. Er sieht strahlend aus.\nDas Concert hatte Chorchester\nprogramm, war richtiges Daraufos=\nmusizieren in höchster Form.\nAuf die Missa Solemnis warte\nich schon sehr, schlaflos und\nvoll Seelennat, wie ich mich hebe.\nSignora Carla als sie mich sah\nküsste mich in aufrichtiger\nFreude nach italienischer Art\nrechts u. links und zog mich\nzum Maestro, der auch so\nlieb war und bedauert\nsagte: A Londra il Zweig,\na Londra! Heider, leides\nwirst Du ihn wieder ver=\nsäumen, nach all dem",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "was die anderen - besser als ich -\nscheint es - von Deinem Kommen\nwissen wollen. Margaret arbeitet\nnoch an der Scala. Hanna gibt\nSonntag ein Concert. Von Rose\nWaller weiss niemand etwas\nseit Berlin u. ihrer Krankheit.\nLuck und Frau sind in\nAmsterdam und Paris. Ich be=\nwohne hier hihi's kleines Wohn=\nzimmer, das sie vorige Jahr hier\nhatte. - Die Feier für meinen\nBruder soll sehr schön gewesen\nsein. Banquet mit 56 Personen,\nGeschenke, Ehrungen.\nNach Strauss etc. fragte selbst bei\nYella niemand, hingegen erwärmte\nalles vom Caffeefeuilleton, auch ohne\ndass man wusste wer sie sei. Dabei\nkommt doch - hoff. bald - der schönste\nTeil erst - Reinfahrt in Rio. Mit\nReichners war ich aus. Davon ein\nanderes mal. Blaiknerbrief soll die\nAltmann abbrechen u. der Meing. rendr.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Am rechten Rand vertikal geschrieben: 'Ich bin die Documente abbrechen. Brief kam von Adresse.' (Die Lesung ist aufgrund der Ausrichtung und Überlagerung schwierig).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Textausschnitt ist eine Wiederholung von Teil des Inhalts von Seite 4.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist gut lesbar, jedoch gibt es am rechten Rand von Seite 4 eine vertikal geschriebene Notiz, die aufgrund der Handschrift und der Platzierung schwer zu entziffern ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2478,
+    "total_words": 415,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      557,
+      517,
+      635,
+      769,
+      0
+    ],
+    "chars_per_page_median": 596.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

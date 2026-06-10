@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3336",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Mario Garcés an Stefan Zweig [21. Juli 1937], SZ-AAL/B20",
+    "signature": "SZ-AAL/B20",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3336/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3336/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3336/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3336/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3336/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B20"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Mario Garcés an Stefan Zweig [21. Juli 1937], SZ-AAL/B20\n- Signatur: SZ-AAL/B20\n- Datum: 21.7.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rue Agustinas 1674\nSantiago du Chili\nSud Amérique\nLe 21 Juillet 1937\n\nMon cher ami inconnu,\n\nVous écrit un jeune\nhomme dès le dernier coin du monde,\nce jeune homme a lu de vous tout\nce qu'il a pu rencontrer et s'adresse\naujourd'hui à vous pour vous ma-\nnifester sa plus profonde admiration\npour votre œuvre et pour vous dire, au-\ndacieusement, que vous êtes l'unique\nespérance que lui reste pour pou-\nvoir lire vos livres sur Balzac, Dickens,\net Dostoiewski. Toutes les démarches qu'il\na fait pour se procurer ici, au Chi-\nli, la traduction française de ces ou-\nvrages ont échoué. N'oubliez pas, mon-\nsieur, qu'il vit au dernier coin\ndu monde et que nous sommes\npresque exilés de la culture uni-\nverselle.\n\nJe ne connais pas votre\nlangue, pour ça je vous écris en",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Tinte leicht durchscheinend, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "français, mais je ne peux pas bien\nm'exprimer dans cet idiome, le mien\nest l'espagnol. J'attends que vous\npardonnerez mes fautes et seulement\nverrez dans cette lettre ma sympathie,\nmon admiration et gratitude vers vous.\n\nJe crois qu'il sera pour\nvous un motif de légitime orgueil\nsavoir qu'ici votre œuvre est bien\nconnue et que vous êtes l'écrivain\nle plus lu et aimé par la jeunesse.\nSi je pouvais bien écrire le\nfrançais ou l'allemand, combien\nde choses je ne vous dirais; mais vous\nne savez pas quel effort signifie tout\nce que j'ai écrit.\n\nJe vous considère comme un maî-\ntre en littérature, pour cela j'aimerais\navoir votre portrait dans ma bibliothèque\net si il n'était pas une prétention assez\ngrande de ma part j'oserais vous le\ndemander.\n\nJe vous prie, cher monsieur d'ac-\ncepter l'hommage de mon admiration\net de mon amitié\n\nMario Garcés",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf der zweiten Seite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "mon admiration et gratitude vers vous.\n\nJe crois qu'il sera pour\nvous un motif de légitime orgueil\nsavoir qu'ici votre œuvre est bien\nconnue et que vous êtes l'écrivain\nle plus lu et aimé par la jeunesse.\nSi je pouvais bien écrire le\nfrançais ou l'allemand, combien\nde choses je ne vous dirais; mais vous\nne savez pas quel effort signifie tout\nce que j'ai écrit.\n\nJe vous considère comme un maî-\ntre en littérature, pour cela j'aimerais\navoir votre portrait dans ma bibliothèque\net si il n'était pas une prétention assez\ngrande de ma part j'oserais vous le\ndemander.\n\nJe vous prie, cher monsieur d'ac-\ncepter l'hommage de mon admiration\net de mon amitié\n\nMario Garcés",
+        "notes": "Scan enthält eine Farbskala und eine Grauskala zur Archivierung. Der Text ist eine Wiederholung des Inhalts von Seite 3.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben. Die Wiederholung auf Seite 5 ist ein technisches Duplikat des Scans von Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2278,
+    "total_words": 400,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      763,
+      0,
+      848,
+      0,
+      667
+    ],
+    "chars_per_page_median": 805.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

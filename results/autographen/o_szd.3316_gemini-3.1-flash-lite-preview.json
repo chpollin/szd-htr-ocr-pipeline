@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3316",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [13. August 1934], SZ-AAL/B2.8",
+    "signature": "SZ-AAL/B2.8",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3316/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3316/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3316/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.8"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [13. August 1934], SZ-AAL/B2.8\n- Signatur: SZ-AAL/B2.8\n- Datum: 13.8.1934\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Montag, Kloisters, 13. August 34\n\nLiebes Fräulein Altmann, ich bestätige Ihnen dankbar\nden Empfang von Ellis Capitel XIV, sowie eine Copie von\nNephew of the Almighty. Aber welches Jammer! Sie schreiben\ndas alles schön und rein, ich aber zerstöre und verschmiere\nIhren schönen glatten Text immer wieder. Sie kennen ja\n(wir haben Sie meist nicht ganz verstanden) meine Kuge-\nnigsamkeit, ich habe Angst, irgend eine einzige Stelle zu über-\nsehen, so geht es von unten nach oben, von oben bis unten,\nvon rechts nach links, von rechts {nach} links, bis nicht eine\neinzige Stelle vernachlässigt oder übersehen ist. Mit dieser\npassionierten Arbeitsmethode werden Sie sich bei mir als\nTapfere Secretärin schon abfinden müssen – ich empfand es\nnur jetzt so stark, als ich Ihr herrlich sauberes Manuscript\nsah, auf das ich mich zu stürzen gesinnt bin. Die ganzen\nersten Capitel werden jetzt von Frau Meingest noch einmal ganz\nneu geschrieben. Aber das ist, weiss Gott, nicht Ihre Schuld!\nWir haben hier den Regen, der uns in London\nfehlte, vollständig nachgeliefert bekommen, dennoch bleibt\nzu Spaziergängen Zeit und die Luft ist herrlich, sie würde\nIhnen wohl tun. Ich reise wahrscheinlich am 15 ab, bleibe einen\nTag in Zell am See bei meinem italienischen Verleger, dann zwei\nTag in Salzburg und bin cca am 20. August für paar Tage in",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Wien. Adressen telegraphiere ich noch, bitte warten Sie das\nTelegramm ab. Ich telegraphiere nur Wien, die Adresse ist\nWien, Hotel Regina, Votivkirchenplatz (bitte das zu vermerken)\nSehr gespannt bin ich auf Ihre Pläne, ich\nstehe ungefähr so, dass ich im September zu Anfang ir-\ngendwo in der Schweiz oder in Frankreich bleibe, dann allein\nfür einen Monat nach dem mir fast schon unentbehrlichen\nLondon, von dort wohl Ende October nach America, dann\nvielleicht Italien mit meiner Frau, die mir sehr freuen\nwürde, wenn Sie dann nichts Besseres vorhaben und mit\nuns sein könnten. Aber all das ist noch nicht gewiss, es\nkann sich unermesslich viel ereignen; lassen Sie mich nur\nwissen, wo Sie sind, es freut uns immer von Ihnen zu\nhören und Sie wissen ja, wie dankbar ich Ihrer gedenke\n– auch wenn Sie die restlichen Manuscripte schon ab-\ngeliefert haben werden. Es ist nicht nur Sorge um meinen\nText, dass ich Ihnen schreibe, sondern auch herzliche Ge-\nsinnung, ich weiss genau, dass ich ohne Ihre Hilfe nicht so\ngut und so angenehm vorwärts gekommen wäre. Aber\nruhen Sie sich jetzt gemütlich aus, ich fürchte, dass ich,\nkaum mit dieser Arbeit fertig, Ihnen und Herbst schon\nwieder viel zumuten werde. Mit den herzlichsten Grüssen\nan Ihre Familie\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text auf dem Papier ist identisch mit dem Text auf Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2582,
+    "total_words": 428,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1326,
+      1256,
+      0
+    ],
+    "chars_per_page_median": 1291.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

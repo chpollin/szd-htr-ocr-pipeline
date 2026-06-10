@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3096",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1941], SZ-AAL/B1.167",
+    "signature": "SZ-AAL/B1.167",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3096/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3096/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3096/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.167"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1941], SZ-AAL/B1.167\n- Signatur: SZ-AAL/B1.167\n- Datum: 09.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H.M. we are going to Petropolis in two days and hope to live there quietly\nfor some time. Before I have thought much what you had to suffer at your\ndentist as I had no less than two protheses to get - now I am\na real Englishman having my artificial teeth to take out every\nevening. It was an excellent [?] dentist who really worked\nwonder in making with his craftsman those two big protheses\nin six days instead of six weeks and without any pain for me.\nNow this is done and if Lotte would get rid of her asthma we could live\nand work quietly after the long months of troubles and strain.\nI have met here Manfreds brother in law. He arrives here a year ago, was\nbetween in the United States and has the intention to stay here for the\nnext months, at least half a year. Last year he had still all his obli-\ngations against his former boss, but he hopes as he is stabilised here\nand has his permanent stay granted since November 1940 that he\nwill be free of his former obligations for the coming year. You cannot\nimagine how it complicates his situation to be at once bound to\nthe new firm, the American one and the old one and he hopes that\none day he can clear his situation against the former one. He would\nlike to ~~take~~ rent an appartement for good - we ourselves have taken\nthe tiny house in Petropolis for seven months only but if it pleases\nus we can take it for longer so that we have also a permanent ad-\nress and residence. It is possible that I shall give some lectures\nin Argentine in spring, but we will keep meanwhile the residence;\nit contains altogether 3-4 tiny rooms with a large terrace which\nwill be my real working room and we shall have a black servant girl\nwho lives near the house and if they prove as good as they are cheap we\nwill rejoice. Most important for me is now to finish the autobio-\ngraphy which is practically ready but wants revising and enlarging\nand than to try to write again some short stories or a novel, some-\nthing substantial and if the Balzac manuscript arrives I shall be\nsafe. Thanks for all dear Hannah and please use evening in Bath\nas if it were yours; I hope this winter will be better than the last\none and in the great decision the odds are now on our side and\nwhatever happens, a world without Hitler will be a better world. Yours\nStefan",
+        "notes": "Handschriftlicher Brief auf Hotelpapier (Hotel Central, Rio de Janeiro). Der Text ist gut lesbar, die Tinte ist violett. Das Dokument weist einen Stempel des Hotels auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear H.M. we are going to Petropolis in two days and hope to live there quietly\nfor some time. Before I have thought much what you had to suffer at your\ndentist as I had no less than two protheses to get - now I am\na real Englishman having my artificial teeth to take out every\nevening. It was an excellent [?] dentist who really worked\n\nand has his permanent stay granted since November 1940 that he\nwill be free of his former obligations for the coming year. You cannot\nimagine how it complicates his situation to be at once bound to\nthe new firm, the American one and the old one and he hopes that\none day he can clear his situation against the former one. He would\nlike to ~~take~~ rent an appartement for good - we ourselves have taken\nthe tiny house in Petropolis for seven months only but if it pleases\nus we can take it for longer so that we have also a permanent ad-\nress and residence. It is possible that I shall give some lectures\nin Argentine in spring, but we will keep meanwhile the residence;\nit contains altogether 3-4 tiny rooms with a large terrace which\nwill be my real working room and we shall have a black servant girl\nwho lives near the house and if they prove as good as they are cheap we\nwill rejoice. Most important for me is now to finish the autobio-\ngraphy which is practically ready but wants revising and enlarging\nand than to try to write again some short stories or a novel, some-\nthing substantial and if the Balzac manuscript arrives I shall be\nsafe. Thanks for all dear Hannah and please use evening in Bath\nas if it were yours; I hope this winter will be better than the last\none and in the great decision the odds are now on our side and\nwhatever happens, a world without Hitler will be a better world. Yours\nStefan",
+        "notes": "Scan mit Farbskala und Grauskala zur Archivierung. Der Text ist identisch mit Seite 1, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der violetten Tinte und der Archivierungsskalen auf dem dritten Scan."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4052,
+    "total_words": 779,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2298,
+      0,
+      1754
+    ],
+    "chars_per_page_median": 2298,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0026,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

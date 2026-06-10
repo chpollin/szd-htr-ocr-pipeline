@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3046",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [29. April 1941], SZ-AAL/B1.121",
+    "signature": "SZ-AAL/B1.121",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3046/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3046/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3046/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.121"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [29. April 1941], SZ-AAL/B1.121\n- Signatur: SZ-AAL/B1.121\n- Datum: 29.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wyndham Hotel\t\t\t\tNewyork, 29.4.41\n\nDear Hanna & Manfred,\n\nJust a line to tell you that there will be\na dinner of the P.E.N. Club on the 15th of May where\nStefan, Sigrid Undset, Romains and Somerset Maugham\nwill speak. The speeches will be relayed by WRUL\nBoston to Europe. and maybe if this letter reaches you in\ntime you can find out and listen.\nThanks for your cable the other day which shows\nthat you feel now reassured about Eva's surroundings\nand her happiness there. Last Sunday, as I wrote you already\nI met her at Elizabeth's house, and next week I hope\nI shall be able to go and visit her at Amity Hall. It\nmust be lovely there now, and now the children surely\nenjoy the garden very much. If I go I shall try to\nborrow a camera and send you some photos of the house\nand people in it. But first of all I am impatient to\nhear from you that Eva's photos have arrived, I am\nquite sure you will like them. They are natural (mother\nwill say that the hair could be done better, but you\nknow how it is sometimes with hair, it just went the other\nway and even the hair-dresser could not make it behave)\nand say and from the one with the coat on - which Eva\ndisliked because she is ashamed of having had to wear\nsuch a hat - you can see that she has grown.\nI hope you had a good time at Bath on\nEaster and did not return to London too quickly.\nBy the way, could Lore remain in Bath? Eva and I\nhave been wondering how you spent your Easter days and\nwhat the garden looks like and whether the cuckoo is back\nalready. I do wish we would spend the next Easter again\ntogether. From us not much is to report. Stefan is working,\nI have finished the allergy test, am supposed to react to dust\nand own bacterias and the injections with this stuff are being\nprepared. I am fairly well, but hope for definite results\nof these injections.\n\nI expect a letter from you these days - a clipper arrived to-day - and\nshall then write more in detail.\nLove, kisses, all good wishes,\nLotte.",
+        "notes": "Handschriftlicher Brief auf einem Blatt, beidseitig beschrieben (wobei die Rückseite leer ist, siehe Scan 2). Der Text am linken Rand wurde nachträglich vertikal hinzugefügt. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die vertikale Randnotiz wurde korrekt in den Textfluss integriert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1968,
+    "total_words": 384,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1968,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1968,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "object_id": "o_szd.3379",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joachim Maass an Lotte Zweig [24. Januar 1936], SZ-AAL/B4.1",
+    "signature": "SZ-AAL/B4.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3379/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3379/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joachim Maass an Lotte Zweig [24. Januar 1936], SZ-AAL/B4.1\n- Signatur: SZ-AAL/B4.1\n- Datum: 24.1.1936\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Altona/Elbe,\nPalmaille 21\n\n24.I.36.\n\nLiebes Fräulein Altmann:\n\nDie Schilderung Ihrer Leiden und Kümmernisse hat ihre Wirkung auf mich\nnicht verfehlt; sie aber als zunebende Buße für Ihre Unterlassung anzuerkennen, kann\nich mich in Anbetracht der hübschen Buße, die ich mich entschlossen hatte, über Sie\nzu verhängen, nicht bereit erklären. Ich bitte Sie, sich meiner pädagogischen Talente\nanzuvertrauen; die Freude, die mir allein die Vorstellung macht, sie an Ihnen zu üben,\nsollte Ihnen die beste Garantie für ihre schöne und pünktliche Nützlichkeit sein. Ich hätte\ndie größte Lust, Sie ebenso von der Richtigkeit der Behauptungen zu überzeugen, wie diese\nBemerkungen in die üblichen – aber wie und wann?\n\nVon mir ist wenig zu berichten. Meine Krankheit wird jetzt als Stoffwechsel-\nStörung in Art der Beriberi oder des Skorbut erklärt; indessen wächst und blüht\nsie ungehemmt weiter; an Schlafen und Arbeiten ist nicht zu denken, an die wahr-\nscheinlich einzig mögliche Heilung durch eine längere Kur im Sanatorium (etwa in der\nSchweiz) ebenso wenig. Es ist das nur Pedanterie, dafür Sie überhaupt darüber\nunterrichtet, denn was soll's? Man muß abwarten, ob meine Natur sich von selbst\nbesinnt (sie hat zuweilen solche Anwandlungen); bisher spielt sie mir freilich übel\nmit, was Sie daraus ersehen wollen, schrit[?] mir seit über einer Woche nicht ein-",
+        "notes": "Handschriftlicher Brief auf gelblichem Papier. Die letzte Zeile bricht mitten im Wort ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "mal mehr betrunken habe, ein Zustand, der bei meiner Veranlagung dem der\nAgonie nahekommt.\n\nUm nicht von anderen Dingen zu reden: daß Sie sich über das Kom-\npromittierende meiner Widmung aufhalten, fand ich zuerst schlechthin empörend;\nspäter ist mir eingefallen, daß Sie offenbar die Kränkung nicht recht verstanden haben,\ndie Sie mir mit der falschen Fährte zugefügt haben, nicht daß Sie sie vergessen\nhaben, was so menschlich gewesen von Ihnen, sondern daß Sie sie bei Dr. Z. statt\nbei mir vorgaben. Dagegen hat es nichts gefreut, daß Sie wenigstens vorgaben, es sei\nIhnen gegen den Strich gewesen, daß ich via Dr. Z. meine Absichten und Wünsche\nmit Ihnen angekündigt habe. Sie wollen daraus ersehen, was alles Ihnen noch be-\nverstehen kann, wenn Sie nicht artig sein wollen – jedoch beunruhigen Sie sich nicht\nzu sehr; ich werde nichts Unmögliches verlangen, ich glaube, die Grenzen Ihrer\nMöglichkeit, artig zu sein, bereits einigermaßen erkannt zu haben.\n\nUm schließlich ganz kurz zu sein: es ist die Jammer, daß es so\nshwer[?] sein wird, Sie wiederzusehen – es wäre so schön. Ob es dort noch irgend-\nwie klingt?\n\nNehmen Sie die herzlichsten Grüße und Wünsche Ihres\nJoachim Maass",
+        "notes": "Zweite Seite des Briefes, handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Briefumschlag, Rückseite. Enthält Archiv-Farbskala und Grauskala. Handschriftliche Absenderangabe: 'Joachim Maass, Altona/Elbe, Palmaille 21 - Allemagne'.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Frl. Lotte Altmann,\nHotel Westminster,\nPromenade des Anglais,\n\nNice\nFrankreich.",
+        "notes": "Briefumschlag, Vorderseite. Briefmarken des Deutschen Reiches (1 Pfennig, 2x 12 Pfennig) und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Joachim Maass, Altona/Elbe, Palmaille 21 - Allemagne.",
+        "notes": "Rückseite des Briefumschlags (identisch mit Scan 5, ohne Skalen).",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist flüssig. Einzelne Wörter wie 'schrit' (vermutlich 'schrieb') oder 'shwer' (vermutlich 'schwer') sind aufgrund der Handschrift leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2671,
+    "total_words": 421,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1355,
+      0,
+      1184,
+      0,
+      0,
+      79,
+      53
+    ],
+    "chars_per_page_median": 631.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0048,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      6
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3067",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [25. Juni 1941], SZ-AAL/B1.140",
+    "signature": "SZ-AAL/B1.140",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3067/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3067/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3067/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.140"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [25. Juni 1941], SZ-AAL/B1.140\n- Signatur: SZ-AAL/B1.140\n- Datum: 25.6.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New York, 25.6.41\n\nDear Hanna,\nWe have finally found a house for the summer,\nwhich meets all our requirements as „house-workers“ and car-less\npeople, which is nicely situated and even very near Eva. It\nis\n7 RAMAPO Road\nOssining, N.Y.\nand ten minutes drive from Croton and there is even an\nhourly bus-service between Croton and Ossining. I advised\nStefan against cabling the address (which will be valid\nfrom July 1st to Sept. 1st) because you would certainly\nthink that Ramapo Road is mis-spelt. Actually it is\nan old Indian name. One of the great attractions of\nthe house - besides being nice and near to Eva - was\nthe fact that the maid will stay on with us and is\neven glad to remain, just as glad as I am to be able\nto take her over. As we move out in 6 days you can imagine\nthat we will be busy, packing, arranging things, seeing some\npeople and trying not to see others and so on. It is 50 minutes\nby train from New York and we shall come in now and then\n- certainly I because I can thus continue my injections\nwithout changing the doctor. I am glad about this for a\nfew weeks ago I had some strong reactions against my own\nand apparently quite powerful bacterias, and I feel better to\nbe with a doctor who has experience and is not surprised by\nsuch symptoms which as he says are rather favorable and\neven desirable. - I went out Sunday to see Eva and\nmy sister-in-law came with me to visit her. She found her\nlooking splendid; she is sunburnt, strong and has grown.\nIt was only a pity that it was such a rush owing to\nthe house-hunting, but as we will now be very near to\neach other this little disappointment was worth while.\nWe have not yet heard from you this week although we\nhad a number of English letters on Sunday. Now it is soon July\nand then Manfred will finish his studies and you, I hope are\nthrough with the dentist. We shall then enjoy the idea of knowing\nyou both in Bath.\nLove, kisses Lotte",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Anmerkungen am rechten Rand (x 'not care free') wurden bei der Transkription in den Textfluss integriert bzw. als Randnotiz erkannt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "New York, 25.6.41\n\nDear Hanna,\nWe have finally found a house for the summer,\nwhich meets all our requirements as „house-workers“ and car-less\npeople, which is nicely situated and even very near Eva. It\nis\n7 RAMAPO Road\nOssining, N.Y.\nand ten minutes drive from Croton and there is even an\nhourly bus-service between Croton and Ossining. I advised\nStefan against cabling the address (which will be valid\nfrom July 1st to Sept. 1st) because you would certainly\nthink that Ramapo Road is mis-spelt. Actually it is\nan old Indian name. One of the great attractions of\nthe house - besides being nice and near to Eva - was\nthe fact that the maid will stay on with us and is\neven glad to remain, just as glad as I am to be able\nto take her over. As we move out in 6 days you can imagine\nthat we will be busy, packing, arranging things, seeing some\npeople and trying not to see others and so on. It is 50 minutes\nby train from New York and we shall come in now and then\n- certainly I because I can thus continue my injections\nwithout changing the doctor. I am glad about this for a\nfew weeks ago I had some strong reactions against my own\nand apparently quite powerful bacterias, and I feel better to\nbe with a doctor who has experience and is not surprised by\nsuch symptoms which as he says are rather favorable and\neven desirable. - I went out Sunday to see Eva and\nmy sister-in-law came with me to visit her. She found her\nlooking splendid; she is sunburnt, strong and has grown.\nIt was only a pity that it was such a rush owing to\nthe house-hunting, but as we will now be very near to\neach other this little disappointment was worth while.\nWe have not yet heard from you this week although we\nhad a number of English letters on Sunday. Now it is soon July\nand then Manfred will finish his studies and you, I hope are\nthrough with the dentist. We shall then enjoy the idea of knowing\nyou both in Bath.\nLove, kisses Lotte",
+        "notes": "Dasselbe Dokument wie Seite 1, jedoch mit aufgelegten Archiv-Farbskalen (Farbkarte #13, Grauskala #13) über dem Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Archiv-Skalen auf Seite 3 verdecken Teile des Textes, dieser ist jedoch durch den Vergleich mit Seite 1 vollständig rekonstruierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3828,
+    "total_words": 734,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1914,
+      0,
+      1914
+    ],
+    "chars_per_page_median": 1914,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

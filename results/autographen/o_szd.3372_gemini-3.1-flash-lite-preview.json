@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3372",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Walter Haupolter [19. September 1938], SZ-AAL/B3.134",
+    "signature": "SZ-AAL/B3.134",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3372/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3372/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3372/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.134"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Walter Haupolter [19. September 1938], SZ-AAL/B3.134\n- Signatur: SZ-AAL/B3.134\n- Datum: 19.9.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19. September 1938.\n\nDr. Walter Haupolter,\nAlter Markt 4,\nSalzburg.\n\nSehr geehrter Herr Doktor!\n\nIch danke Ihnen sehr für Ihre Mittei-\nlungen vom 16. September und wiederhole, dass ich\nkeinesfalls Widerklage erheben will, sondern die\nvon Ihnen geschilderten Folgen der Scheidung der\nEhe aus meinem Verschulden völlig auf mich nehme.\nDie Frage des Unterhalts ist bereits einverständ-\nlich zwischen meiner Frau und mir in rechtlich\ngültiger Form erledigt worden. Dass die Streit-\nkosten völlig auf mich fallen, habe ich gleich-\nfalls zur Kenntnis genommen.\nIch hoffe, sehr geehrter Herr Doktor,\ndass nunmehr nicht die geringste Schwierigkeit\nbesteht, da ebenso wie zwischen meiner Frau und\nmir auch zwischen Ihnen und Dr. Singer vollkomme-\nnes Einvernehmen besteht, und ich hoffe, dass an",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dem angesetzten Termin am 8. November die Ange-\nlegenheit endgültig bereinigt wird.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "dem angesetzten Termin am 8. November die Ange-\nlegenheit endgültig bereinigt wird.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript, identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1048,
+    "total_words": 158,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      786,
+      131,
+      131
+    ],
+    "chars_per_page_median": 458.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

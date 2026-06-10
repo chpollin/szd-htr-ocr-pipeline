@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3309",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [20. Dezember 1936], SZ-AAL/B2.73",
+    "signature": "SZ-AAL/B2.73",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3309/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3309/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3309/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.73"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [20. Dezember 1936], SZ-AAL/B2.73\n- Signatur: SZ-AAL/B2.73\n- Datum: 20.12.1936\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, ich bin hier\nnach rheisslicher[?] Reiserei angekommen,\nin Paris bekam ich infolge Sommerzeit\naufhebung nicht den richtigen Zug, der\nnächste blieb zwei Stunden unterwegs\nstecken, so müsste ich dann die Nacht\nohne Schlafwagen mit Bummelzug von Sal-\nburg durchreisen. Post fand ich von Ihnen\nin Paris nicht aber hier heute Sonntag vor\n-bitte erledigen Sie möglichst viel selbstän-\ndig, sagen Sie, dass Sie Auftrag haben, weil\nich in den nächsten drei Wochen total\nkaum erreichbar bin. Mir graut masslos vor\ndiesen verlorenen vierzehn Tagen hier. Alles\nGute und Grüsse an Robert N. Ihr\nS.Z.",
+        "notes": "Handschriftlicher Brief auf Hotel Regina Briefpapier. Die Tinte ist violett. Das Wort 'rheisslicher' ist schwer lesbar, möglicherweise 'heisslicher' oder 'hektischer' gemeint.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Im Prinzip bleibe es bei Samstag 2ten morgens\nin Zürich. Aber vielleicht kann ich es doch\ndurchsetzen, dass ich lieber schon Donnerstag\n31ten dort wäre, mir graut sonst vor\nWien, bitte also sehen Sie in allen Dispo\nsitionen auch diese Möglichkeit vor. Höchstens\nverzichtet man auf den Rex. und fährt per\nBahn von Mailand durch.",
+        "notes": "Handschriftlicher Text auf der Rückseite des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort in der ersten Zeile ('rheisslicher'), das vermutlich eine individuelle Schreibweise oder ein Flüchtigkeitsfehler ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 938,
+    "total_words": 152,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      611,
+      327,
+      0
+    ],
+    "chars_per_page_median": 469.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0066,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

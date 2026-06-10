@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3136",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [23. September 1939], SZ-AAL/B1.22",
+    "signature": "SZ-AAL/B1.22",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3136/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3136/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3136/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.22"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [23. September 1939], SZ-AAL/B1.22\n- Signatur: SZ-AAL/B1.22\n- Datum: 23.9.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, es ist rührend wie du dich mit unsern An-\ngelegenheiten beschäftigst. Ich möchte aber nicht, dass Frau\nKahn und du schon jetzt hinaufziehen; es geht immerhin schon\nauf October, es kommen nach unseren tagelangen Sonnen-Tagen auch\nRegenwochen kommen[?] und ich möchte nicht, dass Ihr Euch in-\nstalliert, solange nicht regelrechte Heizung functioniert. Auch dann\nist es noch anfordernd genug, in einem Haus zu sein, wo von mor-\ngens bis abends geklopft, gehämmert, geläutet und ferngeschraubt\nwird, wo niemand für Milch, Brot, etc sorgt. Ich glaube, mit dem\nHinaufziehen auch nur einer Person muss gewartet werden, bis\ndie Heizung functioniert — ich möchte nicht fremden Doktoren\nhier etwas zu verdienen geben. (Wofür haben wir denn hier im Haus\nein camp bed?)\nWooster scheint sehr anständig die Sache anzugehen, wir haben\nnach meinen Plänen auch manches der Arbeit vereinfacht.\nDer Strongroom unterbleibt, da wir eine Art Safe entfernt\nhaben, wo ich Documente ruhig feuersicher aufbewahren kann,\ndie alte Badezimmerleitung bleibt bestehen, so dass der obere\nStock gar keine Durchbrüche erfordert und meiner Meinung\nnach in zwei Wochen oder drei völlig bewohnbar sein könnte\n— die eigentliche Arbeit beschränkte ich dann auf das Parterre.\nDeine liebe Gegenwart wäre mir natürlich besonders will-\nkommen, weil du Blick & Interesse und wie ich hoffe etwas\nFreude am Einrichten hast; Frau Kahn wäre {am besten}\nvon dem Punkte an, wo ein Teil des Hauses bewohnbar und beheiz-\nbar ist, vorher sehe ich für sie keine rechte Mission und nur Gele-",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Seite endet mitten im Wort 'Gele-'. Die Fortsetzung befindet sich auf Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "genheit, einen kräftigen Schnupfen und eine Bestärkung ihrer ofen-\nmaligen Schwächen zu erreichen. Wenn du alle jeden Tag einmal\nhinaufgehst und ihr ab und zu was das Wesentliche anzeigt werden\ndie Crux ist momentan die Nachbarsfrage oder zumindest ein\nCharwoman. Die erste Combination — Polizist — ist gescheitert\nund ich sehe (mit einigen leichten Pertochenwallen[?]) jetzt sollte ich\nTrab, bei den Agenturen sich umzusehen. Inzwischen habe ich für\nden Weinkeller gesorgt und alles denkbare vorbereitet.\nTausend Dank und alles Herzliche für Euch alle\n\nStefan\n\nLiebe Hanna!                               Samstag, 23.9.\nWenn Du zu Beginn des Innenar-\nbeiten dabei sein willst, musst Du bald\nkommen — gestern, während Huntleys Möbelwagen\nnoch vor der Tür standen, arbeiteten bereits drei\nMaler im guest room daran, die Tapete abzu-\nreissen und sie haben vor, möglichst viele Zim-\nmer auf einmal zu machen. Die anderen Ar-\nbeiter für Heizung, Bad etc. können wahrscheinlich\nerst Ende der Woche anfangen. — Du brauchst\nDich aber in keiner Weise zu eilen. Komm, so-\nbald es Dir passt, Mitte oder Ende der Woche,\nwir freuen uns beide auf Dich, wohnen kannst\nDu hier, die camp-bed-Frage werden wir Deinen",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Seite enthält den Abschluss des ersten Briefteils und einen neuen Briefabschnitt (datiert 23.9.).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Überlagert den Text von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Einige Wörter wie 'Pertochenwallen' sind aufgrund der individuellen Handschrift unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2748,
+    "total_words": 433,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1550,
+      1198,
+      0
+    ],
+    "chars_per_page_median": 1374.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0046,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

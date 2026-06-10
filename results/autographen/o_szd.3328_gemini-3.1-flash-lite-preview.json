@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3328",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [13. April 1940], SZ-AAL/B2.90",
+    "signature": "SZ-AAL/B2.90",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3328/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3328/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3328/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.90"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [13. April 1940], SZ-AAL/B2.90\n- Signatur: SZ-AAL/B2.90\n- Datum: 13.4.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\nParis, le Samedi\n\nCh. L. j'ai reçu la carte de jeudi ce\nmatin. Je grelotte faute d'un par-\ndessus mais je te reproche seulement\nd'avoir oublié mon rasoir (on a-t-il\nété perdu!) Contre le froid je prends\nbeaucoup d'alcool, hier pour le\ndéjeuner quatre vins différents et\nle même le soir chez les Corot, qui\nt'envoient les meilleurs salutations\nQuant au prix, tout est ici pour nous\nAnglais excessivement bon marché et\nd'une abondance et qualité inal-\ntéré, les rues assez bien éclairés -\nla guerre semble beaucoup plus loin\nque de chez nous.",
+        "notes": "Brief auf Hotelpapier. Handschrift in violetter Tinte. Die Zeilenumbrüche folgen dem Original.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "J'ai été hier chez Marcel Bon-\nteron homme charmant et je le\nverrai encore dimanche. Je me prépare\ntout dont j'ai besoin et me prêtera\nle manuscrit du quatrième volume des\nlettres. En somme tout étant comme\nje l'ai supposé et il y a peu des\ndétails a ajouter — malheureuse-\nment le musée de Chantilly est non\nseulement fermé mais les manus-\ncrits de Balzac en province pour\nla durée de la guerre.\nOn voulait deux conférences\nau radio je ne donne qu'une\nseule le 23. et je te telegrapherai\nl'heure.\nAmitiés a tous\nTon mari\nStefan Zweig",
+        "notes": "Handschrift in violetter Tinte. Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Textbereich ist eine Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1191,
+    "total_words": 210,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      657,
+      534,
+      0
+    ],
+    "chars_per_page_median": 595.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

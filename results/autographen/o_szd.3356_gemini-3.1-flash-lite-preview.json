@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3356",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.117",
+    "signature": "SZ-AAL/B3.117",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3356/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3356/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3356/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3356/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3356/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.117"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.117\n- Signatur: SZ-AAL/B3.117\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Stefan,\nkomisch! Ich gab doch diese\nSache ohne Comentar an Dich.\nMeine Illusionen sind doch,\ndas Haus in Frieden weiterge-\nnießen zu können, nicht es\nwegzuiillusionieren. Der Münchner\nMann ist mit einer Österreicherin\nverheiratet, seine Stiefsöhne\ngehen hier in die Schule\nu. kennen das Haus. Er\nbot das, woran er selbst\nglaubt, wie Sammler an ihre\n\"Schätze\" eben glauben. Von\neiner Bauernfängerei ist\nda keine Rede. Nur von",
+        "notes": "Handschriftlicher Brief, Seite 1. Tinte auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "naivem Eifer, da er bald ein-\nziehen wollte, was mir gräßlich\ngewesen wäre. Er wollte ja über-\ndies zuerst auf ein Jahr gegen\nVorverlag des Zinses miethen.\nVon nun an werde ich Dich also\nerst benachrichtigen u. mich\nüberhaupt nur auf Angebote\neinlassen, wo Baargeld am\nTisch vor mir bar gemacht\nwird. - Eben hat mir Korngold\neinen großen Besitz in Gmunden\ngekauft. - Hier wehen von\njedem Haus die Fahnen. Auch\nbei uns hat Herr Sch. eine\nausgesteckt. Alles fühlt, daß\ndie Saison noch gesteigert\nist und man spürt sonst\nvorläufig keine andere",
+        "notes": "Handschriftlicher Brief, Seite 2. Am linken Rand vertikal geschrieben: 'es ist windig und sie windet [?]'",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Reaction. Ich, als eingeschworene\nFeindin von Gewaltmaßregeln\nbin froh, daß man die Grenze\nnicht mit Angst betrachten\nmuß. Du hast Recht, was\nlangsam kommt, falls es\nkommt ist [?] wünschen-\nwerter. Und weiß Gott, was\nsich bis dahin ändert. Ruhe\nauf Monate hinaus ist\nschon viel und mehr als\nman zuweilen erhoffen\nkonnte. Ich zwar -\nDu kennst meinen\nOptimismus - finde, daß",
+        "notes": "Handschriftlicher Brief, Seite 3. Am rechten Rand vertikal eingefügt: 'zum'",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Angst zuweilen Frevel ist.\nAnbei 2 Briefe. Mempast\nist auf Urlaub. Leider hat\nsie in ihrem Arbeitsangebot\nan Luck (der ja bei Corda ist)\nbetont, sie sei jetzt angewiesen\nihr Brot zu verdienen, weil\nsie nicht mehr für dich arbeite.\nWie sieht das aus? Ich werde\nes richtigstellen, sobald ich N.\n[?] sehe. Bitte lass mir\nmeine Kunstbücher zurück-\nschicken. Schreib doch wie\nDu lebst. Fuchs sagte, er\nwüßte es nicht, da er nur\nbeim [?] [?] sah.",
+        "notes": "Handschriftlicher Brief, Seite 4. Am rechten Rand vertikal geschrieben: 'Badest Du. Bitte Brief an Rathi geben.' Am oberen Rand steht kopfüber: 'Halbweg ist m. bleibt eine Leere. Alles liebe [?] Wie schade dass die Welt lies [?]'",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Ein Ausschnitt des Briefes (Seite 4) ist im Bild zu sehen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (besonders am Rand und bei Eigennamen/Abkürzungen) schwer zu entziffern. Einige Wörter sind aufgrund der Kursivschrift und Tintenführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1783,
+    "total_words": 304,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      431,
+      540,
+      372,
+      440,
+      0
+    ],
+    "chars_per_page_median": 435.5,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0132,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

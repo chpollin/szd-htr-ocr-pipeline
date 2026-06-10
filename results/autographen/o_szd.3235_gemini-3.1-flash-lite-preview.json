@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3235",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von René Chaine an Lotte Zweig [4. März 1938], SZ-AAL/B16",
+    "signature": "SZ-AAL/B16",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3235/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3235/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3235/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3235/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3235/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B16"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von René Chaine an Lotte Zweig [4. März 1938], SZ-AAL/B16\n- Signatur: SZ-AAL/B16\n- Datum: 4.3.1938\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Le 4 Mars 1938\n\nChère Mademoiselle\nNous venons de rentrer de Leipzig\nou nous n'avons fait, à notre\ngrand regret, qu'entrevoir le\nprofesseur Kippenberg, à cause\nd'un fâcheux malentendu.\nIl nous a prié de transmettre\nà M[?] Zweig tous ses meilleurs\nsouvenirs - Et afin de suivre\nles amicaux conseils du Maître\nnous avons également tâché\nd'aller voir le grand Freud.",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Datumszeile ist unterstrichen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hélas, il était souffrant et n'a\npu nous recevoir - et j'ai personnel-\nlement, éprouvé de bien vifs regrets\nà cet endroit -\nQuant au manuscrit de Beethoven\nil a été vendu - et nous ne pouvons\nqu'envier l'heureux possesseur de\ncet inestimable Trésor - M[?] Cortot\na néanmoins rapporté, une bien\nbelle chose, de notre récente tournée\nun manuscrit inédit de Wagner -\net quand à moi, j'ai eu la chance\nde trouver une fort belle lettre\nde Heine - Que de joies indicibles\nnous réservent de partout, nos\nrecherches inlassables ! -\nNous partons pour l'Italie\n- ou des joies, d'un autre ordre",
+        "notes": "Handschriftlicher Brief, Fortsetzung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "nous attendent - et tout cela\nces bonheurs, ajoutés au bonheur\nd'être ensemble - font que nous\nnous sentons des êtres privilégiés\ndans l'existence ! -\nNous serons en Angleterre\nvers la fin Mai - Je vous\ntiendrai au courant de nos\nprojets - et nous espérons bien\nd'avoir la joie de vous revoir à\nce moment là -\nVoulez-vous dire à M[?] Zweig\ncombien souvent, nous parlons\net pensons à lui, avec tant\nd'admiration et d'amitié -",
+        "notes": "Handschriftlicher Brief, Fortsetzung.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "et croire, chère Mademoiselle\nà tous nos sentiments les\nplus sympathiques\n\nRené Chaine",
+        "notes": "Handschriftlicher Brief, Schluss mit Unterschrift.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "plus sympathiques\n\nRené Chaine",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist eine Wiederholung des Schlusses von Seite 4, der durch das aufgelegte Blatt teilweise verdeckt war.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist sehr gut lesbar. Die Abkürzung 'M.' für 'Monsieur' wurde als 'M[?]' transkribiert, da es sich um eine Standardabkürzung handelt, die hier im Kontext von 'M. Zweig' und 'M. Cortot' eindeutig ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1486,
+    "total_words": 261,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      363,
+      583,
+      424,
+      86,
+      30
+    ],
+    "chars_per_page_median": 393.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0115,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

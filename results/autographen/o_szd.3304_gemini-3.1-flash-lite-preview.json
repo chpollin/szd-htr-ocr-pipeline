@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3304",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [26. August 1936], SZ-AAL/B2.69",
+    "signature": "SZ-AAL/B2.69",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3304/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3304/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3304/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3304/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3304/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.69"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [26. August 1936], SZ-AAL/B2.69\n- Signatur: SZ-AAL/B2.69\n- Datum: 26.8.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio\n\nLiebe fraulein Altmann, ich war nicht\nwohin Sie zu schreiben. Rio ist die herrlichste\nStadt der Welt, aber was mit mir geschieht\nerinnert an Coronationtage in London. Das\nMinisterium war buchstäblich gestürmt um Ein\nladungen zu meinem Vortrag (denselben, die Sie\nmit anzufügen vergassen und den ich hier noch\neinmal machen musste) - ich konnte die Albert-\nHall viermal füllen. Ich habe ein Apartament\nmit 4 bequemen Zimmer, mein Auto, einen\nAttache und nun keine secunde Ruhe, werde von\nfrüh bis nachts fotografiert, war beim Präsident\nder Republik zu Gast, der Aussenminister gab\ner etwas Diner für mich, die Kriegsmarine\ngibt mir ein Boot für Ausflüge, es ist toll,\ndie Stadt unbeschreiblich schön, ich komme",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "wieder, gewiss, die Frauen bezaubernd schön, der\nherrlichste Cafe, die besten Cigarren, ein Paradies. Und\ndas höchste, es gibt nicht den Hauch einer Rassenfrage\nalle Juden loben Gott, alle Emigranten sind glücklich.\nIhre Briefe erfüllt mich sehr fast,\ndie so fer gelesen [?] was viel sagt - ich be-\nkomme hier täglich Post und muss von\nfrüh bis Nacht Briefe signieren, aber es\nist so herrlich hier, dass ich nicht müde bin\nAller Gute\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf blauem Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "das höchste, es gibt nicht den Hauch einer Rassenfrage\nalle Juden loben Gott, alle Emigranten sind glücklich.\nIhre Briefe erfüllt mich sehr fast,\ndie so fer gelesen [?] was viel sagt - ich be-\nkomme hier täglich Post und muss von\nfrüh bis Nacht Briefe signieren, aber es\nist so herrlich hier, dass ich nicht müde bin\nAller Gute\n\nStefan Zweig",
+        "notes": "Dies ist eine Wiederholung des Textes von Seite 2, inklusive Archiv-Farbskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "VIA AEREA\n\nMiss Lotte Altmann\n\nLondon NW 11 (England)\n50, Woolstoch Road",
+        "notes": "Adressseite des Briefumschlags. Stempel 'Condor Zeppelin Lufthansa' und 'Aereo Transoceanico'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Einige Wörter wie 'fer' (vermutlich 'sehr' oder 'fern') sind leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1575,
+    "total_words": 265,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      715,
+      447,
+      341,
+      72,
+      0
+    ],
+    "chars_per_page_median": 447,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0075,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

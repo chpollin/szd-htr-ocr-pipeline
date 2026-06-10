@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3194",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Jan (Hans) Altmann [18. Dezember 1940], SZ-AAL/B1.76",
+    "signature": "SZ-AAL/B1.76",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3194/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3194/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3194/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.76"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Jan (Hans) Altmann [18. Dezember 1940], SZ-AAL/B1.76\n- Signatur: SZ-AAL/B1.76\n- Datum: 18.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                     Copy of letter to Jan\nHotel Central                                Rio de Janeiro, 18.Dec. 1940.\n\nDear Jan,\nI have received your letter of Nov. 8th and I have discussed\nwith Stefan all the questions it involves and immediately made enquiries.\nThe information which I got from the most competent sources is\nthat unfortunately there are no chances for a Brazilian visa at the mo-\nment. Besides the capitalist visa - which is out of question as a sum\nof ten thousand dollars has to be brought to Brasil - and apart from the\nquestion of the religion they issue now only a few visas for special\ntechnicians and agriculturists which are needed by the Government. -\nAs to other South American countries, the regulations may vary a little,\nbut we know from our enquiries for friends that the difficulties as just\nas great - for all these countries have now the principle rather to ~~to~~\nprevent than to allow immigration. Should the situation change, I would\nof course let you know it immediately.\nAs to financial assistance in the case of your emigration, I\nmust tell you already now that it is unfortunately impossible for us\nto help anybody outside of England, as we have had to leave everything\nbehind and ourselves living from month to month and from country to\ncountry (we are leaving Brazil in January). In England, however, Stefan\nhas left with Hanna a certain amount for current expenses in Bath and for\nunforeseen payments, and he is writing her not to let you get into\ndistress.\nI can well understand how unhappy you must feel in your present\nsituation, separated from your wife and unable to find a position, and\nI am sorry that there is at present no chance to help you to emigrate\nto another counrty. I hope at least that you have good news from your\nwife who at any rate is safe from bombing attacks and that you per-\nsonally do not suffer too much from the effects of the war. - As to\nthe past, do not let us talk about it any more, there is for every one\nof us plenty to worry about the present time and the future.\n\nWith best wishes for the new year and kindest regards,\n\nDear Hannah, Lotte shows me this letter to her brother. I leave\nit quite to you how much you think necessary or advisable\nto let him have at once. Only please tell him that this\nmeans no permanent obligation of {our} ~~their~~ part. Any help out\nof England is thoroughly excluded as we have ourselves to\nrenew from month to month our life. [Unterschrift: Stefan]",
+        "notes": "Typoskript mit handschriftlicher Ergänzung am Ende (Stefan Zweigs Handschrift). Die Zeile 'Copy of letter to Jan' ist handschriftlich in Blau eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text vom Typoskript der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Durchscheinender Text vom Typoskript der Vorderseite sichtbar.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung am Ende ist typisch für Stefan Zweigs Handschrift und gut entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2482,
+    "total_words": 442,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2482,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2482,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

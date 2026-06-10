@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3284",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [19. September 1935], SZ-AAL/B2.50",
+    "signature": "SZ-AAL/B2.50",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3284/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3284/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3284/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.50"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [19. September 1935], SZ-AAL/B2.50\n- Signatur: SZ-AAL/B2.50\n- Datum: 19.9.1935\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke (20 Rappen, Helvetia) mit Poststempel 'ZÜRICH 19.IX.35'. Gedruckter Text: 'GLION SUR MONTREUX', 'POSTKARTE CARTE POSTALE CARTOLINA POSTALE', 'Mit Luftpost Par avion Con aeroplano'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann, ich bin für\nauf der Durchreise in Zürich, reise\nnach Tirol nach Montreux zu Rolland,\nbleibe einen Tag in Genf, dann Paris\nich hoffe am 26ten oder 27ten in\nLondon zu sein, wäre Ihnen sehr\ndankbar, wollten Sie am Portland\nPlace vorbeigehen, um dort womög-\nlich für diesen Tag ein Flat nehmen\nuns darüber nach Paris, Hotel Lou-\nvois berichten, damit ich Bescheid\nweiss. Verzeihung, dass ich Sie mit\nall dem belästige. Viele Grüße\n\nSt. Zweig\nHotel Louvois, Paris",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Die Zeile 'auf der Durchreise in Zürich' scheint eine Korrektur oder Ergänzung zu sein, die den Satzanfang 'ich bin für' überschreibt oder ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "auf der Durchreise in Zürich, reise\nnach Tirol nach Montreux zu Rolland,\nbleibe einen Tag in Genf, dann Paris\nich hoffe am 26ten oder 27ten in\nLondon zu sein, wäre Ihnen sehr\ndankbar, wollten Sie am Portland\nPlace vorbeigehen, um dort womög-\nlich für diesen Tag ein Flat nehmen\nuns darüber nach Paris, Hotel Lou-\nvois berichten, damit ich Bescheid\nweiss. Verzeihung, dass ich Sie mit\nall dem belästige. Viele Grüße",
+        "notes": "Ausschnitt der Nachrichtenseite (identisch mit Seite 2, ohne Unterschrift und Hotelangabe). Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Die Korrektur in der ersten Zeile der Nachrichtenseite ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 948,
+    "total_words": 162,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      51,
+      483,
+      414
+    ],
+    "chars_per_page_median": 267.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3163",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. September 1940], SZ-AAL/B1.47",
+    "signature": "SZ-AAL/B1.47",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3163/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3163/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3163/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.47"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. September 1940], SZ-AAL/B1.47\n- Signatur: SZ-AAL/B1.47\n- Datum: 10.9.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. 10. your letter of Aug 26th arrived this morning.\nUntil middle of October\nHOTEL PAYSANDÚ, Rio\nthen c/o Editora Guanabara\n132 rua Ouvidor, Rio\nwho will forward letters\n\nRio, 10.9.40\n\nDear Manfred and Hanna,\nThanks for your cable that Eva has\nsailed. I hope she has a very good journey and will feel happy in\nher new surroundings. I asked Salmon's to cable me her arrival and\nI hope you will do so as well. We are of course very anxious to\nhave news from you, and please write often. I was surprised that\nour letters had not yet arrived because we wrote at least once a week\nfrom here. We only write by air from here, and I expect you get a few letters\nat once. We address them to your London address. I hope that you are all well\nwhen this letter arrives. And if you think it better that Mama leaves\ntell her not to worry about the cost and I hope she will get permission\nto leave and go wherever she wants as I do not think that she may go to\nBath. - We are perfectly well in these wonderful surroundings\nand shall be sorry to leave in the middle of October. But Rio is getting\nvery hot in November, and so Stefan will give a few lectures in\nUruguay Argentine and Chile. There is a possibility that we travel\nfrom Buenos Aires to Chile through the Straits of Magellan, but that is yet\nuncertain. We expect to be in Chile in December and in January in\nNew York. - we got our visas, visitor visa for lectures, today. - Here\nin Brazil Stefan will go to Sao Paulo for a day for a lecture, and then\nwe are invited by the Governor of Minas Geraes to see his Province where\nthere are interesting old towns like Ouro Preto and Mariana, a gold mine\netc. As we will go by air we will be away from Rio not more than\n2 or 3 days. \nKindest regards and love,\nLotte\nWe would be perfectly happy here would it not be for you. Lotte be-\nhares here like a great lady and besides machines, is photographed\nand to be seen in all the newspapers in all her beauty. In the\nevening we feel always completely confused by speaking all[?] in\nquick turns English, French, Spanish, German, Yiddish, Portuguese;\nyou will see in our letters, that we are not more able to write\ncorrectly any language. Next week I have a full program and\n\n[Randnotiz links:]\nwe conjure you to keep these names and it is difficult to retain only a single one of\none meets every day a dozen of them. I am rather slow to let cable Eva frequently at our expense because I must heal you\n[Randnotiz oben:]\nletter 3 from Rio\n[Randnotiz rechts:]\nwill be anxious for news from\n[?] [?] Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf gelbem Papier. Die Randnotizen sind teilweise schwer lesbar und überlagern sich teilweise mit dem Haupttext. Die Transkription der Randnotizen wurde separat am Ende angefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist mit einer Farbskala und einer Grauskala überlagert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Haupttext ist gut lesbar. Die Randnotizen am linken Rand und am oberen Rand sind aufgrund der Platzierung und der teilweise flüchtigen Handschrift schwerer zu entziffern und teilweise fragmentarisch."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2542,
+    "total_words": 490,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2542,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2542,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0061,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

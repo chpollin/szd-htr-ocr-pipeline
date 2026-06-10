@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3114",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [24. November 1941], SZ-AAL/B1.183",
+    "signature": "SZ-AAL/B1.183",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3114/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3114/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3114/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.183"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [24. November 1941], SZ-AAL/B1.183\n- Signatur: SZ-AAL/B1.183\n- Datum: 24.11.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "24.XI.41\nDear Hanna, and Manfred,\nWe had no letter from you last week and hope\nfor one this week. Now it is already time, dearest Hanna, to send our\nbest wishes - I am sorry I cannot send anything else and wish you\nwould buy yourself something nice from us for your birthday and\nhope that you spend the day pleasantly and in good spirits. Let us\nwish that the next one Eva is already back at home! We had two letters\nfrom her recently, both very cheerful, telling about all sorts of things.\nMrs. Schaeffer has been very unlucky, breaking her right arm several\ntimes and for a little while her activity will be missing in the house.\nBut she is at home and up, and maybe this gives her more time for the\nchildren. - Last week Eva was invited for the weekend at my sister-\nin-laws, and she wrote me that she enjoyed Eva's visit. It seems to\nhave been a busy week-end for Eva, Stefanie took her to an ice-\nshow and a picture, then (she) had lunch with Mrs. Wiener apparently\nat the old Morgenthan's house, for Stefanie wrote something about plates\nof gold and silber, man servants etc and the Wiener's are not at all\nlike that. I am looking forward to Eva's report about the visit. My\nsister-in-law seemed impressed by Eva's descriptions, I am more\ninterested to hear how she liked Mr and Mrs. Wiener, and hope that she\nalso enjoyed her time with the Zweigs. Also Salmon's seem to\nhave invited Eva recently and so I hope she had a good time.\nMrs. Sch. I am afraid will not be able to write for some time,\nbut I think you may be reassured about Eva. You miss Eva\nand we miss Eva, and maybe we would even be a little hurt\nif she did not miss us at all. But on the whole, I think she is\nhappy at Amity Hall. - Your birthday letter for Stefan travelled\nvery quickly and reached us some time ago. This week he will have\nto pass this hard day and we plan to spend it with the\npublisher in Friburgo, another little mountain town, 3 or 4 hours\nfrom here. - Otherwise nothing is to be told about us. We had\na visitor or two, were invited once or twice, continue to play chess\n(although Stefan is not satisfied with my progress), and the only new\nthing is that I have begun to knit a jumper and taught my maid\nhow to make Semmelknoedel. Do not laugh at me if I ask you to\nsend me the recipe of Linzertorte and Lemon cream. I cannot give\n\"great\" invitations but I feel the need to specialise as the things you\ncan buy here are always the same. Streuselkuchen or a kind of Petit\nFour and I prefer home-made things, and whereas Sachertorte is rather\nheavy and I believe impossible to make in my stove, I think Linzertorte\ndoes not require much or regular heat. Do not think I develop into a\nmodel housewife - even though I did go to the market last Saturday.\nYet I vaguely dream of making salt meat and would welcome a ladies\ntea with stupid household talk. But I believe after December this\nwill be easy as many Brazilian friends send their families up here.\nFondest love and heartiest birthday wishes\nLotte.\n\n[Randnotiz links:] I have been long without news from mother. And been wrote a few days ago that she was almost daily (and he seems to be recovering), so I hope that she is alright.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Randnotiz links ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotiz auf Seite 1 wurde vollständig transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3175,
+    "total_words": 607,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3175,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3175,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

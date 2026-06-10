@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3340",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig [20. September 1937], SZ-AAL/B3.100",
+    "signature": "SZ-AAL/B3.100",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3340/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3340/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3340/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.100"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig [20. September 1937], SZ-AAL/B3.100\n- Signatur: SZ-AAL/B3.100\n- Datum: 20.9.1937\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wichtigst! 3. Brief nach Zürich\n20. 9. 37\nLieber Stefan\nhoffentlich hast Du es schon beim maestro\nu. in der herrlichen Handschrift gehabt.\nIch schreibe noch ein 3. Mal, weil\nich Dir sagen wollte, dass Meiler mir\nschrieb, du hättest ihm nicht neue\nAdressen gegeben und er deshalb\nnicht wusste, ob er Dir noch\nunterwegs jetzt Post senden soll.\nBitte das also nicht als Versäumnis\nzu betrachten. erst\n2 bin sendet er mir heute im Original\neinen Brief von Dir ein, den er mir\nhätte (Bemerkung von Dir) zeigen sollen.\nDarin steht, dass die Lösung\nnicht schrecklich ist sondern mir.\nDas weiß Meiler doch so wie ich.\nIch wünsche nichts lieber, als dass\nDu nicht mehr misstraust, verübelst\nund ~~fort~~ darüber hin u. her schreiben brauchst.",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Die Tinte ist violett. Die Zeile '2 bin sendet er mir...' scheint eine Korrektur zu sein, 'erst' wurde über '2 bin' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Meiler begründet mir, dass er diese Forderungen\nstellte u. schreibt mir, dass Stefan vergütet\nu. dass er doch eine faktische Trennung der\nEhe vorsieht und nach London übersiedelt\nist und dass in solchen Fällen immer gar\nEhegatten die zukünftige und dauernde\nAlimentation vereinbart wird. Ich citiere\nDir das nur zu dem Zweck, dass Du\nsiehst, dass nichts Ungeheuerlicheres mit\ndieser von Meiler gezimmerten ersten Erklärung\ngeschah, denn in Deinem Entwurf war nicht\nenthalten, dass der N.A. keinerlei Basis mehr\nbilden soll.\nIch bitte Dich zu glauben, dass ich mit\nDeinen materiellen Zusicherungen vollauf\nzufrieden bin. (Du schreibst mir hätte mir\nein Kapital auf mein Conto gebracht, \"nein\nDu hast es mir doch geschenkt.)\nDie Erklärung, die Meiler Dir senden\nwird (hätte Dir doch meine nach Lugano gesandte\ngenügt, die Dir materiell doch gar nichts auferlegen\nsoll - was meine Weisung betrifft alles enthalten\nwas Du vorschlägst, es soll nur die Formulierung\nnicht der Sicherheit des N.A. durch [?] Fragestellungen\ndaher er, der verantwortlich dafür ist, diese selbst\nwählen. Da Du schreibst dass alles nur vorläufig ist\nmusst Du mir doch zubilligen, dass der N.A. fest in der\nGültigkeit bleibt, was Du ja selbst willst. Nur dies eine erbitte ich\nmir nicht das Zusammensein in Frage zu stellen, wo ich schon\njetzt so bang doch auf so unendlich viel Zusammensein verzichte.\n\n[Randnotiz links:] Ich habe u. nun weil ich bitte, bitte musste, gern. Ich bitte Dich vielmals\njetzt so bang doch auf alles Dank, gute Reise!! für uns beide\n[Randnotiz rechts:] sehr wieder wichtiger",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. Die Randnotizen sind vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt den unteren Teil des Briefes von Seite 2, der durch die Farbskala teilweise verdeckt ist.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der komplexen Randnotizen und der Korrekturen im Textfluss. Die violette Tinte ist auf dem hellen Papier gut kontrastiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2306,
+    "total_words": 379,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      733,
+      1573,
+      0
+    ],
+    "chars_per_page_median": 1153.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0026,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3195",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Lotte Zweig an Manfred Altmann [27. Dezember 1940], SZ-AAL/B1.77",
+    "signature": "SZ-AAL/B1.77",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3195/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3195/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3195/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.77"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Lotte Zweig an Manfred Altmann [27. Dezember 1940], SZ-AAL/B1.77\n- Signatur: SZ-AAL/B1.77\n- Datum: 27.12.1940\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. M. Altman\n49 Regency Lodge\nLondon N W 3\nInglaterra",
+        "notes": "Adressseite der Postkarte. Handschriftlich. Briefmarke Brasilien 500 Reis, Poststempel 'RIO DE JANEIRO 27. XII. 1940'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig\n\nRIO, ANO NOVO 1941\n\nNo mar, tanta tormenta e tanto damno;\nTantas vezes a morte apercebida!\nNa terra, tanta guerra, tanto engano,\nTanta necessidade aborrecida!\nOnde pode acolher-se um fraco humano?!\nOnde terá segura a curta vida,\nQue não se arme e se indigne o céu sereno\nContra um bicho da terra tão pequeno?!\n\nCamões, LUSIADAS C. I., E. CVI\n\n____________________\n\nWeh, wieviel Not und Fährnis auf dem Meere\nWie nah der Tod in tausendfalt Gestalten!\nAuf Erden wieviel Krieg! Wieviel der Ehre\nVerhasst Geschäft! Ach dass nur eine Falte\nDes Weltballs für den Menschen sicher wäre,\nSein bischen Dasein friedlich durchzuhalten,\nIndes die Himmel wetteifern im Sturm.\nUnd gegen wen? Den schwachen Erdenwurm!\n\nTrad. STEFAN ZWEIG.",
+        "notes": "Vorderseite der Postkarte. Gedruckter Text mit handschriftlicher Signatur 'Stefan Zweig' am oberen Rand.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte ein Ausschnitt der Vorderseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine gedruckte Vorlage handelt. Die handschriftliche Signatur auf Seite 2 ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 790,
+    "total_words": 130,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      54,
+      736,
+      0
+    ],
+    "chars_per_page_median": 395.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

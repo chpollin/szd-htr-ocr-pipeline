@@ -1,0 +1,102 @@
+{
+  "object_id": "o_szd.3069",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [1. Juli 1941], SZ-AAL/B1.142",
+    "signature": "SZ-AAL/B1.142",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3069/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3069/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3069/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3069/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3069/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.142"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [1. Juli 1941], SZ-AAL/B1.142\n- Signatur: SZ-AAL/B1.142\n- Datum: 1.7.1941\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ossining 7 Ramapo Road\nState New York\n\n1. July 1941\n\nDear Hannah & Manfred, I am writing with pencil\nas all things are already packed - Lotte has worked\nfor two days as there are always a lot of books,\npapers manuscripts coming together in six months\nand we cannot more carry all this continuously with\nus - we have left in Rio already all Brazilian\nbooks and here in the hotel a second part of it.\nIt is not easy as I have a kind of office to\nmove with me, letters, documents, typewritten copies\nadresses, contracts - you can imagine how we\nare longing to have a kind of house!! But this\nwill never be as long as this war continues, it\nis possible that I have to go in the autumn for\nlectures to Cuba and perhaps again the other\ncountries - for the moment we will retire\nto the little house and I shall try to work there\ncontinuously on my autobiography which will be\na long and I hope very substantial book (the\ngreat difficulty is that I have only to rely upon\nmy memory as I have no letters, no diarys from\nall those bygone times.) As we took over the maid\nLotte is still packing, packing, pasting - I wish I\nwould see us more thanks for ten years!",
+        "notes": "Handschriftlicher Brief auf Papier. Am linken Rand vertikal geschriebener Text: 'Lotte is still packing, packing, pasting - I wish I would see us more thanks for ten years!'",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "in this little house we hope to have time - here\none looses much by going to Restaurants, meeting\npeople. Eva is quite near and thanks to the Lops'\nauto we shall see her every few days. Many thanks\nfor your conversation with Willmot, the idea was\nabsurd that such an amount should have been\nearned - those times are gone for ever and I am\nvery satisfied that we can make our modest living.\nIf I say modest I am well aware that even the\nsmallest restaurants here give such an abundance\nof food that we are often ashamed when thinking of\nEurope where thanks to this devil of Hitler 20\nto 30 millions in Poland, Russia will die by\nstarvation. We get frightful letters from France\nall these people want affidavits, money, re-\ncommendations and alas, we have no power at\nall and every day we get new and new demand\nit is heartbreaking. It is frightfully hot, New York\na real furnace and if Croton and Ossining\nare in themselves no cool places there are at\nleast the evenings refreshing and one can go\nin shirts and pants. Here it is the humidity and\nthe smell in the air which make it intolerable and\nthe houses are baked the whole day and therefore\nstill hot during the night. Thanks for all Stefan Zweig",
+        "notes": "Handschriftlicher Brieftext auf der zweiten Seite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "in this little house we hope to have time - here\none looses much by going to Restaurants, meeting\npeople. Eva is quite near and thanks to the Lops'\nauto we shall see her every few days. Many thanks\nfor your conversation with Willmot, the idea was\nabsurd that such an amount should have been\nearned - those times are gone for ever and I am\nvery satisfied that we can make our modest living.\nIf I say modest I am well aware that even the\nsmallest restaurants here give such an abundance\nof food that we are often ashamed when thinking of\nEurope where thanks to this devil of Hitler 20\nto 30 millions in Poland, Russia will die by\nstarvation. We get frightful letters from France\nall these people want affidavits, money, re-\ncommendations and alas, we have no power at\nall and every day we get new and new demand\nit is heartbreaking. It is frightfully hot, New York\na real furnace and if Croton and Ossining\nare in themselves no cool places there are at\nleast the evenings refreshing and one can go\nin shirts and pants. Here it is the humidity and\nthe smell in the air which make it intolerable and\nthe houses are baked the whole day and therefore\nstill hot during the night. Thanks for all Stefan Zweig",
+        "notes": "Wiederholung der Seite 3 mit aufgelegten Archiv-Farbskalen und Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Wiederholung auf Seite 5 mit den Skalen bestätigt die Lesung der Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3552,
+    "total_words": 678,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1152,
+      0,
+      1200,
+      0,
+      1200
+    ],
+    "chars_per_page_median": 1200,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        2,
+        4
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

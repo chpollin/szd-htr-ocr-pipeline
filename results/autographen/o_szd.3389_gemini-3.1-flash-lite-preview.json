@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3389",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Rose Walter an Lotte Zweig [19. September 1935], SZ-AAL/B5.2",
+    "signature": "SZ-AAL/B5.2",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3389/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3389/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3389/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3389/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3389/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B5.2"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Rose Walter an Lotte Zweig [19. September 1935], SZ-AAL/B5.2\n- Signatur: SZ-AAL/B5.2\n- Datum: 19.9.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann !\n\nBitte tun Sie mir die Liebe, eine der Times=Kritiken mit einem\nBleistiftstrich an dem mich betreffenden Absatz zu senden an:\n\nGebrüder S t r e c k e r\nS C H O T T SÖHNE\nM a i n z a.Rhein\nWeihergarten 5\n\nSie brauchen nichts hinzuzufügen und es nur in einen Briefum-\nschlag zu stecken.\n\nIch bin am 24. abends in London, wenn alles klappt.\n\nAuf Wiedersehn! Herzlichen Dank.\n\nRose G.",
+        "notes": "Typoskript auf Briefpapier, Unterschrift handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Finchley Road\nNorth Circular Rd\nrechts rot Lampe\n\nAnchovis\nBriefpapier\nMaschinenpapier?\nCarbon Paper\ngrosse Kuverts\nSchnur\n~~alles~~\nMarken\nTelegrammformulare\nAirmail\nPostkarten",
+        "notes": "Handschriftliche Notizen auf der Rückseite eines Briefumschlags. Farbskala und Grauskala für Archivierung vorhanden.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Frl. Lotte Altmann\n50 Woodstock Road\nLondon N.W.11",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke '25 Pfennig' (100 Jahre Deutsche Eisenbahn), Poststempel 'Berlin-Charlottenburg 2, 19.9.35'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Finchley Road\nNorth Circular Rd\nrechts rot Lampe\n\nAnchovis\nBriefpapier\nMaschinenpapier?\nCarbon Paper\ngrosse Kuverts\nSchnur\n~~alles~~\nMarken\nTelegrammformulare\nAirmail\nPostkarten",
+        "notes": "Rückseite des Briefumschlags mit handschriftlichen Notizen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift auf dem Umschlag ist klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 810,
+    "total_words": 127,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      406,
+      0,
+      177,
+      50,
+      177
+    ],
+    "chars_per_page_median": 177,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

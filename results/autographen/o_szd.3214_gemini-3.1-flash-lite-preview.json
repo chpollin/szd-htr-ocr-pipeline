@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3214",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [31. Januar 1941], SZ-AAL/B1.93",
+    "signature": "SZ-AAL/B1.93",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3214/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3214/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3214/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.93"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [31. Januar 1941], SZ-AAL/B1.93\n- Signatur: SZ-AAL/B1.93\n- Datum: 31.1.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Viking Press\n18 East 48th Street\nNewyork.                                Newyork, 31st January 1941.\n\nDear Hanna and Manfred,\n\nMy wife has written you that we have finally\nsettled Eva, and I believe that the whole matter will be arranged to\nyour entire satisfaction. In the school she will have plenty of\ncompany and of Mrs. Schaeffer, in whose home she is going to live,\nwe have an excellent impression.\nNow the material side of the matter. Thanks\nto the generosity of Mr. Salmon where she has been living until now\nyou have been up to now in the privileged position not to have had\nto ask the Treasury for any permission of sending your child money\nfor nearly six months. Also now the expenses will be nearly com-\npletely covered through reduced fees and through relatives. It will\nbe only necessary for you to ask permission for the transfer of a\nlimited amount for smaller expenses, for books, dresses, shoes,\nluncheon money, fares, stamps etc. as we would not like to ask our\nrelatives here also for those things; you know they have plenty of\nother obligations. We have been informed that such trifling sums\nfor the extra expenses have been granted to the parents of British\nchildren over here, and I would advise you to make an application\nfor such additional monthly contributions. I can assure you that\nthe school as well as her new home are run on very simple lines, but\nnevertheless you know that there are always a number of small extras\nto be paid. If you get permission for such a transfer, the money\nshould be sent directly to Eva's new home, Mrs. A. Schaeffer, Amity\nHall, Mount Airy Road, Croton-on-Hudson, New York.\nWe are alright here. We have had a good rest\nafter that exhausting journey, and I have now taken up my work again,\nhappy to be quietly in my room without any social obligations for the\ntime being.\n\nWarmest regards\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Grußformel und Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgelegter Farbskala/Grauskala für Archivierungszwecke. Zeigt den durchscheinenden Text der Vorderseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftlichen Ergänzungen (Grußformel und Unterschrift) sind ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1864,
+    "total_words": 328,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1864,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1864,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3040",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. April 1941], SZ-AAL/B1.116",
+    "signature": "SZ-AAL/B1.116",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3040/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3040/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3040/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.116"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [10. April 1941], SZ-AAL/B1.116\n- Signatur: SZ-AAL/B1.116\n- Datum: 10.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New York, 10. 4. 41\n\nDear Hanna & Manfred,\nThis morning your letter (March 25th!) arrived and a few hours\nlater Eva & two great pleasures one day. She has grown\nquite a lot in those weeks at Croton, is her old self, gay\nand lively and I believe glad to be with us. I have\njust put her to bed after bathing her - at her own request -\nand she is really growing from a child into a girl, even\nshowing faint traces of developing a bosom. We will have her\nphotographed for you next week and I think you will find\nher a little thinner, although still well filled out, and\nthe face not more quite so round. I shall have to get her\none or two more summerdresses (the ones she brought over will\nbe lengthened by a little dressmaker) and a few pairs of\nsocks, otherwise she seems to have all she needs. Although\nwhile she found it very nice at Salmon's (I am sure she never\nwas unhappy there) she feels absolutely at home in Amity Hall\nand has a great love for Mrs. Sch. I think you took the\nbig words in her letter to you too seriously. She has de-\nfinitely been influenced by Frend, but what she has\ntaken over is only the friendly understanding and the big\nwords. In her education method she is as normal and healthy\nas you could wish and I believe, if you could see her you\nwould find yourself in complete agreement about the up-\nbringing of children. As to her or their own children, I know\nthe three small ones, very nice fair and blue-eyed, perfectly\nnormal children, and Marilis, the 20 year old girl who is\nlooking after the children and who has graduated in\nastronomical mathematics!) a very pleasant girl. One boy is\nin college, apparently working his way through. And one, a big\nboy, from Mr. Sch's first marriage, is not quite normal and\nthey had to leave him behind. Mr. Sch. himself does not\nseem to have an agreable temper, but as he has nothing\nto do with the education and seldom sees the children\nexcept at mealtime, he is without importance as far as I can see.\nI would have more to write, but\nStefan wants to send the letter off. So best love and\nkeep well\nLotte",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through). Gemäß Anweisung nicht transkribiert.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt einen Teil des Brieftextes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf. Die Überlagerung durch die Farbskala auf Seite 3 beeinträchtigt die Lesbarkeit des Originals nicht, da der Text auf Seite 1 vollständig vorliegt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2073,
+    "total_words": 399,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2073,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2073,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

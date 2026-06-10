@@ -1,0 +1,96 @@
+{
+  "object_id": "o_szd.3365",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.125",
+    "signature": "SZ-AAL/B3.125",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3365/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3365/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3365/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3365/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3365/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.125"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.125\n- Signatur: SZ-AAL/B3.125\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Samstag,\n\nLieber Stefan,\nschreibe Dir während der Fahrt der\nBad-Elektr. zurück nach Wien.\nHabe gestern vergessen, Dir von Erwin\netwas zu bestellen. Leider ist Jac.\nnoch nicht entlassen, da das Geld\nnicht aufgebracht worden war. Warnt\nbedauert daher, dass Dein Brief,\nden er zu überschwänglich fand ein\n[?] ihm abgegeben werden musste, da es die\nSituation so ergab, weil er an die Leere\n[?] gerichtet war. Es wäre empfehlens-\nwert, wenn Du ihm alle heikleren\nDinge offen senden würdest damit\ner, in besserer Beurteilung aller\njeweiligen Situationen selbst ent-\nscheiden kann. Er sagt allerdings\n\n[Randnotiz links, vertikal geschrieben:]\nx die ihn hat zu öffnen u. ihn am Tel. vorlesen.",
+        "notes": "Handschriftlicher Brief auf Papier. Die Randnotiz ist vertikal am linken Rand geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dass er in der Leere J. wohl erl. oft.\nEr fragte mich, ob Du etwas veran-\nlasst hättest, ich sagte ich wisse nichts,\naußer einer seinerzeitigen Action\ndie scheinbar von Queralt ausgegangen\nwar, wisse aber nicht ob dies auch [?] die\nzur Durchführung gelangte. J. wollte\nDir, so sagte er, seine kostbare\nBücher verpfänden, aber er wollte\nDir das gar nicht ausrichten. Es sei\nnur von einer Stelle 5000 kr eingegangen\nsonst überhaupt nichts. Welch\nNiedergang! Wie schwer haben es\nMenschen die expatriert und unsym-\npathisch sind! Für unsym-\npathische Menschen sollte es\nKuren u. Hilfsvereine geben, wie\nfür Stotterer. Das Unsympathisch\nist aber oft selbstverschuldet mit\nunverhältnismäßiger Revanche der\n\n[Randnotiz rechts, vertikal geschrieben:]\nWir fuhren zur Krainerhütte u. sie jenes es sehr.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Umwelt. – Es ist tropisch heiß\nu. es wackelt sehr, aber ich hoffe\nes macht Dir Freude zu hören, dass\nes Mama sehr gut geht, war heute\nnoch bei der Untersuchung resp. Be-\nsuch Dr Kausers (der sehr einnehmend\nist), dabei. Du kannst jetzt ganz ruhig\nsein, also u. Stef waren trotz\nAuto's noch nicht bei Mama.\nSie sollte so lange als mögl. schon\nwegen Deines weilen Abwesenheit in Baden\ndraußen, so gut aufgehoben, bleiben.\nWirke dahin, wenn es auch\netwas teurer kommt als ihr Leben\nin Wien, es ist in Deinem besonderen\nInteresse, dass sie bes. während Deiner\nReise (von der sie nichts weiß) gesund\nbleibt. Josefine betreut sie glänzend.\nSchreib mir ausführlich, wie Du lebst u.\nob Du erholt bist. Fuchs hat da ganz\nversagt. Um 12 entle ich ab. Herzliche\nGrüße von Deiner Fr.",
+        "notes": "Handschriftlicher Brief, Fortsetzung.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Bitte an Rathi geben:\n\nMein lieber, lieber Freund,\nda ich in Baden war, wollte\nich ungenannt der Pflegerin\nIhrer Frau ein gutes Trink-\ngeld zukommen lassen. Ich\nwar in vier Spitälern, eines\nganz weit draußen und konnte\nsie leider, leider nicht finden.\nIst sie vill. in der Todesko-\nstiftung? Nehmen Sie, teurer\nFreund den guten Willen für\ndie Tat. Vielleicht kann ich\nes, besser informiert nachholen.\nIch grüße Sie von Herzen.\nIhre treue\nFr. Zw.",
+        "notes": "Handschriftlicher Brief, Beilage für Rathi.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 4, jedoch mit Archivierungshilfen überlagert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Friderike Zweig ist charakteristisch und weitgehend eindeutig zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2692,
+    "total_words": 444,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      684,
+      792,
+      771,
+      445,
+      0
+    ],
+    "chars_per_page_median": 727.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0068,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

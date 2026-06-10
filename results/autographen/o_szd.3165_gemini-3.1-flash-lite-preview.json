@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3165",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [15. September 1940], SZ-AAL/B1.49",
+    "signature": "SZ-AAL/B1.49",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3165/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3165/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3165/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.49"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [15. September 1940], SZ-AAL/B1.49\n- Signatur: SZ-AAL/B1.49\n- Datum: 15.9.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, it is not at all easy for us to write\nto you. We read in the newspapers about the furious attacks on England\n(happily also that they are rebated) and we feel ashamed to have here\nsuch a perfect life. To look out of our windows is simply a dream, the\ntemperature is superb - a winter which is more June than May - the\npeople treat us in every possible way, we live quietly, deeply and the\nmost interesting life - really happy would it not be for you and all the\nfriends and the great misery of mankind. I will do everything to prolong\nour stay here as Lotte will absolutely not leave, but I have to fulfil my\nduties. I have a lecture in San Paolo this week, very well paid, 250\ndollars and hotel and plane for us both, this covers alone one whole\nmonth and I have no material worries as the lectures in Uruguay,\nArgentine, Chile are equally well paid and we are invited in Uruguay\nand Chile as guests of the Government, which will pay railway and\nhotels. Next week we are going to the old towns in the interior of Brazil\nas guest of the Province, poor Lotte will be photographed abundantly and\nhere you could see her in all the cinemas. Finally we go back to New York\nwe have already our visas and shall see (and let us hope so) and\nfetch Eva. You may be both sure that we will look after her and\nbring her back grown-up and perhaps with a Yankee-accent.\nIt is terrible for me to remember all the friends there over. I hope\nthat Robert Neumann and Korner[?] could leave, we have done all\nfor an American visa during my stay. Friedental I cannot help\nfrom here except if he would like to go to Brazil or to Cuba - in\nJanuary I will try all possible. My former wife has her visas to\nAmerica and I believe also to Mexico, she is thanks to the help of\nFerro, who has been very kind to me, in Lisbon. But all the others. You\nwill understand how ashamed we feel here and I should be glad\nto know that you can enjoy Bath in theses days of wrath. Please\nbe generous with money, nobody knows what the next years will\nbring and I should be so glad to be of any help to you, to your\nfamily and our friends. Yours\nStefan Zweig\n\n[Randnotiz links:] Rio, 15. October Hotel Paysandu, after all\nwe cable yesterday",
+        "notes": "Handschriftlicher Brief von Stefan Zweig auf gelbem Papier. Die Randnotiz links ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. 'Korner[?]' ist eine unsichere Lesung eines Namens."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2220,
+    "total_words": 433,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2220,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2220,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0023,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

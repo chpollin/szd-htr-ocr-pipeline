@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3314",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [14. Mai 1937], SZ-AAL/B2.78",
+    "signature": "SZ-AAL/B2.78",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3314/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3314/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.78"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [14. Mai 1937], SZ-AAL/B2.78\n- Signatur: SZ-AAL/B2.78\n- Datum: 14.5.1937\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Regina\nBrüder Kremslehner\nWien, IX., Dollfußplatz\n\nLiebes Fräulein Altmann,\nich kann noch immer nicht genau\nsagen, wann ich komme, wahr-\nscheinlich Dienstag oder Mittwoch,\nes ist aber auch möglich, dass es\nFreitag oder Samstag wird. Ich mag\nnicht vermag Ihnen alle die Ärgerlichkeiten\nnicht zu erzählen, die hier zu\nbewältigen sind; ich wollte, alles läge\nschon hinter mir. Theater oder Ver-\ngnügen habe ich hier keines und nur\nden dringenden Wunsch, auch in England",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Die Tinte ist dunkel, gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "zu erfolgen und zu meiner Arbeit zu\nkommen. Auch Wien ist dabei jetzt so\nzauberhaft schön im Frühling.\nHerzlichst\n\nS.Z.",
+        "notes": "Handschriftlicher Text auf der Innenseite des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Unten rechts ist der Text von Seite 3 durchscheinend zu sehen.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Hotel Regina\nBrüder Kremslehner\nWien, IX., Dollfußplatz\n\nMiss Lotte Altmann\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Österreich' (1 Schilling) mit Poststempel 'Wien 14. V. 37'. 'MIT FLUGPOST' Stempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "3408\n71937\nEH",
+        "notes": "Rückseite des Briefumschlags mit Poststempeln 'Wien 14. V. 37' und handschriftlichen Notizen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 711,
+    "total_words": 114,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      472,
+      0,
+      119,
+      0,
+      0,
+      107,
+      13
+    ],
+    "chars_per_page_median": 113.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

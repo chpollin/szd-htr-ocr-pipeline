@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3385",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Joachim Maass an Lotte Zweig [25. Mai 1938], SZ-AAL/B4.7",
+    "signature": "SZ-AAL/B4.7",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3385/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3385/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3385/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.7"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Joachim Maass an Lotte Zweig [25. Mai 1938], SZ-AAL/B4.7\n- Signatur: SZ-AAL/B4.7\n- Datum: 25.5.1938\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss\n\nLotte Altmann,\n\nLondon W1,\n\n49, Hallam Street 9. Dr. Zweig.",
+        "notes": "Adressseite einer Postkarte. Briefmarken und Poststempel (Hamburg-Altona, 24.5.38) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "25. Mai 38.\n\nLiebe Lotte: -\nMitten aus der Hast einer Arbeit, die mir hoffentlich viel Zeit einbringt, möchte\nich euch schnell daran erinnern, daß ihr das Buch dabehalten sollt, das ich noch\nvor ein paar Tagen schicken ließ. Wenn ich euch besuche, ich denke: im Anfang des\nAugust, hätte ich gern darüber mit euch geredet. Hoffentlich macht es euch soviel\nSpaß, wie es allen Freunden hier gemacht hat. Auch Onkel Richard, der ja wohl\nbald zu euch kommt, möchte es dann bei euch lesen. Schreibt mir mal ein\npaar Zeilen, wie es euch gefallen hat. Von mir hört ihr ausführlicher, sobald\nich etwas mehr Ruhe habe. Nehmt bis dahin die herzlichsten Grüße und Wünsche\neures alten\nOnkel William",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala fuer Archivierung. Die Postkarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen Abkürzungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 750,
+    "total_words": 130,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      65,
+      685,
+      0
+    ],
+    "chars_per_page_median": 375.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

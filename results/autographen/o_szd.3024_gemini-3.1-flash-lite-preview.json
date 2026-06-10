@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3024",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Februar 1941], SZ-AAL/B1.102",
+    "signature": "SZ-AAL/B1.102",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3024/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3024/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3024/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.102"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Februar 1941], SZ-AAL/B1.102\n- Signatur: SZ-AAL/B1.102\n- Datum: 02.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New Haven, Hotel Taft\nDear Hannah and Manfred, Lotte phoned yesterday with your daughter\nand we heard with pleasure that she feels happy and also the new school\n- the public school in which she is now going as the progressive school was\nno more scholarship available - seems to please her. She is there the youn-\ngest of all, the nearest to her a boy which will be 13 soon. Perhaps she\nwill have to work harder there as in New-Rochelle, but she will manage it,\nI am quite sure. Mr. Salmon has invited her for the week end and I hope\nshe will enjoy it very much, meeting her schoolfellows. She will have\nher school holidays in March and we will do our possible to see her then\nor to have her with us.\nWe are living here in a little, not very artistic town, but I have all\nfacilities at the Yale University. I can take as many books at home\nas I like and you may imagine, how helpful this is; the head librarian is\na charming man and we have been invited in his house; today Thornton\nWilder is coming, yesterday and last week Shalom Asch and Joachim\nMaas - you see, we live not in a wilderness, but I have time to read and\nto write.\nAs you are managing all my things I would ask you to send\nthrough my bank eighteen Pounds to Max H. Bresch consultant\non International Law Ibex-House, Minories London EC 3 which\namount I am due for a consultation of his American office. Con-\ncerning all other things I shall write directly to my chartered\naccountant Mr. Wilmot. As to the house I know that all is there\nin best order; please give my best regards to Mr. Miller and all\nthe good helpers. Sometimes we are weary of this Hotel life but\nthere are such difficulties with apartments - service etc - that we\nmust continue. Perhaps in Rio, where everything is cheaper and easier\nthan here. But who can make plans? We live and wait and wait\nand live, so dont let us wait to long for good news that you have\na well merited rest at Bath. Love to all. Yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1955,
+    "total_words": 378,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1955,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1955,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

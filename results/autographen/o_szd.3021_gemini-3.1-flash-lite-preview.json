@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3021",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [29. Januar 1940], SZ-AAL/B1.10",
+    "signature": "SZ-AAL/B1.10",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3021/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3021/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3021/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3021/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3021/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.10"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [29. Januar 1940], SZ-AAL/B1.10\n- Signatur: SZ-AAL/B1.10\n- Datum: 29.1.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, wäre die Post nicht\nverist so hätten wir dir sofort\n\n№ 1\n\n29. I 1940\n\ngericht, das erste Ei, das hof Sheee und\nWelterunbill eine brave Henne gelegt hat.\nder Vater - unser Gärtner - ist maßlos\nstolz als ob es aus seinem eigenen Steisse\ngekommen wäre. Nun steht es auf dem\nTisch als ein ubrechbares Weltwert in der\nEange, wer es verspeisen solle. Jeder überlässt",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Seite ist in der Mitte gefaltet. Der Text bricht am Ende der Seite ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "I hereby certify that the\nfirst egg has been laid\nE. Altman\n\nIo confermo che l'uovo\nè stato prodotto nella casa\ndei rosaii (Rosamonte.)\nUrsula M.\n\nIch bestätige, dass das Ei tatsächlich\ngelegt, photographiert und gegessen\nworden ist. Telegramm aus Wetter-\ngründen unterblieben. \nLotte.\n\nAuf sy späte wahrheitsgemäß mit\ndieser meiner eigenhändigen Unterschrift den\nobseitig berichteten Gerichte dargelegten Sachverhel.\nAlfred Friedenthal",
+        "notes": "Handschriftliche Bestätigungen in Englisch, Italienisch und Deutsch. Die Unterschriften sind deutlich lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "es grossmutig dem andern, weil alle\nunteilig fühlen, das Du allein würdig\nwärest, es zu köpfen nur dir einzuerleiben\nUnser intellectual handyman -\nso habe ich ihn getauft - Friedenthal will\ndavon eine Fotografie herstellen. der Hof\nin Baure ist unbeschreiblich und wir möchten\nes am liebsten anbraten.\n\nDu siehst also, das es in Rosemount\nnicht melancholisch zugeht, wovon Ihr Euch\nbald überzeugen möget. Euer\n\nStefan\n\nIch bestätige gerne dass der\nOrginal viel schöner u. größer\nist als diese arme Zeichnung\nHerz. Herta",
+        "notes": "Fortsetzung des Briefes von Seite 1. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "№ 1\n\n29. I 1940\n\ngericht, das erste Ei, das hof Sheee und\nWelterunbill eine brave Henne gelegt hat.",
+        "notes": "Farbskala/Grauskala für Archivierung. Der Text ist ein Ausschnitt aus Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Einzelne Wörter wie 'Sheee' oder 'Eange' sind orthographisch ungewöhnlich, wurden aber originalgetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1428,
+    "total_words": 231,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      374,
+      436,
+      519,
+      0,
+      99
+    ],
+    "chars_per_page_median": 436,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

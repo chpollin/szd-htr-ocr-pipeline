@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3152",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [28. Juli 1940], SZ-AAL/B1.37",
+    "signature": "SZ-AAL/B1.37",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3152/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3152/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3152/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.37"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [28. Juli 1940], SZ-AAL/B1.37\n- Signatur: SZ-AAL/B1.37\n- Datum: 28.7.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "28. July 1940\nDear Hannah, we are, as I wrote to Lotte in midst\nof a heat wave and had today the hottest day since\nfour years 1940 but we do not feel much of it as our\nrooms are fairly cool and all cafeterias ice cooled. So\ndo not pity us. We will have a kind of winter in Brazil\nAs to your daughter, Lotte has written to\nyou what happened. Stephen Wise has spontaneously offered\nus to cable his affidavit and we were sure he has done\nso. Unfortunately the same day appeared in all news-\npapers the notice that the action has been stopped and\naffidavits were superfluous. Now when suddenly the\nAmerican Government after three weeks offers slips\nit seems that affidavits will have to be given again\nand we do immediately all necessary steps. You know\nme and Lotte enough to know that it was not our\nfault but just this day when we were proud to have\nsettled all appears this notice and Stephen Wise\nseems to have stopped his cable as superfluous\nYesterday we were invited at Reader's Digest\nand I hope to write again something only not\nlike the last time without the expected result. I\njoin an interview with the New York Times so\nthat you may see, that we are busy here - we see\nmore people than we expected and time passes",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "quickly. We leave the 8th of August for Brazil, all\nfurther arrangements will be made from there, where\nwe arrive the 21th of August.\nYou may imagine with how much eagerness\nwe follow all the news concerning England; the interest\nand sympathy here is raising from day to day and\nwe hope that all possible help will be given to the\nlast country which fights for freedom. I suppose that\nyou have quiet days at Bath, sometimes we wish\nto be there with you all, sometimes we wish to have\nyou all with you here. But I hope from all my heart\nthat we will be together soon. Love to all and\nkindest regards from yours\nStefan Zweig\nThe interview from New York Times please to keep for our\nrecords\nDear Hanna, I am still hoping to\nget news from you while we are here,\nand would be glad to hear that Man-\nfred as well as Levinthals are with\nyou. I was very much upset that against\nhis assurances the affidavit had not\nbeen cabled, but I hope to settle this on\nMonday and will then send you a cable. Lotte",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "quickly. We leave the 8th of August for Brazil, all\n\nyou have quiet days at Bath, sometimes we wish\nto be there with you all, sometimes we wish to have\nyou all with you here. But I hope from all my heart\nthat we will be together soon. Love to all and\nkindest regards from yours\nStefan Zweig\nThe interview from New York Times please to keep for our\nrecords\n\nMonday and will then send you a cable. Lotte",
+        "notes": "Scan mit Farbskala und Grauskala. Zeigt Ausschnitte des Textes von Seite 2, teilweise durch die Skalen verdeckt. Keine neuen Informationen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die dritte Seite ist eine Wiederholung von Teilen der zweiten Seite mit Archiv-Skalen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2617,
+    "total_words": 504,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1223,
+      993,
+      401
+    ],
+    "chars_per_page_median": 1108.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3039",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [10. April 1941], SZ-AAL/B1.115",
+    "signature": "SZ-AAL/B1.115",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3039/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3039/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3039/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.115"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [10. April 1941], SZ-AAL/B1.115\n- Signatur: SZ-AAL/B1.115\n- Datum: 10.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10. April 1941 Dear Hannah, now your little lamb is with us for the\neaster-holiday week and we will do all to make her the time as pleasant\nas possible. She has grown up and looks again like a ballet-dancer in her\nshort frock and this shall be arranged in the next days. It seems that she\nlikes her new home and we like her very much and we have the impression\nthat the surroundings and the way of living is absolutely what we wanted\nfor her; under our supervision she will write today a long letter for you\nand I can imagine how eagerly you will read it. Please dont be worried\nthat she is away, I understand your feelings but dont forget that very\nbig ordeals are still ahead of us before the victory and that the feeling\nto know her safe should be for you in the hours of longing a comfort.\nSo be relieved that she is either treated harshly nor spoiled, we hope\nthat we have just found the right thing for her.\nI thank you so much for all the trouble you have for us. There\nshould before the taxation day some royalties from Cassels (perhaps\nyou can write him/and Paul Tabori (you will fix his adress/number\nas we nearly a year ago just before I left the remittance of Hunga\nrian royalties, which should be paid by an English publisher. Perhaps\nyou find still his letter or write him if it was not paid in July\nor August; it may be that he has used my absence for not paying\nbut you can write to him that on behalf of tax purposes you have\nto ask him about.\nAs to the power of attorney I will speak to the Vice-Consul of\nthe British Consulate whom I shall see Saturday in our house; he\nis a charming man with great literary interest and we like him\npersonally very much.\nI have started to work again and all goes his quiet way; would\nit not be, that we always have to take new decisions we would not\ncomplain. But also we do not know if and when we go to Brazil,\nthere are pros and contras and nobody knows what is right and\nbest in such an absurd time. Anyway, I continue to work and avoid\nseeing people as much as possible. Lotte feels much better since\nthe injection-treatment and health is the most important as\nbut have which demand strength of nerves from us all. Yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Der Text am linken Rand ist vertikal geschrieben und lautet: 'the injection-treatment and health is the most important as but have which demand strength of nerves from us all. Yours Stefan Zweig'. Dieser Text ist in der Transkription am Ende des Haupttextes integriert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt Ausschnitte des Briefes, die bereits auf Seite 1 transkribiert wurden.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Der vertikale Text am Rand wurde korrekt in den Haupttext integriert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2191,
+    "total_words": 424,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2191,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2191,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

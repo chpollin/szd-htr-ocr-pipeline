@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3338",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.1",
+    "signature": "SZ-AAL/B3.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3338/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3338/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3338/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.1\n- Signatur: SZ-AAL/B3.1\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Keine Drohung\nsondern nur\nAufrichtigkeit.\nWenn die Sache so steht,\ndass ich jetzt ein\nfür alle mal vor diese\nTüre gesetzt werden\nsoll, so weiss ich\nwem ich es zu verdanken\nhabe und werde",
+        "notes": "Handschriftlicher Text auf blauem Papier. Die Zeilen sind leicht nach rechts geneigt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "was immer ich bei\ndir riskiere eine\nRuhestörungsklage\ngegen A. machen,\n~~so~~ denn ich habe\ndazu alle Handhaben,\naber bei Gott, ich\nersehne nichts mehr\nals friedlichen Fern-\nverkehr u. seltenes\nungestörtes Zusammentreffen\nu. Wahrung des Gehors!",
+        "notes": "Handschriftlicher Text auf blauem Papier. Fortsetzung der Nachricht.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "was immer ich bei\ndir riskiere eine\nRuhestörungsklage\ngegen A. machen,\n~~so~~ denn ich habe\ndazu alle Handhaben,\naber bei Gott, ich\nersehne nichts mehr\nals friedlichen Fern-\nverkehr u. seltenes\nungestörtes Zusammentreffen\nu. Wahrung des Gehors!",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farb- und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist flüssig und weitgehend eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 674,
+    "total_words": 108,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      186,
+      244,
+      244
+    ],
+    "chars_per_page_median": 215.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3221",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Alfred Zweig an Stefan Zweig [10. September 1937], SZ-AAL/B10.1",
+    "signature": "SZ-AAL/B10.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3221/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3221/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3221/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3221/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3221/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B10.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Alfred Zweig an Stefan Zweig [10. September 1937], SZ-AAL/B10.1\n- Signatur: SZ-AAL/B10.1\n- Datum: 10.9.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10. Sept. 37.\n\nLieber Stefan!\n\nGestern frühstückte finde Deinen l. Brief vor.\nDu quittierst meinen Brief von mir v. 18. — auch ich wäre\nfür das Schmähschreiben der Angelegenheit fr. — Dergleichen\nhabe ich nie geschrieben 1.) weil ich persönlich etwas abwenden\nangehe oder überhaupt unterlasse u. 2.) weil ich mich da\nüberhaupt nicht hineinmange. — Ich kann mich nur erinnern\nDir einmal darauf hingewiesen zu haben (anläßlich Deiner\nKlage über das Zusammenkommen beider Affären) dass ich die\nArt einer Scheidung immer abgeraten habe, Dein krankender\nNaturell u. Nerven berücksichtigend. — Aber ein jetzt\nein Sache zu behandeln ist, darüber habe ich mich doch\ngar nicht geäußert, zumal durch die Meldung alles erledigt ist.\n\nDagegen muß ich — weil wir schon\nbei dem Thema sind — Dir wieder sagen, dass\nich in eine peinliche Situation gebracht werde.\nIch fast nun ausdrücklich geschrieben, Du müsstest\nkeine anläßlich Ernst Wiener Entfaltet die\nreinen Wein einschenken bezw. sie vorbereiten.\nIch mache nun für die Wahrnehmung, dass das\nnicht geschehen ist, im Gegenteil keine würde",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "durch Briefe die wir von einer Hochzeitreise anmiten, die\ngegenteilige Meinung beigebracht — nämlich dass nach\n10 jahrelangen Zerstigkeiten endlich Häufel feineinnehmen\npropp. — Das wäre mir nun persönlich ganz egal,\nwenn es nur nicht schon alle Spatzen vom Dach pfeifen\nwürden. — Ich rede wie Du weißt nur allgemein\nsondern nenne stets die gleich die Namen!\n\nGestern erzählt Frau Landauer die genaue Schleichungs-\nGeschichte. — Meine Frau agiert (was ich nun getan hatte)\nAntwort: sie wird abgelehnt, denn die Quelle der Frau\nL. ist Hans Wottig (ist der Schwager von Siegfried wenn ich nicht\nirre) der so das in Aussee erzählt hat. Sonstiges\nCharakteristisches will ich lieber bei mir behalten, (betrifft weder dich noch Fr.)\nwie kann ich Mama, die fortwährend immer\nwieder anfängt, da konstant anlügen. — Ich wo\nheute oder morgen erfahre/in es ja doch u.\nich bin kein Lügner, lasse es mir dann\nauch von Mama nicht vorwerfen. — Ich habe Deinen [?] für\nKühnheit gerne raffaktiert, in der Erwartung\ndass Du im Sinne unserer Absprache es Mama sagen\nwirfst. Habe sie immer hingehalten, ich weiß nichts\nnäheres, es ist Stefans Sache Dir zu erzählen\ndann was daran ist. Was soll ich jetzt wirklich\nsagen?!",
+        "notes": "Handschriftlicher Brief, Fortsetzung der Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Hände werden ein fürchterl. Kram in N.Y.!\nIm Zusammenhang damit will ich Dir sagen\n(habe Dich schon vor langer Zeit aufmerksam gemacht)\ndass Dr. K. ein sehr lieber Mensch ist aber geschäftlich\ncum grano salis betrachtet werden muß.\nWenn ich nicht eine so alte Erfahrung\nhätte, er hätte mich mein halbes Vermögen kosten\nkönnen, mit dem engen Animieren. Er sieht hat\nnur nun die Interessen seines Hauses\nim Auge u. will viel Umsatz machen.\nBitte richte Dich danach in Deinem Interesse.",
+        "notes": "Handschriftlicher Brief, Fortsetzung.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Ich darf hoffen, dass ich sage Dir was mich kränkt,\nals Still erwürgt zu sein. Schließlich weiß ich\nja auch, dass Dein derzeitiger Nervenzustand\nbei Dir Hemmungen hervor bringen kann, die Du\ndie vielleicht heute selbst nicht erklären kannst\nu. anhand der Du vielleicht auch ungünstigen Einflüssen\nzugänglicher bist.\nNun ist es jetzt jedenfalls leichter\nu. ich begrüße Dich herzlich als Dein\nStefan",
+        "notes": "Handschriftlicher Brief, Ende des Schreibens.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 4.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'hineinmange', 'raffaktiert', 'Häufel'). Der Textzusammenhang ist jedoch weitgehend erschließbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3158,
+    "total_words": 514,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1078,
+      1200,
+      483,
+      397,
+      0
+    ],
+    "chars_per_page_median": 780.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0019,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

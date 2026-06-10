@@ -1,0 +1,124 @@
+{
+  "object_id": "o_szd.3265",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [9. Mai 1935], SZ-AAL/B2.33",
+    "signature": "SZ-AAL/B2.33",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3265/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3265/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.33"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [9. Mai 1935], SZ-AAL/B2.33\n- Signatur: SZ-AAL/B2.33\n- Datum: 9.5.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, eine neue Adresse\nHotel Bellerive, Utoquai[?] Zürich\n\nich hoffe, sie wird vierzehn Tage gelten oder\nvielleicht noch länger. Ich habe mich hier allein\nzurückgezogen, um Ruhe zu haben und zu arbeiten\nund eigentlich abzuwarten, was sich ereignet. Ich\nwäre ja tausendmal lieber nach London gegan-\ngen, aber der Gesundheitszustand meiner Mutter, der\nes etwas besser geht, ist so, dass ich mich zu solcher\nDistanz noch nicht entschliessen konnte: von Zürich\nkann ich in drei Stunden Flug oder einer\nNacht zurück sein, was heute noch immer im\nBereich der Möglichkeit liegt. Wird es besser, so\nist es ja noch immer denkbar, dass ich mir\nden innigen Wunsch erfülle, nach London zu\nkommen, nirgendwohin ginge ich lieber. Wo\nhabe ich mich sonst so wohl gefühlt! Wien war\neine arge Zeit, nicht der Zahnarzt allein, sondern\nviel complicierte Fragen und Ärgernisse, in den\nletzten Tagen war ich mit meinen Nerven fertig\nund beginne mich erst hier wieder zu erholen",
+        "notes": "Handschriftlicher Brief von Stefan Zweig, violette Tinte. Die Lesung 'Utoquai' ist aufgrund der Handschrift leicht unsicher, aber kontextuell korrekt für Zürich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann, eine neue Adresse\nHotel Bellerive, Utoquai[?] Zürich\n\nich hoffe, sie wird vierzehn Tage gelten oder\nvielleicht noch länger. Ich habe mich hier allein\nzurückgezogen, um Ruhe zu haben und zu arbeiten\nund eigentlich abzuwarten, was sich ereignet. Ich\nwäre ja tausendmal lieber nach London gegan-\ngen, aber der Gesundheitszustand meiner Mutter, der\nes etwas besser geht, ist so, dass ich mich zu solcher\nDistanz noch nicht entschliessen konnte: von Zürich\nkann ich in drei Stunden Flug oder einer\nNacht zurück sein, was heute noch immer im\nBereich der Möglichkeit liegt. Wird es besser, so\nist es ja noch immer denkbar, dass ich mir\nden innigen Wunsch erfülle, nach London zu\nkommen, nirgendwohin ginge ich lieber. Wo\nhabe ich mich sonst so wohl gefühlt! Wien war\neine arge Zeit, nicht der Zahnarzt allein, sondern\nviel complicierte Fragen und Ärgernisse, in den\nletzten Tagen war ich mit meinen Nerven fertig\nund beginne mich erst hier wieder zu erholen",
+        "notes": "Duplikat von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "obwohl ich erst wenige Stunden hier bin – wenigs-\ntes ist es gleich Ihnen zu schreiben, denn es bedrückt\nmich sehr, Sie in Sorgen zu wissen. Es geht aus bei-\nden gleich; seit ich fort bin, liegt alles bei mir\nauf der schwarzen Seite und damals war alles hell\nund gut. Aber ich hoffe, dass da doch eine Wende\nkommen muss; ich kann z. B. nicht verstehen, dass\nFräulein[?] sich nicht an Sie wandten, wo jetzt der\nKind da ist und auch sonst müsste doch ein Justi-\nschen zu erreichen sein. Wäre bei mir nicht nur\nalles durch diesen Zwischenfall mit meiner Mutter\nin Unsicherheit getaucht – mein Bruder muss näch-\nsten Monat verreisen und ich vielleicht zurück (weil\nmeine Mutter sich hartnäckig weigert, in ein Sanatorium\nzu gehen und wir niemand verlässlichen haben), ich\nkann also nichts sagen, – mein einziger Plan ist\nnächsten Winter nach Brasilien oder Argentinien zu\ngehen. Aber irgend dazwischen komme ich nach L.\nund hoffentlich sehr bald. Mit vielen Grüssen Ihr\n\nStefanZ.",
+        "notes": "Fortsetzung des Briefes. 'Fräulein' ist eine Vermutung für den Namen/die Anrede in Zeile 4.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Ferien in der Schweiz' und Poststempel 'Zürich 1, 9.V.1935'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Liebes Fräulein Altmann, ich danke Ihnen\nvon Herzen für Ihren guten Brief – könnte\nich ihn doch mit einem ebensoleben erwi-\ndern. Aber alles geht quer. Meine Zahnschlosse[?]\nrei ist zwar nach drei Wochen endlich zu Ende\n(morgen) aber die Nerven haben es kräftig\ngespürt. Mit meiner Mutter steht es immer\nnoch nicht gut, wir werden sie wohl in ein\nSanatorium bringen müssen, damit sie doch\nausgiebig gepflegt wird, es ist eine lange\nschwere Sache aus die Hauptkrankheit ihre\n87 Jahre. Das kommt natürlich für mich\njede Disposition, denn ich kann keinesfalls\nweit fort und jeden Augenblick zurückgeru-\nfen werden. Auch sonst ist allerhand Ärger-",
+        "notes": "Handschriftlicher Text auf blauem Papier, mit Farbskala und Grauskala im Bild. 'Zahnschlosserei' ist eine unsichere Lesung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags mit Farbskala und Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite eines Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist bekannt. Einige Wörter wie 'Zahnschlosserei' oder 'Utoquai' sind aufgrund der kursiven Schrift leicht interpretativ, aber im Kontext schlüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3672,
+    "total_words": 611,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 2,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart",
+      "color_chart",
+      "blank"
+    ],
+    "chars_per_page": [
+      975,
+      975,
+      975,
+      52,
+      643,
+      52,
+      0
+    ],
+    "chars_per_page_median": 975.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0065,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

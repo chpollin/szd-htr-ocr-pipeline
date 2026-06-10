@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3033",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Hannah Altmann [4. April 1940], SZ-AAL/B1.11",
+    "signature": "SZ-AAL/B1.11",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3033/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3033/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3033/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.11"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Hannah Altmann [4. April 1940], SZ-AAL/B1.11\n- Signatur: SZ-AAL/B1.11\n- Datum: 4.4.1940\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mrs Hannah Altmann\n\nLondon N W 6\n50, Woodstock Road",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: BATH 4 APR 1940. Briefmarke: 1 Penny (König Georg VI.).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dear Hannah, I have now all permits\ntickets ed. together except the permission\nfor ~~having~~ the travel expenses which will\ncome tomorrow. The date of my departure\nis fixed to Wednesday 9.30 morning[eingefügt] Victoria Station\nand Lotte and I would like to come on\nMonday. We intend to take the train at\n9.15 from here, arriving 11.30\nthan Lotte would bring the luggage\nto you, while I am going to the\nCensorship office and she {or you both} will meet me\nfor lunch. Perhaps it[eingefügt] would be better, that\nLotte and I sleep in an\nHotel near Victoria Station ~~rather~~ \nthan to disturb your house Wed-\nnesday morning and deprive Manfred\nof his precious Bath-hour. We have\nplenty of time to talk this over on\nMonday. Kindest regards\nStefan",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Einige Korrekturen und Einfügungen über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archiv-Aufnahme mit Farb- und Grauskala. Die Postkarte ist in der Mitte platziert, der Text entspricht der Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz einiger Korrekturen und Einfügungen. Die Handschrift ist charakteristisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 794,
+    "total_words": 139,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      51,
+      743,
+      0
+    ],
+    "chars_per_page_median": 397.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

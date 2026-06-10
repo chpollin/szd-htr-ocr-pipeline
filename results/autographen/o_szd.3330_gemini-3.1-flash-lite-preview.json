@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3330",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [16. April 1940], SZ-AAL/B2.92",
+    "signature": "SZ-AAL/B2.92",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3330/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3330/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3330/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3330/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3330/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.92"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [16. April 1940], SZ-AAL/B2.92\n- Signatur: SZ-AAL/B2.92\n- Datum: 16.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le 16.IV 1940\n\nChère Lotte, je ne pourras\nécrire, j'ai trop à faire, chaque\njour plus, car la traduction\ndoit être remanié page pour\npage, je dois faire un theme pour\nle Radio et je ne sais pas encore\nsur quoi. Je suis tout à plat.\nQue après les premiers jours\nje suis maintenant harassé\net surtout profondement triste\nen vue des évenements. Cortot\nest devenu tres vieux, nous\ntous qui sentons profondement",
+        "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Die Zeile 'je ne pourras' scheint ein Schreibfehler für 'je ne pourrai' zu sein, wurde aber originalgetreu transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "les choses, sont au bout de nos\nforces et le travail nous parait\nun refuge. J'ai fait beaucoup\ndes notes pour le Balzac et je\ndevrais voir encore un libraire,\nmais je n'ai plus de temps. Tu\nseras sans lettre de moi plusieurs\njours. Ton\n\nStefanZweig",
+        "notes": "Fortsetzung des Briefes. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "les choses, sont au bout de nos\nforces et le travail nous parait\nun refuge. J'ai fait beaucoup\ndes notes pour le Balzac et je\ndevrais voir encore un libraire,\nmais je n'ai plus de temps. Tu\nseras sans lettre de moi plusieurs\njours. Ton\n\nStefanZweig",
+        "notes": "Dies ist eine Wiederholung des Inhalts von Seite 2, inklusive Archiv-Farbskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "StefanZweig\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS (OPÉRA)\nPARIS\n\nGUTENBERG 20-53\n— 20-54\nTÉLÉPH. — 20-55\n37-07\nINTER 719\n\nMadame Stefan Zweig\n\nBath, (Angleterre)\nLyncoube Hill\nRosemount",
+        "notes": "Briefumschlag. Handschriftliche Absenderangabe oben links, Empfängeradresse in der Mitte. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "el Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text am oberen Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Kleinere Unklarheiten bei der Interpretation von 'Lyncoube' (möglicherweise 'Lyncombe') wurden gemäß der Vorlage transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1244,
+    "total_words": 215,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      531,
+      248,
+      248,
+      177,
+      40
+    ],
+    "chars_per_page_median": 212.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

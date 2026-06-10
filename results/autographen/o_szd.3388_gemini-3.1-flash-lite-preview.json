@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3388",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Rose Walter an Lotte Zweig [3. September 1935], SZ-AAL/B5.1",
+    "signature": "SZ-AAL/B5.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3388/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3388/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3388/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B5.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Rose Walter an Lotte Zweig [3. September 1935], SZ-AAL/B5.1\n- Signatur: SZ-AAL/B5.1\n- Datum: 3.9.1935\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "3. Sept 35.\n\nMein liebes Fräulein Altmann,\nvielen Dank für Ihre lieben Zeilen,\nwollen Sie mir einen Gefallen tun?\nDie Nummer dieser Revue enthält\neine Kritik von mir und ich\nmöchte sie mindestens 5 mal\nhaben. Bitte, bitte, bitte\nhier kostet sie nämlich pro\nStück 1 Shilling. Ich bin um\nden 22ten herum wieder\nLondon, alles, alles münde=\nlies. Werde Sie aber vorher\nnoch bitten, mir die aus=",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Die Tinte ist dunkel, gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "geschnittenen Streifen (aber\nnicht den ganzen Festspielbe=\nricht) zu schicken an eine\nnoch zu nennende Adresse,\nwahrscheinlich Berlin. War\nheute Kapuzinerberg zum\nAbschied. Viele Grüsse\nherzlichst\nRose Walter",
+        "notes": "Fortsetzung des Briefes auf der Rückseite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Kein Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Keine kritischen Stellen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 598,
+    "total_words": 96,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      390,
+      208,
+      0
+    ],
+    "chars_per_page_median": 299.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

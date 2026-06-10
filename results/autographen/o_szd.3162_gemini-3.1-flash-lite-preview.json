@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3162",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. September 1940], SZ-AAL/B1.46",
+    "signature": "SZ-AAL/B1.46",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3162/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3162/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3162/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.46"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. September 1940], SZ-AAL/B1.46\n- Signatur: SZ-AAL/B1.46\n- Datum: 6.9.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "letter 4 from Rio\n\nHotel PAYSANDÚ\n6.9.40\n\nDear Hanna, dear Manfred,\nI have just written a long letter to Mama and do not\nfeel energetic enough to write you as well especially as I wrote you at\nlength a few days ago. Just one little thing about Mama: She wrote\nme that she was going to change over to the small single room and\nI asked her in my letter to keep hers. You have plein pouvoir to\nsettle the one-pound-difference from our account, and more, if\nnecessary. - I hope you are still all well and as cheerful as\nyour last letter from Bath indicated. I am waiting to hear\nabout Eva. Has Manfred to go ~~out~~ much work and must he go out\nat all times? - We are well and happy here and have equipped ourselves\nfor the summer which we will have here and in the other countries\nuntil December. We continue to work in the mornings, go out in the\nafternoon, learn Spanish, meet quite a lot of people, I am con-\ncentrating hard on names and faces and feel very proud that I\nrecognise most people, even in other surroundings. I am reading the\nwar reports every day and learn a lot of Portuguese thereb. Although\nthese reports are very long I do not think they say any more - or\nperhaps not even as much - as you read in the English papers. -\nFrom common acquaintances we met Mryn's. They feel quite well\nhere but he has not yet found anything. - We will be here until\nmiddle of October and then inform you by cable. But the postal\naddress will remain Editora Guanabara.\nKindest regards for everyone, love and kisses for you,\nLotte",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Die Tinte ist blau/violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through). Leer im Sinne der Anweisung.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt den unteren Teil des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort ('thereb') scheint ein Schreibfehler der Autorin für 'thereby' zu sein, wurde aber originalgetreu transkribiert. 'Mryn's' ist eine unsichere Lesung des Eigennamens."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1526,
+    "total_words": 292,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1526,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1526,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

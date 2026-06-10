@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3252",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Stefan Zweig an Lotte Altmann [24. Januar 1935], SZ-AAL/B2.21",
+    "signature": "SZ-AAL/B2.21",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3252/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3252/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3252/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.21"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Stefan Zweig an Lotte Altmann [24. Januar 1935], SZ-AAL/B2.21\n- Signatur: SZ-AAL/B2.21\n- Datum: 24.1.1935\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "60800\nENTIRE MANHATTAN ISLAND FROM AN ALTITUDE OF 16,000 FEET. NEW YORK CITY\nFairchild Aerial Surveys, Inc.",
+        "notes": "Vorderseite der Ansichtspostkarte mit Luftaufnahme von Manhattan. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fraulein Altmann,\nBitte sehen Sie rechtzeitig\nnach, wann der Manhatten[?]\nankommt, angeblich schon\nam 5ten in Plymouth; ich\nwürde also spätestens am\n6ten in London sein, leider\nnicht so lang als ihr wollt.\nBitte grüßen Sie die Ihren\nund alles Aufrichtige von\nIhrem {geliebten} Stefan Zweig\n\nMiss Lotte Altmann\nLondon N.W\n50, Woodstock Lane",
+        "notes": "Rückseite der Postkarte. Handschrift in violetter Tinte. Poststempel 'CENT. ANNEX N.Y. JAN 24 1935 7 PM' und 'LONDON 5 FE 35'. Zwei rote Briefmarken (2 Cents, George Washington). Das Wort 'geliebten' ist über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fraulein Altmann,\nBitte sehen Sie rechtzeitig\nnach, wann der Manhatten[?]\nankommt, angeblich schon\nam 5ten in Plymouth; ich\nwürde also spätestens am\n6ten in London sein, leider\nnicht so lang als ihr wollt.\nBitte grüßen Sie die Ihren\nund alles Aufrichtige von\nIhrem {geliebten} Stefan Zweig\n\nMiss Lotte Altmann\nLondon N.W\n50, Woodstock Lane",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. 'Manhatten' ist eine leicht fehlerhafte Schreibweise im Original (statt Manhattan), wurde aber originalgetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 799,
+    "total_words": 127,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      107,
+      346,
+      346
+    ],
+    "chars_per_page_median": 226.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0157,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

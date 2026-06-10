@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3305",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [11. August 1934], SZ-AAL/B2.7",
+    "signature": "SZ-AAL/B2.7",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3305/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3305/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3305/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.7"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [11. August 1934], SZ-AAL/B2.7\n- Signatur: SZ-AAL/B2.7\n- Datum: 11.8.1934\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Manchmal tut es mir leid,\ndass Alles was Sie so sauber\nund fleissig geschrieben haben,\njetzt durch völlige Überarbei-\ntung zerstört wird: Ihr tatel-\nlores Manuskript sieht wie\nein Schlachtfeld aus. Aber ich\nwill fertig werden ehe weiter\nnach London zu kommen.\n\nMiss Lotte Altmann\n\nLondon N W 6\n174 Willesden Lane",
+        "notes": "Adressseite einer Postkarte. Handschrift in violetter Tinte. Poststempel 'KLOSTERS-PLATZ 11.VIII.34'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann, die Manus-\ncryptsendung (Cap XVII, XVIII (Teil) und XIX) ist\nwohlbehalten eingetroffen: vielen Dank!\nIn den kleineren französischen Orten\nwerden Sie kaum Hotels finden, die das\nRitual einhalten, am sichersten in Ostende\noder Blankenberghe, wo leider aber nicht\nsehr erbaulich sind (kein freies Bad).\nprovinciell belgisch-kölnisches Publi-\ncum! Möglich dass in Paris-Plage etwas\n[?] findet, sie erfahren das übrigens\ngewiss im Touroner Rabbinat: wir\nverlerische Ungläubige haben keine\nsolchen Sorgen. Ich dürfte Donners-\ntag in Salzburg sein und telegrafiere\nIhnen die Wiener Adresse, sobald ich\nsie weiss. Immer Ihr aufrichtiger\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch arbeite hier, Gott, es fehlen alle Störungen und\n[?] diesen Nest.",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Der Text am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist bekannt. Einzelne Wörter am Rand sind aufgrund der vertikalen Ausrichtung und der Platzierung leicht schwerer zu entziffern, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1089,
+    "total_words": 164,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      312,
+      777,
+      0
+    ],
+    "chars_per_page_median": 544.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0122,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

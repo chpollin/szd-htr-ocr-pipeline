@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3149",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Eva; Mayer, Ursula Altmann [21. Juli 1940], SZ-AAL/B1.34",
+    "signature": "SZ-AAL/B1.34",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3149/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3149/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3149/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3149/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3149/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.34"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Eva; Mayer, Ursula Altmann [21. Juli 1940], SZ-AAL/B1.34\n- Signatur: SZ-AAL/B1.34\n- Datum: 21.7.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Viking Press\n18 East 48th street\nNew York. 21.7.40\nDear children,\nYou cannot\nimagine what a strange\nfeeling it is to be so\nlong without news from\none's family, and I\nvery much hope that you\nhave all sat down and\nwritten us long letters as\nsoon as you had received\nthe cable that we would\nstay here a little longer.\nWe want of course to know",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "about everything - about\nschool, about the house,\nthe garden, the fowls,\nyour flowerbeds, your\nfriends - and of course about\nthe prospects of Eva's coming.\nAnd what's about swimming,\ntennis, the farm next door\nLevinthal's and the piano?\nAnd William? You see, I\nmake it very easy for\nyou. You have just to answer\nmy questions one after the\nother and you will have\nwritten me a long letter.",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "And where are your parents\nUrsula? And Mummy and\nDaddy, Eva? I have not\nheard from them yet so\nyou must tell them me all\nabout them.\nWe are quite all-right\nhere in New York although\nit is very hot and every-\nbody is complaining. But\nas nearly all the shops and\nrestaurants are now air-\nconditioned - that means cooled\nlike a refrigerator - it is not\ntoo bad and we still walk\nlong distances as if we were",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "still at Bath. It is strange\nto see all the lights in\nthe evening, and not to think\nabout the blackout, and\nalso to hear sirens all the\ntime. It always reminds\nme of home when I see those\nthings and I hope from all\nmy heart that you did'nt hear\nany sirens yet and never will\nwhile the war lasts.\nUncle Stefan sends you\nhis love. He will write you\nas soon as he gets your first\nletters.\nKindest regards to all\nand kisses to both of you,\nAuntie Lotte\n\n[Randtext, vertikal geschrieben:]\nKindest regards to you all! do you know 96 degrees\nof heat are like? Not so bad as I was afraid. Only\naunt Lotte complains and I have to buy\nice\ncreams\nin an\naircon-\nditioned\ncafeteria.\nLove\nStefan",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Seite 4 mit Randtext.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Teilweise ist der Text von Seite 4 durch das Papier sichtbar.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1817,
+    "total_words": 351,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      344,
+      388,
+      404,
+      681,
+      0
+    ],
+    "chars_per_page_median": 396.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

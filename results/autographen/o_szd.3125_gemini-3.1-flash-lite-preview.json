@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3125",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [21. Januar 1942], SZ-AAL/B1.193",
+    "signature": "SZ-AAL/B1.193",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3125/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3125/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3125/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.193"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [21. Januar 1942], SZ-AAL/B1.193\n- Signatur: SZ-AAL/B1.193\n- Datum: 21.1.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petropolis, 21.I.42\nDear Hanna & Manfred,\nThis time Stefan has taken my place in reporting all\nwhat we have heard about Eva; Mrs. Schaeffer also mentioned that Eva had\nwritten us from Salmon's and I hope this letter has not been lost like a\nnumber of others lately from various people and countries. I can only repeat\nStefan's words: it is a pity that Stefanie has no understanding of children.\nShe means so well and shows it, like all people who do not exactly know what\nto do with a child, by taking her out a lot, spoiling her and worrying whether\nall her articles of clothing are just exactly long, short, warm, cool, clean\nenough. And Mrs. Sch. who has always enough time for the children and their\nbig and small problems, lacks someone like Marta, Ursula's mother or Stefanie\nherself who just as carefully looks after the children's things as she looks\nafter them in the personal sense. But when her Home will be more firmly\nestablished - and the war may help to it in a way if people want to send\ntheir children to the country and she writes that personally in her relations\nwith authorities, committees, and generally the war has in no way altered her\nposition - she will certainly be able to afford a real matron and then even\nto Stefanie's overscrupulous neatness everything will be perfect. - Also\nabout me Stefan has reported almost everything and leaves me little to tell.\nAt first he laughed about me when the baby was just about to come and I got\nsomewhat excited {and} told him in detail that I had seen it the moment it\nhad come out of the doctor's tongues - and things must be very bad here\nwhen you get a doctor for a birth - before it had even had its bath\nthe whole family inclusive their dog was already back in the room. Now I\njust look at it every few days and make some mental comparisons between this\nbaby and the Fuelcep's child for whom even after a year still every spoon and\npan is sterilised after or before each meal, and whom the parents for weeks\nwere only allowed to approach with a mask. This one just sleeps in his\nparent's bed and when it is hungry the mother opens her dress and gives it\na drink. - Thanks for the recipee of the Linzertorte. I have not yet been\nable to make it as the kitchen stove is worse than usual and besides I have\ndays where I avoid my maid because I hate to speak Portuguese with her\nit is so unnecessary difficult with its complicated grammar and pronunciati[on]\nand I do not always feel like it. But once in a while I still try out new\ndishes, only whenever I ask Stefan what he would like, it is something to\nwhich Powidl is essential (tell this to Marta, it will remind her of old\ntimes). And one da[y] I probably will give in and make some of dried plums.\n- The struggle with mouldiness which attacks leather, dark dresses and suits,\nsome books and papers, is a continuous one and worse in summer {than} in winter\nwhich is supposed to be cold (5-8 degrees celsius above zero) and dry. It\ndoes not really hurt the tissues, but gives much work, for you have to put\neverything into the su[n] brush it off - and a few days later begin the whole\nthing again. Our whole district has the reputation of being particularly\ndamp and to get especially frequent mist and fog; on the other hand it is\nvery convenient, nearer to the town and in our opinion prettier than most\nof the pretendedly dryer districts. And we have got used to our so-called\ngardener (he hardly does more in the garden than cutting back the hortensias\nwhen they threaten to overgrow everything) and his family and also to our\nmaid whom I only did not send away at the first day because I had not the\ncourage to interview another one and face the task of introducing her to our\nforeign ways and to my strange Portuguese. The Petropolis season this year\nstill has not got into full swing partly on account of the weather and part-\nly on account of the Conference which keeps people in Rio. And so far our\nfear of getting too many unexpected visitors has been unfounded, and we even\nwelcome those who come. - In every sense of the word your life is more\nexciting than ours and you certainly are more up to date than we are in\neverything. That is another reason why you ought to write more and still\nmuch longer letters than before, and so please oblige your loving sister,\nsister-in-law, friend and relative,\nLotte",
+        "notes": "Typoskript. Der Text weist einige handschriftliche Korrekturen und Ergänzungen auf. Die Seite ist an mehreren Stellen eingerissen und mit Klebestreifen repariert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die wenigen handschriftlichen Korrekturen und die durch Risse/Klebestreifen verdeckten Stellen konnten durch den Kontext sicher rekonstruiert werden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4341,
+    "total_words": 811,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      4341,
+      0,
+      0
+    ],
+    "chars_per_page_median": 4341,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

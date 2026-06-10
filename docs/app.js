@@ -10,6 +10,7 @@ const MACHINE_ICON = '';
 const HUMAN_ICON = '';
 
 const COLLECTION_LABELS = {
+  autographen: 'Autographen (SZ-AAL)',
   lebensdokumente: 'Lebensdokumente',
   werke: 'Werke',
   aufsatzablage: 'Aufsatzablage',

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3056",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [18. Mai 1941], SZ-AAL/B1.130",
+    "signature": "SZ-AAL/B1.130",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3056/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3056/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3056/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.130"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [18. Mai 1941], SZ-AAL/B1.130\n- Signatur: SZ-AAL/B1.130\n- Datum: 18.5.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wyndham Motel                                Sunday evening, May 18th, 41\n\nDear Hanna & Manfred, I have just returned from Croton\nand have nothing but the very best and satisfactory to\ntell you about Eva. She feels fine, looks very well, loves\nAmity Hall and the country round it (which\nwith its rolling hills has really some resemblance with Bath).\nYesterday Mr. Kiefer visited her and they went for a drive\nand walk. I suppose he will write you about his impressions\nand I am confident that his report will contribute further\nto reassure you about her surroundings. Today we went\nfor a visit to Fueloep-Miller's, our friends - I believe you\nhave met them in Hallam Street - who are in Croton over\nthe summer with a 3 months old baby whom Eva admired\nvery much and whom she is invited to visit. As they are\non best terms with Schaeffer's I suppose that will be easy.\nIf Eva's letter from today should be a little shorter\nthan usual, you must blame it on me because I left\nan hour later than usual. Both Eva and I had a nice\nletter from Miss Baker, and she promised to call me up when\nshe comes to New York. - Salmon's are silent and in spite of\nvarious letters not a line is to be got out of them. There\nis nothing to be done - and I don't think it is important.\nThey mean well - when they happen to think of Eva - but\nthey are unreliable and have no manners. And as Eva\nis now in very good hands and we do not intend to\nleave the country we do not need them. - Eva will have\nwritten you that she spent the last weekend with a friend\nin Croton. Mrs. Sh told me that the girl and her parents\nare extremely nice and Eva enjoyed it. She brought some\nphotos and I enclose a small one. - Some other visitors to\nAmity Hall took me back to New York and I felt quite\ngrown-up, discussing the children and their various\nlittle problems, summer holidays, etc. - I hope you have\nat last finished with the dentist. You are to be much more\npitied than I. I am much better and the twice-weekly visit\nto the doctor means no more than a few injections - three at\none time, a \"mezihe\", as the doctor calls it.\n\n[Randnotiz links:] Did Manfred brother it [?] to see mother? - And what was, if any, your kind regard and bad love [?]\n[Randnotiz links unten:] with",
+        "notes": "Handschriftlicher Brief auf einem Blatt. Die Randnotiz am linken Rand ist vertikal geschrieben. Die Lesung der Randnotiz ist aufgrund der Handschrift und der Ausrichtung schwierig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Haupttext ist gut lesbar. Die vertikale Randnotiz am linken Rand ist jedoch schwer zu entziffern, da sie sehr klein geschrieben ist und teilweise ineinander übergeht."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2243,
+    "total_words": 431,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2243,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2243,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0046,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

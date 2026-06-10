@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3323",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [8. November 1938], SZ-AAL/B2.86",
+    "signature": "SZ-AAL/B2.86",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3323/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3323/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3323/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.86"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [8. November 1938], SZ-AAL/B2.86\n- Signatur: SZ-AAL/B2.86\n- Datum: 8.11.1938\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "P.P. et. 9in czewski[?]\nMiss Lotte Altmann\nc/o Thomas Cook & Son\nKatowice Jordana 19\nWarsaw [Poland]\n\nbureau de Thomas Cook & Son",
+        "notes": "Adressseite einer Postkarte. Handschriftliche Ergänzungen auf gedrucktem Formular. Poststempel 'LONDON W1 10 5PM 8 NOV 1938'. Briefmarken vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dear Miss Lotte, this only to try\nif you get some news ~ I\nhave till now none from you.\nI am very lazy, nothing goes\nahead, ~ from nowhere come any\ngood news, especially not from\nSalzburg, where there seems to\nbe some official opposition and\nall together I feel very tired\nof London and would prefer,\nmy voyage could start a month\nearlier. Now I begin to study\nthe lectures and will change or\nimprove them a little. I hope\nyou sit every day for me in\nthe coffeehouse and enjoy your\nstay. Kindest regards from your\nMany fond things your belle soeur.",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Der letzte Satz 'Many fond things your belle soeur.' ist am linken Rand vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala fuer Archivierung. Identischer Text wie auf Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Zeile '9in czewski[?]' ist aufgrund der Handschrift unsicher. Die vertikale Randnotiz auf Seite 2 wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 677,
+    "total_words": 128,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      129,
+      548,
+      0
+    ],
+    "chars_per_page_median": 338.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0078,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

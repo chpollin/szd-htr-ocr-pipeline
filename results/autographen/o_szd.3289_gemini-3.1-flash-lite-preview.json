@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3289",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert von Stefan Zweig an Lotte Altmann [20. Dezember 1935], SZ-AAL/B2.55",
+    "signature": "SZ-AAL/B2.55",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3289/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3289/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3289/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.55"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert von Stefan Zweig an Lotte Altmann [20. Dezember 1935], SZ-AAL/B2.55\n- Signatur: SZ-AAL/B2.55\n- Datum: 20.12.1935\n- Objekttyp: Kuvert\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Regina\nBrüder Kremslehner\nWien, IX., Dollfußplatz\n\nDom Hotel Royal\nI., Singerstraße 3\nGraben Hotel\nI., Dorotheergasse 3\n\nTelephon A 23-5-85\n\nMiss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Vorderseite eines Kuverts. Gedruckter Briefkopf des Hotels Regina, handschriftliche Adresse in violetter Tinte. Poststempel 'WIEN 20.XII.35' teilweise sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hotel Regina\nBrüder Kremslehner\nWien, IX., Dollfußplatz\n\nDom Hotel Royal\nI., Singerstraße 3\nGraben Hotel\nI., Dorotheergasse 3\n\nTelephon A 23-5-85\n\nMiss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Identisch mit Seite 1, ohne Archiv-Farbskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts, leer. Klebespuren an der Verschlusslasche erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um eine Standard-Adressierung auf einem Hotel-Kuvert handelt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 396,
+    "total_words": 60,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "color_chart",
+      "blank"
+    ],
+    "chars_per_page": [
+      198,
+      198,
+      0
+    ],
+    "chars_per_page_median": 198,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

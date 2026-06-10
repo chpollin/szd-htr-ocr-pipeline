@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3053",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Mai 1941], SZ-AAL/B1.128",
+    "signature": "SZ-AAL/B1.128",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3053/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3053/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3053/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.128"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Mai 1941], SZ-AAL/B1.128\n- Signatur: SZ-AAL/B1.128\n- Datum: 05.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, to your letter I want to tell you my fear, that Hannah\nhas an exagerated feeling of responsibility concerning the house in Bath. I am\nof course happy if she takes a few days of rest there, but I do not wish that she\nhas the worries of a house-mother. It is quite indifferent to me, if the house is\nkept somewhat better or worse and the Rainmans will look themselves to it -\nyou cannot imagine how indifferent I have become to all material things and\nhow far the house is from my thoughts, how I have resigned ever to see the books\nany more; concluding my autobiography I have said fare well to all the past. For\nme one thing is important - to concentrate after the many month of travelling\nand the depression through the war. I have lost all pleasure on entertainment,\nwe have even not been a single time in a cinema and I am so thankful to Lotte\nthat she does not protest against this rather monkish form of life. The idea\nto stay now for half a year without to move is for me a relief; may be that\nI shall be disturbed from outside, but all is here ~~really~~ much easier, much\nindifferent and I would not mind to live for ever such a retirer life, for-\ngetting the world and forgotten by her. For you this war is what the other was\nfor me - an interwall - and just his terrors and difficulties will let you long\nlife more afterwards, especially if you have back your daughter more happy\nthan ever and full of experience. I my self can no more live in transitory\nforms, I must know, that I have not to change and will not have worries\nHere is for the moment the maximum of possibility of complete retire-\nment and thats why we do not want to change. Believe me that I think\nquite clear and if I do not fulfil your wish which would give you to the\nBach before Eve, it is because I see the possibilities of some complications\nwhich may arise; we all must have patience now and I for my part would\nnot complain even if our small life here would continue for many months.\nI am glad to have left Newyork. I can work here better, life is easier and cer-\ntain primitiveness have her great charm. As to the material matters I insist\nthat your expenses for travelling etc should be paid back to you regularly;\nif there should be no more cash dont worry, we will then sell of some\nthe investements; it is important that you and your family have all you\nwant. I wish we could send you parcels from here but till now we could\nnot find an opportunity. I know that the food situation has improved a good\ndeal, but if you would know how cheap sugar, caffe' is in Brazil you would\nunderstand your desire to send over some specimens. Give Victor my kindest\nregards, he may excuse me that I do not write him - but not-writing letters\nmeans always that I am writing books. Let us hope that this winter (here begins\nthe summer now) will not be too hard and if some good signs to not deceive me I hope it will\nbe the last winter of the war and all our expectations fulfilled. So cheer up - to\nus, the old ones, to resign and not to worry. Stefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Der Text am linken Rand wurde vertikal geschrieben und ist in die Transkription integriert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Die vertikalen Randnotizen wurden logisch in den Textfluss integriert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3051,
+    "total_words": 593,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3051,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3051,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3218",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Februar 1941], SZ-AAL/B1.97",
+    "signature": "SZ-AAL/B1.97",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3218/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3218/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3218/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.97"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Februar 1941], SZ-AAL/B1.97\n- Signatur: SZ-AAL/B1.97\n- Datum: 02.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, I write to you as short and clear as possible\nwithout to alter the facts; I suppose you want to know my sincere impression.\nWe took today Eva from Mr Salmons house who was so kind to bring us over\nwith the car to Croton. The Salmons house is charming and I must say frankly\nit was not Salmons fault if all did not work as we hoped. He is a very nice\nfellow, and has given Eva all possible care and love. His weakness is perhaps\nthat he wants a little too much ~~admires~~ {to be} admired, loved\nand thanked. And it seems that Eva by a kind of unconscious opposition has\njust this refuses to him, she treated him (I have observed it myself) in a bit\ncold and ironic way just because he wanted effusion and tenderness. Mr\nSalmon and I agreed upon several points, especially about the question of letters.\nAs myself he was disappointed (and suspected an indifference of the heart\nor the imagination) that she has always ~~been~~ pushed and forced to write to\nyou and he called quite rightly her letters to you „masterpieces of lack of\ninformation“ She is indeed clever and yet enough not only to write to you\nher silly „It has been nice“ but to think over what she has to report over\nher school, her daily life, to give details and to understand better in\nwhat danger and plight you live. All this I said her most seriously also for\nmy part, as it was really unpardonable, that she thanked my sister in law, who\nwent in aid of the Christmas trouble to buy her presents, just four weeks after\nand that she had not the thought herself to write a line to her grandmother\nin six months. As to the piano-playing her ambition is much greater than\nher eagerness to practice; she is, I believe, just in an age or a transition,\nwhere one must beware her of certain „Wurschtigkeit“ of sentiment and care-\nlessness. Therefore I am glad that she is now at Mrs Schaeffer, who by having\neducated six of her own children {and will look after her in} a more continental way will be much\nmore efficient. The boarding house is beautifully situated but, what I do not\nwant to conceal from you, run on very modest conditions. Eva will not\nfind the commodities of Salmons, not be the centre of attention, but to have\nto clean her boots, her room. But believe me, a real American boarding school\nwould have brought silliness {and} superficiality and as the future of us all\nis very obscure, I am convinced that it is better if she gets accustomed to\nmodest surroundings. The school seems to be excellent and as to Alfred\nSchaeffer I know him since years - he is upright and a completely immature\nlittle men, for whom his very effective wife cares like for a child - she\npleases me very much and we have the best feeling, that Eva is in units of the other children will\nhave a good time. Mr Salmon will continue to look after her and we ourselves will as to far as possible\nfor not to come again to Croton. Thats all and please - more to both both as soon as possible\nPlease write to Salmons - they have really been very nice to her.",
+        "notes": "Handschriftlicher Brief auf einem Blatt, beidseitig beschrieben. Der Text am linken Rand und am rechten Rand ist vertikal geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Korrekturen und der vertikalen Randnotizen. Die Tinte ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3032,
+    "total_words": 572,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3032,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3032,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

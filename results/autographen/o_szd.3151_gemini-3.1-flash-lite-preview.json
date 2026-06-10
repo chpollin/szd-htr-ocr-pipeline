@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3151",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [27. Juli 1940], SZ-AAL/B1.36",
+    "signature": "SZ-AAL/B1.36",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3151/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3151/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3151/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.36"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [27. Juli 1940], SZ-AAL/B1.36\n- Signatur: SZ-AAL/B1.36\n- Datum: 27.7.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Central (next adress will come by cable) 27. II 1940\nDear Hannah and Manfred, as you see we are preparing already our\nnext voyage and we have not yet quite decided, how to do it, by boat\nor by plane. All is complicated as I have to visit the cities in the\nNorth of Brazil, Bahia, Olinda, Pernambuco, the isle of Marajo —\nit will be no pure pleasure to visit equatorial countries just in the\nsammer time but we are „Kämmer quäler“ we know already what\na Brazilian summer has in store and support it quite well. The advantage\nis that by this half the travel will cost nothing — the other half from\nthe frontier to the States is still expensive enough. Great difficulties means\nthe costume. On the plane we can have not much luggage, in North Brazil\nit will have 40 degrees over zero and in Newyork 20 degrees under zero three\ndays later. But Lotte stands all this through much better than I thought and\nwe work every day, eating very little during the heat and sleeping much. All\nthe trouble of Brazilian summer-life could be averted with the expense of\na air conditioned room, an „anticearhaltring“? — then one could live even\nin summer-time here and we love even now this wonderful city very much.\nNow about you. Please have after a weeks rest in Bath, do spend freely\nand do not worry, be sure that we shall look after Eva and give you more\nnews about her. You can thoroughly rely upon us. I hope Friedental got his\nvisa, the Argentine Consul makes it a speciality to make difficulties; he\nhad the telegrafic order for Landschoff and Friedental in the first days of\nNovember and as he did not deliver it (to our astonishment) to Landschoff\nwho immediately applied, the Foreign Minister cabled a second time to de-\nliver touristvisas to both, I cabled you the date of the second cable. Give\nmy love to Martha, to all friends, tell Flescher, that I had never a reply\non my letter to him and believe me yours sincerely and faithfully Stefan Zweig\nOnly a few words today as it is time to post the letter.\nWe are feeling hot but well and Stefan is glad of the good\nchance to lose weight. Nevertheless, winter weather will be a\npleasant change, and I am looking forward to it and to seeing\nEva again.\nYours, Lotte.",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Das Datum '27. II 1940' ist im Original so geschrieben, obwohl der Kontext (Sommer in Brasilien) eher auf Juli hindeutet. 'Kämmer quäler' und 'anticearhaltring' sind vermutlich idiosynkratische Schreibweisen oder Wortschöpfungen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Hotel Central (next adress will come by cable) 27. II 1940\nDear Hannah and Manfred, as you see we are preparing already our\nnext voyage and we have not yet quite decided, how to do it, by boat\nor by plane. All is complicated as I have to visit the cities in the\nNorth of Brazil, Bahia, Olinda, Pernambuco, the isle of Marajo —\nit will be no pure pleasure to visit equatorial countries just in the\nsammer time but we are „Kämmer quäler“ we know already what\na Brazilian summer has in store and support it quite well. The advantage\nis that by this half the travel will cost nothing — the other half from\nthe frontier to the States is still expensive enough. Great difficulties means\nthe costume. On the plane we can have not much luggage, in North Brazil\nit will have 40 degrees over zero and in Newyork 20 degrees under zero three\ndays later. But Lotte stands all this through much better than I thought and\nwe work every day, eating very little during the heat and sleeping much. All\nthe trouble of Brazilian summer-life could be averted with the expense of\na air conditioned room, an „anticearhaltring“? — then one could live even\nin summer-time here and we love even now this wonderful city very much.\nNow about you. Please have after a weeks rest in Bath, do spend freely\nand do not worry, be sure that we shall look after Eva and give you more\nnews about her. You can thoroughly rely upon us. I hope Friedental got his\nvisa, the Argentine Consul makes it a speciality to make difficulties; he\nhad the telegrafic order for Landschoff and Friedental in the first days of\nNovember and as he did not deliver it (to our astonishment) to Landschoff\nwho immediately applied, the Foreign Minister cabled a second time to de-\nliver touristvisas to both, I cabled you the date of the second cable. Give\nmy love to Martha, to all friends, tell Flescher, that I had never a reply\non my letter to him and believe me yours sincerely and faithfully Stefan Zweig\nOnly a few words today as it is time to post the letter.\nWe are feeling hot but well and Stefan is glad of the good\nchance to lose weight. Nevertheless, winter weather will be a\npleasant change, and I am looking forward to it and to seeing\nEva again.\nYours, Lotte.",
+        "notes": "Gleicher Text wie Seite 1, jedoch mit überlagerten Archiv-Hilfsmitteln (Farbkarte #13 und Grauskala #13).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz einiger ungewöhnlicher Schreibweisen (z.B. 'anticearhaltring'). Die Archiv-Hilfsmittel auf Seite 3 verdecken den Text teilweise, dieser ist jedoch durch den Vergleich mit Seite 1 vollständig rekonstruierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4430,
+    "total_words": 822,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2215,
+      0,
+      2215
+    ],
+    "chars_per_page_median": 2215,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3192",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. Dezember 1940], SZ-AAL/B1.74",
+    "signature": "SZ-AAL/B1.74",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3192/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3192/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3192/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.74"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. Dezember 1940], SZ-AAL/B1.74\n- Signatur: SZ-AAL/B1.74\n- Datum: 15.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Central                                     Rio, 15.12.40\n\nDear Hanna & Manfred, Just a few lines to-day to tell\nyou that we remember you and hope that you are well. We\nare beginning to feel rather warm, and go out little and work\na lot instead. I have begun bathing and shall make it a habit\nto do so every morning before breakfast. At night it is good to\nbe with friends who have a car to take us a little further out-\n20 minutes from here it is already much cooler and refreshing.\nIn January I suppose we will still go to the north of Brasil,\nto Bahia, Recife and Belem and from there probably continue\nto U.S.A. - we may decide to fly as Belem is already a third\nof the whole distance and there is no connection by boat to\nNewyork. - I hope you have had a very quiet and restful\nChristmas and that Manfred spent already the your birthday\nin Bath and remained until after New Year.\nKindest regards, kisses, best wishes, yours, Lotte\n\nDear Hannah and Manfred, there is not much to tell about\nus. We support the heat better than we supposed and I con-\ntinue to work regularly but without enthusiasm (for\nwhom does one write to day?) We have no news from all\nour friends and are glad to be in touch with you. As to\nour voyage we do not enjoy it to much, we would like\nto have a few month without packing and wandering\naround, but who has not this wish to have a quiet life\nin these terrible times and we all must learn to dream\nof things which once were the most natural. But let us\nkeep firm. We are with you with all our thoughts and\nloves                                                              Stefan",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1615,
+    "total_words": 299,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1615,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1615,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

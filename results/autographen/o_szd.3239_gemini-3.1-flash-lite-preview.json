@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3239",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [1. Mai 1934], SZ-AAL/B2.1",
+    "signature": "SZ-AAL/B2.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3239/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3239/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3239/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [1. Mai 1934], SZ-AAL/B2.1\n- Signatur: SZ-AAL/B2.1\n- Datum: 1.5.1934\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein, lassen Sie sich nur sagen, dass\nwir in diesen sorgenvollen Minuten ganz mit Ihnen\nsind. Es drückt nur ein wenig das Gewissen, dass ich\nvor Ihnen die Wichtigkeit der Fertigstellung meiner Ar-\nbeit übertrieben habe; Bitte lassen Sie sich keinesfalls den\nGedanken kommen, ich drängte auf Ihre Rückkehr. Ich weiss\ndas zwischen wirklich Wichtigem und Scheinwichtigem genau\nzu unterscheiden und es ist für meine Bequemlichkeit eine\nganz gute Schule, wenn ich lerne, für einige Zeit meine Ar-\nbeit ganz allein zu tun. Um so mehr werde ich mich dann\nfreuen, Sie wieder hier zu wissen — heute nur eben die\nanfrichtigsten und teilnehmendsten Gedanken von meiner\nFrau und mir! Herzlichst Ihr\n\n1. Mai 1934                                Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Tinte violett. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer bis auf leichte Verfärbungen durch das Papier.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und in einer gut lesbaren Handschrift verfasst. Keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 754,
+    "total_words": 118,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      754,
+      0,
+      0
+    ],
+    "chars_per_page_median": 754,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

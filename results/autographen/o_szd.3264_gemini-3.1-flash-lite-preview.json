@@ -1,0 +1,119 @@
+{
+  "object_id": "o_szd.3264",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [29. April 1935], SZ-AAL/B2.32",
+    "signature": "SZ-AAL/B2.32",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3264/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3264/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.32"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [29. April 1935], SZ-AAL/B2.32\n- Signatur: SZ-AAL/B2.32\n- Datum: 29.4.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, ich danke Ihnen\nvon Herzen für Ihren guten Brief – könnte\nich ihn doch mit einem ebensolchen erwi-\ndern. Aber alles geht quer. Meine Zapfschlosse\nrei ist zwar nach drei Wochen endlich zu Ende\n(morgen) aber die Nerven haben es kräftig\ngespürt. Mit meiner Mutter steht es immer\nnoch nicht gut, wir werden sie wohl in ein\nSanatorium bringen müssen, damit sie dort\nautark[?] gepflegt wird, es ist eine lange\nschwere Sache als die Hauptkrankheit ihre\n87 Jahre. Das hemmt natürlich für mich\njede Disposition, denn ich kann keinesfalls\nweit fort nur jeden Augenblick zurückgeri-\nfen werden. Auch sonst ist allerhand Ärger-\nnis und was London betrifft, mein so liebes\nLondon, so habe ich da mit geradezu hyste-",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "rischen Widerständen zu rechnen, es liegt da\nmanches im Argen und bedrückt meine Stimmung\nsehr, da dort immer das kalte Aussehen und\ndie dünste[?] Möglichkeit zur Arbeit gefahren hat.\nGlauben Sie ja nicht, dass ich nur am Trägheit\ndiesen so lieben Wunsch jetzt versage, aber der\nAugenblick mit der Krankheit meiner Mutter\nwäre der wenigst geeignete. Ja, glauben Sie\nmir ich, vielfach beneidet, habe es gar nicht\nleicht, gerade das Beste und Wichtigste wird\neinem für einige Zeit wenigstens unerreich-\nbar.\nIch hoffe, Sie finden zunächst eine\nerfreuliche Beschäftigung. Ist mit Brodauer\nnichts, der wie ich höre, einen jungen Eng-\nländer practiciert hat.\nMeine Wiener Adresse gilt bis zum\n6ten dann schreibe ich Ihnen weiteres.\nHerzlichst, Ihr S. Z.\nS. Z.",
+        "notes": "Fortsetzung des Briefes auf der Innenseite des Bogens. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Liebes Fräulein Altmann, ich danke Ihnen\nvon Herzen für Ihren guten Brief – könnte\nich ihn doch mit einem ebensolchen erwi-\ndern. Aber alles geht quer. Meine Zapfschlosse\nrei ist zwar nach drei Wochen endlich zu Ende\n(morgen) aber die Nerven haben es kräftig\ngespürt. Mit meiner Mutter steht es immer\nnoch nicht gut, wir werden sie wohl in ein\nSanatorium bringen müssen, damit sie dort\nautark[?] gepflegt wird, es ist eine lange\nschwere Sache als die Hauptkrankheit ihre\n87 Jahre. Das hemmt natürlich für mich\njede Disposition, denn ich kann keinesfalls\nweit fort nur jeden Augenblick zurückgeri-\nfen werden. Auch sonst ist allerhand Ärger-\nnis und was London betrifft, mein so liebes\nLondon, so habe ich da mit geradezu hyste-",
+        "notes": "Brief mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "1935\n\nFräulein Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Briefumschlag mit Briefmarke (Österreich, Wien, 29. IV. 35). Handschriftliche Adresse.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Einzelne Wörter wie 'autark' oder 'dünste' sind aufgrund der Handschrift leicht unsicher, aber im Kontext plausibel."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2270,
+    "total_words": 374,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      727,
+      0,
+      754,
+      0,
+      727,
+      62,
+      0
+    ],
+    "chars_per_page_median": 727,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.008,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      5
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

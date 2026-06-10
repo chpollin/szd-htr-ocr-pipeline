@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3204",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [16. Januar 1941], SZ-AAL/B1.84",
+    "signature": "SZ-AAL/B1.84",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3204/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3204/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3204/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3204/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3204/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.84"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [16. Januar 1941], SZ-AAL/B1.84\n- Signatur: SZ-AAL/B1.84\n- Datum: 16.1.1941\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bahia, 16. I 1941\n\nDear Hannah and Manfred, we are now\nhere for three days and all what we\nhave seen is most wonderful; it is the most colour-\nful town I ever have met and today we assisted\nthe great popular festivity, the Lavagem do Bom\nFim - that means that a good part of the town,\nmost negro, come to wash the church in honour\nof their saint and this washing which starts as\na religious ceremony and finishes in orgie of thousand\npeople who dance, cry, wash and become comple-\ntely mad. I have never seen anything of religious\nmen-hysteria and all this in the brightest colours\nand without any artificial tricks - there come\nnever strangers to see this and it would be in a\ntheatrical production or a film the greatest hit.\nTomorrow we are driving into the country, we\nare guests of the government here and Lotte is again\nphotographed all day long, we send you only one\nlittle photo of our arrival as the most are more\ngrotesk - myself with a little negro boy or\nwith the \"intellectuals\" of Bahia. You cannot",
+        "notes": "Handschriftlicher Brief auf Briefpapier des Palace Hotel, Bahia. Die erste Zeile 'Adres: Newyork c/o Viking Press 18 East 48 Street' ist am oberen Rand notiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "imagine what it means to see this country which is not\nyet spoiled by tourists and so enormously interesting.\n-today I was in the huts of the poor people who\nlive here practically from nothing (the bananas\nand mandiocas are growing round) and the children\ngo like in the paradise - her whole house with\nground did cost them six dollars and so they\nare proprietor for ever. It is a good lesson to see\nhow simply one can live and comparatively happy\n-a lesson for us all, who will loose everything and\nare not enough happy now by the thought how to\nlive then. In two days - we go tomorrow over land\nto the fazendas and tobacco-factories - we will be\nat Pernambuco, in five days in Belem, then after\na day in English territory (Trinidad/on the way)\nto your daughter and then it will be to Lotte to\nwrite the long letter you expect so eagerly. I\nhope you feel alright and will perhaps dance\nover to Bath, Lotte stands the heat and all the\nexcursions extremely well, only when we have\nto go up in the morning at 5 or 5:30 to catch\nthe plane, she is hard to awaken. Fischauer is\nin Rio and told me, who did not believe if he\nwere our communist - in any case he seems to\nhave saved enough money and I am like always\nhis admirer, how he knows to manage all with\nhis lying technique. Kindest regards from the\n6:30 in the morning, waiting for the little time to write.",
+        "notes": "Zweite Seite des Briefes. Am linken Rand vertikal geschrieben: 'his lying technique. Kindest regards from the'. Am rechten Rand vertikal geschrieben: '6:30 in the morning, waiting for the little time to write.'",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Zeigt das zweite Blatt des Briefes im Hintergrund.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift und einiger Randnotizen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2370,
+    "total_words": 453,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1012,
+      0,
+      1358,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1185.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

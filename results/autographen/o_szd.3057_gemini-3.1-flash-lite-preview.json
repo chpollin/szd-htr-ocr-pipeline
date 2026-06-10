@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3057",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Mai 1941], SZ-AAL/B1.131",
+    "signature": "SZ-AAL/B1.131",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3057/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3057/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3057/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.131"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Mai 1941], SZ-AAL/B1.131\n- Signatur: SZ-AAL/B1.131\n- Datum: 05.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, we are missing very much your letters but we\nknow it is not your fault - there are now terrific gales which sweep\nthe country and many of the planes have to wait. Here it seems that\nthe United States are going fast into help for England and finally all\nthe obstacles are cleared away. But I know you have the heavier part to\nbear and you may imagine with what feeling we read about the attacks\non Bristol, so near of your house. At least you have not to worry about\nyour daughter, it seems that she likes her new house very much - she\nwrites always we should come to visit her, but unfortunately it is\nnot so easy as she thinks. We have 1 hour 50 minutes to Newyork, from\nthere to another station, from there to Croton, from there with a car\nto her house and we have no car; it cannot be done in one day.\nand Lotte has been ill for ten days, we have lost much time and have\nstill to go to Baltimore for two days. And we hope to have her here\nin Newhaven in April for a few days - we are afraid she will not\nknow what to do here, as there is nothing except the library and no\ndistrea at all. We hope however that she will be a little recruited\nof you and having opportunity to talk about you abundantly. -\nAlltogether we feel very often very sad, - the first war took five\nyears of my life and this one, a hundred times more violent,\nwill take all bright and quiet way of living away from us for\nyears and years. And I shall soon be 60 years old. This living in\nHotels, which we not afeable at all, and in foreign countries be-\ncomes in the long run very oppressive; just our generation has such\nan unlucky time! Some times I wish I had also to pass examinations\nor to do some public work; what means literature today against\nthe dramatic of our daily history! As soon as we have news from\nyou, you shall hear more from us. In the mean time kindest regards\nto all from yours\nStefan Zweig",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes (identisch mit Seite 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Einzig das Wort 'distrea' (Zeile 17) scheint ein Schreibfehler des Autors für 'distractions' oder ähnlich zu sein, wurde aber originalgetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1911,
+    "total_words": 380,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1911,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1911,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

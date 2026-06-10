@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3324",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [9. November 1938], SZ-AAL/B2.87",
+    "signature": "SZ-AAL/B2.87",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3324/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3324/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3324/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.87"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [9. November 1938], SZ-AAL/B2.87\n- Signatur: SZ-AAL/B2.87\n- Datum: 9.11.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Heute Mittwoch abend gleichzeitig Brief und Tele\ngramm, ich schrieb schon eine Postkarte an\nCooks Office, dass die Sache negativ aus-\ngegangen ist — näheres weiss ich selbst nicht. Ich\nhatte nur nur ein Telegramm bestellt, Brief ist\nbis heute keiner da, ich weiss also nicht, ob die\nSache abgewiesen oder bloss vertagt ist. Dazu kommt\ndieser irrsinnige Lärm in Paris, der oft den Verkehr\nmit Österreich noch schwerer macht — ich bin\nwirklich verzweifelt, ich krieche wie trotz aller Sorgen\nund Opfer aus meinen Affairen heraus. Gar sonst\nbin ich so auswärtig wie nie, die jüdische\nExistenz ist wirklich unflüchtig geworden, dazu\nnoch von allen Seiten jetzt verdoppelt die Hilfe-\nrufe, ich bin wirklich am Ende meiner Kraft.\nDas gute nur an der Arbeit, die wart einen Schritt\nseit Wochen geht, man hätte eben doch in der\nZeit einmal nur erfolgen müssen. Sie wissen ja,\nes gibt wilde Perioden, wo alles gegen den Strich\ngeht, auch von jenem Advocaten, der in der\nEisengasse vorsprechen wollte, höre ich keinen",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ton, es ist schon die Serie des Hirpgehens. Fast\nwar ich so viel wie gar nichts, habe Romain ein\nmal gesehen, sage nun alles ab und möchte am\nliebsten das Telefon abbestellen. Eigentlich lade\nich ja den Freunden, nur aufgelösten Jammer an\nsie ab, aber ich habe sonst kein taugliches Object\ndie Leute wollen alle etwas und lassen einem wie\nnoch nicht zimmerreine Hunde den Dreck nachhause,\netwas von ihren Sorgen und Nöten im Kopf zurück,\nder Revallur nach Kufstall aussieht nur düster.\nÜberlassen Sie sich nicht und gönnen Sie uns\nIhrer Schwägerin die ich herzlich grüssen lasse Ihren\nUrlaub — auf Ihren Anruf freue ich mich. Die\nAdresse habe ich weitergemeldet.\nAlles Gute von Ihrem eingesäuerten\nS.",
+        "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite. Die Unterschrift ist nur mit 'S.' abgekürzt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt den unteren Teil des Briefes (identisch mit dem Text auf Seite 2) und die Archiv-Skalen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift. Einige Wörter sind aufgrund der individuellen Handschrift von Stefan Zweig leicht interpretativ (z.B. 'Hirpgehens', 'Revallur'), wurden aber im Kontext transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1707,
+    "total_words": 287,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1007,
+      700,
+      0
+    ],
+    "chars_per_page_median": 853.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

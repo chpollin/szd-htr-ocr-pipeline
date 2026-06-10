@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3256",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [23. März 1935], SZ-AAL/B2.25",
+    "signature": "SZ-AAL/B2.25",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3256/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3256/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3256/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3256/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3256/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.25"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [23. März 1935], SZ-AAL/B2.25\n- Signatur: SZ-AAL/B2.25\n- Datum: 23.3.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, was werden Sie von mir denken,\ndass ich solange nicht geschrieben habe. Aber es hat sich Folgendes\nereignet, dass ich mich aus mehrfachen Gründen entschliessen\nmusste, Maria Stuart jetzt erarbeiten zu lassen und es geht jetzt\nhals über Kopf, Correcturen, Correcturen, Prospecte, Einbau, ich habe\nden ganzen Tag bis tief in die Nacht Arbeit, dazu noch die An-\nfrage Meinhardt, ich bin einfach hingelangt am Abend und falle\nins Bett wie ein Klumpsack. Briefe türmen sich unbeantwortet\nauf, ich träume von Ihnen wie von einer Erlösung. Ich hatte\neine Hilfe, die Schwester Rieger, aber sie liegt seit einer Woche\n(wie alle Welt hier) an der Grippe nieder, dazwischen muss\nich zu meiner Mutter ect. Ich war nie so gelegt. Aber in\nzwei Wochen ist die endgiltige Hinrichtung vollzogen und in\nvier Wochen gondelt Ihnen ein Exemplar ins Haus.\nLassen Sie sich von mir nur sagen, dass ich eigentlich gar\nnicht das Gefälle habe, richtig zu leben, ich bin jetzt ganz\nArbeit und mir fehlt innerhalb der Arbeit manchmal die\ngute erquickliche Pause. Ich bin nicht ganz ich selber, es\nfällt mir ein Stück meiner Selbst mit alle der Heiterkeit\nund Helligkeit, gleichsam die Lebensorgane, jetzt sind nur die\nGehirnmusceln zu Fröchen. Ich will dann ein paar Tage\nausspannen, wahrscheinlich rutsche ich hinunter nach Buda-\nfest aber dann weiter weiss ich noch nicht, ich plane ein paar\nNovellen und weiss noch nicht wo ich sie schreiben werde,",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "mein natürlichster Wunsch wäre natürlich London, aber ich weiss\nnicht, ob ich ihn werde verwirklichen können, es bestehen da\ngewisse externe Schwierigkeiten, ich müsste sie mit grosser Gewalt\nüberwinden und, leider, Gewalt widerstrebt meinem Wesen, ich habe\nalles nur langsam und unauffällig zu durchsehen. Wahrscheinlich\njetzt gehe ich nach Frankreich, aber aber liegt ein Ungewissen,\njedenfalls bleibe ich bei gleicher Adresse etwa bis zum 5. April\nhier, vielleicht noch länger; ich schreibe Ihnen bald. Auch sonst\njetzt es nicht an Schwierigkeiten mit Deutschland, alle Dinge\n(Strauss, Insel etc) sind dort in Schwebe und der Plan jener\nFestschrift verhaftet mir noch.\nAdieu jetzt, ich gönne mir heute etwas Spaziergang mit\nBenno Walker und muss jetzt zu ihm. Ach, wäre ich in\nLondon, nur wäre feller zu Mut. Lassen Sie sich gut\ngehen, so gut, wie Sie es verdienen und verzeihen Sie\ndie Hast dieses Briefes Ihrem wirklich getreu ergebenen\nStefan Zweig",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlappt mit dem unteren Teil des Briefes.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke 'Oesterreich 60 Groschen', Poststempel 'Wien 68, 23.III.35'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Beschädigt (aufgerissen), mit Poststempel-Fragmenten.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die wenigen unsicheren Stellen (z.B. 'feller zu Mut' - möglicherweise 'leichter zu Mut' oder ähnlich, aber hier diplomatisch transkribiert) sind im Kontext der Handschrift gut nachvollziehbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2452,
+    "total_words": 398,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1447,
+      954,
+      0,
+      51,
+      0
+    ],
+    "chars_per_page_median": 954,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

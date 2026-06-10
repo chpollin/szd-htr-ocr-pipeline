@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3306",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [3. September 1936], SZ-AAL/B2.70",
+    "signature": "SZ-AAL/B2.70",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3306/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3306/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3306/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3306/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3306/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.70"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [3. September 1936], SZ-AAL/B2.70\n- Signatur: SZ-AAL/B2.70\n- Datum: 3.9.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes J. A. Sie hat[?] noch von mir.\nWas ich hier erlebe, kann ich\nnicht\n~~schreiben~~, Esplanade Hotel\nEs ist ganz\nwahnsinnig.\nSão Paulo\nDas Land herrlich, ungeheuer interessante\nDinge, aber die Art in der ich hier gefeiert\nwerde, hat für mich etwas Groteskes. Eine\nSecretaria hatte hier tagsüber zu tun, um\ndie Leute bei Telefon abzuwehren, ich\nmuss täglich (die Anfragen sind enorm) etwa\n300 - bis 400 Bücher signieren. Die senden\nSie lasse ich ja vor fünfzehn [?] zurück, heute\nbekam ich z.B. vom Instituto di Café eine\nriesige Maschine aus fünf Kilo des edelsten\nCafés und sonst absurde Dinge. Das\nGroteskeste war heute der Besuch im Welt\nberühmten Gefangencafé, der humanitär\nAnstalt der Welt. Mir zu Ehren rückte die\nCapelle der Zuchthäusler (14 Mörder, 4 Sexual\nverbrecher, der Rest Diebe) in Reihe und flies\nauf und mir spielte zum erstenmal die Österrei\nchische Volkshymne(!!), dann wurde ich (zum\nverfünftenmal heute) vom Gefängnisphotograf",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Die Tinte ist teilweise verblasst, die Lesbarkeit ist insgesamt gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "photografiert (dreifacher Mörder). All das grenzt\nan das Groteske. Gestern war ich mit dem\nAussenminister auf einer Caffeelantage und\nfuh[?] mit dem Egber[?] zurück, mein Auto und\nChauffeur steht immer bereit, ich bewohne ich\nbloss drei Zimmer - das ganze ein herrlicher\nFastnachtsspiel, nur ich bin schon totmüde von\nall den Menschen, Fotografen, Empfängen\nBerichten (die Pflanzenfarm ist phantastisch\ninteressant.) Nach Buenos Aires habe ich\nIhren Freund Neumayer gebeten, mir dort\njetzt einen freien Raum zu verschaffen, ich\nkann einfach nicht mehr gegen das Telefon\naus die Menschen aufkommen. Hoffentlich\nwird es dort besser sein, gewiss sogar, denn\ndort sind ja zu Ablenkung viel weniger\nwas Romans und Schaukel. Gesehen und\ngelernt habe ich unermesslich viel. Aber\nich freue mich schon auf die Ruhe und\nbesonders auf London. Das Land ist\nherrlich und ich bin glücklich die Reise\ngemacht zu haben. Hoffentlich ist auch die\nIhr gut ausgefallen. Ihr S",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist der gleiche wie auf Seite 2, da es sich um eine Überlagerung handelt.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Europe\n\nAvion\n\nMiss Lotte Altmann\n\nLondon NW 11 (England)\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Hotel-Logo und Poststempeln. Der Text ist leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Einige Wörter sind aufgrund der Tinte oder der Schreibweise leicht unsicher, aber im Kontext gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1983,
+    "total_words": 317,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      952,
+      955,
+      0,
+      76,
+      0
+    ],
+    "chars_per_page_median": 952,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0126,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3398",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Joseph Roth an Stefan Zweig [6. Juni 1937], SZ-AAL/B9.4",
+    "signature": "SZ-AAL/B9.4",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3398/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3398/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3398/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B9.4"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Joseph Roth an Stefan Zweig [6. Juni 1937], SZ-AAL/B9.4\n- Signatur: SZ-AAL/B9.4\n- Datum: 6.6.1937\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Ansichtspostkarte: Porträtfotografie von Joseph Roth.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Freund,\ndieses Bild, aufgenommen im Hause\nIhrer Frau vorläufig als Gruß statt\neines soliden Briefes. Zu Eilen nur:\nman sieht das Belichtete, wenn man\nihn nicht beläugt – ich meine natürlich\nnicht „allzu“. Rolland sagt direkt in\nmeinen Diensten. Danken Sie Gott, daß\nSie ihn verloren haben. Ich möge [?] ich\nVon mir wenig [?] vorhanden.\nGute Arbeit! Wann fahren Sie in die\nTschechoslowakei? – Bin übrigens [?] besser\ndort auch. Immer Ihr alter\n\nJoseph Roth\n\n6. Juni 1937.",
+        "notes": "Handschriftliche Nachricht von Joseph Roth an Stefan Zweig. Die Tinte ist dunkel, die Schrift ist teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Freund,\ndieses Bild, aufgenommen im Hause\nIhrer Frau vorläufig als Gruß statt\neines soliden Briefes. Zu Eilen nur:\nman sieht das Belichtete, wenn man\nihn nicht beläugt – ich meine natürlich\nnicht „allzu“. Rolland sagt direkt in\nmeinen Diensten. Danken Sie Gott, daß\nSie ihn verloren haben. Ich möge [?] ich\nVon mir wenig [?] vorhanden.\nGute Arbeit! Wann fahren Sie in die\nTschechoslowakei? – Bin übrigens [?] besser\ndort auch. Immer Ihr alter\n\nJoseph Roth\n\n6. Juni 1937.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift von Joseph Roth ist sehr flüchtig und weist einige schwer entzifferbare Wörter auf, insbesondere im Mittelteil des Textes."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 954,
+    "total_words": 160,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      477,
+      477
+    ],
+    "chars_per_page_median": 477,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0375,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

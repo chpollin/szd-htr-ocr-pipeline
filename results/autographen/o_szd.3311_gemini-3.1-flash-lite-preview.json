@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.3311",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Stefan Zweig an Lotte Altmann [8. Mai 1937], SZ-AAL/B2.75",
+    "signature": "SZ-AAL/B2.75",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3311/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3311/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3311/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.75"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Stefan Zweig an Lotte Altmann [8. Mai 1937], SZ-AAL/B2.75\n- Signatur: SZ-AAL/B2.75\n- Datum: 8.5.1937\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kahlenberg Blick vom neuen Terassen Restaurant auf Wien und die Donau",
+        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dank für Ihren langen Brief, die Sache mit\nPauls kann ich jetzt nicht durchdenken,\nich bin völlig knock-out schon nach drei\nRunden (respektive Tagen) es war alles\n~~noch~~ unangenehmer als ich dachte -\njetzt erste Ruhepause mit Fuchs, herauf\ngefahren auf jenem Steyr Wagen, von\ndem ein Teil mir gehören soll, ich\nglaube, das Trillbrett. Erholsame Grüße\nSt. Z\nHerzliche Grüße auch von mir!\nIch schreibe Ihnen demnächst wieder\neinmal englisch. Ihr schreibfauler\n[Unterschrift]",
+        "notes": "Rückseite der Postkarte, handschriftlich in violetter Tinte. Briefmarke und Poststempel vorhanden. Die Unterschrift ist eine stilisierte Paraphe. Der Text 'Verlag „Ruwa“ Wien XVII. Hauptstr. 191a 1936' ist vertikal am Rand gedruckt. Empfängeradresse: 'Lotte Altmann 50, Woodstock Road London N. W 11'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Dank für Ihren langen Brief, die Sache mit\nPauls kann ich jetzt nicht durchdenken,\nich bin völlig knock-out schon nach drei\nRunden (respektive Tagen) es war alles\n~~noch~~ unangenehmer als ich dachte -\njetzt erste Ruhepause mit Fuchs, herauf\ngefahren auf jenem Steyr Wagen, von\ndem ein Teil mir gehören soll, ich\nglaube, das Trillbrett. Erholsame Grüße\nSt. Z\nHerzliche Grüße auch von mir!\nIch schreibe Ihnen demnächst wieder\neinmal englisch. Ihr schreibfauler\n[Unterschrift]",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift ist eine stilisierte Paraphe, die nicht als Wort transkribiert werden kann."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1017,
+    "total_words": 159,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      69,
+      474,
+      474
+    ],
+    "chars_per_page_median": 474,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

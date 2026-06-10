@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3326",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [11. April 1940], SZ-AAL/B2.89",
+    "signature": "SZ-AAL/B2.89",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3326/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3326/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3326/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3326/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3326/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.89"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [11. April 1940], SZ-AAL/B2.89\n- Signatur: SZ-AAL/B2.89\n- Datum: 11.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTéléph. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le 11. avril\n\nChère Lotte, il fait merveilleusement\nbeau à Paris, seulement j'ai froid comme\nun chien, mais un chien bien joyeux. Je voisénormément des gens, j'ai dejeuné au-\njourdhui chez le Julien Cain, j'ai pris le\nthé chez la princesse de Grèce, je dine\navec les Masereels et après je verrai\nencore Kesten. Demain dejeuner chez Larue\navec Autre[?] David, aprèsmidi chez Bonteron\ndiner chez Cortot, samedi dejeuner avec\nPaul Valery et comme cela tous les\njours, mais j'ai fait (sans pardessus)\ndes longues promenades. La vie est ici\nbon marché - pas à comparer avec\nchez nous, les taxis est pour si rien de",
+        "notes": "Briefpapier des Hotel Louvois, Paris. Handschrift in violetter Tinte. Die letzte Zeile bricht mitten im Satz ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "lire et une abondance des vitres. En\nsomme le voyage fortifie la confiance.\nOn voulait que j'parle[?] deux fois\nau radio, mais une fois sera assez pour\nmoi. Je parlerai probablement Mardi\nle 23 mes dix à douze minutes, mais\nje t'avertirai à temps. Rien n'est\nencore fixé, on a seulement une\nreserve cette journée, demain chez\nBonteron je ferai mon plan de\ntravail.\nEsperant de te lire bientot\net avec mes meilleurs compliments\nà tous ton\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "moi. Je parlerai probablement Mardi\nle 23 mes dix à douze minutes, mais\nje t'avertirai à temps. Rien n'est\nencore fixé, on a seulement une\nreserve cette journée, demain chez\nBonteron je ferai mon plan de\ntravail.\nEsperant de te lire bientot\net avec mes meilleurs compliments\nà tous ton\n\nStefan Zweig",
+        "notes": "Wiederholung der Seite 2 mit Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS (OPÉRA)\nPARIS\n\nMadame Stefan Zweig\n\nBath (Angleterre)\nLyncombe Hill\nRosemount\n\n[Poststempel: PARIS R.P. 10. IV. 1940 DÉPART]\n[Briefmarken: 50c, 50c, 1.50 L'AVIATION EST LA PLUS DES CARRIÈRES]",
+        "notes": "Umschlag des Briefes. Handschriftliche Adresse. Poststempel und Briefmarken vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzelne Wörter wie 'Autre' oder 'j'parle' sind aufgrund der kursiven Handschrift leicht unsicher, aber im Kontext gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1782,
+    "total_words": 298,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 5,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      734,
+      451,
+      299,
+      234,
+      64
+    ],
+    "chars_per_page_median": 299,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0067,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.3106",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.176",
+    "signature": "SZ-AAL/B1.176",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3106/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3106/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3106/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.176"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.176\n- Signatur: SZ-AAL/B1.176\n- Datum: 10.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\nDear Hannah & Manfred, before all my thanks. I just got a\nletter from the Viking Press that the Balzac manuscript has\nsafely arrived and I have asked to forward it; of course\nI cannot finish it here having no books and material in\nthis virgin country, but I can revise and - if I may say\nso - 'play' with the book and prepare in some parts the\ndefinitive form. Our life is here seen from outward very mo-\nnotonous, we work and read and go out for a walk without\nto meet people and so nothing is to tell; in our inner\nheart we feel as you that the war takes out of our lives\nmuch of the best - I can understand how you miss\nyour daughter and often we talk if we should not have\ntaken her with us. But how can we offer to her such an\nisolated life in the years where a child wants society\nfriends and, anregung[?] and than - we see not at all\nwhat shall become of us, where we have to go and when\nwe can decide anything. The proportions of this war are\nover our human possibility of foresight and I try (in\nvain) not to think of the far future; I write my books\nin a kind of tour de force only to suggest to myself that\nI am still existing, but I know very well, that my real\npublic is gone and will never come back and that I am\nlike this man at {some} [?] who goes behind his own funeral.\nIt is good to read Montaigne in these days and all those\nwho give good lessons in resignation. Won't you be so kind\nto forward the inclosed letter to Maria Budberg, I have\n\n[Randnotiz links:]\nlet her adress and would let her know that I have\nwritten some lines for H. G. Wells birthday. Yours ever\n[Randnotiz links, vertikal:]\n[...1...] immediately",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Die Randnotiz links ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\nDear Hannah & Manfred, before all my thanks. I just got a\nletter from the Viking Press that the Balzac manuscript has\nsafely arrived and I have asked to forward it; of course\nI cannot finish it here having no books and material in\nthis virgin country, but I can revise and - if I may say\nso - 'play' with the book and prepare in some parts the\ndefinitive form. Our life is here seen from outward very mo-\nnotonous, we work and read and go out for a walk without\nto meet people and so nothing is to tell; in our inner\nheart we feel as you that the war takes out of our lives\nmuch of the best - I can understand how you miss\nyour daughter and often we talk if we should not have\ntaken her with us. But how can we offer to her such an\nisolated life in the years where a child wants society\nfriends and, anregung[?] and than - we see not at all\nwhat shall become of us, where we have to go and when\nwe can decide anything. The proportions of this war are\nover our human possibility of foresight and I try (in\nvain) not to think of the far future; I write my books\nin a kind of tour de force only to suggest to myself that\nI am still existing, but I know very well, that my real\npublic is gone and will never come back and that I am\nlike this man at {some} [?] who goes behind his own funeral.\nIt is good to read Montaigne in these days and all those\nwho give good lessons in resignation. Won't you be so kind\nto forward the inclosed letter to Maria Budberg, I have\n\n[Randnotiz links:]\nlet her adress and would let her know that I have\nwritten some lines for H. G. Wells birthday. Yours ever\n[Randnotiz links, vertikal:]\n[...1...] immediately",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegten Archiv-Farbskalen und Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Einige wenige Wörter sind aufgrund der Tintenführung oder Überlagerung durch Archivmarkierungen leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3478,
+    "total_words": 684,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1739,
+      0,
+      1739
+    ],
+    "chars_per_page_median": 1739.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0088,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

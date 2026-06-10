@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3176",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [27. Oktober 1940], SZ-AAL/B1.59",
+    "signature": "SZ-AAL/B1.59",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3176/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3176/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3176/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.59"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [27. Oktober 1940], SZ-AAL/B1.59\n- Signatur: SZ-AAL/B1.59\n- Datum: 27.10.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Buenos Aires, 27. 10. 40\n\nDear Hanna and Manfred,\nWe are now already a day in B-A. -\na new town, plenty of new people, plenty of telephone calls,\nplenty of delegations who insist on some more gratis-lectures,\nheaps of flowers, plenty of new things to eat, plenty of photos\nand interviews; a funny sort of life for me, and at the same\ntime twenty times a day the thought: what is it like now in Eng-\nland, what are they doing in this moment? I hope that this is\none of the rare weekends where Manfred is with you in\nBath and that Mama has left London. Lotte Sch[?] still is\nat Raeburn's house and I again wrote her to address herself\nto you if she needs something. - Between meeting people Stefan is\nbusy putting the finishing touch to his various lectures and\nI am typing the last one. The Spanish lecture will be\n\"Unité spirituelle du monde\", the English address will have\nthe cheering title \"Hope in the Future\" and the other charity\nlecture will be about Vienna and its culture. Needless to\nmention that every lecture means a cocktail party\nbefore and a dinner party after. In a week's time we\nleave for Cordoba, Rosario and Santa Fe who get a\nSpanish lecture each - the one about spiritual Unity\nand the other about Artistic Creation. This trip will take\nabout 5-6 days and will, I hope, be interesting as well\nas entertaining. Mr. Cahn, Stefan's translator, will accom-\npany us (for his own pleasure, for our Spanish is, although\nbad, sufficient to get along). About Uruguay we are Stefan has\nsuddenly decided to leave it out. It is a little out of the\nway and he will have enough lecturing these two weeks\nhere. Perhaps we stay a few days longer here in Buenos\nAires and then return to Brazil where we will first try to\nremain in Rio (but in a different hotel where we could have a\nroom with terrace which gives more air) and then, when it gets too hot,\ngo up to a place in the mountains, we do not yet know which.\nKindest regards and kisses, keep well\nLotte.",
+        "notes": "Handschriftlicher Brief auf Hotelpapier des 'City Hotel' Buenos Aires. Die Zeile 'HALF A BLOCK FROM PLAZA DE MAYO IN THE HEART OF THE CITY' und 'Every room with private bath, filtered ice water, telephone, radio. etc.' sind gedruckte Werbezeilen am unteren Rand des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens mit aufgelegter Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. 'Lotte Sch[?]' bezieht sich vermutlich auf eine Person, deren Nachname aufgrund der Handschrift leicht unsicher ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1965,
+    "total_words": 369,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1965,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1965,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0027,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

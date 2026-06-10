@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3249",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [17. Januar 1935], SZ-AAL/B2.19",
+    "signature": "SZ-AAL/B2.19",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3249/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3249/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3249/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3249/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3249/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.19"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [17. Januar 1935], SZ-AAL/B2.19\n- Signatur: SZ-AAL/B2.19\n- Datum: 17.1.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. PORTLAND PLACE,\nLONDON, W.1\n\nLiebes Fräulein, ich will Ihnen auch nur vor der Ankunft\nschreiben. Die Überfahrt war zwei Tage sehr böse, ich blieb\neinen Tag im Bett aber ohne etwas von dem guten Essen der\nCompagnie zurückzugeben. Jetzt denke ich noch kaum in Newyork\nschon an London. Man wird mir es aber schwer zu machen\nversuchen, das in Ankunft länger zu bleiben, obwohl ich doch\nan dieser Rast stets lange nur mich ungern als das wahr-\nhaft glücklich fühle; aber das Natürliche, das Einfachste ist immer\nzu sehen das schwerste, besonders wenn ein Hustern auf gewissen\nZufällen lastet. So muss man ich eben ertappen, was man\nals das selbstverständliche wollte – ich weiß das keine Rast\nmeinem inneren Wesen stets entspricht nur hätte ich nicht das\nMaß nur alle diese Hemmnisse!! Aber ich will nicht im voraus\njammern, man muss ernste Dinge eben ernst nehmen nur\nden schweren gewachsen werden.\nWann ich fahren werde weiß ich nicht. Es gelten, da ich\neinen deutschen Dampfer nicht nehme, nur am 26 aber wird\ndas ist wahrscheinlich zu früh nur oder am 7 ten, so dass ich\nwahrscheinlich am 14 in London wäre, bis 20 bliebe. Wenn\nich Ihnen also telegrafiere den Namen des Dampfers so\nnehmen Sie mir bitte Quartier, allenfalls haben Sie nur",
+        "notes": "Brief auf Briefpapier mit gedrucktem Briefkopf. Handschrift in violetter Tinte. Die Zeile 'an dieser Rast stets lange nur mich ungern als das wahr-' ist syntaktisch schwierig, aber so transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "auf meine Rechnung.\nIch denke noch sehr an alles Gute, das ich Ihnen verdanke\nund das nie durch nichts in meinem Gedächtnis geändert\nwerden kann. Ich freue mich sehr Sie wiederzusehen was hoffent\nlich haben Sie sich gut erholt nur eine schöne Zeit gehabt. Sie\nwissen wie herzlich ich Ihnen dies wünsche.\nMit vielen Grüßen an Sie\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Umschlag mit Briefmarke und Poststempel (New York, Jan 17, 1935).",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, woodstock Lane",
+        "notes": "Vorderseite des Umschlags. Handschriftliche Adresse. '55th Olympic' ist oben links durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Umschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift Stefan Zweigs. Einige syntaktische Unklarheiten im ersten Blatt sind originalgetreu wiedergegeben."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1632,
+    "total_words": 282,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1240,
+      341,
+      0,
+      51,
+      0
+    ],
+    "chars_per_page_median": 341,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

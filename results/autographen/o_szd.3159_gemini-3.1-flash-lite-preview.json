@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3159",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [August 1940], SZ-AAL/B1.43",
+    "signature": "SZ-AAL/B1.43",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3159/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3159/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3159/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.43"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [August 1940], SZ-AAL/B1.43\n- Signatur: SZ-AAL/B1.43\n- Datum: 08.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    By Clipper and by steamer\n\nDear Hanna and Manfred,\nFinally I have settled Eva and I hope she\nwill be happy there, they are nice welltodo Americans, the man in\nthe smeltering business, kind-hearted, extremely fond of children,\njolly, their house in a very good neighbourhood in the suburbs of\nNewyork - forty minutes by car - already countryside, near a lake.\nI have not been out there myself as I spoke to Mr. Salmon only\nyesterday and the wife is coming to Newyork to meet me - so I could\nnot insist on going out there especially as our time is now over-\ncrowded these last two days. But I am absolutely sure that there\nis nothing to worry about the house and the surroundings. Rose\nwho brought me together with him told me that it is a very good\nnaighbourhood with excellent schoold and from what he told me it\nis a very nice and large house and she will be looked after per-\nfectly well. As they are definitely wealthy people there is nothing\nto worry about from the financial point of view, he is eager to have\na child, to look after her, and what he would like best is to keep\nher and marry her one day. He and his wife are college graduates,\nshe is, as he says \"an artist\", I believe she paints. He will see\nthat she continues her piano lessons, told me that there are plenty\nof children in the neighbourhood, amongst them a thirteen year old\nboy, a definite genius on the piano, and she will meet\nnice children there. They are not too intellectual, but are having\na very good time, helping when they can, but enjoying life, and I\nbelieve Eva will be in a pleasant and carefree atmosphere and feel\nhappy there. In any case Rose Wohl will go and visit her and let\nme know how she is feeling there, and Rose also promised me to find\nanother home should this one not turn out as well as we expect. I\nwish I could have stayed until Eva arrives, bring her to her new\nhome and see myself how she feels - but we have to leave, our time\nis up and you know that we are expected to go to South America.\nWhat you have to do now - if you have not\ndone so yet - is to cable Mr. Leon S. Salmon, 291 Beechmont Drive,\nNew Rochelle, New York, when Eva is arriving, so that he can fetch\nher from the boat. He is very impatient to have her here, and I\nhope you have not to wait too long for a boat and that she gets here\nsafely. Did you try the Palestine Orient Lloyd for a ticket? You know\nwe got ours there. -\nI would also recommend that you cable also\nDr. Viola Wertheim Bernard (who was only the person to send the\naffidavit as a special favour but who, I expect, will not take any\nspecial interest in Eva) about Eva's arrival and where she is going\nto live so that she is informed. I shall write her in any case and\ntell her about it before I leave, but it is better that she knows\nwhen Eva is coming and that she also informs the United States\nCommittee for European Children (215 Fourth Avenue) who want to\ncheck up all the children whose affidavits went through their office\nas Evas did.\nI hope that Eva will not feel too lonely\narriving in a foreign country and being met by strange people, but\nit cannot be helped. Rose might go down too to fetch her, but she\ndoes not know her either.",
+        "notes": "Typoskript. Am linken Rand handschriftliche Notiz von Stefan Zweig: 'In any case Rose Wohl, 258 east 7th Street, Newyork, 18 West 70th Street Newyork. 175 East 79th Street Newyork. You probably won't want my notes in law address, but here it is to: Stefanie Zweig, 18 West 70th Street Newyork.' Am oberen Rand handschriftliche Notiz: 'and most people of our sort, We will try our best for Heiner, but the time is now short'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dear Hannah, for Eva all is now well prepared as you\nhave heard by our cable - they are wealthy people in a\nlarge house in an elegant faubourg of Newyork and they\nare really eager to have a good educated child. We see them\ntoday for lunch. All was more difficult than we expected\nas everybody is away from Newyork and this is also the major\ndifficulty for the affidavit for Heiner - I cannot ask one\nfrom Heubal as he has given already too many and I do not\nknow if we can find anybody in these last two overcrowded\ndays. Till now I could not have any[?] definitive for my\nformer wife, I am trying now to get Mexican visas for\nher whole family.\nThousand thanks that you have settled all about the\nhouse in Bath, I hope you will have there sometimes a\ngood rest after the busy days in London.\nWe had here a hard time, as I have worked a good deal\nmerely small things, but we will have rest during the twelve\ndays on the ship. I have offers for lectures in Argentine\nUruguay, Chile, Venezuela, more than I will probably\ndo and you must not worry about us. Dont be too\neconomical and send us cables to Rio (from where we\nsend immediately our Hoteladress) - I do not\nrely on airmail. In great love and hurry your\nWe arrive in Rio the 21. August                                Stefan",
+        "notes": "Handschrift in violetter Tinte. 'Heiner' ist über 'things' eingefügt. 'during' ist über 'rest' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überdeckt den Text von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4528,
+    "total_words": 867,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3250,
+      1278,
+      0
+    ],
+    "chars_per_page_median": 2264.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0012,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

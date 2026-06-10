@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3287",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Stefan Zweig an Lotte Altmann [4. Dezember 1935], SZ-AAL/B2.53",
+    "signature": "SZ-AAL/B2.53",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3287/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3287/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3287/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.53"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Stefan Zweig an Lotte Altmann [4. Dezember 1935], SZ-AAL/B2.53\n- Signatur: SZ-AAL/B2.53\n- Datum: 4.12.1935\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "CAMBRIDGE. BRIDGE OF SIGHS 13 KING'S COLLEGE CHAPEL 14",
+        "notes": "Vorderseite einer Ansichtspostkarte mit zwei Abbildungen (Cambridge). Gedruckter Text unter den Bildern.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein\nAltmann, aber fest\nsollen Sie nicht lange\nmehr krank sein; würden\nSie viel Alkohol zu\nsich nehmen wäre wir fier\nin Cambridge alles wäre\nall right. Gute Bänke\nStefan Zweig\n\nMiss Lotte Altmann\nLondon N.W 11\n50, Woodstock Road",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Poststempel 'CAMBRIDGE 4 45PM 4 DEC 1935'. Briefmarke 'ONE PENNY' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fräulein\nAltmann, aber fest\nsollen Sie nicht lange\nmehr krank sein; würden\nSie viel Alkohol zu\nsich nehmen wäre wir fier\nin Cambridge alles wäre\nall right. Gute Bänke\nStefan Zweig\n\nMiss Lotte Altmann\nLondon N.W 11\n50, Woodstock Road",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist charakteristisch und weitgehend eindeutig zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 532,
+    "total_words": 91,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      54,
+      239,
+      239
+    ],
+    "chars_per_page_median": 146.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

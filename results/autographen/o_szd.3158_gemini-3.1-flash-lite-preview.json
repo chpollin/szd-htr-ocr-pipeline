@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3158",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [1940], SZ-AAL/B1.42",
+    "signature": "SZ-AAL/B1.42",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3158/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3158/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3158/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3158/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3158/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.42"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [1940], SZ-AAL/B1.42\n- Signatur: SZ-AAL/B1.42\n- Datum: 1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, a postscript. We have had\nlunch with Mr. Salmon and I will tell\nyou frankly our impression - they are\nnice people, she not too intelligent but\nsurely of good temper; they seem to have\na good income, perhaps they are \"new\nriches\" who enjoy still her being wealthy\nbut not \"wichtig\" and very good-hearted.\nI have the impression that Eva will be\nquite happy there - of course, the fact of\nbeing far\naway from you will spoil a little her\nhappiness and if you are sincere to your-\nself you would not wish, that it were\notherwise. My sister in law will also\nbe interested in her and Anita Calu\nis also ready to expect her at the pier.\nSo do not worry too much: she will\nsee a new world and nobody knows\nhow such a connexion with America\ncan be valuable for her future.",
+        "notes": "Handschriftlicher Brief, violette Tinte. Die Zeile 'being far' wurde nachträglich eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "As to Heiner I will do my\nbest. Unfortunately all people I\nknow here are away - perhaps we\nfind something in the last moment.\nAnd then we would ask you to\ncable us all dates (birth date etc)\nwhich are necessary for the forms.\nYours\nStefan",
+        "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "next adress : Ossining (State Newyork) 7 Ramapo ~~street~~ road\nDear Hannah & Manfred, Lotte will have told you about our in-\ntention to go into the neighbourhood of Newyork. I hope to work there\nquietly and not to loose so much time by other people. Lotte feels al-\nready much better, I hope that the injections will finally give her",
+        "notes": "Handschriftlicher Text auf einem Papierstreifen. 'street' ist durchgestrichen, 'road' darüber geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Papierstreifens aus Seite 3, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "next adress : Ossining (State Newyork) 7 Ramapo ~~street~~ road\nDear Hannah & Manfred, Lotte will have told you about our in-\ntention to go into the neighbourhood of Newyork. I hope to work there\nquietly and not to loose so much time by other people. Lotte feels al-\nready much better, I hope that the injections will finally give her",
+        "notes": "Derselbe Papierstreifen wie auf Seite 3, hier mit Archiv-Farbskala und Grauskala abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrekturen (durchgestrichene Wörter) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1681,
+    "total_words": 319,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      775,
+      238,
+      334,
+      0,
+      334
+    ],
+    "chars_per_page_median": 334,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

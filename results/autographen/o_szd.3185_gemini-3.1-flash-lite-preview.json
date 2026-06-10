@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3185",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [3. Dezember 1940], SZ-AAL/B1.67",
+    "signature": "SZ-AAL/B1.67",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3185/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3185/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3185/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.67"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [3. Dezember 1940], SZ-AAL/B1.67\n- Signatur: SZ-AAL/B1.67\n- Datum: 3.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Central\nRio, 3.12.40\n\nDear Hanna u Manfred, No letter from you or Mama since\nmore than 2 weeks, and I am glad we had at least your cable.\nBut I do not want to wait longer, as this letter shall convey\nto you, Hanna, our heartiest congratulations and best wishes for\nyour birthday, and many happy returns; let us hope the next will\nsee us all united again. I cabled you that at least one letter of\nEva was on the way and that we had one. She seems to be quite\nwell and happy there, also my sister-in-law wrote lately that she\nhad again spoken to her on the phone, and if all goes according to\nplan I hope to see her in February. In the meantime we are\ntrying out the Brazilian summer. It is gradually getting warmer, but\nour room is very airy, Stefan, as you know, enjoys perspiration, and\nso all is well so far - and we often try to imagine your life\nwhich in every respect must be the opposite to ours. I hope that\nat least Manfred takes a long Christmas holiday at Bath although\nI am not sure whether it is still as quiet as it was the last\nmonths. Do all the families in Rosemount use the sitting-room? And\nis Clara with child out there now? And how is life in Regent Lodge?\nWas the removal difficult or did'nt you take your furniture there?\nMarta will be busy there, I suppose, and glad of it. I do not know\nwhether I wish your brothers things were settled or not, I would dislike\nthe idea of his travelling now. Paul, contrary to your letters has\nnot yet arrived and Stefan is glad about it. We lead a very quiet\nlife now. As long as the family of our friend Catá who died in that\nstupid accident, was still in Rio we were kept busy visiting them\nand Stefan spoke at a commemoration. Now they have left and we\nsee few people, do not go out much, but sit on our balcony and\nwork and read. We have made one or two more excursions and are\nalways delighted to discover still more and more unknown things.\nOnce more many happy returns, and best wishes, Lotte.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar geschrieben."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1964,
+    "total_words": 383,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1964,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1964,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

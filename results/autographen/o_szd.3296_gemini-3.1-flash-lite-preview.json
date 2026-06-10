@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3296",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert von Stefan Zweig an Lotte Altmann [21. Juni 1936], SZ-AAL/B2.61",
+    "signature": "SZ-AAL/B2.61",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3296/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3296/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3296/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.61"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert von Stefan Zweig an Lotte Altmann [21. Juni 1936], SZ-AAL/B2.61\n- Signatur: SZ-AAL/B2.61\n- Datum: 21.6.1936\n- Objekttyp: Kuvert\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss Lotte Altmann\nEXPRESS FEE PAID\nLondon N W 11\n50 Woodstock Road",
+        "notes": "Vorderseite eines Kuverts mit Briefmarken (Österreich, Tirol-Serie), Poststempel, rotem Eilboten-Aufkleber und violettem Stempel 'EXPRESS FEE PAID'. Die Adresse ist handschriftlich in violetter Tinte verfasst. Farbskala und Grauskala sind Teil des Archivierungsscans.",
+        "type": "color_chart"
+      },
+      {
+        "page": 2,
+        "transcription": "Miss Lotte Altmann\nEXPRESS FEE PAID\nLondon N W 11\n50 Woodstock Road",
+        "notes": "Vorderseite des Kuverts, identisch mit Seite 1, jedoch ohne Archivierungsskalen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "LONDON\n22 JU\n36\nE C",
+        "notes": "Rückseite des Kuverts mit Poststempel 'LONDON 22 JU 36 E C'. Das Kuvert ist an der oberen rechten Ecke leicht beschädigt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, es handelt sich um eine Adressierung auf einem Kuvert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 153,
+    "total_words": 32,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      67,
+      67,
+      19
+    ],
+    "chars_per_page_median": 43.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

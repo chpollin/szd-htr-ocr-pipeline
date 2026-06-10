@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3341",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert von Friderike Zweig an Stefan Zweig [23. September 1937], SZ-AAL/B3.101",
+    "signature": "SZ-AAL/B3.101",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3341/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3341/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3341/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.101"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert von Friderike Zweig an Stefan Zweig [23. September 1937], SZ-AAL/B3.101\n- Signatur: SZ-AAL/B3.101\n- Datum: 23.9.1937\n- Objekttyp: Kuvert\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig Esq\n\nLondon W 1\n49 Hallam Str.\n864",
+        "notes": "Vorderseite eines Kuverts. Handschriftliche Adresse in blauer Tinte. R-Zettel 'Salzburg 1 1116' links. Zwei österreichische Briefmarken oben rechts, Poststempel 'SALZBURG 1' (Datum unleserlich, laut Metadaten 23.9.1937). Die Zahl '864' ist handschriftlich in blauer Tinte hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan Zweig Esq\n\nLondon W 1\n49 Hallam Str.\n864",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farb- und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts. Sichtbar ist ein blaues Siegel/Stempel mit dem Monogramm 'SZ'. Unten rechts schwach lesbarer Prägedruck/Stempel der Firma 'KOBER & LERCH WIEN I, WOLLZEILE 7'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Adressdaten sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 94,
+    "total_words": 20,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "color_chart",
+      "blank"
+    ],
+    "chars_per_page": [
+      47,
+      47,
+      0
+    ],
+    "chars_per_page_median": 47,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

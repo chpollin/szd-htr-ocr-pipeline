@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3247",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [6. Januar 1935], SZ-AAL/B2.17",
+    "signature": "SZ-AAL/B2.17",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3247/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3247/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3247/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3247/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3247/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.17"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [6. Januar 1935], SZ-AAL/B2.17\n- Signatur: SZ-AAL/B2.17\n- Datum: 6.1.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    1935!\n                                                                    6. Januar 1934\nHotel Westminster                                     Nice, the 20th December 1934.\n\nDear Sir, nein, liebes Fräulein Altmann, ich werde\nIhnen dankbar auf Ihren angefangenen Brief noch\neinen night letter! Alles Gute für Sie, ich würde es\nvoll nicht noch einmal sagen, Sie wissen ja wie\naufrichtig ich für Ihre Gegenwart hier dankbar war\nund mir gewünscht hätte, Sie würden geschäftlichen Ver-\ngewalten uns mehr freie Zeit gelassen.\nNun ein Schlammassel auf die französische Post.\nSie wollten die Stenogramme nicht als commercial\ncoal papers annehmen und verlangten 35 Francs.\nDie Bahnpost wieder weigerte sich, Schake aus London\nnachzusenden, sie gehen hier morgen vom Hotel ab.\nSie sehen, dass mein Resumee muss leider recht befall,\nman muss zeitig vorsorgen und mir bedrückt der\nGedanke, Sie könnten es oben kalt empfinden -\nbesonders nach der schönen täglichen Wärme hier\nin Nizza, die Ihnen hoffentlich auch innerlich wohl-\ngetan hat.\nIch bin noch lange nicht daran gewöhnt, dass Sie\nfort sind und wenn ich am Gang vorbeigehe,\nmöchte ich Sie immer rufen zu einem raschen Brief-",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Datierung '6. Januar 1934' ist handschriftlich korrigiert zu '1935!' oben rechts. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ja man gewöhnt uns verwöhnt ist!\nIch schreibe Ihnen noch sobald ich Sie angelangt werde,\ndieser Brief ist nur ein rauler Dank und zur Erle-\nichterung der Geschäfte: sobald ich weiß dass Sie dort sind\nund bleiben hören Sie mehr von Ihrer aufrichtigen\n\nStefan Zweig\n\nEs ist nur gut, dass ich an London mit Sicherheit\ndenken kann, freilich es ist weit, aber ich fühle mir\ndort ganz at home.",
+        "notes": "Handschriftlicher Text auf der Rückseite des ersten Blattes. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archivierungshilfen: Farbskala und Grauskala. In der Mitte ein Briefumschlag (Rückseite) mit Poststempel 'SESTRIERES -9.1.35 TORINO'.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Signorina Lotte Altmann\n88\nSestrières (Italia)\nvia Ventimiglia                                     Hotel Torre",
+        "notes": "Vorderseite eines Briefumschlags. Handschriftliche Adresse. Briefmarke 'REPUBLIQUE FRANCAISE' und Poststempel 'NICE 9 30 8 I 1935 ALPES-MMES'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Poststempel 'SESTRIERES -9.1.35 TORINO'. Identisch mit dem mittleren Teil von Seite 3.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Schake', 'rauler', 'Vergewalten'). Die Datierung im Briefkopf ist widersprüchlich (1934 vs 1935)."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1734,
+    "total_words": 251,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1237,
+      387,
+      0,
+      110,
+      0
+    ],
+    "chars_per_page_median": 387,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

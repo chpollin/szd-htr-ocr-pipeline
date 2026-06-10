@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3160",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [23. August 1940], SZ-AAL/B1.44",
+    "signature": "SZ-AAL/B1.44",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3160/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3160/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3160/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.44"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [23. August 1940], SZ-AAL/B1.44\n- Signatur: SZ-AAL/B1.44\n- Datum: 23.8.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio 23. August 1940 Dear Hannah, we have been so glad\nto get your letter from 8. August so quickly, the\nothers have not arrived yet except the first one.\nRio is as marvellous as ever, nothing in the\nworld to be compared with it. Unfortunately I am\nafraid that Lotte will loose her modesty here since\nshe is always with ambassadors, ministers and\nphotographed in all newspapers. But we have plenty\nof time for us, take three times a week Spanish\nlessons as I have my lectures in the other countries\nto deliver in Spanish - I do not know what to\naccept, in Chile I am invited officially with the\nobligatory visit to the President, in Uruguay I\nhave only two lectures and about three in Buenos\nAyres, provided I will do all this. Personally I\nwould like to stay here, we live here in a delightful\nlittle hotel with all comfort in a nice apparte-\nment and very cheap - what a contrast with\nNewyork, where one always has the feeling to be\na \"Hochstapler\" and where I had a good pretext\nfor not staying every day and to go with dirty\nboots. On the ship it was delicious, 12 days of\nperfect weather with swimming baths and a choice\nof the most interesting and cultivated people. You\ncannot imagine how refined and cultivated the\nupper classes here are - a small élite but a\nwonderful one: culture in houses, in manners",
+        "notes": "Handschriftlicher Brief von Stefan Zweig, violette Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "and of a politeness, which even overshadows my\nown. Lottes room is full of marvellous flowers, we\nhave autos for drives and in the same time they\nare not insistant. The only thing which retreats me\nto live here is the heat - we are arrived in full\nwinter but it is warmer than in Bath in July\nand one shudders to think how it must be, when\nspring commences (in October) and summer (in\nDecember.)\nThe strangest thing is that I get quite indifferent\nwhat happens with my books, that I do not\ncare to get no letters. I have got for my former\nwife a visitors visit to America and possibly\none for Portugal but do not know if she will\nleave without her children. All correspondence\nwith France is nearly impossible and I cannot\ncable - by the way, cables from here are fright-\nfully expensive, but do not hesitate to cable\nus as often as you can. We shall stay here\nin any case till to the first week of October\nand possibly even longer but I am afraid\nnot much longer as we have to go then to\nthe other American countries which are some-\nwhat cooler in summer (winter for you.) Here we\ncan follow all the events much better and\nare much more confident; the sympathies in\nSouth America for England are very great\nand all is much more European - we hope that our best wishes\nare with you all. Stefan\n[Randnotiz links:] The United States, we hope you have a good time, a relatively\ngood one at Bath and you know that our best wishes\nare with you all. Stefan",
+        "notes": "Handschriftlicher Brief, Fortsetzung. Am linken Rand befindet sich eine vertikal geschriebene Notiz, die teilweise den Textkörper überlagert oder ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument liegt unter der Skala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Randnotiz auf Seite 2 wurde als solche identifiziert und transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2761,
+    "total_words": 524,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1311,
+      1450,
+      0
+    ],
+    "chars_per_page_median": 1380.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

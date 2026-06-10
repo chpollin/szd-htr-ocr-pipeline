@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3353",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.114",
+    "signature": "SZ-AAL/B3.114",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3353/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3353/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3353/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3353/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3353/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.114"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.114\n- Signatur: SZ-AAL/B3.114\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "lieber,\nich bestätige Dir Deine beiden Briefe.\nJa, das war es, was ich all diese Jahre\nfürchtete, dass die Entfernung uns\neine fremde Sprache würde sprechen\nlassen. So sind es denn die Missver-\nständnisse, die jetzt unsere legale\nGemeinschaft abtöten. Damals als Du von\nZürich telefoniert und etwas vom\nvielen Geld sagtest, das die Sache koste,\ndachte ich an die Gebühren des Notariats,\nakt und trug Dir meinen Schmuck auf.\nUnd als ich schwieg – denke Dir, ich\nschwieg, weil ich den Athem anhielt\nweil ich benommen war von dem Glück,\ndas mir in der Bahn über mich gekommen\nwar. Nach 3, 4 Tagen, als kein\nWort von Deiner Ankunft kam –\nahnst Du denn wie ich muss sorge,\nwenn Du fliegst, wollte ich telegraphieren,\nfürchtete aber, Du würdest gestört sein\nin deinem Ausruhen. Die Erklärung\nkam ja erst viel später – Meiler\nhatte sie mir nicht gesandt. Ich\nreklamierte [?] und ich von Meiler\n\n[Rand links, vertikal:]\nX von Dir erhielt ich sie nie, die Copie.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeilen am linken Rand sind vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes. Leer, bis auf den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Nachtrag: Ich hatte die Copie der\nErkl. den 22. Mai an einem Samstag erhalten.\nu. Meiler empfahl ruhige weitere Besprechungen.\nSie sagten, Du schreibst es jetzt schon\nmehrmals u. heute wieder, der\nZeitpunkt hätte Dir nicht gepasst.\nDas war es ja, dass ich immer\nein Schwert über meinem Kopf fühlte,\nwenn nicht heute dann später, wenn\nich noch älter und noch schwächer sein\nwürde. So sehr ich Deine Mutter liebe\nund schonen möchte – warum hat\nsie nicht früher gesprochen, warum\nsagte sie Dir nicht, was man gegen\nmich im Schilde führte u. dem Du\nVorschub geleistet hast, weil Du\nDich von mir freier machen wolltest\nIch verarg es ihr nicht – sie ist\nja so ausgeliefert, du weisst es ja.\nAber wenn Du mir aufschieben\nwoltest, mir nicht ersparen\nwoltest, wie soll ich da vertrauen.\nDann hast Du ja noch mehr\nTrennung vor. Vielleicht sollen wir\njetzt nicht mehr über all das sprechen.\nEs tut zu weh, lieber hoffen und wenn\nman sich auch belügt. Das hilft hinweg.\nAuch wenn wir uns wiedersehen nicht\nrühren daran! Es war, es ist noch Zeit die\nUngültigkeit nicht einzureichen, da es ausgemacht\n\n[Rand links, vertikal:]\nX Deiner Mutter wegen wolltest Du Aufschub und\nweshalb noch 2.\n\n[Rand rechts, vertikal:]\nist, dass sie erst nach der Gebührenbemessung die eingereicht\nwerden darf. Ich will mein Wort nicht brechen, wenn Du sie\nfordert. Aber Zeit zur Überlegung war Dir nun noch gegeben.\nWenn Du so entscheidest, dann sprechen wir doch nie\nmehr darüber. Die Liebe kann – wie immer es steht – alles\numgehen machen. Ich danke Dir für alle guten Worte.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Enthält Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes. Leer, bis auf den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Im Hintergrund ist das Dokument (Seite 3) durchscheinend zu sehen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist charakteristisch für Friderike Zweig. Einige wenige Stellen am Rand sind aufgrund der Ausrichtung und des Durchscheinens leicht herausfordernd, aber im Kontext gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2496,
+    "total_words": 434,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      953,
+      0,
+      1543,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1248.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0023,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

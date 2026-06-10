@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3182",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [19. November 1940], SZ-AAL/B1.64",
+    "signature": "SZ-AAL/B1.64",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3182/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3182/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3182/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.64"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [19. November 1940], SZ-AAL/B1.64\n- Signatur: SZ-AAL/B1.64\n- Datum: 19.11.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, 19.11.40\nDear Hanna & Manfred, My sister-in-law's letter\nabout reading Eva's letter where she says that she did\nnot like it in her house, will have reached you be-\nfore this one and I hope you don't take it seriously.\nIt is a stupid incident but without importance and it shows Eva's\nchildishness that she gave this letter - yes! - to my sister-in-law to\npost it. The important thing is that she writes to you regularly,\nfor Salmon's seem to be in that respect like all our American\nfriends none of whom writes us a word, although definitely people like\nHuebsch and Rose are good friends. They have not yet realised what letters\ncan mean to those far away. To me letters mean [?] and so please write, write many and long letters until finally the\npersonal contact can be reestablished. Kindest regards and best love\nLotte\n\nDear A. & M. we cannot tell you anything about Eva, as she did not\nwrite to us - I have the feeling that the Helaus[?] like to keep her for\nthemselves and do nothing to keep her in touch with her family\nEva will perhaps have to fight to get her back from her new parents.\nAnyhow we hope to see her in February. For the moment we have but\none desire: To sit quietly and not to move. I have done enough with\ntravelling by air and auto and trains and hydroplanes in those 16\ndays - more than another in a lifetime and the idea to travel\n14 days to New York is for the moment a ghastly one for me. I am\nvery worried about Manfred. I do not understand why he must\njust now start a new profession as a Xray specialist - after\nthe war his practice will flourish again and he would better do\nto take a rest. Dont think too much about the future and remem-\nber always that you have a child who wants you. Dont worry\nabout money, you should know already that one of the very few\npleasures I have now{left} is to know that you have not to think about\nand may freely and largely dispose of all I have - we have a\nduty one against the other in such times. I told you that I had\nto give ten lectures instead of four and am invited to give\nmore in Danish and in all possible countries of South America\n- so we have at least something useful to do and I am glad that\nI am physically able to assist stand the great\nstrain. Ever yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier der 'Editora Guanabara'. Violette Tinte. Am linken Rand vertikal geschriebener Text: 'I am physically able to assist stand the great strain. Ever yours Stefan Zweig'. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der Randnotizen. Die wenigen unsicheren Stellen sind als [?] markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2257,
+    "total_words": 441,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2257,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2257,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0045,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

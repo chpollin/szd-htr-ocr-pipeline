@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3027",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [13. März 1941], SZ-AAL/B1.105",
+    "signature": "SZ-AAL/B1.105",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3027/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3027/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3027/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.105"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [13. März 1941], SZ-AAL/B1.105\n- Signatur: SZ-AAL/B1.105\n- Datum: 13.3.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Taft Hotel                                Newhaven, March 13th, 1941.\n\nDear Hanna,\n\nFinally your letter Nr. 3 from Febr. 8th has arrived,\ndelayed because you had written 18th Street 48 East instead of\n18 East 48th Street. You were of course right not to give Hans\nany more money after the first 35£ which after all is a considerable\nsum. I am terribly sorry that through the vague expressions in my\nletter to him he got the impression that you could dispose of Stefan's\nmoney quite freely and that you had the disagreeable task of refusing\nhim any more. I have written him again to-day telling him quite\nclearly that another £20 is the utmost we can give him until August.\nThis is Stefan's instruction to you which I transmit that you may\ngive Hans once more £20 and that then - with these 55£ - he has nothing\nto expect from us until at least August. By that time, I hope, he will\nhave found a good job.\n\nOtherwise there is nothing to report. We had a nice\nletter from Eva, a special effort on her part for style, and the\nfunny part about it is that it sounded curiously like one of Manfred's\nletters in style. - I got up to-day for the first time after my 'flu\nand hope that poor Stefan soon gets his secretary back.\n\nBest love, kisses,\nLotte\n\nDear Hannah, this is the first letter to be able\nto write since 10 days. After her heavy astma-attack\nshe has a very bad flu and is still in bed; I hope she can go up tomorrow.\nOf cause it is not nice to have this in an American Hotel which has a\nresemblance of {resemblance} with a railway-station, no personal touch and interest. We\nhas only a doctor from an other century and no else in this little town.\nAnd we are both so tired of this nomadic life as you cannot imagine. But\nthe first thing is that she gets fit again and later we shall see what to do\nnext - all is uncertain in those times. I am only glad that we can rely\non Mr. Klaeffer for Eva, as it will not be possible to see her next week and\nperhaps before April. It Lotte feels better we have still to go for two days\nto Baltimore, for one day at least to Newyork. But time flies! - I wrote\nyou about the birth-certificates and forgot to tell you, that it will be\nperhaps better to tear them through Ingram as this proves that I want them\nfor a legal matter, but if you have already done it, there is no harm.\nKindest regards to you all\nStefan Zweig",
+        "notes": "Der Text am linken Rand (vertikal geschrieben) lautet: 'Lotte asks you to keep the letter to her brother [?] as she does not know his actual adress.' Der Brief besteht aus einem maschinengeschriebenen Teil (Lotte) und einem handschriftlichen Teil (Stefan Zweig). Die Einfügung '{resemblance}' wurde im Original über das Wort 'resemblance' geschrieben, das bereits im Text stand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und der handschriftliche Teil von Stefan Zweig sind klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2361,
+    "total_words": 454,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2361,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2361,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

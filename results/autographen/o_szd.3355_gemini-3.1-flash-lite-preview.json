@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3355",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.116",
+    "signature": "SZ-AAL/B3.116",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3355/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3355/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3355/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3355/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3355/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.116"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.116\n- Signatur: SZ-AAL/B3.116\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Sonntag.\nLiebes Stefan,\nAntwort: es ist unwahr, dass ich\nDich im entscheidenden Moment ver-\nliess. Das Gegenteil ist wahr. Ich wurde\n2 Mal von London weg geschickt u.\n2 Mal verliesest Du Salzburg nach eintägi-\ngem Aufenthalt. Dr Strassny lehnte mein\nAbmelden ab (ich besitze den Brief) und\nim Herbst, als für den er es {von Salzburg} vorschlug\nverhindertest Du meine Abreise, so dass\nich mich ja nicht abmelden {konnte} und in London\nhätte erst an heuer wieder abmelden können,\nwo Du es unter Drohungen verbotest.\nAber das weisst Du ja selbst\nam Besten und glaubst auch nicht\nim Ernst, dass ich oder jemand",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "anderer Dir glaubt, dass ich nicht bis\nans Ende der Welt mit Dir gegangen\nwäre. Schliesslich war ich 4 Mal in London\nu. fuhr jedesmal nur auf Deinen Wunsch\nweg, ebenso Nizza. Wahrhaft, also ich\nhätte Dir nur Gefolgschaft geleistet.\nAber wozu diese Fälschung aufwärmen,\nfür wen. Du weisst doch Bescheid über\nsämtliche Motive.\nDie Wendung in der Politik ist\nsehr interessant. Es ist traurig,\ndass man nicht darüber sprechen\nkann. Brieflich {zusammen} ist das schwer.\nDie Bevölkerung hier scheint\nweder so noch so darauf zu",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "3\nreagieren. Ich glaube vorläufig\nwird sich nicht viel ändern.\nJedenfalls ist die Verklärung\nauch ohne England, aber [?] \nvielleicht nicht ganz so, als es\nihm jetzt hier beim wird gegangen.\nEnglands Egoismus wird eben\nschliesslich doch den Kürzeren\nsind ziehen. (Das Buch von\nOdette Keun ist sehr gut.) -\nGlaise-Horstenau ist Dir ja\ngut bekannt. Er hielt hier\neinmal eine hochanständige",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "4\nRede. Schmidt dürfte Rothi aus\nParis kennen. Hoffentlich ist Roth\nbei Dir. Frau Graulser, diese\nprächtige Frau war einen Tag bei\nmir. Sie will Dich ebenso wie Thomas\nMann, wenn Du zurück bist einen Empfang\nu. Vortrag machen. Baronin Bedrunie war\ngleichfalls bei mir, ebenso Reichner's,\ndie blühend aussahen u. mir ein entzückende,\n[?] altes Kinderbuch schenkten. Heute kommt\nHanna Schwarz auf 2 Tage auf den Weg\nnach Lausanne. Lotte Lehmann lässt Dich\ngrüssen. Luse war heute bei ihr, leider bei\nelendem Wetter. Regina Ullmann sandte mir\nwunderschöne Erzählungen. Ich habe nie Prosa gelesen\ndie so sehr Lyrik ist, was das Gedankengut betrifft",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 4.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "5\nDa Rilke tot ist, hat man bei dieser\nLektüre das Gefühl als wäre sie\nnicht von dieser Welt. Es ist ge-\nradezu unheimlich. Vielleicht gibt\nes doch noch dieses geheiligte\nLand. Durch hernet und diese\nDichterin kann man seinen\nAttem verspüren, der einen\nmehr ergreift denn je.\nWie denkst Du nun nach\nder Unabhängigkeitserklärung\nüber den Hausverkauf?",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 5.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist flüssig und weitgehend eindeutig. Einzelne Wörter wie 'hernet' (möglicherweise 'Rilke' oder ein Eigenname) oder 'Rothi' sind kontextuell interpretiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2505,
+    "total_words": 414,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 5,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      606,
+      520,
+      386,
+      644,
+      349
+    ],
+    "chars_per_page_median": 520,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0048,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

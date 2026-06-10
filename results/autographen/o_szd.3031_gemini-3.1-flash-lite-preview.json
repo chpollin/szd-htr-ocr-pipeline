@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.3031",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [April 1941], SZ-AAL/B1.109",
+    "signature": "SZ-AAL/B1.109",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3031/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3031/IMG.2"
+    ],
+    "input_image_count_total": 2,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.109"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [April 1941], SZ-AAL/B1.109\n- Signatur: SZ-AAL/B1.109\n- Datum: 04.1941\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hanna u Manfred\nTo-day your letter of Feb. 27 last week your letter Nr 4, - there is still one (Nr. 3)\nmissing, where you apparently wrote about mother and business as I gather\nfrom the other letters. Lots of our letters must be lost or delayed, for I\nwrote almost daily in the period where I was settling Eva. Resumé: Eva\nhad a lovely home at Salmon's, a nicely-furnished modern country house\nin beautiful surroundings, S.'s were nice to her and Mr. S. especially\nspoiling her as much as he could and taking enormous pains to gain her\nlove and interest. He overdid this apparently for although they were al-\nways very polite and friendly together there was no real contact. S.'s seemed\nto realize this better than Eva who liked being with them but admitted\nshe was being spoiled and bored. To the head-mistress of the school she was\nin, had just said her school was too easy and she had better change over\nto another school with higher grades, this was a good opportunity, and I\nagreed with S's in all friendship - they were surprisingly nice and\nunderstanding about it, one really shouldn't judge them by their deter-\nmined not-writing - that Eva would better be with a lot of other\nchildren and different school. Then, after long deliberations and con-\nsultations with all kinds of people, I decided for Schaeffes's place, and\nfrom all we can judge until now, it seems exactly the right thing for Eva,\nI wrote you that after all she goes to the Public School now and I must\nsay I am rather glad things did turn out this way and that she is not\nbrought up on the super-individualistic methods of the Progressive School,\neven if this particular one was supposed to be very good. - Eva looks very\nwell, unchanged, still a little bit on the stout side but not at all fat, and\nis her old self again. As Mrs. Sch. writes she is gay and seems very happy\nin her house, is friendly with the other children and there are now\nquite a number in her age. The dresses I saw on her fit her perfectly - the\nred velvet, the checked dress and the yellow Yella. Mrs. Salmon had got\nher a nice new coat (and an awful hat with a feather which fortunately she\nneed not wear any more) and I bought her for outdoor life in Boston\na ski-suit, wind-and waterproof, blue with a red hood, and a pair of high\nrubbers. That was all she needed. She has grown a little, but not too much.\nSch's try to lure her into out-door activities with various tricks. She does\nnot like that too much yet, probably because she is not used to it and\nthe others are better in winter sports and games than she is. But that\nwill change once this long winter is over. We had been longing for\nwinter weather, but we have already enough, it is too cold and windy to\ngo out as we can't put on snow suits in the street. - As Stefan wrote you about\nmy illness, I better report too. I had a bad cold with an asthma-attack, the\nfirst since 2 years, fortunately I got asthma-syn here, and a week later it de-\nveloped into a flu. I am very glad for I finally had my necessary fever\nagain for a few days and this will settle the asthma for months, I suppose.\nPoor Stefan has been very patient and helpful and hardly at all a \"Jewish nurse\"\nbut as usual the fact that I was not available for work has made him more\nanxious to work than usual.\n\n[Randnotiz links:]\nI will see what I can do about the\naffidavit. It is very difficult and best luck\nThanks address now.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Tinte ist violett. Die Randnotiz links ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift und der Randnotizen. Die Transkription folgt dem Layout des Originals."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3410,
+    "total_words": 648,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      3410,
+      0
+    ],
+    "chars_per_page_median": 3410,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

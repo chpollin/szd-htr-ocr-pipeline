@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3373",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Emil von Hofmannsthal an Stefan Zweig [28. September 1938], SZ-AAL/B3.135",
+    "signature": "SZ-AAL/B3.135",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3373/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3373/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3373/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.135"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Emil von Hofmannsthal an Stefan Zweig [28. September 1938], SZ-AAL/B3.135\n- Signatur: SZ-AAL/B3.135\n- Datum: 28.9.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DR. EMIL VON HOFMANNSTHAL.\n\nCOMMONWEALTH BANK CHAMBERS,\n10. OLD JEWRY,\nLONDON, E.C. 2.\nTEL.: METROPOLITAN 0252 (8 LINES).\n\nMEMBER OF THE FORMER AUSTRIAN BAR.\nCONSULTANT IN CENTRAL EUROPEAN LAW.\nCORRESPONDENT IN PARIS:\n14 RUE LACRETELLE.\n\n28.9.38\n\nDr Stephan Zweig, Esq.\n49 Hallam str., W.1\n\n\nVerehrter Herr Doctor,\n\nich wiederhole meine telefonische Mitteilung, dass ich\nvon Ihrer Gattin die telegrafische Zustimmung zu unserem gestrigen\nUebereinkommen erhalten habe, womit dieses giltig abgeschlossen\nist.\n\nInfolgedessen schreibe ich laut ./. an Herrn Dr Lorch und\nbitte Sie, ihm alle Unterlagen zur raschen Durchfuehrung der\nBuergschaft zugehen zu lassen.\n\nHiemit ist meine Taetigkeit, wie wir gestern besprachen, im\nwesentlichen beendet und Sie wuerden mich sehr verbinden, wenn\nSie das vereinbarte Honorar von\n80/-/- £\n( achzig Guineas ) mir entweder rekomm.mittels Scheck uebersenden\noder auf mein Konto \"Hunter\" bei dem Bankhause Leopold Joseph\n& Sons, 10 Austin Friars, E.C.2 ueberweisen wollten. Die der-\nzeitigen Verhaeltnisse rechtfertigen wohl die Bitte um Beschleuni-\ngung, wenn ich mir auch nichts Besseres wuenschen koennte, als dass\nIhr Optimismus sich bewahrheitet .\n\nIhr vorzueglich ergebener",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich (Signatur von Emil von Hofmannsthal).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "49 Hallam str., W.1\n\n\nVerehrter Herr Doctor,\n\nich wiederhole meine telefonische Mitteilung, dass ich\nvon Ihrer Gattin die telegrafische Zustimmung zu unserem gestrigen\nUebereinkommen erhalten habe, womit dieses giltig abgeschlossen\nist.\n\nInfolgedessen schreibe ich laut ./. an Herrn Dr Lorch und\nbitte Sie, ihm alle Unterlagen zur raschen Durchfuehrung der\nBuergschaft zugehen zu lassen.\n\nHiemit ist meine Taetigkeit, wie wir gestern besprachen, im\nwesentlichen beendet und Sie wuerden mich sehr verbinden, wenn\nSie das vereinbarte Honorar von\n\nIhr Optimismus sich bewahrheitet .\nIhr vorzueglich ergebener",
+        "notes": "Scan mit Farbskala/Grauskala für Archivierung. Der Text ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription folgt dem Typoskript originalgetreu."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1814,
+    "total_words": 260,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1209,
+      0,
+      605
+    ],
+    "chars_per_page_median": 1209,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

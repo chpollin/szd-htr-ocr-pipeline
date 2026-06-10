@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3126",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Januar 1942], SZ-AAL/B1.194",
+    "signature": "SZ-AAL/B1.194",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3126/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3126/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3126/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.194"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Januar 1942], SZ-AAL/B1.194\n- Signatur: SZ-AAL/B1.194\n- Datum: 01.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah & Manfred, There is nothing to relate as we have no news\nfrom you; mail has been rather irregular during the last weeks after\nthe declaration of war in U.S. and{to} the Christmas postage. My book\nhas appeared since in Sweden, both swedish and in the original language,\nbut I have no copies - I hope you have recieved from Newyork the edition\nof Romains on my humble person in English; there is also a French edi-\ntion, but we get no copies; we are nearly cut off with books from the\nwhole world and the idea, that this shall continue for two or three\nyears is nearly as hard for me than for you to be so far from Eva.\nPlease transmit this letter to Newman Flower. Here is no change in\nour life, all quiet, but the perspective to live for years in such a Brasi-\nhen solitude not just that what I expected formerly for my old age\n\nlove to you all! Stefan\nKindest regards from little dog!",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Anmerkung 'love to you all! Stefan' steht am linken Rand, 'Kindest regards from little dog!' am rechten Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear Hannah & Manfred, There is nothing to relate as we have no news\nfrom you; mail has been rather irregular during the last weeks after\nthe declaration of war in U.S. and{to} the Christmas postage. My book\nhas appeared since in Sweden, both swedish and in the original language,\nbut I have no copies - I hope you have recieved from Newyork the edition\nof Romains on my humble person in English; there is also a French edi-\ntion, but we get no copies; we are nearly cut off with books from the\nwhole world and the idea, that this shall continue for two or three\nyears is nearly as hard for me than for you to be so far from Eva.\nPlease transmit this letter to Newman Flower. Here is no change in\nour life, all quiet, but the perspective to live for years in such a Brasi-\nhen solitude not just that what I expected formerly for my old age\n\nlove to you all! Stefan\nKindest regards from little dog!",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Einfügung '{to}' wurde als solche markiert, da sie über der Zeile steht."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1794,
+    "total_words": 346,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      897,
+      0,
+      897
+    ],
+    "chars_per_page_median": 897,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

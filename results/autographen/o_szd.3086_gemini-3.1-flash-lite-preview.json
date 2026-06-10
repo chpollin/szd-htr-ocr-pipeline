@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3086",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. August 1941], SZ-AAL/B1.158",
+    "signature": "SZ-AAL/B1.158",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3086/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3086/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3086/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.158"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. August 1941], SZ-AAL/B1.158\n- Signatur: SZ-AAL/B1.158\n- Datum: 15.8.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hanna & Manfred,\n\nFriday, Aug 15th 41\nIt is a few hours before sailing\ntime and we shall both be glad to get under way,\nalthough I am a little worried about sea-sickness because\nit is rainy and windy to-day. This is, however of minor im-\nportance and the main aim is to get settled down there\nas quickly as possible. We went to Boston last night to\nsee Eva, and we tortured her by bringing parcels to Mrs.\nSch. (Your books and birthday letters are all there and\nwaiting for the birthday). But she had a treat in various\nways. First we went over to let Stefan have a glimpse of\nthe new Amity Mall. Then - already past bedtime - Fullepo\ntook us over to Ossining to say goodbye to Mrs. Zweig N°1,\nEva went with us, and in addition to that attraction was\ntaken to a bar and treated to a coca-cola and ice cream\n- at 9.30 p.m.! So I hope she will always remember that\nthere is something nice in our leaving and not mind too\nmuch. - Her slightly high-brow letter style is, I believe, her\nown; and maybe it can be traced back to Manfred, maybe\nit is just the sign of an effort to write well. On the whole I\nwould call the surroundings more child-like than highbrow,\nalthough with an intellectual tendency for those only who\nare inclined that way, and since my own childhood I\nhave not seen children who managed to get themselves\nso dirty in the garden than there. But they all get clean\nagain in the bath at night and Eva and Marion etc,\nthe big girls, even wash their own dresses because\nthe laundry is not very good. Even I, who do certainly\nnot belong to the washing sort of women, have got so far.\nYou would never believe what a laundry can do to your\nthings, they even managed to turn Eva's Bath school dresses\nfrom blue into a pretty pale green! Well this is America\nand Rio is not much better on the whole. They wash better,\nbecause machines would be too expensive, but they cannot\nyet dry-clean. Again, there are minor matters in a mad world\nlike ours.\nL.T.Z.",
+        "notes": "Handschriftlicher Brief auf zwei Seiten (hier Seite 1). Tinte violett. Die Unterschrift 'L.T.Z.' steht für Lotte Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "We were sorry to hear that Manfred's holiday\nis already over, and you did not mention whether he\nalready got a job in his new capacity as Xray specialist.\nI can understand that you do not want to live in a\nflat for always, and I think the idea of taking a\nhouse is on the whole very good. I am sure Wooster\nor Frost would help you with the first cash payment,\nbut we both think it would only be worth while if you\ncan get a mortgage on the rest - from a bank or corporation\nas it used to be done - and pay them the interest as\nrent. Besides this of course only a buying in your joint\nnames is to be considered. Any other arrangement could\ncomplicate matters one day. I remember those houses\nin Ingram Avenue very well and also similar, but\nsmaller ones in St. Johns Wood. - With regard to the friends\nyou mention I it seems that you mostly associate with\nyours now and neglect your own. But maybe this is only be-\ncause you tell us only about ours. I would like to know,\nhowever, what became of all the others, doctors, Joss etc. -\nI got a little album for the photos you sent me and this,\ntoo, is awaiting Eva's birthday. Mrs. Sch. was still considering\nyesterday which special treat for Eva's group would be the\nbest to celebrate the event. - I wonder how Marta will\nfeel on her \"visit\" to Rosemount. Tell her she must write me\nabout it. - What you write about \"Fantasia\" was our impression\ntoo. We left after the first part feeling quite dizzy. Besides\nthat and some very old Chaplin films we have seen nothing. But\non the boat we will have, I hope, a few good new films.\nWell this is all for today and the last letter from USA,\nat least for a while. It was a difficult decision to take,\nand I had to think so hard as never in my life. I never\nmissed you as much - though I always miss you - than in\nthese weeks.\nBest love to you all\nLotte.",
+        "notes": "Handschriftlicher Brief auf zwei Seiten (hier Seite 2). Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text der Seite 2 ist hier teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Abkürzungen sind im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3808,
+    "total_words": 744,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1965,
+      1843,
+      0
+    ],
+    "chars_per_page_median": 1904.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

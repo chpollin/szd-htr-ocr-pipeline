@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3095",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Therese Altmann [13. September 1941], SZ-AAL/B1.166",
+    "signature": "SZ-AAL/B1.166",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3095/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3095/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3095/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.166"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Therese Altmann [13. September 1941], SZ-AAL/B1.166\n- Signatur: SZ-AAL/B1.166\n- Datum: 13.9.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, Sept. 13th, 41\nDearest mother, I have received your two letters of\nAug 19th (addressed to NY) and of Aug 22nd and hope to have\ngood news from you again soon and to hear that you can\nstay on in the same house which you seem to like.\nWe have taken a home in Petropolis and will move up there some time next\nweek. It is quite small, really only a bungalow and separate servants\nquarters as all the houses are arranged up there - I suppose still a remnant\nfrom the days of slavery - but we like it. It is built halfway up a hill\nand has a beautiful view on mountains from a big covered terrace where\nI suppose Stefan will spend his days working. You walk up to it a number of\nsteps through a nice little garden which as the landlady promised will be\nfull of hortensias in summer. Behind the house immediately is the hill, but\na few steps further up the gardener is just preparing a small plateau and\nhe promised to build a little summer house as well - so I shall take this as\nmy residence during the day, and maybe later on, when the season begins\nI shall change place with Stefan so as to hide him from unexpected visitors.\nI have been very lucky in so far as the landlady has solved the servants'\nquestion for me. The gardener and his wife will continue to live in the servants\nquarters and he will look after the garden, act as handy-man and do errands\nif necessary. He works in a factory and does all for us after his work, and\nbesides their living in my place I shall have nothing to do with them -\nthey do their own cooking etc. During the day a cook-servant will come and\ndo the house-work and cooking. All our friends, meaning well\nwithout doubt, have been warning me how difficult it is with servants in\nPetropolis. Those from Rio do not go up there because it is too primitive\n- the cooking is done on old-fashioned stoves which have to be heated\nwith wood, the servants quarters are very primitive etc - and the servants\nin Petropolis are supposed to be lazy and inefficient. But I am not\nfrightened. I know that as the gardener lives in the house I shall not be\nleft quite alone with all the work and I believe that after England and\nUSA I do not expect too much from servants. In any case we are very\nglad to get settled for a few months at least and to live a quite retired\nlife. We both have at the moment no desire at all to see people or to go out\na lot. Even here in Rio which we both love so much, we go out very little\nand are satisfied with the view from our terrace which makes up for all the\ndefects of the hotel which is clean and has good service but which is run too\nmuch on the principles of the Haushaltungsschule, especially with regard\nto the food and all possible economies. - So far we have both still been\nrather tired and I was at home with a disagreeable cold for some days.\nSo we declined all invitations for receptions, cocktails etc. and just saw\nprivately a few friends. We have Portuguese lessons every day and can speak\nalthough with many mistakes, almost all that is necessary and even\ncarry on a conversation in Portuguese if there is no other way out. But it\nis rather an ugly language and a great pity that just this country does not\nbelong to the Spanish group. Spanish is so much easier for us and so much\nmore beautiful as language. - The above address remains valid even when\nwe are in Petropolis.\nLove and kisses\nLotte.",
+        "notes": "Brief von Lotte Zweig an ihre Mutter. Handschrift in violetter Tinte auf Briefpapier der 'Editora Guanabara'. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke über das Dokument gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3371,
+    "total_words": 652,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3371,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3371,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

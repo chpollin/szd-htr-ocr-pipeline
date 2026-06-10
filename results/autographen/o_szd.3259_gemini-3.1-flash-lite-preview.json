@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3259",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [10. April 1935], SZ-AAL/B2.28",
+    "signature": "SZ-AAL/B2.28",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3259/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3259/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3259/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3259/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3259/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.28"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [10. April 1935], SZ-AAL/B2.28\n- Signatur: SZ-AAL/B2.28\n- Datum: 10.4.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, wie hässlich von mir, dass\nich Ihnen nichts Erfreuliches berichten kann. Aber ich\nbin total down. Die ganze Jamschlosserei, ein ganzer\nBrückenbau ist in Angriff genommen worden, gleich\nbeim ersten Zeiler antwortete ich mit einer kräftigen\nBeileidsäußerung, bin noch völlig dumm und stumpf\nvon Pulverfressen, Nichterssen, Nichtschlafen, ein wider-\nliches Nervenbündel, nutzlos zu jeder vernünftigen\nTätigkeit. Der herrliche Bau wird noch – falls ich\nes aushalte – bis nach Ostern dauern. Ich bleibe\njedenfalls in Wien bis etwa 26 – 28 April, auch\ndann ist alles ungewiss. Meiner Mutter geht es nicht\ngut, es wird ein langes, schmerzhaftes Dahinsiechen\nwerden, der Magen funktioniert fast nicht mehr und\nnur durch ihre starke Constitution hält sie sich aufrecht.\nSie mögen sich denken, dass mir nicht frohlich zu\nMut ist, besonders da alle meine Londoner Pläne\ndamit zur Strecke gebracht sind – nein, ich will\nes gerade Ihnen nicht sagen, wie sehr mir das nahe\ngeht. Maria S. geht diese Woche an Sie ab, aber",
+        "notes": "Handschriftlicher Brief auf hellgrünem Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "zur neuen Arbeit komme ich noch nicht, mein Kopf\nist total dumm und ich verdöse meine Zeit mit klei-\nnigkeiten. Selbst ein Brief ist meinem geschwollenen\nHaupte eine Zumutung, aber ich wollte gerade zu\nIhnen ein Wort herzlichen Gedenkens sagen. Es wird\nalso wieder besser werden, ich habe es eigentlich\nimmer in London vorausgewusst, dass ich die gute\nZeit werde bezahlen müssen. Herzlichst\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf hellgrünem Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "nigkeiten. Selbst ein Brief ist meinem geschwollenen\nHaupte eine Zumutung, aber ich wollte gerade zu\nIhnen ein Wort herzlichen Gedenkens sagen. Es wird\nalso wieder besser werden, ich habe es eigentlich\nimmer in London vorausgewusst, dass ich die gute\nZeit werde bezahlen müssen. Herzlichst\nStefan Zweig",
+        "notes": "Wiederholung der letzten Seite mit Archiv-Farbskala/Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Wien 10.4.1935\n\nFräulein Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Briefumschlag. Briefmarke 'Österreich' mit Poststempel 'Wien 10.4.35'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Wiederholung auf Seite 3 ist identisch mit Seite 2."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1808,
+    "total_words": 288,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1031,
+      403,
+      302,
+      72,
+      0
+    ],
+    "chars_per_page_median": 403,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

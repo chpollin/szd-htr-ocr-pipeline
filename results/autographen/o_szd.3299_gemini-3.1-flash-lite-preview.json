@@ -1,0 +1,88 @@
+{
+  "object_id": "o_szd.3299",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [29. Juni 1936], SZ-AAL/B2.64",
+    "signature": "SZ-AAL/B2.64",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3299/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3299/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3299/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3299/IMG.4"
+    ],
+    "input_image_count_total": 4,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.64"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [29. Juni 1936], SZ-AAL/B2.64\n- Signatur: SZ-AAL/B2.64\n- Datum: 29.6.1936\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Papier mit Linierung.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes fraulein Altmann, glänzend\ngereist und gleich viel Ärger! Das Brief\nwürde hier als Störung des Reformation\nfestes empfinden – welcher Musizu[?] aber\nauch weldes Pech, dass es gerade jest er\nschien! Dass man nie Ruhe haben kann\nund fortlit[?] leben, dass immer wieder\nvon neuem man seine Schwierigkeiten hat.\nAber denken Sie nicht daran, es wird\nmit allem hoffentlich alles geben. Herz\nlichst\n\nSt Z.",
+        "notes": "Handschrift in violetter Tinte. Das Wort 'Musizu' ist schwer lesbar, möglicherweise 'Musikus'. 'fortlit' ist eine unsichere Lesung für 'fortwährend' oder ähnlich, das Schriftbild ist hier flüchtig.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Papier mit Linierung.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlagert den Text von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Musizu', 'fortlit'). Die Transkription spiegelt die Orthographie des Originals wider."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 405,
+    "total_words": 66,
+    "total_pages": 1,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 4,
+    "page_types": [
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      405,
+      0,
+      0
+    ],
+    "chars_per_page_median": 405,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0303,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

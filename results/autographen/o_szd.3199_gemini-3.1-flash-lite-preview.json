@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3199",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [8. Dezember 1939], SZ-AAL/B1.8",
+    "signature": "SZ-AAL/B1.8",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3199/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3199/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3199/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.8"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [8. Dezember 1939], SZ-AAL/B1.8\n- Signatur: SZ-AAL/B1.8\n- Datum: 8.12.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "LYNCOMBE HILL,\nBATH.\n\n8. Dezember 1939\n\nLiebe Hanna,\n\nIch bin eben zurueck und muss Dir\nerstens herzlich fuer Deine Gastfreundschaft\ndanken, zweitens fuer meine Depressivitaet mich\nentschuldigen. Aber es waren wirklich zwei voll-\ngestopfte Tage, ueberdies durchspickt mit kleinen\nAergernissen, und der Londonder black-out wirkt\njedesmal auf mich wie ein Gang durch Katakomben.\n\nIch will Dir nur kurz berichten,\ndass mein Angebot fuer den Teppich durchgedrun-\ngen ist (inklusive der Unterlage), und sie wae-\nren sogar allenfalls bereit gewesen, ihn hier\naufmachen zu lassen, was wir aber selber koennen\n(ich will keine Arbeiter mehr im Haus). Zweitens\nwill ich Dir melden, dass die Kinder vortrefflich\naussahen, Eva kam mir dadurch, dass Lotte gestern\nkochte, sogar abgemagert vor.\n\nNun wegen Deines Urlaubs. Trachte\nfuer Deinen Mann doch noch ein oder zwei Tage mehr\nherauszuholen und fahrt keinesfalls mit dem Auto.\nIn der Bahn ruht man sich aus, und die Strassen\nscheinen mir jetzt im Winter nicht ungefaehrlich.\n\nDen Fahrplan wegen Llandudno wird\nLotte gleich studieren.\n\nHerzlichst Euch allen\n\nStefan",
+        "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Unterschrift handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Stefan ist müde und abgespannt zurückgekommen\nund ich glaube froh, wieder in der Kleinstadt zu sein.\nWir hatten lebhafte Tage inzwischen, gestern tropfte der\nHahn des Heizkörpers im landing in die Halle hinunter,\nheute brach ein Rohr im conservatory, dazwischen lief\ngeschäftig Stone mit Farbtöpfchen, und es ist nur ein\nkleiner Trost, dass es mir gelang, Wooster klein und\nbescheiden und nach Ausreden suchend zu bekommen.\nHoffentlich war das der letzte Zwischenfall, wir haben davon\nlangsam genug, Ende der Woche kommt Anita auf 3-4 Tage,\nDie ferien der Kinder fangen nächsten Freitag an. Herzlichst\nLotte.",
+        "notes": "Handschriftlicher Text von Lotte Zweig auf der Rückseite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbkarte und Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription folgt den Regeln der diplomatischen Umschrift."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1712,
+    "total_words": 263,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1104,
+      608,
+      0
+    ],
+    "chars_per_page_median": 856.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

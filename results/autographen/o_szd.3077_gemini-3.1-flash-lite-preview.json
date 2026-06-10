@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3077",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [7. Oktober 1939], SZ-AAL/B1.15",
+    "signature": "SZ-AAL/B1.15",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3077/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3077/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3077/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.15"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [7. Oktober 1939], SZ-AAL/B1.15\n- Signatur: SZ-AAL/B1.15\n- Datum: 7.10.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, Du wirst es vielleicht barbarisch finden,\ndass ich Lotte nach vier Tagen zurückfordere. Aber sie\nhat eben verabäumt die Dinge vorher in Ordnung zu\nbringen. Plötzlich sind keine Coks da, die Zentralheizung muss\nabgestellt werden, weil die verabäumt hat solche zu be-\nstellen oder jedenfalls sich zu überzeugen wie viele vorhanden\nsind. Ich persönlich weigere mich solche zu bestellen, weil\nwir (Du und ich) sie bereits allzuviel verwöhnt haben, dass\nwir die Dinge ihres Hauses für sie ausdenken und mitwirken\nsie muss wissen, dass auf mich nicht mehr zu zahlen ist\nund sie selbst vorsorgen muss.\nEbenso geht es nicht, dass sie länger die Last auf deiner\nSchwester allein lässt. Frau Martha tut alles was in kann\nin aufopferndster, in bewunderungswürdiger Weise. Aber ich\nhabe ein zu gutes Auge, um nicht zu sehen, dass sie ermü-\ndet ist (kein Wunder!) und endlich einen Tag Ruhe braucht.\nSie wäscht die Kinder, macht ihren Frühstück, kocht, räumt allein\nalle Zimmer auf, hat den ganzen Tag das Heu und Her der\nArbeiter, das Getrage und Gelaufe und macht das Bett vorher\nohne dass ihr für einen Tag das Kochen oder Aufräumen ab-\nSeit Tagen hat sie ihren Nachmittagstee ausser mir\ngenommen wurde, ich kann das nicht länger ansehen\n- es ist Pflicht Lottes entweder ihr für einen Tag das\nKochen jetzt abzunehmen oder endlich für Hauspersonal",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Am linken Rand befindet sich ein vertikaler Textblock, der sich über die gesamte Seitenhöhe erstreckt: 'x ich hatte ihr nebenbei gesagt, sie solle fragen und auch\nendlich den Tagesverbrauch in unserer Wohnung [?]'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "zu sorgen, wenn man schon selbst nicht richtig zupacken\nwill oder kann. Sie muss sich klar darüber werden, dass\nsie eine Verantwortung mit dem Hause hat. Alles Erlaufen\nmuss jetzt nach dem die Grundlagen da sind, auf das Notwen-\ndigste reduziert werden, bis alles in Ordnung ist. Mir ist\nweniger wichtig in einem Zimmer, ob der Teppich braun\noder schon orientalisch ist als das das Zimmer geheizt ist.\nVor der Schönheit muss die Ordnung kommen. Es kommt jetzt\nnicht auf Gläser und Untertassen an sondern das endlich\nder Hausstand ruhig läuft - alles andere bleibt Nebensache.\nIch kann es nicht dulden, dass deine Schwester mir\nübermüdet - nur das Hämmern, Klopfen, Fragen, Thran[\nTür zu und Tür nicht zu macht einen wirklich nervös selbst\nwenn man Strichleitern statt Nerven hat; sie ist noch nicht\neine Stunde spazieren gegangen in den ganzen Wochen. So\ngeht es nicht weiter.\nDies nur zu zeigen, dass ich kein Barbar\nund Gewalttäter bin, wenn ich Lotte am Samstag\nzurückfordere. Herzlichst Euch allen\n\nStefan",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der untere Teil des Bildes zeigt den unteren Abschnitt des Briefes (Seite 2) unter der Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift und einiger Korrekturen/Einfügungen. Die violette Tinte ist auf dem hellen Papier kontrastreich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2359,
+    "total_words": 393,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1350,
+      1009,
+      0
+    ],
+    "chars_per_page_median": 1179.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

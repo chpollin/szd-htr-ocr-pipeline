@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3099",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Februar 1940], SZ-AAL/B1.17",
+    "signature": "SZ-AAL/B1.17",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3099/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3099/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3099/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.17"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Februar 1940], SZ-AAL/B1.17\n- Signatur: SZ-AAL/B1.17\n- Datum: 02.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, ich komme diese Woche zuver\nlässig, vielleicht Donnerstag. Aber sei nicht\ngekränkt wenn ich nicht bei Euch wohne. Entweder\n fahre ich abends zurück oder ich übernachte\nim Hotel neben Paddington, um gleich mit dem\nFrühzug zurückzufahren, ich will nicht zwei\nTage verlieren, da ich doch in der Pariser und\nder Naturalisationsangelegenheit gewiss noch zwei\noder dreimal ohnehin nach London werde fahren\nmüssen. Es ist nicht zarte Rücksicht auf euch, son-\ndern grobe Selbstsucht, die euch euer Tantes Heim\nkeinmal vernachlässigen lässt\nEier verzehr. Der Gärtner ist sehr streng mit uns,\nwir sollen nicht mit „seinen“ Hühnern wedeln\nund ich fürchte er wird uns bald auch verbieten,\nden Garten zu betreten.\nJedenfalls melde ich mich und hoffe, wir können\nabends bimmeln, falls ich alter Bauer das nicht\nschon verlernt habe. Herzlichst Euer Stefan",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt den unteren Teil des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist typisch für Stefan Zweig und weist keine größeren Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 854,
+    "total_words": 134,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      854,
+      0,
+      0
+    ],
+    "chars_per_page_median": 854,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

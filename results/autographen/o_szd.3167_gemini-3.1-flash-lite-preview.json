@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3167",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1940], SZ-AAL/B1.50",
+    "signature": "SZ-AAL/B1.50",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3167/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3167/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3167/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.50"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1940], SZ-AAL/B1.50\n- Signatur: SZ-AAL/B1.50\n- Datum: 09.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, as Lotte is lazy and writes only short\nletters it is to the Hausbuch[?] to write all what happened. We\nlike the city and the people enormously and we are delighted\nhow much sympathy in all the important quaters exists for\nEngland, how much pity for France; the newspapers are in contrast\nwith the Northamericans absolutely partial for England and express\nopenly the hope that Hitlers attacks will fail. English ships come\nfrom time to time but one does better to write by air over\nNewyork, it takes sometimes only 10 days. My plans are not\nquite definite, I have a lecture, well paid, in San Pablo and\nhere I will there for speak for some charitable purpose, then\nUruguay 2 lectures and Buenos Aires and Chile; our expenses will\nlargely be covered and I have time to write meanwhile. I ad-\nmire Rio every day more, it is the most colourful, the most\nfascinating town I know, full of surprises and new beauties; it\ndevelops with a rapidity what seems unbelievable - we went\nto day in the tram just an hour (for two American cents) and\nhave not seen half of the city. Today we had two receptions\nLotte had not less then four ministers for conversation (and\nwith the former ambanador Cortin five) first at the reception\nfor the Uruguay minister, where she sat at the side of the foreign\nminister then in a party given in her honour (or ours) at the\nminister of communications - one charming house and with lots of\ngardens with views one only can dream. Yesterday we had long\nnightly auto drives along the ocean and over the mountains, to\nmorrow we have the minister of Cuba for tea and meanwhile she\nfits and talks, - often too much because I want to explore\nthis town and there are so many parts we have not yet inspected.\nI would like to live now there except here would it not be for\nthe heat which hinders my work as I was able to see in Newyork\n- but they are already constructing air conditioned houses here",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Der Text am linken Rand ist eine vertikale Fortsetzung des Textes, die hier in den Haupttext integriert wurde, da sie den Satzfluss ergänzt. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einige Wörter wie 'Hausbuch' sind aufgrund der Handschrift leicht unsicher, aber im Kontext plausibel."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1935,
+    "total_words": 358,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1935,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1935,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0028,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

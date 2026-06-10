@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3088",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Februar 1940], SZ-AAL/B1.16",
+    "signature": "SZ-AAL/B1.16",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3088/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3088/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3088/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.16"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Februar 1940], SZ-AAL/B1.16\n- Signatur: SZ-AAL/B1.16\n- Datum: 02.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, ich glaube dass das lexicon für £15/-|-\ndas verhältnismässig billigste ist und sein Geld wert ist, schon\nweil es mir für Manfred in Freude und Bildung nützt.\nIn jedem „behoweten“ Bürgerhause stand ein Conversations\nlexicon, nur dass es dort nicht benutzt würde, während ich Man-\nfred schon unablässig auf mir wieder wandeln sehe: Du wirst bei\ndieser Gelegenheit auch das Alphabet üben können.\nMein zukünftiger Balbobart hat eine traurige Vorgeschichte. Seit\nFriedental hier ist - der selbst mir immer wieder dank sein\nWissen erstaunt, besonders auch in praktischen Dingen - ist mein\nAnsehen im Hause beträchtlich gesunken. Ich erscheine neben ihm\nals Ignorant, werde verhöhnt und wegen krasser Unbildung ver-\nspottet. Um mir wenigstens einen dünnen Schein von Respect\nzu retten, versuche ich es jetzt mit einem weismelierten Bart. Bis-\nher haben mir zwar schon mächtige Stoppeln aber keinerlei Ehrfurcht\nvor dem Alter eingestellt.\nLotte sende ich bei erster Gelegenheit. Ich hoffe sie bringt Dir\nein selbstgelegtes, - Pardon, ein von den eigenen Hühnern ge-\nlegtes Ei als Gastgabe mit. Herzlichst Euer\n\nStefan\n\nX man muss nur vorsichtig sein nur nachsehen was „good condition“\nheisst, wahrscheinlich nur „ganz gut“ der andere beschreibt sein Exemplar\nals „fine“ was etwas positiver lautet.",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Die Tinte ist violett. Die letzte Zeile (X...) ist ein Nachtrag am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "In jedem „behoweten“ Bürgerhause stand ein Conversations\nlexicon, nur dass es dort nicht benutzt würde, während ich Man-\nfred schon unablässig auf mir wieder wandeln sehe: Du wirst bei\ndieser Gelegenheit auch das Alphabet üben können.\nMein zukünftiger Balbobart hat eine traurige Vorgeschichte. Seit\nFriedental hier ist - der selbst mir immer wieder dank sein\nWissen erstaunt, besonders auch in praktischen Dingen - ist mein\nAnsehen im Hause beträchtlich gesunken. Ich erscheine neben ihm\nals Ignorant, werde verhöhnt und wegen krasser Unbildung ver-\nspottet. Um mir wenigstens einen dünnen Schein von Respect\nzu retten, versuche ich es jetzt mit einem weismelierten Bart. Bis-\nher haben mir zwar schon mächtige Stoppeln aber keinerlei Ehrfurcht\nvor dem Alter eingestellt.\nLotte sende ich bei erster Gelegenheit. Ich hoffe sie bringt Dir\nein selbstgelegtes, - Pardon, ein von den eigenen Hühnern ge-\nlegtes Ei als Gastgabe mit. Herzlichst Euer",
+        "notes": "Ausschnitt des Brieftextes mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und typisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2246,
+    "total_words": 347,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1303,
+      0,
+      943
+    ],
+    "chars_per_page_median": 1303,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

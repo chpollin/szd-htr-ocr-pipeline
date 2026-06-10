@@ -1,0 +1,119 @@
+{
+  "object_id": "o_szd.3267",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [31. Mai 1935], SZ-AAL/B2.35",
+    "signature": "SZ-AAL/B2.35",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3267/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3267/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.35"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [31. Mai 1935], SZ-AAL/B2.35\n- Signatur: SZ-AAL/B2.35\n- Datum: 31.5.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Bellerive au Lac, Zürich\nCARLTON ELITE HOTEL\nZÜRICH\nTELEPHON 36.636\n\nLiebes Fraulein, ich schreibe Ihnen rasch, denn nächste\nWoche komme ich zu nichts. Ich muss Sonntag für einen\nTag fort, dann nach Mailand, um dort bei einer Feier-\nfein für ~~[unleserlich]~~ Moissi gemeinsam mit Pirandello\nzu sprechen (italienisch), dann treffe ich wohl meinen\nFreund Huebsch in Paris, was sonst geschieht, weiss ich\nnoch nicht recht, am liebsten ginge ich an die französi-\nsche Küste (Boulogne) für 14 Tage, aber das wäre nur\nschön, wenn ich dort Ihre Hilfe hätte. Eine kleine\nMöglichkeit besteht auch, dass ich nach London hinüber-\nrüttle, aber das wäre nur für ein paar ganz kurze\nTage und eigentlich müsste ich jetzt ernst an die Arbeit\nJa, Boulogne wäre herrlich für diese Arbeit\nGestern war Margarete Wallmann mit ihrem Mann\nhier auf der Rückreise von Hollywood. Sie hat ver-\ngebens Rose Walter in London antelefoniert. Es war\nsehr nett mit ihr.\nUnd Sie? Ich freue mich, dass Sie fleissig waren,",
+        "notes": "Handschriftlicher Brief auf Hotelbriefpapier. Die Zeile 'mitte Juni' wurde über 'was sonst geschieht' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "hoffentlich geht es Ihnen jetzt nach der Seeluft ganz\ngut gesundheitlich und wie viel wäre zu erzählen\n- Freudiges wenig, ich bin durch die politische Trost-\nlosigkeit doch recht verdacht und sehe wie klug es\ngewesen wäre, sich gleich in England zu stabilisieren,\nman weiss wirklich nicht mehr recht, wohin mit sich.\nHier ist es eng und angenehm, aber das Klima und\nder Lokalduft viel schlechter als das englische und\netwas Kleinstädtisches geht in die Menschen über. Nun\nman wird ja sehen, was aus einem wird. Das ärger-\nliche ist nur, dass ich noch nichts froheres angefan-\ngen habe und erst dann fühle ich mich wohl. Aber in\ndieser nomadischen Existenz findet man nur den\nrechten Mut. - Dazwischen kommt Ende des Monats\ndas Ärgernis der Strandoper, zu der ich natürlich\nnicht fahre. Bitte lassen Sie von sich hören, wenn\nSie nicht meine Herzlosigkeit an den Zeilen, ich bin\nmit Post schwer geplagt. Ich bin jedenfalls bis etwa\n8 oder 10 in Z. Herzlichst SZ",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke 'FERIEN IN DER SCHWEIZ' und Poststempel 'ZÜRICH 12 FRAUMÜNSTER 31.V.1935'.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Hotel Bellerive\nCARLTON ELITE HOTEL\nZÜRICH",
+        "notes": "Rückseite des Briefumschlags mit Hotelaufdruck.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Korrekturen und Einfügungen wurden entsprechend den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2045,
+    "total_words": 344,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      993,
+      959,
+      0,
+      0,
+      0,
+      51,
+      42
+    ],
+    "chars_per_page_median": 505.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      6
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

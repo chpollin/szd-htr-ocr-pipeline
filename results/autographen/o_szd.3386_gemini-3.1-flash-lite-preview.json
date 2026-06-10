@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3386",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joachim Maass an Lotte Zweig [12. Juni 1938], SZ-AAL/B4.8",
+    "signature": "SZ-AAL/B4.8",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3386/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3386/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3386/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.8"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joachim Maass an Lotte Zweig [12. Juni 1938], SZ-AAL/B4.8\n- Signatur: SZ-AAL/B4.8\n- Datum: 12.6.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. Juni 38.\n\nLiebe Lotte!\n\nIch habe mich sehr, sehr über deinen Brief und über den Eindruck gefreut, den dir Archers Buch gemacht\nhat und den ich durchaus teile. Ich kenne ihn übrigens sehr gut, und wie er dir, als du ihm gabst, einen\n\"recht unbedeutenden Eindruck\" hat machen können, begreife ich nicht - ich halte ihn immer für einen genialen\nBurschen, gewiss war ihr junges Mädchen aus dem zu simplen Kreis [?] , ihr Betragen ist können\nzu unartig. Ich habe auch über das Testament mit ihm geredet und bin ziemlich genau darüber orien-\ntiert. Da er ist wie seine alten Berliner Firma überwunden hat, stehen ihm alle Rechte frei, und er\nmöchte sie hauptsächlich für England, Frankreich und U.S.A. bewahren; er denkt, dass er die\n\nund direkte Bearbeitung für England und Amerika verwenden, sich dabei aber zweier Vertreter\n(~~wie in London,~~ [eingefügt: wie in London, einrichten in New York])\nFirmen bedienen könnte. Nun, das ist wohl eine schwierige Frage; zunächst käme es darauf an, ei-\nnen guten Bearbeiter zu finden. Wenn du ihm daran denken wolltest, wäre er dir sicher sehr dank-\nbar; es scheint, dass er fest entschlossen ist, noch in diesem Herbst nach Hollywood mitzugehen; es gibt,\nso sagt er mir, eine volkstümliche Fassung seines Romans, die unter anderem auch in einer großen deut-\nschen Periodical erscheinen soll - davon will er einen Film machen. Er rechnet eben damit, dass er mindestens\nin Jahr verwenden wird, um in Hollywood alles ins Klare zu bringen - und dann um etwas Jahr zu einem -\nFilm, legt er auf das Testament so [?] Wert. Die Mjovanowa betreffenden Stellen will er übrigens gern\nin weg durchstreichen, wenn ihr ja so schroff findet; das spielt ja weiter keine Rolle. Also bitte, wenn ihr von\nirgend etwas von unserem alten Onkel haltet, so folgt die Sache mit Engis an - man liebt die Junge und\nein Fortkommen wirklich sehr am Herzen.",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Die Tinte ist teilweise verblasst oder durch das Papier leicht durchscheinend, was die Lesbarkeit an einigen Stellen erschwert. Die Anmerkung 'wie in London, einrichten in New York' ist über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Was mich angeht, so kann ich dir mitteilen, dass meine Arbeit gut fortgeschritten ist, und hoffe, \nAnfang Juli in Berlin zu sein und, vorausgesetzt, dass es alles glatt geht, mich zwischen Mitte und Ende Juli\nin London einfinden zu können. Es wäre ein einfach grauenhafter Zufall, wenn dein Chef mir schon in\ndieser Zeit Urlaub erteilen sollte. - der schönste Monat in Portugal ist übrigens auch September; Juli und\ndie Augusthälfte sind wirklich warm. Verstehe aber nach Möglichkeit dein Ende, bis wir uns sehen haben.\n\nHerzliche Grüße von deinem alten Onkel\n\nWilliam",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf der Rückseite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Das Dokument selbst ist hier nicht zu sehen, es handelt sich um eine Aufnahme der Skalen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere Eigennamen oder spezifische Begriffe wie 'Mjovanowa' oder 'Engis'). Einige Stellen sind aufgrund der Tinte und der Schreibweise mehrdeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2438,
+    "total_words": 412,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1870,
+      568,
+      0
+    ],
+    "chars_per_page_median": 1219.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0049,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3291",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [23. Dezember 1935], SZ-AAL/B2.57",
+    "signature": "SZ-AAL/B2.57",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3291/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3291/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3291/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3291/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3291/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.57"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [23. Dezember 1935], SZ-AAL/B2.57\n- Signatur: SZ-AAL/B2.57\n- Datum: 23.12.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Fräulein Altmann, es bleibt also bei\nden Dispositionen, dass ich Sie am 6 ten oder\n7 ten in Nizza erwarte; Hotel Westminster\nfragen Sie nach[?] ~~ob das war~~ {ab das war[?]} [?] , ausser\ndem bei der Hauptpost, doppelt ist besser.\n\nNun bitte: gehen Sie zu Portland\nPlace und holen Sie, da ich keine Adressen von\ngeben kann, die Briefe ab bis Sie abreisen, etwa\njeden zweiten Tag, wie es Ihnen eben ausgeht. Ich\nhabe Mr. Child, den headporter eben verständigt.\nSie senden allenfalls Wichtiges nach\nSalzburg 7 und 2 ten Hotel Bristol\nZürich 3 und 4 ten Hotel Royal Habas,\nalles andere bringen Sie mit, inzwischen ver-\nständige ich telegrafisch {nach Ankunft[?]} Mr. Child von der de-\ninitiven Nizza adresse. Entzückt diese Post!\nChristopher Mann haben Sie doch das\nManuskript geschickt, weil er so tat als\nob er es nicht erhalten hätte, vielleicht tele-",
+        "notes": "Handschriftlicher Brief von Stefan Zweig auf hellblauem Papier. Die Tinte ist violett. Die Zeile 'fragen Sie nach...' enthält eine durchgestrichene Passage und eine Einfügung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "fonieren Sie Ihm wie es steht, ich sende jedes\nFalls heute noch ein zweites.\nWenn Sie an Hallamstreet einmal\nvorbeikommen, damit ich weiss wie es steht,\nherzlich Ihr\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Handschriftlich, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "den Dispositionen, dass ich Sie am 6 ten oder\n7 ten in Nizza erwarte; Hotel Westminster\nfragen Sie nach[?] ~~ob das war~~ {ab das war[?]} [?] , ausser\ndem bei der Hauptpost, doppelt ist besser.\n\nNun bitte: gehen Sie zu Portland\nPlace und holen Sie, da ich keine Adressen von\ngeben kann, die Briefe ab bis Sie abreisen, etwa\njeden zweiten Tag, wie es Ihnen eben ausgeht. Ich\nhabe Mr. Child, den headporter eben verständigt.\nSie senden allenfalls Wichtiges nach\nSalzburg 7 und 2 ten Hotel Bristol\nZürich 3 und 4 ten Hotel Royal Habas,\nalles andere bringen Sie mit, inzwischen ver-\nständige ich telegrafisch {nach Ankunft[?]} Mr. Child von der de-\ninitiven Nizza adresse. Entzückt diese Post!\nChristopher Mann haben Sie doch das\nManuskript geschickt, weil er so tat als\nob er es nicht erhalten hätte, vielleicht tele-",
+        "notes": "Dies ist eine Wiederholung des ersten Scans mit einer Archiv-Farbskala/Grauskala am oberen und unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon N.W 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Handschriftlich, violette Tinte. Briefmarke 'Österreich' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (insbesondere bei den Korrekturen und den Ortsnamen/Hotelnamen) schwer zu entziffern. Die Lesung 'nach Ankunft' und 'ab das war' ist aufgrund der Korrekturen unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1903,
+    "total_words": 324,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      858,
+      179,
+      814,
+      52,
+      0
+    ],
+    "chars_per_page_median": 179,
+    "marker_uncertain_count": 8,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0247,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

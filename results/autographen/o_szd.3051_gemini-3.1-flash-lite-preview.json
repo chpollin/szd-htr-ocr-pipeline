@@ -1,0 +1,88 @@
+{
+  "object_id": "o_szd.3051",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [12. Mai 1941], SZ-AAL/B1.126",
+    "signature": "SZ-AAL/B1.126",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3051/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3051/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3051/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3051/IMG.4"
+    ],
+    "input_image_count_total": 4,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.126"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [12. Mai 1941], SZ-AAL/B1.126\n- Signatur: SZ-AAL/B1.126\n- Datum: 12.5.1941\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Wyndham 42 West 58 Street New York\t\t12. V 1941\nDear Hannah and Manfred, we have just your letter from the\n2 May, mail is now much quicker and this we take as a good\nsign - There are still things like Hess' flight out of Germany which\nlet us hope that in the Nasi-Empire not all is so perfect as they like\nto let us believe. You in London and England have to share the\nbitterest part but I hope you have the conscience that your sufferings\nand your courage can and will alone save this world. We follow\non the radio and in the newspapers anxiously the events and I must\nnot tell you that all our thoughts are with you. I wish Manfred\ncould finish his examinations soon and have some rest! You\ntoo would feel much better - your nerves must be wrely shared[?]\nby his dentist-treatment. I know how one feels during such a\ntreatment, how one hates his own head, his whole body. May the\nthought you be helpful that Eva enjoys her life at Croton very\nmuch and that she really is in best hands; Mr. Schaeffer did\nwin her full confidence and love and as she is really interested\nin her progress you can expect the best results. We will visit her\nvery soon - this week is rather up with a hundred things. My\nspeech had to be cut from 10 minutes to 6, I have to speak in\nGerman and in English for the European radio transmission. You\ncannot imagine what pettiness authors develop on such occasions,\neverybody is offended, one because he got only 2 minutes, the\nother because he has not to sit on the parade-table, the third be-\ncause one had not invited him personally - they cannot under-\nstand people like Lotte and me who would be happy not so sit\nfor show and prefer to leave to them all these little things that\nseem so ridiculous in a time where horses are smashed, inno-\ncent people murdered and the greatest decision of mankind is",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Die Tinte ist violett. Die Lesbarkeit ist gut, abgesehen von dem Wort 'wrely shared' (evtl. 'sorely shared' oder 'sorely shaken'?).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "at stake. Sometimes one wonders that those are the same people\nwho really wrote beautiful verses and show in her books wisdom\nand psychology.\nI did not cable to you about Joaquim Torres. I liked to\nleave it to you; it is not important to care about him, one\nwill never hear from him again, but if you thought it better\nto acknowledge his letter you may do it. - Lotte is here still in\ntreatment for some weeks but only twice a week and we hope\nit will be effectif. She feels much better and we hope to go for\ntwo months somewhere to the country not only on behalf of the\nheat in New York but also because one looses so much time here.\nWe see not many people but very interesting ones and make\nno public appearance whatever except on this one dinner. Most\nof my collegues are in California, from English writers there live\nhere Somerset Maugham, Cronin, Bertrand Russel, Auden,\nsome of them for good. I have an invitation for lectures\nin Cuba in November - the voyage paid and even\na good fee for lectures - but who can say if it will be\npossible to Cuba at this date? The most important for us is\nto know you both at Bath and to have a rest; we feel our-\nselves not very important in whatever we do and you must\nnever worry about us or Eva. Altogether it seems as in the\nlong run the turn will come, the preparations here in\nAmerica are accelerated from day to day for the necessary\nrelief of your burden! Kindest regards to you all! Yours\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through). Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "at stake, Sometimes one wonders that those are the same people\nwho really wrote beautiful verses and show in her books wisdom\nand psychology.\n\ntreatment for some weeks but only twice a week and we hope\nit will be effectif. She feels much better and we hope to go for\ntwo months somewhere to the country not only on behalf of the\nheat in New York but also because one looses so much time here.\nWe see not many people but very interesting ones and make\nno public appearance whatever except on this one dinner. Most\nof my collegues are in California, from English writers there live\nhere Somerset Maugham, Cronin, Bertrand Russel, Auden,\nsome of them for good. I have an invitation for lectures\nin Cuba in November - the voyage paid and even\na good fee for lectures - but who can say if it will be\npossible to Cuba at this date? The most important for us is\nto know you both at Bath and to have a rest; we feel our-\nselves not very important in whatever we do and you must\nnever worry about us or Eva. Altogether it seems as in the\nlong run the turn will come, the preparations here in\nAmerica are accelerated from day to day for the necessary\nrelief of your burden! Kindest regards to you all! Yours\nStefan Zweig",
+        "notes": "Dies ist ein Scan der zweiten Seite mit aufgelegter Farb- und Grauskala. Der Text ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Einzelne Wörter wie 'wrely' sind aufgrund der Schreibweise leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4495,
+    "total_words": 861,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1833,
+      1452,
+      0,
+      1210
+    ],
+    "chars_per_page_median": 1642.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0012,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

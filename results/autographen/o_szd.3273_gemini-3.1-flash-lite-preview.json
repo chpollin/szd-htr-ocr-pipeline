@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3273",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [16. Juni 1935], SZ-AAL/B2.40",
+    "signature": "SZ-AAL/B2.40",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3273/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3273/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3273/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3273/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3273/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.40"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [16. Juni 1935], SZ-AAL/B2.40\n- Signatur: SZ-AAL/B2.40\n- Datum: 16.6.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Sonntag\n\nLiebes Fraulein Altmann, ich habe heute etwas\nbessere Nachrichten und bleibe also in\nZürich. Es wäre sehr gut, wenn Sie bald\nkommen könnten für einen Monat, für\nden ich Sie fix engagieren möchte, selbst\nfür den Fall, dass ich unvermuteter Weise\nabreisen müsste. Es wird sehr viel zu\ntun sein, ich würde Sie scharf einspannen,\naber Sie haben sich ja ausgeruht. Nach\nLondon kann ich jetzt wegen des schwank-\nhenden Zustandes kaum, ich möchte doch\nlieber hier bleiben, wo ich gute telefonische\nVerbindung habe und immer mit einem\nZug nach Wien kann. Aber die Arbeit muss\ndoch getan sein. Schreiben Sie nur oder\ntelegrafieren Sie mir, ob Sie können und\nwollen und wenn ja, dann je rascher je",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "besser, dass wir beginnen. Mit den besten\nGrüssen an die Ihren\n\nStefan Zweig",
+        "notes": "Rückseite des Briefbogens.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite eines Briefumschlags mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50 Woodstock Road",
+        "notes": "Vorderseite des Briefumschlags. Briefmarke 'HELVETIA' mit Poststempel 'ZÜRICH 16.VI.35.-14'. Aufkleber 'Mit Luftpost Par avion Con aeroplano'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 822,
+    "total_words": 141,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      696,
+      76,
+      0,
+      50,
+      0
+    ],
+    "chars_per_page_median": 76,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

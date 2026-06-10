@@ -284,7 +284,9 @@ def format_context(metadata: dict, page_info: str = "") -> str:
 
 def resolve_group(metadata: dict, collection: str) -> str:
     """Auto-assign prompt group based on TEI metadata and collection."""
-    if collection == "korrespondenzen":
+    # autographen (SZ-AAL) ist ein reines Korrespondenz-Konvolut (Briefe,
+    # Postkarten, Telegramme, Kuverts) -> wie korrespondenzen immer Gruppe I.
+    if collection in ("korrespondenzen", "autographen"):
         return "korrespondenz"
 
     otyp = (metadata.get("objecttyp") or "").lower()

@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.3082",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Therese Altmann [6. August 1941], SZ-AAL/B1.154",
+    "signature": "SZ-AAL/B1.154",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3082/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3082/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3082/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.154"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Therese Altmann [6. August 1941], SZ-AAL/B1.154\n- Signatur: SZ-AAL/B1.154\n- Datum: 6.8.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New York, Aug. 6th, 41\n\nDear mother\nI have again received two letters\nfrom you almost at the same time - one dated\nJune 7th and the other July 25th! Your birthday\nletter to Eva I send to Mrs. Sch. to keep it\nuntil that date - also Mamma's birthday letter\nhas already arrived and Mrs. Sch. is keeping\nit back.\nWe have returned to NY yesterday.\nWe are not yet decided what we shall do and\nwhether we shall really return to South Am.\nBut for all these difficult considerations\nand deliberations it is better to be in NY\nin spite of the heat, Ossining was not far,\nbut travelling in and out almost every\nday is more strenuous than being here. It\nis not so bad in NY just now. We have\nrooms with cross-ventilation, and if there is\nany air at all, we get it. - It was a pity\nto leave Oss. just when we had got used to it.\nIt was pleasant and I was glad to be near\nEva, and we had nice friends in the neighbourhood.\nWell, it can't be helped and before you write me\nagain, inquire first at Manfred's where we are. We\nshall cable them as soon as we know ourselves what\nwe are going to do.\nI hope you enjoyed Jan's visit and keep well\nyourself. Kindest regards and best love\nLotte.",
+        "notes": "Handschriftlicher Brief in blauer Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "New York, Aug. 6th, 41\n\nDear mother\nI have again received two letters\nfrom you almost at the same time - one dated\nJune 7th and the other July 25th! Your birthday\nletter to Eva I send to Mrs. Sch. to keep it\nuntil that date - also Mamma's birthday letter\nhas already arrived and Mrs. Sch. is keeping\nit back.\nWe have returned to NY yesterday.\nWe are not yet decided what we shall do and\nwhether we shall really return to South Am.\nBut for all these difficult considerations\nand deliberations it is better to be in NY\nin spite of the heat, Ossining was not far,\nbut travelling in and out almost every\nday is more strenuous than being here. It\nis not so bad in NY just now. We have\nrooms with cross-ventilation, and if there is\nany air at all, we get it. - It was a pity\nto leave Oss. just when we had got used to it.\nIt was pleasant and I was glad to be near\nEva, and we had nice friends in the neighbourhood.\nWell, it can't be helped and before you write me\nagain, inquire first at Manfred's where we are. We\nshall cable them as soon as we know ourselves what\nwe are going to do.\nI hope you enjoyed Jan's visit and keep well\nyourself. Kindest regards and best love\nLotte.",
+        "notes": "Gleicher Text wie Seite 1, jedoch mit aufgelegten Archiv-Farbskalen und Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2342,
+    "total_words": 466,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1171,
+      0,
+      1171
+    ],
+    "chars_per_page_median": 1171.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

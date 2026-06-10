@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3110",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [15. Dezember 1939], SZ-AAL/B1.18",
+    "signature": "SZ-AAL/B1.18",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3110/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3110/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3110/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.18"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [15. Dezember 1939], SZ-AAL/B1.18\n- Signatur: SZ-AAL/B1.18\n- Datum: 15.12.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, als guardian habe ich pflicht-\n~~schuldigst~~ unterteilen, dass heute die Reporte\neingetroffen sind, beide sehr erfreulich und\nin Einzelheiten gerecht wie dass Eva ihre Schrift\nverbessern wollte nur Ursel noch nicht alle Ge-\nheimnisse der Arithmetick durchdringen hat [?] und\nauch nicht. Aber beide Elternpaare dürfen äusserst\nzufrieden sein: beinahe Musterschüler! und gottseidank\nund gleich die Allerersten in der classe.\nWir rate nochmals dringend her Baker zu fahren\n- denke da ja nicht, dass du mit dem Auto\nsparst, denn ~~der~~ einer muss ja doch mit der\nBahn zurück und diese Einzelfahrt kostet beinahe\nsoviel wie go and return. Hauptsache ist, dass Ihr\nfroh ankommt und ausgeruht zurückfahrt\nmüde von und des Nichtstuns. Meinen Apparat\nbringt nur mit, wenn Ihr gar nichts zu schleppen\nhabt, dazu das franz. Kinderbuch aus meinem Zimmer\n(etwas mit „morceau de sucre“)\n~~zu~~ Haare sind erst noch die letzten Kleinig-\nheiten (oder die vorletzten) eingezogen, Tisdlein\ndie noch nicht ihr Deck-dich haben, Stühle",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'und gleich die Allerersten in der classe' wurde nachträglich eingefügt. '14/11 und 18/11' wurde klein über 'beinahe' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "für Damen die steil sitzen und ebenso ~~für~~ be-\nnehmen wollen, dass wir mit Betten und\nBad mit möglichst orientalischer Uppigkeit vorzu-\nbereiten ~~wollen~~ gedenken.\nAlles Herzliche von Eurem\n\nStefan\n\nIch schlage für Manfred folgende Tageseinteilung\nvor: 1/2 10 Uhr Frühstück im Bett, 10 - 1/2 1 Uhr Bad\nmit griechischen Vocabeln gewürzt, 1 Uhr news und\nGänsebraten, 2 Uhr bis 7 Uhr zinhauen, wie die\nandern im Garten arbeiten oder Spazierengehen, 1/2 8\nAbendessen nur nachdem Clavier, Telefon wird ab-\ngedreht, der Besuch des Rates allen andern während\ndes Tages verboten.\nHerzliche Grüsse und\nauf Wiedersehen am\nBahnhof Bath Eure\nLotte",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Seite ist in zwei Abschnitte unterteilt, der untere Teil ist von Lotte Zweig geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Stefan\n\nIch schlage für Manfred folgende Tageseinteilung\nvor: 1/2 10 Uhr Frühstück im Bett, 10 - 1/2 1 Uhr Bad\nmit griechischen Vocabeln gewürzt, 1 Uhr news und\nGänsebraten, 2 Uhr bis 7 Uhr zinhauen, wie die\nandern im Garten arbeiten oder Spazierengehen, 1/2 8\nAbendessen nur nachdem Clavier, Telefon wird ab-\ngedreht, der Besuch des Rates allen andern während\ndes Tages verboten.\nHerzliche Grüsse und\nauf Wiedersehen am\nBahnhof Bath Eure\nLotte",
+        "notes": "Farbskala/Grauskala für Archivierung. Der Text ist eine Wiederholung des unteren Teils von Seite 2, teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und einiger Korrekturen. Die Überlappung auf Seite 3 ist durch die Archivierungsskalen bedingt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2114,
+    "total_words": 335,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1030,
+      640,
+      444
+    ],
+    "chars_per_page_median": 835.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.003,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

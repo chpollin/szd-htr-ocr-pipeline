@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3147",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [18. Juli 1940], SZ-AAL/B1.32",
+    "signature": "SZ-AAL/B1.32",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3147/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3147/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3147/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3147/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3147/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.32"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [18. Juli 1940], SZ-AAL/B1.32\n- Signatur: SZ-AAL/B1.32\n- Datum: 18.7.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "The WYNDHAM\n42 WEST 58TH STREET\nNEW YORK\n18.7.40\n\nDear Hanna!\nI send this letter\nby ordinary mail as I am not\nsure whether there is a regular\nconnection with the clipper,\nbut I hope that you got all\nour letters so far, some by air\nand some by boat. We have\nnot yet had any news from you\nbesides the 2 cables but I very\nmuch hope that you have written\nus to Newyork. We have again\npostponed our departure for\nBrazil until the 9th August as",
+        "notes": "Briefkopf des Wyndham Hotels, handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "we are expecting first the various\nreplies from South America. We\nshall probably leave Newyork\nsoon as there are too many\npeople here who want to see\nStefan, but we have not yet\ndecided, and in any case you\ncan always write us via the\nVikingpress who will also for-\nward by airmail any letter\nwhich should arrive after our\ndeparture to Brazil.\nI have so far not yet\nfound a permanent home for\nEva. I am promised addresses\nof good and reasonable boarding\nschools, Anita Cahn who lives",
+        "notes": "Handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "in a suburb of Newyork would\nbe willing to take her for some\ntime and this would not be a\nbad solution for the beginning.\nThat committee as the head of\nwhich Stephen Wise sent you the\naffidavit for Eva, will of course\nplace her somewhere, but as he\nleft ~~Newyork~~ immediately after we saw\nhim I had no chance to ask\nfurther information. As soon as I\nhear from you about the\nprospects of Eva's coming I\nshall try to get in touch with\nthe committee and see myself\nwhat they propose. In the mean-\ntime I look round privately.",
+        "notes": "Handschriftlicher Text in violetter Tinte. Das Wort 'Newyork' wurde durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "If it is possible I would like\nvery much to have one or two\nphotos of Eva. It may help in\nplacing her if people want to\nfetch her from the boat - Anita\nand Rose would do it if I should\nhave left - and finally I would\nlike to have a photo myself.\nAfter all I have not renounced\nmy guardianship and do not in-\ntend to do so. Do you know that\nHarriet plans to come over and\nthat Carmel and Elsie want to\nsend their children, too? - I\nam anxiously waiting for news\nfrom you all, and the more\nyou write, the better. Try the\nclipper-way too, it would make\nsuch a difference, and as I said\nbefore, letters which arrive here after\nour departure from USA will be forwarded\n\nOf course kindest regards to the whole family, Mr Miller\nand William and the Levinthals.\n\nDo write and tell the others to write,\nLotte\nYours affectionate\nto South Am. by air. Do\nand keep well.",
+        "notes": "Handschriftlicher Text in violetter Tinte. Der Text am linken Rand und am rechten Rand wurde nachträglich hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Textausschnitt in der Mitte ist eine Wiederholung des unteren Teils von Seite 4.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Anordnung der Randnotizen auf Seite 4 wurde logisch in den Textfluss integriert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2302,
+    "total_words": 448,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      438,
+      483,
+      524,
+      857,
+      0
+    ],
+    "chars_per_page_median": 503.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

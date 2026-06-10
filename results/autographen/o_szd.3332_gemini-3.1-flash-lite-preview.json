@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3332",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [19. April 1940], SZ-AAL/B2.94",
+    "signature": "SZ-AAL/B2.94",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3332/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3332/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3332/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3332/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3332/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.94"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [19. April 1940], SZ-AAL/B2.94\n- Signatur: SZ-AAL/B2.94\n- Datum: 19.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTelegr: HOTEL LOUVOIS PARIS\nTéléph. { RICHELIEU 64-41\n(10 lignes groupées)\nParis, le Samedi\n\nC'est donc convenu -\nMercredi a 18 heures a la\nRadiodiffusion Nationale\n(Radio Paris je suppose) Si l'on\npeut avertir la bonne Buber[g]\nje lui ai promis. Je n'ai pas\nencore prepare' au ligne. Le\nsoir avec les Romains, lundi\nau theatre, visites, interviews\ntout est tres interessant et exi-\ntant.\nJe crois que je partirai lundi",
+        "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "le 29. pour arriver le même\njour a Londres - je veux\navoir deux jours de Paris\npour moi.\nOn voulait que je parle\nune seconde fois en Alle-\nmand, mais je refusais.\nAssez une fois!\nIl fait beau aujourd'-\nhui et j'espère la semaine\nprochaine de pouvoir me\npromener un peu. Je retourne\na le plus beau chien que\nj'ai vu tout ma vie - je\nl'ai bien cure. Ton\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des Briefbogens. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "avoir deux jours de Paris\npour moi.\nOn voulait que je parle\nune seconde fois en Alle-\nmand, mais je refusais.\nAssez une fois!\nIl fait beau aujourd'-\nhui et j'espère la semaine\nprochaine de pouvoir me\npromener un peu. Je retourne\na le plus beau chien que\nj'ai vu tout ma vie - je\nl'ai bien cure. Ton\nStefan Zweig",
+        "notes": "Dies ist eine Wiederholung der Seite 2, inklusive Archiv-Farbskala. Die Transkription ist identisch mit Seite 2.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nMadame Stefan Zweig\n\nBath (Angleterre)\nLyncombe Hill\nRosemount",
+        "notes": "Briefumschlag. Handschrift in violetter Tinte. Briefmarken (Republique Francaise) und Poststempel vorhanden. Luftpost-Aufkleber 'PAR AVION'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Wiederholung auf Seite 3 wurde als solche erkannt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1276,
+    "total_words": 231,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      461,
+      364,
+      311,
+      76,
+      64
+    ],
+    "chars_per_page_median": 220.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3294",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [8. August 1934], SZ-AAL/B2.6",
+    "signature": "SZ-AAL/B2.6",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3294/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3294/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3294/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.6"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [8. August 1934], SZ-AAL/B2.6\n- Signatur: SZ-AAL/B2.6\n- Datum: 8.8.1934\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Klosters (Schweiz) Hotel Weisskreuz\n\nMittwoch\n\nLiebes Fräulein Altmann, hoffentlich haben Sie das Telegramm\nrichtig erhalten. Ich bleibe hier in Klosters bis etwa Montag[abends]\nBitte Sie aber alle Post, falls ich nicht anders telegrafiere,\nnach Salzburg zu senden. Bald wird ja das Hin- und Herwandern\nein Ende haben und ich etwas klarer sehen, ich melde dann\nalles sofort.\nHier ist es sehr nett und still, ein einfacher Ort, gutes Essen,\nich vermisse nur sehr die Hors d'oeuvres aus dem Marine Hotel\nund nach der Belebtheit der grossen Stadt kommt einem die\nEinsamkeit zunächst etwas befremdlich vor. Die Arbeit geht vielleicht\ndadurch besser fort, weil sie ununterbrochen läuft, aber schliesslich\ngehören auch die Pausen zum richtigen Rhythmus und die Unterbre-\nchungen haben ihren schönen Sinn. Ich hoffe jetzt scharf vorwärtszu-\nkommen, je früher ich fertig werde umso freier werde ich sein und\nich bin manchmal recht ungeduldig, die gute Maria Stuart unter\ndas Schreibpult zu bringen. Vorläufig ist es noch lange nicht so weit\nund ich muss meinen Blutdurst bezahlen. Aber wenn ich still und\nunabgelenkt arbeite, hoffe ich doch im Spätherbst ganz und gar wieder\nFreude leben zu können.\nSoll ich mich schämen zu sagen, dass Sie mir sehr bei meiner\nArbeit fehlen? Ich habe mich so sehr gewöhnt an Ihre gute Hilfe",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Tinte violett. Die Einfügung 'abends' ist über der Zeile platziert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dass ich mich jetzt ein bischen hilflos fühle und manchmal\nblicke ich die Maschine, die schwarz und verschlafen in der Ecke\ndes Zimmers steht, mit bösem Blick an, es war doch besser, als\nsie rastlos klapperte und mit meinen eigenen dummen Fingern\nweiss ich nichts anzufangen, die sind an solche harte Maschinen-\narbeit nicht gewöhnt und nicht mehr zu gewöhnen. Aber an-\ndererseits freue ich mich, dass Sie sich jetzt erholen, ich hatte\nschon ein schlechtes Gewissen in der letzten Zeit, Sie zu sehr für\nmeine Arbeit eingespannt zu haben. Hoffentlich geniessen Sie\njetzt den Zustand der Faullenzerei ausgiebig auch und ich\ndarf, sobald ich wieder festen Boden unter mir habe, auf\nSie zählen.\nNeues gibt aus diesem Nest nicht zu berichten. In Farch\nwar ich bei Thomas Mann und bummelte abends mit\nKlaus und Erika, was amüsanter war, jetzt ist Maria Stuart\nmeine einzige Gesellschaft; meine Frau kommt wahrschein-\nlich morgen und wir fahren dann nach Salzburg zurück,\nich nur für einen Tag und dann nach Wien weiter\nBitte grüssen Sie mir die Ihren und seien Sie gewiss, dass\nich immer dankbar an Sie denke. Herzlichst Ihr\nMasereel war an dem Schiff, ich freute\nmich sehr mit ihm. Er riet Le Touquet oder Paris Plage\ndie belebte Orte sind, nobel, aber auch mit der Möglichkeit\nganz einfach zu leben. Wenn Sie hinfahren, müssen Sie ihm uns eine Briefe schreiben, er ist\nein prachtvoller Kerl!                                                               Stefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung. Am linken Rand vertikal geschrieben: 'ein prachtvoller Kerl!'. Die Unterschrift 'Stefan Zweig' steht rechts unten.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist identisch mit Seite 2, da es sich um eine Archivaufnahme mit Farbskala handelt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig. Die wenigen Korrekturen oder Einfügungen sind eindeutig zuordenbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2777,
+    "total_words": 449,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1315,
+      1462,
+      0
+    ],
+    "chars_per_page_median": 1388.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

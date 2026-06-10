@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3227",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von C. Birman an Stefan Zweig [17. November 1938], SZ-AAL/B10.7",
+    "signature": "SZ-AAL/B10.7",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3227/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3227/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3227/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B10.7"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von C. Birman an Stefan Zweig [17. November 1938], SZ-AAL/B10.7\n- Signatur: SZ-AAL/B10.7\n- Datum: 17.11.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "C. BIRMAN                                           14, RUE LACRETELLE XVe\nLICENCIÉE EN DROIT XXXXXXXXXXXXXX                   TÉL: VAUGIRARD 54-38\nCONSEIL JURIDIQUE DE LA LÉGATION D'AUTRICHE\nÀ PARIS\n\nDE 10 À 12 H. SAUF SAMEDI\nET SUR RENDEZ-VOUS                                  Paris, 17th November 1938.\n\n\nStefan ZWEIG, Esq.,\n49, Hallam Street\nLondon W.1.\n\nDear Sir,\n\n        as the lawyer of Mrs. Friderike M. ZWEIG, 218, rue de\nGrenelle, Paris (7e), I herewith ask you to do all the necessary\nsteps in order to assure that the obligations due to my client\nand resulting from the estate of late Mrs. Ida ZWEIG, your mother,\nmay be entirely fulfilled.\n\n        You are well aware and agree that your mother promised\nto my client that after her death half of your mother's jewels will\nbecome the propriety of Mrs. Friderike Zweig. According to your\ninformation, which my client and myself think reliable, and due\nto political circumstances the pre-mentioned estate had not yet\nbeen liquidated, the jewels and other assets in Austria having\nbeen confiscated by local authorities.\n\n        I am obliged to point out, that I cannot agree that my\nclient be disadvantaged by these facts. As an other part of this\nsame estate is outside of Austria and Germany, and thus available,\nI have to ask you to indemnify my client from this part of the\nestate in cash money, if she has not got her part of jewels at the\ndate of the liquidation of the estate.\n\n        I herewith inform you of that claim of my client before\nany repartition to the heirs takes place and ask you as one of the\ntrustees and executors to assert this claim. In case you would not\nbe willing to do so, I should be obliged to advise my client to\nsafeguard her rights by all other means possible.\n\n        Hoping to hear from you in this respect,\n        Yours faithfully,\n\n                                            C. Birman",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich. Das Wort 'assets' wurde im Original als 'assetts' geschrieben, 'and' statt 'end' (Zeile 13) wurde als 'and' transkribiert, da es sich um einen Tippfehler im Original handelt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (Durchschlag/Durchdruck des Textes der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear Sir,\n\n        as the lawyer of Mrs. Friderike M. ZWEIG, 218, rue de\nGrenelle, Paris (7e), I herewith ask you to do all the necessary\nsteps in order to assure that the obligations due to my client\nand resulting from the estate of late Mrs. Ida ZWEIG, your mother,\nmay be entirely fulfilled.\n\n        You are well aware and agree that your mother promised\nto my client that after her death half of your mother's jewels will\nbecome the propriety of Mrs. Friderike Zweig. According to your\ninformation, which my client and myself think reliable, and due\nto political circumstances the pre-mentioned estate had not yet\nbeen liquidated, the jewels and other assets in Austria having\nbeen confiscated by local authorities.\n\n        I am obliged to point out, that I cannot agree that my\nclient be disadvantaged by these facts. As an other part of this\nsame estate is outside of Austria and Germany, and thus available,\nI have to ask you to indemnify my client from this part of the\nestate in cash money, if she has not got her part of jewels at the\ndate of the liquidation of the estate.\n\n        I herewith inform you of that claim of my client before\nany repartition to the heirs takes place and ask you as one of the\ntrustees and executors to assert this claim. In case you would not\nbe willing to do so, I should be obliged to advise my client to\nsafeguard her rights by all other means possible.",
+        "notes": "Scan enthält eine Farb- und Grauskala zur Archivierung. Der Text ist identisch mit dem Textkörper von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3286,
+    "total_words": 555,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1888,
+      0,
+      1398
+    ],
+    "chars_per_page_median": 1888,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

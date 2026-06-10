@@ -1,0 +1,119 @@
+{
+  "object_id": "o_szd.3274",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [30. Juli 1935], SZ-AAL/B2.41",
+    "signature": "SZ-AAL/B2.41",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3274/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3274/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.41"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [30. Juli 1935], SZ-AAL/B2.41\n- Signatur: SZ-AAL/B2.41\n- Datum: 30.7.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien 30. Juli 35\n\nLiebes Fräulein Altmann, ich hoffe Sie sind\nzurückgekehrt und möchte Ihnen noch auf\ndas Herzlichste für alle Mühe danken; wie\ngerne hätte ich Ihnen den ‚Falstaff‘ Tosca-\nninis gewünscht, eine Aufführung, wie man\nsie nie gesehen hat und nie wieder erle-\nben wird, einen jener Abende, die einem für\nimmer bleiben. Ich hatte dann die beiden Maestri\nToscanini und Walter zu Tisch und den gan-\nzen Nachmittag und nach diesem wunderbaren\nIntermezzo ging es gleich an die Bahn.\nRose Walter habe ich rasch gesehen, Temian-\nka gar nicht, auch sonst habe ich mich kräftig\nversteckt. Aber es war herrlich und wenn ich\nnur die wirklich unübertrefflichen Tage in der\nEngadiner Luft denke, so muss ich jetzt bereit",
+        "notes": "Handschriftlicher Brief auf beidseitig beschriebenen Papierbogen. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "sein, auch manchen Puff des Schicksals geduldig hin-\nzunehmen in Erinnerung an solche gesteigert gute\nAugenblicke.\nHoffentlich haben auch Sie an unsere Arbeit\nund Zusammensein freundliche Erinnerung be-\nwahrt, von Walter Bauer habe ich noch Nachricht,\ner ist auf das vergnügteste eingelebt.\nNun geht es aus Hungern und Arbeiten nach\nMarienbad: dort wären Sie vorläufig am fell\nam Ort! Alles Herzliche Ihres aufrichtige\n\nStefan Zweig\n\nEmpfehlungen an die Ihren! Ich sende Ihnen\njedenfalls meine Marienbader Adresse: mir\ngraut ein bisschen vor der Cur, viel spazieren\ngehen, keine Beefsteaks, früh aufstehen, nur\nwarmes Wasser trinken – lauter Dinge, die\nmir verhasst sind.",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf der zweiten Seite des Bogens.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarken (Österreich, 12 Groschen, 5 Stück) und Poststempel (Wien 8, 31.VII.35) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Keine größeren Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1441,
+    "total_words": 232,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      718,
+      0,
+      671,
+      0,
+      52,
+      0,
+      0
+    ],
+    "chars_per_page_median": 671,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      4
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

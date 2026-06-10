@@ -1,0 +1,119 @@
+{
+  "object_id": "o_szd.3231",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Alfred Beierle an Lotte Zweig, SZ-AAL/B12",
+    "signature": "SZ-AAL/B12",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3231/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3231/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B12"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Alfred Beierle an Lotte Zweig, SZ-AAL/B12\n- Signatur: SZ-AAL/B12\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ROYAL PHARE HOTEL S. A.\nDIGUE DE MER\nOSTENDE\nTÉLÉPH. : 79 & 1167\nTÉLÉGR. : PHAROTEL\n150 CHAMBRES\nGARAGE\nVielleicht hat er gelitten – bestimmt hat er gelitten.\nUnd manchmal hat er Lache vernommen\naus dem Lande des Glanzes und des Schreckens.\nUnd an diesem Abend hat er sich schwerer\ngebeugt vor Gesetzen, die tiefer sind als die\nSe.\n(Maeterlinck)\nLieben heißt: für einen anderen auf die Welt\nsein.\nSterben leise.\n(Schnitzler)\nLeben laut.\n(Rilke)\nErst wenn Du Dich ganz verlierst, wirst Du die\nWelt in Deiner Tiefe kennen –\nErst wo Geheimnis wirkt, beginnt das Leben.\n(Stefan Zweig)\nO wünsch ich heim –\nWie war ich rein und kühl!\n(Stefan Zweig)\nhelfen heißt: einen anderen ganz verstehen.\nAlfred Beierle",
+        "notes": "Briefpapier des Royal Phare Hotel, handschriftlich beschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Deine Briefe kamen von Seiten –\nwaren noch von Sonne aber verwaisst –\nendlich bist Du selbst Deinen müden\nbitternden Briefen nachgereist.\n(Rilke)\nLiebes Fräulein Altemann –\ndiese kleinen Gedanken und Verse\nbegleiten mich wie eine Melodie in den\nletzten Tagen und es erfreut mich, sie auf-\nzuschreiben.\nWarum ich sie Ihnen schicke? Vielleicht weil\nes mich beglückt, von Dr. Z. zu hören, daß Sie\nihm in dieser schweren Zeit so außer-\nordentlich dienlich und nützlich und\nhehr sind. Nie war das Wort „hehr“ wesentlicher\nund wichtiger als in dieser schweren Zeit. Und\nSie werden es als eine Gnade mitnehmen\nan eine andere Zeit, die wunderbare\nKlugheit dieses seltenen Menschen bei der\nArbeit wirken und werken gesehen zu haben.\nWenn Sie Edith Rosenfelde und Dr. Robert\nFellmann in London sehen (vielleicht haben Sie\nschon geheiratet), dann erzählen Sie Ihnen alles,\nwas Sie so sahen in diesen Züricher Tagen und sagen\nSie ihnen, daß ich gekämpft habe wie ein\nVerzweifelter, daß ich noch einmal kam, Dr. Z. zu\ngreifen und daß sich hier in Ostende mein\nSchicksal erfüllte. Noch einmal war ich eine",
+        "notes": "Handschriftlicher Brieftext, Fortsetzung auf Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "ROYAL PHARE HOTEL S. A.\nDIGUE DE MER\nOSTENDE\nTÉLÉPH. : 79 & 1167\nTÉLÉGR. : PHAROTEL\n150 CHAMBRES\nGARAGE\nFeier, jähle unbedeckte ihr Herz, in dem ich vor\n3 1/2 Jahren mit Edith im Urapalast war,\nund bei Berührung des Namens Prechorina\nzuckten wir beide zusammen.\nIch denke auch.\nMorgen versuche ich zu erfahren, ob die schweiz.\nreise übertragen wird und bracht nur\n12 Uhr beginnt Renates 21. Geburtstag.\nDer nächste Tag kennt keinen Alfred\nBeierle mehr.\nIch wünsche Ihnen aufrichtigst gleich für\nIhr Leben\nlebe innig und\nganz ergeben\nAlfred Beierle",
+        "notes": "Fortsetzung des Briefes auf Hotelpapier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Alfred Beierle\nSchauspieler u.\nRezitator",
+        "notes": "Briefumschlag (Vorderseite) mit Farbskala und Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Fräulein\nAltemann\nSekretärin des Herrn\nDr. Stefan Zweig\nSuisse\nZürich\nHotel Bellerive",
+        "notes": "Adressseite des Briefumschlags mit Briefmarke und Poststempel.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Alfred Beierle\nSchauspieler u.\nRezitator",
+        "notes": "Rückseite des Briefumschlags.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Einige Eigennamen und spezifische Begriffe wurden kontextuell sicher identifiziert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2504,
+    "total_words": 418,
+    "total_pages": 5,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      701,
+      1091,
+      547,
+      0,
+      40,
+      85,
+      40
+    ],
+    "chars_per_page_median": 547,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      6
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

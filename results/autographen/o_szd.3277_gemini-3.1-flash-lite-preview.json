@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3277",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [20. August 1935], SZ-AAL/B2.44",
+    "signature": "SZ-AAL/B2.44",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3277/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3277/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3277/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3277/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3277/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.44"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [20. August 1935], SZ-AAL/B2.44\n- Signatur: SZ-AAL/B2.44\n- Datum: 20.8.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, vielen Dank für Ihren guten Brief,\nder mir sagt, dass Sie erfreuliche Arbeit vor sich haben\nund mir doch dann Ende September oder Anfang Octo-\nber in wohlwollender Treue ~~da~~ beistehen wollen. Bis dahin wirdjenes Buch ja in Rohzustande fertig sein, ich arbeite hier\ndaran, obwohl mich die Cur sehr der Zeit beraubt. Morgens\nstehe ich - mirabile dictu - um 6 Uhr auf, renne 1 1/2\nStunden nach Königswart zu einem magern Frühstück, ein\nCafé mit Ei und Wasserzwieback, fahre mit Postauto zurück,\nda stiegt für ein Masseur auf mich, knetet mich, verrenkt\nmir die Beine und zwingt mich - horribile dictu - zu turnen,\ndann um 11 Uhr ein Moorbad, nach dem ich schlafe\nwie ein Esel, dann muss ich eine Stunde im Bett liegen,\num ein ärztliches vegetarisches Futter zu bekommen.\nNachmittags komme ich dann ausgeschöpft zu etwas Ar-\nbeit. Resultat bisher - sechs Kilo Fettverlust, eine bessere\nLinie, die Gelenke geölter, die Steife aus dem Körper\nvertrieben. Eine Woche will ich auch noch so schinden,\nvielleicht rackere ich doch noch ein Kilogramm mir ab\nund damit will ich mich zufrieden geben, es ist immer-\nhin eine Leistung, ein Zehntel seines Corpus weg zu haben\n(sonderbare Vorstellung, so etwa muss einer Frau zu Blüte",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sein, wenn Sie vom Kindbett aufsteht.) Im Ganzen geht es\nmir gut, nur das Turnen ist arg und das Süße fehlt mir\nsehr (nur dabei sind die Conditoreien hier bis zum Rand\nvoll mit Herrlichkeiten/\nPläne. Ende August ein Tag Prag, dann Wien. Ende\nSeptember zwei drei Tage Paris, dann wer bis sechs\nWochen, hoffe ich, London. Dann grosses Frazerleben!\nVielleicht muss ich aber noch im August Waizmann\nin der Schweiz treffen zu einer wichtigen Besprechung.\nAber ich glaube auf London zählen zu können, Sie\nwissen gar nicht, wie ich Heimweh habe nach dieser\nStadt!! Man hat auch gar nicht mehr den Mut, in\ndieser unsicheren Welt sich auf etwas zu freuen.\nVon Salzburg höre ich wenig, Temuande\n[?] nicht, ebensowenig Rose W. (die eine Dutzfreund-\n[alle Musiker eingefügt] \ndie meiner Frau geworden ist), die machen wahrscheinlich\ndort ihre Geschäfte. Walter Bauer muss ich mahnen,\ndass er Ihnen das Buch schickt, alle Freunde sind ein-\nfahr bestürzt über die Vorgänge in Deutschland. Und\nnun leben Sie herzlich wohl und fahren Sie mir nicht\ngerade nach Kattowitz davon, wenn ich nach London\nkomme. Herzlichst Ihr\nBis 25. August hier, dann\nAdresse Herbert Reichner Verlag\nWien VI Millergasse 39\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Fräulein Lotte Altmann\n\nLondon NW 11\n\n50 Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke aus der Tschechoslowakei (Marienbad/Mariánské Lázně), Poststempel 21. VIII. 35.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Aufdruck: FRANK SMYTHSON NEW BOND STREET LONDON W.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Ein Wort in Zeile 10 auf Seite 2 ist unklar (Temuande[?])."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2495,
+    "total_words": 418,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1243,
+      1197,
+      0,
+      55,
+      0
+    ],
+    "chars_per_page_median": 1197,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0024,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

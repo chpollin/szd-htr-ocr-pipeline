@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3174",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [23. Oktober 1940], SZ-AAL/B1.57",
+    "signature": "SZ-AAL/B1.57",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3174/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3174/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3174/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.57"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [23. Oktober 1940], SZ-AAL/B1.57\n- Signatur: SZ-AAL/B1.57\n- Datum: 23.10.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Address now:\nc/o Editora GUANABARA\n132 RUA OUVIDOR, Rio\n(letters will be forwarded)\n\nRio, 23. X. 40\n\nDear Hanna and Manfred\nI just got your letters from Bath (30.9. and 2.10.)\nand I write immediately although we are again feeling like in a\nmadhouse - leaving Saturday for Buenos Aires, to-day Stefan's con-\nference in French \"Vienne d'hier\", since two hours a phone call from\nBuenos Aires announced without name and not yet come through,\nurgently some books to sign for people who are leaving Rio to-day,\nto-morrow a Jewish charity affair where Stefan has to speak an intro-\nduction, a men's luncheon to-morrow and the last rehearsal of the Spanish\nlecture on Friday. In between Stefan dictates a lecture in English,\nthat is to say I shall translate it and he will revise it, another lecture\nfor the refugees in Buenos Aires and he revises his other lectures in\nFrench which he might have to give, and sometime I shall have to pack\n- and pack carefully because we fly and I have to select what to take.\nI sign the form of the Westm. Bk and Stefan will decide soon about the\nother authorisation and send it, I suppose, when we will again have\na free moment. - It gave me quite a shock that you had to transfer\npart of your furniture, but please always write about everything, I\nfear nothing more than to have to think that you hide anything\nthat has happened. About the cables: We prefer that you send them\nevery week or fortnight, letters are so irregular, sometimes a fortnight\nnothing and then English air-mail twice a week. And we shall be only\nhappy to hear that nothing has happened. I can imagine that it is\nhard for you to have strange children around you instead of Eva,\nbut in any rate she is safe in a friendly and carefree atmosphere.\nMy sister-in-law had her over weekend and wrote that she seems abso-\nlutely happy there is great friend with Salmon's and has a number\nof school friends. It was a great reassurance for me - and will be the\nsame to you - to hear that from a third person like my sister-in-law\nwho is more inclined to be critical and pessimistic than otherwise.\nBut she wrote that Eva could not be at a better place, and Salmon's\nseem to do everything possible for her. - Excuse the hurry, the lecture is\nat 5, it is now 3 and I have to post the letter before. Kisses to all L.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig auf gelblichem Papier. Die Tinte ist dunkelblau/violett. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgelegter Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar und weist kaum Unklarheiten auf. Die Handschrift ist flüssig und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2304,
+    "total_words": 428,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2304,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2304,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

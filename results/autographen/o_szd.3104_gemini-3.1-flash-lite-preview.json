@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3104",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hermann Broch [16. Oktober 1941], SZ-AAL/B1.174",
+    "signature": "SZ-AAL/B1.174",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3104/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3104/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3104/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.174"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hermann Broch [16. Oktober 1941], SZ-AAL/B1.174\n- Signatur: SZ-AAL/B1.174\n- Datum: 16.10.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\n16. October 1941\n\nAdrese lese oder die Gals\n34 rua Goncalves dias\nPetropolis (Brasil)\nSouth America\n\nLieber Freund, ich habe natürlich lange von Ihnen nichts\nvernommen und wüsste gerne: was ist mit Ihrem Textilbuch und mit den\nanderen Arbeiten? Ich habe jüngst brieflich einen Plan entwickelt – da es wohl\nkein Zeitung des antinazideutschen nicht zustande kommt, wäre es nicht\ndas Richtige, wenigstens ein Jahrbuch herauszugeben, bestehend aus zwei Teilen\n1 Teil das Produtive der Emigration in den erlesenten Beispielen des Jahres\nTeile aus Thomas Manns forel, Ihrem Textil, Beruhren, Antonzen und ein\n2 Teil Bibliografie alles dessen was die Emigration im Jahre 1940 oder\n1941 geleistet hat. Ein solches Buch von 400 Seiten könnte j. B. der Aufbau\nherausgeben und ich bin aber, es verlangte die 2000-3000 Exemplare –\nes wäre für spätere Zeit ein historisches document und für die Leser von heute,\nunsere Leser, eine Orientierung und Ergänzung.\nMeine Autobiografie (cca 400-500 Seiten) ist fertig. Vielleicht kann ich sie\nhier im Original drucken. Mir fehlt noch ein deutscher Titel. Englisch möchte\nich es nennen „These days are gone“ Ausserdem habe ich eine ganz kleine\ncurios Story in Arbeit, eine stark novelle, nicht für ein fromeres Publicum\nberechnet, aber aus dieser Tatsache wie aus der noch curioseren, dass ich hier\nseit einiger Zeiten weder ein Gericht abrich, mögen Sie fühlen, dass meine\nIsolierung für eine Art Rückkehr zu meinem bessern Ich bedeutet. Newyork\nist mir gefährlich durch Versichungen, Verstellungen, indem wir für mich einen\nkleinen Ort im Gebirge (1 1/2 Stunde von Rio) in einem Ischl oder Aussee\nLeben ohne identpermenten kapla um zu sehen. Wir haben ein kleines Bungalow\nmit einer schwarzen Köchin (die 5 Dollar im Monat Gehalt hat) leben in einer\nköstlichen Landschaft und pittoresca Brazilitat – das natürlich Wetterwegsein\ngreift vegetativ ins Seelische über; der Krieg mit alle im Gittern weiterungen\nfür unsere kommende Existenz drängt nicht so nah heran, die führende Freund-\nlichkeit des Behas wärent nicht last einem benderdene Hoffnung, dass das Klima-\nne ein unverdorbenen, nicht halb-civilisierten Seelen noch Raum findet und die\nLässigkeit, die für in der Natur wie ein bolle liegt, geht in einer über als eine\nweise Wirklichkeit. Was weiter mir überlege ich kaum. Wir haben das möblierte\nKästchen, deren Hauptbestandteil eine grosse Terrane ist, auf der ich arbeite für\nein falter Zahl gesendet, nur den Sommer in Rio zu versäumen – nach M. will\nich vorderhand nicht zurück, es wird auf meine Produktivität wohl gerade wirken\naber doch abwegig, es entfernt mich von mir selber. Was bauen, ich bei des Hotels müde, da bis den gewisschlos\ndas macht mich schon zufrieden nur dass ich keine Koffer mehr teile. – von Herbst habe ich\nseit Monaten kein Wort. Sie sind wie wir alle gnisswerten! Ihr Stefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Der Text am linken Rand wurde nachträglich vertikal hinzugefügt. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger Korrekturen/Einfügungen teilweise erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument liegt unter der Skala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist sehr flüchtig und weist zahlreiche Korrekturen sowie eine sehr individuelle Orthografie auf. Einige Wörter (insbesondere Eigennamen oder spezifische Begriffe wie 'Brazilitat' oder 'identpermenten') sind schwer zu entziffern und wurden nach bestem Wissen transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2904,
+    "total_words": 467,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2904,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2904,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

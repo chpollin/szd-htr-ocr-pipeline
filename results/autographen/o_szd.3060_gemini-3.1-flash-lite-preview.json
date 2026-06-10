@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3060",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [2. Juni 1941], SZ-AAL/B1.134",
+    "signature": "SZ-AAL/B1.134",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3060/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3060/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3060/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.134"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [2. Juni 1941], SZ-AAL/B1.134\n- Signatur: SZ-AAL/B1.134\n- Datum: 2.6.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Wyndham\nNewyork, June 2nd, 41\n\nDear Hanna\nI return the enclosed forms signed and quite\nagree with you that you should be able to take any necessary\nsteps or precautions. Your last letter (from May 21st) proves that our\nthoughts still conform. As soon as we had mailed you the power of\nattorney we regretted that we had omitted to specify it also for\nsafes, and on the other hand we wrote you just yesterday that\nStefan is not quite happy with Eisen's effusive and evasive\nletter and that it seems to us that he puts Stefan's interest\nbehind that of newly acquired friends and clients, in an\nunderstandable and yet disappointing instinct of self-interest.\nI am very glad that you too are now convinced that Eva is in\nsatisfactory surroundings and somehow I am absolutely certain\nthat all along you would have acted in the same way about\nher as we did. You, too, would have made the arrangement\nwith Salmon's last year under the special circumstances and\nthe personal and general uncertainty then prevailing, and you,\ntoo, would have transferred her to Amity Hall on our return.\nAnd you, too, would still now be uncertain whether the Public\nor the Private School has greater educational advantages. Miss\nBaker promised to let me know when she comes to Newyork and\nI hope to discuss this question with her, as well as with\nseveral others. As the Private School will not reopen before the\nend of September there is plenty of time also for you to write\nme suggestions and your opinion, although in the end I am afraid\nyou must still leave the decision to us. I can understand how you\nmiss Eva - I judge it from the fact how much I miss you -\nbut somehow for this very reason I enjoy so much having\nEva here and looking after her as well as I can. In a way it\nis a compensation and gives me the feeling that our old life\nhas not been completely disrupted but continues, for the time\nbeing, over here. (Stefan will criticize these last remarks as being\nimprecise, but after all I am no writer and I hope that even\nyou will understand what I try to say and not speak again of\n\"burdening us with Eva's care\". - I am terribly sorry that this\ntorture at the dentist is still dragging on. Both you and Manfred\nwill have earned a long rest in Bath, and I hope you get it soon.\nplease turn over\nlove and kisses Lotte.",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Am linken Rand vertikal geschrieben: 'Stefan has written to the Bank Manager, thanking him for all the help he has given you. We heard that Bohem[?] was again with you, either in Bath or in London. Manfred must soon become an expert in X-Ray science.' Am rechten Rand vertikal geschrieben: 'Trlor[?] Father, Herr Hofman and other people we really like. And among them Hanne Kohl, Balbui[?] Raes, Poto Roda, we will give tomorrow a cocktail for all the refugees-friends, there will be, I am afraid, a whole crowd'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "I had to-day a reply from Washington that they do not more cable enquiries\nto their embassy in London, but that they have written them and asked to\nsend me a report about the status of your brother's affidavit - in clear\nlanguage that probably means that I shall never hear from them.\nFor why should the London consulate take the trouble to write me a\nletter when they refuse to give an answer to the people themselves?\nProbably too many people have tried to find out how things stand\nvia cables from Washington and they therefore stopped this practise.",
+        "notes": "Handschriftlicher Text auf der Rückseite des ersten Blattes. Der Text ist aufgrund des Durchscheinens der Vorderseite teilweise schwer lesbar, aber der Haupttext ist klar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 1, jedoch mit aufgelegten Archivierungshilfen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einige Eigennamen am Rand sind aufgrund der Handschrift leicht unsicher, aber der Kontext ist klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2862,
+    "total_words": 529,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2309,
+      553,
+      0
+    ],
+    "chars_per_page_median": 1431.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

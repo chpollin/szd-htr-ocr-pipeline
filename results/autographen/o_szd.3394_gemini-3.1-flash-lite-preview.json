@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3394",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Walter Bauer an Lotte Zweig [10. Januar 1936], SZ-AAL/B8.2",
+    "signature": "SZ-AAL/B8.2",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3394/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3394/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3394/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3394/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3394/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B8.2"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Walter Bauer an Lotte Zweig [10. Januar 1936], SZ-AAL/B8.2\n- Signatur: SZ-AAL/B8.2\n- Datum: 10.1.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "den 10.Januar 36\n\nLiebes verehrtes Fräulein Altmann,\nheute morgen kam Ihre Karte,und jetzt setz ich mich\ngleich hin,um Ihnen zu schreiben und für Ihre und unseres Freundes\nGrüsse zu danken.Wie sehr habe ich mich gefreut,von Ihnen wieder\nzu hören - und aus der unvergesslichen Stadt,die uns vor einigen\nJahren so schöne Augenblicke gab.Ich werde nie vergessen[?] können,\nwie wir den Vesuv bestiegen und im Aquarium die phantastischen\nWunder des Meeres sahen,im Muso Nazionale die antiken Figuren\nbewundern durften - all das ist eigentlich frisch wie am ersten\nTag. Wir sind froh,ein neues Jahr angefangen zu haben,das heisst\nman sagt so leicht hin: neues Jahr - in Wirklichkeit trägt man\nja all seine Hoffnungen und Befürchtungen und nicht nur sie,son=\ndern sein Wesen ,in dem man gefangen ist unlösbar - hin\"ber von\neinem Jahr zu andern. Was das alte angeht: so haben[?] wir reich=\nlich viel erfahren und meine Arbeiten sind auf sehr grosse Hemm=\nnisse gestossen. ~~Meine Arbeiten~~ Ich wundere mich selbst,dass ich\ndabei doch das und jenes zustandebrachte. Übrigens sind die bis=\nher erschienenen Arbeiten nicht mehr zu vorhanden.\nAus Wien habe ich zu meiner sehr grossen Freude zwei\nBücher bekommen;ich las sie mit grosser Wärme und dem Gefühl,dass\nsolche Begegnungen unzerstörbar sind.Sie wissen ja,liebes Fräulein\nAltmann,dass ich darüber keine grossen Worte machen kann.\nIm übrigen versuche ich mich nach wie vor in meinen\nArbeiten voranzukommen.Jetzt fängt Goethe an mir aufzugehen in\nseiner Unermesslichkeit. Das ist eine immerwährende Begegnung.\nUnser Junge plant übrigens entweder eine Radfahrt\ndurch England oder eine durch die Schweiz. Wenn Sie dann an einem\nOrt zu erwischen wären,könnte er Ihnen unsere Grüsse einmal\npersönlich bringen.Ich selbst hoffe mit K d F in diesem Jahr\neinmal nach Madaira zu kommen;das wäre einmal Luftholen!\nMit welcher Freude denke ich an unsere gemeinsamen Wege - wissen\nSie noch wie wir im Walde sassen und der Musik zuhörten... na ja,\nGrüssen Sie den Freund - den teuren.Herzliche Grüsse von Ihrem\nsehnsüchtigen,{Ihr} alten Reisekameraden Walter",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen. Die Tinte der Korrekturen ist dunkler als der gedruckte Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Fräulein\nLotte A l t m a n n\n\nN a p o l i\n\nGrand Hotel I t a l i a",
+        "notes": "Adressseite eines Briefumschlags. Farbskala und Grauskala für Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Fräulein\nLotte A l t m a n n\n\nN a p o l i\n\nGrand Hotel I t a l i a",
+        "notes": "Adressseite eines Briefumschlags (Ausschnitt).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Poststempel. Kein Textinhalt.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 1 sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2221,
+    "total_words": 371,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      2089,
+      0,
+      66,
+      66,
+      0
+    ],
+    "chars_per_page_median": 1077.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0054,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

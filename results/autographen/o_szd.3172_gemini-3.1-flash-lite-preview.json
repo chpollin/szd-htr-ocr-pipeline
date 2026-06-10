@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3172",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. Oktober 1940], SZ-AAL/B1.55",
+    "signature": "SZ-AAL/B1.55",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3172/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3172/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3172/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.55"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. Oktober 1940], SZ-AAL/B1.55\n- Signatur: SZ-AAL/B1.55\n- Datum: 16.10.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Editora Guanabara\n132 rua Ouvidor\nRio.\nletter Nr. 9 from Rio\n\nRio, 16.10.40\n\nDear Hanna and Manfred,\nThere is not much to write to-day. We had a very\npleasant and extremely quiet week in the mountains where\nStefan got all his favourite dishes, where he could work\nquietly and where we had nice people to talk if we wanted\nto. Now we try to accustom our ears again to the noise of\nRio and think of the noise you must endure. We expect to\nhave a very lively week before going to Buenos Aires and will\nprobably have a rather hectic time there. In the middle of\nNovember we intend to be in Montevideo and by the end\nof December in New York where Eva is the only attraction.\nWe hope that you all have not too bad a time\nand could good wishes help, England would have won already.\nStefan is trying to get a visa for his friend Friedenthal here and\nmaybe even a modest job, but he does not know how to\ncommunicate with him, and then vises have become almost as\ndifficult here as in America, or even more so as there are no\nrules but only silent restrictions.\n\nKindest regards to all, kisses to you both,\nLotte\n\nMr. Landan wrote me from Buenos Aires this week that he had sent\nthe signed affidavit forms for Mr. Mayer by registered air-mail. They\nshould arrive before this letter - I do not know at which address\nand I hope that this will remove the last difficulties as appa-\nrently the cabled affidavits were not accepted.\n\n[Randnotiz links, vertikal geschrieben:]\nDear, please tell [?] because that I will speak with any friend - as far as I know he has not much\n[?] from the distance and he would have offered [?] his help seeing how we get every day\ncables and letters to diverse visas for South America. Till now I have not been able by the coastal travelly\nto come in touch with the right people and we have to get our own for Argent - and the States - all be\nthe best strength for\nthose who are the\nnearest to you. Please\nunless that you\ndied is for away\nwe are glad she\nis safe and would\nbe happy to\nknow you both\nnearer to us.\n\nYours Stefan\nFrom Friedenthal?\nheart nothing and\nI do not know his\naddress; it would be\nimportant to know it.",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Die Randnotiz am linken Rand ist teilweise durch den Text auf der Rückseite überlagert (bleed-through), wurde aber als eigenständiger Text identifiziert. Die Notizen am oberen rechten Rand sind ebenfalls handschriftlich ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through). Kein eigenständiger Text.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den durchscheinenden Text der Vorderseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Transkription der Randnotizen war aufgrund der Überlagerung durch den durchscheinenden Text (bleed-through) und der engen Platzierung schwierig. Der Haupttext ist gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2143,
+    "total_words": 413,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2143,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2143,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0073,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

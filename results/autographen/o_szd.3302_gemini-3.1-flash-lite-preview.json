@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3302",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [10. August 1936], SZ-AAL/B2.67",
+    "signature": "SZ-AAL/B2.67",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3302/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3302/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3302/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3302/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3302/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.67"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [10. August 1936], SZ-AAL/B2.67\n- Signatur: SZ-AAL/B2.67\n- Datum: 10.8.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "On Board\nThe Royal Mail Liner\n\nIch sende noch einmal vom Festland Nach-\nricht, wir landen morgen in ~~F~~Hauien[?], um\nFlüchtlinge nach Lissabon mitzunehmen, das\nWetter ist herrlich, die See wie der bekannte\nMilchtopf nur man schläft nur nicht so gut\nwie in Polygon, was der einzige Nachteil ist.\nDie Leute furchtbar dall, unsympathische Ge-\nsellschaft — ich treffe ab ~~dem~~ {mit} einigen mit\nden auswandernden Juden der dritten Classe,\n~~als~~ recht interessante Typen. Das Essen für\nmeine Abmagerungspotenzen sehr förderlich,\nnichts, was einen verlockt, mehr als zehn\nMinuten bei Tisch zu bleiben, ein grausliches\nKinoprogramm. Dafür lese ich viel auf\ndiese Papieren. Jetzt freuen Sie von mir erst\nwieder von Rio, nutzen Sie die Pause —\nder nächste Brief erreicht Sie da ohnehin",
+        "notes": "Handschriftlicher Brief auf Briefpapier der Royal Mail Lines Limited. Die Tinte ist verblasst, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "lande mehr in London. Alles Herzliche\nund gute Reise und noch besseres Wieder-\nsehen. Sz.",
+        "notes": "Handschriftliche Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Ich sende noch einmal vom Festland Nach-\nricht, wir landen morgen in ~~F~~Hauien[?], um\nFlüchtlinge nach Lissabon mitzunehmen, das\nWetter ist herrlich, die See wie der bekannte\nMilchtopf nur man schläft nur nicht so gut\nwie in Polygon, was der einzige Nachteil ist.\nDie Leute furchtbar dall, unsympathische Ge-\nsellschaft — ich treffe ab ~~dem~~ {mit} einigen mit\nden auswandernden Juden der dritten Classe,\n~~als~~ recht interessante Typen. Das Essen für\nmeine Abmagerungspotenzen sehr förderlich,\nnichts, was einen verlockt, mehr als zehn\nMinuten bei Tisch zu bleiben, ein grausliches\nKinoprogramm. Dafür lese ich viel auf\ndiese Papieren. Jetzt freuen Sie von mir erst\nwieder von Rio, nutzen Sie die Pause —\nder nächste Brief erreicht Sie da ohnehin",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke 'THREE HALFPENCE' (König Georg V.), Poststempel 'SOUTHAMPTON 17 AUG 1936 PAQUEBOT'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Stempel 'R.M.S. ALCANTARA 10 AUG 1936 POSTED ON THE HIGH SEAS' sowie das Logo der Royal Mail Lines.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Einige Wörter wie 'Hauien' (möglicherweise 'Bahia' oder ein Schreibfehler für einen Hafen) sind aufgrund der Handschrift leicht unsicher, aber der Kontext ist gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1674,
+    "total_words": 267,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      782,
+      89,
+      751,
+      52,
+      0
+    ],
+    "chars_per_page_median": 89,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0075,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3029",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [19. März 1941], SZ-AAL/B1.107",
+    "signature": "SZ-AAL/B1.107",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3029/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3029/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3029/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.107"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [19. März 1941], SZ-AAL/B1.107\n- Signatur: SZ-AAL/B1.107\n- Datum: 19.3.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Taft Hotel\nNewhaven, 19.3.41\nDear Hanna u Manfred,\nI wrote twice last week, once with a letter to Jan enclosed, I hope you got the letter. In the meantime nothing much has\nhappened. I am up again and already cleared up a great amount of my\nso long neglected work. The main part of the manuscript for the Brasil\nbook has been sent away at last and Stefan feels better since the piles\nof paper have somewhat diminished. The weather has been dreadful all\nthe time, storms, snow and extreme cold, and in the 2 months of our stay in\nUSA we got already thoroughly tired of the winter. Nevertheless time\nseems to fly away and in another few weeks I suppose we will go back\nto New York and try to make up our minds what to do that is to say where\nto go next. Do you realise that it is already a year almost since we se-\nparated? Your letter about Bath brought everything back so clearly and made\nme feel rather homesick for a while. I am glad at least that you can be\nthere and enjoy the products and the beauty of the garden. What a pity\nthat Manfred's X-Ray course is not yet finished! But I hope he will take\nlong weekends, we are very much concerned about it that he does. - From\nEva we hear regularly and also Mrs Sch. reports frequently, I asked\nher to join a few words to Eva's letters to you now and then. We both\nfeel that Eva is well looked after and happy there. She has again\nstarted her music lessons and from what she and Mrs Sch write the teachers\nseem to succeed in making her enjoy it again. She has holidays in April\nand I plan to take her here for a few days at least. We look forward\nto having her and she loves to come, but there is nothing for her to\ndo in Newhaven and I am afraid she will not know what to do with\nherself all day long. If it is possible with regard to time, I shall one\nday take her to visit Harriet's sister Elizabeth who has a boy and a\ngirl in about Eva's age and who lives halfway between New York and\nGroton. I have seen Elizabeth and her children but once, but in any\ncase it can do no harm if Eva knows someone of the family, Leo and\nthe other two, Marcus and Samson, who are in New York live far away\nand are without interest for Eva - and myself. - Tell Lotte please how\nsorry I am that I could not yet visit her children. I hope that when\nwe are back in Newyork again, someone will take me out there in\ncar, otherwise it is very long and a little complicated to get there.\nHoping to have good news from you soon,\nwith best love and kindest regards\nto all\nLotte",
+        "notes": "Handschriftlicher Brief auf Briefpapier des Taft Hotels. Tinte violett. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2503,
+    "total_words": 501,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2503,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2503,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

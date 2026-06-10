@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3220",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [13. Februar 1941], SZ-AAL/B1.99",
+    "signature": "SZ-AAL/B1.99",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3220/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3220/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3220/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.99"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [13. Februar 1941], SZ-AAL/B1.99\n- Signatur: SZ-AAL/B1.99\n- Datum: 13.2.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Newhaven, 13.II.41\nConn.\nDear Hanna & Manfred\nThis time I send the letter to mother. I wrote you so many\nlong letters about Eva these last 3 weeks and wrote her so\nlittle that this time she gets the longer letter and you just\na note that we are well retired to Newhaven, happy to see and\nread books again, working hard and enjoying a silent telephone.\nHoping that Manfred takes a long rest in Bath after the\nexam which we have no doubt he will pass in spite of the\ndifficult times in which he studied, besides doing his own work,\nYours ever, Lotte\n\nDear Hannah, dear Manfred we have found at last a\nquiet, not very modern hotel and I hope finally to be\nable to work quietly - it becomes more and more ne-\ncessary after so many months of travelling and unrest. We\nlive here quite isolated (only today Shalom Asch dropped\nin) and I enjoy this small quiet life as a rest: you\ncannot imagine how I hate Newyork now with its luxury-\nshops, its 'glamour' and splendour - we Europeans\nremember our country and all the misery of the world\ntoo much. Here we live like in Bath amidst provin-\ncial people and I enjoy the facilities given by the Yale\nUniversity to take as many books as home as I like -\nI has a real hunger to read and to study again. Eva\nseem perfectly happy and so may you both be -\nbut, please, move both soon to Bath after the examina-\ntion! Yours\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief von Lotte Zweig (mit Unterschrift Stefan Zweig am Ende). Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1370,
+    "total_words": 265,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1370,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1370,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3315",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [19. August 1937], SZ-AAL/B2.79",
+    "signature": "SZ-AAL/B2.79",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3315/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3315/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3315/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3315/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3315/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.79"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [19. August 1937], SZ-AAL/B2.79\n- Signatur: SZ-AAL/B2.79\n- Datum: 19.8.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Regina\nBrüder Kremslehner\nWien, IX., Dollfußplatz\n\nLiebes Fräulein Altmann, ich hoffe\nSie eben aus Königssee zurück und\ndanke Ihnen für Ihren erstaunlich langen\nBrief. Ich bleibe wohl bis Dienstag hier\naber nichts ist gewiss, Mittwoch hoffe\nich schon in Ihrer, Hotel Royal Basis\nzu sein, ich telegrafiere Sonntag Ihnen\ngenauen Bescheid. Wohlfahrtsverein\n~~wollen~~ {schreiben Sie} mit Unterschrift, Heydt dass\nich vielleicht selbst nach Vevey komme\ndaran gebe ich selbst Nachricht direkt\nSie, dass ich verreist bin nur ob ich\nso einem Amerika wahrscheinlich erst\nvon London direkt sehen kann.\nIch habe viel zu tun, alles\nist etwas nur bedrückend, dafür wenig",
+        "notes": "Brief auf Hotelpapier (Hotel Regina). Handschriftlich in violetter Tinte. Die Zeile 'Wohlfahrtsverein' enthält eine Korrektur/Einfügung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Leute für in Wien, wenn ich doch nur\nfrüh hier zielen kann, Kapellan ist\ngemeinsam mit ihm ausreisen.\nLassen Sie sich durch die Länge der\nBriefe nicht abhalten, mir ausführlich\nzu schreiben, Empfehlung Ihrer verehrten\nFrau Mutter, viele Grüße an alle Ihr\n\nSZ",
+        "notes": "Rückseite des ersten Blattes (Fortsetzung des Briefes). Handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Im unteren Bereich ist der Text der Seite 3 durch das Papier hindurch sichtbar (bleed-through), dieser wurde gemäß Anweisung nicht transkribiert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Basis'/'Vevey'/'zielen'/'Heydt'). Die Korrekturen und Einfügungen wurden gemäß den Regeln markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 922,
+    "total_words": 145,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      664,
+      0,
+      258,
+      0,
+      0
+    ],
+    "chars_per_page_median": 461.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

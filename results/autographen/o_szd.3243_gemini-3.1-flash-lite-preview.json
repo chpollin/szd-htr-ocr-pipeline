@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3243",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [4. September 1934], SZ-AAL/B2.13",
+    "signature": "SZ-AAL/B2.13",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3243/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3243/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3243/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.13"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [4. September 1934], SZ-AAL/B2.13\n- Signatur: SZ-AAL/B2.13\n- Datum: 4.9.1934\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POSTKARTE CARTE POSTALE CARTOLINA POSTALE\n\nMONTREUX\n\nuns bitte erfolgen Sie sich gut,\nich fürchte ich muss Ihnen\nacht volle Tage Arbeit zumu=\nten. Wenn ich nicht anders\ntelegrafiere komme ich\nSonntag mit dem Boot, das\nin Boulogne cca 2 Uhr\nabfährt nach Folkestone.\nHerzlichst Ihr StefanZweig\n\nMiss Lotte Altmann\nc/o Mrs Jacklin\n\nHythe (Kent) England\nSeabrook Rd\n[...]",
+        "notes": "Adressseite einer Postkarte. Poststempel 'BADEN 1 4.IX 1934'. Briefmarke 'HELVETIA'. Handschriftliche Nachricht links, Adresse rechts. Die letzte Zeile der Adresse ist teilweise durchgestrichen/unleserlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann, ich glaube, ich werde\nSonntag kommen womöglich nach Folkestone\num Sie möglichst nah bei der Hand zu haben,\nes ist wirklich wie notwendig ich sie brauche,\nes gibt furchtbar viel zu tun, alles kommt\nzusammen, Maria Stuart, die ganze Verlags\ncorrespondenz mit ihren Briefen aus Para-\ngrafen und noch dazu das Stück von Piran-\ndello, das ich in Eile übersetzen soll. Ich bitte\nSie nicht nur all der guten Gesinnung,\ndie Sie mir bei unserer gemeinsamen Arbeit\nerwiesen haben, lassen Sie mich jetzt nur mir\nin Stich!!! Am besten wäre wie gesagt, eine\nknappe Woche irgend wo am Meer, wo ich\nkeine Zeit mit Menschen verliere, bestimmen\nSie selbst wo, ich richte mich ganz nach Ihnen\naber, nichtwahr, ich darf auf Sie zählen. Ent\nschuldigen Sie nur bei Ihrer Frau Mutter wenn\nich Sie für paar Tage wegnehme, ich täte\nes gewiss nicht, wenn ich nicht so gehetzt wäre",
+        "notes": "Rückseite der Postkarte (Textseite). Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darunter liegt die Textseite der Postkarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und weitgehend eindeutig. Die letzte Zeile der Adresse auf Seite 1 ist durchgestrichen und daher schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1247,
+    "total_words": 210,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      367,
+      880,
+      0
+    ],
+    "chars_per_page_median": 623.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0048,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

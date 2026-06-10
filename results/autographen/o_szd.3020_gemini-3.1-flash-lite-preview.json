@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3020",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Eva Altmann [20. Dezember 1938], SZ-AAL/B1.1",
+    "signature": "SZ-AAL/B1.1",
+    "language": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3020/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3020/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3020/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Eva Altmann [20. Dezember 1938], SZ-AAL/B1.1\n- Signatur: SZ-AAL/B1.1\n- Datum: 20.12.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "French Line\n\nà bord, le 20. XII. 38\n\nJan\n9 - Philadelphia, Pa.\n11 - Boston, Mass.\n12 - New York\n14 - Indianapolis\n15 - Chicago, Ill.\n18 - Detroit, Mich.\n19 - Cincinnati, Ohio\n21 - Toledo, Ohio - Miss[?]\n23 - Kansas City, Mo.\n26 - Houston, Texas ~~[...3...]?~~\nFebruary\n1 - San Antonio, Texas\n2 - Dallas, Texas\n9 - San Francisco, California\n13 - Salt Lake City, Utah\n24 - Los Angeles, California\n27 - Brooklyn, New York\nToronto, Ont. (Canada)\n\nDear Eva,\nThis is the list as far as we know it.\nWe shall arrive Thursday morning. The ship is\nbeautiful, and after a day in bed I feel quite\nall-right. It is warm outside and you can walk on\nthe promenade deck without a coat. In the afternoon",
+        "notes": "Handschriftlicher Brief auf Briefpapier der 'French Line'. Flecken durch Feuchtigkeitseinwirkung. Die Zeile 'Toronto, Ont. (Canada)' ist leicht eingerückt unter der Liste.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "there is always a Punch and Judy show and\nlater on a picture. I am sure you would\nlike it especially as there are a few dogs\non board which sometimes come to the public\nrooms and then, you get wine for your meals\nas much as you like, there is a bottle of red\nand of white wine on each table in the dining-\nroom.\n\nWednesday.\nNow we are nearly there, and to-morrow\nmorning we shall arrive in New York. You can\nimagine how I am looking forward to it.\nFrom the list you see that I am staying in\nNew York for a fortnight. Then the ~~trae~~\ntravelling starts again and you will receive\na postcard at least from each place. But you\nmust not forget to answer my letters!\n\nBest love to all\nauntie Lotte",
+        "notes": "Handschriftlicher Brieftext, Fortsetzung von Seite 1. Flecken durch Feuchtigkeitseinwirkung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "and of white wine on each table in the dining-\nroom.\n\nWednesday.\nNow we are nearly there, and to-morrow\nmorning we shall arrive in New York. You can\nimagine how I am looking forward to it.\nFrom the list you see that I am staying in\nNew York for a fortnight. Then the ~~trae~~\ntravelling starts again and you will receive\na postcard at least from each place. But you\nmust not forget to answer my letters!\n\nBest love to all\nauntie Lotte",
+        "notes": "Wiederholung des Textes von Seite 2 mit Archiv-Farbskala und Grauskala. Die Transkription entspricht dem sichtbaren Text unterhalb der Farbskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die durchgestrichenen Wörter und die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1813,
+    "total_words": 356,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      686,
+      693,
+      434
+    ],
+    "chars_per_page_median": 689.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0056,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

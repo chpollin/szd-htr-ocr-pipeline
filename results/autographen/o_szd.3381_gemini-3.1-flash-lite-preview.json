@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3381",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joachim Maass an Lotte Zweig [2. April 1936], SZ-AAL/B4.3",
+    "signature": "SZ-AAL/B4.3",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3381/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3381/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3381/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3381/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3381/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B4.3"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joachim Maass an Lotte Zweig [2. April 1936], SZ-AAL/B4.3\n- Signatur: SZ-AAL/B4.3\n- Datum: 2.4.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Altona, 2. April 36.\nLiebes Fräulein Altmann!\nVerzeihen Sie, daß ich Ihnen nicht eher für Ihren Brief dankte. Er betraf\nmich zwar in übelster Verfassung in der Schweiz; jetzt, zurückgekehrt, vor einem\nneuen und hoffentlich erfolgreichen Anfang, in die Arbeit zu kommen, muß ich\nIhnen wenigstens mit zwei Worten sagen, daß ich ziemlich oft und nie anders\nals streng an Sie gedacht habe. Ich wünscht[e] sehr, Sie zu sehen, aber\nGott, da rundumher, allein weiß, wann das wird sein können. Inzwi-\nschen las ich mit peinlichem Erstaunen über Ihre Selbstbestimmungrecht-\nwelche Verkennung!\nPersönliches kann ich Ihnen nicht erzählen. Ich bestehe nur aus Ue-\ngetrebt, mein neues Buch entstehen zu geben. Ohne Arbeit ist das Leben nichts\nwert, es ist eine Qual.\nIch wünsche Ihnen alles Schöne und Gute. Wenn Sie ein Herz haben,\nwas ich allerdings für unwahrscheinlich halte, zeigen Sie es großzügig und\nschicken mir selber auf diese Kärrner-Zeilen einen Gruß. Ich möchte Sie\nso sehr gern sehen.\nHerzlichst Ihr\nJoachim Maass",
+        "notes": "Handschriftlicher Brief in violett-schwarzer Tinte. Die Lesung 'wünscht[e]' ist aufgrund des Zeilenendes und der Handschrift leicht unsicher, aber kontextuell eindeutig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "14 Ashcombe Gardens\nEdgware\nEdg 2935",
+        "notes": "Rückseite eines Briefumschlags mit handschriftlicher Adresse. Farbskala/Grauskala für Archivierung am Bildrand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Fräulein\nLotte Altmann,\nLondon NW 11,\n50 Woodstock-Road\n\nEngland",
+        "notes": "Vorderseite des Briefumschlags. Briefmarken des Deutschen Reiches (5 Pfennig, Hitler-Motiv) mit Poststempel 'ALTONA 2.4.36'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "14 Ashcombe Gardens\nEdgware\nEdg 2935",
+        "notes": "Rückseite des Briefumschlags, identisch mit Scan 3.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und charakteristisch. Die wenigen unsicheren Stellen (z.B. 'wünscht[e]') sind durch den Kontext klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1151,
+    "total_words": 184,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1015,
+      0,
+      36,
+      64,
+      36
+    ],
+    "chars_per_page_median": 64,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3101",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.171",
+    "signature": "SZ-AAL/B1.171",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3101/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3101/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3101/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.171"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.171\n- Signatur: SZ-AAL/B1.171\n- Datum: 10.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H. & M. I would not have believed that in my sixtieth year I would sit\nin a little Brasilian village, served by a barefoot black girl and miles\nand miles away from all that was formerly my life, books, concerts, friends\nconversation. And we feel extremely happy here, the little bungalow with\nits large covered terrace (our real living room) has a splendid view\nover the mountains and just in front a tiny cafelaus, called „Café\nElegante“ where I can have a delicious café for a halfpenny and enjoy\nthe company of black mule-drivers. Life is here very cheap and you have\nno opportunity to spend, I am working and in my idle hours I play the\nmaster-games of a big chess book - one feels far away from all and\neven the war. It was really necessary for us to stabilize for longer time,\nwe were both frightfully tired, Lotte more by her asthma and myself\nby psychic depressions; here in the solitude we hope to get new strength\nand alas, we will want much strength. The news from Europe are\nso depressing, thanks God not the military ones but those from the\noccupied territories - I am afraid, millions will starve while here\nall is in peace and full prosperity. There is here now a quite new\nnationalism starting, Brasil feels that it will become important\nin war and peace, but the people themselves are very nice. We try\nto speak Portugiese and it is difficult for me because of my Spanish\nwhich interferes continually. - From Wilmot I have a letter and\nI see that he tries to clear my position for next year. Altogether\nI regard everything as lost and won't be glad if you can't enjoy\nof all as long as it is possible - nobody has an idea what\nenormous economic changes this war will produce, also America\nwill be another country after the war. For you, the younger genera-\ntion all this has practical interest, not more for me - in four\nyears or even in three I will not be able and willing [?] to\nadapt myself to the new world, it belongs to your daughter, who\nI hope, see and enjoy better times. I wish we could send\nyou some chocolate or coffee and sugar, which is ridiculously cheap\nhere but we have not yet found out any possibility. I repeat\nmy wish, my urgent wish, that you may use all clothes, under-\nwear, linen, overcoats and also whatever we have there - it has\nnot secure to reserve it for years and I am sure I will never use all this. You do\nonly a favour and you will see that I feel much better with this idea.\nI have then to regret of what I shall never see more.",
+        "notes": "Handschriftlicher Brief von Stefan Zweig in violetter Tinte. Der Text am linken Rand wurde quer geschrieben und ist teilweise in den Haupttext integriert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear H. & M. I would not have believed that in my sixtieth year I would sit\n\nmaster-games of a big chess book - one feels far away from all and\neven the war. It was really necessary for us to stabilize for longer time,\nwe were both frightfully tired, Lotte more by her asthma and myself\nby psychic depressions; here in the solitude we hope to get new strength\nand alas, we will want much strength. The news from Europe are\nso depressing, thanks God not the military ones but those from the\noccupied territories - I am afraid, millions will starve while here\nall is in peace and full prosperity. There is here now a quite new\nnationalism starting, Brasil feels that it will become important\nin war and peace, but the people themselves are very nice. We try\nto speak Portugiese and it is difficult for me because of my Spanish\nwhich interferes continually. - From Wilmot I have a letter and\nI see that he tries to clear my position for next year. Altogether\nI regard everything as lost and won't be glad if you can't enjoy\nof all as long as it is possible - nobody has an idea what\nenormous economic changes this war will produce, also America\nwill be another country after the war. For you, the younger genera-\ntion all this has practical interest, not more for me - in four\nyears or even in three I will not be able and willing [?] to\nadapt myself to the new world, it belongs to your daughter, who\nI hope, see and enjoy better times. I wish we could send\nyou some chocolate or coffee and sugar, which is ridiculously cheap\nhere but we have not yet found out any possibility. I repeat\nmy wish, my urgent wish, that you may use all clothes, under-\nwear, linen, overcoats and also whatever we have there - it has\nnot secure to reserve it for years and I am sure I will never use all this. You do\nonly a favour and you will see that I feel much better with this idea.\nI have then to regret of what I shall never see more.",
+        "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text ist identisch mit Seite 1, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Die wenigen unsicheren Stellen sind durch den Kontext gut erschließbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4405,
+    "total_words": 842,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2487,
+      0,
+      1918
+    ],
+    "chars_per_page_median": 2487,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0024,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3087",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [August 1941], SZ-AAL/B1.159",
+    "signature": "SZ-AAL/B1.159",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3087/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3087/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3087/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.159"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [August 1941], SZ-AAL/B1.159\n- Signatur: SZ-AAL/B1.159\n- Datum: 08.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, we start this\nletter on board of the ship, the rest will\nfollow from Rio where we hope to\nfind your news. I am\nsorry to say it but we are frightfully spoiled\nhere on the ship and it is the most wonderful\nvoyage one can imagine - I wish you had\nonly one day out of our twelve, The air\nwarm and a marvellous breeze all day,\nSunbaths and waterbathes, nice people,\nBrazilians, Argentines, Suisse, Dutch which\nall are good and old readers of my books\nfrom tomorrow (after Barbados) I\nshall get a state cabin to work in. It\nwas really necessary and a rest after\nthe hot days of Newyork, where poor\nLotte finally nearly broke down - I have\ndone there hard work to make some\nmoney, minor but amusing work and\nwe had to see many people, Unfortuna\ntely just the last two days, when you\ncabled about Heiner were the worst, I\nhad to see a doctor on behalf of an\nattack of sciatica and some other thing\n\n[Randnotiz links, von unten nach oben geschrieben:]\njust recieved your telegram as board\nin your [?]\n\n[Stempel oben links:]\nAMERICAN\nThe Good\nNeighbor\nFleet\nREPUBLIC\nLINE\n\n[Gedruckter Text oben rechts:]\nVIA AIR MAIL\nON BOARD\nS. S. Argentina",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Randnotiz links ist vertikal geschrieben. Der Stempel 'American Republic Line' ist teilweise über den Text gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lotte lost a filling and had to rush to a\ndentist, than we had to go to the Custom\nHouse and when our ship left Lotte was\nso tired, that she remained the whole\nnext day to bed, But what a splendid\nrest cure we have and I suppose that\nBrazil will not remain behind our\nexpectations. Our friends expect us\nthere in the kindest way and I have\ninvitations for lectures from Uruguay\nArgentine, Chile, Venezuela; I suppose\nall will go all right and we would\nbe perfectly happy as seldom in a\nvoyage would not the idea of the\nwar destroy much of our feelings.\nWe get on the ship nearly no news\njust a few lines - The Americans\nare terribly indifferent to all what\nhappens, they help but they have not\nthe right compassion and not enough\nforesight - we were glad to leave\nNewyork because we could not stand\nlonger this \"jolly mess\" in such a time\n\n[Randnotiz links, von unten nach oben geschrieben:]\nNow Lotte will write you more, kindest regards\nStefan\n\n[Randnotiz rechts, von oben nach unten geschrieben:]\nWe have charming people on board, all the ambassadors of the [?] are\nmy chess partners",
+        "notes": "Fortsetzung des Briefes. Randnotizen links und rechts vertikal geschrieben. Die Lesung der Randnotiz rechts ist aufgrund der Handschrift und des Platzmangels teilweise unsicher.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Ausschnitt des Briefes ist eine Wiederholung von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend gut lesbar. Einige Wörter in den Randnotizen sind aufgrund der vertikalen Ausrichtung und der engen Platzierung leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2230,
+    "total_words": 415,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1144,
+      1086,
+      0
+    ],
+    "chars_per_page_median": 1115.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0048,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

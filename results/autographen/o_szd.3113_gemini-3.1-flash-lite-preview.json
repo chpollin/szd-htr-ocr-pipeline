@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3113",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Therese Altmann [16. November 1941], SZ-AAL/B1.182",
+    "signature": "SZ-AAL/B1.182",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3113/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3113/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3113/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.182"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Therese Altmann [16. November 1941], SZ-AAL/B1.182\n- Signatur: SZ-AAL/B1.182\n- Datum: 16.11.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n16th Nov. 1941.\n\nDear mother,\nIt is quite a long time now that I did not hear from you and I\nhope just as much that nö illness prevented you from writing as that no letter\nhas been lost on the way. I am always afraid of this on account of the rather\nunusual sounding address and wish to emphasise again that if you write to the\nPetropolis address (where mail seems to arrive always punctually) you must\nmark \"Brazil\" very clearly to avoid that the letter goes to some other country\nor even to another continent. It happened to a friend of ours that his letter,\naddressed to Charlotteville, United States, on account of the way the address\nwas written, went to Africa, passed various censorships, kept erring about for\ntwo months until he finally got it back. - Our life continues here in the\nsame quiet way. Stefan has finished revising his autobiography and I am still\nbusy transcribing alterations into other copies etc. In the meantime he is\nalready working on other things, so that I need not fear being suddenly without\nwork. Nevertheless I am planning to begin some kind of needlework, probably\na jumper as nothing better or more useful has occurred to me. And as I am told\nthat also in summer the evenings are always fresh, I might have use for it -\nif I finish it in time, for summer is beginning soon and I have no one like\nyou, Hanna or Marta to finish it for me if I don't get on with it. What are\nyou working on now? Only soldiers' socks or something for yourself? ~~xxx~~ Is it\ncold already and will you be able to remain in the house after December? You\nwrote once that this was doubtful. Is Mr. Eisemann still in Harrogate and how\nis he? Do you see them or only his mother-in-law? - We have had, after an\nunusual amount of rain, some very fine days, and those days of sunshine are\nreally delightful, and I always regret that you cannot go with us on all those\nwalks. There are no walks or excursions here in the sense as we know them in\nsummer resorts, as Brazilians do not walk and already tell us that the fifty\nsteps which lead up to our house from the street, are almost too much for\ntheir hearts! But if you leave the main streets and follow a lane or smaller,\nolder looking path, you almost always get after a very few minutes into the\nmost pittoresque tropical wilderness, jungle, primitive huts, wild flowers,\nlittle streams, and in between surprising views on the mountains. For Petro-\npolis is not situated in a large valley but in many different valleys so that\nfrom everywhere you get a different ~~xxx~~ view on different mountains and in\nentirely different valleys. Fortunately most of these more distant valleys\nare inhabited ~~by~~ by more modest people so that these districts are served by\nbusses and we need never be afraid of losing our way completely or having to\nwalk back the whole way. - We have now a few acquaintances here, Brazilians\nChileans, French and refugees, all very nice and tactful - that is to say we\nwere invited everywhere and so far did not invite them back because we were\nvery busy, and they are all understanding and leave us alone as much as we\nwant to. In any case I cannot give real \"invitations\", because my maid ~~x~~ is\nnot perfect and never will be, although she is very nice and does all I tell.\nHer. But contrary to what I was told about dark maids she is not especially\ngifted for cooking and I have to show her again and again so that she does\nthings right. In a way this is excellent practise for me, for I get used to\ndoing and showing things, also to experimenting new dishes, but it does not\ninduce me to invite people because every new or a little unusual dish means\nthat I keep my thoughts during the morning more on the kitchen and table than\non my work. But I am quite satisfied that I have something to do besides my\ntyping, and on the whole things do turn out right and the household does not\ngive me much trouble. Sometimes we go to Rio for the day, but with two hours\njourney each way and lots of things to do in Rio it is a tiring job and not\nthe pleasure trip which we originally imagined that it would be. For pleasure\npurposes we would have to stay in Rio over night and we have not yet got over\nour dislike of hotels and luggage and prefer our own hard beds.\nHoping to hear from you soon, with best love Lotte.",
+        "notes": "Typoskript auf dünnem Papier. Handschriftliche Korrekturen und Ergänzungen (z.B. 'January 1948' unter dem Datum, wobei das Jahr wohl ein Schreibfehler der Autorin ist, da der Brief 1941 datiert ist). Die handschriftliche Grußformel am Ende ist in violette Tinte geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung über den Text gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4397,
+    "total_words": 825,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      4397,
+      0,
+      0
+    ],
+    "chars_per_page_median": 4397,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

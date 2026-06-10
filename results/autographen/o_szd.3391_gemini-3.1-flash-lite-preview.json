@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3391",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Charlotte Kaufmann an Lotte Zweig [3. Februar 1936], SZ-AAL/B7.1",
+    "signature": "SZ-AAL/B7.1",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3391/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3391/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3391/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3391/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3391/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B7.1"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Charlotte Kaufmann an Lotte Zweig [3. Februar 1936], SZ-AAL/B7.1\n- Signatur: SZ-AAL/B7.1\n- Datum: 3.2.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Berlin, 3. II. 36.\n\nMeine liebe Lotte,\nich habe mich sehr gefreut\nüber Deine Karte. freue mich über die Möglich=\nkeit wieder mit Dir in Verbindung zu treten.\nEs interessiert mich sehr, näheres\nvon Dir zu hören. vor ein 2 Jahren war ich in\nden Vogesen, dort lernte ich Verwandte von Dir\nkennen, die mir von Dir erzählten, ~~denn ich~~ \neinen Brief an Dich gab, da ich sie gerade an Dich\nschrieb. Hat Dich dieser Brief eigentlich\nerreicht? Wie lange lebst Du schon in London?\nWie geht es Deiner Mutter u. Geschwistern?\nWieso bist Du zu Zweig gekommen, bist\nDu befriedigt von Deiner Arbeit, von Deinem Leben?\nIn Deinem Falle kann man doch wirklich\nsagen, viele fühlen sich berufen, wenige sind\nauserwählt. Du müsstest doch menschlich\nu. auch allgemein sehr viel lernen bei Zweig.\nIn welcher Weise arbeitest Du denn eigentlich\nbei ihm. Begleitest Du ihm bei all seinen\nReisen? Mich interessiert das alles brennend.\nJella, hat mir sehr viel über Dich geschrie=\nben aber auf meine Frage, ob Du mir auf\nihre Veranlassung schreibst, hat sie mir\nnicht geantwortet. Na, es ist ja alles gleich=\ngültig, ich freue mich auf alle Fälle, wenn\nDu mir schreibst. Nun, über mich\n\n[Randnotiz links, von unten nach oben geschrieben:]\nSchreib mir auch etwas über die Persönlichkeit von Zweig.",
+        "notes": "Handschriftlicher Brief auf Briefpapier. Die Tinte ist dunkelblau/schwarz. Die Randnotiz am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "mich kann ich eigentlich nicht viel schreiben.\n— Hat Jella Dir von mir erzählt?\nEigentlich führe ich etwas ein Vagabunden=\nleben, da ich an vielen Orten u. Arbeitsstellen\nschon war, zur Zeit bin ich in Kapitl[?] sehr\nbemühe auszuharren. Es ist auch so,\ndass ich für das Leben u. meinen Beruf\nan sich höchst ungeeignet bin, alles andere\nsind die Folgeerscheinungen davon. — Sehr\ngern möchte ich als nach Palästina gehen aber\nes scheint fast unmöglich, dass ich eine Zertifikat\nerhalten werde, wenn ich nicht wirklich kräftig\nbin. Wie es auch sein mag hier möchte ich\nich auf keinen Fall auf die Dauer bleiben. Dann\nwill ich eben versuchen in ein andres Land\nzu gehen. — Im Kapitl[?] sind ganz interessante\nMenschen aus verschiedenen Berufen zusammen=\ngewürfelt, Ärztinnen, Studentinnen, Lehrerinnen\nu. Kindergärtnerinnen. Das Heim liegt sehr schön\nam See u. ist ganz modern. Die Leiterin ist\neine ganz besonders kluge u. feine Frau. Jelle\nWoche fahre ich nach Berlin, dort habe ich einige\nMenschen. Also, liebe Lotte, wenn Du mir\nschreibst, freue ich mich sehr. Wenn es mir\nbesser gehen sollte, kann ich vielleicht auch\nmehr über mich berichten, aber wozu negatives\nschreiben? Jedenfalls, wünsche ich Dir\nweiter alles Gute. Herzlichst Deine\nMontek[?].",
+        "notes": "Fortsetzung des Briefes. 'Kapitl' könnte ein Ortsname oder eine Einrichtung sein. Die Unterschrift ist schwer lesbar, möglicherweise 'Montek' oder 'Monek'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "France\n\nFräulein\nLotte Altmann\nHotel Westminster\nPromenade des Anglais\nNice\nEngland\n\n[Stempel:] BERLIN N 3.2.36-21\n[Stempel:] an\n[Handschriftlich:] London N.W.\nWoodstock\nRoad 50.",
+        "notes": "Adressseite eines Briefumschlags. Die Anschrift ist teilweise durchgestrichen und korrigiert. Briefmarke oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Höttenkamp[?] 2, jüd. Landschul=\nheim b/ Potsdam.",
+        "notes": "Rückseite des Briefumschlags mit Absenderangabe. Das Papier ist an der oberen Kante beschädigt/eingerissen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist gut lesbar, jedoch gibt es bei Eigennamen (z.B. 'Kapitl', 'Montek', 'Höttenkamp') Unsicherheiten aufgrund der Handschrift. Die Struktur des Briefes ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2748,
+    "total_words": 449,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1271,
+      1250,
+      0,
+      178,
+      49
+    ],
+    "chars_per_page_median": 714.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0089,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      4
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

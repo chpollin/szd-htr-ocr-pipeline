@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3075",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juli 1941], SZ-AAL/B1.148",
+    "signature": "SZ-AAL/B1.148",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3075/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3075/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3075/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.148"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juli 1941], SZ-AAL/B1.148\n- Signatur: SZ-AAL/B1.148\n- Datum: 07.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H. & M., I am happy to know you in Bath, We tend to often of the\nCoast/there are more and more moments when I would like to go back\nI am a very bad companion for poor Lotte. The idea to wander around for\nyears always packing and unpacking without any stay, without my books, without\nspace and service is oppressive for me who is longing with to years for some rest.\nOur idea was to go to Brazil, we have even made reservations (four weeks a lead\nis necessary - meanwhile there [cause] are a lot of new regulations, exit permits, questions\nand questions, our situation is frightfully complicated - in every respect! - being\nonly visitors here as friendly aliens and perhaps not as naturalized only, on the other\nhand we did not immigrate on behalf of the citizenship - 'not fish nor flesh'\nas one said in your mothers house and with the obligations and worries of both sides.\nBrazil had the advantage that I could stay as long as I wished and have all\npossible opportunities; what here will become in case of war is in any case\nnot agreable, we cannot take a flat and I hate this packing and unpacking, this\nlife which is contrary to all concentration with its daily decisions and deli-\nberations. And I see no end of this for years and years. The only advantage\nof my depression is that {it} make me work; here in this little house I have\ndone more in three weeks on my autobiography as otherwise in three month,\nnot leaving it from morning to night without to see anybody; in three days\nI hope (in the autobiography) to be through the first war - I wish I would\nbe through the second one in three months! What has become out of me,\nthe fanatic traveller and passionate globetrotter! I cannot imagine how I\nshall continue if in August we have to leave again (we have reader only for\ntwo months; yes, it is in earnest that I sometimes think I would be better\non my table in Bath even if I has only to eat carrots. I am so sorry for\nLotte that I cannot give her brighter hours and only manuscript to copy\nand to copy, that I could not give her a quiet life as modest as it may\nbe. The others here have all settled only we cannot and sometimes I wonder\nhow this will continue. Now enough of my worries (we have still some others\nin stock) and thanks for all your trouble. Please do not bother yourself with\nall that you cannot know about all, even myself could not remember everything\nThe most important remains that you have a quiet summer and that Eva\nis happy and healthy there - I feel how you are longing to see her and I\nwould like to bring you back her as soon as possible. And who can tell what\nthe next months will bring; my curiosity is satisfied for good events and I would like\nto oversleep the next years. Thanks for all, also to love in the better days\nkindest regards from yours Stefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Der Text am linken Rand wurde nachträglich hinzugefügt und verläuft vertikal.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift und der vertikalen Randnotizen gut lesbar. Einzelne Wörter wie 'cause' (eingefügt) oder 'it' (eingefügt) wurden entsprechend der Vorgaben transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2802,
+    "total_words": 536,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2802,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2802,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

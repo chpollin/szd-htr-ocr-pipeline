@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3329",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [13. April 1940], SZ-AAL/B2.91",
+    "signature": "SZ-AAL/B2.91",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3329/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3329/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3329/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3329/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3329/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.91"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [13. April 1940], SZ-AAL/B2.91\n- Signatur: SZ-AAL/B2.91\n- Datum: 13.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "room from circa 30th August to 3rd Sept\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS\nLiès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le\n\n(de jeudi)\nChere Lotte, j'ai recu ta lettre\naujourdhui tancredi soir avec\nune prodigieuse vitesse. Je rentre\nde tourreiennes ou j'ai dejeuné\navec Julien Cain et Paul Valery,\npuis j'etait a Croissy, puis j'ai\ndiné avec Hella — un delicieux\ndes coulon de lait après des poissons\net puis une Creme d'Isigny —\navec a maintenant encore un\nmot (titubant encore du bon vin\ndu dejeuner et diner). Hella te\nprie de lui envoyer les Mot\nsur l'Ocean et la Mon de Gceron[?]",
+        "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Die Zeile 'room from...' ist handschriftlich oben hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dont il a besoin pour les hebdoma\ndaires. J'aurai la conference {traduite apresdemain}\net j'ai encore celle du radio a faire\n(chose pas facile dans ce temps ou\nqu'on prefere un peu d'actualité)\nDemain j'irai chez Bouteron et\nje verrai Weiss et - Helas -\nTrebitsch, mais peu a peu le nombre\ndes visites se diminuera et il ne\nresteront que les agreables. L'atmos\nphere de Paris est bienfaisante\net la campagne au bord de la Seine\netait ravissante avec les arbres en\nfleurs.\nDonc tous mes voeux et j'espere\nles ouvriers quitteront bientot la\nmaison et tu auras ta vie tran-\nquille grace a l'absence de ton\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "(chose pas facile dans ce temps ou\nqu'on prefere un peu d'actualité)\nDemain j'irai chez Bouteron et\nje verrai Weiss et - Helas -\nTrebitsch, mais peu a peu le nombre\ndes visites se diminuera et il ne\nresteront que les agreables. L'atmos\nphere de Paris est bienfaisante\net la campagne au bord de la Seine\netait ravissante avec les arbres en\nfleurs.\nDonc tous mes voeux et j'espere\nles ouvriers quitteront bientot la\nmaison et tu auras ta vie tran-\nquille grace a l'absence de ton",
+        "notes": "Diese Seite enthält die Farbskala und Grauskala für Archivierungszwecke. Der Text ist eine Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nMadame Stefan Zweig\n\nBath (Angleterre)\nRosemount\nLyncombe Hill",
+        "notes": "Umschlag des Briefes. Briefmarken und Poststempel (Paris R.P. 14 IV 1940) vorhanden. Handschriftliche Adresse.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Einige wenige Wörter sind aufgrund der Tintenführung leicht unsicher, aber im Kontext gut interpretierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1863,
+    "total_words": 327,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      630,
+      616,
+      477,
+      76,
+      64
+    ],
+    "chars_per_page_median": 346.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0031,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

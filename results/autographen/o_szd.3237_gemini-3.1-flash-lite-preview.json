@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3237",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Telegramm von Paul Monath an Stefan Zweig [19. September 1939], SZ-AAL/B18",
+    "signature": "SZ-AAL/B18",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3237/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3237/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3237/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B18"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Telegramm von Paul Monath an Stefan Zweig [19. September 1939], SZ-AAL/B18\n- Signatur: SZ-AAL/B18\n- Datum: 19.9.1939\n- Objekttyp: Telegramm\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Charges to pay\n__________ s. __________ d.\nRECEIVED\n\n5/36 a\n__________ m 50\nFrom __________\n\nCT SPESAN ZWEIG\nPOST OFFICE\nTELEGRAM\nPrefix. Time handed in. Office of Origin and Service Instructions. Words.\n50 1830 18 NEWYORK 12\n\nLC SPESAN ZWEIG LANSDOWNLODGE BATH =\n\nYOUR LETTER SEPTEMBER FIRST RECEIVED = PAUL MONATH +",
+        "notes": "Telegrammformular. Der Text ist maschinenschriftlich auf Papierstreifen aufgeklebt. Stempel 'BATH 19 SP 39'. Handschriftliche Notizen am linken Rand: '5/36 a' und 'TS' sowie 'ae'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Telegramms, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Charges to pay\n__________ s. __________ d.\nRECEIVED\n\n5/36 a\n__________ m 50\nFrom __________\n\nCT SPESAN ZWEIG\nPOST OFFICE\nTELEGRAM\nPrefix. Time handed in. Office of Origin and Service Instructions. Words.\n50 1830 18 NEWYORK 12\n\nLC SPESAN ZWEIG LANSDOWNLODGE BATH =\n\nYOUR LETTER SEPTEMBER FIRST RECEIVED = PAUL MONATH +",
+        "notes": "Telegrammformular mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist maschinenschriftlich und sehr gut lesbar. Die handschriftlichen Kürzel am linken Rand sind eindeutig als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 634,
+    "total_words": 104,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      317,
+      0,
+      317
+    ],
+    "chars_per_page_median": 317,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

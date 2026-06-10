@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3303",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [21. August 1936], SZ-AAL/B2.68",
+    "signature": "SZ-AAL/B2.68",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3303/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3303/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.68"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [21. August 1936], SZ-AAL/B2.68\n- Signatur: SZ-AAL/B2.68\n- Datum: 21.8.1936\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, ich kann\nalso nun meine programmgemäße\nAnkunft melden, das Schiff\nlegt morgen früh an, dann ist wahr-\nscheinlich auch die herrliche, die\npostlose Zeit vorüber. Die Fahrt\nwar sehr angenehm, immer Sonne\nund doch nie ernstlich heiß, das\nIncognito hielt bis weit hinter\ndie Canarischen Inseln und es\nwaren natürlich die Auswanderer\nder dritten Classe aus Polen, die\nmich agnocirten. Etwas zu viel\ngetanzt und fancy balls und\ngames werden an Bord getan,\ndas Essen war glücklicherweise nur\nalmountant[?] nur ich habe wohl-\nlich einigermaßen abgenommen.\nIm ganzen ist die Reise nun ein\npaar Tage zu lang, das Auge wird",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist verblasst, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "einfach müde des Lichts und des strahlen-\nden Blaus, dem man nicht entgehen\nkann.\nGearbeitet habe ich recht gut,\nein Concept etwa 80 Seiten einer\nNovelle entworfen, von der ich noch\nnicht weiß, wie lange sie wird. Aber\nich habe ja 17 Tage Rückfahrt. Auf\nRio freue ich mich, vor Buenos Aires\ngraut mir.\nIch vermute Sie sind schon Ihnen\nnach Österreich nachgereist, ich\nlas hier von der Londoner Hitze\nder Sie hoffentlich schon entronnen\nsind. In Eile, damit der Brief\ngleich abgeht und mit vielen\nGrüßen an Sie\nStefan.",
+        "notes": "Handschriftlicher Brief auf blauem Papier, Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Liebes Fräulein Altmann, ich kann\nalso nun meine programmgemäße\nAnkunft melden, das Schiff\nlegt morgen früh an, dann ist wahr-\nscheinlich auch die herrliche, die\npostlose Zeit vorüber. Die Fahrt\nwar sehr angenehm, immer Sonne\nund doch nie ernstlich heiß, das\nIncognito hielt bis weit hinter\ndie Canarischen Inseln und es\nwaren natürlich die Auswanderer\nder dritten Classe aus Polen, die\nmich agnocirten. Etwas zu viel\ngetanzt und fancy balls und\ngames werden an Bord getan,\ndas Essen war glücklicherweise nur\nalmountant[?] nur ich habe wohl-\nlich einigermaßen abgenommen.\nIm ganzen ist die Reise nun ein\npaar Tage zu lang, das Auge wird",
+        "notes": "Scan mit Farbskala und Grauskala. Zeigt den Text von Seite 1.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "BY AIR MAIL\nPAR AVION\n\nMiss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Poststempel 'RIO 21 AGO 1936' ist erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der blauen Papierfarbe und der verblassten Tinte sehr gut lesbar. Ein Wort ('almountant') ist unsicher, da es sich um eine ungewöhnliche Schreibweise oder ein Fremdwort handeln könnte."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1863,
+    "total_words": 310,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      636,
+      0,
+      517,
+      0,
+      636,
+      74,
+      0
+    ],
+    "chars_per_page_median": 517,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0065,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

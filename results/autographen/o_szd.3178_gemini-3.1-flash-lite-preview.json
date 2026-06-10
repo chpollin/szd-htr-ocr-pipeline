@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3178",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [1. November 1940], SZ-AAL/B1.60",
+    "signature": "SZ-AAL/B1.60",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3178/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3178/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3178/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.60"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [1. November 1940], SZ-AAL/B1.60\n- Signatur: SZ-AAL/B1.60\n- Datum: 1.11.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "address remains:\nc/o Editora Guanabara\n32 Rua Ouvidor, Rio\n\nBuenos Aires, 1.11.40\n\nDear Hanna and Manfred, enclosed a long letter for Mama\nwhich you please forward and which tells you nearly all\nthe news. I got your letter, Hanna, with Mama's, dated 5th Oct,\nposted Bath 16th and forwarded from Rio, already\nyesterday - it could hardly have been quicker. But you write\nsomething about a letter which Manfred wrote; it was not inside, and we have\nnot had a letter from him for a long time. I can easily understand that\nshe lost a number of his patients in the last months, but why does 'nt he\ncome and stay with you completely, is this not possible? It would seem so\nmuch more natural than to give up the rest of your house and move still\nfurther into town. I am glad that Mama is now with her sisters, it will be one\nworry less for you and Manfred. I am sorry that professor M. and his wife had\nto leave you and I can only hope that the new solution works out sa-\ntisfactorily and wish for you that your maid could join you in Bath so\nthat you had less work. I thought, Clara Jozs and Barbara were coming - how\ndid you get Erwin instead? Perhaps it is the better thing because I remember\nthat he was a clever little boy, and I hope he does not bother you by\nbeing religious, and helps you instead in house and garden. If you\nstill convert the stables into living rooms - I thought Mr. Orchard wanted\nto keep a cow in them - and take more children, you must beware of not\nbecoming a second Mrs. Levin. But if it is not too much for you -\nfor us it is a good thought that our house is being useful\nat least and I am glad that Mr. Miller is able to work again - give\nhim our kindest regards as well as to Mr. Ingram and Mr. Orchard.\nFrom Eva and Salmon's you have apparently had good news since your last\nletter and from what my sister-in-law writes you can be com-\npletely reassured about her. She has had Eva for a weekend, she\nsaw Mr. Salmon and phones to Eva every week and she wrote that\nthere was no doubt that Eva was happy there, that she had a lot\nof friends already and that Salmon's like her very much. If they\ndon't write often, it does not mean anything. They are very American,\nkind, gay and without any imagination beyond their own scope, and\nas somehow the life of the average American is always a rush they\nprobably do not realize that a child's letter is not enough for parents.\nBut I can absolutely rely upon my sister-in-law who is rather inclined\nto critisize, that she immediately informs me if anything goes wrong, but\nso far she wrote completely satisfied. - I shall write once more from here\nbefore we leave for the provinces and I can only wish that you and\nManfred shall have no major troubles in the times to come.\nKindest regards and kisses, Lotte.\n\n[Randnotiz links, von unten nach oben:]\nI has no house to continue this double life and that Manfred would so to say\n[Randnotiz rechts, von oben nach unten:]\nstay with you. I am longing to do so\n[Randnotiz rechts, von unten nach oben:]\nI am as it seems a weather beater but I am\n[Randnotiz unten, von links nach rechts:]\nShe a\nnewy here\nora\nmean\nI have\nhouse of\n[?] \nWe have\nhere\nvery\ninteresting\nbut\nvery\n[?] \n[Randnotiz unten links, von unten nach oben:]\nKindest regards! I am very eager for your news. I wish the [?] of Stefan\n[Randnotiz unten rechts, von unten nach oben:]\n[?] work. Kaden",
+        "notes": "Handschriftlicher Brief auf Hotelpapier (City Hotel Buenos Aires). Der Text ist sehr dicht geschrieben, inklusive Randnotizen, die sich teilweise überlappen oder in verschiedene Richtungen verlaufen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der komplexen Randnotizen und der dichten Handschrift gut lesbar. Die Transkription folgt dem Layout des Briefes inklusive der Randnotizen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3368,
+    "total_words": 645,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3368,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3368,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0062,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

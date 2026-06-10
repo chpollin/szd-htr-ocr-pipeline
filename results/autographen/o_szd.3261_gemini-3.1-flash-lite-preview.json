@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3261",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [30. Juli 1934], SZ-AAL/B2.3",
+    "signature": "SZ-AAL/B2.3",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3261/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3261/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3261/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.3"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [30. Juli 1934], SZ-AAL/B2.3\n- Signatur: SZ-AAL/B2.3\n- Datum: 30.7.1934\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Miss Lotte Altmann\n\nN. W. 6\n174, Willesden Lane",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke (1 Penny) und Poststempel (London, 30. Juli 1934) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann, das\nist mir sehr leid, dass Sie\njetzt den Wimbledon throat\nsich zugelegt haben, aber vor\nallem für Sie; machen Sie\nsich keine Sorge, ich komme\nschon durch und werde allen-\nfalls meine Abreise um zwei\ndrei Tag. aber curieren Sie\nsich gründlich aus, keine Ex\nperimente und zu frühem Auf-\nstelen! Ich vertraue da ganz\nder Strenge Ihres brüderlichen\ndoctors! Mit besten Grüßen\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fräulein Altmann, das\nist mir sehr leid, dass Sie\njetzt den Wimbledon throat\nsich zugelegt haben, aber vor\nallem für Sie; machen Sie\nsich keine Sorge, ich komme\nschon durch und werde allen-\nfalls meine Abreise um zwei\ndrei Tag. aber curieren Sie\nsich gründlich aus, keine Ex\nperimente und zu frühem Auf-\nstelen! Ich vertraue da ganz\nder Strenge Ihres brüderlichen\ndoctors! Mit besten Grüßen\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 867,
+    "total_words": 147,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      47,
+      410,
+      410
+    ],
+    "chars_per_page_median": 228.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

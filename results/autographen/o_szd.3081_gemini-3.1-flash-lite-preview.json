@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3081",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [August 1941], SZ-AAL/B1.153",
+    "signature": "SZ-AAL/B1.153",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3081/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3081/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3081/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.153"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [August 1941], SZ-AAL/B1.153\n- Signatur: SZ-AAL/B1.153\n- Datum: 08.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H. & M. now we are nearly ready. Our hearts are not light at all, we\ndo not know when we shall return as we have been here only on visitors\nvisas and all depends if America enters the war. Altogether it has been\na very strenuous time and especially in the last times we did not feel\nhappy at all. Perhaps Brazil will help us with his beauty - but I doubt\nmore and more if I ever shall see Bath again. Sometimes we thought\nto leave everything and to go back, but I feel I shall never in my life\nhave more a real home - had we emigrated here like the others we\ncould have said, here we begin a new life, but I was bound by my nationa\nlity which has and will give us still many problems. Now about Gil-\nbert. Please dont take too much worries about my complicated affairs\nwhich in future may become still more complicated, I do not want\nthat you take any responsability and will advise him to direct every-\nthing to Dr. Artur Bondi whom your family knows from London, because\nwe do not know if we have not to give lectures later on in Argentine\nand it will be difficult to reach us. And in the long run all will be lost\nwhatever one had and I am prepared to live in future from what\none earns, Brazil is much cheaper and we will have a very sober life\nif possible. My book on Brazil will be forwarded to you by the Viking\npress in September, I hope it will reach you safely, The Brazilian\nedition is already out and the French and Spanish in preparation.\nMy dear Hannah and Manfred, sometimes I feel very depressed,\nand doubt if we ever shall be together again, I wish only that you\nshall see your child grown up and more sympathetic as ever - I\nalways am frightened to read that this war will take still more than\na year, this war, which has destroyed so much of our lives - I know\nthere are millions and millions like us, but everyone feels his own\nlife. I hope Manfred will have much to do in these next months\nin his x ray departement - I have worked hard which means always\nthat I am not in a good mood. Lotte is physically much better now and\nperhaps we will have in Brazil a better time: only if this nomadic life\nwould come to an end, I would like to live in a Negro hut in Brazil\nif I should know I could stay there - and you, you have to care for\ntwo houses. Let us hope at least that you, the young generation will\n\n[am linken Rand, vertikal geschrieben:]\nstill have the reward for these enormous efforts - for me it is too late\nand I could no more enjoy the victory. And you and your child will\nsee a better world! Yours ever Stefan",
+        "notes": "Handschriftlicher Brief auf einem Blatt, beidseitig beschrieben (wobei die Rückseite nur durchscheinend ist). Der Text am linken Rand ist vertikal geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (nur durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung, über den Text gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Die wenigen Abkürzungen (H. & M., Dr.) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2546,
+    "total_words": 507,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2546,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2546,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

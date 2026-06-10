@@ -1,0 +1,70 @@
+{
+  "object_id": "o_szd.3196",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig [1940], SZ-AAL/B1.77a",
+    "signature": "SZ-AAL/B1.77a",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3196/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3196/IMG.2"
+    ],
+    "input_image_count_total": 2,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.77a"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig [1940], SZ-AAL/B1.77a\n- Signatur: SZ-AAL/B1.77a\n- Datum: 1940\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Thanks for your cable!\n\nI have letters from Friedental, I seems that the poor fellow has a\nhard life and as he is merely too proud to ask for help I would like\nto ask you to help him substantially; perhaps he could go to the country\nand finish his book. Also to Felix Braun 9 Castle Crescent, Kendal,\nWestmoreland help would be welcome; he lives with his old mother\nthere and his sister. Victor has had a new operation, his will to\nsee his wife in South Africa keeps him alive. I will try to send\nthem a small food parcel only it is not so easy and we have no\nnews that a single of those we did send has arrived. I hope you\nwill both soon enjoy the garden and the well merited holidays\nYours\nStefan",
+        "notes": "Handschriftlicher Brief auf einem schmalen Papierstreifen. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar. Einzig das Wort 'I' am Anfang der zweiten Zeile scheint ein Schreibfehler des Autors für 'it' zu sein, wurde aber originalgetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 698,
+    "total_words": 139,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      698,
+      0
+    ],
+    "chars_per_page_median": 698,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

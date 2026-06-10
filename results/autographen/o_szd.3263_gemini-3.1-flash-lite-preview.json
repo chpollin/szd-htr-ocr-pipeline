@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3263",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte von Stefan Zweig an Lotte Altmann [22. April 1935], SZ-AAL/B2.31",
+    "signature": "SZ-AAL/B2.31",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3263/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3263/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3263/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.31"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte von Stefan Zweig an Lotte Altmann [22. April 1935], SZ-AAL/B2.31\n- Signatur: SZ-AAL/B2.31\n- Datum: 22.4.1935\n- Objekttyp: Ansichtspostkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Ansichtspostkarte mit einer Abbildung des Königlichen Schlosses in Budapest.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "BUDAPEST\nKirályi vár\nKönigl. Burg\nChâteau royal\nRoyal castle\nPalazzo reale\n\nLiebes Fräulein Altmann,\nendlich nach langer Zahn\nschlosserei ein kleiner Ausflug,\nich bleibe noch bis End April\nin Wien, dann geht es wahr\nscheinlich nach Florenz. Viele\nGrüße Ihre\nStefan Zweig\n\nValódi fénykép Magyar gyártmány 1000-b sz.\n\nMiss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Rückseite der Ansichtspostkarte. Handschriftlicher Text von Stefan Zweig in violetter Tinte. Enthält zwei ungarische Briefmarken und einen Poststempel (Budapest, 22. April 1935). Der Text 'Rolációs fényképsokszorosító üzem Bpest IX. Angyal-u. 7-a.' ist vertikal am linken Rand des Adressfeldes gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "BUDAPEST\nKirályi vár\nKönigl. Burg\nChâteau royal\nRoyal castle\nPalazzo reale\n\nLiebes Fräulein Altmann,\nendlich nach langer Zahn\nschlosserei ein kleiner Ausflug,\nich bleibe noch bis End April\nin Wien, dann geht es wahr\nscheinlich nach Florenz. Viele\nGrüße Ihre\nStefan Zweig\n\nValódi fénykép Magyar gyártmány 1000-b sz.\n\nMiss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 736,
+    "total_words": 116,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      368,
+      368
+    ],
+    "chars_per_page_median": 368,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3279",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [4. September 1935], SZ-AAL/B2.46",
+    "signature": "SZ-AAL/B2.46",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3279/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3279/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3279/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3279/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3279/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.46"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [4. September 1935], SZ-AAL/B2.46\n- Signatur: SZ-AAL/B2.46\n- Datum: 09-4.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7. Sept. 1935\n\nLiebes Fräulein Altmann, mir ist es ungemein\nleid, dass Sie sosehr von den familiären Angele-\ngenheiten befasst werden und jene ärgerliche\nLast Ihnen nicht abgenommen ist; dabei ist ja\nzu befürchten, dass im Falle einer kriegerischen\nVerstörung der Welt jene lieben Geschwister dies\nnoch zum Anlass weiterer Verzögerungen nehmen\nwürden. Eine Reise Ihrerseits wird, fürchte ich,\nnicht viel helfen, es sei denn, Ihnen wüchse noch\ndie rechte Entschlossenheit zu. Wie widerlich wird\ndurch derlei Dinge das Leben!\nIch sollte eigentlich heute in die Schweiz in jener\nAngelegenheit fahren, schiebe es aber hinaus und\nhabe nur einen Entwurf gemacht. Vielleicht legt\nSie das mit der Reise nach Paris und London\nzusammen, das Wichtigste ist mir jetzt London,\nwo ich immer am besten die innere Ruhe finde",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "und mich wohl fühle. Die Arbeit wird in der zweiten\nFassung hier noch beendet werden (hoffentlich!) dann\nkommt die dritte und definitive und ich bin für\nmeine eigentliche Arbeit frei. Meine Mutter hat mir über-\nraschend gut erholt; so dass ich hoffe, für einige Zeit\nohne Sorge sein zu müssen. Ich zähle schon die Tage\nbis London; am besten freilich wäre es, ich hätte\nSie schon für die vier oder fünf Tage in Paris als\nHilfe mit mir - hier hilft mir die Salzburger Se-\ncretärin, aber, sprachenunkundig wie sie ist, könnte\nich sie dort nicht brauchen. Und es wird viel zu\ntun sein, weil wir die grosse Manifestation für\nPolland vorbereiten. Alles Herzliche von Ihrem\naufrichtig ergebenen\n\nStefan Zweig\n\nHerbert\nbei Reichners Verlag Wien VI\nStrohmayergasse",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Gut lesbar. Am Ende des Dokuments befindet sich eine Adressangabe (Herbert, bei Reichners Verlag).",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "und mich wohl fühle. Die Arbeit wird in der zweiten\nFassung hier noch beendet werden (hoffentlich!) dann\nkommt die dritte und definitive und ich bin für\nmeine eigentliche Arbeit frei. Meine Mutter hat mir über-\nraschend gut erholt; so dass ich hoffe, für einige Zeit\nohne Sorge sein zu müssen. Ich zähle schon die Tage\nbis London; am besten freilich wäre es, ich hätte\nSie schon für die vier oder fünf Tage in Paris als\nHilfe mit mir - hier hilft mir die Salzburger Se-\ncretärin, aber, sprachenunkundig wie sie ist, könnte\nich sie dort nicht brauchen. Und es wird viel zu\ntun sein, weil wir die grosse Manifestation für\nPolland vorbereiten. Alles Herzliche von Ihrem\naufrichtig ergebenen\n\nStefan Zweig\n\nHerbert\nbei Reichners Verlag Wien VI\nStrohmayergasse",
+        "notes": "Wiederholung von Seite 2 mit Grauskala/Farbkarte für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke Österreich 50 Groschen, Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2370,
+    "total_words": 392,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      808,
+      755,
+      755,
+      52,
+      0
+    ],
+    "chars_per_page_median": 755,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

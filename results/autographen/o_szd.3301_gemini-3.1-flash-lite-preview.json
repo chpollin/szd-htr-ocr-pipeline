@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3301",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [8. August 1936], SZ-AAL/B2.66",
+    "signature": "SZ-AAL/B2.66",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3301/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3301/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3301/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3301/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3301/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.66"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [8. August 1936], SZ-AAL/B2.66\n- Signatur: SZ-AAL/B2.66\n- Datum: 8.8.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "On Board\nThe Royal Mail Liner\n\nFür das Erste soll ein herzlicher Dank\nfür die gute Begleitung sein. Das Schiff\ngeht brav, am besten gefallen mir von den\nPassagieren die der zweiten Classe – ein gan-\nzer Klub jiddischer Auswanderer aus Polen\n(deshalb der Rabbi zu Besuch an Bord) un-\nglaublich arm, aber die Mädchen dort schon\nmit roten Fingernägeln und die Jüngeren\ngelernte Communisten. Alles andere wäre\nfade und ich werde gut spanisch lernen,\nleider ohne meine treffliche Mitlernerin!\nAlles Gute Ihr getreuer\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier der Royal Mail Lines, Limited. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "On Board\nThe Royal Mail Liner\n\nFür das Erste soll ein herzlicher Dank\nfür die gute Begleitung sein. Das Schiff\ngeht brav, am besten gefallen mir von den\nPassagieren die der zweiten Classe – ein gan-\nzer Klub jiddischer Auswanderer aus Polen\n(deshalb der Rabbi zu Besuch an Bord) un-\nglaublich arm, aber die Mädchen dort schon\nmit roten Fingernägeln und die Jüngeren\ngelernte Communisten. Alles andere wäre\nfade und ich werde gut spanisch lernen,\nleider ohne meine treffliche Mitlernerin!\nAlles Gute Ihr getreuer\n\nStefan Zweig",
+        "notes": "Brief mit Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke (1 1/2 Penny) und Poststempel 'LONDON 10 AUG 1936' sowie 'R.M.S. ALCANTARA 8 AUG 1936'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "~~verfere~~ [?] ~~[...3...]~~ Nancy Price\nzu antworten",
+        "notes": "Rückseite des Briefumschlags. Handschriftliche Notiz (vermutlich Absenderangabe/Notiz), teilweise durchgestrichen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die durchgestrichenen Stellen auf der Rückseite des Umschlags sind schwer zu entziffern, daher mit [?] markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1154,
+    "total_words": 188,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      525,
+      0,
+      525,
+      50,
+      54
+    ],
+    "chars_per_page_median": 54,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0106,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

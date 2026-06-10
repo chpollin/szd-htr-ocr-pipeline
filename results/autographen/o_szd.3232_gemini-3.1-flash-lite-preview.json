@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3232",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Otto Zarek an Lotte Zweig [30. September 1938], SZ-AAL/B13",
+    "signature": "SZ-AAL/B13",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3232/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3232/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B13"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Otto Zarek an Lotte Zweig [30. September 1938], SZ-AAL/B13\n- Signatur: SZ-AAL/B13\n- Datum: 30.9.1938\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "30. Sept 38.\nBudapest V\nVisegrádi-ucca 12\n\nLiebes Fräulein Altmann,\nIch hätte ja nun eigentlich\nmit Volfenstein u Konkurrenz\nArbeiten Sie in Krone anfangen\nsollen, z. B.\nWeil Sie mir so nett geschrieben,\nbin ich Ihnen (~~trotzdem~~, z. B.\n~~heute~~) geblieben ...\nAber, etwas poetischer:\nWeißt Du noch, wie wir vom Asti nippten,?\nWeißt Du, wie die zarten Ropespiere\nüber ungarische Weltbeziehungen\nEtwas ganz zartes(?) - Ödes tippten..?\nNur so tapptahr!",
+        "notes": "Handschriftlicher Brief auf Briefpapier. Die Tinte ist dunkel, die Schrift ist kursiv und teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Aber ich bin wieder tief in die Prosa\n~~hinein~~ - und muß alle poetischen\nMusen fürs Drama (!!!) aufsparen.\nAlso, unter dieser schnellen Fuß, der\nQuersage 204, wie herrlich ich\nmich gefreut habe, Ihren zur Intensiv-\nwertung der letzten Tage, sei es\nbeim après-diner, sei es in den\nCafés oder im romantischen\nBüchel von Capris o - Gegend 25\nsein... (Ob die Mauter(?) noch weg\n~~abholfen hat~~ fort??)\nDer Brief des guten Botton,\nvom 15/Sept aus, ging übrigens\nvon Bp. nach Zürich, von Zürich\nnach Bp, weil er die alte Adresse\nhatte. Ihren lebendigen Adreß-\nhipper bitte ich Sie neue eintragen\nz. B. schon: Budapest V\nVisegrádi-ucca 12.",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Zu einiger wäre ich\nIhnen dankbar, wenn Sie die\nFrei sagen wollten, daß ich\nDeinen mir so bedeutenden\nBrief bald beantworte, zumal ich\nihn prüfen muß, wie Frau Tal\nmit Schwierigkeiten auffäuft.\nDavon dann, sobald ich ganz klar\nsehe. Dank für die Übermittlung!\nHoffentlich verspüren Sie sich\nheute an Nebel und Küch in London..\nliebe herzliche Grüße\nIhr\nOtto Zarek\nNB Die Uhr ist glatt(?) !!!",
+        "notes": "Handschriftlicher Brief, Fortsetzung und Schluss.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Otto Zarek\nBudapest V\nVisegrádi-ucca 12\n(Hungary)",
+        "notes": "Briefumschlag, Vorderseite mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Fr. Altmann\nYo. Dr. Stefan Zweig\nHallam Street 49\nLondon W.1\nEngland",
+        "notes": "Briefumschlag, Rückseite mit Poststempeln (Budapest, 30. Sep 38).",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Otto Zarek\nBudapest V\nVisegrádi-ucca 12\n(Hungary)",
+        "notes": "Briefumschlag, identisch mit Seite 5, ohne Archiv-Skalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist viele Abkürzungen sowie schwer lesbare Wörter auf. Einige Stellen wurden aufgrund des Kontextes interpretiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1645,
+    "total_words": 271,
+    "total_pages": 5,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      453,
+      635,
+      391,
+      0,
+      49,
+      68,
+      49
+    ],
+    "chars_per_page_median": 391,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

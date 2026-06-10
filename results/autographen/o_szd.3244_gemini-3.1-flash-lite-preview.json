@@ -1,0 +1,106 @@
+{
+  "object_id": "o_szd.3244",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [6. September 1934], SZ-AAL/B2.14",
+    "signature": "SZ-AAL/B2.14",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3244/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3244/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3244/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3244/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3244/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3244/IMG.6"
+    ],
+    "input_image_count_total": 6,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.14"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [6. September 1934], SZ-AAL/B2.14\n- Signatur: SZ-AAL/B2.14\n- Datum: 6.9.1934\n- Objekttyp: Brief\n- Umfang: 6 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, Dank für den\nProspekt. Also ich nehme für bestimmt an,\ndass Sie Montag oder Dienstag in London sind\nund telegraphiere Ihnen von Folkestone, sobald\nich dort eintreffe. Mir gefällt am besten das\nRoyal Pavilion Hotel gleich bei dem Hafen,\nweil es ein [?] Hotel zu sein scheint und\nich, da ich den grossen Koffer direkt aufgebe,\nwohl Smoking und andere Dinge mit mir\nschleppe, deshalb kommt ein Dancinghotel für\nmich wohl in Betracht. Ich habe für furchtbar\nschwere Besprechungen und sehne mich schon\nnach ein paar ruhigen Tagen und Arbeit.\nVerzeihen Sie das [?],\nich hoffe also Sie am Montag auch telegra-\nphisch zu verständigen, spätestens Dienstag wo\nich bin. Herzlich Ihr\n\nStefan Zweig\n\nDonnerstag\nfür evtl. telgr. Mitteilung Samstag Hotel [?] [?]",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist aufgrund der kursiven Handschrift teilweise erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Miss Lotte Altmann\nc/o Mrs Jacklin\n\nHythe (Kent) England\nSeabrook Rd",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke (50 Rappen, Schweiz) und Poststempel (Baden, 6.IX.34) vorhanden. Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "dass Sie Montag oder Dienstag in London sind\nund telegraphiere Ihnen von Folkestone, sobald\nich dort eintreffe. Mir gefällt am besten das\nRoyal Pavilion Hotel gleich bei dem Hafen,\nweil es ein [?] Hotel zu sein scheint und\nich, da ich den grossen Koffer direkt aufgebe,\nwohl Smoking und andere Dinge mit mir\nschleppe, deshalb kommt ein Dancinghotel für\nmich wohl in Betracht. Ich habe für furchtbar\nschwere Besprechungen und sehne mich schon\nnach ein paar ruhigen Tagen und Arbeit.\nVerzeihen Sie das [?],\nich hoffe also Sie am Montag auch telegra-\nphisch zu verständigen, spätestens Dienstag wo\nich bin. Herzlich Ihr",
+        "notes": "Ausschnitt des Brieftextes (identisch mit Seite 1). Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 5,
+        "transcription": "Miss Lotte Altmann\nc/o Mrs Jacklin\n\nHythe (Kent) England\nSeabrook Rd",
+        "notes": "Adressseite des Briefumschlags (identisch mit Seite 3). Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist sehr flüchtig und kursiv, was bei einigen Wörtern (insbesondere Ortsnamen oder spezifischen Hotelbezeichnungen) zu Unsicherheiten führt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1524,
+    "total_words": 250,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 2,
+    "content_pages": 2,
+    "input_images": 6,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      772,
+      0,
+      68,
+      616,
+      68,
+      0
+    ],
+    "chars_per_page_median": 420.0,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.024,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

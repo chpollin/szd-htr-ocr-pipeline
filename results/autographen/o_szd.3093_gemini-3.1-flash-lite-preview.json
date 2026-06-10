@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3093",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1941], SZ-AAL/B1.164",
+    "signature": "SZ-AAL/B1.164",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3093/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3093/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3093/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.164"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [September 1941], SZ-AAL/B1.164\n- Signatur: SZ-AAL/B1.164\n- Datum: 09.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah & Manfred, we have your letter of August 20th today Sept 4th I am sorry\nthat the house in Bath gives you so much trouble - especially as\nI doubt more and more that we shall ever see it again. Please do\nnot spare yourself and do not too much work, the coming times\nwill ask from us all our strength. As to Lotte's box I wrote\nyou already that you shall not worry too much; I am convinced\nthat I shall have with him serious discussions and I do not wish that you\nshall be mixed in my personal troubles. Thanks so much to have given the\nmanuscript of my Balzac to Lotte; it would be wonderful if I could\nget it one day and continue my work! You are really too kind! You cannot\nimagine how I am longing to work quietly. Lotte will write you about our\nintention to go to Petropolis; I want absolutely a few months rest and\nin any case I shall not give any lectures before spring. We cannot see\nany more trunks, suitcases, we are tired of hotels, of changes. -\nI wish I could report to you that Lotte is quite right. Unfortunately she\nhas seldom a quiet night and I hope only that the treatment will finally\ngive her complete recovery. It is perhaps also the nomadic life with its\nchanges of climate and surroundings which was not favorable to us both\nI have finished the autobiography in the greatest strain only to\nfinish it before leaving New York and will now work on it quietly. At\nleast six month we hope to stay in Petropolis - you know how I like\nto travel but now we feel we have overdone it. It will be an absolute\nrelieved life without society, theatres and (the only thing I miss) without\nbooks and we even do not start to think what we shall do afterwards.\nHere in Rio the first news we received was that the poor Count Hoya\ndied on the consequence of an angina (streptococcic poisoning) -\nFritzi's have flowers but we have not yet seen him. He has made a\nbook on the president and will get much money out of the funds:\nyou know how I admire his ability. I have seen so many of the best\nin New York unable to earn a cent that I find it masterly how he\nalways invents new possibilities to live largely. Give Edelmann my\nkindest regards. My indifference against books etc. comes from the\nconviction that I shall never see them and I wish you would keep\nthem as the best of them for you. We are all very confident in\nthe final victory, more, much more than ever before but there is no\n[Randnotiz links:] doubt that it will take some time - some years perhaps - as the enormous preparation of\nthe United States will be in full swing but from now on there every day is for Britain\nand you in England will have still much burdens to bear. I wish you well.",
+        "notes": "Handschriftlicher Brief auf Hotelpapier (Hotel Central, Rio de Janeiro). Die Randnotiz links ist vertikal geschrieben. Die Tinte ist blau.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Die Randnotiz wurde korrekt zugeordnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2668,
+    "total_words": 518,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2668,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2668,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

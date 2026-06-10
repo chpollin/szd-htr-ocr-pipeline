@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3258",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [April 1935], SZ-AAL/B2.27",
+    "signature": "SZ-AAL/B2.27",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3258/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3258/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3258/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.27"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [April 1935], SZ-AAL/B2.27\n- Signatur: SZ-AAL/B2.27\n- Datum: 04.1935\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes verehrtes Fräulein, ich danke Ihnen sehr für\nIhren lieben Brief. die gute Maria Stuart hat das\nSchaffot überstanden und befindet sich jetzt zur Ab-\nwechslung in der Drückerpresse, ich habe inzwischen noch\ndringende kleinere Arbeiten zu erledigen, aber das\nWöbste ist vorbei und das Buch wird sich, schön ge-\nwandet, in den nächsten Tagen bei Ihnen vorstellen\netwa in 10 Tagen hoffe ich geht es Ihnen zu. Über\nOstern will ich nach Budapest und weiterhin sehe\nich noch nicht klar, London wird es schmerzlicherweise\nkaum sein, denn es ist noch nicht gewiss, ob ich mich\nsoweit entfernen kann. Meine Mutter ist nicht einzel-\nlüh gefährlich krank, sondern es handelt sich [?]eher\num eine fortschreitende Schwäche infolge ungenügen-\nder Nahrungsaufnahme, nun ist ihre Natur sehr kräf-\ntig und man kann nicht absehen, ob nicht mit\ndem Frühjahr eine Kräftigung eintritt. Immerhin ist\nes für mich nicht leicht, gar zu weit fortzugehen, da\nmein Bruder seinerseits viel auf Reisen sein muss. Aber\nWien ist, wie die ganze Welt, zur Zeit nicht eben erfreu-\nlich, viel Depression, viel Missgunst; einzig mit Bruno Walter",
+        "notes": "Handschriftlicher Brief auf hellgrünem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "und Franz Werfel habe ich hier manchmal gute Stunden\naber wo sind die wohltuenden, die herzam weitenden von\nLondon, die sind mir ganz sehnsüchtig ferne geworden. Das\nWichtigste ist jetzt, dass ich mich innerlich ganz auf neue\nArbeit vorbereite und Ihnen geht es ja, wie Ihr Brief\nmir zeigt, ähnlich; man schlägt den Tag mit tausend Din-\ngen tot, statt ihn zu geniessen und aus Tagen werden Wochen\nund bald Monate. Hoffentlich sehe ich bald klar und schreibe\nIhnen dann auch, Sie wissen ja, wie herzlich ich Ihrer gedenke\nund wie Ihre liebe Hilfe mir fehlt, mehr und mehr. Auf-\nvielleicht Ihr\n\nSt. Z.",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Handschriftlich, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit dem Inhalt von Seite 2, jedoch mit Archivierungshilfen am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'einzel-lüh' (Zeile 12, Seite 1) ist orthographisch ungewöhnlich, wurde aber buchstabengetreu transkribiert. 'Wöbste' (Zeile 4, Seite 1) ist ebenfalls eine ungewöhnliche Schreibweise, aber deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1712,
+    "total_words": 285,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1113,
+      599,
+      0
+    ],
+    "chars_per_page_median": 856.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0035,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

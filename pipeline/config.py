@@ -31,6 +31,10 @@ COLLECTIONS = {
     "werke":           {"subdir": "facsimiles",       "tei": "szd_werke_tei.xml"},
     "aufsatzablage":   {"subdir": "aufsatz",          "tei": "szd_aufsatzablage_tei.xml"},
     "korrespondenzen": {"subdir": "korrespondenzen",  "tei": "szd_korrespondenzen_tei.xml"},
+    # Autographensammlung SZ-AAL (Cirilo-Ingest SZ-AAL-2026-06), Backup +
+    # TEI generiert von import_autographen.py. Anhaengen am Ende: die
+    # Reihenfolge ist Tie-Break in _canonical_collection (transcribe.py).
+    "autographen":     {"subdir": "autographen",      "tei": "szd_autographen_tei.xml"},
 }
 
 # --- Batch ---

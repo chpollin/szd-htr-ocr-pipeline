@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3240",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [20. August 1934], SZ-AAL/B2.10",
+    "signature": "SZ-AAL/B2.10",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3240/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3240/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3240/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.10"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [20. August 1934], SZ-AAL/B2.10\n- Signatur: SZ-AAL/B2.10\n- Datum: 20.8.1934\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes, verehrtes Fräulein Altmann, haben Sie Nachsicht mit\nmir, ich schreibe Ihnen in der Eile, denn trotz aller guten\nGedankens kam ich in diesen Salzburger Tagen noch dazu, auch\nnur ein Wort zu Papier zu bringen. Ich war viele Stunden\nmit ~~Ruf~~ [?] ~~Drawn~~ [?], ~~falle~~ [?] die Elektra, das Wiener Mozart\nconcert Bruno Walter, sah buchstäblich hunderte von Men-\nschen, hatte die Freude, meine Frankfurter Freunde begrüßen\nzu können, die ohne ~~laaren~~ [?] Mark der Mühe jede nach\nS. kam. Es war alles ein phantastischer Wirbel, ~~fizz~~ [?] ~~w~~ [?] \nund ohne; das Rose Walter und Wallmann mitten darin\n~~w~~ [?] war doch selbstverständlich und notwendig.\nerinnerte ich mich dennoch, wie Sie mir all das genaue\nhatten.\nIn Wien habe ich auch viel zu tun und arbeite da\n~~f~~ [?] ~~r~~ [?] ~~n~~ [?] ~~ten~~ [?] weiter. Programm: bis Freitag nach Wien\nSamstag, Sonntag Montag nur Toscanini oder\n~~e~~ [?] ~~w~~ [?] ~~er~~ [?] Salzburg, dann bin ich frei. Ich gehe dann\nwohl noch 14 Tage in die Schweiz aber nach Frank-\nreich nur erst Mitte September nach London, gern\nhätte ich meine vortreffliche Secretärin mit mir,\naber bei hö'eren, fürchte ich, wegen des ~~in~~ [?] ~~n~~ [?] ~~men~~ [?]",
+        "notes": "Handschriftlicher Brief auf dünnem Papier. Die Tinte ist teilweise verblasst oder durch das Papier leicht durchscheinend. Die Handschrift ist sehr flüchtig und schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Office nicht aus London ab, aber wenn Sie viel\nleicht Ihre Frau Mutter auf den Continent begleiteten\noder berichteten, so wäre ja alles vortrefflich. Eventuell\ngehe ich ~~noch~~ [?] nach Boulogne in die Nähe, wo ich auch\nmeinen Freund Marcell hätte, Also wenn ich noch vor\nLondon Mitte Sept. Ihre mir so wichtige Hilfe haben\nkonnte wäre ich sehr erfreut, ohne Sie darum bereden\nzu wollen oder Ihre Entschließungen vorzugreifen.\nWenn nicht, also dann etwa Mitte September in Lon-\ndon. Ich hoffe, dass dieser Brief Sie rechtzeitig erreicht\nwar ich am Montag in Salzb. Antwort hier, allen\nfalls telegraphieren Sie mir auf meine Anschrift auch\nnoch nach Wien Hotel Regina, falls Sie zufällig\nGelegenheit hätten, auf den Continent zu kommen,\nes gibt ja manchmal erfreuliche Zufälle wie Couchi\n~~nahmen~~ [?].\nDies alles in böser Eile und guter Gesinnung\nIhr [?] [?] und getreuer\nFalls Sie telegraphieren, bitte ~~und~~ {über} nach\nWien, ~~das wäre~~ [?] ~~n~~ [?] ~~n~~ [?].",
+        "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite. Die Tinte ist violett, die Schrift ist sehr kursiv und teilweise schwer zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig, weist viele Korrekturen und Durchstreichungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der violetten Tinte nur schwer zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2169,
+    "total_words": 359,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1200,
+      969,
+      0
+    ],
+    "chars_per_page_median": 1084.5,
+    "marker_uncertain_count": 24,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0669,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

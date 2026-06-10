@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3189",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Martha Kahn [11. Dezember 1940], SZ-AAL/B1.70",
+    "signature": "SZ-AAL/B1.70",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3189/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3189/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3189/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.70"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Martha Kahn [11. Dezember 1940], SZ-AAL/B1.70\n- Signatur: SZ-AAL/B1.70\n- Datum: 11.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, 11.12.40\nDear Martha, It is a long time since I want to address\nyou again a few personal words, only there is usually a rush\non the days where letters have to be posted-and first of all written.\nI very much hope that you are well and I even suppose\nthat for you the removal to another flat together with Smolletts\nis rather welcome than otherwise. I can imagine that nearly\nas lively as „Rosemount“, even if there are few visitors.\nThat Lotte is representing you in Bath I know and I hope she\nlikes being there as much as you and I loved it. But where\nis Raethe now, could she continue work in that children's\nhome at Uxbridge? And did you get any good news about\nthe girls' brother? I do hope you did. I often think of our\nhouse how it is now, without you, without Eva, without us and\non hot days I remember the wintry afternoons when we came\nup from the town and gathered round the fire. I don't know\nwhether I am getting old, but I certainly got sentimental about\nBath and the years in Woodstock Road. The house in Woodstock\nRoad seems over now, but I hope that one day we will all\nunite again in „Rosemount“. - In the meantime we are braving\nthe heat which is slowly developping, and I have even de-\ncided to go and bathe in the sea to-morrow morning at\n8! (later it gets too hot). We intend to remain here another\nmonth and then hope to go to the States for a few winter\nmonths. I am looking forward to seeing ~~eva~~ Eva who seems\nto be so busy going to parties that she has to be reminded\nof letter-writing.\nWith the best wishes for the New Year\nDear Martha, Lotte as a worthy aunt of Eva has left Lotte.\nthis letter a good fortnight on her desk and so it arrives after\nChristmas and Newyear. When shall we meet again. I am longing\nafter the „Heimstätte Marthas“ and an own room with my books\nand not more to see luggage, visas, railways for some time. Yours Stefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig auf gelblichem Papier. Die letzte Zeile 'Lotte.' ist eine handschriftliche Ergänzung von Lotte Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Rio, 11.12.40\nDear Martha, It is a long time since I want to address\nyou again a few personal words, only there is usually a rush\non the days where letters have to be posted-and first of all written.\nI very much hope that you are well and I even suppose\nthat for you the removal to another flat together with Smolletts\nis rather welcome than otherwise. I can imagine that nearly\nas lively as „Rosemount“, even if there are few visitors.\nThat Lotte is representing you in Bath I know and I hope she\nlikes being there as much as you and I loved it. But where\nis Raethe now, could she continue work in that children's\nhome at Uxbridge? And did you get any good news about\nthe girls' brother? I do hope you did. I often think of our\nhouse how it is now, without you, without Eva, without us and\non hot days I remember the wintry afternoons when we came\nup from the town and gathered round the fire. I don't know\nwhether I am getting old, but I certainly got sentimental about\nBath and the years in Woodstock Road. The house in Woodstock\nRoad seems over now, but I hope that one day we will all\nunite again in „Rosemount“. - In the meantime we are braving\nthe heat which is slowly developping, and I have even de-\ncided to go and bathe in the sea to-morrow morning at\n8! (later it gets too hot). We intend to remain here another\nmonth and then hope to go to the States for a few winter\nmonths. I am looking forward to seeing ~~eva~~ Eva who seems\nto be so busy going to parties that she has to be reminded\nof letter-writing.\nWith the best wishes for the New Year\nDear Martha, Lotte as a worthy aunt of Eva has left Lotte.\nthis letter a good fortnight on her desk and so it arrives after\nChristmas and Newyear. When shall we meet again. I am longing\nafter the „Heimstätte Marthas“ and an own room with my books\nand not more to see luggage, visas, railways for some time. Yours Stefan",
+        "notes": "Gleiches Dokument wie Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Ergänzung von Lotte Zweig am Ende ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3754,
+    "total_words": 728,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1877,
+      0,
+      1877
+    ],
+    "chars_per_page_median": 1877,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

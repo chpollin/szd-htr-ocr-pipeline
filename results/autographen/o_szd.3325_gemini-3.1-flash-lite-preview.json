@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3325",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [10. April 1940], SZ-AAL/B2.88",
+    "signature": "SZ-AAL/B2.88",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3325/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3325/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3325/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3325/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3325/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.88"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [10. April 1940], SZ-AAL/B2.88\n- Signatur: SZ-AAL/B2.88\n- Datum: 10.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10 April 1940\nHOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le\n\nDear Lotte, I am well\narrived, the voyage was\nsomewhat bumpy as we\nflow very near over the\nground all the way but it\nwas delightful to see france\nin sunshine. Today I got\nonly a charming room for\ntwo (with bath 70 Francs)\ntomorrow a get a single one\nand it is not true that the\ncafés are closed these times",
+        "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Der Text 'tomorrow a get a single one' enthält eine kleine Korrektur/Wortwiederholung, die so transkribiert wurde.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "a week - only no aperitifs.\nI had to leave back my\nlittle blue pocket-book {at the Customhouse} on behalf\nof the many avenues. It will soon\nbe returned directly through the\ncensorship.\nNow I have finished my\nfirst letter and you have to\nwait some time for the second\nBest regard to you all\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes. 'at the Customhouse' wurde über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "censorship.\nNow I have finished my\nfirst letter and you have to\nwait some time for the second\nBest regard to you all\n\nStefan Zweig",
+        "notes": "Dieser Scan zeigt den unteren Teil des Briefes (identisch mit dem Ende von Seite 2) zusammen mit Archiv-Farbskalen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nMrs Elisabeth Charlot Zweig\n\nBath (Angleterre)\nLyncombe Hill\nRosemount",
+        "notes": "Adressseite des Briefumschlags. Briefmarke oben rechts, Poststempel 'PARIS R.P. 18 10 IV 1940 DEPART'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar. Die Einfügung auf Seite 2 wurde als solche gekennzeichnet."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1030,
+    "total_words": 187,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 5,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      449,
+      303,
+      130,
+      84,
+      64
+    ],
+    "chars_per_page_median": 130,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

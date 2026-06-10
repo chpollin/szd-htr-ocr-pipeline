@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3065",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [20. Juni 1941], SZ-AAL/B1.139",
+    "signature": "SZ-AAL/B1.139",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3065/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3065/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3065/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.139"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [20. Juni 1941], SZ-AAL/B1.139\n- Signatur: SZ-AAL/B1.139\n- Datum: 20.6.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nI will write Sunday or Monday after visiting Eva.\nToday I enclose two photos, one with Mrs. Sch.\nwho frowns against the sun. Love, Lotte\n20.6.41.\n\nDear Hanna,\nFirst of all I want to tell you that you better address letters\nto us from now on c/o Viking Press, 18 East 48th Street, Newyork, if we\ndo not cable you another address. For we will probably leave Newyork about\nthe middle of July and go somewhere to the country because it will be too\nhot in Newyork. Up to now we do not yet know where to go and it is every-\nwhere the same trouble: we have no car and so far no one who could do the\nhouse-keeping for us. But we are confident that something will turn up soon,\n- don't worry, as one would say here. Today one request. I just received\none of those many enquiries which usually lead to nothing, about the film\nrights for \"Burning Secret\". Unfortunately these rights do not wholly belong\nto me as a film has been made seven or eight years ago by a foreign company.\nBut I had already negotiations about this in London with a refugee lawyer,\nJustizrat Rosenberger whose address I unfortunately have not with me. Please\nbe kind enough to look up our correspondence in the big folder \"Films\"\nwhich you should find under the heading \"Burning Secret-Brennendes Geheimnis\"!\nI would be very grateful if you could find out his present address and\nperhaps you could even cable it to me. I am very, very sceptical if anything\nwill come out of this vague agent's enquiry, but I would like to have in any\ncase the possibility to communicate with him.\n\nJust in this moment while I am writing this, I get your cable of\nthe 19th and thank you very much. You know how much I appreciate Eiseman.\nI had only become uncertain because he kept writing me letters announcing\nmore detailed ones without sending them.\n\nYesterday we have been for the first time to a concert in the\nenormous Lewisohn Stadium. We were at the same table with the son of the\ndonator of this wonderful gift to the American people, and surrounded by\nthe big Jewry like the Warburgs, Loebs etc. It was quite interesting as a\ncontrast to the Schnorrers which are our daily surroundings.\n\nWe are confident that you will send us a cable immediately Manfred\nhas passed his exam, as you know how happy we will be for you both that he\nwill then have his well-deserved holiday.\n\nSunday Lotte will go to Croton to see your\nlittle lamb (not more so little now) probably together with\nmy sister in law and she will give you the usual report.\nWe are so glad that she feels happy there having all the\nfunchois {being} at once a child and a kind of mother for\nthe younger children in the same house, friendly with every\nbody and especially with her bosom friends Marisa (and\nshe is already able to have a bosom friend thanks to her\nquich devopement into a young lady.) Kindest regards and\nlove to you all\nStefan\n\n[Randnotiz links:] Lotte is quite well and only so lazy to write.",
+        "notes": "Brief auf Schreibmaschine geschrieben, mit handschriftlichen Ergänzungen von Lotte Zweig (oben) und Stefan Zweig (unten). Die Randnotiz links ist ebenfalls handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nI will write Sunday or Monday after visiting Eva.\nToday I enclose two photos, one with Mrs. Sch.\nwho frowns against the sun. Love, Lotte\n20.6.41.\n\nJustizrat Rosenberger whose address I unfortunately have not with me. Please\nbe kind enough to look up our correspondence in the big folder \"Films\"\nwhich you should find under the heading \"Burning Secret-Brennendes Geheimnis\"!\nI would be very grateful if you could find out his present address and\nperhaps you could even cable it to me. I am very, very sceptical if anything\nwill come out of this vague agent's enquiry, but I would like to have in any\ncase the possibility to communicate with him.\n\nJust in this moment while I am writing this, I get your cable of\nthe 19th and thank you very much. You know how much I appreciate Eiseman.\nI had only become uncertain because he kept writing me letters announcing\n\nSunday Lotte will go to Croton to see your\nlittle lamb (not more so little now) probably together with\nmy sister in law and she will give you the usual report.\nWe are so glad that she feels happy there having all the\nfunchois {being} at once a child and a kind of mother for\nthe younger children in the same house, friendly with every\nbody and especially with her bosom friends Marisa (and\nshe is already able to have a bosom friend thanks to her\nquich devopement into a young lady.) Kindest regards and\nlove to you all\nStefan",
+        "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text ist identisch mit Seite 1, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig am Ende des Briefes sind gut entzifferbar, trotz einiger orthographischer Eigenheiten (z.B. 'funchois', 'quich devopement')."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4399,
+    "total_words": 807,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2967,
+      0,
+      1432
+    ],
+    "chars_per_page_median": 2967,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

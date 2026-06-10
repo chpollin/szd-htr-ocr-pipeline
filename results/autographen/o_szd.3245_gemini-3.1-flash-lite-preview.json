@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3245",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [9. September 1934], SZ-AAL/B2.15",
+    "signature": "SZ-AAL/B2.15",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3245/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3245/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3245/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.15"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [9. September 1934], SZ-AAL/B2.15\n- Signatur: SZ-AAL/B2.15\n- Datum: 9.9.1934\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Royal Pavillon Hotel Sonntag nachmittags\n\nLiebes Fräulein Altmann, ich bin eben\nangekommen, habe im Hotel wegen einer\nCricketwoche (wie wichtig sind diese Dinge!)\nnur ein provisorisches aber nettes Zimmer,\nbekomme morgen ein anderes, besseres\nund bitte Sie mir baldigst zuzusagen, wann\nich auf Sie zählen kann, vielleicht tele-\ngrafieren Sie mir Ihre Ankunft. Wenn Sie\nZeit haben, könnten Sie allen-\nfalls 77, Portland Place anfragen, ob von\nMontag an etwa ein ähn-\nliches Platz für mich bereit wäre.\nBitte lassen Sie mich nicht im\nStich, feiern Sie würdig das neue Jahr,\nwenn es nicht ärger wird wie das alte\nbin ich zufrieden, Empfehlen Sie mich\nbitte den [?]\n\nBitte telefonieren Sie aus dem\nPorter in 77, Portland\nPlace, oder sagen Sie es ihm, er soll\nmeine Post hieher Hotel Royal Pavillon schicken\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf gelblichem Papier. Am linken Rand vertikal verlaufender Text: 'sollte irgendetwas nicht klappen wäre sie verbredet sein so telegrafieren Sie mir in [?]'. Über dem Text finden sich diverse Einfügungen und Korrekturen, z.B. '{sogar einen Tag früher, damit ich für Sie reservieren kann}' und '{persönlich oder telefonisch}'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist aufgrund der zahlreichen Korrekturen, Einfügungen und des vertikal am Rand geschriebenen Textes teilweise schwer zu entziffern und in der Lesereihenfolge komplex. Einige Wörter am Rand sind aufgrund der Schriftführung und Überlagerung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 816,
+    "total_words": 134,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      816,
+      0,
+      0
+    ],
+    "chars_per_page_median": 816,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0075,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

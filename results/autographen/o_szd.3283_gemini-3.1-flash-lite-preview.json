@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3283",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [6. August 1934], SZ-AAL/B2.5",
+    "signature": "SZ-AAL/B2.5",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3283/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3283/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3283/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.5"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [6. August 1934], SZ-AAL/B2.5\n- Signatur: SZ-AAL/B2.5\n- Datum: 6.8.1934\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POSTKARTE  CARTE POSTALE  CARTOLINA POSTALE\n\nVEVEY - LAC LÉMAN\n\nFräulein Lotte Altmann\n\nLondon N.W. 6\n174 Willesden Lane",
+        "notes": "Adressseite der Postkarte. Handschriftliche Anschrift. Poststempel: ZÜRICH 1, 6. VIII. 1934. Briefmarke: Schweizerwoche 11. Hälfte Oktober, 20 Rappen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Zürich, Montag abends\n\nLiebes Fräulein Altmann, Sie haben\nhoffentlich mein Telegramm erhalten,\nich gehe morgen Dienstag nach Klosters\n(knapp vor Davos) bin jedenfalls Samstag\nabends, dann ist meine Adresse, falls\nich nichts anderes melde Salzburg (aber\nich bleibe nur einen Tag.) Verzeihen Sie\ndass ich Sie mit diesem nomadischen\nZustand belästige und lassen Sie sich\nes so gut gehen als möglich, Sie\nbrauchen wirklich Erholung. Herzlichst\nergeben Ihr\nViele Grüße den Ihren StefanZweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Identisch mit dem Inhalt von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 605,
+    "total_words": 91,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      120,
+      485,
+      0
+    ],
+    "chars_per_page_median": 302.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

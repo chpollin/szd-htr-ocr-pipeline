@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3349",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Entwurf von Stefan Zweig an Friderike Zweig, SZ-AAL/B3.110",
+    "signature": "SZ-AAL/B3.110",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3349/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3349/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3349/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.110"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Entwurf von Stefan Zweig an Friderike Zweig, SZ-AAL/B3.110\n- Signatur: SZ-AAL/B3.110\n- Objekttyp: Entwurf\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Erklärung\nIch höre dankbar, dass Du bemüht bist, das ~~bereits~~ {bereits} auf unsere gemein-\nsamen Antrag eingebrachte und bei Gericht schweben[de] das Verfahren zur Über-\nprüfung begründeterweise Unzugänglichkeitserklärung {Unzugänglichkeit oder Ungültigkeit} unserer Ehe auf meinen Wunsch hin\nmöglichst zu verzögern und erkläre hiemit\n1) dass wir bis zur gerichtlichen Feststellung unserer Ehe beiderseits selbst\nschon als nicht bestehend betrachten und völlig separiert von einander leben und\nich in keiner Weise Deine volle Freiheit in der Lebensführung beeinträchtigen werde\n2) dass ich Dich in Deinem Wohnort London nie ohne Deine ausdrück-\nliche Zustimmung aufsuchen werde und auch sonst wir einander nur begeg-\nnen, wenn Du ausdrücklich Dein Einverständnis mir kundgaber fest\n3) dass ich die Schlüssel der verschlossenen Kästen in Deiner Londoner\nWohnung Dir oder einer Vertrauensperson anvertraue, die dann auch die\ndarin enthaltenen Gegenstände übernimmt. {nur zustehende Beträge}\n4) dass der abgeschlossene Notariatsakt bis zum Eintreffen der gerichts-\nlichen Entscheidungen ausser Kraft bleibt und ich keine Forderungen daraus\nzu stellen habe. Ich bestätige Dir dankbar, dass Du mir die 40 000 aus\ndem Verkauf des Hauses vorläufig {in Anbet-} überlässt, während ich die erst empfangenen\n17000 dir oder Deinem Anwalt sofort zurückerstatte. {falls zwischen der gerichtlichen}\n5) Ich erkläre mich restlos zufriedengestellt, dass Du mir für die {nächsten} {fünf} Jahre je 1500 Schillinge {pro} Monat zur Verfügung stellst. Sollte\nich über diesen Betrag {hinaus} verbrauchen, so hat dies von meinen eigener Ein-\nkünften oder Capitalgeschäften und ich erkläre, keinesfalls weitere Ansprüche\nzu stellen. {Stundung von Dir}\n6) Ich erkläre, dass ich solange ich Deinen Namen führe, wie in\nder mir geliehen war auf den Namen meiner Kinder geschriebenen Wohnung\n{oder Zimmer} Einzelzimmer auf kürzere Frist vermieten werde; dagegen billigst Du mir zu,\ndass ich das ganze Haus über die ganze Saison vermieten darf, freilich unter\nder Voraussetzung, dass ich während der ganzen Zeit {der Vermietung} dann selbst nicht dort\nwohne oder mich im Orte aufhalte, damit auch nicht der leiseste Anschein eines\nZusammenhangs und jener Vernichtung gegeben sei",
+        "notes": "Handschriftlicher Entwurf in violetter Tinte. Korrekturen und Einfügungen über der Zeile. Die Lesbarkeit ist aufgrund der vielen Korrekturen und Durchstreichungen teilweise erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "7) ich erkläre, dass ich mir voll bewusst bin, dass unsere ~~Ehe~~ gemeinsame Eingabe an das Gericht um Lösung, resp. Ungültigkeitserklärung\nunsere Ehe nicht etwa ~~definitiv~~ {definitiv} zurückgezogen, sondern nur auf mei-\nnen Wunsch ~~sofortige~~ {sofortige} die Erledigung verzögert wird und du vollkommen freie Hand\nhast, das bereits schwebende Verfahren {ohne jede Motivierung} in jedem die richtig einlangenden\nZeitpunkte zur endgültigen Erledigung zu bringen\n8) Ich ~~selbst~~ bestätige Dir dankbar, dass Du die bisher aufgelau-\nfenen Kosten ganz allein für Dich übernimmst; ~~vollständige~~ ~~und dass hiemit alle weiteren~~ \n~~Auseinandersetzungen~~ und dass hiemit alle weiteren\nauseinandersetzungen materieller Natur zwischen uns endgültig erledigt sind",
+        "notes": "Handschriftlicher Entwurf in violetter Tinte. Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist aufgrund zahlreicher Korrekturen, Einfügungen und Durchstreichungen an einigen Stellen schwer zu entziffern. Die Lesart der Einfügungen ist teilweise interpretativ."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3014,
+    "total_words": 430,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2249,
+      765,
+      0
+    ],
+    "chars_per_page_median": 1507.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

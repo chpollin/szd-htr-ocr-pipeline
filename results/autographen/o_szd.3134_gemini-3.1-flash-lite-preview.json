@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3134",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Eva Altmann [21. Februar 1942], SZ-AAL/B1.200",
+    "signature": "SZ-AAL/B1.200",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3134/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3134/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3134/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3134/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3134/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.200"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Eva Altmann [21. Februar 1942], SZ-AAL/B1.200\n- Signatur: SZ-AAL/B1.200\n- Datum: 21.2.1942\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\n21. II 1942\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\nMy dear Eva, you may imagine that the idea we\nshould not see you any more is a very hard one,\nfor you know how we liked you and also now I\nhave great confidence in you that you will not see\na want of love for you in our going away. But\nwe had a very bad time. Auntie Lotte suffered\nfrom her asthma and I myself felt so down as\nnever; I am afraid the climat here has made\nauntie Lottes astma so much worse and I for my\npart saw that in my age I would not see a change\nfor a quid life. When I was young I liked nothing more\nthan to travel but you know how I ~~liked~~ my house\nand my books and the good sitting-together with\nyou all - in my age one gets easily tired.\nNow, dear Eva, I do not want to forget\nus, but I hope you will not feel lonely. You have\nin Mrs Shaeffer the best friend, you have your\ncomrades and your work, you have - what I\ndid not have - the chance to see a better world,\nwhere one can remain together with those one loves\ninstead to be divided from them by land and seas.\nYou have the best father and the best mother you\ncan wish; the more you learn now, the more\nhappier you are, the more you will make them happy.",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, zeigt den durchscheinenden Text der Vorderseite (bleed-through).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\nHow would we have liked to accompany you in your de-\nvelopment, to see you in the College, in your first love, to\nfollow with pride your growing-up, but we have to\nleave this to your parents and {have} passed only long hours\nto dream this over.\nI am convinced that Mrs Stefanie Zweig will look\nafter you. She had never the luck to have children\nand I have the impression that she likes you very much;\nit is a good felling for me to know that also somebody\nof my family has love for you.\nAnd now farewell. Give my best regards to Mr.\nShaeffer and my old friend Shaeffer; you have been\nwith my thoughts and my poor love {till} to the last\nmoment, your old uncle\n\nStefan\n\n\n[...]\n\nDarling Eva, How we would have loved to have you live with\nus while you are separated from your parents, but this was\nis a cruell thing for all of us and what we wish and would\nlike to do counts for nothing. The only way to get over\nthis is the hope for better times when the Nazis will have\nbeen beaten, and I am sure you will in not too distant\nfuture return home and have a happy life with mummy\nand daddy. That we have to go away before was a hard\ndecision to take, and although we cannot explain it and\nyou must believe and always think that it is for the\nbest like this, instead of being sorry. Auntie Olga, I am\nsure, will help you to understand what we say, and it is\na great consolation for us to know you with her.\n\nFondest love\nauntie Lotte",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Besteht aus zwei Teilen, die auf einem Blatt zusammengefügt sind.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, zeigt den durchscheinenden Text der Vorderseite (bleed-through).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "after you. She had never the luck to have children\nand I have the impression that she likes you very much;\nit is a good felling for me to know that also somebody\nof my family has love for you.\nAnd now farewell. Give my best regards to Mr.\nShaeffer and my old friend Shaeffer; you have been\nwith my thoughts and my poor love {till} to the last\nmoment, your old uncle\n\nStefan\n\n\nbeen beaten, and I am sure you will in not too distant\nfuture return home and have a happy life with mummy\nand daddy. That we have to go away before was a hard\ndecision to take, and although we cannot explain it and\nyou must believe and always think that it is for the\nbest like this, instead of being sorry. Auntie Olga, I am\nsure, will help you to understand what we say, and it is\na great consolation for us to know you with her.\n\nFondest love\nauntie Lotte",
+        "notes": "Scan mit Farbskala und Grauskala zur Archivierung. Zeigt den unteren Teil des Briefes von Seite 3.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur. Die wenigen Korrekturen und Einfügungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3617,
+    "total_words": 724,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1252,
+      0,
+      1530,
+      0,
+      835
+    ],
+    "chars_per_page_median": 1391.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0014,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

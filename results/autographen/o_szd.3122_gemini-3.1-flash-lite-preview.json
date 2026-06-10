@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3122",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. Januar 1942], SZ-AAL/B1.190",
+    "signature": "SZ-AAL/B1.190",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3122/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3122/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3122/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.190"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. Januar 1942], SZ-AAL/B1.190\n- Signatur: SZ-AAL/B1.190\n- Datum: 16.1.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petropolis, Jan. 16th, 42\nDear Hanna & Manfred,\nI am sorry you were ever made to believe that on account\nof the new theatres of war mail connection between us would be cut off. On\nthe contrary, we received your letter of Dec. 29th already on the 14th - a\nrecord after the long delays of the last months. I also believe that you need\nnot worry that Amity Hall will be directly affected by the war; I had been a\nlittle anxious too in the first days, but all letters from USA show that life\nis going back to almost normal after the first great shock, and nobody of all\nthose who reported that they wanted to invite Eva over Christmas even mentioned\nsuch a possibility. - You seem to have had a hundred percent English Christ-\nmas this time and I hope you enjoyed it. I am glad in any case that you could\nspend it at Bath. - In the meantime, Hanna, you probably have\nalready started work of one kind or the other, and I can imagine that the work\nfor the children with Anna Freud is just the right thing for you. I fully\nunderstand that committee work did not satisfy you. You must write us in\ndetail just what you are doing. I believe Miss Laquer, my former teacher in\nthe domestic school, is also working there, although certainly in quite\nanother department. In spite of your temporary mood of dissatisfaction with\nyour life I am very content that Rosemount finally runs smoothly without\noccupying your mind and your time constantly and I wish the Miller family all\nthe very best, for their and mainly for your sake. - Just a word more about\nEva's \"wardrobe\". You need not feel too much in Stefanie's debt, although she\nreally takes great interest in \"little Eva\"(as she obstinately calls her) and\ndoes what she can for her; but although she certainly made Eva a beautiful\nChristmas present, she did not buy the \"wardrobe\" out of her own pocket. I\nfor my part have sent Eva a few days ago a hand-knitted cardigan, and I had\na childish pleasure in doing so; if it arrives quickly enough and fits, I\nshall begin something else for her, for I myself need very little here. The\naspect of the centre of Petropolis where everybody meets everybody has changed\ncompletely with the arrival of the summer guests and you can wear trousers or\ncotton dresses just as well as carefully tailored silk dresses. So far we\nhave seen few people yet, the weather was too bad, the Inter-American Con\nference may have had an influence too, for the diplomats on account of the\nwork to be done, for the others from the social point of view, receptions,\ndinners etc. But at least the very bad weather and the constant rain seems\nto be over now and we had a few really perfect summer days and thoroughly\nenjoyed a little sunshine and dry weather. - You will have been to visit\nmother in the meantime, I suppose, and she wrote that she was greatly looking\nforward to it. - Please tell Koermendy that Stefan never got his letter;\nin this first period of the Japanese war quite a number of letters which we\nsent or which others wrote us have been lost or unduly delayed, and I was\ndoubly glad that yours arrived so quickly. \"There is nothing more to tell\",\nas Eva would write, so only warmest love and kindest regards to all,\nLotte\n\nDear mother,\nSince a fortnight I have the intention of writing you a really\nlong and informative letter, but I have been very lazy mentally these last\nweeks, we had to invite a few people from Petropolis in the evenings which\nare my personal correspondence time, and in daytime the comstant rain had\nfinally made us quite restless and unable to concentrate on anything. Now\nthe summer seems to arrive definitely, and with it the last summer guests.\nPetr. is getting more lively, and although we have not yet had many visitors\nit is sufficient that Stefan does not want to dress and sits on the terrace\nin his pyjamas to make people come and catch him in this negligee. This\nweek we have been in Rio for a day and found it again perfectly beauti-\nful, being lucky to catch a clear, sunny and not too hot day. -\nI hope you have had all the expected visitors meanwhile and enjoyed\nseeing them again. We did not know about the engagement of Eiseman's daughter\nWhich one is it? Forgive the damaged paper, the typewriter catches these very thin\nsheets in spite of all precautions. Love and kisses Lotte.\n\n[Randnotiz links, von oben nach unten:]\nToday only kindest regard and love to you all, love always all the day\nwith the little dog and we admire all your \"pes\" as one calls ~~it~~ U.S. youth all\nStefan\n\n[Randnotiz links unten, von unten nach oben:]\nStefan too, will write to you and on for your birthday\nyou and on for your birthday",
+        "notes": "Typoskript mit handschriftlichen Randnotizen von Lotte Zweig (links) und Stefan Zweig (ganz links oben). Die Randnotizen sind teilweise überlappend und in violett geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Scan mit Farbskala und Grauskala zur Archivierung. Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, sowohl das Typoskript als auch die handschriftlichen Anmerkungen am Rand."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4633,
+    "total_words": 855,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      4633,
+      0,
+      0
+    ],
+    "chars_per_page_median": 4633,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

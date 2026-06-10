@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3234",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Oskar Alexander Kiefer an Lotte Zweig [2. Oktober 1937], SZ-AAL/B15",
+    "signature": "SZ-AAL/B15",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3234/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3234/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3234/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3234/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3234/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B15"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Oskar Alexander Kiefer an Lotte Zweig [2. Oktober 1937], SZ-AAL/B15\n- Signatur: SZ-AAL/B15\n- Datum: 2.10.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Boulogne sur mer 2. Okt. 37.\n\nLiebes Fräulein Lotte. Ich weiß natürlich auch ob Sie Wert auf diese\n~~Aurete~~ [?] Ceym - hier entfernt sind den Fettfleck. Ich bin auch ganz\nerfüllt von der Liebe und Freundschaft die ich in Ihrer warmen Heimat\ngefunden habe und nicht zuletzt haben Sie dazu beigetragen durch\nIhr freundl. Begleitung an die Bahn.\nHier habe ich 6 schon billige Tage zugebracht, glücklicher-\nweise gestern unterschrieben - mein Magen beliebt extra\nTage aufzuführen. - Wenn nichts gekommen wäre,\nhätte ich Angst heimzufahren - denn daß die Götter\nunter [?] müssen, daß ich jetzt schon über 30 Tage glückliche\nTage erlebe, kann ich kaum glauben.\nLangeweile habe ich auch hier nicht. Die oft grimmige\nSee war einfach - ich war auch allein am Wasser. Aber\nder Betrieb im Fischerhafen - das Entladen der Fisch-\ndampfer morgens und Nachmittags das Kohlen, die Fisch-\nfrauen, das Fahren & die Arbeit konnten mich stunden-\nlang fesseln.\nIch hoffe ich sehe Ihren Herrn Bruder & Renne übermorgen\nund in Caffen [?] bei Ommym einen Tag zuzugeben. Am 5.X.\nkommt überdurchschnittlich aus unsere Schwestern mit meiner\nFrau. Morgen Samstag früh fahre ich nach Amiens, und Nach-\nmittags nach Paris - Adr: Hotel du Panthéon 19 Place du Panthéon\nVielleicht geben Sie mir dahin Nachricht falls die Pläne Ihrer\nGeschwister sich geändert hätten. In Paris hoffe ich auch von\nFrau K. zu hören ob sie unbeschädigt angekommen ist.\nLeben Sie wohl und seien Sie herzlich gegrüßt mit\nIhrem Herrn natürlich von Ihrem ergebenen\nKiefer.\n\nheute hat Frau Kelm Post erhalten - die Schillinge habe ich\nan der Kasse.",
+        "notes": "Handschriftlicher Brief auf beidseitig unbeschriebenem Papier (außer dem Text). Die Tinte ist dunkelblau/schwarz. Die Lesbarkeit ist aufgrund der kursiven Handschrift stellenweise herausfordernd.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "HOTEL WINDSOR\nFace la Mer et le Casino\nOUVERT TOUTE L'ANNÉE\n102, RUE DE BOSTON, 102\nBOULOGNE-SUR-MER\nTéléph. 13 36\nOSKAR KIEFER.\n\nAngleterre\n\nFräulein Lotte Altmann\n50. Woodstock Rd.\nLondon N.W. 11.",
+        "notes": "Adressseite eines Briefumschlags. Gedruckter Briefkopf des Hotels, handschriftliche Adresse. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und kursiv, was bei einigen Wörtern (z.B. Ortsnamen oder Eigennamen) zu Unsicherheiten führt. Der Text ist jedoch inhaltlich weitgehend erschließbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1790,
+    "total_words": 298,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1592,
+      0,
+      0,
+      198,
+      0
+    ],
+    "chars_per_page_median": 895.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0101,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

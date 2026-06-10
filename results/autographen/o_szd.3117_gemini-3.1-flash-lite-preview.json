@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3117",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [10. Dezember 1941], SZ-AAL/B1.186",
+    "signature": "SZ-AAL/B1.186",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3117/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3117/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3117/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.186"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [10. Dezember 1941], SZ-AAL/B1.186\n- Signatur: SZ-AAL/B1.186\n- Datum: 10.12.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10. XII 1941\n\nDear Hannah and Manfred, we write to you under\nthe impression of the Japanese war declaration which isolates us\nperhaps somewhat more from home and you; there is not yet clear\nif Brazil will declare war to Japan as well but in any case the life\nhere is not so influenced by the war as the country is self-sufficient\nwe are so happy not to be in the U.S. in midst of the terrible excite-\nment and I am so glad that Lotte too likes so much this country\nand the peaceful small life of our beautiful solitude. The new member\nof our family, the little dog \"Plucky\" proves to be as very affectionate\ncompanion; he is happy with us except in the evening when we cruel\npersons force him into the bathroom; he would like to stay also the whole\nnight with us and creeps that we do not allow him to sleep with us. So\nwhen you think about us be sure that we have without to have merits it\nthe better part and even the best compared with the others; we often have\ndeliberated if we should have taken Eva with us, but our life would\nbe too dull for her and I am sure her education is much better pro-\nvided at Mrs. Schaeffer. The photos will have shown you that she is in splen-\ndid health and development. We are anxious to have good news from\nManfred - please be so kind to forward the inclosed letters to Glas-\nburg and Eisemann; stamps and postage cost us more than our\ndaily life and so we send letters always to three persons at once. Now\nI leave the word to Lotte! Love to you all\nStefan\nDear Hanna & Manfred, there is little to tell about us at the moment.\nOnly I am beginning to get very worried because I am without\nnews from mother for such a long time and also you did not\nmention her for a long time. I hope that nothing serious is the\nmatter with her. In the meantime you will have received Eva's photos,\nthey will give you a good idea what she looks like now. And\nprice Fuelberg's [?] amateur photos which she promised to send soon, will,\nI hope, show you something more of the house and its inhabitants.\nIt was a nice idea of Mrs. Sch.'s to have these picture made without\nmy asking and it proves you anew that she takes a personal interest\nin Eva. Also Mrs. Wiener wrote to tell me she had had Eva with her\nand that she is a darling. Hoping you are well and cheerful,\nyours Lotte",
+        "notes": "Brief auf Briefpapier mit gedrucktem Briefkopf der 'Editora Guanabara'. Handschrift in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "10. XII 1941\n\nDear Hannah and Manfred, we write to you under\n\n[...]\n\ncompanion; he is happy with us except in the evening when we cruel\npersons force him into the bathroom; he would like to stay also the whole\nnight with us and creeps that we do not allow him to sleep with us. So\nwhen you think about us be sure that we have without to have merits it\nthe better part and even the best compared with the others; we often have\ndeliberated if we should have taken Eva with us, but our life would\nbe too dull for her and I am sure her education is much better pro-\nvided at Mrs. Schaeffer. The photos will have shown you that she is in splen-\ndid health and development. We are anxious to have good news from\nManfred - please be so kind to forward the inclosed letters to Glas-\nburg and Eisemann; stamps and postage cost us more than our\ndaily life and so we send letters always to three persons at once. Now\n\n[...]\n\nmy asking and it proves you anew that she takes a personal interest\nin Eva. Also Mrs. Wiener wrote to tell me she had had Eva with her\nand that she is a darling. Hoping you are well and cheerful,\nyours Lotte",
+        "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text ist identisch mit Seite 1, jedoch teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben. Die wenigen unsicheren Stellen (z.B. 'price Fuelberg's') sind auf die Handschrift zurückzuführen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3417,
+    "total_words": 671,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2296,
+      0,
+      1121
+    ],
+    "chars_per_page_median": 2296,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0045,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

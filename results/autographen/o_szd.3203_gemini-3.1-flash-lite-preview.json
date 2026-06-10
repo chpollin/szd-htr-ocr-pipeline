@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3203",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [12. Januar 1941], SZ-AAL/B1.83",
+    "signature": "SZ-AAL/B1.83",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3203/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3203/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3203/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3203/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3203/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.83"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [12. Januar 1941], SZ-AAL/B1.83\n- Signatur: SZ-AAL/B1.83\n- Datum: 12.1.1941\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12. January 1941 Dear Manfred and Hannah, we got today your\nletter from the 18. Dec. and soon you will have news about Eva. We\nare flying the 15 th to Bahia, Recife, Belem in the North of Brazil\nfor six days\nand this part (nearly the half way) is paid to us, so that we have\nonly the other half on our own account; you see we manage things\nall right and as I have nearly finished the book on Brazil, I can\nalways rely upon the people here and I hope, that if for Tristental\nthe Argentine visa should not work - the consul had not only one\ncable to deliver a tourist visa to him but two - I can try to get it here\nfor him as a special favour. Now to Eva. We will stay about three to\nfour month in the States and of cause our first idea was to take her\nhere with us, but I am afraid that it is not possible as we will be often in\ntown till late at night and has to leave her alone. But I think we will\nfind someone, if she would like a change - all this has to be in-\nvestigated {meanwhile} sure place[?]. Should we go back to Rio the question would arise\nto take her with us. Here all is much easier and we could take a\nflat or little house, the only difficulty is school. There are good English\nor American colleges here, but it exists the obligation, that all schools\nhave to teach (mostly) in Portuguese and she had to learn a new language\nstill and a language which is not so important as French or Spanish.\nBut it is still much to early to make plans as we ourselves have not\nyet decided - who can make decisions beforehand in such times?\nIn any case, please rely upon us, that we will do our best and not\nonly for yours sake but because we love both Eva and know how impor-\ntant these years of development are. My sister-in-law wrote that she\ndid send Christmas presents to her and to the little boy, without to get\na single word of reply and also to us Salmons never answered and you\nmay imagine that we wrote to these stupid people in the most kindest way.\nYou understand, that we do not like the idea that Eva should be\neducated by people who are lacking themselves of the faintest\nnotion of manners. But please do not worry about all this and",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Die Tinte ist violett. Die Zeile 'for six days' wurde handschriftlich eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\nremember always that she is safe and you have not to be exited[?]\nabout every alarm while she would be in school or out of the house\nin England. I am more concerned about you, that you have too much\nto do and not enough time for rest, let us hope that the worst is\nover, here everybody is convinced of the British-American final success and\nthen all our pains and losses would be no more without sense - it\nwould be again a world to live within. When this beast Hitler should\nbe definitively overthrown, no price would be too high.\nWe are somewhat tired and glad to come out of the heat. The weather\nis splendid, the town beautiful, but we have both the feeling, that a\nlittle winter will do us good. Myself I feel, that I have to retire\nsomewhere to do quickly my work and not to see more people -\nI believe we have been on this voyage six hundred to six thousand\nand I do not know more, what language I am speaking and this\nis a heavy strain. We hope to be the 23 or 24 at the Wyndham Hotel\n42 West 58 Street but only for a week and you will have our\nadress by cable (please cable always with reply) In any case letters\nor communications will reach us c/o Viking Press 18 East 48 Street.\nLove to Martha and all others and ever yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Die Tinte ist violett. 'everybody' wurde über 'all' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der violetten Tinte auf rosa Papier. Einige Wörter sind aufgrund der Kursivschrift leicht interpretativ, aber im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3401,
+    "total_words": 679,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2151,
+      0,
+      1250,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1700.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0029,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

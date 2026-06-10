@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3207",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1941], SZ-AAL/B1.87",
+    "signature": "SZ-AAL/B1.87",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3207/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3207/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3207/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.87"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1941], SZ-AAL/B1.87\n- Signatur: SZ-AAL/B1.87\n- Datum: 01.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "AEROGRAMMA\nVIA PANAIR\n\nDear Hannah and Manfred, we have yesterday\narrived and I suppose you are hungry for news\nabout your daughter; I hope Lotte will feed you\nsubstantially as she was yesterday at La Rochelle\nand we have Era today here in New York. She is looking\nall right, somewhat grown up and a bit shy; you\nwill pardon me that I was a little severe with her\nwhen she had to confess not to have written a\nsingle line to her grandmother through half a year\n(and what a year!!) I think one must fortify in\nher the sentiment for responsability at this early\nhour and especially as she is now under indiffe-\nrent care. Physically she seems to have had\nthe best choice but I doubt if in the long run\nthe milicu[?] would be useful.\nI had a letter from Edemann today. If\nhe finds something particulary good for me\nthere will be soon opportunity for I shall\nhave some cash {on my account at the Westminster Bank}\nfrom the investments\nhave has to deliver and so I can dispose\nof more money in England. Here we arrived\ncompletely exhausted after the long voyage\n- we started for the last part at Trinidad",
+        "notes": "Aerogramm, handschriftlich in violetter Tinte. Die Zeile 'on my account at the Westminster Bank' wurde über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "at 4.30 in the morning, arrived at 5 oclock\nin Miami, had a view of the town and the\nbeach and went straight on with the night\nclipper without sleepers at 9 and arrived at\n6 in the morning (the sister airship crashed\nin the same night.) We found, just coming\nout of the tropical heat a nice snowstorm\nand you may imagine how we are longing\nto settle down for a few weeks of work and\nrest. I found here offers from reviews and\nnewspapers and could write here as much\nas I liked, but I have to finish my book.\n(or books). By the way: I hear that a 'The\nTide of Fortune' has finally appeared in Eng\nland - the first edition was completely\ndestroyed by fire at the bookbinder and\nthey had it to print again. I hope, they did\nsend the six authors copies to Bath - I have\nhere those of the American edition. Pardon me\nif I write so little about what interests you\nmost - your Eva - but I leave this to Lotte.\nYesterday we had a family dinner at my\nbrother, tomorrow we are with Berta. Yours\nStefan",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des Aerogramms.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "at 4.30 in the morning, arrived at 5 oclock\nin Miami, had a view of the town and the\nbeach and went straight on with the night\nclipper without sleepers at 9 and arrived at\n6 in the morning (the sister airship crashed\nin the same night.) We found, just coming\nout of the tropical heat a nice snowstorm\nand you may imagine how we are longing\nto settle down for a few weeks of work and\nrest. I found here offers from reviews and\nnewspapers and could write here as much\nas I liked, but I have to finish my book.\n(or books). By the way: I hear that a 'The\nTide of Fortune' has finally appeared in Eng\nland - the first edition was completely\ndestroyed by fire at the bookbinder and\nthey had it to print again. I hope, they did\nsend the six authors copies to Bath - I have\nhere those of the American edition. Pardon me\nif I write so little about what interests you\nmost - your Eva - but I leave this to Lotte.\nYesterday we had a family dinner at my\nbrother, tomorrow we are with Berta. Yours\nStefan",
+        "notes": "Dies ist eine Aufnahme des gleichen Textes wie auf Seite 2, jedoch mit Archiv-Farbskalen (Farbkarte #13 und Grauskala #13) über und unter dem Dokument.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz einiger kleinerer orthographischer Eigenheiten des Autors."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3081,
+    "total_words": 603,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1099,
+      991,
+      991
+    ],
+    "chars_per_page_median": 1045.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0017,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

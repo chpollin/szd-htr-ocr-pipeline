@@ -1,0 +1,106 @@
+{
+  "object_id": "o_szd.3288",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [15. Dezember 1935], SZ-AAL/B2.54",
+    "signature": "SZ-AAL/B2.54",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3288/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3288/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3288/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3288/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3288/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3288/IMG.6"
+    ],
+    "input_image_count_total": 6,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.54"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [15. Dezember 1935], SZ-AAL/B2.54\n- Signatur: SZ-AAL/B2.54\n- Datum: 15.12.1935\n- Objekttyp: Brief\n- Umfang: 6 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Die Bilder holen Sie\nvon Zeit zu Zeit\nvon Porter\nyou may\nopen and\nread them\n\nLiebes Fräulein Altmann,\ndas Flugzeug verhütete\nmein Leben für zu kostbar,\num im Nebel aufzusteigen,\nso per Bahn womit ich Roth\nversäume. Werden Sie aber\njetzt rasch gesund und ~~g~~ergu-\nlent! Herzlichst S\n\nSz.",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Das Wort 'ergu-lent' ist am Zeilenende getrennt, das 'g' wurde durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "Die Bilder holen Sie\nvon Zeit zu Zeit\nvon Porter\nyou may\nopen and\nread them\n\nLiebes Fräulein Altmann,\ndas Flugzeug verhütete\nmein Leben für zu kostbar,\num im Nebel aufzusteigen,\nso per Bahn womit ich Roth\nversäume. Werden Sie aber\njetzt rasch gesund und ~~g~~ergu-\nlent! Herzlichst S\n\nSz.",
+        "notes": "Gleicher Brief wie auf Seite 2, hier mit Archiv-Farbskala und Grauskala abgebildet.",
+        "type": "color_chart"
+      },
+      {
+        "page": 5,
+        "transcription": "Miss Lotte Altmann\n\nLondon N.W 11\n50 Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Poststempel: 'DOVER 6 30PM 15 DEC 1935 KENT'. Briefmarke: 1 1/2 Penny, König Georg V.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist charakteristisch für Stefan Zweig. Die Durchstreichung und die Zeilenumbrüche wurden gemäß den Vorgaben erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 627,
+    "total_words": 109,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 6,
+    "page_types": [
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      0,
+      288,
+      0,
+      288,
+      51,
+      0
+    ],
+    "chars_per_page_median": 169.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3331",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [19. April 1940], SZ-AAL/B2.93",
+    "signature": "SZ-AAL/B2.93",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3331/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3331/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3331/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3331/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3331/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.93"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [19. April 1940], SZ-AAL/B2.93\n- Signatur: SZ-AAL/B2.93\n- Datum: 19.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le Vendredi\n\nChere Lotte, merci pour tes lettres.\nJ'ai affreusement a faire, c'est\nune torture de ~~re~~ corriger avec\nHella la conference - gros jours\nde travail continuel, il est si lent\net n'a pas le sens de la diction.\nPuis pour le radio, j'ai fait re-\nmettre la chose d'une journée et\nje ne parlerai Mercredi a 18\nheures - j'ai fait le changement\npour pouvoir ecrire le petit discours.\nJ'etais ce soir au Theatre, invité\npar Giradoux, j'ai diné deux fois\n(merveilleusement) chez les Cotot,\navec Duhamel et des gens charmants,",
+        "notes": "Briefpapier des Hotel Louvois, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "j'ai été a une conference de la Tabouis\nj'ai donné deux interviews, j'ai parlé\navec les Granets, j'ai diné chez Eitel,\ndemain avec les Romains et j'ai vu\nune foule des gens. Il fait terriblement\nfroid et j'ai vu très peu de Paris, j'es-\npère la semaine prochaine me per-\nmettra de prendre haleine. Tout est\nici confiant et plein de charme et\nsi j'aurais un traducteur qui ne me\nfaizait pas travailler toute la jour-\nnée j'aurais du loisir. J'ai pas eu\nle temps de changer chemise, mon\ncostume commence a être tale\net maintenant a 12 30 j'ecris encore\ndes lettres. Tout de même, cela m'a\nfait du bien. Amitiés a tous\n\nStefan Zweig\nLa salle est grave et sans\nmicro. Mais l'acoustique\nparait d'etre excellente",
+        "notes": "Zweite Seite des Briefes, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "froid et j'ai vu très peu de Paris, j'es-\npère la semaine prochaine me per-\nmettra de prendre haleine. Tout est\nici confiant et plein de charme et\nsi j'aurais un traducteur qui ne me\nfaizait pas travailler toute la jour-\nnée j'aurais du loisir. J'ai pas eu\nle temps de changer chemise, mon\ncostume commence a être tale\net maintenant a 12 30 j'ecris encore\ndes lettres. Tout de même, cela m'a\nfait du bien. Amitiés a tous\n\nStefan Zweig",
+        "notes": "Dies ist ein Ausschnitt der zweiten Seite, der durch die Farbskala teilweise verdeckt ist. Die Transkription entspricht dem sichtbaren Text.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nHOTEL LOUVOIS\nSQUARE LOUVOIS (OPÉRA)\nPARIS\nGUTENBERG 20-53\n20-54\n20-55\nTÉLÉPH. 37-07\nINTER 719\n\nMme Stefan Zweig\nBath (Angleterre)\nLyncombe Hill\nRosemount\n\nPAR AVION",
+        "notes": "Briefumschlag. Poststempel: PARIS RUE DES PETITS-CHAMPS, 14 H 19 IV 1940. Briefmarken: 3F und 75c.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Le \"PLAN-TARIF\" de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Transkription folgt den Regeln der diplomatischen Umschrift."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2038,
+    "total_words": 356,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      655,
+      706,
+      434,
+      179,
+      64
+    ],
+    "chars_per_page_median": 417.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

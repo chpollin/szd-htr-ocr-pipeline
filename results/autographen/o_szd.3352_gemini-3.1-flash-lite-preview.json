@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3352",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.113",
+    "signature": "SZ-AAL/B3.113",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3352/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3352/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3352/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.113"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.113\n- Signatur: SZ-AAL/B3.113\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL DE FRANCE\nWIEN\nWIEN I. SCHOTTENRING 3\nERSTKLASSIGES FAMILIENHAUS\nZIMMER MIT BAD UND TELEFON\nTELEFON INT. A 17-5-75 SERIE\nTELEGRAMM-ADR.: FRANCEHOTEL\n\nSonntag\n\nLieber Stefan,\n\nwill Dir nur rasch mitteilen,\ndass ich Mama sehr wohl gefunden\nhabe. Sie schwelgt noch in der Erinnerung,\nwie lieb und gut Du zu ihr gewesen\nbist. Ich weiss nicht, ob ich Dir von\nden Dingen, die sie bewegen schreiben soll,\nich möchte nicht, dass es zu sehr in\n\n[Randnotiz links:]\nBin diesmal M. d. F.\nweil mich Regina in\nden verschiedensten Zimmern\nein Herz wäre. Hier ganz ruhig.\n\nVertragen kommt und ich höre mir auch\nnur so wenig als mögl. u. so viel\nan als nötig, um nicht unhöflich und\nTeilnahmslos zu erscheinen, da sie ja\nbesonders betont wie sehr es ihr an\nAussprache fehlt. Es ist aber schwer ihre\nWünsche nicht weiterzugeben um ihr zu helfen.\nDie Wochenendkarten gelten jetzt\n4 Tage. Carl u. Emma haben\nmir Hues's Zimmer angeboten.\nSo ist es leichter jetzt, dass ich\nauch ab u. zu nach Mama sehe.",
+        "notes": "Brief auf Hotelpapier. Die Randnotiz ist vertikal am linken Rand geschrieben. Die Lesung der Randnotiz ist aufgrund der Handschrift und der Platzierung schwierig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Anbei eine Notiz aus der Basl. Nat. Zeitung.\nIch bin eben in Erwartung von\nArnold mit Auto für eine Landfahrt.\nAusserdem hatte mich Yella zum Phil.\nConcert mit Rodzynsky eingeladen.\nZu Mama gehe ich gegen Abend u.\nmorgen. Bei M. habe ich hoffentl.\nnicht lange zu tun. Ich habe\nwieder schrecklich Sehnsucht nach\nDir. – Mit Siegfried war ich\ngestern auch u. es hat mich natürlich\naufgeregt, was er mir erzählte, obwohl\nich auf selbst so gut wie schweig.\nMein Liebes, hoffentlich arbeitest Du\ngut u. beunruhigst Dich über\nnichts. Vergiss nur nie, dass ich\nDich lieb habe u. Dein Frieden\nmir lieb ist u. wir alle Fremde\nsind. Herzlichst\nDeine\nFr.\n\nGrossstädte sind schrecklich bedrückend\nwenn man ihrer entwöhnt ist.",
+        "notes": "Handschriftlicher Brieftext auf der Rückseite des Hotelpapiers.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist teilweise durch die Skala verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von der Randnotiz auf Seite 1, die aufgrund der Platzierung und der kursiven Handschrift etwas unsicher ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1699,
+    "total_words": 292,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      987,
+      712,
+      0
+    ],
+    "chars_per_page_median": 849.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

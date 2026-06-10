@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3257",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [2. April 1935], SZ-AAL/B2.26",
+    "signature": "SZ-AAL/B2.26",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3257/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3257/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3257/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3257/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3257/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.26"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [2. April 1935], SZ-AAL/B2.26\n- Signatur: SZ-AAL/B2.26\n- Datum: 2.4.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, verzeihen Sie, dass ich Ihnen so\nhastig schreibe, es kommt viel Ärgerliches in diesen Tagen zu-\nsammen, das nebelige London scheint mir im Vergleiche strahlend\nhell. Ich habe noch drei Tage Correcturen zu machen und\nfürchtbar viel Arbeit damit, dazu die Besuche, täglich, bei meiner\nMutter, die sich nicht sonderlich fühlt, eine Anzahl von Men-\nschen und in den letzten Tagen der Tor Moissis. Er war eigens\nnach Wien zur Schlussprobe des Pirandellostücks gekommen,\ndas ich doch nur für ihn übersetzt habe; am Tage der An-\nkunft überfiel ihn die Grippe und Sie mögen sich denken,\nwie die Ungewissheit um diesen alten guten Gastfreund\nmich quälte. Ist jetzt noch die drückende Schwere des Be-\ngrabnisses vorbei und die Hauptarbeit beendet, so beginnt\nder Zahnarzt, ja ich habe alles Gute mir voraufgenommen\nund das Arge mir zusammengeläuft. Dann muss ich für\npaar Tage nach Budapest und dann – ich weiss noch\nnicht, wohin, aber England wird es jetzt nicht sein, obwar\nich doch auch nach London sehne, um selbst alles\nSchwere irgendwie verschüttet. Ich muss und will mir dann\neine Arbeit anfangen, ganz zurückgezogen, um wieder in\nSchwung von innen zu kommen; die einzigen guten Stunden\nhier waren Abends Walter nach einem herrlichen Messias\nund mit Werfel. Alle Pläne liegen brach, ich bin von mir",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Violette Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "selbst wenig erfreut in diesem Zwischenstadium und wie\nsehr brauchte ich Ihre gute Hilfe! Ja, es ist ein Jammer,\ndass ich Ihre gute Bereitschaft jetzt entbehre und Sie\nauch ohne verte gute Freunde sind, die brave Rose Walter\nhat es jetzt besser als ich.\nNur dies in Eile. Es geht bei mir zu wie in einer Tele-\nfoncentrale und Striderstube. Ach, ein Bischen Ruhe\nund Frieden und am besten London, wo ich wirklich\nglücklich war. Herzlichst\n\n\nS. Z.\n\nBald mehr\n\nNoch eine Bitte: könnten Sie eine kleine Glatt für\nmich bezahlen nämlich wie folgt ~~der Betrage~~\n2 sh. an die obige adresse in meinem Namen senden\n\n2 shillings an M. H. Pimm\nZwei[?] Sutton on Derwent, Yorks",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Violette Tinte. Enthält eine Bitte um eine Zahlung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "selbst wenig erfreut in diesem Zwischenstadium und wie\nsehr brauchte ich Ihre gute Hilfe! Ja, es ist ein Jammer,\ndass ich Ihre gute Bereitschaft jetzt entbehre und Sie\nauch ohne verte gute Freunde sind, die brave Rose Walter\nhat es jetzt besser als ich.\nNur dies in Eile. Es geht bei mir zu wie in einer Tele-\nfoncentrale und Striderstube. Ach, ein Bischen Ruhe\nund Frieden und am besten London, wo ich wirklich\nglücklich war. Herzlichst\n\n\nS. Z.\n\nBald mehr\n\nNoch eine Bitte: könnten Sie eine kleine Glatt für\nmich bezahlen nämlich wie folgt ~~der Betrage~~\n2 sh. an die obige adresse in meinem Namen senden\n\n2 shillings an M. H. Pimm\nZwei[?] Sutton on Derwent, Yorks",
+        "notes": "Farbskala/Grauskala für Archivierung über dem Text. Identisch mit Seite 2.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke und Poststempel (Wien, 2.IV.35) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Leer, bis auf Poststempel-Reste.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist gut lesbar, die Tinte ist deutlich. Einige Wörter wie 'Striderstube' oder 'Zwei[?]' sind aufgrund der individuellen Handschrift leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2704,
+    "total_words": 461,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1320,
+      666,
+      666,
+      52,
+      0
+    ],
+    "chars_per_page_median": 666,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0043,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

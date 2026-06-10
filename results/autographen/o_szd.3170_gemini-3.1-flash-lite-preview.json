@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3170",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. Oktober 1940], SZ-AAL/B1.53",
+    "signature": "SZ-AAL/B1.53",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3170/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3170/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3170/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.53"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. Oktober 1940], SZ-AAL/B1.53\n- Signatur: SZ-AAL/B1.53\n- Datum: 6.10.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Therezopolis, 6.10.40\nDear Hanna and Manfred,\nI write rather in a hurry for\nwe have just arrived here for a weeks' rest, and Stefan's\neditor and his wife who brought us here in their car,\nare still with us and waiting to take us round and\nshow us the town or village, whatever it is. I hope that\nyou are all well, that Manfred has not too much work\nand was able to take a few days rest in Bath with\nyou, Hanna. How I wish we could be there together, soon.\nFrom Eva I only had a cable announcing her arrival,\nand a letter from Stefan's brother that Salmon's post-\nponed their visit to New Rochell twice because Eva was\ninvited. I suppose that Eva has a very good time,\nand probably they sent her letter to my by ordinary\nmail so that it will arrive here only in about a fortnight\njust before we leave for Argentine.\nKindest regards and kisses,\nLotte.\nDear H. a. M. we are looking every days through all newspapers\nfor good news and follow all the events - we hope the best for you. We regret\nvery much to leave Brazil for here true the 26. October - we has here an ex-\ncellent time. We have seen the most wonderful houses, my publisher brings us\neverywhere we like in his car, our friend the Viscount Arcuri de arrange all\nsocial thing for us in a splendid way, the Ambassador of Cuba sends me\nnearly every week a box of Havannahs and on every corner are coffeehouses.\nWe live very dearly here and see a lot - all would be perfect if how\nthe anxious thoughts about you. I suppose we will leave our Chile and\nVenezuela, I am not willing to travel too much as I have no heart to\nwork and one has to do his work even in these times. I hear that\nRobert Hermann is back again, I wish I knew his adress as I would\nlike to let him know that we do not forget him. Love Stefan",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Die erste Hälfte ist von Lotte Zweig, die zweite Hälfte (ab 'Dear H. a. M.') ist von Stefan Zweig geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument liegt unter der Skala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Lotte und Stefan Zweig ist klar erkennbar. Einige kleine orthographische Eigenheiten des Autors wurden originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1766,
+    "total_words": 350,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1766,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1766,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

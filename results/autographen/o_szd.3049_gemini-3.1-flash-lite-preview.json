@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3049",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [6. Mai 1941], SZ-AAL/B1.124",
+    "signature": "SZ-AAL/B1.124",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3049/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3049/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.124"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [6. Mai 1941], SZ-AAL/B1.124\n- Signatur: SZ-AAL/B1.124\n- Datum: 6.5.1941\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "The Wyndham Hotel 42 West 58 Street\n6. May\nDear Hannah, I enclose the\npower of attorney for you\nlegalised by the British\nconsulate; today we are\nvery busy and can write no\nmore than that Eva is in\nexcellent spirits, Lotte went\nto see her last Sunday. We\nare happy the ~~little~~ child feels\nso perfectly well amidst\nof the other children (of course\nyou must not say to her that\nshe is a child - she feels",
+        "notes": "Handschriftlicher Brief auf Briefpapier des Wyndham Hotels. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite von Seite 1, durchscheinender Text von der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "like a tutor and teacher\namong the little ones\nYours ever\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der nächsten Seite.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite von Seite 3, durchscheinender Text von der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Stefan Zweig Hotel Wyndham\n42 West 58 Street New York\nAir Mail\nRegistered\nMrs Johanna Altmann\nLondon NW 3\n49 Regency Belle Lodge\nEngland",
+        "notes": "Adressseite des Briefumschlags. Enthält Briefmarken und Poststempel.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit Verschlusslasche, Poststempeln und Archivierungsaufkleber 'OPENED BY'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 610,
+    "total_words": 116,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      404,
+      0,
+      70,
+      0,
+      0,
+      136,
+      0
+    ],
+    "chars_per_page_median": 136,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

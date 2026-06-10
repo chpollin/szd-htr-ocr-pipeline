@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3268",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [6. Juni 1935], SZ-AAL/B2.36",
+    "signature": "SZ-AAL/B2.36",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3268/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3268/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3268/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3268/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3268/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.36"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [6. Juni 1935], SZ-AAL/B2.36\n- Signatur: SZ-AAL/B2.36\n- Datum: 6.6.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes, verehrtes Fräulein, ich komme eben von Mailand\nzurück, wo ich eine kleine Rede zu Ehren Moissis gehalten\nhabe, italienisch, ohne mich vor der braven Lavinia Mazzucchetti\nzu schämen, dann war ich noch im Tessin bei Emil Ludwig\nund Remarque, jetzt bin ich wieder da und werde langsam\nanfangen müssen, zu denken, wohin. Ich will unbedingt wohin\nwo ich ganz zurückgezogen leben kann und arbeiten, aller-\ndings gehört da eine Secretaria dazu - selbstverständlich\nhabe ich heftig auf Sie gehofft. Von London habe ich doch Furcht\ndass ich dort zu viele Menschen sehen muss und zuviel\nabgelenkt werde, deshalb dachte ich an einen Ort am Meer.\nIch habe eine dringende Einladung zu Toscanini in seine\nVilla am Lago Maggiore, aber dort probt er mit den Sän-\ngern den „Falstaff“ und dort würde ich den ganzen Tag\nzuhören und mich nicht um die Arbeit kümmern. Ich\nglaube ich käme sehr rasch in Form und es wäre doch\nherrlich gewesen, hätten Sie, die bewährteste Helferin mir\nda beistehen können, vielleicht lässt es mir doch noch\neinrenken. Denn London im Juni Juli ist nicht mehr\ndas rechte, auch hat mein Freund Huebsch da noch zu",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "entbehren, wann und wo ich Ihn treffe, wahrscheinlich in\nParis. Es wäre doch nichts dabei, wenn Sie zu Ihrem alten\nund strengen Chef etwas arbeiten kämen und ich habe so viel\nArbeitslust wie schon lange nicht, was ich hier tue ist alles eigent-\nlich vorbereitende Arbeit und wie viel wäre zu tun - ich bin\nder Post und der Geschäfte so furchterlich müde und möchte\neinmal zu mir selber kommen. Ich kann mir ja auch kaum\ndenken, dass Sie im Sommer in London bleiben, ich habe\ndirect einen Durst nach frischer Luft denn hier drückt der\nFöhn wie in Salzburg. Nach S. gehe ich dann auf zwei Tage\nEnde Juli gerade zur Premiere des Falstaff und dann\nvielleicht nach Gastein. Sind Sie noch immer mit Auslands-\ndienste geworden? Am Hercheh[?] ist ja nicht mehr zu denken,\nes wird dort alles ärger und ärger, ich sehe überhaupt die\nWelt wenig rosig und gerade deshalb möchte ich so gern\nkopfüber in die Arbeit hinein. Tausend Grüsse Ihr\n\nStefan Zweig\n\nHotel Bellerive",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'FERIEN IN DER SCHWEIZ' und Poststempel 'ZURICH 23-24 6.-VI 1935'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rueckseite des Briefumschlags, leer. Unten rechts kleiner Aufdruck: 'HUBER & LERNER WIEN I. KOHLMARKT 7'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Einzig das Wort 'Hercheh' in Seite 2 ist unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2136,
+    "total_words": 370,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1127,
+      958,
+      0,
+      51,
+      0
+    ],
+    "chars_per_page_median": 958,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0027,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

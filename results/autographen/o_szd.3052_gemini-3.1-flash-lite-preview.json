@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3052",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [14. Mai 1941], SZ-AAL/B1.127",
+    "signature": "SZ-AAL/B1.127",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3052/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3052/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3052/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.127"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [14. Mai 1941], SZ-AAL/B1.127\n- Signatur: SZ-AAL/B1.127\n- Datum: 14.5.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wyndham Hotel\n42 West 58th Street\n\nNew York, 14.V.41\n\nDear Hanna a Manfred,\nYour letters arrive now fairly regularly\nevery Tuesday, and on this day I automatically wake up earlier\nin order to read your letter as quickly as possible. I am terribly\nsorry for you, Hanna, that in addition to the already heavy\ntime strain you have to suffer such a long and painful treatment\nand I do hope it is over now and that for years to come you will\nnot have to worry any more about your teeth. We count the days\nuntil we get the news that Manfred passed his exam and that\nyou both have a good rest in Bath. I was happy to hear that\nyou had received our and Eva's letters about her stay with us\nand that you liked her photos. I'll send you the two which\nEva dedicated - on our advice - to Granny and Raumann's who\ncertainly are pleased with them too. And as I suppose\nthat you will like to have duplicates, we will send you\nthose in postcard size by and by. They are all ready, and\nif you want Eva to send them to someone else, just let us know.\nWe have plenty of postcards for such purpose. - I hope Eva's\nand our birthday letters for you, Manfred, arrive in time and we\nwould be glad to learn that Hanna got you a lovely present for\nus. Maybe that food parcel has also reached you by then. I\nsent it more or less as the shop prepares them for such purposes\nwithout knowing whether such parcels are at all welcome to you\nand what you really would want. You must let us know if\nwe should send more - it is quite an organisation here - and\nwhat you would like to have. - I did not see Eva this week,\nwe were busy preparing, translating, altering, correcting,\nshortening, retranslating Stefan's speech for to-morrow's dinner,\nand Eva was invited to spend the weekend with a friend of\nhers in or near Groton. So you see, this is a visible proof\nthat she has made friends, and Mrs. Sch wrote that they are\nvery nice people. I hope to be able to go to Groton again\nnext Sunday and shall then try to borrow a camera to make\nsnapshots of the house and children and the Schaeffer family.\nI hope Carmel had a good rest in Bath. She must have had a\nvery strenuous time all those months and I am always glad that\nour house is at least good for something. I feel a little guilty that\nI did not see her children for such a long time, but I was too\nbusy with myself and Stefan's work and in the Easter holidays when I\nwanted to invite at least Robin to come with Eva to the Circus,\n[Randnotiz links, von unten nach oben:]\nhe was just gone to live for a week with John. Rose and Benes are doing all they can\nfor the boys and Robin loves them but John is a lot of trouble and seems determined to dislike\nAmerica and not to adjust himself in the least. It really is not their fault but I\nam sorry for all of them and Carmel.",
+        "notes": "Handschriftlicher Brief auf Wyndham Hotel Briefpapier. Die Randnotiz links wurde von unten nach oben geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotiz auf Seite 1 ist aufgrund der Ausrichtung und der Platzierung am Rand etwas schwieriger zu lesen, aber inhaltlich eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2794,
+    "total_words": 552,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2794,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2794,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

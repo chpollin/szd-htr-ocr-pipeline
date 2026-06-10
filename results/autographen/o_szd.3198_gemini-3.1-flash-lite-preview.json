@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3198",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1941], SZ-AAL/B1.79",
+    "signature": "SZ-AAL/B1.79",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3198/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3198/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3198/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3198/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3198/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.79"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Januar 1941], SZ-AAL/B1.79\n- Signatur: SZ-AAL/B1.79\n- Datum: 01.1941\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah and Manfred, thanks for your cable, I hope our friends will get the\nArgentine visa as the minister in persona was so kind to cable twice to\nLondon; should he go to Argentine he has to pass per Brazil and I shall see him\nthere and give him every help, also in Buenos Aires my friends will be useful to him.\nIt is now quasi impossible to get any visas; for Edemann I will try again in Cuba\nabout a fortnight when Cata's daughter will arrive here. We will have here in the\ngreat hall of the Foreign Office here a memorial-celebration for him on Monday,\npresided by the Minister of Foreign Affairs and I will speak there in the name\nof his European friends - (in French naturally.) So we are always busy and we have\nto ~~keep~~ defend us against too many invitations; I personally don't like not\nto leave our room from where we have the most marvellous views in the world\nand till now the weather is splendid and not at all hot so that I have even not\nyet worn my tropic clothes. - About Eva you have the news from Lotte, that we\nhave no news at all directly by her. I am nearly convinced that the Salmons do\neverything to let her forget her family and to cut off all visits. I am not a\ngreat admirer of my sister in law and would dearly exchange her against one\nlike you but I must admit that she has tried her best, except with that one letter of Eva a very friendly letter to look after her. Also our-\nselves had never a line from Salmons it seems that they like Eva so much that\nthey will not cease give her bad. In any case we wrote her a energetic letter.\nPlease do not worry about all that. She is safe, that's what matters. And all\npost-war things are so obscure that we better do not to think about - we have\nto live this time through and the most important remains to live and to keep\nfit for all the nice surprises which are expecting us. - From all our London\nfriends we have not heard a word, Friedlaender has not yet arrived here\nand the only thing he would be useful to me would be to hear about you\nand your daily life. I hope that Manfred and you will after the days of\nwork retire to have some rest at Bath, I cannot repeat too often, that we\nwant to see you not only in good health but also with good temper\nand unshaken nerves. I know how Manfred likes his duty as a doctor,\nbut a doctor has not only to render healthy his patients but also himself.\nNow we have more than one month or two to make our plans, if we",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Tinte violett. Die Zeile 'except with that one letter of Eva a very friendly letter' ist über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "About our next plans, Lotte has already written to you,\n~ if all goes right we shall be end of January in Newyork\nand when this letter arrives you will have our adress - but\nyou can always write also to my publisher c/o Vikingpress\n18 East 48 Street. The voyage will be a hard strain as we have\nto be first in Bahia, Recife, Belem on the Amazonas - look at\nthe map and you will see the distances. From there we will\nfly to Miami and from there go by train (30 hours) because\nI prefer not to change the climate too quickly from 40° plus\nto 20° minus. Yesterday I was surprised by Friedlaender's visit\nhe is here with wife and child and a \"nurse\", I have not\nspoken him but by telefone and see him tonight. I am plea-\nsed that he did not come earlier - how we are leaving alrea-\ndy and he can tell his stories to others. He came in the last\nmoment as I hear that all visas will be stopped. I hope\nFriedental got his; the consulate must have not only one\ncable about him but two; as the consul refused it first to\nFandhoff who was mentioned in the same cable, he called\nagain the order for both. All what you say about the new\nsummer house - beauty in Bath has created mixed feeling\nin us, pleasure and the doubt, if we will ever be able to\nenjoy such quiet life. But let us not worry about the future\n- all I hope is to find a quiet place for the next two or\nthree month to work and you will have a report about your\ndaughter. Mail is much quicker from the States than from here.\nTo America you better send cables with paid reply as we\nwill be short of cash but I hope that like in Argentine I\nwill by lectures and articles find easily my way. About a\nsecond lecture tour to South America I shall decide there\n\nKindest regards to you all from yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf rosa Papier. Tinte violett. 'on the' ist über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der violetten Tinte auf rosa Papier. Die wenigen Einfügungen sind klar als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4200,
+    "total_words": 838,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2441,
+      0,
+      1759,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2100.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

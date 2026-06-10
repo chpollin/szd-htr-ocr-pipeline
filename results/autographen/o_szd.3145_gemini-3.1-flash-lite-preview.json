@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3145",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Juli 1940], SZ-AAL/B1.30",
+    "signature": "SZ-AAL/B1.30",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3145/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3145/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3145/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3145/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3145/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.30"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [Juli 1940], SZ-AAL/B1.30\n- Signatur: SZ-AAL/B1.30\n- Datum: 07.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hanne In your quality as our locum tenant please buy atonce\nour birthday present for Manfred, 6 nice music books //\nDear Hanna u Manfred,\nStefan has thanked you so beautifully\nthat I need not repeat it but just confirm\neverything he has said. I hope that the\nhouse will not only give you trouble but\nalso some pleasure and that you consider\nit as another home and not as a respon-\nsibility. Much as I am glad to go I\nhate to leave you and your family\nand to be away from home. And as my\nimagination is very poor, it is fairly easy\nfor me to overlook the next time and to\nlook forward to the day of our home-\ncoming and on that day all may come to\nthe station, you, the Rosemount family\nand even all the Mayers and Altmanns.\nBut in the meantime I shall not forget\nthe realities and do my very best to settle\nEva and to make all necessary enquiries.\nKindest regards to all and thanks\nagain and auf baldiges Wiedersehen\nLotte\nStefan says it is so easy to write in the running train,\nI hope you can read it.\n\"Wilson file\" is in the red cardboard file in the office,\ncalled \"Uebersetzung\".\nThe Balzac MS is, I believe, in the study and in the\nfiles. There are always 4 copies together, you would have to sort\nthem out.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Der Text am linken Rand und am unteren Rand ist nachträglich hinzugefügt. Die Anmerkung am unteren Rand bezieht sich auf die Organisation von Unterlagen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, zeigt den durchscheinenden Text der Vorderseite (bleed-through).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear Hannah, I wish to thank you for all the\ntrouble you will have with our house and other\naffairs. Take nothing whatever serious. There are\nin this moment thousands and hundred thousands\nof men abroad and her matters have to wait, why\nnot just mine? Nothing is important than the\nhealth of you all and I hope that with the com-\nbination of Levin that all will go smoothly and\nManfred have his well deserved holiday. You\nmay imagine what good feeling it means to us\nthat we know all our affairs in the best hands and\nI should be glad, if we could do something for\nyou all. You know that besides all my pessimism\nwhich sees the things before they happen, there is a\ngood deal of optimism and I believe we will have\nafter some months of uncertainty again a fairly\nquiet time; whatever happens after this war it will\neasier to be bear than the continuous expectation of\nevil and murderous surprise. Give my love to your\nhusband, your daughter, mother in law, sister and\nbrother and niece and to the whole house; we\nwill not forget you as far as we may be for\nsome time! Yours\nStefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Der Text ist auf einem separaten Blatt geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, zeigt den durchscheinenden Text der Vorderseite (bleed-through).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "not just mine? Nothing is important than the\nhealth of you all and I hope that with the com-\nbination of Levin that all will go smoothly and\nManfred have his well deserved holiday. You\nmay imagine what good feeling it means to us\nthat we know all our affairs in the best hands and\nI should be glad, if we could do something for\nyou all. You know that besides all my pessimism\nwhich sees the things before they happen, there is a\ngood deal of optimism and I believe we will have\nafter some months of uncertainty again a fairly\nquiet time; whatever happens after this war it will\neasier to be bear than the continuous expectation of\nevil and murderous surprise.",
+        "notes": "Ausschnitt des Briefes von Stefan Zweig (identisch mit dem unteren Teil von Seite 3), zusammen mit einer Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Lotte und Stefan Zweig ist klar erkennbar. Die wenigen Korrekturen im Text (wie 'than' über der Zeile) wurden gemäß den Regeln transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2952,
+    "total_words": 565,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1213,
+      0,
+      1080,
+      0,
+      659
+    ],
+    "chars_per_page_median": 1146.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

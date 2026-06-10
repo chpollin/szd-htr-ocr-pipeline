@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3042",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. April 1941], SZ-AAL/B1.118",
+    "signature": "SZ-AAL/B1.118",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3042/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3042/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3042/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.118"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [16. April 1941], SZ-AAL/B1.118\n- Signatur: SZ-AAL/B1.118\n- Datum: 16.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "16. 4. 41\n\nDear Hanna & Manfred,\nAs Eva wrote you such a\nlong letter relating all what we have done\ntogether in this holiday week, I can confine\nmyself to-day to a few lines. Besides, I\nhave to be short as Eva and I are just\nleaving for the circus. We have been very\nglad to have Eva with us and the only\ndifficult thing for me was every night\nto choose whether to sleep in ~~uncle~~ Stefan's\nor in Eva's room; both of which, I can be\npleased to say, wanted my company.\nShe is going back to Croton to-morrow\nafternoon, and I believe she enjoyed her\nstay with us. Very soon I shall send you\nher photos which I hope will be good and\nlively.\nWell the circus is waiting and\nI have to go. I shall write in a few days\nand perhaps there will be a new letter\nfrom you to be answered by that time.\nLove to all\nLotte",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Tinte ist dunkelblau/schwarz, gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlagert einen Teil des Brieftextes (Ausschnitt aus Seite 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Durchstreichung 'uncle' wurde gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 806,
+    "total_words": 165,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      806,
+      0,
+      0
+    ],
+    "chars_per_page_median": 806,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

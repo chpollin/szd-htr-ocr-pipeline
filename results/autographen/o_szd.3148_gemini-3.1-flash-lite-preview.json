@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3148",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Manfred Altmann [18. Juli 1940], SZ-AAL/B1.33",
+    "signature": "SZ-AAL/B1.33",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3148/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3148/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3148/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.33"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Manfred Altmann [18. Juli 1940], SZ-AAL/B1.33\n- Signatur: SZ-AAL/B1.33\n- Datum: 18.7.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New York, 18.7.40\n\nDear Manfred,\nI have to-day written to Hanna by\nordinary mail, but I hope that this letter\nwill reach you quicker. We have not had any\nletters from you since we are here and I am\nanxiously waiting for them. We are after all\nnot leaving for South America before the 9th Aug,\nso you can write us c/o Viking Press and they would\nforward by air any letters which arrive after\nour departure.\nI suppose you got the affidavit which\nwas sent to you last week for Eva through\nStephen Wise, whose wife is leading in the reception\ncommittee. As soon as I know about the prospects of\nEva's coming I shall get in touch with them to\nsee where they propose to settle her. In the meantime\nI am enquiring about boarding-schools and\namong our friends. Anita Bahn from Frankfurt -\nHanna knows her - would take Eva for the be-\nginning, but perhaps I find a better solution\nsoon. My sister-in-law might also agree to take Eva\nfor a while but although she will be all-right\nfor taking her out or for holidays, I would not\nrecommend the atmosphere for more than a very\nshort time.\nI hope that all of you keep well and\nam impatiently looking forward to a letter.\nThere is so much we want to know about you, your\nwork, Rosemont, Heines and Marta and I hope you\nhave written long letters to New York.\nKindest regards, Lotte\n\n[Rand links, vertikal geschrieben:] Kindest regards to Mama, I shall write her to-morrow.\n[Rand rechts, vertikal geschrieben:] Kindest regards, Lotte",
+        "notes": "Handschriftlicher Brief auf einem Blatt. Der Text am linken und rechten Rand ist eine Ergänzung zum Haupttext.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Brief liegt darunter, der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1467,
+    "total_words": 268,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1467,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1467,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

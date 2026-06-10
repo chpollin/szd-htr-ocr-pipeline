@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3253",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert von Stefan Zweig an Lotte Altmann [19. Februar 1935], SZ-AAL/B2.22",
+    "signature": "SZ-AAL/B2.22",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3253/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3253/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3253/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.22"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert von Stefan Zweig an Lotte Altmann [19. Februar 1935], SZ-AAL/B2.22\n- Signatur: SZ-AAL/B2.22\n- Datum: 19.2.1935\n- Objekttyp: Kuvert\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ST. GOTTHAR\nHOTEL\nZÜRICH\n\nMiss Lotte Altmann\n\nLondon N. W 11\n50, Woodstock Road",
+        "notes": "Vorderseite eines Kuverts. Oben links Logo des St. Gotthard Hotels Zürich. Oben rechts Poststempel 'ZÜRICH 1 11.35.-23 HAUPTBAHNHOF'. Handschriftliche Adresse in violetter Tinte. Farbskala/Grauskala für Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 2,
+        "transcription": "ST. GOTTHAR\nHOTEL\nZÜRICH\n\nMiss Lotte Altmann\n\nLondon N. W 11\n50, Woodstock Road",
+        "notes": "Vorderseite des Kuverts, ohne Archivierungsskalen. Handschriftliche Adresse in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts. Das Kuvert ist mit einem weißen Klebestreifen kreuzförmig verschlossen. Oben links sind Reste eines blauen Innenfutters sichtbar. Keine handschriftlichen Notizen.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare handschriftliche Adresse handelt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 158,
+    "total_words": 28,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      79,
+      79,
+      0
+    ],
+    "chars_per_page_median": 79,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

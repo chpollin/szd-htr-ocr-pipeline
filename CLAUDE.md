@@ -32,7 +32,7 @@ Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/bui
 
 ## Quelldaten
 
-Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 2.107 Objekte, 18.719 Faksimile-Scans (~23 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 4 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
+Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 2.486 Objekte, 20.318 Faksimile-Scans (~25 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 5 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
 
 | Unterverzeichnis | Sammlung (intern) | Objekte | Bilder | Bilder/Obj (Median) | TEI-Datei |
 |---|---|---|---|---|---|
@@ -40,6 +40,9 @@ Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJ
 | `korrespondenzen/` | `korrespondenzen` | 1.186 | 4.154 | 3 | `szd_korrespondenzen_tei.xml` |
 | `aufsatz/` | `aufsatzablage` | 625 | 3.844 | 5 | `szd_aufsatzablage_tei.xml` |
 | `facsimiles/` | `werke` | 169 | 7.842 | 21 | `szd_werke_tei.xml` |
+| `autographen/` | `autographen` | 379 | 1.599 | 3 | `szd_autographen_tei.xml` (generiert) |
+
+Die Sammlung `autographen` (SZ-AAL, Cirilo-Ingest SZ-AAL-2026-06, o:szd.3020–3398) ist ein reines Korrespondenz-Konvolut → immer Prompt-Gruppe I. Backup und TEI werden von `pipeline/import_autographen.py` aus dem Ingest-Staging generiert; die Sprache aus dem METS ist ein Cirilo-Pauschalwert und wird bewusst nicht uebernommen (Details im Skript-Docstring und `knowledge/journal.md`, 2026-06-10).
 
 Die Spalte **Objekte** zählt physische Backup-Verzeichnisse. Das Backup listet einen Teil der lebensdokumente-Objekte zusätzlich unter `korrespondenzen/` (physische Doppelung). `discover_objects()` ordnet jedes Objekt TEI-kanonisch genau einer Sammlung zu (Backup-Tie-Break über die `COLLECTIONS`-Reihenfolge für Objekte ohne numerische TEI-PID), sodass keine PID doppelt transkribiert wird — die kanonisch transkribierte korrespondenzen-Größe ist daher kleiner als der Verzeichniszähler. Kanonische Zahlen → `python pipeline/transcribe.py --all --dry-run`. Detail → `knowledge/data-overview.md`.
 
@@ -189,7 +192,7 @@ szd-htr/
 │   ├── run_sample_batch.py          ← Batch-Steuerung: Gruppen auf 10 auffuellen
 │   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
 │       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
-├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
+├── data/                            ← TEI-XML-Metadaten (5 Sammlungen)
 ├── results/                         ← Alle Pipeline-Ergebnisse (siehe results/README.md)
 │   ├── groundtruth/                 ← GT-Drafts (3-Modell-Konsensus)
 │   ├── lebensdokumente/             ← 127 Objekte
@@ -238,7 +241,7 @@ python pipeline/transcribe.py o_szd.161 -c lebensdokumente
 # Ganze Sammlung
 python pipeline/transcribe.py -c werke
 
-# Alle 4 Sammlungen
+# Alle Sammlungen
 python pipeline/transcribe.py --all
 
 # Nur bestimmte Gruppe

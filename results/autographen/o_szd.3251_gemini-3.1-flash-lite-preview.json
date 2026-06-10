@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3251",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [20. Januar 1935], SZ-AAL/B2.20",
+    "signature": "SZ-AAL/B2.20",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3251/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3251/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3251/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3251/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3251/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.20"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [20. Januar 1935], SZ-AAL/B2.20\n- Signatur: SZ-AAL/B2.20\n- Datum: 20.1.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Astor\nNew York\n\nLiebes Fräulein Altmann, ich\nbin schrecklich abgehetzt und\nwill Ihnen nur mit einer Zeile\nsagen, dass ich vorhabe, am\n30ten mit der „Manhattan“\nvon hier abzureisen und cca\nam 6ten oder 7ten in Plymouth\nanzukommen und von dort",
+        "notes": "Briefpapier mit Briefkopf des Hotel Astor, New York. Handschrift in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der ersten Seite, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "gleich nach London weiterzu-\nfahren, auf das ich mich schon\nsehr freue, schade, dass es eine\nso knappe Freude sein wird.\n\nHerzlichst eiligst Ihr\n\nS Z.\n\nNichtwahr, Sie bereiten alles\nvor, dass ich in Portland Place\noder nahe dort Unterkunft\nfinde",
+        "notes": "Fortsetzung des Briefes. Handschrift in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite der dritten Seite, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlappt mit dem Text der dritten Seite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist charakteristisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 492,
+    "total_words": 83,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      247,
+      0,
+      245,
+      0,
+      0
+    ],
+    "chars_per_page_median": 246.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

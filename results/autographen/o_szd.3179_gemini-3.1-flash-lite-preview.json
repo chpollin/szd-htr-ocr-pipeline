@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3179",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Therese; Altmann, Hannah; Altmann, Manfred Altmann [9. November 1940], SZ-AAL/B1.61",
+    "signature": "SZ-AAL/B1.61",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3179/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3179/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3179/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3179/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3179/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.61"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Therese; Altmann, Hannah; Altmann, Manfred Altmann [9. November 1940], SZ-AAL/B1.61\n- Signatur: SZ-AAL/B1.61\n- Datum: 9.11.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Buenos Aires, 9. 11. 40\n\nDear Mama, Hanna & Manfred,\nOnly a short letter today, for although I\ndid not accompany Stefan to his lectures in Cordoba\nSanta Fé and Rosario - from where he will return to-morrow -\nI have been rather busy, getting visas, tickets etc. of all kinds,\nanswering the letters and the telephone, being invited although\nalone and getting rid of a cold. Stefan is still away and will\nreturn to-morrow about lunchtime. At 6 we have promised to go\nonce more to the Opera to see a ballett and Hansel & Gretel,\narranged by old friends from Salzburg, at 10 two men are coming\nwho want to see him about something, Monday he has a lecture\nat La Plata, one hour from here, Tuesday he has to see a doctor\nwho wants to clean his ears (nothing more, only that hurt a little)\nWednesday we fly over to Montevideo where we will be received,\noffered lunch and a reception after the lecture and a short\nradio talk, Thursday afternoon we will be back here, in\nthe evening while I pack Stefan will give a radio talk\nhere, and Friday at 6 in the morning we leave for Rio\nwhere we hope to arrive in the afternoon. In Rio we\nwill go to another hotel this time, where we get a room\nin the 6th floor with a large covered balcony so\nthat it is cooler and more agreable. There we will stay\nuntil it becomes too hot and then either go directly\nto the States or somewhere in the mountains near Rio -\nwe have not yet decided which. In any case we hope\nto visit Eva by the beginning of the new year at\nthe latest. I have regular reports through my sister-\nin-law who had her for the weekend once, phones\nevery week and in her last letter wrote that she was\ngoing to visit her shortly. From her I hear that Eva is\nwell and happy at Salmon's. Eva herself does appa-\nrently like writing as little as ever, and I am afraid\nSalmon's are not any better in this respect. But you know",
+        "notes": "Brief auf Hotelpapier (City Hotel, Buenos Aires). Handschrift in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "from Manfreds example that an active dislike\nfor writing does not mean a bad character, and\nI am sure the same is the case with Salmon's.\nWe shall not be sorry to leave and look\nforward to returning to Rio - although our joy is rather\nspoiled by the sudden death {tragic} of a stupid and unhovat[?] \naccident of our best friend there, Hernandez Cata,\nminister of Cuba, who in this short time had become\none of our closest friends. - Here we have had a hectic\ntime and did not like it too much in spite of the\nwonderful reception Stefan has had and which sur-\npassed even that of Rio. But we prefer the Brazilians\nand the beautiful landscape of Rio, and maybe for\nthat reasons our impressions were somewhat biassed\nand prejudiced.\nI do hope from all my heart that\nyou all are well and it is a relief to read in the\npapers that the attacks on London are diminishing\nin force. Let us hope that they will soon be\nstopped altogether. Also here we have found a\nspontaneous pro-British sympathy.\nKindest regards and kisses,\nalso Manfred included,\nLotte.\nletter address: c/o Editora GUANABARA\n132 rua OUVIDOR\nRio de Janeiro.",
+        "notes": "Zweite Seite des Briefes. Handschrift in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes mit aufgelegter Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort in Zeile 3 von Seite 3 ('unhovat') ist unklar, vermutlich ein Schreibfehler der Autorin für 'unhappy' oder 'unpleasant', wurde aber diplomatisch transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2981,
+    "total_words": 566,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1865,
+      0,
+      1116,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1490.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0018,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

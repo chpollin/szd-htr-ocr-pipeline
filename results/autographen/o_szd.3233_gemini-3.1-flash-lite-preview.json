@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3233",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Frenkel an Lotte Zweig [7. November 1935], SZ-AAL/B14",
+    "signature": "SZ-AAL/B14",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3233/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3233/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3233/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3233/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3233/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B14"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Frenkel an Lotte Zweig [7. November 1935], SZ-AAL/B14\n- Signatur: SZ-AAL/B14\n- Datum: 7.11.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Genève, 7. XI. 35\n\nLiebe Lotte, lieben Dank für Dei-\nnen so lieben Brief, der so\nunverdient zu mir hereinschnei-\nte. — Dass ich auf einmal nicht\nschrieb, war nicht etwa Gedankenlosig-\nkeit — pure, unentschuldbare Schreib-\nfaulheit. Aber dafür werde ich mich\njetzt bessern.\nIch bin natürlich mehr als froh, dem\n„geliebten Vaterland“ den Rücken\ngekehrt zu haben. Man hatte Stefan\nhier die Stellung des 1. Konzertmeis-\nters angeboten — und es ist wirklich\nerst einmal wunderbar draussen zu sein.\nDiese Saison, bis Ende März sind wir\nhier. Was dann ist noch nicht gewiss.\nDass Stefan bald einmal nach London\nkommt, ist nicht ausgeschlossen.\nDa würde ich ja sogar die bestimmt\nmitkommen. Vor 8 Tagen waren wir\npaar Tage in Paris — ich liebe es jawahnsinnig. London kenne ich ja nicht,",
+        "notes": "Handschriftlicher Brief auf gelblichem Papier. Tinte blau-schwarz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "es würde mich schon sehr interessieren.\nDass musikalisch dort jetzt sehr viel los\nist, höre ich ja von allen Seiten. Lebt\nZweig denn ständig da? Hast Du einen netten\nKreis? Wie geht es Deinem Bruder, mit\nArbeitserlaubnis etc.? Ich hoffe wirklich\nausführlich von Dir zu hören. Schreibe\nmir bitte bald einmal wieder, ja?\nHier ist es wunderbar — die Stadt mit dem See\nund den Bergen herrlich. Aber die ganze\nAtmosphäre ist so kühl — die Menschen so\nsteif — füreinander liebenswürdig, aber wenig\nherzlich — und so ungewohnt förmlich.\nGrüsse bitte Deine Mutter herzlichst von\nmir — und Deine Geschwister. Hoffentlich\nsieht man sich bald einmal! Ich habe\nmich so gefreut, dass Du wieder angefang\n-st zu schreiben. — Viele sehr, sehr\nherzliche Grüsse Lotte und lass recht\nbald von Dir hören.\nHerzlichst Deine Lotte,\n\nFrenkel, Genève,\n2, chemin de Roches\nPension England. \n\nAuch von mir die\nherzlichsten Grüsse\nIhr Stefan Frenkel",
+        "notes": "Fortsetzung des Briefes. Handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Frenkel, 2, chemin de Roches\nPension England\nGenève",
+        "notes": "Rückseite eines Briefumschlags mit Absenderangabe. Farbskala/Grauskala für Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss\nLotte Altmann\n50 Woodstock Road\nLondon N.W. 11",
+        "notes": "Vorderseite eines Briefumschlags. Briefmarken und Poststempel (Genève 9-10 13 5) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Frenkel, 2, chemin de Roches\nPension England\nGenève",
+        "notes": "Rückseite des Briefumschlags (identisch mit Seite 3).",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und flüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1853,
+    "total_words": 310,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      779,
+      921,
+      51,
+      51,
+      51
+    ],
+    "chars_per_page_median": 415.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

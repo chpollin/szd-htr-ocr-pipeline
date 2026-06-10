@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3037",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [5. April 1941], SZ-AAL/B1.113",
+    "signature": "SZ-AAL/B1.113",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3037/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3037/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3037/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.113"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [5. April 1941], SZ-AAL/B1.113\n- Signatur: SZ-AAL/B1.113\n- Datum: 5.4.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "The Wyndham Hotel 42 West 58 Street\t5. April 1941\nDear Hannah & Manfred, I wrote you these days about my taxes\nwith which I have to worry you as you have the statements, I hope\nyou have {and will communicate} already my letter. Today what will please you more\n- that we shall have Eva here for her holidays one week and I hope\nshe will enjoy New York more than she did before. We will talk a lot\nabout you.\nLotte has behaved badly against me, as I wrote you, and is now be-\nhaving costly. As her attacks of asthma did not stop we were obliged\nto let examine her thoroughly for I want for my work and travelling\na wife and secretary who keeps fit. Dr. Schür, whom I know from\nLondon, (he has been the doctor of Sigmund Freud) has seen her\nand now with a specialist he is making tests to find out the allergic\npoints. It is not a serious state as you know, but before we go\naway I would like to have her examined as well as possible; I doubt\nif we could find on another place such competent persons. Do not\nthink therefore that it is serious; I want only to prevent a setback\nwhen we would have to travel again. Our plans are not at all fixed\nup - who can decide in a time like ours? - but we will stay in any\ncase till to the end of May here in New York.\nWe have read here in the newspapers about attacks on Bristol and\nI hope you have been had no visit of this kind in Bath, which is\nso near. I hope also that 17 Orchard has no damage and that all\nis going quietly as before. Here the preparations seem to be enor-\nmous and we hope all that they will become sufficient et effective\nin a short time.\nPerhaps I shall have to speak here at a dinner at the Pen Club\n(only a few minutes) on April 29th at the opening of the Euro-\npean Branch; if so it will be relayed by short wave and you could\nperhaps hear me. I hate dinner speaks but I do not know if it will\nbe possible to escape. Kindest regards to you all yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf Hotelpapier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt Ausschnitte des Briefes, die bereits auf Seite 1 transkribiert wurden.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Einfügung in Zeile 3 wurde korrekt als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1926,
+    "total_words": 393,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1926,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1926,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

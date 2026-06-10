@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3397",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joseph Roth an Lotte Zweig [13. August 1936], SZ-AAL/B9.3",
+    "signature": "SZ-AAL/B9.3",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3397/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3397/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3397/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B9.3"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joseph Roth an Lotte Zweig [13. August 1936], SZ-AAL/B9.3\n- Signatur: SZ-AAL/B9.3\n- Datum: 13.8.1936\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "13. August 1936,\n\nLiebes Fräulein Altmann,\ndas Papier ist noch\nnicht da, aber ich\ndanke Ihnen herzlich.\nWenn es nicht kommt,\nreisen ich.\nmir ist sehr müd,\nKnecht, Regen zu wenig,\nzu viel Dichter,\nHerzlichst Ihr\nJoseph Roth",
+        "notes": "Handschriftlicher Brief auf Briefpapier des Hotels 'De La Couronne' in Ostende. Die linke obere Ecke des Papiers ist abgerissen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "13. August 1936,\n\nLiebes Fräulein Altmann,\ndas Papier ist noch\nnicht da, aber ich\ndanke Ihnen herzlich.\nWenn es nicht kommt,\nreisen ich.\nmir ist sehr müd,\nKnecht, Regen zu wenig,\nzu viel Dichter,\nHerzlichst Ihr\nJoseph Roth",
+        "notes": "Scan mit Farb- und Grauskala zur Archivierung. Identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der etwas flüchtigen Handschrift von Joseph Roth gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 444,
+    "total_words": 76,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      222,
+      0,
+      222
+    ],
+    "chars_per_page_median": 222,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3297",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [22. Juni 1936], SZ-AAL/B2.62",
+    "signature": "SZ-AAL/B2.62",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3297/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3297/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3297/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.62"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [22. Juni 1936], SZ-AAL/B2.62\n- Signatur: SZ-AAL/B2.62\n- Datum: 22.6.1936\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                               Wien, den 22. Juni 1936.\n\nLiebes Fräulein Altmann,\n\n       vielen Dank für alles. Ich habe noch immer keine rechte\nUebersicht über meine Pläne. Am Sympathischesten schiene mir\nBelgien und es besteht ja da nur die Schwierigkeit Ihres Visums,\ndoch hoffe ich, dass wenn sie ein französisches haben, man Ihnen\ndort es nicht verweigern wird. Ich hätte dort den Vorteil, ab-\nsolut unbekannt zu leben, nichts von den widerlichen Affären zu\nhören und auch nah von London zu sein. Ausserdem wäre ja\nJosef Roth ziemlich nah. Mein Freund Fuchs würde ~~w~~wahrschein-\nlich mitgehen für einige Zeit und wir würden dort einfach leben.\nGrosse Koffer also überflüssig. Wenn alles so klappt, wie ich\nes mir denke, würde ich vielleicht schon am 1. oder 2. Juli in\nOstende oder in einem dort näher gelegenen Ort sein und mich\ndann brieflich oder telegraphisch mit Ihnen in Verbindung setzen,\ndamit Sie plus Maschine ~~axxx~~ 1 oder 2 Tage später herüber kämen.\nAber, wie gesagt, grosse Hoffnungen wage ich nicht zu machen,\nweil alles sehr unsicher, verworren und unerfreulich ist.\n       Mit den herzlichsten Grüssen\n                                          Ihr\n\n\n",
+        "notes": "Typoskript auf blauem Papier. Die Unterschrift 'Stefan Zweig' und der Name 'Lotte Altmann' (bzw. 'Joust Fraulein' - hier liegt ein Lesefehler des Typoskripts oder eine handschriftliche Korrektur vor, die als 'Joust Fraulein' erscheint) sind handschriftlich ergänzt. Die Durchstreichungen sind im Original vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1177,
+    "total_words": 178,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1177,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1177,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

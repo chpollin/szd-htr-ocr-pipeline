@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3089",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [24. August 1941], SZ-AAL/B1.160",
+    "signature": "SZ-AAL/B1.160",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3089/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3089/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3089/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.160"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [24. August 1941], SZ-AAL/B1.160\n- Signatur: SZ-AAL/B1.160\n- Datum: 24.8.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIA AIR MAIL\nAug 24th, 41\nON BOARD\nS. S. Uruguay\n\nDear Hanna & Manfred,\nWe will soon\nbe in Rio and I am glad that we took\nthe boat which was very restful while\nthe plane journey would have been most\ntiring. Eva will have written you that Mrs.\nSch. brought her down to the boat to see\nus off which was a thrilling way to begin\nher birthday - taking the train for NY long\nafter bedtime and returning about 2 in\nthe morning. It was Mrs. Sch's birthday pre-\nsent to Eva - I would never have dared to\nsuggest it to her for she is more than busy\nthe whole day long. That she had the idea\nand made this trip with her at night\nshould be a further proof to you that\nEva is more than just a „boarder“ in\nAmity Hall. They have already taken pho-\ntographs of the new house and you might\nsoon get a brochure with them. Eva missed\nbeing photographed with the others because\nshe was at Elizabeth's house in these days.\n- We had an agreeable trip and a good\nrest, I refused to work and also Stefan\ndid not do much. In Rio, I shall imme-\ndiately look for an apartment or small\nhouse so that we settle down at least for\na few months.",
+        "notes": "Handschriftlicher Brief auf Briefpapier der Moore-McCormack Lines (S.S. Uruguay). Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "I hope it will not take too long\nbefore we hear from you there and\nthat it will be only good news. Has\nMarta already been in Bath and how\ndid she feel as a guest? And has\nMr. Honig who went back to England\na month ago already been with you?\nWe told him to come and see you if\nnecessary in Bath. We were with him\nquite frequently and liked him well.\n- I am afraid my letter is not very\ncoherent, but I am writing in the\nlounge, have heard the BBC News and\nAmerican news while I read, not to speak\nof the people who pass etc. Anyhow\nyou know that my thoughts are with you\nmost frequently. Now it is nearly two\nyears since the beginning of the war and\nI remember those days most vividly.\n& these days on the boat, lying in the\ndeck chair all day long, I often indulged in\nday dreaming and wishful thinking and I\nimagined how I would have enjoyed it\ncould you have been next to me in the\ndeck chairs. As this cannot be just now,\nwe must keep contact by letter, and so\nplease write frequently.\nBest love and kisses\nLotte",
+        "notes": "Fortsetzung des Briefes auf der Rückseite. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Grauskala für Archivierungszwecke. Kein Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2130,
+    "total_words": 433,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1115,
+      1015,
+      0
+    ],
+    "chars_per_page_median": 1065.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

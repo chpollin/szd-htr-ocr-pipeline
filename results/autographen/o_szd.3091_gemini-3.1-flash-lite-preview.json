@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3091",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. August 1941], SZ-AAL/B1.162",
+    "signature": "SZ-AAL/B1.162",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3091/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3091/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3091/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.162"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. August 1941], SZ-AAL/B1.162\n- Signatur: SZ-AAL/B1.162\n- Datum: 31.8.1941\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132 RUA OUVIDOR\n31.8.41\n\nDear Hanna u. Manfred, We have well arrived on\nWednesday and are glad to be here in a somewhat\nquieter atmosphere. Nothing has changed while we were\naway, we have the same room in the same hotel, the\nwhich Stefan spends most of his time working, and even the food is\nstill the same. Two days after our arrival we went to Petropolis by\ncar - a little more than 1 1/2 hours on a beautiful and well-kept road.\nand looked for a house. It is altogether more difficult than we thought\nbecause all the old or wealthy families have houses of their own\nand very few houses are to be let. Tuesday we will go there\nagain and there is hope that we may find something. In that case\nwe would move up to Petropolis in about a fortnight and come\ndown to Rio once or twice a week. There are plenty of busses\nbetween the two places and also a railroad of an already\nvenerable age. Going immediately to Petrop. and settling down there\nhas the great advantage that we need not move again when summer\nbegins in December. Petrop. is the summerresort for all who want\nto remain near Rio, more so than Brighton and Eastbourne were for London.\nWhile still in Rio we gradually see our friends again and shall\nalso take Portuguese lessons. We read fluently and understand already\nfairly well, but now we also must begin to speak it. - Through the\nlong boat trip of 12 days Newyork seems already very far away\nand besides missing Eva (and Amity Hall also a little) I do not regret\nhaving left the States again. It is strange: all the Europeans down\nhere in South Amer. dream of going to the States while many of those\nwho are there would find it very difficult to adapt themselves and\nwish they could leave and live in South Am. - Arriving in Rio we found\nyour letter of Aug. 8th forwarded from Newyork and I hope we will soon hear\nfrom you again and hear more about yourself and Manfred's work.\nBest love and kisses Lotte.\nWe are now four days here and feel allright - happy would be too much because I\ncannot adapt myself to this nomadic life without a home and without books, we remain\nEuropeans for ever and will feel everywhere strangers. I have no, pep like the American\nsay and also writing will be difficult after the autobiography - all I have to tell\nis so far away what America likes to read and to hear. Lotte is somewhat better\nbut we dream always to be fresh and enterprising and cannot more fix the\nright \"elan\" - the war is too long for me and still far from his end. Our\nlife in Petropolis (at here) will be a solitary one because we do not like\nmon society and I have refused to make public appearance for the next\ntime - we will study Portuguese to feel more free and I hope to continue\nto work. Newyork we had too many people and here not enough of",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "c/o EDITORA GUANABARA\n132 RUA OUVIDOR\n\nbecause all the old or wealthy families have houses of their own\nand very few houses are to be let. Tuesday we will go there\nagain and there is hope that we may find something. In that case\nwe would move up to Petropolis in about a fortnight and come\ndown to Rio once or twice a week. There are plenty of busses\nbetween the two places and also a railroad of an already\nvenerable age. Going immediately to Petrop. and settling down there\nhas the great advantage that we need not move again when summer\nbegins in December. Petrop. is the summerresort for all who want\nto remain near Rio, more so than Brighton and Eastbourne were for London.\nWhile still in Rio we gradually see our friends again and shall\nalso take Portuguese lessons. We read fluently and understand already\nfairly well, but now we also must begin to speak it. - Through the\nlong boat trip of 12 days Newyork seems already very far away\nand besides missing Eva (and Amity Hall also a little) I do not regret\nhaving left the States again. It is strange: all the Europeans down\nhere in South Amer. dream of going to the States while many of those\nwho are there would find it very difficult to adapt themselves and\nwish they could leave and live in South Am. - Arriving in Rio we found\nyour letter of Aug. 8th forwarded from Newyork and I hope we will soon hear\nfrom you again and hear more about yourself and Manfred's work.\nBest love and kisses Lotte.\nWe are now four days here and feel allright - happy would be too much because I\n\nTo work. Newyork we had too many people and here not enough of",
+        "notes": "Scan mit Farbskala und Grauskala. Der Text ist identisch mit dem auf Seite 1, jedoch durch die Archivierungshilfen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Wiederholung auf Seite 3 ist durch die Archivierungshilfen (Farbskala/Grauskala) teilweise verdeckt, aber der Text ist durch den Kontext von Seite 1 eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4386,
+    "total_words": 833,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2787,
+      0,
+      1599
+    ],
+    "chars_per_page_median": 2787,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

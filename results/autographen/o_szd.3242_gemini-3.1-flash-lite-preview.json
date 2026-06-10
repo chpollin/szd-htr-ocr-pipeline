@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3242",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [29. August 1934], SZ-AAL/B2.12",
+    "signature": "SZ-AAL/B2.12",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3242/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3242/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3242/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3242/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3242/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.12"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [29. August 1934], SZ-AAL/B2.12\n- Signatur: SZ-AAL/B2.12\n- Datum: 29.8.1934\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, nach\nmeine Adresse ~~[...10...]~~\nBaden bei Zürich\nLimmathof\nich bleibe von bis etwa 7 oder\n8. September, könnte dann am\n8ten oder 9ten September in\nBoulogne sein. Dort bleibe ich\nnur, falls das Wetter schön ist\nund ich auf Ihre Hilfe bei meiner\nArbeit rechnen kann, sonst\nfahr ich direct nach London\nweiter — meine Arbeit ist\nzu meiner Schande in eine Art\nAbhängigkeit verfallen zu",
+        "notes": "Handschriftlicher Brief, Tinte auf Papier. Die erste Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ich auf Sie zu sehen darf. Ver\ngeben Sie das grässliche\nGeschmier, aber es ist halb\nsechs Uhr früh war ich\nSchreibe eben aus dem\nZuge kommend, ange-\nwandt aus wagefrühschicht.\nErgebenst\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Tinte auf Papier. Die zweite Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Ich wäre in Boulogne gerne\nauch oder sogar 10 Tage bleiben\nnur um das gleich intensiver zu\nbei ganz anzufangen. Ich werde\nin London nur eine gar nicht\nwahrscheinlich",
+        "notes": "Handschriftlicher Brief, Tinte auf Papier. Die dritte Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Ihrem guten Willen graten, aber\nich wollte doch Ende Oktober\noder in Maria schon völlig\nerledigt haben war das sonst\nertens furchtbar viel Arbeit\noder dann Entlastung von aller\nBriefschreiberei nur da gedenke\nich immer wieder wie gut\nSie mir geholfen haben. Lieber\nbleibe ich in Boulogne, weil\nich dort auch die Ablenkungen\nzu fürchten habe und ganz\nnur an meiner Arbeit gefors\nhaben. Bitte lassen Sie mich\nIhre Name wissen was welche\nSZ",
+        "notes": "Handschriftlicher Brief, Tinte auf Papier. Die vierte Seite des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "ich auf Sie zu sehen darf. Ver\ngeben Sie das grässliche\nGeschmier, aber es ist halb\nsechs Uhr früh war ich\nSchreibe eben aus dem\nZuge kommend, ange-\nwandt aus wagefrühschicht.\nErgebenst\nStefan Zweig",
+        "notes": "Wiederholung der zweiten Seite des Briefes mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und teilweise schwer lesbar, insbesondere bei den Übergängen zwischen den Seiten und bei einigen Wörtern (z.B. 'wagefrühschicht', 'graten'). Die Struktur des Briefes ist fragmentarisch."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1405,
+    "total_words": 240,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      407,
+      198,
+      165,
+      437,
+      198
+    ],
+    "chars_per_page_median": 302.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0042,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3334",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [22. April 1940], SZ-AAL/B2.96",
+    "signature": "SZ-AAL/B2.96",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3334/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3334/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3334/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3334/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3334/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.96"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [22. April 1940], SZ-AAL/B2.96\n- Signatur: SZ-AAL/B2.96\n- Datum: 22.4.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr.: HOTEL LOUVOIS PARIS\nTéléph. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le Lundi\n\nDear Charlot, I have hard work,\nthe translation has to be changed\nword for word. I shall return\nMonday and we will make an\nappointement in London as soon\nI know the right time. You may\nuse the time to prepare all for\nWilmot in different schemes so\nthat we can decide before\nseeing him\nParis is marvellous now in the",
+        "notes": "Briefpapier des Hotel Louvois. Handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "spring, I sit in many cafes here\nand do there my work and corres-\npondance. All is so cheap, sorry\nthat I took so little luggage and\ncannot buy anything.\nYours\n\nStefanZweig\n\nHas my diary been sent back\nalready?",
+        "notes": "Fortsetzung des Briefes. Handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "pondance. All is so cheap, sorry\nthat I took so little luggage and\ncannot buy anything.\nYours\n\nStefanZweig\n\nHas my diary been sent back\nalready?",
+        "notes": "Wiederholung des Textes von Seite 2 mit Archiv-Farbskala.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Stefan Zweig\n\nHOTEL PAR AVION\nSQUARE LOUVOIS (OPÉRA)\nPARIS\nGUTENBERG 20-53\n20-54\n20-55\n37-07\nINTER 719\n\nMrs Stefan Zweig\n\nBath (Angleterre)\nLyncombe Hill\nRosemount",
+        "notes": "Briefumschlag. Gedruckte Hoteldaten, handschriftliche Adressierung. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "de l'Hôtel Louvois est envoyé franco sur demande",
+        "notes": "Rückseite des Briefumschlags. Gedruckter Text am oberen Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar, trotz einiger orthographischer Eigenheiten im Englischen (z.B. 'appointement', 'correspondance')."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1016,
+    "total_words": 177,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      451,
+      210,
+      144,
+      163,
+      48
+    ],
+    "chars_per_page_median": 186.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

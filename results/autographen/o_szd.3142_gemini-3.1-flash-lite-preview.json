@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3142",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [25. Juni 1940], SZ-AAL/B1.28",
+    "signature": "SZ-AAL/B1.28",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3142/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3142/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3142/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.28"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [25. Juni 1940], SZ-AAL/B1.28\n- Signatur: SZ-AAL/B1.28\n- Datum: 25.6.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liverpool, 25th, 10.30 a.m.\n\nDear Hanna,\nWe had a good journey to Liverpool, spent an hour at night quietly in the\nbasement, reported as ordered at 7.30 at\nthe Office and have now just managed -\nwith the help of the recommendation letter -\nto get a first class cabin.\nThere is nothing else to say -\nEva will excuse if I use her words -\nso only very best wishes in the hope to\nbe able to return soon.\nStefan would like a telegram\nwhen Levinthels ~~are~~ are in your house.\nPerhaps you better urge them a little, I\nread that another south port town will\nevacuate children to Somerset.\nKindest regards to all,\nLotte.\n\nBefore our departure\nwe had one hours air\nraid tonight which we passed\nin the cellar of the hotel: S",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die letzte Zeile 'in the cellar of the hotel: S' ist am unteren Rand unter der Grußformel angefügt. Das 'S' am Ende könnte für Stefan stehen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Man erkennt schwach durchscheinenden Text (Bleed-through) von der Vorderseite, der gemäß Anweisung nicht transkribiert wird. In der Mitte ist ein Wasserzeichen/Prägedruck 'PRIMROSE PARCHMENT' erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt teilweise den Text des Briefes (siehe Scan 1).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten. Die durchscheinenden Stellen auf der Rückseite wurden ignoriert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 715,
+    "total_words": 136,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      715,
+      0,
+      0
+    ],
+    "chars_per_page_median": 715,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

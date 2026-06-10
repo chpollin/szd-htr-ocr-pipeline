@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3281",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [12. September 1935], SZ-AAL/B2.48",
+    "signature": "SZ-AAL/B2.48",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3281/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3281/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.48"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [12. September 1935], SZ-AAL/B2.48\n- Signatur: SZ-AAL/B2.48\n- Datum: 12.9.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, vielen Dank\nfür Ihren guten Brief. Ich gedenke am\n17 oder 18 abzureisen, ein Tag 19 Salz\nburg, ein Tag 20 Zürich, ein zwei Tage,\n~~etwas~~ Montreux, wo ich Rolland sprechen\nwill und genf. am 23ten könnte ich\nzuverlässig in Paris sein, vielleicht schon\nam 22ten Und dort erwartet mich in der\nVorbereitungsache Rollands furchtbar viel\nSchreibarbeit.\nIch habe natürlich kein Recht, Sie zu einer\numständlichen Reise für eine blosse Woche\nzu bitten, aber ich hoffe, es ist Ihnen das\nmöglich, denn wir brauchen, da wir nach\nallen Ländern die Comitéen laden[?] sen-\nden wollten, jemand wirklich Sprachkundigen,\nder aus eigener Hand arbeitet wie ich",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "brauche Ihnen da beide langen Complicaten zu\nmachen. Wäre es Ihnen also möglich, am 22ten\nin Paris zu sein, so wären wir alle sehr froh.\nEs ist möglich, dass ich erst am 23ten komme\nin diesem Falle würden Sie eben - keine arge\nSache! - einen Tag in Paris spazieren gehen. Ich\nwürde Ihnen vorschlagen, im Hotel Louvois\nabzusteigen, wo ich dann auch Quartier nehme\nmit dem Herren, der mich begleitet. Dort tele-\ngrafiere ich Ihnen dann meine Ankunft und\nallfällige vorbereitende Aufträge. Gegen oder\n2. könnten Sie schon wieder in Louvois sein.\nBitte schreiben Sie mir, falls Sie\ndiesen Brief noch Samstag erhalten, an Reich\nner sicher. Oder dann, so dass ich es Donnerstag\nspätestens finde\nPostlagernd Zürich\nso dass ich weiss, ob wir auf Sie zählen\nkönnen. Verzeihen Sie, dass ich Sie so",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "überfalle!\nDas Buch ist in zweiter Fassung ger-\ntern fertig geworden. In London dann die dritte\nund definitive!!\nIhr herzlich ergebener\nS. Zweig\nGrüssen Sie Strebul, wenn er noch da ist\nRose Walter sah ich (mit nicht viel\nBehagen, sie hat irgendwie ein schlechtes\nGewissen gegen mich)",
+        "notes": "Handschriftlicher Brief, violette Tinte. Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Liebes Fräulein Altmann, vielen Dank\nfür Ihren guten Brief. Ich gedenke am\n17 oder 18 abzureisen, ein Tag 19 Salz\nburg, ein Tag 20 Zürich, ein zwei Tage,\n~~etwas~~ Montreux, wo ich Rolland sprechen\nwill und genf. am 23ten könnte ich\nzuverlässig in Paris sein, vielleicht schon\nam 22ten Und dort erwartet mich in der\nVorbereitungsache Rollands furchtbar viel\nSchreibarbeit.\nIch habe natürlich kein Recht, Sie zu einer\numständlichen Reise für eine blosse Woche\nzu bitten, aber ich hoffe, es ist Ihnen das\nmöglich, denn wir brauchen, da wir nach\nallen Ländern die Comitéen laden[?] sen-\nden wollten, jemand wirklich Sprachkundigen,\nder aus eigener Hand arbeitet wie ich",
+        "notes": "Wiederholung der ersten Seite mit Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Miss Lotte Altmann\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Poststempel 'WIEN 1 13.IX.35-8 FLUGPOST' und 'WIEN 1 12.IX.35'. Briefmarke 'ÖSTERREICH'.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Zwei Poststempel 'TELEGRAPHENAMT WIEN 1 12.IX.35'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist bekannt und weitgehend eindeutig. Einzelne Wörter wie 'laden' sind aufgrund der kursiven Schrift leicht unsicher, aber im Kontext schlüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2454,
+    "total_words": 408,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      666,
+      0,
+      787,
+      284,
+      666,
+      51,
+      0
+    ],
+    "chars_per_page_median": 475.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0049,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

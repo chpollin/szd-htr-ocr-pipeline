@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3348",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Telegramm von Friderike Zweig an Stefan Zweig [1. Juli 1936], SZ-AAL/B3.11",
+    "signature": "SZ-AAL/B3.11",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3348/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3348/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3348/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.11"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Telegramm von Friderike Zweig an Stefan Zweig [1. Juli 1936], SZ-AAL/B3.11\n- Signatur: SZ-AAL/B3.11\n- Datum: 1.7.1936\n- Objekttyp: Telegramm\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "ADMINISTRATION\nDES TÉLÉGRAPHES ET DES TÉLÉPHONES\nBEHEER VAN TELEGRAFEN EN TELEFONEN\nARRIVÉ 1-1 VII 1936\n\nà\nte\n\nVIA BELRADIO\n= ZWEIG 46 PROMENADE ALBERT\nOST =\n\nDéposé à SALZBURG 94-16-1/7-12,30\nAfgegeven te\nHABE GUENSTIGES SOFORTIGES ANGEBOT DRAHTE OB MIR EIN\nDRITTEL BEHALTEN KANN",
+        "notes": "Telegrammformular, bedruckt mit handschriftlichen Ergänzungen (Stempel, Datumsangaben, handschriftliche Notiz '12,30' und '12,30' im Stempelbereich). Der Text ist in Maschinenschrift eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Telegramms. Man sieht zwei aufgeklebte Papierstreifen (Verschlussstreifen) mit der Aufschrift 'BELGISCHE STAAT' und 'ETAT BELGE'. Ein schwacher Poststempelabdruck ist oben rechts erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "ADMINISTRATION\nDES TÉLÉGRAPHES ET DES TÉLÉPHONES\nBEHEER VAN TELEGRAFEN EN TELEFONEN\nARRIVÉ 1-1 VII 1936\n\nà\nte\n\nVIA BELRADIO\n= ZWEIG 46 PROMENADE ALBERT\nOST =\n\nDéposé à SALZBURG 94-16-1/7-12,30\nAfgegeven te\nHABE GUENSTIGES SOFORTIGES ANGEBOT DRAHTE OB MIR EIN\nDRITTEL BEHALTEN KANN",
+        "notes": "Identisch mit Seite 1, jedoch mit Farbskala und Grauskala für Archivierungszwecke am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein standardisiertes Telegrammformular mit maschinengeschriebenem Inhalt, der sehr gut lesbar ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 560,
+    "total_words": 86,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      280,
+      0,
+      280
+    ],
+    "chars_per_page_median": 280,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

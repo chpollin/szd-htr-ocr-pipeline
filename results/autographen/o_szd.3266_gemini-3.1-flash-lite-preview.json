@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3266",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [19. Mai 1935], SZ-AAL/B2.34",
+    "signature": "SZ-AAL/B2.34",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3266/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3266/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.34"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [19. Mai 1935], SZ-AAL/B2.34\n- Signatur: SZ-AAL/B2.34\n- Datum: 19.5.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Bellerive (Utoquai / Zürich\n\nLiebes Fräulein Altmann, ich bin jetzt\nchon leidlich hier stabilisiert und\nwenn nicht schlechte Nachrichten aus\nWien kommen, so hoffe ich noch einige\nZeit hier ungestört bleiben und mich\nein wenig aufforsten zu können. Ich\nhabe ein kleines Flat, viel winziger alsjenes in London, aber bei weitem com-\nfortabler durch die Einrichtung – die Secre-\ntärin freilich fehlt, ich habe nur einen\nsehr spärlichen Ersatz, gerade um ein\npaar Briefe wegzudichieren. Aber es\nfehlt das Beste, das gute Vertrauen,\ndas schöne Zusammenarbeiten – ja\ndas Heimweh nach London ist noch\nimmer sehr heftig. Ich käme so gerne\nwenigstens auf einen Sprung hin, aber",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ich wage nicht noch weit so weit von\nHause weg, hoffentlich wird dort alles\nwenigstens für einige Zeit ruhiger – im\nJuni fährt dann mein Bruder weg und\ner muss dann in der Nähe sein.\nWie schmerzlich, dass Sie nur\nTrübes berichten! Nur wie arg für mich,\ndass ich Ihnen nichts Verlässliches sagen\noder versprechen kann; ich wäre un-\nehrlich, wenn ich sagte, dass auf mich\njetzt zu zählen sei. Ich bin einmal\ndurch die Umstände ganz unfähig,\nauch nur über acht Tage eine Dispo-\nsition zu treffen, geschweige denn weiter-\nhinaus. Gewiss ist nur, dass ich Salzburg\ndiesen Sommer (bis höchstens auf\neinen oder zwei Tage) meide, ich fühle\nmich jetzt nur im Abseits wohl und\nin London war es auch so wie er es",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "mir wünschen konnte. Alles Andere ist\nwenig erbaulich und kostet viel Energie\n– dabei möchte ich gerne wieder ernst\nan die Arbeit gehen und spiele nur\nvorläufig halb lässig herum.\nDieser Tage dürfte Josef Roth\ndurchkommen, endlich ein Freund –\nan Bekannten würde es zwar nicht\nfehlen, aber ich kann mich jetzt nur\nmehr stark attachieren oder gar nicht.\nMeine Neugierde hat arg nachgelassen\nund ich werde sogar ein schlechter\nZeitungsleser, so wider mich die\nIdiotie der Welt.\nWenn Sie Rose Walter oder\nTemianka sehen, so grüssen Sie sie\nherzlich; sonst schreiben Sie Meisten\nchon in Erinnerung dafür, nur eben das\nBeste bleibt. Herzlichst\nSZ",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 2. Die Unterschrift ist ein stilisiertes 'SZ'.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite des Briefbogens.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, darüber der Anfang des Briefes (Seite 1) sichtbar.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Miss Lotte Altmann\nSunbay,\nElmsteadt Road,\nCanford Cliffs, London NW11\nBournemouth.\n50, Woolstock Road",
+        "notes": "Adressseite eines Briefumschlags. Poststempel 'ZÜRICH 1 19 V 1935' und Briefmarke 'FERIEN ORT DER SCHWEIZ'.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Einzelne Wörter wie 'wegzudichieren' oder 'attachieren' sind im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2117,
+    "total_words": 353,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      673,
+      701,
+      641,
+      0,
+      0,
+      102,
+      0
+    ],
+    "chars_per_page_median": 657.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

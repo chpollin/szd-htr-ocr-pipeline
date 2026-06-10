@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3107",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Martha Kahn [7. November 1941], SZ-AAL/B1.177",
+    "signature": "SZ-AAL/B1.177",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3107/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3107/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3107/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.177"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Martha Kahn [7. November 1941], SZ-AAL/B1.177\n- Signatur: SZ-AAL/B1.177\n- Datum: 7.11.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petropolis, 7. XI. 41\n\nDear Marta,\nI have not yet thanked you for your letter, yet\nI often think of you. Especially when Hanna wrote me that\nLore is back in London, working at R's office. I imagine that\nyou feel half pleased about it because Raunars take an\ninterest in her (perhaps they will even try to provide her with\na husband in good old-fashioned manner) and half displeased\nwith their educational methods. Where does Lore live now? And\nKate? You never wrote what she is doing and whether you have\nany news of the girl's brother at all. Hanna wrote that you\nwere not allowed to be more than a visitor to Bath and I am\nsorry, although I do not know whether you don't prefer being\nin London now again. I wish I could have you here, not that\nI need your help, but I got so used to having you in the\nhouse with me, and I miss our domestic and other talks.\nI wrote Hanna - you would feel here like in your grandmother's\nhousehold; everything is done by hand and at home and I have\nhad some trouble at first trying to remember the old recipes\nas on my primitive stove (heated with wood and, if I am luxurious,\na bit of charcoal) there is no way of grilling and au gratin as I\nwas used to. One funny thing is that here in Petropolis you can buy\neverywhere good Streuselkuchen and Bolus and our old-fashioned\nbiscuits home-made in every bakery-shop. This comes from the fact that\na hundred years ago there was a German immigration to Petropolis\nand they have not forgotten their tradition. - Do you still do a lot\nof needle-work? Maritza is making beautiful crochet milieus and\ntable mats and showed it to me, but this little bungalow,\npleasant as it is, is not worth such fine needle-work. So maybe I\nshall begin a jumper for cool summer evenings. we are told that\nin summer it rains nearly every afternoon (while now it rains the\nwhole day) - but who will finish it if I don't get along? I left\nEva, too with a pair of socks for British soldiers, the one was nearly\nfinished when we left, but I have my doubts about the second.\nBut she has an excuse, she wrote that she had painted decorations\non the nursery furniture, and you, they are making mats and\nthings like that. Needle-work is old-fashioned, it seems.\nWith kindest regards and best wishes for your\nbirthday which must be in these days,\nYours, Lotte",
+        "notes": "Handschriftlicher Brief auf einem Blatt, Tinte blau/violett. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung über das Dokument gelegt. Kein neuer Textinhalt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2309,
+    "total_words": 434,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2309,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2309,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

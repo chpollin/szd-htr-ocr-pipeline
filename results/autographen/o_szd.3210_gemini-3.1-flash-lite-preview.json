@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3210",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [19. Dezember 1939], SZ-AAL/B1.9",
+    "signature": "SZ-AAL/B1.9",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3210/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3210/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3210/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.9"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [19. Dezember 1939], SZ-AAL/B1.9\n- Signatur: SZ-AAL/B1.9\n- Datum: 19.12.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19.XII.1939.\n\nLiebe Hanna!\nEben Euer Brief. Wir erwarten Euch Frei-\ntag von 2 Uhr ab, seht zu, dass Ihr früh fahren könnt,\ndenn schliesslich werden auch andere Leute mit dem\nWagen unterwegs sein und wir hätten Euch lieber schon\nvor Anbruch der Dunkelheit hier.\nUrsel wird Euch wohl einiges von hier\nberichten, und von dem Rest der Neuanschaffungen\nund Veränderungen werdet Ihr Euch selbst überzeu-\ngen. Es ist alles für Euch vorbereitet, sogar die\nerhöhte Butterration ist versprochen, also Ihr\nkönnt beruhigt kommen.\nZum Geburtstag herzlicheGlückwünsche,\ndas Geschenk hat Dein Bruder sicherlich pünktlich\nbesorgt.\n\nHerzliche Grüsse an Manfred,\nEure\nLotte\n\nBitte Stefans Photo-apparat mitzubringen und, wenn\nes leicht zu finden ist, jenes franz. Kinderbuch.\nKommt wie Ihr wollt, per Bahn oder Auto, aber kommt",
+        "notes": "Typoskript mit handschriftlicher Ergänzung am unteren Rand (violette Tinte). Die Unterschrift 'Lotte' ist ebenfalls handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "überhaupt nur so bald als möglich, ich habe\nhausväterlich für Alles gesorgt, mächtige Schinken\nund üppige Gänse hängen im Keller und sehnen\nsich verspeist zu werden, Würste in runden Kränzen\nwollen gehäutet und verzehrt sein, das Clavier wartet\nauf seinen Meister und Eva auf ihre Eltern. Herz-\nlichst Euer\nStefan",
+        "notes": "Handschrift in violetter Tinte. Die Seite ist in der Mitte gefaltet.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text auf dieser Seite ist eine Wiederholung des unteren Teils von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Lotte und Stefan sind deutlich erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1122,
+    "total_words": 174,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      809,
+      313,
+      0
+    ],
+    "chars_per_page_median": 561.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

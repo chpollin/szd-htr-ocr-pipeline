@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3295",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [21. Juni 1936], SZ-AAL/B2.60",
+    "signature": "SZ-AAL/B2.60",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3295/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3295/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3295/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3295/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3295/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.60"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [21. Juni 1936], SZ-AAL/B2.60\n- Signatur: SZ-AAL/B2.60\n- Datum: 21.6.1936\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, ich\nhabe keine Secretarin (leider)\nso nur Dank für beiliegende\nAbschrift. Sie können Leuten\nauch allenfalls schreiben, dass ich\nunterwegs bin und bald von\nmir hiebei zu erwarten hab[e] mit\nsonstiger Pünktlichkeit.\nIn meinem privaten Ärger könnten\ndrei Familien bequem auskommen!\nHerzlichst\nS.Z.",
+        "notes": "Handschriftlicher Brief auf gelblichem Papier. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fräulein Altmann, ich\nhabe keine Secretarin (leider)\nso nur Dank für beiliegende\nAbschrift. Sie können Leuten\nauch allenfalls schreiben, dass ich\nunterwegs bin und bald von\nmir hiebei zu erwarten hab[e] mit\nsonstiger Pünktlichkeit.\nIn meinem privaten Ärger könnten\ndrei Familien bequem auskommen!\nHerzlichst\nS.Z.",
+        "notes": "Brief mit Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite des Briefumschlags. Briefmarke Österreich (60 Groschen), Poststempel Wien 68, 21.VI.36.18.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags. Teilweise geöffnet, Klebereste sichtbar. Prägedruck des Herstellers 'F. AUFMESSER & CO. WIEN IX' schwach erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'habe' am Zeilenende wurde aufgrund des Kontextes und der Handschrift als 'hab[e]' ergänzt, da das 'e' leicht abgeschnitten oder flüchtig geschrieben ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 689,
+    "total_words": 101,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      319,
+      0,
+      319,
+      51,
+      0
+    ],
+    "chars_per_page_median": 185.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

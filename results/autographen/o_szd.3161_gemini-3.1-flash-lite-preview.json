@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3161",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [23. August 1940], SZ-AAL/B1.45",
+    "signature": "SZ-AAL/B1.45",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3161/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3161/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3161/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.45"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [23. August 1940], SZ-AAL/B1.45\n- Signatur: SZ-AAL/B1.45\n- Datum: 23.8.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "23.8.40\nDear Hanna and Manfred,\nYesterday we received your letter of the 8th\nAug. and on our arrival we found one of July 12th,\nboth air-mail, and that is all what we had from you\nso far except that one clipper letter in London. It will\nbe best if in future you number your letters and I\nconfirm which one we receive. It is an event for me to\nhear from you, and you can't write often and long enough.\nFor instance I do not quite know whether Marta was able\nto stay with Manfred after all and if Rosa is still with him\nalso what you will do when Eva leaves, go back to\nLondon? Please yourself entirely and don't think too much\nof the house except as a place of rest and enjoyment\nfor you and Manfred. I know it will be hard for\nyou to be without Eva, but I hope that it will not\nbe for too long and that she will be happy with\nSalmons. They are kind friendly people and I believe\nnot quite as rich as I first thought, just comfortably\noff, earning well and as all Americans spending\nfreely. The only fear Mr Salmon expressed was\nthat they might get too attached to each other\nand that it would be hard for Eva to leave\nthem again to go back home. But I assured\nhim that we prefer this by far and that I\nwould not worry about it now that she might\nfeel too happy in his family. I would hate\nthe thought that she is unhappy and just\nlonging to leave them. I asked Anita to\ncable me when Eva arrives - I did not want\nto confuse Salmon's by too many instructions -\nbut I would like you to\ninform us also, by cable when you get the\nnews so that we know not only that Eva arrived\nwell but also that you know it were\ninformed about it.\nAbout Heiner's affidavit. I cabled from here that\nit would be sent from America soon by Jacob Landau.\n\n[Randnotiz links:]\nAlso cable when Eva is sailing to New York\nso that we can also",
+        "notes": "Handschriftlicher Brief auf beidseitig beschriebenen Papierbögen. Die Randnotiz am linken Rand ist vertikal geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Jacob Landau has travelled with us from New York.\nHe is director of the Jewish Telegraphic Agency in\nNew York and has cabled from here to his wife to\nsend the affidavit either herself or through his\noffice. It is a bit more complicated from here to\narrange it, but Mr. Landau feels confident that\nthe affidavit can be sent in his absence. He is a\nvery decent man and will certainly see to it - al-\nthough by correspondence only - that the matter is\nnot neglected. I certainly have learned from\nthe affair with Eva's affidavit. Let us hope that\nit helps Heiner to get over, and if Alice is willing\nto work in a household she will easily\nfind work, and then she can slowly build\nup a business for herself.\nAs to us: we had a beautiful crossing\nwith very nice South-Americans and are being\nspoilt here. I must admit that in spite of\nall the events and in spite of the fact\nthat I always feel a little homesick for\nyou, the former Bath-family and Bath itself,\nwe really enjoy it here. Rio is just as\nbeautiful as Stefan promised, the people just\nas nice as he said and the winter not hard,\none feels just right in a light summer dress\nand I need not have brought my winter things\nfor this Brazilian winter.\nWe were glad to get your cable on the\nship and to learn that Manfred spent the weekend\nof Eva's birthday with you. I wish we could have\nbeen with you. I hope you are all well. Please give\nMama my love and tell her about my letter, I shall\nwrite her soon and perhaps enclose a few photos\nmade on our arrival.\nKindest regards to all, especially to\nLizzie who seems to have developed into our caretaker.\nLetter No. 2 from Rio. Lotte",
+        "notes": "Handschriftlicher Brief, Fortsetzung der Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Überdeckt teilweise den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Randnotiz auf Seite 1 ist aufgrund der Ausrichtung etwas schwieriger zu lesen, aber eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3444,
+    "total_words": 678,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1812,
+      1632,
+      0
+    ],
+    "chars_per_page_median": 1722.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

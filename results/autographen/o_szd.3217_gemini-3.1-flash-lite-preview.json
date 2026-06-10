@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3217",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [4. Februar 1941], SZ-AAL/B1.96",
+    "signature": "SZ-AAL/B1.96",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3217/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3217/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3217/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.96"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [4. Februar 1941], SZ-AAL/B1.96\n- Signatur: SZ-AAL/B1.96\n- Datum: 4.2.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "4.II.41\nDear Hanna u. Manfred,\nI'll have to be a little shorter to-day as we have\nto go out very soon. Fortunately I have written you almost everything so\nthat I need not add much. Our telegram to-day gave you Eva's address:\nAmity Hall\nMount Airy Road\nCroton-on-Hudson\nNew York.\nWe took her up there to-day - that is to say we went to New Rochelle and\nMr. Salmon took us over to Croton in his car, waited until I had been at\nthe school, discussed all the arrangements with Mrs. Schaeffer, and then\ntook us back to New York. I believe I wrote you all about Mrs. Schaeffer\nin my last letter. The house, as Stefan writes, is beautifully situated\nwith large grounds, but it is very plainly furnished and run on very simple\nlines. It is a little on the primitive side (but has good windows and\ncentralheating) but I do not think Eva will miss anything. The food is\nplain and good - I had lunch there twice - and as to company there should\nbe several among fifteen children between 3 and 14 years of age. That she\nwill have to choose herself, I did not see more than one or two children,\nas most of them were at school.\nAs to school, we decided for the Hessian Hill School,\na rather progressive private school, that means a lot of independent and\nprivate work if I understood it right. I was a little hesitant at first,\nas I am beginning to get oldfashioned, but it was recommended from various\nsides as an excellent school with only very good staff. So Eva will go\nthere to-morrow and the day after as visitor and will get to know it. Mrs.\nSch. who has 13 of her 15 children in that school warned me that probably\nit would take a week for her to adapt herself to that different way of\nlearnin and teaching. But she says that it has an excellent influence\non the children, and she is very sensible, normal and not at all verstiegen\nin her views, and I trust her opinion. Also Stefan had a very good impression\nof her, and he knows her husband since many years. - I'll phone Eva in a\nfew days to see how she feels in the new and completely different surroun-\ndings - imagine the contrast between Salmon's house where she had all the\nattention and could do what she wanted and had every wish granted and a nice\nbut very modest home with fifteen children. But I hope she will feel at\nhome there very quickly and like the change.\nAs to Salmon's I must say that they behaved very decently;\nMr. S. seems to have overdone his efforts to gain her love and confidence and\nin some strange reaction she does not care very much for him although she\nlikes them both. But Mr. S. really felt sorry at her leaving and immediate-\nly arranged with Mrs. Sch. that Eva should spend the first free weekend -\nthey are allowed to go away for the weekend once a month,but can have visitors\nevery Saturday and Sunday and go out with them for the day - again at his\nhouse.He is quite determined that the ~~xxxx~~ relationship shall not be at an\nend, and maybe that they will understand each other better when they are not\nalways together. Of Mrs. Salmon too I had again not a bad impression. She\nis much cooler and reserved than her husband, but as I myself am not too\neffusive towards people I hardly know, I hm not the one to blame her for it.\nOn the whole I believe Eva will be more satisfied in her new surroundings in\nspite of the fact that at S.'s she was spoilt and could do whatever she felt\nlike doing.\nAs to music lessons, the Hessian Hill School is supposed\nto have very good teachers, and she can take her lessons there. There is a\npiano at Schaeffer's although not a grand piano and I am afraid, even not a\nvery good one.\nI hope you are well and follow our request and go to\nBath now for some months, I both of you. Kindest regards, best love Lotte\n\n[Randnotiz links, vertikal geschrieben:]\nThanks for your letter of jan 13th which we received two days ago.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen und Randnotiz. Die Randnotiz ist in violetter Tinte geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgeklebter Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Randnotiz ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3838,
+    "total_words": 733,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3838,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3838,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.3072",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Martha Kahn [6. Juli 1941], SZ-AAL/B1.145",
+    "signature": "SZ-AAL/B1.145",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3072/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3072/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3072/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.145"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Martha Kahn [6. Juli 1941], SZ-AAL/B1.145\n- Signatur: SZ-AAL/B1.145\n- Datum: 6.7.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "7 Ramapo Road,\nOssining, N.Y.\n6.7.41.\nDear Marta,\nI often think of you and of the year we spent\ntogether in Bath, but now more than ever because we are\nagain in a house for the summer, after a too long time\nof hotel- and restaurant life. There is some similarity to\nMrs Leckie's house as regards position, but neither house\nnor landscape are to be compared with Bath although\nOssining is rather pretty. There are no walks round here\nand nothing is to be seen - unless you have a car and go\nfor rides along pretty roads. I am trying to find someone\nwith whom I can go out in a car, get some practice and\nknowledge of the traffic rules and then take my driving test\nagain to be ready if one day we should decide to live in\nthe country for longer. For although a bus passes near here\none is lost without a car as most people live away from\nbus or railroad lines. I was able to take over the maid with\nthe house and that simplified everything, of course. She can\ncook meats and vegetables and is willing to do more but\nany kind of desert which does not come out of a tin or is not\nmade just by adding water to some ready-made mixture, is\nquite unknown to her. But this does not matter very much.\nI shall try to pass on to her what I myself still dimly\nremembers of the art of cooking and there is in the house a\nbook with recipes. In any case we enjoy very much being\nout in the country. There is a nice lawn round the house\nit is about as secluded from the road as Mrs Leckie's house,\nthere is a porch for Stefan to work on he need not dress and\nI can go even to the village in slacks. Two other advantages\nare that we are near Eva and not even an hour from New\nYork. It is not much cooler than New York in day time, but the\nair is nice and if it smells, it smells of flowers and grass.\nToday we have Eva with us and to-morrow I shall go with her\nto New York and return her to Croton on Tuesday. We would\nhave liked to keep her longer but there is really nothing\nwhatsoever for her to do here except to read. I hear that you are\nalways busy and at least not lonely. But it seems strange that\nLove is now in Bath and that you may not be there. Life certainly plays\nunexpected tricks on us nowadays, and God knows where we will be in\n3 or 6 months time. Anyway, we had that year in Bath which I thoroughly\nenjoyed and I have the good feeling that you too felt at home in Rosemont.\nKindest regards to all, yours,\nLotte.\n\nKindest regards and love from Stefan",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Zeilen am linken Rand wurden nachträglich von Stefan Zweig hinzugefügt. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite erkennbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "7 Ramapo Road,\nOssining, N.Y.\n6.7.41.\nDear Marta,\nI often think of you and of the year we spent\ntogether in Bath, but now more than ever because we are\nagain in a house for the summer, after a too long time\nof hotel- and restaurant life. There is some similarity to\nMrs Leckie's house as regards position, but neither house\nnor landscape are to be compared with Bath although\nOssining is rather pretty. There are no walks round here\nand nothing is to be seen - unless you have a car and go\nfor rides along pretty roads. I am trying to find someone\nwith whom I can go out in a car, get some practice and\nknowledge of the traffic rules and then take my driving test\nagain to be ready if one day we should decide to live in\nthe country for longer. For although a bus passes near here\none is lost without a car as most people live away from\nbus or railroad lines. I was able to take over the maid with\nthe house and that simplified everything, of course. She can\ncook meats and vegetables and is willing to do more but\nany kind of desert which does not come out of a tin or is not\nmade just by adding water to some ready-made mixture, is\nquite unknown to her. But this does not matter very much.\nI shall try to pass on to her what I myself still dimly\nremembers of the art of cooking and there is in the house a\nbook with recipes. In any case we enjoy very much being\nout in the country. There is a nice lawn round the house\nit is about as secluded from the road as Mrs Leckie's house,\nthere is a porch for Stefan to work on he need not dress and\nI can go even to the village in slacks. Two other advantages\nare that we are near Eva and not even an hour from New\nYork. It is not much cooler than New York in day time, but the\nair is nice and if it smells, it smells of flowers and grass.\nToday we have Eva with us and to-morrow I shall go with her\nto New York and return her to Croton on Tuesday. We would\nhave liked to keep her longer but there is really nothing\nwhatsoever for her to do here except to read. I hear that you are\nalways busy and at least not lonely. But it seems strange that\nLove is now in Bath and that you may not be there. Life certainly plays\nunexpected tricks on us nowadays, and God knows where we will be in\n3 or 6 months time. Anyway, we had that year in Bath which I thoroughly\nenjoyed and I have the good feeling that you too felt at home in Rosemont.\nKindest regards to all, yours,\nLotte.\n\nKindest regards and love from Stefan",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegten Archiv-Farbskalen und Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Transkription deckt sich mit dem Original."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4902,
+    "total_words": 988,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      2451,
+      0,
+      2451
+    ],
+    "chars_per_page_median": 2451.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3044",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [1940], SZ-AAL/B1.12",
+    "signature": "SZ-AAL/B1.12",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3044/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3044/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3044/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.12"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [1940], SZ-AAL/B1.12\n- Signatur: SZ-AAL/B1.12\n- Datum: 1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "TELEPHONE: BATH 4983.\n\n“ROSEMOUNT,”\nLYNCOMBE HILL,\nBATH.\n\nLiebe Hannah, noch nach dem Dank\ndes ganzen Hauses, dessen schöner\nGänsebratenduft mit Dir einodwarten[?]\nist nur die Schreckensnachricht, dass\ndie Kinder nebst 3 Tagen Ostern noch\nvom 10 April bis 1 Mai Ferien haben,\nworan Klavier und Französisch dann\nprofitieren müssen. Heute leichter\nSchneebelag in der Landschaft, aber\nbereits im Abklingen, an ein Herunter-\nrodeln nach Bath leider nicht zu\ndenken. Ich sende Dir den -\nKaths wohlverpackt zu. Herzlichst\nEuer Stefan",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Das Wort 'einodwarten' ist schwer lesbar und könnte auch anders interpretiert werden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "In Eile nur herzliche Grüsse,\nda ich im Moment mit den\nProblemen von William und\nseiner \"young lady\" (etwa 10\nJahre älter als er) beschäf-\ntigt bin, die ihre Stellung\nverlassen hat und uns als\nSchlafstelle benutzen möchte,\nwas wir voraussichtlich nicht\nmachen werden.\nEure Lotte",
+        "notes": "Handschriftlicher Text auf der Rückseite des Briefes. Die Tinte ist blau/violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "des ganzen Hauses, dessen schöner\nGänsebratenduft mit Dir einodwarten[?]\nist nur die Schreckensnachricht, dass\ndie Kinder nebst 3 Tagen Ostern noch\nvom 10 April bis 1 Mai Ferien haben,\nworan Klavier und Französisch dann\nprofitieren müssen. Heute leichter\nSchneebelag in der Landschaft, aber",
+        "notes": "Ausschnitt des Brieftextes (Seite 1), der hier zusammen mit einer Farb- und Grauskala für Archivierungszwecke abgebildet ist.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'einodwarten') sind aufgrund der Schreibweise und Tintenführung schwer eindeutig zu identifizieren. Der Text auf Seite 3 ist ein Duplikat eines Teils von Seite 1."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1095,
+    "total_words": 169,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      527,
+      278,
+      290
+    ],
+    "chars_per_page_median": 402.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0118,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

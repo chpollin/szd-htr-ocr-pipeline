@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3396",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Joseph Roth an Lotte Zweig [8. August 1936], SZ-AAL/B9.2",
+    "signature": "SZ-AAL/B9.2",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3396/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3396/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3396/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B9.2"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Joseph Roth an Lotte Zweig [8. August 1936], SZ-AAL/B9.2\n- Signatur: SZ-AAL/B9.2\n- Datum: 8.8.1936\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "8. August 1936.\nLiebes Fräulein Altmann, ich danke Ihnen herzlich im Voraus\nfür das schöne Papier, das Sie mir schicken werden. Hoffentlich\nbald! Ich lege hier den Bogen bei, damit es nicht fehlt.\nEs ist so gut und rein, bitte, schreiben Sie mir eine Zeile,\nob und wann es abgeht.\nIch bitte Sie herzlich, den beiliegenden Brief ganz bestimmt,\nHerrn Zweig nachzuschicken. Es ist für mich sehr wichtig, ich bitte\nSie mir auch dies zu bestätigen, denn ich kann der Post in Empfang\nnicht. Alles Gute für Sie und aus London! Herzlich Ihr\nJoseph Roth.\nBitte möglichst große Bogen! Herzlich Dank!",
+        "notes": "Handschriftlicher Brief auf Hotelbriefpapier. Die Tinte ist dunkelblau/violett. Die Schrift ist teilweise schwer lesbar, aber der Kontext ist klar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Ein horizontaler Knick ist in der Mitte sichtbar, mit leichten Verfärbungen.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "8. August 1936.\nLiebes Fräulein Altmann, ich danke Ihnen herzlich im Voraus\nfür das schöne Papier, das Sie mir schicken werden. Hoffentlich\nbald! Ich lege hier den Bogen bei, damit es nicht fehlt.\nEs ist so gut und rein, bitte, schreiben Sie mir eine Zeile,\nob und wann es abgeht.\nIch bitte Sie herzlich, den beiliegenden Brief ganz bestimmt,\nHerrn Zweig nachzuschicken. Es ist für mich sehr wichtig, ich bitte\nSie mir auch dies zu bestätigen, denn ich kann der Post in Empfang\nnicht. Alles Gute für Sie und aus London! Herzlich Ihr\nJoseph Roth.\nBitte möglichst große Bogen! Herzlich Dank!",
+        "notes": "Identisch mit Seite 1, jedoch mit Farbskala und Grauskala für Archivierungszwecke am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift von Joseph Roth gut lesbar. Die Struktur ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1178,
+    "total_words": 202,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      589,
+      0,
+      589
+    ],
+    "chars_per_page_median": 589,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

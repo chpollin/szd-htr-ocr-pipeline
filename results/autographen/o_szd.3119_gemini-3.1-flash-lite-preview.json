@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3119",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [10. Januar 1942], SZ-AAL/B1.188",
+    "signature": "SZ-AAL/B1.188",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3119/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3119/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3119/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.188"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [10. Januar 1942], SZ-AAL/B1.188\n- Signatur: SZ-AAL/B1.188\n- Datum: 10.1.1942\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petropolis, 10.I.42\nMy dear Mamma,\nFrom what I hear from my sister-in-law Eva has\nhad such busy Christmas holidays that I am afraid she has ~~had~~\nlittle time to write you about it. So I report what I know about it:\nSalmon's have had her for the whole vacation time and my sister-\nin-law and Stefans first wife (please remember the names Ste-\nfanie and Friderike, so as to spare me those long words) who wanted to\ninvite her had to make later appointments. One day she spent at\nMrs. Wiener's and today, I believe, Stefanie takes her to the Opera.- I\nam glad for Eva and for you that she has a lovely vacation\ntime, being taken out, petted and spoiled, and she was greatly\nlooking forward to 'great fun' at Salmon's. So far I know only\nthat there was a Christmas party of 18 children in New Rochelle.\nPersonally I am glad, too, that Wiener's invited her again, not because\nthey live on Park Avenue - you know that I am indifferent against\nsuch things - but because they love and understand children and\nbecause I like them both. - I hope you have spent pleasant\nChristmas days, or better weeks, at Rosemount, and that on the whole\neverything is going as you want it to go.- About our life I must so\nfar repeat the same story again and again: It is raining almost\nconstantly and that is why the season is very bad and hardly any\nof our friends are up here yet. So we continue our quiet life,\nhaving company by our dog and going for walks whenever the\nrain stops for a few hours. The description of our walks I leave\nto Stefan. It is clearly his job, being a writer to give you an idea\nhow 10 minutes from the town, one can be in midst almost complete\nwilderness and primitive life, in some lonely valley with beautiful\nand varied views and lots of children around poor little huts. Need-\nless to say that where we go, none of our friends has ever set foot.\n- Next week there is the great Pan-American conference in Rio, but the\nBrazilians have been so spoilt with attention and visitors this last\nyear that they don't get very excited about it. - The communications\nwith USA continue as before, only letters take longer, and so I hope\nthat the cardigan I knitted for Eva and which I dispatch Monday,\nwill arrive in due time (and that it will fit). Working at it I thought\nof all the knitting we have done together and wished I could have you\nhere. Also the fog which frequently surrounds us and all the English\nwoollens I am wearing on account of it, bring back many memories.\nWell one day we will talk about all this again. Fortunately time\nreally flies and soon we will have to think again what to do when our\ncontract expires in May. I suppose we shall try to remain in this little place\nwhich for our needs has many advantages. - Don't forget to write us a lot!\nFondest love, Lotte.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Tinte ist dunkelblau/schwarz, gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Dies ist eine Kopie der ersten Seite mit aufgelegten Archivierungshilfen (Farbskala/Grauskala #13). Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und flüssig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2785,
+    "total_words": 526,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2785,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2785,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

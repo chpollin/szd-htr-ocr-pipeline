@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3154",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Juli 1940], SZ-AAL/B1.39",
+    "signature": "SZ-AAL/B1.39",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3154/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3154/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3154/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.39"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Juli 1940], SZ-AAL/B1.39\n- Signatur: SZ-AAL/B1.39\n- Datum: 07.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, we had to postpone the depar\nture as the answers from South America\nare not yet arrived and so we have to stay\nhere - it is not too hot and we have more\npeople to see as we want to. Altogether\nwe are not at all to complain and\nI use the time for preparing the lectures\nand other work. Here is a great action\nfor the refugees in France and we hope\nto get some of them over - on the other\nhand there are contradicting news about\nthe transfer of British children and\nI do not know if you will and can\nsend Eva over, but you may be sure\nthat our friends will take best care\nof her. I know it is a difficult task\nto decide about and I would not venture",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "to influence your decision - what can be\ndone on our part is done and will be done\nthrough our friends. For Eva[?] I have\ndone my best and would not wonder if\nit would be successful - like in England\nwe are occupied more with other people's\nworries than our own. We dream sometimes\nof our garden and of a peaceful world\n- let us hope we will soon sit together\nin our conservatory and speak from this\ntime on with relief. Kindest regards for\nyou all. Yours ever\n\nStefan Zweig\nIt seems that letters are now quicker by\nboat than through the Clipper - the best\nway is to tear the same letter in duplicate",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Textausschnitt in der Mitte ist eine Wiederholung des Textes von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Ein Wort in Zeile 3 auf Seite 2 ('Eva' oder 'Erdmann'?) ist leicht unsicher, ich habe es als 'Eva' transkribiert, da es im Kontext des Briefes (Erwähnung von Eva auf Seite 1) Sinn ergibt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1260,
+    "total_words": 256,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      660,
+      600,
+      0
+    ],
+    "chars_per_page_median": 630.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0039,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

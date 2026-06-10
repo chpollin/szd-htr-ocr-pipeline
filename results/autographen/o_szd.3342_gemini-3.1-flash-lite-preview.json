@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3342",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Friderike Zweig an Stefan Zweig [24. September 1937], SZ-AAL/B3.102",
+    "signature": "SZ-AAL/B3.102",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3342/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3342/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3342/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.102"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Friderike Zweig an Stefan Zweig [24. September 1937], SZ-AAL/B3.102\n- Signatur: SZ-AAL/B3.102\n- Datum: 24.9.1937\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "29/9 37\n\nLieber Stefan,\nbitte rege dich nun nicht länger mit\nBriefen an Meiler auf. Du hast dir\ngewaltsam in Misverständnisse hinein\ngeredet. Ist deine Gesinnung wirklich mir\nso entfremdet, wie soll man sie da\nbeilegen! Hör bitte auf mich zu beschimpfen,\n(„Närrin“, „auf Conto gebracht“, „Geschäfte\nmachen“ etc.) dabei geht mehr caput,\nals irgend welche Vermögenswerte oder\nist beinahe schon caput gegangen, ~~was~~ \n~~worden~~ jetzt durch deine 2 Briefe an\nMeiler. Mir selbst hast du ja nie\nden kalten Mut gehabt zu sagen,\nDu willst auf alle Fälle die Hagultig[?]\nkeit einbringen, mir sprachst du\nvon dem zurückgekehrten Gresmeyer.",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkelblau/violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dein Brief hat sich mit meiner durch\nMeiler's Schuld verspäteten Erklärung\ngekreuzt, in der Dir nun gar\nkeine Frist für die 1500 Sch auf-\nerlegt ist. Aber nun liegt die\nEntscheidung an Dir. Ich hatte\nDir ja nach Lugano eine Erklärung,\nohne alle Zumutungen an Dich\ngesandt. Überlege {ernstlich} ob ich Geschäfte\nmachen wollte gegenüber dem Notariats\nAkt. Die Erklärung verfasste damals\nMeiler und ich war der Meinung,\ndass er durch Dich informiert war da\nDu juristische Abfassung verlangtest.\nVon mir ist der Passus „wir rechne\ndamit“ bei dem ich bleibe, weil\nmir dies allein Beweis deiner Freund\nschaft und eines armseligen Rest von\nTreue gäbe. Meiler hat weder Auf\nschub erhalten, aber ich sehe ein, dass\njetzt eine Entscheidung kommen muss.\n\n[am linken Rand vertikal geschrieben:]\nDes grüsst bestens\neine Närrin",
+        "notes": "Handschriftlicher Brief auf Papier. Fortsetzung des Textes von Seite 1. Am linken Rand befindet sich ein vertikaler Zusatz.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt den unteren Teil des Briefes von Seite 2, der durch die Archivierungshilfen teilweise verdeckt ist.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Ein Wort in Zeile 14 auf Seite 1 ('Hagultig') ist unklar, könnte aber eine spezifische Bezeichnung oder ein Schreibfehler sein."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1445,
+    "total_words": 232,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      632,
+      813,
+      0
+    ],
+    "chars_per_page_median": 722.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0043,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

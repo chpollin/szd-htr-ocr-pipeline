@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3320",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [27. August 1937], SZ-AAL/B2.83",
+    "signature": "SZ-AAL/B2.83",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3320/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3320/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3320/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.83"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [27. August 1937], SZ-AAL/B2.83\n- Signatur: SZ-AAL/B2.83\n- Datum: 27.8.1937\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Fräulein Lotte Altmann\n\nMarienbad (Tschechoslowakei)\nVilla Souvenir\nWaldquelle",
+        "notes": "Adressseite der Postkarte. Handschriftlich in violetter Tinte. Poststempel: LUZERN 2, 27. VIII 1937. Briefmarke: 20 Helvetia.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Liebes Fräulein Altmann,\nich bin also jedenfalls\nam 2. allenfalls auch\n3. Hotel Royal ~~Hôtel~~[?]\neintreffen. Die Post in\nLondon soll nach dem\n2. Sept. einfach liegen\nbleiben, je später man\nsie liest, desto besser.\nMit besten Grüßen\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Das Wort 'Hôtel' ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fräulein Altmann,\nich bin also jedenfalls\nam 2. allenfalls auch\n3. Hotel Royal ~~Hôtel~~[?]\neintreffen. Die Post in\nLondon soll nach dem\n2. Sept. einfach liegen\nbleiben, je später man\nsie liest, desto besser.\nMit besten Grüßen\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Durchstreichung wurde gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 570,
+    "total_words": 88,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      78,
+      246,
+      246
+    ],
+    "chars_per_page_median": 162.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0227,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

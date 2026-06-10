@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3131",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [21. Februar 1942], SZ-AAL/B1.199",
+    "signature": "SZ-AAL/B1.199",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3131/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3131/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3131/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3131/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3131/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.199"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [21. Februar 1942], SZ-AAL/B1.199\n- Signatur: SZ-AAL/B1.199\n- Datum: 21.2.1942\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\nDearest Hanne, Going away like this my only wish is that you\nmay believe that it is the best thing for Stefan, suffering as\nhe did all these years with all those who suffer from the Nazi\ndomination, and for me, always ill with asthma. I wish we could\nhave done more for Eva personally, having her with us all the time,\nbut on the other hand it is my sincere conviction that it has\nbeen better for Eva to be with Mrs. Schaeffers whose understanding,\nlove and way of education is so much similar to your own.\nHaving her with us, she would have felt our moods, been lonely\nprobably and have without doubt great difficulties adapting\nherself in such completely different surroundings. On Mrs. Sch.\nyou may count, I am convinced, like on one of the family.\nMy sister-in-law will also look after Eva and maybe even offer\nto take her herself or send Eva somewhere else. But I who know\nyou and your ideas, would advise you to leave Eva at Schaeffer's.\nLet us hope it is not too long until you can take her home.\nMany many thanks for all you have been to me\nand forgive me for causing pain to you and Manfred. Believe\nme it is best as we do it now.\nLotte\n\nDear Hannah and Manfred, you would understand us better had you seen how\nLotte suffered in the last months from her asthma and I for my part was oppressed by\nour nomadic life which did not allow me to do my work efficiently. We liked this\ncountry enormously but it was always a provisory life far from our home, our friends\nand for me with sixty years the idea to wait still for years of this horrible time became\nunbearable. Had Lottes health been better and had we could have Eva with us it would\nhave had seem to continue but living in thoughts always with the others far away and\nwithout any hope to have the quiet life I was longing for and to see Lottes health restored\n(the long injection-care did not help at all) we decided, bound in love, not to leave each\nother. I feel responsibility against you and Lottes mother, and on the other hand you know\nhow perfect we two have lived together these years and that there was not a moment of\ndisagreement between us. Let us hope that you will see your daughter soon and she can\ngive you all the love you merit; I have written to my brother and I am sure they will\ndo all they can for her. Our devoted friend, my publisher Abrão Koogan will tell you\none day about our last hours and that our thoughts have always been with you. Stefan",
+        "notes": "Brief auf Briefpapier mit Briefkopf. Handschriftlich in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Darunter ein Umschlagfragment mit Poststempeln (New York, Miami) und dem Aufkleber 'OPENED BY'.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "rue Goncalves Dias\n\nMALA AEREA    VIA AIR MAIL    PAR AVION\n\nManfred & Hannah Altman\nLondon N.W.3\n49 Regency Lodge",
+        "notes": "Adressseite des Briefumschlags. Briefmarken aus Brasilien (500, 1000, 2000, 5000 Reis). Aufkleber 'EXAMINER 3130'.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Umschlagfragment mit Poststempeln (New York, Miami) und dem Aufkleber 'OPENED BY'. Identisch mit dem unteren Teil von Seite 3.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Die Struktur des Briefes ist klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2648,
+    "total_words": 500,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      2534,
+      0,
+      0,
+      114,
+      0
+    ],
+    "chars_per_page_median": 1324.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

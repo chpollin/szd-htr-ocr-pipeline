@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3157",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [14. August 1940], SZ-AAL/B1.41",
+    "signature": "SZ-AAL/B1.41",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3157/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3157/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3157/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3157/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3157/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.41"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [14. August 1940], SZ-AAL/B1.41\n- Signatur: SZ-AAL/B1.41\n- Datum: 14.8.1940\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "VIA AIR MAIL\n\nON BOARD\nS. S. Argentina\n14.8.40.\n\nDear Hanna and Manfred,\nWhile in New York I had\none single letter from you, one\nfrom the children and one from\nMama, and now it is again a\nlong time without news - but I\nhope that everything is allright\nwith you, that Eva gets over safely\nand in good company and that\nshe feels happy in her new home.\nI am afraid my last letters from\nNewyork were rather confused and\nincoherent, it was a terrible rush\nthere last days as we worked with\nViertel every afternoon and sometimes\nin the evening.\nAs to Salmons, I have written\nthat I had a good impression,\nkind, friendly people who want\nto have a child besides their own\nboy of three. I have not seen\ntheir home, but I had long\nconversations with them and\nfeel sure that Eva will be\n[...]\n\n[Randnotiz rechts:] all dem, auch die Rein war herrlich",
+        "notes": "Handschriftlicher Brief auf Briefpapier der S.S. Argentina. Die linke Seite weist Textspuren auf, die durch das Papier scheinen (bleed-through), diese wurden gemäß Anweisung ignoriert. Die letzte Zeile des Haupttextes ist durch den Falz/Rand teilweise abgeschnitten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "in pleasant carefree surroundings\nin good neighbourhood with a good\nschool and plenty of children\nnearby. New Rochelle is a kind of\nsuburb of New York situated on\na lake, 40 minutes ride to New\nYork. Rose Wohl who knows them\nwill go and see Eva and pro-\nmised to settle her elsewhere should\nfor some unforseen reason Eva not\nbe quite happy with those people.\nI telegraphed you also to inform\nAnita about Eva's arrival -\nthis was only to make quite sure\nthat Eva will be expected. There\nis a very slight chance that Salmon's\nmight be away for a few days\nand in this case Anita would\nmeet her and take her home. In\nany case Anita and Salmon's will\ncommunicate before Eva's arrival\nwhich, I hope, will be very soon.\nEither Salmon or Anita will cable\nyou immediately on Eva's arrival,\nand I asked Anita to cable me\ntoo. - I hope that I have prearranged\nfor any possibility, I have done my\nbest, but things were complicated\nby the fact that people in Newyork have",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "VIA AIR MAIL\n\nON BOARD\nS. S. Argentina\n\nonly small apartments, that most people\n- except our refugee friends - were away\nand that all the schools which I\nmight otherwise have inspected were\nclosed for the summer. But the\narrangement as it is now should in\nour opinion work out well and\nEva be happy there. Of course\nit will be hard for her to travel by\nherself and to be met by strangers\non arrival. I am terribly sorry\nthat we had to leave but there\nwere a number of reasons why we\ncould not stay any longer in New\nYork.\nAs to Heiner, I have written\nto Mr. Berner, Rose's brother-in-law\nand asked him for an affidavit.\nUnfortunately your cable arrived\nat a moment where also the last\nAmericans of our acquaintance had\nleft New York and so we could not\narrange anything for him. Also Mr.\nBerner is away until the end of\nthe month, but I feel sure that",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "he will do it if he possibly can.\nI have asked him to answer me\nby air mail to Rio and I would\nthen cable you to inform him\nabout the dates and names so\nthat he can fill out the affidavit.\nOf all the persons we know Mr.\nBerner seemed the most likely to\ndo it. As to Ursel I did not try\nanything as in her case the Bri-\ntish re-entry permit would be\nrequired should she not come in\nunder the quota. And I heard\nfrom people trying in similar\ncases without success.\nI hope to find long letters\nin Rio - you did not say anything\nabout yourself and Manfred's work.\nIs Alice still with Horngrads? Did I\nunderstand right that Marta could\nstay, what will you do with Ursel\nwhen Eva is gone, can you leave\nher in Bath with the people who\nmoved in, and will you go back\nto London then? Do just as you feel\nit best for your own sake, don't\nthink of our house, it is more important\nthat the arrangements are suitable for you.",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala zur Archivierung. Darunter ist ein Ausschnitt des Brieftextes (Seite 4) zu sehen, der hier nicht erneut transkribiert wird.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die wenigen unsicheren Stellen betreffen lediglich den Randbereich des Papiers."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3560,
+    "total_words": 689,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      838,
+      958,
+      851,
+      913,
+      0
+    ],
+    "chars_per_page_median": 882.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0015,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

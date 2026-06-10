@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3164",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. September 1940], SZ-AAL/B1.48",
+    "signature": "SZ-AAL/B1.48",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3164/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3164/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3164/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.48"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [15. September 1940], SZ-AAL/B1.48\n- Signatur: SZ-AAL/B1.48\n- Datum: 15.9.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "№ 6 or 7 from Rio\n\nRio\nSunday, 15.9.40\n\nDear Hanna and Manfred\nJust now I got a telegram that Meiner's affidavit\nhas been cabled. I do not yet know any details besides this\nand shall phone Mr. Landan to Sao Paulo to-night in\norder to hear more and then I shall send you a cable.\nWithin the next few days I also hope to get a cable in-\nforming me of Eva's arrival in USA. I believe I confirmed\nalready your letter of Aug 26th. I am glad that you still enjoy\nBath and I hope you will have a relatively calm time and\nif possible with Manfred. What about Mama? Did you try to\nget permission that she leaves London? I am afraid she will\nnot be allowed to go to Bath, but perhaps she can go with\nsome friends. Yes, Manfred is right, we follow with great\nconcern all the newspaper reports and I nearly wish some-\ntimes that I could be with you in order not to have to\nwait so long for news. On the other hand, I cannot deny\nthat we enjoy our stay here enormously. We have today\nchanged over to other rooms looking out on the bay, and\nthis little detail will make it more difficult for us\nto leave Rio. Up to now it is not yet very hot, and the\nweather is just perfect for strolling around and making\nexcursions. Friday Stefan has a lecture in Sao Paulo and\nas I was invited as well I shall accompany him although\nI do not expect too much from this town except a visit to\nthe snake farm where they make serum against snake bites.\nI hope to have another letter from you within\nthe next few days and wish that it contains good news.\nAll the best wishes to all of you,\nLotte",
+        "notes": "Handschriftlicher Brief auf gelbem Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text der ersten Seite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1563,
+    "total_words": 312,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1563,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1563,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3071",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juli 1941], SZ-AAL/B1.144",
+    "signature": "SZ-AAL/B1.144",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3071/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3071/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3071/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3071/IMG.4"
+    ],
+    "input_image_count_total": 4,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.144"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Juli 1941], SZ-AAL/B1.144\n- Signatur: SZ-AAL/B1.144\n- Datum: 07.1941\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah & Manfred we are eagerly expecting your cable\nthat Manfred has passed his examination and you will has\nthe well-earned rest in Bath. I wish you would feel happy\nthere - as much happy as people with human feelings are\nable to be in these horrid times. I personally am extremely\ndepressed by the prospect how many people will suffer before\nthis beast Hitler will be down but this will on the other\nhand be the only possibility to make life worth living. You\nare so much younger than I who has no more much time\nfor waiting and very often I am a bad companion for\nLotte with my black thoughts - but how could it be other\nwise in such a time especially if one cannot be active and\nuseful. I am writing now the story of my life, it will be\na rather long book and I shall try that the end of it will\nnot be too sad and depressive. Most of the refugee writers\nare already here in the country some did find small\npossibilities and altogether it is only for those who can\nassimilate themselves and write what one likes for read\nhere, exciting stuff or sensational news; just the best\nhave the smallest chances, those who take responsibility\nfor every word. I hope Willi[?] has been able to arrange\nall, in the future you would perhaps sometimes apply\nto Frost or Wooster for extraordinary occasions. Thanks\nalso for the news about our faithful bookseller Eidemann[?],\nyou understand that I was somewhat puzzled that he never\ngave me directly news but I know very well what an honest\nand reliable friend he is. Now enjoy your holidays, I was\nso glad that you had for a whole month quiet nights in\nLondon and I hope you will have rested physical and\nmental rest in Bath. Please give my love to all, also\n\n[Randnotiz links, von unten nach oben]:\nto Belauin[?] and Roland to whom I will write soon. Yours\nStefan Zweig [?] [?] [?] [?] [?]\n\n[Randnotiz rechts, von unten nach oben]:\nJust your letter from June 21st thanks!",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Der Text am linken Rand ist teilweise durch das aufgeklebte Zeitungsschnipsel verdeckt. Die Randnotiz rechts ist vertikal geschrieben.",
+        "confidence": "medium",
+        "confidence_notes": "Einige Wörter am linken Rand sind durch das aufgeklebte Zeitungsschnipsel teilweise verdeckt oder schwer lesbar. Die Namen 'Belauin' und 'Eidemann' sind unsicher.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dear Hannah & Manfred we are eagerly expecting your cable\nthat Manfred has passed his examination and you will has\nthe well-earned rest in Bath. I wish you would feel happy\nthere - as much happy as people with human feelings are\nable to be in these horrid times. I personally am extremely\ndepressed by the prospect how many people will suffer before\nthis beast Hitler will be down but this will on the other\nhand be the only possibility to make life worth living. You\nare so much younger than I who has no more much time\nfor waiting and very often I am a bad companion for\nLotte with my black thoughts - but how could it be other\nwise in such a time especially if one cannot be active and\nuseful. I am writing now the story of my life, it will be\na rather long book and I shall try that the end of it will\nnot be too sad and depressive. Most of the refugee writers\nare already here in the country some did find small\npossibilities and altogether it is only for those who can\nassimilate themselves and write what one likes for read\nhere, exciting stuff or sensational news; just the best\nhave the smallest chances, those who take responsibility\nfor every word. I hope Willi[?] has been able to arrange\nall, in the future you would perhaps sometimes apply\nto Frost or Wooster for extraordinary occasions. Thanks\nalso for the news about our faithful bookseller Eidemann[?],\nyou understand that I was somewhat puzzled that he never\ngave me directly news but I know very well what an honest\nand reliable friend he is. Now enjoy your holidays, I was\nso glad that you had for a whole month quiet nights in\nLondon and I hope you will have rested physical and\nmental rest in Bath. Please give my love to all, also\n\n[Randnotiz links, von unten nach oben]:\nto Belauin[?] and Roland to whom I will write soon. Yours\nStefan Zweig [?] [?] [?] [?] [?]\n\n[Randnotiz rechts, von unten nach oben]:\nJust your letter from June 21st thanks!",
+        "notes": "Identisch mit Seite 1, jedoch mit einem aufgeklebten Zeitungsausschnitt oben links.",
+        "confidence": "medium",
+        "confidence_notes": "Siehe Seite 1. Der Zeitungsausschnitt verdeckt einen Teil des Textes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "confidence": "high",
+        "confidence_notes": "Die Seite ist leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "Dear Hannah & Manfred we are eagerly expecting your cable\nthat Manfred has passed his examination and you will has\nthe well-earned rest in Bath. I wish you would feel happy\nthere - as much happy as people with human feelings are\nable to be in these horrid times. I personally am extremely\ndepressed by the prospect how many people will suffer before\nthis beast Hitler will be down but this will on the other\nhand be the only possibility to make life worth living. You\nare so much younger than I who has no more much time\nfor waiting and very often I am a bad companion for\nLotte with my black thoughts - but how could it be other\nwise in such a time especially if one cannot be active and\nuseful. I am writing now the story of my life, it will be\na rather long book and I shall try that the end of it will\nnot be too sad and depressive. Most of the refugee writers\nare already here in the country some did find small\npossibilities and altogether it is only for those who can\nassimilate themselves and write what one likes for read\nhere, exciting stuff or sensational news; just the best\nhave the smallest chances, those who take responsibility\nfor every word. I hope Willi[?] has been able to arrange\nall, in the future you would perhaps sometimes apply\nto Frost or Wooster for extraordinary occasions. Thanks\nalso for the news about our faithful bookseller Eidemann[?],\nyou understand that I was somewhat puzzled that he never\ngave me directly news but I know very well what an honest\nand reliable friend he is. Now enjoy your holidays, I was\nso glad that you had for a whole month quiet nights in\nLondon and I hope you will have rested physical and\nmental rest in Bath. Please give my love to all, also\n\n[Randnotiz links, von unten nach oben]:\nto Belauin[?] and Roland to whom I will write soon. Yours\nStefan Zweig [?] [?] [?] [?] [?]\n\n[Randnotiz rechts, von unten nach oben]:\nJust your letter from June 21st thanks!",
+        "notes": "Scan mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "confidence": "medium",
+        "confidence_notes": "Siehe Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der Text ist gut lesbar, jedoch sind einige Wörter durch den aufgeklebten Zeitungsausschnitt verdeckt. Die Randnotizen sind aufgrund der vertikalen Ausrichtung und der Handschrift teilweise schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 5754,
+    "total_words": 1071,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1918,
+      1918,
+      0,
+      1918
+    ],
+    "chars_per_page_median": 1918.0,
+    "marker_uncertain_count": 24,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0224,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3080",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. Juli 1941], SZ-AAL/B1.152",
+    "signature": "SZ-AAL/B1.152",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3080/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3080/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3080/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.152"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [31. Juli 1941], SZ-AAL/B1.152\n- Signatur: SZ-AAL/B1.152\n- Datum: 31.7.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31.7.41\n\nOssining.\n\nDear Hanna, dear Manfred, I can only add a few lines today\nbeing busy with supervising Eva's writing, knitting typing\nand the maid's first try to make potato salad (still a special\ntreat for your child). I had her come here yesterday, for I\nhad Elizabeth for tea who came with husband and her two\nchildren. I like them, and Eva who is invited to spend a\nfew days with them the week after next will certainly\nenjoy herself, once the two girls have given up her very great\npoliteness of the beginning. - We are working hard and Eva\nhad to help too, sorting out a few chapters. At the pace at which\nStefan is working I could use Ursula as well. - I am glad that\nparcel arrived. I only sent one more, containing chocolates and\ncocoa, about 6 weeks ago to London, and a small one to Ursula\nand mother each. It is not possible to send cigarettes as far\nas I know, also not fresh fruit. - I hope it will soon be\ndecided whether we stay or travel south again. Stefan will\nfell[?] much better once things are settled.\nLove to all, Lotte.",
+        "notes": "Handschriftlicher Brief auf weißem Papier. Die Tinte ist dunkelblau/violett. Die Lesbarkeit ist sehr gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "children. I like them, and Eva who is invited to spend a\nfew days with them the week after next will certainly\nenjoy herself, once the two girls have given up her very great\npoliteness of the beginning. - We are working hard and Eva\nhad to help too, sorting out a few chapters. At the pace at which\nStefan is working I could use Ursula as well. - I am glad that\nparcel arrived. I only sent one more, containing chocolates and",
+        "notes": "Ausschnitt des Briefes, der unter einer Archiv-Farb- und Grauskala liegt. Der Text ist identisch mit einem Teil von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Das Wort 'fell' in der vorletzten Zeile ist orthographisch vermutlich als 'feel' gemeint, wurde aber diplomatisch als 'fell' transkribiert, da es so geschrieben steht."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1473,
+    "total_words": 283,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1048,
+      0,
+      425
+    ],
+    "chars_per_page_median": 1048,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0035,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

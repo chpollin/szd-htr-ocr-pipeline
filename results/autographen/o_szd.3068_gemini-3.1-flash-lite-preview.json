@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3068",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [26. Juni 1941], SZ-AAL/B1.141",
+    "signature": "SZ-AAL/B1.141",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3068/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3068/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3068/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.141"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [26. Juni 1941], SZ-AAL/B1.141\n- Signatur: SZ-AAL/B1.141\n- Datum: 26.6.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "next address:\n\n7 Ramapo Road\nOssining, N.Y.\n\nNewyork, June 26th, 1941.\n\nDear Hanna,\n\nWe just got your letter of June 18th which is not\nquite clear to us because it refers to your letter of the 13th\nwhich has not yet arrived. I am extremely sorry that you had\nto run about and to have all these discussions for us. You know\nthat when we left it was our intention to come back soon and I\nleft everything in your care, perhaps not in such perfect order\nas I otherwise would have done, believing that I would soon be\nback again. Owing to the enormous distances I have had no direct\nmail about business matters since a long time and therefore not a\nvery clear idea how things stand. But I am convinced that all is\nin best order and that if there have been any questinns, they have\nbeen settled satisfactorily. Everybody's affairs are nowadays\nfrightfully complicated and I am sorry that I had to burden you\nwith ours while you have no doubt enough troubles of your own in\nthese difficult times. As to my publisher I am terribly sorry\nthat they had such a mishap, and I shall write him directly how\nsorry I am. We will now go to the little country place we wrote\nyou about yesterday - the above address will be valid until Sept.1st\nbut do not address any more letters there after the first week of\nAugust because they sometimes take three weeks - and there we will\ndo nothing but work hard these two summer months. After that we\nshall again have to decide what to do. I have again offers from\nSouth America for lectures in Cuba, Brazil and Argentine and so\non, but who can tell what will happen in those few months in times\nlike ours where every week brings new and unexpected developments.\nLet me repeat how thankful we are to you and I need\nnot assure you again of our love and gratitude.\n\nYours,\n\nStefan Zweig\n\nYour letter arrived in record time today - 7 days\nfrom house to house. Your other letter has not yet come\nand we are guessing what your references to the Edinburgh trip\nand other things mean. But we will no doubt receive it\nvery soon. From next week we are near Eva, and that will\ngive us pleasure and you further reassurance\n\nLove, Lotte",
+        "notes": "Typoskript mit handschriftlicher Ergänzung am Ende (ab 'Your letter arrived...'). Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte eingefügt. Der Text ab 'Your letter arrived...' ist ebenfalls handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig und Lotte sind deutlich erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2146,
+    "total_words": 404,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2146,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2146,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

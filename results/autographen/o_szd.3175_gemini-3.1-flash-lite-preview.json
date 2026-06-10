@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3175",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [26. Oktober 1940], SZ-AAL/B1.58",
+    "signature": "SZ-AAL/B1.58",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3175/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3175/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3175/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.58"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [26. Oktober 1940], SZ-AAL/B1.58\n- Signatur: SZ-AAL/B1.58\n- Datum: 26.10.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "26. Oktober\n\nDear Manfred & Hannah, this only to tell you that we are\nsafely arrived in Buenos. Lotte was sufficiently exhausted\nand we cant open 2 flower-shops with the flowers we found\nin our apartement here. Then we went straight away {leerry}\nbehind all the people in the hall/ to the Opera where we had tickets for a\nmarvellous ballet and now I have to pay for all that with lectures in all\nlanguages. The English, the Spanish are well arranged, but the great difficul[?]\nby all the Jews. There are 250000 in this town and I have promised a\nlecture for charity-purposes - now they fight, who shall arrange the lecture,\nthe Zionist, the refugees, the Spanioles and I have the secret hope, that\nby this quarrel I shall escape, because they will not have finished the\ndiscussions during my stay here. We go also to Cordoba, Rosario and\nafter that to Montevideo. The seven hours in the plane were a bit\nshaky but we arrived without any trouble except that in the {20 minutes}\nstay at Porto Alegre I could not get a coffee and smoke a cigare\nbecause we had there a reception. In these countries a foreign writer\nis still a rare and appreciated beast and the curiosity takes much of\nour time, poor Lotte is hanging constantly on the phone and ex-\nplaining in five different languages that we do not accept invitations.\nAll this will be over in a fortnight and then I am finally well a\nmonth or six weeks before going for Newyork. We have no news\nfrom Eva who will is not like to become ever a great writer but\nI knew through my sister in law that she is happy and I wish\nyou could be with her. We speak every day how I regret it is that\nyou have to support all the difficulties - dont believe that we forget\nyou. For Freivental I have already tried something but it will\ntake some time. And poor Planker, - one cannot help him but we -\nterially. Kindest regards to all from yours\nStefan Zweig",
+        "notes": "Brief auf Hotelpapier (City Hotel, Buenos Aires). Handschrift in violetter Tinte. Die Zeile 'behind all the people in the hall/' ist leicht durchgestrichen, aber lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Einzelne Wörter wie 'difficul[?]' sind aufgrund des Zeilenendes oder der Tintenführung leicht unsicher, aber im Kontext eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1891,
+    "total_words": 356,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1891,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1891,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0028,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

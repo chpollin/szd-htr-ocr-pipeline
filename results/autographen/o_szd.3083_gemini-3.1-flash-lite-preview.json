@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3083",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. August 1941], SZ-AAL/B1.155",
+    "signature": "SZ-AAL/B1.155",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3083/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3083/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3083/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.155"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [6. August 1941], SZ-AAL/B1.155\n- Signatur: SZ-AAL/B1.155\n- Datum: 6.8.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "New York, August 6th, 1941\n\nDear Mamma & Manfred, Our mind is nearly made up, and\nif nothing unforeseen happens, we shall leave for Rio\non the 15th. Well - you will already know by cable, when\nyou get this letter, what finally happened. - We have returned\nto NY yesterday. There is so much to be done before such\na journey, so many things to be arranged, so many formalities.\nI saw Eva nearly every day before we left. She regrets\nthat we are leaving, of course, but she is so much at home\nat Amity Hall that she will not really miss us. While we\nwere at Ossining and saw a little more of the Sch's I had\noccasion to see that Mrs. Sch. really loves Eva and does not\nconsiders her just a „baarder“. And that Eva loves her you\nknow already. Mrs Sch. gave me a photo, a better one than\nthe snapshot I sent you, and if Stefan does not write too\nmuch, I shall enclose it. - It was a pity of course to have\nto leave Oss. so quickly and early, but there is not much\ntime - fortunately - to look back and reflect how nice it would\nhave been if... Many things would have been nice, if not...\nI shall write you soon again, I am in a hurry\ntoday as you may imagine.\nKindest regards, love and kisses\nLotte.\nDid you accept that hospital job, Manfred?\nHow do you like it and what have you to do\nactually? X-Ray treatment??\nDear Manfred, we have so much to do and all is so difficult. We do not\nknow if we can leave because what can happen still!! I would be glad if\nI could sit somewhere quietly for a few months, I am extremely tired and\na bore to Lotte and myself. The war was too long for my nerves with all\nthis travelling around and I feel my age. Thanks for all you do. But now\nsomething I insist, that Hannah {she has made} [?] for all the troubles she has with\nmy house a compensation which covers also the expenses for [?] and\nthat she gets it immediately. I do not want that she does it only by\nfriendship, I have a very bad conscience against her. Please do this soon\nand be sure that it is reasonable. We have seen Eva, she is grown up and\nin excellent mood, she is now there already an important person and loves by all in the town\neven Mr. Shaffer has a special liking for her. Stefan Zweig",
+        "notes": "Handschriftlicher Brief von Lotte Zweig (und Stefan Zweig am Ende), violette Tinte. Der Text am linken Rand wurde nachträglich hinzugefügt und verläuft vertikal. Die Zeile 'she has made' wurde über 'Hannah' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "New York, August 6th, 1941\n\nDear Mamma & Manfred, Our mind is nearly made up, and\nif nothing unforeseen happens, we shall leave for Rio\non the 15th. Well - you will already know by cable, when\nyou get this letter, what finally happened. - We have returned\nto NY yesterday. There is so much to be done before such\na journey, so many things to be arranged, so many formalities.\nI saw Eva nearly every day before we left. She regrets\nthat we are leaving, of course, but she is so much at home\nat Amity Hall that she will not really miss us. While we\nwere at Ossining and saw a little more of the Sch's I had\noccasion to see that Mrs. Sch. really loves Eva and does not\nconsiders her just a „baarder“. And that Eva loves her you\nknow already. Mrs Sch. gave me a photo, a better one than\nthe snapshot I sent you, and if Stefan does not write too\nmuch, I shall enclose it. - It was a pity of course to have\nto leave Oss. so quickly and early, but there is not much\ntime - fortunately - to look back and reflect how nice it would\nhave been if... Many things would have been nice, if not...\nI shall write you soon again, I am in a hurry\ntoday as you may imagine.\nKindest regards, love and kisses\nLotte.\nDid you accept that hospital job, Manfred?\nHow do you like it and what have you to do\nactually? X-Ray treatment??\nDear Manfred, we have so much to do and all is so difficult. We do not\nknow if we can leave because what can happen still!! I would be glad if\nI could sit somewhere quietly for a few months, I am extremely tired and\na bore to Lotte and myself. The war was too long for my nerves with all\nthis travelling around and I feel my age. Thanks for all you do. But now\nsomething I insist, that Hannah {she has made} [?] for all the troubles she has with\nmy house a compensation which covers also the expenses for [?] and\nthat she gets it immediately. I do not want that she does it only by\nfriendship, I have a very bad conscience against her. Please do this soon\nand be sure that it is reasonable. We have seen Eva, she is grown up and\nin excellent mood, she is now there already an important person and loves by all in the town\neven Mr. Shaffer has a special liking for her. Stefan Zweig",
+        "notes": "Gleiche Seite wie Scan 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Natur und der vertikalen Randnotizen. Einige wenige Wörter sind aufgrund der Handschrift leicht unsicher, aber im Kontext gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 4380,
+    "total_words": 874,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2190,
+      0,
+      2190
+    ],
+    "chars_per_page_median": 2190,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0046,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

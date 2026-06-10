@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3368",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.128",
+    "signature": "SZ-AAL/B3.128",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3368/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3368/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3368/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B3.128"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Friderike Zweig an Stefan Zweig, SZ-AAL/B3.128\n- Signatur: SZ-AAL/B3.128\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frage 4\nrehe also jetzt aller Wahrschein-\nlichkeit über kurz oder lang\ndie Entscheidung fällt, frage\nich dich - auch vor Aufnahme\nder Hypothek, noch einmal ob\ndu mir nicht das Haus, das\ndu so billig hergeben willst\nschenken willst und zwar ohne\ndie beschämende Bedingung,\ndass ich dies dafür hergeben\nsollte. Auch für den Tatsachen\nwenn er für eine Lebendige bestimmt\nwäre, würde ich dies nicht frei-\nwillig hergeben. Ich kann nur\n- wie jetzt von Dir gezwungen\nwerden, mich bis auf Weiteres\nblutenden Herzens - mit Wenigem\nzu begnügen. - Wenn du mir\nalso - jetzt in letzter Stunde -\ndas Haus schenken wolltest",
+        "notes": "Handschriftlicher Text auf Papierfragment. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "da du mich ja so wenig in England willst\noder lassen wolltest - ich\nbin auch heuer {deshalb} wieder 6 -\n7 Monate hier gewesen (und\nhie z.B. das ganze Jahr,\nminus weniger Tage) so\nwäre ich dir sehr dankbar.\naber es müsste ohne Bedingung\nsein. Von meiner Seite mit\ndem Zugeständnis, dass ich\ndie Kosten der Steuern u. der\nVersicherung - allerdings bei\nAlban Johans, der mir zu teuer\nkäme zur Hälfte übernähme\nund bei etwaigen späteren\nVerkauf die Hälfte des Kauferlös\ndesseren [?] Aber wie gesagt,\nohne Einschränkung des\nwenigen, was besteht.\nund ohne Vorschriften und\nBehinderungen, vertrauend auf meine\nRücksicht auf deine Lebensform.",
+        "notes": "Handschriftlicher Text auf Papierfragment. Am rechten Rand vertikal geschrieben: 'Rücksicht auf deine Lebensform.' Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Das Dokumentfragment aus Seite 2 ist hier erneut abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Einzelne Wörter wie 'Tatsachen' (evtl. 'Tatsachen' oder 'Tatsach'?) oder 'Alban Johans' (Eigenname) sind aufgrund der Handschrift leicht unsicher, aber im Kontext verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1243,
+    "total_words": 212,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      609,
+      634,
+      0
+    ],
+    "chars_per_page_median": 621.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0047,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

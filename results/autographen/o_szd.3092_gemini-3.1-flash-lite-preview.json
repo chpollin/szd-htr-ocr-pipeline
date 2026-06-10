@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3092",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah Altmann [4. September 1941], SZ-AAL/B1.163",
+    "signature": "SZ-AAL/B1.163",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3092/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3092/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3092/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.163"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah Altmann [4. September 1941], SZ-AAL/B1.163\n- Signatur: SZ-AAL/B1.163\n- Datum: 4.9.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Friday, Sept 4th, 41\n\nDearest Mamma, Please stop worrying about us, we will\nbe alright and even if things do not always go for us\nas we would like it and if we complain once in a while\ndon't take it too seriously. Those last weeks in USA with\nall the indecision were difficult, but now that we are\nhere we are going to settle down again. We have already\nfound a house in Petropolis which suits our purpose\nvery well. It is small - bungalow style - has a large terrace with a beautiful\nview over the mountains, you climb up to it from the street on a\nnumber of steps, it has a small garden and is tolerably furnished.\nWe are satisfied to have found it, as it is not at all easy and\nmost houses are either dreadfully ugly or dreadfully expensive.\nThe servant question, which as I am told is also difficult, also\npromises to be solved for us for the time being as the couple\nwho look after the house at present will probably remain\nuntil I find what I need. Being without servants is in so far\nvery disagreeable here as in Petropolis the kitchen stoves are\nexactly of the type of children's toy stoves and have to be looked\nafter all the time. We hope to be able to go up to Petropolis\nnext weekend and intend to come to Rio fairly frequently. It is\nstill very quiet in Pet. and the air reminds one even of a european\nspring. - We shall cable you the address as soon as we definitely\ngo up there and I repeat it here 34 Rua GONCALVEZ DIAS\nPetropolis, Brazil\nbut please note that it is only for cables. Letters please continue\nto address to Editora GUANABARA, they will be forwarded\nimmediately from there by a professional messenger which is safer\nthan trust them to the change of the little railroad and delivery\nin Petropolis. - We had a letter from Eva and Mrs. Sch. Both write\nhow beautiful presents she got from everyone and Mrs Sch wrote that\nEva was well and cheerful. It seems that they have already moved\nto the new house and I hope that you and I soon get details\nabout the life there. - I must close now, first of all our Por-\ntuguese teacher just arrived and secondly the mail for to-morrow's\nclipper closes in a few minutes. - We have received\ntoday your letter of Aug. 20th and Mama's of Aug 22nd,\nnot so bad really, just a fortnight.\nLove to all, best wishes\nfor the solutions of the servant question in Bath,\nLotte",
+        "notes": "Handschriftlicher Brief auf Hotelpapier (Hotel Central, Rio de Janeiro). Tinte violett. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Scan zeigt das Dokument mit aufgelegter Farb- und Grauskala zur Archivierung. Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2327,
+    "total_words": 445,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2327,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2327,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

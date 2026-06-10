@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3070",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [4. Juli 1941], SZ-AAL/B1.143",
+    "signature": "SZ-AAL/B1.143",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3070/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3070/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3070/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.143"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Lotte Zweig an Hannah; Altmann, Manfred Altmann [4. Juli 1941], SZ-AAL/B1.143\n- Signatur: SZ-AAL/B1.143\n- Datum: 4.7.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan is just busy working, so I send\nthe letter without word from him.\n\n7 Bamapo Road\nOssining, N.Y.\n4.7.41\n\nDear Manna & Manfred,\nI had the idea of writing you the very\nfirst day of our arrival here as long letter, but the heat\nmade me lazy and took all my energy. We are now quite\nsettled until the end of August and I thoroughly enjoy being\nin a house again and even the housekeeping. The maid is\na great treat for me and I almost feel like the time\nwe got Rhoda. Why I should feel like that I do not know\nmyself for I certainly did not work hard or a lot in the\nhotel, and the Wyndham, being a small and mostly residential\nhotel is not as impersonal as most of them. Anyhow, I am\nglad to be here and out of New York which was already very\nhot, sticky and smelly. The situation of our house here is in\ncertain ways very similar to Mrs Leckie's house in Bath.\nIt is not the house itself which is much smaller and alto-\ngether different, but its position on a hill with a steep\ndriveway, and a very awkward angle to the garage, but a\ngood garage so that I involuntarily thought when we\nsaw it: that will be a good garage when Manfred comes\nwith his car. Thinking of that house in Bath I miss\nMartha much, of course - not to speak of your visits. But\nwe can visit Eva instead and Monday I shall take her\nto New York (we both have to go to the dentist and I\nmust get my weekly supply of bacterias injected) and I\nshall keep her with us for a day or two. I don't think\nmuch longer, for there is nothing whatsoever to be done\nor seen in Ossining. Sing-Sing is in Ossining, but one rather\ntries to forget this fact. - Did I write you that Miss Baker\ncame to see me in New York? Her visit was interesting for me,\nbut I was amazed how talkative she was and how naive she\nstill is. She still was not quite resigned to the fact that she\ncould not go to England just for the summer holidays - this\nin a time where it is impossible to obtain any kind of passage\nexcept for solid and urgent business or political reasons. - A few\ndays ago I sent a small parcel, mainly sweets to Manfred, hoping\nthat it will eventually reach him. I also sent one to Ursula whose\nbirthday must be very soon. A small amount of duty may have\nto be paid for both. I also sent you 'Life' and 'Vogue' by ordinary\nmail.\n\n[Randnotiz links, von unten nach oben geschrieben:]\nI was not quite sure which kind of magazine interests you, whether literary, fashion,\nor more serious ones. Let me know please and please send me once in a while\na newspaper or magazine which might be of interest for me. I should love to see an\nEvening Standard. Love and kisses.",
+        "notes": "Handschriftlicher Brief von Lotte Zweig. Die Tinte ist blau/violett. Die Randnotiz ist vertikal am linken Rand geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung, überlagert das Dokument.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Randnotiz am linken Rand wurde vollständig erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2619,
+    "total_words": 518,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2619,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2619,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

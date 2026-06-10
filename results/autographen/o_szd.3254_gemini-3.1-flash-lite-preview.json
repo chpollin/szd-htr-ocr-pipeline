@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3254",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Zweig [Februar 1935], SZ-AAL/B2.23",
+    "signature": "SZ-AAL/B2.23",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3254/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3254/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3254/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.23"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Zweig [Februar 1935], SZ-AAL/B2.23\n- Signatur: SZ-AAL/B2.23\n- Datum: 02.1935\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, Sie meinen es mir gut\nund ich quäle mit Gewissensbissen, dass ich Sie mit\nmeinen Bedrückungen belaste, die wahrhaftig sehr arge\nsind; manchmal mache ich mir Vorwürfe, dass ich\nIhnen so viel auferlegen an Missmut des Alters\nund immer ist es mein feinerer Wunsch, jemand\nwäre, Ihnen reine und große Freude zu geben. Die letzten\nJahre haben wie Jahrzehnte auf mir gelastet und ich\nbin manchmal voll tiefer Müdigkeit. Hier ist es recht\ndüster, meine Mutter und alles Bedrückungen, dazu\njene irrwitzige Angelegenheit, die sich nicht reparieren\nlässt; aber wenn es nur Ihnen gut geht, so bin ich\nfür einige Zeit zufrieden. Pläne mache ich noch nicht,\nich möchte eigentlich schon wegsein von hier und ir-\ngendwo ganz weit: ich habe die Literatur und den An-\nfang meines Namens so unbeschreiblich satt, wie ich\nes wohl sagen kann. Jetzt wollte ich diesen Brief noch\nzerreissen, aber wie gut, dass ich mich an jemanden\nwenden kann! Herzlichst Ihr\nS.",
+        "notes": "Handschriftlicher Brief auf blauem Papier. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Liebes Fräulein Altmann, Sie meinen es mir gut\nund ich quäle mit Gewissensbissen, dass ich Sie mit\nmeinen Bedrückungen belaste, die wahrhaftig sehr arge\nsind; manchmal mache ich mir Vorwürfe, dass ich\nIhnen so viel auferlegen an Missmut des Alters\nund immer ist es mein feinerer Wunsch, jemand\nwäre, Ihnen reine und große Freude zu geben. Die letzten\nJahre haben wie Jahrzehnte auf mir gelastet und ich\nbin manchmal voll tiefer Müdigkeit. Hier ist es recht\ndüster, meine Mutter und alles Bedrückungen, dazu\njene irrwitzige Angelegenheit, die sich nicht reparieren\nlässt; aber wenn es nur Ihnen gut geht, so bin ich\nfür einige Zeit zufrieden. Pläne mache ich noch nicht,\nich möchte eigentlich schon wegsein von hier und ir-\ngendwo ganz weit: ich habe die Literatur und den An-\nfang meines Namens so unbeschreiblich satt, wie ich\nes wohl sagen kann. Jetzt wollte ich diesen Brief noch\nzerreissen, aber wie gut, dass ich mich an jemanden\nwenden kann! Herzlichst Ihr\nS.",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1930,
+    "total_words": 322,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      965,
+      0,
+      965
+    ],
+    "chars_per_page_median": 965,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

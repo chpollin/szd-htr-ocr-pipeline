@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3098",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.169",
+    "signature": "SZ-AAL/B1.169",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3098/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3098/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3098/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.169"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah; Altmann, Manfred Altmann [Oktober 1941], SZ-AAL/B1.169\n- Signatur: SZ-AAL/B1.169\n- Datum: 10.1941\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear H. & M. I can really confirm that we have here in our little bungalow\nabsolutely the life I wanted after the strenuous times in New York etc. I have as my\nreal workroom a large covered terrace in front of the beautiful mountains, the\nneighborhood is very primitive and therefore picturesque, the poor people are so nice\nhere as you cannot imagine; our black housemaid is silent, diligent, clean and\ngrateful to us as she learns to see things she never has seen in her life - {she begins to sing now} for\nthem potatoes are already a luxury and fish an unknown animal. She takes our\nempty tins at home as a treasure and uses them there as glasses but nevertheless\nshe is clean and it is the intern civilisation and humanity I admire so much here\nin this country. Lotte is busy; you would not believe it as we make very few walks\nand see no people that the day runs so quickly away, that we are quite surprised\nto be here already three weeks. I am happy that she likes this kind of life as\nmuch as I do; I am only not quite satisfied with her health. She has cheated\nme first in having no dowry, now in loosing weight by her demure[?] eating, which\nis somewhat better but every night there are one or two dialogues between her and\na dog in a house far away. Whenever she begins to cough the dog begins to bark\nas the air is quite still and transmits every sound in a great distance, I\ninsist that she now makes a cure to get some embonpoint, because here life\nis so quiet and easy that I wish she should take provisions for the bad times\nwhich are expecting us in the future. Altogether I cannot tell you how happy\nwe are to have left New York where our life did not belong to us and we had all\nsorts of problems, while here we live forgotten and forgetting the time, the world\n(but not you) Fräulein is as always the object of my most fervent admiration,\nthe earns here with his larger book at least twenty times what I with my book,\nhaving all entrenchous[?], connexions and that was not easy coming here without\nto know anybody or a word of Portuguese. How I regret that I did not move\nto Brazil five years ago, you have no idea of the fantastic modernity - a house\nwhich was worth 100 £ five years ago cost now 500 or even a thousand, but\nlife is still cheap, all the native things in excellent quality as people have not\nyet learned to use substitutes. And we told you already what we say, overpaying\nthe usual rates - 5 dollars a month to our maid while in America one has\nto pay 60 or 80 and she takes there two holidays a week. I do not generally\nbe mean, but you understand what a relief it is to know that one can\nstill live cheaply somewhere and will not be dependent from newspapers and\nagents. How you would like this country, so colourful and peaceful in such\na time. - Let me tell you that your letters are expected with the greatest\ninterest - I hope this winter will not be too hard. Give Hermann my love, I should really write to\nhim, but it is not the higher postage but the feeling that every letter takes much\nlonger than one does not so easily [?] love and greetings to all! Stefan",
+        "notes": "Handschriftlicher Brief von Stefan Zweig auf einem Blatt, beidseitig beschrieben (bzw. Randnotizen). Die Transkription umfasst den Haupttext und die Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite. Keine eigenständige Transkription.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke über dem Dokument platziert.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Randnotizen, die sich teilweise überlappen. Einige Wörter wie 'entrenchous' sind aufgrund der Handschrift leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3105,
+    "total_words": 602,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3105,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3105,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.005,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

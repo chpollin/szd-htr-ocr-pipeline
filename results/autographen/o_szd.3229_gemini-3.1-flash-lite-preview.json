@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3229",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefabschriften von Trading an Stefan Zweig [21. November 1938], SZ-AAL/B10.9",
+    "signature": "SZ-AAL/B10.9",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3229/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3229/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3229/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B10.9"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefabschriften von Trading an Stefan Zweig [21. November 1938], SZ-AAL/B10.9\n- Signatur: SZ-AAL/B10.9\n- Datum: 21.11.1938\n- Objekttyp: Briefabschriften\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                     21.November 1938.\n\nTrading an Stefan.\n\nWir bestätigen Ihnen hiermit, dass Sie uns 4813 Aktien der\nM.Zweig mech.Weberei A.G.,Ober-Rosenthal bei Reichenberg zu dem besproche-\nnen Preis von ~~2500~~ verkauft haben. Wir haben Ihnen den Kaufpreis von Pfund...\nbezahlt und Ihnen das Recht eingeräumt, diese Aktien zu einem um 5% höheren\nPreis innerhalb eines Jahres zurückzukaufen.\nWir werden Ihnen dann diese Aktien gegen Zahlung des ent -\nsprechenden Betrages zurückgeben.\n                                     Hochachtend\n                                     Trading\nSt.Z . an Trading:\n\nBestätige den Eingang Ihres w.Schreibens vom betreffend\nM.Zweig Aktien und erkläre mich vollinhaltlich mit dem Inhalt einverstan-\nden. \n                                     H Z.\n\nFür mich bestimmte Vollmacht: zu legalisieren\n\nLieber Alfred, ich erteile Dir Vollmacht bezüglich Verkauf\nder mir gehörigen M.Zweig Aktien, sowie Empfangnahme des überwiesenen Be-\ntrages und Quittungserteilung hierüber.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen (Zahlen '4813', 'H Z.', 'zu legalisieren' und Unterschrift 'Trading').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "                                     21.November 1938.\n\nTrading an Stefan.\n\nWir bestätigen Ihnen hiermit, dass Sie uns 4813 Aktien der\nM.Zweig mech.Weberei A.G.,Ober-Rosenthal bei Reichenberg zu dem besproche-\nnen Preis von ~~2500~~ verkauft haben. Wir haben Ihnen den Kaufpreis von Pfund...\nbezahlt und Ihnen das Recht eingeräumt, diese Aktien zu einem um 5% höheren\nPreis innerhalb eines Jahres zurückzukaufen.\nWir werden Ihnen dann diese Aktien gegen Zahlung des ent -\nsprechenden Betrages zurückgeben.\n                                     Hochachtend\n                                     Trading\nSt.Z . an Trading:\n\nBestätige den Eingang Ihres w.Schreibens vom betreffend\nM.Zweig Aktien und erkläre mich vollinhaltlich mit dem Inhalt einverstan-\nden. \n                                     H Z.\n\nFür mich bestimmte Vollmacht: zu legalisieren\n\nLieber Alfred, ich erteile Dir Vollmacht bezüglich Verkauf\nder mir gehörigen M.Zweig Aktien, sowie Empfangnahme des überwiesenen Be-\ntrages und Quittungserteilung hierüber.",
+        "notes": "Dokument mit Farbskala und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2036,
+    "total_words": 244,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1018,
+      0,
+      1018
+    ],
+    "chars_per_page_median": 1018,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

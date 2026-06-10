@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3191",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [11. Dezember 1940], SZ-AAL/B1.73",
+    "signature": "SZ-AAL/B1.73",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3191/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3191/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3191/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.73"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [11. Dezember 1940], SZ-AAL/B1.73\n- Signatur: SZ-AAL/B1.73\n- Datum: 11.12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11. XII. Dear Hannah, we have today a card of my sister in law who\nwas visiting Eva - I must admit that she takes it seriously and is\nalready affected with all the responsibility-complex of the Zweigs.\nIn this case it is very good and you can rely upon her better than\non others. Dont worry if there come no letters regularly; we also got\n~~yours~~ with a long delay. - We do not know exactly when to go and\nHow, firstly we want to {combine} it with a trip to Bahia and\nthe Northern Brazil, which would pay us half the fare and the\nfares for the enormous distances are frightfully high. The disa-\ngreeable thing is that you have to book three weeks before as there\nare few planes and we have {no} ship from the North of Brazil\non the other hand I want to finish first a little book on Brazil,\nwhich will be very helpful to us and perhaps to others in the\nfuture. We are now in plain summer, but I find the heat still\ntolerable, only you want more sleep and eat less, what is per-\nhaps an advantage for my {counterpoint}. Now to you. I implore you\nagain and again, write freely and without scruples of all\nI have, help your family and also your brother as I believe\nthat there is very little chance to get him now a visa. I have al-\nways tried my best {for others} and I hope, that Catas daughter will now see\nin Cuba for Eismann after the death of her father - Here we\nare in a particular situation because we have here the personal\nresponsibility for any person we would try to get over and we\nknow how small the chances are for a newcomer. As to Victor\nI wrote him but has no reply, give Kocher and all others my\nkindest regards, we must try for Hermann Neisse all immediately\nin the States. In no case we shall stay in Newyork, I have to work\nand could not have a quiet life there - probably we go somewhere\nto a small university or near town {to be} that we could come from time\nto time. All is so very obscure in those times - as to you I repeat,\ndo not worry about the material side of things and try to keep yourself\n[Randnotiz links:] P.S. I hope you will stay the whole Christmas time in Bath and [?] Stanford\nand you would not return to London but after a good rest. Yours Stefan Zweig",
+        "notes": "Handschriftlicher Brief auf gelbem Papier. Die Randnotiz ist vertikal am linken Rand geschrieben. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der handschriftlichen Kursivschrift. Einige wenige Wörter am Rand oder bei Durchstreichungen sind durch den Kontext eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2195,
+    "total_words": 434,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2195,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2195,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0023,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "object_id": "o_szd.3318",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [23. August 1937], SZ-AAL/B2.81",
+    "signature": "SZ-AAL/B2.81",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3318/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3318/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3318/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3318/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3318/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.81"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [23. August 1937], SZ-AAL/B2.81\n- Signatur: SZ-AAL/B2.81\n- Datum: 23.8.1937\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, ich schreibe Ihnen\nmit einem neugekauften Stilo, alle andern\nbefinden sich in Reparatur und will Ihnen\nnur sagen, dass ich hier bis längstens 31ten\n{aug[ust]} bleibe, dann nach Zürich gehe, wo ich Sie\nam 3ten gemäss Ihres Briefes erwarte. Ob\nes dann nach Montreux geht oder wo anders\nhin möchte ich noch nicht fix sagen – ich\nmüsste von Montreux wahrscheinlich doch noch\neinmal nach Z. zurück als bei des vielen\nReisens ausgiebig müde, möchte lieber noch\ncca 14 Tage ruhig sitzen und arbeiten. Das\nHotel hier ist vortrefflich dafür und heute\nNachmittags soll begonnen werden. Bitte\nalso alle Nachrichten bis 31. lieber, dann\nZürich Royal Habis. Nach London wäre es\neigentlich am besten zu schreiben, sie sollten\n~~dann noch alle Post~~ dann noch einmal in\neinem Couvert alles am 1. September an Royal",
+        "notes": "Handschriftlicher Brief auf liniertem Papier. Die Tinte ist violett. Die Einfügung '{aug[ust]}' wurde über der Zeile ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer. Leichte Durchschläge der Tinte von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Habis schicken nur dann vorläufig über\nlaugt nicht mehr. Die Post kann auch\neinmal 12 Tage liegen bleiben oder 14\nes wäre ich nichts. Herzlich grüße\n\nS Z.\n\nIhren Brief Hotel Habis sowie Correc\nuren in Wien erhalten\nEiliges bitte per Luftpost\nIch hatte Luzern gewählt, weil so nahe\nvon Zürich war die Höhenorte alle verschneit",
+        "notes": "Vorderseite des zweiten Blattes. Handschriftlich, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Habis schicken nur dann vorläufig über\nlaugt nicht mehr. Die Post kann auch\neinmal 12 Tage liegen bleiben oder 14\nes wäre ich nichts. Herzlich grüße\n\nS Z.\n\nIhren Brief Hotel Habis sowie Correc\nuren in Wien erhalten\nEiliges bitte per Luftpost\nIch hatte Luzern gewählt, weil so nahe\nvon Zürich war die Höhenorte alle verschneit",
+        "notes": "Dies ist eine Wiederholung des Textes von Seite 3, jedoch mit einer aufgelegten Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die violette Tinte ist auf dem hellen Papier kontrastreich. Die Wiederholung auf Seite 5 bestätigt die Lesung von Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1475,
+    "total_words": 249,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      825,
+      0,
+      325,
+      0,
+      325
+    ],
+    "chars_per_page_median": 575.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3133",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [November 1939], SZ-AAL/B1.20",
+    "signature": "SZ-AAL/B1.20",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3133/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3133/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3133/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.20"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [November 1939], SZ-AAL/B1.20\n- Signatur: SZ-AAL/B1.20\n- Datum: 11.1939\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebe Hannah, es gab noch mehr zu tun als wir dachten: erstens jene\nÜberraschung mit dem Dach, die bald behoben sein wird, dann erfordert der\njunge Mann den ich als Gärtner-Handyman engagierte, einige kleine Erläute-\nrungen um ihm ein Zimmer zu equippieren; auch wird das {noch} allerdings seltener,\nbreppant[?] nur treppauf. Samstag hoffen wir, das Haus still zu haben, dann\nist uns noch die Rechnung zu bezahlen das Lotte ist eine hoffentlich gläubige\nHausbesitzerin und muss uns nolens volens zur Hausfrau ausbilden. Ich\nhabe das Gefühl, dass die Gelder jetzt gut geölt sind und alles smoothly\nsich fortwursteln kann.\nDass die Kinder ein kaum sind ist - ehrlich - gar nicht bemerkbar oder\nnur in angenehmen Sinn. Mit dem neuen dienstbaren Geist wird diese\nSchwester entlastet sein - dies war meine größte Befürchtung, denn es gab\ndoch von morgens bis abends mit den Arbeitern ein ständiges hin und her.\nJetzt werden keine Installationen mehr gemacht, ausser dass ich für den\nneuen Boy die alte Wasserleitung in Küche I an die Wasserleitung an-\nallieren kann; warmes Wasser muss er sich eben in paar Krügen von der\nHeizung heruntholen wie es die Menschheit bis vor etwa 50 Jahren mittler-\nneufach getan hat (ich habe es in meiner Kindheit selbst noch gesehen/\ndie elektrischen Laurer sah ich nur in flüchtigen Fotos, ich glaub\nsie werden uns ausgezeichnet passen.\nIch hoffe Du meinst es nicht ernst mit der angedrohten Durchschla-\ntap. Mir bitte ich freute an deren Haus wollen wir sein - ein\nliebes Gefühl des Angehörigen, wenn wir zwei es allein bewohnen sollten\nund gar in einer solchen Zeit. Ich fürchte, Ihr werdet ein paar stille\nund relativ wylon Tage auf paar hohen Touren dringend nötig\nhaben; pessimistisch, wie ich veranlagt bin, sehe ich gerade für\ndie nächste Zeit wirst Du voran und ich glaube, schon an wir",
+        "notes": "Handschriftlicher Brief von Stefan Zweig, violette Tinte. Die Lesbarkeit ist aufgrund der kursiven Handschrift an einigen Stellen erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "hat die Atmosphäre London etwas depressives - schon ohne Telefon ist\nman mehr bei sich selber. Das wäre schon etwas, wenn Du das Haus\nnur mitleben wolltest, lange es Placherei war und nicht jetzt, da\nes nüchtern beginnt, ein Refugium und ein Privatatorium zu werden!\nWenn ich Urlaubsreif bin - ich denke in den ersten Dezembertagen\n- muss ich ja ohnehin noch einmal nach London und werde das tun,\nwas gestern deine Schwester bei dieser Tochter besorgte, - nämlich Dir\nden Kopf waschen wegen ihrer absurden Einfälle, dass sie uns Den-\nfer für störende Elemente sind.\nNun will Lotte Dir noch schreiben, sie geht eben ungeduldig,\nweil sie - es ist schon 1/2 10 - in das Bett gehen will, nicht aber\num mit den Hühnern aufzustehen, die wir noch gar nicht haben;\nleider war ihr so toricht, ihr Komplott zu leisten, indem das Bett\njetzt noch den fehlenden Stützpunkt erhielt. Wenn Ihr kommt wird\nes Euch einmal zum Nachprobieren gleichen.\nHerzlichst Euch aller\n\nStefan\nIch habe zwar schon separat geschrieben, will\naber den fehlenden Platz nicht verschwendet\nsehen. Zu sagen ist aber nichts mehr ausser dass\nder Boy mit den Huntley Mahagonikommoden und\neinem eleganten Waschgeschirr, schwarz mit Blumen\nund pot-de-chambre to match, ein herrliches Zim-\nmer haben wird. Hans und Gärten erwarten ihn\nschon ungeduldig, ebenso ungeduldig wie ich die\nSelfridge Lieferung. Grüsse Manfred, Heiner und\nMr. Lee, von dem ein Verwandter im Jahre 1815 der\nerste Rosemount-Besitzer war.\nLotte.",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf Seite 2. Der untere Teil ist von Lotte Zweig geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlappt teilweise den Text der vorherigen Seite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist viele Abkürzungen sowie individuelle Schreibweisen auf. Einige Wörter (z.B. 'breppant', 'toricht') sind schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3295,
+    "total_words": 547,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1823,
+      1472,
+      0
+    ],
+    "chars_per_page_median": 1647.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0018,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

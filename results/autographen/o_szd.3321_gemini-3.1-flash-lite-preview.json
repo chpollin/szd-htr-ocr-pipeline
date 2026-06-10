@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3321",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte von Stefan Zweig an Lotte Altmann [30. August 1937], SZ-AAL/B2.84",
+    "signature": "SZ-AAL/B2.84",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3321/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3321/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3321/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.84"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte von Stefan Zweig an Lotte Altmann [30. August 1937], SZ-AAL/B2.84\n- Signatur: SZ-AAL/B2.84\n- Datum: 30.8.1937\n- Objekttyp: Postkarte\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lotte Altmann\n\nSalzburg Österreich\nposte restante Bahnhofspostamt",
+        "notes": "Adressseite der Postkarte. Handschriftliche Anschrift. Poststempel: Luzern 30.VIII.1937 und Salzburg 31.VIII.37. Briefmarke: 20 Helvetia (oben rechts) und 10 Groschen Österreich (unten links).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "L. z. H. ja, ich werde\nDonnerstag abigs wie man\nhier sagt im Royal Habis\nsein und dann geht es erst\nweiter nach Lugano oder\nMontreux am nächsten Tage\nweiter. Mit besten Grüßen\n\n[Unterschrift Stefan Zweig]\n\nIhren Brief erhalten. Gehen\nSie auch ins Cafe Bazar,\ndort treffen Sie Ron W. e\ntutti quanti",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violett/schwarzer Tinte. 'L. z. H.' steht vermutlich für 'Liebe zu Hause' oder eine ähnliche Abkürzung. 'Ron W.' ist vermutlich eine Abkürzung für einen Namen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "L. z. H. ja, ich werde\nDonnerstag abigs wie man\nhier sagt im Royal Habis\nsein und dann geht es erst\nweiter nach Lugano oder\nMontreux am nächsten Tage\nweiter. Mit besten Grüßen\n\n[Unterschrift Stefan Zweig]\n\nIhren Brief erhalten. Gehen\nSie auch ins Cafe Bazar,\ndort treffen Sie Ron W. e\ntutti quanti",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Abkürzung 'L. z. H.' ist kontextuell plausibel, 'abigs' ist eine mundartliche Schreibweise für 'abends'."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 659,
+    "total_words": 113,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      65,
+      297,
+      297
+    ],
+    "chars_per_page_median": 181.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

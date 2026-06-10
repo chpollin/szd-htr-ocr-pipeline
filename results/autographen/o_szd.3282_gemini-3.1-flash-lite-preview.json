@@ -1,0 +1,101 @@
+{
+  "object_id": "o_szd.3282",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [14. September 1935], SZ-AAL/B2.49",
+    "signature": "SZ-AAL/B2.49",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3282/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3282/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3282/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3282/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3282/IMG.5"
+    ],
+    "input_image_count_total": 5,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.49"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [14. September 1935], SZ-AAL/B2.49\n- Signatur: SZ-AAL/B2.49\n- Datum: 14.9.1935\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Liebes Fräulein Altmann, leider habe ich\nSie umsonst bemüht. Aber in der Sache\nRolland sind {möglich} Schwierigkeiten aufgetaucht,\neiner der wichtigsten ~~Sache~~ Herren kann\nerst am 25 oder 26 in Paris sein, so\ndass es für drei Tage keinen Sinn fäte[?],\nSie zu bitten — Sie sind nur hoffent-\nlich nicht böse, dass ich Sie belästigte,\nes tut mir selbst leid, denn dadurch\nwird die ganze Pariser Zeit zu einer\nHelzjagd[?]. Bitte entschuldigen Sie!\nNoch eines! Die Feier für\nRolland soll eine Überraschung für\nihn sein, nur mit seiner Frau will\nich davon sprechen. Sagen Sie also nie-\nmandem von dem Project, auch Rose\nWalter nicht, sonst kommt es in die",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesung 'fäte' ist unsicher, vermutlich 'hätte' gemeint. 'Helzjagd' ist vermutlich 'Hetzjagd'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Zeitungen und ich wäre sehr ärgerlich da-\nrüber, man soll es mit{früher}wissen nur er\nam wenigsten; ich habe da gegen Frauen\nimmer besondere Bedenken, weiss aber\ndass ich mich auf Sie verlassen kann.\nWie schade! aber für drei oder\nvier Tage wäre es doch unsinnig ge-\nwesen, Sie zur Arbeit zu bitten. Ich\nfreue mich sehr, Sie und die Ihren\nin London zu sehen. Herzlichst\n\nStefan Zweig\n\nIch schreibe Ihnen von Paris, wann\nich komme und werde Sie bitten, mir\nbei Posthaus Place zu bestellen. In grosser\nEile! Ich hoffe noch vor 7. October in London{zu sein}",
+        "notes": "Handschriftlicher Brief in violetter Tinte. 'mitfrüher' ist eine Korrektur über der Zeile. 'zu sein' am Ende wurde nachträglich eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Darunter liegt das Dokument aus Seite 1.",
+        "type": "color_chart"
+      },
+      {
+        "page": 4,
+        "transcription": "Miss Lotte Altmann\n\nLondon NW 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Poststempel 'Wien 1' vom 14.IX.35. Briefmarke vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags mit violettem Innenfutter. Poststempel 'Telegr. Amt 73 Wien IX/2' vom 14.IX.35.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift Stefan Zweigs. Einige Wörter wurden aufgrund des Kontextes sicher identifiziert, auch wenn die Buchstabenform leicht abweicht."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1257,
+    "total_words": 217,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      652,
+      554,
+      0,
+      51,
+      0
+    ],
+    "chars_per_page_median": 554,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0092,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      3
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

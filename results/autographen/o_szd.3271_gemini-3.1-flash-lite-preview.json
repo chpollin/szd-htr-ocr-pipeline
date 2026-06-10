@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.3271",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Lotte Altmann [14. Juni 1935], SZ-AAL/B2.39",
+    "signature": "SZ-AAL/B2.39",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3271/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.3",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.4",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.5",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.6",
+      "https://gams.uni-graz.at/o:szd.3271/IMG.7"
+    ],
+    "input_image_count_total": 7,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B2.39"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Lotte Altmann [14. Juni 1935], SZ-AAL/B2.39\n- Signatur: SZ-AAL/B2.39\n- Datum: 14.6.1935\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Bellerive, Zürich\n\nFreitag\n\nLiebes, verehrtes Fräulein Altmann, leider fällt\ndie Unsicherheit noch immer an u was ich werde\nzur Vorsicht noch etwas hier in Zürich bleiben,\nstatt loszufahren. Könnten Sie sicher kommen,\nso würde das für mich natürlich sehr willkommen\nsein und je bälder je lieber; selbstverständlich\nkann ich nicht versprechen, dass ich nicht plötzlich\nabreisen muss, aber ich würde jedenfalls das En-\ngagement auf einen Monat vornehmen, ob ich hier\nbleibe oder nicht. Wenn Sie also kommen\nwollen, dann bitte bald nur für die Durch-\nreise brauchten Sie auch gar nicht das fran-\nzösische Visum, wenn es auch besser ist, Sie\nhaben es. Schrecklich diese Unfähigkeit sichere\nDispositionen zu treffen, aber was gibt es in\ndieser Zeit für Sicherheiten. Schreiben oder tele-\ngrafieren Sie mir bald. Herzlichst Ihr\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Hotel-Briefkopf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Zweiter Brief.\nLiebes Fräulein A., leider fürchte ich, muss\nich Contreordre geben, jedenfalls aber kann\nich nichts Gewisses sagen: ich erhalte eben\ntelefonische Nachricht, dass meine Reise\nnach Wien vielleicht doch nötig werden wird\nIch schreibe oder telegrafiere Ihnen bald.\nVerzeihen Sie das Durcheinander, es ist\nnicht meine Schuld. Ihr\n\nS.Z.",
+        "notes": "Handschriftlicher Brief (Zweiter Brief).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Briefbogens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Liebes Fräulein A., leider fürchte ich, muss\nich Contreordre geben, jedenfalls aber kann\nich nichts Gewisses sagen: ich erhalte eben\ntelefonische Nachricht, dass meine Reise\nnach Wien vielleicht doch nötig werden wird\nIch schreibe oder telegrafiere Ihnen bald.\nVerzeihen Sie das Durcheinander, es ist\nnicht meine Schuld. Ihr\n\nS.Z.",
+        "notes": "Identisch mit Seite 3, jedoch mit Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 6,
+        "transcription": "Fräulein Lotte Altmann\n\nLondon N W 11\n50, Woodstock Road",
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Helvetia' (14.VI.35), Poststempel 'Zürich Bahnhof'. Aufkleber 'Mit Luftpost / Par avion / Con aeroplano'.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Rückseite des Briefumschlags, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1572,
+    "total_words": 242,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      841,
+      0,
+      345,
+      0,
+      330,
+      56,
+      0
+    ],
+    "chars_per_page_median": 345,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

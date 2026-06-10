@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3153",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Juli 1940], SZ-AAL/B1.38",
+    "signature": "SZ-AAL/B1.38",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3153/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3153/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3153/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.38"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Juli 1940], SZ-AAL/B1.38\n- Signatur: SZ-AAL/B1.38\n- Datum: 07.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, we have been so glad to have your letter. It\nis such a misery now with correspondence — from South\nAmerica all replies came so late, from my former wife I\nhave no reply and have sent her at least five cables; we try to\nget her a visa and can not let her know, what she on her part\nhas to do. So we have all our lot of excitement and you can\nimagine what a sad surprise it was to know that the first affi-\ndavit for Eva has not been sent off — we had been so happy to\nhave arranged it the second day of our arrival in (as we be-\nlieved) perfect way.\nNow I have a favour to ask you: please dont worry about\nthe house and if you prefer to stay in London let it entirely\nto the care of the gardener. It is so indifferent, all those\nprivate things and belongings, compared with the great issue\nand I would have a bad feeling to think that you are sepa-\nrated from your husband only to be the keeper of the house.\nWhatever you do you will never hear a reproach from me\nI know you do the best, but I would no sacrifice of your\npart; it would prefer to let fall it to pieces.\nWe leave this week for Rio, I have already invitations\nfrom Uruguay and Venezuela, but I will stay if possible\nin Rio for some time. The distances are enormous and\nwe have to wait how things develop. I am so sorry that\nwe could not wait till to Evas arrival. Lotte has done\nher best to find her a good stay — unfortunately most of",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Tinte violett. Die Zeile 'have no reply' enthält eine kleine Korrektur/Einfügung 'since' über der Zeile, die im Transkript als 'since' berücksichtigt wurde.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "our friends are absent or out of town, — in September all\nwill be returned — and so I had not so much opportunity\nof choice. Your idea that Evas children should travel\nwith her seemed first very attractive, but you should not\nbother about such things. Most important is that she\ncomes over without waiting to long; ~~all~~ all will be\narranged for her and she must not bring over much of\nher clothes and matters, perhaps a little music for her study\nbut in any case not much. I hope in your and our all\ninterest that she will not have to stay long in America and\ncan soon be united with you again — I can understand\nwhat it means to tear over an only child over the ocean.\nBut as thousands of mothers do the same and the whole\nworld is full of sufferings we have no right to complain.\nWe have been here some five days and I have worked\nenough, but not enough to forget the time. You may imagine\nhow we follow all news in the newspapers — and how we will\nbe more away than before, thousands and thousands of miles!\nOne more thing, dear Hannah, please dispose freely of all\nI have and do not be too economical for you all, it has no\nsense and I am only pleased to know that I am not too\nmuch in your moral debt for all what you do. From\nRio we can communicate only by night-letters as mail\nwould take months and our dispositions depend from the\ncircumstances. The most desirable would be, we could take\nback Eva with us very soon. Sincerely to you all yours\nStefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Tinte violett. Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlappt mit dem unteren Teil des Briefes (Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und klar. Einige wenige Wörter wurden aufgrund des Kontextes und der Handschrift sicher identifiziert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2879,
+    "total_words": 577,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1411,
+      1468,
+      0
+    ],
+    "chars_per_page_median": 1439.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

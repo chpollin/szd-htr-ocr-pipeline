@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3186",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Stefan Zweig an Hannah Altmann [Dezember 1940], SZ-AAL/B1.68",
+    "signature": "SZ-AAL/B1.68",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3186/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3186/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3186/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.68"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Stefan Zweig an Hannah Altmann [Dezember 1940], SZ-AAL/B1.68\n- Signatur: SZ-AAL/B1.68\n- Datum: 12.1940\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Hannah, latest wishes for your birthday; my own was somewhat\nspoiled; ~~at~~ at one of the numerous registrations a nice, half-coloured girl,\nHis charming type I admire so much, wrote in the register under hair; 'grey'\nAs I said it was the first time in my life she was so kind to alter it into\nbrown, but I am afraid, it was the last time. Do not follow this bad example\nYou can imagine how we read the newspapers - with all your feelings\nand you know how hopeful I was from the first day; we try to imagine all\nour friends and where they may be. I have myself no news and do not know\nwhere to write, as most of them have without any doubt left London. Often\n- no, daily we are ashamed to enjoy such a glorious summer here, the\nheat is not so great as we feared and we hope to stand it through. I am\nglad to have a rest from my lectures, I hate to be from morning to evening\na public person and enjoy now our privacy. We have only one room here\nbut with a very big terrace so that it makes nearly two - what I miss are\nbooks as I cannot store them here. Of that I will shall have enough in the\nStates with her marvellous libraries - I dream to go to a place (Uni-\nversity or other town) about two hours from New York to have a quiet life\nand notwithstanding the torribly to, a go to town - about the distance\nof Bath to London, which was so agreeable in peace time. So Lotte could see\nfrom time to time Eva and [my] brother and a few of the friend, but I\nhave to avoid the innumerables which are now there. How much will you\nhave to tell us, I do really not know how you divide your life between\nall those who want your care and your help, but above you have to len\nyou will be anxious about Eva who really seems to enjoy her new life\nand even our rather harsh letter, that she may write you at least once a\nweek, will not spoil her the privileged stay. I think we better direct the last\nletter to Bath as I hope from all my heart that Manfred will take there\na holiday; one must nowadays seize every good moment and enjoy it -\nlet us not think too much, it doesnt help. Give my love to your sister, to all\nour friends if you see them - I wont like you to describe how peaceful\nand even without any imagination of all our fate this southamerican\nworld is but you would not believe it. Yours ever\nStefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist insgesamt gut, trotz einiger Korrekturen und kleinerer Schreibfehler im Original.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einige Wörter sind aufgrund der Handschrift leicht interpretativ (z.B. 'torribly' statt 'terribly'), wurden aber originalgetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2314,
+    "total_words": 468,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2314,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2314,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

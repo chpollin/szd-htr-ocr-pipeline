@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3228",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief von Ernst Süssland an Stefan Zweig [21. November 1938], SZ-AAL/B10.8",
+    "signature": "SZ-AAL/B10.8",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3228/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3228/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3228/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B10.8"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief von Ernst Süssland an Stefan Zweig [21. November 1938], SZ-AAL/B10.8\n- Signatur: SZ-AAL/B10.8\n- Datum: 21.11.1938\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ernst Süssland, Prag\n\nPrag, am 21.November 1938\n\nSehr geehrter Herr Zweig,\n\nich erhielt Ihr geehrtes Schreiben vom 16.d.\nM. und habe den beigelegenen Auftragsbrief de dato 6.\nOktober 1938 der Bank zur Durchführung übergeben.\n\nEs wäre mir sehr daran gelegen, wenn ich mit\nDr.Schlosser bald sprechen könnte; ich bitte Sie, mich\nzu verständigen, sobald Sie von ihm Antwort haben.\n\nEs bedrückt mich das Gefühl, dass wir mit Ro-\nsenthal überhaupt keinen Kontakt haben. Ich bin nicht im-\nstande, von der Filiale irgendwelche Auskünfte über die\nVorgänge bei der Firma zu bekommen, und fürchte mich da-\nvor, dass der kommissarische Leiter einmal unliebsam in\ndas Verhältnis zwischen Rosenthal und Prag eingreifen\nkönnte. Deshalb bitte ich, zu erwägen, ob wir nicht ei-\nnen reichsdeutschen geeigneten Herrn in den Verwaltungs-\nrat kooptieren sollten. Es müsste natürlich ein ganz\nverlässlicher Mensch sein, dem man seine Interessen an-\nvertrauen könnte und der auch wirtschaftlich erfahren\nist. Würde sich hiezu Herr Dr.Schlösser eignen ? Oder\nsoll ich nach einem Industriellen in der Gegend Umachau\nhalten? Ich glaube, dass wir eine Aufsichtsperson dringend\nbrauchen.\n\nMit besten Empfehlungen verbleibe ich hochacht\nungsvoll\nIhr ergebener\n[Unterschrift]",
+        "notes": "Typoskript mit handschriftlicher Unterschrift. Die Unterschrift ist unleserlich, daher als [Unterschrift] markiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Ernst Süssland, Prag\n\nPrag, am 21.November 1938\n\nSehr geehrter Herr Zweig,\n\nich erhielt Ihr geehrtes Schreiben vom 16.d.\nM. und habe den beigelegenen Auftragsbrief de dato 6.\nOktober 1938 der Bank zur Durchführung übergeben.\n\nEs wäre mir sehr daran gelegen, wenn ich mit\nDr.Schlosser bald sprechen könnte; ich bitte Sie, mich\nzu verständigen, sobald Sie von ihm Antwort haben.\n\nEs bedrückt mich das Gefühl, dass wir mit Ro-\nsenthal überhaupt keinen Kontakt haben. Ich bin nicht im-\nstande, von der Filiale irgendwelche Auskünfte über die\nVorgänge bei der Firma zu bekommen, und fürchte mich da-\nvor, dass der kommissarische Leiter einmal unliebsam in\ndas Verhältnis zwischen Rosenthal und Prag eingreifen\nkönnte. Deshalb bitte ich, zu erwägen, ob wir nicht ei-\nnen reichsdeutschen geeigneten Herrn in den Verwaltungs-\nrat kooptieren sollten. Es müsste natürlich ein ganz\nverlässlicher Mensch sein, dem man seine Interessen an-\nvertrauen könnte und der auch wirtschaftlich erfahren\nist. Würde sich hiezu Herr Dr.Schlösser eignen ? Oder\nsoll ich nach einem Industriellen in der Gegend Umachau\nhalten? Ich glaube, dass wir eine Aufsichtsperson dringend\nbrauchen.\n\nMit besten Empfehlungen verbleibe ich hochacht\nungsvoll\nIhr ergebener\n[Unterschrift]",
+        "notes": "Typoskript mit handschriftlicher Unterschrift. Dokument liegt auf einer Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist die einzige handschriftliche Komponente und nicht eindeutig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2490,
+    "total_words": 374,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1245,
+      0,
+      1245
+    ],
+    "chars_per_page_median": 1245,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

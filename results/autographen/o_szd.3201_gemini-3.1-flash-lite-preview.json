@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.3201",
+  "collection": "autographen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [11. Januar 1941], SZ-AAL/B1.81",
+    "signature": "SZ-AAL/B1.81",
+    "language": null,
+    "images": [
+      "https://gams.uni-graz.at/o:szd.3201/IMG.1",
+      "https://gams.uni-graz.at/o:szd.3201/IMG.2",
+      "https://gams.uni-graz.at/o:szd.3201/IMG.3"
+    ],
+    "input_image_count_total": 3,
+    "provenance": {
+      "ingest_label": "SZ-AAL-2026-06",
+      "in_gams": true,
+      "source_folder": "SZ_AAL_B1.81"
+    }
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brieffragment von Lotte Zweig an Hannah; Altmann, Manfred Altmann [11. Januar 1941], SZ-AAL/B1.81\n- Signatur: SZ-AAL/B1.81\n- Datum: 11.1.1941\n- Objekttyp: Brieffragment\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Rio, 11.I.41\nDear Manfred & Hanna,\nToday we had your letter of Dec 18th and we are\nsorry that you are worried about Eva. Obviously Salmon's determined\nsilence towards you and us is strange and that Rose Wohl behaved\nin the same manner does not make the matter any more agreeable.\nBut you need not worry any longer. By the letters of my sister-\nin-law you can be assured that Eva is well and apparently\nquite happy there, and when you get this letter we will already\nhave seen her - and Salmon! I'll see to that - and decide what is\nbest for her and take her away if it should seem advisable. That\nwe should love to have her with us, I need not emphasise, but\nthat we cannot yet decide as long as our own plans are only made\nfrom three months to three months. But you can rely upon us that\nwe shall not leave Eva at Salmon's if the surroundings are not\nright. As to the school I cannot say anything until I have been\nthere. But I am afraid the American curriculum is somewhat\ndifferent from the English, and should we be able to take her with\nus to Rio the difference would be still greater. But we will see to\nall that and it will be easier now than in summer where all\nthe schools were closed. If we will have to take Eva away and for\nsome reason or other must again place her with others, I'll try to\nfind a continental background. Huebsch and Einsteins I shall\nconsult again, but I don't think that either one could take her -\nit is not only the question of wanting to take a child but more\nthan anything else the problem of space - flats in New York etc\nand elsewhere are usually just big enough for the family without\nany room for guest or even servants. That may be also part of\nthe trouble with Berners and Carmel's boys. They lived in a tiny flat\nwith Rose, - two rooms and sittingroom all rather small - and the flat\nthey have now moved into is hardly bigger. I do not want to defend\ntheir behaviour, and I certainly was disappointed that they never\neven sent a postcard about seeing Eva, but as far as I can remember\nit was Carmel who cabled that she wanted to send the boys, not they\nwho offered to take them and Berner's were not completely delighted\nthat Rose was taking them. That would explain not their behaviour\nbut their attitude to a certain degree. - We were glad to learn that\nyou were spending more than a week in Bath, and Belzim certainly\nwas an agreeable visitor although I cannot quite imagine where you\nhad him sleep. Have you many left already, and do you take\nsomeone else in their place? Give Kanner my thanks for this\nletter. I do believe I wrote them some time ago, but I am not\nquite sure about it myself, the heat makes one stupid as well as lazy.",
+        "notes": "Handschriftlicher Brief auf einem Blatt, Tinte auf Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar geschrieben. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2681,
+    "total_words": 519,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2681,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2681,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
