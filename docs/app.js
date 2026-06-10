@@ -59,6 +59,7 @@ const state = {
   sortField: 'collection',
   sortAsc: true,
   filterCollection: '',
+  filterIngest: '',
   filterGroup: '',
   filterConfidence: '',
   filterReviewStatus: '',
@@ -478,6 +479,7 @@ function navigate(hash) {
 function buildCatalogHash() {
   const params = new URLSearchParams();
   if (state.filterCollection) params.set('collection', state.filterCollection);
+  if (state.filterIngest) params.set('ingest', state.filterIngest);
   if (state.filterGroup) params.set('group', state.filterGroup);
   if (state.filterConfidence) params.set('confidence', state.filterConfidence);
   if (state.filterReviewStatus) params.set('review_status', state.filterReviewStatus);
@@ -494,6 +496,7 @@ function parseCatalogParams(hash) {
   if (qIdx === -1) return;
   const params = new URLSearchParams(hash.slice(qIdx + 1));
   if (params.has('collection')) state.filterCollection = params.get('collection');
+  if (params.has('ingest')) state.filterIngest = params.get('ingest');
   if (params.has('group')) state.filterGroup = params.get('group');
   if (params.has('confidence')) state.filterConfidence = params.get('confidence');
   if (params.has('review_status')) state.filterReviewStatus = params.get('review_status');
@@ -507,12 +510,13 @@ function parseCatalogParams(hash) {
 function restoreFilterUI() {
   document.getElementById('searchInput').value = state.searchQuery;
   document.getElementById('filterCollection').value = state.filterCollection;
+  document.getElementById('filterIngest').value = state.filterIngest;
   updateGroupFilter();
   document.getElementById('filterGroup').value = state.filterGroup;
   document.getElementById('filterConfidence').value = state.filterConfidence;
   document.getElementById('filterReviewStatus').value = state.filterReviewStatus;
   // Highlight active selects
-  for (const id of ['filterCollection', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+  for (const id of ['filterCollection', 'filterIngest', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
     const el = document.getElementById(id);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
@@ -1094,6 +1098,9 @@ function applyFilters() {
   if (state.filterCollection) {
     list = list.filter(o => o.collection === state.filterCollection);
   }
+  if (state.filterIngest) {
+    list = list.filter(o => o.ingestLabel === state.filterIngest);
+  }
   if (state.filterGroup) {
     list = list.filter(o => (o.classification || o.groupLabel) === state.filterGroup);
   }
@@ -1118,7 +1125,8 @@ function applyFilters() {
     list = list.filter(o =>
       (o.titleClean || '').toLowerCase().includes(q) ||
       (o.signature || '').toLowerCase().includes(q) ||
-      (o.pid || '').toLowerCase().includes(q)
+      (o.pid || '').toLowerCase().includes(q) ||
+      (o.ingestLabel || '').toLowerCase().includes(q)
     );
   }
 
@@ -1212,7 +1220,7 @@ function renderCatalog() {
   document.getElementById('filterReviewStatus').classList.toggle('is-hidden', !state.hasReviewData);
 
   // Highlight active selects + render filter chips
-  for (const id of ['filterCollection', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
+  for (const id of ['filterCollection', 'filterIngest', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
     const el = document.getElementById(id);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
@@ -1248,6 +1256,9 @@ function renderActiveFilters() {
   if (state.filterCollection) {
     chips.push({ key: 'collection', label: COLLECTION_LABELS[state.filterCollection] || state.filterCollection });
   }
+  if (state.filterIngest) {
+    chips.push({ key: 'ingest', label: state.filterIngest });
+  }
   if (state.filterGroup) {
     chips.push({ key: 'group', label: state.filterGroup });
   }
@@ -1278,6 +1289,16 @@ function initCatalogFilters() {
     opt.textContent = COLLECTION_LABELS[col] || col;
     sel.appendChild(opt);
   }
+  // Ingest-Filter nur zeigen, wenn der Katalog Lieferungs-Labels enthaelt
+  const ingestSel = document.getElementById('filterIngest');
+  const ingestLabels = [...new Set(state.catalog.map(o => o.ingestLabel).filter(Boolean))].sort();
+  for (const label of ingestLabels) {
+    const opt = document.createElement('option');
+    opt.value = label;
+    opt.textContent = label;
+    ingestSel.appendChild(opt);
+  }
+  ingestSel.classList.toggle('is-hidden', ingestLabels.length === 0);
   updateGroupFilter();
 }
 
@@ -2990,6 +3011,12 @@ function initEvents() {
     renderCatalog();
   });
 
+  document.getElementById('filterIngest').addEventListener('change', e => {
+    state.filterIngest = e.target.value;
+    state.catalogPage = 0;
+    renderCatalog();
+  });
+
   document.getElementById('filterGroup').addEventListener('change', e => {
     state.filterGroup = e.target.value;
     state.catalogPage = 0;
@@ -3016,6 +3043,7 @@ function initEvents() {
     if (key === 'reset-all') {
       state.searchQuery = '';
       state.filterCollection = '';
+      state.filterIngest = '';
       state.filterGroup = '';
       state.filterConfidence = '';
       state.filterReviewStatus = '';
@@ -3023,6 +3051,8 @@ function initEvents() {
       state.searchQuery = '';
     } else if (key === 'collection') {
       state.filterCollection = '';
+    } else if (key === 'ingest') {
+      state.filterIngest = '';
     } else if (key === 'group') {
       state.filterGroup = '';
     } else if (key === 'confidence') {
