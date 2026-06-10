@@ -2,7 +2,7 @@
 title: "Datengrundlage"
 aliases: ["Datenanalyse"]
 created: 2026-03-30
-updated: 2026-04-03
+updated: 2026-06-10
 type: analysis
 status: stable
 related:
@@ -14,7 +14,7 @@ related:
 
 ## Physischer Bestand
 
-Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien (100% Abdeckung, keine fehlenden Dateien).
+Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien (100% Abdeckung). **Fuenf Sammlungen** (autographen seit 2026-06-10, s. Abschnitt 5).
 
 | Sammlung | Backup-Dir | Objekte | Bilder | Volumen | Bilder/Obj (Median) | Bilder/Obj (Max) |
 |---|---|---|---|---|---|---|
@@ -22,9 +22,12 @@ Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.jso
 | Werke | `facsimiles/` | 169 | 7.842 | 9,5 GB | 21 | 341 |
 | Aufsatzablage | `aufsatz/` | 625 | 3.844 | 4,8 GB | 5 | 69 |
 | Korrespondenzen | `korrespondenzen/` | 1.186 | 4.154 | 5,8 GB | 3 | 151 |
-| **Gesamt** | | **2.107** | **18.719** | **23,6 GB** | | |
+| Briefkonvolute (SZ-AAL) | `autographen/` | 379 | 1.599 | 2,0 GB | 3 | 15 |
+| **Gesamt** | | **2.486** | **20.318** | **~25,6 GB** | | |
 
-**Hinweis Cross-Listing:** 34 lebensdokumente-Objekte (o_szd.71, 75–93, 159, 161, 168–181) liegen im Backup zusätzlich physisch unter `korrespondenzen/`. Die Spalte **Objekte** zählt physische Verzeichnis-Einträge; die Gesamtsumme zählt diese 34 doppelt. Die Pipeline (`discover_objects` → `_canonical_collection`, `pipeline/transcribe.py`) dedupliziert TEI-kanonisch, sodass jedes Objekt genau einmal transkribiert wird — die kanonisch transkribierte korrespondenzen-Größe ist entsprechend kleiner als 1.186 (aktuelle Zahlen → `python pipeline/transcribe.py --all --dry-run`). Fünf der 34 (o_szd.76/77/175/176/179) stehen in **keiner** TEI; der Backup-Tie-Break (`COLLECTIONS`-Reihenfolge, lebensdokumente vor korrespondenzen) ordnet sie lebensdokumente zu. Das ist durch **Signatur-Kontinuität belegt**: sie liegen innerhalb der Serien SZ-AAP/L (o_szd.76/77 zwischen den TEI-belegten 71–93) und SZ-AP2/L (o_szd.175/176/179 unter den TEI-belegten 174–181), die durchweg lebensdokumente sind — nur ihr individueller TEI-Katalogeintrag fehlt (SZD-seitige Katalog-Lücke, keine Pipeline-Ambiguität). Die Doppelung stammt aus GAMS selbst (beide Container `szd.facsimiles.korrespondenzen` und `…lebensdokumente` existieren dort), nicht aus einem lokalen Download-Fehler. Reihenfolge in `config.py` daher nicht beliebig ändern. Regressionstest: `pipeline/test_canonical_collection.py`.
+**Cross-Listing/Deduplizierung:** 34 lebensdokumente-Objekte (o_szd.71, 75–93, 159, 161, 168–181) liegen im Backup zusaetzlich physisch unter `korrespondenzen/` — die Doppelung stammt aus GAMS selbst, nicht aus einem Download-Fehler. Die Spalte **Objekte** zaehlt physische Verzeichnisse (inkl. Doppelungen); die Pipeline (`discover_objects` → `_canonical_collection`, `pipeline/transcribe.py`) dedupliziert TEI-kanonisch, sodass jedes Objekt genau einmal transkribiert wird. Fuenf der 34 (o_szd.76/77/175/176/179) stehen in keiner TEI; der Backup-Tie-Break (`COLLECTIONS`-Reihenfolge, lebensdokumente vor korrespondenzen) ordnet sie lebensdokumente zu — belegt durch Signatur-Kontinuitaet innerhalb der durchweg lebensdokumente-Serien SZ-AAP/L und SZ-AP2/L (SZD-seitige Katalog-Luecke, keine Pipeline-Ambiguitaet). Reihenfolge in `config.py` daher nicht aendern. Regressionstest: `pipeline/test_canonical_collection.py`.
+
+**Kanonische Zahlen** (`python pipeline/transcribe.py --all --dry-run`, Stand 2026-06-10): lebensdokumente 127, werke 169, aufsatzablage 625, korrespondenzen 1.157, autographen 379 = **2.457 Objekte**. Davon transkribiert: 2.451 (`docs/catalog.json`); Restanten: 4 aufsatzablage, 2 autographen (ohne Faksimiles, B3-Re-Export ausstehend).
 
 **Bildformat:** JPEG, Median 4800 x 7234 px, ca. 1,3 MB/Bild.
 
@@ -36,10 +39,13 @@ Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.jso
 | Werke | 50 | o_szd.948 "Rausch der Verwandlung" | 341 |
 | Aufsatzablage | 2 | o_szd.2291 "Salzburg" | 69 |
 | Korrespondenzen | 5 | o_szd.75 | 151 |
+| Briefkonvolute (SZ-AAL) | 0 | — | 15 |
 
-Werke ist die bildintensivste Sammlung: 8% der Objekte, aber 42% aller Bilder. 50 Objekte mit >50 Bildern erfordern Chunking (Pipeline-Default: 20 Bilder/Chunk).
+Werke ist die bildintensivste Sammlung: 42% aller Bilder. Objekte mit >20 Bildern werden gechunkt (Pipeline-Default: 20 Bilder/Chunk).
 
 ### Sprachen
+
+Stand 2026-03 (ohne autographen — deren METS-Sprachfeld ist ein Cirilo-Pauschalwert und wird bewusst nicht uebernommen, s. Abschnitt 5):
 
 | Sprache | Objekte | Anteil |
 |---|---|---|
@@ -51,17 +57,18 @@ Werke ist die bildintensivste Sammlung: 8% der Objekte, aber 42% aller Bilder. 5
 
 ## TEI-Metadaten vs. Backup
 
-TEI-XML als primaere Metadatenquelle, heruntergeladen am 30.03.2026 von https://stefanzweig.digital/. TEI und Backup sind nicht direkt ueber PIDs verknuepft — TEI nutzt Signaturen (z.B. `SZ-AAP/W2.2`), Backup nutzt `o_szd.*`-IDs. Die Verknuepfung laeuft ueber `pipeline/tei_context.py`.
+TEI-XML als primaere Metadatenquelle (vier Sammlungen heruntergeladen am 30.03.2026 von https://stefanzweig.digital/; autographen-TEI lokal generiert). TEI und Backup sind nicht direkt ueber PIDs verknuepft — TEI nutzt Signaturen (z.B. `SZ-AAP/W2.2`), Backup nutzt `o_szd.*`-IDs; Verknuepfung via `pipeline/tei_context.py`.
 
-| Sammlung | TEI msDesc | Backup-Objekte | Diskrepanz | TEI-Datei |
+| Sammlung | TEI-Eintraege | Backup-Objekte | Diskrepanz | TEI-Datei |
 |---|---|---|---|---|
 | Lebensdokumente | 143 | 127 | TEI +16 ohne Digitalisat | `szd_lebensdokumente_tei.xml` |
 | Werke | 352 | 169 | TEI +183 (Werkverzeichnis > digitalisierte Faksimiles) | `szd_werke_tei.xml` |
 | Aufsatzablage | 624 | 625 | ~1:1 | `szd_aufsatzablage_tei.xml` |
 | Korrespondenzen | 723 | 1.186 | Backup +463 (spaetere Digitalisierungen) | `szd_korrespondenzen_tei.xml` |
-| **Gesamt** | **1.842** | **2.107** | | |
+| Briefkonvolute (SZ-AAL) | 379 | 379 | 1:1 (TEI generiert) | `szd_autographen_tei.xml` |
+| **Gesamt** | **2.221** | **2.486** | | |
 
-Die korrespondenzen-TEI katalogisiert auf **Konvolut-Ebene** (231 Briefpartner, `o:szd.korrespondenzen.NAME`), nicht auf numerischer Einzelbrief-Ebene. `list_tei_objects()` liefert daraus **0 nutzbare Objekt-PIDs** (die 723 sind correspDesc-Metadaten ohne `o:szd.N`-PID); es ist kein Parser-Bug. Folge: alle korrespondenzen-Objekte werden über den Backup-Tie-Break kanonisiert, nicht über die TEI (s. Cross-Listing-Hinweis oben). Die 1.186 Backup-Objekte sind der physische Verzeichniszähler inkl. der 34 Cross-Listings.
+Die korrespondenzen-TEI katalogisiert auf **Konvolut-Ebene** (231 Briefpartner, `o:szd.korrespondenzen.NAME`): `list_tei_objects()` liefert daraus 0 nutzbare Objekt-PIDs (die 723 sind correspDesc-Metadaten ohne `o:szd.N`-PID, kein Parser-Bug). Folge: alle korrespondenzen-Objekte werden ueber den Backup-Tie-Break kanonisiert (s. Cross-Listing oben).
 
 ---
 
@@ -107,7 +114,7 @@ Stefan Zweig (98), fremde Hand (50), Lotte Zweig (19), Ben Huebsch (5), Eugen Re
 
 ### Schreibinstrumente
 
-Violette Tinte (Zweigs Standard), Bleistift (Annotationen), Buntstifte (blau, rot, gruen — Markierungen), schwarzes/violettes Farbband (Typoskripte), Durchschlagpapier.
+Violette Tinte (Zweigs Standard), Bleistift (Annotationen), Buntstifte (Markierungen), schwarzes/violettes Farbband (Typoskripte), Durchschlagpapier.
 
 ### Physische Metadaten in TEI
 
@@ -196,22 +203,22 @@ Unbekannt (391), **Erwin Rieger** (225 — Zweigs Sekretaer, hat die Registerbla
 
 ### Besonderheit: Zeitungsausschnitte
 
-312 Zeitungsausschnitte — voellig eigener Dokumenttyp: Gedruckter Text in verschiedenen Zeitungsschriften (oft Fraktur), verschiedene Layouts (Spalten, Ueberschriften), teils mit handschriftlichen Annotationen.
+312 Zeitungsausschnitte — eigener Dokumenttyp: gedruckter Text in verschiedenen Zeitungsschriften (oft Fraktur), verschiedene Layouts (Spalten, Ueberschriften), teils mit handschriftlichen Annotationen.
 
 ---
 
 ## 4. Korrespondenzen
 
-**TEI-Quelle:** `data/szd_korrespondenzen_tei.xml` — 723 Eintraege, NUR Korrespondenz-Metadaten (`<correspDesc>`: wer schrieb an wen, wann). Keine physischen Beschreibungen, keine PIDs.
+**TEI-Quelle:** `data/szd_korrespondenzen_tei.xml` — 723 Eintraege, NUR Korrespondenz-Metadaten (`<correspDesc>`: wer schrieb an wen, wann). Keine physischen Beschreibungen, keine PIDs — daher Kanonisierung ueber den Backup-Tie-Break (s. „TEI-Metadaten vs. Backup").
 
-**Backup-Quelle:** `szd-backup/data/korrespondenzen/` — **1186 physische Objekte** mit metadata.json und Bildern. Weil die TEI 0 nutzbare Objekt-PIDs liefert (Konvolut-Ebene, s. „TEI-Metadaten vs. Backup"), werden alle korrespondenzen-Objekte über den Backup-Tie-Break kanonisiert; davon zählen 34 cross-gelistete Objekte kanonisch zu lebensdokumente, sodass die transkribierte korrespondenzen-Größe kleiner als 1186 ist (kanonisch → `transcribe.py --all --dry-run`).
+**Backup-Quelle:** `szd-backup/data/korrespondenzen/` — 1.186 physische Objekte (kanonisch 1.157, Stand 2026-06-10).
 
 ### Charakteristika
 
 - Primaer handschriftliche **Briefe** (Zweigs Hand, violette Tinte)
-- Mit Abstand groesste Sammlung (physisch 1186 Objekte)
+- Groesste Sammlung (kanonisch 1.157 Objekte)
 - Keine TEI-Klassifikation — Dokumenttypen aus Titeln ableitbar: Brief, Postkarte, Telegramm, Visitenkarte
-- Kontextinformation kommt aus Backup-metadata.json (Titel, Sprache, Bildliste, GAMS-URLs)
+- Kontextinformation aus Backup-metadata.json (Titel, Sprache, Bildliste, GAMS-URLs)
 
 ### Beispiel-Objekt
 
@@ -226,9 +233,23 @@ Unbekannt (391), **Erwin Rieger** (225 — Zweigs Sekretaer, hat die Registerbla
 
 ---
 
-## 5. Prompt-Gruppen (A–I)
+## 5. Briefkonvolute (SZ-AAL) — Sammlung `autographen`
 
-Konsolidierte Master-Tabelle aller 9 Gruppen, abgeleitet aus der TEI-Analyse.
+**Neu seit 2026-06-10** (Cirilo-Ingest SZ-AAL-2026-06, o:szd.3020–3398). Reines Briefkonvolut-Korpus: Konvolute SZ-AAL/B1–B10, Briefe an/von Stefan und Lotte Zweig. Anzeige-Label im Viewer: „Briefkonvolute (SZ-AAL)" (Arbeitsbegriff, offizielle Benennung wird mit der Erschliessung geklaert).
+
+- **379 Objekte, 1.599 Bilder** (Median 3, Max 15 Bilder/Objekt), ~2,0 GB
+- **Immer Prompt-Gruppe I** (Korrespondenz, via `resolve_group()`)
+- Backup-Struktur und TEI-Kontextquelle (`data/szd_autographen_tei.xml`, 379 biblFull) werden von `pipeline/import_autographen.py` aus dem Ingest-Staging **generiert** (idempotent re-runnbar)
+- **Sprachfeld bewusst leer:** Cirilo setzt pauschal „Deutsch" ins METS (kein Katalogwert, viele Briefe englisch) — der Wert wird nicht in metadata.json/TEI uebernommen, das VLM erkennt die Sprache selbst
+- Stand 2026-06-10: 377/379 transkribiert (2 Restanten ohne Faksimiles, quellseitiger B3-Re-Export ausstehend)
+
+Details: `knowledge/journal.md` (2026-06-10) und Docstring von `import_autographen.py`.
+
+---
+
+## 6. Prompt-Gruppen (A–I)
+
+Master-Tabelle aller 9 Gruppen, abgeleitet aus der TEI-Analyse.
 
 | Gruppe | Name | Population (ca.) | Quell-Sammlungen | Hauptherausforderung |
 |---|---|---|---|---|
@@ -240,24 +261,24 @@ Konsolidierte Master-Tabelle aller 9 Gruppen, abgeleitet aus der TEI-Analyse.
 | **F** | Korrekturfahne | ~55 | W, AA | Gedruckter Text + handschriftliche Korrekturen |
 | **G** | Konvolut | ~24 | W | Gemischte Materialien, Materialwechsel zwischen Seiten |
 | **H** | Zeitungsausschnitt | ~312 | AA | Gedruckt, Fraktur und Antiqua, verschiedene Layouts |
-| **I** | Korrespondenz | ~1186 | K | Handschriftliche Briefe, Briefkonventionen |
+| **I** | Korrespondenz | ~1.536 | K, AAL | Handschriftliche Briefe, Briefkonventionen |
 
-LD = Lebensdokumente, W = Werke, AA = Aufsatzablage, K = Korrespondenzen.
+LD = Lebensdokumente, W = Werke, AA = Aufsatzablage, K = Korrespondenzen, AAL = Briefkonvolute (SZ-AAL).
 
 Gruppenzuordnung automatisch via `resolve_group()` in `pipeline/tei_context.py`. Prompt-Dateien: `pipeline/prompts/group_{a-i}_*.md`.
 
-## 6. Haende im Nachlass
+## 7. Haende im Nachlass
 
 | Hand | Sammlungen | Charakter |
 |---|---|---|
 | **Stefan Zweig** | Alle | Dominant, violette Tinte, lateinisch mit Kurrenteinfluessen |
-| **Lotte Zweig** | LD, W, AA | Zweithaeufigst bei Werken |
+| **Lotte Zweig** | LD, W, AA, AAL | Zweithaeufigst bei Werken |
 | **Erwin Rieger** | AA | 225 Registerblaetter |
 | **Richard Friedenthal** | W, AA | |
 | **Friderike Zweig** | LD, W | |
 | fremde Haende | Alle | Verleger, Behoerden, Sekretaere |
 
-## 7. Nutzen fuer die Pipeline
+## 8. Nutzen fuer die Pipeline
 
 Die TEI-Metadaten liefern pro Objekt automatischen Kontext fuer den VLM-Prompt (via `pipeline/tei_context.py`):
 

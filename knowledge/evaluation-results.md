@@ -2,7 +2,7 @@
 title: "Evaluationsergebnisse"
 aliases: ["CER-Baseline"]
 created: 2026-04-02
-updated: 2026-04-03
+updated: 2026-06-10
 type: analysis
 status: stable
 related:
@@ -13,13 +13,13 @@ related:
 
 # Evaluationsergebnisse: CER-Baseline der SZD-HTR-Pipeline
 
-Stand: Session 20 (2. April 2026)
+Empirische Baseline, erhoben **Stand Session 20 (2. April 2026)**. Die Fehlertypologie (§3–4) ist weiterhin gueltig; Objekt- und Review-Zahlen sind historisch (aktueller Stand → `docs/catalog.json`). Einordnung nach heutigem Review-Modell (drei Status, 2026-06-10): „Human Approved" entspricht **Mensch-geprueft** (`gt_verified`/`approved` — verifiziert, Ground-Truth-faehig), „Agent Verified" entspricht **Agent-geprueft**. CER-Referenz sind menschlich gepruefte Texte; das LLM-Original bleibt je Seite in `edit_history` erhalten.
 
 ---
 
 ## 1. Ueberblick
 
-58 Objekte wurden verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen sind abgedeckt.
+58 Objekte wurden verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen abgedeckt.
 
 | Review-Typ | Objekte | Content-Seiten | Zeichen |
 |---|---:|---:|---:|
@@ -28,11 +28,7 @@ Stand: Session 20 (2. April 2026)
 | Agent Verified (Session 20, Batch 1-4) | 24 | ~42 | ~18.000 |
 | **Gesamt** | **58** | **~99** | **~56.300** |
 
-**Neu in Session 20**: Edit-Tracking eingefuehrt — alle Agent-Korrekturen werden mit `edit_history` pro Seite gespeichert (Original-Text + Korrektur + Quelle), im Frontend als Side-by-Side-Diff sichtbar.
-
-**Human Approved**: Experte prueft Transkription im Frontend-Viewer gegen das Faksimile, korrigiert bei Bedarf, markiert als `approved`.
-
-**Agent Verified**: Claude Code Sub-Agents (Opus 4.6 mit Vision) vergleichen jede Seite Bild-fuer-Bild gegen den Transkriptionstext. Gefundene Fehler werden korrigiert und als `agent_verified` gestempelt (→ [[verification-concept]] §8).
+Seit Session 20 gilt **Edit-Tracking**: alle Korrekturen (Agent + Mensch) werden mit `edit_history` pro Seite gespeichert (Original + Korrektur + Quelle), im Frontend als Side-by-Side-Diff sichtbar.
 
 ---
 
@@ -40,20 +36,18 @@ Stand: Session 20 (2. April 2026)
 
 ### Workflow
 
-1. Fuer jedes Objekt wird ein Sub-Agent gestartet
-2. Der Agent liest alle Seitenbilder aus dem lokalen Backup (`SZD_BACKUP_ROOT`)
-3. Der Agent liest die Transkription aus dem Pipeline-JSON
-4. Seite fuer Seite: Bild wird gegen Text verglichen, Zeichen fuer Zeichen
-5. Ergebnis: Fehlerliste mit Zitat, Korrektur, Schweregrad
-6. Fehler werden direkt im JSON korrigiert
-7. Review-Metadaten werden geschrieben: `status`, `agent_model`, `errors_found`, `estimated_accuracy`, `edited_pages`
+1. Pro Objekt ein Claude-Sub-Agent (Opus 4.6 mit Vision)
+2. Agent liest Seitenbilder aus dem lokalen Backup (`SZD_BACKUP_ROOT`) und die Transkription aus dem Pipeline-JSON
+3. Seite fuer Seite Bild-Text-Vergleich, Zeichen fuer Zeichen
+4. Fehlerliste mit Zitat, Korrektur, Schweregrad; Fehler werden direkt im JSON korrigiert
+5. Review-Metadaten: `status`, `agent_model`, `errors_found`, `estimated_accuracy`, `edited_pages`
 
 ### Einschraenkungen
 
-- Claude als Vision-Judge ist **kein Ersatz** fuer menschliches Expert-Review — es ist ein Cross-Model-Check (Gemini transkribiert, Claude verifiziert)
-- Handschrift-Verifikation ist schwieriger als Drucktext — bei ambiguer Handschrift wird "unsicher" markiert
+- Claude als Vision-Judge ist **kein Ersatz** fuer menschliches Review — es ist ein Cross-Model-Check (Gemini transkribiert, Claude verifiziert)
+- Handschrift-Verifikation ist schwieriger als Drucktext; bei ambiguer Handschrift wird "unsicher" markiert
 - Der Agent kann Fehler **uebersehen** (kein exhaustiver Beweis)
-- Deshalb liegt `agent_verified` im 4-Tier-Modell **unter** `approved`
+- Deshalb steht **Agent-geprueft** im Status-Modell unter **Mensch-geprueft**
 
 ---
 
@@ -73,13 +67,10 @@ Stand: Session 20 (2. April 2026)
 
 ### Interpretation
 
-**Gedruckter Text** (Korrekturfahne, Typoskript): **99.6–99.9% Genauigkeit**. Das VLM liest sauberen Druck nahezu fehlerfrei. Die wenigen Fehler betreffen fehlende Satzzeichen und Wortgrenzen an Seitenumbruechen.
-
-**Fraktur** (Zeitungsausschnitt): **99.7–99.8%**, aber mit **systematischen Fraktur-Fehlern**. Das lange s (ſ) wird als "f" gelesen: "selbst**f**eligen" statt "selbst**s**eligen", "gerei**st**e" statt "gerei**ft**e". Dies ist der haeufigste und schwerwiegendste Fehlertyp — er erzeugt falsche, aber existierende Woerter.
-
-**Handschrift** (inkl. Korrespondenz): **90–99.4%**. Breites Spektrum je nach Handschriftqualitaet. Saubere Handschrift (z.B. o_szd.1256, Brief an Fleischer): 100%. Schwierige Handschrift mit tabellarischem Layout (o_szd.1475, Tantiemen-Liste): ~90% — hier versagt die VLM-Linearisierung bei Zuordnung von Betraegen zu Zeilen.
-
-**Formulare**: **98.5–100%**. Gedruckte Formularfelder werden korrekt gelesen, handschriftliche Eintragungen sind schwieriger (Matrik-Nummern, Unterschriften).
+- **Gedruckter Text** (Korrekturfahne, Typoskript): 99.6–99.9% — nahezu fehlerfrei; Restfehler sind Satzzeichen und Wortgrenzen an Seitenumbruechen.
+- **Fraktur** (Zeitungsausschnitt): 99.7–99.8%, aber mit **systematischen Fraktur-Fehlern** (ſ→f: "selbstfeligen" statt "selbstseligen"). Haeufigster und schwerwiegendster Typ — erzeugt falsche, aber existierende Woerter.
+- **Handschrift** (inkl. Korrespondenz): 90–99.4%, breites Spektrum je nach Schriftqualitaet. Saubere Handschrift (o_szd.1256): 100%. Schwierige Handschrift mit tabellarischem Layout (o_szd.1475): ~90% — VLM-Linearisierung versagt bei Zuordnung von Betraegen zu Zeilen.
+- **Formulare**: 98.5–100%. Gedruckte Felder korrekt, handschriftliche Eintragungen schwieriger (Matrik-Nummern, Unterschriften).
 
 ---
 
@@ -92,20 +83,17 @@ Stand: Session 20 (2. April 2026)
 | Langes s → f | selbst**f**eligen | selbst**s**eligen | o_szd.2213 |
 | ft ↔ st | gerei**st**e | gerei**ft**e | o_szd.2213 |
 | Fraktur a → Punkt | s**.g**en | s**ag**en | o_szd.2296 |
-
 | Wortfragment halluziniert | Mitge**brine** | Mitbr**ingsel** | o_szd.2217 |
 | Eigenname falsch | **Hayel** | **Hayek** | o_szd.2217 |
 | Werktitel halluziniert | Demokratie **Lista** | Democratic **Vistas** | o_szd.2217 |
 | D/W-Verwechslung | **Denn** sie wirklich | **Wenn** sie wirklich | o_szd.2249 |
 | Fehlende Silbe | auf**hetzter** | auf**gehetzter** | o_szd.2249 |
 
-**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen. Das lange ſ (Unicode U+017F) sieht dem f aehnlich; die Ligaturen ft und st sind in Fraktur nahezu identisch. Bei Eigennamen und fremdsprachigen Werktiteln (z.B. Whitmans "Democratic Vistas") fehlt dem VLM das Kontextwissen.
-
-**Haeufigkeit**: ~28 Fehler in ~14.000 Fraktur-Zeichen (~0.2%). Hoeher als zuvor geschaetzt, weil Session 20 schwierigere Zeitungsausschnitte einschliesst.
+**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen (ſ/f; ft/st-Ligaturen nahezu identisch). Bei Eigennamen und fremdsprachigen Werktiteln fehlt Kontextwissen. **Haeufigkeit**: ~28 Fehler in ~14.000 Fraktur-Zeichen (~0.2%).
 
 ### 4.2 Kurrent-Buchstabenverwechslungen (Schweregrad: hoch)
 
-*Neu in Session 19 — 8 Korrespondenzen an Max Fleischer (~1901-1902), alle Kurrent-Handschrift.*
+*Session 19 — 8 Korrespondenzen an Max Fleischer (~1901-1902), alle Kurrent.*
 
 | Fehler | Transkription | Korrekt | Objekt |
 |---|---|---|---|
@@ -115,17 +103,13 @@ Stand: Session 20 (2. April 2026)
 | L ↔ B | **Besten** Gruss | **Liebsten** Gruss | o_szd.1100 |
 | Nonsens | **Langentour Kantgewalt** | **Laufenden** | o_szd.1090 |
 
-**Ursache**: Kurrent-Minuskeln weichen systematisch von Antiqua-Formen ab. Gemini (trainiert primaer auf Antiqua/Drucktext) erkennt die Unterschiede nicht zuverlaessig. Besonders betroffen: hastige Schrift auf kleinen Postkarten, rote Tinte auf Bildhintergrund.
+**Ursache**: Kurrent-Minuskeln weichen systematisch von Antiqua ab; Gemini (primaer auf Antiqua trainiert) erkennt die Unterschiede nicht zuverlaessig. Besonders betroffen: hastige Schrift auf kleinen Postkarten, rote Tinte auf Bildhintergrund. **Haeufigkeit**: 33 Fehler in 8 Objekten (~4/Objekt); Spread 90% (hastig) bis 99.7% (sauber). Groesster Einflussfaktor ist die Schriftqualitaet des Originals, nicht der Prompt.
 
-**Haeufigkeit**: 33 Fehler in 8 Objekten (~4 pro Objekt). Genauigkeits-Spread: 90% (hastiger Kurrent) bis 99.7% (sauberer Kurrent). Groesster Einflussfaktor ist nicht der Prompt, sondern die Schriftqualitaet des Originals.
-
-**Besonders problematisch: Nonsens-Halluzination.** Bei unleserlichem Kurrent erfindet Gemini echte Woerter statt `[?]` zu setzen. Dies macht `marker_density` als Quality-Signal wertlos — das Modell signalisiert Unsicherheit nicht.
+**Besonders problematisch: Nonsens-Halluzination.** Bei unleserlichem Kurrent erfindet Gemini echte Woerter statt `[?]` zu setzen. Das macht `marker_density` als Quality-Signal **wertlos** — das Modell signalisiert Unsicherheit nicht (Konsequenz: in v1.5 aus `needs_review` entfernt).
 
 ### 4.3 Halluziniertes "An" auf Adressseiten (Schweregrad: niedrig)
 
-In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressaten auf Postkarten-Adressseiten. Auf den Originalen steht kein "An" — die Adresse beginnt direkt mit dem Namen.
-
-**Fix**: Hinweis im Gruppen-Prompt I (Korrespondenz) oder Post-Processing-Regel.
+In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressaten auf Postkarten-Adressseiten. **Fix**: Hinweis im Gruppen-Prompt I oder Post-Processing-Regel.
 
 ### 4.4 Grossschreibung (Schweregrad: niedrig)
 
@@ -135,7 +119,7 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 | Buchtitel | silberne Saiten | Silberne Saiten | o_szd.2296 |
 | Substantiv | hingabe | Hingabe | o_szd.2213 |
 
-**Ursache**: VLM normalisiert gelegentlich Grossschreibung weg, besonders bei Handschrift und Fraktur, wo Gross-/Kleinbuchstaben visuell weniger distinkt sind.
+VLM normalisiert gelegentlich Grossschreibung weg, besonders bei Handschrift und Fraktur.
 
 ### 4.5 Fehlende Woerter/Zeichen (Schweregrad: mittel)
 
@@ -147,8 +131,6 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 
 ### 4.6 Fremdsprachliche Fehler (Schweregrad: mittel)
 
-*Neu in Session 20.*
-
 | Fehler | Transkription | Korrekt | Objekt |
 |---|---|---|---|
 | Ital. Vokal | **titole** | **titolo** | o_szd.91 |
@@ -157,25 +139,13 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 | Ortsname | **Komotan** | **Komotau** | o_szd.1106 |
 | Datum | 30. Juli **1934** | 20. Juli **1934** | o_szd.1383 |
 
-**Ursache**: Bei fremdsprachigen Dokumenten (Italienisch, Franzoesisch, Englisch) fehlt dem VLM teils das Kontextwissen fuer korrekte Vokale und Ortsnamen. Die Fehler betreffen Kohlekopie-Typoskripte (schwacher Kontrast) und Eigennamen ausserhalb des ueblichen Wortschatzes.
+Bei fremdsprachigen Dokumenten fehlt teils Kontextwissen fuer Vokale und Ortsnamen; betrifft v.a. Kohlekopie-Typoskripte (schwacher Kontrast) und seltene Eigennamen.
 
-### 4.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch)
+### 4.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch, behoben)
 
 *Entdeckt in Session 20, Root Cause und Fix in Phase A.*
 
-**Root Cause**: `run_sample_batch.py` hatte `--max-images` mit Default 5. Beim initialen Sample wurden alle Objekte auf 5 Bilder gekappt. Spaeter uebersprang `transcribe.py --all` diese Objekte, weil Ergebnisse bereits existierten (`skip-if-exists`). Das Chunking in `transcribe.py` war **nicht** der Fehler — es funktioniert korrekt.
-
-**Ausmass**: `diagnose_truncation.py` fand **97 betroffene Objekte** (68 primaere Modell-Dateien):
-
-| Kategorie | Anzahl | Beschreibung |
-|---|---:|---|
-| `max5_truncated` | 24 | Nur 5 Bilder verarbeitet, Backup hat mehr |
-| `vlm_mismatch` | 18 | Alle Bilder gesendet, VLM lieferte weniger Seiten |
-| `zero_pages` | 26 | Leeres Ergebnis (API-Fehler, unparsbares JSON) |
-
-Groesste Luecken: o_szd.273 (5/238), o_szd.149 (5/165), o_szd.194 (5/135), o_szd.174 (5/122).
-
-**Fix**: Default auf 0 (kein Limit) geaendert. `transcribe.py` speichert jetzt `metadata.input_image_count_total` fuer kuenftige Erkennung. Re-Transkription mit `--force --chunk-size 20` laeuft (15/24 `max5_truncated` abgeschlossen, Rest in Arbeit).
+**Root Cause**: `run_sample_batch.py` hatte `--max-images` mit Default 5; das initiale Sample kappte alle Objekte auf 5 Bilder, und `transcribe.py --all` uebersprang sie spaeter (skip-if-exists). Das Chunking war **nicht** der Fehler. `diagnose_truncation.py` fand 97 betroffene Objekte: 24 `max5_truncated`, 18 `vlm_mismatch` (VLM lieferte weniger Seiten), 26 `zero_pages` (API-Fehler). **Fix**: Default auf 0 (kein Limit); `transcribe.py` speichert `metadata.input_image_count_total` zur Erkennung; Re-Transkription mit `--force --chunk-size 20`.
 
 ### 4.8 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
 
@@ -183,50 +153,29 @@ Groesste Luecken: o_szd.273 (5/238), o_szd.149 (5/165), o_szd.194 (5/135), o_szd
 |---|---|---|
 | Betraege falscher Zeile zugeordnet | ffr 10.340 auf Aug-Zeile statt Okt-Zeile | o_szd.1475 |
 
-**Ursache**: VLMs linearisieren Tabellen von oben nach unten. Wenn Betraege rechtsbuendig und Beschreibungen linksbuendig stehen, kann die Zuordnung verrutschen. Dies ist der schwerwiegendste systematische Fehler im Korpus.
+VLMs linearisieren Tabellen von oben nach unten; bei rechtsbuendigen Betraegen und linksbuendigen Beschreibungen verrutscht die Zuordnung. Schwerwiegendster systematischer Fehler im Korpus.
 
 ---
 
 ## 5. Quality-Signals-Evaluation
 
-*Phase A, Session 20.*
+### 5.1 DWR (Dictionary Word Ratio) — entfernt (v1.5)
 
-### 5.1 DWR (Dictionary Word Ratio) — entfernt
+**Befund**: DWR korreliert nicht mit Transkriptionsqualitaet — Spearman rho 0.05 (n.s.), Precision 40%, Recall 13%, F1 0.20. DWR misst "wie viel deutscher Prosatext vorhanden ist": Eigennamen, Fremdsprachen, tabellarische Daten und Kurrent-Formen stehen nicht im 500-Wort-Frequenzlexikon; DWR skaliert primaer mit Wortanzahl. **Entscheidung**: `low_dwr` aus `needs_review_reasons` entfernt (`dwr_score` bleibt informativ). Wirkung: `needs_review` sank von ~37% auf 27% (-66 Objekte).
 
-**Befund**: DWR korreliert nicht mit Transkriptionsqualitaet.
+### 5.2 Signal-Precision (validiert gegen 62 agent-verifizierte Objekte, Session 21)
 
-| Metrik | Wert |
-|---|---|
-| Spearman rho | 0.05 (nicht signifikant) |
-| Precision (low_dwr Flag) | 40% |
-| Recall | 13% |
-| F1 | 0.20 |
-
-**Ursache**: DWR misst "wie viel deutscher Prosatext vorhanden ist", nicht Qualitaet. Zweigs Nachlass enthaelt Eigennamen, Fremdsprachen, tabellarische Daten und Kurrent-Formen, die nicht im 500-Wort-Frequenzlexikon stehen. DWR skaliert primaer mit Wortanzahl (mean 0.22 bei <50 Woertern, 0.41 bei >=200).
-
-**Entscheidung**: `low_dwr` aus `needs_review_reasons` entfernt. `dwr_score` bleibt als informatives Feld erhalten. Wirkung: `needs_review` sank von ~37% auf **27%** (-66 Objekte).
-
-### 5.2 Verbleibende Signals nach Kalibrierung
-
-| Signal | Anteil an Flags | Einschaetzung |
+| Signal | Precision | Status in v1.5 |
 |---|---|---|
-| `page_length_anomaly` | 34% | **Nuetzlich** — korreliert mit Truncation und echten Problemen |
-| `duplicate_pages` | 31% | **Maessig** — viele False Positives durch Color-Chart-Doppelfotografie |
-| `language_mismatch` | 26% | **Maessig** — Zweigs Mehrsprachigkeit (DE/FR/EN) erzeugt Rauschen |
-| `page_image_mismatch` | 17% | **Nuetzlich** — identifiziert Truncation zuverlaessig |
-| `marker_density` | 11% | **Schwach** — Gemini setzt keine `[?]`-Marker, Signal fast wertlos |
+| `page_image_mismatch` | **100%** (3/3) | Review-Trigger — identifiziert Truncation zuverlaessig |
+| `page_length_anomaly` | **100%** (2/2) | Review-Trigger — korreliert mit Truncation und echten Problemen |
+| `language_mismatch` | 50% (4/8) | Review-Trigger — misst Metadaten-Inkonsistenz; Zweigs Mehrsprachigkeit erzeugt Rauschen |
+| `duplicate_pages` | 0% (0/1) | **aus needs_review entfernt** — flaggt Dokumentstruktur (Korrekturfahnen-Versionen, Register), nicht Fehler; bleibt informatives Feld |
+| `marker_density` | — | **aus needs_review entfernt** — Gemini setzt praktisch keine `[?]`-Marker, Signal wertlos |
 
 ### 5.3 Fraktur-Post-Processing — Evaluation
 
-Prototyp `fraktur_postprocess.py` getestet (pyspellchecker + 13 Fraktur-Verwechslungspaare):
-
-| Metrik | Wert |
-|---|---|
-| Korrekturen gefunden | 2-3 von 11 bekannten Fehlern (o_szd.2217) |
-| Precision (Batch 58 Zeitungsausschnitte) | ~38% |
-| Hauptlimitierung | Einzelzeichen-Substitution zu eng, Komposita nicht im Woerterbuch |
-
-**Empfehlung**: Als **Flagging-Tool** fuer Agent-Verifikation nutzbar (Kandidaten generieren), aber **nicht fuer Auto-Korrektur** geeignet. Mehrzeichen-Fehler ("ihrisch"→"lyrisch"), Eigennamen ("Hayel"→"Hayek") und Komposita ("Grundgebaerde") bleiben unerkannt.
+Prototyp `fraktur_postprocess.py` (pyspellchecker + 13 Fraktur-Verwechslungspaare): fand 2-3 von 11 bekannten Fehlern (o_szd.2217), Precision ~38% (Batch 58 Zeitungsausschnitte). Einzelzeichen-Substitution zu eng, Komposita nicht im Woerterbuch. **Empfehlung**: als Flagging-Tool fuer Agent-Verifikation nutzbar, **nicht fuer Auto-Korrektur** — Mehrzeichen-Fehler ("ihrisch"→"lyrisch"), Eigennamen ("Hayel"→"Hayek") und Komposita bleiben unerkannt.
 
 ---
 
@@ -234,24 +183,17 @@ Prototyp `fraktur_postprocess.py` getestet (pyspellchecker + 13 Fraktur-Verwechs
 
 ### Was gut funktioniert
 
-- **Gedruckter Text** (Antiqua): Nahezu perfekt, keine systematischen Fehler
-- **Saubere Handschrift**: Hohe Genauigkeit bei lesbarer Kurrentschrift
+- **Gedruckter Text** (Antiqua): nahezu perfekt, keine systematischen Fehler
+- **Saubere Handschrift**: hohe Genauigkeit bei lesbarer Kurrentschrift
 - **Seitentyp-Klassifikation**: content/blank/color_chart korrekt (nach Fix der Farbkarten-Erkennung)
-- **Chunking**: Funktioniert korrekt fuer grosse Objekte (bis 238 Bilder getestet)
-- **Edit-Tracking**: Alle Korrekturen (Agent + Mensch) mit Original nachvollziehbar
+- **Chunking**: korrekt fuer grosse Objekte (bis 238 Bilder getestet)
+- **Edit-Tracking**: alle Korrekturen mit Original nachvollziehbar (`edit_history`)
 
-### Wo Verbesserungsbedarf besteht
+### Offene Punkte (Stand Session 20; inzwischen erledigt, wo vermerkt)
 
-1. **`duplicate_pages` False-Positives**: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen
-2. **`language_mismatch`**: Mehrsprachigkeit besser handhaben (DE/FR/EN-Mix ist normal bei Zweig)
-3. **`marker_density`**: Erwaegen ob Signal komplett entfernt werden sollte (wie DWR)
-4. **Tabellarische Layouts**: Gruppe E braucht moeglicherweise speziellen Prompt oder Layout-Analyse-Vorschritt
-5. **Grossschreibung**: Eigennamen-Erkennung als Nachverarbeitung (NER-basiert) koennte systematische Fehler beheben
-
-### Naechste Schritte
-
-- **Truncation fixen**: 4 grosse Objekte (o_szd.149, o_szd.141, o_szd.175, o_szd.174) re-transkribieren, Chunk-Merge-Logik pruefen
-- Weitere Objekte agent-verifizieren — 44 von ~875 verifiziert, ~730 ausstehend
-- Fraktur-spezifischen Post-Processing-Schritt evaluieren (28 dokumentierte Fehler als Trainingsmaterial)
-- `duplicate_pages` False-Positive fixen (Color-Chart-Seiten ausschliessen)
-- DWR-Score gegen Agent-Verifikation validieren (korreliert DWR mit tatsaechlicher Fehlerrate?)
+1. ~~`duplicate_pages` False-Positives~~ → erledigt: in v1.5 aus `needs_review` entfernt
+2. ~~`marker_density` entfernen~~ → erledigt: in v1.5 aus `needs_review` entfernt
+3. `language_mismatch`: Mehrsprachigkeit besser handhaben (DE/FR/EN-Mix ist bei Zweig normal)
+4. **Tabellarische Layouts**: Gruppe E braucht ggf. speziellen Prompt oder Layout-Analyse-Vorschritt
+5. **Grossschreibung**: NER-basierte Eigennamen-Nachverarbeitung koennte systematische Fehler beheben
+6. Weitere Verifikation: Fraktur-Fehler (28 dokumentiert) als Material fuer Post-Processing; laufende Agent-/Mensch-Reviews → aktueller Stand im Stats-Dashboard ([[stats-dashboard]])

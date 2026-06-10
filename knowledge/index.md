@@ -1,7 +1,7 @@
 ---
 title: "Research Vault"
 created: 2026-04-01
-updated: 2026-04-03
+updated: 2026-06-10
 type: moc
 status: stable
 ---
@@ -12,10 +12,10 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Leseordnung
 
-1. [[data-overview]] — Datengrundlage: 4 Sammlungen, 9 Gruppen, 2107 Backup-Objekte
+1. [[data-overview]] — Datengrundlage: 5 Sammlungen (inkl. Briefkonvolute SZ-AAL), 9 Gruppen, 2.486 Backup-Objekte
 2. [[annotation-protocol]] — Transkriptionskonventionen fuer das Referenz-Sample
 3. [[verification-concept]] — Qualitaetsmessung: GT, quality_signals, Cross-Model, VbV, GT-Pipeline (§7), Agent-Verifikation (§8)
-4. [[evaluation-results]] — CER-Baseline: 26 Objekte, 9 Gruppen, Agent-Verified vs. Human-Approved
+4. [[evaluation-results]] — CER-Baseline (58 Objekte, alle 9 Gruppen) und Fehlertypologie
 
 ## Spezifikationen
 
@@ -24,7 +24,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 - [[teicrafter-integration]] — Page-JSON → teiCrafter-ladbare TEI (Editor-/Annotationsformat) + Marker-Anreicherung
 - [[layout-analysis]] — VLM-basierte Layout-Analyse + PAGE XML Export
 - [[dia-xai-integration]] — EQUALIS-Mapping: SZD-HTR → DIA-XAI
-- [[stats-dashboard]] — Statistik-Dashboard: Visualisierungen, Metrik-Definitionen, Literatur
+- [[stats-dashboard]] — Statistik-Dashboard: Visualisierungen, Metrik-Definitionen, Katalog-UI, Literatur
 
 ## Sicherheit
 

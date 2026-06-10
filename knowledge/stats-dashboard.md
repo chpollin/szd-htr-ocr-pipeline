@@ -3,7 +3,7 @@ title: "Statistik-Dashboard"
 type: spec
 status: implemented
 created: 2026-04-02
-updated: 2026-04-12
+updated: 2026-06-10
 related:
   - "[[verification-concept]]"
   - "[[data-overview]]"
@@ -16,73 +16,70 @@ tags:
 
 Dedizierte Statistik-Seite im SZD-HTR Viewer (`#stats`), die aggregierte Qualitaetsmetriken als narrative Informationsvisualisierungen darstellt. Ziel: OCR-Qualitaet akademisch argumentierbar machen.
 
-## 1 Motivation
+## 1 Motivation und Perspektive
 
-Die bestehende Inline-Statistik im Katalog zeigt Zahlen als Text-Chips. Fuer eine wissenschaftliche Qualitaetsbewertung der Pipeline reicht das nicht: Verteilungen, Ausreisser und Zusammenhaenge zwischen Metriken sind erst durch Visualisierungen erkennbar. Mehrere aktuelle Arbeiten argumentieren, dass Standard-OCR-Metriken (CER/WER) fuer historische Dokumente unzureichend sind (Beyene & Dancy 2026; Levchenko 2025) — proxy-basierte Quality Signals und deren Verteilung liefern bessere Einsichten.
+Text-Chips im Katalog reichen fuer eine wissenschaftliche Qualitaetsbewertung nicht: Verteilungen, Ausreisser und Zusammenhaenge sind erst durch Visualisierungen erkennbar. Mehrere aktuelle Arbeiten argumentieren, dass Standard-OCR-Metriken (CER/WER) fuer historische Dokumente unzureichend sind (Beyene & Dancy 2026; Levchenko 2025) — proxy-basierte Quality Signals und deren Verteilung liefern bessere Einsichten. Perspektive: **Computational Philology / Digital Scholarly Editing** plus Informationsvisualisierung (Yuan et al. 2024). Primaere Nutzer sind DH-Forscher und Archivare, nicht ML-Engineers — Metriken muessen philologisch interpretierbar sein.
 
-## 2 Expertenperspektive
+## 2 Datenquellen
 
-Das Dashboard folgt der Perspektive **Computational Philology / Digital Scholarly Editing**, kombiniert mit Prinzipien der Informationsvisualisierung (Yuan et al. 2024). Primaere Nutzer sind DH-Forscher und Archivare, nicht ML-Engineers. Metriken muessen philologisch interpretierbar sein.
+Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte, kein Backend-Umbau). Jedes der 2.451 transkribierten Objekte (Stand 2026-06-10) traegt quality_signals v1.5 (7 Signale + `page.type`, DWR entfernt), Review-Status und TEI-Metadaten.
 
-## 3 Datenquellen
+## 3 Struktur: 3 Sektionen (Stand Session 26)
 
-Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der ~2080 Objekte traegt quality_signals v1.5 (7 Signale + `page.type`, DWR entfernt), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als `COLLECTION_TOTALS`-Konstante in `app.js`.
+Jede Sektion hat Header mit Erklaerung und Quellenangabe, Cards 2-spaltig im Grid.
 
-## 4 Narrative Struktur: 5 Sektionen
+### Sektion 1: Verifikation
 
-Das Dashboard erzaehlt eine Qualitaetsnarrative in 5 Schritten — jede Sektion hat einen Header mit Erklaerung und ein 2-Spalten-Grid fuer Charts.
+Drei Review-Status (Operator-Entscheidung 2026-06-10): **Mensch-geprueft** (`gt_verified` oder `approved` — gilt als verifiziert, Ground-Truth-faehig), **Agent-geprueft** (`agent_verified`), **Ungeprueft** (kein Review). `needs_review` ist kein Status, sondern Triage-Hinweis „zuerst sichten" innerhalb von Ungeprueft. JSON-Werte unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`).
 
-### Sektion 1: Abdeckung
+- **Review-Status** (Donut, 4 Segmente): Mensch-geprueft (Gruen), Agent-geprueft (Blau), Ungeprueft (Grau), Zuerst sichten (Amber als Triage-Akzent). Nur Segmente > 0. Klick auf „Zuerst sichten" → `#catalog?review_status=priority`.
+- **Review-Gruende** (horizontaler Balken): Anzahl Signale je Grund, Klick → priorisierter Katalog. Untertitel nennt die Signal-Precision (s. §4).
 
-Zeigt Umfang und Fortschritt der Transkription.
+### Sektion 2: Textcharakteristik
 
-- **Fortschritt pro Sammlung** (Stacked Horizontal Bar): 4 Sammlungen × (transkribiert / ausstehend). Archiv-Gesamtzahlen aus `COLLECTION_TOTALS` (2107 Objekte). Klick navigiert zu `#catalog?collection=X`.
-- **Seitenkomposition** (Stacked Vertical Bar): Pro Sammlung aufgeschluesselt nach Inhalt / Leer / Farbskala.
+Median der Zeichen pro Inhaltsseite nach Dokumenttyp (horizontaler Balken). Zeigt die strukturelle Vielfalt: Registerblaetter (Gruppe A) enthalten Stichwortnotizen (~50 Zeichen/Seite), Zeitungsausschnitte ~4.800. Quelle: `quality_signals.py` (chars_per_page) → `catalog.json` (verification.avgCharsPerPage).
 
-### Sektion 2: Mehrstufige Verifikation
+### Sektion 3: Signalanalyse
 
-Zeigt die 3-stufige Verifikationsarchitektur (automatisch → Cross-Model → Expert).
+Heatmap (HTML-Tabelle): Anteil Objekte pro Gruppe (%), die das jeweilige Signal ausloesen. Gruppenname verlinkt auf den gefilterten Katalog. Quelle: `quality_signals.py` (needs_review_reasons) → `catalog.json` (needsReviewReasons).
 
-- **Review-Status** (Donut): 5 Segmente — GT Verifiziert, Expert Geprueft, Agent Verifiziert, LLM OK, Needs Review. Nur Segmente mit Wert > 0 angezeigt. Klick auf "Needs Review" navigiert zu gefiltertem Katalog.
-- **VLM-Konfidenz** (Donut): High / Medium / Low. Explizit als "schwaches Signal" deklariert — Modelle ueberschaetzen ihre Leistung.
+### Entfernte Sektionen
 
-### Sektion 3: Textcharakteristik
+Entfernt, weil nicht gegroundet oder transient (Session 22 ff.):
 
-Zeichen pro Inhaltsseite nach Dokumenttyp (horizontaler Balken). Zeigt die strukturelle Vielfalt des Nachlasses: Registerblaetter (Gruppe A, 73% der Handschrift) haben ~50 Zeichen/Seite, Zeitungsausschnitte ~4800. Quelle: `quality_signals.py` (chars_per_page) → `catalog.json` (verification.avgCharsPerPage).
-
-### Sektion 4: Signalanalyse
-
-Heatmap: Welche Dokumenttypen loesen welche Quality Signals aus? Anteil Objekte pro Gruppe in Prozent. Quelle: `quality_signals.py` (needs_review_reasons) → `catalog.json` (needsReviewReasons).
-
-### Entfernte Sektionen (Session 22)
-
-Folgende Sektionen wurden entfernt, weil sie nicht gegroundet oder transient waren:
-
-- **Abdeckung/Fortschritt** — Produktions-Tracking, wird bei 100% sinnlos
-- **Seitenkomposition** — Inhalt/Leer/Farbskala als Chart, Information steht im Katalog
-- **DWR-Histogram** — DWR in v1.5 entfernt (rho=0.05, F1=0.20, mass Prosadichte, nicht Qualitaet)
+- **Abdeckung/Fortschritt + Seitenkomposition** — Produktions-Tracking, bei 100% sinnlos; Information steht im Katalog
+- **DWR-Histogramm** — DWR in v1.5 entfernt (rho=0.05, F1=0.20: misst Prosadichte, nicht Qualitaet)
 - **VLM-Konfidenz-Donut** — High/Medium/Low diskriminiert nicht zwischen fehlerfreien und fehlerhaften Transkriptionen
-- **Modellkonsensus** — CER zwischen Modellen misst Agreement, nicht Korrektheit; nur 29/2080 Objekte hatten Daten
+- **Modellkonsensus** — CER zwischen Modellen misst Agreement, nicht Korrektheit; kaum Datenbasis (29 Objekte)
 
-## 5 Metrik-Definitionen
+## 4 Metrik-Definitionen
 
-| Metrik | Definition | Schwelle |
+`needs_review` wird nur noch von drei Signalen ausgeloest (v1.5, Precision gegen 62 agent-verifizierte Objekte, Session 21):
+
+| Signal | Definition | Precision |
 |---|---|---|
-| Seitenduplikate | Jaccard-Aehnlichkeit > 0.9 bei > 50 Zeichen | = duplicate_pages (informativ) |
-| Sprachkonsistenz | TEI-Sprache vs. erkannte Sprache | Mismatch = language_mismatch |
-| Seitenlaengen-Anomalie | Inhaltsseite < 10% des Medians | = page_length_anomaly |
-| Bild-Text-Mismatch | Seitenzahl ≠ Bildzahl oder > 75% leer | = page_image_mismatch |
-| CER (Character Error Rate) | edit_distance(A, B) / max(len(A), len(B)) | < 3% = verifiziert |
+| `page_length_anomaly` | Inhaltsseite < 10% des Medians | 100% |
+| `page_image_mismatch` | Seitenzahl ≠ Bildzahl oder > 75% leer | 100% |
+| `language_mismatch` | TEI-Sprache vs. erkannte Sprache | 50% |
+
+Nur informativ, **kein** Review-Trigger: `duplicate_pages` (Jaccard > 0.9 bei > 50 Zeichen; 0% Precision — flaggt Korrekturfahnen und Register) und `marker_density` (wertlos — Gemini setzt praktisch keine `[?]`-Marker, signalisiert Unsicherheit nicht).
+
+**CER** = edit_distance(A, B) / max(len(A), len(B)). Referenz sind **menschlich gepruefte Texte**; das LLM-Original bleibt je Seite in `edit_history` erhalten.
+
+## 5 Katalog-UI (verwandt)
+
+- Katalog-Spalte **„Status"** zeigt die drei Review-Status als Badge; ⚠ = zuerst sichten. Frühere Signale- und Seiten-Spalte entfernt; Seitenzahl steht als „N S." in der Typ-Spalte.
+- Katalog-Filter als deklaratives Registry (`FILTER_DEFS` in `docs/app.js`): Sammlung, Lieferung (`ingestLabel`, Tooltip aus `config.INGEST_INFO`), Bestandseinheit/Konvolut (nur korrespondenzen + autographen via `config.UNIT_TERMS`; Feld `unit` = Signatur minus letztes Punkt-Segment, `derive_unit()` in `build_viewer_data.py`), Gruppe, Qualitaet (confidence), Status. Ein neuer Filter = ein Registry-Eintrag plus `<select>` in index.html.
 
 ## 6 Design-Entscheidungen
 
-- **Chart.js 4.x** (vendored in `docs/lib/`, ~200KB): Lightweight, ausreichend fuer Bar/Donut. D3.js waere Overkill.
-- **Client-seitige Aggregation**: Kein Pipeline-Umbau, `catalog.json` traegt alle noetigsten Felder. `computeStatsData()` als Single-Pass.
-- **Donut-Charts mit eigener `donutOptions()`**: Getrennt von `chartOptions()`, da Doughnuts keine Achsen haben.
-- **Drill-Down via Hash-Navigation**: Chart-Klick → `#catalog?collection=X` oder `?review_status=Y`.
-- **Heatmap als HTML-Tabelle**: Praeziser als Canvas fuer tabellarische Daten, besser zugaenglich. In scrollbarem Container fuer schmale Viewports.
-- **Kein CER-Dashboard**: Nur 4.5% der Objekte haben CER-Daten — ein CER-zentriertes Dashboard waere eine Fassade. CER-Verteilung konditional im Konsensus-Block.
-- **Narrative Sektionen statt flaches Grid**: Jede Sektion hat Header + Beschreibung, die den Argumentationsschritt erklaert. Sektionen stacken vertikal, Cards 2-spaltig innerhalb.
+- **Chart.js 4.x** (vendored in `docs/lib/`, ~200KB): ausreichend fuer Bar/Donut, D3.js waere Overkill.
+- **Client-seitige Aggregation**: `catalog.json` traegt alle noetigen Felder, `computeStatsData()` als Single-Pass.
+- **Donut mit eigener `donutOptions()`**: getrennt von `chartOptions()` (keine Achsen).
+- **Drill-Down via Hash-Navigation**: Chart-Klick → `#catalog?review_status=priority` bzw. `?group=X`.
+- **Heatmap als HTML-Tabelle**: praeziser und zugaenglicher als Canvas, scrollbarer Container fuer schmale Viewports.
+- **Kein CER-Dashboard**: Nur ein Bruchteil der Objekte hat CER-Daten — ein CER-zentriertes Dashboard waere eine Fassade.
+- **Narrative Sektionen statt flaches Grid**: Header + Beschreibung erklaeren den Argumentationsschritt.
 
 ## 7 Literatur
 

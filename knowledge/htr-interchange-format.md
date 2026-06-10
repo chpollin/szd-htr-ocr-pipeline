@@ -2,7 +2,7 @@
 title: "Page-JSON Format"
 aliases: ["Page-JSON", "Interchange-Format", "HTR Interchange Format"]
 created: 2026-04-01
-updated: 2026-04-03
+updated: 2026-06-10
 type: spec
 status: draft
 related:
@@ -265,7 +265,7 @@ manuscript, typescript, letter, postcard, notebook, diary, form, certificate,
 newspaper_clipping, proof_sheet, register, calendar, ledger, mixed_materials
 ```
 
-Abgeleitet aus den TEI-Objekttypen der 4 SZD-Sammlungen. Erweiterbar fuer andere Projekte.
+Abgeleitet aus den TEI-Objekttypen der SZD-Sammlungen (inzwischen 5, → `config.py` `COLLECTIONS`). Erweiterbar fuer andere Projekte.
 
 ---
 
