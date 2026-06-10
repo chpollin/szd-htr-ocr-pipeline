@@ -10,7 +10,10 @@ const MACHINE_ICON = '';
 const HUMAN_ICON = '';
 
 const COLLECTION_LABELS = {
-  autographen: 'Autographen (SZ-AAL)',
+  // Arbeitsbegriff: Lieferung SZ-AAL sind durchweg Briefe in Konvoluten,
+  // keine Autographensammlung im engeren Sinn; offizielle Benennung wird
+  // mit der Erschliessung geklaert (Korrekturmeldung 2026-06)
+  autographen: 'Briefkonvolute (SZ-AAL)',
   lebensdokumente: 'Lebensdokumente',
   werke: 'Werke',
   aufsatzablage: 'Aufsatzablage',
@@ -1272,13 +1275,15 @@ function renderCatalog() {
       const ingestBadge = obj.ingestLabel
         ? `<span class="badge-ingest" data-tooltip="${escapeHtml(ingestTip)}" style="display:inline-block;margin-right:.4em;padding:.05em .45em;border-radius:.6em;background:#7a1f3d;color:#fff;font-size:.68em;font-weight:600;vertical-align:middle;letter-spacing:.02em;">${escapeHtml(obj.ingestLabel)}</span>`
         : '';
-      const unitBadge = obj.unit && obj.unit !== obj.signature
-        ? `<br><button type="button" class="badge-unit" data-unit="${escapeHtml(obj.unit)}" data-collection="${escapeHtml(obj.collection)}" data-tooltip="${escapeHtml(unitTerm(obj.collection))} ${escapeHtml(obj.unit)} — Klick zeigt alle Objekte dieser Einheit">${escapeHtml(obj.unit)}</button>`
-        : '';
+      // Signatur mit klickbarem Einheiten-Praefix (SZ-AAL/B1.113: "SZ-AAL/B1"
+      // filtert auf das Konvolut, ".113" bleibt Text)
+      const sigHtml = obj.unit && obj.unit !== obj.signature
+        ? `<button type="button" class="sig-unit" data-unit="${escapeHtml(obj.unit)}" data-collection="${escapeHtml(obj.collection)}" data-tooltip="${escapeHtml(unitTerm(obj.collection))} ${escapeHtml(obj.unit)} — Klick zeigt alle Objekte dieser Einheit">${escapeHtml(obj.unit)}</button>${escapeHtml(obj.signature.slice(obj.unit.length))}`
+        : escapeHtml(obj.signature);
       html += `<tr data-id="${escapeHtml(obj.id)}" tabindex="0">
         <td class="col-thumb"><img src="${escapeHtml(obj.thumbnail || '')}" loading="lazy" alt=""></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${ingestBadge}${titleFull}</td>
-        <td class="col-sig">${escapeHtml(obj.signature)}${unitBadge}</td>
+        <td class="col-sig">${sigHtml}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
         <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)}</td>
@@ -3132,8 +3137,8 @@ function initEvents() {
   // Table row click + keyboard
   const catalogBody = document.getElementById('catalogBody');
   catalogBody.addEventListener('click', e => {
-    // Einheiten-Badge: filtert auf die Bestandseinheit statt das Objekt zu oeffnen
-    const badge = e.target.closest('.badge-unit');
+    // Einheiten-Praefix in der Signatur: filtert auf die Bestandseinheit statt das Objekt zu oeffnen
+    const badge = e.target.closest('.sig-unit');
     if (badge) {
       state.filters.collection = badge.dataset.collection;
       state.filters.unit = badge.dataset.unit;
