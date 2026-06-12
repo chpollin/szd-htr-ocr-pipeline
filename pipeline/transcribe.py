@@ -387,7 +387,7 @@ def _call_api(client, parts, object_id, label=""):
             break
         except Exception as e:
             err_str = str(e).lower()
-            if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
+            if any(k in err_str for k in ("429", "resource_exhausted", "rate", "timeout", "deadline")):
                 wait = (2 ** attempt) * 5
                 print(f"{prefix}RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
                 time.sleep(wait)
@@ -643,7 +643,9 @@ def transcribe_object(
             print(f"  FEHLER: Kein Prompt fuer Gruppe '{group}'")
             return False, None
 
-    client = genai.Client(api_key=GOOGLE_API_KEY)
+    # Per-request timeout (ms): without it a stalled image call hangs the whole batch
+    client = genai.Client(api_key=GOOGLE_API_KEY,
+                          http_options=genai.types.HttpOptions(timeout=120_000))
 
     # Decide: single call or chunked
     if len(images) <= chunk_size:
