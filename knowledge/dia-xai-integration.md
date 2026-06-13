@@ -1,10 +1,16 @@
 ---
 title: "DIA-XAI-Integration"
 aliases: ["DIA-XAI-Integration"]
-created: 2026-04-01
-updated: 2026-04-01
-type: spec
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
 status: draft
+created: 2026-04-01
+updated: 2026-06-09
+type: spec
 related:
   - "[[verification-concept]]"
   - "[[htr-interchange-format]]"

@@ -1,10 +1,16 @@
 ---
 title: "Research Journal"
 aliases: ["Journal"]
-created: 2026-03-30
-updated: 2026-04-03
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
+status: draft
+created: 2026-04-01
+updated: 2026-06-12
 type: log
-status: stable
 related:
   - "[[data-overview]]"
   - "[[verification-concept]]"

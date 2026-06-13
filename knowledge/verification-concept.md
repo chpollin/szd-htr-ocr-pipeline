@@ -1,10 +1,16 @@
 ---
 title: "Verifikationskonzept"
 aliases: ["Verifikationskonzept"]
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
+status: complete
 created: 2026-04-01
 updated: 2026-06-10
 type: concept
-status: stable
 related:
   - "[[annotation-protocol]]"
   - "[[evaluation-results]]"

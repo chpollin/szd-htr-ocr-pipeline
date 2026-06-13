@@ -1,10 +1,16 @@
 ---
 title: "teiCrafter-Integration: Page-JSON → TEI"
 aliases: ["teiCrafter", "TEI-Export", "export_tei"]
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
+status: complete
 created: 2026-06-08
 updated: 2026-06-08
 type: spec
-status: active
 related:
   - "[[htr-interchange-format]]"
   - "[[page-xml-mets-architecture]]"

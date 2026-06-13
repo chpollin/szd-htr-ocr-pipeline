@@ -1,9 +1,15 @@
 ---
 title: "Research Vault"
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
+status: complete
 created: 2026-04-01
 updated: 2026-06-10
 type: moc
-status: stable
 ---
 
 # SZD-HTR Research Vault

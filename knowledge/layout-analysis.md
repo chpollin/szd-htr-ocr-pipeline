@@ -1,9 +1,15 @@
 ---
 title: "Layout-Analyse"
-created: 2026-04-02
-updated: 2026-04-03
-type: spec
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/promptotyping"
 status: draft
+created: 2026-04-02
+updated: 2026-04-04
+type: spec
 ---
 
 # Layout-Analyse: Ensemble-Pipeline
