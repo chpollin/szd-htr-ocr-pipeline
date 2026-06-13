@@ -8,7 +8,7 @@ method:
   name: "Promptotyping"
   url: "https://dhcraft.org/promptotyping"
 status: draft
-created: 2026-04-01
+created: 2026-03-30
 updated: 2026-06-12
 type: log
 related:
