@@ -13295,6 +13295,81 @@
       "review": null
     },
     {
+      "id": "o_szd.3222_gemini-3.1-flash-lite-preview",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.3222/IMG.1",
+        "https://gams.uni-graz.at/o:szd.3222/IMG.2",
+        "https://gams.uni-graz.at/o:szd.3222/IMG.3",
+        "https://gams.uni-graz.at/o:szd.3222/IMG.4"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "11. Sept. 37.\n\nLieber Stefan!\n\nNachdem es meine Art ist, nicht un-\nausgesprochen zu lassen was namentlich unter Brüdern\n~~miss~~verstandlich ist, habe ich Anlass meinen gestr.\nSchreiben einige Zeilen nachzusenden.\nIch war gestern Abend bei Mama (der es übrigens\nbesser geht) u. ~~er~~fahren zu meinem ~~Er~~staunen, Du hättest\nihr gesagt, Du wärst beleidigt, weil ich nicht Dein\nKommen aus Marienbad abgewartet hätte.\nAbgesehen davon, dass ~~wenn~~ Du wirklich einmal\nAnlass ~~hättest~~ verletzt zu sein, ich wohl erwarten kann, dass\nDu mir das ~~aufrichtig~~ aufrichtig sagst, so kann ich das schwer annehmen\ndass Du ganz vergessen hast:\n1.) Dass ich Dir auf Deine Frage schon mehr als 14\nTage vor meiner Abreise bekanntgab, dass ich im Lothringen\n~~vom~~ am 16./VIII fix gemietet habe. (Später das ist auch wohl der\nspäteste Termin, der für eine Gasteiner Kur in Betracht kommt)\n2.) Dass - ob mit oder ohne Rücksicht darauf weiss ich\nnicht - Deine Ankunft in Wien für 13.-14. England war.\n~~Erst~~ Kurz vor diesen Datum schriebst Du, Du würdest wahrscheinlich\netwas verlängern, ja nachdem Deine Mittel reichen.",
+          "notes": "Handschriftlicher Brief, violette Tinte. Die Lesbarkeit ist gut.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Du hast dann Deinen Aufenthalt in M. bis 18. od. 19.\nverlängert. Wie hätte ich da so lange warten u. dabei 3 Tage\nGasteiner Pension zahlen sollen?\n~~Da~~ Kommst Du unter solchen Umständen beleidigt\n~~sein~~? - Nicht einmal mir wäre das eingefallen, wie wohl Du,\n~~da~~ ~~nach~~ beendeter Kur, 3 Tage früher abreisen können.\nIch sage ganz offen, dass mich solche Sachen\närgern u. ~~un~~erfreulich kränken, wo ich doch gerade\n~~beschränkte~~ erst diesen Winter von meinem geringen Nutzen\n14 täg. Aufenthalt in Arosa 2 Tage gestrichen habe, weil\nich Dich in G. unbedingt treffen wollte, ~~weil~~ ~~da~~ ~~bin~~ ~~nun~~\n~~damit~~ nun Dir Deine Amalett [?] Hobien [?] anzuordnen,\nvon denen ich Dich damals erforscht sah. Leider ist mir\ndas damals nur für den einen Tag gelungen, Du hattest\ndann nach meiner Abreise gleich einen Rückfall. - Aber\nfür mich bedeutet - namentlich in meinem Alter - jeder\nTag Arosa, der ich in Kinder so liebes u. notwendiges brauche\nsehr viel. Du weißt, dass ich Dir immer gern zur Verfügung\nstehe gerade im letzten Jahr sicherlich im Durchschnitt 1/2 Stunde - 1 Stunde\n~~tägl.~~ mit Korrespondenz oder Conferenz in\nAmalett, Hans Belyanny [?], Verkauf u.s.w. befasst war, bestrebt\nimmer Dir jede Aufklärung u. Beruhigung zu geben,\ndie immer als selbstverständlich ansehend. Aber da darfst\nDu Dich doch nicht go [?] Mama, wenn nicht schon in anerkennender,\n~~so~~ doch nicht in unwahrer Weise äußern. Du wirst das bei Über-\nprüfung der Daten auch sehen einsehen, die Du heute vielleicht nicht mehr\n[Randnotiz links:] so gegenwärtig sind. - Ich hoffe Du wirst mir meine Aufrichtigkeit nicht übel aufnehmen, da",
+          "notes": "Handschriftlicher Brief, violette Tinte. Die Lesbarkeit ist gut, einige Wörter am Rand.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "ich so gar nicht glauben kann. - Aber ein muss ich mich\nzurückhalten nur nicht zu sagen, dass man durch grobe\nAbfertigungen nicht wahr wird.!!\nUnd was meine Person betrifft, wo ich doch\nheute nicht die Hälfte Deines Einkommens habe,\nmein kleines Haus nicht zum Vergnügen vermiete. -\nVon Dir kann ich doch wenigstens verlangen, dass\nDu meine Person ganz aus dem Spiel lässt.\nKarl muss sich Josefnie [?] danken, die jedes\nWort hört, alles an Mama erfährt u. die, nur\num sich bei M. einzutragen, ihr alle möglichen Geldausgaben\n~~suggeriert~~ suggeriert. Davon ein andermal.",
+          "notes": "Handschriftlicher Brief, violette Tinte. Die Lesbarkeit ist gut.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "Ich habe mich trotz meistens schlechtem\nWetter in Gastein sehr wohl gefühlt u.\ngut erholt. - Natürlich sind die nerven [?]\n~~Schmerzen~~ Beschwerden noch mehr herausgekommen, so dass\nich vorläufig empfindlich bin wie vorher.\nAngenehm ist das gut so.\nIch wünsche Dir gute [?] [?] [?] [?]\n\n[?] Mama erzählt, Du hättest ihr aber gesagt, Du\nseiest verarmt, ich dagegen sehr reich. - Wozu\nsolche Erzählungen, die so wahnsinnig sind, dass",
+          "notes": "Handschriftlicher Brief, violette Tinte. Die Lesbarkeit ist gut.",
+          "type": "content"
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der Text ist gut lesbar, die Handschrift ist flüssig und weitgehend eindeutig. Einige Eigennamen oder spezifische Begriffe sind mit [?] markiert.",
+      "verification": {
+        "uncertainCount": 11,
+        "illegibleCount": 0,
+        "totalChars": 3746,
+        "emptyPages": 0,
+        "avgCharsPerPage": 936,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 3746,
+        "total_words": 608,
+        "total_pages": 4,
+        "empty_pages": 1,
+        "blank_pages": 0,
+        "content_pages": 4,
+        "color_chart_pages": 1,
+        "chars_per_page": [
+          1112,
+          1631,
+          571,
+          432,
+          0
+        ],
+        "chars_per_page_median": 841.5,
+        "marker_uncertain_count": 11,
+        "marker_illegible_count": 0,
+        "marker_density": 0.0181,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null,
+      "review": null
+    },
+    {
       "id": "o_szd.3223_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.3223/IMG.1",

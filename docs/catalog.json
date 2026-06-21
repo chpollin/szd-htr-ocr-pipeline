@@ -32202,6 +32202,45 @@
       "hasGT": false
     },
     {
+      "id": "o_szd.3222_gemini-3.1-flash-lite-preview",
+      "collection": "autographen",
+      "label": "Brief von Alfred Zweig an Stefan Zweig [",
+      "group": "I",
+      "groupLabel": "Korrespondenz",
+      "pid": "o:szd.3222",
+      "title": "Brief von Alfred Zweig an Stefan Zweig [11. September 1937], SZ-AAL/B10.2",
+      "titleClean": "Brief von Alfred Zweig an Stefan Zweig [11. September 1937]",
+      "signature": "SZ-AAL/B10.2",
+      "unit": "SZ-AAL/B10",
+      "classification": "Korrespondenz",
+      "objecttyp": "Brief",
+      "lang": null,
+      "model": "gemini-3.1-flash-lite-preview",
+      "ingestLabel": "SZ-AAL-2026-06",
+      "pidStatus": "",
+      "confidence": "high",
+      "pageCount": 4,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.3222/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 11,
+        "illegibleCount": 0,
+        "totalChars": 3746,
+        "emptyPages": 0,
+        "avgCharsPerPage": 936,
+        "vlmConfidence": "high"
+      },
+      "needsReview": false,
+      "needsReviewReasons": [],
+      "blankPages": 0,
+      "contentPages": 4,
+      "dwrScore": 0,
+      "consensusCategory": null,
+      "consensusCer": null,
+      "reviewStatus": null,
+      "hasLayout": false,
+      "hasGT": false
+    },
+    {
       "id": "o_szd.3223_gemini-3.1-flash-lite-preview",
       "collection": "autographen",
       "label": "Brief von Alfred Zweig an Stefan Zweig [",
@@ -96291,7 +96330,8 @@
       "autographen": "Konvolut"
     },
     "ingestInfo": {
-      "SZ-AAL-2026-06": "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan und Lotte Zweig (379 Objekte, GAMS-Ingest 10.06.2026)"
+      "SZ-AAL-2026-06": "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan und Lotte Zweig (379 Objekte, GAMS-Ingest 10.06.2026)",
+      "SZ-AAL-L-2026-06": "Lieferung Juni 2026: Lebensdokumente SZ-AAL/L1–L13 (Verträge, Reisepass, Adressbuch u.a.; 13 Objekte, GAMS-Ingest 18.06.2026)"
     },
     "collectionLabels": {
       "lebensdokumente": "Lebensdokumente",
