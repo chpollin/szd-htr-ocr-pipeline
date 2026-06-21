@@ -1,4 +1,4 @@
-
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -27,7 +27,7 @@
         </availability>
         <publisher>Literaturarchiv Salzburg</publisher>
         <idno type="PID">o:szd.lebensdokumente</idno>
-        <date when="2019-03-21+01:00"></date>
+        <date when="2019-03-21+01:00" />
       </publicationStmt>
       <seriesStmt>
         <title ref="gams.uni-graz.at/szd">Stefan Zweig Digitale Nachlassrekonstruktion</title>
@@ -69,7 +69,7 @@
       </editorialDecl>
       <projectDesc>
         <ab>
-          <ref target="/o:szd.lebensdokumente" type="object"></ref>
+          <ref target="/o:szd.lebensdokumente" type="object" />
         </ab>
         <p>Das Projekt verfolgt das Ziel, den weltweit verstreuten Nachlass von Stefan Zweig im
           digitalen Raum zusammenzuführen und ihn einem literaturwissenschaftlich bzw.
@@ -321,9 +321,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014 </ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014 </ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -414,8 +414,8 @@
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple, black, red, brown, and blue ink, pencil, red and
                           blue pencil</material>
                       </support>
-                      <extent>                        
-<span xml:lang="de">
+                      <extent>
+                        <span xml:lang="de">
                           <term type="objecttyp">Kontorbuch</term>, <measure type="leaf">119 Blatt,
                             77 Blatt beschrieben, eingelegt: 1 Brief; 1 Postkarte</measure>
                         </span>
@@ -657,9 +657,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -680,8 +680,8 @@
           <fileDesc>
             <titleStmt>
               <title ana="assigned" ref="http://d-nb.info/gnd/1024274039" xml:lang="de">Verlagsvertrag Casa Editrice A. Mondadori</title>
-              <title ana="assigned" ref="http://d-nb.info/gnd/1024274039" xml:lang="en">Publishing contract Casa Editrice A. Mondadori</title>       
-       <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Italien</title>
+              <title ana="assigned" ref="http://d-nb.info/gnd/1024274039" xml:lang="en">Publishing contract Casa Editrice A. Mondadori</title>
+              <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Italien</title>
               <title type="Einheitssachtitel" xml:lang="en">Publishing Contracts Italy</title>
               <title type="Gesamttitel">Stefan Zweig - Archiv Atrium Press</title>
               <editor ref="#SZDPER.1560" role="contributor">
@@ -763,9 +763,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -846,8 +846,8 @@
                           Bleistift</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Black carbon paper, purple and green ink, pencil</material>
                       </support>
-                      <extent>                    
-    <span xml:lang="de">
+                      <extent>
+                        <span xml:lang="de">
                           <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">1 Blatt</measure>
                         </span>
                         <span xml:lang="en">
@@ -871,9 +871,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -924,7 +924,7 @@
               <note xml:lang="de">Aufschrift „Anzahlg noch nicht geleistet“ von Lotte Zweigs Hand,
                 eigenhändige Unterschriften von Stefan Zweig, Gottfried Bermann Fischer und
                 Vertretern der Verlage Querido und Allert de Lange</note>
-              <note xml:lang="en">Inscribed „Anzahlg noch nicht geleistet“ by Lotte Zweig&apos;s hand, holograph
+              <note xml:lang="en">Inscribed „Anzahlg noch nicht geleistet“ by Lotte Zweig's hand, holograph
                 signatures by Stefan Zweig, Gottfried Bermann Fischer, and agents for the publishers
                 Querido and Allert de Lange</note>
             </notesStmt>
@@ -992,9 +992,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1069,7 +1069,7 @@
                       <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Notizbuch mit Händlermarke „National NATTY MEMO BOOK Patent
                           No. 219547 REFILL No 6340. (British Made.)“</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer&apos;s label „National NATTY MEMO BOOK
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer's label „National NATTY MEMO BOOK
                           Patent No. 219547 REFILL No 6340. (British Made.)“</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette, schwarze und rot Tinte, Bleistift, grüner und
                           blauer Buntstift</material>
@@ -1085,8 +1085,8 @@
                           <term type="objecttyp">Notebook</term>, <measure type="leaf">25 leaves,
                             writing on 23 leaves</measure>
                         </span>
-                        <measure type="format">15x9 cm</measure>                   
-   </extent>
+                        <measure type="format">15x9 cm</measure>
+                      </extent>
                     </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -1109,9 +1109,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1182,7 +1182,7 @@
                         <material ana="szdg:WritingMaterial" xml:lang="de">Ringbuch mit Händlermarke Papierhandlung „Huber &amp; Lerner
                           Wien, I. Kohlmarkt 9“, karierte Einlageblätter der Größe No. 6030 mit
                           dunkelgrünen, leinenkaschierten Deckeln und Goldschnitt</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Ring binder with stationer&apos;s label „Huber &amp; Lerner
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Ring binder with stationer's label „Huber &amp; Lerner
                           Wien, I. Kohlmarkt 9“, squared loose leaves size no. 6030, dark green
                           cloth-covered boards, edges gilt</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette und schwarze Tinte, Bleistift, grüner
@@ -1208,9 +1208,9 @@
                   <bindingDesc>
                     <binding>
                       <ab xml:lang="de">Ringbuchmappe aus braunem Leder mit Druckknopfverschluss der
-                        Marke „WALKER&apos;S LOOSE-LEAF BOOK PATENT. BRITISH MANUFACTURE No. 623“ mit
+                        Marke „WALKER'S LOOSE-LEAF BOOK PATENT. BRITISH MANUFACTURE No. 623“ mit
                         Innentaschen</ab>
-                      <ab xml:lang="en">Ring binder, brown leather with snap fastener, label „WALKER&apos;S LOOSE-LEAF BOOK PATENT. BRITISH MANUFACTURE No. 623“ with inside
+                      <ab xml:lang="en">Ring binder, brown leather with snap fastener, label „WALKER'S LOOSE-LEAF BOOK PATENT. BRITISH MANUFACTURE No. 623“ with inside
                         pockets</ab>
                     </binding>
                   </bindingDesc>
@@ -1224,9 +1224,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1257,8 +1257,8 @@
             </titleStmt>
             <publicationStmt>
               <ab>Archivmaterial</ab>
-            </publicationStmt>     
-       <sourceDesc>
+            </publicationStmt>
+            <sourceDesc>
               <msDesc>
                 <msIdentifier>
                   <country>Österreich</country>
@@ -1326,8 +1326,8 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
-                    <ab xml:lang="en">Acquisition from Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
+                    <ab xml:lang="en">Acquisition from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1387,7 +1387,7 @@
                       <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Notizbuch mit Händlermarke „LANDOLT-ARBENZ &amp; Co
                           BAHNHOFSTR. 66. ZÜRICH“, liniertes Papier mit rotem Buchschnitt</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer&apos;s label „LANDOLT-ARBENZ &amp; Co
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer's label „LANDOLT-ARBENZ &amp; Co
                           BAHNHOFSTR. 66. ZÜRICH“, lined paper, edges red</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette, blaue und schwarze Tinte</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple, blue, and black ink</material>
@@ -1425,9 +1425,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1489,9 +1489,9 @@
                   <objectDesc>
                     <supportDesc>
                       <support>
-                        <material ana="szdg:WritingMaterial" xml:lang="de">Notizbuch mit Händlermarke „FLEXOR NOTES No. F103 WALKER&apos;S
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Notizbuch mit Händlermarke „FLEXOR NOTES No. F103 WALKER'S
                           FLEXOR REFILL“, liniertes Papier mit Goldschnitt</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer&apos;s label „FLEXOR NOTES No. F103 WALKER&apos;S
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Notebook with stationer's label „FLEXOR NOTES No. F103 WALKER'S
                           FLEXOR REFILL“, lined paper, edges gilt</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette und schwarze Tinte, Bleistift, roter und blauer
                           Buntstift</material>
@@ -1505,8 +1505,8 @@
                         <span xml:lang="en">
                           <term type="objecttyp">Notebook</term>, <measure type="leaf">28 leaves,
                             writing on 24 leaves, inserted: typescript, 1 leaf</measure>
-                        </span>             
-           <measure type="format">23x8 cm</measure>
+                        </span>
+                        <measure type="format">23x8 cm</measure>
                       </extent>
                     </supportDesc>
                   </objectDesc>
@@ -1542,9 +1542,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1643,9 +1643,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -1773,8 +1773,8 @@
                   <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
                     Salzburg</repository>
                   <idno type="signature">SZ-SDP/L1</idno>
-                  <altIdentifier>                   
- <idno type="PID">o:szd.160</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.160</idno>
                   </altIdentifier>
                 </msIdentifier>
                 <msContents>
@@ -1861,10 +1861,9 @@
             <notesStmt>
               <note xml:lang="de">Enthält eingeklebte Zeitungsausschnitte von Artikeln Zweigs</note>
               <note xml:lang="en">Contains pasted newspaper articles by Zweig</note>
-              
             </notesStmt>
-            <sourceDesc>        
-      <msDesc>
+            <sourceDesc>
+              <msDesc>
                 <msIdentifier>
                   <country>Österreich</country>
                   <settlement>Salzburg</settlement>
@@ -1924,12 +1923,10 @@
                       <item ana="szdg:AdditionalMaterial">
                         <desc xml:lang="de">1 Einlageblatt mit Notizen zum Inhalt des Tagebuchs von Richard Friedenthal</desc>
                         <desc xml:lang="en">1 inserted leaf with notes on the contents of the diary by Richard Friedenthal</desc>
-                        
                       </item>
                       <item ana="szdg:Enclosures">
                         <desc xml:lang="de">4 Zeitungsausschnitte von Feuilleton-Artikeln Stefan Zweigs</desc>
                         <desc xml:lang="en">4 newspaper clippings from articles in the feuilleton by Stefan Zweig</desc>
-                        
                         <measure type="format">17x32 cm</measure>
                       </item>
                     </list>
@@ -1938,15 +1935,15 @@
                 <history>
                   <origin>
                     <origDate when="1915-05-01">1 Mai 1915-</origDate>
-                  </origin>                  
-<provenance>
+                  </origin>
+                  <provenance>
                     <ab xml:lang="de">Archiv Atrium Press</ab>
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2033,9 +2030,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2119,12 +2116,12 @@
                   </origin>
                   <provenance>
                     <ab xml:lang="de">Archiv Atrium Press</ab>
-                    <ab xml:lang="en">Atrium Press</ab>            
-      </provenance>
+                    <ab xml:lang="en">Atrium Press</ab>
+                  </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2159,7 +2156,6 @@
             <notesStmt>
               <note xml:lang="de">Enthält 9 eingeklebte Zeitungsausschnitte von Feuilletonbeiträgen Zweigs sowie 1 losen Zeitungsausschnitt</note>
               <note xml:lang="en">Contains 9 newspaper clippings from articles in the feuilleton by Zweig and 1 loose newspaper clipping</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2198,11 +2194,11 @@
                       <extent>
                         <span xml:lang="de">
                           <term type="objecttyp">Notizbuch</term>, <measure type="leaf">86 Blatt, 
-                            79 Blatt beschrieben; beigelegt: 1 &quot;Offene Order&quot;, 2 Zeitungsausschnitte</measure>            
-            </span>
+                            79 Blatt beschrieben; beigelegt: 1 "Offene Order", 2 Zeitungsausschnitte</measure>
+                        </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Notebook</term>, <measure type="leaf">86 leaves,
-                            writing on 79 leaves; includes: 1 &quot;Offene Order&quot;, 2 newspaper clippings</measure>
+                            writing on 79 leaves; includes: 1 "Offene Order", 2 newspaper clippings</measure>
                         </span>
                         <measure type="format">18x11 cm</measure>
                       </extent>
@@ -2227,7 +2223,6 @@
                       <item ana="szdg:Enclosures">
                         <desc xml:lang="de">2 Zeitungsausschnitte von Feuilleton-Artikeln Stefan Zweigs, unterschiedliche Formate</desc>
                         <desc xml:lang="en">2 newspaper clippings from articles in the feuilleton by Stefan Zweig, various sizes</desc>
-                        
                         <measure type="format">33x18 cm</measure>
                       </item>
                     </list>
@@ -2242,9 +2237,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2279,15 +2274,14 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">„Jerem. Uraufführung“ von Friderike Zweigs Hand auf der Rückseite</note>
-              <note xml:lang="en">„Jerem. Uraufführung“ in Friderike Zweig&apos;s hand on the back side</note>
-              
+              <note xml:lang="en">„Jerem. Uraufführung“ in Friderike Zweig's hand on the back side</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
                 <msIdentifier>
                   <country>Österreich</country>
-                  <settlement>Salzburg</settlement>    
-              <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
                     Salzburg</repository>
                   <idno type="signature">SZ-SDP/L2</idno>
                   <altIdentifier>
@@ -2377,8 +2371,8 @@
               <msDesc>
                 <msIdentifier>
                   <country>Österreich</country>
-                  <settlement>Salzburg</settlement>           
-       <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
                     Salzburg</repository>
                   <idno type="signature">SZ-AAP/L14</idno>
                   <altIdentifier>
@@ -2414,9 +2408,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2450,9 +2444,9 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Eintragung „Stefan Zweig | Hotel Bellerive | TN 604 ah | Berlepsch Hans. Kämpfe“ eigenhändig in violetter Tinte und 
-                „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d&apos;Aubigné Geschichte“ eigenhändig in Bleistift</note>
+                „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d'Aubigné Geschichte“ eigenhändig in Bleistift</note>
               <note xml:lang="en">Entry „Stefan Zweig | Hotel Bellerive | TN 604 ah | Berlepsch Hans. Kämpfe“ holograph in
-                purple ink and „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d&apos;Aubigné Geschichte“ holograph in pencil</note>
+                purple ink and „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d'Aubigné Geschichte“ holograph in pencil</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2506,9 +2500,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2549,8 +2543,8 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Aufdruck „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“</note>
-              <note xml:lang="en">Imprint „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“</note>         
-   </notesStmt>
+              <note xml:lang="en">Imprint „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“</note>
+            </notesStmt>
             <sourceDesc>
               <msDesc>
                 <msIdentifier>
@@ -2593,9 +2587,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2641,9 +2635,8 @@
               <ab>Archivmaterial</ab>
             </publicationStmt>
             <notesStmt>
-              <note xml:lang="de">Aufschrift „Superseded by outright sale 1949 | Seperate edition in &apos;East + West Library&apos; (Dr. Horowitz) authorized by [Ca]ssels.“ von Carlos Chanfón in blauer Tinte, eigenhändige Unterschrift in violetter Tinte, Unterschrift des Verlagsdirektors in schwarzer Tinte</note>
-              <note xml:lang="en">Inscribed „Superseded by outright sale 1949 | Seperate edition in &apos;East + West Library&apos; (Dr. Horowitz) authorized by [Ca]ssels.“ by Carlos Chanfón in blue ink, holograph signature in purple ink, signature of the publishing director in black ink</note>
-              
+              <note xml:lang="de">Aufschrift „Superseded by outright sale 1949 | Seperate edition in 'East + West Library' (Dr. Horowitz) authorized by [Ca]ssels.“ von Carlos Chanfón in blauer Tinte, eigenhändige Unterschrift in violetter Tinte, Unterschrift des Verlagsdirektors in schwarzer Tinte</note>
+              <note xml:lang="en">Inscribed „Superseded by outright sale 1949 | Seperate edition in 'East + West Library' (Dr. Horowitz) authorized by [Ca]ssels.“ by Carlos Chanfón in blue ink, holograph signature in purple ink, signature of the publishing director in black ink</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2700,9 +2693,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2737,9 +2730,8 @@
               <ab>Archivmaterial</ab>
             </publicationStmt>
             <notesStmt>
-              <note xml:lang="de">Briefliche Vereinbarung mit eigenhändiger Aufschrift „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in violetter Tinte, violetter Stempel „Editorial Atenea p. p.&quot; und Unterschrift von fremder Hand</note>
+              <note xml:lang="de">Briefliche Vereinbarung mit eigenhändiger Aufschrift „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in violetter Tinte, violetter Stempel „Editorial Atenea p. p." und Unterschrift von fremder Hand</note>
               <note xml:lang="en">Agreement by letter, holograph note „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in purple ink, stamped „Editorial Atenea p. p.“, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2794,9 +2786,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2836,7 +2828,6 @@
             <notesStmt>
               <note xml:lang="de">Aufschrift „Salzburg 13. Mars 1925“ eigenhändig in violetter Tinte, zwei Unterschriften von fremder Hand in schwarzer Tinte</note>
               <note xml:lang="en">Inscribed „Salzburg 13. Mars 1925“ holograph in purple ink, two signatures by an unidentified hand in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2874,8 +2865,8 @@
                         </span>
                         <measure type="format">25x18 cm</measure>
                       </extent>
-                    </supportDesc>    
-              </objectDesc>
+                    </supportDesc>
+                  </objectDesc>
                   <handDesc>
                     <ab xml:lang="de">Stefan Zweig, fremde Hand</ab>
                     <ab xml:lang="en">Stefan Zweig, unidentified hand</ab>
@@ -2891,9 +2882,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -2931,7 +2922,6 @@
             <notesStmt>
               <note xml:lang="de">Vertrag mit eigenhändiger Unterschrift und Ergänzungen in schwarzer Tinte, Unterschriften von fremder Hand und violette Stempel</note>
               <note xml:lang="en">Contract with holograph signature and amendments in black ink, signatures by an unidentified hand and purple stamps</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -2989,9 +2979,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3027,7 +3017,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Datum und Unterschrift von fremder Hand, violetter Stempel</note>
               <note xml:lang="en">Holograph date and signature in purple ink, date and signature by an unidentified hand, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3082,9 +3071,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3121,7 +3110,6 @@
             <notesStmt>
               <note xml:lang="de">Korrekturen und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand in grüner Tinte, violetter Stempel</note>
               <note xml:lang="en">Holograph corrections and signature in purple ink, signature by an unidentified hand in green ink, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3180,9 +3168,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3281,9 +3269,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3320,7 +3308,6 @@
             <notesStmt>
               <note xml:lang="de">Eigenhändige Unterschrift in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel</note>
               <note xml:lang="en">Holograph signature in purple ink, signature by an unidentified hand, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3370,14 +3357,14 @@
                     <origDate when="1931-05-22">22. Mai 1931</origDate>
                     <origPlace>Berlin</origPlace>
                   </origin>
-                  <provenance>       
-             <ab xml:lang="de">Archiv Atrium Press</ab>
+                  <provenance>
+                    <ab xml:lang="de">Archiv Atrium Press</ab>
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3426,7 +3413,6 @@
             <notesStmt>
               <note xml:lang="de">Eigenhändige Unterschrift in schwarzer Tinte, Unterschrift von Juan Carlos Torrendell, rote Stempel</note>
               <note xml:lang="en">Holograph signature in black ink, signature by Juan Carlos Torrendell, red stamps</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3449,8 +3435,8 @@
                 <physDesc>
                   <objectDesc>
                     <supportDesc>
-                      <support>              
-          <material ana="szdg:WritingInstrument" xml:lang="de">Blaues Durchschlagpapier, schwarze Tinte</material>
+                      <support>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">Blaues Durchschlagpapier, schwarze Tinte</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Blue carbon paper, black ink</material>
                       </support>
                       <extent>
@@ -3479,9 +3465,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3547,7 +3533,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschriften von Halfdan Jespersen</note>
               <note xml:lang="en">Holograph date and signature in purple ink, signatures by Halfdan Jespersen</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3605,9 +3590,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3648,8 +3633,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt“ von Lotte Zweigs Hand in schwarzer Tinte, Unterschriften von fremder Hand</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt“ by Lotte Zweig&apos;s hand in black ink, signatures by an unidentified hand</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt“ by Lotte Zweig's hand in black ink, signatures by an unidentified hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3704,9 +3688,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3750,7 +3734,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von Gottfried Bermann-Fischer und von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by Gottfried Bermann-Fischer and an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3804,9 +3787,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3843,7 +3826,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig und eigenhändige Notiz „Die Abrechnung erfolgt zweimal im Jahre zu Ende jedes Halbjahrs“ in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph and holograph note „Die Abrechnung erfolgt zweimal im Jahre zu Ende jedes Halbjahrs“ in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3898,9 +3880,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -3920,8 +3902,8 @@
         <biblFull xml:id="SZDLEB.37">
           <fileDesc>
             <titleStmt>
-              <title ana="assigned" xml:lang="de">Vertrag Wydawnictwo J. Przeworskiego</title>   
-           <title ana="assigned" xml:lang="en">Contract Wydawnictwo J. Przeworskiego</title>
+              <title ana="assigned" xml:lang="de">Vertrag Wydawnictwo J. Przeworskiego</title>
+              <title ana="assigned" xml:lang="en">Contract Wydawnictwo J. Przeworskiego</title>
               <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Polen</title>
               <title type="Einheitssachtitel" xml:lang="en">Publishing Contracts Poland</title>
               <title type="Gesamttitel">Stefan Zweig - Archiv Atrium Press</title>
@@ -3938,7 +3920,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -3965,7 +3946,6 @@
                         <material ana="szdg:WritingMaterial" xml:lang="de">gelocht</material>
                         <material ana="szdg:WritingMaterial" xml:lang="en">hole punched</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Schwarzes Durchschlagpapier, schwarze und violette Tinte</material>
-                        
                         <material ana="szdg:WritingInstrument" xml:lang="en">Black carbon paper, black and purple ink</material>
                       </support>
                       <extent>
@@ -3994,9 +3974,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -4040,7 +4020,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift und Korrekturen eigenhändig in violetter Tinte, Unterschrift und Notiz von Eugen Relgis</note>
               <note xml:lang="en">Signature and corrections holograph in purple ink, signatures and annotations by Eugen Relgis</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -4093,9 +4072,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -4116,7 +4095,6 @@
           <fileDesc>
             <titleStmt>
               <title ana="assigned" xml:lang="de">Vertrag Américo Fraga Lamares &amp; Ca. Lda. LIVRARIA CIVILIZAÇÃO</title>
-              
               <title ana="assigned" xml:lang="en">Contract Américo Fraga Lamares &amp; Ca. Lda. LIVRARIA CIVILIZAÇÃO</title>
               <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Portugal</title>
               <title type="Einheitssachtitel" xml:lang="en">Publishing Contracts Portugal</title>
@@ -4134,7 +4112,6 @@
             <notesStmt>
               <note xml:lang="de">Eigenhändige Notiz in schwarzer Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Holograph note in black ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -4190,9 +4167,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -4229,7 +4206,6 @@
             <notesStmt>
               <note xml:lang="de">Datum, Unterschrift, Korrekturen und Anmerkungen eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date, signature, corrections and notes holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -4284,9 +4260,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -4318,7 +4294,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Überwiegend maschinenschriftliche Einträge, einige eigenhändige Notizen und Notizen von Lotte Zweigs Hand</note>
-              <note xml:lang="en">Mostly typescript entries, some holograph notes and notes by Lotte Zweig&apos;s hand</note>
+              <note xml:lang="en">Mostly typescript entries, some holograph notes and notes by Lotte Zweig's hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -4398,7 +4374,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">„Anekdoten über St. Z.“ von Lotte Zweigs Hand</note>
-              <note xml:lang="en">„Anekdoten über St. Z.“ by Lotte Zweig&apos;s hand</note>
+              <note xml:lang="en">„Anekdoten über St. Z.“ by Lotte Zweig's hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -4430,8 +4406,8 @@
                     </supportDesc>
                   </objectDesc>
                   <handDesc>
-                    <ab xml:lang="de">Lotte Zweig</ab> 
-                   <ab xml:lang="en">Lotte Zweig</ab>
+                    <ab xml:lang="de">Lotte Zweig</ab>
+                    <ab xml:lang="en">Lotte Zweig</ab>
                   </handDesc>
                 </physDesc>
                 <history>
@@ -4526,8 +4502,8 @@
                     <origDate when="1935-01-01">1935</origDate>
                   </origin>
                   <provenance>
-                    <ab xml:lang="de">Erben Stefan Zweigs, London</ab>              
-      <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
+                    <ab xml:lang="de">Erben Stefan Zweigs, London</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
                   </provenance>
                   <acquisition>
                     <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
@@ -4719,8 +4695,8 @@
             <titleStmt>
               <title ana="assigned" xml:lang="de">Taschenkalender 1939</title>
               <title ana="assigned" xml:lang="en">Pocket calendar 1939</title>
-              <title type="Einheitssachtitel" xml:lang="de">Kalender</title>     
-         <title type="Einheitssachtitel" xml:lang="en">Calendars</title>
+              <title type="Einheitssachtitel" xml:lang="de">Kalender</title>
+              <title type="Einheitssachtitel" xml:lang="en">Calendars</title>
               <title type="Gesamttitel">Stefan Zweig - Alberman Papers 2</title>
               <author ref="#SZDPER.1560">
                 <persName ref="http://d-nb.info/gnd/118637479">
@@ -4810,8 +4786,8 @@
                 <persName ref="http://d-nb.info/gnd/118637479">
                   <surname>Zweig</surname>
                   <forename>Stefan</forename>
-                </persName>    
-          </author>
+                </persName>
+              </author>
             </titleStmt>
             <publicationStmt>
               <ab>Archivmaterial</ab>
@@ -4979,7 +4955,7 @@
               <ab>Archivmaterial</ab>
             </publicationStmt>
             <notesStmt>
-              <note xml:lang="de">Notiz von Lotte Zweig&apos;s Hand: „Rede über St. Zweig. Pen-Club Buenos-Aires 1936.“</note>
+              <note xml:lang="de">Notiz von Lotte Zweig's Hand: „Rede über St. Zweig. Pen-Club Buenos-Aires 1936.“</note>
               <note xml:lang="en">Handwritten note by Lotte Zweig: „Rede über St. Zweig. Pen-Club Buenos-Aires 1936.“</note>
             </notesStmt>
             <sourceDesc>
@@ -5001,8 +4977,8 @@
                     <incipit>„Lorsque mon eminent chef et ami, …“</incipit>
                   </msItem>
                 </msContents>
-                <physDesc>           
-       <objectDesc>
+                <physDesc>
+                  <objectDesc>
                     <supportDesc>
                       <extent>
                         <span xml:lang="de">
@@ -5058,7 +5034,7 @@
               <ab>Archivmaterial</ab>
             </publicationStmt>
             <notesStmt>
-              <note xml:lang="de">Notiz von Lotte Zweig&apos;s Hand: „Pen-Club Buenos-Aires 1936.“</note>
+              <note xml:lang="de">Notiz von Lotte Zweig's Hand: „Pen-Club Buenos-Aires 1936.“</note>
               <note xml:lang="en">Handwritten note by Lotte Zweig: „Pen-Club Buenos-Aires 1936.“</note>
             </notesStmt>
             <sourceDesc>
@@ -5089,8 +5065,8 @@
                         </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Typescript</term>, <measure type="leaf">15 leaves</measure>
-                        </span>        
-              </extent>
+                        </span>
+                      </extent>
                     </supportDesc>
                   </objectDesc>
                   <handDesc>
@@ -5181,8 +5157,8 @@
                     <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>            
-        <ab xml:lang="en">Gift of the heirs of Stefan Zweig 2002</ab>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig 2002</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -5360,7 +5336,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Mitteilung des Home Office, Whitehall, bezüglich des Aufenthalts von Stefan Zweig in Großbritannien</note>
-              <note xml:lang="en">Notice from the Home Office, Whitehall, concerning Stefan Zweig&apos;s staying in Great Britain</note>
+              <note xml:lang="en">Notice from the Home Office, Whitehall, concerning Stefan Zweig's staying in Great Britain</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -5432,7 +5408,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Xerox-Kopien des österreichischen Reisepasses von Stefan Zweig</note>
-              <note xml:lang="en">Xerox copies of Stefan Zweig&apos;s Austrian Passport</note>
+              <note xml:lang="en">Xerox copies of Stefan Zweig's Austrian Passport</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -5455,8 +5431,8 @@
                           <term type="objecttyp">Passkopie</term>, <measure type="leaf">? Blatt</measure>
                         </span>
                         <span xml:lang="en">
-                          <term type="objecttyp">Passport copy</term>, <measure type="leaf">? leaf</measure>                        
-</span>
+                          <term type="objecttyp">Passport copy</term>, <measure type="leaf">? leaf</measure>
+                        </span>
                       </extent>
                     </supportDesc>
                   </objectDesc>
@@ -5549,8 +5525,8 @@
                   </origin>
                   <provenance>
                     <ab xml:lang="de">Erben Stefan Zweigs, London</ab>
-                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>   
-               </provenance>
+                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
+                  </provenance>
                   <acquisition>
                     <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
                     <ab xml:lang="en">Gift of the heirs of Stefan Zweig 2002</ab>
@@ -5734,8 +5710,8 @@
             <sourceDesc>
               <msDesc>
                 <msIdentifier>
-                  <country>USA</country>      
-            <settlement>Fredonia</settlement>
+                  <country>USA</country>
+                  <settlement>Fredonia</settlement>
                   <repository ref="http://d-nb.info/gnd/2156743-8">Reed Library – Stefan Zweig Collection</repository>
                   <idno type="signature">SZ-AP2/L-S7.7</idno>
                   <altIdentifier>
@@ -5827,8 +5803,8 @@
                         <span xml:lang="de">
                           <term type="objecttyp">Bescheid</term>, <measure type="leaf">2 Blatt</measure>
                         </span>
-                        <span xml:lang="en">                    
-      <term type="objecttyp">Notice</term>, <measure type="leaf">2 leaves</measure>
+                        <span xml:lang="en">
+                          <term type="objecttyp">Notice</term>, <measure type="leaf">2 leaves</measure>
                         </span>
                       </extent>
                     </supportDesc>
@@ -5919,8 +5895,8 @@
                   </origin>
                   <provenance>
                     <ab xml:lang="de">Erben Stefan Zweigs, London</ab>
-                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>           
-       </provenance>
+                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
+                  </provenance>
                   <acquisition>
                     <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
                     <ab xml:lang="en">Gift of the heirs of Stefan Zweig 2002</ab>
@@ -6037,7 +6013,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Xerox-Kopien des britischen Reisepasses von Stefan Zweig</note>
-              <note xml:lang="en">Xerox copies of Stefan Zweig&apos;s British Passport</note>
+              <note xml:lang="en">Xerox copies of Stefan Zweig's British Passport</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -6190,8 +6166,8 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Eigenhändige Liste mit wichtigen Daten und persönlichen Papieren die Familie Zweig betreffend</note>
-              <note xml:lang="en">Holograph list of important dates and personal papers concerning the Zweig family</note>       
-     </notesStmt>
+              <note xml:lang="en">Holograph list of important dates and personal papers concerning the Zweig family</note>
+            </notesStmt>
             <sourceDesc>
               <msDesc>
                 <msIdentifier>
@@ -6281,8 +6257,8 @@
                     <idno type="PID">o:szd.185</idno>
                   </altIdentifier>
                 </msIdentifier>
-                <msContents>      
-            <textLang>
+                <msContents>
+                  <textLang>
                     <lang xml:lang="eng">Englisch</lang>
                   </textLang>
                 </msContents>
@@ -6464,8 +6440,8 @@
                     <origDate when="1941-05-06">1941 May 6</origDate>
                   </origin>
                   <provenance>
-                    <ab xml:lang="de">Erben Stefan Zweigs, London</ab>      
-              <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
+                    <ab xml:lang="de">Erben Stefan Zweigs, London</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
                   </provenance>
                   <acquisition>
                     <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
@@ -6504,7 +6480,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Eigenhändige Einträge, Einträge von Lotte Zweigs Hand und von fremder Hand</note>
-              <note xml:lang="en">Holograph entries, entries by Lotte Zweig&apos;s hand and by other unidentified hands</note>
+              <note xml:lang="en">Holograph entries, entries by Lotte Zweig's hand and by other unidentified hands</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -6553,8 +6529,8 @@
                   <provenance>
                     <ab xml:lang="de">Erben Stefan Zweigs, London</ab>
                     <ab xml:lang="en">Heirs of Stefan Zweig, London</ab>
-                  </provenance>                
-  <acquisition>
+                  </provenance>
+                  <acquisition>
                     <ab xml:lang="de">Schenkung der Erben Stefan Zweigs 2002</ab>
                     <ab xml:lang="en">Gift of the heirs of Stefan Zweig 2002</ab>
                   </acquisition>
@@ -6591,7 +6567,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Einträge von Lotte Zweigs Hand</note>
-              <note xml:lang="en">Entries by Lotte Zweig&apos;s hand</note>
+              <note xml:lang="en">Entries by Lotte Zweig's hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -6668,7 +6644,6 @@
           <fileDesc>
             <titleStmt>
               <title ana="original">Register der Aufsätze</title>
-              
               <title type="Einheitssachtitel" xml:lang="de">Aufsatzregister</title>
               <title type="Einheitssachtitel" xml:lang="en">Essay register</title>
               <title type="Gesamttitel">Stefan Zweig - Alberman Papers 2</title>
@@ -6678,7 +6653,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Register von Stefan Zweigs Aufsätzen in alphabetischer Reihenfolge mit Registerblättern, Einträge überwiegend von Erwin Riegers Hand mit eigenhändigen Ergänzungen von Stefan Zweig, von Lotte Zweigs Hand und von fremder Hand</note>
-              <note xml:lang="en">Register of Stefan Zweig’s essays in alphabetical order with index tabs, entries mostly by Erwin Rieger&apos;s hand with holograph additions by Stefan Zweig, by Lotte Zweig&apos;s hand and other unidentified hands</note>
+              <note xml:lang="en">Register of Stefan Zweig’s essays in alphabetical order with index tabs, entries mostly by Erwin Rieger's hand with holograph additions by Stefan Zweig, by Lotte Zweig's hand and other unidentified hands</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -6819,8 +6794,8 @@
           <fileDesc>
             <titleStmt>
               <title ana="assigned" xml:lang="de">Abwesenheitsnotiz I</title>
-              <title ana="assigned" xml:lang="en">Absence note I</title>          
-    <title type="Einheitssachtitel" xml:lang="de">Antwortkarten</title>
+              <title ana="assigned" xml:lang="en">Absence note I</title>
+              <title type="Einheitssachtitel" xml:lang="de">Antwortkarten</title>
               <title type="Einheitssachtitel" xml:lang="en">Reply cards</title>
               <title type="Gesamttitel">Stefan Zweig - Sammlung Anna Meingast</title>
             </titleStmt>
@@ -6912,7 +6887,6 @@
             <notesStmt>
               <note xml:lang="de">Aufschrift „Superseded by outright sale 1949“ von Carlos Chanfón in blauer Tinte, eigenhändige Unterschrift in violetter Tinte, Unterschrift des Verlagsdirektors in schwarzer Tinte</note>
               <note xml:lang="en">Inscribed „Superseded by outright sale 1949“ by Carlos Chanfón in blue ink, holograph signature in purple ink, signature of the publishing director in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -6927,7 +6901,7 @@
                   </altIdentifier>
                 </msIdentifier>
                 <msContents>
-                  <summary>Magellan&apos;s Great Adventures</summary>
+                  <summary>Magellan's Great Adventures</summary>
                   <textLang>
                     <lang xml:lang="eng">Englisch</lang>
                   </textLang>
@@ -6947,7 +6921,6 @@
                         </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Typescript</term>, <measure type="leaf">2 leaves; 1 back cover</measure>
-                          
                         </span>
                         <measure type="format">33x20 cm</measure>
                       </extent>
@@ -6961,7 +6934,6 @@
                     <binding>
                       <ab xml:lang="de">Klammerheftung</ab>
                       <ab xml:lang="en">staple binding</ab>
-                      
                     </binding>
                   </bindingDesc>
                 </physDesc>
@@ -6975,9 +6947,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7073,9 +7045,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7137,8 +7109,8 @@
                     <lang xml:lang="fre">Französisch</lang>
                   </textLang>
                 </msContents>
-                <physDesc>        
-          <objectDesc>
+                <physDesc>
+                  <objectDesc>
                     <supportDesc>
                       <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Vorgedrucktes Vertragsformular, gelocht</material>
@@ -7172,9 +7144,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7224,7 +7196,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Holograph date and signature in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7279,13 +7250,13 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
-              </msDesc>   
-         </sourceDesc>
+              </msDesc>
+            </sourceDesc>
           </fileDesc>
           <profileDesc>
             <textClass>
@@ -7325,8 +7296,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Aufschrift „ANGST: in public | domain in | italy“ von fremder Hand in Kugelschreiber und „Inhalt | (Angst | Episode a Genfer See | Buch Mendel | Unsichtb Sammlung | Unverm. Bekanntsch.“ von Lotte Zweigs Hand in Bleistift, eigenhändige Unterschrift in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel</note>
-              <note xml:lang="en">Inscribed „ANGST: in public | domain in | italy“ by an unidentified hand in pen, and „Inhalt | (Angst | Episode a Genfer See | Buch Mendel | Unsichtb Sammlung | Unverm. Bekanntsch.“ by Lotte Zweig&apos;s hand in pencil, holograph date and signature in purple ink, signature by an unidentified hand, purple stamp</note>
-              
+              <note xml:lang="en">Inscribed „ANGST: in public | domain in | italy“ by an unidentified hand in pen, and „Inhalt | (Angst | Episode a Genfer See | Buch Mendel | Unsichtb Sammlung | Unverm. Bekanntsch.“ by Lotte Zweig's hand in pencil, holograph date and signature in purple ink, signature by an unidentified hand, purple stamp</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7381,9 +7351,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7424,7 +7394,6 @@
             <notesStmt>
               <note xml:lang="de">Eigenhändige Korrektur und Unterschrift in schwarzer Tinte</note>
               <note xml:lang="en">Holograph correction and signature in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7479,9 +7448,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7517,7 +7486,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte und zwei Unterschriften von fremder Hand, violetter Stempel</note>
               <note xml:lang="en">Holograph date and signature in purple ink, and two signatures by an unidentified hand, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7572,9 +7540,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7620,7 +7588,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschriften von fremder Hand, schwarzer Stempel</note>
               <note xml:lang="en">Holograph date and signature in purple ink, signatures by an unidentified hand, black stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7676,9 +7643,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7721,7 +7688,6 @@
             <notesStmt>
               <note xml:lang="de">Maschinenschriftliche Einträge in Formular mit handschriftlichen Korrekturen sowie Unterschrift von Ben Huebsch, eigenhändige Unterschrift in violetter Tinte</note>
               <note xml:lang="en">Form has typescript entries and handwritten corrections and signature by Ben Huebsch, holograph signature in purple ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7753,8 +7719,8 @@
                       <extent>
                         <span xml:lang="de">
                           <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">1 Blatt</measure>
-                        </span>  
-                      <span xml:lang="en">
+                        </span>
+                        <span xml:lang="en">
                           <term type="objecttyp">Typescript (carbon copy)</term>, <measure type="leaf">1 leaf</measure>
                         </span>
                         <measure type="format">36x22 cm</measure>
@@ -7776,9 +7742,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7835,7 +7801,6 @@
             <notesStmt>
               <note xml:lang="de">Maschinenschriftliche Eintragungen in Formular, eigenhändige Unterschrift und Unterschrift von Lotte Altmann in violetter Tinte, Unterschriften von Harold K. Guinzburg und Fanny Strassman</note>
               <note xml:lang="en">Form has typescript entries, holograph signature and signature by Lotte Altmann in purple ink, signatures by Harold K. Guinzburg and Fanny Strassman</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -7890,9 +7855,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -7947,7 +7912,6 @@
             <notesStmt>
               <note xml:lang="de">Maschinenschriftliche Einträge in Formular mit handschriftlichen Korrekturen und Unterschrift von Ben Huebsch, eigenhändige Unterschrift und Unterschrift von Lotte Altmann in violetter Tinte, Unterschrift von Rita Whiteson</note>
               <note xml:lang="en">Form has typescript entries and handwritten corrections and signature by Ben Huebsch, holograph signature and signature by Lotte Altmann in purple ink, signature by Rita Whiteson</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8002,9 +7966,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8048,7 +8012,6 @@
             <notesStmt>
               <note xml:lang="de">Eigenhändige Unterschrift in violetter Tinte, Unterschriften von Lotte Altmann und von fremder Hand, Prägestempel</note>
               <note xml:lang="en">Holograph signature in purple ink, signatures by Lotte Altmann and by an unidentified hand, embossed stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8103,9 +8066,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8149,7 +8112,6 @@
             <notesStmt>
               <note xml:lang="de">Maschinenschriftliche Einträge in Formular mit handschriftlichen Korrekturen und Unterschrift von Ben Huebsch, eigenhändige Unterschrift in violetter Tinte</note>
               <note xml:lang="en">Form has typescript entries and handwritten corrections and signature by Ben Huebsch, holograph signature in purple ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8204,9 +8166,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8303,9 +8265,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8354,7 +8316,6 @@
             <notesStmt>
               <note xml:lang="de">Aufschrift „rekl. 27.4. | 1935“ von fremder Hand in Bleistift, Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel</note>
               <note xml:lang="en">Inscribed „rekl. 27.4. | 1935“ by an unidentified hand in pencil, holograph date and signature in purple ink, signature by an unidentified hand, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8409,9 +8370,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8448,7 +8409,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel</note>
               <note xml:lang="en">Holograph date and signature in purple ink, signature by an unidentified hand, purple stamp</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8496,7 +8456,7 @@
                     <list>
                       <item ana="szdg:AdditionalMaterial">
                         <desc xml:lang="de">Vertrag in doppelter Ausführung zu „Die Welt von Gestern“ zwischen Manfred Altmann und Hannah Altmann und Editorial Juventud S.A. vom 30. November 1945 mit der Notiz „Cancelled“ und einmal mit Anmerkungen zum Vertrag in blauer Tinte von fremder Hand, beide Exemplare mit Unterschrift und violettem Stempel</desc>
-                        <desc xml:lang="en">Contract in duplicate on „Die Welt von Gestern“ between Manfred Altmann and Hannah Altmann and Editorial Juventud S.A.dated 30th November 1945 dated 30th November 1945 with the note &quot;Cancelled&quot; and one with annotations to the contract in blue ink by by an unidentified hand, both copies with signature and purple stamp</desc>
+                        <desc xml:lang="en">Contract in duplicate on „Die Welt von Gestern“ between Manfred Altmann and Hannah Altmann and Editorial Juventud S.A.dated 30th November 1945 dated 30th November 1945 with the note "Cancelled" and one with annotations to the contract in blue ink by by an unidentified hand, both copies with signature and purple stamp</desc>
                         <measure type="format">31x20 cm</measure>
                       </item>
                     </list>
@@ -8512,9 +8472,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8536,8 +8496,8 @@
         <biblFull xml:id="SZDLEB.90">
           <fileDesc>
             <titleStmt>
-              <title ana="assigned" xml:lang="de">Vertrag Grønbech&apos;s Forlag</title>
-              <title ana="assigned" xml:lang="en">Contract Grønbech&apos;s Forlag</title>
+              <title ana="assigned" xml:lang="de">Vertrag Grønbech's Forlag</title>
+              <title ana="assigned" xml:lang="en">Contract Grønbech's Forlag</title>
               <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Dänemark</title>
               <title type="Einheitssachtitel" xml:lang="en">Publishing Contracts Denmark</title>
               <title type="Gesamttitel">Stefan Zweig - Archiv Atrium Press</title>
@@ -8565,8 +8525,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „am 28.8.38 [durchgestrichen] März 40 noch nicht bez.“ von Lotte Zweigs Hand in Bleistift, Unterschrift von K. B. Grönbech</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „am 28.8.38 [crossed out] März 40 noch nicht bez.“ by Lotte Zweig&apos;s hand in pencil, signature by K. B. Grönbech</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „am 28.8.38 [crossed out] März 40 noch nicht bez.“ by Lotte Zweig's hand in pencil, signature by K. B. Grönbech</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8621,9 +8580,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8666,7 +8625,6 @@
             <notesStmt>
               <note xml:lang="de">Ort, Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von Halfdan Jespersen</note>
               <note xml:lang="en">Place, date and signature holograph in purple ink, signature by Halfdan Jespersen</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8708,8 +8666,8 @@
                   </objectDesc>
                   <handDesc>
                     <ab xml:lang="de">Stefan Zweig, Halfdan Jespersen</ab>
-                    <ab xml:lang="en">Stefan Zweig, Halfdan Jespersen</ab>              
-    </handDesc>
+                    <ab xml:lang="en">Stefan Zweig, Halfdan Jespersen</ab>
+                  </handDesc>
                 </physDesc>
                 <history>
                   <origin>
@@ -8721,9 +8679,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8771,9 +8729,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt März 40“ von Lotte Zweigs Hand in Bleistift, Unterschrift von Halfdan Jespersen</note>
-              
-              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt März 40“ by Lotte Zweig&apos;s hand in pencil, signature by Halfdan Jespersen</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt März 40“ by Lotte Zweig's hand in pencil, signature by Halfdan Jespersen</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -8831,9 +8787,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8874,13 +8830,12 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt!!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt!!“ by Lotte Zweig&apos;s hand, signature by an unidentified hand</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt!!“ by Lotte Zweig's hand, signature by an unidentified hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
-                <msIdentifier>                  
-<country>Österreich</country>
+                <msIdentifier>
+                  <country>Österreich</country>
                   <settlement>Salzburg</settlement>
                   <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv
                     Salzburg</repository>
@@ -8930,9 +8885,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -8969,7 +8924,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date and signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9024,9 +8978,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9070,7 +9024,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von Gottfried Bermann-Fischer und von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by Gottfried Bermann-Fischer and an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9125,9 +9078,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition 
-                     from Christie&apos;s London 2014</ab>
+                     from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9165,7 +9118,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9220,9 +9172,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9259,7 +9211,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9290,8 +9241,8 @@
                       </support>
                       <extent>
                         <span xml:lang="de">
-                          <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">1 Blatt</measure>   
-                     </span>
+                          <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">1 Blatt</measure>
+                        </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Typescript (carbon copy)</term>, <measure type="leaf">1 leaf</measure>
                         </span>
@@ -9314,9 +9265,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9358,9 +9309,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand</note>
-              
-              <note xml:lang="en">Signature holograph in purple ink, note „unbezahlt“ by Lotte Zweig&apos;s hand, signature by an unidentified hand</note>
-              
+              <note xml:lang="en">Signature holograph in purple ink, note „unbezahlt“ by Lotte Zweig's hand, signature by an unidentified hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9415,9 +9364,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9454,7 +9403,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9508,9 +9456,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9561,9 +9509,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von Eugen Relgis</note>
-              
               <note xml:lang="en">Signature holograph in purple ink, signature by Eugen Relgis</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9615,10 +9561,10 @@
                     <ab xml:lang="de">Archiv Atrium Press</ab>
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
-                  <acquisition>             
-       <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                  <acquisition>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9660,9 +9606,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift und Korrektur von Eugen Relgis</note>
-              
               <note xml:lang="en">Signature holograph in purple ink, signature and correction by Eugen Relgis</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9700,8 +9644,8 @@
                       </extent>
                     </supportDesc>
                   </objectDesc>
-                  <handDesc>  
-                  <ab xml:lang="de">Stefan Zweig, Eugen Relgis</ab>
+                  <handDesc>
+                    <ab xml:lang="de">Stefan Zweig, Eugen Relgis</ab>
                     <ab xml:lang="en">Stefan Zweig, Eugen Relgis</ab>
                   </handDesc>
                 </physDesc>
@@ -9715,9 +9659,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9765,8 +9709,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt März 40“ von Lotte Zweigs Hand in Bleistift, Unterschrift von Eugen Relgis</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „unbezahlt März 40“ by Lotte Zweig&apos;s hand in pencil, signature by Eugen Relgis</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „unbezahlt März 40“ by Lotte Zweig's hand in pencil, signature by Eugen Relgis</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9819,9 +9762,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9871,8 +9814,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt März 40“ von Lotte Zweigs Hand in Bleistift, Unterschrift von Eugen Relgis</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „unbezahlt März 40“ by Lotte Zweig&apos;s hand in pencil, signature by Eugen Relgis</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „unbezahlt März 40“ by Lotte Zweig's hand in pencil, signature by Eugen Relgis</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -9925,9 +9867,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -9950,8 +9892,8 @@
               <title ana="assigned" xml:lang="en">Publishing contract Editura Socec &amp; Co. S.A.</title>
               <title type="Einheitssachtitel" xml:lang="de">Verlagsverträge Rumänien</title>
               <title type="Einheitssachtitel" xml:lang="en">Publishing Contracts Romania</title>
-              <title type="Gesamttitel">Stefan Zweig - Archiv Atrium Press</title>          
-    <editor ref="#SZDPER.1560" role="contributor">
+              <title type="Gesamttitel">Stefan Zweig - Archiv Atrium Press</title>
+              <editor ref="#SZDPER.1560" role="contributor">
                 <persName ref="http://d-nb.info/gnd/118637479">
                   <surname>Zweig</surname>
                   <forename>Stefan</forename>
@@ -9969,9 +9911,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Deutscher handschriftlicher Vertragsentwurf von unbekannter Hand, rumänischer Vertrag mit Notiz „bezahlt!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand</note>
-              
-              <note xml:lang="en">German handwritten draft contract, romanian contract with note „bezahlt!“ by Lotte Zweig&apos;s hand in pencil, signature by an unidentified hand</note>
-              
+              <note xml:lang="en">German handwritten draft contract, romanian contract with note „bezahlt!“ by Lotte Zweig's hand in pencil, signature by an unidentified hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10025,13 +9965,13 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
-              </msDesc>           
- </sourceDesc>
+              </msDesc>
+            </sourceDesc>
           </fileDesc>
           <profileDesc>
             <textClass>
@@ -10064,7 +10004,6 @@
             <notesStmt>
               <note xml:lang="de">Datum, Unterschrift und Notiz eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date, signature and note holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10079,7 +10018,7 @@
                   </altIdentifier>
                 </msIdentifier>
                 <msContents>
-                  <summary>Amok (contenant Lettre dune Inconnue, La Ruelle au claire de lune), La Confusion des Sentiments, La destruction d&apos;un coeur (contenant: Peur. Révélation inattendue d&apos;un métier. Leporella. La femme et le paysage. Le bouquiniste Mendel. la colection invisible.)</summary>
+                  <summary>Amok (contenant Lettre dune Inconnue, La Ruelle au claire de lune), La Confusion des Sentiments, La destruction d'un coeur (contenant: Peur. Révélation inattendue d'un métier. Leporella. La femme et le paysage. Le bouquiniste Mendel. la colection invisible.)</summary>
                   <textLang>
                     <lang xml:lang="fre">Französisch</lang>
                     <lang xml:lang="ger">Deutsch</lang>
@@ -10120,9 +10059,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10171,7 +10110,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, korrigiert</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand, corrected</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10220,16 +10158,15 @@
                   <origin>
                     <origDate when="1937-09-25">25 septembre 1937</origDate>
                     <origPlace>London</origPlace>
-                    
                   </origin>
                   <provenance>
                     <ab xml:lang="de">Archiv Atrium Press</ab>
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10267,7 +10204,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date and signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10322,9 +10258,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10372,8 +10308,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt 6. II. 38 in Estoril = £ 20“ von Lotte Zweigs Hand in blauer Tinte und blauem Buntstift, Unterschrift von fremder Hand, korrigiert</note>
-              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt 6. II. 38 in Estoril = £ 20“ by Lotte Zweig&apos;s hand in blue ink and blue pencil, signature by an unidentified hand, corrected</note>
-              
+              <note xml:lang="en">Date and signature holograph in purple ink, note „bezahlt 6. II. 38 in Estoril = £ 20“ by Lotte Zweig's hand in blue ink and blue pencil, signature by an unidentified hand, corrected</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10389,7 +10324,6 @@
                 </msIdentifier>
                 <msContents>
                   <summary>Begegnungen mit Menschen Buchern?Staden</summary>
-                  
                   <textLang>
                     <lang xml:lang="fre">Französisch</lang>
                   </textLang>
@@ -10401,7 +10335,6 @@
                         <material ana="szdg:WritingMaterial" xml:lang="de">gelocht</material>
                         <material ana="szdg:WritingMaterial" xml:lang="en">hole punched</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Schwarzes Farbband, schwarze, blaue und violette Tinte, blauer Buntstift</material>
-                        
                         <material ana="szdg:WritingInstrument" xml:lang="en">Black ribbon, black, blue and purple ink, blue pencil</material>
                       </support>
                       <extent>
@@ -10430,9 +10363,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10469,7 +10402,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10501,8 +10433,8 @@
                       <extent>
                         <span xml:lang="de">
                           <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">1 Blatt</measure>
-                        </span>         
-               <span xml:lang="en">
+                        </span>
+                        <span xml:lang="en">
                           <term type="objecttyp">Typescript (carbon copy)</term>, <measure type="leaf">1 leaf</measure>
                         </span>
                         <measure type="format">32x20 cm</measure>
@@ -10518,16 +10450,15 @@
                   <origin>
                     <origDate when="1938-12-06">6 décembre 1938</origDate>
                     <origPlace>London</origPlace>
-                    
                   </origin>
                   <provenance>
                     <ab xml:lang="de">Archiv Atrium Press</ab>
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10564,7 +10495,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date and signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10619,9 +10549,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10669,7 +10599,6 @@
             <notesStmt>
               <note xml:lang="de">Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand</note>
               <note xml:lang="en">Date and signature holograph in purple ink, signature by an unidentified hand</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10724,9 +10653,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014</ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014</ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -10763,7 +10692,6 @@
             <notesStmt>
               <note xml:lang="de">Blaues Signet von Stefan Zweig, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“; 21 Exemplare</note>
               <note xml:lang="en">Blue signet of Stefan Zweig, designed by Ephraim Moses Lilien, with initials „SZ“ and „Salzburg | Kapuzinerberg 5“; 21 copies</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10846,7 +10774,6 @@
             <notesStmt>
               <note xml:lang="de">Spruch mit eigenhändiger Unterschrift in violetter Tinte</note>
               <note xml:lang="en">Saying with holograph signature in purple ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -10924,7 +10851,6 @@
             <notesStmt>
               <note xml:lang="de">Graphik eines unbekannten Künstlers mit Aufschrift „Esteban Zweig“ von fremder Hand in schwarzer Tinte</note>
               <note xml:lang="en">Print by an unknown artist with inscription „Esteban Zweig“ by an unidentified hand in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11012,8 +10938,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Auf der Rückseite ein von Fidus (Hugo Höppener) gestaltetes schwarzes Signet mit dem Namenszug Stefan Zweigs</note>
-              <note xml:lang="en">On the back a black signet with Stefan Zweig&apos;s name designed by Fidus (Hugo Höppener)</note>
-              
+              <note xml:lang="en">On the back a black signet with Stefan Zweig's name designed by Fidus (Hugo Höppener)</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11094,8 +11019,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Auf der Rückseite ein von Fidus (Hugo Höppener) gestaltetes goldenes Signet mit dem Namenszug Stefan Zweigs</note>
-              <note xml:lang="en">On the back a golden signet with Stefan Zweig&apos;s name designed by Fidus (Hugo Höppener)</note>
-              
+              <note xml:lang="en">On the back a golden signet with Stefan Zweig's name designed by Fidus (Hugo Höppener)</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11173,7 +11097,6 @@
             <notesStmt>
               <note xml:lang="de">Auf der Rückseite aufgedruckt ein von Ephraim Moses Lilien entworfenes blaues Signet mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“</note>
               <note xml:lang="en">On the back imprinted a blue signet designed by Ephraim Moses Lilien with initials „SZ“ and „Salzburg | Kapuzinerberg 5“</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11185,8 +11108,8 @@
                   <idno type="signature">SZ-SAM/L8</idno>
                   <altIdentifier>
                     <idno type="PID">o:szd.158</idno>
-                  </altIdentifier>             
-   </msIdentifier>
+                  </altIdentifier>
+                </msIdentifier>
                 <physDesc>
                   <objectDesc>
                     <supportDesc>
@@ -11251,7 +11174,6 @@
             <notesStmt>
               <note xml:lang="de">Unterschrift und Korrekturen eigenhändig in schwarzer Tinte</note>
               <note xml:lang="en">Signature and corrections holograph in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11341,7 +11263,6 @@
             <notesStmt>
               <note xml:lang="de">Vorgedrucktes Formular blanko in zweifacher Ausführung auf einem Bogen jeweils mit eigenhändiger Unterschrift in schwarzer Tinte</note>
               <note xml:lang="en">Pre-printed blank form in duplicate on one bifolium each with holograph signature in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11427,7 +11348,6 @@
             <notesStmt>
               <note xml:lang="de">Blaues Signet, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Kapuzinerberg 5 | SALZBURG, am ...“</note>
               <note xml:lang="en">Blue signet, designed by Ephraim Moses Lilien, with initials „SZ“ and „Kapuzinerberg 5 | SALZBURG, am ...“</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11449,8 +11369,8 @@
                 <physDesc>
                   <objectDesc>
                     <supportDesc>
-                      <support> 
-                       <material ana="szdg:WritingInstrument" xml:lang="de">Violettes Durchschlagpapier</material>
+                      <support>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">Violettes Durchschlagpapier</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple carbon paper</material>
                       </support>
                       <extent>
@@ -11516,10 +11436,8 @@
               <ab>Archivmaterial</ab>
             </publicationStmt>
             <notesStmt>
-              
               <note xml:lang="de">Vorgedrucktes Scheckheft mit zahlreichen Zahlungseinträgen (Datum, Betrag, Empfänger), 1 Blankoscheck mit eigenhändiger Unterschrift in schwarzer Tinte</note>
               <note xml:lang="en">Pre-printed checkbook with numerous payment entries (date, amount, recipient), 1 blank check with holograph signature in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11559,7 +11477,6 @@
                     </supportDesc>
                   </objectDesc>
                   <handDesc>
-                    
                     <ab xml:lang="de">Stefan Zweig</ab>
                     <ab xml:lang="en">Stefan Zweig</ab>
                   </handDesc>
@@ -11613,7 +11530,6 @@
             <notesStmt>
               <note xml:lang="de">Blankoschecks mit eigenhändiger Unterschrift in schwarzer Tinte</note>
               <note xml:lang="en">Blank checks with holograph signature in black ink</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11698,10 +11614,9 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Schachtel mit Aufschrift „Schreibmaschin-Zubehör“ von fremder Hand in schwarzem Buntstift mit zahlreichen Utensilien, u.a.: unbenutztes violettes Farbband in der Originaldose der Firma „Günther Wagner“, drei 
-                leere Farbbandspulen, Typen-Reiniger Knetmasse „Star Type Cleaner No. 1226“ der Marke „Eberhard Faber | New York“, drei Reinigungsbürsten, Pfeifenputzerbürste, Pinsel, Stift, Radiergummi, Korrekturschablone „Remington Schreibmaschinen | Salzburg“, zwei Schlüssel</note>      
-        <note xml:lang="en">Box with inscription „Schreibmaschin-Zubehör“ by an unidentified hand in black pencil with numerous utensils, including: unused violet ribbon in the original tin of the company „Günther Wagner“, 
+                leere Farbbandspulen, Typen-Reiniger Knetmasse „Star Type Cleaner No. 1226“ der Marke „Eberhard Faber | New York“, drei Reinigungsbürsten, Pfeifenputzerbürste, Pinsel, Stift, Radiergummi, Korrekturschablone „Remington Schreibmaschinen | Salzburg“, zwei Schlüssel</note>
+              <note xml:lang="en">Box with inscription „Schreibmaschin-Zubehör“ by an unidentified hand in black pencil with numerous utensils, including: unused violet ribbon in the original tin of the company „Günther Wagner“, 
                 three empty ribbon spools, type cleaner kneading mass „Star Type Cleaner No. 1226“ of the brand „Eberhard Faber | New York“, three cleaning brushes, pipe cleaner brush, brush, pen, eraser, correction template „Remington Schreibmaschinen | Salzburg“, two keys</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11781,8 +11696,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Titel, Anmerkungen und Ergänzungen von Lotte Zweigs Hand</note>
-              <note xml:lang="en">Title, annotations and additions in Lotte Zweig&apos;s hand</note>         
-     
+              <note xml:lang="en">Title, annotations and additions in Lotte Zweig's hand</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11845,9 +11759,9 @@
                     <ab xml:lang="en">Atrium Press</ab>
                   </provenance>
                   <acquisition>
-                    <ab xml:lang="de">Ankauf Christie&apos;s London 2014 </ab>
+                    <ab xml:lang="de">Ankauf Christie's London 2014 </ab>
                     <ab xml:lang="en">Acquisition
-                      from Christie&apos;s London 2014</ab>
+                      from Christie's London 2014</ab>
                   </acquisition>
                 </history>
               </msDesc>
@@ -11887,9 +11801,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Bibliographie zum fünfzigsten Geburtstag von Stefan Zweig, zusammengestellt von Fritz Adolf Hünich und Erwin Rieger, nummeriertes Exemplar Nr. 315, mit zahlreichen eingeklebten uns losen Ergänzungen sowie handschriftlichen Anmerkungen und Nummerierung der Hausexemplare in rotem Buntstift; Aufschrift „Ergänzt“ von Anna Meingasts Hand in schwarzer Tinte am Buchumschlag</note>
-              
-              <note xml:lang="en">Bibliography on the occasion of the fiftieth birthday of Stefan Zweig, compiled by Fritz Adolf Hünich and Erwin Rieger, numbered copy no. 315, with numerous pasted-in and loose additions as well as handwritten annotations and numbering of voucher copies in red pencil; inscription „Ergänzt“ by Anna Meingast&apos;s hand in black ink on the book cover</note>
-              
+              <note xml:lang="en">Bibliography on the occasion of the fiftieth birthday of Stefan Zweig, compiled by Fritz Adolf Hünich and Erwin Rieger, numbered copy no. 315, with numerous pasted-in and loose additions as well as handwritten annotations and numbering of voucher copies in red pencil; inscription „Ergänzt“ by Anna Meingast's hand in black ink on the book cover</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -11921,7 +11833,6 @@
                         </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Book edition with supplements</term>, <measure type="leaf">56 leaves</measure>
-                          
                         </span>
                         <measure type="format">22x14 cm</measure>
                       </extent>
@@ -11929,15 +11840,12 @@
                   </objectDesc>
                   <handDesc>
                     <ab xml:lang="de">Anna Meingast</ab>
-                    
                     <ab xml:lang="en">Anna Meingast</ab>
                   </handDesc>
                   <bindingDesc>
                     <binding>
                       <ab xml:lang="de">Fadenheftung mit graublauem Pappumschlag und goldener Vignette</ab>
-                      
                       <ab xml:lang="en">Sewn with grey-blue cardboard cover and golden vignette</ab>
-                      
                     </binding>
                   </bindingDesc>
                   <accMat>
@@ -11946,7 +11854,6 @@
                         <desc xml:lang="de">Typoskripte, 25 Blatt</desc>
                         <desc xml:lang="en">Typescripts, 25 leaves</desc>
                         <measure type="format">12x2 cm bis 30x21 cm</measure>
-                        
                       </item>
                     </list>
                   </accMat>
@@ -12016,7 +11923,6 @@
                         </span>
                         <span xml:lang="en">
                           <term type="objecttyp">Print matrix</term>
-                          
                         </span>
                         <measure type="format">8x3 cm</measure>
                       </extent>
@@ -12111,8 +12017,8 @@
                         <measure type="format">32x41 cm</measure>
                       </extent>
                     </supportDesc>
-                  </objectDesc>        
-          <handDesc>
+                  </objectDesc>
+                  <handDesc>
                     <ab xml:lang="de">Stefan Zweig, Anton Kippenberg</ab>
                     <ab xml:lang="en">Stefan Zweig, Anton Kippenberg</ab>
                   </handDesc>
@@ -12170,7 +12076,6 @@
                                 Stefan Zweig und Anton Kippenberg</note>
               <note xml:lang="en">Biofolium with three written pages, three pasted revenue stamps, stamps and handwritten annotations in an unidentified hand, 
                             with holograph signature and signature by Anton Kippenberg</note>
-              
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -12192,8 +12097,8 @@
                 </msContents>
                 <physDesc>
                   <objectDesc>
-                    <supportDesc>     
-                 <support>
+                    <supportDesc>
+                      <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Doppelbogen, gelocht</material>
                         <material ana="szdg:WritingMaterial" xml:lang="en">Bifolium, hole punched</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Schwarzes Farbband, violette und schwarze Tinte</material>
@@ -12352,8 +12257,8 @@
                 <msIdentifier>
                   <country>Deutschland</country>
                   <settlement>Marbach</settlement>
-                  <repository ref="http://d-nb.info/gnd/10155895-8">Deutsches Literaturarchiv Marbach</repository>        
-          <idno type="signature">A:Zweig, Stefan 76.1487</idno>
+                  <repository ref="http://d-nb.info/gnd/10155895-8">Deutsches Literaturarchiv Marbach</repository>
+                  <idno type="signature">A:Zweig, Stefan 76.1487</idno>
                   <idno type="mediaid">HS009527497</idno>
                   <altIdentifier>
                     <idno type="extern">https://www.dla-marbach.de/find/opac/id/HS00952749</idno>
@@ -12456,7 +12361,7 @@
                     <supportDesc>
                       <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Registerbuch mit Händlermarke auf Innenseite des Deckels „PAPIERHANDLUNG | M. KUHN, NFG. L. REINHART | WIEN. VIII. ALSERSTRASSE 27“, Tabellenvordruck blau und rot, marmorierter Schnitt</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Register book with stationer&apos;s label on the inside of the upper cover „PAPIERHANDLUNG | M. KUHN, NFG. L. REINHART | WIEN. VIII. ALSERSTRASSE 27“, with tabular form printed in blue and red, marbled edges</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Register book with stationer's label on the inside of the upper cover „PAPIERHANDLUNG | M. KUHN, NFG. L. REINHART | WIEN. VIII. ALSERSTRASSE 27“, with tabular form printed in blue and red, marbled edges</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette, schwarze und blaue Tinte, Bleistift, roter und blauer  Buntstift</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple, black, and blue ink, pencil, red and blue pencil</material>
                       </support>
@@ -12549,7 +12454,7 @@
                       <support>
                         <material ana="szdg:WritingMaterial" xml:lang="de">Registerbuch mit Händlermarke auf Innenseite des Deckels „PAPIERHANDLUNG / M. KUHN, NFG. L. REINHART / WIEN. VIII. ALSERSTRASSE 27“, 
                                                     Tabellenvordruck blau und rot, marmorierter Schnitt</material>
-                        <material ana="szdg:WritingMaterial" xml:lang="en">Register book with stationer&apos;s label on the inside of the upper cover „PAPIERHANDLUNG / M. KUHN, NFG. L. REINHART / WIEN. VIII. ALSERSTRASSE 27“, 
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Register book with stationer's label on the inside of the upper cover „PAPIERHANDLUNG / M. KUHN, NFG. L. REINHART / WIEN. VIII. ALSERSTRASSE 27“, 
                                                     tabular form printed in blue and red, marbled edges</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette, schwarze und blaue Tinte, Bleistift, roter und blauer  Buntstift</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple, black, and blue ink, pencil, red and blue pencil</material>
@@ -12657,8 +12562,8 @@
                   <persName ref="http://d-nb.info/gnd/118637479">
                     <surname>Zweig</surname>
                     <forename>Stefan</forename>
-                  </persName>      
-          </term>
+                  </persName>
+                </term>
                 <term ref="SZDPER.1575" type="person_affected">
                   <persName ref="http://d-nb.info/gnd/1080163751">
                     <surname>Meingast</surname>
@@ -12683,8 +12588,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Stempel „Sekretariat Dr. STEFAN ZWEIG“ und Unterschriftenstempel der „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ sowie blaues Stempelkissen der Marke „Pelikan“</note>
-              <note xml:lang="en">Stamp „Sekretariat Dr. STEFAN ZWEIG&quot; and signature stamp by the „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ as well as blue stamp pad of the brand „Pelikan“</note>
-              
+              <note xml:lang="en">Stamp „Sekretariat Dr. STEFAN ZWEIG" and signature stamp by the „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ as well as blue stamp pad of the brand „Pelikan“</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -12707,7 +12611,6 @@
                         </span>
                         <span xml:lang="en">
                           <term type="objecttyp">2 rubber stamps with wooden handle, stamp pad</term>
-                          
                         </span>
                       </extent>
                     </supportDesc>
@@ -12743,8 +12646,8 @@
                     <forename>Anna</forename>
                   </persName>
                 </term>
-              </keywords>  
-          </textClass>
+              </keywords>
+            </textClass>
           </profileDesc>
         </biblFull>
         <biblFull xml:id="SZDLEB.135">
@@ -12851,7 +12754,7 @@
                 <msContents>
                   <summary>
                     <ab xml:lang="de">Betrifft Zweigs Studienreise durch Galizien</ab>
-                    <ab xml:lang="en">Concerning Zweig&apos;s study trip through Galicia</ab>
+                    <ab xml:lang="en">Concerning Zweig's study trip through Galicia</ab>
                   </summary>
                   <textLang>
                     <lang xml:lang="ger">Deutsch</lang>
@@ -12953,7 +12856,7 @@
                 <physDesc>
                   <objectDesc>
                     <supportDesc>
-                      <support></support>
+                      <support />
                       <extent>
                         <span xml:lang="de">
                           <term type="objecttyp">Typoskript</term>, <measure ana="corrected" type="leaf">2 Blatt,
@@ -13091,8 +12994,8 @@
           <profileDesc>
             <textClass>
               <keywords>
-                <term type="classification" xml:lang="de">Diverses</term>          
-      <term type="classification" xml:lang="en">Various</term>
+                <term type="classification" xml:lang="de">Diverses</term>
+                <term type="classification" xml:lang="en">Various</term>
                 <term ref="#SZDPER.1560" type="person_affected">
                   <persName ref="http://d-nb.info/gnd/118637479">
                     <surname>Zweig</surname>
@@ -13182,8 +13085,8 @@
           <profileDesc>
             <textClass>
               <keywords>
-                <term type="classification" xml:lang="de">Diverses</term>      
-          <term type="classification" xml:lang="en">Various</term>
+                <term type="classification" xml:lang="de">Diverses</term>
+                <term type="classification" xml:lang="en">Various</term>
                 <term ref="#SZDPER.1560" type="person_affected">
                   <persName ref="http://d-nb.info/gnd/118637479">
                     <surname>Zweig</surname>
@@ -13360,8 +13263,8 @@
                 </history>
               </msDesc>
             </sourceDesc>
-          </fileDesc>     
-     <profileDesc>
+          </fileDesc>
+          <profileDesc>
             <textClass>
               <keywords>
                 <term type="classification" xml:lang="de">Diverses</term>
@@ -13447,8 +13350,8 @@
                         <material ana="szdg:WritingMaterial" xml:lang="en">Blue stationary</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette Tinte</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple ink</material>
-                      </support>             
-         <extent>
+                      </support>
+                      <extent>
                         <span xml:lang="de">
                           <term type="objecttyp">Manuskript</term>, <measure type="leaf">1 Blatt</measure>
                         </span>
@@ -13520,7 +13423,7 @@
             </publicationStmt>
             <notesStmt>
               <note xml:lang="de">Kuvert zu einer Abschrift des Testaments von Stefan Zweig</note>
-              <note xml:lang="en">Envelope to a copy of Stefan Zweig&apos;s will</note>
+              <note xml:lang="en">Envelope to a copy of Stefan Zweig's will</note>
             </notesStmt>
             <sourceDesc>
               <msDesc>
@@ -13543,8 +13446,8 @@
                   <objectDesc>
                     <supportDesc>
                       <support>
-                        <material ana="szdg:WritingMaterial" xml:lang="de">Briefkuvert</material>                  
-      <material ana="szdg:WritingMaterial" xml:lang="en">Envelope</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Briefkuvert</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Envelope</material>
                         <material ana="szdg:WritingInstrument" xml:lang="de">Violette Tinte</material>
                         <material ana="szdg:WritingInstrument" xml:lang="en">Purple ink</material>
                       </support>
@@ -13593,6 +13496,1210 @@
                 <term type="person">
                   Fitzbauer, Inge
                 </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.144">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Uebereinkommen</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <notesStmt>
+              <note xml:lang="de">Nicht unterzeichnet</note>
+              <note xml:lang="en">Not signed</note>
+            </notesStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L1</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3515</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Uebereinkommen</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Farbband</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ribbon</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Übereinkommen</term>, <measure type="leaf">Typoskript, 2 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">agreement</term>, <measure type="leaf">typescript, 2 leaves</measure>
+                        </span>
+                      </extent>
+                      <foliation>
+                        <ab>-2- – -3-</ab>
+                      </foliation>
+                    </supportDesc>
+                  </objectDesc>
+                  <accMat>
+                    <list>
+                      <item ana="szdg:Enclosures">
+                        <desc xml:lang="de">Typoskriptdurchschlag, 2 Blatt</desc>
+                        <desc xml:lang="en">Typescript carbon copy, 2 leaves</desc>
+                      </item>
+                    </list>
+                  </accMat>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>Wien</origPlace>
+                    <origDate when="1937-05-15">15. Mai 1937.</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+                <term type="person_affected" ref="#SZDPER.1560">
+                  <persName ref="http://d-nb.info/gnd/118637479">
+                    <surname>Zweig</surname>
+                    <forename>Stefan</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.145">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Protokoll</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor" ref="#SZDPER.2294">
+                <persName ref="http://d-nb.info/gnd/116952172">Rechtsanwalt Emil von Hofmannsthal</persName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L2</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3520</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Protokoll</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Farbband, schwarze Tinte</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ribbon, black ink</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Protokoll</term>, <measure type="leaf">Typoskript, 2 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">transcript</term>, <measure type="leaf">typescript, 2 leaves</measure>
+                        </span>
+                      </extent>
+                      <foliation>
+                        <ab>II.</ab>
+                      </foliation>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>Stefan Zweig, Emil von Hofmannsthal, unbekannte Hand</ab>
+                  </handDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1938-09-27">27.9. 1938</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.146">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Notariatsakt</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1556">
+                <persName ref="http://d-nb.info/gnd/118637460">
+                  <surname>Zweig</surname>
+                  <forename>Friderike</forename>
+                </persName>
+              </editor>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor" ref="#SZDPER.2316">
+                <persName>
+                  <surname>Geiringer</surname>
+                  <forename>Josef</forename>
+                </persName>
+              </editor>
+              <editor role="contributor" ref="#SZDPER.2317">
+                <persName>
+                  <surname>Meiler</surname>
+                  <forename>Friedrich</forename>
+                </persName>
+              </editor>
+              <editor role="contributor" ref="#SZDPER.2318">
+                <persName>
+                  <surname>Ullmann</surname>
+                  <forename>Julius</forename>
+                </persName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L3</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3521</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Abschrift! Authentische Ausfertigung. Notariatsakt</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Farbband, violette Tinte</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ribbon, purple ink</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Übereinkommen</term>, <measure type="leaf">Typoskript und Manuskript, 4 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">agreement</term>, <measure type="leaf">typescript and manuscript, 4 leaves</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>Stefan Zweig</ab>
+                  </handDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>Wien</origPlace>
+                    <origDate when="1937-05-15">15.( fünfzehnten) Mai 1937( neunzehnhundertsiebenunddreissig)</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.147">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Memorandum mit Herrn Dr. Stefan Zweig</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L4</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3522</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Memorandum mit Herrn Dr. Stefan Zweig:</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Durchschlagpapier, grüner Farbstift</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black carbon paper, green crayon</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Memorandum</term>, <measure type="leaf">Typoskriptdurchschlag, 1 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">memorandum</term>, <measure type="leaf">typescript carbon copy, leaf</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>unbekannte Hand</ab>
+                  </handDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origDate when="1938-11-29">29.November 1938</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.148">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Assignment</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName>Notare Fletcher, Liddle &amp; Co.</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L5</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3523</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="en">Copy of certified agreement at Fletcher Little &amp; Co Notary London</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Farbband, violette Tinte, roter Farbstift</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ribbon, purple ink, red crayon</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Übereinkommen</term>, <measure type="leaf">Typoskript, 2 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">agreement</term>, <measure type="leaf">typescript, 2 leaves</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>Stefan Zweig</ab>
+                  </handDesc>
+                  <accMat>
+                    <list>
+                      <item ana="szdg:Enclosures">
+                        <desc xml:lang="de">Rechnung, 1 Blatt</desc>
+                        <desc xml:lang="en">Invoice, 1 leaf</desc>
+                      </item>
+                    </list>
+                  </accMat>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1938-10-11">the eleventh day of October One thousand nine hundred and thirty eight</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.149">
+          <fileDesc>
+            <titleStmt>
+              <title ana="assigned" xml:lang="de">Bankkontoauszug</title>
+              <title ana="assigned" xml:lang="en">Bank statement</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor">
+                <orgName ref="http://d-nb.info/gnd/37689-9">Westminster Bank</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <notesStmt>
+              <note xml:lang="de">Zweiter Scheck datiert 22 November 1939</note>
+              <note xml:lang="en">Second check dated 22 November 1939</note>
+            </notesStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L6</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3524</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="en">MRS. Friderike Maria Zweig,</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Farbband</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ribbon</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Kontoauszüge</term>, <measure type="leaf">2 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">Bank statements</term>, <measure type="leaf">2 leaves</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1939-08-22">AUG 22 39</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Finanzen</term>
+                <term type="classification" xml:lang="en">Finances</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.150">
+          <fileDesc>
+            <titleStmt>
+              <title ana="assigned" xml:lang="de">Scheck</title>
+              <title ana="assigned" xml:lang="en">Check</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName ref="http://d-nb.info/gnd/37689-9">Westminster Bank</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L7</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3525</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="en">S. Zweig</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarze Tinte, rote Tinte</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ink, red ink</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Scheck</term>, <measure type="leaf">1 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">check</term>, <measure type="leaf">1 leaf</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>unbekannte Hand</ab>
+                  </handDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1940-02-17">17 FEB 1940</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Finanzen</term>
+                <term type="classification" xml:lang="en">Finances</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.151">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Form E. 1.</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName ref="http://d-nb.info/gnd/37689-9">Westminster Bank</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L8</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3526</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Fotokopie</term>, <measure type="leaf">1 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">photocopy</term>, <measure type="leaf">1 leaf</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>Bath</origPlace>
+                    <origDate when="1940-01-01">[1 Januar 1940]</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Finanzen</term>
+                <term type="classification" xml:lang="en">Finances</term>
+                <term type="person_affected" ref="#SZDPER.1556">
+                  <persName ref="http://d-nb.info/gnd/118637460">
+                    <surname>Zweig</surname>
+                    <forename>Friderike</forename>
+                  </persName>
+                </term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.152">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Power of attorney</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <author ref="#SZDPER.2314">
+                <persName ref="http://d-nb.info/gnd/1117035514">
+                  <surname>Hollander</surname>
+                  <forename>Barnett</forename>
+                </persName>
+              </author>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName ref="http://d-nb.info/gnd/10102943-3">Viking Press</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L9</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3527</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="en">DR. STEFAN ZWEIG | - to - | THE VIKING PRESS INCORPORATED | POWER OF ATTORNEY</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Schreibmaschinenpapier</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Typewriter paper</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarzes Durchschlagpapier, schwarze Tinte</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black carbon paper, black ink</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Typoskriptdurchschlag</term>, <measure type="leaf">2 Blatt, gebunden</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">typescript carbon copy</term>, <measure type="leaf">2 leaves, bound</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1933-10-26">October 26, 1933</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.153">
+          <fileDesc>
+            <titleStmt>
+              <title ana="assigned" xml:lang="de">Adressbuch [ca. 1934-1940]</title>
+              <title ana="assigned" xml:lang="en">Address book [ca. 1934-1940]</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <author ref="#SZDPER.1555">
+                <persName ref="http://d-nb.info/gnd/116001151">
+                  <surname>Zweig</surname>
+                  <forename>Lotte</forename>
+                </persName>
+              </author>
+              <editor role="contributor" ref="#SZDPER.2315">
+                <persName ref="http://d-nb.info/gnd/1170430066">
+                  <surname>Altmann</surname>
+                  <forename>Hannah</forename>
+                </persName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <notesStmt>
+              <note xml:lang="de">Von Hannah Altmann bis 1954 weitergeführt</note>
+              <note xml:lang="en">Continued by Hannah Altmann until 1954</note>
+            </notesStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L10</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3516</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                    <lang xml:lang="fre">Französisch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="en">Town | Country | Various</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Vorgedruckte Seiten</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed pages</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">violette Tinte, schwarze Tinte, Bleistift</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">purple ink, black ink, pencil</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Adressbuch</term>, <measure type="leaf">gebunden</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">address book</term>, <measure type="leaf">bound</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>Lotte Zweig, Hannah Altmann</ab>
+                  </handDesc>
+                  <accMat>
+                    <list>
+                      <item ana="szdg:Enclosures">
+                        <desc xml:lang="de">Adresslisten, 2 Blatt</desc>
+                        <desc xml:lang="en">Address lists, 2 leaves</desc>
+                      </item>
+                    </list>
+                  </accMat>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origDate when="1934">[1934]</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Adressbücher</term>
+                <term type="classification" xml:lang="en">Address books</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.154">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Certificate of Identity, Certificate d'identite</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1560">
+                <persName ref="http://d-nb.info/gnd/118637479">
+                  <surname>Zweig</surname>
+                  <forename>Stefan</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName ref="http://d-nb.info/gnd/35565-3">Großbritannien. Home Office</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L11</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3517</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="eng">Englisch</lang>
+                  </textLang>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Fotokopie</term>, <measure type="leaf">2 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">photocopy</term>, <measure type="leaf">2 leaves</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1938-08-30">30th August, 1938.</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.155">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Geburtsschein</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1555">
+                <persName ref="http://d-nb.info/gnd/116001151">
+                  <surname>Zweig</surname>
+                  <forename>Lotte</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName>Standesamt Kattowitz</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <notesStmt>
+              <note xml:lang="de">Angegebenes Geburtsdatum 5. Mai 1908</note>
+              <note xml:lang="en">Stated date of birth 5 May 1908</note>
+            </notesStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L12</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3518</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Reg. No 500/08</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarze Tinte</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ink</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Geburtsschein</term>, <measure type="leaf">1 Blatt</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">Birth certificate</term>, <measure type="leaf">1 leaf</measure>
+                        </span>
+                      </extent>
+                    </supportDesc>
+                  </objectDesc>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>Kattowitz</origPlace>
+                    <origDate when="1914-02-18">18. Februar 1914.</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
+              </keywords>
+            </textClass>
+          </profileDesc>
+        </biblFull>
+        <biblFull xml:id="SZDLEB.156">
+          <fileDesc>
+            <titleStmt>
+              <title ana="original">Reisepass</title>
+              <title type="Gesamttitel">Stefan Zweig - SZ-AAL</title>
+              <editor role="contributor" ref="#SZDPER.1555">
+                <persName ref="http://d-nb.info/gnd/116001151">
+                  <surname>Zweig</surname>
+                  <forename>Lotte</forename>
+                </persName>
+              </editor>
+              <editor role="contributor">
+                <orgName>Deutsche Botschaft London, Passtelle</orgName>
+              </editor>
+            </titleStmt>
+            <publicationStmt>
+              <ab>Archivmaterial</ab>
+            </publicationStmt>
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Österreich</country>
+                  <settlement>Salzburg</settlement>
+                  <repository ref="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</repository>
+                  <idno type="signature">SZ-AAL/L13</idno>
+                  <altIdentifier>
+                    <idno type="PID">o:szd.3519</idno>
+                  </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                  <textLang>
+                    <lang xml:lang="ger">Deutsch</lang>
+                  </textLang>
+                  <msItem>
+                    <docEdition ana="szdg:IdentifyingInscription" xml:lang="de">Deutsches Reich | Reisepass</docEdition>
+                  </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc>
+                    <supportDesc>
+                      <support>
+                        <material ana="szdg:WritingMaterial" xml:lang="de">Formular</material>
+                        <material ana="szdg:WritingMaterial" xml:lang="en">Pre-printed form</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="de">schwarze Tinte, blaue Tinte, Stempel</material>
+                        <material ana="szdg:WritingInstrument" xml:lang="en">black ink, blue ink, stamps</material>
+                      </support>
+                      <extent>
+                        <span xml:lang="de">
+                          <term type="objecttyp">Reisepass</term>, <measure type="leaf">16 Blatt, gebunden</measure>
+                        </span>
+                        <span xml:lang="en">
+                          <term type="objecttyp">passport</term>, <measure type="leaf">16 leaves, bound</measure>
+                        </span>
+                      </extent>
+                      <foliation>
+                        <ab>2–32</ab>
+                      </foliation>
+                    </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                    <ab>Lotte Zweig</ab>
+                  </handDesc>
+                  <accMat>
+                    <list>
+                      <item ana="szdg:Enclosures">
+                        <desc xml:lang="de">eingeklebte Seite mit weiteren Visa, 1 Blatt</desc>
+                        <desc xml:lang="en">inserted page with additional visa stamps, 1 leaf</desc>
+                      </item>
+                    </list>
+                  </accMat>
+                </physDesc>
+                <history>
+                  <origin>
+                    <origPlace>London</origPlace>
+                    <origDate when="1938-07-11">11 JUL 1938</origDate>
+                  </origin>
+                  <provenance>
+                    <ab xml:lang="de">Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Heirs of Stefan Zweig</ab>
+                  </provenance>
+                  <acquisition>
+                    <ab xml:lang="de">Schenkung der Erben Stefan Zweigs</ab>
+                    <ab xml:lang="en">Gift of the heirs of Stefan Zweig</ab>
+                  </acquisition>
+                </history>
+              </msDesc>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+            <textClass>
+              <keywords>
+                <term type="classification" xml:lang="de">Rechtsdokumente</term>
+                <term type="classification" xml:lang="en">Legal Papers</term>
               </keywords>
             </textClass>
           </profileDesc>

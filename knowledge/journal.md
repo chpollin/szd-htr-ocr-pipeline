@@ -1664,3 +1664,60 @@ Daten-Provenienz-Frage (in keinem GAMS-TEI-Katalog).
 
 - **Transkription PAUSIERT (1/105), spaeter fortsetzen.** Befund beim Start: der genai-Client in `transcribe.py` hatte kein Request-Timeout → ein einzelner rate-limitierter Bild-Call (gemini-3.1-flash-lite-preview hat enge Minuten-/Token-Quota, 7-Bild-Calls ~9 MB sind tokenschwer) fror den ganzen Batch ein (21 min Stillstand beim 2. Objekt). **Fix angewandt (uncommittet):** Client mit `HttpOptions(timeout=120_000)`, und `timeout`/`deadline` in `_call_api` als retrybar ergaenzt → Batch haengt nicht mehr, faellt bei Limit nach Backoff sauber durch. Isolierte Probe bestaetigt: API/Modell/Key gesund (Text 0,6 s, 7-Bild-Call 9,3 s) — reines Quota-Throughput-Thema. Wiederaufnahme: `python transcribe.py --collection autographen --delay 8` (idempotent, ueberspringt die 378 fertigen; nur die 104 offenen + ggf. Mop-up). Danach: Auswertung (high/medium, REVIEW-Flags) + Sammel-Commit (transcribe.py-Fix + TEI + Ergebnis-JSONs) nach Operator-Freigabe, kein Push.
 - **Weiter offen:** `ingeste_B3_nachexport/` nach dem Kopieren redundant; B3.108 wartet auf Faksimile-Nachexport; Katalog-gestuetzte Sprach-/Datums-/GND-Anreicherung der AAL-Objekte als eigener Strang.
+
+## 2026-06-21 — AAL-Lebensdokumente (L1-L13): Import + Branch-Sicherung nach main
+
+**Schwerpunkt:** Sechste AAL-Teillieferung — 13 Lebensdokumente SZ-AAL/L1-L13 (Vertraege,
+Reisepass, Adressbuch u.a.) ingestiert und in die Sammlung `lebensdokumente` onboardet.
+Die zuvor uncommittete, undokumentierte Arbeit auf `chore/frontmatter-migration` gesichert
+und nach main zusammengefuehrt.
+
+### Was wurde gemacht (L1-L13 Import)
+- **`pipeline/import_lebensdokumente_aal.py` (neu, 359 Z.):** Import der 13 SZ-AAL/L-Objekte.
+  Bewusst anders als `import_autographen.py`, weil die Quelllage anders ist:
+  - **PID-Aufloesung per METS-Titel** (`--resolve START END`): die Book-XMLs im Staging tragen
+    keine `<idno>`; die Cirilo-PIDs werden ueber den `mods:title` (Signatur darin) aufgeloest,
+    Doppel-Ingest wird erkannt (kein Early-Stop, mehrdeutige Treffer bleiben leer). Karte in
+    `C:/tmp/lebensdok_aal_pidmap.csv` (13/13 eindeutig: L1=o:szd.3515, L2-L9=3520-3527,
+    L10-L13=3516-3519 — Cirilo vergibt alphabetisch, daher L10 vor L2).
+  - **TEI uebernommen statt generiert:** die 13 `biblFull` (SZDLEB.144-156) werden aus der
+    massgeblichen Katalog-TEI `SZD/data/PersonalDocument/SZDLEB.xml` geklont und nur um den
+    PID-`altIdentifier` ergaenzt — so bleiben GND, Provenienz, Masse erhalten. Merge in
+    `data/szd_lebensdokumente_tei.xml` (jetzt 156 biblFull, 134 mit PID-idno).
+  - **Sprache aus SZDLEB** (echter Katalogwert, L5-L11 englisch) statt aus dem Cirilo-METS
+    (pauschal "Deutsch") — die Sprachfalle der B-Autographen greift hier nicht.
+  - Backup `lebensdokumente/o_szd.{3515-3527}/` mit METS<->Scan-Bildmassen-Verifikation,
+    `provenance.in_gams=true`. 13/13 Backups vorhanden (Bilder + metadata.json).
+- **`pipeline/config.py`:** INGEST_INFO-Eintrag `SZ-AAL-L-2026-06`.
+
+### Abnahme (belegt, maschinell gruen)
+- TEI wohlgeformt, 156 biblFull, alle 13 L mit PID (`xml.etree` Parse).
+- Pipeline-Tests gruen: `test_export_tei` (12), `test_canonical_collection` (6),
+  `test_marker_enrich` (30), `test_quality_signals` (5), `test_unit_derivation`.
+- `import_lebensdokumente_aal.py --dry-run --tei-only`: idempotent (0 neu, 13 ersetzt) —
+  Re-Run produziert denselben TEI-Stand.
+
+### Branch-Entscheidung (aus der Editionsphilologie-Persona)
+Frage des Operators: Branch `chore/frontmatter-migration` mit der L1-L13-Arbeit abschliessen
+und nach main mergen, oder getrennt halten?
+- **Entscheidung: abschliessen, dokumentieren, per Fast-Forward nach main.** Begruendung:
+  (1) Das Betriebsmodell der Leitstelle haelt keine getrennten Feature-Branches mehr vor.
+  (2) Die Arbeit ist intern und reversibel; main war direkter Vorfahr (ff moeglich, kein
+  Merge-Commit, keine Re-Integration noetig). (3) Es geht nichts genuin Neues oeffentlich:
+  die L-Objekte sind noch nicht im Katalog (nicht transkribiert), oeffentlich wird nur die
+  o_szd.3222-Straggler-Zeile (Ergebnis war schon in main) plus Tooltip-Texte.
+- Sauber getrennt committet (eigene explizite Pfade, kein `git add -A`):
+  Import-Strang (Script + TEI + config) und Viewer-Daten-Rebuild (catalog/autographen/
+  knowledge.json).
+
+### Viewer-Daten-Rebuild (zweiter Commit)
+- `docs/catalog.json` (2452 Objekte, +o_szd.3222 B3-Straggler + L-ingestInfo),
+  `docs/data/autographen.json` (o_szd.3222), `docs/data/knowledge.json` (Frontmatter-Migration:
+  built_at 18.06., Status `stable`->`complete`). Kein L-Objekt im Katalog — korrekt, da
+  L1-L13 noch nicht transkribiert.
+
+### Stand L1-L13 / offen
+- **Fertig:** Backup, TEI mit PIDs, config. **Offen:** Transkription (0/13) und damit
+  Katalog-Integration — naechster Milestone.
+
+---

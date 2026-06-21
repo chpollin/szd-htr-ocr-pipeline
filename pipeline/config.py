@@ -63,6 +63,10 @@ INGEST_INFO = {
         "Lieferung Juni 2026: Briefkonvolute SZ-AAL/B1–B10 an/von Stefan "
         "und Lotte Zweig (379 Objekte, GAMS-Ingest 10.06.2026)"
     ),
+    "SZ-AAL-L-2026-06": (
+        "Lieferung Juni 2026: Lebensdokumente SZ-AAL/L1–L13 (Verträge, "
+        "Reisepass, Adressbuch u.a.; 13 Objekte, GAMS-Ingest 18.06.2026)"
+    ),
 }
 
 # --- Batch ---
