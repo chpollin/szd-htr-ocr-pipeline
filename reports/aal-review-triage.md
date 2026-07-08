@@ -58,3 +58,46 @@ Gemeinsames Muster: flüchtige Zweig-Kursive, bei der das Modell flüssigen, pla
 1. **Farbkarten-Seiten als Flag-Ursache:** Bei mehreren Objekten (3270, 3279, 3280, 3282, 3306, 3307, 3308) geht das `needs_review`-Flag allein auf die color_chart-Doppelaufnahmen zurück — das Modell transkribiert den dort nochmals sichtbaren Brieftext redundant mit, was die Seitenlängen-Anomalie auslöst. Signal-Artefakt, kein inhaltlicher Fehler. Mögliche Pipeline-Verbesserung: color_chart-Seiten von der page_length-Anomalie ausnehmen.
 2. **Zweifel landen in Notizen statt im Text:** Bei flüchtiger Kursive schreibt das Modell flüssigen Text und nennt Unsicherheiten nur in `notes`/confidence-Hinweisen, statt [?] im Fließtext zu setzen. Deckt sich mit dem bekannten Halluzinations-Hauptfehlertyp.
 3. **Beide harten Ausfälle sind Generierungs-, keine Lesefehler** (Repetition-Runaway sprengt das JSON) — und beide wurden von den Signalen korrekt gefangen. Präzision der Flags in diesem Set: 2 echte Ausfälle + 4 echte Zweifelsfälle von 28 Flags.
+
+## Stellvertreter-Sichtung am Faksimile (2026-07-08)
+
+Agentische Sichtung als Entscheidungsvorlage, in Operator-Delegation vom 08.07. Provenienz und Reichweite sind damit festgehalten, die eigentliche Freigabe der Korrekturen bleibt beim Operator. Prüfmodell claude-opus-4-8, strikt lesend gegen die lokalen Faksimiles unter `szd-backup/data/autographen/<id>/images/`. Vorgehen war das gezielte Nachlesen der oben genannten Streitpunkte, mit Ausschnittsvergrößerung an den kritischen Stellen. Kein Ergebnis-JSON und nichts an GAMS wurde verändert; die Befunde sind Vorschläge zur Nachkorrektur.
+
+Bei den vier strittigen Objekten brauchen alle vier Korrektur, drei davon mit sicherer neuer Lesung, eines nur teilweise auflösbar. Bei der Gegenprobe halten alle vier agent-geprüften Briefe der Sichtung stand.
+
+### Strittige Objekte
+
+**o_szd.3231 (Beierle an Lotte Altmann) — Korrektur nötig, Lesung nur teils recoverbar.** Der geflaggte Zeilenanfang S. 3 „Feier, jähle unbedeckte ihr Herz" ist keine treue Lesung, die Wortfolge ergibt keinen kohärenten Satz und ist geraten. Eine sichere Ersatzlesung liefert der Scan an dieser Stelle nicht, Beierles Hand ist die schwerste des Sets. Ein konkreter Teilbefund derselben Passage: „im Urapalast war" liest sich am Bild eher als „im Ufapalast war", also der UFA-Palast (Kino). Die Stelle braucht einen Editor mit Übung in Beierles Hand oder eine höhere Auflösung.
+
+**o_szd.3277 (SZ an Lotte Altmann, 20.8.1935) — Korrektur nötig, mehrere sichere Stellen.** Die dichte Kursive S. 2 löst sich am vergrößerten Bild weitgehend auf.
+
+- „Temuande[?]" ist **„Temianka"** (der Geiger Henri Temianka). Sichere Lesung, quergestützt durch o_szd.3274 und die Randnotiz von o_szd.3280, wo derselbe Name steht.
+- Das vom Modell mit „[?]" ersetzte Wort danach ist **„schrieb"** („Temianka schrieb nicht, ebensowenig Rose W.").
+- „die meiner Frau geworden ist" ist **„(die eine Duzfreundin meiner Frau geworden ist)"**, danach **„sie machen"** statt „die machen".
+- „Waizmann" gibt das Geschriebene treu wieder und braucht keine Korrektur. Der Bezug ist mit hoher Wahrscheinlichkeit Chaim Weizmann, im Manuskript steht die Form „Waizmann".
+- „großes Frazerleben!" ist ein Nichtwort und braucht Korrektur. Beste Lesung im Kontext (nach Prag, Wien, Paris „dann großes … in London") ist **„großes Faulenzerleben!"**. Rest­unsicherheit an den Anfangsbuchstaben, semantisch aber klar getragen.
+
+**o_szd.3280 (SZ an Lotte Altmann, 8.9.1935) — Korrektur nötig, Randnotiz vollständig neu lesbar.** Die vertikale Randnotiz S. 1 ist entgegen dem Erstbefund weder inkohärent noch halluziniert, sie liest sich am gedrehten Ausschnitt klar als:
+
+> „Von Temianka habe ich nie mehr etwas direkt gehört, es war eine sehr angenehme dunkle Geschichte mit seiner Schwester in Salzburg, über die ich noch nichts Näheres weiss."
+
+Gegenüber der vorliegenden Transkription sind das die Korrekturen „von Tausends" zu „Von Temianka", „habe ich mehr" zu „habe ich nie mehr", „dunkle Geliebte" zu „dunkle Geschichte", „und daher schwerer in Salzburg" zu „mit seiner Schwester in Salzburg", „über sie ist noch nichts Näheres weiss" zu „über die ich noch nichts Näheres weiss". Nebenbefunde bestätigt: die Adresszeile „Reulner" ist **„Reichner"** (Verlag Herbert Reichner, quergestützt durch o_szd.3277). „ich tele das hier" ist am Bild nicht sicher, vermutlich „ich tue das hier", geringe Konfidenz.
+
+**o_szd.3306 (SZ an Lotte Altmann, 3.9.1936, Brasilien) — Korrektur nötig, zwei sichere Stellen.**
+
+- „viel weniger was Romans und Schaukel" ist eine schwere Fehllesung. Am Bild stehen drei Autorennamen, **„… Ludwig und Romains und Duhamel"** (Emil Ludwig, Jules Romains, Georges Duhamel). Die Namen Romains und Duhamel sind sicher, das Wort davor („viel" oder „weil") bleibt unsicher.
+- Das doppelte „ich bewohne ich bloss drei Zimmer" löst sich auf. Am Zeilenende steht **„hier bewohne ich"**, dann „bloss drei Zimmer". Die Dopplung ist ein Lesefehler, mittlere Konfidenz.
+
+### Gegenprobe (agent-geprüfte Briefe)
+
+**o_szd.3202 (Lotte an Hanna & Manfred, engl., 12.1.1941) — bestätigt.** Die dichte englische Hand S. 3 deckt sich Zeile für Zeile mit der Transkription, von „Dear Hanna & Manfred, Rio 12.I.41" bis „he did not want to do it for the money!", inklusive der interlinearen Einfügung „(a needle with)". Die Agent-Prüfung hält.
+
+**o_szd.3274 (SZ an Lotte Altmann, 30.7.1935) — hält, geflaggte Stelle aufgelöst.** Kopf, Körper und Namen (Toscanini, Walter, Temianka, Walter Bauer, Marienbad) sind treu. Der Kleinbefund „am fell am Ort" ist die Redewendung **„wohl fehl am Ort"** („dort wären Sie vorläufig wohl fehl am Ort!"). Damit ist die einzige offene Stelle geklärt, die Prüfung hält.
+
+**o_szd.3379 (Joachim Maass an Lotte Altmann, 24.1.1936) — bestätigt.** Kopf „Altona/Elbe, Palmaille 21, 24.I.36", Anrede, Körper (Stoffwechselstörung, Beriberi, Skorbut, Sanatorium Schweiz) und Signatur „Joachim Maass" stimmen. Die Agent-Prüfung hält.
+
+**o_szd.3393 (Walter Bauer an Lotte Altmann, 13.8.1935, Typoskript) — hält.** Das Typoskript ist maschinenlesbar sauber erfasst. Das handschriftliche „Englant[?]" auf dem Umschlag ist kursiv „England" mit mehrdeutigem Schlussbuchstaben, die diplomatische Kennzeichnung mit „[?]" ist vertretbar. Die Prüfung hält.
+
+### Querbefund der Sichtung
+
+Der Name „Temianka" (Geiger Henri Temianka) wird vom Modell wiederholt verlesen, als „Temuande" in o_szd.3277 und als „Tausends" in der Randnotiz von o_szd.3280, während er in o_szd.3274 korrekt steht. Eine gezielte Nachkorrektur dieses Namens über das Set hinweg ist angeraten. Das Muster stützt den Erstbefund, dass Eigennamen in flüchtiger Kursive der anfälligste Punkt sind, das Modell setzt dort eine plausible Lautgestalt statt „[?]".
