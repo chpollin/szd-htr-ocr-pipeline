@@ -2,7 +2,7 @@
 
 Knowledge Engineering and Agentic Engineering in an OCR/HTR Pipeline for the Stefan Zweig Estate
 
-Christopher Pollin (Digital Humanities Craft OG), Lina Maria Zangerl (Literaturarchiv Salzburg), Julia Hintersteiner (Universität Salzburg)
+Christopher Pollin (Digital Humanities Craft OG)
 
 July 2026
 
