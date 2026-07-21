@@ -1,6 +1,6 @@
-# The Static Proto-Edition as Editorial Workspace
+# Knowledge Engineering and Agentic Engineering in an OCR/HTR Pipeline for the Stefan Zweig Estate
 
-Knowledge Engineering and Agentic Engineering in an OCR/HTR Pipeline for the Stefan Zweig Estate
+The Static Proto-Edition as Editorial Workspace
 
 Christopher Pollin (Digital Humanities Craft OG)
 
