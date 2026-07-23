@@ -154,4 +154,6 @@ Christopher Pollin, [Digital Humanities Craft OG](https://digitalhumanitiecraft.
 
 ## Licence
 
-[CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Code** (pipeline, viewer, tooling): [MIT](LICENSE).
+- **Documentation, knowledge documents, and other textual content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Third-party research data**: the transcriptions and their underlying digitised facsimiles derive from the Stefan Zweig estate held by the Literaturarchiv Salzburg (Paris Lodron University of Salzburg); those rights remain with the archive.
