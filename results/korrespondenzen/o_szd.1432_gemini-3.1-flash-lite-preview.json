@@ -17,9 +17,24 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Lg. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+        "transcription": "L. S. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFreventhal ist da, und de[?] ich\nviel zusammen bin [?]erfol[?].\n[?].) Wir fahren vielleicht noch\nnach Land. Roll. hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner gibt ihn nur seiner Schwester\nweiß gut ge[?] [?] [?]. lebe wohl\nalles Gute deine\nSonntas",
         "notes": "Handschriftliche Postkarte, violette Tinte. Die Schrift ist sehr flüchtig und schwer lesbar, teilweise überlagert durch den Rand des Papiers.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Lg. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+        "edit_history": [
+          {
+            "original_transcription": "Lg. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-07-17T08:31:51.173215+00:00",
+            "source": "human"
+          },
+          {
+            "original_transcription": "L. S. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-07-17T08:35:10.089933+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
@@ -68,5 +83,13 @@
     "page_length_anomalies": [],
     "needs_review": false,
     "needs_review_reasons": []
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-07-17T08:35:10.089933+00:00"
   }
 }
