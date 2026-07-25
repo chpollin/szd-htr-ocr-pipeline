@@ -38,6 +38,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Projektlog
 
+- [[review-findings]] — Laufende Befunde und Verbesserungsvorschlaege aus dem Review (Urheberschaft je Eintrag gekennzeichnet)
 - [[journal]] — Chronologisches Log aller Sessions
 
 ## Verwandte Dokumente (ausserhalb des Vaults)

@@ -8778,9 +8778,9 @@
       "verification": {
         "uncertainCount": 305,
         "illegibleCount": 0,
-        "totalChars": 7736,
+        "totalChars": 7748,
         "emptyPages": 2,
-        "avgCharsPerPage": 645,
+        "avgCharsPerPage": 646,
         "vlmConfidence": "low"
       },
       "needsReview": true,
@@ -8792,7 +8792,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -49842,11 +49842,11 @@
       "pageCount": 2,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1432/THUMBNAIL",
       "verification": {
-        "uncertainCount": 18,
+        "uncertainCount": 16,
         "illegibleCount": 0,
-        "totalChars": 670,
+        "totalChars": 682,
         "emptyPages": 0,
-        "avgCharsPerPage": 335,
+        "avgCharsPerPage": 341,
         "vlmConfidence": "low"
       },
       "needsReview": false,
@@ -49856,7 +49856,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
