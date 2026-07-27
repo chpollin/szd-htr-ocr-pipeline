@@ -656,7 +656,7 @@ body.view-stats #help { display: none; }
 .catalog__table .col-collection { width: 130px; }
 .catalog__table .col-group { width: 145px; white-space: nowrap; }
 .catalog__table .col-lang { width: 80px; }
-.catalog__table .col-review { width: 60px; text-align: center; }
+.catalog__table .col-review { width: 150px; text-align: center; }
 
 /* Badges */
 .badge {
@@ -779,6 +779,35 @@ body.view-stats #help { display: none; }
 .badge-review-flagged {
   background: var(--sz-review-flagged-bg);
   color: var(--sz-review-flagged);
+}
+
+/* Quality signals as visible, clickable chips in the catalog row */
+.reason-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+
+.reason-chip {
+  font-family: inherit;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  padding: 0.05rem 0.4rem;
+  border: 1px solid var(--sz-review-unchecked);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--sz-review-unchecked);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.reason-chip:hover,
+.reason-chip:focus-visible {
+  background: var(--sz-review-unchecked-bg);
 }
 
 .catalog__stats-chip--agent {
@@ -3042,6 +3071,13 @@ body.view-stats #help { display: none; }
   padding: 0.2rem 0.4rem;
   display: inline-block;
   min-width: 2.5rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+a.stats-heatmap__cell:hover,
+a.stats-heatmap__cell:focus-visible {
+  outline: 1px solid var(--sz-burgundy);
 }
 
 .stats-heatmap__cell--zero {

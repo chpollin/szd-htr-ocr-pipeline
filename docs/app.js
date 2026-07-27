@@ -81,6 +81,27 @@ const FILTER_DEFS = [
     options: null,
     visible: () => state.hasReviewData,
   },
+  /* Triage by single quality signal — "Zuerst sichten" lumps all signals
+     together, but the signals differ in precision (page_length/page_image
+     100%, language 50%), so they need separate work lists. Combinable with
+     the status filter. */
+  {
+    key: 'reviewReason', param: 'reason', elementId: 'filterReviewReason',
+    chipLabel: v => REASON_LABELS[v] || v,
+    chipTitle: v => REASON_TOOLTIPS[v] || '',
+    predicate: (o, v) => (o.needsReviewReasons || []).includes(v),
+    dependsOn: ['collection', 'reviewStatus'],
+    options: source => {
+      const counts = new Map();
+      for (const o of source) {
+        for (const r of o.needsReviewReasons || []) counts.set(r, (counts.get(r) || 0) + 1);
+      }
+      return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([r, n]) => ({
+        value: r, label: `${REASON_LABELS[r] || r} (${n})`, title: REASON_TOOLTIPS[r] || '',
+      }));
+    },
+    visible: opts => state.hasReviewData && opts.length > 0,
+  },
 ];
 
 function countBy(list, keyFn) {
@@ -173,7 +194,7 @@ const state = {
   searchQuery: '',
   sortField: 'collection',
   sortAsc: true,
-  filters: { collection: '', ingest: '', unit: '', group: '', confidence: '', reviewStatus: '' },
+  filters: { collection: '', ingest: '', unit: '', group: '', confidence: '', reviewStatus: '', reviewReason: '' },
   catalogMeta: {},
   editMode: false,
   diffMode: false,
@@ -922,6 +943,10 @@ async function showAbout() {
 /* ===== Review / Quality Signals ===== */
 
 function renderReviewCell(obj) {
+  return reviewBadge(obj) + reasonChips(obj);
+}
+
+function reviewBadge(obj) {
   if (isHumanChecked(obj)) {
     return `<span class="badge-review badge-review-approved" data-tooltip="Von einem Menschen am Faksimile gegengelesen und bei Bedarf korrigiert — gilt als verifiziert (Ground-Truth-fähig)">Mensch-geprüft${HUMAN_ICON}</span>`;
   }
@@ -930,10 +955,22 @@ function renderReviewCell(obj) {
   }
   if (obj.needsReview === undefined) return '';
   if (obj.needsReview) {
-    const reasons = (obj.needsReviewReasons || []).join(', ');
-    return `<span class="badge-review badge-review-unchecked" data-tooltip="Ungeprüft, zuerst sichten — Qualitätssignale: ${escapeHtml(reasons)}">Ungeprüft <span class="status-flag">⚠</span></span>`;
+    return `<span class="badge-review badge-review-unchecked" data-tooltip="Ungeprüft, zuerst sichten — von den Qualitätssignalen zur Sichtung priorisiert">Ungeprüft <span class="status-flag">⚠</span></span>`;
   }
   return `<span class="badge-review badge-review-unchecked" data-tooltip="Nur Pipeline-Selbsteinschätzung, noch von niemandem geprüft">Ungeprüft${MACHINE_ICON}</span>`;
+}
+
+/* Quality signals as visible chips, not just a tooltip: the triage list has to
+   be readable without hovering. Each chip filters the catalog by that signal. */
+function reasonChips(obj) {
+  const reasons = obj.needsReviewReasons || [];
+  if (reasons.length === 0) return '';
+  const chips = reasons.map(r => {
+    const label = REASON_SHORT_LABELS[r] || REASON_LABELS[r] || r;
+    const tip = REASON_TOOLTIPS[r] || REASON_LABELS[r] || r;
+    return `<button type="button" class="reason-chip" data-reason="${escapeHtml(r)}" data-tooltip="${escapeHtml(tip)} — klicken, um nur dieses Signal zu zeigen">${escapeHtml(label)}</button>`;
+  }).join('');
+  return `<span class="reason-chips">${chips}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -2630,6 +2667,17 @@ const REASON_LABELS = {
   language_mismatch: 'Sprach-Mismatch',
 };
 const REASON_KEYS = Object.keys(REASON_LABELS);
+/* short forms for the chips in the catalog row (the cell is narrow) */
+const REASON_SHORT_LABELS = {
+  page_length_anomaly: 'Seitenlänge',
+  page_image_mismatch: 'Bild-Text',
+  language_mismatch: 'Sprache',
+};
+const REASON_TOOLTIPS = {
+  page_length_anomaly: 'Einzelne Seiten weichen stark von der mittleren Textlänge des Objekts ab — Hinweis auf Abbruch oder übersehenen Text (Precision 100%)',
+  page_image_mismatch: 'Anzahl transkribierter Seiten weicht von der Anzahl Faksimile-Bilder ab (Precision 100%)',
+  language_mismatch: 'Erkannte Sprache weicht von der TEI-Sprachangabe ab (Precision 50%)',
+};
 
 const CHART_FONT = "'Source Sans 3', sans-serif";
 const CHART_COLORS = {
@@ -2922,7 +2970,11 @@ function renderReasonsChart(d) {
   if (entries.length === 0) return;
   const opts = chartOptions({ indexAxis: 'y' });
   opts.scales.x.title = axisTitle('Anzahl');
-  opts.onClick = () => navigate('catalog?review_status=priority');
+  // drill down into the clicked signal, not the whole triage list
+  opts.onClick = (e, elems) => {
+    const reason = elems.length > 0 ? entries[elems[0].index][0] : null;
+    navigate(reason ? `catalog?reason=${encodeURIComponent(reason)}` : 'catalog?review_status=priority');
+  };
   state.statsCharts.push(new Chart(ctx, {
     type: 'bar',
     data: {
@@ -2948,7 +3000,7 @@ function renderHeatmap(d) {
       if (count === 0) return '<td><span class="stats-heatmap__cell stats-heatmap__cell--zero">\u2014</span></td>';
       const pct = Math.round(count / total * 100);
       const alpha = Math.min(0.6, pct / 100 * 1.2);
-      return `<td><span class="stats-heatmap__cell${alpha > 0.3 ? ' stats-heatmap__cell--bright' : ''}" style="background:rgba(99,26,52,${alpha.toFixed(2)})">${pct}%</span></td>`;
+      return `<td><a href="#catalog?reason=${encodeURIComponent(r)}" class="stats-heatmap__cell${alpha > 0.3 ? ' stats-heatmap__cell--bright' : ''}" style="background:rgba(99,26,52,${alpha.toFixed(2)})" data-tooltip="${count} von ${total} Objekten — ${escapeHtml(REASON_TOOLTIPS[r] || REASON_LABELS[r])}">${pct}%</a></td>`;
     }).join('');
     return `<tr><td><a href="#catalog?group=${g.toLowerCase()}" class="stats-heatmap__group">${g} \u2013 ${escapeHtml(d.byGroup[g].label)} (${total})</a></td>${cells}</tr>`;
   }).join('');
@@ -3024,11 +3076,22 @@ function initEvents() {
   // Table row click + keyboard
   const catalogBody = document.getElementById('catalogBody');
   catalogBody.addEventListener('click', e => {
+    const chip = e.target.closest('.reason-chip');
+    if (chip) {
+      // filter by this signal instead of opening the object
+      e.stopPropagation();
+      state.filters.reviewReason = chip.dataset.reason;
+      state.catalogPage = 0;
+      restoreFilterUI();
+      renderCatalog();
+      return;
+    }
     const row = e.target.closest('tr[data-id]');
     if (row) navigate('view/' + row.dataset.id);
   });
   catalogBody.addEventListener('keydown', e => {
     if (e.key === 'Enter' || e.key === ' ') {
+      if (e.target.closest('.reason-chip')) return;  // the button handles itself
       const row = e.target.closest('tr[data-id]');
       if (row) { e.preventDefault(); navigate('view/' + row.dataset.id); }
     }

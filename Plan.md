@@ -91,6 +91,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Lokaler Dev-Server (`serve.py`) mit Review-API: POST /api/approve, /api/edit (Session 17)
 - [x] Expert-Review Write-Back (`import_reviews.py`) + 3-stufiger Review-Status (Session 16)
 - [x] Katalog-Bereinigung: Duplikate (Pro-Modell), Color-Chart-Seiten, Test-Daten gefiltert (Session 16-17)
+- [x] Katalog: Filter je einzelnem `needs_review`-Grund (`reason`-Param, Dropdown "Alle Signale") + Grund als klickbarer Chip in der Status-Spalte statt nur im Tooltip; Signal-Balkendiagramm und Heatmap-Zellen im Statistik-Dashboard verlinken auf den jeweiligen Signal-Filter (Operator-Feedback 2026-07-27)
 
 ## Phase 5: Export & Austauschformate
 

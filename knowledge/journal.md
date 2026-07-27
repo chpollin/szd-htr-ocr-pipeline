@@ -1721,3 +1721,31 @@ und nach main mergen, oder getrennt halten?
   Katalog-Integration — naechster Milestone.
 
 ---
+
+## 2026-07-27 — Katalog: Triage nach einzelnem Qualitaetssignal
+
+### Was wurde gemacht
+Operator-Feedback: `needs_review` sollte gefiltert *mit Grund* sichtbar sein. Ausgangslage
+im Viewer: der Filter "Zuerst sichten" (`review_status=priority`) fasste alle Signale
+zusammen, der Grund stand nur im Tooltip des Ungeprueft-Badges — nicht scanbar.
+
+Umgesetzt in `docs/app.js`, `docs/index.html`, `docs/app.css`:
+- Neuer Filter `reviewReason` (URL-Param `reason`, Dropdown "Alle Signale") in `FILTER_DEFS`.
+  Optionen mit Trefferzahl, abhaengig von `collection` und `reviewStatus`; kombinierbar
+  mit dem Status-Filter (bewusst *kein* impliziter Ungeprueft-Filter, damit man ein Signal
+  auch ueber schon geprueftem Bestand nachschlagen kann).
+- `renderReviewCell()` in Badge + `reasonChips()` aufgeteilt. Die Signale erscheinen als
+  klickbare Chips in der Status-Spalte (Kurzlabels `REASON_SHORT_LABELS`, Precision im
+  Tooltip via `REASON_TOOLTIPS`); Klick setzt den Signal-Filter statt das Objekt zu oeffnen.
+- Statistik-Dashboard: Balken im Signal-Diagramm und Heatmap-Zellen verlinken jetzt auf
+  das jeweils angeklickte Signal statt pauschal auf `review_status=priority`.
+
+### Zahlen (Stand catalog.json, 2452 Objekte)
+- 324 Objekte mit mindestens einem Signal (302 mit einem, 22 mit zwei; kein Objekt hat
+  `needsReview` ohne Grund oder umgekehrt).
+- `language_mismatch` 156, `page_length_anomaly` 154, `page_image_mismatch` 36.
+- Genau deshalb der Filter je Signal: die Precision ist sehr unterschiedlich
+  (Seitenlaenge/Bild-Text 100%, Sprache 50%) — eine gemeinsame Liste mischt eine
+  verlaessliche mit einer zur Haelfte falsch-positiven Arbeitsliste.
+
+---
