@@ -52,16 +52,22 @@
 
   <!-- Local Editorial Workspace Panel (local only, collapsed by default) -->
   <section id="workspacePanel" class="workspace is-hidden is-collapsed" aria-label="Editorial workspace" hidden>
-    <button type="button" class="workspace__summary" id="workspaceSummaryBtn" aria-expanded="false" aria-controls="workspaceBody">
-      <span class="workspace__summary-caret" aria-hidden="true">▸</span>
-      <span class="workspace__summary-label">Editorial Workspace</span>
-      <span class="workspace__summary-sep" aria-hidden="true">·</span>
-      <span class="workspace__summary-uncommitted" id="workspaceSummaryUncommitted">checking…</span>
-      <span class="workspace__summary-sep" aria-hidden="true">·</span>
-      <span class="workspace__summary-activity" id="workspaceSummaryActivity">last commit —</span>
-      <span class="workspace__summary-sep" aria-hidden="true">·</span>
-      <span class="workspace__summary-actions">4 quick actions</span>
-    </button>
+    <div class="workspace__summary-row">
+      <button type="button" class="workspace__summary" id="workspaceSummaryBtn" aria-expanded="false" aria-controls="workspaceBody">
+        <span class="workspace__summary-caret" aria-hidden="true">▸</span>
+        <span class="workspace__summary-label">Editorial Workspace</span>
+        <span class="workspace__summary-sep" aria-hidden="true">·</span>
+        <span class="workspace__summary-uncommitted" id="workspaceSummaryUncommitted">checking…</span>
+        <span class="workspace__summary-sep" aria-hidden="true">·</span>
+        <span class="workspace__summary-activity" id="workspaceSummaryActivity">last commit —</span>
+        <span class="workspace__summary-sep" aria-hidden="true">·</span>
+        <span class="workspace__summary-actions">4 quick actions</span>
+      </button>
+      <!-- Identität, unter der Reviews gespeichert werden. Immer sichtbar,
+           auch bei eingeklapptem Panel: wer freigibt, soll sehen unter
+           welchem Namen. -->
+      <button type="button" class="workspace__reviewer is-unset" id="workspaceReviewer">Reviewer festlegen →</button>
+    </div>
     <div class="workspace__body" id="workspaceBody" hidden>
       <div class="workspace__grid">
         <div class="workspace__cell workspace__cell--activity">

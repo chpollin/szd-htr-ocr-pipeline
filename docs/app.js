@@ -158,6 +158,7 @@ const LS_KEY = 'szd-htr-edits';
 const LS_GT_KEY = 'szd-htr-gt-reviews';
 const LS_FIT_KEY = 'szd-htr-fit-mode';
 const LS_APPROVE_KEY = 'szd-htr-approvals';
+const LS_REVIEWER_KEY = 'szd-htr-reviewer';
 
 const PROMPT_INFO = {
   handschrift:        { letter: 'A', label: 'Handschrift',        tip: 'Handschriftliche Dokumente (Tageb\u00fccher, Notizbücher, Manuskripte). Kurrent/Latein gemischt, violette Tinte, h\u00e4ufige Abk\u00fcrzungen.' },
@@ -210,6 +211,8 @@ const state = {
   fitMode: 'height',         // 'height' or 'width'
   layoutVisible: false,      // layout region overlay on/off
   approvals: new Map(),      // objectId → { approved, reviewed_by, reviewed_at }
+  reviewer: '',              // Name, unter dem Reviews gespeichert werden
+  reviewerAsked: false,      // Nachfrage schon abgelehnt? (nicht erneut nerven)
   statsCharts: [],           // Chart.js instances for stats page (destroyed on re-render)
 };
 
@@ -256,6 +259,75 @@ function showToast(message, durationMs = 2000) {
 function detectLocal() {
   const h = location.hostname;
   state.isLocal = h === 'localhost' || h === '127.0.0.1' || h === '' || location.protocol === 'file:';
+}
+
+/* ===== Reviewer-Identitaet =====
+   Jeder Review wird namentlich zugeschrieben (review.reviewed_by im Ergebnis-
+   JSON). Kein Name ist im Code fest verdrahtet — der Checkout liegt auf
+   mehreren Rechnern, und eine falsche Zuschreibung entwertet die Aussage von
+   "approved"/"gt_verified".
+
+   Quelle in dieser Reihenfolge:
+     1. localStorage (in diesem Browser gesetzt, per Klick aenderbar)
+     2. Vorschlag des lokalen Servers aus git config user.name (/api/status)
+     3. Nachfrage beim ersten Schreibzugriff
+   Bleibt alles leer, faellt der Server auf seinen eigenen Default zurueck —
+   nie auf einen fremden Personennamen. */
+
+function setReviewer(name) {
+  const clean = (name || '').trim().replace(/\s+/g, ' ').slice(0, 80);
+  state.reviewer = clean;
+  try {
+    if (clean) localStorage.setItem(LS_REVIEWER_KEY, clean);
+    else localStorage.removeItem(LS_REVIEWER_KEY);
+  } catch { /* ignore */ }
+  renderReviewerChip();
+  return clean;
+}
+
+async function initReviewer() {
+  try { state.reviewer = localStorage.getItem(LS_REVIEWER_KEY) || ''; } catch { state.reviewer = ''; }
+  if (state.isLocal && !state.reviewer) {
+    try {
+      const resp = await fetch('/api/status');
+      const data = await resp.json();
+      if (data && data.reviewer && data.reviewer !== 'Unbekannt') setReviewer(data.reviewer);
+    } catch { /* Server nicht erreichbar — dann fragen wir beim ersten Schreiben */ }
+  }
+  renderReviewerChip();
+}
+
+/** Name fuer einen Schreibzugriff; fragt einmalig nach, wenn noch keiner gesetzt ist. */
+function ensureReviewer() {
+  if (state.reviewer) return state.reviewer;
+  if (state.reviewerAsked) return '';
+  state.reviewerAsked = true;
+  const input = prompt(
+    'Unter welchem Namen sollen deine Reviews gespeichert werden?\n\n' +
+    'Der Name steht in jedem bearbeiteten Objekt und laesst sich spaeter nicht automatisch korrigieren.',
+    ''
+  );
+  if (input === null) return '';
+  return setReviewer(input);
+}
+
+function promptReviewerChange() {
+  const input = prompt('Reviewer-Name fuer diesen Browser:', state.reviewer || '');
+  if (input === null) return;
+  const clean = setReviewer(input);
+  state.reviewerAsked = false;
+  showToast(clean ? `Reviews werden als "${clean}" gespeichert` : 'Reviewer-Name geloescht');
+}
+
+function renderReviewerChip() {
+  const el = document.getElementById('workspaceReviewer');
+  if (!el) return;
+  const name = state.reviewer;
+  el.textContent = name ? `Reviewer: ${name}` : 'Reviewer festlegen →';
+  el.classList.toggle('is-unset', !name);
+  el.title = name
+    ? `Reviews werden als "${name}" gespeichert. Klicken zum Aendern.`
+    : 'Noch kein Reviewer-Name gesetzt. Klicken zum Festlegen.';
 }
 
 /* ===== Editorial Workspace Panel (local-only, collapsed by default) =====
@@ -425,6 +497,12 @@ function initWorkspaceActions() {
       ev.stopPropagation();
       fetchRecentCommits();
       fetchGitStatus();
+      return;
+    }
+    // Reviewer-Chip \u2014 Name aendern, nicht das Panel klappen.
+    if (ev.target.closest('#workspaceReviewer')) {
+      ev.stopPropagation();
+      promptReviewerChange();
       return;
     }
     // Summary bar click \u2014 toggle collapse.
@@ -1661,6 +1739,7 @@ function saveCurrentEdit() {
           body: JSON.stringify({
             object_id: objData.pid?.replace('o:', 'o_') || state.currentObjectId.split('_gemini')[0],
             collection: objData.collection,
+            reviewed_by: ensureReviewer(),
             pages: [{ page: pageNum, transcription: newTranscription, notes: newNotes, edited: true }],
           }),
         }).catch(() => {});
@@ -2395,7 +2474,7 @@ function toggleObjectApproval(objectId) {
   } else {
     state.approvals.set(objectId, {
       approved: true,
-      reviewed_by: 'Christopher Pollin',
+      reviewed_by: ensureReviewer() || 'Unbekannt',
       reviewed_at: new Date().toISOString(),
     });
     showToast('Objekt als gepr\u00fcft markiert \u2713');
@@ -2410,7 +2489,7 @@ function toggleObjectApproval(objectId) {
       fetch('/api/approve', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ object_id: obj.pid?.replace('o:', 'o_') || objectId.split('_gemini')[0], collection: obj.collection }),
+        body: JSON.stringify({ object_id: obj.pid?.replace('o:', 'o_') || objectId.split('_gemini')[0], collection: obj.collection, reviewed_by: state.reviewer }),
       }).catch(() => {});
     }
   }
@@ -2434,13 +2513,14 @@ function gtVerifyObject(objectId) {
   });
 
   const oid = obj.pid?.replace('o:', 'o_') || objectId.split('_gemini')[0];
+  const reviewerName = ensureReviewer();
 
   if (editedPages.length > 0) {
     // Save edits first, then set gt_verified
     fetch('/api/edit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified', pages: editedPages }),
+      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified', reviewed_by: reviewerName, pages: editedPages }),
     }).then(r => r.json()).then(d => {
       if (d.ok) showToast(`GT Verified: ${oid} (${editedPages.length} Seiten editiert)`);
       else showToast('Fehler: ' + (d.error || 'unbekannt'));
@@ -2450,7 +2530,7 @@ function gtVerifyObject(objectId) {
     fetch('/api/approve', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified' }),
+      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified', reviewed_by: reviewerName }),
     }).then(r => r.json()).then(d => {
       if (d.ok) showToast(`GT Verified: ${oid}`);
       else showToast('Fehler: ' + (d.error || 'unbekannt'));
@@ -2461,7 +2541,7 @@ function gtVerifyObject(objectId) {
   state.approvals.set(objectId, {
     approved: true,
     gt_verified: true,
-    reviewed_by: 'Christopher Pollin',
+    reviewed_by: reviewerName || 'Unbekannt',
     reviewed_at: new Date().toISOString(),
   });
   saveApprovalsToStorage();
@@ -2636,7 +2716,7 @@ function downloadGtReview(objectId) {
     models: gt.models,
     pages: reviewedPages,
     expert_verified: allApproved,
-    reviewed_by: 'Christopher Pollin',
+    reviewed_by: ensureReviewer() || 'Unbekannt',
     reviewed_at: new Date().toISOString(),
   };
 
@@ -3325,6 +3405,7 @@ async function init() {
   route();
   applyWorkspacePanel();
   initWorkspaceActions();
+  initReviewer();
 }
 
 init();

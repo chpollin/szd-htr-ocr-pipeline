@@ -853,6 +853,49 @@ body.view-stats #help { display: none; }
   border-bottom: 1px solid var(--sz-border-light);
 }
 
+/* Summary-Zeile: Klapp-Button + Reviewer-Identitaet nebeneinander.
+   Der Trennstrich zum Body sitzt auf der Zeile, nicht auf dem Button. */
+.workspace__summary-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-right: 0.6rem;
+}
+
+.workspace__summary-row .workspace__summary { flex: 1 1 auto; min-width: 0; }
+
+.workspace:not(.is-collapsed) .workspace__summary-row {
+  border-bottom: 1px solid var(--sz-border-light);
+}
+.workspace:not(.is-collapsed) .workspace__summary { border-bottom: none; }
+
+.workspace__reviewer {
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid var(--sz-border-light);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--sz-text-light);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--transition), color var(--transition);
+}
+
+.workspace__reviewer:hover {
+  background: rgba(194, 163, 96, 0.1);
+  color: var(--sz-text);
+}
+
+/* Ohne gesetzten Namen deutlich markiert — Reviews waeren sonst nur dem
+   git-Namen des Rechners zugeschrieben. */
+.workspace__reviewer.is-unset {
+  color: var(--sz-burgundy);
+  border-color: var(--sz-burgundy);
+  font-weight: 600;
+}
+
 .workspace__summary-caret {
   color: var(--sz-gold);
   font-size: 0.75rem;

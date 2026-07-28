@@ -9,8 +9,11 @@ Usage:
 API-Endpunkte (nur lokal):
   POST /api/approve     — Objekt als geprueft markieren
   POST /api/edit        — Editierte Seiten speichern + approve
-  GET  /api/status      — Server-Status (Frontend erkennt lokalen Server)
+  GET  /api/status      — Server-Status + vorgeschlagener Reviewer-Name
   GET  /api/git-status  — Uncommitted-Aenderungen unter results/
+
+Reviewer-Zuschreibung: das Frontend sendet `reviewed_by` mit; fehlt der Wert,
+greift `reviewer.default_reviewer()` (SZD_REVIEWER -> git config user.name).
 """
 
 import argparse
@@ -26,9 +29,9 @@ from pathlib import Path
 # Pipeline imports
 sys.path.insert(0, str(Path(__file__).parent))
 from config import BACKUP_ROOT, COLLECTIONS, RESULTS_BASE
+from reviewer import clean_reviewer, default_reviewer
 
 DOCS_DIR = Path(__file__).parent.parent / "docs"
-DEFAULT_REVIEWER = "Christopher Pollin"
 _VALID_OBJECT_ID = re.compile(r"^o_szd\.[0-9a-zA-Z._-]+$")
 _VALID_COLLECTION = frozenset(COLLECTIONS.keys())
 # Lokale Faksimile-Auslieferung: /local-image/<collection>/<object_id>/IMG_<n>.jpg
@@ -78,7 +81,7 @@ def handle_approve(data: dict) -> dict:
     object_id = data.get("object_id", "")
     collection = data.get("collection", "")
     model = data.get("model", "")
-    reviewer = data.get("reviewed_by", DEFAULT_REVIEWER)
+    reviewer = clean_reviewer(data.get("reviewed_by"))
     status = data.get("status", "approved")
 
     if status not in ("approved", "agent_verified", "gt_verified"):
@@ -127,7 +130,7 @@ def handle_edit(data: dict) -> dict:
     object_id = data.get("object_id", "")
     collection = data.get("collection", "")
     model = data.get("model", "")
-    reviewer = data.get("reviewed_by", DEFAULT_REVIEWER)
+    reviewer = clean_reviewer(data.get("reviewed_by"))
     status = data.get("status", "approved")
     pages = data.get("pages", [])
 
@@ -267,7 +270,13 @@ class SZDHandler(SimpleHTTPRequestHandler):
         if not self._check_host():
             return
         if self.path == "/api/status":
-            self._json_response({"local": True, "server": "szd-htr-serve"})
+            # `reviewer` ist ein Vorschlag: das Frontend uebernimmt ihn nur,
+            # wenn im Browser noch kein Name gesetzt ist.
+            self._json_response({
+                "local": True,
+                "server": "szd-htr-serve",
+                "reviewer": default_reviewer(),
+            })
         elif self.path == "/api/git-status":
             self._json_response(git_status_results())
         elif self.path.startswith("/local-image/"):
@@ -394,6 +403,8 @@ def main():
     print(f"  Frontend:   http://127.0.0.1:{args.port}/index.html")
     print(f"  API Status: http://127.0.0.1:{args.port}/api/status")
     print(f"  Docs-Dir:   {DOCS_DIR}")
+    print(f"  Reviewer:   {default_reviewer()}"
+          f"{'   <- SZD_REVIEWER oder git config user.name setzen!' if default_reviewer() == 'Unbekannt' else ''}")
     print(f"\nAPI-Endpunkte:")
     print(f"  POST /api/approve  -- Objekt als geprueft markieren")
     print(f"  POST /api/edit     -- Editierte Seiten speichern")

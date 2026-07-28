@@ -17,9 +17,9 @@ import sys
 from pathlib import Path
 
 from config import COLLECTIONS, RESULTS_BASE
+from reviewer import default_reviewer
 
 GT_DIR = RESULTS_BASE / "groundtruth"
-DEFAULT_REVIEWER = "Christopher Pollin"
 
 
 def detect_format(data: dict) -> str:
@@ -196,8 +196,9 @@ def main():
         help="Exportierte JSON-Dateien aus dem Frontend",
     )
     parser.add_argument(
-        "--reviewer", default=DEFAULT_REVIEWER,
-        help=f"Name des Reviewers (Default: {DEFAULT_REVIEWER})",
+        "--reviewer", default=default_reviewer(),
+        help=f"Name des Reviewers (Default: {default_reviewer()} "
+             f"— aus SZD_REVIEWER bzw. git config user.name)",
     )
     parser.add_argument(
         "--dry-run", action="store_true",
