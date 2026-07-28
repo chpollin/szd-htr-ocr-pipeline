@@ -43,10 +43,24 @@ python --version
 
 Zum Lesen und lokalen Arbeiten genügt der offene Klon. Zum **Zurückspielen** der Korrekturen braucht es einen GitHub-Account mit Schreibrechten:
 
-- Christopher trägt den Account unter Settings → Collaborators mit der Rolle **Write** ein.
+- Christopher trägt den Account unter Settings → Collaborators mit der Rolle **Write** ein. Das kann **nur er** — Collaborators hinzufügen setzt Admin-Rechte am Repository voraus, die im Team sonst niemand hat.
 - Die Einladung muss **angenommen** werden (Mail oder https://github.com/chpollin/szd-htr-ocr-pipeline/invitations), sonst schlägt der erste `git push` fehl. Sie verfällt nach 7 Tagen.
 
 Das vorab erledigen — sonst blockiert es erst ganz am Schluss.
+
+### Fallback ohne Schreibrechte: Fork + Pull Request
+
+Falls die Einladung noch nicht da ist, blockiert das die Einrichtung **nicht**. Redigieren funktioniert vollständig lokal; nur das Zurückspielen läuft anders:
+
+1. Auf https://github.com/chpollin/szd-htr-ocr-pipeline oben rechts **Fork** klicken — das erzeugt eine eigene Kopie unter dem eigenen Account.
+2. In Schritt 4 statt des Originals den Fork klonen:
+   `git clone https://github.com/<eigener-account>/szd-htr-ocr-pipeline.git`
+3. Das Original als zweite Quelle eintragen, um Aktualisierungen zu holen:
+   `git remote add upstream https://github.com/chpollin/szd-htr-ocr-pipeline.git`
+4. Neuen Stand holen mit `git pull upstream main` statt `git pull`.
+5. Nach dem Push in den eigenen Fork bietet GitHub „Compare & pull request" an — damit gehen die Korrekturen als Pull Request an Christopher, der sie prüft und übernimmt.
+
+Der Umweg hat einen Vorteil: Korrekturen werden vor der Übernahme gesichtet. Für längerfristige Mitarbeit sind direkte Schreibrechte trotzdem bequemer.
 
 ## 4. Repository klonen
 
