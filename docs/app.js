@@ -1315,6 +1315,7 @@ function renderCatalog() {
     const el = document.getElementById(def.elementId);
     el.classList.toggle('catalog__filter--active', !!el.value);
   }
+  renderResultCount(total);
   renderActiveFilters();
 
   // Sort indicators
@@ -1339,6 +1340,30 @@ function renderCatalog() {
    verified and ground-truth-capable; "priority" is a triage hint within
    unchecked, not a status. Stored review.status values stay unchanged. */
 const REVIEW_STATUS_LABELS = { human_verified: 'Mensch-gepr\u00fcft', agent_verified: 'Agent-gepr\u00fcft', unchecked: 'Ungepr\u00fcft', priority: 'Zuerst sichten' };
+
+/* Trefferzahl ueber der Tabelle. Ungefiltert nur die Gesamtzahl, gefiltert
+   zusaetzlich der Bezug darauf ("340 von 2.486 Objekten") — ohne den Bezug
+   laesst sich nicht einschaetzen, wie stark ein Filter greift. */
+function renderResultCount(total) {
+  const el = document.getElementById('resultCount');
+  if (!el) return;
+
+  const all = state.catalog.length;
+  const isFiltered = !!state.searchQuery || FILTER_DEFS.some(def => !!state.filters[def.key]);
+  const n = (x) => x.toLocaleString('de-DE');
+  const noun = (x) => (x === 1 ? 'Objekt' : 'Objekte');
+
+  el.classList.toggle('catalog__result-count--empty', total === 0);
+
+  if (total === 0) {
+    el.textContent = 'Keine Treffer';
+  } else if (isFiltered) {
+    // Dativ: "von 2.452 Objekten"
+    el.innerHTML = `${n(total)} <span class="count-total">von ${n(all)} ${all === 1 ? 'Objekt' : 'Objekten'}</span>`;
+  } else {
+    el.textContent = `${n(total)} ${noun(total)}`;
+  }
+}
 
 function renderActiveFilters() {
   const el = document.getElementById('activeFilters');

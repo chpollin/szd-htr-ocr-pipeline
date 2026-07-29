@@ -509,6 +509,31 @@ body.view-stats #help { display: none; }
   background: rgba(99, 26, 52, 0.04);
 }
 
+/* Ergebniszahl links, aktive Filter-Chips rechts daneben. */
+.catalog__resultbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.catalog__result-count {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--sz-burgundy);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* "von 2.486" tritt gegenueber der Trefferzahl zurueck */
+.catalog__result-count .count-total {
+  font-weight: 400;
+  color: var(--sz-text-light);
+}
+
+.catalog__result-count--empty { color: var(--sz-text-light); }
+
 .catalog__active-filters {
   display: flex;
   align-items: center;

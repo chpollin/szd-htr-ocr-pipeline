@@ -167,7 +167,13 @@
       <option value="">Alle Signale</option>
     </select>
   </div>
-  <div class="catalog__active-filters" id="activeFilters"></div>
+  <!-- Ergebniszahl + aktive Filter in einer Zeile, direkt ueber der Tabelle:
+       wie viele Objekte der Filter uebrig laesst, ist die Kernfrage beim
+       Redigieren und stand vorher nur unten in der Paginierung. -->
+  <div class="catalog__resultbar">
+    <span class="catalog__result-count" id="resultCount" aria-live="polite"></span>
+    <div class="catalog__active-filters" id="activeFilters"></div>
+  </div>
 
   <div class="catalog__table-wrap">
     <table class="catalog__table">

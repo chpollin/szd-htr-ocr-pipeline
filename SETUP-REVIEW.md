@@ -100,8 +100,18 @@ Nicht `pip install -r requirements.txt` verwenden. Dort stehen `docling` und `su
 Für den Redaktionsarbeitsplatz genügen drei Pakete:
 
 ```powershell
-pip install python-dotenv==1.1.1 markdown==3.7 pyyaml==6.0.3
+.\.venv\Scripts\python.exe -m pip install python-dotenv==1.1.1 markdown==3.7 pyyaml==6.0.3
 ```
+
+Der Umweg über `.\.venv\Scripts\python.exe -m pip` statt des kurzen `pip` ist Absicht: So ist unabhängig von der Aktivierung garantiert, dass die Pakete in der venv landen und nicht in irgendeiner anderen Python-Installation auf dem Rechner.
+
+⚠️ Erscheint hier **„Zugriff verweigert" / „Access is denied" / „WinError 5"**, wurde in ein fremdes Python geschrieben — fast immer, weil `pip` ohne aktivierte venv aufgerufen wurde und dann den Microsoft-Store-Platzhalter unter `AppData\Local\Microsoft\WindowsApps\` trifft, dessen Ordner Windows gesperrt hält. Kontrolle:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip -V
+```
+
+Der ausgegebene Pfad muss mit dem eigenen Repo-Ordner beginnen und `\.venv\` enthalten. Steht dort `WindowsApps`, `Program Files` oder ein Anaconda-Pfad, wirkt Schritt 5 nicht — venv neu anlegen bzw. aktivieren und Schritt 6 wiederholen. Auf keinen Fall mit `--user` oder einer Administrator-PowerShell nachhelfen: Das installiert am Projekt vorbei und verlagert das Problem nur auf Schritt 7.
 
 ## 7. Server starten
 
@@ -132,9 +142,9 @@ Der Server lauscht nur auf `127.0.0.1` und ist aus dem Netzwerk nicht erreichbar
 
 Es ist dieselbe Website wie die öffentliche unter chpollin.github.io — allein durch den lokal laufenden Server schaltet sie vom Lese- in den Redaktionsmodus. Kein zweites Tool, keine zweite Oberfläche.
 
-Erkennungszeichen: oben das Terminal-Banner `szd@editorial:~/results $` und über dem Katalog die Zeile **Editorial Workspace**.
+Erkennungszeichen: über dem Katalog die Zeile **Editorial Workspace**.
 
-Fehlen beide, läuft die Seite über einen anderen Weg (öffentliche URL, VS Code Live Server o. ä.). Dann landen Änderungen nur im Browserspeicher und sind praktisch verloren. In dem Fall: Tab schließen, `serve.py` starten, http://localhost:8000 aufrufen.
+Fehlt sie, läuft die Seite über einen anderen Weg (öffentliche URL, VS Code Live Server o. ä.). Dann landen Änderungen nur im Browserspeicher und sind praktisch verloren. In dem Fall: Tab schließen, `serve.py` starten, http://localhost:8000 aufrufen.
 
 ## 9. Reviewer-Namen kontrollieren
 
@@ -191,7 +201,8 @@ git push
 | `python` wird nicht erkannt | PATH-Haken im Installer vergessen | Installer → Modify → „Add to PATH", neues Fenster öffnen |
 | „Ausführung von Skripts ist deaktiviert" | PowerShell Execution Policy | `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` |
 | `ModuleNotFoundError: markdown` / `yaml` | venv nicht aktiviert | `.\.venv\Scripts\Activate.ps1` — auf `(.venv)` achten |
-| Kein Editorial-Banner, keine Edit-Buttons | Seite nicht über `serve.py` geöffnet | `python pipeline\serve.py`, dann http://localhost:8000 |
+| pip meldet „Zugriff verweigert" / `WinError 5` | Installation ging an der venv vorbei in ein gesperrtes Python | `.\.venv\Scripts\python.exe -m pip -V` prüfen — Pfad muss `\.venv\` enthalten; nicht mit `--user` oder als Admin umgehen |
+| Keine Editorial-Workspace-Zeile, keine Edit-Buttons | Seite nicht über `serve.py` geöffnet | `python pipeline\serve.py`, dann http://localhost:8000 |
 | Server meldet `Reviewer: Unbekannt` | `git config user.name` nicht gesetzt | Schritt 1 nachholen oder `SZD_REVIEWER` in `.env` |
 | Port belegt | anderer Dienst auf 8000 | `python pipeline\serve.py --port 5501` |
 | Faksimiles bleiben leer | GAMS nicht erreichbar | Internetverbindung prüfen, https://gams.uni-graz.at aufrufen |
