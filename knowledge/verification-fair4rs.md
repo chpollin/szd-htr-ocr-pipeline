@@ -44,7 +44,7 @@ Prüfung am 2026-07-23 gegen die FAIR4RS-Prinzipien v1.0 (Chue Hong, Katz, Barke
 | I2 (qualifizierte Referenzen auf Objekte) | teilweise | TEI-Quellen per URL im README qualifiziert referenziert |
 | R1 (Pluralität akkurater Attribute) | teilweise | menschenlesbar ja, maschinenlesbar nein (siehe F2) |
 | R1.1 (klare, zugängliche Lizenz) | teilweise | LICENSE vorhanden (CC BY 4.0); GitHub erkennt "Other", nicht SPDX-maschinenlesbar; CC-Lizenzfamilie für Code unüblich |
-| R1.2 (detaillierte Provenienz) | erfüllt, überdurchschnittlich | README benennt Genese, Methode, Rollen und Modelle; `knowledge/journal.md`, PAPER.md, Git-History |
+| R1.2 (detaillierte Provenienz) | erfüllt, überdurchschnittlich | README benennt Genese, Methode, Rollen und Modelle; `knowledge/journal.md`, `paper/PAPER.md`, Git-History |
 | R2 (qualifizierte Referenzen auf Software) | erfüllt | `requirements.txt` über PyPI |
 | R3 (domänenrelevante Community-Standards) | erfüllt | TEI, diplomatische Transkriptionskonventionen, dokumentierte Markup-Regeln |
 

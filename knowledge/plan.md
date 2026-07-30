@@ -1,4 +1,24 @@
+---
+title: "Implementierungsplan"
+aliases: ["Plan", "Roadmap", "Phasenplan"]
+project:
+  name: "SZD OCR/HTR Pipeline"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
+method:
+  name: "Promptotyping"
+  url: "https://dhcraft.org/Promptotyping/"
+status: draft
+created: 2026-03-30
+updated: 2026-07-30
+type: plan
+related:
+  - "[[journal]]"
+  - "[[index]]"
+---
+
 # SZD-HTR-OCR-Pipeline — Implementierungsplan
+
+Aus dem Repository-Root nach `knowledge/` verschoben am 2026-07-30, Inhalt unveraendert.
 
 ## Übersicht
 

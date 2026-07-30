@@ -1,0 +1,5 @@
+# Development dependencies (tests only; runtime deps in requirements.txt).
+#   pip install -r requirements-dev.txt
+#   python -m pytest tests/ pipeline/
+pytest>=8.0
+jsonschema>=4.20

@@ -9,7 +9,7 @@ method:
   url: "https://dhcraft.org/promptotyping"
 status: draft
 created: 2026-03-30
-updated: 2026-06-12
+updated: 2026-07-30
 type: log
 related:
   - "[[data-overview]]"
@@ -28,7 +28,7 @@ Chronologisches Log aller Arbeitssessions, Erkenntnisse und Entscheidungen.
 
 ### Was wurde gemacht
 - CLAUDE.md gelesen und Projektanforderungen verstanden
-- Implementierungsplan erstellt (→ [Plan.md](../Plan.md))
+- Implementierungsplan erstellt (→ [[plan]], damals `Plan.md` im Repo-Root)
 - Knowledge-Ordner als Research-Vault angelegt
 
 ### Entscheidungen
@@ -1747,5 +1747,158 @@ Umgesetzt in `docs/app.js`, `docs/index.html`, `docs/app.css`:
 - Genau deshalb der Filter je Signal: die Precision ist sehr unterschiedlich
   (Seitenlaenge/Bild-Text 100%, Sprache 50%) — eine gemeinsame Liste mischt eine
   verlaessliche mit einer zur Haelfte falsch-positiven Arbeitsliste.
+
+---
+
+## 2026-07-30 — Hygiene-Runde: Root konsolidiert, Index modernisiert, Trust-Modell belegt
+
+**Schwerpunkt:** Drei Altlasten abgetragen (stale MOC, EQUALIS-Rest, unkonsolidierter
+Repo-Root), zwei Lieferungen ergaenzt (minimale Tests, Evaluationshaken zum Antrag).
+Kein Eingriff in `data/`, `results/`, `reports/`. Nichts geloescht, jede Verschiebung per
+`git mv`, die Historie bleibt erhalten.
+
+### Root konsolidiert (git mv)
+
+| vorher | nachher | Begruendung |
+|---|---|---|
+| `PAPER.md` | `paper/PAPER.md` | Abschlussbericht, gehoert mit seiner Evidenzbasis zusammen |
+| `PAPER-FINDINGS.md` | `paper/PAPER-FINDINGS.md` | Evidenzbasis, wird von `PAPER.md` referenziert |
+| `PAPER-TEXT.md` | `paper/drafts/PAPER-TEXT.md` | ueberholter Zwischenstand |
+| `PAPER-TEXT-FILLED.md` | `paper/drafts/PAPER-TEXT-FILLED.md` | ueberholter Zwischenstand |
+| `CLAUDE-TASK.md` | `paper/drafts/CLAUDE-TASK.md` | Arbeitsanweisung, die genau diese Zwischenstaende erzeugt hat |
+| `Plan.md` | `knowledge/plan.md` | echtes Wissensdokument (Phasenstand und datierter Entscheidungslog) |
+
+`paper/` wurde `docs/paper/` vorgezogen, weil `docs/` das GitHub-Pages-Root der SPA ist und
+die Berichtsdateien dort als lose Markdown-URLs mitausgeliefert wuerden. Neu ist
+`paper/README.md` mit dem Status je Datei. Der Root traegt jetzt README, CLAUDE.md, LICENSE,
+CITATION.cff, codemeta.json, die beiden requirements-Dateien und die Code- und Datenordner.
+
+Nachgezogene Referenzen:
+
+- `README.md`, Link auf `paper/PAPER.md` samt Evidenzbasis
+- `CLAUDE.md`, Projektstruktur und Verweis auf `knowledge/plan.md`
+- `knowledge/index.md`, `knowledge/verification-fair4rs.md`
+- `knowledge/journal.md`, der Session-1-Link zeigt jetzt auf `[[plan]]`
+
+`knowledge/plan.md` hat Frontmatter bekommen (Titel, Status, Typ), damit es im Vault-Viewer
+als Dokument erscheint statt als nackter Slug. Der Inhalt ist unveraendert.
+
+### Index modernisiert
+
+`knowledge/index.md` war seit 2026-06-10 stehengeblieben, mit Status `complete`, ohne
+Template-Deklaration und ohne die beiden neueren Dokumente. Neu nach der Konvention fuer
+Promptotyping Documents, mit project/method/template-Bloecken im Frontmatter, Status
+`stable`, einer Funktionstabelle je Dokument in vier Gruppen und einem Abschnitt Lesepfade.
+
+Die Form ist durch eine Nebenbedingung bestimmt. `parse_index_sections()` in
+`build_viewer_data.py` liest die `##`-Ueberschriften und die Wikilinks des Index und baut
+daraus die Vault-Navigation im Viewer. Darum vier gruppierte Tabellen statt einer einzigen,
+sodass die Gruppierung im Frontend erhalten bleibt, und Lesepfade ohne Wikilinks, weil sonst
+eine Pseudo-Sektion mit Dubletten entstuende. `docs/data/knowledge.json` neu gebaut, 14
+Dokumente, alle einer Sektion zugeordnet, keine Waisen.
+
+### EQUALIS-Rest aufgeloest
+
+`knowledge/dia-xai-integration.md` war eine Zulieferungsspezifikation an EQUALIS, das am
+2026-07-18 aufgeloest wurde. Neu geschrieben als Verhaeltnisbestimmung. Die Pipeline ist
+Messgegenstand einer im DIA-XAI-Pilot laufenden CER-Evaluation, und ihr
+Vier-Stufen-Vertrauensmodell ist einer der Provenienzansaetze, die der geplante Antrag in
+WP1 zusammenfuehrt. Der Antragstext §4 steht als pruefbares Zitat im Dokument, mit den
+Belegstellen im Code. Neu sind ein Abschnitt zu den drei Evaluationshaken und die Angabe,
+was das Modell nicht leistet (keine Ebene unterhalb der Seite, keine vorab definierte
+Prueftiefe je Materialklasse).
+
+Was sich nicht neu verankern liess, steht unter "Historischer Stand (EQUALIS, aufgeloest
+2026-07-18)", also das damalige Aggregator-Rollenmodell und die fuenf Dimensionen mit ihren
+Datenquellen in der Pipeline. Schema `dia-xai-metrics-v1`, UC3-Nummer und der alte
+Meilensteinplan sind gegenstandslos und werden nicht fortgeschrieben; sie stehen in der
+Git-Historie des Dokuments.
+
+### Trust-Modell gegen den Code geprueft
+
+Die Antragsbeschreibung (§4) wurde Behauptung fuer Behauptung gegen den Code gehalten.
+Alle drei Kernaussagen halten:
+
+- **Vier gespeicherte Stufen**, aus keinem Score abgeleitet: `gt_verified`, `approved`,
+  `agent_verified` und der fehlende `review`-Block. Whitelist in `serve.py:84`.
+  `needs_review` ist Triage innerhalb von Stufe 3 und kein Status.
+- **Maschinenzustand ueberlebt die Korrektur.** `serve.py:159-168` setzt `transcription_llm`
+  einmalig und haengt an `edit_history` an, mit `source` (human/agent);
+  `import_reviews.py:152-161` spiegelt das. `report_cer_from_edits.py` misst daraus.
+- **Keine Verdichtung zu einer Zahl.** Pruefstufe, `result.confidence` (kategorial) und
+  `quality_signals` bleiben getrennte Felder und getrennte Filter. Im Code gibt es keinen
+  Ort, der sie verrechnet.
+
+Drei Abweichungen, die dokumentiert gehoeren statt geglaettet zu werden:
+
+1. `gt_verified` ist end-to-end implementiert (GT-Verify im Viewer, Status in der API),
+   doch **kein Objekt traegt die Stufe**. Der Bestand zaehlt 19 `approved`, 85
+   `agent_verified` und 2.366 Objekte ohne Review. Die oberste Stufe ist damit Fassung ohne
+   Praxis.
+2. `import_reviews.py:169` kann `status: "reviewed"` schreiben, einen fuenften Wert, den
+   weder die Vier-Stufen-Beschreibung noch `isHumanChecked()` in `app.js` kennt. Im Bestand
+   kommt er nicht vor. Latenter Widerspruch, offen registriert.
+3. Die Anzeigeschicht fasst Stufe 0 und 1 zu "Mensch-geprueft" zusammen. Das ist Absicht und
+   dokumentiert (Operator-Entscheidung 2026-06-10). Die Vier-Stufigkeit ist damit im
+   Datenmodell sichtbar, im Frontend nur dreistufig.
+
+`README.md` traegt die Aussage jetzt als eigenen Abschnitt "Trust tiers and verification
+provenance" direkt nach "Approach", statt sie wie bisher im Abschnitt zum lokalen Editieren
+zu fuehren, samt Erhaltung des Maschinenzustands, Nicht-Verdichtung und dem Hinweis auf den
+ungenutzten Stand von Stufe 0.
+
+### Tests
+
+Die Annahme "kein Test vorhanden" stimmte nicht. `pipeline/test_*.py` enthaelt fuenf
+Regressionstests, die eigenstaendig und unter pytest gruen laufen. Ergaenzt um zwei billige,
+klar nuetzliche Pruefungen unter `tests/`:
+
+- `test_page_json_schema.py` prueft alle 2.069 exportierten `results/*/*_page.json` gegen
+  `schemas/page-json-v0.2.json` (Draft 2020-12), dazu die Selbstpruefung des Schemas und das
+  Versionsfeld. Laufzeit rund eine Sekunde. Der Grund liegt im Format selbst, es ist der
+  Vertrag mit teiCrafter, PAGE XML und METS; ein Drift zwischen Exporter und Schema faellt
+  sonst erst dort auf.
+- `test_trust_tiers.py` prueft acht Faelle der Uebergaenge in `serve.py` gegen einen
+  temporaeren results-Baum (monkeypatch auf `RESULTS_BASE`). Abgedeckt sind jede bekannte
+  Stufe wird geschrieben, eine unbekannte abgelehnt, die Agent-Stufe fuehrt das pruefende
+  Modell mit, der erste Edit sichert den Roh-Output, der zweite ueberschreibt ihn nicht,
+  eine unveraenderte Seite erzeugt keine History, der Edit-Pfad kann die Agent-Stufe nicht
+  beanspruchen, und das Approve laesst Konfidenz und Signale unberuehrt.
+
+`requirements-dev.txt` neu (pytest, jsonschema). Gesamtlauf
+`python -m pytest tests/ pipeline/` ergibt 18 gruene Tests, ohne API-Key und ohne
+Bild-Backup. Der Aufruf ist in README und CLAUDE.md dokumentiert.
+
+### Evaluationshaken zum Antrag
+
+`.github/ISSUE_TEMPLATE/` neu mit drei kriterienunabhaengigen Vorlagen, englisch, ohne
+Implementierungsvorgabe. Vier-Tupel-Protokoll (erste Experteneinschaetzung, KI-Vorschlag,
+finale Entscheidung, Referenzantwort), Provenienz-Export (Produktions-, Entscheidungs- und
+Verifikationsschicht je Item) und Gold-Standard-Haken (Referenzantworten mit vorab
+festgelegter Prueftiefe je Itemklasse). Label `antrag-eval` (#1B6B7D) im Remote angelegt.
+Die erste Vorlage haelt die bekannte Luecke fest, die Experteneinschaetzung vor Sicht des
+Vorschlags wird nicht erhoben, weil der Vorschlag im Ablauf immer zuerst da ist; aus dem
+Bestand ist das Tupel daher nur dreistellig rekonstruierbar.
+
+### Offen
+
+- Stufe `gt_verified` in der Praxis belegen oder die Beschreibung anpassen.
+- `import_reviews.py`, den Status `reviewed` in die Vier-Stufen-Systematik einordnen oder
+  entfernen.
+- `PAPER.md` beschreibt den Stand vom Juli 2026 und nennt `Plan.md` im Root. Bewusst nicht
+  nachgezogen, weil der Bericht abgeschlossen ist; vermerkt in `paper/README.md`.
+- `SETUP-REVIEW.md` und `SETUP-REVIEW-KURZ.md` sind mit der Review-Pipeline im Root
+  dazugekommen und wurden hier nicht angefasst, weil sie aus paralleler Arbeit stammen. Ob
+  sie im Root bleiben oder nach `docs/` wandern, ist eine Operator-Entscheidung.
+
+### Rebase auf parallele Arbeit
+
+Waehrend dieser Runde war `origin/main` sechs Commits weiter (Review-Pipeline, Filter je
+Signal, Reviewer-Identitaet). Die Arbeit wurde darauf rebased statt gepusht.
+`knowledge/plan.md` hat die dortige Ergaenzung mitgenommen, `knowledge/index.md` fuehrt
+`review-findings` jetzt in der Funktionstabelle, `docs/data/knowledge.json` wurde nach dem
+Rebase neu gebaut. Ein oben notierter Befund ist damit erledigt: `pipeline/reviewer.py`
+loest den Reviewer-Namen jetzt ueber `SZD_REVIEWER` beziehungsweise `git config user.name`
+auf, der fest verdrahtete Klarname in `serve.py` und `import_reviews.py` ist weg.
 
 ---

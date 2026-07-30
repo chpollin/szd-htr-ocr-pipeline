@@ -12,7 +12,7 @@ Experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digit
 
 ## Aktueller Stand
 
-Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/build_viewer_data.py` oder `docs/catalog.json`. Offene Aufgaben und Entscheidungslog → `Plan.md`. Session-Log → `knowledge/journal.md`. CER-Baseline und Fehlermuster → `knowledge/evaluation-results.md`.
+Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/build_viewer_data.py` oder `docs/catalog.json`. Offene Aufgaben und Entscheidungslog → `knowledge/plan.md`. Session-Log → `knowledge/journal.md`. CER-Baseline und Fehlermuster → `knowledge/evaluation-results.md`. Einstieg in den Wissensstand → `knowledge/index.md`.
 
 ### Review-Modell (drei Status, Operator-Entscheidung 2026-06-10)
 
@@ -22,7 +22,7 @@ Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/bui
 | Agent-geprueft | `agent_verified` | Claude-Vision-Agent (Bild-Text-Vergleich) — kann stimmen, ersetzt keine menschliche Pruefung |
 | Ungeprueft | kein Review | Nur Pipeline-Selbsteinschaetzung. `needs_review` ist kein Status, sondern Triage ("zuerst sichten") innerhalb von Ungeprueft |
 
-Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte.
+Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte. Gespeichert sind vier Stufen (`gt_verified`, `approved`, `agent_verified`, kein Review-Block); die Aussenbeschreibung fuer Gutachtende steht in `README.md` unter "Trust tiers and verification provenance", die Uebergaenge sind in `tests/test_trust_tiers.py` festgenagelt.
 
 **Zwei Datenstroeme je Seite** (seit 2026-06-10): `transcription` ist die Arbeitsfassung, `transcription_llm` der unveraenderliche Roh-Output des Modells (wird beim ersten Edit gesetzt; Bestand per `backfill_transcription_llm.py` migriert). `edit_history` protokolliert jede Aenderung. CER aus Korrekturen: `python pipeline/report_cer_from_edits.py` (Report: `reports/cer-from-edits.md`).
 
@@ -166,9 +166,16 @@ Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespo
 ```
 szd-htr/
 ├── CLAUDE.md
-├── Plan.md                          ← Phasen-Status, Aufgaben, Entscheidungslog
+├── README.md                        ← Projektueberblick, Trust tiers, Test-Aufruf
 ├── requirements.txt                 ← google-genai, python-dotenv, markdown, pyyaml
+├── requirements-dev.txt             ← pytest, jsonschema (nur Tests)
 ├── .env                             ← API Keys (nicht committet)
+├── .github/ISSUE_TEMPLATE/          ← Evaluationshaken zum Antrag (Label `antrag-eval`)
+├── paper/                           ← Abschlussbericht + Evidenzbasis
+│   ├── PAPER.md                     ← Abschlussbericht (Stand 2026-07)
+│   ├── PAPER-FINDINGS.md            ← Evidenzbasis, jede Behauptung mit Dateizitat
+│   └── drafts/                      ← Zwischenstaende: PAPER-TEXT(.FILLED).md, CLAUDE-TASK.md
+├── tests/                           ← pytest: Page-JSON-Schema, Trust-Tier-Uebergaenge
 ├── schemas/
 │   ├── page-json-v0.1.json          ← Page-JSON Schema v0.1 (Text + Layout)
 │   ├── page-json-v0.2.json          ← Page-JSON Schema v0.2 (+ deskriptive Metadaten, DC/MODS)
@@ -215,17 +222,20 @@ szd-htr/
 │       ├── aufsatzablage.json
 │       ├── korrespondenzen.json
 │       ├── groundtruth.json         ← GT-Drafts fuer Expert-Review
-│       └── knowledge.json           ← Knowledge Vault (10 Docs + About, pre-rendered HTML)
+│       └── knowledge.json           ← Knowledge Vault (alle knowledge/*.md + About, pre-rendered HTML)
 └── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
-    ├── index.md                     ← Map of Content (MOC)
-    ├── data-overview.md             ← Datengrundlage (4 Sammlungen, 9 Gruppen)
+    ├── index.md                     ← Map of Content (MOC), Funktionstabelle + Lesepfade
+    ├── plan.md                      ← Phasen-Status, Aufgaben, Entscheidungslog
+    ├── data-overview.md             ← Datengrundlage (5 Sammlungen, 9 Gruppen)
     ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
     ├── evaluation-results.md        ← CER-Baseline, Fehlertypologie
     ├── annotation-protocol.md       ← Transkriptionskonventionen
     ├── htr-interchange-format.md    ← Page-JSON v0.2: Text + Layout + deskriptive Metadaten (Arbeitsformat)
     ├── page-xml-mets-architecture.md ← PAGE XML, MODS und METS-Schichtenarchitektur (Zielformat)
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
-    ├── dia-xai-integration.md       ← DIA-XAI-Integration
+    ├── teicrafter-integration.md    ← Page-JSON → teiCrafter-TEI + Marker-Anreicherung
+    ├── dia-xai-integration.md       ← Rolle im DIA-XAI-Pilot und im Verifikations-Antrag
+    ├── verification-fair4rs.md      ← FAIR4RS-Befund des Repositories (geprueft)
     ├── security.md                  ← Security-Review (Threat Model, Mitigations)
     ├── stats-dashboard.md           ← Statistik-Dashboard Spezifikation
     └── journal.md                   ← Session-Log
@@ -296,12 +306,28 @@ python pipeline/export_page_json.py --all --force              # Alle neu export
 
 ### Tests
 
-Eigenstaendige Regressionstests (kein pytest noetig, Exit 0 = gruen, ohne API-Key/Backup):
+Alles laeuft ohne API-Key und ohne lokales Bild-Backup.
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest tests/ pipeline/
+```
+
+`tests/` (pytest, seit 2026-07-30):
+
+```bash
+python -m pytest tests/test_page_json_schema.py  # alle results/*/*_page.json gegen schemas/page-json-v0.2.json
+python -m pytest tests/test_trust_tiers.py       # Trust-Tier-Uebergaenge der Review-API in serve.py
+```
+
+`pipeline/test_*.py` — aeltere Regressionstests, laufen auch eigenstaendig (Exit 0 = gruen):
 
 ```bash
 python pipeline/test_marker_enrich.py        # Marker-Konverter (Fail-safe + Wohlgeformtheit)
 python pipeline/test_canonical_collection.py # Dedup: TEI-kanonische Sammlungszuordnung
 python pipeline/test_export_tei.py           # jsround + build_tei Wohlgeformtheit/Notes
+python pipeline/test_quality_signals.py      # Signalschwellen inkl. Umschlag-Ausnahme
+python pipeline/test_unit_derivation.py      # Einheiten-Ableitung fuer die Briefbestaende
 ```
 
 ## Umgebungsvariablen (.env)

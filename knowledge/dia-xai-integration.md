@@ -1,255 +1,89 @@
 ---
 title: "DIA-XAI-Integration"
-aliases: ["DIA-XAI-Integration"]
+aliases: ["DIA-XAI-Integration", "Antragsbezug"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: draft
+  url: "https://dhcraft.org/Promptotyping/"
+status: stable
 created: 2026-04-01
-updated: 2026-06-09
-type: spec
+updated: 2026-07-30
+type: concept
 related:
   - "[[verification-concept]]"
+  - "[[evaluation-results]]"
   - "[[htr-interchange-format]]"
 ---
 
-# DIA-XAI-Integration: SZD-HTR als Datenlieferant fuer EQUALIS
+# DIA-XAI-Integration: Rolle der Pipeline im Pilotprojekt und im geplanten Antrag
 
-Abhaengigkeit: [[verification-concept]] (quality_signals, CER), [[htr-interchange-format]] (Page-JSON)
+Abhaengigkeit: [[verification-concept]] (Reviewmodell, quality_signals, CER), [[evaluation-results]] (CER-Baseline), [[htr-interchange-format]] (Page-JSON)
 
 ---
 
 ## 1. Zweck
 
-Dieses Dokument definiert, wie die SZD-HTR-Pipeline Daten an das DIA-XAI-Evaluationsframework liefert. DIA-XAI (PLUS Early Career Grant, April 2026 – April 2027) evaluiert Expert-in-the-Loop-Workflows auf heterogenen Kulturdaten mit dem EQUALIS-Framework.
+Dieses Dokument haelt fest, in welchem Verhaeltnis die SZD-HTR-Pipeline zum DIA-XAI-Pilotprojekt (PLUS Early Career Grant, April 2026 bis April 2027) und zu dem daraus wachsenden Antrag zur Verifikation in der LLM-gestuetzten geisteswissenschaftlichen Forschung steht. Es ersetzt die frueher hier dokumentierte Zulieferung an das Evaluationsframework EQUALIS, das am 18.07.2026 aufgeloest und in den Evaluationsansatz des Antrags ueberfuehrt wurde. Der historische Stand steht in §5.
 
-SZD-HTR bedient den DIA-XAI Use Case:
-- **UC3 (HTR-Verifikation):** Wie effektiv ist Expert-Korrektur von VLM-Transkriptionen?
+Das Verhaeltnis hat zwei Seiten. Die Pipeline ist Messgegenstand, weil im Pilotprojekt eine CER-Evaluation an ihr laeuft. Und sie ist Vorarbeit, weil ihr Vertrauensmodell einer der Provenienzansaetze ist, die der geplante Antrag in seinem ersten Arbeitspaket zusammenfuehrt.
 
-### 1.1 Zeitliche Abhaengigkeit
+## 2. Wie der Antrag die Pipeline beschreibt
 
-| Meilenstein | Datum | Abhaengigkeit |
+Der Antragstext fuehrt das Repository in §4 als laufende Vorarbeit. Die Beschreibung lautet im Original:
+
+> Pipeline producing line-based TEI or Page-JSON, editor role; a four-tier trust model from checked ground truth to needs-checking implements graded verification provenance with editing history, preserves machine-generated states in an edit history when humans correct them, and refuses to collapse these statuses into a single confidence value. It is the project's operational proof that differentiated checking states can be carried through a production-scale workflow. Running.
+
+Diese Beschreibung ist gegen den Code pruefbar und wurde am 2026-07-30 geprueft. Die Belegstellen stehen in §3. Wer den Antrag begutachtet, findet die Behauptung im Repository an drei Orten bestaetigt, in der Tabelle **Trust tiers** in `README.md`, in `pipeline/serve.py` und in den Testfaellen unter `tests/test_trust_tiers.py`.
+
+## 3. Die vier Vertrauensstufen als Provenienzansatz (WP1)
+
+### 3.1 Gespeicherte Stufen
+
+Der Zustand eines Objekts steht im Block `review` der Ergebnisdatei. Vier Stufen sind unterscheidbar:
+
+| Stufe | Wert in `review.status` | Herkunft der Aussage |
 |---|---|---|
-| SZD-HTR Pilot (5 Seiten) | April 2026 | Muss vor DIA-XAI Phase 1 fertig sein |
-| DIA-XAI Phase 1 (Interface-Design) | Mai–Jun 2026 | Nutzt Pilot-CER als Baseline |
-| SZD-HTR GT-Sample (31 Objekte) | Jun–Aug 2026 | Liefert Ground Truth fuer EQUALIS QUA |
-| DIA-XAI Phase 3 (EQUALIS-Durchlauf) | Okt 2026–Maerz 2027 | Voller Durchlauf auf SZD-HTR-Batch |
+| 0 | `gt_verified` | zeichengenau am Faksimile geprueft, ground-truth-faehig |
+| 1 | `approved` | fachlich gegengelesen, bei Bedarf korrigiert |
+| 2 | `agent_verified` | Claude-Vision-Agent hat Bild gegen Text verglichen |
+| 3 | kein `review`-Block | nur Selbsteinschaetzung der Pipeline |
 
-### 1.2 Was DIA-XAI ist (und was nicht)
+`needs_review` aus den quality_signals ist kein Status, sondern ein Triage-Hinweis innerhalb von Stufe 3. Er sagt, was zuerst zu sichten ist, und nicht, wie verlaesslich ein Text ist. Die Anzeigeschicht in `docs/app.js` fasst Stufe 0 und 1 zu "Mensch-geprueft" zusammen; die gespeicherten Werte bleiben davon unberuehrt, sodass die Differenz zwischen zeichengenauer und fachlicher Pruefung in den Daten erhalten bleibt.
 
-DIA-XAI ist ein **Aggregator**, kein Verifikationstool. Es importiert Metriken-JSON (`dia-xai-metrics-v1`) aus externen Tools und berechnet die 5 EQUALIS-Dimensionen. Die eigentliche Verifikation findet in den Quelltools statt:
+### 3.2 Verweigerte Verdichtung
 
-- **HTR-Verifikation:** Im SZD-HTR-Viewer (Frontend) oder via Verification-by-Vision
-- **Metriken-Aggregation:** In DIA-XAI (Import → EQUALIS-Dashboard)
+Die Pipeline fuehrt zwei weitere Bewertungen, die bewusst nicht mit der Vertrauensstufe verrechnet werden. `result.confidence` ist die kategoriale Selbsteinschaetzung des Modells (`high`, `medium`, `low`), `quality_signals.needs_review` das Ergebnis von sieben regelbasierten Signalen. Beide bleiben eigene Felder, im Datenmodell wie in den Filtern des Viewers. Es gibt keinen Ort im Code, an dem Pruefstatus, Modellkonfidenz und Signallage zu einer Zahl zusammengezogen werden. Die Begruendung steht in [[verification-concept]] und geht auf eine fruehe Projektentscheidung zurueck, kategoriale statt numerischer Konfidenz zu verwenden, weil LLMs ihre eigene Qualitaet numerisch nicht verlaesslich einschaetzen.
 
----
+### 3.3 Erhaltung des Maschinenzustands
 
-## 2. Datenfluss SZD-HTR → DIA-XAI
+Korrigiert ein Mensch eine Seite, geht der maschinell erzeugte Zustand nicht verloren. Beim ersten Edit schreibt `serve.py` den Roh-Output einmalig nach `transcription_llm` und legt fuer jede Aenderung einen Eintrag in `edit_history` an, mit dem Text vor der Aenderung, dem Zeitstempel und dem Feld `source`, das menschliche von agentischen Korrekturen trennt. `transcription` bleibt die Arbeitsfassung. Daraus folgt eine Messmoeglichkeit, die es ohne diese Trennung nicht gaebe, jede menschliche Korrektur ist eine CER-Messung gegen den Roh-Output (`pipeline/report_cer_from_edits.py`).
 
-```
-Faksimile (JPG)
-  │
-  ▼
-SZD-HTR Pipeline (Gemini Flash Lite)
-  │ → Transkriptions-JSON + quality_signals
-  │
-  ├──→ Verification-by-Vision (Claude + Gemini Vision)
-  │     → Error-Markup, Corrections, Verification-Status
-  │     → DIA-XAI Export (UC3: HTR-Verifikation)
-  │
-  ├──→ export_page_json.py
-  │     → Page-JSON (Text + Layout + Metadaten)
-  │
-  ▼
-DIA-XAI (EQUALIS-Dashboard)
-  → 5-dimensionale Evaluation
-```
+### 3.4 Was WP1 daraus uebernehmen kann
 
-### 2.1 Zwei Export-Punkte
+Fuer die Harmonisierung der Provenienzansaetze im ersten Arbeitspaket ist an diesem Modell dreierlei uebertragbar, die Trennung von Pruefstatus und Qualitaetssignal, die Unterscheidung der pruefenden Instanz (Mensch, Agent, Regel) im selben Feldschema, und die Aufbewahrung des ueberschriebenen Maschinenzustands als Referenz fuer spaetere Messung. Was das Modell nicht leistet, gehoert ebenso zum Befund. Es kennt keine Stufe unterhalb der Seite, die Pruefung ist objekt- und seitenweise, und es haelt keine vorab definierte Prueftiefe je Materialklasse fest.
 
-**Export-Punkt A: Nach HTR + Verification (UC3)**
+## 4. Evaluationshaken
 
-Quelle: SZD-HTR quality_signals + Verification-by-Vision-Ergebnisse.
-Wann: Nach Verification-Durchlauf (manuell oder VbV).
-Was wird exportiert: CER (wenn GT vorhanden), Fehlertypen, Korrekturzahlen, Expert-Effort.
+Aus dem Antragsbezug folgen drei Exportschnittstellen, die noch nicht implementiert sind und als Issues unter dem Label `antrag-eval` gefuehrt werden. Sie stehen hier, damit die Pipeline-Arbeit sie nicht versehentlich verbaut.
 
----
-
-## 3. EQUALIS-Mapping fuer SZD-HTR
-
-Das EQUALIS-Framework misst 5 Dimensionen. Fuer jeden wird hier definiert, welche SZD-HTR-Daten die Metrik speisen.
-
-### 3.1 E — Explainability (Provenienz)
-
-**Frage:** Woher kommt jede Annotation? Maschinell, manuell, oder regelbasiert?
-
-| SZD-HTR-Datenquelle | EQUALIS-Metrik | Berechnung |
+| Haken | Was exportiert wird | Woher die Daten kaemen |
 |---|---|---|
-| quality_signals (automatisch) | `provenance.regex` | Anzahl regelbasierter Flags (page_image_mismatch etc.) |
-| VLM-Transkription | `provenance.llm` | Anzahl maschinell transkribierter Seiten |
-| Expert-Review im Viewer | `provenance.expert` | Anzahl manuell korrigierter Seiten |
+| Vier-Tupel-Protokoll | erste Experteneinschaetzung, KI-Vorschlag, finale Entscheidung, Referenzantwort sofern vorhanden | `transcription_llm`, `edit_history`, `transcription`, GT-Sample |
+| Provenienz-Export | Produktions-, Entscheidungs- und Verifikationsschicht je Item | `provenance` in Page-JSON, `review`, `edit_history` |
+| Gold-Standard-Haken | Referenzantworten mit vorab festgelegter Prueftiefe je Itemklasse | GT-Sample je Prompt-Gruppe |
 
-**Visualisierung in DIA-XAI:** Provenienz-Balken pro Objekt (gruen=expert, gelb=llm, grau=missing).
+Der erste Haken hat eine bekannte Luecke. Die Pipeline zeichnet die Experteneinschaetzung vor Sicht des KI-Vorschlags nicht auf, weil der Vorschlag im Arbeitsablauf immer zuerst da ist. Das Vier-Tupel ist aus dem Bestand daher nur dreistellig rekonstruierbar; eine vollstaendige Erhebung braucht einen eigenen Erhebungsmodus.
 
-### 3.2 QUA — Quality (Korrektheit)
+## 5. Historischer Stand (EQUALIS, aufgeloest 2026-07-18)
 
-**Frage:** Wie korrekt sind die Transkriptionen und Annotationen?
+Bis zum 18.07.2026 war dieses Dokument als Zulieferungsspezifikation an EQUALIS geschrieben, ein fuenfdimensionales Evaluationsframework des Pilotprojekts. EQUALIS existiert nicht mehr; seine Substanz ist im Evaluationsansatz des Antrags aufgegangen. Der folgende Abschnitt bewahrt, was an der damaligen Zuordnung ueber die Pipeline selbst aussagt, weil sich diese Aussagen an keiner anderen Stelle des Vaults finden.
 
-| SZD-HTR-Datenquelle | EQUALIS-Metrik | Berechnung |
-|---|---|---|
-| CER aus GT-Sample ([[verification-concept]] §1) | `quality.cer` | Character Error Rate pro Objekt |
-| CER pro Gruppe | `quality.fields.{group}.cer` | Median-CER pro Prompt-Gruppe (A–I) |
-| quality_signals needs_review | `outcomes.accuracy_ai_only` | Anteil korrekt geflaggter Objekte (nach GT-Kalibrierung) |
-| Verification-by-Vision Ergebnisse | `outcomes.error_recovery` | Anzahl durch VbV gefundener Fehler |
+**Das damalige Rollenmodell.** DIA-XAI war als Aggregator konzipiert, nicht als Verifikationswerkzeug. Es importierte ein Metriken-JSON (`dia-xai-metrics-v1`) aus den Quellwerkzeugen und berechnete daraus die fuenf Dimensionen. Die Verifikation selbst fand im SZD-HTR-Viewer statt. Diese Arbeitsteilung ist erhalten geblieben, der Antrag misst nicht selbst, sondern wertet projektseitig aus.
 
-**Empirischer Stand (Session 9):** CER unbekannt (Pilot steht aus). quality_signals flaggen 63% — Precision/Recall erst nach GT kalibrierbar.
+**Die fuenf Dimensionen und ihre Datenquellen in der Pipeline.** Explainability speiste sich aus der Herkunft je Annotation, regelbasiert aus den quality_signals, maschinell aus der VLM-Transkription, manuell aus dem Expert-Review im Viewer. Quality speiste sich aus der CER gegen das GT-Sample, gesamt und je Prompt-Gruppe, dazu die Trefferquote der `needs_review`-Flags nach GT-Kalibrierung. Learning speiste sich aus dem Agreement-Trend des Cross-Model-Konsensus und aus dem CER-Vergleich vor und nach einer Prompt-Ueberarbeitung. Interaction speiste sich aus den Zaehlungen des Viewers, akzeptiert gegen korrigiert, und aus der Frage, wie oft ein falscher Vorschlag akzeptiert wurde. Scalability speiste sich aus der Streuung der CER ueber die neun Dokumentgruppen, die vier Sprachen und die Schreiberhaende.
 
-### 3.3 L — Learning (Verbesserung ueber Iterationen)
+**Was davon traegt.** Die Dimension Scalability nannte den bis heute gueltigen Grund, warum gerade dieser Korpus als Messgegenstand taugt, er enthaelt neun Dokumentgruppen, vier Sprachen und mehrere Schreiberhaende und liefert die Varianz, die ein homogener Korpus nicht hergibt. Die Dimension Interaction nannte mit dem Akzeptieren eines falschen Vorschlags einen Effekt, den der Antrag unter Verifikation weiterfuehrt. Die Dimension Explainability nannte die Provenienzunterscheidung, die im heutigen Vertrauensmodell (§3) implementiert ist.
 
-**Frage:** Verbessert sich die Pipeline durch Feedback?
-
-| SZD-HTR-Datenquelle | EQUALIS-Metrik | Berechnung |
-|---|---|---|
-| Cross-Model-Verification ([[verification-concept]] §4) | Agreement-Trend | Steigt Agreement ueber Batches? |
-| Prompt-Ueberarbeitung nach Pilot | Vorher/Nachher-CER | CER vor vs. nach Prompt-Fix |
-
-**Erwartung:** Prompt-Experiment liefert erste L-Daten. Echtes iteratives Learning erst in DIA-XAI Phase 3.
-
-### 3.4 I — Interaction (Expert-Aufwand)
-
-**Frage:** Wie viel menschlichen Aufwand spart die Pipeline?
-
-| SZD-HTR-Datenquelle | EQUALIS-Metrik | Berechnung |
-|---|---|---|
-| SZD-HTR Viewer Review | `reliance.accept` | Anzahl akzeptierter Transkriptionen (approved) |
-| SZD-HTR Viewer Review | `reliance.correct` | Anzahl korrigierter Transkriptionen (edited) |
-| Verification-by-Vision Timing | `session.duration_minutes` | Zeit pro Objekt |
-| Accept-on-Wrong | `reliance.accept_on_wrong` | Expert akzeptiert falschen LLM-Vorschlag (Anchoring Bias) |
-
-**Messung:** SZD-HTR Viewer loggt approve/edit pro Objekt. DIA-XAI aggregiert zu Ratios und Override-Frequenz.
-
-### 3.5 S — Scalability (Uebertragbarkeit)
-
-**Frage:** Funktioniert der Workflow fuer verschiedene Dokumenttypen gleich gut?
-
-| SZD-HTR-Datenquelle | EQUALIS-Metrik | Berechnung |
-|---|---|---|
-| CER pro Gruppe (A–I) | CER-Varianz | Standardabweichung der Median-CER ueber 9 Gruppen |
-| CER pro Sprache (DE/EN/FR) | Sprach-Vergleich | CER-Differenz zwischen Sprachen |
-| Vergleich SZD vs. MHDBDB | Cross-Domain | Gleiche EQUALIS-Dimensionen, verschiedene Korpora |
-| Vergleich Zweig vs. Rieger vs. Lotte | Schreiber-Vergleich | CER pro Hand |
-
-**SZD-HTR liefert hier besonders wertvolle Daten:** 9 Dokumentgruppen, 4 Sprachen, 6+ Schreiberhaende — natuerliche Varianz fuer Scalability-Messung.
-
----
-
-## 4. Metriken-Export: SZD-HTR → DIA-XAI
-
-### 4.1 Zielformat: `dia-xai-metrics-v1`
-
-DIA-XAI importiert JSON im folgenden Schema (Drag-and-Drop in die Web-App):
-
-```json
-{
-  "schema": "dia-xai-metrics-v1",
-  "source": "szd-htr",
-  "useCase": "uc3",
-  "exported": "2026-08-15T10:00:00Z",
-  "session": {
-    "duration_minutes": null,
-    "expert_role": "domain-expert"
-  },
-  "outcomes": {
-    "total_items": 31,
-    "accuracy_ai_only": null,
-    "accuracy_expert_only": null,
-    "accuracy_team": null,
-    "error_recovery": null,
-    "error_amplification": null
-  },
-  "reliance": {
-    "accept": null,
-    "correct": null,
-    "add": null,
-    "reject": null,
-    "accept_on_wrong": null,
-    "override_frequency": null
-  },
-  "quality": {
-    "fields": {
-      "handschrift":        { "precision": null, "recall": null, "f1": null },
-      "typoskript":         { "precision": null, "recall": null, "f1": null },
-      "korrespondenz":      { "precision": null, "recall": null, "f1": null },
-      "zeitungsausschnitt": { "precision": null, "recall": null, "f1": null }
-    },
-    "cer": null
-  },
-  "provenance": {
-    "regex": null,
-    "llm": null,
-    "missing": null,
-    "expert": null
-  },
-  "interaction_log": []
-}
-```
-
-Die `null`-Werte werden befuellt, sobald die entsprechenden Daten vorliegen (GT-Sample → CER/Quality, Viewer-Review → Reliance).
-
-### 4.2 Wann wird was befuellt?
-
-| EQUALIS-Feld | Befuellt nach | Datenquelle |
-|---|---|---|
-| `quality.cer` | Pilot + GT-Sample | CER-Script |
-| `quality.fields.{group}` | GT-Sample (31 Objekte) | CER pro Gruppe |
-| `outcomes.total_items` | Sofort | Anzahl transkribierter Objekte |
-| `outcomes.accuracy_ai_only` | GT-Kalibrierung | quality_signals Precision |
-| `reliance.*` | Viewer-Review | Approve/Edit-Zahlen |
-| `provenance.*` | Pipeline + Viewer | LLM vs. Expert-Zaehlung |
-| `interaction_log[]` | Viewer-Review | Pro-Objekt-Entscheidungen |
-| `outcomes.error_recovery` | Verification-by-Vision | Durch VbV gefundene Fehler |
-
-### 4.3 Export-Implementierung
-
-**Fuer UC3 (HTR-Verifikation):**
-Ein Script (`pipeline/export_dia_xai.py`), das:
-1. Alle Result-JSONs liest
-2. quality_signals aggregiert
-3. CER-Werte (wenn vorhanden) einfuegt
-4. VbV-Ergebnisse (wenn vorhanden) integriert
-5. `dia-xai-metrics-v1` JSON erzeugt
-
----
-
-## 5. Zeitplan und Abhaengigkeiten
-
-```
-April 2026 (JETZT):
-  ├── SZD-HTR: ~2080 Objekte transkribiert (99%), METS-Export fertig
-  └── DIA-XAI: Repo angelegt, EQUALIS spezifiziert, Use Cases definiert
-
-Mai–Jun 2026 (DIA-XAI Phase 1):
-  ├── SZD-HTR: GT-Kalibrierung, quality_signals-Schwellenwerte
-  └── DIA-XAI: EIL-Interface-Prototyp mit SZD-HTR-Daten
-
-Jul–Sep 2026:
-  ├── SZD-HTR: Layout-Analyse skalieren, fehlende Werke-Objekte vervollstaendigen
-  └── DIA-XAI: UC3-Metriken (CER) importieren
-
-Okt 2026–Maerz 2027 (DIA-XAI Phase 3):
-  ├── Voller EQUALIS-Durchlauf auf SZD-HTR-Batch (~2107 Objekte)
-  ├── Cross-Domain-Vergleich SZD vs. MHDBDB
-  └── Aufsatz "Amplified, Not Automated"
-```
-
-### 5.1 Was SZD-HTR fuer DIA-XAI Phase 1 liefern muss
-
-Minimum fuer Mai 2026:
-1. **CER-Werte aus GT-Sample** — quantitative Baseline
-2. **quality_signals fuer ~2080 Objekte** — zeigt Triage-Faehigkeit
-3. **Verification-by-Vision Ergebnisse** — zeigt VbV-Ansatz
-
-Das ist realistisch — Pilot und quality_signals sind die einzigen blockierenden Aufgaben.
+**Was nicht uebernommen wird.** Das Schema `dia-xai-metrics-v1`, die Zuordnung der Use-Case-Nummer UC3 und der damalige Meilensteinplan sind gegenstandslos. Sie stehen unveraendert in der Git-Historie dieses Dokuments (Stand vor dem 2026-07-30) und werden hier nicht fortgeschrieben.
