@@ -3,13 +3,20 @@ title: "teiCrafter-Integration: Page-JSON → TEI"
 aliases: ["teiCrafter", "TEI-Export", "export_tei"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Integration"
+  version: 0.1
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/integration"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-integration"
+status: active
 created: 2026-06-08
 updated: 2026-06-08
+authors: [Christopher Pollin]
+generated-with: Claude Code (Claude Opus 4.8)
 type: spec
 related:
   - "[[htr-interchange-format]]"

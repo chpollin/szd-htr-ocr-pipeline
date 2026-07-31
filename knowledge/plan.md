@@ -7,9 +7,15 @@ project:
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/Promptotyping/"
-status: draft
+template:
+  name: "Vorlage Plan"
+  version: 0.2
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/plan"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
+status: active
 created: 2026-03-30
 updated: 2026-07-30
+authors: [Christopher Pollin]
 type: plan
 related:
   - "[[journal]]"

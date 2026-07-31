@@ -2,17 +2,21 @@
 title: "Verifikation FAIR4RS-Status"
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/Promptotyping/"
-status: complete
+template:
+  name: "Vorlage Verification"
+  version: 0.1
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/verification"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
+status: active
 created: 2026-07-23
 updated: 2026-07-23
+authors: [Christopher Pollin]
+generated-with: Claude Code (Claude Fable 5)
 type: verification
-template:
-  name: Vorlage Verification
-  url: https://dhcraft.org/Promptotyping/promptotyping-document/verification
 related:
   - "[[verification-concept]]"
 ---

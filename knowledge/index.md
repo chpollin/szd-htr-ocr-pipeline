@@ -9,15 +9,16 @@ method:
   url: "https://dhcraft.org/Promptotyping/"
 template:
   name: "Vorlage Index"
-  version: 0.1
+  version: 0.2
   url: "https://dhcraft.org/Promptotyping/promptotyping-document/index"
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-index"
-status: stable
+status: active
 language: de
 version: 0.2
 tags: [index]
 created: 2026-04-01
-updated: 2026-07-30
+updated: 2026-07-31
+authors: [Christopher Pollin]
 type: moc
 ---
 
@@ -72,6 +73,50 @@ Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vaul
 ## Konvention
 
 Der Vault folgt der Konvention fuer Promptotyping Documents. Sie regelt das Frontmatter-Schema, die Lesehilfe und die strukturellen Prinzipien, gegen die jedes Dokument lesbar bleibt. Die Abschnittsstruktur dieses Dokuments steuert zugleich die Navigation des Knowledge-Vaults im Viewer, `pipeline/build_viewer_data.py` liest die Ueberschriften und die Wikilinks daraus.
+
+Die folgende Zuordnung wurde am 2026-07-31 nachtraeglich gesetzt, ohne Inhalte zu aendern und ohne Dateien umzubenennen. Eine Vorlage traegt eine Funktion und keinen Dateinamen, die gewachsenen Namen bleiben deshalb stehen. Die Genese steht im Journal.
+
+### Funktion und Vorlage je Dokument
+
+| Dokument | Konventionsfunktion | Vorlage |
+|---|---|---|
+| `index.md` | Navigation | Vorlage Index |
+| `data-overview.md` | Material | Vorlage Datengrundlage |
+| `annotation-protocol.md` | Domain Knowledge | Vorlage Domänenwissen |
+| `verification-concept.md` | Verification | Vorlage Verification |
+| `verification-fair4rs.md` | Verification | Vorlage Verification |
+| `htr-interchange-format.md` | Architecture | Vorlage Architecture |
+| `page-xml-mets-architecture.md` | Architecture | Vorlage Architecture |
+| `layout-analysis.md` | Architecture | Vorlage Architecture |
+| `teicrafter-integration.md` | Integration | Vorlage Integration |
+| `dia-xai-integration.md` | Integration | Vorlage Integration |
+| `plan.md` | Planning | Vorlage Plan |
+| `journal.md` | Provenance | Vorlage Journal |
+| `evaluation-results.md` | freihaendig | keine |
+| `security.md` | freihaendig | keine |
+| `stats-dashboard.md` | freihaendig | keine |
+| `review-findings.md` | freihaendig | keine |
+
+Die Architecture-Funktion ist auf drei Dateien geteilt, was die Vorlage ausdruecklich zulaesst. `htr-interchange-format` traegt das Arbeitsformat zwischen den Pipeline-Stufen, `page-xml-mets-architecture` die Schichtung der Archivausgabe, `layout-analysis` die Layout-Stufe. Integration ist zweimal besetzt, weil das Repository zwei Schnittstellen nach aussen fuehrt, teiCrafter und DIA-XAI.
+
+### Begruendete Luecken
+
+Diese Dokumente bleiben freihaendig, weil der Katalog fuer ihre Funktion keine Vorlage fuehrt.
+
+- `evaluation-results` haelt gemessene Ergebnisse. Das Verfahren dahinter steht in `verification-concept`, und Reporting richtet sich an einen externen Adressaten, den dieses Dokument nicht hat.
+- `security` haelt Threat Model und behobene Findings. Die Vorlage Testing deckt Teststrategie und Garantien ab, die Angriffsflaeche deckt sie nicht.
+- `stats-dashboard` spezifiziert ein einzelnes Feature samt seiner Visualisierungsentscheidungen. Die Vorlagen Specification und Design sind auf Repository-Ebene zugeschnitten.
+- `review-findings` sammelt offene Beobachtungen aus dem laufenden Review, also Material vor der Entscheidung. Provenance haelt Entschiedenes, Verification prueft Behauptungen gegen ihre Belege.
+
+Folgende Funktionen der Konvention tragen bewusst kein Dokument in `knowledge/`.
+
+- Charter und Agent Instructions liegen im Repository-Root, `README.md` und `CLAUDE.md`.
+- Reporting liegt in `paper/PAPER.md`, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis.
+- Specification und Design haben kein eigenes Dokument. Der funktionale Umfang steht in `README.md` und `CLAUDE.md`, Designentscheidungen des Viewers stehen bei dem Feature, das sie betrifft.
+- Quality Assurance hat kein `testing.md`. Die Teststrategie steht in `CLAUDE.md`, die Pruefungen selbst unter `tests/` und `pipeline/test_*.py`.
+- Technology Baseline entfaellt, weil sie zentral fuer eine Projektfamilie gefuehrt wird und dieses Repository allein steht.
+
+Das Feld `generated-with` steht nur dort, wo die Git-Historie ein einziges Modell ueber die gesamte Dateigeschichte ausweist. Wo Commits mehrerer Modelle eine Datei beruehrt haben, bleibt es weg, weil ein beruehrender Commit keine Erzeugung belegt.
 
 ## Verwandte Dokumente ausserhalb des Vaults
 

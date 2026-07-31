@@ -3,11 +3,11 @@ title: "Review-Befunde"
 aliases: ["Verbesserungsvorschlaege", "Findings"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: living
+  url: "https://dhcraft.org/Promptotyping/"
+status: active
 created: 2026-07-25
 updated: 2026-07-25
 type: log

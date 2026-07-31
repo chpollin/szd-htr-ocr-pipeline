@@ -3,13 +3,19 @@ title: "Annotationsprotokoll"
 aliases: ["Annotationsprotokoll"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Domänenwissen"
+  version: 0.2
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/domain-knowledge"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-domain-knowledge"
+status: active
 created: 2026-04-01
 updated: 2026-04-02
+authors: [Christopher Pollin]
 type: protocol
 related:
   - "[[verification-concept]]"

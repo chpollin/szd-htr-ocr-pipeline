@@ -3,13 +3,19 @@ title: "Research Journal"
 aliases: ["Journal"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: draft
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Journal"
+  version: 0.3
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/journal"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-journal"
+status: active
 created: 2026-03-30
-updated: 2026-07-30
+updated: 2026-07-31
+authors: [Christopher Pollin]
 type: log
 related:
   - "[[data-overview]]"
@@ -1900,5 +1906,76 @@ Signal, Reviewer-Identitaet). Die Arbeit wurde darauf rebased statt gepusht.
 Rebase neu gebaut. Ein oben notierter Befund ist damit erledigt: `pipeline/reviewer.py`
 loest den Reviewer-Namen jetzt ueber `SZD_REVIEWER` beziehungsweise `git config user.name`
 auf, der fest verdrahtete Klarname in `serve.py` und `import_reviews.py` ist weg.
+
+---
+
+## 2026-07-31 — Wissensbasis nachtraeglich an der Konvention ausgerichtet
+
+Anlass ist das Methodenpaper "Promptotyping. Translating Research Data into Research
+Artefacts through Context Engineering and Agentic Engineering", das dieses Repository als
+Fall fuehrt. Die Ausrichtung geschah ausdruecklich post hoc. Die Evidenzzitate des Papers
+zeigen auf den Stand davor, Commit `eb632d1`, und bleiben dort gueltig; diese Runde
+rekonstruiert keinen frueheren Zustand, sondern setzt Metadaten nach. Kein Inhalt wurde
+geaendert, keine Datei umbenannt, verschoben oder geloescht. Eine Vorlage traegt eine
+Funktion und keinen Dateinamen, die gewachsenen Namen bleiben deshalb stehen.
+
+### Frontmatter
+
+Alle sechzehn Dokumente unter `knowledge/` tragen den Pflichtkern der Konvention Knowledge
+Documents (v0.2) jetzt vollstaendig und konform.
+
+- `method.url` in zwoelf Dokumenten auf `https://dhcraft.org/Promptotyping/` gehoben; die
+  alte Kleinschreibung ohne Schraegstrich loest nicht auf.
+- `project.repository` in dreizehn Dokumenten ohne `.git`-Endung, einheitlich mit den
+  uebrigen.
+- `status` auf das Enum `draft|active|archived` gebracht. Neun `complete`, zwei `stable` und
+  ein `living` wurden zu `active`, ebenso drei `draft` bei gepflegten Dokumenten.
+  `htr-interchange-format` bleibt `draft`, weil das Dokument sich selbst als Entwurf
+  ausweist. Nichts ist `archived`, kein Dokument erklaert sich als abgeloest.
+- `created` und `updated` blieben unangetastet. Die Werte stammen aus der Migration vom
+  2026-06-13 samt der Korrektur `e67dc22`, die die handgesetzten Entstehungsdaten bewusst
+  gegen die Git-Daten stehen liess. Ein Ueberschreiben haette diese Entscheidung verworfen.
+- `authors: [Christopher Pollin]` dort, wo die kuratorische Verantwortung eindeutig bei ihm
+  liegt. `review-findings` bekommt das Feld nicht, weil es die Urheberschaft je Eintrag
+  selbst kennzeichnet und mehrere Beitragende fuehrt.
+- `generated-with` nur in `teicrafter-integration` und `verification-fair4rs`. Nur dort weist
+  die Git-Historie ein einziges Modell ueber die gesamte Dateigeschichte aus. Sonst haben
+  Commits mehrerer Modelle die Datei beruehrt, und ein beruehrender Commit belegt keine
+  Erzeugung.
+
+### Vorlagenzuordnung
+
+Zwoelf Dokumente tragen jetzt ein `template`-Objekt mit `name`, `version`, `url` und
+`alias`. Neu sind Datengrundlage, Domaenenwissen, Verification (zweimal), Integration
+(zweimal), Architecture (dreimal), Plan und Journal; `index` hatte das Feld bereits und
+wurde auf Vorlagenversion 0.2 gezogen, `verification-fair4rs` fuehrte einen unvollstaendigen
+Block, der nun `version` und `alias` mitfuehrt.
+
+Die Architecture-Funktion ist auf drei Dateien geteilt, was die Vorlage ausdruecklich
+zulaesst und was hier dem tatsaechlichen Zuschnitt entspricht, Arbeitsformat, Archivausgabe,
+Layout-Stufe. Integration steht zweimal, weil das Repository zwei Schnittstellen nach aussen
+fuehrt. Beide Faelle sind in der Vorlage Integration selbst als empirische Basis genannt,
+`teicrafter-integration.md` und `dia-xai-integration.md`.
+
+Vier Dokumente bleiben freihaendig, weil der Katalog fuer ihre Funktion keine Vorlage fuehrt,
+`evaluation-results`, `security`, `stats-dashboard` und `review-findings`. Die Begruendung je
+Dokument steht in `knowledge/index.md`, ebenso die Funktionen, die bewusst kein Dokument
+unter `knowledge/` tragen. Eine unerwaehnte Luecke sieht aus wie ein Versehen, eine
+begruendete ist eine Entscheidung.
+
+### Index und Viewer
+
+`knowledge/index.md` bekommt im Abschnitt Konvention eine Zuordnungstabelle und die
+begruendeten Luecken. Die vier bestehenden Funktionstabellen und die Lesepfade blieben
+unberuehrt, weil `parse_index_sections` in `pipeline/build_viewer_data.py` aus den
+`##`-Ueberschriften und den Wikilinks die Vault-Navigation baut. Der neue Abschnitt fuehrt
+deshalb keinen einzigen Wikilink; der Parser laeuft ueber ihn hinweg, ohne eine Sektion zu
+erzeugen. Gegen `docs/data/knowledge.json` geprueft, die Sektionsstruktur ist Byte fuer Byte
+dieselbe wie vorher.
+
+Ein Build-Eingriff war nicht noetig. `parse_frontmatter` trennt das YAML schon heute vom
+Body ab, das erweiterte Frontmatter erscheint also nicht im Viewer. Sichtbar wird allein der
+Status-Chip, und `active` ist in `docs/app.css` bereits gestylt, waehrend `complete` und
+`living` es nie waren.
 
 ---

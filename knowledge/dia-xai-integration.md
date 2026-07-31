@@ -7,9 +7,15 @@ project:
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/Promptotyping/"
-status: stable
+template:
+  name: "Vorlage Integration"
+  version: 0.1
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/integration"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-integration"
+status: active
 created: 2026-04-01
 updated: 2026-07-30
+authors: [Christopher Pollin]
 type: concept
 related:
   - "[[verification-concept]]"
