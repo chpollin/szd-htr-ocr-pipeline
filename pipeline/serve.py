@@ -379,8 +379,17 @@ class SZDHandler(SimpleHTTPRequestHandler):
         self.end_headers()
 
     def log_message(self, format, *args):
-        """Suppress default access logs for static files, show API calls."""
-        if "/api/" in (args[0] if args else ""):
+        """Suppress default access logs for static files, show API calls.
+
+        args[0] ist nur bei Zugriffslogs die Request-Zeile. log_error() ruft
+        uns als log_message("code %d, message %s", code, msg) auf — dort ist
+        args[0] ein int. Ohne die isinstance-Pruefung wirft das TypeError,
+        der Handler-Thread stirbt und der Client sieht statt eines sauberen
+        404 einen Verbindungsabbruch. Fehler werden bewusst durchgelassen:
+        stille 404 machen genau solche Faelle unnoetig schwer zu finden.
+        """
+        first = args[0] if args else ""
+        if not isinstance(first, str) or "/api/" in first:
             super().log_message(format, *args)
 
 

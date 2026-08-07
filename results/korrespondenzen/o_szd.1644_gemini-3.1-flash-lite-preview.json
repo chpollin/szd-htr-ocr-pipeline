@@ -22,9 +22,18 @@
       },
       {
         "page": 2,
-        "transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+        "transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\nton\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais)",
         "notes": "Fortsetzung des Briefes. Handschriftliche Ergänzungen in violetter Tinte: 'tou', 'Stefan Zweig', 'permanent' und 'Anglais[?]'. Am unteren Rand ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+        "edit_history": [
+          {
+            "original_transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T13:42:00.754337+00:00",
+            "source": "human"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -61,5 +70,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T13:42:04.018988+00:00"
   }
 }

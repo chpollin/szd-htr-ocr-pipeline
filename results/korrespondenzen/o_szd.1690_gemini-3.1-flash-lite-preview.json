@@ -23,9 +23,24 @@
       },
       {
         "page": 2,
-        "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+        "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nsende [?]\nliebsten Grüßen! Alles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nLinzerstrasse 16",
         "notes": "Rückseite der Postkarte. Gedruckter Informationstext und handschriftliche Adresse/Nachricht in violett. Poststempel 'SAN FRANCISCO FEB 8 1939' vorhanden.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+        "edit_history": [
+          {
+            "original_transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T13:57:41.405826+00:00",
+            "source": "human"
+          },
+          {
+            "original_transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nsende [?]\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nLinzerstrasse 16",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T13:58:29.870395+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -70,5 +85,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T13:58:31.615124+00:00"
   }
 }

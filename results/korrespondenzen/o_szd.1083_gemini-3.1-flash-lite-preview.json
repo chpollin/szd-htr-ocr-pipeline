@@ -18,15 +18,39 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+        "transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren, quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
         "notes": "Der Text ist in französischer Sprache verfasst. Das Wort 'Verhaeren' ist über der Zeile eingefügt.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+        "edit_history": [
+          {
+            "original_transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:29:30.642281+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
-        "transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+        "transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nBon [] des choses aux [Ereos] et leur petite",
         "notes": "Die Handschrift ist flüssig und gut lesbar.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+        "edit_history": [
+          {
+            "original_transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:33:11.588953+00:00",
+            "source": "human"
+          },
+          {
+            "original_transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nBon [] et leur petite",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:35:34.575466+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -79,5 +103,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T11:35:50.200561+00:00"
   }
 }

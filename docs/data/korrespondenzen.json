@@ -512,15 +512,39 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+          "transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren, quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
           "notes": "Der Text ist in französischer Sprache verfasst. Das Wort 'Verhaeren' ist über der Zeile eingefügt.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+          "edit_history": [
+            {
+              "original_transcription": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:29:30.642281+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+          "transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nBon [] des choses aux [Ereos] et leur petite",
           "notes": "Die Handschrift ist flüssig und gut lesbar.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+          "edit_history": [
+            {
+              "original_transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:33:11.588953+00:00",
+              "source": "human"
+            },
+            {
+              "original_transcription": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nBon [] et leur petite",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:35:34.575466+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 3,
@@ -538,11 +562,11 @@
       "confidence": "high",
       "confidenceNotes": "Die Handschrift ist trotz der kursiven französischen Schreibweise gut lesbar. Die Sprache ist Französisch, entgegen der Anweisung 'Sprache: Deutsch', was bei der Transkription berücksichtigt wurde.",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1535,
+        "totalChars": 1561,
         "emptyPages": 0,
-        "avgCharsPerPage": 384,
+        "avgCharsPerPage": 390,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -575,7 +599,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:35:50.200561+00:00"
+      }
     },
     {
       "id": "o_szd.1088_gemini-3.1-flash-lite-preview",
@@ -7238,19 +7269,28 @@
         },
         {
           "page": 2,
-          "transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+          "transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nichts\ndazwischenkommt, bitte\nsagen Sie es aber []-\n[].x Herzl. Dank\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
           "notes": "Rückseite der Postkarte. Der Text am linken Rand ist vertikal geschrieben. Die Grußformel 'herz. [?]gr.' ist schwer lesbar, vermutlich 'herzliche Grüße'. Poststempel 'PALAIS DU LOUVRE' und zwei französische Briefmarken (50c) vorhanden.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+          "edit_history": [
+            {
+              "original_transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:40:39.060922+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Die Handschrift ist typisch für Stefan Zweig und gut lesbar, trotz der teilweise flüchtigen Schreibweise.",
       "verification": {
-        "uncertainCount": 2,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 373,
+        "totalChars": 366,
         "emptyPages": 0,
-        "avgCharsPerPage": 186,
+        "avgCharsPerPage": 183,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -7281,7 +7321,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:40:40.960339+00:00"
+      }
     },
     {
       "id": "o_szd.1189_gemini-3.1-flash-lite-preview",
@@ -12358,9 +12405,18 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+          "transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (soit après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
           "notes": "Brief von Romain Rolland an Stefan Zweig. Handschriftlich in blauer Tinte.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+          "edit_history": [
+            {
+              "original_transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:43:53.086565+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
@@ -12388,9 +12444,18 @@
         },
         {
           "page": 6,
-          "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+          "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)\n\n[Poststempel: 18.IX35-/ Zürich Hauptbahnhof Postlager]",
           "notes": "Rückseite des Briefumschlags mit Absenderangabe.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Exp. Romain Rolland, Villeneuve (Vaud)",
+          "edit_history": [
+            {
+              "original_transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:45:26.138720+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -12398,9 +12463,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 670,
+        "totalChars": 726,
         "emptyPages": 2,
-        "avgCharsPerPage": 168,
+        "avgCharsPerPage": 182,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -12436,7 +12501,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          6
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:46:00.434401+00:00"
+      }
     },
     {
       "id": "o_szd.1269_gemini-3.1-flash-lite-preview",
@@ -12529,7 +12601,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:48:11.280225+00:00"
+      }
     },
     {
       "id": "o_szd.1270_gemini-3.1-flash-lite-preview",
@@ -12548,9 +12625,18 @@
         },
         {
           "page": 2,
-          "transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+          "transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris 7e)\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
           "notes": "Die Transkription enthält einige Korrekturen und Einfügungen über der Zeile. Die Lesbarkeit ist aufgrund der kursiven Handschrift und der Durchstreichungen anspruchsvoll.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+          "edit_history": [
+            {
+              "original_transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:51:36.485279+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 3,
@@ -12568,9 +12654,9 @@
       "confidence": "high",
       "confidenceNotes": "Der Text ist trotz der kursiven Handschrift von Romain Rolland gut lesbar. Die Sprache ist Französisch, was bei der Interpretation der Wörter geholfen hat.",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1765,
+        "totalChars": 1764,
         "emptyPages": 1,
         "avgCharsPerPage": 588,
         "vlmConfidence": "high"
@@ -12606,7 +12692,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:51:57.267769+00:00"
+      }
     },
     {
       "id": "o_szd.1271_gemini-3.1-flash-lite-preview",
@@ -27140,15 +27233,33 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+          "transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\nOtto Tressl\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\n[Stempel: 22 AUG 1938]\n",
           "notes": "Die Rückseite der Postkarte (Nachrichtenseite). Der Text besteht aus einem gedruckten deutschen Teil und einer handschriftlichen englischen Übersetzung. Ein Stempel '22 AUG 1938' ist sichtbar. Die Unterschrift 'Otto Tressl' ist handschriftlich.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+          "edit_history": [
+            {
+              "original_transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:53:51.391607+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+          "transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\nMr. Desmond Flower\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\n",
           "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlichen Ergänzungen (Absender, Empfängername 'Mr. Desmond Flower'). Drei Briefmarken 'Deutsches Reich' (5 Pfennig) sind aufgeklebt und gestempelt.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+          "edit_history": [
+            {
+              "original_transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:56:38.384981+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -27156,9 +27267,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 569,
+        "totalChars": 594,
         "emptyPages": 0,
-        "avgCharsPerPage": 284,
+        "avgCharsPerPage": 297,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -27189,7 +27300,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          1
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T11:58:06.543330+00:00"
+      }
     },
     {
       "id": "o_szd.1621_gemini-3.1-flash-lite-preview",
@@ -27821,25 +27939,43 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+          "transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[Mais que fonde]~~ -\nJe suis le dernier d'être ingrat vers un ami del Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
           "notes": "Handschriftlicher Brief in französischer Sprache. Unten mittig ein Prägestempel 'EX LIBRIS'.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+          "edit_history": [
+            {
+              "original_transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T11:59:47.851549+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "",
+          "transcription": "[Stempel: CHRISTIAN ANDREE EX LIBIRIS ET AUTOGRAPHIS]",
           "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand.",
-          "type": "blank"
+          "type": "blank",
+          "transcription_llm": "",
+          "edit_history": [
+            {
+              "original_transcription": "",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T12:00:54.581689+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Der Text ist gut lesbar. Die durchgestrichene Stelle ist unleserlich, wurde aber als solche markiert.",
       "verification": {
         "uncertainCount": 0,
-        "illegibleCount": 1,
-        "totalChars": 625,
-        "emptyPages": 1,
-        "avgCharsPerPage": 625,
+        "illegibleCount": 0,
+        "totalChars": 684,
+        "emptyPages": 0,
+        "avgCharsPerPage": 342,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -27870,7 +28006,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T12:00:56.699050+00:00"
+      }
     },
     {
       "id": "o_szd.1640_gemini-3.1-flash-lite-preview",
@@ -27939,15 +28082,33 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "49, Hallamstreet W 1\n\nGRAND PUMP ROOM HOTEL,\nBATH.\nMon vieux, merci de ta lettre. Je reviens\nde Bath. J'ai pris la fuite. Je ne peux\nplus vivre ici. L'Angleterre est le seul\npays qui est ouvert encore aux refugés\net il y a un torrent; j'ai 3-4 visites\npar jour et je ne peux rien faire -\nje n'ai pas encore rien trouvé pour\nta protegée. Ils sont trop a la fois.\nCe soir je dois voir Ludwig Renn et\nKokoschka, ce moment vient de telephoner\nune vieille connaissance (que j'ai aucune\nenvie de renouveller) Schapiro. Mon\ncher, vous, peintres, musiciens, vous n'etes\npas tellement ébranlé par ce choc conti-\nnuel - moi; je ne trouve pas la possi-\nbilité de me concentrer, si on me verse\nchaque jour une nouvelle coupe de misère\nJ'ai bien recu ton Blaise et",
+          "transcription": "49, Hallamstreet W 1\nTELEPHONE TELEGRAMS\nBATH 3266. \"PUMPOTEL, BATH\"\n\n\nGRAND PUMP ROOM HOTEL,\nBATH.\nMon vieux, merci de ta lettre. Je reviens\nde Bath. J'ai pris la fuite. Je ne peux\nplus vivre ici. L'Angleterre est le seul\npays qui est ouvert encore aux refugés\net il y a un torrent; j'ai 3-4 visites\npar jour et je ne peux rien faire -\nje n'ai pas encore rien trouvé pour\nta protegée. Ils sont trop a la fois.\nCe soir je dois voir Ludwig Renn et\nKokoschka, ce moment vient de telephoner\nune vieux connaissance (que j'ai aucune\nenvie de renouveller) Schapiro. Mon\ncher, vous, peintres, musiciens, vous n'etes\npas tellement ébraulé par ce chose conti-\nnuel - moi; je ne trouve pas la possi-\nbilité de me concentrer, si on me verse\nchaque jour une nouvelle coupe de misère\nJ'ai bien recou ton Blaise et",
           "notes": "Handschriftlicher Brief von Stefan Zweig auf Briefpapier des Grand Pump Room Hotel, Bath. Die Tinte ist violett. Die Lesbarkeit ist gut.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "49, Hallamstreet W 1\n\nGRAND PUMP ROOM HOTEL,\nBATH.\nMon vieux, merci de ta lettre. Je reviens\nde Bath. J'ai pris la fuite. Je ne peux\nplus vivre ici. L'Angleterre est le seul\npays qui est ouvert encore aux refugés\net il y a un torrent; j'ai 3-4 visites\npar jour et je ne peux rien faire -\nje n'ai pas encore rien trouvé pour\nta protegée. Ils sont trop a la fois.\nCe soir je dois voir Ludwig Renn et\nKokoschka, ce moment vient de telephoner\nune vieille connaissance (que j'ai aucune\nenvie de renouveller) Schapiro. Mon\ncher, vous, peintres, musiciens, vous n'etes\npas tellement ébranlé par ce choc conti-\nnuel - moi; je ne trouve pas la possi-\nbilité de me concentrer, si on me verse\nchaque jour une nouvelle coupe de misère\nJ'ai bien recu ton Blaise et",
+          "edit_history": [
+            {
+              "original_transcription": "49, Hallamstreet W 1\n\nGRAND PUMP ROOM HOTEL,\nBATH.\nMon vieux, merci de ta lettre. Je reviens\nde Bath. J'ai pris la fuite. Je ne peux\nplus vivre ici. L'Angleterre est le seul\npays qui est ouvert encore aux refugés\net il y a un torrent; j'ai 3-4 visites\npar jour et je ne peux rien faire -\nje n'ai pas encore rien trouvé pour\nta protegée. Ils sont trop a la fois.\nCe soir je dois voir Ludwig Renn et\nKokoschka, ce moment vient de telephoner\nune vieille connaissance (que j'ai aucune\nenvie de renouveller) Schapiro. Mon\ncher, vous, peintres, musiciens, vous n'etes\npas tellement ébranlé par ce choc conti-\nnuel - moi; je ne trouve pas la possi-\nbilité de me concentrer, si on me verse\nchaque jour une nouvelle coupe de misère\nJ'ai bien recu ton Blaise et",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T12:04:18.683793+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "dû et je t'ai ecrit immediatement\n- est ce que ma lettre s'est perdu? Je\nn'oublie jamais mes amis, mon vieux,\nma helas, ces autres me font la vie\nimpossible. Il y a un mois que je n'ai\npas vu Freud ici, que je n'ai pas ecrit\na Rolland et tout a cause de cette\neternelle invasion.\nJ'ai bien envie de fuir, mais je ne\npeux quitter l'Angleterre pour quelques\nmois, parce j'espere d'obtenir enfin\nun passeport en regle; et je dois faire\nacte de presence jusqu'a cette date\nMerci d'avoir illustré mon\ncher maitre Erasme. Quel délicieux\nlivre! Mais il aurait de vanter assez\naujourdhui - jamais le monde\nn'etait pas si fou comme aujourdhui.\nToujours ton frère et ami\nStefan",
+          "transcription": "Noir et je t'ai ecrit immediatement\n- est ce que ma lettre s'est perdu? Je\nn'oublie jamais mes amis, mon vieux,\nma helas, ces autres me font la vie\nimpossible. Il y a un mois que je n'ai\npas vu Freud ici, que je n'ai pas ecrit\na Rolland et tout a cause de cette\neternelle invasion.\nJ'ai bien envie de fuir, mais je ne\npeux pas quitter l'Angleterre pour quelques\nmois, parce j'espere d'obtenir enfin\nun passeport en regle; et je dois faire\nacte de presence jusqu'a cette date\nMerci d'avoir illustré mon\ncher maitre Erasme. Quel délicieux\nlivre! Mais il aurait de vanter assez\naujourdhui - jamais le monde\nn'etait pas si fou comme aujourdhui.\nToujours ton frère et ami\nStefan\n[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
           "notes": "Fortsetzung des Briefes auf der Rückseite. Unten links befindet sich ein Ex Libris Stempel 'Christian Andree Ex Libris et Autographis'.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "dû et je t'ai ecrit immediatement\n- est ce que ma lettre s'est perdu? Je\nn'oublie jamais mes amis, mon vieux,\nma helas, ces autres me font la vie\nimpossible. Il y a un mois que je n'ai\npas vu Freud ici, que je n'ai pas ecrit\na Rolland et tout a cause de cette\neternelle invasion.\nJ'ai bien envie de fuir, mais je ne\npeux quitter l'Angleterre pour quelques\nmois, parce j'espere d'obtenir enfin\nun passeport en regle; et je dois faire\nacte de presence jusqu'a cette date\nMerci d'avoir illustré mon\ncher maitre Erasme. Quel délicieux\nlivre! Mais il aurait de vanter assez\naujourdhui - jamais le monde\nn'etait pas si fou comme aujourdhui.\nToujours ton frère et ami\nStefan",
+          "edit_history": [
+            {
+              "original_transcription": "dû et je t'ai ecrit immediatement\n- est ce que ma lettre s'est perdu? Je\nn'oublie jamais mes amis, mon vieux,\nma helas, ces autres me font la vie\nimpossible. Il y a un mois que je n'ai\npas vu Freud ici, que je n'ai pas ecrit\na Rolland et tout a cause de cette\neternelle invasion.\nJ'ai bien envie de fuir, mais je ne\npeux quitter l'Angleterre pour quelques\nmois, parce j'espere d'obtenir enfin\nun passeport en regle; et je dois faire\nacte de presence jusqu'a cette date\nMerci d'avoir illustré mon\ncher maitre Erasme. Quel délicieux\nlivre! Mais il aurait de vanter assez\naujourdhui - jamais le monde\nn'etait pas si fou comme aujourdhui.\nToujours ton frère et ami\nStefan",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T12:06:25.480316+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -27955,9 +28116,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1418,
+        "totalChars": 1526,
         "emptyPages": 0,
-        "avgCharsPerPage": 709,
+        "avgCharsPerPage": 763,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -27988,7 +28149,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T12:06:28.512225+00:00"
+      }
     },
     {
       "id": "o_szd.1642_gemini-3.1-flash-lite-preview",
@@ -28048,7 +28216,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T12:08:09.484931+00:00"
+      }
     },
     {
       "id": "o_szd.1643_gemini-3.1-flash-lite-preview",
@@ -28059,15 +28232,33 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Mon vieux - oui mon vieux!! - j'entends\nque tu est entré dans nos rangs, que tu\na passé la „quarantaine” et comptes deja\ncinquante ans, Net'effraye point! Souviens\ntoi ce que Hokusai disait, que a 80 ans\nil commencait a comprendre les lois du\ndessin, a 90 la beauté de la couleur, a\n100 ans la maitrise du pinceau!\nQuel taleté; notre monde! Je suis souvent\ndegouté et j'ai l'intention de m'acheter\n(peut-etre ici) un petit coin de terre et\nde „cultiver mon jardin”. Je viendrai en\nFrance des que j'aurai de nouveau un\npasseport (ce qui ne durera plus long-\ntemps) et je resterai deux mois près de\nParis. J'ai un travail a faire qui rend\nun sejour prolongé necessaire.",
+          "transcription": "Mon vieux - oui mon vieux!! - j'entends\nque tu est entré dans nos rangs, que tu\na passé la „quarantaine” et comptes deja\ncinquante ans, Ne t'effraye point! Souviens\ntoi ce que Hokusai disait, que a 80 ans\nil commencait a comprendre les lois du\ndessin, a 90 la beauté de la couleur, a\n100 ans la maitrise du pinceau!\nQuel taleté; notre monde! Je suis souvent\ndegouté et j'ai l'intention de m'acheter\n(peut-etre ici) un petit coin de terre et\nde „cultiver mon jardin”. Je viendrai en\nFrance des que j'aurai de nouveau un\npasseport (ce qui ne durera plus long-\ntemps) et je resterai deux mois près de\nParis. J'ai un travail a faire qui rend\nun sejour prolongé necessaire.",
           "notes": "Handschriftlicher Brief in violetter Tinte. Gut lesbar.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Mon vieux - oui mon vieux!! - j'entends\nque tu est entré dans nos rangs, que tu\na passé la „quarantaine” et comptes deja\ncinquante ans, Net'effraye point! Souviens\ntoi ce que Hokusai disait, que a 80 ans\nil commencait a comprendre les lois du\ndessin, a 90 la beauté de la couleur, a\n100 ans la maitrise du pinceau!\nQuel taleté; notre monde! Je suis souvent\ndegouté et j'ai l'intention de m'acheter\n(peut-etre ici) un petit coin de terre et\nde „cultiver mon jardin”. Je viendrai en\nFrance des que j'aurai de nouveau un\npasseport (ce qui ne durera plus long-\ntemps) et je resterai deux mois près de\nParis. J'ai un travail a faire qui rend\nun sejour prolongé necessaire.",
+          "edit_history": [
+            {
+              "original_transcription": "Mon vieux - oui mon vieux!! - j'entends\nque tu est entré dans nos rangs, que tu\na passé la „quarantaine” et comptes deja\ncinquante ans, Net'effraye point! Souviens\ntoi ce que Hokusai disait, que a 80 ans\nil commencait a comprendre les lois du\ndessin, a 90 la beauté de la couleur, a\n100 ans la maitrise du pinceau!\nQuel taleté; notre monde! Je suis souvent\ndegouté et j'ai l'intention de m'acheter\n(peut-etre ici) un petit coin de terre et\nde „cultiver mon jardin”. Je viendrai en\nFrance des que j'aurai de nouveau un\npasseport (ce qui ne durera plus long-\ntemps) et je resterai deux mois près de\nParis. J'ai un travail a faire qui rend\nun sejour prolongé necessaire.",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T12:09:49.424028+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "Ce mot seulement pour te dire que\nje ne t'oublie pas! Pour deux ans nous\nsommes encore dans la même ligne -\naprès cela j'aurai 60 ans. Je suis donc toujours\nun peu plus près de la mort et de\nl'imbecillité que toi et je tacherai de te\nmontrer, qu'on continue quant même.\nDonc, cher vieillard, je t'embrasse\net je suis impatient de te revoir et\nde causer de notre jeunesse et des\n„bons temps d'autrefois”! Ton copain\npour toujours\n\nStefan",
+          "transcription": "Ce mot seulement pour te dire que\nje ne t'oublie pas! Pour deux ans nous\nsommes encore dans la même ligne -\naprès cela j'aurai 60 ans. Je suis donc toujours\nun peu plus près de la mort et de\nl'imbecillité que toi et je tacherai de te\nmontrer, qu'on continue quant même.\nDonc, cher vieillard, je t'embrasse\net je suis impatient de te revoir et\nde causer de notre jeunesse et des\n„bons temps d'autrefois”! Ton copain\npour toujours\n\nStefan\n[Stempel: CHRISTIAN ANDREE EX LIBIRIS ET AUTOGRAPHIS]",
           "notes": "Handschriftlicher Brief in violetter Tinte. Am unteren Rand befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Ce mot seulement pour te dire que\nje ne t'oublie pas! Pour deux ans nous\nsommes encore dans la même ligne -\naprès cela j'aurai 60 ans. Je suis donc toujours\nun peu plus près de la mort et de\nl'imbecillité que toi et je tacherai de te\nmontrer, qu'on continue quant même.\nDonc, cher vieillard, je t'embrasse\net je suis impatient de te revoir et\nde causer de notre jeunesse et des\n„bons temps d'autrefois”! Ton copain\npour toujours\n\nStefan",
+          "edit_history": [
+            {
+              "original_transcription": "Ce mot seulement pour te dire que\nje ne t'oublie pas! Pour deux ans nous\nsommes encore dans la même ligne -\naprès cela j'aurai 60 ans. Je suis donc toujours\nun peu plus près de la mort et de\nl'imbecillité que toi et je tacherai de te\nmontrer, qu'on continue quant même.\nDonc, cher vieillard, je t'embrasse\net je suis impatient de te revoir et\nde causer de notre jeunesse et des\n„bons temps d'autrefois”! Ton copain\npour toujours\n\nStefan",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T12:10:30.483993+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -28075,9 +28266,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1103,
+        "totalChars": 1158,
         "emptyPages": 0,
-        "avgCharsPerPage": 552,
+        "avgCharsPerPage": 579,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28108,7 +28299,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T12:10:32.001152+00:00"
+      }
     },
     {
       "id": "o_szd.1644_gemini-3.1-flash-lite-preview",
@@ -28125,19 +28323,28 @@
         },
         {
           "page": 2,
-          "transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+          "transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\nton\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais)",
           "notes": "Fortsetzung des Briefes. Handschriftliche Ergänzungen in violetter Tinte: 'tou', 'Stefan Zweig', 'permanent' und 'Anglais[?]'. Am unteren Rand ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+          "edit_history": [
+            {
+              "original_transcription": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:42:00.754337+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind klar erkennbar. 'Anglais[?]' ist aufgrund der Handschrift leicht unsicher, aber im Kontext der Adressangabe sehr wahrscheinlich.",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1457,
+        "totalChars": 1454,
         "emptyPages": 0,
-        "avgCharsPerPage": 728,
+        "avgCharsPerPage": 727,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28168,7 +28375,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:42:04.018988+00:00"
+      }
     },
     {
       "id": "o_szd.1645_gemini-3.1-flash-lite-preview",
@@ -28237,9 +28451,18 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "c/o EDITORA GUANABARA\n~~WEISS MAN KOOGAN LTDA~~\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG.: EDIGUA - BRASIL\n\nRio de Janeiro, 23rd November 1940.\n\nMon cher ami,\n\nPar un détour via New York j'ai enfin appris ton adresse. Tu\npeux bien t'imaginer quelle joie c'était pour moi d'avoir de tes\nnouvelles. Moi-même j'ai quitté l'Angleterre à la fin de juin après\nles difficultés habituelles et maintenant je ne sais pas qué sont de-\nvan~~e~~ ma maison, mes livres et mes travaux commencés. {et} Contraire aux\nautres je suis allé ici au Brésil pour quelque temps, puis j'ai donné\ndes conférences littéraires en Argentine ce qui était même bien avan-\ntageux puisque j'y ai un grand public, et maintenant je suis rentré\nau Brésil que j'aime passionnément. Au point de vue paysage c'est le\nplus beau, le plus varié avec les plus belles couleurs locales qu'on\npuisse s'imaginer, et je me sens ici aussi bien que c'est possible\ndans ces temps terribles. En février quand il sera trop chaud ici,\nje pense aller aux Etats-Unis pour quelque temps et puis, si la guerre\nn'a pas encore fini, de rentrer ici. Je n'aime pas beaucoup Newyork,\noù maintenant toute l'émigration se rencontre, et où la vie est chère\net commerciale. Pour toi comme peintre c'est différent. Ici tu\nserais heureux, tu te sentirais merveilleusement inspiré, tu aimerais\nle pays et les hommes qui sont charmants. Seulement je crains que les\npossibilités de gagner de l'argent sont très limitées ici, excepté en\nArgentine où je pourrais toujours t'arranger une exposition. En tout\ncas je saurais pour tes livres a gravures si tu les as encore à\nta disposition, un libraire à Buenos Aires et une galerie. Je crois\nqu'on s'occupe de toi à Newyork et je ne doute pas qu'on aura du succès.\nSi toutefois tu préférerais de venir ici au Brésil, écris-moi et donne-\nmoi toutes les dates nécessaires de toi-même et de ta femme. Quoique\nc'est très difficile en général, je crois être sûr de pouvoir l'arran-\nger pour une personne de ta qualité. De notre ami Villeneuve-Vezelay\nje n'ai pas eu un mot. Je lui ai écrit mais je ne sais pas si ma lettre\nl'a trouvé. - Pardonne-moi la froideur semblante de cette lettre. Tu\nsais mes sentiments envers toi, mais il fallait être clair. Et toutes\nles autres choses nous laisserons jusqu'à notre réunion.\n\nDe tout coeur ton vieux\n\nStefan\n\n[Randnotiz links:]\nl'obtenir\nde visa",
+          "transcription": "c/o EDITORA GUANABARA\n~~WAISSMAN KOOGAN LTDA~~\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG.: EDIGUA - BRASIL\n\nRio de Janeiro, 23rd November 1940.\n\nMon cher ami,\n\nPar un détour via New York j'ai enfin appris ton adresse. Tu\npeux bien t'imaginer quelle joie c'était pour moi d'avoir de tes\nnouvelles. Moi-même j'ai quitté l'Angleterre à la fin de juin après\nles difficultés habituelles et maintenant je ne sais pas qué sont de-\nvan~~e~~ ma maison, mes livres et mes travaux commencés. Contraire aux\nautres je suis allé ici au Brésil pour quelque temps, puis j'ai donné\ndes conférences littéraires en Argentine ce qui était même bien avan-\ntageux puisque j'y ai un grand public, et maintenant je suis rentré\nau Brésil que j'aime passionnément. Au point de vue paysage c'est le\nplus beau, le plus varié avec les plus belles couleurs locales qu'on\npuisse s'imaginer, et je me sens ici aussi bien que c'est possible\ndans ces temps terribles. En février quand il sera trop chaud ici,\nje pense aller aux Etats-Unis pour quelque temps et puis, si la guerre\nn'a pas encore fini, de rentrer ici. Je n'aime pas beaucoup Newyork,\noù maintenant toute l'émigration se rencontre, et où la vie est chère\net commerciale. Pour toi comme peintre c'est différent. Ici tu\nserais heureux, tu te sentirais merveilleusement inspiré, tu aimerais\nle pays et les hommes qui sont charmants. Seulement je crains que les\npossibilités de gagner de l'argent sont très limitées ici, excepté en\nArgentine où je pourrais toujours t'arranger une exposition. En tout\ncas je saurais pour tes livres a gravures si tu les as encore à\nta disposition, un libraire à Buenos Aires et une galerie. Je crois\nqu'on s'occupe de toi à Newyork et je ne doute pas qu'on aura du succès.\nSi toutefois tu préférerais de venir ici au Brésil, écris-moi et donne-\nmoi toutes les dates nécessaires de toi-même et de ta femme. Quoique\nc'est très difficile en général [Randnotiz: d'obtenir de visa], je crois être sûr de pouvoir l'arran-\nger pour une personne de ta qualité. De notre ami Villeneuve-Vezelay\nje n'ai pas eu un mot. Je lui ai écrit mais je ne sais pas si ma lettre\nl'a trouvé. - Pardonne-moi la froideur semblante de cette lettre. Tu\nsais mes sentiments envers toi, mais il fallait être clair. Et toutes\nles autres choses nous laisserons jusqu'à notre réunion.\n\nDe tout coeur ton vieux\n\nStefan\n\n[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
           "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die Randnotiz links ist ebenfalls handschriftlich in violetter Tinte. Unten rechts ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "c/o EDITORA GUANABARA\n~~WEISS MAN KOOGAN LTDA~~\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG.: EDIGUA - BRASIL\n\nRio de Janeiro, 23rd November 1940.\n\nMon cher ami,\n\nPar un détour via New York j'ai enfin appris ton adresse. Tu\npeux bien t'imaginer quelle joie c'était pour moi d'avoir de tes\nnouvelles. Moi-même j'ai quitté l'Angleterre à la fin de juin après\nles difficultés habituelles et maintenant je ne sais pas qué sont de-\nvan~~e~~ ma maison, mes livres et mes travaux commencés. {et} Contraire aux\nautres je suis allé ici au Brésil pour quelque temps, puis j'ai donné\ndes conférences littéraires en Argentine ce qui était même bien avan-\ntageux puisque j'y ai un grand public, et maintenant je suis rentré\nau Brésil que j'aime passionnément. Au point de vue paysage c'est le\nplus beau, le plus varié avec les plus belles couleurs locales qu'on\npuisse s'imaginer, et je me sens ici aussi bien que c'est possible\ndans ces temps terribles. En février quand il sera trop chaud ici,\nje pense aller aux Etats-Unis pour quelque temps et puis, si la guerre\nn'a pas encore fini, de rentrer ici. Je n'aime pas beaucoup Newyork,\noù maintenant toute l'émigration se rencontre, et où la vie est chère\net commerciale. Pour toi comme peintre c'est différent. Ici tu\nserais heureux, tu te sentirais merveilleusement inspiré, tu aimerais\nle pays et les hommes qui sont charmants. Seulement je crains que les\npossibilités de gagner de l'argent sont très limitées ici, excepté en\nArgentine où je pourrais toujours t'arranger une exposition. En tout\ncas je saurais pour tes livres a gravures si tu les as encore à\nta disposition, un libraire à Buenos Aires et une galerie. Je crois\nqu'on s'occupe de toi à Newyork et je ne doute pas qu'on aura du succès.\nSi toutefois tu préférerais de venir ici au Brésil, écris-moi et donne-\nmoi toutes les dates nécessaires de toi-même et de ta femme. Quoique\nc'est très difficile en général, je crois être sûr de pouvoir l'arran-\nger pour une personne de ta qualité. De notre ami Villeneuve-Vezelay\nje n'ai pas eu un mot. Je lui ai écrit mais je ne sais pas si ma lettre\nl'a trouvé. - Pardonne-moi la froideur semblante de cette lettre. Tu\nsais mes sentiments envers toi, mais il fallait être clair. Et toutes\nles autres choses nous laisserons jusqu'à notre réunion.\n\nDe tout coeur ton vieux\n\nStefan\n\n[Randnotiz links:]\nl'obtenir\nde visa",
+          "edit_history": [
+            {
+              "original_transcription": "c/o EDITORA GUANABARA\n~~WEISS MAN KOOGAN LTDA~~\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG.: EDIGUA - BRASIL\n\nRio de Janeiro, 23rd November 1940.\n\nMon cher ami,\n\nPar un détour via New York j'ai enfin appris ton adresse. Tu\npeux bien t'imaginer quelle joie c'était pour moi d'avoir de tes\nnouvelles. Moi-même j'ai quitté l'Angleterre à la fin de juin après\nles difficultés habituelles et maintenant je ne sais pas qué sont de-\nvan~~e~~ ma maison, mes livres et mes travaux commencés. {et} Contraire aux\nautres je suis allé ici au Brésil pour quelque temps, puis j'ai donné\ndes conférences littéraires en Argentine ce qui était même bien avan-\ntageux puisque j'y ai un grand public, et maintenant je suis rentré\nau Brésil que j'aime passionnément. Au point de vue paysage c'est le\nplus beau, le plus varié avec les plus belles couleurs locales qu'on\npuisse s'imaginer, et je me sens ici aussi bien que c'est possible\ndans ces temps terribles. En février quand il sera trop chaud ici,\nje pense aller aux Etats-Unis pour quelque temps et puis, si la guerre\nn'a pas encore fini, de rentrer ici. Je n'aime pas beaucoup Newyork,\noù maintenant toute l'émigration se rencontre, et où la vie est chère\net commerciale. Pour toi comme peintre c'est différent. Ici tu\nserais heureux, tu te sentirais merveilleusement inspiré, tu aimerais\nle pays et les hommes qui sont charmants. Seulement je crains que les\npossibilités de gagner de l'argent sont très limitées ici, excepté en\nArgentine où je pourrais toujours t'arranger une exposition. En tout\ncas je saurais pour tes livres a gravures si tu les as encore à\nta disposition, un libraire à Buenos Aires et une galerie. Je crois\nqu'on s'occupe de toi à Newyork et je ne doute pas qu'on aura du succès.\nSi toutefois tu préférerais de venir ici au Brésil, écris-moi et donne-\nmoi toutes les dates nécessaires de toi-même et de ta femme. Quoique\nc'est très difficile en général, je crois être sûr de pouvoir l'arran-\nger pour une personne de ta qualité. De notre ami Villeneuve-Vezelay\nje n'ai pas eu un mot. Je lui ai écrit mais je ne sais pas si ma lettre\nl'a trouvé. - Pardonne-moi la froideur semblante de cette lettre. Tu\nsais mes sentiments envers toi, mais il fallait être clair. Et toutes\nles autres choses nous laisserons jusqu'à notre réunion.\n\nDe tout coeur ton vieux\n\nStefan\n\n[Randnotiz links:]\nl'obtenir\nde visa",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:45:14.329184+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
@@ -28253,9 +28476,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 2398,
+        "totalChars": 2439,
         "emptyPages": 1,
-        "avgCharsPerPage": 2398,
+        "avgCharsPerPage": 2439,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28286,7 +28509,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          1
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:45:20.623559+00:00"
+      }
     },
     {
       "id": "o_szd.1647_gemini-3.1-flash-lite-preview",
@@ -28297,9 +28527,18 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.",
+          "transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\n[Stempel: 134 | III] \nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.\n[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
           "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichen Korrekturen/Ergänzungen. Stempel '124 III' oben mittig. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' unten mittig.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.",
+          "edit_history": [
+            {
+              "original_transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:46:24.984653+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
@@ -28313,9 +28552,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1454,
+        "totalChars": 1529,
         "emptyPages": 1,
-        "avgCharsPerPage": 1454,
+        "avgCharsPerPage": 1529,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28346,7 +28585,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          1
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:46:27.680142+00:00"
+      }
     },
     {
       "id": "o_szd.1648_gemini-3.1-flash-lite-preview",
@@ -28357,15 +28603,33 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "c/o Editora Guanabara Rio de Janeiro\n132 rua Ouvidor\n\n1. August 1941\n\nMon cher Frans, je reçois ici a New York la lettre du\n14. VI - justement deux jours avant que je veux\nretourner a Rio. J'avais une longue correspondance\navec l'ambassadeur de ~~[...10...]~~ {Colombie} a Buenos Aires qui est un ami personnel de moi et\nqui a reçu par le President de la Colombie l'auto-\nlement le refuse que ton visa pour la Colombie est\naccordé et le consul de Marseille le te donnera a toi\net a ta femme, Monsieur Engel était le premier de suggérer\ncette possibilite et il l'a telegrafi. Mon vieux, je sais\nque la Colombie est loin et assez petit, mais il fallait\nte procurer un visa en hate et tu pourras avoir des travail\nvisas pour le Brésil ou l'Argentine avec cela. Mais je\nserai dans un mois au Brésil et je veux presque pro-\nmettre que tu auras la aussi un visa - tache d'avoir\njusqu'a present un transit visa Portugal - Brésil, si tu\nsera la' j'ai assez de puissance pour te procurer un visa\ndurable. Et quel merveilleux pays! Quels possibilités! J'es-\npere de pouvoir rester la bas - on ne sait jamais\njusqu'a la derniere heure, si rien n'arrive. Je suis\ntres déprimé, tres fatigué. J'ai ecrit une autobiografie\navec les souvenirs de toi aussi, mais quand pourra-t-on\nvivre, travailler de nouveau. Mon vieux, sois sure que\nje ferai pour toi tout le possible. Ma femme et Frederique\nque nous avons vu hier t'envoient leurs meilleurs amitiés a\ntous deux, Ton\nBis tous les amitiés a Vezelay! Stefan",
+          "transcription": "c/o Editora Guanabara Rio de Janeiro\n132 rua Ouvidor\n\n1. August 1941\n\nMon cher Frans, je reçois ici a New York la lettre du\n14. VI - justement deux jours avant que je veux\nretourner a Rio. J'avais une longue correspondance\navec l'ambassadeur de ~~[...10...]~~ Colom\nbia a Buenos Aires qui est un ami personnel de moi et\nqui a reçu par le President de la Colombie l'auto-\nlement le refuse que ton visa pour la Colombie est\naccordé et le consul de Marseille le te donnera a toi\net a ta femme, Monsieur Engel était le premier de suggérer\ncette possibilite et il l'a telegrafi. Mon vieux, je sais\nque la Colombie est loin et assez petit, mais il fallait\nte procurer un visa en hate et tu pourras avoir des travail\nvisas pour le Brésil ou l'Argentine avec cela. Mais je\nserai dans un mois au Brésil et je veux presque pro-\nmettre que tu auras la aussi un visa - tache d'avoir\njusqu'a present un transit visa Portugal - Brésil, si tu\nsera la' j'ai assez de puissance pour te procurer un visa\ndurable. Et quel merveilleux pays! Quels possibilités! J'es-\npere de pouvoir rester la bas - on ne sait jamais\njusqu'a la derniere heure, si rien n'arrive. Je suis\ntres déprimé, tres fatigué. J'ai ecrit une autobiografie\navec les souvenirs de toi aussi, mais quand pourra-t-on\nvivre, travailler de nouveau. Mon vieux, sois sure que\nje ferai pour toi tout le possible. Ma femme et Frederique\nque nous avons vu hier t'envoient leurs meilleurs amitiés a\ntous deux, Ton\nDis tous les amitiés a Vezelay! Stefan",
           "notes": "Handschriftlicher Brief in französischer Sprache. Ein Stempel 'CHRISTIAN M. NEBEHAY EX LIBRIS ET AUTOGRAPHIS' ist unten mittig platziert. Die Tinte ist violett.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "c/o Editora Guanabara Rio de Janeiro\n132 rua Ouvidor\n\n1. August 1941\n\nMon cher Frans, je reçois ici a New York la lettre du\n14. VI - justement deux jours avant que je veux\nretourner a Rio. J'avais une longue correspondance\navec l'ambassadeur de ~~[...10...]~~ {Colombie} a Buenos Aires qui est un ami personnel de moi et\nqui a reçu par le President de la Colombie l'auto-\nlement le refuse que ton visa pour la Colombie est\naccordé et le consul de Marseille le te donnera a toi\net a ta femme, Monsieur Engel était le premier de suggérer\ncette possibilite et il l'a telegrafi. Mon vieux, je sais\nque la Colombie est loin et assez petit, mais il fallait\nte procurer un visa en hate et tu pourras avoir des travail\nvisas pour le Brésil ou l'Argentine avec cela. Mais je\nserai dans un mois au Brésil et je veux presque pro-\nmettre que tu auras la aussi un visa - tache d'avoir\njusqu'a present un transit visa Portugal - Brésil, si tu\nsera la' j'ai assez de puissance pour te procurer un visa\ndurable. Et quel merveilleux pays! Quels possibilités! J'es-\npere de pouvoir rester la bas - on ne sait jamais\njusqu'a la derniere heure, si rien n'arrive. Je suis\ntres déprimé, tres fatigué. J'ai ecrit une autobiografie\navec les souvenirs de toi aussi, mais quand pourra-t-on\nvivre, travailler de nouveau. Mon vieux, sois sure que\nje ferai pour toi tout le possible. Ma femme et Frederique\nque nous avons vu hier t'envoient leurs meilleurs amitiés a\ntous deux, Ton\nBis tous les amitiés a Vezelay! Stefan",
+          "edit_history": [
+            {
+              "original_transcription": "c/o Editora Guanabara Rio de Janeiro\n132 rua Ouvidor\n\n1. August 1941\n\nMon cher Frans, je reçois ici a New York la lettre du\n14. VI - justement deux jours avant que je veux\nretourner a Rio. J'avais une longue correspondance\navec l'ambassadeur de ~~[...10...]~~ {Colombie} a Buenos Aires qui est un ami personnel de moi et\nqui a reçu par le President de la Colombie l'auto-\nlement le refuse que ton visa pour la Colombie est\naccordé et le consul de Marseille le te donnera a toi\net a ta femme, Monsieur Engel était le premier de suggérer\ncette possibilite et il l'a telegrafi. Mon vieux, je sais\nque la Colombie est loin et assez petit, mais il fallait\nte procurer un visa en hate et tu pourras avoir des travail\nvisas pour le Brésil ou l'Argentine avec cela. Mais je\nserai dans un mois au Brésil et je veux presque pro-\nmettre que tu auras la aussi un visa - tache d'avoir\njusqu'a present un transit visa Portugal - Brésil, si tu\nsera la' j'ai assez de puissance pour te procurer un visa\ndurable. Et quel merveilleux pays! Quels possibilités! J'es-\npere de pouvoir rester la bas - on ne sait jamais\njusqu'a la derniere heure, si rien n'arrive. Je suis\ntres déprimé, tres fatigué. J'ai ecrit une autobiografie\navec les souvenirs de toi aussi, mais quand pourra-t-on\nvivre, travailler de nouveau. Mon vieux, sois sure que\nje ferai pour toi tout le possible. Ma femme et Frederique\nque nous avons vu hier t'envoient leurs meilleurs amitiés a\ntous deux, Ton\nBis tous les amitiés a Vezelay! Stefan",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:49:02.302432+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
-          "transcription": "",
+          "transcription": "[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
           "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
-          "type": "blank"
+          "type": "blank",
+          "transcription_llm": "",
+          "edit_history": [
+            {
+              "original_transcription": "",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:49:27.081518+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -28373,9 +28637,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 1,
-        "totalChars": 1491,
-        "emptyPages": 1,
-        "avgCharsPerPage": 1491,
+        "totalChars": 1542,
+        "emptyPages": 0,
+        "avgCharsPerPage": 771,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28406,7 +28670,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:49:29.868708+00:00"
+      }
     },
     {
       "id": "o_szd.1649_gemini-3.1-flash-lite-preview",
@@ -28423,9 +28694,18 @@
         },
         {
           "page": 2,
-          "transcription": "",
+          "transcription": "[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
           "notes": "Rückseite des Dokuments, leer (abgesehen von durchscheinendem Text der Vorderseite).",
-          "type": "blank"
+          "type": "blank",
+          "transcription_llm": "",
+          "edit_history": [
+            {
+              "original_transcription": "",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:50:09.611806+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -28433,9 +28713,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1021,
-        "emptyPages": 1,
-        "avgCharsPerPage": 1021,
+        "totalChars": 1073,
+        "emptyPages": 0,
+        "avgCharsPerPage": 536,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28467,7 +28747,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:50:12.497821+00:00"
+      }
     },
     {
       "id": "o_szd.1650_gemini-3.1-flash-lite-preview",
@@ -28478,9 +28765,18 @@
       "pages": [
         {
           "page": 1,
-          "transcription": "Adresse télégraphique:\nRomains Saint-Avertin\n\nLe 20 Août 1937.\n\nMon cher Ami,\n\nDepuis ma lettre du 5 Août, j'ai reçu des\nrenseignements sur les gens qui ont l'intention\nde porter \"Volpone\" à l'écran. Je crois que ce\nsont des gens d'une certaine moralité, et qu'ils\ndésirent agir honnêtement.\n\nJ'ai reçu la visite de l'homme qu'ils ont\nchargé de la rédaction du scenario, que je con-\nnaissais déjà par ailleurs, et qui est un auteur\ndramatique honorable, André Lang. J'ajoute qu'il\nmanifeste un respect sincère pour vous comme pour\nmoi, et qu'il ne voudrait rien faire qui pût lui\nfaire perdre notre estime.\n\nLa situation, telle qu'il me l'a présentée,\nest la suivante: Ils se flattent de tourner un\n\"Volpone\" entièrement tiré de Ben Jonson et de\nleur imagination, sans recourir aucunement, s'il\nen est besoin, à notre pièce. Et, comme ils sont\nprévenus de notre vigilance, ils mettront toute\nleur attention à éviter des emprunts, même si\nleur film devait en souffrir quelque peu, et à\nprêter le flanc à des réclamations ou à un procès\nde notre part.\n\nToutefois, comme ils se rendent compte que,\npour faire un film intéressant, il serait préfé-\nrable qu'ils pussent utiliser quelques-unes des\nsituations de notre pièce; et comme d'autre part,\nje le répète, ils préfèrent agir proprement en-\nvers nous, ils m'ont proposé la combinaison sui-\nvante:\n\nDans le budget qu'ils ont établi pour la\nréalisation de leur film, ils n'ont pas prévu\nune somme suffisante pour pouvoir ~~effectuer~~ obtenir\nde ~~eux~~ nous une cession normale et complète des\ndroits. Ils se proposent donc d'acheter seulement\nnotre accord à la réalisation du film, la pro-\nmesse que nous ne leur ferons pas d'ennuis, et\nla possibilité d'utiliser éventuellement quelques\nsituations de notre pièce, ainsi que quelques\nrépliques de mon dialogue français. (tout cela à petite\ndose).\nLa somme qu'ils offrent pour cela est extrê-",
+          "transcription": "Adresse télégraphique:\nRomains Saint-Avertin\n\nGRANDCOUR\nSAINT AVERTIN\n(INDRE ET LOIRE)\nLe 20 Août 1937.\n\nMon cher Ami,\n\nDepuis ma lettre du 5 Août, j'ai reçu des\nrenseignements sur les gens qui ont l'intention\nde porter \"Volpone\" à l'écran. Je crois que ce\nsont des gens d'une certaine moralité, et qu'ils\ndésirent agir honnêtement.\n\nJ'ai reçu la visite de l'homme qu'ils ont\nchargé de la rédaction du scenario, que je con-\nnaissais déjà par ailleurs, et qui est un auteur\ndramatique honorable, André Lang. J'ajoute qu'il\nmanifeste un respect sincère pour vous comme pour\nmoi, et qu'il ne voudrait rien faire qui pût lui\nfaire perdre notre estime.\n\nLa situation, telle qu'il me l'a présentée,\nest la suivante: Ils se flattent de tourner un\n\"Volpone\" entièrement tiré de Ben Jonson et de\nleur imagination, sans recourir aucunement, s'il\nen est besoin, à notre pièce. Et, comme ils sont\nprévenus de notre vigilance, ils mettront toute\nleur attention à éviter des emprunts, même si\nleur film devait en souffrir quelque peu, et à\nprêter le flanc à des réclamations ou à un procès\nde notre part.\n\nToutefois, comme ils se rendent compte que,\npour faire un film intéressant, il serait préfé-\nrable qu'ils pussent utiliser quelques-unes des\nsituations de notre pièce; et comme d'autre part,\nje le répète, ils préfèrent agir proprement en-\nvers nous, ils m'ont proposé la combinaison sui-\nvante:\n\nDans le budget qu'ils ont établi pour la\nréalisation de leur film, ils n'ont pas prévu\nune somme suffisante pour pouvoir ~~effectuer~~ obtenir\nde ~~eux~~ nous une cession normale et complète des\ndroits. Ils se proposent donc d'acheter seulement\nnotre accord à la réalisation du film, la pro-\nmesse que nous ne leur ferons pas d'ennuis, et\nla possibilité d'utiliser éventuellement quelques\nsituations de notre pièce, ainsi que quelques\nrépliques de mon dialogue français. (tout cela à petite\ndose).\nLa somme qu'ils offrent pour cela est extrê-",
           "notes": "Typoskript mit handschriftlichen Korrekturen (durchgestrichen und eingefügt). Briefkopf gedruckt.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Adresse télégraphique:\nRomains Saint-Avertin\n\nLe 20 Août 1937.\n\nMon cher Ami,\n\nDepuis ma lettre du 5 Août, j'ai reçu des\nrenseignements sur les gens qui ont l'intention\nde porter \"Volpone\" à l'écran. Je crois que ce\nsont des gens d'une certaine moralité, et qu'ils\ndésirent agir honnêtement.\n\nJ'ai reçu la visite de l'homme qu'ils ont\nchargé de la rédaction du scenario, que je con-\nnaissais déjà par ailleurs, et qui est un auteur\ndramatique honorable, André Lang. J'ajoute qu'il\nmanifeste un respect sincère pour vous comme pour\nmoi, et qu'il ne voudrait rien faire qui pût lui\nfaire perdre notre estime.\n\nLa situation, telle qu'il me l'a présentée,\nest la suivante: Ils se flattent de tourner un\n\"Volpone\" entièrement tiré de Ben Jonson et de\nleur imagination, sans recourir aucunement, s'il\nen est besoin, à notre pièce. Et, comme ils sont\nprévenus de notre vigilance, ils mettront toute\nleur attention à éviter des emprunts, même si\nleur film devait en souffrir quelque peu, et à\nprêter le flanc à des réclamations ou à un procès\nde notre part.\n\nToutefois, comme ils se rendent compte que,\npour faire un film intéressant, il serait préfé-\nrable qu'ils pussent utiliser quelques-unes des\nsituations de notre pièce; et comme d'autre part,\nje le répète, ils préfèrent agir proprement en-\nvers nous, ils m'ont proposé la combinaison sui-\nvante:\n\nDans le budget qu'ils ont établi pour la\nréalisation de leur film, ils n'ont pas prévu\nune somme suffisante pour pouvoir ~~effectuer~~ obtenir\nde ~~eux~~ nous une cession normale et complète des\ndroits. Ils se proposent donc d'acheter seulement\nnotre accord à la réalisation du film, la pro-\nmesse que nous ne leur ferons pas d'ennuis, et\nla possibilité d'utiliser éventuellement quelques\nsituations de notre pièce, ainsi que quelques\nrépliques de mon dialogue français. (tout cela à petite\ndose).\nLa somme qu'ils offrent pour cela est extrê-",
+          "edit_history": [
+            {
+              "original_transcription": "Adresse télégraphique:\nRomains Saint-Avertin\n\nLe 20 Août 1937.\n\nMon cher Ami,\n\nDepuis ma lettre du 5 Août, j'ai reçu des\nrenseignements sur les gens qui ont l'intention\nde porter \"Volpone\" à l'écran. Je crois que ce\nsont des gens d'une certaine moralité, et qu'ils\ndésirent agir honnêtement.\n\nJ'ai reçu la visite de l'homme qu'ils ont\nchargé de la rédaction du scenario, que je con-\nnaissais déjà par ailleurs, et qui est un auteur\ndramatique honorable, André Lang. J'ajoute qu'il\nmanifeste un respect sincère pour vous comme pour\nmoi, et qu'il ne voudrait rien faire qui pût lui\nfaire perdre notre estime.\n\nLa situation, telle qu'il me l'a présentée,\nest la suivante: Ils se flattent de tourner un\n\"Volpone\" entièrement tiré de Ben Jonson et de\nleur imagination, sans recourir aucunement, s'il\nen est besoin, à notre pièce. Et, comme ils sont\nprévenus de notre vigilance, ils mettront toute\nleur attention à éviter des emprunts, même si\nleur film devait en souffrir quelque peu, et à\nprêter le flanc à des réclamations ou à un procès\nde notre part.\n\nToutefois, comme ils se rendent compte que,\npour faire un film intéressant, il serait préfé-\nrable qu'ils pussent utiliser quelques-unes des\nsituations de notre pièce; et comme d'autre part,\nje le répète, ils préfèrent agir proprement en-\nvers nous, ils m'ont proposé la combinaison sui-\nvante:\n\nDans le budget qu'ils ont établi pour la\nréalisation de leur film, ils n'ont pas prévu\nune somme suffisante pour pouvoir ~~effectuer~~ obtenir\nde ~~eux~~ nous une cession normale et complète des\ndroits. Ils se proposent donc d'acheter seulement\nnotre accord à la réalisation du film, la pro-\nmesse que nous ne leur ferons pas d'ennuis, et\nla possibilité d'utiliser éventuellement quelques\nsituations de notre pièce, ainsi que quelques\nrépliques de mon dialogue français. (tout cela à petite\ndose).\nLa somme qu'ils offrent pour cela est extrê-",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:50:53.735323+00:00",
+              "source": "human"
+            }
+          ]
         },
         {
           "page": 2,
@@ -28494,9 +28790,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 3916,
+        "totalChars": 3957,
         "emptyPages": 0,
-        "avgCharsPerPage": 1958,
+        "avgCharsPerPage": 1978,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -28527,7 +28823,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          1
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:51:47.588249+00:00"
+      }
     },
     {
       "id": "o_szd.1651_gemini-3.1-flash-lite-preview",
@@ -28603,7 +28906,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:52:52.798276+00:00"
+      }
     },
     {
       "id": "o_szd.1652_gemini-3.1-flash-lite-preview",
@@ -28663,7 +28971,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:53:06.432206+00:00"
+      }
     },
     {
       "id": "o_szd.1653_gemini-3.1-flash-lite-preview",
@@ -28723,7 +29036,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:53:34.406849+00:00"
+      }
     },
     {
       "id": "o_szd.1654_gemini-3.1-flash-lite-preview",
@@ -30071,9 +30389,18 @@
         },
         {
           "page": 2,
-          "transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+          "transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\nLA DOUCE FRANCE\n103 COTE D'AZUR \nMONTE-CARLO (Alpes Maritimes)\nVue prise des Jardins de Monaco\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
           "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarken und Poststempel vorhanden. Die Adresse ist an Stefan Zweig gerichtet.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+          "edit_history": [
+            {
+              "original_transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:55:03.267397+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -30081,9 +30408,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 328,
+        "totalChars": 424,
         "emptyPages": 0,
-        "avgCharsPerPage": 164,
+        "avgCharsPerPage": 212,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -30115,7 +30442,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:55:06.741736+00:00"
+      }
     },
     {
       "id": "o_szd.1677_gemini-3.1-flash-lite-preview",
@@ -30937,19 +31271,34 @@
         },
         {
           "page": 2,
-          "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+          "transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nsende [?]\nliebsten Grüßen! Alles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nLinzerstrasse 16",
           "notes": "Rückseite der Postkarte. Gedruckter Informationstext und handschriftliche Adresse/Nachricht in violett. Poststempel 'SAN FRANCISCO FEB 8 1939' vorhanden.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+          "edit_history": [
+            {
+              "original_transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nRingerstrasse 16",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:57:41.405826+00:00",
+              "source": "human"
+            },
+            {
+              "original_transcription": "BRIDGING THE GOLDEN GATE\nThis view from San Francisco toward the\nMarin Shore, shows the Golden Gate Bridge\nwhich cost $35,000,000. Length of main struc-\nture 8940 feet. Height of towers above water\n746 feet. Minimum vertical clearance above\nmean high water is 220 feet. Main span\n4200 feet. Total width 90 feet, divided into\nsix lanes for vehicular traffic and two ten\nand a half foot side walks. This is the lar-\ngest single span bridge of its kind in the\nworld. The grand total length including ap-\nproaches embraced within the project is seven\nmiles.\n\nLiebe Frau Meingast, vom\nandern Ende der Welt\nsende [?]\nherzliche Grüße!\nAlles Gute!\nSan Francisco\n\"Pictorial Wonderland\"\n\nAnna Meingast\nSalzburg (Germany)\nLinzerstrasse 16",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T13:58:29.870395+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
       "confidenceNotes": "Der Text ist sehr gut lesbar, sowohl der gedruckte Teil als auch die handschriftliche Nachricht.",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 858,
+        "totalChars": 868,
         "emptyPages": 0,
-        "avgCharsPerPage": 429,
+        "avgCharsPerPage": 434,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -30981,7 +31330,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T13:58:31.615124+00:00"
+      }
     },
     {
       "id": "o_szd.1692_gemini-3.1-flash-lite-preview",
@@ -39577,9 +39933,18 @@
         },
         {
           "page": 2,
-          "transcription": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+          "transcription": "Envoi de M\nCorrespondance\nParis 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa [Bazalgette]\nEcrivez donc, ne faites\npas le muet! Mille\namitiés\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nAdresse\nMs. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
           "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarken und Poststempel vorhanden.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+          "edit_history": [
+            {
+              "original_transcription": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T14:00:35.424552+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -39587,9 +39952,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 362,
+        "totalChars": 374,
         "emptyPages": 0,
-        "avgCharsPerPage": 181,
+        "avgCharsPerPage": 187,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -39621,7 +39986,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T14:00:39.778072+00:00"
+      }
     },
     {
       "id": "o_szd.379_gemini-3.1-flash-lite-preview",
@@ -40255,9 +40627,18 @@
         },
         {
           "page": 2,
-          "transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+          "transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette\n\nMs. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(Autriche)",
           "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Adressfeld enthält: 'M. Stefan Zweig, Kapuzinerberg 5, Salzburg' sowie 'Autriche'. Briefmarken und Poststempel vorhanden.",
-          "type": "content"
+          "type": "content",
+          "transcription_llm": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+          "edit_history": [
+            {
+              "original_transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+              "edited_by": "Julia Hintersteiner",
+              "edited_at": "2026-08-07T14:02:05.374848+00:00",
+              "source": "human"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -40265,9 +40646,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 302,
+        "totalChars": 356,
         "emptyPages": 0,
-        "avgCharsPerPage": 151,
+        "avgCharsPerPage": 178,
         "vlmConfidence": "high"
       },
       "quality_signals": {
@@ -40299,7 +40680,14 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [
+          2
+        ],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-08-07T14:02:05.852714+00:00"
+      }
     },
     {
       "id": "o_szd.390_gemini-3.1-flash-lite-preview",

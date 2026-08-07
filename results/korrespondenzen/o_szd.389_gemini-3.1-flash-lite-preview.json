@@ -23,9 +23,18 @@
       },
       {
         "page": 2,
-        "transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+        "transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette\n\nMs. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(Autriche)",
         "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Adressfeld enthält: 'M. Stefan Zweig, Kapuzinerberg 5, Salzburg' sowie 'Autriche'. Briefmarken und Poststempel vorhanden.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+        "edit_history": [
+          {
+            "original_transcription": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T14:02:05.374848+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -70,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T14:02:05.852714+00:00"
   }
 }

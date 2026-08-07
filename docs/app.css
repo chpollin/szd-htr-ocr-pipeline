@@ -1942,7 +1942,69 @@ body.view-stats #help { display: none; }
   white-space: pre-wrap;
 }
 
-.viewer__transcription del { color: var(--sz-text-light); text-decoration: line-through; }
+/* Transkriptions-Markup (Annotationsprotokoll §3, gerendert in app.js).
+   Zurueckhaltend gehalten: die Marker sollen beim Gegenlesen auffindbar sein,
+   ohne den Textfluss des Faksimiles zu ueberlagern. */
+.viewer__transcription del,
+.viewer__transcription .tm-del { color: var(--sz-text-light); text-decoration: line-through; }
+
+/* Einfuegung: hochgestellter Winkel wie im Manuskript, kein Unterstrich-Default */
+.viewer__transcription .tm-add {
+  text-decoration: none;
+  color: var(--sz-burgundy);
+  background: rgba(194, 163, 96, 0.18);
+  border-radius: 2px;
+  padding: 0 0.1em;
+}
+.viewer__transcription .tm-add::before,
+.viewer__transcription .tm-add::after {
+  content: '\2038';           /* Caret — Einfuegezeichen */
+  color: var(--sz-gold);
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+}
+
+/* Geschweifte Klammer, die der Export NICHT als Einfuegung wertet (VLM-Rauschen) */
+.viewer__transcription .tm-brace {
+  color: var(--sz-text-light);
+  border-bottom: 1px dotted var(--sz-text-light);
+}
+
+.viewer__transcription .tm-unclear {
+  border-bottom: 1px dashed var(--sz-warning);
+  cursor: help;
+}
+
+.viewer__transcription .tm-gap {
+  color: var(--sz-warning);
+  background: var(--sz-warning-bg);
+  border-radius: 2px;
+  padding: 0 0.15em;
+  font-size: 0.9em;
+}
+
+/* Gedreht geschriebener Text (Protokoll §3.7) — Befund anzeigen, nicht nachahmen */
+.viewer__transcription .tm-rot {
+  display: inline-block;
+  border-left: 2px solid var(--sz-gold);
+  padding-left: 0.5em;
+  color: var(--sz-text);
+}
+.viewer__transcription .tm-rot__sym {
+  color: var(--sz-gold);
+  margin-right: 0.4em;
+  cursor: help;
+}
+
+.viewer__transcription .tm-note {
+  display: inline-block;
+  color: var(--sz-text-light);
+  background: var(--sz-cream);
+  border: 1px solid var(--sz-border);
+  border-radius: 3px;
+  padding: 0 0.35em;
+  font-size: 0.85em;
+}
 
 .viewer__transcription-edit {
   width: 100%;

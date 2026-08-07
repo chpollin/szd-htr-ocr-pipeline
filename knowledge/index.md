@@ -32,6 +32,10 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 - [[dia-xai-integration]] — EQUALIS-Mapping: SZD-HTR → DIA-XAI
 - [[stats-dashboard]] — Statistik-Dashboard: Visualisierungen, Metrik-Definitionen, Katalog-UI, Literatur
 
+## Rollen und Arbeitsteilung
+
+- [[expert-in-the-loop]] — Wo ist welche Expertise noetig: technisch, palaeographisch, prosopographisch, editorisch
+
 ## Sicherheit
 
 - [[security]] — Security Review: Threat Model, verifizierte Findings, Fix-Tracker

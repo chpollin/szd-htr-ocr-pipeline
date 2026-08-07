@@ -16,15 +16,33 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+        "transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[Mais que fonde]~~ -\nJe suis le dernier d'être ingrat vers un ami del Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
         "notes": "Handschriftlicher Brief in französischer Sprache. Unten mittig ein Prägestempel 'EX LIBRIS'.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+        "edit_history": [
+          {
+            "original_transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:59:47.851549+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
-        "transcription": "",
+        "transcription": "[Stempel: CHRISTIAN ANDREE EX LIBIRIS ET AUTOGRAPHIS]",
         "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand.",
-        "type": "blank"
+        "type": "blank",
+        "transcription_llm": "",
+        "edit_history": [
+          {
+            "original_transcription": "",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T12:00:54.581689+00:00",
+            "source": "human"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -61,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T12:00:56.699050+00:00"
   }
 }

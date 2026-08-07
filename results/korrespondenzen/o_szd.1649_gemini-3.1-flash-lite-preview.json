@@ -23,9 +23,18 @@
       },
       {
         "page": 2,
-        "transcription": "",
+        "transcription": "[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
         "notes": "Rückseite des Dokuments, leer (abgesehen von durchscheinendem Text der Vorderseite).",
-        "type": "blank"
+        "type": "blank",
+        "transcription_llm": "",
+        "edit_history": [
+          {
+            "original_transcription": "",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T13:50:09.611806+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -70,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T13:50:12.497821+00:00"
   }
 }

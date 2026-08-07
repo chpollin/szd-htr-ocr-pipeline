@@ -16,15 +16,33 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+        "transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\nOtto Tressl\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\n[Stempel: 22 AUG 1938]\n",
         "notes": "Die Rückseite der Postkarte (Nachrichtenseite). Der Text besteht aus einem gedruckten deutschen Teil und einer handschriftlichen englischen Übersetzung. Ein Stempel '22 AUG 1938' ist sichtbar. Die Unterschrift 'Otto Tressl' ist handschriftlich.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+        "edit_history": [
+          {
+            "original_transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:53:51.391607+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
-        "transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+        "transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\nMr. Desmond Flower\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\n",
         "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlichen Ergänzungen (Absender, Empfängername 'Mr. Desmond Flower'). Drei Briefmarken 'Deutsches Reich' (5 Pfennig) sind aufgeklebt und gestempelt.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+        "edit_history": [
+          {
+            "original_transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:56:38.384981+00:00",
+            "source": "human"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -61,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T11:58:06.543330+00:00"
   }
 }
