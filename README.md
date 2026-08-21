@@ -7,7 +7,7 @@ VLM-based handwritten text recognition (HTR) and OCR for the Stefan Zweig estate
 
 **[Live Viewer & Catalogue](https://chpollin.github.io/szd-htr-ocr-pipeline/)** — browse all transcriptions with facsimile comparison, quality signals, and search.
 
-The project's final report is documented in [`PAPER.md`](PAPER.md).
+The project's final report is documented in [`paper/PAPER.md`](paper/PAPER.md), with its evidence base in [`paper/PAPER-FINDINGS.md`](paper/PAPER-FINDINGS.md).
 
 ## Approach
 
@@ -19,6 +19,25 @@ The pipeline combines a 4-layer prompt system with automated quality assessment:
 4. **Verification** — Cross-model consensus (Flash Lite + Flash + Claude as judge) and agent-based checks comparing transcription against the facsimile images.
 
 Diplomatic transcription without normalisation. Markup: `[?]` uncertain, `[...]` illegible, `~~...~~` struck through, `{...}` insertion.
+
+## Trust tiers and verification provenance
+
+Every object records how far it has been checked and by which instance. Four tiers live in the `review` block of the result JSON. They are stored states, never derived from a score.
+
+| Tier | `review.status` | Source | Visual |
+|---|---|---|---|
+| 0 | `gt_verified` | Character-exact human verification against the facsimile, ground-truth capable | dark green |
+| 1 | `approved` | Human expert review in the workspace | green |
+| 2 | `agent_verified` | Claude Vision sub-agent compares each page against its image | slate |
+| 3 | no `review` block | Machine transcription only, not yet checked | gray, amber when flagged |
+
+`needs_review` from the quality signals is not a tier. It is a triage hint inside tier 3, set by seven rule-based signals, and it says what to look at first rather than how reliable a text is. The display layer (`docs/app.js`) groups tiers 0 and 1 as "human-checked"; the stored values keep them apart.
+
+**Machine states survive human correction.** On the first edit of a page, `pipeline/serve.py` writes the raw model output once into `transcription_llm` and appends an entry to that page's `edit_history` carrying the text before the change, the timestamp, and a `source` field that separates human from agent corrections. `transcription` holds the current working text. Because the machine state is preserved, every human correction doubles as a CER measurement against the raw output (`pipeline/report_cer_from_edits.py`, report in `reports/cer-from-edits.md`).
+
+**No single confidence value.** The checking tier, the model's own categorical confidence (`result.confidence`, high/medium/low) and the rule-based quality signals remain separate fields in the data and separate filters in the viewer. Nothing in the pipeline combines them into one number. Categorical rather than numeric confidence was an early project decision, taken because the models do not assess their own output reliably on a numeric scale.
+
+As things stand, tiers 1 and 2 are populated in the committed data. Tier 0 is implemented end to end, as the GT Verify action in the viewer and as an accepted status in the review API, and no object carries it yet. Live counts per tier are in `docs/catalog.json`; the tests pinning the transitions are in `tests/test_trust_tiers.py`.
 
 ## Data
 
@@ -46,6 +65,17 @@ pip install -r requirements.txt
 ```
 
 Facsimile images are served via [GAMS](https://gams.uni-graz.at/) (University of Graz) and do not need to be stored locally.
+
+## Tests
+
+No API key and no local image backup are needed.
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest tests/ pipeline/
+```
+
+`tests/` holds the schema check of the exported Page-JSON against `schemas/page-json-v0.2.json` and the trust-tier transitions of the review API. `pipeline/test_*.py` holds the older regression checks for the TEI export, the marker converter, the canonical collection assignment, the quality signals, and the unit derivation; each of those also runs standalone as `python pipeline/test_<name>.py`.
 
 ## Usage
 
@@ -119,17 +149,9 @@ git push
 
 The next GitHub Pages deploy (automatic on push to `main`) carries the curated edits into the public read-only proto-edition.
 
-### Trust tiers
+### Curation progress
 
-| Tier | Status JSON | Source | Visual |
-|---|---|---|---|
-| 0 | `gt_verified` | Character-exact human verification against facsimile | dark green |
-| 1 | `approved` | Human expert review in the workspace | green |
-| 2 | `agent_verified` | Claude Vision sub-agent compares each page against its image | slate |
-| 3 | _flagged_ (`needs_review=true`) | At least one of 7 quality signals triggered | amber |
-| 3 | _unreviewed_ | No signal triggered, no human review yet | gray |
-
-The **Curation Progress** bar on the catalog page renders these five states as a stacked bar: outer ring (machine transcription) on the left, inner ring (expert-verified critical edition) on the right. This follows Vogeler's concentric edition model (2025): one artefact, multiple editorial states, curation that deepens incrementally.
+The tiers written by this workflow are described above under [Trust tiers and verification provenance](#trust-tiers-and-verification-provenance). The **Curation Progress** bar on the catalog page renders these five states as a stacked bar: outer ring (machine transcription) on the left, inner ring (expert-verified critical edition) on the right. This follows Vogeler's concentric edition model (2025): one artefact, multiple editorial states, curation that deepens incrementally.
 
 ### API endpoints (local only)
 

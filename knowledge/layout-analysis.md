@@ -2,13 +2,19 @@
 title: "Layout-Analyse"
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: draft
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Architecture"
+  version: 0.3
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/architecture"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-architecture"
+status: active
 created: 2026-04-02
 updated: 2026-04-04
+authors: [Christopher Pollin]
 type: spec
 ---
 

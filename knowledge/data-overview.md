@@ -3,13 +3,19 @@ title: "Datengrundlage"
 aliases: ["Datenanalyse"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Datengrundlage"
+  version: 0.2
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/data"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-data"
+status: active
 created: 2026-03-30
 updated: 2026-06-10
+authors: [Christopher Pollin]
 type: analysis
 related:
   - "[[verification-concept]]"

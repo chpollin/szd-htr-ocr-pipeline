@@ -2,17 +2,21 @@
 title: "Verifikation FAIR4RS-Status"
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/Promptotyping/"
-status: complete
+template:
+  name: "Vorlage Verification"
+  version: 0.1
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/verification"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
+status: active
 created: 2026-07-23
 updated: 2026-07-23
+authors: [Christopher Pollin]
+generated-with: Claude Code (Claude Fable 5)
 type: verification
-template:
-  name: Vorlage Verification
-  url: https://dhcraft.org/Promptotyping/promptotyping-document/verification
 related:
   - "[[verification-concept]]"
 ---
@@ -44,7 +48,7 @@ Prüfung am 2026-07-23 gegen die FAIR4RS-Prinzipien v1.0 (Chue Hong, Katz, Barke
 | I2 (qualifizierte Referenzen auf Objekte) | teilweise | TEI-Quellen per URL im README qualifiziert referenziert |
 | R1 (Pluralität akkurater Attribute) | teilweise | menschenlesbar ja, maschinenlesbar nein (siehe F2) |
 | R1.1 (klare, zugängliche Lizenz) | teilweise | LICENSE vorhanden (CC BY 4.0); GitHub erkennt "Other", nicht SPDX-maschinenlesbar; CC-Lizenzfamilie für Code unüblich |
-| R1.2 (detaillierte Provenienz) | erfüllt, überdurchschnittlich | README benennt Genese, Methode, Rollen und Modelle; `knowledge/journal.md`, PAPER.md, Git-History |
+| R1.2 (detaillierte Provenienz) | erfüllt, überdurchschnittlich | README benennt Genese, Methode, Rollen und Modelle; `knowledge/journal.md`, `paper/PAPER.md`, Git-History |
 | R2 (qualifizierte Referenzen auf Software) | erfüllt | `requirements.txt` über PyPI |
 | R3 (domänenrelevante Community-Standards) | erfüllt | TEI, diplomatische Transkriptionskonventionen, dokumentierte Markup-Regeln |
 

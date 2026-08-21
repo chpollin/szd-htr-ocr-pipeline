@@ -3,13 +3,19 @@ title: "PAGE XML, Metadaten und METS-Architektur"
 aliases: ["METS-Architektur", "PAGE XML", "Ausgabeformate"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Architecture"
+  version: 0.3
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/architecture"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-architecture"
+status: active
 created: 2026-04-03
 updated: 2026-04-12
+authors: [Christopher Pollin]
 type: concept
 related:
   - "[[htr-interchange-format]]"

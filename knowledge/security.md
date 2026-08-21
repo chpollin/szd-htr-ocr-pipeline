@@ -2,13 +2,14 @@
 title: "Security Review"
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+status: active
 created: 2026-04-02
 updated: 2026-04-02
+authors: [Christopher Pollin]
 type: reference
 ---
 

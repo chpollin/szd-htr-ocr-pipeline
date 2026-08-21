@@ -3,13 +3,19 @@ title: "Page-JSON Format"
 aliases: ["Page-JSON", "Interchange-Format", "HTR Interchange Format"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Architecture"
+  version: 0.3
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/architecture"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-architecture"
 status: draft
 created: 2026-04-01
 updated: 2026-06-10
+authors: [Christopher Pollin]
 type: spec
 related:
   - "[[verification-concept]]"

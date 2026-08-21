@@ -3,13 +3,19 @@ title: "Verifikationskonzept"
 aliases: ["Verifikationskonzept"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
-status: complete
+  url: "https://dhcraft.org/Promptotyping/"
+template:
+  name: "Vorlage Verification"
+  version: 0.1
+  url: "https://dhcraft.org/Promptotyping/promptotyping-document/verification"
+  alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
+status: active
 created: 2026-04-01
 updated: 2026-06-10
+authors: [Christopher Pollin]
 type: concept
 related:
   - "[[annotation-protocol]]"
