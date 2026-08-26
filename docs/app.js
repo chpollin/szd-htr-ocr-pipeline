@@ -1697,7 +1697,7 @@ function renderViewerNav() {
   }
 
   const pageInfoEl = document.getElementById('pageInfo');
-  pageInfoEl.innerHTML = `<span class="viewer__page-info-text">${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}${scanInfo}</span>`;
+  pageInfoEl.innerHTML = `<span class="viewer__nav-unit">Seite</span><span class="viewer__page-info-text">${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}${scanInfo}</span>`;
   pageInfoEl.style.cursor = total > 1 ? 'pointer' : '';
   document.getElementById('prevPageBtn').disabled = state.currentPage === 0;
   document.getElementById('nextPageBtn').disabled = state.currentPage >= total - 1;
@@ -1706,8 +1706,10 @@ function renderViewerNav() {
   const idx = state.filteredObjects.findIndex(o => o.id === state.currentObjectId);
   document.getElementById('prevObjBtn').disabled = idx <= 0;
   document.getElementById('nextObjBtn').disabled = idx < 0 || idx >= state.filteredObjects.length - 1;
-  document.getElementById('objInfo').textContent =
-    idx >= 0 ? `Objekt ${idx + 1} / ${state.filteredObjects.length}` : '';
+  document.getElementById('objInfo').innerHTML =
+    idx >= 0
+      ? `<span class="viewer__nav-unit">Objekt</span>${idx + 1} / ${state.filteredObjects.length}`
+      : '';
 }
 
 function activatePageJumpInput() {
@@ -1717,7 +1719,7 @@ function activatePageJumpInput() {
   if (total <= 1) return;
 
   const el = document.getElementById('pageInfo');
-  el.innerHTML = `<input type="number" class="viewer__page-jump" id="pageJumpInput"
+  el.innerHTML = `<span class="viewer__nav-unit">Seite</span><input type="number" class="viewer__page-jump" id="pageJumpInput"
     min="1" max="${total}" value="${state.currentPage + 1}" />`;
 
   const input = document.getElementById('pageJumpInput');
@@ -1834,6 +1836,86 @@ function renderEditMode(transcription) {
   document.getElementById('transcriptionEdit').value = transcription || '';
 }
 
+/* ----- Editorisches Markup (Annotationsprotokoll §3) -----
+   Die Marker sind schnell falsch gesetzt: [?] gehoert ohne Leerzeichen ans Wort,
+   Streichung und Einfuegung umschliessen eine Auswahl, [Marginalie:] gehoert ans
+   Seitenende nach einer Leerzeile. Die Leiste macht genau das — statt dass die
+   Regel beim Tippen aus dem Gedaechtnis rekonstruiert werden muss. */
+const MARKUP_ACTIONS = {
+  strike:      { wrap: ['~~', '~~'], placeholder: 'gestrichener Text' },
+  insert:      { wrap: ['{', '}'], placeholder: 'eingefuegter Text' },
+  quer:        { wrap: ['[quer: ', ']'], placeholder: 'quer geschriebener Text' },
+  kopf:        { wrap: ['[kopf: ', ']'], placeholder: 'kopfstehender Text' },
+  uncertain:   { append: '[?]' },
+  illegible:   { insert: '[...]' },
+  'illegible-n': { insert: '[...N...]', select: 'N' },
+  marginalie:  { atEnd: '[Marginalie:] ' },
+};
+
+function applyMarkup(kind) {
+  const ta = document.getElementById('transcriptionEdit');
+  const action = MARKUP_ACTIONS[kind];
+  if (!ta || !action) return;
+
+  const value = ta.value;
+  const start = ta.selectionStart;
+  const end = ta.selectionEnd;
+  let next = value;
+  let selStart;
+  let selEnd;
+
+  if (action.wrap) {
+    const [open, close] = action.wrap;
+    const selected = value.slice(start, end) || action.placeholder;
+    next = value.slice(0, start) + open + selected + close + value.slice(end);
+    // Ohne Auswahl den Platzhalter markieren, damit direkt drueber getippt wird
+    selStart = start + open.length;
+    selEnd = selStart + selected.length;
+  } else if (action.append) {
+    // [?] bezieht sich auf das vorangehende Wort und darf kein Leerzeichen davor
+    // haben. Steht der Cursor mitten im Wort, ans Wortende springen — aber nur
+    // ueber Wortzeichen, damit der Marker bei "Klard," vor das Komma kommt und
+    // nicht dahinter.
+    let pos = end;
+    while (pos < value.length && /[\p{L}\p{N}\-'’]/u.test(value[pos])) pos++;
+    next = value.slice(0, pos) + action.append + value.slice(pos);
+    selStart = selEnd = pos + action.append.length;
+  } else if (action.atEnd) {
+    // Randbemerkung ans Seitenende, nach einer Leerzeile
+    const body = value.replace(/\s+$/, '');
+    const sep = body ? '\n\n' : '';
+    next = body + sep + action.atEnd;
+    selStart = selEnd = next.length;
+  } else {
+    next = value.slice(0, start) + action.insert + value.slice(end);
+    if (action.select) {
+      const rel = action.insert.indexOf(action.select);
+      selStart = start + rel;
+      selEnd = selStart + action.select.length;
+    } else {
+      selStart = selEnd = start + action.insert.length;
+    }
+  }
+
+  ta.value = next;
+  ta.focus();
+  ta.setSelectionRange(selStart, selEnd);
+  // Bewusst kein saveCurrentEdit() — sonst ginge pro Markup-Klick ein Write ins
+  // Pipeline-JSON. Wie getippter Text wird die Aenderung bei Ctrl+S, Seiten-
+  // wechsel oder Verlassen des Edit-Modus uebernommen.
+}
+
+function toggleGuidelines(force) {
+  const panel = document.getElementById('guidelinesPanel');
+  const btn = document.getElementById('guidelinesBtn');
+  if (!panel) return;
+  const show = force !== undefined ? force : panel.classList.contains('is-hidden');
+  panel.classList.toggle('is-hidden', !show);
+  btn?.classList.toggle('active', show);
+  btn?.setAttribute('aria-pressed', String(show));
+  if (show) panel.scrollTop = 0;
+}
+
 function saveCurrentEdit() {
   if (!state.editMode || !state.isLocal) return;
   const textarea = document.getElementById('transcriptionEdit');
@@ -1914,6 +1996,10 @@ function updateEditButtons() {
   editSaveBtn.classList.toggle('is-hidden', !state.editMode);
   undoPageBtn.classList.toggle('is-hidden', !(state.editMode && hasPageEdit));
   discardBtn.classList.toggle('is-hidden', !(objCount > 0 && state.isLocal));
+
+  // Markup-Leiste nur im Edit-Modus — sie schreibt in die Textarea
+  document.getElementById('markupBar')
+    ?.classList.toggle('is-hidden', !(state.editMode && state.isLocal));
 
   // Edit status bar
   if (statusBar) {
@@ -3370,6 +3456,14 @@ function initEvents() {
   document.getElementById('prevObjBtn').addEventListener('click', () => changeViewerObject(-1));
   document.getElementById('nextObjBtn').addEventListener('click', () => changeViewerObject(1));
 
+  // Viewer: Editionsrichtlinien + Markup-Leiste
+  document.getElementById('guidelinesBtn')?.addEventListener('click', () => toggleGuidelines());
+  document.getElementById('guidelinesCloseBtn')?.addEventListener('click', () => toggleGuidelines(false));
+  document.getElementById('markupBar')?.addEventListener('click', e => {
+    const btn = e.target.closest('[data-markup]');
+    if (btn) applyMarkup(btn.dataset.markup);
+  });
+
   // Viewer: image controls (all in nav bar)
   document.getElementById('navZoomInBtn').addEventListener('click', () => imgViewZoom(1));
   document.getElementById('navZoomOutBtn').addEventListener('click', () => imgViewZoom(-1));
@@ -3490,8 +3584,13 @@ function initEvents() {
       if (e.key === '0') { e.preventDefault(); imgViewReset(); }
       if (e.key === 'r' || e.key === 'R') { e.preventDefault(); imgViewRotate(); }
       if (e.key === 'l' || e.key === 'L') { e.preventDefault(); toggleLayoutOverlay(); }
+      if (e.key === 'g' || e.key === 'G') { e.preventDefault(); toggleGuidelines(); }
       if (e.key === 'Escape') {
-        if (state.editMode) {
+        const guidelinesOpen =
+          !document.getElementById('guidelinesPanel')?.classList.contains('is-hidden');
+        if (guidelinesOpen) {
+          toggleGuidelines(false);
+        } else if (state.editMode) {
           saveCurrentEdit();
           state.editMode = false;
           renderViewerPage();

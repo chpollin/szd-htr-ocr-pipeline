@@ -181,5 +181,11 @@
     "needs_review_reasons": [
       "page_length_anomaly"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-26T07:52:46.650285+00:00"
   }
 }

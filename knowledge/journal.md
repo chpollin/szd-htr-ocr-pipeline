@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-journal"
 status: active
 created: 2026-03-30
-updated: 2026-07-31
+updated: 2026-08-26
 authors: [Christopher Pollin]
 type: log
 related:
@@ -1977,5 +1977,69 @@ Ein Build-Eingriff war nicht noetig. `parse_frontmatter` trennt das YAML schon h
 Body ab, das erweiterte Frontmatter erscheint also nicht im Viewer. Sichtbar wird allein der
 Status-Chip, und `active` ist in `docs/app.css` bereits gestylt, waehrend `complete` und
 `living` es nie waren.
+
+## 2026-08-26 — Review-Session: 34 Totalausfaelle erhoben, Viewer nachgezogen
+
+Session von Julia Hintersteiner am lokalen Dev-Server. Anlass war eine gewoehnliche
+Redigier-Runde; zwei Befunde daraus sind ueber die Session hinaus relevant.
+
+### 34 Objekte ohne verwertbares Ergebnis
+
+Beim Sichten der `needs_review`-Liste fielen Objekte auf, die sich nicht redigieren lassen,
+weil es keinen Text gibt: `result` enthaelt nur `raw`, kein `pages`-Array. Ein Scan aller
+2.452 Ergebnis-JSONs findet genau 34 solcher Faelle, zusammen 836 Faksimile-Scans, verteilt
+ueber alle vier Sammlungen. Keines traegt einen Review-Status, und es gibt keine weiteren
+Totalausfaelle — die Liste ist geschlossen.
+
+Der Mechanismus ist der aus `reports/aal-review-triage.md` bekannte Runaway (`o_szd.3135`,
+`o_szd.3375`, Neulauf in `a96cd7f`). Neu ist die Groessenordnung und ein Muster, das die
+Einzelfaelle damals nicht hergaben: In 28 der 29 Schleifen wiederholt das Modell keinen
+Fliesstext, sondern Leerraum oder ein Markup-Zeichen der eigenen Transkriptionskonvention —
+`\n` und `\t` zehnmal, `[...]` siebenmal, `[?]` sechsmal, `~~ ~~` dreimal, Punktfolgen
+zweimal. Das Modell kippt also dort, wo das Annotationsschema selbst legitime Wiederholung
+vorsieht: leere Seiten, schwer lesbare Passagen, gestrichene Absaetze. Beim AAL-Fall waren
+es die gepunkteten Trennlinien einer Klageschrift, also derselbe Ausloesertyp. Der Ausfall
+ist damit an Materialeigenschaften gebunden und nicht zufaellig verteilt.
+
+Die uebrigen fuenf: vier leere API-Antworten und ein reiner Abbruch (`o_szd.1886`, endet
+nach 234 kB mitten im Wort, ohne Wiederholung).
+
+Rund 300 Seiten liegen ohne neuen API-Call im Prefix der Rohdaten, 187 davon mit Text —
+bei `o_szd.1886` allein 170 lueckenlose Seiten mit 211.623 Zeichen. `parse_api_response()`
+hat fuenf Reparaturstufen, aber keine, die abgeschlossene Seitenobjekte aus einem
+abgeschnittenen Prefix uebernimmt; Stufe 5 schliesst offene Arrays, kann einen offenen
+String aber nicht schliessen, und genau darin steckt die Schleife.
+
+Vollstaendige Liste, Ausfallarten je Objekt und Empfehlung: `reports/pipeline-totalausfaelle.md`.
+
+### Zwei Beobachtungen aus dem Redigieren, im Viewer umgesetzt
+
+**Objekt- und Seitennavigation waren nicht auseinanderzuhalten.** Beide Ebenen benutzten
+dieselben runden Buttons in derselben Groesse und Farbe; sie unterschieden sich allein durch
+das Pfeilzeichen, `«` gegen `‹`. Im Arbeitstempo ist das keine Unterscheidung. Die
+Objektebene ist jetzt eine geschlossene, ruhige Pille mit kleineren, randlosen Buttons — man
+verlaesst das Objekt selten —, die Seitenebene bleibt der primaere, staerker gezeichnete
+Control. Beide Zaehler benennen ausserdem ihre Einheit ("Objekt 12 / 2452", "Seite 3 / 7")
+statt zwei nackte Zahlenpaare nebeneinanderzustellen.
+
+**Die Editionsrichtlinien waren beim Redigieren nicht zur Hand.** Die Konventionen stehen
+vollstaendig in `annotation-protocol.md`, waren aber nur ueber den Research Vault erreichbar,
+also genau dann nicht greifbar, wenn die Frage aufkommt ("wie notiere ich eine Streichung?").
+Der Viewer hat jetzt einen Button "§ Richtlinien" (Taste `G`), der §3 des Protokolls neben
+den Text blendet: Markup-Tabelle, Streichungen, die Schwelle zwischen `[?]` und `[...]`,
+Einfuegungen, Randbemerkungen, Zeilen und Absaetze, dazu der Sprung ins vollstaendige
+Protokoll. Im Edit-Modus kommt eine Markup-Leiste ueber das Textfeld, die die Marker
+regelkonform setzt: Auswahl in `~~...~~` oder `{...}` einschliessen, `[?]` ohne Leerzeichen
+ans vorangehende Wort (und vor die Interpunktion, nicht dahinter), `[Marginalie:]` ans
+Seitenende nach einer Leerzeile.
+
+Die Leiste schreibt bewusst nicht per `saveCurrentEdit()` durch — sonst ginge pro Klick ein
+Write ins Pipeline-JSON. Sie verhaelt sich wie getippter Text und wird bei `Ctrl+S`,
+Seitenwechsel oder Verlassen des Edit-Modus uebernommen.
+
+Damit ist die Frage nach Editionsrichtlinien nicht erledigt, nur zugaenglich gemacht. Faelle,
+die beim Redigieren auftauchen und in §3 nicht geregelt sind, gehoeren zurueck ins Protokoll
+und von dort ins Panel; ob auch die gruppenspezifischen Regeln aus §4 (Umschlaege, Stempel,
+Formularfelder, mehrere Haende) hineingehoeren, ist offen und steht in `plan.md`.
 
 ---

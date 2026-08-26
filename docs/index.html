@@ -211,15 +211,15 @@
   <div class="viewer__meta" id="viewerMeta" tabindex="-1"></div>
 
   <div class="viewer__nav">
-    <div class="viewer__nav-group">
-      <button type="button" class="viewer__nav-btn" id="prevObjBtn"
+    <div class="viewer__nav-group viewer__nav-group--object">
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--obj" id="prevObjBtn"
               aria-label="Vorheriges Objekt" data-tooltip="Vorheriges Objekt">&#171;</button>
       <span class="viewer__obj-info" id="objInfo"></span>
-      <button type="button" class="viewer__nav-btn" id="nextObjBtn"
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--obj" id="nextObjBtn"
               aria-label="N&auml;chstes Objekt" data-tooltip="Nächstes Objekt">&#187;</button>
     </div>
 
-    <div class="viewer__nav-group">
+    <div class="viewer__nav-group viewer__nav-group--page">
       <button type="button" class="viewer__nav-btn" id="prevPageBtn"
               aria-label="Vorherige Seite" data-tooltip="Vorherige Seite (&larr;)">&#8249;</button>
       <span class="viewer__page-info" id="pageInfo" data-tooltip="Klick f&uuml;r Seitensprung">1 / 1</span>
@@ -240,10 +240,15 @@
               aria-label="Layout-Regionen ein/aus" data-tooltip="Layout-Regionen (L)">&#9638;</button>
     </div>
 
-    <div class="viewer__nav-group">
+    <div class="viewer__nav-group viewer__nav-group--actions">
       <button type="button" class="viewer__action-btn" id="editBtn"
               data-tooltip="Transkription bearbeiten (Änderungen werden direkt im JSON gespeichert)">
         &#9998; Edit <span class="indicator" id="editIndicator"></span>
+      </button>
+      <button type="button" class="viewer__action-btn" id="guidelinesBtn"
+              aria-pressed="false"
+              data-tooltip="Editionsrichtlinien: Wie werden Streichungen, unsichere Lesungen und Einf&uuml;gungen notiert? (G)">
+        &#167; Richtlinien
       </button>
       <button type="button" class="viewer__action-btn is-hidden" id="editSaveBtn"
               data-tooltip="Änderungen ins Pipeline-JSON speichern (Ctrl+S). Original bleibt in edit_history.">
@@ -295,6 +300,101 @@
       </div>
     </div>
     <div class="viewer__text-panel" id="textPanel">
+      <div class="viewer__markup-bar is-hidden" id="markupBar" role="toolbar"
+           aria-label="Editorisches Markup einf&uuml;gen">
+        <button type="button" class="viewer__markup-btn" data-markup="strike"
+                data-tooltip="Auswahl als gestrichen markieren: ~~Text~~">&#126;&#126;<s>ab</s>&#126;&#126;</button>
+        <button type="button" class="viewer__markup-btn" data-markup="insert"
+                data-tooltip="Auswahl als Einf&uuml;gung markieren: {Text}">&#123;ab&#125;</button>
+        <button type="button" class="viewer__markup-btn" data-markup="uncertain"
+                data-tooltip="Unsichere Lesung an den Cursor: Wort[?] &mdash; ohne Leerzeichen ans Wort">[?]</button>
+        <button type="button" class="viewer__markup-btn" data-markup="illegible"
+                data-tooltip="Unleserliche Passage: [...]">[&hellip;]</button>
+        <button type="button" class="viewer__markup-btn" data-markup="illegible-n"
+                data-tooltip="Unleserlich mit gesch&auml;tzter Zeichenzahl: [...3...]">[&hellip;N&hellip;]</button>
+        <span class="viewer__nav-sep"></span>
+        <button type="button" class="viewer__markup-btn" data-markup="quer"
+                data-tooltip="Quer geschrieben (90&deg;): [quer: Text]">[quer:]</button>
+        <button type="button" class="viewer__markup-btn" data-markup="kopf"
+                data-tooltip="Kopfstehend (180&deg;): [kopf: Text]">[kopf:]</button>
+        <button type="button" class="viewer__markup-btn" data-markup="marginalie"
+                data-tooltip="Randbemerkung ans Seitenende: [Marginalie:] Text">[Marginalie:]</button>
+      </div>
+
+      <aside class="viewer__guidelines is-hidden" id="guidelinesPanel" aria-label="Editionsrichtlinien">
+        <div class="viewer__guidelines-head">
+          <h2 class="viewer__guidelines-title">Editionsrichtlinien &mdash; editorisches Markup</h2>
+          <button type="button" class="viewer__guidelines-close" id="guidelinesCloseBtn"
+                  aria-label="Richtlinien schlie&szlig;en">&times;</button>
+        </div>
+        <p class="viewer__guidelines-lede">
+          Diplomatische Transkription: nichts normalisieren, nichts korrigieren, nichts modernisieren.
+          Was auf dem Blatt steht, kommt in den Text &mdash; auch Fehler des Schreibers.
+        </p>
+
+        <table class="viewer__guidelines-table">
+          <thead>
+            <tr><th>Markup</th><th>Bedeutung</th><th>Beispiel</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>~~Text~~</code></td><td>Durchgestrichen</td><td><code>~~Eltern~~ Schwester</code></td></tr>
+            <tr><td><code>&#123;Text&#125;</code></td><td>Einf&uuml;gung (&uuml;ber der Zeile, am Rand)</td><td><code>Er ist &#123;sehr&#125; verzweifelt</code></td></tr>
+            <tr><td><code>[?]</code></td><td>Unsichere Lesung</td><td><code>Klard[?]</code></td></tr>
+            <tr><td><code>[...]</code></td><td>Unleserliche Passage</td><td><code>[...]</code></td></tr>
+            <tr><td><code>[...N...]</code></td><td>Unleserlich, gesch&auml;tzte Zeichenzahl</td><td><code>[...3...] Mutter</code></td></tr>
+            <tr><td><code>[quer: Text]</code></td><td>Um 90&deg; gedreht geschrieben</td><td><code>[quer: Nachsatz am Rand]</code></td></tr>
+            <tr><td><code>[kopf: Text]</code></td><td>Kopfstehend (180&deg;)</td><td><code>[kopf: Bitte antworten]</code></td></tr>
+          </tbody>
+        </table>
+
+        <h3 class="viewer__guidelines-sub">Streichungen</h3>
+        <p>
+          Durchgestrichenen Text <strong>vollst&auml;ndig transkribieren</strong>, soweit lesbar, und in
+          <code>~~&hellip;~~</code> einschlie&szlig;en. Ist das Gestrichene selbst nicht lesbar:
+          <code>~~[...]~~ Schwester</code>. Ein einfacher Strich und mehrfaches &Uuml;berstreichen werden
+          gleich markiert &mdash; die Intensit&auml;t der Streichung wird nicht kodiert.
+        </p>
+
+        <h3 class="viewer__guidelines-sub">Unsicher <code>[?]</code> oder unleserlich <code>[...]</code>?</h3>
+        <p>
+          Die Schwelle ist die eigene Sicherheit, nicht der Zustand des Papiers:
+        </p>
+        <ul>
+          <li><strong>50&ndash;90&nbsp;% sicher</strong> &rarr; Lesung hinschreiben und <code>[?]</code> anh&auml;ngen.
+            Der Marker steht <strong>direkt am Wort, ohne Leerzeichen</strong>, und bezieht sich auf das
+            vorangehende Wort &mdash; nicht auf eine Position im Text.</li>
+          <li><strong>unter 50&nbsp;% sicher</strong> &rarr; keine Lesung vorschlagen, <code>[...]</code> setzen.</li>
+        </ul>
+
+        <h3 class="viewer__guidelines-sub">Einf&uuml;gungen</h3>
+        <p>
+          In <code>&#123;&hellip;&#125;</code> einschlie&szlig;en. Die Position richtet sich nach der
+          <em>intendierten</em> Einf&uuml;gestelle im Satz, nicht nach der physischen Position auf dem Blatt.
+          Ist die Stelle nicht eindeutig, an der wahrscheinlichsten einf&uuml;gen und markieren:
+          <code>Er ist &#123;sehr&#125;[?] verzweifelt</code>.
+        </p>
+
+        <h3 class="viewer__guidelines-sub">Randbemerkungen</h3>
+        <p>
+          Transkribieren, wenn sie zum Dokument geh&ouml;ren &mdash; ans Ende der Seite, nach einer Leerzeile,
+          mit dem Pr&auml;fix <code>[Marginalie:]</code>. <strong>Nicht</strong> transkribiert werden moderne
+          Bibliotheksstempel, Archivvermerke und Paginierungen von Archivhand.
+        </p>
+
+        <h3 class="viewer__guidelines-sub">Zeilen und Absätze</h3>
+        <p>
+          Zeilenumbr&uuml;che des Originals bleiben erhalten. Silbentrennung am Zeilenende wird mit dem
+          Trennstrich beibehalten, das Wort nicht zusammengezogen &mdash; die CER-Normalisierung f&uuml;gt es
+          f&uuml;r die Auswertung wieder zusammen.
+        </p>
+
+        <p class="viewer__guidelines-more">
+          Vollst&auml;ndiges Protokoll mit Abk&uuml;rzungen, historischer Orthographie, Stempeln, mehreren
+          H&auml;nden und Beispielseiten:
+          <a href="#knowledge/annotation-protocol">Annotationsprotokoll im Research Vault &rarr;</a>
+        </p>
+      </aside>
+
       <div class="viewer__transcription-wrap">
         <div class="viewer__transcription" id="transcription"></div>
       </div>
@@ -417,6 +517,7 @@
       <li><kbd>+</kbd> / <kbd>&#8722;</kbd> Zoom</li>
       <li><kbd>0</kbd> Zoom zurücksetzen</li>
       <li><kbd>R</kbd> 90° drehen (im Edit-Modus <kbd>Alt</kbd>+<kbd>R</kbd>, da der Fokus im Textfeld liegt)</li>
+      <li><kbd>G</kbd> Editionsrichtlinien ein/aus</li>
       <li><kbd>Esc</kbd> zurück zum Katalog</li>
     </ul>
 
@@ -427,6 +528,13 @@
     </p>
     <ul>
       <li><strong>Edit</strong> — Transkription direkt bearbeiten</li>
+      <li><strong>Markup-Leiste</strong> — erscheint im Edit-Modus über dem Textfeld und setzt die
+          Marker des Annotationsprotokolls: Auswahl als Streichung <code>~~…~~</code> oder Einfügung
+          <code>{…}</code> einschließen, <code>[?]</code> ans vorangehende Wort hängen,
+          <code>[Marginalie:]</code> ans Seitenende setzen.</li>
+      <li><strong>§ Richtlinien</strong> — die Editionsrichtlinien neben dem Text (<kbd>G</kbd>):
+          Streichungen, Schwelle <code>[?]</code> gegen <code>[...]</code>, Einfügungen, Randbemerkungen.
+          Vollständig im <a href="#knowledge/annotation-protocol">Annotationsprotokoll</a>.</li>
       <li><strong>Speichern</strong> — schreibt direkt ins Pipeline-JSON (<kbd>Ctrl</kbd>+<kbd>S</kbd>). Der Originaltext wird in <code>edit_history</code> aufbewahrt.</li>
       <li><strong>Seite</strong> — aktuelle Seite auf Original zur&uuml;cksetzen</li>
       <li><strong>Alles verwerfen</strong> — alle &Auml;nderungen am Objekt l&ouml;schen</li>
