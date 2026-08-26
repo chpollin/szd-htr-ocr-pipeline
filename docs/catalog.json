@@ -817,7 +817,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -2131,9 +2131,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 5210,
+        "totalChars": 5204,
         "emptyPages": 4,
-        "avgCharsPerPage": 1302,
+        "avgCharsPerPage": 1301,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -2145,7 +2145,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -3473,7 +3473,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -67510,7 +67510,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
