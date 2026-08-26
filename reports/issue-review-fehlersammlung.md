@@ -1,9 +1,13 @@
-# Fehlersammlung Review — Befunde aus dem Redigieren
+<!--
+Fertiger Issue-Body. Direkt verwendbar mit:
 
-> Fertiger Issue-Text zum Anlegen unter
-> https://github.com/chpollin/szd-htr-ocr-pipeline/issues/new
-> Titel: **Fehlersammlung Review — Befunde aus dem Redigieren**
-> Vorschlag Labels: `bug`, `viewer`, `review`
+  gh issue create --repo chpollin/szd-htr-ocr-pipeline \
+    --title "Fehlersammlung Review — Befunde aus dem Redigieren" \
+    --body-file reports/issue-review-fehlersammlung.md
+
+Alternativ einfügen unter https://github.com/chpollin/szd-htr-ocr-pipeline/issues/new
+Vorschlag Labels: bug, viewer, review
+-->
 
 Sammel-Issue für Fehler, die beim Gegenlesen am Faksimile auffallen. Ein Abschnitt je
 Befund, neue Befunde werden unten angehängt. Erledigte bleiben stehen und bekommen
@@ -27,13 +31,13 @@ ist leer, der Seitenzähler steht auf **„Seite 1 / 0"**. Das Objekt trägt im 
 weder Bild noch Text gibt.
 
 Beispiel: **Liebesbriefe**, SZ-AAP/W-AA122.0, `o:szd.2491`
-→ http://localhost:8000/#view/o_szd.2491_gemini-3.1-flash-lite-preview/1
+→ `http://localhost:8000/#view/o_szd.2491_gemini-3.1-flash-lite-preview/1`
 
 ### Die Bilder fehlen nicht
 
 GAMS liefert die Faksimiles einwandfrei — geprüft am 2026-08-26:
 
-```
+```text
 https://gams.uni-graz.at/o:szd.2491/IMG.1        200  image/jpeg  1.430.596 Bytes
 https://gams.uni-graz.at/o:szd.2491/THUMBNAIL    200  image/jpeg      1.670 Bytes
 ```
