@@ -1,5 +1,7 @@
 # PAPER-TEXT.md
 
+> **Archived draft.** This text is superseded and has no active submission target. See `../README.md` for the status of the manuscript archive.
+
 This file is the product: the paper text under revision. Placeholders of the
 form `{{P-N: ...}}` mark passages to be written from repository evidence.
 Each placeholder states only what the passage must establish for the

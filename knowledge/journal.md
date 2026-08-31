@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-journal"
 status: active
 created: 2026-03-30
-updated: 2026-07-31
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: log
 related:
@@ -322,7 +322,7 @@ Alle 6 knowledge-Dateien auf Konsistenz, empirische Fundierung und Redundanz gep
 - o_szd.1079 (I Korrespondenz): `llm_error_suggestion` — "Gerichte"→"Gedichte" (d/r), Ortsname "Klard" existiert nicht
 - o_szd.147 (C Formular): **BROKEN** — 64 Bilder, 0 Seiten transkribiert (Pipeline-Bug)
 
-Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empirische Befunde).
+Spec geschrieben, heute in [[verification-concept]] Abschnitt 5 konsolidiert (10 Abschnitte, JSON-Schema, empirische Befunde).
 
 ### Build ausgefuehrt
 
@@ -484,7 +484,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ### Knowledge Vault im Frontend
 
-- **Build-Pipeline:** `build_knowledge()` in `build_viewer_data.py` — liest `knowledge/*.md`, parst YAML-Frontmatter, loest `[[wiki-links]]` zur Build-Zeit auf, konvertiert Markdown zu HTML (Python `markdown` mit `tables`, `fenced_code`, `toc`), extrahiert TOC-Headings
+- **Build-Pipeline:** `build_knowledge()` in `build_viewer_data.py` — liest `knowledge/*.md`, parst YAML-Frontmatter, loest Wikilinks zur Build-Zeit auf, konvertiert Markdown zu HTML (Python `markdown` mit `tables`, `fenced_code`, `toc`), extrahiert TOC-Headings
 - **Output:** `docs/data/knowledge.json` — 12 Dokumente + About-Seite (aus README.md), Sektions-Struktur aus `index.md`
 - **Neue Python-Dependencies:** `markdown>=3.5`, `pyyaml>=6.0` in `requirements.txt`
 - **Frontend-Routing:** 3 neue Hash-Routes:
@@ -1977,5 +1977,38 @@ Ein Build-Eingriff war nicht noetig. `parse_frontmatter` trennt das YAML schon h
 Body ab, das erweiterte Frontmatter erscheint also nicht im Viewer. Sichtbar wird allein der
 Status-Chip, und `active` ist in `docs/app.css` bereits gestylt, waehrend `complete` und
 `living` es nie waren.
+
+---
+
+## 2026-08-21 — Proto-Edition-Manuskript als Forschungsartefakt eingeordnet
+
+Das im Juli 2026 abgeschlossene Proto-Edition-Manuskript wird nicht eingereicht. `paper/`
+bleibt als datierter Forschungsstand mit Evidenzbasis und Entstehungsstufen erhalten. Die
+Dateien tragen jetzt einen eindeutigen Archivstatus und bilden keine aktive
+Publikationspipeline mehr ab.
+
+Die dauerhaft relevanten Erkenntnisse wurden an drei kanonischen Stellen verankert.
+`knowledge/editorial-model.md` buendelt den editionellen Status pro Objekt, die beiden
+Betriebskontexte, das Provenienzmodell und die Rolle agentischer Arbeit.
+`knowledge/evaluation-results.md` fuehrt die korrekturbasierte CER von 0,962 Prozent samt
+Stichproben-, Anker- und Aggregationsgrenzen. `knowledge/page-xml-mets-architecture.md`
+dokumentiert die Trennung zwischen haltbaren Ergebnisartefakten, deterministischen Exporten
+und veraenderlichen Modell-APIs.
+
+README, Agentenkonfiguration und Viewer-Texte verweisen fuer aktuelle Aussagen auf den
+Knowledge-Vault. Die Transparenzsektion dient dem Audit-Trail des Projekts und setzt kein
+Paper-Review mehr voraus. [[index]] fuehrt das neue Dokument in Navigation, Lesepfad und
+Vorlagenzuordnung. [[plan]] haelt die Entscheidung im datierten Entscheidungslog fest.
+
+Die Verifikation vor dem Viewer-Rebuild umfasste `python -m pytest tests/ pipeline/` mit 18
+bestandenen Tests und `node --check docs/app.js` ohne Befund. Der Arbeitsbaum war vor Beginn
+sauber und
+`origin` zeigte auf `https://github.com/chpollin/szd-htr-ocr-pipeline.git`.
+
+`python pipeline/build_viewer_data.py` erzeugte den Katalog fuer 2.452 Objekte aus fuenf
+Sammlungen und den Knowledge-Vault mit 16 Dokumenten. Die Linkpruefung fand zwei historische
+Journalverweise, die als tote Wikilinks gerendert wurden. Der fruehere
+`verification-by-vision`-Verweis zeigt jetzt auf den konsolidierten Abschnitt in
+[[verification-concept]]; das als Link interpretierte Syntaxbeispiel wurde zu Klartext.
 
 ---

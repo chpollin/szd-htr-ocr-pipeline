@@ -171,9 +171,9 @@ szd-htr/
 ├── requirements-dev.txt             ← pytest, jsonschema (nur Tests)
 ├── .env                             ← API Keys (nicht committet)
 ├── .github/ISSUE_TEMPLATE/          ← Evaluationshaken zum Antrag (Label `antrag-eval`)
-├── paper/                           ← Abschlussbericht + Evidenzbasis
-│   ├── PAPER.md                     ← Abschlussbericht (Stand 2026-07)
-│   ├── PAPER-FINDINGS.md            ← Evidenzbasis, jede Behauptung mit Dateizitat
+├── paper/                           ← Archivierte Forschungsartefakte, keine aktive Einreichung
+│   ├── PAPER.md                     ← Forschungsmanuskript zum Stand 2026-07
+│   ├── PAPER-FINDINGS.md            ← Historische Evidenzbasis mit Dateizitaten
 │   └── drafts/                      ← Zwischenstaende: PAPER-TEXT(.FILLED).md, CLAUDE-TASK.md
 ├── tests/                           ← pytest: Page-JSON-Schema, Trust-Tier-Uebergaenge
 ├── schemas/
@@ -227,6 +227,7 @@ szd-htr/
     ├── index.md                     ← Map of Content (MOC), Funktionstabelle + Lesepfade
     ├── plan.md                      ← Phasen-Status, Aufgaben, Entscheidungslog
     ├── data-overview.md             ← Datengrundlage (5 Sammlungen, 9 Gruppen)
+    ├── editorial-model.md           ← Editioneller Status, Provenienz, Betriebskontexte, Abhaengigkeitsgrenze
     ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
     ├── evaluation-results.md        ← CER-Baseline, Fehlertypologie
     ├── annotation-protocol.md       ← Transkriptionskonventionen

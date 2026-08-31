@@ -17,7 +17,7 @@ language: de
 version: 0.2
 tags: [index]
 created: 2026-04-01
-updated: 2026-07-31
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: moc
 ---
@@ -32,6 +32,7 @@ Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vaul
 |---|---|---|
 | [[data-overview]] | Material | Woraus der Korpus besteht, fuenf Sammlungen, neun Prompt-Gruppen, Sprachen, Schreiberhaende, Bildmassen |
 | [[annotation-protocol]] | Norm | Nach welchen Regeln diplomatisch transkribiert wird und welches Markup gilt |
+| [[editorial-model]] | Methodischer Rahmen | Wie editioneller Status, Betriebskontexte, Provenienz und Modellabhaengigkeit zusammenhaengen |
 | [[verification-concept]] | Verfahren | Wie geprueft wird, Ground Truth, quality_signals, Cross-Model-Konsensus, Verification-by-Vision, Agent-Verifikation |
 | [[evaluation-results]] | Befund | Was die CER-Baseline zeigt und welche Fehlertypen wiederkehren |
 
@@ -64,6 +65,7 @@ Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vaul
 ## Lesepfade
 
 - Erstkontakt: `data-overview` → `verification-concept` → `evaluation-results`
+- Editionellen und epistemischen Rahmen verstehen: `editorial-model` → `verification-concept` → `page-xml-mets-architecture`
 - Ergebnisdatei verstehen: `htr-interchange-format` → `verification-concept` → `results/README.md`
 - Archivexport nachvollziehen: `page-xml-mets-architecture` → `htr-interchange-format` → `teicrafter-integration`
 - Vertrauensstufen und Provenienz pruefen: `verification-concept` → `README.md` (Abschnitt Trust tiers) → `pipeline/serve.py`
@@ -83,6 +85,7 @@ Die folgende Zuordnung wurde am 2026-07-31 nachtraeglich gesetzt, ohne Inhalte z
 | `index.md` | Navigation | Vorlage Index |
 | `data-overview.md` | Material | Vorlage Datengrundlage |
 | `annotation-protocol.md` | Domain Knowledge | Vorlage Domänenwissen |
+| `editorial-model.md` | Domain Knowledge | Vorlage Domänenwissen |
 | `verification-concept.md` | Verification | Vorlage Verification |
 | `verification-fair4rs.md` | Verification | Vorlage Verification |
 | `htr-interchange-format.md` | Architecture | Vorlage Architecture |
@@ -111,7 +114,7 @@ Diese Dokumente bleiben freihaendig, weil der Katalog fuer ihre Funktion keine V
 Folgende Funktionen der Konvention tragen bewusst kein Dokument in `knowledge/`.
 
 - Charter und Agent Instructions liegen im Repository-Root, `README.md` und `CLAUDE.md`.
-- Reporting liegt in `paper/PAPER.md`, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis.
+- Reporting hat kein aktives Einreichungsdokument. `paper/PAPER.md` und `paper/PAPER-FINDINGS.md` bleiben als datierter Forschungsstand vom Juli 2026 erhalten; die gepflegte fachliche Synthese liegt in `editorial-model.md` und den spezialisierten Wissensdokumenten.
 - Specification und Design haben kein eigenes Dokument. Der funktionale Umfang steht in `README.md` und `CLAUDE.md`, Designentscheidungen des Viewers stehen bei dem Feature, das sie betrifft.
 - Quality Assurance hat kein `testing.md`. Die Teststrategie steht in `CLAUDE.md`, die Pruefungen selbst unter `tests/` und `pipeline/test_*.py`.
 - Technology Baseline entfaellt, weil sie zentral fuer eine Projektfamilie gefuehrt wird und dieses Repository allein steht.
@@ -121,5 +124,5 @@ Das Feld `generated-with` steht nur dort, wo die Git-Historie ein einziges Model
 ## Verwandte Dokumente ausserhalb des Vaults
 
 - [CLAUDE.md](../CLAUDE.md) — Agentenkonfiguration und Architekturueberblick
-- [paper/PAPER.md](../paper/PAPER.md) — Abschlussbericht des Projekts, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis
+- [paper/PAPER.md](../paper/PAPER.md) — archiviertes Forschungsmanuskript zum Projektstand vom Juli 2026, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis
 - [results/README.md](../results/README.md) — Aufbau der Ergebnisdateien

@@ -14,13 +14,14 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-architecture"
 status: active
 created: 2026-04-03
-updated: 2026-04-12
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: concept
 related:
   - "[[htr-interchange-format]]"
   - "[[layout-analysis]]"
   - "[[data-overview]]"
+  - "[[editorial-model]]"
 ---
 
 # PAGE XML, Metadaten und METS-Architektur
@@ -118,3 +119,9 @@ Die Pipeline nutzt zwei komplementaere Ausgabeformate:
 - **METS/MODS + PAGE XML**: Archiv- und Austauschformat (Zielformat). METS-Container mit MODS-Metadaten und PAGE XML 2019 pro Seite. Kompatibel mit GAMS, Transkribus, eScriptorium, OCR-D, teiCrafter. PAGE XML Export: `pipeline/export_pagexml.py`. METS/MODS-Export: `pipeline/export_mets.py` (implementiert, 2074 Dateien exportiert in Session 25).
 
 Die Architektur demonstriert den Pragmatismus: Intern arbeiten webbasierte und ML-orientierte Workflows besser mit JSON. Fuer die Interoperabilitaet mit dem breiteren DH-Oekosystem wird nach METS/PAGE XML exportiert. GAMS nutzt METS nativ als Containerformat, der Rueckweg ist damit direkt.
+
+## 6. Nachnutzbarkeit und Abhaengigkeitsgrenze
+
+Die Ergebnis-JSONs und die daraus erzeugten Austauschformate bleiben ohne Zugriff auf das Transkriptionsmodell lesbar. `export_page_json.py`, `export_pagexml.py`, `export_mets.py` und der teiCrafter-Export transformieren vorhandene Daten deterministisch. Schemavalidierung und Regressionstests pruefen die strukturelle Reproduzierbarkeit dieser Stufen.
+
+Die erneute Erzeugung der Transkriptionen und der VLM-basierten Layoutanalyse setzt die jeweils konfigurierten Modell-APIs voraus. Modellversionen koennen verschwinden oder ihr Verhalten aendern; ein identischer Output ist auch bei gleicher Konfiguration nicht garantiert. Die Architektur trennt deshalb aufgezeichnete Forschungsartefakte von den veraenderlichen Inferenzdiensten. Der oeffentliche Viewer benoetigt keinen schreibenden Projektserver, laedt die Faksimiles jedoch weiterhin aus GAMS. Die fachliche Einordnung dieser Grenze steht in [[editorial-model]].

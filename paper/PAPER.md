@@ -6,6 +6,8 @@ Christopher Pollin (Digital Humanities Craft OG)
 
 July 2026
 
+> **Status since 21 August 2026.** This manuscript will not be submitted for publication. It is retained as a dated research synthesis and bibliography. Maintained project findings now live in `knowledge/editorial-model.md`, `knowledge/evaluation-results.md`, and `knowledge/page-xml-mets-architecture.md`.
+
 ## Abstract
 
 Digital scholarly editions usually split publication and editorial work between a public reading interface and a server-backed editing environment, and the maintenance of the server side is where small projects struggle to keep their editions running. We report on a system for the Stefan Zweig estate in which one static browser application carries publication, expert correction, and pipeline verification, switched by where the code runs. System and corpus were produced with frontier models and an AI agent. These models are black boxes in a precise sense, their computation offers no decision logic a researcher could inspect, so every model contribution is recorded in the data with explicit provenance and kept separable from human judgement. The report centres the relation between researcher and AI agent. Knowledge engineering names the structuring of project knowledge into the documents that steer the agent, agentic engineering the discipline that keeps its work accountable. Vogeler's concentric model of editions supplies the editorial frame in which the recorded degree of expert engagement per object becomes readable. We report evaluation results together with their validity limits and situate the sustainability tension of durable static output produced by rented capability.

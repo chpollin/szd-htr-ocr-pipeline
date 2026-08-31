@@ -1200,7 +1200,7 @@ body.view-stats #help { display: none; }
 
 /* ===== Transparency Cards (on #about page) =====
    Three cards under the rendered README: Promptotyping Vault, Research Journal,
-   Exports & Artefacts. Makes the paper's "audit trail" claim verifiable. */
+   Exports & Artefacts. Exposes the project's audit trail. */
 .about__transparency {
   margin-top: 2rem;
   padding-top: 1.5rem;

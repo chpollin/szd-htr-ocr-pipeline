@@ -9,13 +9,14 @@ method:
   url: "https://dhcraft.org/Promptotyping/"
 status: active
 created: 2026-04-02
-updated: 2026-06-10
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: analysis
 related:
   - "[[verification-concept]]"
   - "[[annotation-protocol]]"
   - "[[data-overview]]"
+  - "[[editorial-model]]"
 ---
 
 # Evaluationsergebnisse: CER-Baseline der SZD-HTR-Pipeline
@@ -36,6 +37,14 @@ Empirische Baseline, erhoben **Stand Session 20 (2. April 2026)**. Die Fehlertyp
 | **Gesamt** | **58** | **~99** | **~56.300** |
 
 Seit Session 20 gilt **Edit-Tracking**: alle Korrekturen (Agent + Mensch) werden mit `edit_history` pro Seite gespeichert (Original + Korrektur + Quelle), im Frontend als Side-by-Side-Diff sichtbar.
+
+### Korrekturbasierte CER aus menschlichen Edits
+
+Der neuere Bericht `reports/cer-from-edits.md` misst 56 editierte Seiten aus 40 Objekten mit 114.000 Referenzzeichen. Die zeichengewichtete Korpus-CER betraegt 0,962 Prozent. Weitere 16 menschlich gepruefte Objekte ohne Edits werden im Bericht separat als fehlerfrei nach Projektkonvention ausgewiesen und gehen nicht in den Nenner dieser Messung ein.
+
+Diese CER ist eine Fortschrittsmessung am kuratierten Bestand. Die pruefende Person sieht die Modelltranskription vor dem Bild; plausible Fehllektuerungen koennen dadurch als Anker wirken und unentdeckt bleiben. Die Auswahl folgt editorischen Prioritaeten und ist keine Zufallsstichprobe. Eine zweite unabhaengige Lesung fehlt, weshalb keine Inter-Annotator-Uebereinstimmung vorliegt. Der Aggregatwert verdeckt zudem Unterschiede zwischen Haenden, Schriftarten und Sprachen.
+
+Ein niedriger Zeichenfehlerwert belegt die diplomatische Genauigkeit nur teilweise. Systematische Normalisierungen koennen fachlich relevant sein und zugleich wenige Zeichen betreffen. Fuer eine belastbarere Evaluation bleiben ein blind transkribiertes Teilsample, stratifizierte Auswertungen sowie Mikro- und Makromittel mit dokumentierter Unsicherheit offen. [[editorial-model]] ordnet diese Grenze in das Provenienz- und Statusmodell des Projekts ein.
 
 ---
 

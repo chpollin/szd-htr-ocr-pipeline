@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-07-30
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -191,3 +191,4 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-03 | _fill_missing_pages() | Seiten-Bild-Desynchronisation behoben, 41 Objekte backfilled |
 | 2026-04-03 | Page-JSON v0.2 + descriptive_metadata | Dublin Core + materialtypologische Erweiterungen fuer Archivmetadaten |
 | 2026-04-03 | Zwei Ausgabeformate | Page-JSON (intern, Arbeitsformat) + METS/MODS + PAGE XML (extern, Archiv- und Austauschformat) |
+| 2026-08-21 | Proto-Edition-Manuskript bleibt Forschungsartefakt | Keine Einreichung dieses Manuskripts; gepflegte Erkenntnisse liegen in `knowledge/editorial-model.md`, `knowledge/evaluation-results.md` und `knowledge/page-xml-mets-architecture.md` |

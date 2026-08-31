@@ -7,7 +7,7 @@ VLM-based handwritten text recognition (HTR) and OCR for the Stefan Zweig estate
 
 **[Live Viewer & Catalogue](https://chpollin.github.io/szd-htr-ocr-pipeline/)** — browse all transcriptions with facsimile comparison, quality signals, and search.
 
-The project's final report is documented in [`paper/PAPER.md`](paper/PAPER.md), with its evidence base in [`paper/PAPER-FINDINGS.md`](paper/PAPER-FINDINGS.md).
+A July 2026 research synthesis is retained in [`paper/PAPER.md`](paper/PAPER.md), with its evidence base in [`paper/PAPER-FINDINGS.md`](paper/PAPER-FINDINGS.md). The manuscript is a historical research artefact and has no active submission target. The maintained conceptual account lives in [`knowledge/editorial-model.md`](knowledge/editorial-model.md).
 
 ## Approach
 
@@ -125,13 +125,13 @@ Three cells above the catalogue make the Git-based workflow visible:
 
 ### Project Transparency panel (public and local)
 
-Below the catalogue statistics, three cards make the paper's methodological claims verifiable:
+Below the catalogue statistics, three cards make the project's methodological decisions and evidence inspectable:
 
 - **Promptotyping Vault** — enumerates the Markdown documents in `knowledge/` (data overview, annotation protocol, verification concept, evaluation results, interchange format, architecture, journal, etc.) with in-app links.
 - **Research Journal** — last 3 session headlines parsed from `knowledge/journal.md`. The session log *is* the audit trail.
 - **Exports & Artefacts** — links to `results/`, to the METS/MODS + PAGE-XML architecture document, and to the Page-JSON v0.2 format specification.
 
-This panel is intentionally visible on both the public Pages deployment and locally, so reviewers can trace paper claims without cloning the repository.
+This panel is visible on both the public Pages deployment and locally, so readers can inspect the audit trail without cloning the repository.
 
 ### Review workflow
 

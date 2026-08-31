@@ -1,5 +1,7 @@
 # PAPER-FINDINGS.md
 
+> **Status since 21 August 2026.** This file remains the evidence base for the archived July 2026 manuscript. It no longer drives an active submission workflow. Maintained findings live in the canonical documents under `knowledge/`.
+
 ## Phase 1 — Repository account
 
 ### What this repository is

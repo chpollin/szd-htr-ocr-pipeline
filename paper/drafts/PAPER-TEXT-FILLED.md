@@ -1,5 +1,7 @@
 # PAPER-TEXT-FILLED.md
 
+> **Archived draft.** This text is superseded and has no active submission target. See `../README.md` for the status of the manuscript archive.
+
 This file is the filled product: a copy of PAPER-TEXT.md with the seven
 placeholders replaced by passages drafted from repository evidence. The
 evidence for each passage is recorded in PAPER-FINDINGS.md under "Draft

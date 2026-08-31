@@ -1,5 +1,7 @@
 # CLAUDE-TASK.md — Working instructions for this repository
 
+> **Archived working instruction.** This task produced the superseded draft and evidence files in July 2026. It must not be executed as a current publication task.
+
 You are preparing the empirical basis for a paper about this repository, the
 SZD OCR/HTR pipeline. The paper text with marked gaps is in PAPER-TEXT.md.
 Your work has two phases, in strict order. Do not modify pipeline code or

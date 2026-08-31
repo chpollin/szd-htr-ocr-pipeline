@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
 status: active
 created: 2026-04-01
-updated: 2026-06-10
+updated: 2026-08-21
 authors: [Christopher Pollin]
 type: concept
 related:
@@ -22,6 +22,7 @@ related:
   - "[[evaluation-results]]"
   - "[[data-overview]]"
   - "[[layout-analysis]]"
+  - "[[editorial-model]]"
 ---
 
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline

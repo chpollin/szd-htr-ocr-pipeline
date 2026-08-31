@@ -798,7 +798,7 @@ async function showViewer(objectId, page) {
 
 /* ===== Transparency Cards on the Project (#about) page =====
    Renders the Promptotyping-Vault enumeration, Journal session count, and Exports
-   links that the Code4Lib paper claims as verifiable artefacts. Lives on #about,
+   links that expose the project's audit trail. Lives on #about,
    not on the catalog, so the documents remain the primary content. */
 
 async function renderTransparencyCards() {
