@@ -228,9 +228,95 @@ function escapeHtml(text) {
     .replace(/'/g, '&#x27;');
 }
 
+/* ===== Transkriptions-Markup =====
+   Rendert die Marker des Annotationsprotokolls (knowledge/annotation-protocol.md §3)
+   in der Leseansicht. Bisher wurde nur ~~Tilgung~~ dargestellt, alle anderen Marker
+   standen als roher Text da — Einfuegungen waren im Review nicht als solche erkennbar.
+
+   Die geschweiften Klammern bekommen bewusst ZWEI Darstellungen. Der VLM nutzt {}
+   massenhaft als Wortsegmentierungs-Rauschen; nach der Auswertung in
+   pipeline/marker_enrich.py sind rund 81% der {} keine echten Einfuegungen. Wuerde
+   die Leseansicht jedes {} als Einfuegung auszeichnen, waere die Auszeichnung
+   ueberwiegend falsch. Deshalb spiegelt renderMarkupLine() die konservative Regel
+   aus marker_enrich.py: was dort zu <add> wird, erscheint hier als Einfuegung; alles
+   andere als "bleibt literal". Damit zeigt der Viewer genau das, was der TEI-Export
+   spaeter erzeugt — die Reviewerin sieht vor dem Approve, ob ihre Auszeichnung traegt.
+
+   Achtung bei Aenderungen: pipeline/marker_enrich.py ist die Referenz. Wer dort die
+   Regel anpasst, muss sie hier nachziehen (Tests: pipeline/test_marker_enrich.py). */
+
+const MARKUP_PLACEHOLDER = new Set(['eingefuegt', 'eingefügt']);
+// Trailing-Satzzeichen, die nicht zum unsicheren Wort gehoeren. ";" bewusst nicht,
+// sonst wird eine HTML-Entity wie &amp; zerschnitten (wie in marker_enrich.py).
+const MARKUP_TRAIL = '.,:!?)"\'»«';
+
 function renderTranscription(text) {
   if (!text) return '';
-  return escapeHtml(text).replace(/~~(.+?)~~/g, '<del>$1</del>');
+  return escapeHtml(text).split('\n').map(renderMarkupLine).join('\n');
+}
+
+function renderMarkupLine(line) {
+  // Ganzzeilige Label-Marker: [Stempel: X], [Poststempel: X], [Marginalie: X]
+  const note = line.match(/^(\s*)\[(Stempel|Poststempel|Marginalie):\s?(.*)\]\s*$/);
+  if (note) {
+    const kind = note[2];
+    return `${note[1]}<span class="tm tm-note" title="${kind}">${note[3]}</span>`;
+  }
+
+  // Gedrehter Text (Protokoll §3.7): [quer: X] = 90°, [kopf: X] = 180°.
+  // Der Text wird nicht wirklich gedreht dargestellt — das waere im Fliesstext
+  // unlesbar. Ein Symbol plus Tooltip genuegt, um den Befund sichtbar zu machen.
+  const rot = line.match(/^(\s*)\[(quer|kopf):\s?(.+?)\]\s*$/i);
+  if (rot) {
+    const quer = rot[2].toLowerCase() === 'quer';
+    const sym = quer ? '↻' : '⇅';
+    const label = quer ? 'quer geschrieben (90°)' : 'kopfstehend (180°)';
+    return `${rot[1]}<span class="tm tm-rot" title="${label}"><span class="tm-rot__sym">${sym}</span>${rot[3]}</span>`;
+  }
+
+  let s = line;
+
+  // WORT[?] — unsichere Lesung (50-90% sicher). Markiert das Wort, nicht die
+  // nachfolgende Interpunktion.
+  s = s.replace(/([^\s[\]{}~]+)\[\?\]/g, (full, tok) => {
+    let core = tok;
+    while (core && MARKUP_TRAIL.includes(core[core.length - 1])) core = core.slice(0, -1);
+    if (!core) return full;
+    return `<span class="tm tm-unclear" title="unsichere Lesung">${core}</span>${tok.slice(core.length)}`;
+  });
+
+  // [...N...] / [...] — unleserliche Passage, Klammer bleibt sichtbar
+  s = s.replace(/\[\.{3}(\d+)\.{3}\]/g,
+    (_, n) => `<span class="tm tm-gap" title="unleserlich, ca. ${n} Zeichen">[…${n}…]</span>`);
+  s = s.replace(/\[\.{3}\]/g, '<span class="tm tm-gap" title="unleserlich">[…]</span>');
+
+  // ~~x~~ — Tilgung, nur bei ausbalancierten Markern
+  if ((s.match(/~~/g) || []).length % 2 === 0) {
+    s = s.replace(/~~([^~[\]{}]+?)~~/g, '<del class="tm tm-del" title="gestrichen">$1</del>');
+  }
+
+  // {x} — Einfuegung, nur wo marker_enrich.py sie auch als <add> exportieren wuerde
+  s = s.replace(/\{([^{}~[\]]+)\}/g, (full, payload, offset) => {
+    if (!markupIsRealInsertion(s, payload, offset, full.length)) {
+      return `<span class="tm tm-brace" title="Geschweifte Klammer — wird nicht als Einfügung exportiert">${full}</span>`;
+    }
+    return `<ins class="tm tm-add" title="Einfügung (über der Zeile oder am Rand)">${payload}</ins>`;
+  });
+
+  return s;
+}
+
+/** Konservative Einfuegungs-Regel, spiegelt pipeline/marker_enrich.py Schritt 5. */
+function markupIsRealInsertion(line, payload, offset, length) {
+  if ((line.match(/\{/g) || []).length !== 1) return false;   // >=2 pro Zeile: Rauschen
+  if ((line.match(/\}/g) || []).length !== 1) return false;
+  if (MARKUP_PLACEHOLDER.has(payload.trim().toLowerCase())) return false;
+  if (payload.trimEnd().endsWith('-')) return false;           // Worttrennungs-Fragment
+  if (payload.trim().split(/\s+/).length > 2) return false;    // Mehrwort: unplausibel
+  // Allein auf der Zeile: keine Einfuegung, sondern eigenstaendiger Text
+  const before = line.slice(0, offset).trim();
+  const after = line.slice(offset + length).trim();
+  return !!(before || after);
 }
 
 function debounce(fn, ms) {
@@ -565,6 +651,7 @@ function toggleFitMode() {
   state.fitMode = state.fitMode === 'height' ? 'width' : 'height';
   try { localStorage.setItem(LS_FIT_KEY, state.fitMode); } catch { /* ignore */ }
   applyFitMode();
+  imgViewApply();
   syncLayoutOverlayPosition();
 }
 
@@ -1610,7 +1697,7 @@ function renderViewerNav() {
   }
 
   const pageInfoEl = document.getElementById('pageInfo');
-  pageInfoEl.innerHTML = `<span class="viewer__page-info-text">${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}${scanInfo}</span>`;
+  pageInfoEl.innerHTML = `<span class="viewer__nav-unit">Seite</span><span class="viewer__page-info-text">${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}${scanInfo}</span>`;
   pageInfoEl.style.cursor = total > 1 ? 'pointer' : '';
   document.getElementById('prevPageBtn').disabled = state.currentPage === 0;
   document.getElementById('nextPageBtn').disabled = state.currentPage >= total - 1;
@@ -1619,8 +1706,10 @@ function renderViewerNav() {
   const idx = state.filteredObjects.findIndex(o => o.id === state.currentObjectId);
   document.getElementById('prevObjBtn').disabled = idx <= 0;
   document.getElementById('nextObjBtn').disabled = idx < 0 || idx >= state.filteredObjects.length - 1;
-  document.getElementById('objInfo').textContent =
-    idx >= 0 ? `Objekt ${idx + 1} / ${state.filteredObjects.length}` : '';
+  document.getElementById('objInfo').innerHTML =
+    idx >= 0
+      ? `<span class="viewer__nav-unit">Objekt</span>${idx + 1} / ${state.filteredObjects.length}`
+      : '';
 }
 
 function activatePageJumpInput() {
@@ -1630,7 +1719,7 @@ function activatePageJumpInput() {
   if (total <= 1) return;
 
   const el = document.getElementById('pageInfo');
-  el.innerHTML = `<input type="number" class="viewer__page-jump" id="pageJumpInput"
+  el.innerHTML = `<span class="viewer__nav-unit">Seite</span><input type="number" class="viewer__page-jump" id="pageJumpInput"
     min="1" max="${total}" value="${state.currentPage + 1}" />`;
 
   const input = document.getElementById('pageJumpInput');
@@ -1667,8 +1756,21 @@ function renderViewerPage() {
   const pages = obj.pages || [];
   const page = pages[state.currentPage];
 
-  // Reset image view on page change
-  imgViewReset();
+  // Bildansicht nur bei einem echten Seiten- oder Objektwechsel zuruecksetzen.
+  // renderViewerPage() laeuft auch beim Umschalten Lese-/Edit-Modus und nach
+  // jedem Undo — ein Reset an dieser Stelle warf eine eingestellte Drehung weg,
+  // sobald man auf "Edit" klickte. Die Drehung ueberlebt zusaetzlich den
+  // Seitenwechsel innerhalb eines Objekts: quer eingescannte Konvolute sind
+  // in aller Regel durchgehend quer, Zoom und Pan werden trotzdem neu gesetzt.
+  const viewKey = `${state.currentObjectId}:${state.currentPage}`;
+  if (imgView.viewKey !== viewKey) {
+    const sameObject = imgView.objectKey === state.currentObjectId;
+    imgView.viewKey = viewKey;
+    imgView.objectKey = state.currentObjectId;
+    imgViewReset(!sameObject);
+  } else {
+    imgViewApply();
+  }
 
   // Image
   const img = document.getElementById('faksimile');
@@ -1680,7 +1782,9 @@ function renderViewerPage() {
     spinner.classList.remove('is-hidden');
 
     if (imgUrl) {
-      img.onload = () => { img.classList.remove('is-hidden'); spinner.classList.add('is-hidden'); applyFitMode(); syncLayoutOverlayPosition(); };
+      // imgViewApply() erst nach dem Laden erneut: die Fit-Skalierung einer
+      // Drehung braucht die tatsaechlichen Wrapper-Masse.
+      img.onload = () => { img.classList.remove('is-hidden'); spinner.classList.add('is-hidden'); applyFitMode(); imgViewApply(); syncLayoutOverlayPosition(); };
       img.onerror = () => {
         spinner.textContent = 'Bild konnte nicht geladen werden.';
         spinner.className = 'viewer__img-error';
@@ -1730,6 +1834,86 @@ function renderEditMode(transcription) {
   if (!wrap) return;
   wrap.innerHTML = '<textarea class="viewer__transcription-edit" id="transcriptionEdit"></textarea>';
   document.getElementById('transcriptionEdit').value = transcription || '';
+}
+
+/* ----- Editorisches Markup (Annotationsprotokoll §3) -----
+   Die Marker sind schnell falsch gesetzt: [?] gehoert ohne Leerzeichen ans Wort,
+   Streichung und Einfuegung umschliessen eine Auswahl, [Marginalie:] gehoert ans
+   Seitenende nach einer Leerzeile. Die Leiste macht genau das — statt dass die
+   Regel beim Tippen aus dem Gedaechtnis rekonstruiert werden muss. */
+const MARKUP_ACTIONS = {
+  strike:      { wrap: ['~~', '~~'], placeholder: 'gestrichener Text' },
+  insert:      { wrap: ['{', '}'], placeholder: 'eingefuegter Text' },
+  quer:        { wrap: ['[quer: ', ']'], placeholder: 'quer geschriebener Text' },
+  kopf:        { wrap: ['[kopf: ', ']'], placeholder: 'kopfstehender Text' },
+  uncertain:   { append: '[?]' },
+  illegible:   { insert: '[...]' },
+  'illegible-n': { insert: '[...N...]', select: 'N' },
+  marginalie:  { atEnd: '[Marginalie:] ' },
+};
+
+function applyMarkup(kind) {
+  const ta = document.getElementById('transcriptionEdit');
+  const action = MARKUP_ACTIONS[kind];
+  if (!ta || !action) return;
+
+  const value = ta.value;
+  const start = ta.selectionStart;
+  const end = ta.selectionEnd;
+  let next = value;
+  let selStart;
+  let selEnd;
+
+  if (action.wrap) {
+    const [open, close] = action.wrap;
+    const selected = value.slice(start, end) || action.placeholder;
+    next = value.slice(0, start) + open + selected + close + value.slice(end);
+    // Ohne Auswahl den Platzhalter markieren, damit direkt drueber getippt wird
+    selStart = start + open.length;
+    selEnd = selStart + selected.length;
+  } else if (action.append) {
+    // [?] bezieht sich auf das vorangehende Wort und darf kein Leerzeichen davor
+    // haben. Steht der Cursor mitten im Wort, ans Wortende springen — aber nur
+    // ueber Wortzeichen, damit der Marker bei "Klard," vor das Komma kommt und
+    // nicht dahinter.
+    let pos = end;
+    while (pos < value.length && /[\p{L}\p{N}\-'’]/u.test(value[pos])) pos++;
+    next = value.slice(0, pos) + action.append + value.slice(pos);
+    selStart = selEnd = pos + action.append.length;
+  } else if (action.atEnd) {
+    // Randbemerkung ans Seitenende, nach einer Leerzeile
+    const body = value.replace(/\s+$/, '');
+    const sep = body ? '\n\n' : '';
+    next = body + sep + action.atEnd;
+    selStart = selEnd = next.length;
+  } else {
+    next = value.slice(0, start) + action.insert + value.slice(end);
+    if (action.select) {
+      const rel = action.insert.indexOf(action.select);
+      selStart = start + rel;
+      selEnd = selStart + action.select.length;
+    } else {
+      selStart = selEnd = start + action.insert.length;
+    }
+  }
+
+  ta.value = next;
+  ta.focus();
+  ta.setSelectionRange(selStart, selEnd);
+  // Bewusst kein saveCurrentEdit() — sonst ginge pro Markup-Klick ein Write ins
+  // Pipeline-JSON. Wie getippter Text wird die Aenderung bei Ctrl+S, Seiten-
+  // wechsel oder Verlassen des Edit-Modus uebernommen.
+}
+
+function toggleGuidelines(force) {
+  const panel = document.getElementById('guidelinesPanel');
+  const btn = document.getElementById('guidelinesBtn');
+  if (!panel) return;
+  const show = force !== undefined ? force : panel.classList.contains('is-hidden');
+  panel.classList.toggle('is-hidden', !show);
+  btn?.classList.toggle('active', show);
+  btn?.setAttribute('aria-pressed', String(show));
+  if (show) panel.scrollTop = 0;
 }
 
 function saveCurrentEdit() {
@@ -1812,6 +1996,10 @@ function updateEditButtons() {
   editSaveBtn.classList.toggle('is-hidden', !state.editMode);
   undoPageBtn.classList.toggle('is-hidden', !(state.editMode && hasPageEdit));
   discardBtn.classList.toggle('is-hidden', !(objCount > 0 && state.isLocal));
+
+  // Markup-Leiste nur im Edit-Modus — sie schreibt in die Textarea
+  document.getElementById('markupBar')
+    ?.classList.toggle('is-hidden', !(state.editMode && state.isLocal));
 
   // Edit status bar
   if (statusBar) {
@@ -1933,6 +2121,8 @@ const imgView = {
   rotation: 0,
   panX: 0,
   panY: 0,
+  viewKey: null,             // "objectId:page" der zuletzt gerenderten Ansicht
+  objectKey: null,           // objectId dazu — Drehung ueberlebt den Seitenwechsel
   isDragging: false,
   dragStartX: 0,
   dragStartY: 0,
@@ -1943,18 +2133,58 @@ const imgView = {
   ZOOM_STEP: 1.25,
 };
 
-function imgViewReset() {
+function imgViewReset(resetRotation = true) {
   imgView.scale = 1;
-  imgView.rotation = 0;
   imgView.panX = 0;
   imgView.panY = 0;
+  if (resetRotation) imgView.rotation = 0;
   imgViewApply();
 }
 
 function imgViewApply() {
   const wrapper = document.getElementById('imgWrapper');
   if (!wrapper) return;
-  wrapper.style.transform = `translate(${imgView.panX}px, ${imgView.panY}px) scale(${imgView.scale}) rotate(${imgView.rotation}deg)`;
+  wrapper.style.transform =
+    `translate(${imgView.panX}px, ${imgView.panY}px) scale(${imgView.scale})${imgViewRotationTransform()}`;
+}
+
+/**
+ * Drehung um die Panel-Mitte statt um den Wrapper-Ursprung.
+ *
+ * `transform-origin` ist bewusst `0 0` — die Zoom-auf-den-Cursor-Rechnung in
+ * imgViewZoom() haengt daran. Eine Drehung um diesen Punkt kippt das Faksimile
+ * aber komplett aus dem Panel heraus (bei 90 Grad liegt es vollstaendig links
+ * ausserhalb, und das Panel hat overflow:hidden) — der Drehen-Button sah
+ * dadurch aus, als wuerde er das Bild loeschen. Deshalb wird die Drehung hier
+ * explizit um die Panel-Mitte gelegt und quer liegende Seiten zusaetzlich so
+ * skaliert, dass sie ganz sichtbar bleiben.
+ *
+ * Bei rotation === 0 wird nichts angehaengt: die Zentrier-Translation wuerde
+ * sonst den Modus "Breite einpassen" (Wrapper hoeher als Panel, oben
+ * ausgerichtet, vertikal scrollbar) veraendern.
+ */
+function imgViewRotationTransform() {
+  const deg = imgView.rotation;
+  if (!deg) return '';
+
+  const panel = document.getElementById('imgPanel');
+  const wrapper = document.getElementById('imgWrapper');
+  if (!panel || !wrapper) return ` rotate(${deg}deg)`;
+
+  const pw = panel.clientWidth;
+  const ph = panel.clientHeight;
+  const ww = wrapper.offsetWidth;
+  const wh = wrapper.offsetHeight;
+  if (!pw || !ph || !ww || !wh) return ` rotate(${deg}deg)`;
+
+  // Bounding Box nach der Drehung: bei 90/270 Grad sind Breite und Hoehe getauscht.
+  const quarter = deg % 180 !== 0;
+  const boxW = quarter ? wh : ww;
+  const boxH = quarter ? ww : wh;
+  const fit = Math.min(pw / boxW, ph / boxH, 1);
+
+  return ` translate(${pw / 2}px, ${ph / 2}px) rotate(${deg}deg) scale(${fit})`
+    + ` translate(${-ww / 2}px, ${-wh / 2}px)`;
 }
 
 function imgViewZoom(delta, clientX, clientY) {
@@ -3226,11 +3456,19 @@ function initEvents() {
   document.getElementById('prevObjBtn').addEventListener('click', () => changeViewerObject(-1));
   document.getElementById('nextObjBtn').addEventListener('click', () => changeViewerObject(1));
 
+  // Viewer: Editionsrichtlinien + Markup-Leiste
+  document.getElementById('guidelinesBtn')?.addEventListener('click', () => toggleGuidelines());
+  document.getElementById('guidelinesCloseBtn')?.addEventListener('click', () => toggleGuidelines(false));
+  document.getElementById('markupBar')?.addEventListener('click', e => {
+    const btn = e.target.closest('[data-markup]');
+    if (btn) applyMarkup(btn.dataset.markup);
+  });
+
   // Viewer: image controls (all in nav bar)
   document.getElementById('navZoomInBtn').addEventListener('click', () => imgViewZoom(1));
   document.getElementById('navZoomOutBtn').addEventListener('click', () => imgViewZoom(-1));
   document.getElementById('navRotateBtn').addEventListener('click', imgViewRotate);
-  document.getElementById('navResetBtn').addEventListener('click', imgViewReset);
+  document.getElementById('navResetBtn').addEventListener('click', () => imgViewReset());
   document.getElementById('navFitBtn').addEventListener('click', toggleFitMode);
   document.getElementById('navLayoutBtn').addEventListener('click', toggleLayoutOverlay);
   initImgViewEvents();
@@ -3324,6 +3562,17 @@ function initEvents() {
       return;
     }
 
+    // Alt+R dreht das Faksimile auch aus dem Textfeld heraus. Im Edit-Modus
+    // liegt der Fokus staendig in der Textarea, dort waere das blanke "R" ein
+    // getipptes Zeichen und kein Shortcut.
+    if (e.altKey && !e.ctrlKey && !e.metaKey && (e.key === 'r' || e.key === 'R')) {
+      if (document.body.classList.contains('view-viewer')) {
+        e.preventDefault();
+        imgViewRotate();
+      }
+      return;
+    }
+
     // Don't capture when typing in inputs
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
 
@@ -3335,8 +3584,13 @@ function initEvents() {
       if (e.key === '0') { e.preventDefault(); imgViewReset(); }
       if (e.key === 'r' || e.key === 'R') { e.preventDefault(); imgViewRotate(); }
       if (e.key === 'l' || e.key === 'L') { e.preventDefault(); toggleLayoutOverlay(); }
+      if (e.key === 'g' || e.key === 'G') { e.preventDefault(); toggleGuidelines(); }
       if (e.key === 'Escape') {
-        if (state.editMode) {
+        const guidelinesOpen =
+          !document.getElementById('guidelinesPanel')?.classList.contains('is-hidden');
+        if (guidelinesOpen) {
+          toggleGuidelines(false);
+        } else if (state.editMode) {
           saveCurrentEdit();
           state.editMode = false;
           renderViewerPage();

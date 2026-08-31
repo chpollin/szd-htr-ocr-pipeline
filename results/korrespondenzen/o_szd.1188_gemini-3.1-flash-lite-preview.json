@@ -22,9 +22,18 @@
       },
       {
         "page": 2,
-        "transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+        "transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nichts\ndazwischenkommt, bitte\nsagen Sie es aber []-\n[].x Herzl. Dank\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
         "notes": "Rückseite der Postkarte. Der Text am linken Rand ist vertikal geschrieben. Die Grußformel 'herz. [?]gr.' ist schwer lesbar, vermutlich 'herzliche Grüße'. Poststempel 'PALAIS DU LOUVRE' und zwei französische Briefmarken (50c) vorhanden.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+        "edit_history": [
+          {
+            "original_transcription": "Liebe Frau Meingast,\nich komme Samstag\nvormittags, falls nicht\ndazwischenkommt, bitte\nsagen Sie es aber we-\nnigstens[?] herz. [?]gr.\nStefan Zweig\n\n[am linken Rand, vertikal geschrieben:]\nIch weiß schon.\n\n[Adressseite:]\nFrau A. Meingast\nbei Zweig\nSalzburg (Autriche)\nKapuzinerberg 5",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:40:39.060922+00:00",
+            "source": "human"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -61,5 +70,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T11:40:40.960339+00:00"
   }
 }

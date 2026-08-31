@@ -23,9 +23,18 @@
       },
       {
         "page": 2,
-        "transcription": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+        "transcription": "Envoi de M\nCorrespondance\nParis 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa [Bazalgette]\nEcrivez donc, ne faites\npas le muet! Mille\namitiés\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nAdresse\nMs. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
         "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarken und Poststempel vorhanden.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+        "edit_history": [
+          {
+            "original_transcription": "Paris 24 Janvier 21\nUne trop cordiale réunion\npour que vous en soyez absent\ncher ami,\nElsa Bazalgette\nEcrivez donc, ne faites\npas le muet! Mille\namitiés [eingefügt: Bazalgette]\nA vous, mon vieil ami, de tout\ncœur, - un grand coupable, J. R. Bloch.\n\nMr. Stefan Zweig\nKapuzinerberg, 5\nSalzburg\n(Autriche)",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T14:00:35.424552+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -70,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T14:00:39.778072+00:00"
   }
 }

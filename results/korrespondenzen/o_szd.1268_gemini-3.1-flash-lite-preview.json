@@ -21,9 +21,18 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+        "transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (soit après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
         "notes": "Brief von Romain Rolland an Stefan Zweig. Handschriftlich in blauer Tinte.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+        "edit_history": [
+          {
+            "original_transcription": "Villeneuve (Vaud) villa Olga\nMardi 17 septembre 35\n\nCher ami\n\nNous serons très heureux de vous voir,\nSamedi 21. Voulez-vous venir déjeuner\n(midi 1/2) ?\nSi cette heure vous était incommode,\nau cas où vous ne passiez pas la nuit de\nvendredi à samedi à Montreux, - venez\ndonc l'après-midi, de préférence après la\nsieste (vers après 2h 1/2).\nAyez la bonté de télégraphier ou\ntéléphoner ce que vous décidez. - Et",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:43:53.086565+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
@@ -51,9 +60,18 @@
       },
       {
         "page": 6,
-        "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+        "transcription": "Exp. Romain Rolland, Villeneuve (Vaud)\n\n[Poststempel: 18.IX35-/ Zürich Hauptbahnhof Postlager]",
         "notes": "Rückseite des Briefumschlags mit Absenderangabe.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Exp. Romain Rolland, Villeneuve (Vaud)",
+        "edit_history": [
+          {
+            "original_transcription": "Exp. Romain Rolland, Villeneuve (Vaud)",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:45:26.138720+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 7,
@@ -106,5 +124,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      6
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T11:46:00.434401+00:00"
   }
 }

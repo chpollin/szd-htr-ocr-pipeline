@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-08-21
+updated: 2026-08-26
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -90,6 +90,11 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Pilot uebersprungen — Modellkonsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch
 - [~] **Expert-Review**: 3/18 GT-Objekte verifiziert (o_szd.153, o_szd.137, o_szd.194). 15 ausstehend.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
+- [ ] **Editionsrichtlinien pflegen** — das Richtlinien-Panel im Viewer zeigt §3 des
+      Annotationsprotokolls. Faelle, die beim Redigieren auftauchen und dort nicht geregelt sind,
+      gehoeren zurueck in `knowledge/annotation-protocol.md` und von dort ins Panel. Offen ist,
+      ob das Panel Gruppen-spezifische Regeln (§4: Umschlaege, Stempel, Formularfelder, mehrere
+      Haende) ebenfalls aufnehmen sollte — bisher nur die gruppenunabhaengigen Marker.
 
 ### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
@@ -98,6 +103,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] System-Prompt: JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien, Bleed-Through-Regel
 - [x] Seiten-Bild-Synchronisation: `_fill_missing_pages()` fuer VLM-Luecken (41 Objekte backfilled)
 - [~] Alle Sammlungen transkribieren. Lebensdokumente 100%, Korrespondenzen 100%. Fortschritt → `--dry-run`.
+- [ ] **34 Totalausfaelle neu laufen lassen** — Objekte mit `result.raw` statt `pages` (836 Scans, alle vier Sammlungen). Ursache: degenerierte Wiederholungsschleife des VLM in Markup-Zeichen (`\n`, `[?]`, `[...]`, `~~ ~~`). ~300 Seiten sind ohne API-Call aus den Rohdaten zu retten. Vollstaendige Liste, Ausfallarten und Empfehlung → `reports/pipeline-totalausfaelle.md` (Julia Hintersteiner, 2026-08-26)
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Modellkonsensus & Vergleich
@@ -118,6 +124,15 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Expert-Review Write-Back (`import_reviews.py`) + 3-stufiger Review-Status (Session 16)
 - [x] Katalog-Bereinigung: Duplikate (Pro-Modell), Color-Chart-Seiten, Test-Daten gefiltert (Session 16-17)
 - [x] Katalog: Filter je einzelnem `needs_review`-Grund (`reason`-Param, Dropdown "Alle Signale") + Grund als klickbarer Chip in der Status-Spalte statt nur im Tooltip; Signal-Balkendiagramm und Heatmap-Zellen im Statistik-Dashboard verlinken auf den jeweiligen Signal-Filter (Operator-Feedback 2026-07-27)
+- [x] Viewer: Objekt- und Seitennavigation optisch getrennt — die Objektebene ist eine ruhige
+      Pille mit kleineren, randlosen Buttons, die Seitenebene bleibt der primaere Control; beide
+      Zaehler benennen ihre Einheit ("Objekt 12 / 2452", "Seite 3 / 7") statt zweier nackter
+      Zahlenpaare mit fast gleichen Pfeilzeichen (Operator-Feedback 2026-08-26)
+- [x] Viewer: Editionsrichtlinien am Ort der Arbeit — Button "§ Richtlinien" (Taste G) blendet
+      §3 des Annotationsprotokolls neben dem Text ein (Streichungen, Schwelle [?] gegen [...],
+      Einfuegungen, Randbemerkungen), im Edit-Modus zusaetzlich eine Markup-Leiste, die die Marker
+      regelkonform setzt: Auswahl in ~~...~~ / {...} einschliessen, [?] ohne Leerzeichen ans
+      vorangehende Wort, [Marginalie:] ans Seitenende nach Leerzeile (Operator-Feedback 2026-08-26)
 
 ## Phase 5: Export & Austauschformate
 

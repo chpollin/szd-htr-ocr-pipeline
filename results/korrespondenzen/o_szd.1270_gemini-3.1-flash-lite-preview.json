@@ -25,9 +25,18 @@
       },
       {
         "page": 2,
-        "transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+        "transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris 7e)\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
         "notes": "Die Transkription enthält einige Korrekturen und Einfügungen über der Zeile. Die Lesbarkeit ist aufgrund der kursiven Handschrift und der Durchstreichungen anspruchsvoll.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+        "edit_history": [
+          {
+            "original_transcription": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T11:51:36.485279+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -88,5 +97,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T11:51:57.267769+00:00"
   }
 }

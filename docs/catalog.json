@@ -817,7 +817,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -2131,9 +2131,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 5210,
+        "totalChars": 5204,
         "emptyPages": 4,
-        "avgCharsPerPage": 1302,
+        "avgCharsPerPage": 1301,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -2145,7 +2145,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -3473,7 +3473,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -39207,11 +39207,11 @@
       "pageCount": 4,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1083/THUMBNAIL",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1535,
+        "totalChars": 1561,
         "emptyPages": 0,
-        "avgCharsPerPage": 384,
+        "avgCharsPerPage": 390,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -39223,7 +39223,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -43077,11 +43077,11 @@
       "pageCount": 2,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1188/THUMBNAIL",
       "verification": {
-        "uncertainCount": 2,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 373,
+        "totalChars": 366,
         "emptyPages": 0,
-        "avgCharsPerPage": 186,
+        "avgCharsPerPage": 183,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -43093,7 +43093,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -46205,9 +46205,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 670,
+        "totalChars": 726,
         "emptyPages": 2,
-        "avgCharsPerPage": 168,
+        "avgCharsPerPage": 182,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -46219,7 +46219,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -46260,7 +46260,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -46285,9 +46285,9 @@
       "pageCount": 4,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1270/THUMBNAIL",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1765,
+        "totalChars": 1764,
         "emptyPages": 1,
         "avgCharsPerPage": 588,
         "vlmConfidence": "high"
@@ -46301,7 +46301,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55084,9 +55084,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 569,
+        "totalChars": 594,
         "emptyPages": 0,
-        "avgCharsPerPage": 284,
+        "avgCharsPerPage": 297,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55098,7 +55098,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55518,10 +55518,10 @@
       "thumbnail": "https://gams.uni-graz.at/o:szd.1639/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
-        "illegibleCount": 1,
-        "totalChars": 625,
-        "emptyPages": 1,
-        "avgCharsPerPage": 625,
+        "illegibleCount": 0,
+        "totalChars": 684,
+        "emptyPages": 0,
+        "avgCharsPerPage": 342,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55533,7 +55533,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55599,9 +55599,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1418,
+        "totalChars": 1526,
         "emptyPages": 0,
-        "avgCharsPerPage": 709,
+        "avgCharsPerPage": 763,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55613,7 +55613,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55654,7 +55654,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55681,9 +55681,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1103,
+        "totalChars": 1158,
         "emptyPages": 0,
-        "avgCharsPerPage": 552,
+        "avgCharsPerPage": 579,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55695,7 +55695,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55720,11 +55720,11 @@
       "pageCount": 2,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1644/THUMBNAIL",
       "verification": {
-        "uncertainCount": 1,
+        "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1457,
+        "totalChars": 1454,
         "emptyPages": 0,
-        "avgCharsPerPage": 728,
+        "avgCharsPerPage": 727,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55736,7 +55736,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55802,9 +55802,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 2398,
+        "totalChars": 2439,
         "emptyPages": 1,
-        "avgCharsPerPage": 2398,
+        "avgCharsPerPage": 2439,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55816,7 +55816,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55843,9 +55843,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1454,
+        "totalChars": 1529,
         "emptyPages": 1,
-        "avgCharsPerPage": 1454,
+        "avgCharsPerPage": 1529,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55857,7 +55857,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55884,9 +55884,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 1,
-        "totalChars": 1491,
-        "emptyPages": 1,
-        "avgCharsPerPage": 1491,
+        "totalChars": 1542,
+        "emptyPages": 0,
+        "avgCharsPerPage": 771,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55898,7 +55898,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55925,9 +55925,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1021,
-        "emptyPages": 1,
-        "avgCharsPerPage": 1021,
+        "totalChars": 1073,
+        "emptyPages": 0,
+        "avgCharsPerPage": 536,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55939,7 +55939,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -55966,9 +55966,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 3916,
+        "totalChars": 3957,
         "emptyPages": 0,
-        "avgCharsPerPage": 1958,
+        "avgCharsPerPage": 1978,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -55980,7 +55980,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -56021,7 +56021,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -56062,7 +56062,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -56103,7 +56103,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -57000,9 +57000,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 328,
+        "totalChars": 424,
         "emptyPages": 0,
-        "avgCharsPerPage": 164,
+        "avgCharsPerPage": 212,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -57014,7 +57014,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -57550,11 +57550,11 @@
       "pageCount": 2,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1690/THUMBNAIL",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 858,
+        "totalChars": 868,
         "emptyPages": 0,
-        "avgCharsPerPage": 429,
+        "avgCharsPerPage": 434,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -57566,7 +57566,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -62862,9 +62862,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 362,
+        "totalChars": 374,
         "emptyPages": 0,
-        "avgCharsPerPage": 181,
+        "avgCharsPerPage": 187,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -62876,7 +62876,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -63297,9 +63297,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 302,
+        "totalChars": 356,
         "emptyPages": 0,
-        "avgCharsPerPage": 151,
+        "avgCharsPerPage": 178,
         "vlmConfidence": "high"
       },
       "needsReview": true,
@@ -63311,7 +63311,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -67510,7 +67510,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },

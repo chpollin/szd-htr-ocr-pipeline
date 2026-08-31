@@ -23,9 +23,18 @@
       },
       {
         "page": 2,
-        "transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+        "transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\nLA DOUCE FRANCE\n103 COTE D'AZUR \nMONTE-CARLO (Alpes Maritimes)\nVue prise des Jardins de Monaco\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
         "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarken und Poststempel vorhanden. Die Adresse ist an Stefan Zweig gerichtet.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+        "edit_history": [
+          {
+            "original_transcription": "Alzir Hella, villa Beau Regard, colline de Pessicart\nnice (France)\n\n6/2/34\nmon cher ami\nJ'ai bien recu la nouvelle\nquestion. Merci infiniment.\nJe compte rentrer à Paris\ndans une semaine et avoir\nla joie de t'y revoir\nBien cordialement\nAlzir\n\nHerrn Stefan Zweig\nSalzburg\n5, Kapuzinerberg\nOesterreich (Autriche)",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-08-07T13:55:03.267397+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 3,
@@ -70,5 +79,13 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-08-07T13:55:06.741736+00:00"
   }
 }

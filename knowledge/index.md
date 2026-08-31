@@ -46,6 +46,12 @@ Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vaul
 | [[layout-analysis]] | Layout | Wie die VLM-gestuetzte Regionenerkennung arbeitet und nach PAGE XML exportiert |
 | [[stats-dashboard]] | Anzeige | Welche Metriken das Statistik-Dashboard zeigt und wie sie definiert sind |
 
+## Rollen und Arbeitsteilung
+
+| Dokument | Funktion | Lektuere beantwortet |
+|---|---|---|
+| [[expert-in-the-loop]] | Zustaendigkeit | Wo welche Expertise noetig ist, technisch, palaeographisch, prosopographisch, editorisch, und welche Entscheidung wer treffen darf |
+
 ## Rahmen und Pruefung
 
 | Dokument | Funktion | Lektuere beantwortet |
@@ -99,6 +105,7 @@ Die folgende Zuordnung wurde am 2026-07-31 nachtraeglich gesetzt, ohne Inhalte z
 | `security.md` | freihaendig | keine |
 | `stats-dashboard.md` | freihaendig | keine |
 | `review-findings.md` | freihaendig | keine |
+| `expert-in-the-loop.md` | freihaendig | keine |
 
 Die Architecture-Funktion ist auf drei Dateien geteilt, was die Vorlage ausdruecklich zulaesst. `htr-interchange-format` traegt das Arbeitsformat zwischen den Pipeline-Stufen, `page-xml-mets-architecture` die Schichtung der Archivausgabe, `layout-analysis` die Layout-Stufe. Integration ist zweimal besetzt, weil das Repository zwei Schnittstellen nach aussen fuehrt, teiCrafter und DIA-XAI.
 
@@ -110,6 +117,7 @@ Diese Dokumente bleiben freihaendig, weil der Katalog fuer ihre Funktion keine V
 - `security` haelt Threat Model und behobene Findings. Die Vorlage Testing deckt Teststrategie und Garantien ab, die Angriffsflaeche deckt sie nicht.
 - `stats-dashboard` spezifiziert ein einzelnes Feature samt seiner Visualisierungsentscheidungen. Die Vorlagen Specification und Design sind auf Repository-Ebene zugeschnitten.
 - `review-findings` sammelt offene Beobachtungen aus dem laufenden Review, also Material vor der Entscheidung. Provenance haelt Entschiedenes, Verification prueft Behauptungen gegen ihre Belege.
+- `expert-in-the-loop` ordnet Kompetenzen den Entscheidungen der Pipeline zu, also eine Frage der Arbeitsteilung. Domain Knowledge haelt fachliche Normen, Planning haelt Aufgaben und Termine, beides trifft die Zustaendigkeitsfrage nicht.
 
 Folgende Funktionen der Konvention tragen bewusst kein Dokument in `knowledge/`.
 

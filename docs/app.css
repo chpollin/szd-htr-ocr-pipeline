@@ -1705,9 +1705,56 @@ body.view-stats #help { display: none; }
   margin: 0;
 }
 
+/* Objekt- vs. Seitennavigation optisch trennen.
+   Beide Ebenen benutzten dieselben runden Buttons und unterschieden sich nur
+   durch das Zeichen (&laquo; gegen &lsaquo;) — beim Redigieren nicht auseinanderzuhalten
+   (Operator-Feedback 2026-08-26). Jetzt: die Objektebene ist eine geschlossene,
+   ruhige Pille (man verlaesst das Objekt selten), die Seitenebene bleibt der
+   primaere, staerker gezeichnete Blaetter-Control. */
+.viewer__nav-group--object {
+  gap: 0.15rem;
+  padding: 0.15rem 0.3rem;
+  border: 1px solid var(--sz-border-light);
+  border-radius: 999px;
+  background: var(--sz-cream);
+}
+
+.viewer__nav-btn--obj {
+  width: 1.7rem;
+  height: 1.7rem;
+  font-size: 0.8rem;
+  border-color: transparent;
+  background: transparent;
+  color: var(--sz-text-light);
+}
+
+.viewer__nav-btn--obj:hover:not(:disabled) {
+  background: var(--sz-white);
+  border-color: var(--sz-border);
+  color: var(--sz-burgundy);
+}
+
 .viewer__obj-info {
   font-size: 0.72rem;
   color: var(--sz-text-light);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  padding: 0 0.15rem;
+}
+
+/* Einheitenbezeichner ("Objekt" / "Seite") — benennt, worauf sich der
+   Zaehler bezieht, statt zwei nackte Zahlenpaare nebeneinanderzustellen. */
+.viewer__nav-unit {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--sz-text-light);
+  margin-right: 0.3rem;
+}
+
+.viewer__nav-group--page .viewer__nav-unit {
+  color: var(--sz-burgundy);
 }
 
 /* Action buttons */
@@ -1942,7 +1989,69 @@ body.view-stats #help { display: none; }
   white-space: pre-wrap;
 }
 
-.viewer__transcription del { color: var(--sz-text-light); text-decoration: line-through; }
+/* Transkriptions-Markup (Annotationsprotokoll §3, gerendert in app.js).
+   Zurueckhaltend gehalten: die Marker sollen beim Gegenlesen auffindbar sein,
+   ohne den Textfluss des Faksimiles zu ueberlagern. */
+.viewer__transcription del,
+.viewer__transcription .tm-del { color: var(--sz-text-light); text-decoration: line-through; }
+
+/* Einfuegung: hochgestellter Winkel wie im Manuskript, kein Unterstrich-Default */
+.viewer__transcription .tm-add {
+  text-decoration: none;
+  color: var(--sz-burgundy);
+  background: rgba(194, 163, 96, 0.18);
+  border-radius: 2px;
+  padding: 0 0.1em;
+}
+.viewer__transcription .tm-add::before,
+.viewer__transcription .tm-add::after {
+  content: '\2038';           /* Caret — Einfuegezeichen */
+  color: var(--sz-gold);
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+}
+
+/* Geschweifte Klammer, die der Export NICHT als Einfuegung wertet (VLM-Rauschen) */
+.viewer__transcription .tm-brace {
+  color: var(--sz-text-light);
+  border-bottom: 1px dotted var(--sz-text-light);
+}
+
+.viewer__transcription .tm-unclear {
+  border-bottom: 1px dashed var(--sz-warning);
+  cursor: help;
+}
+
+.viewer__transcription .tm-gap {
+  color: var(--sz-warning);
+  background: var(--sz-warning-bg);
+  border-radius: 2px;
+  padding: 0 0.15em;
+  font-size: 0.9em;
+}
+
+/* Gedreht geschriebener Text (Protokoll §3.7) — Befund anzeigen, nicht nachahmen */
+.viewer__transcription .tm-rot {
+  display: inline-block;
+  border-left: 2px solid var(--sz-gold);
+  padding-left: 0.5em;
+  color: var(--sz-text);
+}
+.viewer__transcription .tm-rot__sym {
+  color: var(--sz-gold);
+  margin-right: 0.4em;
+  cursor: help;
+}
+
+.viewer__transcription .tm-note {
+  display: inline-block;
+  color: var(--sz-text-light);
+  background: var(--sz-cream);
+  border: 1px solid var(--sz-border);
+  border-radius: 3px;
+  padding: 0 0.35em;
+  font-size: 0.85em;
+}
 
 .viewer__transcription-edit {
   width: 100%;
@@ -1961,6 +2070,153 @@ body.view-stats #help { display: none; }
 .viewer__transcription-edit:focus {
   outline: none;
   border-color: var(--sz-burgundy);
+}
+
+/* ----- Editionsrichtlinien am Ort der Arbeit -----
+   Die Konventionen stehen vollstaendig in knowledge/annotation-protocol.md,
+   waren beim Redigieren aber nur ueber den Research Vault erreichbar — also
+   genau dann nicht zur Hand, wenn die Frage aufkommt ("wie notiere ich eine
+   Streichung?"). Markup-Leiste und Richtlinien-Panel holen §3 des Protokolls
+   in den Viewer (Operator-Feedback 2026-08-26). */
+.viewer__markup-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 0.4rem 1.25rem;
+  background: var(--sz-cream);
+  border-bottom: 1px solid var(--sz-border);
+  flex-shrink: 0;
+}
+
+.viewer__markup-btn {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--sz-border);
+  border-radius: 4px;
+  background: var(--sz-white);
+  color: var(--sz-text);
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.viewer__markup-btn:hover {
+  border-color: var(--sz-burgundy);
+  color: var(--sz-burgundy);
+}
+
+.viewer__markup-btn:focus-visible {
+  outline: 2px solid var(--sz-burgundy);
+  outline-offset: 2px;
+}
+
+.viewer__markup-btn s { text-decoration: line-through; }
+
+.viewer__guidelines {
+  flex-shrink: 0;
+  max-height: 55%;
+  overflow-y: auto;
+  padding: 0.9rem 1.25rem 1.1rem;
+  background: var(--sz-white);
+  border-bottom: 2px solid var(--sz-gold);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.viewer__guidelines-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.viewer__guidelines-title {
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--sz-burgundy);
+}
+
+.viewer__guidelines-close {
+  border: none;
+  background: transparent;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--sz-text-light);
+  cursor: pointer;
+  padding: 0 0.25rem;
+}
+
+.viewer__guidelines-close:hover { color: var(--sz-burgundy); }
+
+.viewer__guidelines-lede {
+  color: var(--sz-text-light);
+  margin-bottom: 0.8rem;
+}
+
+.viewer__guidelines-sub {
+  font-family: var(--font-serif);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin: 0.9rem 0 0.25rem;
+  color: var(--sz-text);
+}
+
+.viewer__guidelines p { margin-bottom: 0.4rem; }
+
+.viewer__guidelines ul {
+  margin: 0.2rem 0 0.4rem 1.1rem;
+}
+
+.viewer__guidelines li { margin-bottom: 0.25rem; }
+
+.viewer__guidelines code {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  background: var(--sz-cream);
+  border: 1px solid var(--sz-border-light);
+  border-radius: 3px;
+  padding: 0.05rem 0.25rem;
+  white-space: nowrap;
+}
+
+.viewer__guidelines-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0.5rem;
+}
+
+.viewer__guidelines-table th {
+  text-align: left;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--sz-text-light);
+  font-weight: 600;
+  padding: 0.2rem 0.5rem 0.2rem 0;
+  border-bottom: 1px solid var(--sz-border);
+}
+
+.viewer__guidelines-table td {
+  padding: 0.28rem 0.5rem 0.28rem 0;
+  border-bottom: 1px solid var(--sz-border-light);
+  vertical-align: top;
+}
+
+.viewer__guidelines-more {
+  margin-top: 0.9rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--sz-border-light);
+  color: var(--sz-text-light);
+}
+
+.viewer__guidelines-more a {
+  color: var(--sz-burgundy);
+  font-weight: 600;
 }
 
 
@@ -2469,6 +2725,23 @@ body.view-stats #help { display: none; }
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1.1rem;
+  }
+
+  /* Die Objektebene bleibt auch bei groesseren Touch-Zielen die ruhigere von
+     beiden — sonst hebt die Regel oben die Unterscheidung wieder auf. */
+  .viewer__nav-btn--obj {
+    width: 2.1rem;
+    height: 2.1rem;
+    font-size: 0.95rem;
+  }
+
+  .viewer__guidelines {
+    max-height: 65%;
+    padding: 0.8rem 0.75rem 1rem;
+  }
+
+  .viewer__markup-bar {
+    padding: 0.4rem 0.75rem;
   }
 }
 

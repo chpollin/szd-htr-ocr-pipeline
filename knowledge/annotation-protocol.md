@@ -176,6 +176,8 @@ Die Referenztranskription verwendet dasselbe Markup wie die Pipeline:
 | `[...N...]` | Unleserlich, geschaetzte Zeichenzahl | `[...3...]` |
 | `~~text~~` | Durchgestrichen | `~~Eltern~~` |
 | `{text}` | Einfuegung (ueber der Zeile, am Rand) | `{eingefuegt}` |
+| `[quer: text]` | Um 90 Grad gedreht geschrieben (laengs am Rand) | `[quer: Nachsatz am Rand]` |
+| `[kopf: text]` | Kopfstehend geschrieben (180 Grad) | `[kopf: Bitte antworten]` |
 
 ### 3.2 Schwelle: Unsicher [?] vs. Unleserlich [...]
 
@@ -236,6 +238,29 @@ Nicht transkribieren:
 ### 3.6 Unsichere Markup-Entscheidungen
 
 Wenn unklar ist, ob eine Textstelle durchgestrichen, eingefuegt oder beides ist: Die beste Interpretation waehlen und in einer separaten Anmerkung dokumentieren (nicht in der Transkription selbst — die Referenz bleibt maschinenlesbar).
+
+### 3.7 Gedrehter Text (quer, kopfstehend)
+
+**Entscheidung (2026-08-07):** Text, der auf dem Blatt gedreht geschrieben ist, wird mit einem eigenen Label-Marker erfasst — `[quer: ...]` fuer 90 Grad (laengs am Rand, von unten nach oben oder umgekehrt) und `[kopf: ...]` fuer 180 Grad (kopfstehend).
+
+```
+...Haupttext letzte Zeile.
+
+[quer: Und noch ein Nachsatz am linken Rand]
+[kopf: Bitte umgehend antworten!]
+```
+
+Der Marker steht wie `[Marginalie:]` und `[Stempel:]` **allein auf einer Zeile**, am Ende der Seite nach einer Leerzeile. Gedrehter Text ist fast immer nachtraeglich hinzugefuegt; ihn in den Fliesstext einzusortieren hiesse, eine Reihenfolge zu behaupten, die das Blatt nicht hergibt.
+
+**Warum ueberhaupt ein eigener Marker:** Bis dahin gab es keinen. Das Modell hat die Luecke selbst bemerkt und mit improvisierten Labels gefuellt — in den Ergebnisdaten stehen 21 Vorkommen in 12 verschiedenen Schreibweisen (`[Randnotiz links, vertikal:]`, `[Vertikal am rechten Rand:]`, `[Quer geschrieben:]`, `[umgedreht am Rand:]` …), von denen keine exportiert wird. Ein festes Label ersetzt diese Improvisation.
+
+**Abgrenzung zu 3.5 Marginale Annotationen:** `[Marginalie:]` beschreibt die *Position* (am Rand), `[quer:]`/`[kopf:]` die *Orientierung*. Randtext kann normal ausgerichtet sein, gedrehter Text muss nicht am Rand stehen. Trifft beides zu — der haeufigste Fall, laengs am linken Rand geschriebener Nachsatz — hat `[quer:]` Vorrang, weil es die spezifischere Aussage ist.
+
+**Was NICHT so markiert wird:** Ein komplett gedreht eingescanntes Blatt. Das ist ein Digitalisierungsartefakt, kein Schreibbefund; dafuer gibt es im Viewer die Drehfunktion (Taste `R`, im Edit-Modus `Alt+R`).
+
+**Zielformat:** `<seg rend="rotate(90)">` bzw. `rotate(180)` im TEI-Export (`pipeline/marker_enrich.py`). Kein `@place` — die Position ist damit nicht behauptet, nur der Drehwinkel.
+
+**Geltungsbereich:** Der Marker gilt vorerst **nur fuer die menschliche Referenztranskription und das Review**. Der System-Prompt wird bewusst nicht erweitert (Entscheidung Operator, 2026-08-07): Ein neuer Marker im Prompt kann, wie die geschweiften Klammern, mehr Rauschen als Signal erzeugen. Ob das Modell ihn setzen soll, wird entschieden, wenn genug von Hand gesetzte Faelle vorliegen.
 
 ---
 
@@ -341,6 +366,7 @@ Fuer die Berechnung der **Basis-CER** (reiner Text ohne editorische Markierungen
 | Streichung-Klammern | `~~(.*?)~~` | `\1` (Inhalt behalten) | `~~Eltern~~` → `Eltern` |
 | Einfuegung-Klammern | `\{(.*?)\}` | `\1` (Inhalt behalten) | `{sehr}` → `sehr` |
 | Marginalie-Praefix | `\[Marginalie:\]` | (leer) | |
+| Drehung-Label | `\[(quer\|kopf):(.+?)\]` | `\2` (Inhalt behalten) | `[quer: Nachsatz]` → ` Nachsatz` |
 | Stempel-Praefix | `\[Stempel:(.+?)\]` | `\1` (Inhalt behalten) | `[Stempel: TEXT]` → ` TEXT` |
 
 Reihenfolge der Anwendung:
@@ -529,6 +555,7 @@ Pro Seite:
 - [ ] Unleserliche Stellen mit [...] markieren (Abschnitt 3.2)
 - [ ] Streichungen mit ~~...~~ markieren (Abschnitt 3.3)
 - [ ] Einfuegungen mit {...} markieren (Abschnitt 3.4)
+- [ ] Gedreht geschriebenen Text mit [quer: ...] / [kopf: ...] am Seitenende erfassen (Abschnitt 3.7)
 - [ ] Stempel mit [Stempel: ...] markieren (Abschnitt 4.2)
 - [ ] Farbkarten/Digitalisierungsartefakte ignorieren (Abschnitt 4.4)
 

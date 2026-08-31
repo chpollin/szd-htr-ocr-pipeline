@@ -23,6 +23,11 @@ Konvertiert (v2.1, nach adversarischer Semantik-Pruefung):
   [Stempel: X]      -> <note type="stamp">X</note>      (ganze Zeile)
   [Poststempel: X]  -> <note type="postmark">X</note>   (ganze Zeile; Postmark != Stempel)
   [Marginalie: X]   -> <note type="marginal">X</note>   (ganze Zeile; Protokoll §3.5)
+  [quer: X]         -> <seg rend="rotate(90)">X</seg>   (ganze Zeile; Protokoll §3.7)
+  [kopf: X]         -> <seg rend="rotate(180)">X</seg>  (ganze Zeile; Protokoll §3.7)
+               (Orientierung, nicht Position -- daher <seg rend> und KEIN @place. Das Label
+                ist reviewer-gesetzt: der System-Prompt kennt es bewusst nicht, weil ein neuer
+                VLM-Marker erfahrungsgemaess erst einmal Rauschen erzeugt (vgl. {} unten).)
   WORT[?]    -> <unclear cert="low">WORT</unclear>
                (nur direkt am Wort; KEIN reason="illegible" -- [?] ist unsicher-aber-lesbar
                 (50-90%), nicht unleserlich (das waere [...]); nachgestellte Satzzeichen bleiben
@@ -54,6 +59,8 @@ import re
 
 _STAMP = re.compile(r"^(\s*)\[(Stempel|Poststempel):\s?(.*)\]\s*$")
 _MARGIN = re.compile(r"^(\s*)\[Marginalie:\s?(.*)\]\s*$")
+_ROTATED = re.compile(r"^(\s*)\[(quer|kopf):\s?(.*)\]\s*$", re.IGNORECASE)
+_ROT_DEG = {"quer": "90", "kopf": "180"}
 _UNCLEAR = re.compile(r"([^\s\[\]{}~]+)\[\?\]")
 _GAP_N = re.compile(r"\[\.{3}(\d+)\.{3}\]")
 _GAP_PLAIN = re.compile(r"\[\.{3}\]")
@@ -84,6 +91,12 @@ def enrich_line(escaped_line: str) -> str:
     m = _MARGIN.match(s)
     if m:
         return f'{m.group(1)}<note type="marginal">{m.group(2)}</note>'
+    # 0c. Gedrehter Text (ganze Zeile) -> <seg rend="rotate(N)">  (Protokoll §3.7).
+    #     Leerer Payload bleibt Literal: ein leeres <seg/> traegt keine Information und
+    #     wuerde im Editor als leere Zelle auffallen (dieselbe Logik wie beim gap-only-<lb>).
+    m = _ROTATED.match(s)
+    if m and m.group(3).strip():
+        return f'{m.group(1)}<seg rend="rotate({_ROT_DEG[m.group(2).lower()]})">{m.group(3)}</seg>'
 
     # 1. WORT[?] -> <unclear cert="low">WORT</unclear>  (ZUERST, auf tag-freiem Text.
     #    KEIN reason="illegible": [?]=unsicher-aber-lesbar (50-90%), nicht unleserlich -- das
