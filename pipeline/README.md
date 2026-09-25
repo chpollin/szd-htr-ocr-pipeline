@@ -63,7 +63,8 @@ Einmal- oder Gelegenheits-Scripts fuer Analyse, Reparatur und Batch-Steuerung:
 | `run_sample_batch.py` | Gezielter Batch: fuellt jede Gruppe auf 10 auf | Erledigt (Sample komplett) |
 | `generate_gt.py` | 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro) | Aktiv — 18 GT-Drafts erzeugt |
 | `backfill_page_types.py` | Stempelt page.type auf bestehende JSONs | Einmal-Migration, erledigt |
-| `backfill_quality_signals.py` | Recompute quality_signals nach Schwellenwert-Aenderungen | Bei Bedarf |
+| `backfill_quality_signals.py` | Recompute quality_signals nach Schwellenwert-Aenderungen (`--incomplete-only`: nur partial/failed) | Bei Bedarf |
+| `salvage_raw_results.py` | Vollstaendige Seiten aus abgebrochenen Modellantworten (`result.raw`) uebernehmen, ohne API-Call | Einmal-Migration, erledigt 2026-09-25 |
 | `backfill_edit_history.py` | Retroaktives edit_history-Patching aus Git-History | Einmal-Migration, erledigt |
 
 ## Beispiel

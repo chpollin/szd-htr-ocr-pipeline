@@ -10713,6 +10713,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -23635,121 +23636,121 @@
           "page": 1,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 3,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 4,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 5,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 6,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 7,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 8,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 9,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 10,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 11,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 12,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 13,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 14,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 15,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 16,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 17,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 18,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 19,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 20,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 21,
@@ -24049,8 +24050,8 @@
         "total_words": 6010,
         "total_pages": 23,
         "empty_pages": 45,
-        "blank_pages": 44,
-        "content_pages": 23,
+        "blank_pages": 24,
+        "content_pages": 43,
         "color_chart_pages": 2,
         "chars_per_page": [
           0,
@@ -24181,6 +24182,7 @@
         ],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_length_anomaly"
         ]
       },
@@ -26412,40 +26414,92 @@
     },
     {
       "id": "o_szd.2422_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2422/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2422/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2422/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2422/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2422/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Méndez Pereira: Nuñez de Balboa\n-------------------------------\nS.168.\n\nEntre las perlas presentadas a Morales por el cacique\nde la Isla Rica, hubo una que ha llegado a ser famosa en\nla Historia. Lució en el jeyero de muchas testas coronadas,\nfué cantada por Cervantes y por Lope de Vega, y todavía anda\ndando vueltas por el mundo con el nombre de Peregrina. De\nfigura de una pera, pesaba 31 quilates y \"era muy perfecta,\nsin ninguna tacha ni mácula, y de muy lindo color, lustre\ny hechura\". En la almoneda que se verifico del 19 al 21 de\nagosto de 1515 la sacó un mercader, Pedro del Puerto, como\nintermediario de Pedrarias, por la suma de mil doscientos\npesos de oro. Mas tarde, cuando doña Isabel de Bobadilla\npaso a Espana ésta la vendio a la Emperatriz con otra \"chata,\na forma de panecillo\", por la suma de novecientos mil mara-\nvedis ambas. Permanecio desde entonces vinculada a la Corona\nreal hasta que Felipe II la ofrecio a Maria Tudor de Ingla-\nterra, como regalo de boda. Un retrato que de esta Reina hay\nen el Museo del Prado, otro en Hampton Court y otra pequeno\nen la catedral de Winchester, donde se efectuo su matrimonio,\nostentan como adorno descollante la famosa perla. Despues de\nla muerte de Maria Tudor, la Peregrina vonvio a Espana y de\nsoberano en soberano fué a parar a manos de José Bonaparte,\nquien la saco de la Peninsula con otras joyas de la Corte,\ncuando tuvo que abandonar esta. Al morir este malogrado Monarca\ndejo la Peregrina a su sobrino, el principe Luis Napoleon,\ndespues Napoleon III. Cuando el principe huyo a Londres,\ndesterrado, se llevo consigo la Peregrina, y alli, en uno de\nsus apuros monetarios, debio venderla a su gran amigo Lord\nHamilton, cuya familia la conserva aun con veneracion y\norgullo.",
+          "notes": "Typoskript, gut lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "Unter den Perlen, die Morales von dem Kaziken der Isla\nRica geschenkt wurden, war eine, die in der Geschichte sehr\nberühmt geworden ist. Sie leuchtete in dem Schmuck vieler\ngekrönter Häupter, wurde von Cervantes und von Lope de Vega\nbesungen und ging noch durch die Welt unter dem Namen Pere-\ngrina. Sie war birnenförmig, wog 31 Karat und\" war sehr voll-\nsehr/\nkommen, ohne Fehler und Flecken, von/hübscher Farbe, glänzend\nund ... \". Bei der Versteigerung, die vom 19. bis 21. August\n1515 stattfand, erstand sie ein Händler, Pedro del Puerto,\nals Vermittler für Pedrarias, für den Betrag von zwölfhundert\nGoldpesos. Später, als Dona Isabel de Bobadilla durch Spanien\nkam, verkaufte sie sie der Kaiserin mit anderer\" chata,\" in\nForm eines Brötchens\", beide für den Betrag von neunhundert-\ntausend Maravedis. Seitdem blieb sie an die königliche Krone\ngebunden, bis Philipp II. sie Maria Tudor von England als\nHochzeitsgeschenk anbot. Es gibt ein Portrait dieser Königin\nin dem Museum des Prado, ein anderes in Hampton Court und\nnoch ein kleines in der Kathedrale von Winchester, wo ihre\nHeirat stattfand, die alle als hervorragenden Schmuck die\nberühmte Perle zeigen. Nach dem Tod von Maria Tudor kam die\nPeregrina wieder nach Spanien zurück und ging von Souverän\nzu Souverän bis in die Hände von José Bonaparte, welcher\nsie von der Halbinsel mit andern Kronjuwelen raubte,\nwelche diese im Stich gelassen hatten. Nach dem Tod dieses\nunglücklichen Monarchen hinterliess er die Peregrina sei-\nnem Neffen, dem Fürsten Louis Napoleon, dem späteren Napoleon\nIII. Als dieser als Verbannter nach London kam, brachte er\ndie Peregrina mit sich und dort musste sie in einer sei-\nner Geldnöte an seinen grossen Freund Lord Hamilton verkau-\nfen, dessen Familie sie noch immer mit Verehrung und Stolz\nbewahrt-",
+          "notes": "Typoskript, mit handschriftlichen Korrekturen/Einfügungen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Méndez Pereira: Nuñez de Balboa\n-------------------------------\nS.168.\n\nEntre las perlas presentadas a Morales por el cacique\nde la Isla Rica, hubo una que ha llegado a ser famosa en\nla Historia. Lució en el jeyero de muchas testas coronadas,\nfué cantada por Cervantes y por Lope de Vega, y todavía anda\ndando vueltas por el mundo con el nombre de Peregrina. De\nfigura de una pera, pesaba 31 quilates y \"era muy perfecta,\nsin ninguna tacha ni mácula, y de muy lindo color, lustre\ny hechura\". En la almoneda que se verifico del 19 al 21 de\nagosto de 1515 la sacó un mercader, Pedro del Puerto, como\nintermediario de Pedrarias, por la suma de mil doscientos\npesos de oro. Mas tarde, cuando doña Isabel de Bobadilla\npaso a Espana ésta la vendio a la Emperatriz con otra \"chata,\na forma de panecillo\", por la suma de novecientos mil mara-\nvedis ambas. Permanecio desde entonces vinculada a la Corona\nreal hasta que Felipe II la ofrecio a Maria Tudor de Ingla-\nterra, como regalo de boda. Un retrato que de esta Reina hay\nen el Museo del Prado, otro en Hampton Court y otra pequeno\nen la catedral de Winchester, donde se efectuo su matrimonio,\nostentan como adorno descollante la famosa perla. Despues de\nla muerte de Maria Tudor, la Peregrina vonvio a Espana y de\nsoberano en soberano fué a parar a manos de José Bonaparte,\nquien la saco de la Peninsula con otras joyas de la Corte,\ncuando tuvo que abandonar esta. Al morir este malogrado Monarca\ndejo la Peregrina a su sobrino, el principe Luis Napoleon,\ndespues Napoleon III. Cuando el principe huyo a Londres,\ndesterrado, se llevo consigo la Peregrina, y alli, en uno de\nsus apuros monetarios, debio venderla a su gran amigo Lord\nHamilton, cuya familia la conserva aun con veneracion y\norgullo.",
+          "notes": "Typoskript, identisch mit Seite 1.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "Unter den Perlen, die Morales von dem Kaziken der Isla\nRica geschenkt wurden, war eine, die in der Geschichte sehr\nberühmt geworden ist. Sie leuchtete in dem Schmuck vieler\ngekrönter Häupter, wurde von Cervantes und von Lope de Vega\nbesungen und ging noch durch die Welt unter dem Namen Pere-\ngrina. Sie war birnenförmig, wog 31 Karat und\" war sehr voll-\nsehr/\nkommen, ohne Fehler und Flecken, von/hübscher Farbe, glänzend\nund ... \". Bei der Versteigerung, die vom 19. bis 21. August\n1515 stattfand, erstand sie ein Händler, Pedro del Puerto,\nals Vermittler für Pedrarias, für den Betrag von zwölfhundert\nGoldpesos. Später, als Dona Isabel de Bobadilla durch Spanien\nkam, verkaufte sie sie der Kaiserin mit anderer\" chata,\" in\nForm eines Brötchens\", beide für den Betrag von neunhundert-\ntausend Maravedis. Seitdem blieb sie an die königliche Krone\ngebunden, bis Philipp II. sie Maria Tudor von England als\nHochzeitsgeschenk anbot. Es gibt ein Portrait dieser Königin\nin dem Museum des Prado, ein anderes in Hampton Court und\nnoch ein kleines in der Kathedrale von Winchester, wo ihre\nHeirat stattfand, die alle als hervorragenden Schmuck die\nberühmte Perle zeigen. Nach dem Tod von Maria Tudor kam die\nPeregrina wieder nach Spanien zurück und ging von Souverän\nzu Souverän bis in die Hände von José Bonaparte, welcher\nsie von der Halbinsel mit andern Kronjuwelen raubte,\nwelche diese im Stich gelassen hatten. Nach dem Tod dieses\nunglücklichen Monarchen hinterliess er die Peregrina sei-\nnem Neffen, dem Fürsten Louis Napoleon, dem späteren Napoleon\nIII. Als dieser als Verbannter nach London kam, brachte er\ndie Peregrina mit sich und dort musste sie in einer sei-\nner Geldnöte an seinen grossen Freund Lord Hamilton verkau-\nfen, dessen Familie sie noch immer mit Verehrung und Stolz\nbewahrt-",
+          "notes": "Typoskript, identisch mit Seite 2.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 4 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 7074,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1768,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 7074,
+        "total_words": 1196,
+        "total_pages": 4,
+        "empty_pages": 1,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 5,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          1743,
+          1794,
+          1743,
+          1794,
+          0
+        ],
+        "chars_per_page_median": 1768.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
-        "duplicate_page_pairs": [],
+        "duplicate_page_pairs": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -34012,6 +34066,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -34876,6 +34931,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -36379,6 +36435,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -36479,6 +36536,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -36520,6 +36578,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -36627,6 +36686,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -37156,39 +37216,179 @@
     },
     {
       "id": "o_szd.2333_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2333/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.5",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.6",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.7",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.8",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.9",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.10",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.11",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.12",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.13",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.14",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.15",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.16",
+        "https://gams.uni-graz.at/o:szd.2333/IMG.17"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "1912\n\nNeue Rundschau\n\nJakob Wassermann\nvon Stefan Zweig\n\nEs hieße sich in Deutschland einer gefährlichen Täuschung hingeben,\nwollte man annehmen, die deutsche Erzählungskunst habe seit längster\nZeit, vielleicht seit dem Erscheinen des „Werther“, den auch nur min-\ndesten Einfluß auf die Weltliteratur genommen. Was seit hundert Jahren\nbei uns an Belletristik produziert wurde, ist — kein Leugnen hilft gegen\nTatsachen — für den nationalen Hausgebrauch gewesen und unsere epische\nHandelsbilanz bleibt noch heute erschreckend passiv. Blättert man die\nVerzeichnisse englischer, französischer, italienischer Ausgaben durch, die be-\nstrebt sind, die Standard Works der Erzählungskunst zu vereinen, so wird\nman mit einigem Erstaunen und noch größerer Kränkung unter hundert, oft\nfünfhundert Werken nicht ein einziges deutsches finden. Solche Überein-\nstimmung nun ist niemals Zufall, sondern Zutage treten eines latenten Defekts.\nSelbst unsere bedeutendsten sogenannten Romane, der „Wilhelm Meister“\nund der „Grüne Heinrich“, liegen bei ihrer eminenten Bedeutung für jeden,\nder seelische Erlebnisse sucht, doch weitab vom Begriff des reinen epischen\nKunstwerkes und — tragisches Verhängnis! — der einzige deutsche Roman,\nder hätte Weltliteratur werden können, war jenes dickleibige Manuskript, das\nHeinrich von Kleist kurz vor dem Ende seinem Verleger übergab, der es als\nMakulatur verwendete. Erzähler im höchsten Sinne kann nur ein freier,\nmit sich selbst nicht mehr beschäftigter Mensch sein, Proteus, der Gestaltlose,\ner, dem es gegeben ist, sich in steter Selbstäußerung in seine eigenen Ge-\nstalten restlos zu verwandeln, in ihren Meinungen die seine zu vergessen, einer,\nder aufhören kann im Schaffen, Substanz zu sein, Körper und Seele, der nur\nSinn wird, sehendes Auge, horchendes Ohr, redende Zunge. Beiden Deutschen\nnun, denen jedes Kunstwerk nur immer Vorwand ist, näher an sich selbst (statt an\ndie Welt) heranzugelangen, das innere Kunstwerk der Persönlichkeit zu schaffen\n(statt das äußere des Werkes) scheint irgendetwas dieser letzten Selbstzerstörung,\ndieser äußersten Verwandlungsfähigkeit zu widerstreben. Die deutschen Erzähler\ngleichen alle jenen (oft unendlich bezwingenden) Schauspielern, die nie sich\nganz in ihren Gestalten verlieren, von deren Ich immer noch etwas im Spiele\nwach bleibt, statt ganz im Traum der Schöpfung zu versinken. Unseren be-\ndeutendsten Romanen — ich nannte schon den „Wilhelm Meister“ und den\n„Grünen Heinrich“ — haftet diese Zwitterhaftigkeit der Erlebnisdichtung an,\nsie sind, um ein Bild der Geometrie zu versuchen, nie Kreise der Welt, die\nsich völlig ineinanderschließen, sondern Tangenten vom Rande einer Persön-\nlichkeit in die Welt hinaus. Nicht das Werk ist der Kreis, Symbol der\nfehllosen Geschlossenheit, sondern der Schöpfer, nicht der Künstler voll-\n\n1131",
+          "notes": "Gedruckter Text (Fraktur). Handschriftliche Annotation oben links '1912' (Bleistift) und oben rechts 'Neue Rundschau' (blaue Tinte).",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "endet sich, sondern der Mensch (der für das Kunstwerk recht gleichgültig ist).\nErlebnisdichtung ist eben keine reine Dichtung, und die wachsende Geschlossen-\nheit im Schöpfer rächt sich mit einer fast proportionalen Brüchigkeit im Ge-\nschaffenen. Die besten Romane auch unserer Zeit, die sich ungleich deutlicher\nals jede frühere um kunsttheoretische Erkenntnis bemüht, sind verhängnis-\nvollerweise in ihren besten Exemplaren — ich nenne nur Thomas Manns\n„Buddenbrocks“, Schnitzlers „Weg ins Freie“, Ricarda Huchs „Ludolf\nUrsleu“ und Hesses „Camenzind“ — verwandeltes Eigenerlebnis, zerdehntes\nRückentsinnen des Auges und Ohres, statt frei Erfundenes, und haben alle\ndie Gefahr, mit dieser ersten unmittelbarsten Wiedergabe des Selbsterlebten\nschon ihre ganze innere Welt zu verraten. Damit soll — ich liebe alle diese\nBücher sehr — kein Einwand gegen ihre Schönheit, sondern nur gegen die\nUnreinheit der Gattung versucht sein, und tatsächlich hat schon die Weltlite-\nratur dieses Empfinden bekräftigt, denn keiner dieser Romane hat irgendwo im\nAuslande eine auch nur annähernd ähnliche Wirkung sich erzwingen können.\nWie ein Verhängnis scheint die Persönlichkeitskultur, das Erbteil Goethes,\nund der jedem Deutschen innewohnende metaphysische Trieb, an dem Blut\njedes einzelnen Kunstwerks zu zehren und jener freien Darstellung, jener un-\nbefangenen Art des Erfindens („Fiktion“ nennt der Eng-\nländer die Belletristik und trifft damit ins Schwarze) zu wehren, die für\nden großen Erzähler immer charakteristisch bleiben wird. Darum ist es kein\nZufall, daß die beiden, die neben Thomas Mann, dem bewußt Erstarkenden,\ndie beste Hoffnung auf einen wirklichen deutschen Roman geben, daß\nHeinrich Mann und Jakob Wassermann schon mit ihrem Blute von der\ndeutschen Tradition gelöst sind. Der eine, Heinrich Mann, durch romanische\nAbkunft und vor allem seine innerliche Antipathie gegen das breitbürger-\nliche, das heute die deutsche Kunst zu versetten droht, der andere, Jakob\nWassermann, durch stark ausgeprägte Rassenfremdheit und einen Willen zur\nreinen Epik, wie er ähnlich bewußt in Deutschland noch nicht zu finden war.\nJakob Wassermann, sagte ich, entgeht diesem Gesetz. Denn er ist Jude.\nJude in einem viel tieferen, lebendigeren Sinn der inneren Bestimmung,\nals sonst der konfessionelle Vermerk zu begrenzen pflegt. Denn bei den meisten\njüdischen Schriftstellern in Deutschland ist das Judentum längst nicht mehr\ndie innere Substanz, der Kern ihres Wesens, sondern nur eine Art intellek-\ntueller Optik, eine Anschauungsform, ein geistiger Mechanismus. Es ist\nnicht Blickform, sondern Brille, ein Medium der Anschauung, aber nichts\nselbst Wirkendes, und darum eher ein Hemmnis höchster Anspannung.\nDieses Kulturjudentum ist fast nie künstlerisch nahrhaft, weil es eine zu\ndünne Oberflächenschicht ist und bedingt jene merkwürdige Wurzellosigkeit,\ndie allerdings wieder durch gesteigerte Anpassungsmöglichkeiten kompensiert\nwird. Es ist auf dem Weg der tausend Verwandlungen, Filtrierungen und\n\n1132",
+          "notes": "Gedruckter Text (Fraktur).",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 8,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 9,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 10,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 11,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 12,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 13,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 14,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 15,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 16,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 17,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 2 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 5812,
+        "emptyPages": 15,
+        "avgCharsPerPage": 2906,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 5812,
+        "total_words": 830,
+        "total_pages": 2,
+        "empty_pages": 15,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 17,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          2813,
+          2999,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 2906.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_image_mismatch"
         ]
       },
@@ -48933,39 +49133,83 @@
     },
     {
       "id": "o_szd.2681_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2681/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2681/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2681/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2681/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2681/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Feuilleton\nFestliches Florenz.\nVon Stefan Zweig.\nEine leichte Düsternis umrandet die Reise. Innsbruck, der Bahnsteig, der nach dem Süden führt, liegt völlig verlassen. Eine Person, zwei Personen warten auf den Zug, der in andern Jahren um diese Zeit sonst Hunderte dem italienischen Frühling entgegenbrachte, nicht die Begüterten bloß, auch die Menschen der Mitte, Studenten und Landfahrer, ein buntes, helläugiges, fröhliches Reisevolk. Endlich rasselt die Lokomotive heran, drei Waggons, dunkel, leer, verschlafen; die Grenzwachen, die sie durchforschen, sind gegen die Reisenden in der Ueberzahl. Man spürt, ein unsichtbarer Damm hält die Woge, die sonst hell und gierig von Norden nach Süden rollte, gewaltsam zurück, die Grenze, früher ein kaum fühlbares Dazwischen, ein bloß markiertes und nicht wirkliches Hindernis, ist plötzlich wieder chinesische Mauer geworden.\nMan hat Raum im Zuge, nein, mehr: beinahe der ganze Zug gehört einem zu und wer Verwegenheit und Freude am Hochmut besitzt, dürfte sich einbilden, diese fünfzig Räder roboteten und stampften für ihn allein; wer aber Gedächtnis des Herzens hat, erinnert sich unbehaglich an die vernagelten Grenzen des Krieges, und statt der peinlichen Behaglichkeit leichtfertig zu freuen. Währenddessen rennen die Räder unter den dunkeln Gedanken eilfertig den Hang der Alpen nieder, und der erste Blick in den Morgen wäscht einem die Augen klar. Im verspäteten Frühling leuchtet mattgrün das toskanische Land, leicht gebügelt und von herben Weingartenreihen zart durchstrichelt, lieblichstes Pastell der unsichtbaren Meisterhand, und schon atmet man das Linde dieser Südlust, die das Herz ohne Betäubung berauscht. Toskana, hier glänzte der ewige Morgen der Welt, der Anbruch der Kunst auf unsrer abendländischen Erde, und in jedem blau umleuchteten Profil eines Kirchturms, eines alten Kastells, einer einsamen Pinie, entsinnt sich Erinnerung unvergessener, weil unvergesslicher Landschaften der frühen florentiner Meister; man blickt in die Landschaft hinein, als hätte man sie nie gesehen, so neu ist ihr unverhofftes Blau und die morgendliche Reinheit ihrer Farben, und doch, als hätte man unläßlich in all diesen verdüsterten Wintertagen von ihr geträumt. Immer vertrauter werden die Hügel, die Hänge im ausgeweckten Erinnern, und plötzlich leuchtet der Turm San Miniato, wir sind im festlichen Florenz.\nSein erstes, sein ewiges Fest ist der Frühling. Diese Stadt ist, als wäre sie, und nur sie, für den Mai bestimmt. Wer sie in andrer Jahreszeit gesehen, der meint, nur sie zu kennen, der hat sie nicht gekannt. Denn nur in diesen unbeschreiblichen Wochen hat der florentinische Himmel diese präraffaelitische Zartheit des Blau, nur jetzt der Arno, der im Sommer zu Lehm versickert, diese ungestüme Fülle, nur jetzt die Wolken jenes paradiessche Weiß, in dem man sich die Gewänder der Engel träumt. Nur jetzt die Luft jene süße Linde, die noch nicht Wärme ist und in der Atem unzähliger Blüten weich mitspricht; noch glühen die Häuser nicht in der Sonne, und leuchten nur in Gold, noch haben die Blumen ihren ungestümen Ueberschwang, sondern jung und süß legt sich der Flieder über die Mauern. Die milde Flöte des Frühlings spielt jetzt ihre schönste, ihre herzausweitende Melodie; ein paar Tage noch und die schmetternde Fanfare des Sommers setzt ein und dann beginnt jener fast schmerzhafte Tumult der brennenden Farben, des sengenden Lichtes.\nIn dieses, sein ewiges Fest, hat Florenz diesmal ein besonderes Fest gestellt, „Le feste della cultura“. Daß sie Unvergleichliches für unsre Kultur in Vergangenheit geleitet, weiß die Welt; nun aber will die Stadt erweisen, daß künstlerischer Sinn in ihr lebendig geblieben, und so hat sie die nationale und die internationale Kunst zu Gast geladen. Hier, wo im Humanismus kostbarste Pavillons illuminiert, prunkvollste Inkunabeln gedruckt wurden, eröffnet eine internationale Buchausstellung „La fiere del libro“ ihre Schau, geschmackvollste Pavillons, die vor allem den Aufschwung zeigen, den die italienische Buchkunst in den letzten Jahren genommen, aber auch Frankreich, Spanien und einige andre Länder sind vertreten (nur Deutschland fehlt diesmal aus Sparsamkeit). Um diese Ausstellung reiht sich Fest an Fest. Auf der Piazza della Signoria in den alten Trachten des „Gioco di calcio“ eine Art historischen Fußballs, in den alten Kostümen gespielt von den Abkömmlingen der alten florentiner Familien, in der Oper kann man mit Toti dal Monte die uns unglücklicherweise verschollenen Opern Bellinis hören, die „Sonnambula“ und die „Norma“, im Theater gibt Max Reinhardt sein Gastspiel, die Berliner Philharmoniker feiern Triumphe. Und in den schönsten Saal der Stadt, in den Sala del argento des Palazzo Vecchio, hat die Universität aus einigen Ländern Gäste zu einer Vorlesung geladen; Giovanni Papini spricht über Florenz, Dimitri Mereskowski über Lionardo, Paul Morand über das Theater, Emil Ludwig über Goethe (und ich hatte zum Thema gewählt, was mir heute und gerade heute das Zweitwichtigste schien, „L’idea Europea“, die europäische Idee). Wer das Glück hat, hier Gast zu sein, genießt alles Vorrecht erlesenen Augenblicks und darf sich südländisch-herzlicher Gemeinschaft freuen, mit den Dichtern Italiens kameradschaftliche Stunden erleben, Sammlungen besehen, die sonst in ihren Palazzi",
+          "notes": "Zeitungsartikel, Frakturschrift. Handschriftliche Annotation am unteren Rand: \"1932 Neuer Wiener Tagblatt 26.5.32\" (in rotem Stift).",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 5312,
+        "emptyPages": 4,
+        "avgCharsPerPage": 5312,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 5312,
+        "total_words": 787,
+        "total_pages": 1,
+        "empty_pages": 4,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 5,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          5312,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 5312,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_image_mismatch"
         ]
       },
@@ -51395,121 +51639,121 @@
           "page": 1,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 2,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 3,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 4,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 5,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 6,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 7,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 8,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 9,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 10,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 11,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 12,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 13,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 14,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 15,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 16,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 17,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 18,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 19,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 20,
           "transcription": "",
           "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 21,
@@ -51539,8 +51783,8 @@
         "total_words": 1865,
         "total_pages": 2,
         "empty_pages": 21,
-        "blank_pages": 20,
-        "content_pages": 2,
+        "blank_pages": 0,
+        "content_pages": 22,
         "color_chart_pages": 1,
         "chars_per_page": [
           0,
@@ -51577,8 +51821,11 @@
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "transcription_partial",
+          "page_image_mismatch"
+        ]
       },
       "consensus": null,
       "review": null

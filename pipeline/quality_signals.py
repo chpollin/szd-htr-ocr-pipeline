@@ -7,6 +7,8 @@ v1.2: Leerseiten-Klassifikation.
 v1.4: Duplikat-Schwelle gesenkt (50 statt 200 Zeichen) fuer Halluzinationserkennung.
 v1.5: DWR entfernt (rho=0.05, wertlos), marker_density aus needs_review entfernt.
 v1.6: Umschlag-/Adressseiten von der Seitenlaengen-Anomalie ausgenommen.
+v1.7: transcription_status (complete/partial/failed). Seiten, die nie transkribiert
+      wurden (Chunk-Fehler, abgebrochene Modellantwort), gelten nicht mehr als Leerseite.
 """
 
 import re
@@ -30,6 +32,16 @@ LANG_MAP = {
 }
 
 
+# Notes prefixes of placeholder pages the pipeline inserts for scans that were
+# sent to the model but came back without a transcription (transcribe.py).
+# Such a page is not known to be blank — it was never read.
+UNTRANSCRIBED_PREFIXES = ("Chunk-Fehler", "Nicht transkribiert")
+
+
+def _is_untranscribed(page: dict) -> bool:
+    return (page.get("notes", "") or "").startswith(UNTRANSCRIBED_PREFIXES)
+
+
 # DWR (Dictionary Word Ratio) was removed in v1.5 — evaluated against 68 verified
 # objects: Spearman rho=0.05, F1=0.20. It measured prose density, not quality.
 # See evaluation-results.md §5.1 for full analysis.
@@ -37,6 +49,8 @@ LANG_MAP = {
 
 def _classify_page(page: dict) -> str:
     """Classify page as 'content', 'blank', or 'color_chart' from notes + text."""
+    if _is_untranscribed(page):
+        return "content"
     notes = (page.get("notes", "") or "").lower()
     text = (page.get("transcription", "") or "").strip()
     # Color chart detection first — VLMs sometimes transcribe text even when a
@@ -232,6 +246,17 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     n_illegible = len(re.findall(r"\[\.\.\..*?\]", all_text))
     marker_density = (n_uncertain + n_illegible) / total_words if total_words > 0 else 0.0
 
+    # Signal 6: Transkriptionsstatus (v1.7). "failed": kein pages-Array, nur der
+    # unparsebare Rohtext in result.raw. "partial": einzelne Scans kamen ohne
+    # Transkription zurueck (Platzhalter, siehe UNTRANSCRIBED_PREFIXES).
+    untranscribed_pages = [i for i, p in enumerate(pages) if _is_untranscribed(p)]
+    if "raw" in result_json:
+        transcription_status = "failed"
+    elif untranscribed_pages:
+        transcription_status = "partial"
+    else:
+        transcription_status = "complete"
+
     # needs_review: Zusammengesetztes Flag (§2.4)
     # Evaluated against 62 agent-verified objects (Session 21):
     #   page_image_mismatch: 100% Precision (3/3) — strongest signal
@@ -241,6 +266,8 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     # duplicate_pages removed: flags Korrekturfahnen (2 versions of same proof) and
     # registers (repetitive headers). Remains as informational field.
     reasons = []
+    if transcription_status != "complete":
+        reasons.append(f"transcription_{transcription_status}")
     if page_length_anomalies:
         reasons.append("page_length_anomaly")
     if page_image_mismatch:
@@ -249,7 +276,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("language_mismatch")
 
     return {
-        "version": "1.6",
+        "version": "1.7",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),
@@ -269,6 +296,8 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         "language_detected": detected_lang,
         "language_match": language_match,
         "page_length_anomalies": page_length_anomalies,
+        "transcription_status": transcription_status,
+        "untranscribed_pages": untranscribed_pages,
         "needs_review": len(reasons) > 0,
         "needs_review_reasons": reasons,
     }

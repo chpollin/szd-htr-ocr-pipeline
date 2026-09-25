@@ -2279,28 +2279,55 @@
     },
     {
       "id": "o_szd.1110_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1110/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1110/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1110/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Abs: Victor Fleischer, Königsgasse 34\n\nCorrespondenz-Karte.\n\nAn Herrn Max Fleischer\n\nin Komotau mitten in Böhmen\nVilla Fleischer",
+          "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 25.10.02. Briefmarke 5 Heller.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 128,
+        "emptyPages": 2,
+        "avgCharsPerPage": 128,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 128,
+        "total_words": 17,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          128,
+          0,
+          0
+        ],
+        "chars_per_page_median": 128,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
@@ -2312,7 +2339,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -17764,28 +17791,71 @@
     },
     {
       "id": "o_szd.1418_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1418/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1418/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1418/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1418/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1418/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Herrn\n\nFriedrich Siegbert M e e s\nKapellmeister\n\nz.Zt. B a d e n w e i l e r\n\nSchwarzwald, Villa Eberhart",
+          "notes": "Adressseite eines Briefumschlags. Maschinenschrift. Briefmarken und Poststempel (Salzburg 19. IV. 27) vorhanden.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 105,
+        "emptyPages": 4,
+        "avgCharsPerPage": 105,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 105,
+        "total_words": 23,
+        "total_pages": 1,
+        "empty_pages": 4,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 5,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          105,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 105,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
@@ -17797,6 +17867,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_image_mismatch"
         ]
       },
@@ -19814,40 +19885,88 @@
     },
     {
       "id": "o_szd.1461_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1461/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1461/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1461/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1461/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1461/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "1st June 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Sir,\n\nI thank you for your letter of\nMay 30th which is important for me as\nit confirms my statement that I have never\nbeen informed or been asked for my consent\nneither by the Theatre Guild nor by Dr. Pau-\nker nor by the International Copyright Bu-\nreau about the dealings with my property.\n\nYours very truly,",
+          "notes": "Typoskript auf Papier. Oben rechts handschriftliche Archivnummer '35' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "1st June 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Sir,\n\nI thank you for your letter of\nMay 30th which is important for me as\nit confirms my statement that I have never\nbeen informed or been asked for my consent\nneither by the Theatre Guild nor by Dr. Pau-\nker nor by the International Copyright Bu-\nreau about the dealings with my property.\n\nYours very truly,",
+          "notes": "Typoskript auf Papier. Oben rechts handschriftliche Archivnummer '36' in roter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 4 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 802,
+        "emptyPages": 3,
+        "avgCharsPerPage": 401,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
+        "total_chars": 802,
+        "total_words": 140,
+        "total_pages": 2,
+        "empty_pages": 3,
+        "blank_pages": 2,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          401,
+          0,
+          401,
+          0,
+          0
+        ],
+        "chars_per_page_median": 401.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
-        "duplicate_page_pairs": [],
+        "duplicate_page_pairs": [
+          [
+            0,
+            2
+          ]
+        ],
         "language_expected": "en",
-        "language_detected": "",
+        "language_detected": "en",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -23101,40 +23220,67 @@
     },
     {
       "id": "o_szd.1535_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1535/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1535/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1535/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Berlin-Schmargendorf, den 30.9.24.\nMarienbaderstrasse 9.\n\nLieber Herr Zweig !\n\nHerzlichsten Dank für Ihren Brief und das Schreiben an die \"Neue\nRundschau, das ich sogleich mit Füllung abgesandt habe. Ich freue\nmich sehr, dass Ihr Eindruck auch bei der ganzen Sammlung bestand.\nImmerhin werde ich wohl für eine etwaige Druckausgabe noch weiter-\nhin zusammendrängen; 50 Sonnette sollten genügen. Auch im Einzelnen\nwäre noch Manches zu überprüfen, - leider bin ich augenblicklich\nnicht imstande auch nur einen Vers anzurühren. Es ist wie physischer\nEkel, der einen zuweilen nach der Arbeit überkommt, man kann das\nManuskript nicht mehr riechen, ganz sinnlich gesprochen, und viel-\nleicht ist es auch tatsächlich eine rein körperliche Erschei-\nnung, eine Art tristitia .\nOb der Insel-Verlag sich, trotz Ihrer Fürsprache, die ich wahr-\nhaftig nichtigering einschätze, entschliessen wird das Buch zu über-\nnehmen, erscheint mir zweifelhaft. Er hat sich doch immer mehr zu\neiner Art Parnass oder Akademie entwickelt, und da wird man erst\nwürdig nach wiederholter Bewährung. Leider fehlen jetzt die klei-\nneren Verlage mit etwas Wagemut, die einen Gelegenheit dazu geben;\ndie letzten misslungenen Experimente mit dem Geschäft in Richtungen\nhaben allen die Sicherheit genommen. Ausserdem fehlt wohl den meis-\nten das Geld. Der Axel Juncker Verlag, dem ich noch vor Ihrem Schrei-\nben das Manuscript einschickte, interessiert sich jetzt lebhaft da-\nfür; auch da scheint freilich der finanzielle Unterbau nicht sehr\nstämmig zu sein. Man ist aber sehr freundlich dort zu mir, will\neiniger der Sonnette bei einem der hier jetzt üblichen Verleger -\nThees vortragen lassen und wäre auch nicht abgeneigt das Buch",
+          "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 1695,
+        "emptyPages": 2,
+        "avgCharsPerPage": 1695,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 1695,
+        "total_words": 259,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          1695,
+          0,
+          0
+        ],
+        "chars_per_page_median": 1695,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -23623,6 +23769,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -24438,6 +24585,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -30143,31 +30291,58 @@
     },
     {
       "id": "o_szd.1672_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1672/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1672/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1672/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "6.3.30\n[...]\n[...]\nR. Simons\n[...]\nJuse Winter\n[...]\nRudolf Bar",
+          "notes": "Vorderseite einer Ansichtskarte mit handschriftlichen Notizen. Die Tinte ist teilweise verblasst oder durch das Papierbild schwer lesbar.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
-        "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "illegibleCount": 4,
+        "totalChars": 63,
+        "emptyPages": 2,
+        "avgCharsPerPage": 63,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 63,
+        "total_words": 11,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          63,
+          0,
+          0
+        ],
+        "chars_per_page_median": 63,
         "marker_uncertain_count": 0,
-        "marker_illegible_count": 0,
-        "marker_density": 0.0,
+        "marker_illegible_count": 4,
+        "marker_density": 0.3636,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
@@ -30176,7 +30351,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -46376,28 +46551,55 @@
     },
     {
       "id": "o_szd.482_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.482/IMG.1",
+        "https://gams.uni-graz.at/o:szd.482/IMG.2",
+        "https://gams.uni-graz.at/o:szd.482/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "St. Ulrich (1236 m) gegen die Geislerspitzen (3027 m). Tirol.",
+          "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text unten links. Handschriftlich '1909' in der Bildmitte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 61,
+        "emptyPages": 2,
+        "avgCharsPerPage": 61,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 61,
+        "total_words": 10,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          61,
+          0,
+          0
+        ],
+        "chars_per_page_median": 61,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
@@ -46409,7 +46611,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -51153,28 +51355,55 @@
     },
     {
       "id": "o_szd.564_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.564/IMG.1",
+        "https://gams.uni-graz.at/o:szd.564/IMG.2",
+        "https://gams.uni-graz.at/o:szd.564/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "NAPOLI - PANORAMA E VESUVIO",
+          "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Vesuvs und Neapels. Gedruckter Text unten links.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 27,
+        "emptyPages": 2,
+        "avgCharsPerPage": 27,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 27,
+        "total_words": 5,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
+        "chars_per_page": [
+          27,
+          0,
+          0
+        ],
+        "chars_per_page_median": 27,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
@@ -51186,7 +51415,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -55210,40 +55439,67 @@
     },
     {
       "id": "o_szd.649_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.649/IMG.1",
+        "https://gams.uni-graz.at/o:szd.649/IMG.2",
+        "https://gams.uni-graz.at/o:szd.649/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Lommatzsch i. Sa. Das Blatt in der Erlanger [?] Ausg. 2. Aufl.\n15. Seite 90 letzte Zeile bis Seite 92 Mitte. - Wien Aug 19.\n147, 27 bis 148, 32.",
+          "notes": "Vorderseite einer Ansichtskarte mit handschriftlichen Notizen in Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 144,
+        "emptyPages": 2,
+        "avgCharsPerPage": 144,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 144,
+        "total_words": 30,
+        "total_pages": 1,
+        "empty_pages": 2,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 3,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
-        "marker_uncertain_count": 0,
+        "chars_per_page": [
+          144,
+          0,
+          0
+        ],
+        "chars_per_page_median": 144,
+        "marker_uncertain_count": 1,
         "marker_illegible_count": 0,
-        "marker_density": 0.0,
+        "marker_density": 0.0333,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial"
         ]
       },
       "consensus": null,
@@ -65557,6 +65813,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -71540,27 +71797,54 @@
     },
     {
       "id": "o_szd.937_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.937/IMG.1",
+        "https://gams.uni-graz.at/o:szd.937/IMG.2",
+        "https://gams.uni-graz.at/o:szd.937/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Vorderseite einer Postkarte mit Abbildung eines Turmes (Sukharev-Turm in Moskau). Keine handschriftlichen Einträge.",
+          "type": "blank"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 1 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "vlmConfidence": "low"
       },
       "quality_signals": {
         "total_chars": 0,
         "total_words": 0,
         "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
+        "empty_pages": 3,
+        "blank_pages": 1,
+        "content_pages": 2,
         "color_chart_pages": 0,
-        "chars_per_page": [],
+        "chars_per_page": [
+          0,
+          0,
+          0
+        ],
         "chars_per_page_median": 0.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
@@ -71573,6 +71857,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_image_mismatch"
         ]
       },

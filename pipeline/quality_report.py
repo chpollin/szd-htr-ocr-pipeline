@@ -48,6 +48,8 @@ def aggregate_signals(results: list[dict]) -> dict:
     group_stats = defaultdict(lambda: {"total": 0, "needs_review": 0, "reasons": Counter()})
     collection_stats = defaultdict(lambda: {"total": 0, "needs_review": 0})
     broken_count = 0
+    partial_count = 0
+    untranscribed_pages = 0
 
     for data in results:
         qs = data.get("quality_signals", {})
@@ -61,6 +63,10 @@ def aggregate_signals(results: list[dict]) -> dict:
 
         if "raw" in data.get("result", {}):
             broken_count += 1
+        # absent before quality_signals v1.7 -> recomputed objects only
+        if qs.get("transcription_status") == "partial":
+            partial_count += 1
+            untranscribed_pages += len(qs.get("untranscribed_pages", []))
 
         if qs.get("needs_review"):
             needs_review_count += 1
@@ -75,6 +81,8 @@ def aggregate_signals(results: list[dict]) -> dict:
         "needs_review": needs_review_count,
         "needs_review_pct": round(needs_review_count / total * 100, 1),
         "broken": broken_count,
+        "partial": partial_count,
+        "untranscribed_pages": untranscribed_pages,
         "reasons": dict(reason_counts.most_common()),
         "confidence": dict(confidence_counts.most_common()),
         "by_group": {k: dict(v) for k, v in sorted(group_stats.items())},
@@ -92,7 +100,8 @@ def print_report(stats: dict):
     nr = stats["needs_review"]
     pct = stats["needs_review_pct"]
     print(f"needs_review:  {nr}/{stats['total']} ({pct}%)")
-    print(f"broken (raw):  {stats['broken']}")
+    print(f"broken (raw):  {stats['broken']}  (kein Text, Neulauf noetig)")
+    print(f"partial:       {stats['partial']}  ({stats['untranscribed_pages']} Scans ohne Transkription)")
     print()
 
     print("Confidence:")

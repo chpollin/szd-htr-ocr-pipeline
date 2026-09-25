@@ -219,12 +219,13 @@ Das `confidence`-Feld ("high"/"medium"/"low") ist eine VLM-Selbsteinschaetzung a
 
 Ersatz: automatisch berechenbare Textstatistik-Signale, nach der Transkription ohne weiteren API-Call berechnet (`quality_signals.py`). Sie messen keine Korrektheit, sondern priorisieren menschlichen Review-Aufwand (Triage "zuerst sichten" innerhalb des Status Ungeprueft).
 
-### 2.2 Signalkatalog (v1.6, Stand des Codes)
+### 2.2 Signalkatalog (v1.7, Stand des Codes)
 
-`quality_signals.py` klassifiziert zunaechst jede Seite (`page.type`: `content`/`blank`/`color_chart`, aus Notes + Textlaenge) und ergaenzt fehlende Seiten (`_fill_missing_pages()`: VLM-Seitenzaehlung wird auf die Bildanzahl synchronisiert, Luecken als Leerseiten aufgefuellt — behebt die Seiten-Bild-Desynchronisation, 41 Objekte backfilled). Signale rechnen nur auf Content-Seiten, wo sinnvoll.
+`quality_signals.py` klassifiziert zunaechst jede Seite (`page.type`: `content`/`blank`/`color_chart`, aus Notes + Textlaenge) und ergaenzt fehlende Seiten (`_fill_missing_pages()`: VLM-Seitenzaehlung wird auf die Bildanzahl synchronisiert, Luecken als Leerseiten aufgefuellt — behebt die Seiten-Bild-Desynchronisation, 41 Objekte backfilled). Ausgenommen sind Platzhalter fuer Scans, die ans Modell gingen, aber ohne Transkription zurueckkamen (Notes beginnen mit `Chunk-Fehler` oder `Nicht transkribiert`): Sie sind ungelesen, nicht leer, und gelten seit v1.7 als `content`. Signale rechnen nur auf Content-Seiten, wo sinnvoll.
 
-| Signal | Berechnung (v1.6) | Rolle | Empirische Precision* |
+| Signal | Berechnung (v1.7) | Rolle | Empirische Precision* |
 |---|---|---|---|
+| `transcription_status` | `failed`: `result` hat nur `raw` (Antwort nicht auswertbar, kein Text); `partial`: mindestens ein Platzhalter-Scan (`untranscribed_pages`); sonst `complete` | → needs_review (`transcription_failed` / `transcription_partial`) | kein Schaetzwert, sondern ein Befund — jeder Treffer braucht einen Neulauf |
 | `page_length_anomaly` | Content-Seite mit 0 < Zeichen < 10% des Medians; Umschlag-/Adressseiten ausgenommen (Notes-Erkennung, v1.6) | → needs_review | 100% (2/2) auf Session-21-Set; im Brief-Set SZ-AAL waren 7/28 Flags Umschlag-False-Positives (Agent-Triage 2026-06-10) |
 | `page_image_mismatch` | `n_pages != n_images` ODER >75% der Content-Seiten leer | → needs_review | 100% (3/3) |
 | `language_mismatch` | Stoppwort-Heuristik (Top-20 DE/FR/EN) vs. TEI-Sprache; nur bei ≥50 Woertern und klarer Erkennung | → needs_review | 50% (4/8) — misst eher Metadaten-Inkonsistenz |
@@ -235,7 +236,7 @@ Ersatz: automatisch berechenbare Textstatistik-Signale, nach der Transkription o
 
 \* Evaluation gegen 62 agent-verifizierte Objekte (Session 21).
 
-`needs_review` ist die Disjunktion der drei aktiven Kriterien; `needs_review_reasons` listet die Ausloeser. Alle Felder (inkl. Zaehlwerte, `page_types`, `chars_per_page`, Sprachfelder) stehen im Ergebnis-JSON unter `quality_signals` — massgeblich ist der Code, nicht eine Schema-Kopie hier.
+`needs_review` ist die Disjunktion der vier aktiven Kriterien; `needs_review_reasons` listet die Ausloeser. Alle Felder (inkl. Zaehlwerte, `page_types`, `chars_per_page`, Sprachfelder) stehen im Ergebnis-JSON unter `quality_signals` — massgeblich ist der Code, nicht eine Schema-Kopie hier.
 
 ### 2.3 Kalibrierungsgeschichte
 
@@ -246,6 +247,7 @@ Ersatz: automatisch berechenbare Textstatistik-Signale, nach der Transkription o
 | v1.4 (Session 14) | Duplikat-Mindestlaenge 200 → 50 Zeichen (erkennt Seiten-Halluzination) | ~41% |
 | v1.5 (Session 22) | DWR entfernt, `marker_density` und `duplicate_pages` aus needs_review entfernt, Anomalie-Schwelle 20% → 10% des Medians, Sprachsignal-Guards | ~25–27% (330/1328) |
 | v1.6 (Session 26) | Umschlag-/Adressseiten von `page_length_anomaly` ausgenommen (legitim kurz; in Briefbestaenden Haupt-False-Positive: kurze Adressseite gegen Median langer Briefseiten) | 43 Flags weniger ueber alle Sammlungen, kein neues |
+| v1.7 (2026-09-25) | `transcription_status`: Totalausfaelle und ungelesene Scans als eigene Kategorie; Platzhalter-Scans nicht mehr als Leerseite klassifiziert. Nur die 67 betroffenen Objekte neu berechnet (`backfill_quality_signals.py --incomplete-only`), alle anderen bleiben v1.6 | 16 failed, 51 partial (1.675 ungelesene Scans) |
 
 Lehre: Schwellenwerte ohne empirische Kalibrierung sind zu aggressiv; jedes Signal muss gegen verifizierte Objekte auf Precision geprueft werden, bevor es Review-Aufwand erzeugen darf.
 

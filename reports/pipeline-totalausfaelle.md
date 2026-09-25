@@ -11,6 +11,25 @@ Der Befund ist derselbe Mechanismus, der in `reports/aal-review-triage.md` fuer 
 `o_szd.3375` dokumentiert ist (Commit `a96cd7f`, "Neulauf der 2 Runaway-Objekte"). Die Klasse ist
 also bekannt — neu ist, dass sie ueber alle vier Sammlungen hinweg 34 Objekte betrifft.
 
+> **Nachtrag 2026-09-25 — Empfehlung 1 und 5 umgesetzt, Befund erweitert.**
+>
+> - `parse_api_response()` hat eine sechste Stufe, die die vollstaendigen Seitenobjekte vor dem
+>   Abbruch uebernimmt. `pipeline/salvage_raw_results.py` hat sie auf die gespeicherten Antworten
+>   angewendet: **18 Objekte teilweise gerettet, 300 Seiten, 187 mit Text** — exakt die Zahlen
+>   unten. 16 Objekte haben keine einzige vollstaendige Seite und bleiben Totalausfall.
+> - Die Liste war nicht geschlossen. Ausser den Totalausfaellen gibt es **33 Objekte mit
+>   1.373 Scans**, die als Chunk-Fehler (`"Chunk-Fehler: ..."`) nie transkribiert wurden — und
+>   die Seitenklassifikation hat sie als **Leerseiten** gefuehrt. Sie fielen deshalb nicht auf.
+> - `quality_signals` v1.7 fuehrt `transcription_status`: `failed` (16) und `partial` (51, davon
+>   18 aus dem Salvage) sind eigene Review-Gruende im Katalog, ungelesene Scans gelten nicht mehr
+>   als leer. Zusammen **1.675 Scans** warten auf einen Neulauf.
+> - Empfehlung 3 (`max_output_tokens`) bewusst nicht umgesetzt: Die Schleifen enden ohnehin am
+>   Ausgabelimit des Modells (~65.000 Zeichen), echte Zeitungsseiten erreichen bis 46.000 Zeichen.
+>   Ein engeres Limit haette wenig gespart und echten Text abschneiden koennen; mit Stufe 6 ist ein
+>   abgeschnittener Rest ohnehin kein Totalausfall mehr.
+> - Offen und nur mit API-Key + Backup moeglich: Empfehlungen 2 und 4 (Neulauf) sowie der
+>   Neuexport von `_page.json`/`_mets.xml` der 67 Objekte → `knowledge/plan.md`.
+
 ## Zusammenfassung
 
 - Betroffene Objekte: **34** von 2.452 (1,4 %), zusammen **836 Faksimile-Scans**

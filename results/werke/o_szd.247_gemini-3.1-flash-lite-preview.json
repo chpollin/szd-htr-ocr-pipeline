@@ -158,21 +158,21 @@
         "page": 21,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "S.1-20: Der Text ist gut lesbar, die handschriftlichen Korrekturen sind eindeutig den entsprechenden Typoskript-Zeilen zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.6",
+    "version": "1.7",
     "total_chars": 13879,
     "total_words": 2454,
     "total_pages": 10,
     "empty_pages": 11,
-    "blank_pages": 11,
+    "blank_pages": 10,
     "color_chart_pages": 0,
-    "content_pages": 10,
+    "content_pages": 11,
     "input_images": 21,
     "page_types": [
       "content",
@@ -195,7 +195,7 @@
       "blank",
       "content",
       "blank",
-      "blank"
+      "content"
     ],
     "chars_per_page": [
       2010,
@@ -229,8 +229,13 @@
     "language_detected": "en",
     "language_match": false,
     "page_length_anomalies": [],
+    "transcription_status": "partial",
+    "untranscribed_pages": [
+      20
+    ],
     "needs_review": true,
     "needs_review_reasons": [
+      "transcription_partial",
       "language_mismatch"
     ]
   }

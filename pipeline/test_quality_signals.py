@@ -60,7 +60,7 @@ def test_envelope_stays_content_page():
 
 def test_version_bumped():
     q = _signals([_page(1, "x" * 100, "Brief.")])
-    assert q["version"] == "1.6"
+    assert q["version"] == "1.7"
 
 
 if __name__ == "__main__":

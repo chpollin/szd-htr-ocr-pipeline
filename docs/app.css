@@ -767,6 +767,7 @@ body.view-stats #help { display: none; }
 .badge-page-type { font-size: 0.65rem; padding: 0.1rem 0.35rem; border-radius: 3px; margin-left: 0.3rem; font-weight: 500; }
 .badge-page-blank { background: var(--sz-border-light); color: var(--sz-text-light); }
 .badge-page-chart { background: var(--sz-warning-bg); color: var(--sz-gold); }
+.badge-page-missing { background: var(--sz-danger-bg); color: var(--sz-danger); }
 
 /* Review status badges — unified 5-tier pill system */
 .badge-review {

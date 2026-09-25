@@ -38,121 +38,121 @@
         "page": 1,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 8,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 9,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 10,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 11,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 12,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 13,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 14,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 15,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 16,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 17,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 18,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 19,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 20,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 21,
@@ -165,36 +165,36 @@
     "confidence_notes": "S.21-21: Die Lesbarkeit ist durch die Überlagerung der Farbskala, die dichten Korrekturen (Durchstreichungen und Einfügungen) sowie die flüchtige Handschrift an einigen Stellen (insbesondere bei den Einfügungen am unteren Rand) beeinträchtigt."
   },
   "quality_signals": {
-    "version": "1.6",
+    "version": "1.7",
     "total_chars": 1354,
     "total_words": 181,
     "total_pages": 0,
     "empty_pages": 20,
-    "blank_pages": 20,
+    "blank_pages": 0,
     "color_chart_pages": 1,
-    "content_pages": 0,
+    "content_pages": 20,
     "input_images": 21,
     "page_types": [
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
       "color_chart"
     ],
     "chars_per_page": [
@@ -229,7 +229,33 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": false,
-    "needs_review_reasons": []
+    "transcription_status": "partial",
+    "untranscribed_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "transcription_partial",
+      "page_image_mismatch"
+    ]
   }
 }

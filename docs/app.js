@@ -1669,7 +1669,10 @@ function renderViewerNav() {
   const page = pages[state.currentPage];
   const pageType = page?.type || 'content';
   let typeBadge = '';
-  if (pageType === 'blank') typeBadge = ' <span class="badge-page-type badge-page-blank">Leer</span>';
+  // Scans sent to the model but returned without text (quality_signals UNTRANSCRIBED_PREFIXES)
+  const untranscribed = /^(Chunk-Fehler|Nicht transkribiert)/.test(page?.notes || '');
+  if (untranscribed) typeBadge = ' <span class="badge-page-type badge-page-missing" data-tooltip="Dieser Scan kam ohne Transkription zurück — nicht leer, sondern ungelesen. Braucht einen Neulauf.">Nicht transkribiert</span>';
+  else if (pageType === 'blank') typeBadge = ' <span class="badge-page-type badge-page-blank">Leer</span>';
   else if (pageType === 'color_chart') typeBadge = ' <span class="badge-page-type badge-page-chart">Farbskala</span>';
 
   // Per-page consensus agreement dot
@@ -2997,6 +3000,8 @@ function showHelp() {
 /* ===== Stats Page ===== */
 
 const REASON_LABELS = {
+  transcription_failed: 'Transkription fehlgeschlagen',
+  transcription_partial: 'Transkription unvollständig',
   page_length_anomaly: 'Seitenl\u00e4ngen-Anomalie',
   page_image_mismatch: 'Bild-Text-Mismatch',
   language_mismatch: 'Sprach-Mismatch',
@@ -3004,11 +3009,15 @@ const REASON_LABELS = {
 const REASON_KEYS = Object.keys(REASON_LABELS);
 /* short forms for the chips in the catalog row (the cell is narrow) */
 const REASON_SHORT_LABELS = {
+  transcription_failed: 'Kein Text',
+  transcription_partial: 'Unvollständig',
   page_length_anomaly: 'Seitenlänge',
   page_image_mismatch: 'Bild-Text',
   language_mismatch: 'Sprache',
 };
 const REASON_TOOLTIPS = {
+  transcription_failed: 'Die Modellantwort war nicht auswertbar — das Objekt hat keinen Text und muss neu transkribiert werden',
+  transcription_partial: 'Einzelne Scans kamen ohne Transkription zurück (Chunk-Fehler oder abgebrochene Modellantwort) — sie sind nicht leer, sondern ungelesen und müssen neu transkribiert werden',
   page_length_anomaly: 'Einzelne Seiten weichen stark von der mittleren Textlänge des Objekts ab — Hinweis auf Abbruch oder übersehenen Text (Precision 100%)',
   page_image_mismatch: 'Anzahl transkribierter Seiten weicht von der Anzahl Faksimile-Bilder ab (Precision 100%)',
   language_mismatch: 'Erkannte Sprache weicht von der TEI-Sprachangabe ab (Precision 50%)',

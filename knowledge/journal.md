@@ -2076,3 +2076,54 @@ Journalverweise, die als tote Wikilinks gerendert wurden. Der fruehere
 [[verification-concept]]; das als Link interpretierte Syntaxbeispiel wurde zu Klartext.
 
 ---
+
+## 2026-09-25 — Totalausfaelle: 300 Seiten gerettet, 1.373 ungelesene Scans aufgedeckt
+
+Umsetzung der kostenlosen Empfehlungen aus `reports/pipeline-totalausfaelle.md`, ohne API-Key
+und ohne Bild-Backup.
+
+**Parser-Stufe 6.** `parse_api_response()` uebernimmt jetzt die vollstaendigen Seitenobjekte
+vom Anfang eines abgebrochenen `pages`-Arrays (`_salvage_pages()`: `JSONDecoder.raw_decode`
+Objekt fuer Objekt, Stopp am ersten, das nicht parst). Ein so geretteter Teil traegt
+`result.salvage` und `confidence: low`. Im Live-Lauf loest er trotzdem den Retry aus und bleibt
+nur stehen, wenn der Retry nicht mindestens gleich viele Seiten liefert; in Chunks werden nur die
+fehlenden Scans in Sub-Chunks neu angefragt. `salvage_raw_results.py` hat die Stufe auf die 34
+gespeicherten Rohantworten angewendet: 18 Objekte teilweise gerettet, **300 Seiten, 187 mit
+Text** — genau die Zahl des Reports. Groesster Posten ist `o_szd.1886` ("My three lives") mit
+170 von 175 Seiten. 16 Objekte haben keine einzige vollstaendige Seite und bleiben Totalausfall.
+Die Originalantworten liegen in der Git-History.
+
+**Die Liste war nicht geschlossen.** Beim Pruefen, wie fehlende Seiten aufgefuellt werden, zeigte
+sich: Die Platzhalter, die der Chunk-Modus fuer fehlgeschlagene Chunks einsetzt
+(`"Chunk-Fehler: ..."`, leerer Text), klassifiziert `_classify_page()` als `blank`. 33 Objekte
+mit zusammen **1.373 Scans** — fast alle Werke, darunter viele grosse Konvolute — standen deshalb
+als Objekte mit vielen Leerseiten im Katalog, nicht als unvollstaendig. Das ist groesser als der
+Befund vom August.
+
+**`quality_signals` v1.7.** Platzhalter-Scans (Notes beginnen mit `Chunk-Fehler` oder
+`Nicht transkribiert`) gelten als ungelesen, nicht als leer. Neues Feld `transcription_status`
+(`complete`/`partial`/`failed`) mit `untranscribed_pages`; `partial` und `failed` sind eigene
+Review-Gruende und damit im Katalog-Filter, Chip, Signaldiagramm und in der Heatmap eigene
+Kategorien. Der Viewer zeigt am ungelesenen Scan ein Badge "Nicht transkribiert".
+`quality_report.py` weist beide Zahlen aus. Stand: 16 `failed`, 51 `partial`, zusammen
+1.675 ungelesene Scans.
+
+Nur die 67 betroffenen Objekte wurden neu berechnet (`backfill_quality_signals.py
+--incomplete-only`). Ein vollstaendiger Backfill haette nebenbei die Signale von 21 approbierten
+Objekten veraendert: `serve.py` rechnet Signale nach einer Korrektur nicht neu, dort passen
+Zeichenzahlen und teils `page_types` nicht mehr zum Text. Das ist eine eigene Entscheidung und
+steht in [[plan]]. Die uebrigen Objekte bleiben bei v1.6.
+
+**Bewusst nicht umgesetzt: `max_output_tokens`.** Die Schleifen enden ohnehin am Ausgabelimit
+des Modells (~65.000 Zeichen); echte Zeitungsseiten erreichen 46.000 Zeichen. Ein engeres Limit
+haette wenig gespart und echten Text riskiert.
+
+**Nicht von hier aus moeglich:** Neulauf der 67 Objekte (API-Key + Backup) und Neuexport ihrer
+`_page.json`/`_mets.xml`. Ein Probe-Export zeigte, dass ohne Backup still Felder aus
+`metadata.json` wegfallen (`rights`) — Exporte daher nur auf einem Rechner mit Backup.
+
+Verifikation: `python -m pytest tests/ pipeline/` — 26 Tests gruen (8 neue in
+`tests/test_salvage.py`); `node --check docs/app.js` ohne Befund; Viewer-Daten neu gebaut, die
+Aenderungen in `docs/data/` betreffen genau die 67 Objekte.
+
+---

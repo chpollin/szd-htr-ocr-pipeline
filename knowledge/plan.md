@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-08-26
+updated: 2026-09-25
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -103,7 +103,10 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] System-Prompt: JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien, Bleed-Through-Regel
 - [x] Seiten-Bild-Synchronisation: `_fill_missing_pages()` fuer VLM-Luecken (41 Objekte backfilled)
 - [~] Alle Sammlungen transkribieren. Lebensdokumente 100%, Korrespondenzen 100%. Fortschritt → `--dry-run`.
-- [ ] **34 Totalausfaelle neu laufen lassen** — Objekte mit `result.raw` statt `pages` (836 Scans, alle vier Sammlungen). Ursache: degenerierte Wiederholungsschleife des VLM in Markup-Zeichen (`\n`, `[?]`, `[...]`, `~~ ~~`). ~300 Seiten sind ohne API-Call aus den Rohdaten zu retten. Vollstaendige Liste, Ausfallarten und Empfehlung → `reports/pipeline-totalausfaelle.md` (Julia Hintersteiner, 2026-08-26)
+- [x] **Salvage der Totalausfaelle** (2026-09-25): Parser-Stufe 6 uebernimmt die vollstaendigen Seiten vor einer Wiederholungsschleife, `salvage_raw_results.py` hat 18 der 34 Objekte teilweise gerettet (300 Seiten, 187 mit Text). `quality_signals` v1.7: `transcription_status` complete/partial/failed als eigene Review-Gruende im Katalog; ungelesene Scans gelten nicht mehr als Leerseite
+- [ ] **Neulauf der unvollstaendigen Transkriptionen** (braucht API-Key + Backup) — 16 `transcription_failed` + 51 `transcription_partial` mit zusammen 1.675 ungelesenen Scans. Liste: Katalog-Filter "Transkription unvollstaendig/fehlgeschlagen" oder `quality_report.py`. `--force` laesst das ganze Objekt neu laufen; bei grossen Objekten kleineres `--chunk-size`. `o_szd.267` vorher pruefen (nur 107 von 232 Scans gesendet). Befund → `reports/pipeline-totalausfaelle.md`
+- [ ] **Exporte der 67 Objekte neu erzeugen** — `_page.json` und `_mets.xml` stammen vom alten Stand (keine Seiten bzw. ungelesene Scans als `blank`). Nur auf einem Rechner mit Backup: ohne Backup faellt u.a. `rights` aus `metadata.json` still weg
+- [ ] **Veraltete Signale nach Korrekturen** — `serve.py` rechnet `quality_signals` nach einem Edit nicht neu; bei 21 approbierten Objekten passen Zeichenzahlen, Marker, teils `page_types` nicht mehr zum Text. Entscheiden: nach Edit neu berechnen, oder Signale bewusst als Stand der Maschinenfassung einfrieren
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Modellkonsensus & Vergleich

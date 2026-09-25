@@ -7729,39 +7729,775 @@
     },
     {
       "id": "o_szd.70_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.70/IMG.1",
+        "https://gams.uni-graz.at/o:szd.70/IMG.2",
+        "https://gams.uni-graz.at/o:szd.70/IMG.3",
+        "https://gams.uni-graz.at/o:szd.70/IMG.4",
+        "https://gams.uni-graz.at/o:szd.70/IMG.5",
+        "https://gams.uni-graz.at/o:szd.70/IMG.6",
+        "https://gams.uni-graz.at/o:szd.70/IMG.7",
+        "https://gams.uni-graz.at/o:szd.70/IMG.8",
+        "https://gams.uni-graz.at/o:szd.70/IMG.9",
+        "https://gams.uni-graz.at/o:szd.70/IMG.10",
+        "https://gams.uni-graz.at/o:szd.70/IMG.11",
+        "https://gams.uni-graz.at/o:szd.70/IMG.12",
+        "https://gams.uni-graz.at/o:szd.70/IMG.13",
+        "https://gams.uni-graz.at/o:szd.70/IMG.14",
+        "https://gams.uni-graz.at/o:szd.70/IMG.15",
+        "https://gams.uni-graz.at/o:szd.70/IMG.16",
+        "https://gams.uni-graz.at/o:szd.70/IMG.17",
+        "https://gams.uni-graz.at/o:szd.70/IMG.18",
+        "https://gams.uni-graz.at/o:szd.70/IMG.19",
+        "https://gams.uni-graz.at/o:szd.70/IMG.20",
+        "https://gams.uni-graz.at/o:szd.70/IMG.21",
+        "https://gams.uni-graz.at/o:szd.70/IMG.22",
+        "https://gams.uni-graz.at/o:szd.70/IMG.23",
+        "https://gams.uni-graz.at/o:szd.70/IMG.24",
+        "https://gams.uni-graz.at/o:szd.70/IMG.25",
+        "https://gams.uni-graz.at/o:szd.70/IMG.26",
+        "https://gams.uni-graz.at/o:szd.70/IMG.27",
+        "https://gams.uni-graz.at/o:szd.70/IMG.28",
+        "https://gams.uni-graz.at/o:szd.70/IMG.29",
+        "https://gams.uni-graz.at/o:szd.70/IMG.30",
+        "https://gams.uni-graz.at/o:szd.70/IMG.31",
+        "https://gams.uni-graz.at/o:szd.70/IMG.32",
+        "https://gams.uni-graz.at/o:szd.70/IMG.33",
+        "https://gams.uni-graz.at/o:szd.70/IMG.34",
+        "https://gams.uni-graz.at/o:szd.70/IMG.35",
+        "https://gams.uni-graz.at/o:szd.70/IMG.36",
+        "https://gams.uni-graz.at/o:szd.70/IMG.37",
+        "https://gams.uni-graz.at/o:szd.70/IMG.38",
+        "https://gams.uni-graz.at/o:szd.70/IMG.39",
+        "https://gams.uni-graz.at/o:szd.70/IMG.40",
+        "https://gams.uni-graz.at/o:szd.70/IMG.41",
+        "https://gams.uni-graz.at/o:szd.70/IMG.42",
+        "https://gams.uni-graz.at/o:szd.70/IMG.43",
+        "https://gams.uni-graz.at/o:szd.70/IMG.44",
+        "https://gams.uni-graz.at/o:szd.70/IMG.45",
+        "https://gams.uni-graz.at/o:szd.70/IMG.46",
+        "https://gams.uni-graz.at/o:szd.70/IMG.47",
+        "https://gams.uni-graz.at/o:szd.70/IMG.48",
+        "https://gams.uni-graz.at/o:szd.70/IMG.49",
+        "https://gams.uni-graz.at/o:szd.70/IMG.50",
+        "https://gams.uni-graz.at/o:szd.70/IMG.51",
+        "https://gams.uni-graz.at/o:szd.70/IMG.52",
+        "https://gams.uni-graz.at/o:szd.70/IMG.53",
+        "https://gams.uni-graz.at/o:szd.70/IMG.54",
+        "https://gams.uni-graz.at/o:szd.70/IMG.55",
+        "https://gams.uni-graz.at/o:szd.70/IMG.56",
+        "https://gams.uni-graz.at/o:szd.70/IMG.57",
+        "https://gams.uni-graz.at/o:szd.70/IMG.58",
+        "https://gams.uni-graz.at/o:szd.70/IMG.59",
+        "https://gams.uni-graz.at/o:szd.70/IMG.60",
+        "https://gams.uni-graz.at/o:szd.70/IMG.61",
+        "https://gams.uni-graz.at/o:szd.70/IMG.62",
+        "https://gams.uni-graz.at/o:szd.70/IMG.63",
+        "https://gams.uni-graz.at/o:szd.70/IMG.64",
+        "https://gams.uni-graz.at/o:szd.70/IMG.65",
+        "https://gams.uni-graz.at/o:szd.70/IMG.66",
+        "https://gams.uni-graz.at/o:szd.70/IMG.67",
+        "https://gams.uni-graz.at/o:szd.70/IMG.68",
+        "https://gams.uni-graz.at/o:szd.70/IMG.69",
+        "https://gams.uni-graz.at/o:szd.70/IMG.70",
+        "https://gams.uni-graz.at/o:szd.70/IMG.71",
+        "https://gams.uni-graz.at/o:szd.70/IMG.72",
+        "https://gams.uni-graz.at/o:szd.70/IMG.73",
+        "https://gams.uni-graz.at/o:szd.70/IMG.74",
+        "https://gams.uni-graz.at/o:szd.70/IMG.75",
+        "https://gams.uni-graz.at/o:szd.70/IMG.76",
+        "https://gams.uni-graz.at/o:szd.70/IMG.77",
+        "https://gams.uni-graz.at/o:szd.70/IMG.78",
+        "https://gams.uni-graz.at/o:szd.70/IMG.79",
+        "https://gams.uni-graz.at/o:szd.70/IMG.80",
+        "https://gams.uni-graz.at/o:szd.70/IMG.81",
+        "https://gams.uni-graz.at/o:szd.70/IMG.82",
+        "https://gams.uni-graz.at/o:szd.70/IMG.83",
+        "https://gams.uni-graz.at/o:szd.70/IMG.84",
+        "https://gams.uni-graz.at/o:szd.70/IMG.85",
+        "https://gams.uni-graz.at/o:szd.70/IMG.86",
+        "https://gams.uni-graz.at/o:szd.70/IMG.87",
+        "https://gams.uni-graz.at/o:szd.70/IMG.88",
+        "https://gams.uni-graz.at/o:szd.70/IMG.89",
+        "https://gams.uni-graz.at/o:szd.70/IMG.90",
+        "https://gams.uni-graz.at/o:szd.70/IMG.91"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "[IMG_1.jpg] (Einband)",
+          "notes": "Einband des Notizbuchs, keine Transkription möglich.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "LANDOLT-ARBENZ & CO\nBAHNHOFSTR. 66.\nZÜRICH\n№ 76\ndo. - go",
+          "notes": "Vorsatzblatt mit Firmenstempel und handschriftlichen Notizen.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "Tagebuch in der Schweiz. 1917\n\nMontag\n19. November, Morgens Abfahrt von Inns-\nbrück, selbstverständlich Verspätung, die uns\nim Zuge noch als verlängnisvoll angekündigt\nwird. Unruhe vor dem Übertritt. Aber die Ro-\nmantik bleibt aus. Statt der geheimnisvollen\nKarriere uns Diplomaten im Zug ein Geschrei\nvon jüdischen Confectionären und Agenten\ndie Revision selbst verschiebt sich um zwei Stun-\nden, die Gelegenheit geben, Tel[e]phonisch eine wun-\ndervolle vielmürrige Stadt zu beschauen. Dann\ndie Ceremonie - für mich rasch, für einige\nPaaren weniger. Dann in einem dünkeln Waggon\nden ein Öllämpchen gerade noch durchzieht\nfährt man über die Grenze - der einzige\nWaggon der von Feldkirch nach Buchs hi-\nnübergeht. Wo sonst wie ein Wasserfall die\nEilzüge rauschten fällt dieser eine dünne\nTropfen Verkehr von Land zu Land. In\nBuchs kein Anschluss mehr - wir müssen",
+          "notes": "Erster Tagebucheintrag. Handschriftlich, violette Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "in einem Jammerhotel mit knaskenden Stie-\ngen und trottelhaften Leuten übernachten, eben\nda aber die Fürstin auf frem Thron. Es ist wie\nzur Postkutschenzeit, wenn ein Rad gebrochen\nwar. Aber das eben ohne Reifluß - nur das\ngroße Gefühl der Freiheit weggerädert von\nden vielen Stunden Fahrt und Erwartung\n[Dienstag] 18. Nov. Früh morgens von Buchs\nnach Zürich. Schöne Fahrt an vernebelten\nBergen und dem Wallensee vorbei; gutes\nGespräch mit Dr. K[u]nwald, einem europäischen\nMenschen, der seine Abenteuer aus Brasilien\nwährend des Krieges und seine seltsame Über-\nfahrt erzählt. Mittags in Zürich im reizen-\nden Hotel Schwert, das Ideal eines Hotels\naltmodisch und neu. Nach Tisch holt mich\nLothar ab. Ins Consulat, dann zur Aus-\nstellung der Impressionisten. Unvergesslich\nin freiem Rhythmus, eine Fülle von malerischer\nKraft wie nie ähnlich kaum je zu sehen war. Dann\nins Café Odeon, die Heimat der Refractäre, Re-",
+          "notes": "Fortsetzung des Eintrags. 'Dienstag' ist durchgestrichen.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "volutionäre, Desertöre, dort im Trop, biedere,\nlangweilige Schweizer, ein paar alldeutsche Deut-\nsche, aber schon kleinlaut, Paul Ilg, der mir gut\ngefällt trotz der Maulfaulheit, Wolfgang Heine\naus Wedekind. Heine, ein sanfter Professor\nder Socialdemocratie, lau, vorsichtig. Ich\ninterpelliere ihn wegen Fehlherls Bekannt-\nlung. Er weiß aus, sie hätten „~~einerseits~~ {~~einerseits~~}\n~~verwirrt~~, Vorstellungen gemacht“ - kurz\nHeine Entschiedenheit, kein Elan. Ein peinli-\ncher Eindruck. Zum Nachtcafé mit Wedekind\nund Ehrenstein, Wedekind erzählt viel vom\nalten Zürich - das jetzige hat Analogie\nmit dem von 1848, wo es artig unwillig\nWeltmittelpunkt war im geistigen Sinne.\nAuch heute ist diese Unwilligkeit noch sehr\nstark - nicht nur der Brotkarten halber,\nsondern auch weil der Zustand der einer\nhüterhaften Überladenheit und Hochspannung\nist. Dazu die Teuerung und die Besorgnis,\nselbst noch allmählich in den Wirbel gerissen",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "zu werden. Ehrenstein erzählt mir dann\nnoch viel. Vor allem die Geschichte seines Pot-\nders, die ja durch und durch phantastisch\nwirkt, wie ja Alles hier.\n[Mittwoch] 16. November. Vormittags durch\ndie Stadt, die Läden stolziert bis zum Rande\naufreizend fast für unsere entwöhnten Blick\naber im Grunde, wie gleichgültig diese außerlichen\nDinge. Mittags noch ein Rückfall nach Wien\nim Gespräch mit den [Jüdischen?] [?], dann im Café\nmit Leonhard Frank. Ein Savonarolaer Art\nmit händischem Zug, fast, fanatisch, gläserne\nhalte harte Maleraugen, eine Stimme, die in der\nErregung ins Stammeln gerät. Hart, kantig\nBöse, vom Hochmut der radicalen Fanatiker.\nEr erzählt von seinem Buch das er nach\nDeutschland bringen will um die Revolution\nzu beschleunigen, die er in 4 Jahren erwartet\nersieht. Blinder Hass gegen Deutschland, eng-\nstirnig aber prüdich. Ich verspreche ihm mor-\ngen einen Besuch. Heute noch zu Rubiner, der",
+          "notes": "Fortsetzung des Eintrags. 'Mittwoch' ist durchgestrichen.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "mir sehr gefällt. Ich mache gegen die Härte\ndes Züricher Cafépacifisten Front, die\nfinden (in ihrer Sicherheit) dass die „drüben“\nnicht genug tun. Er versteht den Unterschied\nzwischen ihrer Unbesorgtheit und dem see-\nlichen Abstand der andern. Er gibt auch\nzu, dass keine Gemeinschaft um der Sache\nwillen herrsche, sondern sie alle sich propa-\ngieren. Sehr wichtige und entscheidende\nGespräche über Einzelnes. Er ist mir auch\nvoll Hingabe, opfert sein letztes Geld für\ndie Zeitschrift. Ich wehre mich gegen die Un-\nbarmherzigkeit ihres Hasses. Glücklicherwein\nkann ich zu ihm sprechen. Wichtig was er von\nRolland erzählt, wie er von der Taktlosigkeit\nder Deutschen zu leiden hat, die den ‚Welt-\nbrüder‘ aufrufen um - ihren Ideen zu hel-\nfen. Und schön der Gedanke, dass Frankreich\ndurch Tradition die Revolte des Geistes habe,\nwährend Deutschland sie erst versuche, dann\nbei Wedekind Schloss Wettenstein. Verstaubt,",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 8,
+          "transcription": "auffällig - wesenlos, nagebend, er selbst als\nSchauspieler darin kläglich. Geradezu ein Hohn\nauf die lebendige Zeit, die ich mächtig schon\naus deren weißen Stunden in mir spüre.\nFreitag 17. Nov. Morgens mit Oscar Fried, der\nin unserem Hotel wohnt. Er ist müde, tief\ntraurig, das Frey-Laubübinhe ganz von ihm\nabgefallen. Er ist zermürbt. Die Enttäuschung\ndes im August vernichteten Fraters hat sie\ngelähmut. Seltsam: was die Menschen von Fer-\nne in der Schweiz als Freiheit sehen, nimmt\nsich hier ganz anders aus. Sie sitzen gleichsam\nauf einer Turmspitze, abgesondert, losgelöst,\nirgendwie verloren. Auch dies ein Gefängnis\ndas enge Stück Erde. Etwas Robinsonhaftes\nin der geistigen Existenz. Dann bei Reicher\nim Theater, unsichere Zuschauer ohne Zu-\nsage. Nein wirklich, ich vermag allerlei zu\nreden. Dann bei Leonhard Frank. Erregtes\nGespräch, das erbittert und grob wird. Er for-\ndert die Revolution, ich sage ihm, dass ich das",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 9,
+          "transcription": "fremde Opfer verachte, weil sie mit Blut\nerkauft sein müsse. Ich stelle die Frage\nwas ihm wichtiger sei, Friede sofort ohne\nden Sieg den er fordert (Revolution im D.\n[?]/ oder der Sieg seiner Idee nach\ndreijährigem Krieg. Er will lieber 3 Jahre\nnoch Krieg. Ich bekämpfe diesen Imperialis-\nmus. Wir werden grob. Ich frage nach seiner\nTat, seinem Opfer, seiner Gefahr. Er sagt, er\nbereite vor. Ich sage ihm, dies sei das Gleiche\nwie die Kriegshezer, die auch für ihre Idee\nden Krieg, den Tod der andern wollen. Er\nhöht mich, weil ich das Leben höher stelle\nals den Geist. Ich antworte, dass ich es nur\nhabe, wenn ich mich opferte. Ich frage ihn\nwarum er nicht als nach Deutschland käme.\nEin ehell dieser ungefährliche blinde Hass\nohne Gefahr, dies von Fanaticeren gegen\nBegriffe, obwohl ich doch seine Sachen uner-\nhört bewundere. Aber er ist rabiat in seinem\nInstinkt, nennt die Wiener [?], was ich",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 10,
+          "transcription": "als anfällige Verallgemeinerung zurück-\nweise. Mir wird mit einemmal die ganze\nUnwirklichkeit dieses bequemen Fanatismus\nklar, der ja jetzt sehr einträglich ist und trotz\nseiner Ehrlichkeit auf einer Lüge taugt. Wir\ngehen mit einer Art Erbitterung auseinander,\nund werden wohl kaum wieder zusammen-\nsprechen, sie alle klagt F. Adler, die Tat\nund der Geist. Jede Absonderung, das weiß\nich jetzt, ist ein Verrat; die Revolutionäre\ndie unbarmherzigen, im Café Odeon in Zürich\ndas ist eines der traurigsten Capitel des\nWeltkriegs. Mit freiem Agitieren, ist eine\nVerpflichtung. Kaffer, Hüfler werden in den\nNerven mit Fried, dann mit Korrodi und\nRever. Wir besprechen den Kern aller dieser\nDinge: Mangel an Takt / achous Leute, die\nSnares abdrücken als pacifistische Demon-\nstration! / der ebenso traurig ist wie der in\nder Propaganda. Keiner sagt mit dem guten\nVergleich für diese Leute der Propaganda, die",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 11,
+          "transcription": "wie die Paralytiker immer redeten, ohne zu\nachten, ob es die andern auch interessiere.\nDann abends fünf Stunden mit Fritz von\nUnruh. Er ist männlicher, sieht auf den ersten\nBlick fast üppig aus, aber in den Nerven\nschwer zerstört. Sie haben kaum gehen nach\nzweimal zwanzig [?], sei-\nne Hände in Handschuhen wegen der Eiterun-\ngen. Von fünf Brüdern ist er noch der einzige\nhaltwegs Gesunde. Herrlich in seinem Gespräch\nseiner Strenge gegen alles Halbe (Rathenau,\nHauptmann!) Seine Erlebnisse entsetzlich, Bel-\ngien, die Marne, Verdun, Russland. Er hat\nin 6 Bänden Tagebuch alles verzeichnet, es wird\ndas furchtbarste Document des Krieges wer-\nden, wenn sie einmal publiciert werden. Wir\nverstehen uns so ganz im Letzten. Auch er\nweiß, dass Leben alles ist, das Einzige und\nLetzte und das letzte Schutz unter den Geist,\ndie einzige, daran zu greifen. Aus dem tief-\nsten Erlebnis hat er auch das eine: das Leben,",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 12,
+          "transcription": "das durch ein Wunder mit hundert Nöten ge-\nrettet würde. Sein Heroismus der Aufzeichnung\n[?], ist eine Anforderung für\nalle Zeiten. Ich fühle mich in seinem Letzten warm\nbewegt, dass immer nur der wahre Mensch bei\nmir erschüttert, wenn ich in seine festen, noch so\netwas unruhigen Augen blicke und wie vor 10\nJahre im Tiergarten in Berlin fühlen wir über\nalles hinüber uns ganz. Wie in solchen Augen-\nblicken alles Geistige (durch die Wahrheit / [?]\neinfach wird - ein Wunder, das man immer nur\nder [?].\nSamstag 18. Nov. Morgens postalisch telefoni-\nsche Arbeit, die frohe Nachricht von Rolland.\nSeine Briefe immer ein loderndes Feuer der\nFreundschaft. Dann Besorgungen, in der Biblio-\nthek, beim Antiquar, der sich als alter Bekannter\nvon der piazza di Spagna in Rom entpuppt. So\nfügt man hier die Wellen der Welt von einst. Zu\nMittag mit Wedekind, der mich im Hotel besucht\nfalte, dann nachmittags eine kleine Menschenpause",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 13,
+          "transcription": "die uns schon äußerst nottut. Ich lese im Studenten-\nverein die Zeitungen und Zeitschriften: herrliche\nBriefe Baudelaires, den Corriere della Sera aus\nden Schreckenstagen. Dann holt mich Lothar ab\nwir gehen in den Club, des Lesecircles Stottingen.\nEin bärliges Durcheinander von Herren vor gedeckten\nTischen, dazwischen Wedekind, der verliert in eine\ngespannte und doch sümpfige Sphäre. Das lächerliche\nhier zu wirken, wird mir klar, gleichderweise kommt\nauch niemand mir entgegen. Das hartmännige, [?]\nEinöde, grobe, Taktlose dieser Schweizer ist mir uner-\nträglich: man will doch keine Wärme im voraus, aber\ndoch in einem Gespräch jenen Anfang, der einen [?] \nmacht. Ich verstehe ja genau die feindselige Vorsicht\ndie hier alle Menschen haben: sie sind von der deut-\nschen Taktlosigkeit zuooft missbraucht worden, aber\ndiese dickflüssige Zähigkeit der Gesinnungen raubt\nuns den Atem. Schrecklich hat sich mir das kleinbürger-\nliche dieses Landes aufgetan, die [?], den\nmit Bildung und Pflichtbegriffen zu dich durchsetzte\nHandhabung der Kunst, diese pfennigführende Nationa-",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 14,
+          "transcription": "lität, diese Spiesservereine, in denen Herren wie\ndie [?] die grosse Rolle spielen! Ich verstehe ja\nauch in diesem Quengel, wo die biedern Herren aber\n[?] ihr Zeug vorlesen, der Geist Europas wie\nböse Zugluft crochant - aber welche Schmach, dass\nwir in diese Niederungen steigen. Ich freue mich\nmeines Stolzes, der deren harten Bürsten keinen Schritt\nentgegengeht. Ich will mich nicht klein machen: der\nEkel erwürgt mich. Abends noch mit Frau Albert vor\n[?]. Der spiegelnden Heimat: grenzenlose ration Traurig-\nheit auf dieser Turmspitze Europas zu der das Blut-\nmeer schwillt. Wirklich, trotz Chocolate und Leder-\nstiefeln kann man ein Land als Qual empfinden.\nSonntag 19. Nov. Morgens Arbeit, dann mit\nRubiner, der extrem aber doch zugänglich ist. Er\n[?] nur fren Maximalismus: das Äußerste\nverlangen, um Terror zu erzeugen. Die [?]\nRevolution fühlte die Bürgerschaft nicht, ja sie erhoffte\nsie sogar: aber man müsse eine ankündigen, von\nder nie [?]. Freilich, wie schwer da persön-\nlich coureqent zu sein. Ich stelle ihm die Frage der",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 15,
+          "transcription": "materiellen Existenz. Er sagt: Einschränkung auf\ndas Minimum auch für die Führer. Aber ich bin\nunerbittlich und frage, wie die Führer dann ihre all-\ngemeine persönliche und culturelle Bildung haben\nsollten. Ich bestreite mit ihm die [?]. Gestern\nwar hier ein Revolution mit 4 Toten und vielen\nverwundeten gegen die Munitionsfabriken: die\nArbeiter haben die Fremden satt, zu [?] Land\nrevoltieren und eine Antwort der [?]en\nFremden fängt in die Luft. Immerhin: in Rubiner\nein starker Wille zur Gerechtigkeit, der den Fanatikern\nabgeht. Mittags bei Lothar, Koch über der Stadt, wo\nman in weitem Umschwung die Ferne des Sees und\nBergland gebettet sieht. Er selbst ein armer närrischer\nTeufel, mit Sorgen [?], phantastisch, zerfahren,\n[?] - die eine etwas [?] aber auch\n[?] alte Frau. Happigkeit in der [?]en Sa-\nche! Dann bei langweiligen Leuten mit [?] ~\nimmerzu ein Blick in Schweizer Milieu ~ abends\neinmal Ruhe. Ein gutes Halten war [?] \nin Aberamt: die Sorglosigkeit der kleinen Dinge, die",
+          "notes": "Fortsetzung des Eintrags.",
+          "type": "content"
+        },
+        {
+          "page": 16,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 17,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 18,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 19,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 20,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 21,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 22,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 23,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 24,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 25,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 26,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 27,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 28,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 29,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 30,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 31,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 32,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 33,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 34,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 35,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 36,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 37,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 38,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 39,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 40,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 41,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 42,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 43,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 44,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 45,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 46,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 47,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 48,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 49,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 50,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 51,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 52,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 53,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 54,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 55,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 56,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 57,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 58,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 59,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 60,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 61,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 62,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 63,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 64,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 65,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 66,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 67,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 68,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 69,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 70,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 71,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 72,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 73,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 74,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 75,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 76,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 77,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 78,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 79,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 80,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 81,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 82,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 83,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 84,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 85,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 86,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 87,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 88,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 89,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 90,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 91,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 15 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 26,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 12284,
+        "emptyPages": 76,
+        "avgCharsPerPage": 819,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 12284,
+        "total_words": 1942,
+        "total_pages": 15,
+        "empty_pages": 76,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 91,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
-        "marker_uncertain_count": 0,
+        "chars_per_page": [
+          21,
+          56,
+          862,
+          915,
+          934,
+          915,
+          915,
+          930,
+          897,
+          902,
+          909,
+          925,
+          1076,
+          1037,
+          990,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 915,
+        "marker_uncertain_count": 26,
         "marker_illegible_count": 0,
-        "marker_density": 0.0,
+        "marker_density": 0.0134,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [],
+        "page_length_anomalies": [
+          0,
+          1
+        ],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
+          "page_length_anomaly",
           "page_image_mismatch"
         ]
       },
@@ -11619,40 +12355,528 @@
     },
     {
       "id": "o_szd.76_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.76/IMG.1",
+        "https://gams.uni-graz.at/o:szd.76/IMG.2",
+        "https://gams.uni-graz.at/o:szd.76/IMG.3",
+        "https://gams.uni-graz.at/o:szd.76/IMG.4",
+        "https://gams.uni-graz.at/o:szd.76/IMG.5",
+        "https://gams.uni-graz.at/o:szd.76/IMG.6",
+        "https://gams.uni-graz.at/o:szd.76/IMG.7",
+        "https://gams.uni-graz.at/o:szd.76/IMG.8",
+        "https://gams.uni-graz.at/o:szd.76/IMG.9",
+        "https://gams.uni-graz.at/o:szd.76/IMG.10",
+        "https://gams.uni-graz.at/o:szd.76/IMG.11",
+        "https://gams.uni-graz.at/o:szd.76/IMG.12",
+        "https://gams.uni-graz.at/o:szd.76/IMG.13",
+        "https://gams.uni-graz.at/o:szd.76/IMG.14",
+        "https://gams.uni-graz.at/o:szd.76/IMG.15",
+        "https://gams.uni-graz.at/o:szd.76/IMG.16",
+        "https://gams.uni-graz.at/o:szd.76/IMG.17",
+        "https://gams.uni-graz.at/o:szd.76/IMG.18",
+        "https://gams.uni-graz.at/o:szd.76/IMG.19",
+        "https://gams.uni-graz.at/o:szd.76/IMG.20",
+        "https://gams.uni-graz.at/o:szd.76/IMG.21",
+        "https://gams.uni-graz.at/o:szd.76/IMG.22",
+        "https://gams.uni-graz.at/o:szd.76/IMG.23",
+        "https://gams.uni-graz.at/o:szd.76/IMG.24",
+        "https://gams.uni-graz.at/o:szd.76/IMG.25",
+        "https://gams.uni-graz.at/o:szd.76/IMG.26",
+        "https://gams.uni-graz.at/o:szd.76/IMG.27",
+        "https://gams.uni-graz.at/o:szd.76/IMG.28",
+        "https://gams.uni-graz.at/o:szd.76/IMG.29",
+        "https://gams.uni-graz.at/o:szd.76/IMG.30",
+        "https://gams.uni-graz.at/o:szd.76/IMG.31",
+        "https://gams.uni-graz.at/o:szd.76/IMG.32",
+        "https://gams.uni-graz.at/o:szd.76/IMG.33",
+        "https://gams.uni-graz.at/o:szd.76/IMG.34",
+        "https://gams.uni-graz.at/o:szd.76/IMG.35",
+        "https://gams.uni-graz.at/o:szd.76/IMG.36",
+        "https://gams.uni-graz.at/o:szd.76/IMG.37",
+        "https://gams.uni-graz.at/o:szd.76/IMG.38",
+        "https://gams.uni-graz.at/o:szd.76/IMG.39",
+        "https://gams.uni-graz.at/o:szd.76/IMG.40",
+        "https://gams.uni-graz.at/o:szd.76/IMG.41",
+        "https://gams.uni-graz.at/o:szd.76/IMG.42",
+        "https://gams.uni-graz.at/o:szd.76/IMG.43",
+        "https://gams.uni-graz.at/o:szd.76/IMG.44",
+        "https://gams.uni-graz.at/o:szd.76/IMG.45",
+        "https://gams.uni-graz.at/o:szd.76/IMG.46",
+        "https://gams.uni-graz.at/o:szd.76/IMG.47",
+        "https://gams.uni-graz.at/o:szd.76/IMG.48",
+        "https://gams.uni-graz.at/o:szd.76/IMG.49",
+        "https://gams.uni-graz.at/o:szd.76/IMG.50",
+        "https://gams.uni-graz.at/o:szd.76/IMG.51",
+        "https://gams.uni-graz.at/o:szd.76/IMG.52",
+        "https://gams.uni-graz.at/o:szd.76/IMG.53",
+        "https://gams.uni-graz.at/o:szd.76/IMG.54",
+        "https://gams.uni-graz.at/o:szd.76/IMG.55",
+        "https://gams.uni-graz.at/o:szd.76/IMG.56",
+        "https://gams.uni-graz.at/o:szd.76/IMG.57",
+        "https://gams.uni-graz.at/o:szd.76/IMG.58",
+        "https://gams.uni-graz.at/o:szd.76/IMG.59",
+        "https://gams.uni-graz.at/o:szd.76/IMG.60"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Flexor\nNotes",
+          "notes": "Vorderseite des Notizbuchs, blauer Einband mit goldener Prägung.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "FLEXOR\nNOTES\nNo. F103\n\nCompanion Books—\nFLEXOR INDEX No. F123\nFLEXOR ENGAGEMENTS No. F133\nFLEXOR REMINDER No. F143\n\nMade in England.",
+          "notes": "Innenseite des vorderen Buchdeckels, gedruckter Text.",
+          "type": "content"
+        },
+        {
+          "page": 3,
+          "transcription": "A new interior for this Book\nmay be obtained by ordering\nWALKER'S FLEXOR REFILL\n(GUMMED BACK)\nNo. F213 NOTES\n\nSOCIETY\nSTATIONERY\n\nLONDON:\nJOHN WALKER & Co. LTD.\nFARRINGDON HOUSE, WARWICK LANE,\nE.C. 4.",
+          "notes": "Erste Innenseite, gedruckter Text.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "Langham 3693\nSpearwell 8631\n\nB 15552\nXIX Leopoldstera[?] 11\n\nFray 24893",
+          "notes": "Handschriftliche Notizen auf der ersten Seite.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "Paris 16. Mittwoch\nAnkunft cca 9 (Schlafwagen)\n10 Hella\n11-12 Grasset\n2 Schiff\n1/2 4 Luchaire\n7 Romains\n~~abends~~ Romains Passy 0030\n25. avenue Pierre I de Serbie\nHotel\n14 rue Cesar Franck\nTelefonieren: Schiff Suffren 1949\nWolfski Passy 7698\n48 bis Belles Feuilles\nMalherbe (weiss)\nLuchaire Etoile 4739\nKesten Le Bon Hotel 42 rue Parmeau",
+          "notes": "Handschriftliche Notizen, teilweise mit violettem Stift.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 8,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 9,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 10,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 11,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 12,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 13,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 14,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 15,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 16,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 17,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 18,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 19,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 20,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 21,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 22,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 23,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 24,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 25,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 26,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 27,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 28,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 29,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 30,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 31,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 32,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 33,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 34,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 35,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 36,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 37,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 38,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 39,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 40,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 41,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 42,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 43,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 44,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 45,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 46,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 47,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 48,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 49,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 50,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 51,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 52,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 53,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 54,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 55,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 56,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 57,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 58,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 59,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 60,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 5 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 1,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 753,
+        "emptyPages": 55,
+        "avgCharsPerPage": 151,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
+        "total_chars": 753,
+        "total_words": 123,
+        "total_pages": 5,
+        "empty_pages": 55,
         "blank_pages": 0,
-        "content_pages": 0,
+        "content_pages": 60,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
-        "marker_uncertain_count": 0,
+        "chars_per_page": [
+          12,
+          132,
+          200,
+          71,
+          338,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 132,
+        "marker_uncertain_count": 1,
         "marker_illegible_count": 0,
-        "marker_density": 0.0,
+        "marker_density": 0.0081,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
-        "language_match": true,
-        "page_length_anomalies": [],
+        "language_detected": "en",
+        "language_match": false,
+        "page_length_anomalies": [
+          0
+        ],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial",
+          "page_length_anomaly",
+          "page_image_mismatch",
+          "language_mismatch"
         ]
       },
       "consensus": null,
@@ -11660,40 +12884,808 @@
     },
     {
       "id": "o_szd.77_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
-      "confidence": "",
-      "confidenceNotes": "",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.77/IMG.1",
+        "https://gams.uni-graz.at/o:szd.77/IMG.2",
+        "https://gams.uni-graz.at/o:szd.77/IMG.3",
+        "https://gams.uni-graz.at/o:szd.77/IMG.4",
+        "https://gams.uni-graz.at/o:szd.77/IMG.5",
+        "https://gams.uni-graz.at/o:szd.77/IMG.6",
+        "https://gams.uni-graz.at/o:szd.77/IMG.7",
+        "https://gams.uni-graz.at/o:szd.77/IMG.8",
+        "https://gams.uni-graz.at/o:szd.77/IMG.9",
+        "https://gams.uni-graz.at/o:szd.77/IMG.10",
+        "https://gams.uni-graz.at/o:szd.77/IMG.11",
+        "https://gams.uni-graz.at/o:szd.77/IMG.12",
+        "https://gams.uni-graz.at/o:szd.77/IMG.13",
+        "https://gams.uni-graz.at/o:szd.77/IMG.14",
+        "https://gams.uni-graz.at/o:szd.77/IMG.15",
+        "https://gams.uni-graz.at/o:szd.77/IMG.16",
+        "https://gams.uni-graz.at/o:szd.77/IMG.17",
+        "https://gams.uni-graz.at/o:szd.77/IMG.18",
+        "https://gams.uni-graz.at/o:szd.77/IMG.19",
+        "https://gams.uni-graz.at/o:szd.77/IMG.20",
+        "https://gams.uni-graz.at/o:szd.77/IMG.21",
+        "https://gams.uni-graz.at/o:szd.77/IMG.22",
+        "https://gams.uni-graz.at/o:szd.77/IMG.23",
+        "https://gams.uni-graz.at/o:szd.77/IMG.24",
+        "https://gams.uni-graz.at/o:szd.77/IMG.25",
+        "https://gams.uni-graz.at/o:szd.77/IMG.26",
+        "https://gams.uni-graz.at/o:szd.77/IMG.27",
+        "https://gams.uni-graz.at/o:szd.77/IMG.28",
+        "https://gams.uni-graz.at/o:szd.77/IMG.29",
+        "https://gams.uni-graz.at/o:szd.77/IMG.30",
+        "https://gams.uni-graz.at/o:szd.77/IMG.31",
+        "https://gams.uni-graz.at/o:szd.77/IMG.32",
+        "https://gams.uni-graz.at/o:szd.77/IMG.33",
+        "https://gams.uni-graz.at/o:szd.77/IMG.34",
+        "https://gams.uni-graz.at/o:szd.77/IMG.35",
+        "https://gams.uni-graz.at/o:szd.77/IMG.36",
+        "https://gams.uni-graz.at/o:szd.77/IMG.37",
+        "https://gams.uni-graz.at/o:szd.77/IMG.38",
+        "https://gams.uni-graz.at/o:szd.77/IMG.39",
+        "https://gams.uni-graz.at/o:szd.77/IMG.40",
+        "https://gams.uni-graz.at/o:szd.77/IMG.41",
+        "https://gams.uni-graz.at/o:szd.77/IMG.42",
+        "https://gams.uni-graz.at/o:szd.77/IMG.43",
+        "https://gams.uni-graz.at/o:szd.77/IMG.44",
+        "https://gams.uni-graz.at/o:szd.77/IMG.45",
+        "https://gams.uni-graz.at/o:szd.77/IMG.46",
+        "https://gams.uni-graz.at/o:szd.77/IMG.47",
+        "https://gams.uni-graz.at/o:szd.77/IMG.48",
+        "https://gams.uni-graz.at/o:szd.77/IMG.49",
+        "https://gams.uni-graz.at/o:szd.77/IMG.50",
+        "https://gams.uni-graz.at/o:szd.77/IMG.51",
+        "https://gams.uni-graz.at/o:szd.77/IMG.52",
+        "https://gams.uni-graz.at/o:szd.77/IMG.53",
+        "https://gams.uni-graz.at/o:szd.77/IMG.54",
+        "https://gams.uni-graz.at/o:szd.77/IMG.55",
+        "https://gams.uni-graz.at/o:szd.77/IMG.56",
+        "https://gams.uni-graz.at/o:szd.77/IMG.57",
+        "https://gams.uni-graz.at/o:szd.77/IMG.58",
+        "https://gams.uni-graz.at/o:szd.77/IMG.59",
+        "https://gams.uni-graz.at/o:szd.77/IMG.60",
+        "https://gams.uni-graz.at/o:szd.77/IMG.61",
+        "https://gams.uni-graz.at/o:szd.77/IMG.62",
+        "https://gams.uni-graz.at/o:szd.77/IMG.63",
+        "https://gams.uni-graz.at/o:szd.77/IMG.64",
+        "https://gams.uni-graz.at/o:szd.77/IMG.65",
+        "https://gams.uni-graz.at/o:szd.77/IMG.66",
+        "https://gams.uni-graz.at/o:szd.77/IMG.67",
+        "https://gams.uni-graz.at/o:szd.77/IMG.68",
+        "https://gams.uni-graz.at/o:szd.77/IMG.69",
+        "https://gams.uni-graz.at/o:szd.77/IMG.70",
+        "https://gams.uni-graz.at/o:szd.77/IMG.71",
+        "https://gams.uni-graz.at/o:szd.77/IMG.72",
+        "https://gams.uni-graz.at/o:szd.77/IMG.73",
+        "https://gams.uni-graz.at/o:szd.77/IMG.74",
+        "https://gams.uni-graz.at/o:szd.77/IMG.75",
+        "https://gams.uni-graz.at/o:szd.77/IMG.76",
+        "https://gams.uni-graz.at/o:szd.77/IMG.77",
+        "https://gams.uni-graz.at/o:szd.77/IMG.78",
+        "https://gams.uni-graz.at/o:szd.77/IMG.79",
+        "https://gams.uni-graz.at/o:szd.77/IMG.80",
+        "https://gams.uni-graz.at/o:szd.77/IMG.81",
+        "https://gams.uni-graz.at/o:szd.77/IMG.82",
+        "https://gams.uni-graz.at/o:szd.77/IMG.83",
+        "https://gams.uni-graz.at/o:szd.77/IMG.84",
+        "https://gams.uni-graz.at/o:szd.77/IMG.85",
+        "https://gams.uni-graz.at/o:szd.77/IMG.86",
+        "https://gams.uni-graz.at/o:szd.77/IMG.87",
+        "https://gams.uni-graz.at/o:szd.77/IMG.88",
+        "https://gams.uni-graz.at/o:szd.77/IMG.89",
+        "https://gams.uni-graz.at/o:szd.77/IMG.90",
+        "https://gams.uni-graz.at/o:szd.77/IMG.91",
+        "https://gams.uni-graz.at/o:szd.77/IMG.92",
+        "https://gams.uni-graz.at/o:szd.77/IMG.93",
+        "https://gams.uni-graz.at/o:szd.77/IMG.94",
+        "https://gams.uni-graz.at/o:szd.77/IMG.95"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Notizen über\nNewyork\n1935\n------\n1938",
+          "notes": "Deckblatt eines Notizbuchs, Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Deckblatts, leer.",
+          "type": "blank"
+        },
+        {
+          "page": 3,
+          "transcription": "on\n\ni\nHotel\n14.\nBri\nMi.\nin,\nche\nYork\ner\n\nere\nli\n,\nO\nllar\nner\nren\n&\n.\nner\nlen",
+          "notes": "Fragmentarischer Text, vermutlich Durchschlag oder Reste einer vorherigen Seite.",
+          "type": "content"
+        },
+        {
+          "page": 4,
+          "transcription": "2.50.\n\nNotizen aus Newyork 17. Jan.\n1935",
+          "notes": "Erste Seite des Notizbuchs, Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 5,
+          "transcription": "Amerika 17. 1935\nAnkunft verspätet. Aber dafür das gross-\nartige Schauspiel der Sternenflagge in den\nLuften. Nicht genug zu rühmen das, wie die\nauflander aus dem Dunkel, weiss gekleidet\nFronten die magier auftauchen, ein Le-\nucht den man erst staunen kann: die\ngrossartigkeit wahrhaftig in der Nacht.\nBei Tag ist es architektur, glas, eisen, Stein,\nMaterielle Substanz, in der Nacht aber\nder quadratische Licht, glühende Zellen, durch\ndas geometrische unnatürlich. Lebendiger\ndas feuer die Nacht nicht erst kennt, [?]ies\ndas Unwahrscheinliche. Nichts freiere [?] jenere\nhohen mehr bestanden. Auch ich selbst: ich\nbegann Newyork grossartig zu sein bei Tag,\nes raste nicht auf, aber bei Nacht stand\nein ander Stadt. Einen Schimmer, einen ellen\nLicht strömte es aus. {wie über einen Kampf Phosphoreszenz ansehen}\nviertel jahrhundert hat das gemacht. Nacht.\nEs muss Coaluren [?] jener, Worte bilden, mit\nschwingen in Carassel, muss tanzen, ablonder\nmit rücken von ein Haar der Nacht. Muss",
+          "notes": "Handschrift in violetter Tinte, mit einer Zeileneinfügung.",
+          "type": "content"
+        },
+        {
+          "page": 6,
+          "transcription": "breit die Wände bestreben, auf dem Dunkel der\nweissen Stalaktiten nach oben zaubern. Arme\nklare blam sonnen die Bogenlampen von erst,\nausgelöscht kleine sonnen, neben deren Trans-\nparenten, die teufeln, ulreuen, morgen, Lacha\nden von Feuerworten niederschlaten, Ballett\nauffahren. Das ist unbeschreiblich, dem Geisterhaft\nTalk Morjane aufwart. Weil es so anbedrest\ngut irreal ist.\nAber zuerst in die Stadt nach den langen\nLandungs ceremonien. Herzlichster Abschied\nvon den guten Gefährten der Rein, Toscanini,\nFihalou [?] tisch, Somary und den internationalen\nReisenden, die Journalisten knapp oberli\ngent. Ins Hotel Astor, wohin mich die Be-\nsere [?] Morgen bittet. Es ist freilich ein\nwenig gesalten, das erste Hotel Astor ist\nzu einem der Rosenpalaste [?] hatte als ein\namerikanischer gefunden, während für die\nherkömmliche deutsche [?] waltet. Aber ich\nkomme ja auch genug in die andern Hotels\num sie in ihrem Reden auch zu sehen und\narte gar nicht in vierzigster Stock über dem",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 7,
+          "transcription": "Park wohnen, wo nur unruhig würde, sonst\nlieber für am Teufelskessel von Broadway\n7 Avenue, der mit Lichter bis in die Nacht\nfixiert tobt. Abends noch bei Huebur, die sehr\ncomfortabel wohnen, leider nur etwas müde\n18. Freitag schlaffe kalte Luft wie damals,\nWolkenkratzer nicht statt. In dem grossartigen\nRockefellergebäude, glänzende Sels, Triumph\nder glatten klaren ehrlichen Praktikabilität. Herr-\nlich diese gerichteten, gezogenen Turme (gar\nnicht gebaut, construct, man kann nicht\nbauen sagen, weil das Menschlich ist, lang-\nsam, mühsam, schwerhaft, während des\nersonnen ist, construct und von Menschen\nausgeführt, materieechte Construction. Aber\nwie sauber - ein Wille zur Sauberkeit gegen-\nüber der Vergangenheit, hinter dieser Wand\nliegt ein Bürgerhäuser neben dem stattliche\nreizen Meierhof. Dann mit Huebur alle\nTransaktionen erledigt, in Ritz [?] glänzend\ngelaucht. Nachmittags hinauf auf den\nTurm des Radiogebäudes, outlook war\naberlich in der ewig klaren Cafe, Bergsteig\nerlaubt ohne Mühe und wehre Landschaft",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 8,
+          "transcription": "auf dieser almalen [?] Zunge, wie das eine neue\nHarmonie in einer neuen Totalität [?] mit\nder Natur, den Proportion des wendlichen\nMeeres ein neues Mass entgegenfens. Flug\nZeug [?] auf dem Spitze, Cafeteria neben\nan, halb sauberkeit und funke Marsha. Dann\nherum war gut Rat in eine Barbierstube,\nanzahl [?] die Fenster. Welche Kraft hat dem\nVolk das ging ist erfuhr und sehr zu haben,\nwelch Lust auch an der Sauberkeit. Man liegt\nwie im Bed auf einem weichen Sessel, eine\nZitronenfane [?] wasch empfangen, mit vielen\nweichen duftende Tüchern, man feiert ein\ndiffent [?] tau wieder auf, wir warm und\nkalt, ahnen, Depil, spaccel [?] mir, indem\nunten am Tür die Stiefel ausgeglänzt werden,\nein Watschen grau mit weicher Hand wami-\ncirt, man wird glatt, rein, froh, duftend\nfrol, wie eine bessere [?] Rat gefest,\nals dem falte Stadt, nachdem man ja tot\nerschöpft war. Aus weiter weiter, jetzt die\nAvenue den Jammersham. Nach der Hoch-\nkonjunktur, wo vor den offices der agents\nmit die Arbeitslosen drängen. Die Jobs auf Zetteln",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 9,
+          "transcription": "aufgeschrieben. Dann nach Hause, war ein\nInterview über ich erpfer [?] lernen und weiter\nfixiert - die Nacht ist hier plastisch. Die\nFeuerzeilen wie überall unter [?] hielt. Dann\naber war es dunkel. Aber dann - man\nerblickt - ganz, ganz hoch oben etwas\nin der Luft erleuchtet, ein Turm, eine Seele,\nein paar Fenster, vierzig in teuren, ein Uhr,\nganz ganz hoch oben, wo man nicht mehr\nTrubel erwartet wie die Söller in den My-\nken aber der Erde. Dann wird ganze leer\nvon Licht, aufgestift in achtzig Stockwerken,\nein Hotel, eine Dapstakon [?] und all dies\nin klarer, es klare der Luft ganz [?] [?] \neingeschnitten. Farberisch. Hier ist eine zweite\nStadt in der Nacht, die auch früher nicht kannte\nKaum das Licht nicht erfuhr. Die Wolken\nkrafer begannen an, aber noch war oben\nStil geführt, wie Jahre eines Mammut, von\nZähne ein paar in den Himmel [?] . Sieb\nIch Stockwerke starrt man an. Aber dass\nin Höhe und [?] schreiben kann und waren fest\nes ist das lebhafteste von allen, was",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 10,
+          "transcription": "wunderbar, es erweckt nur wie die Natur\nes zeigt das menschliche Selbstgefühl, es\nfett es mit in den Himmel hinein. Dann den\nNotizen abends beim Essen und weiter [?] \nwar bis Battery [?] aber mit Eisschnee\nnicht weiter, für das Element doch war\nangehebart [?].\nIn einem kleinen billigen Restaurant gegen\naufgefroren bis in die Knochen. Wie kampf-\nhaft die Bemühungen um Hygiene. Hier auch\nfrüher, sehr bizarre eingerichtet, also sauber\naber dadurch fabrikhaft. Elte Tinte, [?] \nalles als ob es von wunderbaren Maschinen\nerzeugt war. Ein kleines Vergnügungslokal, war\nmit harmlosen Sinn aber die Menschen so\nhell und freudig, ein herrlich [?] [?] \n-typen die Nahereien, überall Candys, das\nleeren, Eiscremes (überhaupt immer Eis, über\nall Eiswasser, als ob sie immer das innere\nbräuchten, immer das Kalte). Auffallend\ndenn standig Tatip [?] sein müssen, Kauen, Rauchen,\nLesen - immer voll die grossen Körbe mit\nweggeworfenen Zeitungen. Rand gegene, rand\ngelesen, vorbei vorbei. Wir wollte um 5 Uhr\nNachmittag nach einer Morgen [?] [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 11,
+          "transcription": "unmöglich, sie war nirgends mehr aufzutreten,\nFormtag ist hier also unplattbar ferne vom\nNachmittag; immer dies weiter und weiter, das\nnicht zurückschauen, das erfordert und ermüdet\nzu Bett.\nSamstag 19. Morgens ruft mir Bruno Walter\nan. Dann durch Central Park, wo die Häuser\nbeginnen, wie eine riesige Bergwand einen\ninneren Hof zu umschließen ins Metropolitan\nMuseum. Gerade ein symphonisches Concert in\nder Vorhalle - wie in Russland die Abends, die\nMenschen herein zu locken, System der Kirche mit\nMusik und Predigten, hier durch lectures und der-\nsil. [?] . Lohnt mir denker [?] gratis [?] , um\ndie Jugend heranzuziehen. Natürlich meist junge\nLeute und Jugend. Grossartig der Breughel\nden ich nicht kannte, \"The Harvesters\", ganz\nreizend wahr und doch herrlich componiert,\nwie jener Concentrierung einer Jahreszeit in\nallen Formen der Menschen und der Natur. Ein\nverlinder [?] Portrait Elisabeths von Lucas\nde Heere, das sie nervenhafter und zwar\ngewissen unbrechten [?] Glücksausdruck zeigt,\nx erstaunlich! das Neue ist hier das [?] . Je\nneuer hier etwas, umso besser in Architekten und\njeder Form des aussern Ausdrucks",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 12,
+          "transcription": "immer eine Menschenmenge [?] , unter ihrem [?] \nenthält. Neue heroisches Bild von ihr. Musiker\nMensch. Ausserordentlich der Turner, canal [?] \nvielleicht sein hellster, Leuchtende [?] , vergessen\nnicht, die Rembrandt eher schwächere Exemplare,\ndagegen ein Stierkampf von Goya und sein\nFrauen vom Balkon (wie gefangene ihre Männer,\ndie Wache wie Gendarmen stehen / dann eine\nLandschaft \"City on a Rock\" eine Frauen\nTraum [?] Phantasie, alle unberührt\nmit New York Polars von Greco, ein Nacht\nbraune, moderner und phantastischer es ist\nimgegen, hier und in den Portraits ist\nGreco [?] [?] fertiger als Rembrandt.\nMittags mit Ginsburg und nachher einen zwei\nStunden drive mit ihm durch die ganze Stadt\nund Umgebung. Das imposanteste das neue [?] \nmedicine centre, Kliniken am East river ein\neiner Primärgegend aufstrebend wie eine Stadt\nBurg, leuchtende Tage, Messing, Stein und Glas\nwirklich Hölle in die Stadt gestellt, Kranke\nHotel, Laboratorien, Fabrik für Wissenschaft\nMit nichts zu vergleichen. Das ist neu und\nvorläufig einmalig (morgen wird es für viel\nLicht schon überboten sein / Dann durch Har-\nlem das Regenviertel. Eine Dramenende war die",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 13,
+          "transcription": "fifth avenue hat auf einmal schwarze Gesichter. Die\nCarnavals [?] , der hier alltäglich ist, alles ist hier\ndunkelfarbig, die Polizisten, die Briefkasten, eine eigen\nWelt, abseits der andern wie ein dunkle Schicht\ndurch weissen Marmor zieht. Dabei machen die\nLeute einen glücklichen Eindruck, besonders die\nKinder [?] , wie ja die Neger überhaupt\nein aufheiterndes Element sind, nicht nervös\nimmer froh, an breiten Strassen an die Zähne (bei\ndem Rasen der eine direkt für den Film geboren\nals er mit [?] [?] , er sollte während\nder Panerlen [?] noch rasch telefonieren, das\nkann man hier, um keine Zeit verlieren, nur 6\nDinge [?] hin, den [?] [?] , die\nhat aufhören und die Haut und ich mani-\ncuren, weiter aber mit Ginsburg zu Washington\nBridge. Sie übertrifft noch Brooklyn Bridge, noch\nleichter, noch zarter bei arge [?] Tragkraft. Hier\nnicht jener [?] (mein \"Rhythmus von Newyork\nsonders ganz still mit der hohen selbste\nwassten Ruhe des Kraftvollen. Durch New Jersey\nund von [?] zurück, aber waltiges [?] , \ndurch den Hudson-Tunnel, blank, klar,\neine Fahrbahn, wo die Automobile laufen\nkönnen wie es ihnen beliebt und ohne Strom",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 14,
+          "transcription": "unterdessen der breite, der hefe Hudson, in\ndem die Belanglosigkeiten [?] da liegen. Von\nder Ferne die Spitze der Skyscraper. Ein trinker\nGast in einer Cafeteria mit Selbstbedienung,\nalles praktisch democratisch, jeder kann\nes ohne Kenntnis der Sprache erlernen, er muss\nnur die Ziffern lesen lernen, mehr braucht er\nnicht wohl (wie überhaupt Newyork eine leichter-\nlernbare Stadt ist, berechnet auf viele Menschen\ndie hier fremd sind in Gegend zu finden / die\nStrom, jeder Ort baby [?] , man hört alle\nSprachen, sieht alle Typen, hier wird der Mensch\ngewissermaßen entauspert [?] , die rop ame-\nrikanische Form ihm gegeben, die Skala, die in der\nKamerahaltung erfolgt erst in zweiter [?] \nsellall. Dabei ist alles hier erstaunlich Billig [?] \nlebt bequemer als in der Schweiz. Ich kann nur\ndenken, das hier gut zu arbeiten wäre: es ist\nweiter freier, farbiger als jede andere Stadt,\nnur fehlen auch hier die open air cafes und\nRestaurants. Dann nach Hause, mit Toscanini\ntelefoniert, Post erledigt und weiter zu Huebur\nwo ich die teuren Verwandten treffen soll.",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 15,
+          "transcription": "Sie werden jetzt freundlicher sein, nachdem man\npopulär geworden ist: der kleine Junge in Drug\nStore als ich die Photographien zu entwickeln\ngab und den Namen hinschrieb, sagte erstaunt\n\"Oh, that's a very good name. I am de-\nlighted to work for you\" abends bei Huebur,\nsehr nett, von Josef Brettauer, der ganz\nBrettauerne [?] Ansicht und netter mit be-\nmunter als ich erwartet. Nur dass mich\nGesellschaften immer müde machen, mir\nfehlt dafür jedes Talent.\nSonntag 20. Ruhetag. Vormittag geschrieben,\nNotizen gemacht über Newyork. Trotz dass\ndie Stadt ewig auf das Praktische gebaut\nwar, dann in Formte. Nicht mehr flach\nwie die Städte, die gleichmäßig ins Weite\nfliessen, die Stadt liegt am Hudson Flusse\n: Platz ist sie aufgestaut, steht da. Ihre\nAufrechte Haltung, wie ein erhabener\nLeuchtturm über das Meer. Etwas Märchen-\nhaftes in ihrem Wesen. Einige Stadt, die das\nneue Mass verstanden hat. Mit Augen\nentgegen, troffen und hüpfen und fellen\nAugen entgegen, wenn man vom Meere",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 16,
+          "transcription": "kommt, wie ein Mann. Mittags bei Selig-\nwartens, der sehr gut aussieht, halb Jude\nhalb deutscher Regierungsrat, mit ihm [?] \nund sein Sohn, der einen faulen [?] Ein-\ndruck macht. Sein Haus [?] wie aussieht\nalles auf [?] und Kathedrale, die Bilder\n[?] [?] , ein sehr warmes\nRaffael [?] Raffael at all / und [?] [?] .\nner, kein einziges wirklich beglückendes Bild\ndarunter. Grossartig seine Rembrandtsammlung\nvon der [?] , das keiner der fast so [?] \ndafür Interesse habe. Nicht sehr intelligent,\naber urban und wahrscheinlich zu als [?] \n[?] ein gutes [?] zu sein.\nHuebur zu [?] , das dritte [?] \nist war wenig zeigt, zweifelhaft das das\nVergnügen dort [?] zu treffen. Dann in\neine Cafeteria und rasch ein wenig ar-\nbeiten und lesen. Abends viel [?] auf\nTeilweise interessant, nur die [?] sind\nso grauenhaft. In einem Negertanzlokal Savoy\nselbst [?] , offenbar damit man das [?] \nder [?] nicht so froh sind. Phantastisch wie\n[?] [?] , die tanzen, schlenkern, mit allen [?] \nwie die Frau wie Leoparden, da aber Weg [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 17,
+          "transcription": "hat der [?] , die waren bei uns kaum [?] \nwie so straff gegen die Männer: hier, wo sie\nnoch nicht vercultiviert ist, arbeitet die Natur\ndas Polare des Sexuellen viel deutlicher heraus.\nDas Amüsanteste aber die Toiletten, abgelegte\nSalontapeten und Hüte von sechs Jahren [?] \ndie hier die Treppenfegerinnen und Kinderwagen\nmit erstaunlichem Stolz tragen. Sie lassen sich\nSchrecken [?] zu diesen primitiven [?] \nfarbenen [?] . Ganz Harlem war eine Ent-\ntäuschung, die Leute sind eben gesettelt, [?] \nmit angeregt an diese Massenhäuser (mit ihren\näusseren eisernen Feuerleitern, die Überfallung\nanzuzeigen / sie gehen in dieselben Kinos wie die\n[?] von England, der Genuss und der\nDenkmal ist so [?] nivelliert. Nachher noch\nauf Empfehlung des Chauffeurs in einen sehr\nsonderbaren Bar, die allein eine Novelle wert\nwäre, dann nach Hause, aber nur bis in den\nMorgen gelesen, weil gar nicht müde\nMontag 21. Wall Street und Broadway. Ich gehe\neinen Ausflug [?] [?] aus [?] der Bank\nriesen [?] [?] [?] [?] [?] \n[?] die eine kleine [?] [?] [?] \nauf wie ein [?] [?] . Merk-",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 18,
+          "transcription": "würdig wie bei Broadway von der 1 Strasse das\nMonumentale, das [?] abbricht, ein\nschmerziger das [?] [?] , Gendarme\nStrasse aus Berlin, dann bei der 30ten etwa\nwird es wieder nobles. Ebenso dort auf 5 Ave\nnue, bis jetzt 100 Strasse das Nobelste von Nob-\nlen, dann sehr Strassenzüge [?] und [?] \nmit Farbige, dann zwanzig dreissig Jahre [?] \nNeger, dann wird es wieder weiss. Eine Stadt\nnicht [?] . Kein [?] . Durch [?] \ndarin. Eingesprengt. Die [?] der Rassen\nBriefe: [?] in Harvard zu treffen, leider\nzu spät für mich, Photographen und [?] [?] \n[?] . Notizen für den Vortrag. Abends auch\nmehr [?] , ich gehe nur zu einem [?] \ngeöffneten russischen Film [?] und\ndann nach Hause\nDienstag. Voller Tag. Zuerst Briefe was [?] \n[?] , mittag in [?] [?] , der\nin seinem grossen Haus genau so sparsam\nlebt wie in alle, kein [?] [?] \n[?] , alles beim alten, zu Mittag\ndas altgebrachte [?] [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 19,
+          "transcription": "schwindel. Er baut sehr auf, der Brettauer\n[?] beginnt sich zu regen, er\nzeigt mir die Familienbilder, die er von\nEltern geerbt hat (hier sind die [?] \nDann sein Einfluss wirklich gross [?] sehr\nist bei dem Beruf in Cornell Hospital,\n(Hospital of New York [?] East River, der\nwirklich grossartigsten Sache, das ich bisher\nin Newyork gesehen habe und die in [?] \ntechnischer Vollendung [?] über\nLand auf Erden zu finden ist. Eben ausser\n[?] unübertrefflich, die Mohre des Palais\ndes Papes in Avignon ins [?] er\nweiterns [?] [?] [?] \ngleichzeitig Klinik, Laboratorium, [?] \nsitzt vor mir mit einem organisator\ntechnischen Genie das kaum zu [?] \nist. Möbel und Glas, phantastische [?] \n[?] , die Luft nicht von aussen [?] \n[?] , alles [?] , \nsehr [?] , jedes [?] \nsodass von den tausenden nicht [?] \nden andern [?] kann. Jemand die",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 20,
+          "transcription": "Apparaturen der Betten, der Türen / keine\n[?] , der Operationssäle [?] \nraffinierteren stählernen Maschinen, jeder\nTeil mit 900 Einzelheiten abgesichert [?] \ngestellt und jeder durch die Maschine\nerreichbar und dazu die ganzen Kranken-\ngruppen. Wie [?] so [?] \ngesehen als in dieser [?] , wie\nOrganisation mit so viel [?] [?] \nden [?] müsste man [?] aber\nden, auch über das [?] [?] \n[?] [?] überall / über die\n[?] der Massen, die [?] , die\nVorkehrungen für [?] , die Bibliothe-\nken [?] , die Laboratorien,\nalles das von einer [?] wie man\nsie nur [?] kann: hier liebt man\ndie [?] . Ganz müde davon [?] \n[?] abends in [?] \n[?] von der Cornell willen, die [?] \nrecht [?] erweist, die [?] [?] \n[?] . Nachher noch in den",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 21,
+          "transcription": "Cotton Club mit [?] [?] \ndie Neger von tanzen zu sehen und es ist\nwirklich grossartig. [?] die Kostüme,\neine [?] in den Bewegungen,\ndie [?] wie [?] [?] [?] \nder [?] und Kraft, sie tanzen wie\nTiere spielen mit Lust und [?] , sie be-\nrauschen sich selber dabei - herrlich [?] \n[?] , ohne die [?] [?] \noder [?] zu wirken. Grossartig die\n[?] , die religiösen Gesänge, alles\nvon einer Qualität, die man bei uns auch\nfindet und mit einem touch von [?] \n[?] , der wirklich erfrischt. Leider be-\nginnt die Sache erst um 1/2 1, das man\nwie 1/2 4 Uhr vor [?] nicht mehr\ngut mit [?] und müde zu [?] [?] \n[?] hat auch [?] [?] -\ndann immer [?] , vollendete Dinge\n[?] [?] [?] [?] [?] \n[?] [?] .\nMittwoch 23. [?] an [?] [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 22,
+          "transcription": "dann public library. Dann mit der\n[?] etwas [?] [?] \nnach [?] [?] fertig gemacht [?] \n[?] / abends zu [?] [?] und\n[?] zu [?] [?] ? Ja\n[?] [?] ein unglaublicher Schnee-\nsturm aus, wie in Newyork seit [?] [?] \nnicht erlebt hat, der [?] [?] mit einer\n[?] , den [?] [?] , die Luft ist\n[?] Eis, die Autos begraben unter [?] ,\naber mit [?] Energie wird das alles für\nsofort [?] . [?] das [?] der\nFenster durch das [?] Licht, wie [?] [?] \n[?] , wie ein [?] [?] [?] \n[?] es ist wunderbar. Das Stück [?] \ndünn und eigentlich [?] ohne [?] \n[?] [?] und die [?] [?] , die\n[?] [?] [?] . Er [?] \nan [?] mit [?] [?] [?] \nTier, war nur gleichzeitig [?] , [?] auf [?] \n[?] . Es [?] , er [?] [?] \nRolle, die ohne ihn völlig leer und [?] wäre",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 23,
+          "transcription": "einer der grossen [?] der Zeit, ver-\n[?] für an eine kleine Sache: er müsste den [?] \n[?] , dann wäre es an seine Stelle\n[?] war in ein [?] [?] in der 52\nStreet mit allen den Vorrichtungen aus der Pro-\n[?] , Alarmsignalen, [?] Türen,\n[?] [?] und so weiter. Jetzt natürlich\n[?] war nur Theaterlokal\nDonnerstag 24. Vormittags mit [?] in der\nMorganlibrary (Herr Morgan möchte mich\ngerne persönlich sehen, aber ich habe keine Zeit)\ngrossartig die Blakes zum Buch Hiob, man\nhat sie nie gesehen, wenn man sie nicht\nin ihren Himmelsfarben kennt. Dann die\nManuscripte, die Briefe Maria [?] \n[?] , [?] [?] , [?] [?] , [?] \nmit allen Familienpapieren erworben, die [?] \n[?] [?] , Keats [?] [?] \nShelley [?] [?] [?] [?] \nein wunderbares Blatt aus Goethe, Faust\n[?] [?] , [?] [?] [?] \nüberhaupt eine unglaubliche Fülle von",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 24,
+          "transcription": "Herrlichkeiten. Die Bilder gefallen mir wenig\nder typische [?] wie bei den [?] \nmit den europäischen Sammlern, vielleicht gehe\nich noch ein zweitesmal hin. Mittags mit ihm\nund dann verschiedene Besorgungen und\n[?] mit [?] [?] . In der\nLage mit [?] [?] und dem Bürgermeister\nLa Guardia, der aussieht wie ein italieni-\nscher [?] und ein tadelloses [?] \n[?] [?] [?] , [?] [?] ,\n[?] , unsere Welt ist [?] . [?] ist\n[?] [?] langweilig, [?] [?] \n[?] in der [?] aber doch\narm und [?] in der [?] . [?] [?] \n[?] [?] . Nachher noch grosses\n[?] [?] , recht langweilig\n[?] [?] . Meine [?] mit [?] an\neinem grossen [?] zu [?] [?] [?] \ngrösser, ich habe noch Talent und nicht Lust\nFreitag Vormittags Besorgungen, abermals auf\nden [?] , [?] [?] [?] [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 25,
+          "transcription": "entworfen, Mittags zu [?] , nachmittags in\nRadio City Ballet, abends bei [?] . Leider war\nder ganze Abend durch den [?] [?] \n[?] . [?] an [?] [?] \n[?] - überhaupt eine Krankheit sei, die\n[?] [?] [?] [?] [?] [?] \n[?] [?] . Der [?] [?] , [?] \nangenehme Leute, von [?] [?] [?] \n[?] aber ich bin innerlich zu [?] , [?] \n[?] [?] . [?] [?] [?] [?] \n[?] [?] [?] [?] , wo die [?] \n[?] [?] [?] [?] , man ist auf\n[?] [?] [?] [?] , [?] \n[?] , [?] [?] [?] , [?] [?] \n[?] , [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] . Einen [?] \n[?] [?] [?] [?] , der\nSinger [?] . Alle diese Leute haben etwas [?] \n[?] , sie stehen ausserhalb der [?] . [?] \n[?] [?] [?] [?] . [?] \n[?] ist es gelungen, die [?] zu [?] ",
+          "notes": "Handschrift in violetter Tinte.",
+          "type": "content"
+        },
+        {
+          "page": 26,
+          "transcription": "",
+          "notes": "Leere Seite, kariertes Papier.",
+          "type": "blank"
+        },
+        {
+          "page": 27,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 28,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 29,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 30,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 31,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 32,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 33,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 34,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 35,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 36,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 37,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 38,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 39,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 40,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 41,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 42,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 43,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 44,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 45,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 46,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 47,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 48,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 49,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 50,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 51,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 52,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 53,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 54,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 55,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 56,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 57,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 58,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 59,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 60,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 61,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 62,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 63,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 64,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 65,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 66,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 67,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 68,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 69,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 70,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 71,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 72,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 73,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 74,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 75,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 76,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 77,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 78,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 79,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 80,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 81,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 82,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 83,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 84,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 85,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 86,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 87,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 88,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 89,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 90,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 91,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 92,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 93,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 94,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        },
+        {
+          "page": 95,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort nach Seite 26 abgebrochen.",
+          "type": "content"
+        }
+      ],
+      "confidence": "low",
+      "confidenceNotes": "Modellantwort abgebrochen; nur die vollstaendigen Seiten vor dem Abbruch sind uebernommen.",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 444,
         "illegibleCount": 0,
-        "totalChars": 0,
-        "emptyPages": 0,
-        "avgCharsPerPage": 0,
-        "vlmConfidence": ""
+        "totalChars": 19801,
+        "emptyPages": 71,
+        "avgCharsPerPage": 825,
+        "vlmConfidence": "low"
       },
       "quality_signals": {
-        "total_chars": 0,
-        "total_words": 0,
-        "total_pages": 0,
-        "empty_pages": 0,
-        "blank_pages": 0,
-        "content_pages": 0,
+        "total_chars": 19801,
+        "total_words": 3416,
+        "total_pages": 24,
+        "empty_pages": 71,
+        "blank_pages": 2,
+        "content_pages": 93,
         "color_chart_pages": 0,
-        "chars_per_page": [],
-        "chars_per_page_median": 0.0,
-        "marker_uncertain_count": 0,
+        "chars_per_page": [
+          37,
+          0,
+          76,
+          40,
+          984,
+          982,
+          1022,
+          1023,
+          980,
+          1034,
+          1125,
+          1148,
+          1133,
+          1062,
+          981,
+          1017,
+          1064,
+          884,
+          828,
+          715,
+          709,
+          723,
+          810,
+          738,
+          686,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "chars_per_page_median": 980.5,
+        "marker_uncertain_count": 444,
         "marker_illegible_count": 0,
-        "marker_density": 0.0,
+        "marker_density": 0.13,
         "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
-        "language_detected": "",
+        "language_detected": "de",
         "language_match": true,
-        "page_length_anomalies": [],
+        "page_length_anomalies": [
+          0,
+          2,
+          3
+        ],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_image_mismatch"
+          "transcription_partial",
+          "page_length_anomaly"
         ]
       },
       "consensus": null,
@@ -14298,6 +16290,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -22911,6 +24904,7 @@
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_failed",
           "page_image_mismatch"
         ]
       },
@@ -24258,121 +26252,121 @@
           "page": 161,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 162,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 163,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 164,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 165,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 166,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 167,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 168,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 169,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 170,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 171,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 172,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 173,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 174,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 175,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 176,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 177,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 178,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 179,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 180,
           "transcription": "",
           "notes": "Chunk-Fehler: JSON nicht parsebar.",
-          "type": "blank"
+          "type": "content"
         },
         {
           "page": 181,
@@ -24804,8 +26798,8 @@
         "total_words": 45568,
         "total_pages": 222,
         "empty_pages": 27,
-        "blank_pages": 27,
-        "content_pages": 222,
+        "blank_pages": 7,
+        "content_pages": 242,
         "color_chart_pages": 0,
         "chars_per_page": [
           0,
@@ -30413,6 +32407,7 @@
         ],
         "needs_review": true,
         "needs_review_reasons": [
+          "transcription_partial",
           "page_length_anomaly"
         ]
       },

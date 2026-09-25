@@ -304,6 +304,50 @@ def _extract_json_object(text: str) -> str | None:
     return tail
 
 
+def _salvage_pages(text: str) -> list[dict]:
+    """Take the complete page objects from the start of a broken "pages" array.
+
+    The typical total failure is a response that starts as valid JSON and then
+    falls into a repetition loop inside one transcription string (\\n, [?],
+    [...], ~~ ~~) until the output limit cuts it off. Every page object before
+    that point is intact. Decoding stops at the first object that does not
+    parse; nothing after it is used, so page order is preserved.
+    """
+    import re
+    m = re.search(r'"pages"\s*:\s*\[', text)
+    if not m:
+        return []
+    decoder = json.JSONDecoder(strict=False)  # tolerate raw control chars in strings
+    pages = []
+    pos = m.end()
+    while True:
+        while pos < len(text) and text[pos] in " \t\r\n,":
+            pos += 1
+        if pos >= len(text) or text[pos] != "{":
+            break
+        try:
+            obj, pos = decoder.raw_decode(text, pos)
+        except json.JSONDecodeError:
+            break
+        if not isinstance(obj, dict) or "page" not in obj:
+            break
+        pages.append(obj)
+    return pages
+
+
+def untranscribed_placeholder(page_nr: int, reason: str) -> dict:
+    """Placeholder for a scan that was sent but came back without transcription.
+
+    The notes prefix is what quality_signals recognises (UNTRANSCRIBED_PREFIXES):
+    such a page is counted as untranscribed, not as a blank page.
+    """
+    return {
+        "page": page_nr,
+        "transcription": "",
+        "notes": f"Nicht transkribiert: {reason}",
+    }
+
+
 def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
     """Parse API response text into JSON, with sanitization.
 
@@ -362,6 +406,19 @@ def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
         except json.JSONDecodeError:
             pass
 
+    # Step 6: Keep the complete page objects before the point of failure
+    pages = _salvage_pages(fixed)
+    if pages:
+        log.append(f"FIX {object_id}: Antwort abgebrochen, {len(pages)} vollstaendige "
+                   f"Seiten aus dem Anfang uebernommen")
+        return {
+            "pages": pages,
+            "confidence": "low",
+            "confidence_notes": "Modellantwort abgebrochen; nur die vollstaendigen "
+                                "Seiten vor dem Abbruch sind uebernommen.",
+            "salvage": {"pages_recovered": len(pages), "response_chars": len(text)},
+        }, log
+
     # Still failed
     log.append(f"WARNUNG {object_id}: JSON nicht parsebar nach Bereinigung, speichere Rohtext")
     return {"raw": text}, log
@@ -412,14 +469,18 @@ def _parse_with_retry(client, parts, result_text, object_id, label=""):
     for msg in parse_log:
         print(f"{prefix}{msg}")
 
-    if "raw" in result_json:
+    # A salvaged result is incomplete, so it gets the retry as well — but it
+    # stays the answer if the retry does not return at least as many pages.
+    if "raw" in result_json or "salvage" in result_json:
         print(f"{prefix}RETRY: Erneuter Versuch mit JSON-Hinweis...")
         retry_parts = list(parts) + ["Respond with valid JSON only, no markdown fences."]
         retry_text, ok = _call_api(client, retry_parts, object_id, label)
         if ok and retry_text:
-            result_json, retry_log = parse_api_response(retry_text, object_id)
+            retry_json, retry_log = parse_api_response(retry_text, object_id)
             for msg in retry_log:
                 print(f"{prefix}RETRY: {msg}")
+            if len(retry_json.get("pages", [])) >= len(result_json.get("pages", [])):
+                result_json = retry_json
 
     return result_json
 
@@ -473,6 +534,11 @@ def _retry_sub_chunks(client, chunk_images, group_prompt, context, object_id,
                 for pi, page in enumerate(sub_chunk_pages):
                     page["page"] = sub_first + pi
                 sub_pages.extend(sub_chunk_pages)
+                if "salvage" in sub_json:
+                    last_ok = sub_first + len(sub_chunk_pages) - 1
+                    for page_nr in range(last_ok + 1, sub_last + 1):
+                        sub_pages.append(untranscribed_placeholder(
+                            page_nr, f"Modellantwort nach Seite {last_ok} abgebrochen."))
                 print(f"    {sub_label} -> {len(sub_chunk_pages)} Seiten")
                 time.sleep(delay)
                 continue
@@ -573,6 +639,16 @@ def _transcribe_chunked(client, images, group_prompt, context, object_id, chunk_
             page["page"] = first_page + pi
         all_pages.extend(chunk_pages)
 
+        # Response broke off inside the chunk: retry only the scans that are missing
+        if "salvage" in chunk_json and len(chunk_pages) < len(chunk):
+            missing_first = first_page + len(chunk_pages)
+            print(f"  {label} WARNUNG: Antwort abgebrochen nach S.{missing_first - 1}, "
+                  f"versuche Rest in Sub-Chunks...")
+            all_pages.extend(_retry_sub_chunks(
+                client, chunk[len(chunk_pages):], group_prompt, context, object_id,
+                missing_first, total, 5, delay,
+            ))
+
         # Collect confidence
         if chunk_json.get("confidence"):
             confidence_values.append(chunk_json["confidence"])
@@ -659,6 +735,15 @@ def transcribe_object(
 
     if result_json is None:
         return False, None
+
+    # A salvaged single-call response lacks the scans after the break-off.
+    # Mark them explicitly, otherwise quality_signals would pad them as blank pages.
+    pages = result_json.get("pages", [])
+    if "salvage" in result_json and len(pages) < len(images):
+        last_ok = len(pages)
+        for page_nr in range(last_ok + 1, len(images) + 1):
+            pages.append(untranscribed_placeholder(
+                page_nr, f"Modellantwort nach Seite {last_ok} abgebrochen."))
 
     # Load backup metadata for GAMS URLs
     backup_meta = load_backup_metadata(object_id, collection)

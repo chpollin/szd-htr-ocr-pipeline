@@ -350,121 +350,121 @@
         "page": 41,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 42,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 43,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 44,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 45,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 46,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 47,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 48,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 49,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 50,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 51,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 52,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 53,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 54,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 55,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 56,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 57,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 58,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 59,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 60,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 61,
@@ -669,14 +669,14 @@
     "confidence_notes": "S.1-20: Die Transkription ist aufgrund der guten Lesbarkeit der Vorlagen (sowohl Typoskripte als auch Handschriften) sehr zuverlässig. Unsichere Stellen wurden entsprechend markiert.; S.21-40: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren Handschrift von Stefan Zweig sehr zuverlässig. Die Korrekturen und Einfügungen wurden gemäss den Vorgaben erfasst.; S.61-80: Die Transkription ist aufgrund der klaren Typoskripte und der gut lesbaren handschriftlichen Korrekturen (meist in violetter Tinte) gut durchführbar. Unsichere Stellen wurden mit [?] markiert.; S.81-93: Der Text ist ein Typoskript mit sehr vielen handschriftlichen Korrekturen, Einfügungen und Streichungen, die teilweise schwer zu entziffern sind. Die Lesbarkeit ist durch die Überlagerung von Typoskript und Handschrift sowie durchscheinenden Text von der Rückseite beeinträchtigt."
   },
   "quality_signals": {
-    "version": "1.6",
+    "version": "1.7",
     "total_chars": 60585,
     "total_words": 8947,
     "total_pages": 38,
     "empty_pages": 55,
-    "blank_pages": 50,
+    "blank_pages": 30,
     "color_chart_pages": 5,
-    "content_pages": 38,
+    "content_pages": 58,
     "input_images": 93,
     "page_types": [
       "content",
@@ -719,26 +719,26 @@
       "blank",
       "content",
       "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
       "content",
       "blank",
       "content",
@@ -896,8 +896,32 @@
     "page_length_anomalies": [
       0
     ],
+    "transcription_status": "partial",
+    "untranscribed_pages": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ],
     "needs_review": true,
     "needs_review_reasons": [
+      "transcription_partial",
       "page_length_anomaly"
     ]
   }

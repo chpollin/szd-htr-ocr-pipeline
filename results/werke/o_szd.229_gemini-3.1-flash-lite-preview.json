@@ -302,121 +302,121 @@
         "page": 21,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 22,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 23,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 24,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 25,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 26,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 27,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 28,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 29,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 30,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 31,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 32,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 33,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 34,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 35,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 36,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 37,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 38,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 39,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 40,
         "transcription": "",
         "notes": "Chunk-Fehler: JSON nicht parsebar.",
-        "type": "blank"
+        "type": "content"
       },
       {
         "page": 41,
@@ -1173,14 +1173,14 @@
     "confidence_notes": "S.1-20: Die Handschrift ist flüchtig und weist viele Korrekturen sowie unkonventionelle Buchstabenverbindungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern.; S.41-60: Alle Seiten sind unbeschrieben und weisen keine Textspuren auf.; S.61-80: Alle Seiten sind unbeschriebene, karierte Blätter eines Notizbuchs.; S.81-100: Alle Seiten sind leer und weisen keine Beschriftungen auf.; S.101-120: Alle Seiten sind unbeschrieben und zeigen lediglich das karierte Muster des Notizblocks.; S.121-140: Die Handschrift ist sehr flüchtig, teilweise verblasst oder durchscheinend. Viele Passagen sind aufgrund der unleserlichen Schriftführung nur fragmentarisch oder gar nicht zu entziffern.; S.141-160: Die Handschrift ist flüchtig und weist viele individuelle Kürzel und unklare Buchstabenverbindungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise oder möglicher Eigennamen/Fremdwörter schwer zu entziffern.; S.161-165: Der Text ist klar lesbar und kurz. Die Zuordnung der Seiten entspricht den Vorgaben."
   },
   "quality_signals": {
-    "version": "1.6",
+    "version": "1.7",
     "total_chars": 26507,
     "total_words": 3969,
     "total_pages": 29,
     "empty_pages": 135,
-    "blank_pages": 135,
+    "blank_pages": 115,
     "color_chart_pages": 1,
-    "content_pages": 29,
+    "content_pages": 49,
     "input_images": 165,
     "page_types": [
       "blank",
@@ -1203,26 +1203,26 @@
       "content",
       "content",
       "content",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
-      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
       "blank",
       "blank",
       "blank",
@@ -1530,8 +1530,32 @@
       19,
       162
     ],
+    "transcription_status": "partial",
+    "untranscribed_pages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
     "needs_review": true,
     "needs_review_reasons": [
+      "transcription_partial",
       "page_length_anomaly"
     ]
   }

@@ -32,6 +32,8 @@ Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung p
 - **Nonsens-Halluzination**: Gemini erfindet Woerter statt `[?]` zu setzen — `marker_density` daher als Signal wertlos
 - **`duplicate_pages` False-Positive**: Triggert bei Color-Chart-Doppelfotografie (offener Fix)
 - **Tabellarische Layouts**: VLM-Linearisierung ordnet Betraege falschen Zeilen zu (~90% Genauigkeit)
+- **Wiederholungsschleifen**: Das Modell kippt bei Leerraum oder Markup (`
+`, `[?]`, `[...]`, `~~ ~~`) in eine Endlosschleife bis zum Ausgabelimit. Der Parser rettet die vollstaendigen Seiten davor; ungelesene Scans stehen als `transcription_partial`/`_failed` im Katalog → `reports/pipeline-totalausfaelle.md`
 
 ## Quelldaten
 
@@ -94,7 +96,7 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
                 ▼
  ┌─────────────────────────────────────┐
  │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.6         │
+ │     quality_signals.py v1.7         │
  │     • page.type (content/blank/     │
  │       color_chart) pro Seite        │
  │     • Marker-Dichte, Duplikate      │
@@ -184,7 +186,7 @@ szd-htr/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context(), parse_tei_full_metadata()
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 7 Signale + page.type (v1.6, Umschlag-Ausnahme)
+│   ├── quality_signals.py           ← 7 Signale + page.type + transcription_status (v1.7)
 │   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
@@ -199,6 +201,7 @@ szd-htr/
 │   ├── fraktur_postprocess.py       ← Diagnose: Fraktur-Korrekturvorschlaege (Prototyp)
 │   ├── quality_report.py            ← Diagnose: Aggregierte Qualitaetsstatistiken
 │   ├── backfill_*.py                ← Einmal-Migrationen (page_types, quality_signals, edit_history)
+│   ├── salvage_raw_results.py       ← Einmal-Migration: Seiten aus abgebrochenen Modellantworten retten
 │   ├── run_sample_batch.py          ← Batch-Steuerung: Gruppen auf 10 auffuellen
 │   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
 │       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
@@ -366,7 +369,7 @@ Jedes Ergebnis in `results/{collection}/{object_id}_{model}.json`:
 ```
 
 - `page.type`: `content` / `blank` / `color_chart` — gesetzt von `quality_signals.py`, Schema in `schemas/page-json-v0.2.json`
-- `quality_signals`: 7 Signale (v1.6, Umschlagseiten von der Laengen-Anomalie ausgenommen), Details in `quality_signals.py` und `verification-concept.md` §2
+- `quality_signals`: 7 Signale (v1.6, Umschlagseiten von der Laengen-Anomalie ausgenommen) plus `transcription_status` complete/partial/failed (v1.7, bisher nur auf den betroffenen Objekten berechnet), Details in `quality_signals.py` und `verification-concept.md` §2
 - `review`: Optional, geschrieben von `serve.py` (API), `import_reviews.py` (CLI) oder Agent-Verifikation
 
 ## Ausgabeformate

@@ -7,6 +7,10 @@ the quality_signals block.
 Usage:
     python pipeline/backfill_quality_signals.py              # run
     python pipeline/backfill_quality_signals.py --dry-run    # preview
+    python pipeline/backfill_quality_signals.py --incomplete-only
+        # nur Objekte mit transcription_status partial/failed (v1.7). Laesst
+        # alle anderen unangetastet — auch reviewte Objekte, deren Signale seit
+        # einer Korrektur veraltet sind.
 """
 
 import argparse
@@ -23,6 +27,8 @@ RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"
 def main():
     parser = argparse.ArgumentParser(description="Recompute quality_signals on all results.")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--incomplete-only", action="store_true",
+                        help="Nur Objekte mit unvollstaendiger Transkription neu berechnen")
     args = parser.parse_args()
 
     total = 0
@@ -48,6 +54,8 @@ def main():
             input_images = old_qs.get("input_images", len(result.get("pages", [])))
 
             new_qs = compute_signals(result, meta, input_images)
+            if args.incomplete_only and new_qs["transcription_status"] == "complete":
+                continue
 
             old_reasons = set(old_qs.get("needs_review_reasons", []))
             new_reasons = set(new_qs.get("needs_review_reasons", []))
