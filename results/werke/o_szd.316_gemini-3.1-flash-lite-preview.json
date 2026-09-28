@@ -59,9 +59,18 @@
       },
       {
         "page": 3,
-        "transcription": "Beilage zu den unveränderten Exempla-\nren der 1. Aufl.\nErrata.\n\nS. 47 Meistens dauert es einige Zeit, ehe ein Volk\nS.202 \"Baudouin\" statt Pierre Boudin.\nS.303 \"ein Mensch\"statt: Mörder.\nS.312 \"der Verfemte aus Zürich, wo er Pfarrer der\nitalienischen Emigrantengemeinde aus Locarno\nwar\n\n304 taucht in Basel auf\n\nverboten Inlän[?]land",
+        "transcription": "Beilage zu den unveränderten Exempla-\nren der 1. Aufl.\nErrata.\n\nS. 47 Meistens dauert es einige Zeit, ehe ein Volk\nS.202 \"Baudouin\" statt Pierre Boudin.\nS.303 \"ein Mensch\"statt: Mörder.\nS.312 \"der Verfemte aus Zürich, wo er Pfarrer der\nitalienischen Emigrantengemeinde aus Locarno\nwar\n\n304 taucht in Basel auf\n\nverboten [?]land",
         "notes": "Typoskript mit handschriftlichen Ergänzungen in blauem Stift.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Beilage zu den unveränderten Exempla-\nren der 1. Aufl.\nErrata.\n\nS. 47 Meistens dauert es einige Zeit, ehe ein Volk\nS.202 \"Baudouin\" statt Pierre Boudin.\nS.303 \"ein Mensch\"statt: Mörder.\nS.312 \"der Verfemte aus Zürich, wo er Pfarrer der\nitalienischen Emigrantengemeinde aus Locarno\nwar\n\n304 taucht in Basel auf\n\nverboten Inlän[?]land",
+        "edit_history": [
+          {
+            "original_transcription": "Beilage zu den unveränderten Exempla-\nren der 1. Aufl.\nErrata.\n\nS. 47 Meistens dauert es einige Zeit, ehe ein Volk\nS.202 \"Baudouin\" statt Pierre Boudin.\nS.303 \"ein Mensch\"statt: Mörder.\nS.312 \"der Verfemte aus Zürich, wo er Pfarrer der\nitalienischen Emigrantengemeinde aus Locarno\nwar\n\n304 taucht in Basel auf\n\nverboten Inlän[?]land",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-09-28T12:29:08.506236+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 4,
@@ -71,9 +80,18 @@
       },
       {
         "page": 5,
-        "transcription": "312 In Zürich, wo er nach langen Irrfahrten end-\nlich Zuflucht als Prediger der kleinen italie-\nnischen Emigrantengemeinde gefunden hatte,\nwird er verurteilt, die Stadt innerhalb dreier\nTage zu verlassen und nur auf flehentliches\nBitten die Frist noch ein wenig erstreckt.\nDass er vierundsiebzig Jahre alt ist, schafft\nihm kein Erbarmen. Dass er wenige Tage vor sei-\nnem Prozess seine viel jüngere Frau durch einen\nfürchterlichen Unglücksfall verloren hat, er-\nwirkt keinen längeren Aufschub. Dass er mit\nvier unmündigen Kindern ohne Habe in die Welt\nwandern soll mitten im dezemberlich grimmigen\nWinter, mildert nicht den unerbittlichen Spruch.\nErst will Ochino über die graubündischen Berge\nins Valtellin flüchten, wo er Freunde hat,\naber schon ist dafür gesorgt, dass er, der Het-\nzer, der Ketzer, nicht ausruhen dürfe an Haus\nund Herd, schon hat man vorsorglich Briefe\nvorausgejagt, damit ihm überall die Herberge\nversagt werde und so schliesst sich wie vor\neinem Leprakranken an jedem Orte ihm Tür und\nTor. Zu Basel will er rasten; hier hat er Jah-\nre und Jahre gewirkt, aber auch hier trifft\nihn der Bann und weiter und weiter geht die\ngrauenhafte Odyssee des vierundsiebzigjähri-\ngen Dulders mit seinen vier Kindern die Land-\nstrassen Europas entlang. In Mühlhausen, in\nFrankfurt, in Nürnberg, überall wird er auf-\ngespäht und weitergejagt, vor ihm, hinter ihm\nhetzen die Steckbriefe, die katholischen Län-\nder wie die protestantischen, also die ganze\neuropäische Erde verwehrt sich dem geächteten\ngreisen Gelehrten mit gemeinsamen Grimm. Nie\nwird man bei der Dunkelheit und Widersprechlich-\nder Nachrichten zur Gänze\nkeit genau wissen, was dieser tragisch Verfemte\nin jenen zwei Jahren erlitten;",
+        "transcription": "312 In Zürich, wo er nach langen Irrfahrten end-\nlich Zuflucht als Prediger der kleinen italie-\nnischen Emigrantengemeinde gefunden hatte,\nwird er verurteilt, die Stadt innerhalb dreier\nTage zu verlassen und nur auf flehentliches\nBitten die Frist noch ein wenig erstreckt.\nDass er vierundsiebzig Jahre alt ist, schafft\nihm kein Erbarmen. Dass er wenige Tage vor sei-\nnem Prozess seine viel jüngere Frau durch einen\nfürchterlichen Unglücksfall verloren hat, er-\nwirkt keinen längeren Aufschub. Dass er mit\nvier unmündigen Kindern ohne Habe in die Welt\nwandern soll mitten im dezemberlich grimmigen\nWinter, mildert nicht den unerbittlichen Spruch.\nErst will Ochino über die graubündischen Berge\nins Valtellin flüchten, wo er Freunde hat,\naber schon ist dafür gesorgt, dass er, der Het-\nzer, der Ketzer, nicht ausruhen dürfe an Haus\nund Herd, schon hat man vorsorglich Briefe\nvorausgejagt, damit ihm überall die Herberge\nversagt werde und so schliesst sich wie vor\neinem Leprakranken an jedem Orte ihm Tür und\nTor. Zu Basel will er rasten; hier hat er Jah-\nre und Jahre gewirkt, aber auch hier trifft\nihn der Bann und weiter und weiter geht die\ngrauenhafte Odyssee des vierundsiebzigjähri-\ngen Dulders mit seinen vier Kindern die Land-\nstrassen Europas entlang. In Mühlhausen, in\nFrankfurt, in Nürnberg, überall wird er auf-\ngespäht und weitergejagt, vor ihm, hinter ihm\nhetzen die Steckbriefe, die katholischen Län-\nder wie die protestantischen, also die ganze\neuropäische Erde verwehrt sich dem geächteten\ngreisen Gelehrten mit gemeinsamen Grimm. Nie\nwird man bei der Dunkelheit und Widersprechlich-\nkeit der Nachrichten zur Gänz wissen, was dieser tragisch Verfemte\nin jenen zwei Jahren erlitten;",
         "notes": "Typoskript mit handschriftlichen Korrekturen in violettem Stift.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "312 In Zürich, wo er nach langen Irrfahrten end-\nlich Zuflucht als Prediger der kleinen italie-\nnischen Emigrantengemeinde gefunden hatte,\nwird er verurteilt, die Stadt innerhalb dreier\nTage zu verlassen und nur auf flehentliches\nBitten die Frist noch ein wenig erstreckt.\nDass er vierundsiebzig Jahre alt ist, schafft\nihm kein Erbarmen. Dass er wenige Tage vor sei-\nnem Prozess seine viel jüngere Frau durch einen\nfürchterlichen Unglücksfall verloren hat, er-\nwirkt keinen längeren Aufschub. Dass er mit\nvier unmündigen Kindern ohne Habe in die Welt\nwandern soll mitten im dezemberlich grimmigen\nWinter, mildert nicht den unerbittlichen Spruch.\nErst will Ochino über die graubündischen Berge\nins Valtellin flüchten, wo er Freunde hat,\naber schon ist dafür gesorgt, dass er, der Het-\nzer, der Ketzer, nicht ausruhen dürfe an Haus\nund Herd, schon hat man vorsorglich Briefe\nvorausgejagt, damit ihm überall die Herberge\nversagt werde und so schliesst sich wie vor\neinem Leprakranken an jedem Orte ihm Tür und\nTor. Zu Basel will er rasten; hier hat er Jah-\nre und Jahre gewirkt, aber auch hier trifft\nihn der Bann und weiter und weiter geht die\ngrauenhafte Odyssee des vierundsiebzigjähri-\ngen Dulders mit seinen vier Kindern die Land-\nstrassen Europas entlang. In Mühlhausen, in\nFrankfurt, in Nürnberg, überall wird er auf-\ngespäht und weitergejagt, vor ihm, hinter ihm\nhetzen die Steckbriefe, die katholischen Län-\nder wie die protestantischen, also die ganze\neuropäische Erde verwehrt sich dem geächteten\ngreisen Gelehrten mit gemeinsamen Grimm. Nie\nwird man bei der Dunkelheit und Widersprechlich-\nder Nachrichten zur Gänze\nkeit genau wissen, was dieser tragisch Verfemte\nin jenen zwei Jahren erlitten;",
+        "edit_history": [
+          {
+            "original_transcription": "312 In Zürich, wo er nach langen Irrfahrten end-\nlich Zuflucht als Prediger der kleinen italie-\nnischen Emigrantengemeinde gefunden hatte,\nwird er verurteilt, die Stadt innerhalb dreier\nTage zu verlassen und nur auf flehentliches\nBitten die Frist noch ein wenig erstreckt.\nDass er vierundsiebzig Jahre alt ist, schafft\nihm kein Erbarmen. Dass er wenige Tage vor sei-\nnem Prozess seine viel jüngere Frau durch einen\nfürchterlichen Unglücksfall verloren hat, er-\nwirkt keinen längeren Aufschub. Dass er mit\nvier unmündigen Kindern ohne Habe in die Welt\nwandern soll mitten im dezemberlich grimmigen\nWinter, mildert nicht den unerbittlichen Spruch.\nErst will Ochino über die graubündischen Berge\nins Valtellin flüchten, wo er Freunde hat,\naber schon ist dafür gesorgt, dass er, der Het-\nzer, der Ketzer, nicht ausruhen dürfe an Haus\nund Herd, schon hat man vorsorglich Briefe\nvorausgejagt, damit ihm überall die Herberge\nversagt werde und so schliesst sich wie vor\neinem Leprakranken an jedem Orte ihm Tür und\nTor. Zu Basel will er rasten; hier hat er Jah-\nre und Jahre gewirkt, aber auch hier trifft\nihn der Bann und weiter und weiter geht die\ngrauenhafte Odyssee des vierundsiebzigjähri-\ngen Dulders mit seinen vier Kindern die Land-\nstrassen Europas entlang. In Mühlhausen, in\nFrankfurt, in Nürnberg, überall wird er auf-\ngespäht und weitergejagt, vor ihm, hinter ihm\nhetzen die Steckbriefe, die katholischen Län-\nder wie die protestantischen, also die ganze\neuropäische Erde verwehrt sich dem geächteten\ngreisen Gelehrten mit gemeinsamen Grimm. Nie\nwird man bei der Dunkelheit und Widersprechlich-\nder Nachrichten zur Gänze\nkeit genau wissen, was dieser tragisch Verfemte\nin jenen zwei Jahren erlitten;",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-09-28T12:32:12.335807+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 6,
@@ -167,9 +185,18 @@
       },
       {
         "page": 21,
-        "transcription": "Ein Gewissen erhebt sich...\n234   235   236   237[?] 238   240   241   242\n251   252   253   254   258   263\n\nGewalt erledigt Gewissen\n266   272   279   281   282   283   287   298\n302   ~~320~~   334\n\nDie Pole berühren einander\n320   334",
+        "transcription": "Ein Gewissen erhebt sich...\n234   235   236   237[?] 238   240   241   242\n251   252   253   254   258   263\n\nGewalt erledigt Gewissen\n266   272   279   281   282   283   287   298\n302   ~~326~~   ~~354~~\n\nDie Pole berühren einander\n320   334",
         "notes": "Handschriftliche Notizen auf liniertem Papier (Blockblatt mit Perforation). Bleistift.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "Ein Gewissen erhebt sich...\n234   235   236   237[?] 238   240   241   242\n251   252   253   254   258   263\n\nGewalt erledigt Gewissen\n266   272   279   281   282   283   287   298\n302   ~~320~~   334\n\nDie Pole berühren einander\n320   334",
+        "edit_history": [
+          {
+            "original_transcription": "Ein Gewissen erhebt sich...\n234   235   236   237[?] 238   240   241   242\n251   252   253   254   258   263\n\nGewalt erledigt Gewissen\n266   272   279   281   282   283   287   298\n302   ~~320~~   334\n\nDie Pole berühren einander\n320   334",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-09-28T12:36:44.516428+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 22,
@@ -185,9 +212,18 @@
       },
       {
         "page": 24,
-        "transcription": "3\nSeite Zeile\n65 19 \"Alles ist hart und hässlich\" streichen\n65 20 streichen\n65 21 \"lichen Oval\" streichen\n67 7 \"und grausame\" streichen\n67 11/17 von \"Unfassbar, dass\" bis \"Tun.\" streichen\n69 2 gelebt, immer für seinen Gott, seine Kirche statt \"gelebt.\"\n69 5/6 \"kein Wunder... geworden ist.\" streichen\n69 12/16 \"wahrend Zwingli... schmausen und lachen\"\n69 16 bei Calvin ist alles statt \"ist bei Calvin alles\"\n69 21-Ende \"nur das Ordentliche... \" streichen\n70 1-24 streichen\n71 11-14 \"um dem Asketen, ... gegen ihren Despoten,\" streichen\n75 drittletzte Diktators statt \"Despoten\"\n76 1 Strenge gegen sich selbst sind statt \" Strenge sind\"\n77 23/24 \"und nicht einmal geliebt\" streichen\n~~sondern vor allem verehrt und gefürchtet statt \"sondern immer nur gefürchtet\"~~\n77 25/27 streichen\n78 1 \"ferne zu dienen.\" streichen\n7 misstrauische statt \"misanthropische\"\n10 \"einem mönchischen\" streichen\n79 15 Selbständigkeit verstattet statt \"Freiheit oder Selbständigkeit verstattet. Unbarm-\"\n16-19 streichen\n20 \"Bösen fähig\". streichen",
+        "transcription": "3\nSeite Zeile\n65 19 \"Alles ist hart und hässlich\" streichen\n65 20 streichen\n65 21 \"lichen Oval\" streichen\n67 7 \"und grausame\" streichen\n67 11/17 von \"Unfassbar, dass\" bis \"Tun.\" streichen\n69 2 gelebt, immer für seinen Gott, seine Kirche statt \"gelebt.\"\n69 5/6 \"kein Wunder... geworden ist.\" streichen\n69 12/16 \"wahrend Zwingli... schmausen und lachen\"\n69 16 bei Calvin ist alles statt \"ist bei Calvin alles\"\n69 21-Ende \"nur das Ordentliche... \" streichen\n70 1-24 streichen\n71 11-14 \"um dem Asketen, ... gegen ihren Despoten,\" streichen\n75 drittletzte Diktators statt \"Despoten\"\n76 1 Strenge gegen sich selbst sind statt \" Strenge sind\"\n77 23/24 \"und nicht einmal geliebt\" streichen\nsondern vor allem verehrt und gefürchtet statt \"sondern immer nur gefürchtet\"\n77 25/27 streichen\n78 1 \"ferne zu dienen.\" streichen\n7 misstrauische statt \"misanthropische\"\n10 \"einem mönchischen\" streichen\n79 15 Selbständigkeit verstattet statt \"Freiheit oder Selbständigkeit verstattet. Unbarm-\"\n16-19 streichen\n20 \"Bösen fähig\". streichen",
         "notes": "Typoskript.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "3\nSeite Zeile\n65 19 \"Alles ist hart und hässlich\" streichen\n65 20 streichen\n65 21 \"lichen Oval\" streichen\n67 7 \"und grausame\" streichen\n67 11/17 von \"Unfassbar, dass\" bis \"Tun.\" streichen\n69 2 gelebt, immer für seinen Gott, seine Kirche statt \"gelebt.\"\n69 5/6 \"kein Wunder... geworden ist.\" streichen\n69 12/16 \"wahrend Zwingli... schmausen und lachen\"\n69 16 bei Calvin ist alles statt \"ist bei Calvin alles\"\n69 21-Ende \"nur das Ordentliche... \" streichen\n70 1-24 streichen\n71 11-14 \"um dem Asketen, ... gegen ihren Despoten,\" streichen\n75 drittletzte Diktators statt \"Despoten\"\n76 1 Strenge gegen sich selbst sind statt \" Strenge sind\"\n77 23/24 \"und nicht einmal geliebt\" streichen\n~~sondern vor allem verehrt und gefürchtet statt \"sondern immer nur gefürchtet\"~~\n77 25/27 streichen\n78 1 \"ferne zu dienen.\" streichen\n7 misstrauische statt \"misanthropische\"\n10 \"einem mönchischen\" streichen\n79 15 Selbständigkeit verstattet statt \"Freiheit oder Selbständigkeit verstattet. Unbarm-\"\n16-19 streichen\n20 \"Bösen fähig\". streichen",
+        "edit_history": [
+          {
+            "original_transcription": "3\nSeite Zeile\n65 19 \"Alles ist hart und hässlich\" streichen\n65 20 streichen\n65 21 \"lichen Oval\" streichen\n67 7 \"und grausame\" streichen\n67 11/17 von \"Unfassbar, dass\" bis \"Tun.\" streichen\n69 2 gelebt, immer für seinen Gott, seine Kirche statt \"gelebt.\"\n69 5/6 \"kein Wunder... geworden ist.\" streichen\n69 12/16 \"wahrend Zwingli... schmausen und lachen\"\n69 16 bei Calvin ist alles statt \"ist bei Calvin alles\"\n69 21-Ende \"nur das Ordentliche... \" streichen\n70 1-24 streichen\n71 11-14 \"um dem Asketen, ... gegen ihren Despoten,\" streichen\n75 drittletzte Diktators statt \"Despoten\"\n76 1 Strenge gegen sich selbst sind statt \" Strenge sind\"\n77 23/24 \"und nicht einmal geliebt\" streichen\n~~sondern vor allem verehrt und gefürchtet statt \"sondern immer nur gefürchtet\"~~\n77 25/27 streichen\n78 1 \"ferne zu dienen.\" streichen\n7 misstrauische statt \"misanthropische\"\n10 \"einem mönchischen\" streichen\n79 15 Selbständigkeit verstattet statt \"Freiheit oder Selbständigkeit verstattet. Unbarm-\"\n16-19 streichen\n20 \"Bösen fähig\". streichen",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-09-28T12:38:18.086021+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 25,
@@ -233,9 +269,18 @@
       },
       {
         "page": 32,
-        "transcription": "12\nSeite Zeile\n272 19-21 \"(...)\" streichen\n279 23 Zorn statt \"Hass\"\n25 unbeschränkte Autorität statt \" kämpferische Diktatur\"\n281 17 rasender Empörung statt \"rasender Wut\"\n282 3/4 Menschen verwirren kann. Man bedenke! statt \"Menschen erniedrigen kann.\"\n283 24 Griff fasst Castellio seinen Gegner an: statt \"Griff drückt Castellio Calvin nun an die Wand:\"\n287 13/14 wiederholen gewagt, die nicht Castellio, sondern nur Calvin entehrte.\"\n15 freundliches Schönfärben statt \"Leugnen und Schönfärben\n298 11-14 \"Unter Calvins... schamlos\" streichen\n302 21/22 man statt \"Calvin mit seiner organisierten Agitation\"\n320 24 Genfer Disziplin statt \" calvinistischen Lehre\"\n26 Puritanismus statt \"Calvinismus\"\n334 4-6 \"und der Menschlichkeit... gegen jeden Calvin\" streichen",
+        "transcription": "12\nSeite Zeile\n272 19-21 \"(...)\" streichen\n279 23 Zorn statt \"Hass\"\n25 unbeschränkte Autorität statt \" kämpferische Diktatur\"\n281 17 rasender Empörung statt \"rasender Wut\"\n282 3/4 Menschen verwirren kann. Man bedenke! statt \"Menschen erniedrigen kann.\"\n283 24 Griff fasst Castellio seinen Gegner an: statt \"Griff drückt Castellio Calvin nun an die Wand:\"\n287 13/14 wiederholen gewagt, die nicht Castellio, sondern nur Calvin entehrte.\"\n15 freundliches Schönfärben statt \"Leugnen und Schönfärben\n298 11-14 \"Unter Calvins... schamlos\" streichen\n302 21/22 man statt \"Calvin mit seiner organisierten Agitation\"\n320 24 Genfer Disziplin statt \" calvinistischen Lehre\"\n26 Puritanismus statt \"Calvinismus\"\n~~322~~\n334 4-6 \"und der Menschlichkeit... gegen jeden Calvin\" streichen",
         "notes": "Typoskript.",
-        "type": "content"
+        "type": "content",
+        "transcription_llm": "12\nSeite Zeile\n272 19-21 \"(...)\" streichen\n279 23 Zorn statt \"Hass\"\n25 unbeschränkte Autorität statt \" kämpferische Diktatur\"\n281 17 rasender Empörung statt \"rasender Wut\"\n282 3/4 Menschen verwirren kann. Man bedenke! statt \"Menschen erniedrigen kann.\"\n283 24 Griff fasst Castellio seinen Gegner an: statt \"Griff drückt Castellio Calvin nun an die Wand:\"\n287 13/14 wiederholen gewagt, die nicht Castellio, sondern nur Calvin entehrte.\"\n15 freundliches Schönfärben statt \"Leugnen und Schönfärben\n298 11-14 \"Unter Calvins... schamlos\" streichen\n302 21/22 man statt \"Calvin mit seiner organisierten Agitation\"\n320 24 Genfer Disziplin statt \" calvinistischen Lehre\"\n26 Puritanismus statt \"Calvinismus\"\n334 4-6 \"und der Menschlichkeit... gegen jeden Calvin\" streichen",
+        "edit_history": [
+          {
+            "original_transcription": "12\nSeite Zeile\n272 19-21 \"(...)\" streichen\n279 23 Zorn statt \"Hass\"\n25 unbeschränkte Autorität statt \" kämpferische Diktatur\"\n281 17 rasender Empörung statt \"rasender Wut\"\n282 3/4 Menschen verwirren kann. Man bedenke! statt \"Menschen erniedrigen kann.\"\n283 24 Griff fasst Castellio seinen Gegner an: statt \"Griff drückt Castellio Calvin nun an die Wand:\"\n287 13/14 wiederholen gewagt, die nicht Castellio, sondern nur Calvin entehrte.\"\n15 freundliches Schönfärben statt \"Leugnen und Schönfärben\n298 11-14 \"Unter Calvins... schamlos\" streichen\n302 21/22 man statt \"Calvin mit seiner organisierten Agitation\"\n320 24 Genfer Disziplin statt \" calvinistischen Lehre\"\n26 Puritanismus statt \"Calvinismus\"\n334 4-6 \"und der Menschlichkeit... gegen jeden Calvin\" streichen",
+            "edited_by": "Julia Hintersteiner",
+            "edited_at": "2026-09-28T12:40:31.687794+00:00",
+            "source": "human"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -367,5 +412,13 @@
     "needs_review_reasons": [
       "page_length_anomaly"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      32
+    ],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-09-28T12:40:38.274682+00:00"
   }
 }
