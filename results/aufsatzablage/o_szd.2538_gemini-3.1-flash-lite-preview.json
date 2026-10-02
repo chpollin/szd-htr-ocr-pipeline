@@ -197,5 +197,11 @@
     "needs_review_reasons": [
       "language_mismatch"
     ]
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Julia Hintersteiner",
+    "reviewed_at": "2026-10-02T08:18:49.735828+00:00"
   }
 }

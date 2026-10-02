@@ -97,6 +97,92 @@ Totalausfälle — vollständige Liste, Ausfallarten je Objekt und Salvage-Poten
 
 ---
 
+## 2 — Abbildungen werden in eckigen Klammern beschrieben, ohne dass es dafür eine Regel gibt
+
+Gemeldet von Julia Hintersteiner, 2026-10-02 · Status: offen — **editorische Entscheidung nötig**
+
+### Symptom
+
+Enthält eine Seite eine Abbildung, schreibt das Modell eine eigene Bildbeschreibung in eckigen
+Klammern in die Transkription. Die gedruckte Bildunterschrift folgt darunter noch einmal als Text:
+
+```text
+[Abbildung: The Slum von James Pryde]     ← Beschreibung des Modells, steht nicht auf dem Blatt
+The Slum James Pryde                      ← gedruckte Bildunterschrift
+```
+
+### Reproduktion
+
+**I Seek in Shadow** (*Readers News*, Mai 1940), SZ-AAP/W-AA92.1, `o:szd.2538`, Seite 3
+→ `http://localhost:8000/#view/o_szd.2538_gemini-3.1-flash-lite-preview/3`
+
+Dasselbe Objekt hat 12 solche Klammern auf 11 Seiten. Auf Seite 11 wiederholt die Klammer die
+Bildunterschrift wörtlich (`[Abbildung: Robert Louis Stevenson, after a bronze relief …]` und
+darunter derselbe Text).
+
+### Ursache
+
+Es gibt keine Regel. Der System-Prompt definiert nur `[?]`, `[...]`, `~~…~~` und `{…}`
+(`pipeline/prompts/system.md:12-13`), keiner der neun Gruppen-Prompts erwähnt Abbildungen, und das
+Annotationsprotokoll regelt sie ebenfalls nicht (`knowledge/annotation-protocol.md` §3, §4). Das
+Modell erfindet die Notation selbst. Einzige Erwähnung von Bildunterschriften im Repo ist der
+Layout-Prompt für Zeitungsausschnitte (`pipeline/prompts/layout_group_h_zeitungsausschnitt.md:38`),
+der die Transkription nicht betrifft.
+
+### Umfang
+
+Bildbeschreibungen (`[Abbildung: …]`, `[Bild: …]`, `[Bildunterschrift: …]`, `[Logo: …]`,
+`[Grafik: …]`, `[Vignette …]`): **68 Klammern in 17 Objekten**, davon 14 in der Aufsatzablage
+(Zeitungs- und Zeitschriftendrucke), dazu `o:szd.846`, `o:szd.1263` (Korrespondenz) und `o:szd.149`.
+Die meisten in `o:szd.2584` (30) und `o:szd.2538` (12).
+
+Die Form ist uneinheitlich: `Abbildung`, `Bild` und `Bildunterschrift` stehen nebeneinander,
+mal mit Doppelpunkt, mal ohne. In englischen Texten beschreibt das Modell auf Deutsch
+(„The Slum **von** James Pryde").
+
+Das ist ein Ausschnitt eines größeren Musters. Für andere Sachverhalte erfindet das Modell
+ebenfalls Klammern, die nicht definiert sind, etwa `[Unterschrift]` / `[Unterschrift unleserlich]` /
+`[Unterschrift: H. Heumann?]` (169 Klammern in 112 Objekten), `[eingefügt …]` (74 in 20 Objekten),
+`[Randnotiz links: …]` (50 in 26), `[Adressseite]`, `[durchgestrichen]`. Definiert sind davon nur
+`[Stempel:]`, `[Poststempel:]`, `[Marginalie:]` und `[quer:]`/`[kopf:]`.
+
+### Folgen
+
+1. **Echter Text wird als Beschreibung getarnt.** Teils steht die gedruckte Bildunterschrift
+   *in* der Klammer statt darunter: `[Bildunterschrift: Albert Welti - Züricher Legende]`
+   (`o:szd.2286`), `[Abbildung: Im Park von Veitshöchheim. Phot. Rupp.]` (`o:szd.2353`),
+   die ganze Bildlegende in `o:szd.2749` und `o:szd.2750`. Wer die Klammer als Zusatz des Modells
+   liest und löscht, löscht Text vom Blatt.
+2. **Widerspricht dem diplomatischen Prinzip.** Die Klammer ist Text, der nicht auf dem Blatt
+   steht, und sie ist von einer editorischen Auszeichnung nicht zu unterscheiden.
+3. **CER.** `pipeline/evaluate.py:42-43` entfernt nur `[Stempel:]` und `[Marginalie:]` vor dem
+   Vergleich. Je nachdem, ob die korrigierende Person die Klammer stehen lässt oder löscht,
+   entsteht eine Abweichung, die als Lesefehler zählt.
+4. **TEI-Export.** Der Marker-Konverter erkennt nur `[Stempel:]`, `[Poststempel:]`,
+   `[Marginalie:]` und `[quer:]`/`[kopf:]` (`pipeline/marker_enrich.py:60-62`). Bildbeschreibungen
+   landen als Fließtext im `<body>`, statt als `<figure>`/`<figDesc>`.
+5. **Beim Redigieren unklar, was zu tun ist.** Ohne Regel wird jede Person anders verfahren.
+
+### Vorschlag
+
+Zuerst eine Regel festlegen, dann umsetzen:
+
+- **Eine feste Form**, z. B. `[Abbildung: kurze Beschreibung]`, immer deutsch, allein auf einer
+  Zeile an der Stelle der Abbildung, analog zu `[Stempel:]`.
+- **Die Bildunterschrift steht nie in der Klammer**, sondern als normaler Text darunter, weil sie
+  auf dem Blatt steht.
+- Ob überhaupt beschrieben wird oder nur `[Abbildung]` ohne Inhalt: beides ist vertretbar. Eine
+  leere Marke hält die Transkription diplomatisch und spart dem Modell das Erfinden.
+- `[Unterschrift]` und die übrigen erfundenen Klammern in derselben Entscheidung mitregeln.
+- Dann umsetzen in: `knowledge/annotation-protocol.md` (§3/§4, Richtlinien-Panel im Viewer),
+  `pipeline/prompts/system.md`, `pipeline/evaluate.py` (Normalisierung), `pipeline/marker_enrich.py`
+  (→ `<figure><figDesc>`).
+
+**Bis zur Entscheidung beim Redigieren:** Klammern stehen lassen, nur die echte Bildunterschrift
+prüfen. Steckt die Bildunterschrift in der Klammer, sie als normalen Text herausnehmen.
+
+---
+
 <!-- Neue Befunde hier anhängen, Nummerierung fortlaufend.
 
 ## 2 — <Kurztitel>

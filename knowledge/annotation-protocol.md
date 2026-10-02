@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-domain-knowledge"
 status: active
 created: 2026-04-01
-updated: 2026-04-02
+updated: 2026-10-02
 authors: [Christopher Pollin]
 type: protocol
 related:
@@ -577,3 +577,5 @@ Folgende Punkte konnten in diesem Protokoll nicht abschliessend geklaert werden 
 3. **Grenzfaelle bei Einfuegungen**: Wenn Text am Rand steht, aber keine klare Einfuegemarke hat — Marginalie oder Einfuegung? Pilotierung wird zeigen, wie haeufig das vorkommt.
 
 4. **Formular-Linearisierung**: Bei komplexen Tabellen (mehrzeilige Zellen, verschachtelte Felder) — ist die Pipe-Konvention ausreichend? Pilotierung mit einem Formular-Objekt noetig.
+
+5. **Abbildungen und andere Beschreibungen in eckigen Klammern** (offen seit 2026-10-02, aus dem Redigieren): Das Protokoll regelt nicht, wie Abbildungen, Bildunterschriften und Unterschriften wiedergegeben werden. Das Modell erfindet eigene Klammern (`[Abbildung: The Slum von James Pryde]`, `[Bild: …]`, `[Bildunterschrift: …]`, `[Unterschrift]`, `[Randnotiz links: …]`) in uneinheitlicher Form, teils mit der gedruckten Bildunterschrift *in* der Klammer. Zu entscheiden: (a) eine feste Form, z. B. `[Abbildung: Beschreibung]` oder nur `[Abbildung]`, allein auf einer Zeile wie `[Stempel:]`; (b) die Bildunterschrift steht immer als normaler Text darunter, nie in der Klammer; (c) `[Unterschrift]` und die uebrigen undefinierten Klammern in derselben Entscheidung. Danach in §3/§4, im System-Prompt, in der CER-Normalisierung (§5.4) und im Marker-Konverter (`<figure>`/`<figDesc>`) nachziehen. Bis dahin beim Redigieren: Klammern stehen lassen, nur eine in der Klammer steckende Bildunterschrift als Text herausnehmen. Befund mit Umfang → `reports/issue-review-fehlersammlung.md`, Befund 2.

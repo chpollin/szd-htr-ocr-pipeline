@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-09-25
+updated: 2026-10-02
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -95,6 +95,14 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       gehoeren zurueck in `knowledge/annotation-protocol.md` und von dort ins Panel. Offen ist,
       ob das Panel Gruppen-spezifische Regeln (§4: Umschlaege, Stempel, Formularfelder, mehrere
       Haende) ebenfalls aufnehmen sollte — bisher nur die gruppenunabhaengigen Marker.
+- [ ] **Regel fuer Abbildungen und undefinierte Klammern** (Operator-Feedback 2026-10-02) —
+      das Modell beschreibt Abbildungen in selbst erfundenen Klammern (`[Abbildung: …]`,
+      `[Bild: …]`, `[Bildunterschrift: …]`; 68 in 17 Objekten, v. a. Aufsatzablage), teils mit der
+      echten Bildunterschrift in der Klammer. Gleiches Muster bei `[Unterschrift]` (169 in 112
+      Objekten), `[eingefuegt]`, `[Randnotiz links:]`. Erst editorisch entscheiden
+      (Annotationsprotokoll §8 Nr. 5), dann System-Prompt, `evaluate.py`-Normalisierung und
+      `marker_enrich.py` (→ `<figure>`/`<figDesc>`) nachziehen. Befund →
+      `reports/issue-review-fehlersammlung.md`, Befund 2 (Issue #1)
 
 ### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
