@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-journal"
 status: active
 created: 2026-03-30
-updated: 2026-08-26
+updated: 2026-10-19
 authors: [Christopher Pollin]
 type: log
 related:
@@ -2125,5 +2125,47 @@ haette wenig gespart und echten Text riskiert.
 Verifikation: `python -m pytest tests/ pipeline/` — 26 Tests gruen (8 neue in
 `tests/test_salvage.py`); `node --check docs/app.js` ohne Befund; Viewer-Daten neu gebaut, die
 Aenderungen in `docs/data/` betreffen genau die 67 Objekte.
+
+---
+
+## 2026-10-19 — Review-Session: Fehlerklassen am Faksimile, Viewer-Fix fuer Totalausfaelle
+
+Session von Julia Hintersteiner am lokalen Dev-Server. Alle Befunde stammen aus dem Gegenlesen am
+Faksimile und sind mit Umfang in `reports/issue-review-fehlersammlung.md` (Befunde 3–6)
+festgehalten; offene Aufgaben in [[plan]], offene editorische Entscheidungen in
+[[annotation-protocol]] §8 Nr. 6–7.
+
+### Was beim Redigieren auffiel
+
+- **Ergaenzter Text in Detailaufnahmen** (`o:szd.1056`): lange Kontoauszuege sind in linke und
+  rechte Haelfte fotografiert. Das Modell schreibt am Bildrand angeschnittene Woerter aus den
+  anderen Scans aus und normalisiert dabei ("ausgeglihen" → "ausgeglichen"). Keine Regel fuer Text
+  am Bildrand in Prompts oder Protokoll.
+- **Paraphrase bei Konfidenz `high`** (`o:szd.2745`, schwaecher `o:szd.2759`, Handschrift
+  `o:szd.263`): Fraktur-Drucke werden ueber weite Strecken plausibel umgedichtet ("Genien" →
+  "Gatten", "Weltfreunde" → "weltfremden"), `needs_review` bleibt `false`. Gruppe F beschreibt den
+  Basistext als Antiqua, beide Drucke sind Fraktur.
+- **Randnotizen, Bleistiftzusaetze, Stempel fehlen im Text** (`o:szd.2745`, `o:szd.2759`,
+  `o:szd.263`). Ursache ist ein Widerspruch: das Annotationsprotokoll transkribiert `[Marginalie:]`
+  und `[Stempel:]`, die Gruppen-Prompts C, H, I schicken beides in die Notizen.
+- **Keine Notation fuer Umstellungen** (`o:szd.2759`): eine eingekringelte, versetzte Wortgruppe
+  wird zu einer `(`.
+- **Kein Faksimile bei Totalausfaellen** (`o:szd.202`): Fehlersammlung Befund 1 vom 2026-08-26,
+  nach dem Salvage noch 16 Objekte.
+
+### Umgesetzt
+
+`build_viewer_data.py` legt fuer Objekte ganz ohne Seiten je Scan einen Platzhalter
+`"Nicht transkribiert: …"` an (Commit `624c6e0`). Der Viewer zeigt die Faksimiles der 16 Objekte
+jetzt mit dem vorhandenen Badge "Nicht transkribiert"; `results/` ist unveraendert. Freigabe-Sperre
+fuer solche Objekte und Neulauf bleiben offen. Verifikation: `python -m pytest tests/ pipeline/` —
+26 Tests gruen; nach dem Neubau hat kein Objekt im Viewer mehr eine leere Bildliste.
+
+### Methodische Beobachtung
+
+Drei der vier Fehlerklassen sind fuer die Signale unsichtbar: ergaenzter, paraphrasierter oder
+weggelassener Text aendert weder Laenge noch Marker noch Sprache. Sie fallen nur beim Vergleich
+Bild gegen Text auf. Das stuetzt die Regel, dass Approve "gegengelesen" heisst, nicht
+"ueberflogen".
 
 ---

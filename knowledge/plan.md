@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-10-02
+updated: 2026-10-19
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -103,6 +103,18 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       (Annotationsprotokoll §8 Nr. 5), dann System-Prompt, `evaluate.py`-Normalisierung und
       `marker_enrich.py` (→ `<figure>`/`<figDesc>`) nachziehen. Befund →
       `reports/issue-review-fehlersammlung.md`, Befund 2 (Issue #1)
+- [ ] **Regel fuer Text am Bildrand von Detailaufnahmen** (Review 2026-10-19) — das Modell ergaenzt
+      angeschnittene Woerter aus anderen Scans desselben Objekts und normalisiert dabei
+      (`o:szd.1056`). 318 Seiten in 187 Objekten sind laut Modellnotiz Ausschnitte/Detailaufnahmen.
+      Entscheiden: nur Sichtbares mit Marker oder kenntlich ergaenzen (Annotationsprotokoll §8 Nr. 6).
+      Befund → Fehlersammlung, Befund 3
+- [ ] **Stempel und Randnotizen: Prompts ans Annotationsprotokoll angleichen** (Review 2026-10-19) —
+      Gruppen C, H, I schicken Stempel/Annotationen in die Notizen, Protokoll §3.5/§4.2 verlangt
+      `[Marginalie:]`/`[Stempel:]` im Text; Gruppe F kennt keine Vermerke. Bleistiftzusaetze fehlen
+      (`o:szd.2745`, `o:szd.2759`, `o:szd.263`). Befund → Fehlersammlung, Befund 5
+- [ ] **Notation fuer Umstellungen und Setzer-Korrekturzeichen** (Review 2026-10-19) — Kringel mit
+      Versetzungslinie wird zu einer `(` (`o:szd.2759`). Annotationsprotokoll §8 Nr. 7, danach
+      Gruppe F und `marker_enrich.py` (`<transpose>`). Befund → Fehlersammlung, Befund 6
 
 ### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
@@ -116,6 +128,13 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [ ] **Exporte der 67 Objekte neu erzeugen** — `_page.json` und `_mets.xml` stammen vom alten Stand (keine Seiten bzw. ungelesene Scans als `blank`). Nur auf einem Rechner mit Backup: ohne Backup faellt u.a. `rights` aus `metadata.json` still weg
 - [ ] **Veraltete Signale nach Korrekturen** — `serve.py` rechnet `quality_signals` nach einem Edit nicht neu; bei 21 approbierten Objekten passen Zeichenzahlen, Marker, teils `page_types` nicht mehr zum Text. Entscheiden: nach Edit neu berechnen, oder Signale bewusst als Stand der Maschinenfassung einfrieren
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
+- [ ] **Paraphrasen bei Konfidenz `high` erkennen** (Review 2026-10-19) — Fraktur-Drucke werden
+      plausibel umgedichtet (`o:szd.2745` S. 1 durchgehend, `o:szd.2759`), kein Signal schlaegt an.
+      Vorschlag: `verify.py` gezielt auf Fraktur-Drucke; Gruppe F nennt nur Antiqua. Neulauf
+      `o:szd.2745`. Befund → Fehlersammlung, Befund 4
+- [ ] **Freigabe-Sperre fuer Objekte ohne Seiten** — Viewer zeigt die Faksimile der 16 Totalausfaelle
+      seit `624c6e0` mit Badge "Nicht transkribiert"; `handle_approve()`/`handle_edit()` pruefen aber
+      weiter nicht, ob das Ergebnis Seiten hat. Befund → Fehlersammlung, Befund 1
 
 ### 4c: Modellkonsensus & Vergleich
 - [x] `verify.py`: Modellkonsensus (Flash Lite + Flash + Claude Judge)
