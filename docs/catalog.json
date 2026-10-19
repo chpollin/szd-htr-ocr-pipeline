@@ -4197,13 +4197,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 7,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2491/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 7,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -4882,7 +4882,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -6212,7 +6212,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -12704,13 +12704,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 5,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2230/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 5,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -13216,13 +13216,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 5,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2256/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 5,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -14116,13 +14116,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2302/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -14197,13 +14197,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2307/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -14239,13 +14239,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 7,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2309/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 7,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -14320,13 +14320,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.2314/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -52825,13 +52825,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1546/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -53374,13 +53374,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1568/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -78718,13 +78718,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 4,
       "thumbnail": "https://gams.uni-graz.at/o:szd.843/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 4,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -86288,13 +86288,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.121/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -89251,13 +89251,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.170/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -89663,13 +89663,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 13,
       "thumbnail": "https://gams.uni-graz.at/o:szd.202/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 13,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -89722,7 +89722,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },
@@ -91487,13 +91487,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 17,
       "thumbnail": "https://gams.uni-graz.at/o:szd.311/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 17,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -92418,13 +92418,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 25,
       "thumbnail": "https://gams.uni-graz.at/o:szd.1879/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 25,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -93188,13 +93188,13 @@
       "ingestLabel": "",
       "pidStatus": "",
       "confidence": "",
-      "pageCount": 0,
+      "pageCount": 5,
       "thumbnail": "https://gams.uni-graz.at/o:szd.209/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 5,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -96385,7 +96385,7 @@
       "verification": {
         "uncertainCount": 2,
         "illegibleCount": 0,
-        "totalChars": 33116,
+        "totalChars": 33112,
         "emptyPages": 0,
         "avgCharsPerPage": 1035,
         "vlmConfidence": "high"
@@ -96399,7 +96399,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     }

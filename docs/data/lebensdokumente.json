@@ -16257,15 +16257,35 @@
     },
     {
       "id": "o_szd.121_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.121/IMG.1",
+        "https://gams.uni-graz.at/o:szd.121/IMG.2",
+        "https://gams.uni-graz.at/o:szd.121/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -24871,15 +24891,35 @@
     },
     {
       "id": "o_szd.170_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.170/IMG.1",
+        "https://gams.uni-graz.at/o:szd.170/IMG.2",
+        "https://gams.uni-graz.at/o:szd.170/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },

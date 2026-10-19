@@ -10680,15 +10680,59 @@
     },
     {
       "id": "o_szd.2491_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2491/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.5",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.6",
+        "https://gams.uni-graz.at/o:szd.2491/IMG.7"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 6,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 7,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 7,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -12427,7 +12471,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-10-02T08:18:49.735828+00:00"
+      }
     },
     {
       "id": "o_szd.2540_gemini-3.1-flash-lite-preview",
@@ -15686,7 +15735,12 @@
         ]
       },
       "consensus": null,
-      "review": null
+      "review": {
+        "status": "approved",
+        "edited_pages": [],
+        "reviewed_by": "Julia Hintersteiner",
+        "reviewed_at": "2026-09-28T12:53:01.107890+00:00"
+      }
     },
     {
       "id": "o_szd.2640_gemini-3.1-flash-lite-preview",
@@ -34033,15 +34087,47 @@
     },
     {
       "id": "o_szd.2230_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2230/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2230/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2230/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2230/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2230/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 5,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -34898,15 +34984,47 @@
     },
     {
       "id": "o_szd.2256_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2256/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2256/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2256/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2256/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2256/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 5,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -36402,15 +36520,35 @@
     },
     {
       "id": "o_szd.2302_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2302/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2302/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2302/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -36503,15 +36641,35 @@
     },
     {
       "id": "o_szd.2307_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2307/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2307/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2307/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -36545,15 +36703,59 @@
     },
     {
       "id": "o_szd.2309_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2309/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.3",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.4",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.5",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.6",
+        "https://gams.uni-graz.at/o:szd.2309/IMG.7"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 6,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 7,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 7,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },
@@ -36653,15 +36855,35 @@
     },
     {
       "id": "o_szd.2314_gemini-3.1-flash-lite-preview",
-      "images": [],
-      "pages": [],
+      "images": [
+        "https://gams.uni-graz.at/o:szd.2314/IMG.1",
+        "https://gams.uni-graz.at/o:szd.2314/IMG.2",
+        "https://gams.uni-graz.at/o:szd.2314/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."
+        }
+      ],
       "confidence": "",
       "confidenceNotes": "",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
         "totalChars": 0,
-        "emptyPages": 0,
+        "emptyPages": 3,
         "avgCharsPerPage": 0,
         "vlmConfidence": ""
       },

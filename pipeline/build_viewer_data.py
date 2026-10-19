@@ -151,6 +151,16 @@ def build():
             ]
 
         raw_pages = result.get("pages", [])
+        if not raw_pages and all_images:
+            # Totalausfall (leere/kaputte Modellantwort): Pages entstehen sonst nur
+            # aus transkribierten Seiten, das Objekt stuende ohne Faksimile im Viewer.
+            # Platzhalter mit dem Prefix aus quality_signals.UNTRANSCRIBED_PREFIXES,
+            # damit app.js die Scans als "Nicht transkribiert" (nicht leer) zeigt.
+            raw_pages = [
+                {"page": i + 1, "transcription": "",
+                 "notes": "Nicht transkribiert: Modellantwort ohne verwertbare Seiten."}
+                for i in range(len(all_images))
+            ]
         # Filter out color_chart pages (archival reference only, no transcription)
         filtered = [(i, p) for i, p in enumerate(raw_pages) if p.get("type") != "color_chart"]
         pages = [p for _, p in filtered]
