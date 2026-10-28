@@ -24,7 +24,7 @@ Leitfrage: *Nicht* "braucht die Pipeline einen Menschen?" — das ist beantworte
 
 Abgrenzung: [[verification-concept]] beschreibt die *Verfahren* der Qualitaetsmessung, [[annotation-protocol]] die *Konventionen*. Hier geht es um die **Zuordnung von Kompetenz zu Entscheidung** — welche Frage darf wer beantworten.
 
-Urheberschaft wie in [[review-findings]]: **[J]** = Projekt-Reviewerin, Universitaet Salzburg (fachliche Beobachtung), **[C]** = Claude (maschinelle Nachpruefung, Kommando jeweils angegeben).
+Urheberschaft wie in [[review-findings]]: **[J]** = Projekt-Reviewer:in, Universitaet Salzburg (fachliche Beobachtung), **[C]** = Claude (maschinelle Nachpruefung, Kommando jeweils angegeben).
 
 ---
 

@@ -21,7 +21,7 @@ soweit ermittelt) · Umfang (wie viele Objekte) · Folgen · Vorschlag.
 
 ## 1 — Objekte ohne Seiten zeigen kein Faksimile, obwohl GAMS es ausliefert
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-08-26 · Status: teilweise behoben — **Anzeige behoben in** `624c6e0` (2026-10-19), Freigabe-Sperre und Katalog-Kategorie offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-08-26 · Status: teilweise behoben — **Anzeige behoben in** `624c6e0` (2026-10-19), Freigabe-Sperre und Katalog-Kategorie offen
 
 > **Nachtrag 2026-10-19.** Erneut aufgefallen an `o:szd.202` („A great lesson from a great man“,
 > 13 Scans). Nach dem Salvage vom 2026-09-25 sind noch **16 Objekte** betroffen, nicht mehr 34.
@@ -107,7 +107,7 @@ Totalausfälle — vollständige Liste, Ausfallarten je Objekt und Salvage-Poten
 
 ## 2 — Abbildungen werden in eckigen Klammern beschrieben, ohne dass es dafür eine Regel gibt
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-10-02 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-02 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 
@@ -193,7 +193,7 @@ prüfen. Steckt die Bildunterschrift in der Klammer, sie als normalen Text herau
 
 ## 3 — Text, der in Detailaufnahmen am Bildrand abgeschnitten ist, wird aus anderen Bildern ergänzt
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 
@@ -262,7 +262,7 @@ Zuerst entscheiden, dann umsetzen:
 
 ## 4 — Inhaltlich falscher Text bei Konfidenz „high“, ohne dass ein Signal anschlägt
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-10-19 · Status: offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen
 
 ### Symptom
 
@@ -344,7 +344,7 @@ den Werken.
 
 ## 5 — Randnotizen, Bleistiftzusätze und Stempel fehlen im Transkriptionstext
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-10-19 · Status: offen — **Widerspruch zwischen Prompts und Annotationsprotokoll**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **Widerspruch zwischen Prompts und Annotationsprotokoll**
 
 ### Symptom
 
@@ -411,7 +411,7 @@ Schreibweise statt `[Stempel:]`). Fehlende Randnotizen lassen sich ohne Bildverg
 
 ## 6 — Keine Notation für Umstellungen und Korrekturzeichen des Setzers
 
-Gemeldet von der Projekt-Reviewerin (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 

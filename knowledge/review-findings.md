@@ -32,7 +32,7 @@ Jeder Eintrag trennt sichtbar, wer was beigetragen hat. Die Marker gelten fuer d
 
 | Marker | Urheber:in | Bedeutung |
 |---|---|---|
-| **[J]** | Projekt-Reviewerin, Universitaet Salzburg | Fachliche Beobachtung am Material oder am Viewer. Inhaltlich massgeblich. |
+| **[J]** | Projekt-Reviewer:in, Universitaet Salzburg | Fachliche Beobachtung am Material oder am Viewer. Inhaltlich massgeblich. |
 | **[C]** | Claude (Opus 5) | Maschinelle Nachpruefung: Auszaehlung, Code-Lektuere, Vorschlagsentwurf. Immer nachrechenbar — Kommando steht dabei. |
 
 Regeln fuer die Pflege:

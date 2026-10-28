@@ -1379,7 +1379,7 @@ Systematischer Audit aller 12 Knowledge-Dokumente. 10 Probleme in 7 Dateien gefu
 
 ### Kontext
 
-Der Code4Lib-Abstract (Projektleitung mit einer Co-Autorin vom Literaturarchiv Salzburg und der Projekt-Reviewerin der Universitaet Salzburg) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims �ber das Interface:
+Der Code4Lib-Abstract (Projektleitung mit einer Co-Autor:in vom Literaturarchiv Salzburg und der Projekt-Reviewer:in der Universitaet Salzburg) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims �ber das Interface:
 
 1. *Reading / Curation / Verification als drei Funktionen desselben Codes, mode-switched by deployment*
 2. *Expert review deepens editorial commitment along a concentric-edition progression*
@@ -1982,7 +1982,7 @@ Status-Chip, und `active` ist in `docs/app.css` bereits gestylt, waehrend `compl
 
 ## 2026-08-26 — Review-Session: 34 Totalausfaelle erhoben, Viewer nachgezogen
 
-Session der Projekt-Reviewerin (Universitaet Salzburg) am lokalen Dev-Server. Anlass war eine gewoehnliche
+Session der Projekt-Reviewer:in (Universitaet Salzburg) am lokalen Dev-Server. Anlass war eine gewoehnliche
 Redigier-Runde; zwei Befunde daraus sind ueber die Session hinaus relevant.
 
 ### 34 Objekte ohne verwertbares Ergebnis
@@ -2132,7 +2132,7 @@ Aenderungen in `docs/data/` betreffen genau die 67 Objekte.
 
 ## 2026-10-19 — Review-Session: Fehlerklassen am Faksimile, Viewer-Fix fuer Totalausfaelle
 
-Session der Projekt-Reviewerin (Universitaet Salzburg) am lokalen Dev-Server. Alle Befunde stammen aus dem Gegenlesen am
+Session der Projekt-Reviewer:in (Universitaet Salzburg) am lokalen Dev-Server. Alle Befunde stammen aus dem Gegenlesen am
 Faksimile und sind mit Umfang in `reports/issue-review-fehlersammlung.md` (Befunde 3–6)
 festgehalten; offene Aufgaben in [[plan]], offene editorische Entscheidungen in
 [[annotation-protocol]] §8 Nr. 6–7.
@@ -2181,7 +2181,7 @@ Das Repository dient als Fallstudie in einem Paper zur Methode. Eine vorangehend
 - Lizenz: `CLAUDE.md` nannte CC BY 4.0 fuer alles, README, `LICENSE`, `CITATION.cff` und `codemeta.json` seit `2641b28` MIT fuer Code und CC BY 4.0 fuer Texte. `CLAUDE.md` folgt jetzt dem README, [[verification-fair4rs]] traegt den Umsetzungsstand nach.
 - Modellkonsensus: [[verification-concept]] fuehrte Konsensus im Forschungsteil noch als validierten GT-Ersatz, waehrend §2.4 und §4.2 Agreement als Konsistenz ohne Korrektheitsaussage werten und das Dashboard ihn seit Session 23 nicht mehr zeigt. Der aktuelle Stand gilt, die fruehere Fassung steht datiert daneben. Die Verifikationsstufe im README ist entsprechend gefasst.
 - A/B/C-Experiment (Session 25b): Die Empfehlung fuer `gemini-3-flash` und `uncertain_words` wurde nie umgesetzt und nie verworfen. Sie steht jetzt als offene Entscheidung in [[plan]], das Pipeline-Verhalten ist unveraendert.
-- Modellangaben: README und `CLAUDE.md` nannten allein Opus 4.6. Beide folgen jetzt den Co-Authored-By-Trailern (Opus 4.6, Opus 4.8, Fable 5, Opus 5, Opus 5.5) und nennen die Commits der Projekt-Reviewerin, die teils ohne Trailer sind.
+- Modellangaben: README und `CLAUDE.md` nannten allein Opus 4.6. Beide folgen jetzt den Co-Authored-By-Trailern (Opus 4.6, Opus 4.8, Fable 5, Opus 5, Opus 5.5) und nennen die Commits der Projekt-Reviewer:in, die teils ohne Trailer sind.
 - Personennamen Dritter in Wissensdokumenten und Berichten sind durch Rolle und Institution ersetzt. Git-Metadaten, Forschungsdaten und die Autorenzeilen der Paper-Entwuerfe unter `paper/drafts/` sind unberuehrt. `docs/data/knowledge.json` enthaelt die alten Fassungen bis zum naechsten Neubau der Viewer-Daten.
 - Maschinenlokale Pfade: `config.py` und die beiden Importskripte bilden ihre Vorgabepfade jetzt relativ zum Home-Verzeichnis statt als absoluten Pfad mit Benutzernamen. Auf dem Rechner der Projektleitung ergibt sich derselbe Pfad, geprueft per Vergleich der `Path`-Objekte. [[security]] L4 ist als behoben markiert.
 - README: neuer Abschnitt "How this was built" mit Methode, Modellen, Verifikationsschichten, dokumentierten Episoden und bekannten Grenzen; [[index]] verweist darauf. Dieser Eintrag und der Hinweis zur Reihenfolge am Kopf des Journals kommen hinzu.

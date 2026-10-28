@@ -1,6 +1,6 @@
 # Totalausfaelle der Transkriptionspipeline — 34 Objekte ohne verwertbares Ergebnis
 
-Stand: 2026-08-26 · Erhoben von der Projekt-Reviewerin (Universität Salzburg) aus `results/*/*_gemini-3.1-flash-lite-preview.json`
+Stand: 2026-08-26 · Erhoben von der Projekt-Reviewer:in (Universität Salzburg) aus `results/*/*_gemini-3.1-flash-lite-preview.json`
 (Commit `0001f9e`) · Modell: `gemini-3.1-flash-lite-preview`
 
 Bei diesen 34 Objekten hat die Pipeline **keine einzige Seite** erzeugt: `result` enthaelt nur
