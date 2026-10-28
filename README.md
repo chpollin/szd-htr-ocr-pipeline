@@ -164,6 +164,37 @@ The tiers written by this workflow are described above under [Trust tiers and ve
 
 Edits on the public site fall back to `localStorage` (single browser, not persistent across machines). The architectural point: the same UI, the same code base, the same URL — only the presence of a server switches the role from proto-edition to editorial workspace.
 
+## How this was built
+
+The repository is a working case of [Promptotyping](https://dhcraft.org/Promptotyping/), an iterative method in which a domain expert directs a coding agent through maintained project knowledge. Requirements, data descriptions, decisions and findings live as Markdown documents in [`knowledge/`](knowledge/index.md), most of them in German. [`CLAUDE.md`](CLAUDE.md) is the agent's entry point, [`knowledge/plan.md`](knowledge/plan.md) holds open work and dated decisions, and [`knowledge/journal.md`](knowledge/journal.md) is the session log. The method was applied as the project went along. The knowledge base was aligned with the Promptotyping document convention only on 2026-07-31 (journal entry of that date), and the journal keeps early positions that were later revised.
+
+### Models
+
+The Co-Authored-By trailers of the commits name Claude Opus 4.6 for the build phase from March to April 2026, and Claude Opus 4.8, Claude Fable 5, Claude Opus 5 and Claude Opus 5.5 for later work. Commits without a trailer, among them several by the project reviewer, do not record whether an agent was involved. `git log --format='%h %(trailers:key=Co-Authored-By,valueonly)'` reproduces the attribution. Transcription uses Google Gemini 3.1 Flash Lite (preview) unless `HTR_MODEL` says otherwise. Agent checks ran on the Claude models named in the respective reports under `reports/`.
+
+### Layered verification
+
+- Trust tiers are stored states in the `review` block of each result file and are never derived from a score ([Trust tiers](#trust-tiers-and-verification-provenance)). `agent_verified` records a Claude Vision comparison of page and image. `approved` and `gt_verified` are reserved for human review.
+- The model's self-assessed confidence, the rule-based quality signals and the trust tier remain separate fields and separate filters.
+- The raw model output is kept in `transcription_llm` on the first edit, so every human correction stays measurable against it.
+- In [`knowledge/review-findings.md`](knowledge/review-findings.md) each paragraph is marked `[J]` for an observation of the project reviewer at the material and `[C]` for an agent's re-check, which names the command it ran.
+
+### Documented episodes
+
+Each episode was recorded when it happened and shows where a verification layer caught or missed an error.
+
+1. Self-assessed confidence does not discriminate. The first test objects all came back as "high confidence" (journal, Session 6, 2026-04-01), the confidence chart left the statistics dashboard in Session 23 (2026-04-03), and the review of 2026-10-19 found Fraktur prints paraphrased over long passages at confidence `high` without any signal firing (`knowledge/plan.md`, Phase 4b). The record is not uniform, since the journal entry for Session 26 (2026-06-10) reads two spot checks on the letter collection as confirming that self-assessment discriminates.
+2. Silent truncation. A default of `--max-images 5` in `pipeline/run_sample_batch.py` sent at most five images per object to the model. A dedicated diagnostic found the affected objects, the default was set to all images in commit `dcfaa23`, and `transcribe.py` has since recorded the total input image count (journal, Session 20, Phase A).
+3. Valid but wrong TEI. The marker conversion produced well-formed TEI in which most `<add>` elements were false editorial claims, because the model also uses `{}` as word-segmentation noise. Validation could not catch this. Two adversarial multi-agent reviews did, and commit `0fceaa4` restricted the conversion to conservative cases.
+4. Total failures in two waves. The message of commit `0fceaa4` (2026-06-08) already reports silent transcription failures found by a read-only diagnostic. The knowledge base took the class up when the project reviewer met objects without any transcribed page on 2026-08-26, and the report of that day called its list closed (`reports/pipeline-totalausfaelle.md`). The salvage of 2026-09-25 (commit `b1171f8`) showed that it was not, because further objects with failed chunks had been classified as blank pages.
+5. Signal precision depends on the collection. `page_length_anomaly`, calibrated on personal documents and works, flagged legitimately short envelope pages in the letter collection. Agent triage measured the drop, and quality signals v1.6 added an envelope exception (`knowledge/evaluation-results.md`, section 5.3, commit `a96cd7f`).
+
+### Known limits
+
+- Transcription runs on a proprietary preview model behind a paid API, and its output varies between runs at the configured temperature (`knowledge/verification-concept.md`, section 4.3). Re-running the pipeline does not reproduce the stored results. The committed result files, including the raw model output, are the record.
+- Human-verified reference text is scarce. Only part of the ground-truth drafts has been reviewed, and no object carries `gt_verified` yet, so error rates rest on a small human-checked base and on agent checks, which are a model checking a model.
+- Open items in `knowledge/plan.md` include rerunning incomplete transcriptions, an approval lock for objects without pages, quality signals that are not recomputed after edits, calibrating the signals against ground truth, and an undecided recommendation from the A/B/C experiment of 2026-06-09 for a stronger transcription model and an uncertainty field.
+
 ## Related projects
 
 - [zbz-ocr-tei](https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei) — LLM-OCR pipeline for printed texts

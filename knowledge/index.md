@@ -17,7 +17,7 @@ language: de
 version: 0.2
 tags: [index]
 created: 2026-04-01
-updated: 2026-08-21
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: moc
 ---
@@ -77,6 +77,7 @@ Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vaul
 - Vertrauensstufen und Provenienz pruefen: `verification-concept` → `README.md` (Abschnitt Trust tiers) → `pipeline/serve.py`
 - Arbeit wieder aufnehmen: `journal` → `plan`
 - Aussenbezug klaeren: `dia-xai-integration` → `verification-fair4rs`
+- Entstehung und Methode nachvollziehen: `README.md` (Abschnitt How this was built) → `journal` → `review-findings`
 
 ## Konvention
 
@@ -132,5 +133,6 @@ Das Feld `generated-with` steht nur dort, wo die Git-Historie ein einziges Model
 ## Verwandte Dokumente ausserhalb des Vaults
 
 - [CLAUDE.md](../CLAUDE.md) — Agentenkonfiguration und Architekturueberblick
+- [README.md, Abschnitt How this was built](../README.md#how-this-was-built) — Methode, beteiligte Modelle laut Commit-Trailern, Verifikationsschichten, dokumentierte Episoden und bekannte Grenzen, als Einstieg fuer Lesende von aussen
 - [paper/PAPER.md](../paper/PAPER.md) — archiviertes Forschungsmanuskript zum Projektstand vom Juli 2026, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis
 - [results/README.md](../results/README.md) — Aufbau der Ergebnisdateien

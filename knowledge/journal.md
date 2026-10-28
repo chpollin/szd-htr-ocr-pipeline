@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-journal"
 status: active
 created: 2026-03-30
-updated: 2026-10-19
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: log
 related:
@@ -27,6 +27,8 @@ related:
 # SZD-HTR — Research Journal
 
 Chronologisches Log aller Arbeitssessions, Erkenntnisse und Entscheidungen.
+
+Die Eintraege stehen nicht streng in Datumsfolge, und die Sessionnummern sind nicht eindeutig. Die Nummern 24, 25 und 26 kommen je zweimal vor, Session 25b steht vor Session 20b, und der Eintrag vom 2026-08-26 steht vor dem vom 2026-08-21. Massgeblich fuer die Reihenfolge sind die Datumsangaben und die Commit-Historie. Die Eintraege bleiben als Provenienz unveraendert (Hinweis vom 2026-10-28).
 
 ---
 
@@ -2169,3 +2171,23 @@ Bild gegen Text auf. Das stuetzt die Regel, dass Approve "gegengelesen" heisst, 
 "ueberflogen".
 
 ---
+
+## 2026-10-28 — Kuratierung fuer die Fallstudie im Promptotyping-Paper
+
+Das Repository dient als Fallstudie in einem Paper zur Methode. Eine vorangehende lesende Pruefung hatte Widersprueche zwischen Wissensstand, Code und Rahmendokumenten gemeldet; jeder Befund wurde vor der Aenderung gegen die Dateien geprueft. Ausgangsstand ist Commit `9c5b836`. Inhaltliches wurde vollstaendig korrigiert, Form nur dort, wo sie Lesenden von aussen den Zugang erschwert. Journal, Reviews, Evaluationen und datierte Befunde bleiben als Beleg stehen.
+
+### Was sich geaendert hat
+
+- Lizenz: `CLAUDE.md` nannte CC BY 4.0 fuer alles, README, `LICENSE`, `CITATION.cff` und `codemeta.json` seit `2641b28` MIT fuer Code und CC BY 4.0 fuer Texte. `CLAUDE.md` folgt jetzt dem README, [[verification-fair4rs]] traegt den Umsetzungsstand nach.
+- Modellkonsensus: [[verification-concept]] fuehrte Konsensus im Forschungsteil noch als validierten GT-Ersatz, waehrend §2.4 und §4.2 Agreement als Konsistenz ohne Korrektheitsaussage werten und das Dashboard ihn seit Session 23 nicht mehr zeigt. Der aktuelle Stand gilt, die fruehere Fassung steht datiert daneben. Die Verifikationsstufe im README ist entsprechend gefasst.
+- A/B/C-Experiment (Session 25b): Die Empfehlung fuer `gemini-3-flash` und `uncertain_words` wurde nie umgesetzt und nie verworfen. Sie steht jetzt als offene Entscheidung in [[plan]], das Pipeline-Verhalten ist unveraendert.
+- Modellangaben: README und `CLAUDE.md` nannten allein Opus 4.6. Beide folgen jetzt den Co-Authored-By-Trailern (Opus 4.6, Opus 4.8, Fable 5, Opus 5, Opus 5.5) und nennen die Commits der Projekt-Reviewerin, die teils ohne Trailer sind.
+- Personennamen Dritter in Wissensdokumenten und Berichten sind durch Rolle und Institution ersetzt. Git-Metadaten, Forschungsdaten und die Autorenzeilen der Paper-Entwuerfe unter `paper/drafts/` sind unberuehrt. `docs/data/knowledge.json` enthaelt die alten Fassungen bis zum naechsten Neubau der Viewer-Daten.
+- Maschinenlokale Pfade: `config.py` und die beiden Importskripte bilden ihre Vorgabepfade jetzt relativ zum Home-Verzeichnis statt als absoluten Pfad mit Benutzernamen. Auf dem Rechner der Projektleitung ergibt sich derselbe Pfad, geprueft per Vergleich der `Path`-Objekte. [[security]] L4 ist als behoben markiert.
+- README: neuer Abschnitt "How this was built" mit Methode, Modellen, Verifikationsschichten, dokumentierten Episoden und bekannten Grenzen; [[index]] verweist darauf. Dieser Eintrag und der Hinweis zur Reihenfolge am Kopf des Journals kommen hinzu.
+
+### Offen
+
+Ob die woertliche Antragspassage in [[dia-xai-integration]] §2 in einem oeffentlichen Repository stehen soll, entscheidet die Projektleitung. Ebenso offen sind der Neubau von `docs/data/knowledge.json` und die Frage, ob `handoff.md`, `project.md` und `specification.md` nach der Konvention ergaenzt werden.
+
+Verifikation: `python -m pytest tests/ pipeline/ -p no:cacheprovider` vor jedem Commit gruen. Ruff ist im Projekt nicht konfiguriert, ein Lauf mit Standardregeln ueber die geaenderten Skripte zeigt keine neuen Befunde.
