@@ -1004,6 +1004,19 @@ async function showKnowledgeDoc(slug) {
   resetDiffMode();
   await ensureKnowledgeData();
 
+  // Renamed documents keep their former slugs as aliases (knowledge/INDEX.md);
+  // rewrite an old bookmark in place so back navigation does not loop.
+  if (slug.toLowerCase() === 'index') {
+    history.replaceState(null, '', '#knowledge');
+    showKnowledgeIndex();
+    return;
+  }
+  const current = state.knowledgeData?.aliases?.[slug];
+  if (current && !state.knowledgeData.docs?.[slug]) {
+    history.replaceState(null, '', '#knowledge/' + current);
+    slug = current;
+  }
+
   const doc = state.knowledgeData?.docs?.[slug];
   if (!doc) {
     document.getElementById('knowledgeDocContent').innerHTML =

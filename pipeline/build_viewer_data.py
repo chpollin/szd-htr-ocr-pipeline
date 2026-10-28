@@ -426,30 +426,32 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
 
 
 def parse_index_sections(body: str) -> list[dict]:
-    """Parse index.md body to extract section groupings with slugs."""
+    """Group the document slugs of INDEX.md by their nearest heading.
+
+    Only wikilinks in table rows count as documents, so reading paths and term
+    definitions further down the index can link freely without becoming
+    navigation sections. A slug keeps the first section it appears in.
+    """
     sections = []
+    seen = set()
     current_label = None
     current_slugs = []
 
-    for line in body.split("\n"):
+    for line in body.splitlines():
         line = line.strip()
-        # Section headers: ## Leseordnung, ## Spezifikationen, ## Projektlog
-        if line.startswith("## "):
+        heading = re.match(r"^#{2,3} (.+)$", line)
+        if heading:
             if current_label and current_slugs:
                 sections.append({"label": current_label, "slugs": current_slugs})
-            heading = line[3:].strip()
-            # Skip non-content sections
-            if heading.lower().startswith("verwandte"):
-                current_label = None
-                current_slugs = []
-                continue
-            current_label = heading
+            current_label = heading.group(1).strip()
             current_slugs = []
             continue
-        # Extract [[slug]] from list items
-        m = re.search(r"\[\[(.+?)\]\]", line)
-        if m and current_label:
-            current_slugs.append(m.group(1))
+        if not line.startswith("|") or not current_label:
+            continue
+        for slug in re.findall(r"\[\[(.+?)\]\]", line):
+            if slug not in seen:
+                seen.add(slug)
+                current_slugs.append(slug)
 
     if current_label and current_slugs:
         sections.append({"label": current_label, "slugs": current_slugs})
@@ -457,9 +459,39 @@ def parse_index_sections(body: str) -> list[dict]:
     return sections
 
 
-def build_knowledge():
+def _is_index(slug: str) -> bool:
+    return slug.lower() == "index"
+
+
+def collect_titles_and_aliases(knowledge_dir) -> tuple[dict, dict]:
+    """Map each document slug to its title, and each former slug to its current one.
+
+    A renamed document lists its former slugs under ``aliases:``. The alias
+    table keeps old wikilinks and bookmarked ``#knowledge/<old-slug>`` URLs
+    working. Aliases that collide with a live slug, or that belong to the
+    index, are ignored, because a live document always wins.
+    """
+    title_map = {}
+    declared = {}
+    for md_file in sorted(knowledge_dir.glob("*.md")):
+        slug = md_file.stem
+        if _is_index(slug):
+            continue
+        fm, _ = parse_frontmatter(md_file.read_text(encoding="utf-8"))
+        title_map[slug] = fm.get("title", slug)
+        aliases = fm.get("aliases") or []
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        for alias in aliases:
+            declared.setdefault(str(alias), slug)
+    alias_map = {old: new for old, new in declared.items() if old not in title_map}
+    return title_map, alias_map
+
+
+def build_knowledge(knowledge_dir=None, out_path=None):
     """Build docs/data/knowledge.json from knowledge/*.md + README.md."""
-    knowledge_dir = PROJECT_ROOT / "knowledge"
+    knowledge_dir = knowledge_dir or PROJECT_ROOT / "knowledge"
+    out_path = out_path or DATA_DIR / "knowledge.json"
     if not knowledge_dir.exists():
         print("  Knowledge-Verzeichnis nicht gefunden, ueberspringe.")
         return
@@ -467,38 +499,39 @@ def build_knowledge():
     md_extensions = ["tables", "fenced_code", "toc"]
     md_converter = markdown.Markdown(extensions=md_extensions)
 
-    # First pass: collect all slugs + titles for wiki-link resolution
-    title_map = {}
-    for md_file in sorted(knowledge_dir.glob("*.md")):
-        slug = md_file.stem
-        fm, _ = parse_frontmatter(md_file.read_text(encoding="utf-8"))
-        title_map[slug] = fm.get("title", slug)
+    # First pass: titles for wikilink labels, aliases for renamed documents
+    title_map, alias_map = collect_titles_and_aliases(knowledge_dir)
 
-    # Parse index.md for section structure
-    index_file = knowledge_dir / "index.md"
+    # INDEX.md carries the section structure; it is not rendered as a document
+    index_file = next(
+        (f for f in sorted(knowledge_dir.glob("*.md")) if _is_index(f.stem)), None
+    )
     sections = []
-    if index_file.exists():
+    if index_file:
         _, index_body = parse_frontmatter(index_file.read_text(encoding="utf-8"))
         sections = parse_index_sections(index_body)
-
-    # Flat reading order from sections
-    reading_order = []
-    for sec in sections:
-        reading_order.extend(sec["slugs"])
+        placed = set()
+        for sec in sections:
+            current = [alias_map.get(s, s) for s in sec["slugs"]]
+            sec["slugs"] = [s for s in dict.fromkeys(current) if s not in placed]
+            placed.update(sec["slugs"])
+        sections = [sec for sec in sections if sec["slugs"]]
 
     # Second pass: convert each document
     docs = {}
     for md_file in sorted(knowledge_dir.glob("*.md")):
         slug = md_file.stem
-        if slug == "index":
-            continue  # index is used for structure, not rendered as doc
+        if _is_index(slug):
+            continue
 
         raw = md_file.read_text(encoding="utf-8")
         fm, body = parse_frontmatter(raw)
 
         # Resolve wiki-links: [[slug]] -> <a href="#knowledge/slug">title</a>
         def resolve_wikilink(m):
-            target = m.group(1)
+            target = alias_map.get(m.group(1), m.group(1))
+            if _is_index(target):
+                return '<a href="#knowledge" class="knowledge__wikilink">Index</a>'
             title = title_map.get(target, target)
             return f'<a href="#knowledge/{target}" class="knowledge__wikilink">{title}</a>'
 
@@ -524,10 +557,10 @@ def build_knowledge():
 
         # Parse related links from frontmatter
         related = []
-        for r in fm.get("related", []):
+        for r in fm.get("related", []) or []:
             m_rel = re.search(r"\[\[(.+?)\]\]", str(r))
             if m_rel:
-                related.append(m_rel.group(1))
+                related.append(alias_map.get(m_rel.group(1), m_rel.group(1)))
 
         # Word count
         words = len(re.findall(r"\w+", body))
@@ -561,11 +594,11 @@ def build_knowledge():
             "count": len(docs),
         },
         "sections": sections,
+        "aliases": alias_map,
         "docs": docs,
         "about": about,
     }
 
-    out_path = DATA_DIR / "knowledge.json"
     out_path.write_text(
         json.dumps(knowledge_json, ensure_ascii=False, indent=2), encoding="utf-8"
     )
