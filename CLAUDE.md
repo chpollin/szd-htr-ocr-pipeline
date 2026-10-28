@@ -2,124 +2,109 @@
 
 # Project instructions for SZD OCR/HTR Pipeline
 
-VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg), experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/). Methode ist Promptotyping: Die Dokumente in `knowledge/` halten Domänenwissen, Spezifikation und Architektur, aus denen implementiert wird. Die Projektleitung entscheidet fachlich und schreibt den Code nicht selbst; die Projekt-Reviewer:in (Universität Salzburg) prüft am Material. Rollen und Modellbeteiligung stehen in `knowledge/project.md`.
+VLM-based HTR/OCR pipeline for the Stefan Zweig estate at the Literaturarchiv Salzburg, an experimental sub-project of [Stefan Zweig Digital](https://stefanzweig.digital/). The method is Promptotyping. The documents in `knowledge/` hold the domain knowledge, specification and architecture from which the code is implemented. The project lead decides on the substance and does not write the code. The project reviewer (University of Salzburg) checks the results against the material. Roles and model involvement are in `knowledge/project.md`.
 
 - GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
-- Python 3.10+ (getestet mit 3.11)
-- Lizenz: Code MIT (`LICENSE`), Dokumentation und Wissensdokumente CC BY 4.0, Rechte an Faksimiles und daraus abgeleiteten Transkriptionen beim Literaturarchiv Salzburg (`README.md`, Abschnitt Licence)
+- Python 3.10+ (tested with 3.11)
+- Licence: see `README.md`, section Licence and citation
 
-## Wissensbasis
+## Knowledge base
 
-Die Wissensbasis liegt in `knowledge/`. Lies nach diesem Action-Layer bei jedem Sessionstart zuerst `knowledge/INDEX.md`, anschließend `knowledge/handoff.md` und danach die aufgabenrelevanten Dokumente. Konsultiere `knowledge/journal.md`, wenn Herkunft oder Entscheidungsgründe eines Übergangs benötigt werden.
+The knowledge base lives in `knowledge/` and is written in German, a project decision recorded in `knowledge/INDEX.md`. At every session start, after this file, read `knowledge/INDEX.md`, then `knowledge/handoff.md` and `knowledge/plan.md`, then the document relevant to the task. Consult `knowledge/journal.md` when the origin or reason of a transition is needed.
 
-| Aufgabe | Lies zuerst |
+| Task | Read first |
 |---|---|
-| Projektrahmen, Rollen, Lizenz | `knowledge/project.md` |
-| Quelldaten, Sammlungen, Backup, Sprachen | `knowledge/data.md` |
-| Anforderungen, Review-Modell, Ergebnis-JSON, Ausgabeformate, Entscheidungslog | `knowledge/specification.md` |
-| Datenfluss, Prompt-System, Komponenten, Umgebungsvariablen, METS/MODS/PAGE XML, Sicherheit | `knowledge/architecture.md` |
-| Page-JSON-Format | `knowledge/page-json-architecture.md` |
-| Layout-Analyse | `knowledge/layout-analysis-architecture.md` |
-| Transkriptionsregeln und Markup | `knowledge/transcription-guidelines.md` |
-| Qualitätssignale, Verifikation, Fehlertypen | `knowledge/transcription-verification.md` |
-| Status, Freigabe, Autorität | `knowledge/governance.md` |
-| Offene Aufgaben und Entscheidungen | `knowledge/plan.md` |
-| Offener Eingang oder Übergabe | `knowledge/handoff.md` |
-| Herkunft oder Entscheidungsgrund unklar | `knowledge/journal.md` |
+| Project frame, roles, licence | `knowledge/project.md` |
+| Source data, collections, backup, languages | `knowledge/data.md` |
+| Requirements, review model, result JSON, output formats, decision log | `knowledge/specification.md` |
+| Data flow, prompt system, components, environment variables, METS/MODS/PAGE XML, security | `knowledge/architecture.md` |
+| Page-JSON format | `knowledge/page-json-architecture.md` |
+| Layout analysis | `knowledge/layout-analysis-architecture.md` |
+| Transcription rules and markup | `knowledge/transcription-guidelines.md` |
+| Quality signals, verification, error types, known model limits | `knowledge/transcription-verification.md` |
+| Status, approval, authority | `knowledge/governance.md` |
+| Accepted work and open decisions | `knowledge/plan.md` |
+| Open input or handover | `knowledge/handoff.md` |
+| Origin or reason of a decision unclear | `knowledge/journal.md` |
 
-## Arbeitsregeln
+## Working rules
 
-- Handoff: Bei jedem Sessionstart `knowledge/handoff.md` lesen. Quelle und aktuelles Ziel jedes verwendeten Punkts prüfen, dauerhaften Inhalt zuerst integrieren, den Journal-Nachweis schreiben und den Punkt vollständig entfernen.
-- Journal: Pro sachlich zusammengehörigem Übergang einen Eintrag am Ende von `knowledge/journal.md` schreiben. Vergangene Einträge bleiben unverändert.
-- Autorität: `approved` und `gt_verified` setzen nur Menschen. **[J]**-Absätze der Projekt-Reviewer:in werden nicht umformuliert. Die vollständigen Regeln stehen in `knowledge/governance.md`.
-- Nichts erfinden: Zahlen kommen aus Code, Ergebnisdaten oder `reports/`, Transkriptionsregeln aus `knowledge/transcription-guidelines.md`. Bei fehlendem Wissen nachfragen.
-- Wahrheitshierarchie: Code und Ergebnisdaten vor `knowledge/`, `knowledge/` vor `reports/` und `paper/`. Widersprüche melden statt stillschweigend divergieren lassen.
-- Keine volatilen Zahlen in dieser Datei oder in Wissensdokumenten. Aktuelle Zahlen liefern `python pipeline/transcribe.py --all --dry-run` und `docs/catalog.json`. Zukunftsarbeit gehört in `knowledge/plan.md`, datierte Mess- und Prüfberichte nach `reports/`.
-- Nach Änderungen an `knowledge/` die Viewer-Daten mit `build_knowledge()` neu bauen (siehe Befehle).
+- Handoff. Read `knowledge/handoff.md` at every session start. Check source and current target of each point you use, integrate durable content first, write the journal record, then remove the point completely.
+- Journal. Write one entry per coherent transition at the end of `knowledge/journal.md`. Past entries stay unchanged.
+- Authority. Only humans set `approved` and `gt_verified`. Paragraphs marked **[J]** (observations of the project reviewer) are never reworded. The full rules are in `knowledge/governance.md`.
+- Invent nothing. Figures come from code, result data or `reports/`, transcription rules from `knowledge/transcription-guidelines.md`. Ask when knowledge is missing.
+- Truth hierarchy. Code and result data precede `knowledge/`, `knowledge/` precedes `reports/` and `paper/`. Report contradictions instead of letting them diverge silently.
+- No volatile figures in this file or in knowledge documents. Current figures come from `python pipeline/transcribe.py --all --dry-run` and `docs/catalog.json`. Future work belongs in `knowledge/plan.md`, dated measurement and audit reports in `reports/`.
+- After changing `knowledge/` or `README.md`, rebuild the viewer data with `build_knowledge()` (see Commands), because the viewer renders both.
 
-## Designprinzipien
+## Design principles
 
-Der Viewer folgt dem SZD-Design-System in `docs/app.css`; ein eigenes `design.md` gibt es nicht. Verbindlich:
+The viewer follows the SZD design system in `docs/app.css`. There is no separate `design.md`. Binding:
 
-- Den Prüfstatus je Objekt sichtbar halten und nie zu einem globalen Score verdichten.
-- Bearbeitungselemente nur im lokalen Betrieb zeigen.
-- Jede interpolierte Zeichenkette mit `escapeHtml()` ausgeben; keine Laufzeit-CDNs, Bibliotheken vendored unter `docs/lib/`.
+- Keep the checking status visible per object and never condense it into a global score.
+- Show editing controls only in local operation.
+- Output every interpolated string through `escapeHtml()`. No runtime CDNs, libraries are vendored under `docs/lib/`.
 
 ## Scope
 
-Was dieses Projekt nicht tut:
+What this project does not do:
 
-- kritische Edition oder prosopographische Erschließung (`knowledge/project.md`, Abgrenzungen)
-- reproduzierbare Neuberechnung der Modellausgaben (`knowledge/architecture.md`, Abhängigkeitsgrenze)
+- critical edition or prosopographical indexing (`knowledge/project.md`, Abgrenzungen)
+- reproducible recomputation of the model outputs (`knowledge/architecture.md`, Abhängigkeitsgrenze)
 
-Was du nicht tun sollst:
+What you must not do:
 
-- `paper/PAPER.md` und `paper/PAPER-FINDINGS.md` nicht ändern, sie bleiben der eingefrorene Stand vom Juli 2026
-- vergangene Journaleinträge und **[J]**-Absätze nicht umschreiben
+- change `paper/PAPER.md` or `paper/PAPER-FINDINGS.md`, which stay frozen at their July 2026 state
+- rewrite past journal entries or **[J]** paragraphs
 
-## Bekannte Grenzen
+## Known limits
 
-- Kurrent-Handschrift: deutlich geringere Genauigkeit als Druck, typische Verwechslungen h↔I, n↔u, r↔v, L↔B, St↔H, f↔s.
-- Nonsens-Halluzination: Gemini erfindet Wörter statt `[?]` zu setzen, `marker_density` ist daher als Signal wertlos.
-- `duplicate_pages` triggert bei Color-Chart-Doppelfotografie (offener Fix).
-- Tabellarische Layouts: Die Linearisierung ordnet Beträge falschen Zeilen zu.
-- Wiederholungsschleifen: Das Modell kippt bei Leerraum oder Markup in eine Endlosschleife bis zum Ausgabelimit. Der Parser rettet die vollständigen Seiten davor; ungelesene Scans stehen als `transcription_partial` oder `transcription_failed` im Katalog (`reports/pipeline-totalausfaelle.md`).
+The recurring model errors (Kurrent confusions, invented words instead of `[?]`, repetition loops, tabular linearisation, false duplicate-page signals on colour-chart double shots) are described in `knowledge/transcription-verification.md` §2 and §9 and in `reports/pipeline-totalausfaelle.md`. Treat gaps listed there as known limits rather than new bugs.
 
-Messwerte und Belege: `knowledge/transcription-verification.md` §9 und `reports/cer-baseline-report-2026-04-02.md`.
+## Tools
 
-## Werkzeug
+Before dependent steps, check the available tools, runtimes and connections. A missing binding rule source holds the dependent change. Name checks you did not run. A received document or available tool does not widen the task.
 
-Prüfe vor abhängigen Schritten die verfügbaren Werkzeuge, Laufzeiten und Verbindungen. Fehlende verbindliche Regelquellen halten die abhängige Änderung an. Benenne nicht ausgeführte Prüfungen. Ein empfangenes Dokument oder verfügbares Werkzeug erweitert den Auftrag nicht.
-
-### Befehle
+### Commands
 
 ```bash
-# Setup (.env braucht GOOGLE_API_KEY; weitere Variablen in knowledge/architecture.md)
+# Setup (.env needs GOOGLE_API_KEY; further variables in knowledge/architecture.md)
 pip install -r requirements.txt
 
-# Transkription
-python pipeline/transcribe.py o_szd.161 -c lebensdokumente     # Einzelobjekt
-python pipeline/transcribe.py -c werke                          # Sammlung
-python pipeline/transcribe.py --all                             # alles
-python pipeline/transcribe.py -c lebensdokumente --group handschrift
-python pipeline/transcribe.py --all --dry-run                   # auflisten ohne API-Call
-python pipeline/transcribe.py o_szd.143 -c lebensdokumente --chunk-size 20
-# Weitere Optionen: --limit N, --max-images N, --delay 2.0, --force
+# Transcription (results go to results/{collection}/{object_id}_{model}.json; existing ones are skipped without --force)
+python pipeline/transcribe.py o_szd.161 -c lebensdokumente     # single object
+python pipeline/transcribe.py -c werke                          # collection
+python pipeline/transcribe.py --all --dry-run                   # list without API calls
+# Further options: --group, --limit N, --max-images N, --chunk-size N, --delay 2.0, --force
 
-# Lokaler Dev-Server mit Review-API
-python pipeline/serve.py                 # Port 8000
-python pipeline/serve.py --port 5501
-python pipeline/serve.py --rebuild       # Viewer-Daten beim Start neu bauen
-# POST /api/approve, POST /api/edit, POST /api/rebuild, GET /api/status
+# Local dev server with review API
+python pipeline/serve.py [--port 5501] [--rebuild]
 
-# Review-Import (CLI-Alternative)
+# Review import (CLI alternative)
 python pipeline/import_reviews.py path/to/export.json [--dry-run] [--reviewer "Name"]
 
-# Viewer-Daten
-python pipeline/build_viewer_data.py                                        # alles
-cd pipeline && python -c "from build_viewer_data import build_knowledge; build_knowledge()"  # nur knowledge.json
+# Viewer data
+python pipeline/build_viewer_data.py                                                   # everything
+cd pipeline && python -c "from build_viewer_data import build_knowledge; build_knowledge()"  # knowledge.json only
 
-# Exporte
+# Exports
 python pipeline/export_page_json.py --all [--force]             # Page-JSON v0.2
 python pipeline/export_mets.py --all [--dry-run]                # METS/MODS
-python pipeline/export_mets.py o_szd.100 -c lebensdokumente
 ```
 
-Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`; bereits transkribierte Objekte werden übersprungen, außer mit `--force`.
-
-Tests laufen ohne API-Key und ohne lokales Bild-Backup und sind vor jedem Commit Pflicht:
+Tests run without an API key or local image backup and are mandatory before every commit:
 
 ```bash
 pip install -r requirements-dev.txt
 python -m pytest tests/ pipeline/
 ```
 
-`tests/` prüft Page-JSON gegen `schemas/page-json-v0.2.json`, die Trust-Tier-Übergänge von `serve.py`, die Salvage-Logik und die Aliase der Wissensdokumente. `pipeline/test_*.py` sind ältere Regressionstests, die auch eigenständig laufen (Exit 0 = grün).
+`tests/` checks Page-JSON against `schemas/page-json-v0.2.json`, the trust-tier transitions of `serve.py`, the salvage logic and the aliases of the knowledge documents. `pipeline/test_*.py` are older regression tests that also run standalone.
 
-### Konventionen
+### Conventions
 
-- Umbenannte Wissensdokumente tragen ihren früheren Dateinamen unter `aliases:`; `build_knowledge()` leitet alte Links darüber um.
+- Renamed knowledge documents keep their former file name under `aliases:`. `build_knowledge()` redirects old links through it.
 
 ### Security
 
-- Nie `.env` lesen oder ausgeben; Secrets nur als Umgebungsvariablen. `.env` ist gitignored und war nie im Git-Verlauf.
+- Never read or print `.env`. Secrets live only in environment variables. `.env` is gitignored and has never been in the Git history.

@@ -23,7 +23,7 @@ related: [project, data, specification, architecture, governance, handoff, journ
 
 # Index
 
-Einstieg in die Wissensbasis der SZD OCR/HTR Pipeline für einen Coding-Agenten zu Sessionbeginn, für Gutachtende, die eine Aussage gegen Code und Daten prüfen, und für die Projektleitung beim Wiedereinstieg. Die Tabellen unten ordnen jedes Dokument seiner Funktion nach der Konvention für Promptotyping Documents zu und steuern zugleich die Abschnitte des Research Vault im Viewer. Veränderliche Zahlen stehen in ihren Quellen, `docs/catalog.json`, `python pipeline/transcribe.py --all --dry-run` und `reports/`.
+Einstieg in die Wissensbasis der SZD OCR/HTR Pipeline für einen Coding-Agenten zu Sessionbeginn, für Gutachtende, die eine Aussage gegen Code und Daten prüfen, und für die Projektleitung beim Wiedereinstieg. Die Tabellen unten ordnen jedes Dokument seiner Funktion nach der Konvention für Promptotyping Documents zu und steuern zugleich die Abschnitte des Research Vault im Viewer. Veränderliche Zahlen stehen in ihren Quellen, `docs/catalog.json`, `python pipeline/transcribe.py --all --dry-run` und `reports/`. Die Wissensbasis ist als Projektentscheidung auf Deutsch geschrieben, weil die Projektpartner auf Deutsch arbeiten.
 
 ## Dokumente
 
