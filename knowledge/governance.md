@@ -25,7 +25,7 @@ related:
 - `agent_verified` setzt nur die Agent-Verifikation und schreibt dabei Modellkennung, Befunde und Änderungsquelle mit ([[transcription-verification]] §8).
 - Absätze mit **[J]** stammen von der Projekt-Reviewer:in und werden von Agenten weder umformuliert noch korrigiert. Eine abweichende Nachprüfung steht als **[C]**-Absatz darunter ([[review-findings]]).
 - Das Review-Modell, das Label-Vokabular, editorische Regeln in [[transcription-guidelines]] und Modellwechsel entscheidet die Projektleitung; Agenten bereiten diese Entscheidungen mit nachrechenbaren Befunden vor und führen sie in [[plan]] als offen.
-- Vergangene Journaleinträge und das eingefrorene Manuskript unter `paper/` werden nicht umgeschrieben.
+- Vergangene Journaleinträge werden nur in einer Verdichtung nach der Vorlage Journal umgeschrieben, die ihren Vorgängerstand nennt. Das eingefrorene Manuskript unter `paper/` wird nicht umgeschrieben.
 
 ## Expert-in-the-Loop: Wo ist welche Expertise nötig?
 

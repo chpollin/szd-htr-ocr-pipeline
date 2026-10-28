@@ -77,7 +77,7 @@ Einstieg in die Wissensbasis der SZD OCR/HTR Pipeline für einen Coding-Agenten 
 
 ### Frühere Dateinamen
 
-Die Wissensbasis wurde am 2026-10-28 nach den Promptotyping-Vorlagen vereinheitlicht. Ältere Journaleinträge, **[J]**-Absätze und das Manuskript unter `paper/` verwenden die früheren Namen; `aliases:` im Frontmatter und die Alias-Tabelle des Viewers führen sie auf das aktuelle Dokument.
+Die Wissensbasis wurde am 2026-10-28 nach den Promptotyping-Vorlagen vereinheitlicht. **[J]**-Absätze und das Manuskript unter `paper/` verwenden die früheren Namen, ebenso das Journal vor seiner Verdichtung (`3d7f216`); `aliases:` im Frontmatter und die Alias-Tabelle des Viewers führen sie auf das aktuelle Dokument.
 
 | Früherer Name | Aktuelles Dokument |
 |---|---|

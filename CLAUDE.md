@@ -30,7 +30,7 @@ The knowledge base lives in `knowledge/` and is written in German, a project dec
 ## Working rules
 
 - Handoff. Read `knowledge/handoff.md` at every session start. Check source and current target of each point you use, integrate durable content first, write the journal record, then remove the point completely.
-- Journal. Write one entry per coherent transition at the end of `knowledge/journal.md`. Past entries stay unchanged.
+- Journal. Write one entry per coherent transition at the top of `knowledge/journal.md`, newest first, with the fields of the journal template (Anlass, Befund, Entschieden, Korrigiert, Geändert, Belege) and at least one commit or other evidence. Past entries change only in a compaction that follows the template and records its parent commit.
 - Authority. Only humans set `approved` and `gt_verified`. Paragraphs marked **[J]** (observations of the project reviewer) are never reworded. The full rules are in `knowledge/governance.md`.
 - Invent nothing. Figures come from code, result data or `reports/`, transcription rules from `knowledge/transcription-guidelines.md`. Ask when knowledge is missing.
 - Truth hierarchy. Code and result data precede `knowledge/`, `knowledge/` precedes `reports/` and `paper/`. Report contradictions instead of letting them diverge silently.
@@ -55,7 +55,7 @@ What this project does not do:
 What you must not do:
 
 - change `paper/PAPER.md` or `paper/PAPER-FINDINGS.md`, which stay frozen at their July 2026 state
-- rewrite past journal entries or **[J]** paragraphs
+- rewrite past journal entries outside a template compaction, or reword **[J]** paragraphs
 
 ## Known limits
 

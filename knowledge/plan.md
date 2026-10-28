@@ -169,6 +169,19 @@ Befund vom 2026-07-23 und Umsetzungsstand in `reports/fair4rs-verification-2026-
 - [ ] Versionierte Releases mit Tags (F1.2)
 - [ ] Zenodo-Release mit DOI, geschnitten wenn der Stand trägt (F1, A2)
 
+### Aus dem Journal übernommene Punkte
+
+Diese Punkte standen bis zur Verdichtung vom 2026-10-28 nur im Journal. Ihr Datum nennt den Eintrag, ob sie inzwischen erledigt sind, ist ungeprüft.
+
+- [ ] `import_reviews.py` kann `status: "reviewed"` schreiben, einen Wert außerhalb der Vertrauensstufen. Einordnen oder entfernen (2026-07-30).
+- [ ] `gt_verified` ist implementiert, aber von keinem Objekt belegt. In der Praxis belegen oder die Beschreibung anpassen (2026-07-30).
+- [ ] Ablage von `SETUP-REVIEW.md` und `SETUP-REVIEW-KURZ.md` im Root, Entscheidung der Projektleitung (2026-07-30).
+- [ ] Ob die wörtliche Antragspassage in [[dia-xai-integration]] §2 in einem öffentlichen Repository stehen soll, entscheidet die Projektleitung (2026-10-28).
+- [ ] Sprachfeld der AAL-Objekte in GAMS und Cirilo fachlich klären, weil Cirilo pauschal „Deutsch“ setzt (2026-06-10). Die übrigen AAL-Restpunkte stehen in `reports/aal-ingest-restliste.md`.
+- [ ] RelaxNG-Validierung der TEI-Ausgabe gegen das offizielle TEI-Schema (2026-04-03).
+- [ ] Layout-Analyse: Sachfotos als `page.type=photograph` erkennen (2026-04-03).
+- [ ] Offene Fragen vom 2026-04-03: Bildgröße vor dem API-Call, Text auf falscher Seite bei Typoskripten mit Rückseiten, Zuordnung der `correspDesc`-Einträge zu Einzelbriefen, Kalibrierung der Verification-by-Vision gegen Ground Truth, Precision und Recall von `language_mismatch`.
+
 ## Status-Tracker
 
 | Phase | Status | Notizen |

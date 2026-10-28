@@ -127,7 +127,7 @@ The Editorial Workspace dashboard (local only) makes the Git-based workflow visi
 The Project Transparency panel (public and local) sits below the catalogue statistics and makes the project's methodological decisions and evidence inspectable:
 
 - Promptotyping Vault enumerates the Markdown documents in `knowledge/` with in-app links.
-- Research Journal shows the latest session headlines parsed from `knowledge/journal.md`.
+- Research Journal links to `knowledge/journal.md` and shows its number of entries.
 - Exports & Artefacts links to `results/`, to the METS/MODS + PAGE-XML architecture and to the Page-JSON v0.2 format specification.
 
 #### Review workflow

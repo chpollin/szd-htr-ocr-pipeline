@@ -884,7 +884,7 @@ async function showViewer(objectId, page) {
 }
 
 /* ===== Transparency Cards on the Project (#about) page =====
-   Renders the Promptotyping-Vault enumeration, Journal session count, and Exports
+   Renders the Promptotyping-Vault enumeration, Journal entry count, and Exports
    links that expose the project's audit trail. Lives on #about,
    not on the catalog, so the documents remain the primary content. */
 
@@ -916,8 +916,9 @@ async function renderTransparencyCards() {
   }
 
   if (journalCount && kd.docs.journal) {
-    const h2 = (kd.docs.journal.headings || []).filter(h => h.level === 2);
-    journalCount.textContent = `${h2.length} sessions`;
+    // Journal entries are H3 headings under "## Einträge" (journal template 0.6).
+    const entries = (kd.docs.journal.headings || []).filter(h => h.level === 3);
+    journalCount.textContent = `${entries.length} entries`;
   }
 }
 
