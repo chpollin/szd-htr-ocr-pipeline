@@ -4,11 +4,11 @@
 
 Experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/). VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). Erzeugt maschinenlesbaren Text aus digitalisierten Faksimiles.
 
-**Promptotyping-Projekt:** Sämtlicher Code, die Pipeline-Architektur, das Frontend und die Dokumentation wurden von Claude Code (Opus 4.6) generiert. Die Rolle des Projektleiters (Christopher Pollin) ist die eines Projektmanagers und fachlichen Entscheiders — nicht die eines Software-Entwicklers.
+**Promptotyping-Projekt:** Code, Pipeline-Architektur, Frontend und Dokumentation wurden mit Claude Code erzeugt. Die Co-Authored-By-Trailer der Commits nennen Opus 4.6 fuer die Aufbauphase (Maerz bis April 2026), danach Opus 4.8, Fable 5, Opus 5 und Opus 5.5. Die Projekt-Reviewerin (Universitaet Salzburg) committet seit Juli 2026 ebenfalls, teils mit Claude Code (Trailer Opus 5 und Opus 5.5), teils ohne Trailer. Fuer Commits ohne Trailer ist nicht festgehalten, ob und welches Werkzeug beteiligt war. Der Projektleiter (Christopher Pollin) arbeitet als Projektmanager und fachlicher Entscheider, er schreibt den Code nicht selbst.
 
 - GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
 - Python 3.10+ (getestet mit 3.11)
-- Lizenz: CC-BY 4.0
+- Lizenz: Code MIT (`LICENSE`), Dokumentation und Wissensdokumente CC BY 4.0, Rechte an Faksimiles und daraus abgeleiteten Transkriptionen beim Literaturarchiv Salzburg (`README.md`, Abschnitt Licence)
 
 ## Aktueller Stand
 

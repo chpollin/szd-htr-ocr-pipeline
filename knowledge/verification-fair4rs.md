@@ -60,6 +60,8 @@ Die Behauptung des Papers hält: Accessibility konstruktionsbedingt erfüllt, Re
 
 Beschlossene Schließung der Lücken gemäß der FAIR-Infrastruktur-Politik des Methoden-Repos (`DigitalHumanitiesCraft/Promptotyping`, `knowledge/paper-writing.md`): Dual-Licensing MIT (Code) plus CC BY 4.0 (Dokumentation), Rechteangabe für Drittdaten (Faksimiles und TEI: Literaturarchiv Salzburg / Stefan Zweig Digital); CITATION.cff und codemeta.json aus dem Frontmatter-Kern; GitHub-Description und Topics; Zenodo-Release mit DOI, geschnitten wenn der Stand trägt.
 
+Umsetzungsstand am 2026-10-28, die Tabelle oben bleibt der Befund vom 2026-07-23. Commit `2641b28` hat das Dual-Licensing, `CITATION.cff` und `codemeta.json` eingeführt, GitHub erkennt die Lizenz seither als MIT, Description und Topics sind gesetzt. Tags, Releases und eine DOI fehlen weiterhin, F1, F1.2 und A2 bleiben damit offen.
+
 ## Grenzen
 
 Momentaufnahme eines Repos zu einem Stichtag; die Prinzipien F1.1 und A1.2 sind als verzichtbar bzw. nicht einschlägig gewertet, das ist Auslegung, nicht Messung. Die Prüfung lief als Einzeldurchgang ohne zweiten unabhängigen Prüfer.

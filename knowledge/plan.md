@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-10-19
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: plan
 related:
@@ -132,6 +132,13 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       plausibel umgedichtet (`o:szd.2745` S. 1 durchgehend, `o:szd.2759`), kein Signal schlaegt an.
       Vorschlag: `verify.py` gezielt auf Fraktur-Drucke; Gruppe F nennt nur Antiqua. Neulauf
       `o:szd.2745`. Befund → Fehlersammlung, Befund 4
+- [ ] **Empfehlung aus dem A/B/C-Experiment entscheiden** (Session 25b, 2026-06-09, [[journal]]) —
+      das Experiment empfahl fuer Handschrift `gemini-3-flash` als Basismodell und ein Feld
+      `uncertain_words` als Review-Signal. Beides ist nicht umgesetzt: `HTR_MODEL` steht weiter auf
+      `gemini-3.1-flash-lite-preview` (`pipeline/config.py`), der AAL-Batch vom 2026-06-10 lief mit
+      Flash Lite, `uncertain_words` kommt in Prompts, Schema und Code nicht vor. Eine Entscheidung
+      gegen die Empfehlung ist nicht dokumentiert. Grundlage war ein kleines Test-Set (6 Objekte,
+      20 Seiten), agentisch am Faksimile ausgewertet. Die Entscheidung liegt bei der Projektleitung
 - [ ] **Freigabe-Sperre fuer Objekte ohne Seiten** — Viewer zeigt die Faksimile der 16 Totalausfaelle
       seit `624c6e0` mit Badge "Nicht transkribiert"; `handle_approve()`/`handle_edit()` pruefen aber
       weiter nicht, ob das Ergebnis Seiten hat. Befund → Fehlersammlung, Befund 1

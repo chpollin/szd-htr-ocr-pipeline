@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
 status: active
 created: 2026-04-01
-updated: 2026-08-21
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: concept
 related:
@@ -187,7 +187,9 @@ CRO25 und DIE25: Auf modernen Handschriften schlagen VLMs Transkribus (1.7% vs. 
 - **RCO26:** Accept/Abstain-Framework — Cross-View-Stabilitaet als auditierbarer Deployment-Vertrag.
 - **BEY26:** Unsupervised Evaluation fuer historische Digitalisate (Semantic Coherence, Region Entropy Divergence, Textual Redundancy).
 
-**Implikation:** Der 3-Modell-Konsensus (Flash Lite + Flash + Judge) ist wissenschaftlich fundiert: Bei hohem Agreement kann die Transkription als automatisch generiertes GT akzeptiert werden (Ensemble Agreement Error Rate ~2–6% laut LLM-Generated-GT-Literatur); Divergenz-Faelle gehen in den manuellen Review. Das reduziert den manuellen GT-Aufwand drastisch. Diese Behauptung wurde am eigenen Corpus validiert (§7.1).
+**Implikation (Stand 2026-10-28):** Die Literatur stuetzt Multi-VLM-Konsensus als Triage-Signal, das Divergenz-Faelle in den manuellen Review lenkt. Hohes Agreement zeigt, dass die Modelle konsistent lesen. Ob sie richtig lesen, zeigt es nicht, weil Modelle denselben Fehler teilen koennen (§2.4, §4.2). Das Projekt fuehrt Modellkonsensus deshalb als selektives Diagnosewerkzeug. Er setzt keine Vertrauensstufe, und das Statistik-Dashboard zeigt ihn seit Session 23 (2026-04-03) nicht mehr ([[journal]]). Die GT-Pipeline (§7.1) liefert Entwuerfe fuer die menschliche Pruefung, keine Ground Truth.
+
+Fruehere Fassung (April 2026). Hier stand, dass eine Transkription bei hohem Agreement als automatisch generiertes GT akzeptiert werden koenne (Ensemble Agreement Error Rate ~2–6 % laut LLM-Generated-GT-Literatur) und dass diese Behauptung am eigenen Korpus validiert sei. Eine solche Validierung gegen menschlich gepruefte Texte hat nicht stattgefunden. §7.1 misst die Uebereinstimmung der drei Modelle untereinander, und das Expert-Review der GT-Entwuerfe ist unvollstaendig ([[plan]], Phase 4a).
 
 ### 7.1 Empirische Umsetzung: GT-Pipeline (Session 14)
 
@@ -340,7 +342,7 @@ Die urspruenglichen Frontend-Anforderungen sind umgesetzt und vom Drei-Status-Mo
 
 ## 7. Modellkonsensus (LLM-as-Judge)
 
-> **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles (Gemini Flash Lite + Gemini 3 Flash). Uebereinstimmung wird zeichenweise (CER) und wortweise (Jaccard Word Overlap) gemessen und 4-stufig klassifiziert (§4.3): `consensus_verified` / `consensus_moderate` / `consensus_review` / `consensus_divergent`. Wo die Modelle uebereinstimmen, ist die Transkription mit hoher Wahrscheinlichkeit korrekt; Divergenz markiert automatisch Stellen fuer menschliche Pruefung.
+> **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles (Gemini Flash Lite + Gemini 3 Flash). Uebereinstimmung wird zeichenweise (CER) und wortweise (Jaccard Word Overlap) gemessen und 4-stufig klassifiziert (§4.3): `consensus_verified` / `consensus_moderate` / `consensus_review` / `consensus_divergent`. Uebereinstimmung belegt Konsistenz zwischen den Modellen und keine Korrektheit (§2.4); Divergenz markiert automatisch Stellen fuer menschliche Pruefung. Bis 2026-10-28 stand hier, dass die Transkription bei Uebereinstimmung mit hoher Wahrscheinlichkeit korrekt sei.
 
 ### 7.1 Architektur
 
