@@ -1377,7 +1377,7 @@ Systematischer Audit aller 12 Knowledge-Dokumente. 10 Probleme in 7 Dateien gefu
 
 ### Kontext
 
-Der Code4Lib-Abstract (Pollin/Zangerl/Hintersteiner) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims �ber das Interface:
+Der Code4Lib-Abstract (Projektleitung mit einer Co-Autorin vom Literaturarchiv Salzburg und der Projekt-Reviewerin der Universitaet Salzburg) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims �ber das Interface:
 
 1. *Reading / Curation / Verification als drei Funktionen desselben Codes, mode-switched by deployment*
 2. *Expert review deepens editorial commitment along a concentric-edition progression*
@@ -1980,7 +1980,7 @@ Status-Chip, und `active` ist in `docs/app.css` bereits gestylt, waehrend `compl
 
 ## 2026-08-26 — Review-Session: 34 Totalausfaelle erhoben, Viewer nachgezogen
 
-Session von Julia Hintersteiner am lokalen Dev-Server. Anlass war eine gewoehnliche
+Session der Projekt-Reviewerin (Universitaet Salzburg) am lokalen Dev-Server. Anlass war eine gewoehnliche
 Redigier-Runde; zwei Befunde daraus sind ueber die Session hinaus relevant.
 
 ### 34 Objekte ohne verwertbares Ergebnis
@@ -2130,7 +2130,7 @@ Aenderungen in `docs/data/` betreffen genau die 67 Objekte.
 
 ## 2026-10-19 — Review-Session: Fehlerklassen am Faksimile, Viewer-Fix fuer Totalausfaelle
 
-Session von Julia Hintersteiner am lokalen Dev-Server. Alle Befunde stammen aus dem Gegenlesen am
+Session der Projekt-Reviewerin (Universitaet Salzburg) am lokalen Dev-Server. Alle Befunde stammen aus dem Gegenlesen am
 Faksimile und sind mit Umfang in `reports/issue-review-fehlersammlung.md` (Befunde 3–6)
 festgehalten; offene Aufgaben in [[plan]], offene editorische Entscheidungen in
 [[annotation-protocol]] §8 Nr. 6–7.
