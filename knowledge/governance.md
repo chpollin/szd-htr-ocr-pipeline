@@ -1,6 +1,6 @@
 ---
 title: "Expert-in-the-Loop"
-aliases: ["Expert-in-the-Loop", "Wer prueft was"]
+aliases: [expert-in-the-loop, "Expert-in-the-Loop", "Wer prueft was"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"

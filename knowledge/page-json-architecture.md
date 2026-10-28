@@ -1,6 +1,6 @@
 ---
 title: "Page-JSON Format"
-aliases: ["Page-JSON", "Interchange-Format", "HTR Interchange Format"]
+aliases: [htr-interchange-format, "Page-JSON", "Interchange-Format", "HTR Interchange Format"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

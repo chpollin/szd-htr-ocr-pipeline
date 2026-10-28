@@ -1,6 +1,6 @@
 ---
 title: "Verifikationskonzept"
-aliases: ["Verifikationskonzept"]
+aliases: [verification-concept, "Verifikationskonzept"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

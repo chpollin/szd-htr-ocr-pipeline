@@ -1,6 +1,6 @@
 ---
 title: "Editoriales und epistemisches Modell"
-aliases: ["Editoriales Modell", "Epistemisches Modell"]
+aliases: [editorial-model, "Editoriales Modell", "Epistemisches Modell"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

@@ -1,6 +1,6 @@
 ---
 title: "Annotationsprotokoll"
-aliases: ["Annotationsprotokoll"]
+aliases: [annotation-protocol, "Annotationsprotokoll"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

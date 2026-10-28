@@ -1,6 +1,6 @@
 ---
 title: "Datengrundlage"
-aliases: ["Datenanalyse"]
+aliases: [data-overview, "Datenanalyse"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

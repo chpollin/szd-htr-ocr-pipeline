@@ -1,6 +1,6 @@
 ---
 title: "Research Vault"
-aliases: ["MOC", "Map of Content", "index"]
+aliases: [index, "MOC", "Map of Content"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"

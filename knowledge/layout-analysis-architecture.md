@@ -1,5 +1,6 @@
 ---
 title: "Layout-Analyse"
+aliases: [layout-analysis]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
