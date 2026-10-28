@@ -12,9 +12,8 @@ created: 2026-07-25
 updated: 2026-07-25
 type: log
 related:
-  - "[[evaluation-results]]"
-  - "[[verification-concept]]"
-  - "[[data-overview]]"
+  - "[[transcription-verification]]"
+  - "[[data]]"
   - "[[journal]]"
 ---
 
@@ -22,7 +21,7 @@ related:
 
 Laufende Sammelstelle fuer alles, was beim Durcharbeiten der Transkriptionen und des Viewers auffaellt: Fehler, fragwuerdige Zuordnungen, fehlende Funktionen, Ideen. Kein Beschluss — was hier steht, ist Material fuer die Evaluation und fuer spaetere Entscheidungen in [[journal]] und `Plan.md`.
 
-Abgrenzung zu den Nachbardokumenten: [[evaluation-results]] haelt gemessene Ergebnisse fest (CER, Fehlertypologie), [[verification-concept]] die Methodik. Hier stehen **offene Beobachtungen** — auch solche, die sich spaeter als unbegruendet herausstellen.
+Abgrenzung zu den Nachbardokumenten: `reports/cer-baseline-report-2026-04-02.md` haelt gemessene Ergebnisse fest (CER), [[transcription-verification]] die Methodik und in §9 die Fehlertypologie. Hier stehen **offene Beobachtungen** — auch solche, die sich spaeter als unbegruendet herausstellen.
 
 ---
 
@@ -65,7 +64,7 @@ Status-Werte: `offen` · `in Klaerung` · `entschieden` · `umgesetzt` · `verwo
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-07-25 |
-| **Betrifft** | `pipeline/tei_context.py` (`resolve_group()`), [[data-overview]] §6, Viewer-Filter "Gruppen" |
+| **Betrifft** | `pipeline/tei_context.py` (`resolve_group()`), [[data]] §6, Viewer-Filter "Gruppen" |
 | **Status** | offen — inhaltliche Entscheidung steht aus |
 
 ### Beobachtung **[J]**
@@ -74,11 +73,11 @@ Der Viewer hat einen Filter "Gruppen". Unklar war, wie diese Einteilung zustande
 
 ### Nachpruefung **[C]**
 
-Dokumentiert ist die Einteilung an drei Stellen: [[data-overview]] §6 (Master-Tabelle der 9 Gruppen, abgeleitet aus der TEI-Analyse), [[journal]] (Sessions 2, 3 und 7 — Entstehung von A–E, dann F/H/I, Gruppe G bewusst nachgereicht) und `Plan.md` (Entscheidungslog). Operativ massgeblich ist aber allein die Funktion `resolve_group()` in `pipeline/tei_context.py:285-322` — ein Entscheidungsbaum ueber `objecttyp` und `classification` mit Fallback auf Handschrift.
+Dokumentiert ist die Einteilung an drei Stellen: [[data]] §6 (Master-Tabelle der 9 Gruppen, abgeleitet aus der TEI-Analyse), [[journal]] (Sessions 2, 3 und 7 — Entstehung von A–E, dann F/H/I, Gruppe G bewusst nachgereicht) und `Plan.md` (Entscheidungslog). Operativ massgeblich ist aber allein die Funktion `resolve_group()` in `pipeline/tei_context.py:285-322` — ein Entscheidungsbaum ueber `objecttyp` und `classification` mit Fallback auf Handschrift.
 
 Zwischen der dokumentierten Populationsschaetzung und der tatsaechlichen Zuordnung klaffen zwei Gruppen deutlich auseinander (Auszaehlung ueber alle 2.452 transkribierten Objekte in `docs/catalog.json`):
 
-| Gruppe | [[data-overview]] §6 | tatsaechlich zugeordnet | Differenz |
+| Gruppe | [[data]] §6 | tatsaechlich zugeordnet | Differenz |
 |---|---:|---:|---|
 | A Handschrift | ~100 | **318** | +218 |
 | E Tabellarisch | ~230 | **5** | −225 |
@@ -92,7 +91,7 @@ Zwischen der dokumentierten Populationsschaetzung und der tatsaechlichen Zuordnu
 - `tei_context.py:315` prueft **`classification`** auf `verzeichnisse|kalender` — greift nicht, weil dort "Registerblätter" steht, ein Wert, den die Regel nicht kennt.
 - Folglich feuert vorher `tei_context.py:303` (`"manuskript" in otyp` → handschrift).
 
-Die Schaetzung "~230" in [[data-overview]] §6 erklaert sich damit fast vollstaendig: 207 Registerblaetter plus die 5 tatsaechlich als E gefuehrten Lebensdokumente-Objekte plus einige nicht transkribierte. [[journal]] nennt dieselbe Menge aus anderer Richtung: "Erwin Rieger, 225 Registerblaetter, zweithaeufigste Hand in der Aufsatzablage" (Session 2).
+Die Schaetzung "~230" in [[data]] §6 erklaert sich damit fast vollstaendig: 207 Registerblaetter plus die 5 tatsaechlich als E gefuehrten Lebensdokumente-Objekte plus einige nicht transkribierte. [[journal]] nennt dieselbe Menge aus anderer Richtung: "Erwin Rieger, 225 Registerblaetter, zweithaeufigste Hand in der Aufsatzablage" (Session 2).
 
 **Verworfene Zwischenhypothese [C]:** In der Sitzung zuerst vermutet, die Faelle wuerden durch die Regelreihenfolge verschattet (fruehere Regel feuert, spaetere haette eine andere Gruppe ergeben). Eine Auszaehlung aller 14 Regeln gegen alle Objekte widerlegt das: nur **2** Objekte haben ueberhaupt ein Tabellarisch-Signal und eine andere Gruppe (o:szd.184 `Manuskript/Verzeichnisse` → A, o:szd.140 `Typoskript/Verzeichnisse` → B). Reihenfolge ist hier nicht das Problem, fehlendes Vokabular schon.
 
@@ -171,7 +170,7 @@ Zusatznutzen fuer die Evaluation: die gesammelten Vorschlaege sind eine Messgroe
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-08-07 |
-| **Betrifft** | [[annotation-protocol]] §1 (Textfluss), `pipeline/prompts/system.md`, alle Gruppen-Prompts |
+| **Betrifft** | [[transcription-guidelines]] §1 (Textfluss), `pipeline/prompts/system.md`, alle Gruppen-Prompts |
 | **Status** | offen — Regel fehlt, muss formuliert und in den Prompt aufgenommen werden |
 
 ### Beobachtung **[J]**
@@ -196,14 +195,14 @@ Titl. Cassell & Company Ltd., London E.C. 4, La Belle Sauvage
 **Ursache — Luecke, nicht Fehler:** Es gibt schlicht keine Vorgabe.
 
 - `pipeline/prompts/system.md` regelt Zeilenumbrueche (Regel 2), aber keine Reihenfolge von Textbloecken.
-- [[annotation-protocol]] §1 regelt Zeilenumbrueche, Silbentrennung, Absaetze und — als einzigen Reihenfolgefall — §1.4 mehrspaltigen Satz bei Zeitungsausschnitten (Gruppe H): "spaltenweise, links nach rechts, dann oben nach unten".
+- [[transcription-guidelines]] §1 regelt Zeilenumbrueche, Silbentrennung, Absaetze und — als einzigen Reihenfolgefall — §1.4 mehrspaltigen Satz bei Zeitungsausschnitten (Gruppe H): "spaltenweise, links nach rechts, dann oben nach unten".
 - Fuer alles andere (Briefe mit Randnotizen, Postkarten, Adressseiten, Briefkoepfe) ist die Reihenfolge undefiniert. Bei Gruppe I — mit 1.535 Objekten die groesste Gruppe — betrifft das praktisch jedes Objekt mit mehr als einem Textblock.
 
 Das ist nicht nur Kosmetik: Die Reihenfolge geht direkt in die CER ein. Zwei zulaessige Anordnungen desselben korrekt gelesenen Textes erzeugen gegeneinander eine hohe CER, ohne dass ein einziges Zeichen falsch gelesen waere. Solange die Reihenfolge frei ist, misst die CER teilweise Anordnung statt Lesegenauigkeit.
 
 ### Vorschlag zur Diskussion **[C]**
 
-Eine Regel in [[annotation-protocol]] §1 (neu: §1.6 Blockreihenfolge), gespiegelt in `system.md`, etwa:
+Eine Regel in [[transcription-guidelines]] §1 (neu: §1.6 Blockreihenfolge), gespiegelt in `system.md`, etwa:
 
 1. **Grundregel:** Textbloecke in geometrischer Lesereihenfolge — oben nach unten, bei gleicher Hoehe links nach rechts. Das ist die Konvention, die auch PAGE XML mit `ReadingOrder` abbildet, also anschlussfaehig ans Zielformat.
 2. **Ausnahmen explizit benannt und ans Blockende gestellt**, damit sie nicht im Fliesstext landen: Randnotizen, gedrehter Text (siehe die neue `[quer:]`-Konvention), Stempel, Vermerke.
@@ -219,7 +218,7 @@ Zu pruefen ist, ob die Regel als Prompt-Anweisung ueberhaupt greift — das Mode
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-08-07 |
-| **Betrifft** | [[annotation-protocol]] §3.3, `pipeline/marker_enrich.py`, Viewer-Leseansicht |
+| **Betrifft** | [[transcription-guidelines]] §3.3, `pipeline/marker_enrich.py`, Viewer-Leseansicht |
 | **Status** | in Klaerung — Grundregel existiert, Praxisfaelle und Ausspielung fehlen |
 
 ### Frage **[J]**
@@ -228,7 +227,7 @@ Was machen wir mit Streichungen?
 
 ### Was bereits geregelt ist **[C]**
 
-[[annotation-protocol]] §3.3 beantwortet den Grundfall: durchgestrichenen Text in `~~...~~` einschliessen und **vollstaendig transkribieren**, soweit lesbar; ist er unlesbar, `~~[...]~~`; die Intensitaet der Streichung (ein Strich, mehrfach ueberstrichen) wird **bewusst nicht** kodiert. Der TEI-Export macht daraus `<del>` ohne `@rend` (`marker_enrich.py` Schritt 4), und §5.4 haelt fest, dass der Inhalt fuer die Basis-CER **erhalten** bleibt — eine falsch gesetzte Streichung verschlechtert also nicht die Basis-CER, wohl aber die Markup-CER.
+[[transcription-guidelines]] §3.3 beantwortet den Grundfall: durchgestrichenen Text in `~~...~~` einschliessen und **vollstaendig transkribieren**, soweit lesbar; ist er unlesbar, `~~[...]~~`; die Intensitaet der Streichung (ein Strich, mehrfach ueberstrichen) wird **bewusst nicht** kodiert. Der TEI-Export macht daraus `<del>` ohne `@rend` (`marker_enrich.py` Schritt 4), und §5.4 haelt fest, dass der Inhalt fuer die Basis-CER **erhalten** bleibt — eine falsch gesetzte Streichung verschlechtert also nicht die Basis-CER, wohl aber die Markup-CER.
 
 Dass diese Antwort trotzdem gefehlt hat, ist selbst der Befund: Das Protokoll liegt im Vault, nicht im Review-Workflow. Beim Gegenlesen im Viewer gibt es keinen Zugriff darauf — siehe Vorschlag unten.
 
@@ -276,7 +275,7 @@ Das 96-%-Muster bei Einzelwoertern gleicht dem, was `marker_enrich.py` fuer die 
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-08-07 |
-| **Betrifft** | [[annotation-protocol]] §4.3, `pipeline/prompts/group_i_korrespondenz.md` |
+| **Betrifft** | [[transcription-guidelines]] §4.3, `pipeline/prompts/group_i_korrespondenz.md` |
 | **Status** | offen — Regel existiert nur fuer Gruppe C, nicht fuer Korrespondenz |
 
 ### Beobachtung **[J]**
@@ -299,7 +298,7 @@ Mon vieux, merci de ta lettre. …
 
 Der Vordruck ist teilweise erfasst und in einer Reihenfolge, die dem Blatt nicht entspricht: Der Hotelname steht auf solchem Papier oben, die Telefon-/Telegrammzeile darunter — hier ist es umgekehrt, und `49, Hallamstreet W 1` (Zweigs eigene Londoner Adresse, handschriftlich) steht noch davor. Das ist zugleich ein Fall von B-03.
 
-**Ursache:** Die Regel existiert, aber fuer die falsche Gruppe. [[annotation-protocol]] §4.3 sagt "Vorgedruckten Text und handschriftliche Eintragungen gleichermassen transkribieren" — ausdruecklich unter der Ueberschrift *"Gedruckte Formularfelder (Gruppe C: Formular)"*. Fuer Gruppe I (Korrespondenz, 1.535 Objekte) gibt es keine Entsprechung, und `group_i_korrespondenz.md` sagt zu Briefkoepfen nichts. Das Modell entscheidet daher pro Bild neu — daher die Willkuer.
+**Ursache:** Die Regel existiert, aber fuer die falsche Gruppe. [[transcription-guidelines]] §4.3 sagt "Vorgedruckten Text und handschriftliche Eintragungen gleichermassen transkribieren" — ausdruecklich unter der Ueberschrift *"Gedruckte Formularfelder (Gruppe C: Formular)"*. Fuer Gruppe I (Korrespondenz, 1.535 Objekte) gibt es keine Entsprechung, und `group_i_korrespondenz.md` sagt zu Briefkoepfen nichts. Das Modell entscheidet daher pro Bild neu — daher die Willkuer.
 
 ### Offene Entscheidung — braucht **[J]**
 
@@ -316,7 +315,7 @@ Die Frage ist eine editorische, keine technische: **Gehoert der Briefkopf zum Do
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-08-07 |
-| **Betrifft** | [[annotation-protocol]] §2.4/§2.6, [[evaluation-results]] (Fehlertypologie), `pipeline/prompts/system.md` Regel 7 |
+| **Betrifft** | [[transcription-guidelines]] §2.4/§2.6, [[transcription-verification]] §9 (Fehlertypologie), `pipeline/prompts/system.md` Regel 7 |
 | **Status** | offen — Fehlertyp benannt, aber nicht gemessen |
 
 ### Beobachtung **[J]**
@@ -325,7 +324,7 @@ Manchmal macht die Transkription auch Ueberkorrekturen, d.h. fuegt z.B. einen Ac
 
 ### Einordnung **[C]**
 
-Das ist ein eigener Fehlertyp und in der bestehenden Systematik nicht abgedeckt. [[annotation-protocol]] §2.6 warnt vor **Over-Historicization** (Levchenko 2025) — das Modell fuegt archaische Zeichen ein, die es nicht gibt (langes ſ). Der hier beobachtete Fehler ist die **Gegenrichtung**: Normalisierung auf die heutige Standardorthographie. §2.4 verbietet sie ("Beibehalten. Keine Modernisierung"), aber nur fuer deutsche Beispiele (`daß`, `Cadaver`, `Conflicte`); Diakritika in franzoesischen Passagen sind nicht genannt, und `system.md` Regel 7 bleibt allgemein ("keine Korrektur von Orthographie").
+Das ist ein eigener Fehlertyp und in der bestehenden Systematik nicht abgedeckt. [[transcription-guidelines]] §2.6 warnt vor **Over-Historicization** (Levchenko 2025) — das Modell fuegt archaische Zeichen ein, die es nicht gibt (langes ſ). Der hier beobachtete Fehler ist die **Gegenrichtung**: Normalisierung auf die heutige Standardorthographie. §2.4 verbietet sie ("Beibehalten. Keine Modernisierung"), aber nur fuer deutsche Beispiele (`daß`, `Cadaver`, `Conflicte`); Diakritika in franzoesischen Passagen sind nicht genannt, und `system.md` Regel 7 bleibt allgemein ("keine Korrektur von Orthographie").
 
 Der Fehler ist besonders unangenehm, weil er **plausibel** ist: `déjeuner` ist korrektes Franzoesisch, faellt beim Querlesen niemandem auf und ist nur am Faksimile widerlegbar. Er gehoert damit in dieselbe Kategorie wie die in CLAUDE.md dokumentierte Nonsens-Halluzination — nur schwerer zu entdecken.
 
@@ -333,7 +332,7 @@ Dass der Effekt in beide Richtungen laeuft, zeigt `o:szd.1641` (derselbe Brief w
 
 ### Vorschlag **[C]**
 
-1. **Fehlertypologie ergaenzen** in [[evaluation-results]]: "Ueberkorrektur / Normalisierung" als eigener Typ neben Over-Historicization, mit dem Diakritika-Fall als Beispiel.
+1. **Fehlertypologie ergaenzen** in [[transcription-verification]] §9: "Ueberkorrektur / Normalisierung" als eigener Typ neben Over-Historicization, mit dem Diakritika-Fall als Beispiel.
 2. **Protokoll §2.4 erweitern** um eine Zeile zu Diakritika in fremdsprachigen Passagen: Akzent nur setzen, wenn im Faksimile sichtbar; im Zweifel weglassen und `[?]` anhaengen.
 3. **Messbar machen:** Der Typ ist heute unsichtbar, weil kein Signal darauf anspricht und die Basis-CER ihn nur als einzelnes Zeichen zaehlt. Ein billiger Indikator waere die Akzentkonsistenz innerhalb eines fremdsprachigen Textes — sie sagt nichts ueber die Richtung, markiert aber die Objekte, bei denen sich das Hinsehen lohnt. Voraussetzung fuer eine echte Messung bleibt Ground Truth an franzoesischen Objekten.
 4. **Nicht in den Prompt aufnehmen**, ohne es vorher zu messen: Eine Anweisung "setze keine Akzente, die nicht dastehen" kann genauso gut die Gegenrichtung verstaerken (Akzente weglassen, die dastehen). Erst messen, dann eingreifen.
@@ -404,7 +403,7 @@ Damit wird das Faksimile sichtbar, auch wenn die Transkription fehlt — der Vie
 | | |
 |---|---|
 | **Aufgeworfen von** | **[J]**, 2026-08-07 |
-| **Betrifft** | [[annotation-protocol]] §3.1/§4, `pipeline/marker_enrich.py`, TEI/MODS-Export |
+| **Betrifft** | [[transcription-guidelines]] §3.1/§4, `pipeline/marker_enrich.py`, TEI/MODS-Export |
 | **Status** | Entwurf liegt vor — Vokabular muss entschieden werden |
 
 ### Wunsch **[J]**
@@ -420,7 +419,7 @@ Das sind **zwei verschiedene Achsen**, und sie sollten nicht in dieselbe Markerf
 
 Beide Achsen sind unabhaengig: Ein Adressblock kann gedruckt (Vordruck) oder handschriftlich (Zweigs Adressierung) sein — auf `o:szd.1620` kommt beides auf derselben Karte vor.
 
-**Das Modell improvisiert hier bereits.** Aus der Auszaehlung ueber alle Ergebnis-JSONs (Kommando in [[expert-in-the-loop]] §4):
+**Das Modell improvisiert hier bereits.** Aus der Auszaehlung ueber alle Ergebnis-JSONs (Kommando in [[governance]] §4):
 
 | improvisiertes Label | Vorkommen |
 |---|---|
@@ -461,7 +460,7 @@ Kein einziges davon wird exportiert. Der Wunsch ist also nicht "etwas Neues einf
 
 ## Verwandte Dokumente
 
-- [[evaluation-results]] — gemessene CER-Baseline und Fehlertypologie
-- [[verification-concept]] — Verifikationsmethodik, Review-Stufen
-- [[data-overview]] — Datengrundlage, §6 Master-Tabelle der Prompt-Gruppen
+- `reports/cer-baseline-report-2026-04-02.md` — gemessene CER-Baseline; Fehlertypologie in [[transcription-verification]] §9
+- [[transcription-verification]] — Verifikationsmethodik, Review-Stufen
+- [[data]] — Datengrundlage, §6 Master-Tabelle der Prompt-Gruppen
 - [[journal]] — chronologisches Session-Log

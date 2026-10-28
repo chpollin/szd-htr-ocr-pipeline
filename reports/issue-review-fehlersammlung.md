@@ -132,7 +132,7 @@ darunter derselbe Text).
 
 Es gibt keine Regel. Der System-Prompt definiert nur `[?]`, `[...]`, `~~…~~` und `{…}`
 (`pipeline/prompts/system.md:12-13`), keiner der neun Gruppen-Prompts erwähnt Abbildungen, und das
-Annotationsprotokoll regelt sie ebenfalls nicht (`knowledge/annotation-protocol.md` §3, §4). Das
+Annotationsprotokoll regelt sie ebenfalls nicht (`knowledge/transcription-guidelines.md` §3, §4). Das
 Modell erfindet die Notation selbst. Einzige Erwähnung von Bildunterschriften im Repo ist der
 Layout-Prompt für Zeitungsausschnitte (`pipeline/prompts/layout_group_h_zeitungsausschnitt.md:38`),
 der die Transkription nicht betrifft.
@@ -182,7 +182,7 @@ Zuerst eine Regel festlegen, dann umsetzen:
 - Ob überhaupt beschrieben wird oder nur `[Abbildung]` ohne Inhalt: beides ist vertretbar. Eine
   leere Marke hält die Transkription diplomatisch und spart dem Modell das Erfinden.
 - `[Unterschrift]` und die übrigen erfundenen Klammern in derselben Entscheidung mitregeln.
-- Dann umsetzen in: `knowledge/annotation-protocol.md` (§3/§4, Richtlinien-Panel im Viewer),
+- Dann umsetzen in: `knowledge/transcription-guidelines.md` (§3/§4, Richtlinien-Panel im Viewer),
   `pipeline/prompts/system.md`, `pipeline/evaluate.py` (Normalisierung), `pipeline/marker_enrich.py`
   (→ `<figure><figDesc>`).
 
@@ -226,7 +226,7 @@ die Transkription schreibt „ausgeglichen“.
   Modell sieht die andere Hälfte und die Gesamtaufnahme und setzt den Text daraus zusammen, statt
   das einzelne Bild zu transkribieren.
 - **Es gibt keine Regel für Text am Bildrand.** Weder `pipeline/prompts/system.md` noch ein
-  Gruppen-Prompt noch `knowledge/annotation-protocol.md` sagen, was mit angeschnittenem Text zu tun
+  Gruppen-Prompt noch `knowledge/transcription-guidelines.md` sagen, was mit angeschnittenem Text zu tun
   ist.
 - Der Objekt-Prompt `pipeline/prompts/objects/o_szd.1056.md` verlangt zusätzlich, die Buchungen als
   Markdown-Tabelle neu aufzubauen. Das lädt zum Rekonstruieren ein.
@@ -368,7 +368,7 @@ Die Lesungen sind Vorschläge vom Faksimile und noch gegenzulesen.
 
 Zwei Regelwerke widersprechen sich:
 
-- **Annotationsprotokoll** (`knowledge/annotation-protocol.md`): §3.5 transkribiert Marginalien, die
+- **Annotationsprotokoll** (`knowledge/transcription-guidelines.md`): §3.5 transkribiert Marginalien, die
   zum Dokumentinhalt gehören, mit `[Marginalie:]`; §4.2 transkribiert Datums-, Eingangs- und
   Behördenstempel als `[Stempel: …]`. Nur moderne Bibliotheksstempel bleiben weg.
 - **Prompts:** `group_c_formular.md:19` („Stempel und Siegel in den Notizen, nicht im

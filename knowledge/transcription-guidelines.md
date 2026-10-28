@@ -18,12 +18,12 @@ updated: 2026-10-19
 authors: [Christopher Pollin]
 type: protocol
 related:
-  - "[[verification-concept]]"
+  - "[[transcription-verification]]"
 ---
 
 # Annotationsprotokoll: Referenztranskription fuer das SZD-HTR Ground-Truth-Sample
 
-Abhaengigkeit: [[verification-concept]] (Abschnitt 1 definiert das Sample)
+Abhaengigkeit: [[transcription-verification]] (Abschnitt 1 definiert das Sample)
 
 ---
 
@@ -314,7 +314,7 @@ Wenn Annotationen in verschiedenen Farben verschiedene Bearbeitungsschichten dar
 
 Die folgenden Normalisierungsschritte werden auf **beide** Texte (Referenz und Pipeline-Output) angewendet, **bevor** die CER berechnet wird. Sie stellen sicher, dass die CER Lesegenauigkeit misst, nicht Formatierungsdifferenzen.
 
-### 5.1 Basis-Normalisierung (aus verification-concept.md 1.7)
+### 5.1 Basis-Normalisierung (aus transcription-verification.md 1.7)
 
 1. Unicode-Normalisierung (NFC)
 2. Whitespace: Mehrfache Leerzeichen → ein Leerzeichen
@@ -380,7 +380,7 @@ Reihenfolge der Anwendung:
 
 ### 5.5 Markup-CER (separat)
 
-Fuer die Bewertung der Markup-Qualitaet (vgl. verification-concept.md 1.6, Markup-Praezision/Recall) wird der Text **mit** Markup verglichen. Hierbei gelten nur die Schritte 5.1-5.3, nicht 5.4.
+Fuer die Bewertung der Markup-Qualitaet (vgl. transcription-verification.md 1.6, Markup-Praezision/Recall) wird der Text **mit** Markup verglichen. Hierbei gelten nur die Schritte 5.1-5.3, nicht 5.4.
 
 ---
 

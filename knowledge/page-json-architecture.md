@@ -18,9 +18,9 @@ updated: 2026-06-10
 authors: [Christopher Pollin]
 type: spec
 related:
-  - "[[verification-concept]]"
-  - "[[data-overview]]"
-  - "[[layout-analysis]]"
+  - "[[transcription-verification]]"
+  - "[[data]]"
+  - "[[layout-analysis-architecture]]"
 ---
 
 # Page-JSON — Spezifikation
@@ -31,7 +31,7 @@ Version: 0.2 (Entwurf)
 
 ## 1. Zweck
 
-Page-JSON ist das **interne Arbeitsformat** der Pipeline: ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und deskriptive Metadaten in einer Datei vereint. Das **Archiv- und Austauschformat** ist METS/MODS + PAGE XML (→ [[page-xml-mets-architecture]]). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet.
+Page-JSON ist das **interne Arbeitsformat** der Pipeline: ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und deskriptive Metadaten in einer Datei vereint. Das **Archiv- und Austauschformat** ist METS/MODS + PAGE XML (→ [[architecture]]). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet.
 
 ### 1.1 Designprinzipien
 
@@ -383,7 +383,7 @@ Die Konvertierung kann als Export-Schritt (`export_page_json.py`) oder als schri
 |---|---|
 | Warum nicht direkt PAGE XML? | PAGE XML erfordert Koordinaten als Pflichtfeld. VLMs produzieren Fliesstext ohne Koordinaten. Page-JSON macht Koordinaten optional und ist das interne Arbeitsformat. PAGE XML ist Teil des Zielformats (METS/MODS + PAGE XML). |
 | Warum nicht ALTO? | ALTO erfordert Wort-Koordinaten. Dasselbe Grundproblem wie PAGE XML. |
-| Verhaeltnis zu METS/MODS? | Page-JSON = internes Arbeitsformat (Pipeline, Viewer). METS/MODS + PAGE XML = Archiv- und Austauschformat (GAMS, Transkribus, OCR-D). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet. Siehe [[page-xml-mets-architecture]]. |
+| Verhaeltnis zu METS/MODS? | Page-JSON = internes Arbeitsformat (Pipeline, Viewer). METS/MODS + PAGE XML = Archiv- und Austauschformat (GAMS, Transkribus, OCR-D). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet. Siehe [[architecture]]. |
 | Kann man PAGE XML exportieren? | Ja. `export_pagexml.py` konvertiert Page-JSON → PAGE XML 2019 (§6.1). |
 | Kann man PAGE XML importieren? | Ja. Die Umkehrkonvertierung (§6.2) ermoeglicht Import von extern erzeugtem PAGE XML. |
 

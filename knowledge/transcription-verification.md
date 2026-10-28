@@ -18,11 +18,10 @@ updated: 2026-10-28
 authors: [Christopher Pollin]
 type: concept
 related:
-  - "[[annotation-protocol]]"
-  - "[[evaluation-results]]"
-  - "[[data-overview]]"
-  - "[[layout-analysis]]"
-  - "[[editorial-model]]"
+  - "[[transcription-guidelines]]"
+  - "[[data]]"
+  - "[[layout-analysis-architecture]]"
+  - "[[editorial-methodology]]"
 ---
 
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline
@@ -72,7 +71,7 @@ Ein verifiziertes Referenz-Sample dient zwei Zwecken:
 - **Fehlertypologie**: Welche Fehler macht die Pipeline? (Zeichenverwechslungen, Auslassungen, Halluzinationen, Strukturfehler)
 - **Metrische Basislinie**: Wie hoch ist die Fehlerrate, aufgeschluesselt nach Gruppe, Sprache und Schwierigkeitsgrad?
 
-Ohne Basislinie sind Optimierungen (Prompt-Tuning, Bildgroesse) nicht messbar. **Heute gilt:** Als Ground Truth zaehlen menschlich gepruefte Texte (Status Mensch-geprueft); die CER-Baseline steht in [[evaluation-results]].
+Ohne Basislinie sind Optimierungen (Prompt-Tuning, Bildgroesse) nicht messbar. **Heute gilt:** Als Ground Truth zaehlen menschlich gepruefte Texte (Status Mensch-geprueft); die CER-Baseline steht in `reports/cer-baseline-report-2026-04-02.md`.
 
 ### 1.2 Sample-Design (historische Planung)
 
@@ -122,7 +121,7 @@ Markup (`[?]`, `[...]`, `~~...~~`, `{...}`) wird fuer die Basis-CER entfernt, fu
 | **15–30%** | Problematisch | Prompt-Ueberarbeitung, Batch nur mit manuellem Review |
 | **> 30%** | Unbrauchbar | Anderes Modell, Preprocessing oder Gruppe ausschliessen |
 
-**Empirische Validierung (Session 18–20):** An 62 verifizierten Objekten (18 human-approved, 44 agent-verified) liegen alle 9 Gruppen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → [[evaluation-results]].
+**Empirische Validierung (Session 18–20):** An 62 verifizierten Objekten (18 human-approved, 44 agent-verified) liegen alle 9 Gruppen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → `reports/cer-baseline-report-2026-04-02.md`.
 
 ---
 
@@ -379,7 +378,7 @@ Die Validierung (27 Objekte, §4.3) und die GT-Pipeline (18 Objekte, §7.1 im Fo
 
 ## 8. Agent-Verifikation (agent_verified)
 
-*Implementiert in Session 18 (2026-04-02). Empirische Ergebnisse → [[evaluation-results]].*
+*Implementiert in Session 18 (2026-04-02). Empirische Ergebnisse → `reports/cer-baseline-report-2026-04-02.md`.*
 
 ### 8.1 Motivation
 
@@ -415,7 +414,7 @@ Parallelisierung: bis zu 4 Sub-Agents gleichzeitig (je 2 Objekte); ein Batch von
 
 ### 8.4 Empirische Ergebnisse
 
-Bis Session 20: **44 Objekte** agent-verifiziert in 7 Batches — 22 fehlerfrei (97–100%), 18 mit 1–5 Fehlern (95–99.9%), 4 mit schweren Problemen (75–93%, Truncation oder tabellarisch). Hauptfehlertypen: Fraktur f/s + Nonsens-Halluzination, Kurrent-Verwechslungen, fremdsprachliche Vokale, Truncation bei grossen Objekten. Details → [[evaluation-results]].
+Bis Session 20: **44 Objekte** agent-verifiziert in 7 Batches — 22 fehlerfrei (97–100%), 18 mit 1–5 Fehlern (95–99.9%), 4 mit schweren Problemen (75–93%, Truncation oder tabellarisch). Hauptfehlertypen: Fraktur f/s + Nonsens-Halluzination, Kurrent-Verwechslungen, fremdsprachliche Vokale, Truncation bei grossen Objekten. Details → `reports/cer-baseline-report-2026-04-02.md`.
 
 ### 8.5 Edit-Tracking (ab Session 20)
 
@@ -436,7 +435,7 @@ Retroaktive Migration: `backfill_edit_history.py`. Frontend: `renderEditDiffView
 
 ## Stand und offene Punkte (2026-06-10)
 
-**Umgesetzt:** quality_signals v1.5 (kalibriert, drei aktive Review-Kriterien), Modellkonsensus-Validierung (27 Objekte), 3-Modell-GT-Pipeline (18 Objekte), Agent-Verifikation (44+ Objekte), Drei-Status-Review-Modell mit Edit-Tracking, Viewer-Integration. CER-Baseline ueber alle 9 Gruppen: <5% (Druck) bis ~10% (schwierige Handschrift/Tabellen) → [[evaluation-results]].
+**Umgesetzt:** quality_signals v1.5 (kalibriert, drei aktive Review-Kriterien), Modellkonsensus-Validierung (27 Objekte), 3-Modell-GT-Pipeline (18 Objekte), Agent-Verifikation (44+ Objekte), Drei-Status-Review-Modell mit Edit-Tracking, Viewer-Integration. CER-Baseline ueber alle 9 Gruppen: <5% (Druck) bis ~10% (schwierige Handschrift/Tabellen) → `reports/cer-baseline-report-2026-04-02.md`.
 
 **Offen:**
 - Prompt-Wirksamkeits-Experiment (§3) — billig, nie ausgefuehrt

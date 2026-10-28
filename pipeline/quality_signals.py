@@ -1,6 +1,6 @@
 """Quality signals: automatische Qualitätsprüfung von Transkriptionsergebnissen.
 
-Berechnet Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
+Berechnet Signale gemäß knowledge/transcription-verification.md §2 und aggregiert
 sie zu einem needs_review-Flag.
 
 v1.2: Leerseiten-Klassifikation.
@@ -44,7 +44,7 @@ def _is_untranscribed(page: dict) -> bool:
 
 # DWR (Dictionary Word Ratio) was removed in v1.5 — evaluated against 68 verified
 # objects: Spearman rho=0.05, F1=0.20. It measured prose density, not quality.
-# See evaluation-results.md §5.1 for full analysis.
+# See reports/cer-baseline-report-2026-04-02.md §5.1 for full analysis.
 
 
 def _classify_page(page: dict) -> str:
@@ -162,7 +162,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         input_image_count: Number of images sent to the API
 
     Returns:
-        quality_signals dict per verification-concept.md §2.5
+        quality_signals dict per knowledge/transcription-verification.md §2.2
     """
     pages = result_json.get("pages", [])
     _fill_missing_pages(pages, input_image_count)

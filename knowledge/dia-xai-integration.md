@@ -18,14 +18,13 @@ updated: 2026-07-30
 authors: [Christopher Pollin]
 type: concept
 related:
-  - "[[verification-concept]]"
-  - "[[evaluation-results]]"
-  - "[[htr-interchange-format]]"
+  - "[[transcription-verification]]"
+  - "[[page-json-architecture]]"
 ---
 
 # DIA-XAI-Integration: Rolle der Pipeline im Pilotprojekt und im geplanten Antrag
 
-Abhaengigkeit: [[verification-concept]] (Reviewmodell, quality_signals, CER), [[evaluation-results]] (CER-Baseline), [[htr-interchange-format]] (Page-JSON)
+Abhaengigkeit: [[transcription-verification]] (Reviewmodell, quality_signals, CER), `reports/cer-baseline-report-2026-04-02.md` (CER-Baseline), [[page-json-architecture]] (Page-JSON)
 
 ---
 
@@ -60,7 +59,7 @@ Der Zustand eines Objekts steht im Block `review` der Ergebnisdatei. Vier Stufen
 
 ### 3.2 Verweigerte Verdichtung
 
-Die Pipeline fuehrt zwei weitere Bewertungen, die bewusst nicht mit der Vertrauensstufe verrechnet werden. `result.confidence` ist die kategoriale Selbsteinschaetzung des Modells (`high`, `medium`, `low`), `quality_signals.needs_review` das Ergebnis von sieben regelbasierten Signalen. Beide bleiben eigene Felder, im Datenmodell wie in den Filtern des Viewers. Es gibt keinen Ort im Code, an dem Pruefstatus, Modellkonfidenz und Signallage zu einer Zahl zusammengezogen werden. Die Begruendung steht in [[verification-concept]] und geht auf eine fruehe Projektentscheidung zurueck, kategoriale statt numerischer Konfidenz zu verwenden, weil LLMs ihre eigene Qualitaet numerisch nicht verlaesslich einschaetzen.
+Die Pipeline fuehrt zwei weitere Bewertungen, die bewusst nicht mit der Vertrauensstufe verrechnet werden. `result.confidence` ist die kategoriale Selbsteinschaetzung des Modells (`high`, `medium`, `low`), `quality_signals.needs_review` das Ergebnis von sieben regelbasierten Signalen. Beide bleiben eigene Felder, im Datenmodell wie in den Filtern des Viewers. Es gibt keinen Ort im Code, an dem Pruefstatus, Modellkonfidenz und Signallage zu einer Zahl zusammengezogen werden. Die Begruendung steht in [[transcription-verification]] und geht auf eine fruehe Projektentscheidung zurueck, kategoriale statt numerischer Konfidenz zu verwenden, weil LLMs ihre eigene Qualitaet numerisch nicht verlaesslich einschaetzen.
 
 ### 3.3 Erhaltung des Maschinenzustands
 

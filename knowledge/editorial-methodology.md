@@ -18,9 +18,8 @@ updated: 2026-08-21
 authors: [Christopher Pollin]
 type: concept
 related:
-  - "[[verification-concept]]"
-  - "[[evaluation-results]]"
-  - "[[page-xml-mets-architecture]]"
+  - "[[transcription-verification]]"
+  - "[[architecture]]"
   - "[[journal]]"
 ---
 
@@ -34,7 +33,7 @@ Der oeffentliche Viewer erschliesst Faksimiles, maschinelle Transkriptionen, Met
 
 Die editorische Reife wird je Objekt im `review`-Block des Ergebnis-JSON festgehalten. `gt_verified` und `approved` bezeichnen menschlich gepruefte Texte, `agent_verified` einen Bild-Text-Vergleich durch einen Vision-Agenten. Ein fehlender `review`-Block bezeichnet eine ungepruefte Modelltranskription. `needs_review` priorisiert Objekte innerhalb dieser letzten Gruppe und trifft keine Aussage ueber einen erreichten Pruefstatus.
 
-Der Katalog aggregiert diese Objektzustaende fuer die Curation-Progress-Anzeige. Die Anzeige erzeugt keinen globalen Editionsstatus und berechnet keinen Qualitaetsscore. Damit bleibt sichtbar, welche Teile des Bestands maschinell erzeugt, agentisch gesichtet oder menschlich autorisiert wurden. Die genauen Statusuebergaenge und ihre technische Verankerung stehen in [[verification-concept]].
+Der Katalog aggregiert diese Objektzustaende fuer die Curation-Progress-Anzeige. Die Anzeige erzeugt keinen globalen Editionsstatus und berechnet keinen Qualitaetsscore. Damit bleibt sichtbar, welche Teile des Bestands maschinell erzeugt, agentisch gesichtet oder menschlich autorisiert wurden. Die genauen Statusuebergaenge und ihre technische Verankerung stehen in [[transcription-verification]].
 
 ## Eine Anwendung in zwei Betriebskontexten
 
@@ -73,13 +72,13 @@ Ein Modellaufruf liefert keinen lesbaren internen Entscheidungsweg. Das Reposito
 
 Regelbasierte Qualitaetssignale messen Auffaelligkeit. Cross-Model-Konsensus misst Uebereinstimmung. Beide Verfahren koennen plausible gemeinsame Fehllektuerungen uebersehen. Eine Agentenpruefung erhoeht die Evidenz, erreicht aber nicht den Status einer menschlichen Pruefung.
 
-Auch die aus Korrekturen berechnete Character Error Rate hat eine begrenzte Reichweite. Die pruefende Person sieht die Modelltranskription vor dem Faksimile und kann dadurch an plausible Lesarten gebunden werden. Der Review-Bestand folgt editorischen Prioritaeten und bildet keine Zufallsstichprobe. Ein niedriger Aggregatwert kann zudem systematische Normalisierungen verdecken, die fuer eine diplomatische Transkription relevant sind. Messwerte und offene methodische Gegenmassnahmen stehen in [[evaluation-results]].
+Auch die aus Korrekturen berechnete Character Error Rate hat eine begrenzte Reichweite. Die pruefende Person sieht die Modelltranskription vor dem Faksimile und kann dadurch an plausible Lesarten gebunden werden. Der Review-Bestand folgt editorischen Prioritaeten und bildet keine Zufallsstichprobe. Ein niedriger Aggregatwert kann zudem systematische Normalisierungen verdecken, die fuer eine diplomatische Transkription relevant sind. Messwerte und offene methodische Gegenmassnahmen stehen in `reports/cer-baseline-report-2026-04-02.md`.
 
 ## Dauerhaftigkeit und Abhaengigkeitsgrenze
 
 Die oeffentliche Anwendung, die Ergebnisdaten und die Exporte koennen ohne erneuten Modellaufruf erhalten und geprueft werden. Page-JSON bewahrt den internen Arbeitsstand; METS/MODS und PAGE XML bilden den institutionellen Austauschpfad. Die Exportstufen sind deterministisch und von der Transkriptions-API getrennt.
 
-Eine vollstaendige Neuberechnung der Transkription und der VLM-basierten Layoutanalyse bleibt an proprietaere Modelle, ihre Verfuegbarkeit und ihr Laufzeitverhalten gebunden. Selbst bei gleicher Modellkennung ist ein identischer Output nicht garantiert. Der Reproduzierbarkeitsanspruch gilt fuer die aufgezeichneten Ergebnisse und die deterministischen Transformationen. Modellinferenz bleibt unter Anbieter- und Modellwechsel veraenderlich. Die technische Auspraegung dieser Grenze steht in [[page-xml-mets-architecture]].
+Eine vollstaendige Neuberechnung der Transkription und der VLM-basierten Layoutanalyse bleibt an proprietaere Modelle, ihre Verfuegbarkeit und ihr Laufzeitverhalten gebunden. Selbst bei gleicher Modellkennung ist ein identischer Output nicht garantiert. Der Reproduzierbarkeitsanspruch gilt fuer die aufgezeichneten Ergebnisse und die deterministischen Transformationen. Modellinferenz bleibt unter Anbieter- und Modellwechsel veraenderlich. Die technische Auspraegung dieser Grenze steht in [[architecture]].
 
 ## Quellenhierarchie
 

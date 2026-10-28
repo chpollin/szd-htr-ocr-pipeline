@@ -14,11 +14,11 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-data"
 status: active
 created: 2026-03-30
-updated: 2026-06-10
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: analysis
 related:
-  - "[[verification-concept]]"
+  - "[[transcription-verification]]"
   - "[[journal]]"
 ---
 

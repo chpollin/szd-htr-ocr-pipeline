@@ -35,7 +35,7 @@ Scripts die den regulaeren Datenfluss bilden (Transkription → Enrichment → E
 | `transcribe.py` | Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus mit Rate-Limit-Retry |
 | `quality_signals.py` | 7 Qualitaetssignale + page.type (v1.5, DWR entfernt) |
 | `verify.py` | Modellkonsensus: Gemini Flash Lite + Flash 3 + Claude Judge |
-| `evaluate.py` | CER/WER-Berechnung mit Normalisierung (annotation-protocol.md §5) |
+| `evaluate.py` | CER/WER-Berechnung mit Normalisierung (knowledge/transcription-guidelines.md §5) |
 | `build_viewer_data.py` | Baut `catalog.json` + `data/{collection}.json` aus enriched Ergebnis-JSONs |
 | `serve.py` | Lokaler Dev-Server mit Review-API (Approve/Edit) |
 | `import_reviews.py` | Expert-Review Write-Back (Frontend-Export → Pipeline-JSON) |

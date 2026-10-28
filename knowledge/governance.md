@@ -3,19 +3,18 @@ title: "Governance"
 aliases: [expert-in-the-loop, "Expert-in-the-Loop", "Wer prueft was"]
 project:
   name: "SZD OCR/HTR Pipeline"
-  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline.git"
+  repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
-  url: "https://dhcraft.org/promptotyping"
+  url: "https://dhcraft.org/Promptotyping/"
 status: active
 created: 2026-08-07
 updated: 2026-10-28
 type: concept
 related:
-  - "[[verification-concept]]"
-  - "[[annotation-protocol]]"
+  - "[[transcription-verification]]"
+  - "[[transcription-guidelines]]"
   - "[[review-findings]]"
-  - "[[evaluation-results]]"
 ---
 
 # Governance: Wer entscheidet und prüft was
@@ -32,7 +31,7 @@ related:
 
 Leitfrage: *Nicht* "braucht die Pipeline einen Menschen?" — das ist beantwortet — sondern **welchen Menschen an welcher Stelle**. "Expert-in-the-Loop" ist im Projektumfeld (vgl. coOCR HTR) bislang als eine Rolle gefuehrt. Beim tatsaechlichen Durcharbeiten zerfaellt sie in mehrere, die sich nicht gegenseitig vertreten koennen.
 
-Abgrenzung: [[verification-concept]] beschreibt die *Verfahren* der Qualitaetsmessung, [[annotation-protocol]] die *Konventionen*. Hier geht es um die **Zuordnung von Kompetenz zu Entscheidung** — welche Frage darf wer beantworten.
+Abgrenzung: [[transcription-verification]] beschreibt die *Verfahren* der Qualitaetsmessung, [[transcription-guidelines]] die *Konventionen*. Hier geht es um die **Zuordnung von Kompetenz zu Entscheidung** — welche Frage darf wer beantworten.
 
 Urheberschaft wie in [[review-findings]]: **[J]** = Projekt-Reviewer:in, Universitaet Salzburg (fachliche Beobachtung), **[C]** = Claude (maschinelle Nachpruefung, Kommando jeweils angegeben).
 
@@ -86,7 +85,7 @@ Ablesbar: Die technische Kompetenz sitzt fast vollstaendig **vor** der Transkrip
 python -c "import json,collections; o=json.load(open('docs/catalog.json',encoding='utf-8'))['objects']; print(collections.Counter(x.get('reviewStatus') or '-' for x in o))"
 ```
 
-**Palaeographie ist der teuerste Engpass.** Kurrent liegt bei 90–95% Genauigkeit gegenueber 99%+ bei Druck ([[evaluation-results]]), mit systematischen Verwechslungen (h↔I, n↔u, r↔v, L↔B, St↔H, f↔s). Eine Freigabe ohne Kurrent-Kompetenz ist auf diesen Seiten nicht neutral, sondern **schaedlich**: sie zementiert 5–10% Fehler als Ground Truth und verfaelscht damit genau die CER-Referenz, gegen die alles andere gemessen wird. Ungeprueft waere besser als falsch geprueft.
+**Palaeographie ist der teuerste Engpass.** Kurrent liegt bei 90–95% Genauigkeit gegenueber 99%+ bei Druck (`reports/cer-baseline-report-2026-04-02.md`), mit systematischen Verwechslungen (h↔I, n↔u, r↔v, L↔B, St↔H, f↔s). Eine Freigabe ohne Kurrent-Kompetenz ist auf diesen Seiten nicht neutral, sondern **schaedlich**: sie zementiert 5–10% Fehler als Ground Truth und verfaelscht damit genau die CER-Referenz, gegen die alles andere gemessen wird. Ungeprueft waere besser als falsch geprueft.
 
 **Die editorische Kompetenz fehlt bereits sichtbar in den Daten.** Ueber alle Ergebnis-JSONs kommen 388 Label-Marker in 68 verschiedenen Schreibweisen vor. `marker_enrich.py` konvertiert davon genau drei Labels (`[Stempel:]`, `[Poststempel:]`, `[Marginalie:]`) = 28 Vorkommen, also **7%**. `[Marginalie:]` — der einzige im Annotationsprotokoll §3.5 dokumentierte Rand-Marker — kommt **null Mal** vor; das Modell schreibt stattdessen `[Randnotiz links:]` (51×) und 79 weitere Rand-Varianten. 27 Labels sind Einzelfaelle, reine Ad-hoc-Erfindungen des Modells.
 
@@ -114,5 +113,5 @@ Das ist kein Modellfehler, sondern eine **unbesetzte Rolle**: Niemand hat entsch
 
 1. Gibt es im SZD-Umfeld ueberhaupt Kurrent-Kompetenz mit Kapazitaet, oder muss das Ziel fuer die Handschriften-Gruppen von "geprueft" auf "als ungeprueft gekennzeichnet" gesenkt werden?
 2. Ist ein zweistufiges Approve sinnvoll (Transkription geprueft / Sachverhalt geprueft) oder ueberfrachtet das den Workflow?
-3. Kann die Agent-Verifikation ([[verification-concept]] §8) palaeographisch schwierige Seiten wenigstens *vorsortieren*, damit die knappe Kurrent-Zeit nicht auf einfache Seiten faellt?
+3. Kann die Agent-Verifikation ([[transcription-verification]] §8) palaeographisch schwierige Seiten wenigstens *vorsortieren*, damit die knappe Kurrent-Zeit nicht auf einfache Seiten faellt?
 4. Wer entscheidet das Label-Vokabular — und wird es geschlossen (nur definierte Labels erlaubt) oder offen mit Konvertierungsliste?

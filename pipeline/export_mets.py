@@ -4,7 +4,7 @@ Generates METS XML containers with embedded MODS descriptive metadata,
 fileSec (image + optional PAGE XML references), and physical structMap.
 Follows the GAMS METS structure used at University of Graz.
 
-Specification: knowledge/page-xml-mets-architecture.md
+Specification: knowledge/architecture.md (section Archivformat)
 GAMS template:  {backup}/o_szd.*/mets.xml
 
 Usage:

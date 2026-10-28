@@ -56,7 +56,7 @@ Der Plan führt die angenommene Zukunftsarbeit der Pipeline in Phasen, vom laufe
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 - [ ] **Editionsrichtlinien pflegen** — das Richtlinien-Panel im Viewer zeigt §3 des
       Annotationsprotokolls. Faelle, die beim Redigieren auftauchen und dort nicht geregelt sind,
-      gehoeren zurueck in `knowledge/annotation-protocol.md` und von dort ins Panel. Offen ist,
+      gehoeren zurueck in `knowledge/transcription-guidelines.md` und von dort ins Panel. Offen ist,
       ob das Panel Gruppen-spezifische Regeln (§4: Umschlaege, Stempel, Formularfelder, mehrere
       Haende) ebenfalls aufnehmen sollte — bisher nur die gruppenunabhaengigen Marker.
 - [ ] **Regel fuer Abbildungen und undefinierte Klammern** (Operator-Feedback 2026-10-02) —
@@ -141,7 +141,7 @@ Der Plan führt die angenommene Zukunftsarbeit der Pipeline in Phasen, vom laufe
 - [x] Page-JSON v0.2 Schema (`schemas/page-json-v0.2.json`) — Dublin Core + materialtypologische Erweiterungen
 - [x] `_extract_full_metadata()` in `tei_context.py` — 10 neue TEI-Felder (creators+GND, holding+GND, provenance, origPlace, writing_material, dimensions, binding, inscriptions)
 - [x] `export_page_json.py` — OCR + Layout + TEI-Metadaten → Page-JSON v0.2
-- [x] Wissensdokument `knowledge/page-xml-mets-architecture.md` — Schichtenarchitektur PAGE XML / MODS / METS
+- [x] Wissensdokument zur Schichtenarchitektur PAGE XML / MODS / METS, heute [[architecture]] (Abschnitt Archivformat)
 - [x] Batch-Export aller Objekte nach Page-JSON v0.2 (2030 Dateien, Session 24)
 
 #### 5b: METS/MODS + PAGE XML (Zielformat)

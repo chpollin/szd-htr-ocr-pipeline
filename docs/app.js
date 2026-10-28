@@ -229,7 +229,7 @@ function escapeHtml(text) {
 }
 
 /* ===== Transkriptions-Markup =====
-   Rendert die Marker des Annotationsprotokolls (knowledge/annotation-protocol.md §3)
+   Rendert die Marker des Annotationsprotokolls (knowledge/transcription-guidelines.md §3)
    in der Leseansicht. Bisher wurde nur ~~Tilgung~~ dargestellt, alle anderen Marker
    standen als roher Text da — Einfuegungen waren im Review nicht als solche erkennbar.
 
@@ -900,7 +900,7 @@ async function renderTransparencyCards() {
   if (!kd || !kd.docs) return;
 
   if (vaultList) {
-    // Use the reading order from knowledge/index.md sections if available;
+    // Use the reading order from knowledge/INDEX.md sections if available;
     // fall back to alphabetic otherwise. Puts the most load-bearing docs first.
     const fromSections = (kd.sections || []).flatMap(s => s.slugs || []);
     const allSlugs = Object.keys(kd.docs);

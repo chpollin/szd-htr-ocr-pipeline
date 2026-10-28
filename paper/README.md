@@ -1,6 +1,6 @@
 # Research manuscript archive
 
-This directory retains the July 2026 manuscript and the material from which it was written. The project decided on 21 August 2026 that this manuscript will not be submitted. Its maintained findings have been integrated into `knowledge/editorial-model.md`, `knowledge/evaluation-results.md`, and `knowledge/page-xml-mets-architecture.md`.
+This directory retains the July 2026 manuscript and the material from which it was written. The project decided on 21 August 2026 that this manuscript will not be submitted. Its maintained findings have been integrated into `knowledge/editorial-methodology.md`, `knowledge/transcription-verification.md` (with the dated measurements in `reports/cer-baseline-report-2026-04-02.md`), and `knowledge/architecture.md`.
 
 | File | Status | Function |
 |---|---|---|
@@ -10,4 +10,6 @@ This directory retains the July 2026 manuscript and the material from which it w
 | `drafts/PAPER-TEXT-FILLED.md` | superseded | The same text with the placeholders filled from the findings |
 | `drafts/CLAUDE-TASK.md` | superseded | The working instruction under which the findings and the filled text were produced |
 
-`PAPER.md` is not maintained against later changes. One reference in it has since moved. The phased roadmap it names as `Plan.md` now lives at `knowledge/plan.md`. Current project knowledge follows the source hierarchy in `knowledge/editorial-model.md`.
+`PAPER.md` is not maintained against later changes. One reference in it has since moved. The phased roadmap it names as `Plan.md` now lives at `knowledge/plan.md`. Current project knowledge follows the source hierarchy in `knowledge/editorial-methodology.md`.
+
+The knowledge base was renamed on 28 October 2026. The knowledge file names cited in `PAPER.md` and `PAPER-FINDINGS.md` map to the current documents through the table of former file names in `knowledge/INDEX.md`.
