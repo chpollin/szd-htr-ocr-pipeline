@@ -26,7 +26,7 @@ related:
 
 ## Physischer Bestand
 
-Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien (100% Abdeckung). **Fuenf Sammlungen** (autographen seit 2026-06-10, s. Abschnitt 5).
+Lokales Backup unter `SZD_BACKUP_ROOT` (Default `~/Documents/PROJECTS/szd-backup/data/`, relativ zum Home-Verzeichnis). Jedes Objekt liegt als `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg` vor; alle Objekte sind vollstaendig (100% Abdeckung). Das Mapping der Unterverzeichnisse auf die internen Sammlungsnamen steht in `config.py` (`COLLECTIONS`). **Fuenf Sammlungen** (autographen seit 2026-06-10, s. Abschnitt 5).
 
 | Sammlung | Backup-Dir | Objekte | Bilder | Volumen | Bilder/Obj (Median) | Bilder/Obj (Max) |
 |---|---|---|---|---|---|---|

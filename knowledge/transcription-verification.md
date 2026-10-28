@@ -1,6 +1,6 @@
 ---
 title: "Verifikationskonzept"
-aliases: [verification-concept, "Verifikationskonzept"]
+aliases: [verification-concept, evaluation-results, "Verifikationskonzept", "CER-Baseline"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
@@ -443,3 +443,88 @@ Retroaktive Migration: `backfill_edit_history.py`. Frontend: `renderEditDiffView
 - `duplicate_pages`-False-Positive bei Color-Chart-Doppelfotografie
 - Entscheidung, ob Doppeltranskription (Modellkonsensus) fuer weitere Bestandsteile gefahren wird
 - Pseudo-Perplexity als Eskalationsstufe, falls Triage-Signale nicht mehr ausreichen
+
+---
+
+## 9. Fehlertypologie
+
+Erhoben in der CER-Baseline vom 2. April 2026 (`reports/cer-baseline-report-2026-04-02.md`, dort §4) an verifizierten Objekten aller neun Prompt-Gruppen. Die Typen gelten weiter als Prüfraster für Review und Agent-Verifikation; Häufigkeiten beziehen sich auf jene Stichprobe.
+
+### 9.1 Fraktur-spezifische Fehler (Schweregrad: hoch)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Langes s → f | selbst**f**eligen | selbst**s**eligen | o_szd.2213 |
+| ft ↔ st | gerei**st**e | gerei**ft**e | o_szd.2213 |
+| Fraktur a → Punkt | s**.g**en | s**ag**en | o_szd.2296 |
+| Wortfragment halluziniert | Mitge**brine** | Mitbr**ingsel** | o_szd.2217 |
+| Eigenname falsch | **Hayel** | **Hayek** | o_szd.2217 |
+| Werktitel halluziniert | Demokratie **Lista** | Democratic **Vistas** | o_szd.2217 |
+| D/W-Verwechslung | **Denn** sie wirklich | **Wenn** sie wirklich | o_szd.2249 |
+| Fehlende Silbe | auf**hetzter** | auf**gehetzter** | o_szd.2249 |
+
+**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen (ſ/f; ft/st-Ligaturen nahezu identisch). Bei Eigennamen und fremdsprachigen Werktiteln fehlt Kontextwissen. **Haeufigkeit**: ~28 Fehler in ~14.000 Fraktur-Zeichen (~0.2%).
+
+### 9.2 Kurrent-Buchstabenverwechslungen (Schweregrad: hoch)
+
+*Session 19 — 8 Korrespondenzen an Max Fleischer (~1901-1902), alle Kurrent.*
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| h ↔ I | muß ich jetzt **Ihre** schließen | muß ich jetzt **hier** schließen | o_szd.1079 |
+| St ↔ H | **Hud. inr.** | **Stud. iur.** | o_szd.1081 |
+| r ↔ v | gracioesa **devin** | gracioesa **darin** | o_szd.1081 |
+| L ↔ B | **Besten** Gruss | **Liebsten** Gruss | o_szd.1100 |
+| Nonsens | **Langentour Kantgewalt** | **Laufenden** | o_szd.1090 |
+
+**Ursache**: Kurrent-Minuskeln weichen systematisch von Antiqua ab; Gemini (primaer auf Antiqua trainiert) erkennt die Unterschiede nicht zuverlaessig. Besonders betroffen: hastige Schrift auf kleinen Postkarten, rote Tinte auf Bildhintergrund. **Haeufigkeit**: 33 Fehler in 8 Objekten (~4/Objekt); Spread 90% (hastig) bis 99.7% (sauber). Groesster Einflussfaktor ist die Schriftqualitaet des Originals, nicht der Prompt.
+
+**Besonders problematisch: Nonsens-Halluzination.** Bei unleserlichem Kurrent erfindet Gemini echte Woerter statt `[?]` zu setzen. Das macht `marker_density` als Quality-Signal **wertlos** — das Modell signalisiert Unsicherheit nicht (Konsequenz: in v1.5 aus `needs_review` entfernt).
+
+### 9.3 Halluziniertes "An" auf Adressseiten (Schweregrad: niedrig)
+
+In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressaten auf Postkarten-Adressseiten. **Fix**: Hinweis im Gruppen-Prompt I oder Post-Processing-Regel.
+
+### 9.4 Grossschreibung (Schweregrad: niedrig)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Eigenname | zweig | Zweig | o_szd.127 (3x) |
+| Buchtitel | silberne Saiten | Silberne Saiten | o_szd.2296 |
+| Substantiv | hingabe | Hingabe | o_szd.2213 |
+
+VLM normalisiert gelegentlich Grossschreibung weg, besonders bei Handschrift und Fraktur.
+
+### 9.5 Fehlende Woerter/Zeichen (Schweregrad: mittel)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Fehlendes Wort | bloß angefuehlt | **nicht** bloß angefuehlt | o_szd.1888 |
+| Wortgrenze | erhoben — Hand — | erhoben**e Hand** — | o_szd.1888 |
+| Fehlende Anfuehrung | ADEPTS IN SELF | **"**ADEPTS IN SELF | o_szd.102 |
+
+### 9.6 Fremdsprachliche Fehler (Schweregrad: mittel)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Ital. Vokal | **titole** | **titolo** | o_szd.91 |
+| Fehlende Silbe | **conten-te** | **contenen-te** | o_szd.91 |
+| Ital. Vokal | **tiretura** | **tiratura** | o_szd.91 |
+| Ortsname | **Komotan** | **Komotau** | o_szd.1106 |
+| Datum | 30. Juli **1934** | 20. Juli **1934** | o_szd.1383 |
+
+Bei fremdsprachigen Dokumenten fehlt teils Kontextwissen fuer Vokale und Ortsnamen; betrifft v.a. Kohlekopie-Typoskripte (schwacher Kontrast) und seltene Eigennamen.
+
+### 9.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch, behoben)
+
+*Entdeckt in Session 20, Root Cause und Fix in Phase A.*
+
+**Root Cause**: `run_sample_batch.py` hatte `--max-images` mit Default 5; das initiale Sample kappte alle Objekte auf 5 Bilder, und `transcribe.py --all` uebersprang sie spaeter (skip-if-exists). Das Chunking war **nicht** der Fehler. `diagnose_truncation.py` fand 97 betroffene Objekte: 24 `max5_truncated`, 18 `vlm_mismatch` (VLM lieferte weniger Seiten), 26 `zero_pages` (API-Fehler). **Fix**: Default auf 0 (kein Limit); `transcribe.py` speichert `metadata.input_image_count_total` zur Erkennung; Re-Transkription mit `--force --chunk-size 20`.
+
+### 9.8 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
+
+| Fehler | Beschreibung | Objekt |
+|---|---|---|
+| Betraege falscher Zeile zugeordnet | ffr 10.340 auf Aug-Zeile statt Okt-Zeile | o_szd.1475 |
+
+VLMs linearisieren Tabellen von oben nach unten; bei rechtsbuendigen Betraegen und linksbuendigen Beschreibungen verrutscht die Zuordnung. Schwerwiegendster systematischer Fehler im Korpus.

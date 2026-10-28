@@ -1,5 +1,5 @@
 ---
-title: "Expert-in-the-Loop"
+title: "Governance"
 aliases: [expert-in-the-loop, "Expert-in-the-Loop", "Wer prueft was"]
 project:
   name: "SZD OCR/HTR Pipeline"
@@ -7,9 +7,9 @@ project:
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/promptotyping"
-status: living
+status: active
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-10-28
 type: concept
 related:
   - "[[verification-concept]]"
@@ -18,7 +18,17 @@ related:
   - "[[evaluation-results]]"
 ---
 
-# Expert-in-the-Loop: Wo ist welche Expertise noetig?
+# Governance: Wer entscheidet und prüft was
+
+## Entscheidungsbefugnisse
+
+- `approved` und `gt_verified` setzen ausschließlich Menschen, nachdem sie das Objekt am Faksimile gegengelesen haben. Ein Agent setzt diese Status nicht, auch nicht im Auftrag. Technisch abgesichert ist bisher nur, dass der Bearbeitungspfad der Review-API keinen Agent-Status beanspruchen kann (`tests/test_trust_tiers.py`); die übrige Grenze ist Arbeitsregel.
+- `agent_verified` setzt nur die Agent-Verifikation und schreibt dabei Modellkennung, Befunde und Änderungsquelle mit ([[transcription-verification]] §8).
+- Absätze mit **[J]** stammen von der Projekt-Reviewer:in und werden von Agenten weder umformuliert noch korrigiert. Eine abweichende Nachprüfung steht als **[C]**-Absatz darunter ([[review-findings]]).
+- Das Review-Modell, das Label-Vokabular, editorische Regeln in [[transcription-guidelines]] und Modellwechsel entscheidet die Projektleitung; Agenten bereiten diese Entscheidungen mit nachrechenbaren Befunden vor und führen sie in [[plan]] als offen.
+- Vergangene Journaleinträge und das eingefrorene Manuskript unter `paper/` werden nicht umgeschrieben.
+
+## Expert-in-the-Loop: Wo ist welche Expertise nötig?
 
 Leitfrage: *Nicht* "braucht die Pipeline einen Menschen?" — das ist beantwortet — sondern **welchen Menschen an welcher Stelle**. "Expert-in-the-Loop" ist im Projektumfeld (vgl. coOCR HTR) bislang als eine Rolle gefuehrt. Beim tatsaechlichen Durcharbeiten zerfaellt sie in mehrere, die sich nicht gegenseitig vertreten koennen.
 

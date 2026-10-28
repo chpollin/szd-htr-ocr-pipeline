@@ -1,6 +1,6 @@
 ---
-title: "Research Vault"
-aliases: [index, "MOC", "Map of Content"]
+title: "Index"
+aliases: [index, "MOC", "Map of Content", "Research Vault"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
@@ -9,130 +9,168 @@ method:
   url: "https://dhcraft.org/Promptotyping/"
 template:
   name: "Vorlage Index"
-  version: 0.2
+  version: 0.4
   url: "https://dhcraft.org/Promptotyping/promptotyping-document/index"
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-index"
 status: active
 language: de
-version: 0.2
-tags: [index]
+version: 0.3
 created: 2026-04-01
 updated: 2026-10-28
 authors: [Christopher Pollin]
-type: moc
+related: [project, data, specification, architecture, governance, handoff, journal]
 ---
 
-# SZD-HTR Research Vault
+# Index
 
-Navigationsknoten des Wissensstands und Lesehilfe fuer seine Dokumente. Der Vault dokumentiert die VLM-gestuetzte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass und richtet sich an drei Leserinnen und Leser, an eine Gutachterin, die eine Behauptung gegen den Code pruefen will, an einen frischen Coding-Agenten und an die Projektleitung, die nach Wochen zurueckkehrt. Der operative Stand steht im juengsten Eintrag von [[journal]]. Veraenderliche Zahlen stehen nie hier, sondern in ihren Quellen, `docs/catalog.json` fuer den Katalogstand, `python pipeline/transcribe.py --all --dry-run` fuer die kanonische Objektzahl, `reports/` fuer die Messberichte und die Testlaeufe unter `pipeline/test_*.py` und `tests/`.
+Einstieg in die Wissensbasis der SZD OCR/HTR Pipeline für einen Coding-Agenten zu Sessionbeginn, für Gutachtende, die eine Aussage gegen Code und Daten prüfen, und für die Projektleitung beim Wiedereinstieg. Die Tabellen unten ordnen jedes Dokument seiner Funktion nach der Konvention für Promptotyping Documents zu und steuern zugleich die Abschnitte des Research Vault im Viewer. Veränderliche Zahlen stehen in ihren Quellen, `docs/catalog.json`, `python pipeline/transcribe.py --all --dry-run` und `reports/`.
 
-## Grundlagen
+## Dokumente
 
-| Dokument | Funktion | Lektuere beantwortet |
-|---|---|---|
-| [[data-overview]] | Material | Woraus der Korpus besteht, fuenf Sammlungen, neun Prompt-Gruppen, Sprachen, Schreiberhaende, Bildmassen |
-| [[annotation-protocol]] | Norm | Nach welchen Regeln diplomatisch transkribiert wird und welches Markup gilt |
-| [[editorial-model]] | Methodischer Rahmen | Wie editioneller Status, Betriebskontexte, Provenienz und Modellabhaengigkeit zusammenhaengen |
-| [[verification-concept]] | Verfahren | Wie geprueft wird, Ground Truth, quality_signals, Cross-Model-Konsensus, Verification-by-Vision, Agent-Verifikation |
-| [[evaluation-results]] | Befund | Was die CER-Baseline zeigt und welche Fehlertypen wiederkehren |
+### Rahmen
 
-## Spezifikationen
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[project]] | Charter | Was ist das Projekt, für wen, auf welcher Materialgrundlage, unter welcher Lizenz? | bei Änderung von Identität, Rollen oder Scope |
+| [[specification]] | Specification | Was sollen Pipeline und Viewer tun, nach welchem Review-Modell, in welchen Ausgabeformaten, und welche Entscheidungen sind gefallen? | bei Anforderungs- oder Entscheidungsänderung |
+| [[governance]] | Governance | Wer darf welchen Status setzen und welche Entscheidung treffen, und welche Kompetenz trägt eine Freigabe? | bei Änderung von Rollen oder Befugnissen |
 
-| Dokument | Funktion | Lektuere beantwortet |
-|---|---|---|
-| [[htr-interchange-format]] | Arbeitsformat | Wie Page-JSON v0.2 Text, Layout und deskriptive Metadaten zusammenfuehrt |
-| [[page-xml-mets-architecture]] | Zielformat | Wie PAGE XML, MODS und METS geschichtet sind und wie TEI-Felder darauf abgebildet werden |
-| [[teicrafter-integration]] | Editionsformat | Wie Page-JSON deterministisch nach teiCrafter-ladbarem TEI konvertiert und mit Markern angereichert wird |
-| [[layout-analysis]] | Layout | Wie die VLM-gestuetzte Regionenerkennung arbeitet und nach PAGE XML exportiert |
-| [[stats-dashboard]] | Anzeige | Welche Metriken das Statistik-Dashboard zeigt und wie sie definiert sind |
+### Material und Fachregeln
 
-## Rollen und Arbeitsteilung
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[data]] | Material | Woraus besteht der Korpus, Sammlungen, Prompt-Gruppen, Sprachen, Hände, Bildmengen? | bei neuer Lieferung oder Backup-Änderung |
+| [[transcription-guidelines]] | Domain Knowledge | Nach welchen Regeln wird diplomatisch transkribiert, welches Markup gilt? | bei editorischer Entscheidung |
+| [[editorial-methodology]] | Domain Knowledge | Wie hängen editorischer Status, Betriebskontexte, Provenienz und Modellabhängigkeit zusammen? | bei Änderung des Statusmodells oder der Quellenhierarchie |
 
-| Dokument | Funktion | Lektuere beantwortet |
-|---|---|---|
-| [[expert-in-the-loop]] | Zustaendigkeit | Wo welche Expertise noetig ist, technisch, palaeographisch, prosopographisch, editorisch, und welche Entscheidung wer treffen darf |
+### Architektur
 
-## Rahmen und Pruefung
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[architecture]] | Architecture | Wie fließen Daten durch die Pipeline, welche Komponenten, Modelle und Archivformate gibt es, welches Bedrohungsmodell gilt? | bei Architekturänderung |
+| [[page-json-architecture]] | Architecture | Wie führt Page-JSON v0.2 Text, Layout und deskriptive Metadaten zusammen? | bei Schemaänderung |
+| [[layout-analysis-architecture]] | Architecture | Wie arbeitet die Regionenerkennung und wie wird nach PAGE XML exportiert? | bei Änderung der Layout-Stufe |
 
-| Dokument | Funktion | Lektuere beantwortet |
-|---|---|---|
-| [[dia-xai-integration]] | Aussenbezug | In welchem Verhaeltnis die Pipeline zum DIA-XAI-Pilotprojekt und zum geplanten Verifikationsantrag steht |
-| [[verification-fair4rs]] | Nachweis | Wie das Repository gegen die FAIR4RS-Prinzipien abschneidet, geprueft und belegt |
-| [[security]] | Angriffsflaeche | Welches Threat Model der lokale Review-Server hat und welche Findings behoben sind |
+### Prüfung
 
-## Projektlog
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[transcription-verification]] | Verification | Wie wird geprüft, mit welchen Signalen, Konsensus- und Agentenverfahren, und welche Fehlertypen kehren wieder? | bei Änderung eines Verfahrens oder Signals |
+| [[review-findings]] | Quality Assurance | Welche Befunde und Vorschläge kommen aus dem laufenden Review, mit welcher Urheberschaft? | bei jedem neuen Befund oder Statuswechsel |
 
-| Dokument | Funktion | Lektuere beantwortet |
-|---|---|---|
-| [[plan]] | Roadmap | In welcher Phase die Arbeit steht, welche Aufgaben offen sind, welche Entscheidungen datiert gefallen sind |
-| [[review-findings]] | Rueckmeldung | Welche Befunde und Verbesserungsvorschlaege aus dem laufenden Review kommen, mit Urheberschaft je Eintrag |
-| [[journal]] | Genese | Was in jeder Session geschah, mit Begruendung der Entscheidungen; zugleich der Audit-Trail des Projekts |
+### Schnittstellen
+
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[teicrafter-integration]] | Integration | Wie wird Page-JSON deterministisch zu teiCrafter-ladbarem TEI mit Marker-Anreicherung? | bei Änderung des Konverters oder der teiCrafter-Seite |
+| [[dia-xai-integration]] | Integration | In welchem Verhältnis steht die Pipeline zum DIA-XAI-Pilotprojekt und zum Verifikationsantrag? | bei Änderung des Antrags- oder Pilotstands |
+
+### Prozess
+
+| Pfad | Funktion | Routing Question | Aktualisierung |
+|---|---|---|---|
+| [[plan]] | Planning | Welche Arbeit ist angenommen, in welcher Phase, und welche Entscheidungen stehen aus? | bei Abschluss oder Aufnahme einer Aufgabe |
+| [[handoff]] | Handoff | Welche Übergabepunkte warten auf Integration oder Verwerfung? | bei Eingang oder Verarbeitung eines Punkts |
+| [[journal]] | Provenance | Welche Übergänge wurden integriert, verworfen oder korrigiert, und warum? | nach jedem sachlich zusammengehörigen Übergang |
+
+`review-findings.md` ist eine Spezialisierung nach dem Muster `<subject>-<function>.md` für Quality Assurance. Sie trägt Material vor der Entscheidung, das die Projekt-Reviewer:in am Faksimile und am Viewer beobachtet. Zwei Eigenschaften rechtfertigen das eigene Dokument. Jeder Befund trägt eine stabile ID (`B-01`, `B-02`, …), auf die Journal, Issues und Commits verweisen, und jeder Absatz ist nach Urheberschaft mit **[J]** oder **[C]** gekennzeichnet. Ein allgemeines Testing-Dokument hätte für diese Kennzeichnung und für die Regel, dass **[J]**-Absätze unverändert bleiben, keinen Ort.
+
+### Frühere Dateinamen
+
+Die Wissensbasis wurde am 2026-10-28 nach den Promptotyping-Vorlagen vereinheitlicht. Ältere Journaleinträge, **[J]**-Absätze und das Manuskript unter `paper/` verwenden die früheren Namen; `aliases:` im Frontmatter und die Alias-Tabelle des Viewers führen sie auf das aktuelle Dokument.
+
+| Früherer Name | Aktuelles Dokument |
+|---|---|
+| `index.md` | `INDEX.md` |
+| `data-overview.md` | `data.md` |
+| `annotation-protocol.md` | `transcription-guidelines.md` |
+| `editorial-model.md` | `editorial-methodology.md` |
+| `verification-concept.md` | `transcription-verification.md` |
+| `evaluation-results.md` | Fehlertypologie in `transcription-verification.md` §9, Messbericht `reports/cer-baseline-report-2026-04-02.md` |
+| `expert-in-the-loop.md` | `governance.md` |
+| `htr-interchange-format.md` | `page-json-architecture.md` |
+| `layout-analysis.md` | `layout-analysis-architecture.md` |
+| `page-xml-mets-architecture.md` | `architecture.md`, Abschnitt Archivformat |
+| `security.md` | `architecture.md`, Abschnitt Sicherheit, Befunde in `reports/security-review-2026-04-02.md` |
+| `stats-dashboard.md` | `specification.md`, Abschnitt Statistik-Dashboard |
+| `verification-fair4rs.md` | `reports/fair4rs-verification-2026-07-23.md`, offene Maßnahmen in `plan.md` |
+
+## Ablagezonen
+
+- `knowledge/` enthält die dauerhaft gepflegten Promptotyping Documents einschließlich `handoff.md` als Process Inbox.
+- `reports/` ist die Ablagezone für datierte Berichte, Audits und Befundlisten, die nicht fortgeschrieben werden. Sie entspricht der Zone `snapshots/` der Konvention; der Name ist im Repository etabliert und wird von Skripten beschrieben. Messwerte und Stichtagsbefunde liegen hier, ihre gültige Deutung in `knowledge/`.
+- `paper/` hält das Forschungsmanuskript vom Juli 2026 mit seiner Evidenzbasis als eingefrorenes Forschungsartefakt.
+- `data/` hält die TEI-Metadaten als übernommenes Quellmaterial; die Faksimiles liegen im lokalen Backup außerhalb des Repositorys.
+- `results/`, `docs/catalog.json` und `docs/data/` sind von der Pipeline erzeugte Artefakte; `results/README.md` beschreibt ihren Aufbau.
 
 ## Lesepfade
 
-- Erstkontakt: `data-overview` → `verification-concept` → `evaluation-results`
-- Editionellen und epistemischen Rahmen verstehen: `editorial-model` → `verification-concept` → `page-xml-mets-architecture`
-- Ergebnisdatei verstehen: `htr-interchange-format` → `verification-concept` → `results/README.md`
-- Archivexport nachvollziehen: `page-xml-mets-architecture` → `htr-interchange-format` → `teicrafter-integration`
-- Vertrauensstufen und Provenienz pruefen: `verification-concept` → `README.md` (Abschnitt Trust tiers) → `pipeline/serve.py`
-- Arbeit wieder aufnehmen: `journal` → `plan`
-- Aussenbezug klaeren: `dia-xai-integration` → `verification-fair4rs`
-- Entstehung und Methode nachvollziehen: `README.md` (Abschnitt How this was built) → `journal` → `review-findings`
+- Sessionstart: [[INDEX]] → [[handoff]] → [[project]] → aufgabenrelevantes Dokument.
+- Ergebnisdatei verstehen: [[specification]] (Ausgabeformate) → [[page-json-architecture]] → `results/README.md`.
+- Prüfstatus und Provenienz prüfen: [[governance]] → [[transcription-verification]] → `README.md` (Trust tiers) → `pipeline/serve.py`.
+- Archivexport nachvollziehen: [[architecture]] → [[page-json-architecture]] → [[teicrafter-integration]].
+- Editorischen Rahmen verstehen: [[editorial-methodology]] → [[transcription-guidelines]] → [[transcription-verification]].
+- Entstehung nachvollziehen: `README.md` (How this was built) → [[journal]] → [[review-findings]].
 
 ## Konvention
 
-Der Vault folgt der Konvention fuer Promptotyping Documents. Sie regelt das Frontmatter-Schema, die Lesehilfe und die strukturellen Prinzipien, gegen die jedes Dokument lesbar bleibt. Die Abschnittsstruktur dieses Dokuments steuert zugleich die Navigation des Knowledge-Vaults im Viewer, `pipeline/build_viewer_data.py` liest die Ueberschriften und die Wikilinks daraus.
+Die Wissensbasis folgt der Konvention für Promptotyping Documents (https://dhcraft.org/Promptotyping/), die Naming Contract, Frontmatter-Schema, Routing-Heuristik und Strukturprinzipien regelt. Jedes Dokument trägt den Pflichtkern `title`, `project`, `method`, `status`, `created`, `updated`; wo eine Katalogvorlage existiert, bindet `template:` das Dokument an sie. Die gemeinsame Schemaversion steht nur hier im Feld `version:` und gilt für alle Dokumente dieses Ordners; sie steigt, wenn sich Pflichtfelder oder Funktionen ändern. Das Feld `generated-with` steht nur, wo die Git-Historie ein einziges Modell über die gesamte Dateigeschichte ausweist. `pipeline/build_viewer_data.py` liest die Tabellen unter Dokumente für die Navigation des Viewers.
 
-Die folgende Zuordnung wurde am 2026-07-31 nachtraeglich gesetzt, ohne Inhalte zu aendern und ohne Dateien umzubenennen. Eine Vorlage traegt eine Funktion und keinen Dateinamen, die gewachsenen Namen bleiben deshalb stehen. Die Genese steht im Journal.
+Design hat kein eigenes Dokument; das Designsystem liegt in `docs/app.css`, die Gestaltungsregeln des Statistik-Dashboards in [[specification]]. Die Teststrategie steht im Action-Layer `CLAUDE.md`, die Prüfungen selbst unter `tests/` und `pipeline/test_*.py`. Eine Technology Baseline entfällt, weil das Repository keine Artefaktfamilie mit anderen Projekten teilt.
 
-### Funktion und Vorlage je Dokument
+## Begriffe
 
-| Dokument | Konventionsfunktion | Vorlage |
-|---|---|---|
-| `index.md` | Navigation | Vorlage Index |
-| `data-overview.md` | Material | Vorlage Datengrundlage |
-| `annotation-protocol.md` | Domain Knowledge | Vorlage Domänenwissen |
-| `editorial-model.md` | Domain Knowledge | Vorlage Domänenwissen |
-| `verification-concept.md` | Verification | Vorlage Verification |
-| `verification-fair4rs.md` | Verification | Vorlage Verification |
-| `htr-interchange-format.md` | Architecture | Vorlage Architecture |
-| `page-xml-mets-architecture.md` | Architecture | Vorlage Architecture |
-| `layout-analysis.md` | Architecture | Vorlage Architecture |
-| `teicrafter-integration.md` | Integration | Vorlage Integration |
-| `dia-xai-integration.md` | Integration | Vorlage Integration |
-| `plan.md` | Planning | Vorlage Plan |
-| `journal.md` | Provenance | Vorlage Journal |
-| `evaluation-results.md` | freihaendig | keine |
-| `security.md` | freihaendig | keine |
-| `stats-dashboard.md` | freihaendig | keine |
-| `review-findings.md` | freihaendig | keine |
-| `expert-in-the-loop.md` | freihaendig | keine |
+### [J] und [C]
 
-Die Architecture-Funktion ist auf drei Dateien geteilt, was die Vorlage ausdruecklich zulaesst. `htr-interchange-format` traegt das Arbeitsformat zwischen den Pipeline-Stufen, `page-xml-mets-architecture` die Schichtung der Archivausgabe, `layout-analysis` die Layout-Stufe. Integration ist zweimal besetzt, weil das Repository zwei Schnittstellen nach aussen fuehrt, teiCrafter und DIA-XAI.
+Urheberschaftsmarker je Absatz. **[J]** kennzeichnet eine fachliche Beobachtung der Projekt-Reviewer:in (Universität Salzburg), **[C]** eine maschinelle Nachprüfung durch einen Agenten mit angegebenem Kommando.
 
-### Begruendete Luecken
+Verwendet in [[review-findings]], [[governance]].
 
-Diese Dokumente bleiben freihaendig, weil der Katalog fuer ihre Funktion keine Vorlage fuehrt.
+### Agent-Verifikation
 
-- `evaluation-results` haelt gemessene Ergebnisse. Das Verfahren dahinter steht in `verification-concept`, und Reporting richtet sich an einen externen Adressaten, den dieses Dokument nicht hat.
-- `security` haelt Threat Model und behobene Findings. Die Vorlage Testing deckt Teststrategie und Garantien ab, die Angriffsflaeche deckt sie nicht.
-- `stats-dashboard` spezifiziert ein einzelnes Feature samt seiner Visualisierungsentscheidungen. Die Vorlagen Specification und Design sind auf Repository-Ebene zugeschnitten.
-- `review-findings` sammelt offene Beobachtungen aus dem laufenden Review, also Material vor der Entscheidung. Provenance haelt Entschiedenes, Verification prueft Behauptungen gegen ihre Belege.
-- `expert-in-the-loop` ordnet Kompetenzen den Entscheidungen der Pipeline zu, also eine Frage der Arbeitsteilung. Domain Knowledge haelt fachliche Normen, Planning haelt Aufgaben und Termine, beides trifft die Zustaendigkeitsfrage nicht.
+Bild-Text-Vergleich eines Objekts durch einen Vision-Agenten, der Fehler korrigiert und den Status `agent_verified` mit Modellkennung schreibt. Sie erhöht die Evidenz, ersetzt die menschliche Prüfung aber nicht.
 
-Folgende Funktionen der Konvention tragen bewusst kein Dokument in `knowledge/`.
+Verwendet in [[transcription-verification]], [[specification]].
 
-- Charter und Agent Instructions liegen im Repository-Root, `README.md` und `CLAUDE.md`.
-- Reporting hat kein aktives Einreichungsdokument. `paper/PAPER.md` und `paper/PAPER-FINDINGS.md` bleiben als datierter Forschungsstand vom Juli 2026 erhalten; die gepflegte fachliche Synthese liegt in `editorial-model.md` und den spezialisierten Wissensdokumenten.
-- Specification und Design haben kein eigenes Dokument. Der funktionale Umfang steht in `README.md` und `CLAUDE.md`, Designentscheidungen des Viewers stehen bei dem Feature, das sie betrifft.
-- Quality Assurance hat kein `testing.md`. Die Teststrategie steht in `CLAUDE.md`, die Pruefungen selbst unter `tests/` und `pipeline/test_*.py`.
-- Technology Baseline entfaellt, weil sie zentral fuer eine Projektfamilie gefuehrt wird und dieses Repository allein steht.
+### CER
 
-Das Feld `generated-with` steht nur dort, wo die Git-Historie ein einziges Modell ueber die gesamte Dateigeschichte ausweist. Wo Commits mehrerer Modelle eine Datei beruehrt haben, bleibt es weg, weil ein beruehrender Commit keine Erzeugung belegt.
+Character Error Rate, edit_distance(A, B) / max(len(A), len(B)), gemessen gegen menschlich geprüfte Texte. Die korrekturbasierte CER misst den kuratierten Bestand und ist keine Zufallsstichprobe.
 
-## Verwandte Dokumente ausserhalb des Vaults
+Verwendet in [[transcription-verification]], [[editorial-methodology]].
 
-- [CLAUDE.md](../CLAUDE.md) — Agentenkonfiguration und Architekturueberblick
-- [README.md, Abschnitt How this was built](../README.md#how-this-was-built) — Methode, beteiligte Modelle laut Commit-Trailern, Verifikationsschichten, dokumentierte Episoden und bekannte Grenzen, als Einstieg fuer Lesende von aussen
-- [paper/PAPER.md](../paper/PAPER.md) — archiviertes Forschungsmanuskript zum Projektstand vom Juli 2026, mit `paper/PAPER-FINDINGS.md` als Evidenzbasis
-- [results/README.md](../results/README.md) — Aufbau der Ergebnisdateien
+### needs_review
+
+Triage-Kennzeichen „zuerst sichten" innerhalb der ungeprüften Objekte, gesetzt aus den aktiven Qualitätssignalen. Es ist kein Prüfstatus.
+
+Verwendet in [[specification]], [[transcription-verification]].
+
+### Page-JSON
+
+Internes Arbeitsformat je Objekt mit Text, optionalen Koordinaten und deskriptiven Metadaten, Schema `schemas/page-json-v0.2.json`.
+
+Verwendet in [[page-json-architecture]], [[architecture]].
+
+### Prompt-Gruppe
+
+Einer von neun Dokumenttypen A–I (Handschrift bis Korrespondenz), der den Gruppen-Prompt bestimmt und automatisch aus den TEI-Metadaten zugeordnet wird.
+
+Verwendet in [[data]], [[architecture]].
+
+### quality_signals
+
+Regelbasierte Textstatistik je Objekt, nach der Transkription ohne weiteren API-Call berechnet. Sie priorisiert Review-Aufwand und misst keine Korrektheit.
+
+Verwendet in [[transcription-verification]], [[specification]].
+
+### SZ-AAL
+
+Signaturgruppe der Briefkonvolute, im Repository als Sammlung `autographen` geführt und immer Prompt-Gruppe I zugeordnet.
+
+Verwendet in [[data]].
+
+## Außerhalb von knowledge/
+
+- [CLAUDE.md](../CLAUDE.md), Action-Layer für Agenten
+- [README.md, Abschnitt How this was built](../README.md#how-this-was-built), Methode, beteiligte Modelle, Verifikationsschichten und bekannte Grenzen für Lesende von außen
+- [paper/README.md](../paper/README.md), Einordnung des Manuskripts vom Juli 2026
+- [results/README.md](../results/README.md), Aufbau der Ergebnisdateien

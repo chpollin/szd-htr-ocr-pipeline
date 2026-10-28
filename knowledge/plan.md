@@ -1,6 +1,6 @@
 ---
-title: "Implementierungsplan"
-aliases: ["Plan", "Roadmap", "Phasenplan"]
+title: "Plan"
+aliases: [verification-fair4rs, "Implementierungsplan", "Roadmap", "Phasenplan"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
@@ -9,80 +9,44 @@ method:
   url: "https://dhcraft.org/Promptotyping/"
 template:
   name: "Vorlage Plan"
-  version: 0.2
+  version: 0.3
   url: "https://dhcraft.org/Promptotyping/promptotyping-document/plan"
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
 updated: 2026-10-28
+language: de
 authors: [Christopher Pollin]
 type: plan
 related:
+  - "[[specification]]"
   - "[[journal]]"
-  - "[[index]]"
+  - "[[INDEX]]"
 ---
+# Plan
 
-# SZD-HTR-OCR-Pipeline — Implementierungsplan
+Der Plan führt die angenommene Zukunftsarbeit der Pipeline in Phasen, vom laufenden Qualitätsausbau bis zur Übergabe an die DIA-XAI-Bewertung. Er wird fortgeschrieben; gefallene Entscheidungen wandern in [[specification]], abgeschlossene Übergänge in [[journal]].
 
-Aus dem Repository-Root nach `knowledge/` verschoben am 2026-07-30, Inhalt unveraendert.
+## Zielbild
 
-## Übersicht
+- Jedes Objekt des Bestands hat eine vollständige Transkription oder ist als unvollständig gekennzeichnet und für einen Neulauf vorgemerkt.
+- Die Qualitätssignale sind gegen menschlich geprüfte Texte kalibriert, und die Editionsregeln decken die beim Review aufgetretenen Fälle ab.
+- Page-JSON, PAGE XML und METS/MODS liegen für den gesamten transkribierten Bestand vor, und ein GAMS-Reingest ist erprobt.
+- Die Ergebnisse stehen als Eingabe für den Expert-in-the-Loop-Workflow von DIA-XAI bereit.
 
-VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). 4 Sammlungen, ~2107 Objekte, 4-schichtiges Prompt-System (System → Gruppe/Objekt → Kontext).
+## Phasen und Milestones
 
----
+| Phase | Inhalt | Stand |
+|---|---|---|
+| Phase 1–3 | Grundlagen, alle Sammlungen, Pipeline-Automatisierung | abgeschlossen, Verlauf in [[journal]] |
+| Phase 4 | Qualität und Vergleich | laufend |
+| Phase 5 | Export und Austauschformate | Arbeitsformat und Zielformat implementiert, Reingest und teiCrafter offen |
+| Phase 6 | DIA-XAI-Bewertung | ab Oktober 2026 |
+| FAIR4RS | Findability des Repositorys | teilweise umgesetzt |
 
-## Phase 1: Grundlagen (erledigt)
+### Phase 4: Qualitaet & Vergleich (laufend)
 
-- [x] Repository angelegt, .gitignore, README.md
-- [x] TEI-Metadaten aller 4 Sammlungen heruntergeladen und analysiert
-- [x] Dreischichtiges Prompt-System entwickelt (System → Gruppe → Objekt-Kontext)
-- [x] 5 Gruppen-Prompts: A Handschrift, B Typoskript, C Formular, D Kurztext, E Tabellarisch
-- [x] Test-Script (Gemini Vision API, migriert nach `transcribe.py`)
-- [x] Erste Tests: 4 Objekte aus Lebensdokumenten, alle high confidence
-- [x] Viewer `docs/index.html` — responsive Faksimile↔Transkription-Vergleich
-- [x] Knowledge-Vault mit Datenanalysen
-
-## Phase 2: Alle Sammlungen (erledigt)
-
-- [x] Neue Gruppen-Prompts: F Korrekturfahne, H Zeitungsausschnitt, I Korrespondenz
-- [x] Multi-Collection-Support (lebensdokumente, werke, aufsatzablage, korrespondenzen)
-- [x] TEI-Parser `pipeline/tei_context.py` für automatische Kontext-Generierung
-- [x] Enriched JSON-Output mit Metadaten und GAMS-URLs
-- [x] `pipeline/build_viewer_data.py` — baut catalog.json + data/{collection}.json
-- [x] Test-Objekte aus allen 4 Sammlungen transkribiert (7/7 high confidence)
-- [x] Viewer mit Sammlungs-Tabs und dynamischem Laden aus data.json
-- [x] Frontend-Refactoring: Single-Page-App mit Katalog + Viewer + Edit-Modus
-- [x] SZD-Design-System (Burgundy/Gold, Source Serif/Sans)
-- [x] Daten-Split: catalog.json + data/{collection}.json
-- [x] GAMS-Thumbnails im Katalog
-- [x] 3-Ebenen-Verifikation statt naiver VLM-Konfidenz
-
-## Phase 3: Pipeline-Automatisierung (erledigt)
-
-- [x] Objekt-Kontext automatisch aus TEI-XML generieren (`resolve_context()` in transcribe.py)
-- [x] Batch-Transkription: `pipeline/transcribe.py` mit CLI für Einzel-/Batch-/Sammlungs-Modus
-- [x] Gruppenzuordnung automatisch aus TEI-Metadaten (`resolve_group()` mit Formular-Fix)
-- [x] Ergebnisse strukturiert abspeichern: `results/{collection}/{object_id}_{model}.json`
-- [x] Object Discovery aus Backup-Verzeichnissen (2107 Objekte über 4 Sammlungen)
-- [x] Rate-Limiting, Skip-Logik, Fehlertoleranz
-- [x] Erster Batch-Lauf: 5 Lebensdokumente, alle high confidence
-- [x] Gruppe G (Konvolut) erstellt: Prompt, resolve_group(), 1 Test-Objekt
-- [x] Gezieltes Sample: 87 Objekte transkribiert (10/Gruppe, alle 4 Sammlungen)
-- [x] JSON-Parsing gehaertet: Codeblock-Strip, Escape-Fix, Retry, leere Antworten
-- [x] Chunking: Objekte mit >20 Bildern automatisch in Chunks aufteilen + mergen (Session 17)
-- [x] Objekt-Prompts: 4. Prompt-Schicht (`prompts/objects/{id}.md`) fuer Spezialfaelle (Session 17)
-- [x] `quality_signals.py`: 6 Signale + needs_review-Flag, integriert in transcribe.py + build_viewer_data.py
-- [x] Backfill: alle 87 Ergebnis-JSONs mit quality_signals angereichert
-- [x] quality_signals v1.1: Schwellenwerte rekalibriert (68% → 44% needs_review)
-- [x] `evaluate.py`: CER/WER-Berechnung mit Normalisierung per Annotationsprotokoll
-- [x] `quality_report.py`: Aggregierte Qualitaetsstatistiken pro Gruppe/Sammlung
-- [x] `build_viewer_data.py`: qualitySignals (charsPerPage, duplicatePagePairs etc.) an Frontend durchgereicht
-- [x] Exponential Backoff (429/Rate-Limit-Retry) in transcribe.py fuer parallele Batch-Laeufe
-
-## Phase 4: Qualitaet & Vergleich (laufend)
-
-### 4a: Ground Truth
+#### 4a: Ground Truth
 - [x] CER-Berechnungsscript (`pipeline/evaluate.py`)
 - [x] Modellkonsensus-Metriken v2: `word_overlap()`, `effective_cer`, 4-Tier-Klassifikation (Session 14)
 - [x] GT-Pipeline: `generate_gt.py` — 3-Modell-Merge (Flash Lite + Flash + Pro), 18 Objekte, 46 Content-Seiten (Session 14)
@@ -116,7 +80,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       Versetzungslinie wird zu einer `(` (`o:szd.2759`). Annotationsprotokoll §8 Nr. 7, danach
       Gruppe F und `marker_enrich.py` (`<transpose>`). Befund → Fehlersammlung, Befund 6
 
-### 4b: Quality Signals & Batch
+#### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
 - [x] `needs_review`-Indikator im Viewer
 - [x] quality_signals v1.1–v1.5: Rekalibrierung, Leerseiten-Klassifikation, DWR entfernt, Duplikat-Schwelle 200→50
@@ -143,13 +107,13 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       seit `624c6e0` mit Badge "Nicht transkribiert"; `handle_approve()`/`handle_edit()` pruefen aber
       weiter nicht, ob das Ergebnis Seiten hat. Befund → Fehlersammlung, Befund 1
 
-### 4c: Modellkonsensus & Vergleich
+#### 4c: Modellkonsensus & Vergleich
 - [x] `verify.py`: Modellkonsensus (Flash Lite + Flash + Claude Judge)
 - [x] Modellkonsensus-Validierung: 29 Objekte (3/Gruppe), 4-Tier-Ergebnis: 26% verified, 33% moderate, 15% review, 26% divergent
 - [x] Diff-Ansicht im Viewer (echte Modellkonsensus-Daten, CER, Modell-Namen)
 - [x] Statistik-Dashboard im Frontend (Seiten, Konfidenz, DWR, Modellkonsensus, Review)
 - [x] GT Review-Modus: 3-Varianten-Panel, Approve, localStorage, JSON-Export
-### 4d: Frontend & Dokumentation
+#### 4d: Frontend & Dokumentation
 - [x] Knowledge Vault im Frontend: 12 Markdown-Dokumente als navigierbare Ansicht (`#knowledge`, `#knowledge/{slug}`) (Session 15)
 - [x] Projekt-Seite aus README.md (`#about`) (Session 15)
 - [x] `build_viewer_data.py`: `build_knowledge()` — Markdown → HTML → knowledge.json (Session 15)
@@ -171,76 +135,59 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
       regelkonform setzt: Auswahl in ~~...~~ / {...} einschliessen, [?] ohne Leerzeichen ans
       vorangehende Wort, [Marginalie:] ans Seitenende nach Leerzeile (Operator-Feedback 2026-08-26)
 
-## Phase 5: Export & Austauschformate
+### Phase 5: Export & Austauschformate
 
-### 5a: Page-JSON v0.2 (Arbeitsformat)
+#### 5a: Page-JSON v0.2 (Arbeitsformat)
 - [x] Page-JSON v0.2 Schema (`schemas/page-json-v0.2.json`) — Dublin Core + materialtypologische Erweiterungen
 - [x] `_extract_full_metadata()` in `tei_context.py` — 10 neue TEI-Felder (creators+GND, holding+GND, provenance, origPlace, writing_material, dimensions, binding, inscriptions)
 - [x] `export_page_json.py` — OCR + Layout + TEI-Metadaten → Page-JSON v0.2
 - [x] Wissensdokument `knowledge/page-xml-mets-architecture.md` — Schichtenarchitektur PAGE XML / MODS / METS
 - [x] Batch-Export aller Objekte nach Page-JSON v0.2 (2030 Dateien, Session 24)
 
-### 5b: METS/MODS + PAGE XML (Zielformat)
+#### 5b: METS/MODS + PAGE XML (Zielformat)
 - [x] PAGE XML Export (`export_pagexml.py`) — deterministisch, PAGE 2019
 - [x] `export_mets.py` — METS-Container mit MODS (aus TEI-Metadaten) + PAGE XML Referenzen (Session 25)
 - [x] TEI msDesc → MODS Mapping (automatisch via `parse_tei_full_metadata()`, Backup-Fallback fuer Korrespondenzen)
 - [x] Batch-Export: 2074 METS-Dateien, 0 Fehler (Session 25)
 - [ ] GAMS-Reingest-Test mit METS/MODS-Output
 
-### 5c: teiCrafter-Integration
+#### 5c: teiCrafter-Integration
 - [ ] teiCrafter-Repo: JSON-Import in Step 1 einbauen
 - [ ] teiCrafter-Repo: Sprachen (en/fr/it/es) und Epoche (20c) ergaenzen
 - [ ] teiCrafter-Repo: DTABf-Schema um gap/del/add/stamp/table/cb erweitern
 - [ ] teiCrafter-Repo: SZD-Mapping-Templates einfuegen (3 Templates)
 
-## Phase 6: DIA-XAI-Bewertung (ab Oktober 2026)
+### Phase 6: DIA-XAI-Bewertung (ab Oktober 2026)
 
 - [ ] Transkriptionsergebnisse als Input fuer Expert-in-the-Loop-Workflow
 - [ ] EQUALIS-Evaluierung
 
----
+### FAIR4RS: offene Maßnahmen
 
-## Technologie
+Befund vom 2026-07-23 und Umsetzungsstand in `reports/fair4rs-verification-2026-07-23.md`. Dual-Licensing, `CITATION.cff`, `codemeta.json`, Description und Topics sind seit `2641b28` umgesetzt.
 
-| Komponente | Aktuell |
-|---|---|
-| VLM (Transkription) | Gemini 3.1 Flash Lite (Preview) |
-| VLM (Layout) | Ensemble: Docling + Surya + Gemini 3 Flash |
-| SDK | google-genai |
-| TEI-Parser | xml.etree.ElementTree (stdlib) |
-| Bilder | Lokales Backup (4 Sammlungen, 2107 Objekte) |
-| Arbeitsformat | Page-JSON v0.2 (OCR + Layout + MODS-Metadaten) |
-| Zielformat | METS/MODS + PAGE XML 2019 |
-| CLI | `pipeline/transcribe.py` (Einzel/Batch/Sammlung) |
-| Viewer | Single-Page-App (index.html + app.js + app.css), catalog.json + data/{collection}.json |
+- [ ] Versionierte Releases mit Tags (F1.2)
+- [ ] Zenodo-Release mit DOI, geschnitten wenn der Stand trägt (F1, A2)
 
----
+## Status-Tracker
 
-## Entscheidungslog
-
-| Datum | Entscheidung | Begruendung |
+| Phase | Status | Notizen |
 |---|---|---|
-| 2026-04-01 | Pilot vor vollem GT-Sample | CER unbekannt — Sample-Design ohne Pilot ist blind |
-| 2026-04-01 | quality_signals sofort | Kostet nichts, braucht kein GT, bietet Triage fuer Batch |
-| 2026-04-01 | Cross-Model: Agreement-First | Unabhaengige Doppeltranskription methodisch sauberer |
-| 2026-04-01 | Claude Sonnet als zweites Modell | Max. Diversitaet zu Gemini, starke Baseline, moderate Kosten |
-| 2026-04-01 | Gezieltes Sample statt voller Batch | 10/Gruppe reicht fuer group_text_density und Gruppenvergleich |
-| 2026-04-01 | quality_signals v1.2: Leerseiten-Klassifikation | VLM erkennt Blanks/Farbskalen in Notes — Post-Processing statt Pre-Filtering |
-| 2026-04-01 | DWR statt PPPL als GT-freie Metrik | Keine schwere Dependency (transformers), wissenschaftlich fundiert (Springmann 2016) |
-| 2026-04-01 | Modellkonsensus statt manuellem GT | Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell |
-| 2026-04-01 | Gemini 3 Flash als Modell B | Staerker als Flash Lite, gleiche API, kein Provider-Wechsel noetig |
-| 2026-04-02 | word_overlap + effective_cer statt CER-only | CER bestraft Reading-Order-Divergenz unfair; Jaccard auf Wortmengen robust |
-| 2026-04-02 | 4-Tier statt 3-Tier Modellkonsensus | "review" als Zwischenstufe fuer 75-90% word_overlap |
-| 2026-04-02 | Gemini Pro als 3. GT-Modell | Gleiche API, staerkstes Gemini-Modell, kein Provider-Wechsel |
-| 2026-04-02 | Pilot uebersprungen | Modellkonsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch |
-| 2026-04-02 | Pre-rendered Markdown statt Client-Side | Null Runtime-Dependencies, Wiki-Links zur Build-Zeit aufgeloest |
-| 2026-04-02 | Chunking statt Downscaling | Volle Bildaufloesung beibehalten, 20 Bilder/Chunk sicher unter API-Limit |
-| 2026-04-02 | Objekt-Prompts als 4. Schicht | Spezialfaelle (Tabellen, Formulare) ohne Gruppen-Prompt-Aenderung loesbar |
-| 2026-04-02 | serve.py statt localStorage | Pipeline-JSONs als einzige Quelle der Wahrheit, kein manueller Export noetig |
-| 2026-04-02 | Whitelist statt Blacklist fuer Katalog | SKIP_SUFFIXES-Ansatz fragil bei neuen Modellen — Whitelist robuster (TODO) |
-| 2026-04-03 | DWR entfernt (v1.5) | rho=0.05, F1=0.20 — mass Prosadichte, nicht Qualitaet |
-| 2026-04-03 | Stats-Dashboard: Produktions-Tracking entfernt | Fortschritt/Seitenkomposition/DWR/VLM-Konfidenz/Konsensus → nur Qualitaetsmetriken |
-| 2026-04-03 | _fill_missing_pages() | Seiten-Bild-Desynchronisation behoben, 41 Objekte backfilled |
-| 2026-04-03 | Page-JSON v0.2 + descriptive_metadata | Dublin Core + materialtypologische Erweiterungen fuer Archivmetadaten |
-| 2026-04-03 | Zwei Ausgabeformate | Page-JSON (intern, Arbeitsformat) + METS/MODS + PAGE XML (extern, Archiv- und Austauschformat) |
-| 2026-08-21 | Proto-Edition-Manuskript bleibt Forschungsartefakt | Keine Einreichung dieses Manuskripts; gepflegte Erkenntnisse liegen in `knowledge/editorial-model.md`, `knowledge/evaluation-results.md` und `knowledge/page-xml-mets-architecture.md` |
+| Phase 1–3 | completed | |
+| Phase 4 | in progress | Expert-Review, Neulauf der unvollständigen Transkriptionen, Editionsregeln |
+| Phase 5 | in progress | GAMS-Reingest-Test, teiCrafter-Import |
+| Phase 6 | pending | |
+| FAIR4RS | in progress | Release und DOI |
+
+Legende: completed, in progress, pending. Aktuelle Zahlen liefern `docs/catalog.json` und `python pipeline/transcribe.py --all --dry-run`.
+
+## Offene Entscheidungen und Abhängigkeiten
+
+Die Entscheidungen liegen bei der Projektleitung, zum Teil gemeinsam mit der Projekt-Reviewer:in, und stehen als Aufgaben in Phase 4.
+
+- Editorische Regeln für Abbildungen und undefinierte Klammern, Text am Bildrand von Detailaufnahmen und Umstellungen, jeweils vor den Prompt- und Konverteränderungen ([[transcription-guidelines]] §8).
+- Neuberechnung der Signale nach Korrekturen oder ihr bewusstes Einfrieren als Stand der Maschinenfassung.
+- Empfehlung aus dem A/B/C-Experiment (Basismodell für Handschrift, `uncertain_words`).
+- Label-Vokabular und Kompetenzgrundlage einer Freigabe ([[governance]] §5–6, [[review-findings]] B-08).
+
+Neuläufe und Neuexporte brauchen API-Key und lokales Bild-Backup; ohne Backup fällt unter anderem `rights` aus `metadata.json` still weg. Die teiCrafter-Aufgaben liegen im teiCrafter-Repository. Phase 6 hängt am Start des DIA-XAI-Pilotprojekts ([[dia-xai-integration]]).
