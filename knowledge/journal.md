@@ -18,10 +18,10 @@ updated: 2026-10-28
 authors: [Christopher Pollin]
 type: log
 related:
-  - "[[data-overview]]"
-  - "[[verification-concept]]"
-  - "[[annotation-protocol]]"
-  - "[[evaluation-results]]"
+  - "[[data]]"
+  - "[[transcription-verification]]"
+  - "[[transcription-guidelines]]"
+  - "[[plan]]"
 ---
 
 # SZD-HTR — Research Journal
@@ -2191,3 +2191,40 @@ Das Repository dient als Fallstudie in einem Paper zur Methode. Eine vorangehend
 Ob die woertliche Antragspassage in [[dia-xai-integration]] §2 in einem oeffentlichen Repository stehen soll, entscheidet die Projektleitung. Ebenso offen sind der Neubau von `docs/data/knowledge.json` und die Frage, ob `handoff.md`, `project.md` und `specification.md` nach der Konvention ergaenzt werden.
 
 Verifikation: `python -m pytest tests/ pipeline/ -p no:cacheprovider` vor jedem Commit gruen. Ruff ist im Projekt nicht konfiguriert, ein Lauf mit Standardregeln ueber die geaenderten Skripte zeigt keine neuen Befunde.
+
+---
+
+## 2026-10-28 — Vereinheitlichung nach Promptotyping-Vorlagen
+
+Die Wissensbasis trug gewachsene Dateinamen, die ihre Funktion nicht signalisierten, und es fehlten Projektbeschreibung, Specification, Architecture und Handoff, die die Konvention für jedes Promptotyping-Projekt vorsieht. Die Projektleitung hat die Vereinheitlichung am 2026-10-28 freigegeben. Zitierter Stand vor der Vereinheitlichung ist Commit `6f06c8e`; auf ihn beziehen sich Aussagen über die frühere Wissensbasis, auch im Paper zur Methode.
+
+### Zuordnung alt → neu
+
+| Vorher (`6f06c8e`) | Nachher |
+|---|---|
+| `index.md` | `INDEX.md`, nach Vorlage Index neu geschrieben |
+| `data-overview.md` | `data.md` |
+| `annotation-protocol.md` | `transcription-guidelines.md` |
+| `editorial-model.md` | `editorial-methodology.md` |
+| `verification-concept.md` | `transcription-verification.md`, ergänzt um §9 Fehlertypologie |
+| `expert-in-the-loop.md` | `governance.md`, ergänzt um den Kopfabschnitt Entscheidungsbefugnisse |
+| `htr-interchange-format.md` | `page-json-architecture.md` |
+| `layout-analysis.md` | `layout-analysis-architecture.md` |
+| `page-xml-mets-architecture.md` | `architecture.md`, Abschnitt Archivformat |
+| `security.md` | Bedrohungsmodell in `architecture.md`, Befunde, Fix-Tracker und Methode in `reports/security-review-2026-04-02.md` |
+| `stats-dashboard.md` | `specification.md`, Abschnitt Statistik-Dashboard |
+| `evaluation-results.md` | Messbericht `reports/cer-baseline-report-2026-04-02.md`, Fehlertypologie als `transcription-verification.md` §9 |
+| `verification-fair4rs.md` | `reports/fair4rs-verification-2026-07-23.md`, offene Maßnahmen in `plan.md` |
+| `CLAUDE.md` §Projektziel, Verwandte Projekte | `project.md` |
+| `CLAUDE.md` §Review-Modell, Output-Format, Ausgabeformate, Technische Entscheidungen; `plan.md` Entscheidungslog | `specification.md` |
+| `CLAUDE.md` §Pipeline-Architektur, Projektstruktur, Umgebungsvariablen; `plan.md` Technologie | `architecture.md` |
+| `CLAUDE.md` §Quelldaten | `data.md` |
+| `plan.md` Phasen 1–3 | Git-Historie und frühere Journaleinträge |
+
+Neu sind `project.md`, `specification.md`, `architecture.md` und `handoff.md` (leer). `plan.md` folgt der Vorlage Plan mit Zielbild, Phasen, Status-Tracker und offenen Entscheidungen. `CLAUDE.md` ist ein schlanker Action-Layer, der in die Wissensbasis routet. `review-findings.md` und die beiden Integrationsdokumente bleiben unverändert im Zuschnitt. Die gemeinsame Schemaversion in `INDEX.md` steigt auf 0.3, weil Funktionen hinzugekommen sind.
+
+### Was unverändert bleibt
+
+**[J]**-Absätze, vergangene Journaleinträge und `paper/PAPER.md` mit `paper/PAPER-FINDINGS.md` behalten die früheren Dateinamen. Jedes umbenannte oder aufgegangene Dokument steht als `aliases:`-Eintrag beim Nachfolger, `build_knowledge()` leitet alte Wikilinks darüber um und `docs/app.js` lenkt alte `#knowledge/<slug>`-Lesezeichen auf das aktuelle Dokument. `paper/README.md` und die Tabelle Frühere Dateinamen in `INDEX.md` führen die Zuordnung.
+
+Verifikation: `python -m pytest tests/ pipeline/ -p no:cacheprovider` vor jedem Commit grün, darunter der neue `tests/test_knowledge_aliases.py`. Vor dem Löschen wurde je aufgegangenem Dokument eine Deckungsliste gegen die Zieldokumente geprüft. Die Viewer-Daten sind nur über `build_knowledge()` neu gebaut.
