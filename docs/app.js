@@ -963,7 +963,7 @@ function renderKnowledgeIndex() {
       html += `<a href="#knowledge/${slug}" class="knowledge__card">
         <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
         <div class="knowledge__card-meta">
-          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          ${doc.type ? `<span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>` : ''}
           <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
           <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
         </div>
@@ -985,7 +985,7 @@ function renderKnowledgeIndex() {
       html += `<a href="#knowledge/${doc.slug}" class="knowledge__card">
         <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
         <div class="knowledge__card-meta">
-          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          ${doc.type ? `<span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>` : ''}
           <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
           <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
         </div>
@@ -1058,7 +1058,7 @@ function renderKnowledgeDoc(doc) {
   // Metadata
   const statusCls = 'knowledge__badge--' + (doc.status || 'draft');
   sidebarHtml += `<dl class="knowledge-doc__sidebar-meta">
-    <dt>Typ</dt><dd><span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span></dd>
+    ${doc.type ? `<dt>Typ</dt><dd><span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span></dd>` : ''}
     <dt>Status</dt><dd><span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span></dd>
     <dt>Erstellt</dt><dd>${escapeHtml(doc.created)}</dd>
     <dt>Aktualisiert</dt><dd>${escapeHtml(doc.updated)}</dd>`;
