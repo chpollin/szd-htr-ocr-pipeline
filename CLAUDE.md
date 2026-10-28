@@ -37,7 +37,7 @@ Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung p
 
 ## Quelldaten
 
-Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 2.486 Objekte, 20.318 Faksimile-Scans (~25 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 5 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
+Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `~/Documents/PROJECTS/szd-backup/data/`, relativ zum Home-Verzeichnis). 2.486 Objekte, 20.318 Faksimile-Scans (~25 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 5 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
 
 | Unterverzeichnis | Sammlung (intern) | Objekte | Bilder | Bilder/Obj (Median) | TEI-Datei |
 |---|---|---|---|---|---|
@@ -341,7 +341,7 @@ python pipeline/test_unit_derivation.py      # Einheiten-Ableitung fuer die Brie
 | `GOOGLE_API_KEY` | Ja | — | Gemini API Key |
 | `HTR_MODEL` | Nein | `gemini-3.1-flash-lite-preview` | Modell-ID (Transkription) |
 | `HTR_LAYOUT_MODEL` | Nein | `gemini-3-flash-preview` | Modell-ID (Layout VLM-Merger) |
-| `SZD_BACKUP_ROOT` | Nein | `C:/Users/Chrisi/.../szd-backup/data` | Pfad zum lokalen Backup |
+| `SZD_BACKUP_ROOT` | Nein | `~/Documents/PROJECTS/szd-backup/data` | Pfad zum lokalen Backup |
 | `HTR_BATCH_DELAY` | Nein | `2.0` | Sekunden zwischen API-Calls |
 
 ## Output-Format (Ergebnis-JSON)

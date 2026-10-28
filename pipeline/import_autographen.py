@@ -38,7 +38,8 @@ from config import BACKUP_ROOT, COLLECTIONS, DATA_DIR
 
 COLLECTION = "autographen"
 INGEST_LABEL = "SZ-AAL-2026-06"
-DEFAULT_SOURCE = Path("C:/Users/Chrisi/Documents/PROJECTS/szd/ingeste")
+# Ingest staging on the project lead's machine; elsewhere pass --source.
+DEFAULT_SOURCE = Path.home() / "Documents" / "PROJECTS" / "szd" / "ingeste"
 METS_URL_TEMPLATE = "https://gams.uni-graz.at/archive/get/{pid}/METS_SOURCE"
 
 VI = {"vi": "http://gams.uni-graz.at/viewer"}

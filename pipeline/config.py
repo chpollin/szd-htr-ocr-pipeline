@@ -15,9 +15,11 @@ DATA_DIR = PROJECT_ROOT / "data"
 RESULTS_BASE = PROJECT_ROOT / "results"
 RESULTS_DIR = RESULTS_BASE / "test"  # Legacy Test-Ergebnisse
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
+# Without SZD_BACKUP_ROOT the backup is expected at the project lead's
+# location below the home directory; other machines set the variable in .env.
 BACKUP_ROOT = Path(os.environ.get(
     "SZD_BACKUP_ROOT",
-    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data"
+    Path.home() / "Documents" / "PROJECTS" / "szd-backup" / "data",
 ))
 
 # --- API ---

@@ -157,8 +157,8 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 
 #### L4  Hardcoded Windows-Pfade in `config.py`
 
-`C:/Users/Chrisi/...` als Fallback-Pfad. Durch `SZD_BACKUP_ROOT` ueberschreibbar.
-**Status**: AKZEPTIERT
+Absoluter Windows-Pfad mit Benutzername als Fallback. Durch `SZD_BACKUP_ROOT` ueberschreibbar.
+**Status**: BEHOBEN (2026-10-28). Der Fallback in `config.py` und die Quellpfade der Importskripte werden jetzt relativ zum Home-Verzeichnis gebildet; auf dem Rechner der Projektleitung ergeben sie denselben Pfad wie zuvor. Bis dahin war der Befund akzeptiert.
 
 #### L5  Race Condition bei File-Backup
 
