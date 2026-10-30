@@ -1,36 +1,25 @@
 ---
-title: "Security Review"
+title: "Security Review 2026-04-02"
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
 method:
   name: "Promptotyping"
   url: "https://dhcraft.org/Promptotyping/"
-status: active
+status: snapshot
+language: de
 created: 2026-04-02
-updated: 2026-04-02
+updated: 2026-10-28
 authors: [Christopher Pollin]
-type: reference
 ---
 
 # Security Review — SZD-HTR
 
-Systematische Sicherheitsanalyse des SZD-HTR-Projekts (Pipeline + Viewer + Dev-Server), verifiziert gegen OWASP-Richtlinien, CVE-Datenbanken und aktuelle Security-Literatur. Stand: 2. April 2026.
+Systematische Sicherheitsanalyse von Pipeline, Viewer und Dev-Server, geprüft gegen OWASP-Richtlinien, CVE-Datenbanken und Security-Literatur, Stichtag 2. April 2026. Spätere Statusänderungen stehen datiert beim jeweiligen Befund. Das Bedrohungsmodell und die geltenden Maßnahmen pflegt `knowledge/architecture.md`, Abschnitt Sicherheit.
 
 ## 1  Threat Model
 
-Die Applikation hat **zwei Deployment-Kontexte** mit unterschiedlichen Angriffsflaechern:
-
-| | GitHub Pages (oeffentlich) | Lokaler Dev-Server (`serve.py`) |
-|---|---|---|
-| Zugang | Jeder im Internet | Nur localhost (127.0.0.1) |
-| Schreibzugriff | Keiner (statische Dateien) | POST-Endpoints (approve, edit, rebuild) |
-| Authentifizierung | n/a | Keine |
-| Daten | `catalog.json`, `data/*.json`, `knowledge.json` — committed, oeffentlich | Dieselben + live Pipeline-JSONs in `results/` |
-| Edit-Funktionen | UI-seitig deaktiviert via `isLocal`-Check | Aktiv |
-| CORS | n/a (GitHub setzt eigene Header) | Beschraenkt auf localhost-Origins |
-
-**Datenklassifikation**: Alle Daten sind oeffentliche Archivmaterialien (Stefan-Zweig-Nachlass, bereits auf GAMS publiziert). Keine PII, keine Credentials in den ausgelieferten Dateien. API-Keys nur in `.env` (gitignored, nie committed).
+Das Bedrohungsmodell mit den zwei Betriebskontexten GitHub Pages und lokaler Dev-Server steht in `knowledge/architecture.md`, Abschnitt Sicherheit.
 
 ---
 
@@ -157,8 +146,8 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 
 #### L4  Hardcoded Windows-Pfade in `config.py`
 
-`C:/Users/Chrisi/...` als Fallback-Pfad. Durch `SZD_BACKUP_ROOT` ueberschreibbar.
-**Status**: AKZEPTIERT
+Absoluter Windows-Pfad mit Benutzername als Fallback. Durch `SZD_BACKUP_ROOT` ueberschreibbar.
+**Status**: BEHOBEN (2026-10-28). Der Fallback in `config.py` und die Quellpfade der Importskripte werden jetzt relativ zum Home-Verzeichnis gebildet; auf dem Rechner der Projektleitung ergeben sie denselben Pfad wie zuvor. Bis dahin war der Befund akzeptiert.
 
 #### L5  Race Condition bei File-Backup
 

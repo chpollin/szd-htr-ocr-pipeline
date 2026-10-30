@@ -21,7 +21,7 @@ soweit ermittelt) · Umfang (wie viele Objekte) · Folgen · Vorschlag.
 
 ## 1 — Objekte ohne Seiten zeigen kein Faksimile, obwohl GAMS es ausliefert
 
-Gemeldet von Julia Hintersteiner, 2026-08-26 · Status: teilweise behoben — **Anzeige behoben in** `624c6e0` (2026-10-19), Freigabe-Sperre und Katalog-Kategorie offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-08-26 · Status: teilweise behoben — **Anzeige behoben in** `624c6e0` (2026-10-19), Freigabe-Sperre und Katalog-Kategorie offen
 
 > **Nachtrag 2026-10-19.** Erneut aufgefallen an `o:szd.202` („A great lesson from a great man“,
 > 13 Scans). Nach dem Salvage vom 2026-09-25 sind noch **16 Objekte** betroffen, nicht mehr 34.
@@ -107,7 +107,7 @@ Totalausfälle — vollständige Liste, Ausfallarten je Objekt und Salvage-Poten
 
 ## 2 — Abbildungen werden in eckigen Klammern beschrieben, ohne dass es dafür eine Regel gibt
 
-Gemeldet von Julia Hintersteiner, 2026-10-02 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-02 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 
@@ -132,7 +132,7 @@ darunter derselbe Text).
 
 Es gibt keine Regel. Der System-Prompt definiert nur `[?]`, `[...]`, `~~…~~` und `{…}`
 (`pipeline/prompts/system.md:12-13`), keiner der neun Gruppen-Prompts erwähnt Abbildungen, und das
-Annotationsprotokoll regelt sie ebenfalls nicht (`knowledge/annotation-protocol.md` §3, §4). Das
+Annotationsprotokoll regelt sie ebenfalls nicht (`knowledge/transcription-guidelines.md` §3, §4). Das
 Modell erfindet die Notation selbst. Einzige Erwähnung von Bildunterschriften im Repo ist der
 Layout-Prompt für Zeitungsausschnitte (`pipeline/prompts/layout_group_h_zeitungsausschnitt.md:38`),
 der die Transkription nicht betrifft.
@@ -182,7 +182,7 @@ Zuerst eine Regel festlegen, dann umsetzen:
 - Ob überhaupt beschrieben wird oder nur `[Abbildung]` ohne Inhalt: beides ist vertretbar. Eine
   leere Marke hält die Transkription diplomatisch und spart dem Modell das Erfinden.
 - `[Unterschrift]` und die übrigen erfundenen Klammern in derselben Entscheidung mitregeln.
-- Dann umsetzen in: `knowledge/annotation-protocol.md` (§3/§4, Richtlinien-Panel im Viewer),
+- Dann umsetzen in: `knowledge/transcription-guidelines.md` (§3/§4, Richtlinien-Panel im Viewer),
   `pipeline/prompts/system.md`, `pipeline/evaluate.py` (Normalisierung), `pipeline/marker_enrich.py`
   (→ `<figure><figDesc>`).
 
@@ -193,7 +193,7 @@ prüfen. Steckt die Bildunterschrift in der Klammer, sie als normalen Text herau
 
 ## 3 — Text, der in Detailaufnahmen am Bildrand abgeschnitten ist, wird aus anderen Bildern ergänzt
 
-Gemeldet von Julia Hintersteiner, 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 
@@ -226,7 +226,7 @@ die Transkription schreibt „ausgeglichen“.
   Modell sieht die andere Hälfte und die Gesamtaufnahme und setzt den Text daraus zusammen, statt
   das einzelne Bild zu transkribieren.
 - **Es gibt keine Regel für Text am Bildrand.** Weder `pipeline/prompts/system.md` noch ein
-  Gruppen-Prompt noch `knowledge/annotation-protocol.md` sagen, was mit angeschnittenem Text zu tun
+  Gruppen-Prompt noch `knowledge/transcription-guidelines.md` sagen, was mit angeschnittenem Text zu tun
   ist.
 - Der Objekt-Prompt `pipeline/prompts/objects/o_szd.1056.md` verlangt zusätzlich, die Buchungen als
   Markdown-Tabelle neu aufzubauen. Das lädt zum Rekonstruieren ein.
@@ -262,7 +262,7 @@ Zuerst entscheiden, dann umsetzen:
 
 ## 4 — Inhaltlich falscher Text bei Konfidenz „high“, ohne dass ein Signal anschlägt
 
-Gemeldet von Julia Hintersteiner, 2026-10-19 · Status: offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen
 
 ### Symptom
 
@@ -344,7 +344,7 @@ den Werken.
 
 ## 5 — Randnotizen, Bleistiftzusätze und Stempel fehlen im Transkriptionstext
 
-Gemeldet von Julia Hintersteiner, 2026-10-19 · Status: offen — **Widerspruch zwischen Prompts und Annotationsprotokoll**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **Widerspruch zwischen Prompts und Annotationsprotokoll**
 
 ### Symptom
 
@@ -368,7 +368,7 @@ Die Lesungen sind Vorschläge vom Faksimile und noch gegenzulesen.
 
 Zwei Regelwerke widersprechen sich:
 
-- **Annotationsprotokoll** (`knowledge/annotation-protocol.md`): §3.5 transkribiert Marginalien, die
+- **Annotationsprotokoll** (`knowledge/transcription-guidelines.md`): §3.5 transkribiert Marginalien, die
   zum Dokumentinhalt gehören, mit `[Marginalie:]`; §4.2 transkribiert Datums-, Eingangs- und
   Behördenstempel als `[Stempel: …]`. Nur moderne Bibliotheksstempel bleiben weg.
 - **Prompts:** `group_c_formular.md:19` („Stempel und Siegel in den Notizen, nicht im
@@ -411,7 +411,7 @@ Schreibweise statt `[Stempel:]`). Fehlende Randnotizen lassen sich ohne Bildverg
 
 ## 6 — Keine Notation für Umstellungen und Korrekturzeichen des Setzers
 
-Gemeldet von Julia Hintersteiner, 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-19 · Status: offen — **editorische Entscheidung nötig**
 
 ### Symptom
 
@@ -471,7 +471,7 @@ Aufsatzablage (laut `group_f_korrekturfahne.md`).
 
 ## 7 — Umlaute und ß als Zeichensalat („Ã¶sterreichischen“) nach Agent-Verifikation
 
-Gemeldet von Julia Hintersteiner, 2026-10-30 · Status: **Daten repariert** (2026-10-30), Ursache im Agent-Workflow offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-30 · Status: **Daten repariert** (2026-10-30), Ursache im Agent-Workflow offen
 
 ### Symptom
 
@@ -508,7 +508,7 @@ Nur dieses Objekt (Suche nach `Ã[¤¶¼Ÿ]` und `â€[žœ™]` über `results
 
 ### Reparatur (2026-10-30)
 
-Die manuelle Korrektur von Seite 1 durch Julia Hintersteiner bleibt erhalten. Nur die Folgen aus
+Die manuelle Korrektur von Seite 1 durch die Projekt-Reviewer:in bleibt erhalten. Nur die Folgen aus
 Nicht-ASCII-Zeichen, die sich als Doppelkodierung zurückübersetzen lassen
 (`cp1252` → `utf-8`), wurden ersetzt, in `transcription`, `notes` und `transcription_llm` sowie
 in `o_szd.2224_page.json`. `transcription_llm` ist danach wieder identisch mit dem Modell-Output
@@ -525,7 +525,7 @@ aus `0f5bc7a`. `edit_history` bleibt unverändert und dokumentiert den verdorben
 
 ## 8 — Speichern aus einer veralteten Ansicht überschreibt den neueren Stand still
 
-Gemeldet von Julia Hintersteiner, 2026-10-30 · Status: offen
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-30 · Status: offen
 
 ### Symptom
 
@@ -560,7 +560,7 @@ sich nur aus `edit_history`.
 ### Umfang
 
 Alles, was auf dem Server geändert wird, während ein Viewer-Tab offen ist: Reparaturen per Skript,
-ein zweiter Tab, und künftig zwei Personen am selben Objekt (Lina/Oliver, Issue #2).
+ein zweiter Tab, und künftig zwei Personen am selben Objekt (Fachexpert:innen für Zweigs Handschrift, Issue #2).
 
 ### Folgen
 

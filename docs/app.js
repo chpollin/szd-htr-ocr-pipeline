@@ -229,7 +229,7 @@ function escapeHtml(text) {
 }
 
 /* ===== Transkriptions-Markup =====
-   Rendert die Marker des Annotationsprotokolls (knowledge/annotation-protocol.md §3)
+   Rendert die Marker des Annotationsprotokolls (knowledge/transcription-guidelines.md §3)
    in der Leseansicht. Bisher wurde nur ~~Tilgung~~ dargestellt, alle anderen Marker
    standen als roher Text da — Einfuegungen waren im Review nicht als solche erkennbar.
 
@@ -884,7 +884,7 @@ async function showViewer(objectId, page) {
 }
 
 /* ===== Transparency Cards on the Project (#about) page =====
-   Renders the Promptotyping-Vault enumeration, Journal session count, and Exports
+   Renders the Promptotyping-Vault enumeration, Journal entry count, and Exports
    links that expose the project's audit trail. Lives on #about,
    not on the catalog, so the documents remain the primary content. */
 
@@ -900,7 +900,7 @@ async function renderTransparencyCards() {
   if (!kd || !kd.docs) return;
 
   if (vaultList) {
-    // Use the reading order from knowledge/index.md sections if available;
+    // Use the reading order from knowledge/INDEX.md sections if available;
     // fall back to alphabetic otherwise. Puts the most load-bearing docs first.
     const fromSections = (kd.sections || []).flatMap(s => s.slugs || []);
     const allSlugs = Object.keys(kd.docs);
@@ -916,8 +916,9 @@ async function renderTransparencyCards() {
   }
 
   if (journalCount && kd.docs.journal) {
-    const h2 = (kd.docs.journal.headings || []).filter(h => h.level === 2);
-    journalCount.textContent = `${h2.length} sessions`;
+    // Journal entries are H3 headings under "## Einträge" (journal template 0.6).
+    const entries = (kd.docs.journal.headings || []).filter(h => h.level === 3);
+    journalCount.textContent = `${entries.length} entries`;
   }
 }
 
@@ -963,7 +964,7 @@ function renderKnowledgeIndex() {
       html += `<a href="#knowledge/${slug}" class="knowledge__card">
         <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
         <div class="knowledge__card-meta">
-          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          ${doc.type ? `<span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>` : ''}
           <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
           <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
         </div>
@@ -985,7 +986,7 @@ function renderKnowledgeIndex() {
       html += `<a href="#knowledge/${doc.slug}" class="knowledge__card">
         <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
         <div class="knowledge__card-meta">
-          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          ${doc.type ? `<span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>` : ''}
           <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
           <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
         </div>
@@ -1003,6 +1004,19 @@ async function showKnowledgeDoc(slug) {
   state.editMode = false;
   resetDiffMode();
   await ensureKnowledgeData();
+
+  // Renamed documents keep their former slugs as aliases (knowledge/INDEX.md);
+  // rewrite an old bookmark in place so back navigation does not loop.
+  if (slug.toLowerCase() === 'index') {
+    history.replaceState(null, '', '#knowledge');
+    showKnowledgeIndex();
+    return;
+  }
+  const current = state.knowledgeData?.aliases?.[slug];
+  if (current && !state.knowledgeData.docs?.[slug]) {
+    history.replaceState(null, '', '#knowledge/' + current);
+    slug = current;
+  }
 
   const doc = state.knowledgeData?.docs?.[slug];
   if (!doc) {
@@ -1045,7 +1059,7 @@ function renderKnowledgeDoc(doc) {
   // Metadata
   const statusCls = 'knowledge__badge--' + (doc.status || 'draft');
   sidebarHtml += `<dl class="knowledge-doc__sidebar-meta">
-    <dt>Typ</dt><dd><span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span></dd>
+    ${doc.type ? `<dt>Typ</dt><dd><span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span></dd>` : ''}
     <dt>Status</dt><dd><span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span></dd>
     <dt>Erstellt</dt><dd>${escapeHtml(doc.created)}</dd>
     <dt>Aktualisiert</dt><dd>${escapeHtml(doc.updated)}</dd>`;

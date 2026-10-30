@@ -48,8 +48,12 @@ from import_autographen import jpeg_dimensions, fetch_mets, parse_mets, METS_URL
 
 COLLECTION = "lebensdokumente"
 INGEST_LABEL = "SZ-AAL-L-2026-06"
-DEFAULT_SOURCE = Path("C:/Users/Chrisi/Documents/PROJECTS/szd/ingeste_L_lebensdokumente")
-SZDLEB_DEFAULT = Path("C:/Users/Chrisi/Documents/GitHub/SZD/data/PersonalDocument/SZDLEB.xml")
+# Defaults follow the project lead's directory layout; elsewhere pass
+# --source and --szdleb.
+DEFAULT_SOURCE = Path.home() / "Documents" / "PROJECTS" / "szd" / "ingeste_L_lebensdokumente"
+SZDLEB_DEFAULT = (
+    Path.home() / "Documents" / "GitHub" / "SZD" / "data" / "PersonalDocument" / "SZDLEB.xml"
+)
 PIDMAP_DEFAULT = Path("C:/tmp/lebensdok_aal_pidmap.csv")
 
 TEI_NS = "http://www.tei-c.org/ns/1.0"

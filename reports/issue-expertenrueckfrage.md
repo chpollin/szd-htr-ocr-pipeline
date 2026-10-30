@@ -8,12 +8,12 @@ Fertiger Issue-Body. Direkt verwendbar mit:
 Vorschlag Labels: enhancement
 -->
 
-Gemeldet von Julia Hintersteiner, 2026-10-30, aus dem Gegenlesen am Faksimile.
+Gemeldet von der Projekt-Reviewer:in (Universität Salzburg), 2026-10-30, aus dem Gegenlesen am Faksimile.
 
 ## Bedarf
 
 Beim Redigieren gibt es Passagen, die ich schwer oder gar nicht lesen kann, weil ich Stefan
-Zweigs Handschrift zu wenig kenne. Lina und Oliver kennen sie. Im Viewer fehlt eine
+Zweigs Handschrift zu wenig kenne. Die Fachexpert:innen für Zweigs Handschrift (Literaturarchiv Salzburg) kennen sie. Im Viewer fehlt eine
 Möglichkeit, ein Dokument (oder eine Stelle darin) **für sie zu markieren**, damit sie es sich
 gezielt ansehen. Bisher bleibt so eine Stelle entweder unkommentiert stehen oder geht verloren,
 weil die Freigabe sie überdeckt.
@@ -55,8 +55,8 @@ das festhalten.
    "consult": [{
      "page": 1,
      "note": "Handschriftliche Annotation links oben und Text über dem Foto unleserlich",
-     "for": ["Lina", "Oliver"],
-     "requested_by": "Julia Hintersteiner",
+     "for": ["<Fachexpert:in>"],
+     "requested_by": "<Name>",
      "requested_at": "2026-10-30T…",
      "resolved_by": null, "resolved_at": null, "answer": null
    }]
@@ -64,7 +64,7 @@ das festhalten.
 2. **Viewer:** Button „Zur Rückfrage markieren" neben „Freigeben" (nur lokal, wie Approve).
    Kurzes Formular: Seite (vorbelegt mit der aktuellen), Notiz, an wen. Offene Rückfragen
    erscheinen als Badge am Objekt und an der Seite.
-3. **Katalog:** Filter „Rückfrage offen" (optional nach Person), damit Lina und Oliver ihre
+3. **Katalog:** Filter „Rückfrage offen" (optional nach Person), damit die Fachexpert:innen ihre
    Liste direkt aufrufen können.
 4. **Erledigen:** Wer die Stelle gelesen hat, trägt die Lesung ein (Edit wie bisher) und
    schließt die Rückfrage mit einer kurzen Antwort. Der Eintrag bleibt mit `resolved_*` stehen,
@@ -74,7 +74,7 @@ das festhalten.
 
 ## Offene Fragen
 
-- Sollen Lina und Oliver am lokalen Server arbeiten, oder brauchen sie die Liste auch in der
+- Sollen die Fachexpert:innen am lokalen Server arbeiten, oder brauchen sie die Liste auch in der
   öffentlichen Ansicht (GitHub Pages, nur lesend)?
 - Reicht eine Markierung pro Seite, oder braucht es eine Stelle innerhalb der Seite
   (Zeile/Textausschnitt)?

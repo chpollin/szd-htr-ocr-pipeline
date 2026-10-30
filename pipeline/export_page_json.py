@@ -3,7 +3,7 @@
 Merges pipeline outputs (transcription + optional layout + descriptive metadata)
 into a single Page-JSON file per object, conforming to schemas/page-json-v0.2.json.
 
-Specification: knowledge/htr-interchange-format.md
+Specification: knowledge/page-json-architecture.md
 Schema:        schemas/page-json-v0.2.json
 
 Usage:

@@ -11,14 +11,12 @@ template:
   version: 0.1
   url: "https://dhcraft.org/Promptotyping/promptotyping-document/verification"
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
-status: active
+status: snapshot
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-10-28
 authors: [Christopher Pollin]
 generated-with: Claude Code (Claude Fable 5)
 type: verification
-related:
-  - "[[verification-concept]]"
 ---
 
 # Verifikation: FAIR4RS-Status des Repositories
@@ -59,6 +57,8 @@ Die Behauptung des Papers hält: Accessibility konstruktionsbedingt erfüllt, Re
 ## Maßnahmen (Stand der Entscheidung 2026-07-23)
 
 Beschlossene Schließung der Lücken gemäß der FAIR-Infrastruktur-Politik des Methoden-Repos (`DigitalHumanitiesCraft/Promptotyping`, `knowledge/paper-writing.md`): Dual-Licensing MIT (Code) plus CC BY 4.0 (Dokumentation), Rechteangabe für Drittdaten (Faksimiles und TEI: Literaturarchiv Salzburg / Stefan Zweig Digital); CITATION.cff und codemeta.json aus dem Frontmatter-Kern; GitHub-Description und Topics; Zenodo-Release mit DOI, geschnitten wenn der Stand trägt.
+
+Umsetzungsstand am 2026-10-28, die Tabelle oben bleibt der Befund vom 2026-07-23. Commit `2641b28` hat das Dual-Licensing, `CITATION.cff` und `codemeta.json` eingeführt, GitHub erkennt die Lizenz seither als MIT, Description und Topics sind gesetzt. Tags, Releases und eine DOI fehlen weiterhin, F1, F1.2 und A2 bleiben damit offen. Die offenen Maßnahmen führt `knowledge/plan.md`.
 
 ## Grenzen
 

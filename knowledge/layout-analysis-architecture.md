@@ -1,5 +1,6 @@
 ---
 title: "Layout-Analyse"
+aliases: [layout-analysis]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
@@ -360,5 +361,5 @@ Geschaetzte Gesamtlaufzeit fuer 18.700 Seiten: ~7 Tage (vorher ~8.5 Tage).
 
 - Docling: https://github.com/docling-project/docling (IBM, MIT License)
 - Surya: https://github.com/datalab-to/surya (Datalab)
-- [[htr-interchange-format]] — Page-JSON Spezifikation
-- [[verification-concept]] — Qualitaetssignale und Verifikation
+- [[page-json-architecture]] — Page-JSON Spezifikation
+- [[transcription-verification]] — Qualitaetssignale und Verifikation

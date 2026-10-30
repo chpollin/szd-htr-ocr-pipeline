@@ -1,7 +1,7 @@
 """CER/WER-Berechnung für SZD-HTR Qualitätsevaluierung.
 
 Vergleicht Pipeline-Output mit manueller Referenztranskription.
-Normalisierung gemäß annotation-protocol.md §5.
+Normalisierung gemäß transcription-guidelines.md §5.
 """
 
 import argparse
@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 def normalize_text(text: str) -> str:
-    """Normalize text for CER comparison per annotation-protocol.md §5.
+    """Normalize text for CER comparison per transcription-guidelines.md §5.
 
     Steps: Unicode NFC, whitespace, hyphenation join, linebreaks → spaces,
     markup removal.

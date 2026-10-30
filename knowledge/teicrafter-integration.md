@@ -19,10 +19,10 @@ authors: [Christopher Pollin]
 generated-with: Claude Code (Claude Opus 4.8)
 type: spec
 related:
-  - "[[htr-interchange-format]]"
-  - "[[page-xml-mets-architecture]]"
-  - "[[annotation-protocol]]"
-  - "[[layout-analysis]]"
+  - "[[page-json-architecture]]"
+  - "[[architecture]]"
+  - "[[transcription-guidelines]]"
+  - "[[layout-analysis-architecture]]"
 ---
 
 # teiCrafter-Integration: Page-JSON → TEI
@@ -127,7 +127,7 @@ Pruefwege:
 
 ## 4. Marker-Anreicherung (opt-in, `--enrich-markers`)
 
-Die Transkriptionen enthalten diplomatische Marker (→ [[annotation-protocol]]).
+Die Transkriptionen enthalten diplomatische Marker (→ [[transcription-guidelines]]).
 Der **Standard-Export laesst sie als Text** (verlustfrei, byte-identisch). Der
 opt-in `--enrich-markers` wandelt sie in echte TEI-Editorial-Elemente um und
 schreibt eine **separate** `{id}.enriched.tei.xml` — der Standard bleibt

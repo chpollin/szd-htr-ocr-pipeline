@@ -1,399 +1,110 @@
-# SZD OCR/HTR Pipeline — Textextraktion aus digitalisierten Nachlassfaksimiles
+<!-- template: Vorlage Action-Layer v0.5, https://dhcraft.org/Promptotyping/promptotyping-document/action-layer -->
 
-## Projektziel
+# Project instructions for SZD OCR/HTR Pipeline
 
-Experimentelles Teilprojekt von [Stefan Zweig Digital](https://stefanzweig.digital/). VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). Erzeugt maschinenlesbaren Text aus digitalisierten Faksimiles.
-
-**Promptotyping-Projekt:** Sämtlicher Code, die Pipeline-Architektur, das Frontend und die Dokumentation wurden von Claude Code (Opus 4.6) generiert. Die Rolle des Projektleiters (Christopher Pollin) ist die eines Projektmanagers und fachlichen Entscheiders — nicht die eines Software-Entwicklers.
+VLM-based HTR/OCR pipeline for the Stefan Zweig estate at the Literaturarchiv Salzburg, an experimental sub-project of [Stefan Zweig Digital](https://stefanzweig.digital/). The method is Promptotyping. The documents in `knowledge/` hold the domain knowledge, specification and architecture from which the code is implemented. The project lead decides on the substance and does not write the code. The project reviewer (University of Salzburg) checks the results against the material. Roles and model involvement are in `knowledge/project.md`.
 
 - GitHub: https://github.com/chpollin/szd-htr-ocr-pipeline
-- Python 3.10+ (getestet mit 3.11)
-- Lizenz: CC-BY 4.0
+- Python 3.10+ (tested with 3.11)
+- Licence: see `README.md`, section Licence and citation
 
-## Aktueller Stand
+## Knowledge base
 
-Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/build_viewer_data.py` oder `docs/catalog.json`. Offene Aufgaben und Entscheidungslog → `knowledge/plan.md`. Session-Log → `knowledge/journal.md`. CER-Baseline und Fehlermuster → `knowledge/evaluation-results.md`. Einstieg in den Wissensstand → `knowledge/index.md`.
+The knowledge base lives in `knowledge/` and is written in German, a project decision recorded in `knowledge/INDEX.md`. At every session start, after this file, read `knowledge/INDEX.md`, then `knowledge/handoff.md` and `knowledge/plan.md`, then the document relevant to the task. Consult `knowledge/journal.md` when the origin or reason of a transition is needed.
 
-### Review-Modell (drei Status, Operator-Entscheidung 2026-06-10)
+| Task | Read first |
+|---|---|
+| Project frame, roles, licence | `knowledge/project.md` |
+| Source data, collections, backup, languages | `knowledge/data.md` |
+| Requirements, review model, result JSON, output formats, decision log | `knowledge/specification.md` |
+| Data flow, prompt system, components, environment variables, METS/MODS/PAGE XML, security | `knowledge/architecture.md` |
+| Page-JSON format | `knowledge/page-json-architecture.md` |
+| Layout analysis | `knowledge/layout-analysis-architecture.md` |
+| Transcription rules and markup | `knowledge/transcription-guidelines.md` |
+| Quality signals, verification, error types, known model limits | `knowledge/transcription-verification.md` |
+| Status, approval, authority | `knowledge/governance.md` |
+| Accepted work and open decisions | `knowledge/plan.md` |
+| Open input or handover | `knowledge/handoff.md` |
+| Origin or reason of a decision unclear | `knowledge/journal.md` |
 
-| Status (Anzeige) | Status im JSON | Bedeutung |
-|---|---|---|
-| Mensch-geprueft | `gt_verified` oder `approved` | Am Faksimile gegengelesen, bei Bedarf korrigiert — gilt als verifiziert und Ground-Truth-faehig. Approve heisst verbindlich: gegengelesen, nicht ueberflogen. |
-| Agent-geprueft | `agent_verified` | Claude-Vision-Agent (Bild-Text-Vergleich) — kann stimmen, ersetzt keine menschliche Pruefung |
-| Ungeprueft | kein Review | Nur Pipeline-Selbsteinschaetzung. `needs_review` ist kein Status, sondern Triage ("zuerst sichten") innerhalb von Ungeprueft |
+## Working rules
 
-Die gespeicherten `review.status`-Werte sind unveraendert; die Zusammenfassung passiert in der Anzeige-Schicht (`docs/app.js`). CER-Referenz sind menschlich geprueftete Texte. Gespeichert sind vier Stufen (`gt_verified`, `approved`, `agent_verified`, kein Review-Block); die Aussenbeschreibung fuer Gutachtende steht in `README.md` unter "Trust tiers and verification provenance", die Uebergaenge sind in `tests/test_trust_tiers.py` festgenagelt.
+- Handoff. Read `knowledge/handoff.md` at every session start. Check source and current target of each point you use, integrate durable content first, write the journal record, then remove the point completely.
+- Journal. Write one entry per coherent transition at the top of `knowledge/journal.md`, newest first, with the fields of the journal template (Anlass, Befund, Entschieden, Korrigiert, Geändert, Belege) and at least one commit or other evidence. Past entries change only in a compaction that follows the template and records its parent commit.
+- Authority. Only humans set `approved` and `gt_verified`. Paragraphs marked **[J]** (observations of the project reviewer) are never reworded. The full rules are in `knowledge/governance.md`.
+- Invent nothing. Figures come from code, result data or `reports/`, transcription rules from `knowledge/transcription-guidelines.md`. Ask when knowledge is missing.
+- Truth hierarchy. Code and result data precede `knowledge/`, `knowledge/` precedes `reports/` and `paper/`. Report contradictions instead of letting them diverge silently.
+- No volatile figures in this file or in knowledge documents. Current figures come from `python pipeline/transcribe.py --all --dry-run` and `docs/catalog.json`. Future work belongs in `knowledge/plan.md`, dated measurement and audit reports in `reports/`.
+- After changing `knowledge/` or `README.md`, rebuild the viewer data with `build_knowledge()` (see Commands), because the viewer renders both.
 
-**Zwei Datenstroeme je Seite** (seit 2026-06-10): `transcription` ist die Arbeitsfassung, `transcription_llm` der unveraenderliche Roh-Output des Modells (wird beim ersten Edit gesetzt; Bestand per `backfill_transcription_llm.py` migriert). `edit_history` protokolliert jede Aenderung. CER aus Korrekturen: `python pipeline/report_cer_from_edits.py` (Report: `reports/cer-from-edits.md`).
+## Design principles
 
-### Bekannte Schwaechen
+The viewer follows the SZD design system in `docs/app.css`. There is no separate `design.md`. Binding:
 
-- **Kurrent-Handschrift**: 90–95% Genauigkeit (vs. 99%+ bei Druck). Typische Verwechslungen: h↔I, n↔u, r↔v, L↔B, St↔H, f↔s
-- **Nonsens-Halluzination**: Gemini erfindet Woerter statt `[?]` zu setzen — `marker_density` daher als Signal wertlos
-- **`duplicate_pages` False-Positive**: Triggert bei Color-Chart-Doppelfotografie (offener Fix)
-- **Tabellarische Layouts**: VLM-Linearisierung ordnet Betraege falschen Zeilen zu (~90% Genauigkeit)
-- **Wiederholungsschleifen**: Das Modell kippt bei Leerraum oder Markup (`
-`, `[?]`, `[...]`, `~~ ~~`) in eine Endlosschleife bis zum Ausgabelimit. Der Parser rettet die vollstaendigen Seiten davor; ungelesene Scans stehen als `transcription_partial`/`_failed` im Katalog → `reports/pipeline-totalausfaelle.md`
+- Keep the checking status visible per object and never condense it into a global score.
+- Show editing controls only in local operation.
+- Output every interpolated string through `escapeHtml()`. No runtime CDNs, libraries are vendored under `docs/lib/`.
 
-## Quelldaten
+## Scope
 
-Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 2.486 Objekte, 20.318 Faksimile-Scans (~25 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 5 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
+What this project does not do:
 
-| Unterverzeichnis | Sammlung (intern) | Objekte | Bilder | Bilder/Obj (Median) | TEI-Datei |
-|---|---|---|---|---|---|
-| `lebensdokumente/` | `lebensdokumente` | 127 | 2.879 | 3 | `szd_lebensdokumente_tei.xml` |
-| `korrespondenzen/` | `korrespondenzen` | 1.186 | 4.154 | 3 | `szd_korrespondenzen_tei.xml` |
-| `aufsatz/` | `aufsatzablage` | 625 | 3.844 | 5 | `szd_aufsatzablage_tei.xml` |
-| `facsimiles/` | `werke` | 169 | 7.842 | 21 | `szd_werke_tei.xml` |
-| `autographen/` | `autographen` | 379 | 1.599 | 3 | `szd_autographen_tei.xml` (generiert) |
+- critical edition or prosopographical indexing (`knowledge/project.md`, Abgrenzungen)
+- reproducible recomputation of the model outputs (`knowledge/architecture.md`, Abhängigkeitsgrenze)
 
-Die Sammlung `autographen` (SZ-AAL, Cirilo-Ingest SZ-AAL-2026-06, o:szd.3020–3398) ist ein reines Korrespondenz-Konvolut → immer Prompt-Gruppe I. Backup und TEI werden von `pipeline/import_autographen.py` aus dem Ingest-Staging generiert; die Sprache aus dem METS ist ein Cirilo-Pauschalwert und wird bewusst nicht uebernommen (Details im Skript-Docstring und `knowledge/journal.md`, 2026-06-10).
+What you must not do:
 
-Die Spalte **Objekte** zählt physische Backup-Verzeichnisse. Das Backup listet einen Teil der lebensdokumente-Objekte zusätzlich unter `korrespondenzen/` (physische Doppelung). `discover_objects()` ordnet jedes Objekt TEI-kanonisch genau einer Sammlung zu (Backup-Tie-Break über die `COLLECTIONS`-Reihenfolge für Objekte ohne numerische TEI-PID), sodass keine PID doppelt transkribiert wird — die kanonisch transkribierte korrespondenzen-Größe ist daher kleiner als der Verzeichniszähler. Kanonische Zahlen → `python pipeline/transcribe.py --all --dry-run`. Detail → `knowledge/data-overview.md`.
+- change `paper/PAPER.md` or `paper/PAPER-FINDINGS.md`, which stay frozen at their July 2026 state
+- rewrite past journal entries outside a template compaction, or reword **[J]** paragraphs
 
-Werke ist die bildintensivste Sammlung (42% aller Bilder, 50 Objekte mit >50 Bildern). Sprachen: Deutsch (95,6%), Englisch (2,6%), Französisch (1,5%), Italienisch, Spanisch. Detailanalyse → `knowledge/data-overview.md`.
+## Known limits
 
-Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg`. Pipeline-Abdeckung → `python pipeline/transcribe.py --all --dry-run` bzw. `docs/catalog.json`.
+The recurring model errors (Kurrent confusions, invented words instead of `[?]`, repetition loops, tabular linearisation, false duplicate-page signals on colour-chart double shots) are described in `knowledge/transcription-verification.md` §2 and §9 and in `reports/pipeline-totalausfaelle.md`. Treat gaps listed there as known limits rather than new bugs.
 
-## Pipeline-Architektur
+## Tools
 
-### Datenfluss
+Before dependent steps, check the available tools, runtimes and connections. A missing binding rule source holds the dependent change. Name checks you did not run. A received document or available tool does not widen the task.
 
-```
- Faksimile-Scans (JPG, ~5000x7400px)
- + TEI-XML-Metadaten + Backup-Metadaten
-                │
-                ▼
- ┌─────────────────────────────────────┐
- │  1. Kontext-Aufloesung              │
- │     tei_context.py                  │
- │     • TEI-XML → Titel, Datum,       │
- │       Sprache, Signatur, Objekttyp  │
- │     • resolve_group() → Prompt-     │
- │       Gruppe A-I (automatisch)      │
- └──────────────┬──────────────────────┘
-                ▼
- ┌─────────────────────────────────────┐
- │  2. Prompt-System (4 Schichten)      │
- │     • System-Prompt (Rolle, Regeln, │
- │       JSON-Schema, Blank-Handling)  │
- │     • Gruppen-Prompt (1 von 9)      │
- │       ODER Objekt-Prompt (Override) │
- │     • Objekt-Kontext (aus TEI)      │
- └──────────────┬──────────────────────┘
-                ▼
- ┌─────────────────────────────────────┐
- │  3. VLM-Transkription               │
- │     Gemini 3.1 Flash Lite (t=0.1)  │
- │     Input: Alle Bilder + Prompt     │
- │     Output: JSON {pages[], conf.}   │
- │     • Chunking: >20 Bilder → auto   │
- │       Split + Merge                 │
- │     • Exponential Backoff (429)     │
- │     • JSON-Sanitisierung (Codeblock,│
- │       Escape-Fix, Retry)            │
- └──────────────┬──────────────────────┘
-                ▼
- ┌─────────────────────────────────────┐
- │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.7         │
- │     • page.type (content/blank/     │
- │       color_chart) pro Seite        │
- │     • Marker-Dichte, Duplikate      │
- │     • Sprachkonsistenz (TEI vs. det)│
- │     • needs_review + Gruende        │
- └──────────────┬──────────────────────┘
-                ▼
- results/{collection}/{object_id}_{model}.json
-                │
-        ┌───────┼────────────────────┐
-        ▼       ▼                    ▼
-   verify.py  layout_analysis.py   build_viewer_data.py
-   Modellkonsensus  VLM-Layout (1/Seite) → catalog.json
-   (3 Modelle) → *_layout.json     → data/{collection}.json
-        │               │           → docs/ Viewer
-        │               ▼                    │
-        │       export_page_json.py          │ Expert-Review
-        │       OCR + Layout + TEI-          ▼
-        │       Metadaten (MODS)       serve.py (lokaler Dev-Server)
-        │       → *_page.json          POST /api/approve → JSON
-        │         (Page-JSON v0.2)     POST /api/edit → JSON
-        │               │              (review.status, edits)
-        │               ▼
-        │       export_pagexml.py
-        │       (deterministisch)
-        │       → *_page/page_NNN.xml
-        │         (PAGE XML 2019)
-        │               │
-        │               ▼
-        │       export_mets.py
-        │       METS-Container mit MODS
-        │       (TEI + Backup-Metadaten)
-        │       → *_mets.xml
-        │               │
-        └───────┬───────┘
-                ▼
-        METS/MODS + PAGE XML (Zielformat)
-        → Archiv- und Austauschformat
-        → GAMS-Reingest, teiCrafter, Transkribus
-```
-
-### Prompt-System (4 Schichten)
-
-1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format, Blank-Page-Handling
-2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (9 Gruppen)
-3. **Objekt-Prompt** (`prompts/objects/{object_id}.md`, optional): Ueberschreibt Gruppen-Prompt fuer Spezialfaelle
-4. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
-
-Objekt-Prompts greifen automatisch, wenn eine Datei `prompts/objects/{object_id}.md` existiert. Aktuell: `o_szd.1056` (Bankkontoauszuege).
-
-### 9 Prompt-Gruppen
-
-| Kürzel | Gruppe | Prompt-Datei |
-|---|---|---|
-| A | Handschrift | `group_a_handschrift.md` |
-| B | Typoskript | `group_b_typoskript.md` |
-| C | Formular | `group_c_formular.md` |
-| D | Kurztext | `group_d_kurztext.md` |
-| E | Tabellarisch | `group_e_tabellarisch.md` |
-| F | Korrekturfahne | `group_f_korrekturfahne.md` |
-| G | Konvolut | `group_g_konvolut.md` |
-| H | Zeitungsausschnitt | `group_h_zeitungsausschnitt.md` |
-| I | Korrespondenz | `group_i_korrespondenz.md` |
-
-Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespondenzen → immer I, Konvolute → G, sonst Entscheidungsbaum über `objecttyp` und `classification` aus TEI. Fallback: Handschrift.
-
-## Projektstruktur
-
-```
-szd-htr/
-├── CLAUDE.md
-├── README.md                        ← Projektueberblick, Trust tiers, Test-Aufruf
-├── requirements.txt                 ← google-genai, python-dotenv, markdown, pyyaml
-├── requirements-dev.txt             ← pytest, jsonschema (nur Tests)
-├── .env                             ← API Keys (nicht committet)
-├── .github/ISSUE_TEMPLATE/          ← Evaluationshaken zum Antrag (Label `antrag-eval`)
-├── paper/                           ← Archivierte Forschungsartefakte, keine aktive Einreichung
-│   ├── PAPER.md                     ← Forschungsmanuskript zum Stand 2026-07
-│   ├── PAPER-FINDINGS.md            ← Historische Evidenzbasis mit Dateizitaten
-│   └── drafts/                      ← Zwischenstaende: PAPER-TEXT(.FILLED).md, CLAUDE-TASK.md
-├── tests/                           ← pytest: Page-JSON-Schema, Trust-Tier-Uebergaenge
-├── schemas/
-│   ├── page-json-v0.1.json          ← Page-JSON Schema v0.1 (Text + Layout)
-│   ├── page-json-v0.2.json          ← Page-JSON Schema v0.2 (+ deskriptive Metadaten, DC/MODS)
-│   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output (Legacy)
-├── pipeline/                         ← Details → pipeline/README.md
-│   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
-│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context(), parse_tei_full_metadata()
-│   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 7 Signale + page.type + transcription_status (v1.7)
-│   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
-│   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
-│   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
-│   ├── serve.py                     ← Lokaler Dev-Server mit Review-API
-│   ├── import_reviews.py            ← Expert-Review Write-Back
-│   ├── layout_analysis.py           ← Ensemble-Layout: Docling + Surya + Gemini 3 Flash
-│   ├── export_page_json.py          ← OCR + Layout + TEI-Metadaten → Page-JSON v0.2 (Arbeitsformat)
-│   ├── export_pagexml.py            ← Page-JSON → PAGE XML 2019 (Teil des Zielformats)
-│   ├── export_mets.py               ← METS-Container mit MODS + PAGE XML Referenzen (Zielformat)
-│   ├── generate_gt.py               ← 3-Modell-GT-Pipeline
-│   ├── diagnose_truncation.py       ← Diagnose: Truncation-Erkennung
-│   ├── fraktur_postprocess.py       ← Diagnose: Fraktur-Korrekturvorschlaege (Prototyp)
-│   ├── quality_report.py            ← Diagnose: Aggregierte Qualitaetsstatistiken
-│   ├── backfill_*.py                ← Einmal-Migrationen (page_types, quality_signals, edit_history)
-│   ├── salvage_raw_results.py       ← Einmal-Migration: Seiten aus abgebrochenen Modellantworten retten
-│   ├── run_sample_batch.py          ← Batch-Steuerung: Gruppen auf 10 auffuellen
-│   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
-│       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
-├── data/                            ← TEI-XML-Metadaten (5 Sammlungen)
-├── results/                         ← Alle Pipeline-Ergebnisse (siehe results/README.md)
-│   ├── groundtruth/                 ← GT-Drafts (3-Modell-Konsensus)
-│   ├── lebensdokumente/             ← 127 Objekte
-│   ├── werke/                       ← 54 Objekte
-│   ├── aufsatzablage/               ← 115 Objekte
-│   └── korrespondenzen/             ← 1032 Objekte
-│   Pro Objekt: {id}_{model}.json (primaer) + optional _consensus.json,
-│   _layout.json, _page.json, _page/ (PAGE XML). Details → results/README.md
-├── docs/
-│   ├── index.html                   ← SPA: Katalog + Viewer + Knowledge Vault + Projekt
-│   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit, Knowledge
-│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Diff, Knowledge, About
-│   ├── catalog.json                 ← Leichtgewichtige Metadaten fuer Katalog-Tabelle
-│   └── data/                        ← Transkriptionsdaten + Knowledge (on-demand)
-│       ├── lebensdokumente.json
-│       ├── werke.json
-│       ├── aufsatzablage.json
-│       ├── korrespondenzen.json
-│       ├── groundtruth.json         ← GT-Drafts fuer Expert-Review
-│       └── knowledge.json           ← Knowledge Vault (alle knowledge/*.md + About, pre-rendered HTML)
-└── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
-    ├── index.md                     ← Map of Content (MOC), Funktionstabelle + Lesepfade
-    ├── plan.md                      ← Phasen-Status, Aufgaben, Entscheidungslog
-    ├── data-overview.md             ← Datengrundlage (5 Sammlungen, 9 Gruppen)
-    ├── editorial-model.md           ← Editioneller Status, Provenienz, Betriebskontexte, Abhaengigkeitsgrenze
-    ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
-    ├── evaluation-results.md        ← CER-Baseline, Fehlertypologie
-    ├── annotation-protocol.md       ← Transkriptionskonventionen
-    ├── htr-interchange-format.md    ← Page-JSON v0.2: Text + Layout + deskriptive Metadaten (Arbeitsformat)
-    ├── page-xml-mets-architecture.md ← PAGE XML, MODS und METS-Schichtenarchitektur (Zielformat)
-    ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
-    ├── teicrafter-integration.md    ← Page-JSON → teiCrafter-TEI + Marker-Anreicherung
-    ├── dia-xai-integration.md       ← Rolle im DIA-XAI-Pilot und im Verifikations-Antrag
-    ├── verification-fair4rs.md      ← FAIR4RS-Befund des Repositories (geprueft)
-    ├── security.md                  ← Security-Review (Threat Model, Mitigations)
-    ├── stats-dashboard.md           ← Statistik-Dashboard Spezifikation
-    └── journal.md                   ← Session-Log
-```
-
-## CLI-Nutzung
+### Commands
 
 ```bash
-# Setup
+# Setup (.env needs GOOGLE_API_KEY; further variables in knowledge/architecture.md)
 pip install -r requirements.txt
-# .env braucht: GOOGLE_API_KEY=AIza...
 
-# Einzelobjekt
-python pipeline/transcribe.py o_szd.161 -c lebensdokumente
+# Transcription (results go to results/{collection}/{object_id}_{model}.json; existing ones are skipped without --force)
+python pipeline/transcribe.py o_szd.161 -c lebensdokumente     # single object
+python pipeline/transcribe.py -c werke                          # collection
+python pipeline/transcribe.py --all --dry-run                   # list without API calls
+# Further options: --group, --limit N, --max-images N, --chunk-size N, --delay 2.0, --force
 
-# Ganze Sammlung
-python pipeline/transcribe.py -c werke
+# Local dev server with review API
+python pipeline/serve.py [--port 5501] [--rebuild]
 
-# Alle Sammlungen
-python pipeline/transcribe.py --all
-
-# Nur bestimmte Gruppe
-python pipeline/transcribe.py -c lebensdokumente --group handschrift
-
-# Dry-Run (auflisten ohne API-Call)
-python pipeline/transcribe.py --all --dry-run
-
-# Weitere Optionen: --limit N, --max-images N, --delay 2.0, --force
-
-# Grosse Objekte (>20 Bilder) werden automatisch in Chunks aufgeteilt
-python pipeline/transcribe.py o_szd.143 -c lebensdokumente --chunk-size 20
-```
-
-Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits transkribierte Objekte werden übersprungen (außer `--force`).
-
-```bash
-# Lokaler Dev-Server (ersetzt VS Code Live Server)
-python pipeline/serve.py                # Port 8000
-python pipeline/serve.py --port 5501    # Anderer Port
-python pipeline/serve.py --rebuild      # Viewer-Daten beim Start neu bauen
-
-# API: Approve/Edit werden direkt vom Frontend an den Server geschickt
-# POST /api/approve  → review.status = "approved" ins Pipeline-JSON
-# POST /api/edit     → editierte Seiten + review ins Pipeline-JSON
-# POST /api/rebuild  → Viewer-Daten neu bauen
-# GET  /api/status   → {"local": true} (Frontend erkennt lokalen Server)
-```
-
-```bash
-# Expert-Review importieren (CLI-Alternative, z.B. fuer Batch-Import)
+# Review import (CLI alternative)
 python pipeline/import_reviews.py path/to/export.json [--dry-run] [--reviewer "Name"]
 
-# Viewer-Daten neu bauen (nach Import oder Transkription)
-python pipeline/build_viewer_data.py
+# Viewer data
+python pipeline/build_viewer_data.py                                                   # everything
+cd pipeline && python -c "from build_viewer_data import build_knowledge; build_knowledge()"  # knowledge.json only
+
+# Exports
+python pipeline/export_page_json.py --all [--force]             # Page-JSON v0.2
+python pipeline/export_mets.py --all [--dry-run]                # METS/MODS
 ```
 
-```bash
-# METS/MODS Export (Zielformat)
-python pipeline/export_mets.py o_szd.100 -c lebensdokumente   # Einzelobjekt
-python pipeline/export_mets.py -c werke                        # Ganze Sammlung
-python pipeline/export_mets.py --all                           # Alle Sammlungen
-python pipeline/export_mets.py --all --dry-run                 # Nur zaehlen
-
-# Page-JSON Export (Arbeitsformat)
-python pipeline/export_page_json.py --all                      # Fehlende exportieren
-python pipeline/export_page_json.py --all --force              # Alle neu exportieren
-```
-
-### Tests
-
-Alles laeuft ohne API-Key und ohne lokales Bild-Backup.
+Tests run without an API key or local image backup and are mandatory before every commit:
 
 ```bash
 pip install -r requirements-dev.txt
 python -m pytest tests/ pipeline/
 ```
 
-`tests/` (pytest, seit 2026-07-30):
+`tests/` checks Page-JSON against `schemas/page-json-v0.2.json`, the trust-tier transitions of `serve.py`, the salvage logic and the aliases of the knowledge documents. `pipeline/test_*.py` are older regression tests that also run standalone.
 
-```bash
-python -m pytest tests/test_page_json_schema.py  # alle results/*/*_page.json gegen schemas/page-json-v0.2.json
-python -m pytest tests/test_trust_tiers.py       # Trust-Tier-Uebergaenge der Review-API in serve.py
-```
+### Conventions
 
-`pipeline/test_*.py` — aeltere Regressionstests, laufen auch eigenstaendig (Exit 0 = gruen):
+- Renamed knowledge documents keep their former file name under `aliases:`. `build_knowledge()` redirects old links through it.
 
-```bash
-python pipeline/test_marker_enrich.py        # Marker-Konverter (Fail-safe + Wohlgeformtheit)
-python pipeline/test_canonical_collection.py # Dedup: TEI-kanonische Sammlungszuordnung
-python pipeline/test_export_tei.py           # jsround + build_tei Wohlgeformtheit/Notes
-python pipeline/test_quality_signals.py      # Signalschwellen inkl. Umschlag-Ausnahme
-python pipeline/test_unit_derivation.py      # Einheiten-Ableitung fuer die Briefbestaende
-```
+### Security
 
-## Umgebungsvariablen (.env)
-
-| Variable | Pflicht | Default | Beschreibung |
-|---|---|---|---|
-| `GOOGLE_API_KEY` | Ja | — | Gemini API Key |
-| `HTR_MODEL` | Nein | `gemini-3.1-flash-lite-preview` | Modell-ID (Transkription) |
-| `HTR_LAYOUT_MODEL` | Nein | `gemini-3-flash-preview` | Modell-ID (Layout VLM-Merger) |
-| `SZD_BACKUP_ROOT` | Nein | `C:/Users/Chrisi/.../szd-backup/data` | Pfad zum lokalen Backup |
-| `HTR_BATCH_DELAY` | Nein | `2.0` | Sekunden zwischen API-Calls |
-
-## Output-Format (Ergebnis-JSON)
-
-Jedes Ergebnis in `results/{collection}/{object_id}_{model}.json`:
-
-```json
-{
-  "object_id": "o_szd.100",
-  "collection": "lebensdokumente",
-  "group": "typoskript",
-  "model": "gemini-3.1-flash-lite-preview",
-  "metadata": { "title": "...", "language": "...", "images": ["https://gams.uni-graz.at/..."] },
-  "context": "## Dieses Dokument\n- Titel: ...",
-  "result": {
-    "pages": [
-      {"page": 1, "transcription": "...", "notes": "...", "type": "content"},
-      {"page": 2, "transcription": "", "notes": "Rueckseite, leer.", "type": "blank"}
-    ],
-    "confidence": "high | medium | low"
-  },
-  "quality_signals": { "version": "1.4", "needs_review": false, "..." : "..." },
-  "review": { "status": "approved | agent_verified", "..." : "..." }
-}
-```
-
-- `page.type`: `content` / `blank` / `color_chart` — gesetzt von `quality_signals.py`, Schema in `schemas/page-json-v0.2.json`
-- `quality_signals`: 7 Signale (v1.6, Umschlagseiten von der Laengen-Anomalie ausgenommen) plus `transcription_status` complete/partial/failed (v1.7, bisher nur auf den betroffenen Objekten berechnet), Details in `quality_signals.py` und `verification-concept.md` §2
-- `review`: Optional, geschrieben von `serve.py` (API), `import_reviews.py` (CLI) oder Agent-Verifikation
-
-## Ausgabeformate
-
-Zwei komplementaere Formate:
-
-- **Page-JSON v0.2** (`*_page.json`): Internes Arbeitsformat. OCR + Layout + deskriptive Metadaten (Dublin Core + Materialtypologie) in einer JSON-Datei. Koordinaten optional (progressive Anreicherung). Schema: `schemas/page-json-v0.2.json`. Export: `pipeline/export_page_json.py`.
-- **METS/MODS + PAGE XML**: Archiv- und Austauschformat (Zielformat). METS-Container mit MODS-Metadaten (deskriptiv, GND-verknuepft) und PAGE XML 2019 pro Seite (Text + Layout). Kompatibel mit GAMS, Transkribus, eScriptorium, teiCrafter. Export: `pipeline/export_pagexml.py` (PAGE XML), METS/MODS-Export geplant.
-
-## Technische Entscheidungen
-
-- **Gemini 3.1 Flash Lite** als primaeres VLM (guenstig, schnell, multimodal).
-- **Kein Preprocessing** — Bilder gehen unveraendert an die API.
-- **Alle Bilder an die API** — auch Leerseiten, weil Stefan Zweigs Schreibpraxis unregelmaessig ist. Seitentyp-Klassifikation erfolgt post-hoc, nicht als Pre-Filter.
-- **Quality Signals statt naiver Konfidenz** — VLM-Selbsteinschaetzung diskriminiert nicht (empirisch validiert). Signal-Precision: page_length 100%, page_image 100%, language 50%.
-- **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfuegung.
-- **Bilder direkt von GAMS** im Viewer — kein lokaler Image-Store im Repo, GAMS-URLs als `<img src>`.
-- **Modellkonsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell.
-- **Zwei Ausgabeformate** — Page-JSON (intern, Arbeitsformat, Viewer) + METS/MODS/PAGE XML (extern, Archiv, Austausch). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet.
-
-## Verwandte Projekte
-
-Methodische Referenzen — dort nach Patterns suchen, wenn die Pipeline erweitert wird:
-
-- **[zbz-ocr-tei](https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei)**: LLM-OCR für gedruckte Texte, Batch-Verarbeitung, Qualitätsscreening
-- **[coOCR HTR](https://github.com/DigitalHumanitiesCraft/co-ocr-htr)**: Browser-HTR mit VLM + Expert-in-the-Loop-Validierung
-- **[teiCrafter](https://github.com/DigitalHumanitiesCraft/teiCrafter)**: TEI-Annotation als nachgelagerte Pipeline-Stufe (separates Repo)
+- Never read or print `.env`. Secrets live only in environment variables. `.env` is gitignored and has never been in the Git history.

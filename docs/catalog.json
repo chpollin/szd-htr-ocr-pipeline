@@ -33561,11 +33561,11 @@
       "pageCount": 4,
       "thumbnail": "https://gams.uni-graz.at/o:szd.3256/THUMBNAIL",
       "verification": {
-        "uncertainCount": 0,
+        "uncertainCount": 3,
         "illegibleCount": 0,
-        "totalChars": 2452,
+        "totalChars": 2455,
         "emptyPages": 1,
-        "avgCharsPerPage": 817,
+        "avgCharsPerPage": 818,
         "vlmConfidence": "high"
       },
       "needsReview": false,
@@ -33575,7 +33575,7 @@
       "dwrScore": 0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": "agent_verified",
+      "reviewStatus": "approved",
       "hasLayout": false,
       "hasGT": false
     },

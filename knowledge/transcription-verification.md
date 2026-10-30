@@ -1,6 +1,6 @@
 ---
 title: "Verifikationskonzept"
-aliases: ["Verifikationskonzept"]
+aliases: [verification-concept, evaluation-results, "Verifikationskonzept", "CER-Baseline"]
 project:
   name: "SZD OCR/HTR Pipeline"
   repository: "https://github.com/chpollin/szd-htr-ocr-pipeline"
@@ -14,15 +14,14 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
 status: active
 created: 2026-04-01
-updated: 2026-08-21
+updated: 2026-10-28
 authors: [Christopher Pollin]
 type: concept
 related:
-  - "[[annotation-protocol]]"
-  - "[[evaluation-results]]"
-  - "[[data-overview]]"
-  - "[[layout-analysis]]"
-  - "[[editorial-model]]"
+  - "[[transcription-guidelines]]"
+  - "[[data]]"
+  - "[[layout-analysis-architecture]]"
+  - "[[editorial-methodology]]"
 ---
 
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline
@@ -72,7 +71,7 @@ Ein verifiziertes Referenz-Sample dient zwei Zwecken:
 - **Fehlertypologie**: Welche Fehler macht die Pipeline? (Zeichenverwechslungen, Auslassungen, Halluzinationen, Strukturfehler)
 - **Metrische Basislinie**: Wie hoch ist die Fehlerrate, aufgeschluesselt nach Gruppe, Sprache und Schwierigkeitsgrad?
 
-Ohne Basislinie sind Optimierungen (Prompt-Tuning, Bildgroesse) nicht messbar. **Heute gilt:** Als Ground Truth zaehlen menschlich gepruefte Texte (Status Mensch-geprueft); die CER-Baseline steht in [[evaluation-results]].
+Ohne Basislinie sind Optimierungen (Prompt-Tuning, Bildgroesse) nicht messbar. **Heute gilt:** Als Ground Truth zaehlen menschlich gepruefte Texte (Status Mensch-geprueft); die CER-Baseline steht in `reports/cer-baseline-report-2026-04-02.md`.
 
 ### 1.2 Sample-Design (historische Planung)
 
@@ -122,7 +121,7 @@ Markup (`[?]`, `[...]`, `~~...~~`, `{...}`) wird fuer die Basis-CER entfernt, fu
 | **15–30%** | Problematisch | Prompt-Ueberarbeitung, Batch nur mit manuellem Review |
 | **> 30%** | Unbrauchbar | Anderes Modell, Preprocessing oder Gruppe ausschliessen |
 
-**Empirische Validierung (Session 18–20):** An 62 verifizierten Objekten (18 human-approved, 44 agent-verified) liegen alle 9 Gruppen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → [[evaluation-results]].
+**Empirische Validierung (Session 18–20):** An 62 verifizierten Objekten (18 human-approved, 44 agent-verified) liegen alle 9 Gruppen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → `reports/cer-baseline-report-2026-04-02.md`.
 
 ---
 
@@ -187,7 +186,9 @@ CRO25 und DIE25: Auf modernen Handschriften schlagen VLMs Transkribus (1.7% vs. 
 - **RCO26:** Accept/Abstain-Framework — Cross-View-Stabilitaet als auditierbarer Deployment-Vertrag.
 - **BEY26:** Unsupervised Evaluation fuer historische Digitalisate (Semantic Coherence, Region Entropy Divergence, Textual Redundancy).
 
-**Implikation:** Der 3-Modell-Konsensus (Flash Lite + Flash + Judge) ist wissenschaftlich fundiert: Bei hohem Agreement kann die Transkription als automatisch generiertes GT akzeptiert werden (Ensemble Agreement Error Rate ~2–6% laut LLM-Generated-GT-Literatur); Divergenz-Faelle gehen in den manuellen Review. Das reduziert den manuellen GT-Aufwand drastisch. Diese Behauptung wurde am eigenen Corpus validiert (§7.1).
+**Implikation (Stand 2026-10-28):** Die Literatur stuetzt Multi-VLM-Konsensus als Triage-Signal, das Divergenz-Faelle in den manuellen Review lenkt. Hohes Agreement zeigt, dass die Modelle konsistent lesen. Ob sie richtig lesen, zeigt es nicht, weil Modelle denselben Fehler teilen koennen (§2.4, §4.2). Das Projekt fuehrt Modellkonsensus deshalb als selektives Diagnosewerkzeug. Er setzt keine Vertrauensstufe, und das Statistik-Dashboard zeigt ihn seit Session 23 (2026-04-03) nicht mehr ([[journal]]). Die GT-Pipeline (§7.1) liefert Entwuerfe fuer die menschliche Pruefung, keine Ground Truth.
+
+Fruehere Fassung (April 2026). Hier stand, dass eine Transkription bei hohem Agreement als automatisch generiertes GT akzeptiert werden koenne (Ensemble Agreement Error Rate ~2–6 % laut LLM-Generated-GT-Literatur) und dass diese Behauptung am eigenen Korpus validiert sei. Eine solche Validierung gegen menschlich gepruefte Texte hat nicht stattgefunden. §7.1 misst die Uebereinstimmung der drei Modelle untereinander, und das Expert-Review der GT-Entwuerfe ist unvollstaendig ([[plan]], Phase 4a).
 
 ### 7.1 Empirische Umsetzung: GT-Pipeline (Session 14)
 
@@ -340,7 +341,7 @@ Die urspruenglichen Frontend-Anforderungen sind umgesetzt und vom Drei-Status-Mo
 
 ## 7. Modellkonsensus (LLM-as-Judge)
 
-> **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles (Gemini Flash Lite + Gemini 3 Flash). Uebereinstimmung wird zeichenweise (CER) und wortweise (Jaccard Word Overlap) gemessen und 4-stufig klassifiziert (§4.3): `consensus_verified` / `consensus_moderate` / `consensus_review` / `consensus_divergent`. Wo die Modelle uebereinstimmen, ist die Transkription mit hoher Wahrscheinlichkeit korrekt; Divergenz markiert automatisch Stellen fuer menschliche Pruefung.
+> **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles (Gemini Flash Lite + Gemini 3 Flash). Uebereinstimmung wird zeichenweise (CER) und wortweise (Jaccard Word Overlap) gemessen und 4-stufig klassifiziert (§4.3): `consensus_verified` / `consensus_moderate` / `consensus_review` / `consensus_divergent`. Uebereinstimmung belegt Konsistenz zwischen den Modellen und keine Korrektheit (§2.4); Divergenz markiert automatisch Stellen fuer menschliche Pruefung. Bis 2026-10-28 stand hier, dass die Transkription bei Uebereinstimmung mit hoher Wahrscheinlichkeit korrekt sei.
 
 ### 7.1 Architektur
 
@@ -377,7 +378,7 @@ Die Validierung (27 Objekte, §4.3) und die GT-Pipeline (18 Objekte, §7.1 im Fo
 
 ## 8. Agent-Verifikation (agent_verified)
 
-*Implementiert in Session 18 (2026-04-02). Empirische Ergebnisse → [[evaluation-results]].*
+*Implementiert in Session 18 (2026-04-02). Empirische Ergebnisse → `reports/cer-baseline-report-2026-04-02.md`.*
 
 ### 8.1 Motivation
 
@@ -413,7 +414,7 @@ Parallelisierung: bis zu 4 Sub-Agents gleichzeitig (je 2 Objekte); ein Batch von
 
 ### 8.4 Empirische Ergebnisse
 
-Bis Session 20: **44 Objekte** agent-verifiziert in 7 Batches — 22 fehlerfrei (97–100%), 18 mit 1–5 Fehlern (95–99.9%), 4 mit schweren Problemen (75–93%, Truncation oder tabellarisch). Hauptfehlertypen: Fraktur f/s + Nonsens-Halluzination, Kurrent-Verwechslungen, fremdsprachliche Vokale, Truncation bei grossen Objekten. Details → [[evaluation-results]].
+Bis Session 20: **44 Objekte** agent-verifiziert in 7 Batches — 22 fehlerfrei (97–100%), 18 mit 1–5 Fehlern (95–99.9%), 4 mit schweren Problemen (75–93%, Truncation oder tabellarisch). Hauptfehlertypen: Fraktur f/s + Nonsens-Halluzination, Kurrent-Verwechslungen, fremdsprachliche Vokale, Truncation bei grossen Objekten. Details → `reports/cer-baseline-report-2026-04-02.md`.
 
 ### 8.5 Edit-Tracking (ab Session 20)
 
@@ -434,10 +435,95 @@ Retroaktive Migration: `backfill_edit_history.py`. Frontend: `renderEditDiffView
 
 ## Stand und offene Punkte (2026-06-10)
 
-**Umgesetzt:** quality_signals v1.5 (kalibriert, drei aktive Review-Kriterien), Modellkonsensus-Validierung (27 Objekte), 3-Modell-GT-Pipeline (18 Objekte), Agent-Verifikation (44+ Objekte), Drei-Status-Review-Modell mit Edit-Tracking, Viewer-Integration. CER-Baseline ueber alle 9 Gruppen: <5% (Druck) bis ~10% (schwierige Handschrift/Tabellen) → [[evaluation-results]].
+**Umgesetzt:** quality_signals v1.5 (kalibriert, drei aktive Review-Kriterien), Modellkonsensus-Validierung (27 Objekte), 3-Modell-GT-Pipeline (18 Objekte), Agent-Verifikation (44+ Objekte), Drei-Status-Review-Modell mit Edit-Tracking, Viewer-Integration. CER-Baseline ueber alle 9 Gruppen: <5% (Druck) bis ~10% (schwierige Handschrift/Tabellen) → `reports/cer-baseline-report-2026-04-02.md`.
 
 **Offen:**
 - Prompt-Wirksamkeits-Experiment (§3) — billig, nie ausgefuehrt
 - `duplicate_pages`-False-Positive bei Color-Chart-Doppelfotografie
 - Entscheidung, ob Doppeltranskription (Modellkonsensus) fuer weitere Bestandsteile gefahren wird
 - Pseudo-Perplexity als Eskalationsstufe, falls Triage-Signale nicht mehr ausreichen
+
+---
+
+## 9. Fehlertypologie
+
+Erhoben in der CER-Baseline vom 2. April 2026 (`reports/cer-baseline-report-2026-04-02.md`, dort §4) an verifizierten Objekten aller neun Prompt-Gruppen. Die Typen gelten weiter als Prüfraster für Review und Agent-Verifikation; Häufigkeiten beziehen sich auf jene Stichprobe.
+
+### 9.1 Fraktur-spezifische Fehler (Schweregrad: hoch)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Langes s → f | selbst**f**eligen | selbst**s**eligen | o_szd.2213 |
+| ft ↔ st | gerei**st**e | gerei**ft**e | o_szd.2213 |
+| Fraktur a → Punkt | s**.g**en | s**ag**en | o_szd.2296 |
+| Wortfragment halluziniert | Mitge**brine** | Mitbr**ingsel** | o_szd.2217 |
+| Eigenname falsch | **Hayel** | **Hayek** | o_szd.2217 |
+| Werktitel halluziniert | Demokratie **Lista** | Democratic **Vistas** | o_szd.2217 |
+| D/W-Verwechslung | **Denn** sie wirklich | **Wenn** sie wirklich | o_szd.2249 |
+| Fehlende Silbe | auf**hetzter** | auf**gehetzter** | o_szd.2249 |
+
+**Ursache**: Gemini Flash Lite verwechselt visuell aehnliche Fraktur-Glyphen (ſ/f; ft/st-Ligaturen nahezu identisch). Bei Eigennamen und fremdsprachigen Werktiteln fehlt Kontextwissen. **Haeufigkeit**: ~28 Fehler in ~14.000 Fraktur-Zeichen (~0.2%).
+
+### 9.2 Kurrent-Buchstabenverwechslungen (Schweregrad: hoch)
+
+*Session 19 — 8 Korrespondenzen an Max Fleischer (~1901-1902), alle Kurrent.*
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| h ↔ I | muß ich jetzt **Ihre** schließen | muß ich jetzt **hier** schließen | o_szd.1079 |
+| St ↔ H | **Hud. inr.** | **Stud. iur.** | o_szd.1081 |
+| r ↔ v | gracioesa **devin** | gracioesa **darin** | o_szd.1081 |
+| L ↔ B | **Besten** Gruss | **Liebsten** Gruss | o_szd.1100 |
+| Nonsens | **Langentour Kantgewalt** | **Laufenden** | o_szd.1090 |
+
+**Ursache**: Kurrent-Minuskeln weichen systematisch von Antiqua ab; Gemini (primaer auf Antiqua trainiert) erkennt die Unterschiede nicht zuverlaessig. Besonders betroffen: hastige Schrift auf kleinen Postkarten, rote Tinte auf Bildhintergrund. **Haeufigkeit**: 33 Fehler in 8 Objekten (~4/Objekt); Spread 90% (hastig) bis 99.7% (sauber). Groesster Einflussfaktor ist die Schriftqualitaet des Originals, nicht der Prompt.
+
+**Besonders problematisch: Nonsens-Halluzination.** Bei unleserlichem Kurrent erfindet Gemini echte Woerter statt `[?]` zu setzen. Das macht `marker_density` als Quality-Signal **wertlos** — das Modell signalisiert Unsicherheit nicht (Konsequenz: in v1.5 aus `needs_review` entfernt).
+
+### 9.3 Halluziniertes "An" auf Adressseiten (Schweregrad: niedrig)
+
+In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressaten auf Postkarten-Adressseiten. **Fix**: Hinweis im Gruppen-Prompt I oder Post-Processing-Regel.
+
+### 9.4 Grossschreibung (Schweregrad: niedrig)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Eigenname | zweig | Zweig | o_szd.127 (3x) |
+| Buchtitel | silberne Saiten | Silberne Saiten | o_szd.2296 |
+| Substantiv | hingabe | Hingabe | o_szd.2213 |
+
+VLM normalisiert gelegentlich Grossschreibung weg, besonders bei Handschrift und Fraktur.
+
+### 9.5 Fehlende Woerter/Zeichen (Schweregrad: mittel)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Fehlendes Wort | bloß angefuehlt | **nicht** bloß angefuehlt | o_szd.1888 |
+| Wortgrenze | erhoben — Hand — | erhoben**e Hand** — | o_szd.1888 |
+| Fehlende Anfuehrung | ADEPTS IN SELF | **"**ADEPTS IN SELF | o_szd.102 |
+
+### 9.6 Fremdsprachliche Fehler (Schweregrad: mittel)
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| Ital. Vokal | **titole** | **titolo** | o_szd.91 |
+| Fehlende Silbe | **conten-te** | **contenen-te** | o_szd.91 |
+| Ital. Vokal | **tiretura** | **tiratura** | o_szd.91 |
+| Ortsname | **Komotan** | **Komotau** | o_szd.1106 |
+| Datum | 30. Juli **1934** | 20. Juli **1934** | o_szd.1383 |
+
+Bei fremdsprachigen Dokumenten fehlt teils Kontextwissen fuer Vokale und Ortsnamen; betrifft v.a. Kohlekopie-Typoskripte (schwacher Kontrast) und seltene Eigennamen.
+
+### 9.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch, behoben)
+
+*Entdeckt in Session 20, Root Cause und Fix in Phase A.*
+
+**Root Cause**: `run_sample_batch.py` hatte `--max-images` mit Default 5; das initiale Sample kappte alle Objekte auf 5 Bilder, und `transcribe.py --all` uebersprang sie spaeter (skip-if-exists). Das Chunking war **nicht** der Fehler. `diagnose_truncation.py` fand 97 betroffene Objekte: 24 `max5_truncated`, 18 `vlm_mismatch` (VLM lieferte weniger Seiten), 26 `zero_pages` (API-Fehler). **Fix**: Default auf 0 (kein Limit); `transcribe.py` speichert `metadata.input_image_count_total` zur Erkennung; Re-Transkription mit `--force --chunk-size 20`.
+
+### 9.8 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
+
+| Fehler | Beschreibung | Objekt |
+|---|---|---|
+| Betraege falscher Zeile zugeordnet | ffr 10.340 auf Aug-Zeile statt Okt-Zeile | o_szd.1475 |
+
+VLMs linearisieren Tabellen von oben nach unten; bei rechtsbuendigen Betraegen und linksbuendigen Beschreibungen verrutscht die Zuordnung. Schwerwiegendster systematischer Fehler im Korpus.

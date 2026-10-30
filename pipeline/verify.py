@@ -9,7 +9,7 @@ wortweise (Jaccard Word Overlap) gemessen.
 - Optional Judge: Claude (manuell, nicht in diesem Skript)
 
 Basiert auf Zhang et al. 2025 (Consensus Entropy, ICLR 2026).
-Siehe knowledge/verification-concept.md §7.
+Siehe knowledge/transcription-verification.md §7.
 """
 
 import argparse
