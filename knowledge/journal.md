@@ -15,7 +15,7 @@ template:
 status: active
 language: de
 created: 2026-03-30
-updated: 2026-10-28
+updated: 2026-10-30
 authors: [Christopher Pollin]
 related:
   - "[[plan]]"
@@ -27,6 +27,15 @@ related:
 # Journal
 
 ## Einträge
+
+### 2026-10-30 CER aus Korrekturen nach Quelle getrennt
+
+- Anlass: Audit vom 2026-10-30 zur Herkunft der Korpus-CER von 0,962 Prozent und zur Zahl menschlich geprüfter Objekte.
+- Befund: `pipeline/report_cer_from_edits.py` nahm jede Seite mit `transcription_llm` auf, unabhängig von der Korrekturquelle. Alle 56 Seiten hinter dem Wert stammten aus agentischen Korrekturen (`agent_verified`). [[governance]] §4 nannte 21 mensch-geprüfte Objekte, `docs/catalog.json` weist 52 aus, im Stand vom 2026-08-07 bereits 44.
+- Entschieden: Die CER aus Korrekturen wird je Quelle aus `edit_history.source` berichtet (human, agent, mixed, unknown) und nie zusammengelegt. `PAPER.md` und `PAPER-FINDINGS.md` bleiben nach `CLAUDE.md` eingefroren, die Korrektur steht als Hinweis in `paper/README.md`.
+- Korrigiert: Neulauf 2026-10-30 ergibt 0,948 Prozent für agentisch korrigierte Seiten (56 Seiten, 40 Objekte) und 11,875 Prozent für menschlich korrigierte Seiten (34 Seiten, 23 Objekte). Die Bezeichnung „menschliche Korrekturen“ für den Agentenwert ist in `reports/cer-baseline-report-2026-04-02.md` berichtigt, die Objektzahl in [[governance]] verweist auf den Katalog als Quelle.
+- Geändert: `pipeline/report_cer_from_edits.py`, `tests/test_cer_from_edits.py`, `reports/cer-from-edits.md`, `reports/cer-baseline-report-2026-04-02.md`, [[governance]], `paper/README.md`.
+- Belege: `python pipeline/report_cer_from_edits.py`, `tests/test_cer_from_edits.py`
 
 ### 2026-10-28 verdichtet Journal
 

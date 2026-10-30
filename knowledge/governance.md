@@ -9,7 +9,7 @@ method:
   url: "https://dhcraft.org/Promptotyping/"
 status: active
 created: 2026-08-07
-updated: 2026-10-28
+updated: 2026-10-30
 type: concept
 related:
   - "[[transcription-verification]]"
@@ -79,7 +79,7 @@ Ablesbar: Die technische Kompetenz sitzt fast vollstaendig **vor** der Transkrip
 
 **[C]** Drei Auszaehlungen vom 2026-08-07, alle offline nachrechenbar:
 
-**Der Flaschenhals ist real.** Von 2.452 Katalogobjekten sind 21 mensch-geprueft (`approved`), 85 agent-geprueft, 2.346 ohne jeden Review. Die Triage-Liste (`needs_review` und noch ungeprueft) umfasst 312 Objekte.
+**Der Flaschenhals ist real.** Der weitaus groesste Teil der Katalogobjekte ist ohne jeden Review, ein kleiner Teil agent-geprueft und ein noch kleinerer mensch-geprueft (`approved`). Quelle der Zahlen ist `docs/catalog.json`, auszuzaehlen mit dem Befehl unten. Am 2026-10-30 ergab er bei 2.452 Objekten 52 mensch-geprueft, 85 agent-geprueft und 2.315 ohne Review, die Triage-Liste (`needs_review` und noch ungeprueft) umfasste 298 Objekte. Die urspruengliche Fassung dieses Absatzes nannte 21 mensch-gepruefte Objekte; der Katalog im Commit `eccb8dc` vom 2026-08-07 weist bereits 44 aus, die Zahl war also schon damals falsch.
 
 ```bash
 python -c "import json,collections; o=json.load(open('docs/catalog.json',encoding='utf-8'))['objects']; print(collections.Counter(x.get('reviewStatus') or '-' for x in o))"

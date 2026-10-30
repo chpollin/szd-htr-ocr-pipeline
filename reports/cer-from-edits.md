@@ -1,64 +1,100 @@
-# CER aus menschlichen Korrekturen
+# CER aus Korrekturen, getrennt nach Korrekturquelle
 
-- Editierte Seiten: 56 (40 Objekte, 114,000 Zeichen Referenz)
-- Korpus-CER (zeichengewichtet): **0.962%**
-- Mensch-geprueft ohne Edits (per Konvention fehlerfrei, nicht eingerechnet): 16 Objekte
+Erzeugt mit `python pipeline/report_cer_from_edits.py`. Gruppiert nach dem Feld `source` in `edit_history`. Die Gruppen werden nicht zusammengelegt, weil nur menschliche Korrekturen als Referenz gegen menschlich geprüfte Texte gelten.
 
-| Objekt | Sammlung | Seite | CER | Zeichen |
-|---|---|---|---|---|
-| o_szd.1090 | korrespondenzen | 2 | 89.07% | 430 |
-| o_szd.1090 | korrespondenzen | 1 | 34.25% | 73 |
-| o_szd.1093 | korrespondenzen | 1 | 25.93% | 162 |
-| o_szd.2305 | aufsatzablage | 1 | 21.74% | 69 |
-| o_szd.2305 | aufsatzablage | 3 | 21.74% | 69 |
-| o_szd.1100 | korrespondenzen | 2 | 9.04% | 166 |
-| o_szd.1093 | korrespondenzen | 2 | 8.82% | 726 |
-| o_szd.1081 | korrespondenzen | 1 | 6.12% | 49 |
-| o_szd.1088 | korrespondenzen | 2 | 6.12% | 98 |
-| o_szd.1088 | korrespondenzen | 1 | 5.31% | 113 |
-| o_szd.139 | lebensdokumente | 1 | 4.29% | 210 |
-| o_szd.2232 | aufsatzablage | 1 | 3.92% | 4718 |
-| o_szd.1089 | korrespondenzen | 2 | 2.38% | 252 |
-| o_szd.1173 | korrespondenzen | 1 | 1.68% | 477 |
-| o_szd.1150 | korrespondenzen | 2 | 1.67% | 180 |
-| o_szd.1094 | korrespondenzen | 2 | 1.65% | 486 |
-| o_szd.1081 | korrespondenzen | 2 | 1.61% | 186 |
-| o_szd.1106 | korrespondenzen | 1 | 1.47% | 68 |
-| o_szd.2217 | aufsatzablage | 1 | 1.34% | 6097 |
-| o_szd.1080 | korrespondenzen | 2 | 1.29% | 387 |
-| o_szd.1097 | korrespondenzen | 2 | 1.14% | 175 |
-| o_szd.1079 | korrespondenzen | 4 | 1.12% | 356 |
-| o_szd.2326 | aufsatzablage | 5 | 1.10% | 91 |
-| o_szd.2296 | aufsatzablage | 3 | 1.03% | 97 |
-| o_szd.1161 | korrespondenzen | 2 | 0.90% | 335 |
-| o_szd.1173 | korrespondenzen | 2 | 0.72% | 419 |
-| o_szd.2322 | aufsatzablage | 3 | 0.67% | 595 |
-| o_szd.1102 | korrespondenzen | 1 | 0.64% | 156 |
-| o_szd.2326 | aufsatzablage | 1 | 0.60% | 168 |
-| o_szd.150 | lebensdokumente | 1 | 0.58% | 172 |
-| o_szd.1171 | korrespondenzen | 2 | 0.52% | 581 |
-| o_szd.2226 | aufsatzablage | 1 | 0.48% | 15374 |
-| o_szd.2220 | aufsatzablage | 2 | 0.44% | 906 |
-| o_szd.1441 | korrespondenzen | 1 | 0.39% | 772 |
-| o_szd.2222 | aufsatzablage | 3 | 0.38% | 6509 |
-| o_szd.1079 | korrespondenzen | 3 | 0.36% | 1653 |
-| o_szd.2213 | aufsatzablage | 2 | 0.30% | 2371 |
-| o_szd.2215 | aufsatzablage | 1 | 0.29% | 1021 |
-| o_szd.160 | lebensdokumente | 1 | 0.29% | 1372 |
-| o_szd.1382 | korrespondenzen | 1 | 0.23% | 442 |
-| o_szd.91 | lebensdokumente | 1 | 0.22% | 1824 |
-| o_szd.1383 | korrespondenzen | 1 | 0.21% | 468 |
-| o_szd.2224 | aufsatzablage | 1 | 0.20% | 1524 |
-| o_szd.2264 | aufsatzablage | 1 | 0.19% | 6808 |
-| o_szd.182 | lebensdokumente | 1 | 0.12% | 1631 |
-| o_szd.2222 | aufsatzablage | 4 | 0.11% | 7252 |
-| o_szd.2220 | aufsatzablage | 1 | 0.10% | 5750 |
-| o_szd.2222 | aufsatzablage | 1 | 0.09% | 3264 |
-| o_szd.2226 | aufsatzablage | 2 | 0.07% | 16310 |
-| o_szd.2249 | aufsatzablage | 1 | 0.07% | 5525 |
-| o_szd.2296 | aufsatzablage | 1 | 0.06% | 1545 |
-| o_szd.1263 | korrespondenzen | 1 | 0.06% | 1556 |
-| o_szd.2213 | aufsatzablage | 3 | 0.05% | 1928 |
-| o_szd.102 | lebensdokumente | 1 | 0.05% | 2189 |
-| o_szd.2232 | aufsatzablage | 2 | 0.04% | 2703 |
-| o_szd.2222 | aufsatzablage | 2 | 0.02% | 5142 |
+- Menschliche Korrekturen: 34 Seiten (23 Objekte, 22,888 Zeichen Referenz), Korpus-CER (zeichengewichtet) **11.875%**
+- Agentische Korrekturen: 56 Seiten (40 Objekte, 114,874 Zeichen Referenz), Korpus-CER (zeichengewichtet) **0.948%**
+- Mensch-geprüft ohne Edits (per Konvention fehlerfrei, nicht eingerechnet): 27 Objekte
+
+| Objekt | Sammlung | Seite | Quelle | Review-Status | CER | Zeichen |
+|---|---|---|---|---|---|---|
+| o_szd.1639 | korrespondenzen | 2 | human | approved | 100.00% | 53 |
+| o_szd.1648 | korrespondenzen | 2 | human | approved | 100.00% | 52 |
+| o_szd.1649 | korrespondenzen | 2 | human | approved | 100.00% | 52 |
+| o_szd.1268 | korrespondenzen | 6 | human | approved | 59.57% | 94 |
+| o_szd.1432 | korrespondenzen | 1 | human | approved | 58.02% | 524 |
+| o_szd.378 | korrespondenzen | 2 | human | approved | 50.64% | 314 |
+| o_szd.1646 | korrespondenzen | 1 | human | approved | 36.57% | 2439 |
+| o_szd.2342 | aufsatzablage | 1 | human | approved | 27.43% | 1553 |
+| o_szd.1620 | korrespondenzen | 2 | human | approved | 26.06% | 142 |
+| o_szd.1676 | korrespondenzen | 2 | human | approved | 23.70% | 405 |
+| o_szd.389 | korrespondenzen | 2 | human | approved | 16.56% | 326 |
+| o_szd.1083 | korrespondenzen | 2 | human | approved | 12.75% | 345 |
+| o_szd.1643 | korrespondenzen | 2 | human | approved | 11.02% | 490 |
+| o_szd.1188 | korrespondenzen | 2 | human | approved | 9.85% | 274 |
+| o_szd.1641 | korrespondenzen | 2 | human | approved | 8.40% | 726 |
+| o_szd.1620 | korrespondenzen | 1 | human | approved | 7.74% | 452 |
+| o_szd.1641 | korrespondenzen | 1 | human | approved | 7.12% | 800 |
+| o_szd.316 | werke | 21 | human | approved | 5.37% | 242 |
+| o_szd.1647 | korrespondenzen | 1 | human | approved | 4.91% | 1529 |
+| o_szd.139 | lebensdokumente | 1 | human | approved | 4.29% | 210 |
+| o_szd.1690 | korrespondenzen | 2 | human | approved | 3.30% | 727 |
+| o_szd.2846 | aufsatzablage | 1 | human | approved | 2.70% | 1038 |
+| o_szd.1639 | korrespondenzen | 1 | human | approved | 2.38% | 631 |
+| o_szd.1650 | korrespondenzen | 1 | human | approved | 2.12% | 1930 |
+| o_szd.1644 | korrespondenzen | 2 | human | approved | 1.86% | 215 |
+| o_szd.316 | werke | 3 | human | approved | 1.53% | 327 |
+| o_szd.316 | werke | 32 | human | approved | 1.04% | 770 |
+| o_szd.316 | werke | 5 | human | approved | 1.00% | 1696 |
+| o_szd.1268 | korrespondenzen | 1 | human | approved | 0.98% | 407 |
+| o_szd.1083 | korrespondenzen | 1 | human | approved | 0.72% | 415 |
+| o_szd.1270 | korrespondenzen | 2 | human | approved | 0.56% | 532 |
+| o_szd.316 | werke | 24 | human | approved | 0.39% | 1020 |
+| o_szd.1648 | korrespondenzen | 1 | human | approved | 0.34% | 1490 |
+| o_szd.1643 | korrespondenzen | 1 | human | approved | 0.15% | 668 |
+| o_szd.1090 | korrespondenzen | 2 | agent | agent_verified | 89.07% | 430 |
+| o_szd.1090 | korrespondenzen | 1 | agent | agent_verified | 34.25% | 73 |
+| o_szd.1093 | korrespondenzen | 1 | agent | agent_verified | 25.93% | 162 |
+| o_szd.2305 | aufsatzablage | 1 | agent | agent_verified | 21.74% | 69 |
+| o_szd.2305 | aufsatzablage | 3 | agent | agent_verified | 21.74% | 69 |
+| o_szd.1100 | korrespondenzen | 2 | agent | agent_verified | 9.04% | 166 |
+| o_szd.1093 | korrespondenzen | 2 | agent | agent_verified | 8.82% | 726 |
+| o_szd.1081 | korrespondenzen | 1 | agent | agent_verified | 6.12% | 49 |
+| o_szd.1088 | korrespondenzen | 2 | agent | agent_verified | 6.12% | 98 |
+| o_szd.1088 | korrespondenzen | 1 | agent | agent_verified | 5.31% | 113 |
+| o_szd.2232 | aufsatzablage | 1 | agent | agent_verified | 3.92% | 4718 |
+| o_szd.1089 | korrespondenzen | 2 | agent | agent_verified | 2.38% | 252 |
+| o_szd.1173 | korrespondenzen | 1 | agent | agent_verified | 1.68% | 477 |
+| o_szd.1150 | korrespondenzen | 2 | agent | agent_verified | 1.67% | 180 |
+| o_szd.1094 | korrespondenzen | 2 | agent | agent_verified | 1.65% | 486 |
+| o_szd.1081 | korrespondenzen | 2 | agent | agent_verified | 1.61% | 186 |
+| o_szd.1106 | korrespondenzen | 1 | agent | agent_verified | 1.47% | 68 |
+| o_szd.2217 | aufsatzablage | 1 | agent | agent_verified | 1.34% | 6097 |
+| o_szd.1080 | korrespondenzen | 2 | agent | agent_verified | 1.29% | 387 |
+| o_szd.1097 | korrespondenzen | 2 | agent | agent_verified | 1.14% | 175 |
+| o_szd.1079 | korrespondenzen | 4 | agent | agent_verified | 1.12% | 356 |
+| o_szd.2326 | aufsatzablage | 5 | agent | agent_verified | 1.10% | 91 |
+| o_szd.2296 | aufsatzablage | 3 | agent | agent_verified | 1.03% | 97 |
+| o_szd.1161 | korrespondenzen | 2 | agent | agent_verified | 0.90% | 335 |
+| o_szd.1173 | korrespondenzen | 2 | agent | agent_verified | 0.72% | 419 |
+| o_szd.2322 | aufsatzablage | 3 | agent | agent_verified | 0.67% | 595 |
+| o_szd.1102 | korrespondenzen | 1 | agent | agent_verified | 0.64% | 156 |
+| o_szd.2326 | aufsatzablage | 1 | agent | agent_verified | 0.60% | 168 |
+| o_szd.150 | lebensdokumente | 1 | agent | agent_verified | 0.58% | 172 |
+| o_szd.1171 | korrespondenzen | 2 | agent | agent_verified | 0.52% | 581 |
+| o_szd.2226 | aufsatzablage | 1 | agent | agent_verified | 0.48% | 15374 |
+| o_szd.2220 | aufsatzablage | 2 | agent | agent_verified | 0.44% | 906 |
+| o_szd.1441 | korrespondenzen | 1 | agent | agent_verified | 0.39% | 772 |
+| o_szd.2222 | aufsatzablage | 3 | agent | agent_verified | 0.38% | 6509 |
+| o_szd.1079 | korrespondenzen | 3 | agent | agent_verified | 0.36% | 1653 |
+| o_szd.2213 | aufsatzablage | 2 | agent | agent_verified | 0.30% | 2371 |
+| o_szd.2215 | aufsatzablage | 1 | agent | agent_verified | 0.29% | 1021 |
+| o_szd.160 | lebensdokumente | 1 | agent | agent_verified | 0.29% | 1372 |
+| o_szd.1382 | korrespondenzen | 1 | agent | agent_verified | 0.23% | 442 |
+| o_szd.91 | lebensdokumente | 1 | agent | agent_verified | 0.22% | 1824 |
+| o_szd.1383 | korrespondenzen | 1 | agent | agent_verified | 0.21% | 468 |
+| o_szd.2224 | aufsatzablage | 1 | agent | agent_verified | 0.20% | 1524 |
+| o_szd.2264 | aufsatzablage | 1 | agent | agent_verified | 0.19% | 6808 |
+| o_szd.182 | lebensdokumente | 1 | agent | agent_verified | 0.12% | 1631 |
+| o_szd.2222 | aufsatzablage | 4 | agent | agent_verified | 0.11% | 7252 |
+| o_szd.2220 | aufsatzablage | 1 | agent | agent_verified | 0.10% | 5750 |
+| o_szd.3375 | autographen | 1 | agent | agent_verified | 0.09% | 1084 |
+| o_szd.2222 | aufsatzablage | 1 | agent | agent_verified | 0.09% | 3264 |
+| o_szd.2226 | aufsatzablage | 2 | agent | agent_verified | 0.07% | 16310 |
+| o_szd.2249 | aufsatzablage | 1 | agent | agent_verified | 0.07% | 5525 |
+| o_szd.2296 | aufsatzablage | 1 | agent | agent_verified | 0.06% | 1545 |
+| o_szd.1263 | korrespondenzen | 1 | agent | agent_verified | 0.06% | 1556 |
+| o_szd.2213 | aufsatzablage | 3 | agent | agent_verified | 0.05% | 1928 |
+| o_szd.102 | lebensdokumente | 1 | agent | agent_verified | 0.05% | 2189 |
+| o_szd.2232 | aufsatzablage | 2 | agent | agent_verified | 0.04% | 2703 |
+| o_szd.2222 | aufsatzablage | 2 | agent | agent_verified | 0.02% | 5142 |

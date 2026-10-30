@@ -32,9 +32,9 @@ Empirische Baseline, erhoben **Stand Session 20 (2. April 2026)**. Die Fehlertyp
 
 Seit Session 20 gilt **Edit-Tracking**: alle Korrekturen (Agent + Mensch) werden mit `edit_history` pro Seite gespeichert (Original + Korrektur + Quelle), im Frontend als Side-by-Side-Diff sichtbar.
 
-### Korrekturbasierte CER aus menschlichen Edits
+### Korrekturbasierte CER aus Edits
 
-Der neuere Bericht `reports/cer-from-edits.md` misst 56 editierte Seiten aus 40 Objekten mit 114.000 Referenzzeichen. Die zeichengewichtete Korpus-CER betraegt 0,962 Prozent. Weitere 16 menschlich gepruefte Objekte ohne Edits werden im Bericht separat als fehlerfrei nach Projektkonvention ausgewiesen und gehen nicht in den Nenner dieser Messung ein.
+Der neuere Bericht `reports/cer-from-edits.md` trennt die Seiten nach der Korrekturquelle in `edit_history`. Die bis 2026-10-30 hier genannte Korpus-CER von 0,962 Prozent ueber 56 Seiten aus 40 Objekten beruhte ausschliesslich auf agentischen Korrekturen (Status `agent_verified`) und war faelschlich als menschlich bezeichnet. Der Neulauf vom 2026-10-30 ergibt 0,948 Prozent fuer agentisch korrigierte Seiten (56 Seiten, 40 Objekte) und 11,875 Prozent fuer menschlich korrigierte Seiten (34 Seiten, 23 Objekte, Status `approved`). Weitere 27 menschlich gepruefte Objekte ohne Edits werden im Bericht separat als fehlerfrei nach Projektkonvention ausgewiesen und gehen nicht in den Nenner ein. Aktuelle Werte liefert ein Neulauf des Skripts.
 
 Diese CER ist eine Fortschrittsmessung am kuratierten Bestand. Die pruefende Person sieht die Modelltranskription vor dem Bild; plausible Fehllektuerungen koennen dadurch als Anker wirken und unentdeckt bleiben. Die Auswahl folgt editorischen Prioritaeten und ist keine Zufallsstichprobe. Eine zweite unabhaengige Lesung fehlt, weshalb keine Inter-Annotator-Uebereinstimmung vorliegt. Der Aggregatwert verdeckt zudem Unterschiede zwischen Haenden, Schriftarten und Sprachen.
 
