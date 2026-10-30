@@ -469,9 +469,120 @@ Aufsatzablage (laut `group_f_korrekturfahne.md`).
 
 ---
 
+## 7 — Umlaute und ß als Zeichensalat („Ã¶sterreichischen“) nach Agent-Verifikation
+
+Gemeldet von Julia Hintersteiner, 2026-10-30 · Status: **Daten repariert** (2026-10-30), Ursache im Agent-Workflow offen
+
+### Symptom
+
+Im Transkriptionstext stehen statt Umlauten und ß Zeichenpaare: `Ã¶` statt ö, `Ã¤` statt ä,
+`Ã¼` statt ü, `ÃŸ` statt ß, `â€ž`/`â€œ` statt „ “, `â€™` statt ’. Das Objekt war
+„Agent-geprüft“ mit geschätzter Genauigkeit 98 %.
+
+### Reproduktion
+
+**Anton Wildgans**, `o:szd.2224` (Zeitungsausschnitt, Aufsatzablage), alle drei Seiten, auch die
+Notizen → `http://localhost:8000/#view/o_szd.2224_gemini-3.1-flash-lite-preview/1`
+
+### Ursache
+
+Doppelte Kodierung: UTF-8-Text wurde als Windows-1252 gelesen und wieder als UTF-8 geschrieben.
+Das Modell war es nicht. Im Ergebnis vom 2026-04-02 vor der Agent-Verifikation
+(`0f5bc7a`) ist der Text sauber. Der Fehler kommt mit `bd532e8` („24 Agent-Verifikationen“).
+Der Agent hat dabei „An’on“ → „Anton“ korrigiert und in seiner Notiz sogar ein „encoding issue“
+erwähnt, den Zeichensalat im übrigen Text aber hineingeschrieben statt behoben. Später hat
+`backfill_transcription_llm.py` (`6d8a13d`) den verdorbenen Text als „unveränderlichen
+Roh-Output“ in `transcription_llm` übernommen.
+
+### Umfang
+
+Nur dieses Objekt (Suche nach `Ã[¤¶¼Ÿ]` und `â€[žœ™]` über `results/` und `docs/data/`;
+„SÃO PAULO“ in `o:szd.644` ist korrekt). Die anderen 23 Objekte aus `bd532e8` sind sauber.
+
+### Folgen
+
+- Text unbrauchbar für Suche, CER und Export, obwohl als Agent-geprüft geführt.
+- **Agent-Verifikation hat einen systematischen Fehler übersehen und selbst verursacht.** Das
+  passt zum Review-Modell: Agent-geprüft ersetzt keine menschliche Prüfung.
+- Kein Quality Signal schlägt an (Sprache bleibt Deutsch, Länge passt).
+
+### Reparatur (2026-10-30)
+
+Die manuelle Korrektur von Seite 1 durch Julia Hintersteiner bleibt erhalten. Nur die Folgen aus
+Nicht-ASCII-Zeichen, die sich als Doppelkodierung zurückübersetzen lassen
+(`cp1252` → `utf-8`), wurden ersetzt, in `transcription`, `notes` und `transcription_llm` sowie
+in `o_szd.2224_page.json`. `transcription_llm` ist danach wieder identisch mit dem Modell-Output
+aus `0f5bc7a`. `edit_history` bleibt unverändert und dokumentiert den verdorbenen Zwischenstand.
+
+### Vorschlag
+
+- Prüfung auf Zeichensalat (`Ã[\x80-\xbf]`, `â€`) als Quality Signal oder als Test über
+  `results/`, damit so etwas nicht wieder still durchrutscht.
+- Agent-Workflow, der Ergebnisse zurückschreibt, auf ausdrückliches `encoding="utf-8"` prüfen
+  (Windows-Default ist cp1252).
+
+---
+
+## 8 — Speichern aus einer veralteten Ansicht überschreibt den neueren Stand still
+
+Gemeldet von Julia Hintersteiner, 2026-10-30 · Status: offen
+
+### Symptom
+
+Eine Korrektur, die auf dem Server schon gespeichert ist, verschwindet wieder, sobald jemand eine
+Seite aus einem Browser-Tab speichert, der den alten Stand zeigt. Es gibt keine Warnung.
+
+### Reproduktion
+
+Am 2026-10-30 an `o:szd.2224` passiert: Der Zeichensalat aus Befund 7 wurde auf dem Server
+repariert, und `build_viewer_data.py` lief neu. Der Viewer war aber noch nicht neu geladen. Beim
+Speichern von Seite 1 und 2 um 08:48 UTC kamen „nÃ¤chsten“, „unverbrÃ¼chlich“ und „unwÃ¼rdigen“
+zurück in den Text und der vollständige Zeichensalat zurück in die **Notizen** beider Seiten.
+Zweimal von Hand nachrepariert.
+
+### Ursache
+
+- `saveCurrentEdit()` in `docs/app.js` (um Z. 1930) schickt den Inhalt des Textfelds und
+  `notes: origNotes`, also die Notizen aus den beim Laden geholten Viewer-Daten. Woher der Text
+  stammt und auf welchem Stand er beruht, wird nicht mitgeschickt.
+- `handle_edit()` in `pipeline/serve.py` (Z. 128 ff.) schreibt beides ohne Prüfung, ob die Datei
+  seit dem Laden geändert wurde. Eine Prüfung über Zeitstempel oder Prüfsumme fehlt.
+- Die Notizen werden ohne `edit_history` überschrieben. Ein Rückfall ist dort nicht
+  nachvollziehbar und fällt auch beim Prüfen der Historie nicht auf.
+- Der `fetch` endet in `.catch(() => {})` (Z. 1957, auch Z. 2751). Schlägt das Speichern fehl,
+  erfährt das niemand.
+
+Nebenbefund: `handle_edit()` setzt `review.edited_pages` auf die Seiten **dieser einen Anfrage**.
+Da der Viewer seitenweise speichert, steht dort am Ende nur die zuletzt gespeicherte Seite
+(`o:szd.2215`: `[1]`, obwohl Seite 2 heute auch bearbeitet wurde). Die vollständige Liste ergibt
+sich nur aus `edit_history`.
+
+### Umfang
+
+Alles, was auf dem Server geändert wird, während ein Viewer-Tab offen ist: Reparaturen per Skript,
+ein zweiter Tab, und künftig zwei Personen am selben Objekt (Lina/Oliver, Issue #2).
+
+### Folgen
+
+Korrekturen gehen still verloren. Weil die Datei danach als „Mensch-geprüft“ dasteht, sieht das
+niemand. Mit mehreren Bearbeitenden (Issue #2) wird das zur Regel statt zur Ausnahme.
+
+### Vorschlag
+
+- Beim Laden einen Stand pro Objekt mitgeben (z. B. `reviewed_at` oder Hash der Datei), beim
+  Speichern zurückschicken; `handle_edit()` lehnt bei Abweichung mit 409 ab, der Viewer meldet
+  „Objekt wurde inzwischen geändert, bitte neu laden“.
+- Notizen nur senden, wenn sie tatsächlich geändert wurden, und Änderungen an Notizen ebenfalls in
+  der Historie festhalten.
+- Fehler beim Speichern sichtbar machen statt verschlucken.
+- `edited_pages` vereinigen statt ersetzen.
+- Bis dahin beim Redigieren: nach jedem Neubau der Viewer-Daten **neu laden**, bevor man speichert.
+
+---
+
 <!-- Neue Befunde hier anhängen, Nummerierung fortlaufend.
 
-## 7 — <Kurztitel>
+## 9 — <Kurztitel>
 
 Gemeldet von <Name>, <Datum> · Status: offen
 

@@ -115,6 +115,15 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [ ] **Notation fuer Umstellungen und Setzer-Korrekturzeichen** (Review 2026-10-19) — Kringel mit
       Versetzungslinie wird zu einer `(` (`o:szd.2759`). Annotationsprotokoll §8 Nr. 7, danach
       Gruppe F und `marker_enrich.py` (`<transpose>`). Befund → Fehlersammlung, Befund 6
+- [ ] **Stellen zur Expertenrueckfrage markieren** (Review 2026-10-30) — Passagen in Zweigs
+      Handschrift, die beim Gegenlesen nicht lesbar sind, fuer Lina/Oliver flaggen; neben dem
+      Review-Status, nicht als eigener Status. Achtung: `handle_approve()`/`handle_edit()` ersetzen
+      `review` komplett, die Markierung braucht ein eigenes Feld. Beispiel `o:szd.2215`.
+      Vorschlag → `reports/issue-expertenrueckfrage.md` (Issue #2)
+- [ ] **Edit-Konflikte erkennen** (Review 2026-10-30) — Speichern aus einem veralteten Viewer-Tab
+      ueberschreibt den neueren Stand still, auch die Notizen (ohne Historie); Fehler werden
+      verschluckt, `edited_pages` wird ersetzt statt vereinigt. Vor Issue #2 (mehrere Bearbeitende)
+      loesen. Befund → Fehlersammlung, Befund 8
 
 ### 4b: Quality Signals & Batch
 - [x] `quality_signals` implementieren (v1.5: 7 Signale + page.type, DWR entfernt wegen rho=0.05)
