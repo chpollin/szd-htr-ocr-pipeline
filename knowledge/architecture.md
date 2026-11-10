@@ -49,7 +49,7 @@ Die Pipeline ist eine Folge flacher Python-Skripte, die Faksimiles mit TEI-Konte
 | Diagramme | Chart.js, vendored unter `docs/lib/` | genügt für Balken und Donut, kein Laufzeit-CDN |
 | Wissensdokumente | `markdown` und `pyyaml` zur Build-Zeit | keine Laufzeit-Dependencies im Viewer |
 
-Die Abhängigkeiten sind in `requirements.txt` exakt gepinnt, Testabhängigkeiten in `requirements-dev.txt`. Konfiguration über `.env`:
+In `requirements.txt` sind `google-genai`, `python-dotenv`, `markdown` und `pyyaml` exakt gepinnt, `pyspellchecker`, `docling` und `surya-ocr` tragen nur eine Untergrenze. Testabhängigkeiten stehen in `requirements-dev.txt`. Konfiguration über `.env`:
 
 | Variable | Pflicht | Default | Beschreibung |
 |---|---|---|---|
