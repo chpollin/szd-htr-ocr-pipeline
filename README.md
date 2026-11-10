@@ -1,4 +1,6 @@
-# SZD OCR/HTR Pipeline
+# SZD-HTR
+
+Transcription and review of the Stefan Zweig estate.
 
 VLM-based handwritten text recognition (HTR) and OCR for the Stefan Zweig estate at the [Literaturarchiv Salzburg](https://www.literaturarchiv.at/), an experimental sub-project of [Stefan Zweig Digital](https://stefanzweig.digital/).
 
