@@ -2,6 +2,8 @@
 
 Transcription and review of the Stefan Zweig estate.
 
+Experiment. SZD-HTR is a research prototype developed with coding agents. It transcribes the digitised facsimiles of the Stefan Zweig estate with a vision language model and shows each transcription beside its facsimile with its review status. The larger part of the holdings is unreviewed machine transcription and a small part is agent-checked or human-checked, which the viewer shows per object. It is not a finished or supported product, and its results need checking before any reuse. Feedback belongs in the [issues of the repository](https://github.com/chpollin/szd-htr-ocr-pipeline/issues).
+
 VLM-based handwritten text recognition (HTR) and OCR for the Stefan Zweig estate at the [Literaturarchiv Salzburg](https://www.literaturarchiv.at/), an experimental sub-project of [Stefan Zweig Digital](https://stefanzweig.digital/).
 
 **[Live Viewer & Catalogue](https://chpollin.github.io/szd-htr-ocr-pipeline/)** shows all transcriptions with facsimile comparison, quality signals and search.

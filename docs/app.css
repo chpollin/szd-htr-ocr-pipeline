@@ -375,6 +375,17 @@ body.view-stats #help { display: none; }
 }
 
 /* Stats bar */
+/* Standing notice on the first view: plain text, no box, so it reads as part of the page. */
+.catalog__notice {
+  max-width: 60rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--sz-text-light);
+}
+.catalog__notice strong { color: var(--sz-text); font-weight: 600; }
+.catalog__notice a { color: var(--sz-burgundy); text-decoration: underline; text-underline-offset: 2px; }
+
 .catalog__stats {
   background: var(--sz-white);
   border: 1px solid var(--sz-border);

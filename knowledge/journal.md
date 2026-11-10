@@ -36,6 +36,14 @@ related:
 - Geändert: [[transcription-verification]] §10, [[plan]] Phase 4b.
 - Belege: Ausgangsstand `3992555` (Arbeitsbaum sauber, `results/` unverändert); Messung, Agentenausgaben, Auftragsdateien und Skripte außerhalb des Repositorys im Belegordner der Standerhebung vom 2026-11-10 (`szd-htr-agententranskription-belege`).
 
+### 2026-11-10 Hinweis auf den Experimentcharakter in Viewer und README
+
+- Anlass: Auftrag der Projektleitung vom 2026-11-10, dass jede öffentliche Demo der Angebotsseite der Forschungswerkzeuge auf der ersten Ansicht und im ersten Absatz des README sagt, dass sie ein Experiment ist, was sie ist, was sie nicht ist und wohin Rückmeldungen gehören.
+- Befund: Der Viewer nannte den experimentellen Charakter nur in der Meta-Beschreibung und auf der Projektseite, der Katalog als erste Ansicht trug keinen Hinweis. Das README nannte das experimentelle Teilprojekt, aber weder die Grenze der Nutzung noch den Ort für Rückmeldungen.
+- Entschieden: Der Hinweis steht als ruhiger Textabsatz über dem Katalog, ohne Kasten und ohne Dialog, im README als Absatz nach Titel und Unterzeile. Der Stand im README folgt [[project]]: überwiegend ungeprüfte Modelltranskription, ein kleiner Teil agentisch oder menschlich geprüft, im Viewer je Objekt sichtbar.
+- Geändert: `docs/index.html`, `docs/app.css`, `README.md`.
+- Belege: Browserprüfung lokal im öffentlichen Modus bei 1440 und 390 Pixel, der Hinweis steht in der ersten Ansicht, kein seitlicher Überlauf, Konsole leer.
+
 ### 2026-11-10 Viewer auf dem Telefon, tote Diff-Reiter und lokale Schriften
 
 - Anlass: Prüfung der öffentlichen Demo vom 2026-11-10 für die Angebotsseite der Forschungswerkzeuge (1440 und 390 Pixel, Konsole, Netzwerk).
