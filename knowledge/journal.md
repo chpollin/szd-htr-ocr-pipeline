@@ -15,7 +15,7 @@ template:
 status: active
 language: de
 created: 2026-03-30
-updated: 2026-10-30
+updated: 2026-11-10
 authors: [Christopher Pollin]
 related:
   - "[[plan]]"
@@ -27,6 +27,14 @@ related:
 # Journal
 
 ## Einträge
+
+### 2026-11-10 Neulauf der unvollständigen Transkriptionen am Schlüssel gescheitert
+
+- Anlass: Entscheidung der Projektleitung, das Projekt ohne vollständigen Neulauf fertig auszuarbeiten und die unvollständigen Objekte agentisch nachzuziehen.
+- Befund: Ein Inhaltsscan aller Ergebnisdateien nach `result.raw` und Platzhalterseiten findet genau die 67 Objekte mit `transcription_status` `failed` (16) oder `partial` (51, davon 18 aus dem Salvage, 33 mit Chunk-Platzhaltern), keines mit Review-Status. Die übrigen Ergebnisdateien tragen noch Signalversion 1.6 ohne das Feld, enthalten aber keine Platzhalter. Bei fünf Objekten fehlen im Backup Scans gegenüber der GAMS-Bildliste, damit ist die Prüffrage zu `o_szd.267` beantwortet. Der Neulauf mit `--force` (Standardmodell, unveränderte Prompts) brach nach zwei Objekten ab: Die API weist den Schlüssel aus `.env` mit 401 zurück, `_call_api()` meldet das als Rate Limit, weil der Fehlertext `GenerateContent` die Teilzeichenkette `rate` enthält. Keine Ergebnisdatei wurde verändert.
+- Entschieden: Kein weiterer Lauf ohne gültigen Schlüssel und ohne Freigabe des Aufrufumfangs. Die Code-Korrektur der Fehlerklassifikation steht als Aufgabe in [[plan]], weil der Auftrag keine Pipeline-Änderung umfasste.
+- Geändert: [[plan]] Phase 4b (Stand des Neulaufs, Bildlücken, Fehlerklassifikation).
+- Belege: `3110115` (Ausgangsstand, Ergebnisdateien unverändert), `pipeline/transcribe.py` `_call_api()`
 
 ### 2026-10-30 CER aus Korrekturen nach Quelle getrennt
 

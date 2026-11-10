@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-plan"
 status: active
 created: 2026-03-30
-updated: 2026-10-28
+updated: 2026-11-10
 language: de
 authors: [Christopher Pollin]
 type: plan
@@ -97,7 +97,23 @@ Der Plan führt die angenommene Zukunftsarbeit der Pipeline in Phasen, vom laufe
 - [x] Seiten-Bild-Synchronisation: `_fill_missing_pages()` fuer VLM-Luecken (41 Objekte backfilled)
 - [~] Alle Sammlungen transkribieren. Lebensdokumente 100%, Korrespondenzen 100%. Fortschritt → `--dry-run`.
 - [x] **Salvage der Totalausfaelle** (2026-09-25): Parser-Stufe 6 uebernimmt die vollstaendigen Seiten vor einer Wiederholungsschleife, `salvage_raw_results.py` hat 18 der 34 Objekte teilweise gerettet (300 Seiten, 187 mit Text). `quality_signals` v1.7: `transcription_status` complete/partial/failed als eigene Review-Gruende im Katalog; ungelesene Scans gelten nicht mehr als Leerseite
-- [ ] **Neulauf der unvollstaendigen Transkriptionen** (braucht API-Key + Backup) — 16 `transcription_failed` + 51 `transcription_partial` mit zusammen 1.675 ungelesenen Scans. Liste: Katalog-Filter "Transkription unvollstaendig/fehlgeschlagen" oder `quality_report.py`. `--force` laesst das ganze Objekt neu laufen; bei grossen Objekten kleineres `--chunk-size`. `o_szd.267` vorher pruefen (nur 107 von 232 Scans gesendet). Befund → `reports/pipeline-totalausfaelle.md`
+- [ ] **Neulauf der unvollstaendigen Transkriptionen** (braucht API-Key + Backup) — 16 `transcription_failed` + 51 `transcription_partial` mit zusammen 1.675 ungelesenen Scans. Liste: Katalog-Filter "Transkription unvollstaendig/fehlgeschlagen" oder `quality_report.py`. `--force` laesst das ganze Objekt neu laufen; bei grossen Objekten kleineres `--chunk-size`. Befund → `reports/pipeline-totalausfaelle.md`.
+      Stand 2026-11-10 ([[journal]]): Der Inhaltsscan aller Ergebnisdateien bestaetigt genau diese
+      Objekte, keines mit Review-Status. Ein Neulauf scheiterte, weil der Schluessel in `.env` von der
+      API mit 401 abgewiesen wird; neuer Schluessel ist Voraussetzung. Grundlast bei `--chunk-size 20`
+      rund 260 Aufrufe, mit Retries und Sub-Chunks bei diesen schleifenanfaelligen Objekten
+      voraussichtlich deutlich mehr; Freigabe des Umfangs liegt bei der Projektleitung.
+      Bildquelle unvollstaendig: Im Backup fehlen Scans gegenueber der GAMS-Bildliste bei
+      `o_szd.267` (107 von 232), `o_szd.939` (99 von 427), `o_szd.231` (189 von 195),
+      `o_szd.351` (232 von 234) und `o_szd.227` (184 von 185). Ein Neulauf transkribiert nur die
+      vorhandenen Scans und meldet danach `complete`, obwohl Scans fehlen; vorher Backup ergaenzen
+      oder die Luecke bewusst hinnehmen
+- [ ] **API-Fehler in `_call_api()` richtig einordnen** (2026-11-10) — die Rate-Limit-Erkennung
+      sucht die Teilzeichenkette `rate` im Fehlertext und trifft damit jede Meldung, die
+      `GenerateContent` nennt. Ein 401 (ungueltiger Schluessel) wird so viermal mit Backoff
+      wiederholt und als "Rate Limit nach 4 Versuchen" gemeldet, die eigentliche Ursache erscheint
+      nicht im Log. Vorschlag: auf Statuscode bzw. `429`/`resource_exhausted` pruefen und andere
+      Fehler sofort mit Meldung abbrechen
 - [ ] **Exporte der 67 Objekte neu erzeugen** — `_page.json` und `_mets.xml` stammen vom alten Stand (keine Seiten bzw. ungelesene Scans als `blank`). Nur auf einem Rechner mit Backup: ohne Backup faellt u.a. `rights` aus `metadata.json` still weg
 - [ ] **Veraltete Signale nach Korrekturen** — `serve.py` rechnet `quality_signals` nach einem Edit nicht neu; bei 21 approbierten Objekten passen Zeichenzahlen, Marker, teils `page_types` nicht mehr zum Text. Entscheiden: nach Edit neu berechnen, oder Signale bewusst als Stand der Maschinenfassung einfrieren
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
