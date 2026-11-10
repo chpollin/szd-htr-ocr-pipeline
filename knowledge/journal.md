@@ -28,6 +28,15 @@ related:
 
 ## Einträge
 
+### 2026-11-10 Viewer auf dem Telefon, tote Diff-Reiter und lokale Schriften
+
+- Anlass: Prüfung der öffentlichen Demo vom 2026-11-10 für die Angebotsseite der Forschungswerkzeuge (1440 und 390 Pixel, Konsole, Netzwerk).
+- Befund: Bei 390 Pixel scrollte das Dokument seitwärts, weil die Kopfnavigation in einer Zeile blieb. In den Katalogkarten war die Regel, die PID, Gruppe und Sprache ausblendet, ohne Deklarationsblock mit der folgenden Regel verschmolzen, die Spalten blieben sichtbar und die Statusmarke lief aus der Karte. Die Reiter „Modellkonsensus“ und „Korrekturen“ der Diff-Ansicht trugen `onclick`-Attribute, die die Content Security Policy (`script-src 'self'`) blockiert. `switchDiffTab()` war deshalb seit Einführung der Reiter (`bd532e8`) nicht erreichbar, der Vergleich Original gegen Korrektur aus `edit_history` im Viewer nie zu sehen. Die Schriften kamen von einem externen Schriftdienst.
+- Entschieden: Die Schriften liegen unter `docs/lib/fonts/`, die CSP erlaubt für Stile und Schriften nur noch die eigene Herkunft. Unter 600 Pixel bekommt die Navigation eine eigene Zeile, der Rücksprung „Katalog“ entfällt dort außerhalb des Viewers, weil der Titel bereits zum Katalog führt.
+- Korrigiert: Reiter im Skript angebunden, `resetDiffMode()` setzt auch die Kopfzeilen der Reiter zurück, Kartenraster und Ausblendregel repariert.
+- Geändert: `docs/index.html`, `docs/app.css`, `docs/app.js`, `docs/lib/fonts/`, [[architecture]].
+- Belege: Browserprüfung lokal im öffentlichen Modus bei 1440 und 390 Pixel über Katalog, Statistiken, Methodik, Projekt, Hilfe und Viewer mit `o_szd.2213`: Dokumentbreite gleich Fensterbreite, Konsole leer, fremde Anfragen nur an `gams.uni-graz.at`. Offen bleibt, dass der Diff-Knopf ohne Modellkonsensus gesperrt ist und Objekte mit Korrekturen, aber ohne Konsensus ihre Korrekturansicht nicht erreichen.
+
 ### 2026-11-10 Neulauf der unvollständigen Transkriptionen am Schlüssel gescheitert
 
 - Anlass: Entscheidung der Projektleitung, das Projekt ohne vollständigen Neulauf fertig auszuarbeiten und die unvollständigen Objekte agentisch nachzuziehen.

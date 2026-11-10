@@ -47,6 +47,7 @@ Die Pipeline ist eine Folge flacher Python-Skripte, die Faksimiles mit TEI-Konte
 | TEI-Parser | `xml.etree.ElementTree` (Standardbibliothek) | eigene, vertrauenswürdige TEI-Dateien |
 | Viewer | Single-Page-App aus `index.html`, `app.js`, `app.css` ohne Build-Schritt | statisch auf GitHub Pages auslieferbar |
 | Diagramme | Chart.js, vendored unter `docs/lib/` | genügt für Balken und Donut, kein Laufzeit-CDN |
+| Schriften | Source Sans 3, Source Serif 4 und JetBrains Mono als WOFF2 unter `docs/lib/fonts/` | keine Anfrage an einen Schriftdienst, Herkunft und Lizenzen in `docs/lib/fonts/README.md` |
 | Wissensdokumente | `markdown` und `pyyaml` zur Build-Zeit | keine Laufzeit-Dependencies im Viewer |
 
 In `requirements.txt` sind `google-genai`, `python-dotenv`, `markdown` und `pyyaml` exakt gepinnt, `pyspellchecker`, `docling` und `surya-ocr` tragen nur eine Untergrenze. Testabhängigkeiten stehen in `requirements-dev.txt`. Konfiguration über `.env`:
@@ -282,7 +283,7 @@ szd-htr/
 │   └── groundtruth/                 ← GT-Drafts aus dem Drei-Modell-Konsensus
 ├── docs/                            ← statischer Viewer (GitHub Pages)
 │   ├── index.html, app.js, app.css
-│   ├── lib/                         ← vendored Chart.js
+│   ├── lib/                         ← vendored Chart.js, Schriften unter lib/fonts/
 │   ├── catalog.json                 ← Katalogmetadaten
 │   └── data/                        ← Sammlungsdaten, groundtruth.json, knowledge.json
 └── knowledge/                       ← Wissensbasis, Einstieg über knowledge/INDEX.md

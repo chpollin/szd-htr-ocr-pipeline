@@ -824,6 +824,9 @@ function resetDiffMode() {
   document.querySelectorAll('.diff__tab').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.diffTab === 'consensus');
   });
+  // The headers follow the tab, otherwise a reopened diff shows the edits header over consensus content.
+  document.getElementById('diffHeaderConsensus').classList.remove('is-hidden');
+  document.getElementById('diffHeaderEdits').classList.add('is-hidden');
 }
 
 function showCatalog() {
@@ -3498,6 +3501,10 @@ function initEvents() {
 
   // Viewer: diff
   document.getElementById('diffBtn').addEventListener('click', toggleDiffMode);
+  // The CSP (script-src 'self') blocks inline handlers, so the tabs are wired here.
+  document.querySelectorAll('.diff__tab').forEach(btn => {
+    btn.addEventListener('click', () => switchDiffTab(btn.dataset.diffTab));
+  });
 
   // Viewer: GT review
   document.getElementById('reviewGtBtn').addEventListener('click', toggleGtReview);
