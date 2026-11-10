@@ -28,6 +28,14 @@ related:
 
 ## Einträge
 
+### 2026-11-10 Agententranskription der unvollständigen Objekte: Pilot trägt nicht
+
+- Anlass: Entscheidung der Projektleitung, die unvollständigen Objekte ohne API-Schlüssel mit Claude-Code-Subagenten zu transkribieren; die fünf Objekte mit Bildlücken im Backup bleiben unverändert.
+- Befund: Am Dateistand sind 67 Objekte unvollständig (16 `failed`, 51 `partial`), ohne die fünf ausgeschlossenen 62 Objekte mit 1.342 fehlenden Seiten, alle mit lokalem Scan, davon 976 in Gruppe A. Der Blindpilot an fünf freigegebenen Seiten aus fünf Gruppen ergibt gegen die freigegebene Fassung eine zeichengewichtete Levenshtein-CER von 6,1 Prozent für die Agenten gegenüber 1,1 Prozent für die frühere Gemini-Ausgabe; die Agenten liegen auf jeder Seite darüber. Die Referenzen sind korrigierte Gemini-Ausgabe und tragen deren Lesungen und Konventionen, an `o_szd.1083` S. 1 und `o_szd.2846` S. 1 auch sichtbare Lesefehler („L'Solée vous“ statt „L'Idée nous“, „denn heil der tollentrie[?]“ statt „denn mit der Vollendung ihres Wer-“). Der Sonnet-Agent hat in `o_szd.121` Schreibmaschinen-„o“ als Ziffer 0 wiedergegeben, eine Normalisierung aus den bekannten Fehlerklassen. `evaluate.cer()` liefert bei langen Seiten über `SequenceMatcher` Werte über 1 (`o_szd.2213`: 1,96 bei WER 0,03) und ist für diesen Vergleich unbrauchbar; gemessen wurde zusätzlich mit echter Levenshtein-Distanz.
+- Entschieden: Das Weiterkriterium des Auftrags (nicht schlechter als die bisherige Modellausgabe, keine bekannte Fehlerart) ist nicht erfüllt, deshalb kein Durchlauf. Auch die drei Pilotobjekte (`o_szd.121`, `o_szd.1546`, `o_szd.2302`) gehen nicht in `results/`, weil ihre Übernahme ein Dateiformat für einen zweiten Erzeuger und eine Änderung an `build_viewer_data.py` verlangt hätte, die erst nach einem tragenden Pilot gerechtfertigt ist.
+- Geändert: [[transcription-verification]] §10, [[plan]] Phase 4b.
+- Belege: Ausgangsstand `3992555` (Arbeitsbaum sauber, `results/` unverändert); Messung, Agentenausgaben, Auftragsdateien und Skripte außerhalb des Repositorys im Belegordner der Standerhebung vom 2026-11-10 (`szd-htr-agententranskription-belege`).
+
 ### 2026-11-10 Viewer auf dem Telefon, tote Diff-Reiter und lokale Schriften
 
 - Anlass: Prüfung der öffentlichen Demo vom 2026-11-10 für die Angebotsseite der Forschungswerkzeuge (1440 und 390 Pixel, Konsole, Netzwerk).

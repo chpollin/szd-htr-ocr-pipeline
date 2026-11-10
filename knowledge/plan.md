@@ -108,6 +108,11 @@ Der Plan führt die angenommene Zukunftsarbeit der Pipeline in Phasen, vom laufe
       `o_szd.351` (232 von 234) und `o_szd.227` (184 von 185). Ein Neulauf transkribiert nur die
       vorhandenen Scans und meldet danach `complete`, obwohl Scans fehlen; vorher Backup ergaenzen
       oder die Luecke bewusst hinnehmen
+      Agententranskription statt Neulauf (Entscheidung Projektleitung 2026-11-10): Pilot nach
+      [[transcription-verification]] §10 hat das Weiterkriterium nicht erfuellt, kein Durchlauf,
+      nichts in `results/` geschrieben. Offen fuer die Projektleitung: ob ein Massstab gilt, der
+      nicht an korrigierter Gemini-Ausgabe verankert ist (blinde Referenz oder Bildpruefung), und
+      ob die Ziffern-Normalisierung im Agentenbrief ausdruecklich verboten wird
 - [ ] **API-Fehler in `_call_api()` richtig einordnen** (2026-11-10) — die Rate-Limit-Erkennung
       sucht die Teilzeichenkette `rate` im Fehlertext und trifft damit jede Meldung, die
       `GenerateContent` nennt. Ein 401 (ungueltiger Schluessel) wird so viermal mit Backoff

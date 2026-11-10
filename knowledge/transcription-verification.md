@@ -14,7 +14,7 @@ template:
   alias: "https://dhcraft.org/Promptotyping/#promptotyping-document-verification"
 status: active
 created: 2026-04-01
-updated: 2026-10-28
+updated: 2026-11-10
 authors: [Christopher Pollin]
 type: concept
 related:
@@ -527,3 +527,13 @@ Bei fremdsprachigen Dokumenten fehlt teils Kontextwissen fuer Vokale und Ortsnam
 | Betraege falscher Zeile zugeordnet | ffr 10.340 auf Aug-Zeile statt Okt-Zeile | o_szd.1475 |
 
 VLMs linearisieren Tabellen von oben nach unten; bei rechtsbuendigen Betraegen und linksbuendigen Beschreibungen verrutscht die Zuordnung. Schwerwiegendster systematischer Fehler im Korpus.
+
+---
+
+## 10. Agententranskription als zweiter Erzeuger: Pilot 2026-11-10
+
+Geprueft wurde, ob Claude-Code-Subagenten fehlende Seiten anstelle des Pipeline-Modells transkribieren koennen. Jeder Agent bekam den System-Prompt und die Gruppen-Instruktion im Wortlaut der Pipeline, den gespeicherten Objektkontext, Zusatzregeln aus [[transcription-guidelines]] und den bekannten Fehlerklassen (§9, Fehlersammlung Befunde 2 bis 5) und las nur lokale Ableitungen der Backup-Scans. Blind neu transkribiert wurden fuenf freigegebene Seiten (`o_szd.2213`, `o_szd.2296`, `o_szd.1083`, `o_szd.2846` je S. 1 mit Opus, `o_szd.100` S. 1 mit Sonnet).
+
+Ergebnis gegen die freigegebene Fassung, Normalisierung nach [[transcription-guidelines]] §5, zeichengewichtete Levenshtein-CER: Agenten 6,1 Prozent, fruehere Gemini-Ausgabe 1,1 Prozent. Drei Einschraenkungen bestimmen die Deutung. Die Referenzen sind korrigierte Gemini-Ausgabe, uebernommene Lesungen und Konventionen (Klammeretiketten fuer Unterschriften, Zeileneinzug) zaehlen deshalb gegen jeden anderen Erzeuger. Mindestens zwei Referenzen enthalten sichtbare Lesefehler, an denen die Agentenlesung naeher am Bild liegt (`o_szd.1083`, `o_szd.2846`, Sichtpruefung der Session, nicht menschlich bestaetigt). `evaluate.cer()` misst mit `SequenceMatcher`, dessen Junk-Heuristik bei langen Texten die Ausrichtung verliert und CER-Werte ueber 1 erzeugt; fuer Vergleiche zwischen Erzeugern ist die Levenshtein-Distanz zu verwenden. Zusaetzlich trat eine bekannte Fehlerart auf, Ziffern-Normalisierung von Schreibmaschinen-„o“ zu „0“ (`o_szd.121`, Sonnet).
+
+Das Weiterkriterium war damit nicht erfuellt, kein Agentenergebnis steht im Datenbestand. Ein belastbarer Vergleich braucht Referenzseiten, die nicht aus Gemini-Ausgabe hervorgegangen sind.
