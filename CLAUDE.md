@@ -10,7 +10,7 @@ VLM-based HTR/OCR pipeline for the Stefan Zweig estate at the Literaturarchiv Sa
 
 ## Knowledge base
 
-The knowledge base lives in `knowledge/` and is written in German, a project decision recorded in `knowledge/INDEX.md`. At every session start, after this file, read `knowledge/INDEX.md`, then `knowledge/handoff.md` and `knowledge/plan.md`, then the document relevant to the task. Consult `knowledge/journal.md` when the origin or reason of a transition is needed.
+The knowledge base lives in `knowledge/` and is written in German, a project decision recorded in `knowledge/INDEX.md`. At every session start, after this file, read `knowledge/INDEX.md`, then the beginning of `knowledge/journal.md` (`## Open`) and `knowledge/plan.md`, then the document relevant to the task. Consult `knowledge/journal.md` when the origin or reason of a transition is needed.
 
 | Task | Read first |
 |---|---|
@@ -24,12 +24,12 @@ The knowledge base lives in `knowledge/` and is written in German, a project dec
 | Quality signals, verification, error types, known model limits | `knowledge/transcription-verification.md` |
 | Status, approval, authority | `knowledge/governance.md` |
 | Accepted work and open decisions | `knowledge/plan.md` |
-| Open input or handover | `knowledge/handoff.md` |
+| Open input or handover | `knowledge/journal.md`, section `## Open` |
 | Origin or reason of a decision unclear | `knowledge/journal.md` |
 
 ## Working rules
 
-- Handoff. Read `knowledge/handoff.md` at every session start. Check source and current target of each point you use, integrate durable content first, write the journal record, then remove the point completely.
+- Open points. Read `## Open` at the top of `knowledge/journal.md` at every session start. Check source and current target of each point you use, integrate durable content first, write the journal record, then remove the point from `## Open`.
 - Journal. Write one entry per coherent transition at the top of `knowledge/journal.md`, newest first, with the fields of the journal template (Anlass, Befund, Entschieden, Korrigiert, Geändert, Belege) and at least one commit or other evidence. Past entries change only in a compaction that follows the template and records its parent commit.
 - Authority. Only humans set `approved` and `gt_verified`. Paragraphs marked **[J]** (observations of the project reviewer) are never reworded. The full rules are in `knowledge/governance.md`.
 - Invent nothing. Figures come from code, result data or `reports/`, transcription rules from `knowledge/transcription-guidelines.md`. Ask when knowledge is missing.

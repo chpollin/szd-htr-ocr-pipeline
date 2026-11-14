@@ -18,7 +18,7 @@ version: 0.3
 created: 2026-04-01
 updated: 2026-10-28
 authors: [Christopher Pollin]
-related: [project, data, specification, architecture, governance, handoff, journal]
+related: [project, data, specification, architecture, governance, journal]
 ---
 
 # Index
@@ -70,8 +70,7 @@ Einstieg in die Wissensbasis der SZD OCR/HTR Pipeline für einen Coding-Agenten 
 | Pfad | Funktion | Routing Question | Aktualisierung |
 |---|---|---|---|
 | [[plan]] | Planning | Welche Arbeit ist angenommen, in welcher Phase, und welche Entscheidungen stehen aus? | bei Abschluss oder Aufnahme einer Aufgabe |
-| [[handoff]] | Handoff | Welche Übergabepunkte warten auf Integration oder Verwerfung? | bei Eingang oder Verarbeitung eines Punkts |
-| [[journal]] | Provenance | Welche Übergänge wurden integriert, verworfen oder korrigiert, und warum? | nach jedem sachlich zusammengehörigen Übergang |
+| [[journal]] | Provenance und Offenes | Was ist offen, und welche Übergänge wurden integriert, verworfen oder korrigiert, und warum? | zum Sessionstart und nach jedem sachlich zusammengehörigen Übergang |
 
 `review-findings.md` ist eine Spezialisierung nach dem Muster `<subject>-<function>.md` für Quality Assurance. Sie trägt Material vor der Entscheidung, das die Projekt-Reviewer:in am Faksimile und am Viewer beobachtet. Zwei Eigenschaften rechtfertigen das eigene Dokument. Jeder Befund trägt eine stabile ID (`B-01`, `B-02`, …), auf die Journal, Issues und Commits verweisen, und jeder Absatz ist nach Urheberschaft mit **[J]** oder **[C]** gekennzeichnet. Ein allgemeines Testing-Dokument hätte für diese Kennzeichnung und für die Regel, dass **[J]**-Absätze unverändert bleiben, keinen Ort.
 
@@ -97,7 +96,7 @@ Die Wissensbasis wurde am 2026-10-28 nach den Promptotyping-Vorlagen vereinheitl
 
 ## Ablagezonen
 
-- `knowledge/` enthält die dauerhaft gepflegten Promptotyping Documents einschließlich `handoff.md` als Process Inbox.
+- `knowledge/` enthält die dauerhaft gepflegten Promptotyping Documents einschließlich des Journals mit dem Abschnitt `## Open`.
 - `reports/` ist die Ablagezone für datierte Berichte, Audits und Befundlisten, die nicht fortgeschrieben werden. Sie entspricht der Zone `snapshots/` der Konvention; der Name ist im Repository etabliert und wird von Skripten beschrieben. Messwerte und Stichtagsbefunde liegen hier, ihre gültige Deutung in `knowledge/`.
 - `paper/` hält das Forschungsmanuskript vom Juli 2026 mit seiner Evidenzbasis als eingefrorenes Forschungsartefakt.
 - `data/` hält die TEI-Metadaten als übernommenes Quellmaterial; die Faksimiles liegen im lokalen Backup außerhalb des Repositorys.
@@ -105,7 +104,7 @@ Die Wissensbasis wurde am 2026-10-28 nach den Promptotyping-Vorlagen vereinheitl
 
 ## Lesepfade
 
-- Sessionstart: [[INDEX]] → [[handoff]] → [[project]] → aufgabenrelevantes Dokument.
+- Sessionstart: [[INDEX]] → [[journal]] (`## Open`) → [[project]] → aufgabenrelevantes Dokument.
 - Ergebnisdatei verstehen: [[specification]] (Ausgabeformate) → [[page-json-architecture]] → `results/README.md`.
 - Prüfstatus und Provenienz prüfen: [[governance]] → [[transcription-verification]] → `README.md` (Trust tiers) → `pipeline/serve.py`.
 - Archivexport nachvollziehen: [[architecture]] → [[page-json-architecture]] → [[teicrafter-integration]].

@@ -19,14 +19,25 @@ updated: 2026-11-10
 authors: [Christopher Pollin]
 related:
   - "[[plan]]"
-  - "[[handoff]]"
   - "[[specification]]"
   - "[[transcription-verification]]"
 ---
 
 # Journal
 
+## Open
+
+Nothing open.
+
 ## Einträge
+
+### 2026-11-14 Auflösung von handoff.md
+
+- Anlass: Entscheidung des Operators vom 2026-11-14, dass ein Promptotyping-Repository kein `knowledge/handoff.md` mehr führt.
+- Befund: Die Handoff-Datei enthielt keinen offenen Punkt.
+- Entschieden: Übernommen wurde nichts, `## Open` steht auf `Nothing open.`. Das Journal beginnt mit `## Open`, das hält, was die nächste Session zum Weiterarbeiten braucht.
+- Geändert: `knowledge/handoff.md` entfernt, `CLAUDE.md` und `knowledge/INDEX.md` lesen stattdessen den Anfang des Journals. Die generierte `docs/data/knowledge.json` führt die Datei bis zum nächsten Lauf von `build_knowledge()` weiter.
+- Belege: Entscheidung des Operators vom 2026-11-14.
 
 ### 2026-11-10 Agententranskription der unvollständigen Objekte: Pilot trägt nicht
 
