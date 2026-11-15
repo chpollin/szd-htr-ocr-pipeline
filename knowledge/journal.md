@@ -31,6 +31,14 @@ Nothing open.
 
 ## Einträge
 
+### 2026-11-15 Zeichenfehlerrate gegen bestätigte Texte nachrechenbar gemacht
+
+- Anlass: Auftrag des Operators vom 2026-11-15. Der Artikel zu Promptotyping nennt für die von Menschen bestätigten Objekte eine Zeichenfehlerrate, die ein Agent berechnet hatte und für die kein Skript im Repository lag.
+- Befund: `pipeline/report_cer_confirmed.py` zählt über alle Seiten der Objekte mit Status `approved` oder `gt_verified` die Levenshtein-Distanz zwischen Rohausgabe und bestätigtem Text nach `normalize_text`, unverändert freigegebene Seiten zählen als fehlerfrei. Auf dem Stand der Ergebnisdateien, der seit dem 2026-11-10 unverändert ist, ergibt der Lauf die Seitenzahl und die Gesamtrate des Artikels. Für die Korrespondenz ergibt er 2,3 % statt der im Artikel genannten 1,9 %, die Herkunft der 1,9 % ist nicht dokumentiert.
+- Entschieden: Die Zahl des Skripts gilt, der Artikel wird angeglichen. `report_cer_from_edits.py` bleibt für die bearbeiteten Seiten je Korrekturquelle zuständig.
+- Geändert: `pipeline/report_cer_confirmed.py`, `pipeline/test_report_cer_confirmed.py`.
+- Belege: Ausgabe von `python pipeline/report_cer_confirmed.py`, Testlauf `python -m pytest tests/ pipeline/`.
+
 ### 2026-11-14 Auflösung von handoff.md
 
 - Anlass: Entscheidung des Operators vom 2026-11-14, dass ein Promptotyping-Repository kein `knowledge/handoff.md` mehr führt.
