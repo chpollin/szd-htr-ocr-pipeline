@@ -15,7 +15,7 @@ template:
 status: active
 language: de
 created: 2026-03-30
-updated: 2026-11-10
+updated: 2026-11-18
 authors: [Christopher Pollin]
 related:
   - "[[plan]]"
@@ -30,6 +30,14 @@ related:
 Nothing open.
 
 ## Einträge
+
+### 2026-11-18 Impressumslink im Footer des Viewers
+
+- Anlass: Entscheidung des Operators vom 2026-11-18, dass jede öffentliche Projektseite auf das gemeinsame Impressum https://dhcraft.org/imprint/ verweist.
+- Befund: Der Footer in `docs/index.html` nannte Projekt, Stefan Zweig Digital, Literaturarchiv Salzburg und die Bildquelle, aber kein Impressum. Ein eigener Impressumstext lag nicht vor.
+- Entschieden: Der Footer erhält eine Zeile mit dem ausgeschriebenen Link, sonst bleibt er unverändert.
+- Geändert: `docs/index.html`, dazu `docs/data/knowledge.json` aus `build_knowledge()`.
+- Belege: Testlauf `python -m pytest tests/ pipeline/`.
 
 ### 2026-11-15 Zeichenfehlerrate gegen bestätigte Texte nachrechenbar gemacht
 
